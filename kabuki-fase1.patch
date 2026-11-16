@@ -1,0 +1,1433 @@
+diff --git a/.github/workflows/data-update.yml b/.github/workflows/data-update.yml
+index ba7c8c4..b788cd6 100644
+--- a/.github/workflows/data-update.yml
++++ b/.github/workflows/data-update.yml
+@@ -1,11 +1,20 @@
+ name: Atualizar dados (PR automático)
+ 
+-# Fase 1: ative o agendamento depois que os adaptadores de ingestão existirem.
+-# Por enquanto o fluxo só roda manualmente (Actions → Run workflow), por exemplo no dia de um patch.
++# Roda todo dia e também manualmente (Actions → Run workflow), por exemplo no dia de um patch.
++# Só abre PR se algo mudou em data/generated. Nada vai ao ar sem você dar merge.
++#
++# PRIMEIRA EXECUÇÃO: rode manualmente com `baseline` = a data de hoje (YYYY-MM-DD).
++# Isso marca todo o conteúdo já existente como anunciado. Sem isso, nenhuma entidade
++# tem `announcedAt` e nada é publicado (regra de embargo).
+ on:
+   workflow_dispatch:
+-  # schedule:
+-  #   - cron: '0 8 * * *' # diário, 08:00 UTC
++    inputs:
++      baseline:
++        description: 'Marcar entidades ainda não registradas como anunciadas nesta data (YYYY-MM-DD). Use só na primeira vez.'
++        required: false
++        default: ''
++  schedule:
++    - cron: '0 8 * * *' # diário, 08:00 UTC
+ 
+ permissions:
+   contents: write
+@@ -27,7 +36,14 @@ jobs:
+       - run: pnpm install --no-frozen-lockfile
+ 
+       - name: Buscar e normalizar dados
+-        run: pnpm data:fetch
++        env:
++          BASELINE: ${{ inputs.baseline }}
++        run: |
++          if [ -n "$BASELINE" ]; then
++            pnpm data:fetch --baseline "$BASELINE"
++          else
++            pnpm data:fetch
++          fi
+ 
+       - name: Validar
+         run: pnpm validate
+@@ -42,4 +58,7 @@ jobs:
+           body: |
+             Atualização gerada pelo workflow de ingestão.
+             Revise o diff em `data/generated/` e faça o merge para publicar.
++
++            Entidades novas sem data em `data/announcements.json` ficam com
++            `announcedAt: null` e **não são publicadas** até você registrar o anúncio.
+           labels: data
+diff --git a/data/README.md b/data/README.md
+index dc1a14d..f2cc124 100644
+--- a/data/README.md
++++ b/data/README.md
+@@ -24,3 +24,27 @@ Toda entidade tem `announcedAt` (data do anúncio oficial) e `patchReleaseDate`.
+ - Enquanto `hoje < patchReleaseDate + 14 dias`: a página exibe o aviso de spoiler.
+ 
+ A lógica fica em `utils/spoiler.ts` e é coberta por testes.
++
++## Ingestão (Fase 1)
++
++```
++pnpm data:fetch                         # baixa o StarRailRes e regenera data/generated
++pnpm data:fetch --offline               # usa só o cache de data/raw
++pnpm data:fetch --baseline 2026-11-16   # 1ª vez: marca o conteúdo atual como anunciado
++pnpm validate                           # valida generated + overrides contra os schemas
++```
++
++Coleções geradas: `characters/<id>.json` e `lightcones/<id>.json`.
++
++- **Fonte atual:** StarRailRes (`index_new/<idioma>/`), nos 5 idiomas do site. Inglês é
++  obrigatório; um idioma fora do ar só gera aviso. Se o inglês falhar, nada é gravado.
++- **Embargo:** as fontes não dizem quando algo foi anunciado (e o StarRailRes pode ter
++  conteúdo extraído do cliente antes do anúncio). Por isso `announcedAt` vem **só** de
++  `data/announcements.json` (`{ "characters": { "1001": { "announcedAt": "2023-04-26",
++  "patchReleaseDate": "2023-04-26", "version": "1.0" } } }`). Fora do manifesto → `null` → não publica.
++- **Slugs** nunca mudam depois de gerados (as URLs não quebram se o nome mudar).
++- **Descrições** guardam o template do jogo (`#1[i]%`) e a tabela `params`; use
++  `renderTemplate` (`utils/template.ts`) para exibir. **Imagens** guardam só o caminho
++  relativo; `assetUrl` (`utils/assets.ts`) monta a URL do CDN.
++- Entidades com caminho/elemento/raridade desconhecidos são ignoradas com aviso
++  (provavelmente um caminho novo do jogo: adicione-o em `schema/common.ts` e em `PATH_MAP`).
+diff --git a/data/announcements.json b/data/announcements.json
+new file mode 100644
+index 0000000..0967ef4
+--- /dev/null
++++ b/data/announcements.json
+@@ -0,0 +1 @@
++{}
+diff --git a/schema/character.ts b/schema/character.ts
+index f4f44ed..84ecafc 100644
+--- a/schema/character.ts
++++ b/schema/character.ts
+@@ -1,5 +1,5 @@
+ import { z } from 'zod'
+-import { element, embargoFields, localizedText, path } from './common'
++import { assetPath, element, embargoFields, localizedText, paramTable, path } from './common'
+ 
+ const skillType = z.enum([
+   'Basic',
+@@ -15,13 +15,17 @@ export const skill = z.object({
+   id: z.number().int(),
+   type: skillType,
+   name: localizedText,
++  /** Template com placeholders (`#1[i]%`); renderize com `utils/template.ts`. */
+   description: localizedText.optional(),
++  /** Valores por nível; `params[nivel - 1][n - 1]` alimenta o placeholder `#n`. */
++  params: paramTable.optional(),
+ })
+ 
+ export const eidolon = z.object({
+   rank: z.number().int().min(1).max(6),
+   name: localizedText,
+   description: localizedText.optional(),
++  params: paramTable.optional(),
+ })
+ 
+ export const character = z.object({
+@@ -36,6 +40,13 @@ export const character = z.object({
+   ...embargoFields,
+   /** Lore e descrição curta (HoYoWiki). */
+   description: localizedText.optional(),
++  images: z
++    .object({
++      icon: assetPath.optional(),
++      preview: assetPath.optional(),
++      portrait: assetPath.optional(),
++    })
++    .default({}),
+   skills: z.array(skill).default([]),
+   eidolons: z.array(eidolon).max(6).default([]),
+   /** IDs de materiais de ascensão e traços (ligação com a coleção de materiais). */
+diff --git a/schema/common.ts b/schema/common.ts
+index fe1a24c..961238b 100644
+--- a/schema/common.ts
++++ b/schema/common.ts
+@@ -62,3 +62,13 @@ export const embargoFields = {
+   /** Versão do jogo, ex.: "3.8". */
+   version: z.string().regex(/^\d+\.\d+$/).optional(),
+ }
++
++/**
++ * Caminho relativo de um asset no StarRailRes (ex.: "icon/character/1001.png").
++ * O site monta a URL final a partir de `utils/assets.ts`, então trocar de CDN
++ * não exige regenerar os dados.
++ */
++export const assetPath = z.string().min(1)
++
++/** Parâmetros numéricos por nível/rank usados nos templates de descrição. */
++export const paramTable = z.array(z.array(z.number()))
+diff --git a/schema/index.ts b/schema/index.ts
+index ed7a0e6..43bcbc2 100644
+--- a/schema/index.ts
++++ b/schema/index.ts
+@@ -1,8 +1,10 @@
+ import type { ZodTypeAny } from 'zod'
+ import { character } from './character'
++import { lightCone } from './lightcone'
+ 
+ export * from './common'
+ export * from './character'
++export * from './lightcone'
+ 
+ /**
+  * Coleções validadas pelo pipeline: nome da pasta em data/generated/ → schema.
+@@ -10,4 +12,5 @@ export * from './character'
+  */
+ export const collections: Record<string, ZodTypeAny> = {
+   characters: character,
++  lightcones: lightCone,
+ }
+diff --git a/schema/lightcone.ts b/schema/lightcone.ts
+new file mode 100644
+index 0000000..6483010
+--- /dev/null
++++ b/schema/lightcone.ts
+@@ -0,0 +1,33 @@
++import { z } from 'zod'
++import { assetPath, embargoFields, localizedText, paramTable, path } from './common'
++
++/** Habilidade do cone de luz, com os 5 níveis de sobreposição. */
++export const lightConeSkill = z.object({
++  name: localizedText,
++  /** Template com placeholders; `params[0]` é a sobreposição 1, `params[4]` a 5. */
++  description: localizedText,
++  params: paramTable.default([]),
++})
++
++export const lightCone = z.object({
++  /** ID numérico estável do jogo (chave primária). */
++  id: z.number().int().positive(),
++  /** Usado na URL: /light-cones/<slug>. */
++  slug: z.string().regex(/^[a-z0-9-]+$/),
++  name: localizedText,
++  rarity: z.union([z.literal(3), z.literal(4), z.literal(5)]),
++  path,
++  ...embargoFields,
++  /** Texto de ambientação do cone. */
++  description: localizedText.optional(),
++  skill: lightConeSkill.optional(),
++  images: z
++    .object({
++      icon: assetPath.optional(),
++      preview: assetPath.optional(),
++      portrait: assetPath.optional(),
++    })
++    .default({}),
++})
++
++export type LightCone = z.infer<typeof lightCone>
+diff --git a/scripts/adapters/starrailres.ts b/scripts/adapters/starrailres.ts
+new file mode 100644
+index 0000000..309e689
+--- /dev/null
++++ b/scripts/adapters/starrailres.ts
+@@ -0,0 +1,321 @@
++// Adaptador do StarRailRes (https://github.com/Mar-7th/StarRailRes).
++//
++// Lê `index_new/<idioma>/*.json` e normaliza para os schemas do projeto.
++// As funções `normalize*` são puras (recebem as tabelas já carregadas) para
++// poderem ser testadas com fixtures, sem rede.
++
++import { LOCALES, type Character, type Locale, type LightCone } from '../../schema'
++import { readJson } from '../lib/source'
++import { uniqueSlug } from '../../utils/slug'
++import type { Adapter, AdapterContext, AdapterResult } from './types'
++
++/** Idioma do site → pasta do StarRailRes. */
++export const LANG_DIR: Record<Locale, string> = {
++  en: 'en',
++  'pt-BR': 'pt',
++  'zh-CN': 'cn',
++  ja: 'jp',
++  ko: 'kr',
++}
++
++/** Nomes internos do jogo → nomes usados no schema. */
++export const PATH_MAP: Record<string, string> = {
++  Warrior: 'Destruction',
++  Rogue: 'Hunt',
++  Mage: 'Erudition',
++  Shaman: 'Harmony',
++  Warlock: 'Nihility',
++  Knight: 'Preservation',
++  Priest: 'Abundance',
++  Memory: 'Remembrance',
++}
++
++export const ELEMENT_MAP: Record<string, string> = {
++  Physical: 'Physical',
++  Fire: 'Fire',
++  Ice: 'Ice',
++  Thunder: 'Lightning',
++  Wind: 'Wind',
++  Quantum: 'Quantum',
++  Imaginary: 'Imaginary',
++}
++
++const SKILL_TYPE_MAP: Record<string, string> = {
++  Normal: 'Basic',
++  BPSkill: 'Skill',
++  Ultra: 'Ultimate',
++  Talent: 'Talent',
++  Maze: 'Technique',
++  MazeNormal: 'Other',
++}
++
++// ── Formato bruto (apenas os campos que usamos) ──────────────────────────────
++
++interface RawCharacter {
++  id: string | number
++  name: string
++  rarity: number
++  path: string
++  element: string
++  ranks?: Array<string | number>
++  skills?: Array<string | number>
++  icon?: string
++  preview?: string
++  portrait?: string
++}
++interface RawSkill {
++  id: string | number
++  name: string
++  type?: string
++  desc?: string
++  params?: number[][]
++}
++interface RawRank {
++  id: string | number
++  name: string
++  rank: number
++  desc?: string
++  params?: number[][]
++}
++interface RawLightCone {
++  id: string | number
++  name: string
++  rarity: number
++  path: string
++  desc?: string
++  icon?: string
++  preview?: string
++  portrait?: string
++}
++interface RawLightConeRank {
++  id: string | number
++  skill: string
++  desc: string
++  params?: number[][]
++}
++
++type Table<T> = Record<string, T>
++
++/** Tabelas de um idioma. */
++export interface LangTables {
++  characters: Table<RawCharacter>
++  characterSkills: Table<RawSkill>
++  characterRanks: Table<RawRank>
++  lightCones: Table<RawLightCone>
++  lightConeRanks: Table<RawLightConeRank>
++}
++export type AllTables = Partial<Record<Locale, LangTables>>
++
++const FILES = {
++  characters: 'characters.json',
++  characterSkills: 'character_skills.json',
++  characterRanks: 'character_ranks.json',
++  lightCones: 'light_cones.json',
++  lightConeRanks: 'light_cone_ranks.json',
++} as const
++
++// ── Helpers ──────────────────────────────────────────────────────────────────
++
++/** Monta um texto localizado a partir da função que lê o campo em cada idioma. */
++function localized(
++  tables: AllTables,
++  pick: (t: LangTables) => string | undefined,
++): { en: string; [k: string]: string } | null {
++  const out: Record<string, string> = {}
++  for (const locale of LOCALES) {
++    const value = tables[locale] ? pick(tables[locale]!)?.trim() : undefined
++    if (value) out[locale] = value
++  }
++  return out.en ? (out as { en: string }) : null
++}
++
++const cleanAsset = (value?: string) => (value ? value.replace(/^\/+/, '') : undefined)
++
++function compact<T extends Record<string, unknown>>(obj: T): T {
++  return Object.fromEntries(Object.entries(obj).filter(([, v]) => v !== undefined)) as T
++}
++
++// ── Normalização ─────────────────────────────────────────────────────────────
++
++export function normalizeCharacters(
++  tables: AllTables,
++  existingSlugs: Map<number, string> = new Map(),
++): { items: Character[]; warnings: string[] } {
++  const en = tables.en
++  const warnings: string[] = []
++  const items: Character[] = []
++  if (!en) return { items, warnings: ['characters: faltam as tabelas em inglês'] }
++
++  const taken = new Set<string>(existingSlugs.values())
++
++  for (const [key, raw] of Object.entries(en.characters)) {
++    const id = Number(raw.id ?? key)
++    const path = PATH_MAP[raw.path]
++    const element = ELEMENT_MAP[raw.element]
++    if (!path || !element || ![4, 5].includes(raw.rarity)) {
++      warnings.push(`characters/${id} (${raw.name}): path/element/raridade desconhecidos (${raw.path}/${raw.element}/${raw.rarity}) — ignorado`)
++      continue
++    }
++
++    const name = localized(tables, (t) => t.characters[key]?.name)!
++    const skills = (raw.skills ?? []).flatMap((skillId) => {
++      const base = en.characterSkills[String(skillId)]
++      if (!base) return []
++      const skillName = localized(tables, (t) => t.characterSkills[String(skillId)]?.name)
++      if (!skillName) return []
++      const description = localized(tables, (t) => t.characterSkills[String(skillId)]?.desc)
++      return [
++        compact({
++          id: Number(skillId),
++          type: SKILL_TYPE_MAP[base.type ?? ''] ?? 'Other',
++          name: skillName,
++          description: description ?? undefined,
++          params: base.params?.length ? base.params : undefined,
++        }),
++      ]
++    })
++
++    const eidolons = (raw.ranks ?? []).flatMap((rankId) => {
++      const base = en.characterRanks[String(rankId)]
++      if (!base) return []
++      const rankName = localized(tables, (t) => t.characterRanks[String(rankId)]?.name)
++      if (!rankName) return []
++      const description = localized(tables, (t) => t.characterRanks[String(rankId)]?.desc)
++      return [
++        compact({
++          rank: base.rank,
++          name: rankName,
++          description: description ?? undefined,
++          params: base.params?.length ? base.params : undefined,
++        }),
++      ]
++    })
++    eidolons.sort((a, b) => a.rank - b.rank)
++
++    const slug = existingSlugs.get(id) ?? uniqueSlug(name.en, id, taken)
++    items.push({
++      id,
++      slug,
++      name,
++      rarity: raw.rarity as 4 | 5,
++      path: path as Character['path'],
++      element: element as Character['element'],
++      announcedAt: null,
++      patchReleaseDate: null,
++      skills: skills as Character['skills'],
++      eidolons: eidolons as Character['eidolons'],
++      materialIds: [],
++      images: compact({
++        icon: cleanAsset(raw.icon),
++        preview: cleanAsset(raw.preview),
++        portrait: cleanAsset(raw.portrait),
++      }),
++    })
++  }
++
++  items.sort((a, b) => a.id - b.id)
++  return { items, warnings }
++}
++
++export function normalizeLightCones(
++  tables: AllTables,
++  existingSlugs: Map<number, string> = new Map(),
++): { items: LightCone[]; warnings: string[] } {
++  const en = tables.en
++  const warnings: string[] = []
++  const items: LightCone[] = []
++  if (!en) return { items, warnings: ['lightcones: faltam as tabelas em inglês'] }
++
++  const taken = new Set<string>(existingSlugs.values())
++
++  for (const [key, raw] of Object.entries(en.lightCones)) {
++    const id = Number(raw.id ?? key)
++    const path = PATH_MAP[raw.path]
++    if (!path || ![3, 4, 5].includes(raw.rarity)) {
++      warnings.push(`lightcones/${id} (${raw.name}): path/raridade desconhecidos (${raw.path}/${raw.rarity}) — ignorado`)
++      continue
++    }
++
++    const name = localized(tables, (t) => t.lightCones[key]?.name)!
++    const description = localized(tables, (t) => t.lightCones[key]?.desc)
++
++    // A habilidade do cone fica em light_cone_ranks.json, com a mesma chave do cone.
++    const rank = en.lightConeRanks[key]
++    let skill: LightCone['skill']
++    if (rank) {
++      const skillName = localized(tables, (t) => t.lightConeRanks[key]?.skill)
++      const skillDesc = localized(tables, (t) => t.lightConeRanks[key]?.desc)
++      if (skillName && skillDesc) skill = { name: skillName, description: skillDesc, params: rank.params ?? [] }
++    } else {
++      warnings.push(`lightcones/${id} (${raw.name}): sem entrada em light_cone_ranks.json`)
++    }
++
++    const slug = existingSlugs.get(id) ?? uniqueSlug(name.en, id, taken)
++    items.push(
++      compact({
++        id,
++        slug,
++        name,
++        rarity: raw.rarity as 3 | 4 | 5,
++        path: path as LightCone['path'],
++        announcedAt: null,
++        patchReleaseDate: null,
++        description: description ?? undefined,
++        skill,
++        images: compact({
++          icon: cleanAsset(raw.icon),
++          preview: cleanAsset(raw.preview),
++          portrait: cleanAsset(raw.portrait),
++        }),
++      }) as LightCone,
++    )
++  }
++
++  items.sort((a, b) => a.id - b.id)
++  return { items, warnings }
++}
++
++// ── Adaptador ────────────────────────────────────────────────────────────────
++
++async function loadTables(ctx: AdapterContext): Promise<{ tables: AllTables; warnings: string[] }> {
++  const tables: AllTables = {}
++  const warnings: string[] = []
++
++  for (const locale of LOCALES) {
++    const dir = LANG_DIR[locale]
++    try {
++      const loaded = {} as LangTables
++      for (const [field, file] of Object.entries(FILES)) {
++        ;(loaded as unknown as Record<string, unknown>)[field] = await readJson(
++          { baseUrl: ctx.baseUrl, rawDir: ctx.rawDir, offline: ctx.offline },
++          `index_new/${dir}/${file}`,
++        )
++      }
++      tables[locale] = loaded
++    } catch (error) {
++      // Inglês é obrigatório; os demais idiomas são opcionais.
++      if (locale === 'en') throw error
++      warnings.push(`idioma ${locale} indisponível: ${(error as Error).message}`)
++    }
++  }
++  return { tables, warnings }
++}
++
++export function createStarRailResAdapter(existing: {
++  characters: Map<number, string>
++  lightcones: Map<number, string>
++}): Adapter {
++  return {
++    name: 'starrailres',
++    async run(ctx): Promise<AdapterResult> {
++      const { tables, warnings } = await loadTables(ctx)
++      const characters = normalizeCharacters(tables, existing.characters)
++      const lightcones = normalizeLightCones(tables, existing.lightcones)
++      return {
++        characters: characters.items,
++        lightcones: lightcones.items,
++        warnings: [...warnings, ...characters.warnings, ...lightcones.warnings],
++      }
++    },
++  }
++}
+diff --git a/scripts/adapters/types.ts b/scripts/adapters/types.ts
+new file mode 100644
+index 0000000..52f2858
+--- /dev/null
++++ b/scripts/adapters/types.ts
+@@ -0,0 +1,25 @@
++// Contrato comum dos adaptadores de ingestão. Cada fonte expõe `run`, e o
++// orquestrador isola falhas: uma fonte quebrada não derruba as outras.
++
++import type { Character, LightCone } from '../../schema'
++
++export interface AdapterContext {
++  /** URL (https://...) ou pasta local de onde ler os índices. */
++  baseUrl: string
++  /** Pasta de cache bruto (data/raw/<fonte>). */
++  rawDir: string
++  /** Lê só do cache, sem rede. */
++  offline: boolean
++}
++
++export interface AdapterResult {
++  characters: Character[]
++  lightcones: LightCone[]
++  /** Avisos não fatais (entidades ignoradas, campos ausentes...). */
++  warnings: string[]
++}
++
++export interface Adapter {
++  name: string
++  run(ctx: AdapterContext): Promise<AdapterResult>
++}
+diff --git a/scripts/fetch-data.ts b/scripts/fetch-data.ts
+index f80393d..432cbe8 100644
+--- a/scripts/fetch-data.ts
++++ b/scripts/fetch-data.ts
+@@ -1,11 +1,128 @@
+-// Ponto de entrada da ingestão de dados (Fase 1).
++// Ingestão de dados (Fase 1): fontes → data/raw (cache) → data/generated (schema do projeto).
+ //
+-// Plano de adaptadores, em ordem de prioridade no merge:
+-//   1. Repositórios da comunidade (StarRailRes, Yatta)  → stats, skills, traços, imagens
+-//   2. HoYoWiki                                          → textos e descrições que faltarem
+-//   3. Adaptadores pontuais (nanoka.cc, starrailstation) → ex.: eidolons e kits
++// Uso:
++//   pnpm data:fetch                      baixa as fontes e regenera data/generated
++//   pnpm data:fetch --offline            usa só o cache de data/raw
++//   pnpm data:fetch --baseline 2026-11-16
++//        registra em data/announcements.json, com essa data de anúncio, toda
++//        entidade que ainda não esteja no manifesto. Use UMA vez, para marcar o
++//        conteúdo que já é público; depois ajuste à mão o que ainda for embargado.
+ //
+-// Cada adaptador vai viver em scripts/adapters/<fonte>.ts e expor a mesma interface,
+-// para que uma fonte quebrada não derrube as outras.
++// Variáveis: SRR_BASE_URL (URL ou pasta local do StarRailRes; padrão: jsDelivr).
+ 
+-console.log('Ingestão ainda não implementada — será a Fase 1.')
++import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
++import { join } from 'node:path'
++import { collections } from '../schema'
++import { createStarRailResAdapter } from './adapters/starrailres'
++import type { Adapter, AdapterResult } from './adapters/types'
++import { loadManifest, saveManifest, withEmbargo, type Manifest } from './lib/announcements'
++
++const dataDir = join(import.meta.dirname, '..', 'data')
++const manifestFile = join(dataDir, 'announcements.json')
++
++const args = process.argv.slice(2)
++const offline = args.includes('--offline')
++const baselineIdx = args.indexOf('--baseline')
++const baseline = baselineIdx >= 0 ? args[baselineIdx + 1] : undefined
++if (baselineIdx >= 0 && !/^\d{4}-\d{2}-\d{2}$/.test(baseline ?? '')) {
++  console.error('✗ --baseline exige uma data YYYY-MM-DD')
++  process.exit(1)
++}
++
++/** slug já publicado por id: slugs não mudam, para não quebrar URLs. */
++function existingSlugs(collection: string): Map<number, string> {
++  const dir = join(dataDir, 'generated', collection)
++  const map = new Map<number, string>()
++  if (!existsSync(dir)) return map
++  for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
++    const json = JSON.parse(readFileSync(join(dir, file), 'utf8'))
++    if (typeof json.id === 'number' && typeof json.slug === 'string') map.set(json.id, json.slug)
++  }
++  return map
++}
++
++/** Grava só se mudou, para o diff do PR automático conter apenas o que mudou de fato. */
++function writeIfChanged(file: string, value: unknown): boolean {
++  const text = `${JSON.stringify(value, null, 2)}\n`
++  if (existsSync(file) && readFileSync(file, 'utf8') === text) return false
++  writeFileSync(file, text)
++  return true
++}
++
++const adapters: Adapter[] = [
++  createStarRailResAdapter({ characters: existingSlugs('characters'), lightcones: existingSlugs('lightcones') }),
++]
++
++const baseUrls: Record<string, string> = {
++  starrailres: process.env.SRR_BASE_URL ?? 'https://cdn.jsdelivr.net/gh/Mar-7th/StarRailRes@master',
++}
++
++const results: AdapterResult[] = []
++const failures: string[] = []
++for (const adapter of adapters) {
++  try {
++    console.log(`→ ${adapter.name}`)
++    results.push(
++      await adapter.run({
++        baseUrl: baseUrls[adapter.name],
++        rawDir: join(dataDir, 'raw', adapter.name),
++        offline,
++      }),
++    )
++  } catch (error) {
++    failures.push(`${adapter.name}: ${(error as Error).message}`)
++  }
++}
++
++if (failures.length > 0) {
++  console.error('✗ Falha em fonte(s) — nada foi gravado:')
++  for (const f of failures) console.error(`  - ${f}`)
++  process.exit(1)
++}
++
++// Fontes são mescladas na ordem; por ora há uma só, então apenas concatenamos por id.
++const merged: Record<string, Map<number, { id: number } & Record<string, unknown>>> = {
++  characters: new Map(),
++  lightcones: new Map(),
++}
++const warnings: string[] = []
++for (const result of results) {
++  warnings.push(...result.warnings)
++  for (const item of result.characters) merged.characters.set(item.id, item as never)
++  for (const item of result.lightcones) merged.lightcones.set(item.id, item as never)
++}
++
++const manifest: Manifest = loadManifest(manifestFile)
++if (baseline) {
++  for (const [collection, items] of Object.entries(merged)) {
++    manifest[collection] ??= {}
++    for (const id of items.keys()) {
++      manifest[collection][String(id)] ??= { announcedAt: baseline, patchReleaseDate: null }
++    }
++  }
++  saveManifest(manifestFile, manifest)
++}
++
++let changed = 0
++const pending: string[] = []
++for (const [collection, items] of Object.entries(merged)) {
++  if (!(collection in collections)) throw new Error(`coleção sem schema: ${collection}`)
++  const outDir = join(dataDir, 'generated', collection)
++  mkdirSync(outDir, { recursive: true })
++  for (const item of items.values()) {
++    const entity = withEmbargo(item as never, manifest[collection]) as { id: number; announcedAt: string | null; slug: string }
++    if (!entity.announcedAt) pending.push(`${collection}/${entity.slug}`)
++    if (writeIfChanged(join(outDir, `${entity.id}.json`), entity)) changed++
++  }
++}
++
++const total = Object.values(merged).reduce((n, m) => n + m.size, 0)
++console.log(`✓ ${total} entidade(s) processada(s), ${changed} arquivo(s) alterado(s).`)
++if (pending.length > 0) {
++  console.log(`⚠ ${pending.length} sem data de anúncio (não serão publicadas): ${pending.slice(0, 8).join(', ')}${pending.length > 8 ? ', ...' : ''}`)
++  console.log('  Adicione-as em data/announcements.json ou rode uma vez com --baseline YYYY-MM-DD.')
++}
++if (warnings.length > 0) {
++  console.log(`⚠ ${warnings.length} aviso(s):`)
++  for (const w of warnings.slice(0, 30)) console.log(`  - ${w}`)
++}
+diff --git a/scripts/lib/announcements.ts b/scripts/lib/announcements.ts
+new file mode 100644
+index 0000000..a7290dc
+--- /dev/null
++++ b/scripts/lib/announcements.ts
+@@ -0,0 +1,51 @@
++// Manifesto de anúncios: data/announcements.json (editado à mão, versionado).
++//
++// As fontes de dados NÃO informam quando algo foi anunciado oficialmente, e o
++// StarRailRes costuma conter conteúdo extraído do cliente antes do anúncio.
++// Por isso a ingestão nunca preenche `announcedAt` sozinha: ela lê daqui.
++// Entidade fora do manifesto fica com `announcedAt: null` → não é publicada.
++
++import { existsSync, readFileSync, writeFileSync } from 'node:fs'
++import { z } from 'zod'
++import { embargoFields } from '../../schema'
++
++const entry = z.object({
++  announcedAt: embargoFields.announcedAt,
++  patchReleaseDate: embargoFields.patchReleaseDate,
++  version: embargoFields.version,
++})
++export type AnnouncementEntry = z.infer<typeof entry>
++
++const manifestSchema = z.record(z.string(), z.record(z.string(), entry))
++/** coleção → id → entrada. Ex.: { characters: { "1001": { announcedAt: "2023-04-26" } } } */
++export type Manifest = z.infer<typeof manifestSchema>
++
++export function loadManifest(file: string): Manifest {
++  if (!existsSync(file)) return {}
++  return manifestSchema.parse(JSON.parse(readFileSync(file, 'utf8')))
++}
++
++export function saveManifest(file: string, manifest: Manifest): void {
++  const sorted: Manifest = {}
++  for (const collection of Object.keys(manifest).sort()) {
++    sorted[collection] = Object.fromEntries(
++      Object.entries(manifest[collection]).sort(([a], [b]) => Number(a) - Number(b)),
++    )
++  }
++  writeFileSync(file, `${JSON.stringify(sorted, null, 2)}\n`)
++}
++
++/** Aplica o manifesto a uma entidade (sem mexer se o id não estiver nele). */
++export function withEmbargo<T extends { id: number; announcedAt: string | null; patchReleaseDate: string | null; version?: string }>(
++  entity: T,
++  entries: Record<string, AnnouncementEntry> | undefined,
++): T {
++  const found = entries?.[String(entity.id)]
++  if (!found) return entity
++  return {
++    ...entity,
++    announcedAt: found.announcedAt,
++    patchReleaseDate: found.patchReleaseDate,
++    ...(found.version ? { version: found.version } : {}),
++  }
++}
+diff --git a/scripts/lib/source.ts b/scripts/lib/source.ts
+new file mode 100644
+index 0000000..bd91615
+--- /dev/null
++++ b/scripts/lib/source.ts
+@@ -0,0 +1,36 @@
++// Leitura de arquivos JSON de uma fonte (HTTP ou pasta local) com cache em data/raw.
++
++import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
++import { dirname, join } from 'node:path'
++
++export interface SourceOptions {
++  baseUrl: string
++  rawDir: string
++  offline: boolean
++}
++
++const isHttp = (value: string) => /^https?:\/\//.test(value)
++
++export async function readJson<T>(opts: SourceOptions, relPath: string): Promise<T> {
++  const cacheFile = join(opts.rawDir, relPath)
++
++  if (opts.offline) {
++    if (!existsSync(cacheFile)) throw new Error(`sem cache para ${relPath} (modo --offline)`)
++    return JSON.parse(readFileSync(cacheFile, 'utf8')) as T
++  }
++
++  let text: string
++  if (isHttp(opts.baseUrl)) {
++    const url = `${opts.baseUrl.replace(/\/+$/, '')}/${relPath}`
++    const response = await fetch(url, { signal: AbortSignal.timeout(60_000) })
++    if (!response.ok) throw new Error(`HTTP ${response.status} em ${url}`)
++    text = await response.text()
++  } else {
++    text = readFileSync(join(opts.baseUrl, relPath), 'utf8')
++  }
++
++  const data = JSON.parse(text) as T
++  mkdirSync(dirname(cacheFile), { recursive: true })
++  writeFileSync(cacheFile, text)
++  return data
++}
+diff --git a/tests/fixtures/starrailres/index_new/en/character_ranks.json b/tests/fixtures/starrailres/index_new/en/character_ranks.json
+new file mode 100644
+index 0000000..ddf346d
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/en/character_ranks.json
+@@ -0,0 +1,16 @@
++{
++  "100101": {
++    "id": "100101",
++    "name": "Memory of You",
++    "rank": 1,
++    "desc": "Gain SP.",
++    "params": []
++  },
++  "100102": {
++    "id": "100102",
++    "name": "Dear Ice",
++    "rank": 2,
++    "desc": "Heal.",
++    "params": []
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/en/character_skills.json b/tests/fixtures/starrailres/index_new/en/character_skills.json
+new file mode 100644
+index 0000000..c43a4a8
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/en/character_skills.json
+@@ -0,0 +1,32 @@
++{
++  "100101": {
++    "id": "100101",
++    "name": "Frigid Cold Arrow",
++    "type": "Normal",
++    "desc": "Deals Ice DMG equal to #1[i]% of March 7th's ATK.",
++    "params": [
++      [
++        0.5
++      ],
++      [
++        0.6
++      ]
++    ]
++  },
++  "100102": {
++    "id": "100102",
++    "name": "The Power of Cuteness",
++    "type": "BPSkill",
++    "desc": "Shield for #1[f1] turns.",
++    "params": [
++      [
++        0.3,
++        2
++      ],
++      [
++        0.35,
++        2
++      ]
++    ]
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/en/characters.json b/tests/fixtures/starrailres/index_new/en/characters.json
+new file mode 100644
+index 0000000..69745e2
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/en/characters.json
+@@ -0,0 +1,63 @@
++{
++  "1001": {
++    "id": "1001",
++    "name": "March 7th",
++    "tag": "kafka",
++    "rarity": 4,
++    "path": "Knight",
++    "element": "Ice",
++    "max_sp": 110,
++    "ranks": [
++      "100101",
++      "100102"
++    ],
++    "skills": [
++      "100101",
++      "100102"
++    ],
++    "icon": "icon/character/1001.png",
++    "preview": "image/character_preview/1001.png",
++    "portrait": "image/character_portrait/1001.png"
++  },
++  "1005": {
++    "id": "1005",
++    "name": "Kafka",
++    "rarity": 5,
++    "path": "Warlock",
++    "element": "Thunder",
++    "ranks": [],
++    "skills": [],
++    "icon": "icon/character/1005.png",
++    "preview": "image/character_preview/1005.png",
++    "portrait": "image/character_portrait/1005.png"
++  },
++  "8001": {
++    "id": "8001",
++    "name": "Trailblazer",
++    "rarity": 5,
++    "path": "Warrior",
++    "element": "Physical",
++    "ranks": [],
++    "skills": [],
++    "icon": "icon/character/8001.png"
++  },
++  "8002": {
++    "id": "8002",
++    "name": "Trailblazer",
++    "rarity": 5,
++    "path": "Warrior",
++    "element": "Physical",
++    "ranks": [],
++    "skills": [],
++    "icon": "icon/character/8002.png"
++  },
++  "9999": {
++    "id": "9999",
++    "name": "Mystery",
++    "rarity": 5,
++    "path": "NewPath",
++    "element": "Fire",
++    "ranks": [],
++    "skills": []
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/en/light_cone_ranks.json b/tests/fixtures/starrailres/index_new/en/light_cone_ranks.json
+new file mode 100644
+index 0000000..140fa28
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/en/light_cone_ranks.json
+@@ -0,0 +1,24 @@
++{
++  "20000": {
++    "id": "20000",
++    "skill": "Pioneer",
++    "desc": "Increases CRIT DMG by #1[i]%.",
++    "params": [
++      [
++        0.12
++      ],
++      [
++        0.15
++      ],
++      [
++        0.18
++      ],
++      [
++        0.21
++      ],
++      [
++        0.24
++      ]
++    ]
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/en/light_cones.json b/tests/fixtures/starrailres/index_new/en/light_cones.json
+new file mode 100644
+index 0000000..c0f9b44
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/en/light_cones.json
+@@ -0,0 +1,19 @@
++{
++  "20000": {
++    "id": "20000",
++    "name": "Arrows",
++    "rarity": 3,
++    "path": "Rogue",
++    "desc": "A bundle of arrows.",
++    "icon": "icon/light_cone/20000.png",
++    "preview": "image/light_cone_preview/20000.png",
++    "portrait": "image/light_cone_portrait/20000.png"
++  },
++  "23001": {
++    "id": "23001",
++    "name": "In the Night",
++    "rarity": 5,
++    "path": "Rogue",
++    "icon": "icon/light_cone/23001.png"
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/pt/character_ranks.json b/tests/fixtures/starrailres/index_new/pt/character_ranks.json
+new file mode 100644
+index 0000000..6a54a7d
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/pt/character_ranks.json
+@@ -0,0 +1,16 @@
++{
++  "100101": {
++    "id": "100101",
++    "name": "Lembrança",
++    "rank": 1,
++    "desc": "Ganha PE.",
++    "params": []
++  },
++  "100102": {
++    "id": "100102",
++    "name": "Gelo",
++    "rank": 2,
++    "desc": "Cura.",
++    "params": []
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/pt/character_skills.json b/tests/fixtures/starrailres/index_new/pt/character_skills.json
+new file mode 100644
+index 0000000..5edeb48
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/pt/character_skills.json
+@@ -0,0 +1,32 @@
++{
++  "100101": {
++    "id": "100101",
++    "name": "Flecha Gélida",
++    "type": "Normal",
++    "desc": "Causa dano de Gelo igual a #1[i]% do ATQ.",
++    "params": [
++      [
++        0.5
++      ],
++      [
++        0.6
++      ]
++    ]
++  },
++  "100102": {
++    "id": "100102",
++    "name": "O Poder da Fofura",
++    "type": "BPSkill",
++    "desc": "Escudo por #1[f1] turnos.",
++    "params": [
++      [
++        0.3,
++        2
++      ],
++      [
++        0.35,
++        2
++      ]
++    ]
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/pt/characters.json b/tests/fixtures/starrailres/index_new/pt/characters.json
+new file mode 100644
+index 0000000..69745e2
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/pt/characters.json
+@@ -0,0 +1,63 @@
++{
++  "1001": {
++    "id": "1001",
++    "name": "March 7th",
++    "tag": "kafka",
++    "rarity": 4,
++    "path": "Knight",
++    "element": "Ice",
++    "max_sp": 110,
++    "ranks": [
++      "100101",
++      "100102"
++    ],
++    "skills": [
++      "100101",
++      "100102"
++    ],
++    "icon": "icon/character/1001.png",
++    "preview": "image/character_preview/1001.png",
++    "portrait": "image/character_portrait/1001.png"
++  },
++  "1005": {
++    "id": "1005",
++    "name": "Kafka",
++    "rarity": 5,
++    "path": "Warlock",
++    "element": "Thunder",
++    "ranks": [],
++    "skills": [],
++    "icon": "icon/character/1005.png",
++    "preview": "image/character_preview/1005.png",
++    "portrait": "image/character_portrait/1005.png"
++  },
++  "8001": {
++    "id": "8001",
++    "name": "Trailblazer",
++    "rarity": 5,
++    "path": "Warrior",
++    "element": "Physical",
++    "ranks": [],
++    "skills": [],
++    "icon": "icon/character/8001.png"
++  },
++  "8002": {
++    "id": "8002",
++    "name": "Trailblazer",
++    "rarity": 5,
++    "path": "Warrior",
++    "element": "Physical",
++    "ranks": [],
++    "skills": [],
++    "icon": "icon/character/8002.png"
++  },
++  "9999": {
++    "id": "9999",
++    "name": "Mystery",
++    "rarity": 5,
++    "path": "NewPath",
++    "element": "Fire",
++    "ranks": [],
++    "skills": []
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/pt/light_cone_ranks.json b/tests/fixtures/starrailres/index_new/pt/light_cone_ranks.json
+new file mode 100644
+index 0000000..3268910
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/pt/light_cone_ranks.json
+@@ -0,0 +1,24 @@
++{
++  "20000": {
++    "id": "20000",
++    "skill": "Pioneiro",
++    "desc": "Aumenta CRIT DMG em #1[i]%.",
++    "params": [
++      [
++        0.12
++      ],
++      [
++        0.15
++      ],
++      [
++        0.18
++      ],
++      [
++        0.21
++      ],
++      [
++        0.24
++      ]
++    ]
++  }
++}
+\ No newline at end of file
+diff --git a/tests/fixtures/starrailres/index_new/pt/light_cones.json b/tests/fixtures/starrailres/index_new/pt/light_cones.json
+new file mode 100644
+index 0000000..7eadf56
+--- /dev/null
++++ b/tests/fixtures/starrailres/index_new/pt/light_cones.json
+@@ -0,0 +1,19 @@
++{
++  "20000": {
++    "id": "20000",
++    "name": "Flechas",
++    "rarity": 3,
++    "path": "Rogue",
++    "desc": "Flechas.",
++    "icon": "icon/light_cone/20000.png",
++    "preview": "image/light_cone_preview/20000.png",
++    "portrait": "image/light_cone_portrait/20000.png"
++  },
++  "23001": {
++    "id": "23001",
++    "name": "Na Noite",
++    "rarity": 5,
++    "path": "Rogue",
++    "icon": "icon/light_cone/23001.png"
++  }
++}
+\ No newline at end of file
+diff --git a/tests/slug.test.ts b/tests/slug.test.ts
+new file mode 100644
+index 0000000..39ee533
+--- /dev/null
++++ b/tests/slug.test.ts
+@@ -0,0 +1,19 @@
++import { describe, expect, it } from 'vitest'
++import { slugify, uniqueSlug } from '../utils/slug'
++
++describe('slug', () => {
++  it('normaliza acentos, apóstrofos e símbolos', () => {
++    expect(slugify("Dan Heng • Imbibitor Lunae")).toBe('dan-heng-imbibitor-lunae')
++    expect(slugify("Welt's Café")).toBe('welts-cafe')
++  })
++
++  it('desambigua colisões com o ID', () => {
++    const taken = new Set<string>()
++    expect(uniqueSlug('Trailblazer', 8001, taken)).toBe('trailblazer')
++    expect(uniqueSlug('Trailblazer', 8002, taken)).toBe('trailblazer-8002')
++  })
++
++  it('usa o ID quando o nome não gera slug', () => {
++    expect(uniqueSlug('???', 77, new Set())).toBe('item-77')
++  })
++})
+diff --git a/tests/starrailres.test.ts b/tests/starrailres.test.ts
+new file mode 100644
+index 0000000..5ad1c73
+--- /dev/null
++++ b/tests/starrailres.test.ts
+@@ -0,0 +1,90 @@
++import { readFileSync } from 'node:fs'
++import { join } from 'node:path'
++import { describe, expect, it } from 'vitest'
++import { character, lightCone } from '../schema'
++import {
++  normalizeCharacters,
++  normalizeLightCones,
++  type AllTables,
++  type LangTables,
++} from '../scripts/adapters/starrailres'
++
++const dir = join(import.meta.dirname, 'fixtures', 'starrailres', 'index_new')
++const load = (lang: string): LangTables => {
++  const read = (f: string) => JSON.parse(readFileSync(join(dir, lang, `${f}.json`), 'utf8'))
++  return {
++    characters: read('characters'),
++    characterSkills: read('character_skills'),
++    characterRanks: read('character_ranks'),
++    lightCones: read('light_cones'),
++    lightConeRanks: read('light_cone_ranks'),
++  }
++}
++const tables: AllTables = { en: load('en'), 'pt-BR': load('pt') }
++
++describe('normalizeCharacters', () => {
++  const { items, warnings } = normalizeCharacters(tables)
++
++  it('todo personagem gerado passa no schema', () => {
++    for (const c of items) expect(character.safeParse(c).success).toBe(true)
++  })
++
++  it('converte path/element internos e junta idiomas', () => {
++    const march = items.find((c) => c.id === 1001)!
++    expect(march.path).toBe('Preservation')
++    expect(march.element).toBe('Ice')
++    expect(march.name).toEqual({ en: 'March 7th', 'pt-BR': 'March 7th' })
++    expect(items.find((c) => c.id === 1005)!.element).toBe('Lightning')
++  })
++
++  it('traz skills e eidolons ordenados, com tradução e params', () => {
++    const march = items.find((c) => c.id === 1001)!
++    expect(march.skills.map((s) => s.type)).toEqual(['Basic', 'Skill'])
++    expect(march.skills[0].name['pt-BR']).toBe('Flecha Gélida')
++    expect(march.skills[0].params).toEqual([[0.5], [0.6]])
++    expect(march.eidolons.map((e) => e.rank)).toEqual([1, 2])
++  })
++
++  it('remove a barra inicial dos assets', () => {
++    expect(items.find((c) => c.id === 1001)!.images.icon).toBe('icon/character/1001.png')
++  })
++
++  it('desambigua slugs repetidos (Trailblazer)', () => {
++    const slugs = items.filter((c) => c.id >= 8000).map((c) => c.slug)
++    expect(slugs).toEqual(['trailblazer', 'trailblazer-8002'])
++  })
++
++  it('ignora path desconhecido com aviso, sem quebrar', () => {
++    expect(items.find((c) => c.id === 9999)).toBeUndefined()
++    expect(warnings.some((w) => w.includes('9999'))).toBe(true)
++  })
++
++  it('nunca preenche announcedAt (embargo)', () => {
++    expect(items.every((c) => c.announcedAt === null)).toBe(true)
++  })
++
++  it('preserva slugs já publicados', () => {
++    const again = normalizeCharacters(tables, new Map([[1001, 'march-7th-antigo']]))
++    expect(again.items.find((c) => c.id === 1001)!.slug).toBe('march-7th-antigo')
++  })
++})
++
++describe('normalizeLightCones', () => {
++  const { items, warnings } = normalizeLightCones(tables)
++
++  it('todo cone gerado passa no schema', () => {
++    for (const lc of items) expect(lightCone.safeParse(lc).success).toBe(true)
++  })
++
++  it('junta a habilidade de light_cone_ranks com 5 sobreposições', () => {
++    const arrows = items.find((c) => c.id === 20000)!
++    expect(arrows.path).toBe('Hunt')
++    expect(arrows.skill?.name['pt-BR']).toBe('Pioneiro')
++    expect(arrows.skill?.params).toHaveLength(5)
++  })
++
++  it('avisa quando falta a habilidade', () => {
++    expect(items.find((c) => c.id === 23001)!.skill).toBeUndefined()
++    expect(warnings.some((w) => w.includes('23001'))).toBe(true)
++  })
++})
+diff --git a/tests/template.test.ts b/tests/template.test.ts
+new file mode 100644
+index 0000000..8229d23
+--- /dev/null
++++ b/tests/template.test.ts
+@@ -0,0 +1,26 @@
++import { describe, expect, it } from 'vitest'
++import { placeholderCount, renderTemplate } from '../utils/template'
++
++describe('renderTemplate', () => {
++  it('formata percentuais, inteiros e decimais', () => {
++    expect(renderTemplate('Deals #1[i]% DMG', [0.5])).toBe('Deals 50% DMG')
++    expect(renderTemplate('#1[f1] turns', [2.5])).toBe('2.5 turns')
++    expect(renderTemplate('#1[f1]%', [0.055])).toBe('5.5%')
++  })
++
++  it('não gera ruído de ponto flutuante', () => {
++    expect(renderTemplate('#1[i]%', [0.55])).toBe('55%')
++  })
++
++  it('mantém o placeholder quando falta o parâmetro', () => {
++    expect(renderTemplate('#1[i]% e #2[i]%', [0.5])).toBe('50% e #2[i]%')
++  })
++
++  it('remove tags quando pedido', () => {
++    expect(renderTemplate('<unbreak>#1[i]%</unbreak>', [0.2], { stripTags: true })).toBe('20%')
++  })
++
++  it('conta placeholders distintos', () => {
++    expect(placeholderCount('#1[i]% #1[i]% #2[f1]')).toBe(2)
++  })
++})
+diff --git a/utils/assets.ts b/utils/assets.ts
+new file mode 100644
+index 0000000..3d0a042
+--- /dev/null
++++ b/utils/assets.ts
+@@ -0,0 +1,10 @@
++// Monta a URL pública de um asset a partir do caminho salvo nos dados.
++// Os dados guardam só o caminho relativo (ex.: "icon/character/1001.png"),
++// então trocar de CDN é mudar esta constante.
++
++export const ASSET_BASE = 'https://cdn.jsdelivr.net/gh/Mar-7th/StarRailRes@master/'
++
++export function assetUrl(path: string | undefined | null): string | null {
++  if (!path) return null
++  return `${ASSET_BASE}${path.replace(/^\/+/, '')}`
++}
+diff --git a/utils/slug.ts b/utils/slug.ts
+new file mode 100644
+index 0000000..ac04092
+--- /dev/null
++++ b/utils/slug.ts
+@@ -0,0 +1,22 @@
++// Gera slugs ASCII estáveis para URLs a partir do nome em inglês.
++
++export function slugify(value: string): string {
++  return value
++    .normalize('NFKD')
++    .replace(/[̀-ͯ]/g, '') // remove acentos
++    .replace(/['’`]/g, '') // "Dan Heng's" → "dan hengs"
++    .toLowerCase()
++    .replace(/[^a-z0-9]+/g, '-')
++    .replace(/^-+|-+$/g, '')
++}
++
++/**
++ * Slug único dentro de uma coleção. Se o slug base já estiver em uso (ou ficar
++ * vazio, como em nomes só com símbolos), acrescenta o ID: "nome-1234".
++ */
++export function uniqueSlug(name: string, id: number, taken: Set<string>): string {
++  const base = slugify(name)
++  const slug = base && !taken.has(base) ? base : base ? `${base}-${id}` : `item-${id}`
++  taken.add(slug)
++  return slug
++}
+diff --git a/utils/template.ts b/utils/template.ts
+new file mode 100644
+index 0000000..83d2636
+--- /dev/null
++++ b/utils/template.ts
+@@ -0,0 +1,41 @@
++// Renderiza templates de descrição do jogo, como "Deals #1[i]% of ATK to #2[f1] enemies".
++//
++// Placeholder: `#<n>[<formato>]` com `%` opcional logo depois.
++//   - `i`  → inteiro arredondado
++//   - `fN` → N casas decimais
++//   - com `%`, o valor é multiplicado por 100 (0.55 → "55%")
++// `<n>` começa em 1 e indexa a linha de parâmetros do nível/rank escolhido.
++
++const PLACEHOLDER = /#(\d+)\[(i|f(\d+))\](%?)/g
++
++function round(value: number, digits: number): number {
++  // Evita 55.00000000000001 ao multiplicar por 100.
++  const factor = 10 ** digits
++  return Math.round((value + Number.EPSILON) * factor) / factor
++}
++
++export function renderTemplate(
++  template: string,
++  row: readonly number[] | undefined,
++  options: { stripTags?: boolean } = {},
++): string {
++  let text = template
++  if (row) {
++    text = text.replace(PLACEHOLDER, (match, index: string, format: string, digits: string, percent: string) => {
++      const raw = row[Number(index) - 1]
++      if (typeof raw !== 'number' || Number.isNaN(raw)) return match // deixa visível em vez de inventar
++      const value = percent ? raw * 100 : raw
++      const places = format === 'i' ? 0 : Number(digits)
++      return `${round(value, places).toFixed(places)}${percent}`
++    })
++  }
++  if (options.stripTags) text = text.replace(/<\/?[a-z][^>]*>/gi, '')
++  return text.replace(/\\n/g, '\n')
++}
++
++/** Quantos placeholders distintos o template usa (útil para validar `params`). */
++export function placeholderCount(template: string): number {
++  const found = new Set<number>()
++  for (const match of template.matchAll(PLACEHOLDER)) found.add(Number(match[1]))
++  return found.size
++}
