@@ -21,10 +21,25 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      NUXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io
     steps:
       - uses: actions/checkout@v4
+
+      # Repositório <usuario>.github.io → site na raiz.
+      # Qualquer outro nome (ex.: kabuki-archive) → site em /<nome-do-repo>/.
+      - name: Definir endereço do site
+        run: |
+          REPO="${GITHUB_REPOSITORY#*/}"
+          OWNER="$(echo "${GITHUB_REPOSITORY_OWNER}" | tr '[:upper:]' '[:lower:]')"
+          case "$REPO" in
+            *.github.io)
+              echo "NUXT_APP_BASE_URL=/" >> "$GITHUB_ENV"
+              echo "NUXT_PUBLIC_SITE_URL=https://${OWNER}.github.io" >> "$GITHUB_ENV"
+              ;;
+            *)
+              echo "NUXT_APP_BASE_URL=/${REPO}/" >> "$GITHUB_ENV"
+              echo "NUXT_PUBLIC_SITE_URL=https://${OWNER}.github.io/${REPO}" >> "$GITHUB_ENV"
+              ;;
+          esac
 
       - uses: pnpm/action-setup@v4
 

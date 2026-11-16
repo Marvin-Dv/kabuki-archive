@@ -22,13 +22,13 @@ pnpm generate     # gera o site estático em .output/public
 
 ## Publicando no GitHub Pages
 
-1. Crie o repositório com o nome **`<seu-usuario>.github.io`** (o site fica na raiz).
+1. Crie o repositório (público). Com o nome **`<seu-usuario>.github.io`** o site fica na raiz;
+   com qualquer outro nome (ex.: `kabuki-archive`) fica em `<seu-usuario>.github.io/kabuki-archive/`.
+   O workflow detecta isso sozinho.
 2. Em **Settings → Pages → Build and deployment → Source**, escolha **GitHub Actions**.
 3. Faça push na branch `main`. O workflow `deploy.yml` roda testes, valida os dados, gera o site e publica.
 4. Depois do primeiro `pnpm install` local, commite o `pnpm-lock.yaml` e troque, nos workflows,
    `pnpm install --no-frozen-lockfile` por `pnpm install --frozen-lockfile`.
-
-Se o repositório tiver outro nome, defina `NUXT_APP_BASE_URL=/nome-do-repo/` no passo de build.
 
 ## Estrutura
 

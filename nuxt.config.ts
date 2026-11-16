@@ -1,10 +1,12 @@
 // Kabuki Archive — configuração do Nuxt (SSG para GitHub Pages)
 //
-// Como o site fica na raiz (<usuario>.github.io), o baseURL é "/".
-// Se um dia o repositório mudar para um nome diferente de <usuario>.github.io,
-// defina NUXT_APP_BASE_URL=/nome-do-repo/ no build.
+// baseURL: "/" em desenvolvimento e em repositórios <usuario>.github.io.
+// Em um repositório de projeto (ex.: kabuki-archive), o site fica em
+// <usuario>.github.io/kabuki-archive/ e o workflow de deploy define
+// NUXT_APP_BASE_URL=/kabuki-archive/ automaticamente.
 
 const siteUrl = process.env.NUXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'
+const baseURL = process.env.NUXT_APP_BASE_URL ?? '/'
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
@@ -54,7 +56,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: process.env.NUXT_APP_BASE_URL ?? '/',
+    baseURL,
     head: {
       titleTemplate: '%s · Kabuki Archive',
       meta: [
@@ -62,7 +64,7 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#0e0b16' },
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'icon', type: 'image/svg+xml', href: `${baseURL}favicon.svg` },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {

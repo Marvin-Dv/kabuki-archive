@@ -1,13 +1,14 @@
 <script setup lang="ts">
 const { t } = useI18n()
 const localePath = useLocalePath()
+const logoSrc = `${useRuntimeConfig().app.baseURL}favicon.svg`
 </script>
 
 <template>
   <header class="sticky top-0 z-40 border-b border-line bg-bg/80 backdrop-blur">
     <div class="k-container flex h-16 items-center justify-between gap-4">
       <NuxtLink :to="localePath('/')" class="flex items-center gap-2.5" :aria-label="t('site.name')">
-        <img src="/favicon.svg" alt="" width="30" height="30" class="rounded-lg" />
+        <img :src="logoSrc" alt="" width="30" height="30" class="rounded-lg" />
         <span class="font-display text-lg font-bold tracking-tight">
           Kabuki <span class="text-accent">Archive</span>
         </span>
