@@ -1,0 +1,70 @@
+{
+  "id": 21023,
+  "slug": "we-are-wildfire",
+  "name": {
+    "pt-BR": "Somos Fogo Vivo",
+    "en": "We Are Wildfire",
+    "zh-CN": "我们是地火",
+    "ja": "我ら地炎",
+    "ko": "우리는 와일드 파이어"
+  },
+  "rarity": 4,
+  "path": "Preservation",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Ela está acostumada com as pessoas perdendo seus lares.\nE ela se acostumou com as pessoas perdendo suas vidas.\nMas chorar sozinha era inútil.\n\"Vista este lenço vermelho, e então compartilharemos a dor um do outro.\"\n\"Nós somos família. Nós somos a Fogo Vivo.\"\nNo momento em que aquele par de mãos grandes tocou a sua cabeça, ela não conseguiu mais conter suas lágrimas.",
+    "en": "She got used to people losing their homes.\nAnd she got used to people losing their lives.\nBut crying alone was useless.\n\"Wear this red scarf, and then we shall share each other's pain.\"\n\"We are family. We are Wildfire.\"\nThe moment that pair of big hands held her head, she could no longer hold back her tears.",
+    "zh-CN": "她习惯了人们失去家园，\n也习惯了人们失去生命，\n但一个人时，哭泣也无用。\n「系上这条红丝巾，分担彼此痛苦。」\n「我们是一家人…我们是地火。」\n当宽阔的手掌抚上她的脑袋，她终于忍不住掉下眼泪。",
+    "ja": "彼女は慣れた、人々が故郷を失うのを、\n人々が命を失うのを、\nでも一人の時は、泣いても無駄。\n「この赤いスカーフを着けて、互いの痛みを分かち合おう」\n「俺たちは家族…俺たちは、地炎だ」\n大きな掌が彼女の頭をなでる、彼女はようやく、我慢できずに涙をこぼした。",
+    "ko": "그녀는 사람들이 집을 잃는 것에 익숙하다.\n사람들이 생명을 잃는 것에도 익숙하다.\n하지만 혼자일 때는 울어도 소용이 없다.\n「이 빨간 스카프를 매고, 서로의 고통을 분담한다」\n「우리는 한 가족… 우리는 와일드 파이어다」\n넓은 손바닥이 그녀의 머리를 쓰다듬을 때, 그녀는 끝내 눈물을 참을 수 없었다"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Olhos Lacrimejantes",
+      "en": "Teary-Eyed",
+      "zh-CN": "泪中人",
+      "ja": "袖時雨",
+      "ko": "눈물을 글썽이는 사람"
+    },
+    "description": {
+      "pt-BR": "No início da batalha, diminui o Dano causado a todos os aliados em #2[i]% por #3[i] rodada(s). Ao mesmo tempo, restaura imediatamente os PV de todos os aliados igual a #1[i]% das respectivas diferenças entre os PV máximos de cada personagem e os seus PV atuais.",
+      "en": "At the start of the battle, the DMG dealt to all allies decreases by #2[i]% for #3[i] turn(s). At the same time, immediately restores HP to all allies equal to #1[i]% of the respective HP difference between the characters' Max HP and current HP.",
+      "zh-CN": "战斗开始时，使我方全体受到的伤害降低#2[i]%，持续#3[i]回合。同时立即为我方全体回复等同于各自已损失生命值#1[i]%的生命值。",
+      "ja": "戦闘開始時、味方全体の受けるダメージ-#2[i]%、#3[i]ターン継続。味方全体のHPを、それぞれが失ったHP#1[i]%分回復する。",
+      "ko": "전투 시작 시 모든 아군이 받는 피해가 #2[i]% 감소한다. 지속 시간: #3[i]턴. 동시에 즉시 모든 아군이 각자 손실한 HP #1[i]%만큼의 HP를 회복한다"
+    },
+    "params": [
+      [
+        0.3,
+        0.08,
+        5
+      ],
+      [
+        0.35,
+        0.1,
+        5
+      ],
+      [
+        0.4,
+        0.12,
+        5
+      ],
+      [
+        0.45,
+        0.14,
+        5
+      ],
+      [
+        0.5,
+        0.16,
+        5
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21023.png",
+    "preview": "image/light_cone_preview/21023.png",
+    "portrait": "image/light_cone_portrait/21023.png"
+  }
+}

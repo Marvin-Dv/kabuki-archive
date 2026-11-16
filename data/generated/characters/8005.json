@@ -1,0 +1,460 @@
+{
+  "id": 8005,
+  "slug": "nickname-8005",
+  "name": {
+    "pt-BR": "{NICKNAME}",
+    "en": "{NICKNAME}",
+    "zh-CN": "{NICKNAME}",
+    "ja": "{NICKNAME}",
+    "ko": "{NICKNAME}"
+  },
+  "rarity": 5,
+  "path": "Harmony",
+  "element": "Imaginary",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 800501,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Etiqueta da Dança de Swing",
+        "en": "Swing Dance Etiquette",
+        "zh-CN": "摇摆的礼仪",
+        "ja": "揺らめく礼儀",
+        "ko": "스윙 댄스 에티켓"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo-alvo.",
+        "en": "Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy target.",
+        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的虚数属性伤害。",
+        "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の虚数属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 개척자 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 800502,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Temporal no Intervalo",
+        "en": "Halftime to Make It Rain",
+        "zh-CN": "中场馈赠的雨",
+        "ja": "間奏曲が降らす雨",
+        "ko": "인터미션에 내리는 비"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo e causa Dano mais 4 vezes, causando Dano Imaginário igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um inimigo aleatório cada vez.",
+        "en": "Deals Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy target and additionally deals DMG for 4 times, with each time dealing Imaginary DMG equal to #1[i]% of the Trailblazer's ATK to a random enemy.",
+        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的虚数属性伤害，并额外造成4次伤害。每次伤害对随机敌方单体造成等同于开拓者#1[i]%攻击力的虚数属性伤害。",
+        "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の虚数属性ダメージを与え、さらに4ヒットする。1ヒットごとに、ランダムな敵単体に開拓者の攻撃力#1[i]%分の虚数属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 개척자 공격력의 #1[i]%만큼 허수 속성 피해를 가하며, 추가로 피해를 4회 가한다. 피해를 가할 때마다 랜덤 단일 적에게 개척자 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.25,
+          2
+        ],
+        [
+          0.275,
+          2
+        ],
+        [
+          0.3,
+          2
+        ],
+        [
+          0.325,
+          2
+        ],
+        [
+          0.35,
+          2
+        ],
+        [
+          0.375,
+          2
+        ],
+        [
+          0.4062,
+          2
+        ],
+        [
+          0.4375,
+          2
+        ],
+        [
+          0.4688,
+          2
+        ],
+        [
+          0.5,
+          2
+        ],
+        [
+          0.525,
+          2
+        ],
+        [
+          0.55,
+          2
+        ],
+        [
+          0.575,
+          2
+        ],
+        [
+          0.6,
+          2
+        ],
+        [
+          0.625,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 800503,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Desfile Clamoroso das Luzes",
+        "en": "All-Out Footlight Parade",
+        "zh-CN": "喧嚣的舞灯巡游",
+        "ja": "賑やかなパレード",
+        "ko": "떠들썩한 풋라이트 퍼레이드"
+      },
+      "description": {
+        "pt-BR": "Concede a todos os aliados o efeito de Dançarino de Apoio, com duração de #1[i] rodada(s). A duração diminui em 1 a cada início de rodada {M#do Desbravador}{F#da Desbravadora}. Aliados com o efeito Dançarino de Apoio têm seu Efeito de Quebra aumentado em #3[i]%. Quando atacam alvos que estão no estado de Quebra de Fraqueza, a Redução de Tenacidade desse ataque será convertida em uma instância de Super Dano de Quebra.",
+        "en": "Grants all allies the Backup Dancer effect, lasting for #1[i] turn(s). This duration decreases by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by #3[i]%. And when they attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.",
+        "zh-CN": "为我方全体附上【伴舞】效果，持续#1[i]回合，开拓者每回合开始时持续回合数减1。持有【伴舞】的我方目标击破特攻提高#3[i]%，并且攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次超击破伤害。",
+        "ja": "味方全体に「バックダンス」を付与する、#1[i]ターン継続。開拓者のターンが回ってくるたびに「バックダンス」の継続時間-1ターン。「バックダンス」を持つ味方の撃破特効+#3[i]%、弱点撃破状態の敵に攻撃を行った後、その回の攻撃の削靭値を1回の超撃破ダメージに転換する。",
+        "ko": "모든 아군에게 [댄스 파트너] 효과를 부여한다. 지속 시간: #1[i]턴. 개척자의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. [댄스 파트너]를 보유한 아군의 격파 특수효과가 #3[i]% 증가하고, 약점 격파 상태의 적을 공격하면 이번 공격의 강인성 감소 수치가 1회의 슈퍼 격파 피해로 전환된다"
+      },
+      "params": [
+        [
+          3,
+          1,
+          0.15
+        ],
+        [
+          3,
+          1,
+          0.165
+        ],
+        [
+          3,
+          1,
+          0.18
+        ],
+        [
+          3,
+          1,
+          0.195
+        ],
+        [
+          3,
+          1,
+          0.21
+        ],
+        [
+          3,
+          1,
+          0.225
+        ],
+        [
+          3,
+          1,
+          0.2437
+        ],
+        [
+          3,
+          1,
+          0.2625
+        ],
+        [
+          3,
+          1,
+          0.2812
+        ],
+        [
+          3,
+          1,
+          0.3
+        ],
+        [
+          3,
+          1,
+          0.315
+        ],
+        [
+          3,
+          1,
+          0.33
+        ],
+        [
+          3,
+          1,
+          0.345
+        ],
+        [
+          3,
+          1,
+          0.36
+        ],
+        [
+          3,
+          1,
+          0.375
+        ]
+      ]
+    },
+    {
+      "id": 800504,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Dança Aérea Absoluta",
+        "en": "Full-on Aerial Dance",
+        "zh-CN": "全屏段的高空踏歌",
+        "ja": "エアリアルステップ",
+        "ko": "올 채널 에어리얼 댄스"
+      },
+      "description": {
+        "pt-BR": "{F#A Desbravadora}{M#O Desbravador} regenera imediatamente #1[f1] de Energia sempre que um inimigo-alvo tem sua Fraqueza Quebrada.",
+        "en": "The Trailblazer immediately regenerates #1[f1] Energy when an enemy target's Weakness is Broken.",
+        "zh-CN": "当有敌方目标的弱点被击破时，开拓者立即恢复#1[f1]点能量。",
+        "ja": "敵が弱点撃破された時、開拓者はEPを#1[f1]回復する。",
+        "ko": "적의 약점이 격파되면 개척자는 즉시 에너지를 #1[f1]pt 회복한다"
+      },
+      "params": [
+        [
+          5
+        ],
+        [
+          5.5
+        ],
+        [
+          6
+        ],
+        [
+          6.5
+        ],
+        [
+          7
+        ],
+        [
+          7.5
+        ],
+        [
+          8.125
+        ],
+        [
+          8.75
+        ],
+        [
+          9.375
+        ],
+        [
+          10
+        ],
+        [
+          10.5
+        ],
+        [
+          11
+        ],
+        [
+          11.5
+        ],
+        [
+          12
+        ],
+        [
+          12.5
+        ]
+      ]
+    },
+    {
+      "id": 800506,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 800507,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Agora! Eu sou a Banda!",
+        "en": "Now! I'm the Band!",
+        "zh-CN": "即刻！独奏团",
+        "ja": "即興！独奏団",
+        "ko": "원맨 밴드, 출격!"
+      },
+      "description": {
+        "pt-BR": "Após usar a Técnica, no início da próxima batalha, o Efeito de Quebra de todos os aliados aumenta em #1[i]% por #2[i] rodada(s).",
+        "en": "After the Technique is used, at the start of the next battle, all allies' Break Effect increases by #1[i]%, lasting for #2[i] turn(s).",
+        "zh-CN": "使用秘技后，下一次战斗开始时使我方全体的击破特攻提高#1[i]%，持续#2[i]回合。",
+        "ja": "秘技を使用した後、次の戦闘開始時、味方全体の撃破特効+#1[i]%、#2[i]ターン継続。",
+        "ko": "비술 발동 후 다음 전투 시작 시 모든 아군의 격파 특수효과가 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          0.3,
+          2
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Melhor Assento da Casa",
+        "en": "Best Seat in the House",
+        "zh-CN": "您的最佳观众席",
+        "ja": "{RUBY_B#さいこう}最高{RUBY_E#}の{RUBY_B#かんきゃくせき}観客席{RUBY_E#}",
+        "ko": "최고의 관중석"
+      },
+      "description": {
+        "pt-BR": "Recupera 1 Ponto(s) de Perícia depois de usar a Perícia pela primeira vez.",
+        "en": "After using Skill for the first time, immediately recovers 1 Skill Point(s).",
+        "zh-CN": "施放首次战技后立即回复1点战技点。",
+        "ja": "初めて戦闘スキルを発動した後、SPを1回復する。",
+        "ko": "처음으로 전투 스킬을 발동한 후 즉시 전투 스킬 포인트를 1pt 회복한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Marcha Arco-Íris da Libertação",
+        "en": "Jailbreaking Rainbowwalk",
+        "zh-CN": "越狱的跨洋彩虹",
+        "ja": "{RUBY_B#ろう}牢{RUBY_E#}を{RUBY_B#う}打{RUBY_E#}ち{RUBY_B#やぶ}破{RUBY_E#}る{RUBY_B#にじ}虹{RUBY_E#}",
+        "ko": "탈옥의 레인보우 스텝"
+      },
+      "description": {
+        "pt-BR": "No início da batalha, aumenta em 25% a Taxa de Regeneração de Energia {F#da Desbravadora}{M#do Desbravador} por 3 rodada(s).",
+        "en": "When the battle starts, the Trailblazer's Energy Regeneration Rate increases by 25%, lasting for 3 turn(s).",
+        "zh-CN": "战斗开始时，开拓者的能量恢复效率提高25%，持续3回合。",
+        "ja": "戦闘開始時、開拓者のEP回復効率+25%、3ターン継続。",
+        "ko": "전투 시작 시 개척자의 에너지 회복효율이 25% 증가한다. 지속 시간: 3턴"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Sanatório do Descanso",
+        "en": "Sanatorium for Rest Notes",
+        "zh-CN": "休止符的疗养院",
+        "ja": "{RUBY_B#きゅうしふ}休止符{RUBY_E#}の{RUBY_B#りょうよういん}療養院{RUBY_E#}",
+        "ko": "쉼표의 요양원"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Pomba na Cartola",
+        "en": "Dove in Tophat",
+        "zh-CN": "袒护白鸽的冠冕",
+        "ja": "ハトを{RUBY_B#かく}隠{RUBY_E#}す{RUBY_B#かんむり}冠{RUBY_E#}",
+        "ko": "비둘기를 감춘 모자"
+      },
+      "description": {
+        "pt-BR": "Enquanto {F#a Desbravadora}{M#o Desbravador} está em campo, aumenta o Efeito de Quebra de todos os aliados exceto o {F#da Desbravadora}{M#do Desbravador}. O aumento é igual a 15% do Efeito de Quebra {F#da Desbravadora}{M#do Desbravador}.",
+        "en": "While the Trailblazer is on the field, increases the Break Effect of all teammates (excluding the Trailblazer), by an amount equal to 15% of the Trailblazer's Break Effect.",
+        "zh-CN": "开拓者在场时，使除自身以外的队友击破特攻提高，提高数值等同于开拓者15%的击破特攻。",
+        "ja": "開拓者がフィールド上にいる時、自身以外の味方の撃破特効を、開拓者の撃破特効15%分アップする。",
+        "ko": "개척자가 필드에 있을 시, 자신을 제외한 동료의 격파 특수효과를 개척자의 격파 특수효과의 15%만큼 증가시킨다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Os Poemas Favorecem os Ritmos do Passado",
+        "en": "Poem Favors Rhythms of Old",
+        "zh-CN": "包庇旧节拍的诗",
+        "ja": "{RUBY_B#ふる}古{RUBY_E#}き{RUBY_B#せんりつ}旋律{RUBY_E#}を{RUBY_B#いだ}抱{RUBY_E#}く{RUBY_B#しへん}詩篇{RUBY_E#}",
+        "ko": "오래된 리듬을 간직한 시"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Amanhã, Descanse no Holofote",
+        "en": "Tomorrow, Rest in Spotlight",
+        "zh-CN": "明天，栖息聚光之下",
+        "ja": "{RUBY_B#あす}明日{RUBY_E#}\nスポットライトの{RUBY_B#した}下{RUBY_E#}で",
+        "ko": "내일은 스포트라이트 아래서 휴식을"
+      },
+      "description": {
+        "pt-BR": "O número de aplicações adicionais de Dano pela Perícia aumenta em 2.",
+        "en": "The number of additional DMG applications by the Skill increases by 2.",
+        "zh-CN": "战技的额外伤害次数增加2次。",
+        "ja": "戦闘スキルのヒット数+2。",
+        "ko": "전투 스킬의 피해 횟수가 추가로 2회 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/8005.png",
+    "preview": "image/character_preview/8005.png",
+    "portrait": "image/character_portrait/8005.png"
+  }
+}

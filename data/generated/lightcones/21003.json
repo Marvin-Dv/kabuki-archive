@@ -1,0 +1,65 @@
+{
+  "id": 21003,
+  "slug": "only-silence-remains",
+  "name": {
+    "pt-BR": "Apenas o Silêncio Sobrou",
+    "en": "Only Silence Remains",
+    "zh-CN": "唯有沉默",
+    "ja": "沈黙のみ",
+    "ko": "침묵만이"
+  },
+  "rarity": 4,
+  "path": "Hunt",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "\"A gente não vai descer? É a nossa parada.\"\nEle ouviu a risadinha vinda de cima. Seus olhos se mexeram, mas ele sequer olhou para o alto.\n\"Para deixar claro, a Março sempre diz que você não tem expressão, mas eu discordo.\"\n\"Há vestígios de uma atualização no banco de dados do trem, mas os resultados não foram salvos.\"\n\"Então... Que registro está dando problema?\"\nEle segurou firme a caneta e olhou para a cena sangrenta desenhada de memória no caderno.\n\"Entendi. O registro era sobre você...\"",
+    "en": "\"Shouldn't we get off? It's our stop.\"\nA chuckle came from above. His eyes moved, but he didn't look up.\n\"To be clear, March always says you're expressionless, but I don't agree.\"\n\"The train's data bank show traces of an update, but the results weren't saved.\"\n\"So... which entry were you having trouble with?\"\nHe grasped his pen tighter as he looked at the bloody scene drawn in the notebook from memory.\n\"I see. It was the one about you...\"",
+    "zh-CN": "「已经到站了，不下车吗？」\n头顶传来一声轻笑。他的眼睛动了动，没有抬头。\n「事先说明，小三月总说你面无表情，我可不这么觉得。」\n「列车智库的数据有更新输入的痕迹，但是却没保存结果。」\n「所以…哪个条目还能难住你？」\n他捏紧了笔，看着笔记本上那个仅凭印象复写而成的惨烈之景。\n「原来如此，是关于你自己的事……」",
+    "ja": "「駅に着いたのに降りないの？」\n頭上から微かな笑い声が聞こえた。彼は目を動かすだけで、顔は上げなかった。\n「念のために言っておくけど、三月ちゃんはいつもあなたを無表情だと言うけど、私はそうは思わない」\n「列車のアーカイブに新規入力の痕跡があった……でも保存結果はなかった」\n「つまり……どの項目に困ってるの？」\n彼はペンを強く握り、イメージだけで書いたノートの悲惨な状況を見た。\n「なるほど、あなた自身に関することね……」",
+    "ko": "「이미 도착했는데, 안 내려?」\n머리 위에서 작은 웃음소리가 들린다. 그는 눈만 치켜뜨고 고개는 들지 않았다.\n「미리 말하자면, Mar. 7th가 자꾸 너보고 무표정이라고 하는데, 난 그렇게 생각 안해」\n「열차 아카이브의 데이터에 업데이트한 흔적이 있는데, 결과를 저장하지 못했어」\n「그래서… 뭐가 문제야?」\n그가 펜을 움켜쥐고 노트에 기억대로 다시 쓴 참혹한 장면을 본다.\n「아, 너에 대한 일이구나…」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Registro",
+      "en": "Record",
+      "zh-CN": "记录",
+      "ja": "記録",
+      "ko": "기록"
+    },
+    "description": {
+      "pt-BR": "Aumenta em #1[i]% o ATQ do usuário. Se houver 2 inimigos ou menos em campo, aumenta em #2[i]% a Chance de CRIT do usuário.",
+      "en": "Increases the wearer's ATK by #1[i]%. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by #2[i]%.",
+      "zh-CN": "使装备者的攻击力提高#1[i]%。当场上的敌方目标数量小于等于2时，装备者的暴击率提高#2[i]%。",
+      "ja": "装備キャラの攻撃力+#1[i]%。フィールド上の敵の数が2体以下の場合、装備キャラの会心率+#2[i]%。",
+      "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 필드 위의 적이 2명 이하일 경우, 장착한 캐릭터의 치명타 확률이 #2[i]% 증가한다"
+    },
+    "params": [
+      [
+        0.16,
+        0.12
+      ],
+      [
+        0.2,
+        0.15
+      ],
+      [
+        0.24,
+        0.18
+      ],
+      [
+        0.28,
+        0.21
+      ],
+      [
+        0.32,
+        0.24
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21003.png",
+    "preview": "image/light_cone_preview/21003.png",
+    "portrait": "image/light_cone_portrait/21003.png"
+  }
+}

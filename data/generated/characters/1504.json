@@ -1,0 +1,611 @@
+{
+  "id": 1504,
+  "slug": "ashveil",
+  "name": {
+    "pt-BR": "Ashveil",
+    "en": "Ashveil",
+    "zh-CN": "不死途",
+    "ja": "不死途",
+    "ko": "애쉬베일"
+  },
+  "rarity": 5,
+  "path": "Hunt",
+  "element": "Lightning",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 150401,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Garras: Incutir Decoro",
+        "en": "Talons: Inculcate Decorum",
+        "zh-CN": "利爪，授以礼仪",
+        "ja": "鋭き爪よ、礼儀を授けよ",
+        "ko": "예절을 가르치는 발톱"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Ashveil a um único inimigo designado.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Ashveil's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于不死途#1[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体に不死途の攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 애쉬베일 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 150402,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Açoitamento: Punição do Mal",
+        "en": "Flog: Smite Evil",
+        "zh-CN": "鞭哨，逐尽恶兽",
+        "ja": "鞭と笛よ、悪獣を退けよ",
+        "ko": "짐승을 몰아내는 채찍"
+      },
+      "description": {
+        "pt-BR": "Marca um inimigo-alvo designado como \"Isca\", causando Dano de Raio igual a #1[i]% do ATQ de Ashveil a ele. Se o alvo já for a \"Isca\", causa adicionalmente Dano de Raio igual a #3[i]% do ATQ de Ashveil a ele, e recupera #5[i] Ponto(s) de Perícia. Quando a \"Isca\" existe no campo, a DEF de todos os inimigos é reduzida em #4[i]%.\nQuando não há nenhuma \"Isca\" no campo, Ashveil transforma o inimigo-alvo presente no campo com os menores PV na \"Isca\" imediatamente. O estado de \"Isca\" só tem efeito no alvo marcado mais recentemente.",
+        "en": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to #1[i]% of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to #3[i]% of Ashveil's ATK, and recovers #5[i] Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by #4[i]%.\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target.",
+        "zh-CN": "使指定敌方单体成为【饲饵】，对其造成等同于不死途#1[i]%攻击力的雷属性伤害。若该目标为【饲饵】，则额外对其造成等同于不死途#3[i]%攻击力的雷属性伤害，并恢复#5[i]点战技点。场上存在【饲饵】时，敌方全体防御力降低#4[i]%。\n场上不存在【饲饵】时，不死途立即使当前场上生命值最低的敌方单体目标成为【饲饵】，【饲饵】状态仅对最新被施加的目标生效。",
+        "ja": "指定した敵単体を「餌食」にし、不死途の攻撃力#1[i]%分の雷属性ダメージを与える。ターゲットが「餌食」の場合、さらに不死途の攻撃力#3[i]%分の雷属性ダメージを与え、SPを#5[i]回復する。フィールド上に「餌食」が存在する時、敵全体の防御力-#4[i]%。\nフィールド上に「餌食」が存在しない場合、不死途は即座にフィールド上にいる残りHPが最も低い敵単体を「餌食」にする。「餌食」状態は最後に付与したターゲットにのみ有効。",
+        "ko": "지정된 단일 적을 [미끼]로 만들고, 대상에게 애쉬베일 공격력의 #1[i]%만큼 번개 속성 피해를 가한다. 해당 목표가 [미끼]일 경우, 추가로 대상에게 애쉬베일 공격력의 #3[i]%만큼 번개 속성 피해를 가하고, 전투 스킬 포인트를 #5[i]pt 회복한다. 필드에 [미끼]가 존재할 시, 모든 적의 방어력이 #4[i]% 감소한다.\n필드에 [미끼]가 없을 시, 애쉬베일은 즉시 현재 필드의 HP가 가장 낮은 단일 적을 [미끼]로 만들며, [미끼] 상태는 가장 최근에 부여된 목표에게만 적용된다"
+      },
+      "params": [
+        [
+          1,
+          1,
+          0.5,
+          0.2,
+          1
+        ],
+        [
+          1.1,
+          1,
+          0.55,
+          0.22,
+          1
+        ],
+        [
+          1.2,
+          1,
+          0.6,
+          0.24,
+          1
+        ],
+        [
+          1.3,
+          1,
+          0.65,
+          0.26,
+          1
+        ],
+        [
+          1.4,
+          1,
+          0.7,
+          0.28,
+          1
+        ],
+        [
+          1.5,
+          1,
+          0.75,
+          0.3,
+          1
+        ],
+        [
+          1.625,
+          1,
+          0.8125,
+          0.325,
+          1
+        ],
+        [
+          1.75,
+          1,
+          0.875,
+          0.35,
+          1
+        ],
+        [
+          1.875,
+          1,
+          0.9375,
+          0.375,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          0.4,
+          1
+        ],
+        [
+          2.1,
+          1,
+          1.05,
+          0.42,
+          1
+        ],
+        [
+          2.2,
+          1,
+          1.1,
+          0.44,
+          1
+        ],
+        [
+          2.3,
+          1,
+          1.15,
+          0.46,
+          1
+        ],
+        [
+          2.4,
+          1,
+          1.2,
+          0.48,
+          1
+        ],
+        [
+          2.5,
+          1,
+          1.25,
+          0.5,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 150403,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Banquete: Apetite Insaciável",
+        "en": "Banquet: Insatiable Appetite",
+        "zh-CN": "飨宴，自始无终",
+        "ja": "饗宴の幕、開けば閉じず",
+        "ko": "끝나지 않는 향연"
+      },
+      "description": {
+        "pt-BR": "Faz com que um inimigo designado se torne a \"Isca\", causando Dano de Raio igual a #1[i]% do ATQ de Ashveil a ele. Depois, imediatamente desfere 1 instância do Ataque Extra aprimorado do Talento contra a \"Isca\". E Ashveil ganha #2[i] de Carga.\nEsse Ataque Extra aprimorado do Talento não consome Carga. Sempre que \"Gula\" atingir #3[i] acúmulo(s) ou mais, consome #3[i] acúmulo(s) de \"Gula\" para causar adicionalmente 1 instância de Dano de Raio igual a #4[i]% do ATQ de Ashveil. E quando essa instância de Ataque Extra causar um golpe fatal ao alvo, ele continuará causando Dano a uma nova \"Isca\". Isso ativa até que \"Gula\" se torne menor que #3[i] acúmulo(s). Se todos os inimigos-alvo atualmente no Campo tiverem recebido golpes fatais, o Ataque Extra aprimorado do Talento terminará imediatamente.",
+        "en": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to #1[i]% of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's Follow-Up ATK against the \"Bait.\" And Ashveil gains #2[i] Charge.\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches #3[i] stack(s) or more, consumes #3[i] stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to #4[i]% of Ashveil's ATK. And when this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than #3[i] stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's Follow-Up ATK will immediately end.",
+        "zh-CN": "使指定敌方单体成为【饲饵】，对其造成等同于不死途#1[i]%攻击力的雷属性伤害，随后立即对【饲饵】发动1次获得强化的天赋追加攻击，且不死途获得#2[i]点充能。\n强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗#3[i]层【婪酣】可额外造成1次等同于不死途#4[i]%攻击力的雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于#3[i]层。若当前场上的所有敌方目标都受到致命攻击后强化天赋追加攻击会立即结束。",
+        "ja": "指定した敵単体を「餌食」にし、不死途の攻撃力#1[i]%分の雷属性ダメージを与える。その後、「餌食」に対し、即座に強化された天賦による追加攻撃を1回行い、不死途はチャージを#2[i]獲得する。この回の強化された天賦による追加攻撃はチャージを消費しない。\nこの時、所持している「暴食」が#3[i]層以上である限り、「暴食」を#3[i]層消費し、追加で不死途の攻撃力#4[i]%分の雷属性ダメージを1回与える。\nまた、この回の追加攻撃の発動中、ターゲットにHPが0になる攻撃を与えた時、所持している「暴食」が#3[i]層未満になるまで、不死途は新しく「餌食」となった敵に、引き続きダメージを与える。フィールド上にいるすべての敵がHPが0になる攻撃を受けた後、強化された天賦による追加攻撃は即座に終了する。",
+        "ko": "지정된 단일 적을 [미끼]로 만들고, 대상에게 애쉬베일 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, 이후 즉시 [미끼]에게 강화된 특성 추가 공격을 1회 발동하고, 애쉬베일은 충전을 #2[i]pt 획득한다.\n강화된 특성 추가 공격은 충전을 소모하지 않는다. [탐닉]이 #3[i]스택 이상일 시, 보유한 [탐닉] #3[i]스택당 상응하는 스택을 소모해 추가로 애쉬베일 공격력의 #4[i]%만큼 번개 속성 피해를 1회 가하며, 이번 추가 공격 도중 목표에게 치명적인 공격을 가했을 경우, [탐닉]이 #3[i]스택 미만이 될 때까지 계속해서 새로운 [미끼]에게 피해를 가한다. 현재 필드 위 모든 적이 치명적인 공격을 받으면 강화된 특성 추가 공격은 즉시 종료된다"
+      },
+      "params": [
+        [
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          2.2,
+          3,
+          4,
+          1.1
+        ],
+        [
+          2.4,
+          3,
+          4,
+          1.2
+        ],
+        [
+          2.6,
+          3,
+          4,
+          1.3
+        ],
+        [
+          2.8,
+          3,
+          4,
+          1.4
+        ],
+        [
+          3,
+          3,
+          4,
+          1.5
+        ],
+        [
+          3.25,
+          3,
+          4,
+          1.625
+        ],
+        [
+          3.5,
+          3,
+          4,
+          1.75
+        ],
+        [
+          3.75,
+          3,
+          4,
+          1.875
+        ],
+        [
+          4,
+          3,
+          4,
+          2
+        ],
+        [
+          4.2,
+          3,
+          4,
+          2.1
+        ],
+        [
+          4.4,
+          3,
+          4,
+          2.2
+        ],
+        [
+          4.6,
+          3,
+          4,
+          2.3
+        ],
+        [
+          4.8,
+          3,
+          4,
+          2.4
+        ],
+        [
+          5,
+          3,
+          4,
+          2.5
+        ]
+      ]
+    },
+    {
+      "id": 150404,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Rancor: Represália da Inimizade",
+        "en": "Rancor: Enmity Reprisal",
+        "zh-CN": "宿怨，切齿奉还",
+        "ja": "深き怨み、牙で晴らそう",
+        "ko": "이를 갈며 갚을 숙원"
+      },
+      "description": {
+        "pt-BR": "Ashveil tem uma Carga inicial de #1[i], e pode possuir até um máximo de #2[i]. Após a \"Isca\" ser atacada por outros aliados-alvo, Ashveil regenera uma quantidade fixa de #7[i] de Energia, e depois consome #3[i] Carga(s) para desferir um Ataque Extra contra a \"Isca\", causando Dano de Raio igual a #4[i]% do ATQ de Ashveil. Depois, ganha #5[i] acúmulo(s) de \"Gula\", acumulando até um máximo de #6[i] vez(es).",
+        "en": "Ashveil has an initial Charge of #1[i] and can hold up to a max of #2[i]. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of #7[i] Energy, then consumes #3[i] Charge to launch Follow-Up ATK against the \"Bait,\" dealing Lightning DMG equal to #4[i]% of Ashveil's ATK. Afterwards, gains #5[i] stack(s) of \"Gluttony,\" which can stack up to #6[i].",
+        "zh-CN": "不死途初始拥有#1[i]点充能，最多拥有#2[i]点充能。【饲饵】受到我方其他目标攻击后，不死途固定恢复#7[i]点能量，随后消耗#3[i]点充能对【饲饵】发动追加攻击，造成等同于不死途#4[i]%攻击力的雷属性伤害，随后获得#5[i]层【婪酣】，最多叠加#6[i]层。",
+        "ja": "不死途の初期チャージは#1[i]。最大で#2[i]まで。「餌食」が不死途以外の味方の攻撃を受けた後、不死途はEPを#7[i]回復する。その後、チャージを#3[i]消費して「餌食」に追加攻撃を行い、不死途の攻撃力#4[i]%分の雷属性ダメージを与え、「暴食」を#5[i]層獲得する。「暴食」は最大で#6[i]層まで累積できる。",
+        "ko": "애쉬베일은 기본 상태에서 충전을 #1[i]pt 보유하며, 최대 #2[i]pt 보유할 수 있다. [미끼]가 다른 아군에게 피격되면, 애쉬베일은 고정으로 에너지를 #7[i]pt 회복하고, 이후 충전을 #3[i]pt 소모해 [미끼]에게 추가 공격을 발동하여 애쉬베일 공격력의 #4[i]%만큼 번개 속성 피해를 가하고, 이후 [탐닉]을 #5[i]스택 획득한다, 최대 중첩수: #6[i]스택"
+      },
+      "params": [
+        [
+          2,
+          3,
+          1,
+          1,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.1,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.2,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.3,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.4,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.5,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.625,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.75,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          1.875,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          2,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          2.1,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          2.2,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          2.3,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          2.4,
+          2,
+          12,
+          8
+        ],
+        [
+          2,
+          3,
+          1,
+          2.5,
+          2,
+          12,
+          8
+        ]
+      ]
+    },
+    {
+      "id": 150406,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Garras: Incutir Decoro",
+        "en": "Talons: Inculcate Decorum",
+        "zh-CN": "利爪，授以礼仪",
+        "ja": "鋭き爪よ、礼儀を授けよ",
+        "ko": "예절을 가르치는 발톱"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 150407,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Devorar: A Mão Repugnante",
+        "en": "Devour: O Loathsome Hand",
+        "zh-CN": "吃吧，可憎的手",
+        "ja": "憎き手よ、食らうがいい",
+        "ko": "먹어라, 가증스러운 손이여"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Técnica, inflige \"Confusão\" aos inimigos dentro de uma área definida por #1[i] segundo(s). Inimigos afligidos com \"Confusão\" não atacarão aliados-alvo ativamente.\nAo entrar em combate atacando ativamente um inimigo afligido com \"Confusão\", causa Dano de Raio igual a #2[i]% do ATQ de Ashveil a todos os inimigos e concede #3[i] ponto(s) de Carga a Ashveil.",
+        "en": "After using Technique, inflicts Daze on enemies within a set area for #1[i] second(s). Dazed enemies will not actively attack ally targets.\nWhen entering combat via actively attacking a Dazed enemy, deals Lightning DMG to all enemies equal to #2[i]% of Ashveil's ATK, and grants Ashveil #3[i] Charge.",
+        "zh-CN": "使用秘技后使一定区域内的敌人陷入#1[i]秒的晕眩状态，晕眩状态下敌人不会主动攻击我方目标。\n若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于不死途攻击力#2[i]%的雷属性伤害，且不死途获得#3[i]点充能。",
+        "ja": "秘技を使用した後、一定範囲内の敵を#1[i]秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った時、敵全体に不死途の攻撃力#2[i]%分の雷属性ダメージを与え、不死途はチャージを#3[i]獲得する。",
+        "ko": "비술 사용 후 일정 구역 내의 적을 #1[i]초 동안 현기증 상태에 빠트린다. 현기증 상태인 적은 아군을 선공할 수 없다.\n현기증 상태에 빠진 적을 선공해 전투 진입 시, 모든 적에게 애쉬베일 공격력의 #2[i]%만큼 번개 속성 피해를 가하고, 애쉬베일이 충전을 #3[i]pt 획득한다"
+      },
+      "params": [
+        [
+          10,
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Atenção: Não se Aventure na Lua Cheia",
+        "en": "Beware: Venture Not at Full Moon",
+        "zh-CN": "小心，满月不可外出",
+        "ja": "ご{RUBY_B#ようじん}用心{RUBY_E#}、\n{RUBY_B#まんげつ}満月{RUBY_E#}の{RUBY_B#よる}夜{RUBY_E#}は{RUBY_B#そと}外{RUBY_E#}に{RUBY_B#で}出{RUBY_E#}るな",
+        "ko": "조심, 만월엔 외출 금지"
+      },
+      "description": {
+        "pt-BR": "Enquanto Ashveil está em campo, aumenta o Dano recebido por todos os inimigos em 24%. Quando a porcentagem de PV atual de um inimigo-alvo for 50% ou menor, o Dano recebido por ele aumenta para 36%.",
+        "en": "While Ashveil is on the field, increases DMG taken by all enemies by 24%. When an enemy target's current HP percentage is 50% or lower, the DMG they take increases to 36%.",
+        "zh-CN": "不死途在场时，敌方全体受到的伤害提高24%。当敌方目标当前生命值百分比小于等于50%时，其受到的伤害提高至36%。",
+        "ja": "不死途がフィールドにいる時、敵全体の受けるダメージ+24%。残りHPの割合が50%以下の敵が受けるダメージアップ効果は36%にアップする。",
+        "ko": "애쉬베일이 필드에 있을 시, 모든 적이 받는 피해가 24% 증가한다. 적 현재 HP 백분율이 50% 이하일 시, 대상이 받는 피해가 36%로 증가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Batidas: Onde os Risos Ecoam",
+        "en": "Knock: Where Snickers Echo",
+        "zh-CN": "敲门，屋内空余窃笑",
+        "ja": "ノック、\n{RUBY_B#なか}中{RUBY_E#}に{RUBY_B#ひび}響{RUBY_E#}くのは{RUBY_B#しの}忍{RUBY_E#}び{RUBY_B#わら}笑{RUBY_E#}い",
+        "ko": "노크, 방 안엔 비웃음만이"
+      },
+      "description": {
+        "pt-BR": "O limite máximo de acúmulos de \"Gula\" aumenta para 18. Sempre que Ashveil realizar o Ataque Extra do Talento aprimorado, restaura 35% dos acúmulos de \"Gula\" removidos.",
+        "en": "The max stack limit of \"Gluttony\" increases to 18. After each time Ashveil launches the enhanced Talent's Follow-Up ATK, refunds 35% of the removed \"Gluttony\" stacks.",
+        "zh-CN": "【婪酣】叠加上限提高至18层，每当不死途发动强化天赋追加攻击后，返还所移除【婪酣】层数的35%。",
+        "ja": "「暴食」の最大累積可能層数が18層になる。不死途が強化された天賦による追加攻撃を行った後、消費した「暴食」層数の35%が返還される。",
+        "ko": "[탐닉] 중첩 상한이 18스택으로 증가하며, 애쉬베일이 강화된 특성 추가 공격을 발동할 때마다 해제된 [탐닉] 스택 수의 35%를 반환한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Silêncio: Subentendido Entre Amigos",
+        "en": "Hush: Unsaid Between Friends",
+        "zh-CN": "沉默，老友各怀心事",
+        "ja": "{RUBY_B#しず}静{RUBY_E#}かに、\n{RUBY_B#きゅうゆう}旧友{RUBY_E#}たちの{RUBY_B#ひ}秘{RUBY_E#}めた{RUBY_B#おも}想{RUBY_E#}い",
+        "ko": "침묵, 서로 다른 속사정"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Atenção: Engolir a Verdade por Inteira",
+        "en": "Heed: Swallow Truth Whole",
+        "zh-CN": "切记，不必咀嚼真相",
+        "ja": "{RUBY_B#めい}銘{RUBY_E#}じろ、\n{RUBY_B#しんじつ}真実{RUBY_E#}に{RUBY_B#そしゃく}咀嚼{RUBY_E#}は{RUBY_B#ひつよう}必要{RUBY_E#}ない",
+        "ko": "명심, 진상을 곱씹을 필요 없이"
+      },
+      "description": {
+        "pt-BR": "Quando Ashveil usa a sua Perícia Suprema, aumenta o ATQ em 40% por 3 rodada(s).",
+        "en": "When Ashveil uses Ultimate, increases ATK by 40% for 3 turn(s).",
+        "zh-CN": "不死途施放终结技时，攻击力提高40%，持续3回合。",
+        "ja": "不死途が必殺技を発動する時、攻撃力+40%、3ターン継続。",
+        "ko": "애쉬베일이 필살기 발동 시 공격력이 40% 증가한다, 지속 시간: 3턴"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Cuidado: O Detetive Se Torna o Assassino",
+        "en": "Caution: Sleuth Turns Slayer",
+        "zh-CN": "提醒，侦探亦是凶手",
+        "ja": "{RUBY_B#ちゅうこく}忠告{RUBY_E#}を、\n{RUBY_B#たんてい}探偵{RUBY_E#}もまた{RUBY_B#はんにん}犯人{RUBY_E#}である",
+        "ko": "상기, 탐정이자 범인"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Final: E Então Não Restou Nenhum",
+        "en": "Finale: And Then There Were None",
+        "zh-CN": "结局，或许无人生还",
+        "ja": "{RUBY_B#まくぎ}幕切{RUBY_E#}れ、\n{RUBY_B#ある}或{RUBY_E#}いは{RUBY_B#だれ}誰{RUBY_E#}もいなくなる",
+        "ko": "결말, 그리고 어쩌면 아무도 없었다"
+      },
+      "description": {
+        "pt-BR": "Quando a \"Isca\" existir no campo, reduz a RES a Todos os Tipos de todos os inimigos em 20%. Para cada 1 acúmulo de \"Gula\" que Ashveil ganhou, o Dano causado aumenta em 4%. Esse efeito pode acumular até 30 vez(es).",
+        "en": "When the \"Bait\" exists on the field, reduces all enemies' All-Type RES by 20%. For every 1 stack of \"Gluttony\" Ashveil has gained, the DMG dealt increases by 4%. This effect can stack up to 30 time(s).",
+        "zh-CN": "当场上存在【饲饵】时，敌方全体的全属性抗性降低20%。不死途每获得过1层【婪酣】，造成的伤害提高4%，该效果最多叠加30层。",
+        "ja": "フィールド上に「餌食」が存在する時、敵全体の全属性耐性-20%。不死途が「暴食」を1層獲得するたびに、与えるダメージ+4%、最大で30層累積できる。",
+        "ko": "필드에 [미끼]가 존재할 경우, 모든 적의 모든 속성 저항이 20% 감소한다. 애쉬베일은 [탐닉]을 1스택 획득할 때마다 가하는 피해가 4% 증가한다, 해당 효과 최대 중첩수: 30스택"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1504.png",
+    "preview": "image/character_preview/1504.png",
+    "portrait": "image/character_portrait/1504.png"
+  }
+}

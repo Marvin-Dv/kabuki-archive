@@ -1,0 +1,65 @@
+{
+  "id": 23000,
+  "slug": "night-on-the-milky-way",
+  "name": {
+    "pt-BR": "Noite na Via Láctea",
+    "en": "Night on the Milky Way",
+    "zh-CN": "银河铁道之夜",
+    "ja": "銀河鉄道の夜",
+    "ko": "은하철도의 밤"
+  },
+  "rarity": 5,
+  "path": "Erudition",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Quando a estrada for uma preocupação, olhe novamente para cima.\nQuando as estrelas olham com carinho para baixo, o seu coração é acolhido.\nCada pensamento e cada sussurro\nse torna uma experiência de vida que jamais nos deixa.",
+    "en": "If you are concerned for the road, just look up again.\nWhen the stars look gently down, the heart would already be soaring.\nEvery thought and every whisper,\nbecomes a life experience that would never leave.",
+    "zh-CN": "若是担心脚下，只需再度抬头凝望，\n当繁星温柔地注视，心已乘风而上。\n每一个念想，每一声低语，\n都化作生命中的承载，再不会失去。",
+    "ja": "足元が心配なら、もう一度頭を上げて見渡せばいい、\n星々が優しく注目する時、心は既に風に乗り飛び上がっている。\n全ての想念、全ての囁きが、\n命の支えとなり、いつまでも付き添ってくれる。",
+    "ko": "발밑이 걱정된다면 다시 한번 하늘을 올려다 보라.\n별들이 보내주는 부드러운 시선을 느끼면 마음은 바람을 타고 날아오를 테니까.\n떠오르는 생각과 들려오는 속삭임은\n모두 언제까지나 삶의 버팀목이 되어줄 것이다"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Enxame de Meteoros",
+      "en": "Meteor Swarm",
+      "zh-CN": "流星群",
+      "ja": "流星群",
+      "ko": "유성군"
+    },
+    "description": {
+      "pt-BR": "Para cada inimigo no campo, aumenta o ATQ do usuário em #2[f1]%, até 5 acúmulos. Quando um inimigo é infligido com Quebra de Fraqueza, o Dano causado pelo usuário aumenta em #1[i]% por 1 rodada.",
+      "en": "For every enemy on the field, increases the wearer's ATK by #2[f1]%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by #1[i]% for 1 turn.",
+      "zh-CN": "场上每有1个敌方目标，使装备者的攻击力提高#2[f1]%，该效果最多叠加5层。当有敌方目标的弱点被击破时，装备者造成的伤害提高#1[i]%，持续1回合。",
+      "ja": "フィールド上にいる敵1体につき、装備キャラの攻撃力+#2[f1]%、この効果は最大で5層累積できる。敵が弱点撃破された時、装備キャラの与ダメージ+#1[i]%、1ターン継続。",
+      "ko": "필드에 적이 1기 있을 때마다 장착한 캐릭터의 공격력이 #2[f1]% 증가한다. 해당 효과 최대 중첩수: 5스택. 적의 약점이 격파될 시 장착한 캐릭터가 가하는 피해가 #1[i]% 증가한다. 지속 시간: 1턴"
+    },
+    "params": [
+      [
+        0.3,
+        0.09
+      ],
+      [
+        0.35,
+        0.105
+      ],
+      [
+        0.4,
+        0.12
+      ],
+      [
+        0.45,
+        0.135
+      ],
+      [
+        0.5,
+        0.15
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/23000.png",
+    "preview": "image/light_cone_preview/23000.png",
+    "portrait": "image/light_cone_portrait/23000.png"
+  }
+}

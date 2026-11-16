@@ -1,0 +1,75 @@
+{
+  "id": 21061,
+  "slug": "holiday-thermae-escapade",
+  "name": {
+    "pt-BR": "Fuga Termal de Férias",
+    "en": "Holiday Thermae Escapade",
+    "zh-CN": "假日浴场大冒险",
+    "ja": "休日のバルネア大冒険",
+    "ko": "휴일의 목욕탕 대모험"
+  },
+  "rarity": 4,
+  "path": "Nihility",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "\"Cinny, vamos experimentar aquele novo banho especial que acabou de abrir!\"\nDepois de concluir suas tarefas médicas em Okhema, a garota seguiu a criança curiosa até o eclético conjunto de piscinas.\n\"Que tal uma massagem com suco de tomate?\"\nFitando as mãos carmesim da atendente, ela abraçou a empolgada Ikinha e recuou...\n\"Prefiro algo... que dê para beber...\"\n\"Massagem dromas nas costas, com desconto por tempo limitado!\"\nUm dromas curioso abaixou a cabeça, seu hálito quente bagunçando os cabelos dela.\n\"T-talvez da próxima vez!\"\n\"Banho de ervas, fortalece o corpo e a alma! Quantos no seu grupo?\"\nAtraída pelo aroma das ervas, ela mergulhou o pé na piscina com hesitação.\n\"Parece... saudável...\"\n\"Duu, duu-duu!\"\nIkinha flutuava feliz de costas.\n\"Acho que até você precisava de uma pausa de tudo o que temos feito ultimamente...\"\nNesse raro dia de folga, tomando suco de uva, a garota conversava com a criança ruiva sobre tudo: de dicas para dormir a receitas de doces.\n\"Ai! Ikinha!\"\n\"Duu...\"\n\"Segura firme, Ikinha!\"",
+    "en": "\"Cinny, let's go try out that new special bath that recently opened.\"\nAfter finishing her medical duties in Okhema, the girl followed the curious child into the eclectic set of pools.\n\"How about a Tomato Juice Massage?\"\nStaring at the attendant's crimson-stained hands, she hugged the eager Little Ica and retreated—\n\"I prefer something... drinkable....\"\n\"Dromas back massage, limited-time discount!\"\nA curious dromas lowered its head, its hot breath tousling her hair.\n\"N—Next time, maybe!\"\n\"Herbal Bath — strengthens body and soul! How many in your party?\"\nLured by the fragrant herbs, she tentatively dipped a foot into the pool.\n\"This... seems healthy...\"\n\"Doot, doot-doot!\"\nLittle Ica floated blissfully on its back.\n\"Guess even you needed a break from all we've been doing recently...\"\nOn this rare day off, sipping grape juice, the girl chatted with the red-haired child about everything from sleep tips to pastry recipes.\n\"Oh no—Little Ica!\"\nThe child's shriek shattered the bathhouse's calm.\n\"Doot...\"\n\"Hold on, Little Ica!\"",
+    "zh-CN": "「小风堇，我们一起去试试最近新开的特色浴场！」\n女孩在奥赫玛完成诊治，好奇地同孩童走进那形形色色的浴池。\n「试试水果汁按摩？」\n看着那鲜红的双手，女孩抱住跃跃欲试的小伊卡向后退去——\n「我还是喜欢…喝的……」\n「大地兽踩背，限时优惠喽！」\n好奇的驮兽低下头颅，鼻息吹动女孩的头发。\n「下…下次一定！」\n「药草浴池，强身健体，您几位？」\n闻着馨香的草药香味，女孩试探着踏入池水。\n「这应该很养生吧……」\n「嘟，嘟嘟！」\n小伊卡在水中欢快地仰泳。\n「这些天来，它也累坏了呢……」\n在这难得的假期，女孩喝着葡萄汁，与红发孩童一直从睡眠的秘诀聊到点心的做法。\n「不好，小…小伊卡！」\n孩童的惊呼打破了浴池的平静。\n「嘟……」\n「小伊卡，坚持住！」",
+    "ja": "「ヒアンシーちゃん、一緒に新ちくオープンちたバルネアに行ってみない？」\n少女はオクヘイマでの診療を終えた後、好奇心旺盛な子供のように次々とピュエロスを試して回った。\n「フルーツジュースのマッサージ、試してみませんか？」\n真っ赤に染まった両手を見た少女は、イカルンを抱きしめながら後ずさった――\n「わたしはやっぱり…飲むほうが好きですね……」\n「大地獣の背中ふみふみマッサージ、割引中だよ！」\n大地獣は頭を下げ、その鼻息で少女の髪を揺らした。\n「ま…また今度にします！」\n「薬草のピュエロスなので健康に良いですよ。何名様でご利用になられますか？」\n香ばしい薬草の匂いを嗅ぎながら、少女はゆっくりと中に入ってみた。\n「あ…すごく健康に良さそうです……」\n「ブル、プー！」\nイカルンも嬉しそうに泳いでいる。\n「ここ数日でかなり疲れが溜まってたみたいですね……」\nこの貴重な休日に、少女はブドウジュースを飲みながら、赤毛の女の子と「ぐっすり眠るコツ」や、「スイーツ作りの秘訣」などを思う存分話し合った。\n「大変、イ…イカルン！」\nその時、少女の叫び声がバルネアの静寂を破った。\n「ブルル……」\n「イカルン、しっかり！」",
+    "ko": "「히아, 우리 새로 생긴 특색 목욕탕에 가보자!」\n오크마에서 진료를 마친 소녀는 호기심에 가득 찬 채로 아이와 함께 각양각색의 목욕탕에 들어갔다.\n「과일즙 안마, 한번 받아 보실래요?」\n소녀는 붉은 두 손을 보곤, 의욕 넘치는 이카를 껴안은 채 몇걸음 뒤로 물러났다——\n「과일즙은… 마시는 걸 더 선호해서요……」\n「드로마스가 등 밟아드립니다! 기간 한정 할인 중이에요!」\n호기심 많은 드로마스가 고개를 숙이자, 콧바람이 소녀의 머리카락을 스쳤다.\n「다, 다음에 꼭 해볼게요!」\n「몸이 건강해지는 약초탕입니다. 몇 분이세요?」\n소녀는 향긋한 약초 향을 맡으며 조심스레 탕 안으로 발을 들였다.\n「몸에 아주 좋을 것 같아요……」\n「두, 두두!」\n이카가 물속에서 신나게 배영을 하기 시작했다.\n「이카도 많이 지쳤나보네……」\n모처럼의 휴가에 소녀는 포도즙을 마시며 적발의 아이와 잠을 잘 자는 비결부터 디저트를 만드는 방법까지 다양한 이야기를 나눴다.\n「큰일이야… 이, 이카가!」\n놀란 아이의 외침이 목욕탕의 고요함을 깨뜨렸다.\n「두……」\n「이카, 조금만 버텨!」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Relaxe",
+      "en": "Chill Out",
+      "zh-CN": "冷静一下",
+      "ja": "落ち着く",
+      "ko": "진정해"
+    },
+    "description": {
+      "pt-BR": "Aumenta o Dano causado pelo usuário em #1[i]%. Após o usuário atacar, há uma chance-base de #2[i]% de que o alvo atacado sofra Vulnerabilidade, aumentando o Dano que recebe em #3[i]% por #4[i] rodada(s). Efeitos do mesmo tipo não podem acumular.",
+      "en": "Increases the wearer's DMG dealt by #1[i]%. After the wearer attacks, there is a #2[i]% base chance to inflict the attacked target with Vulnerability, increasing the DMG they receive by #3[i]% for #4[i] turn(s). Effects of the same type cannot stack.",
+      "zh-CN": "使装备者造成的伤害提高#1[i]%。装备者攻击后，有#2[i]%基础概率使受到攻击的目标陷入易伤状态，受到的伤害提高#3[i]%，持续#4[i]回合。同类效果无法叠加。",
+      "ja": "装備キャラの与ダメージ+#1[i]%。装備キャラが攻撃を行った後、#2[i]%の基礎確率で攻撃を受けた敵を被ダメージアップ状態にする。状態中、敵の受けるダメージ+#3[i]%、#4[i]ターン継続。同系統のスキルは累積できない。",
+      "ko": "장착한 캐릭터가 가하는 피해가 #1[i]% 증가한다. 장착한 캐릭터가 공격 후 피격된 목표를 #2[i]%의 기본 확률로 취약 상태에 빠트리고 받는 피해를 #3[i]% 증가시킨다, 지속 시간: #4[i]턴. 같은 유형의 효과는 중첩되지 않는다"
+    },
+    "params": [
+      [
+        0.16,
+        1,
+        0.1,
+        2
+      ],
+      [
+        0.2,
+        1,
+        0.115,
+        2
+      ],
+      [
+        0.24,
+        1,
+        0.13,
+        2
+      ],
+      [
+        0.28,
+        1,
+        0.145,
+        2
+      ],
+      [
+        0.32,
+        1,
+        0.16,
+        2
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21061.png",
+    "preview": "image/light_cone_preview/21061.png",
+    "portrait": "image/light_cone_portrait/21061.png"
+  }
+}

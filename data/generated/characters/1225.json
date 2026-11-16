@@ -1,0 +1,567 @@
+{
+  "id": 1225,
+  "slug": "fugue",
+  "name": {
+    "pt-BR": "Fugue",
+    "en": "Fugue",
+    "zh-CN": "忘归人",
+    "ja": "帰忘の流離人",
+    "ko": "망귀인"
+  },
+  "rarity": 5,
+  "path": "Nihility",
+  "element": "Fire",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 122501,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Feixe Radiante",
+        "en": "Radiant Streak",
+        "zh-CN": "焕焕辰尾",
+        "ja": "燦然たる日月の尾",
+        "ko": "빛나는 꼬리별"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Fugue a uma unidade inimiga designada.",
+        "en": "Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于忘归人#1[i]%攻击力的火属性伤害。",
+        "ja": "指定した敵単体に帰忘の流離人の攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 망귀인 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 122502,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "A Virtude Traz Felicidade",
+        "en": "Virtue Beckons Bliss",
+        "zh-CN": "有道祥见，衔书摇风",
+        "ja": "義を有せば吉兆を招く",
+        "ko": "현인의 길조, 천명의 부채"
+      },
+      "description": {
+        "pt-BR": "Concede a um aliado designado a \"Prece Vulpe\". Entra no estado de \"Abrasamento Tórrido\", que dura #1[i] rodada(s). A duração é reduzida em 1 no início de cada rodada de Fugue. A \"Prece Vulpe\" só tem efeito no alvo mais recente da Perícia de Fugue.\nO aliado-alvo com \"Prece Vulpe\" aumenta seu Efeito de Quebra em #2[i]% e também pode reduzir a Tenacidade ao atacar inimigos que não possuem o Tipo de Fraqueza correspondente, com um efeito equivalente a #6[i]% do valor original de Redução de Tenacidade. Isso não acumula com outros efeitos de Redução de Tenacidade que também ignoram Tipo de Fraqueza.\nEnquanto está no estado de \"Abrasamento Tórrido\", Fugue aprimora seu ATQ Básico. Sempre que um aliado com \"Prece Vulpe\" ataca, Fugue tem uma chance-base de #3[i]% de reduzir a DEF do inimigo-alvo atacado em #4[i]%, com duração de #5[i] rodada(s).",
+        "en": "Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for #1[i] turn(s). The duration decreases by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\nThe ally target with \"Foxian Prayer\" increases their Break Effect by #2[i]% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to #6[i]% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a #3[i]% base chance to reduce the attacked enemy target's DEF by #4[i]%, lasting for #5[i] turn(s).",
+        "zh-CN": "使指定我方单体获得【狐祈】，并使自身进入【炽灼】状态，持续#1[i]回合，忘归人每回合开始时持续回合数减1，且【狐祈】仅对忘归人战技最新的施放目标生效。\n持有【狐祈】的我方目标，击破特攻提高#2[i]%，攻击没有对应属性弱点的敌人也能削减韧性，效果等同于原削韧值的#6[i]%，无法与其他无视弱点属性削韧效果叠加。\n处于【炽灼】状态时，忘归人普攻获得强化。持有【狐祈】的我方目标每次施放攻击时，忘归人有#3[i]%的基础概率使受到攻击的敌方目标防御力降低#4[i]%，持续#5[i]回合。",
+        "ja": "指定した味方単体に「狐の祈り」を付与し、自身は「灼熱」状態になる、#1[i]ターン継続。帰忘の流離人のターンが回ってくるたびに継続時間-1ターン。「狐の祈り」は最後に指定したスキルターゲットにのみ効果を発揮する。\n「狐の祈り」が付与されている味方の撃破特効+#2[i]%、かつ攻撃を行う際、対応する弱点属性を持たない敵の靭性値を、本来の削靭値#6[i]%分削る。この効果は、他の弱点属性を無視して靭性を削る効果と重ね掛けできない。\n帰忘の流離人が「灼熱」状態の時、通常攻撃「燦然たる日月の尾」が「緩緩たる熾炎」に強化される。「狐の祈り」が付与されている味方が攻撃を行う時、#3[i]%の基礎確率で攻撃を受ける敵の防御力-#4[i]%、#5[i]ターン継続。なお、防御力ダウン効果の付与は帰忘の流離人が行ったものとして扱う。",
+        "ko": "지정된 단일 아군이 [여우의 기도]를 획득하고 자신은 [염화] 상태에 진입한다, 지속 시간: #1[i]턴. 망귀인의 턴이 시작될 때마다 지속 턴 수가 1 감소하고, [여우의 기도]는 최근 망귀인의 전투 스킬 대상이 된 목표에게만 적용된다.\n[여우의 기도]를 보유한 아군의 격파 특수효과가 #2[i]% 증가한다. 대응하는 약점 속성을 보유하지 않은 적을 공격해도 강인성을 감소시킬 수 있다. 효과는 기존 강인성 감소 수치의 #6[i]%이며, 약점 속성을 무시하는 다른 강인성 감소 효과와 중첩될 수 없다.\n[염화] 상태일 시 망귀인의 일반 공격이 강화된다. [여우의 기도]를 보유한 아군이 공격을 발동할 때마다 망귀인은 #3[i]%의 기본 확률로 피격된 적의 방어력을 #4[i]% 감소시킨다, 지속 시간: #5[i]턴"
+      },
+      "params": [
+        [
+          3,
+          0.15,
+          1,
+          0.08,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.165,
+          1,
+          0.09,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.18,
+          1,
+          0.1,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.195,
+          1,
+          0.11,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.21,
+          1,
+          0.12,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.225,
+          1,
+          0.13,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.2437,
+          1,
+          0.1425,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.2625,
+          1,
+          0.155,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.2812,
+          1,
+          0.1675,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.3,
+          1,
+          0.18,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.315,
+          1,
+          0.19,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.33,
+          1,
+          0.2,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.345,
+          1,
+          0.21,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.36,
+          1,
+          0.22,
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.375,
+          1,
+          0.23,
+          2,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": 122503,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "O Esplendor Solar Brilha Sobre Todos Nós",
+        "en": "Solar Splendor Shines Upon All",
+        "zh-CN": "阳极照世，离火满缀",
+        "ja": "極陽は遍く世を照らす",
+        "ko": "세상을 비추는 태양, 하늘을 수놓는 불꽃"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo equivalente a #1[i]% do ATQ de Fugue a todos os inimigos. Este ataque ignora o Tipo de Fraqueza para reduzir a Tenacidade de todos os inimigos. Ao quebrar uma Fraqueza, ativa o efeito de Quebra de Fraqueza de Fogo.",
+        "en": "Deals Fire DMG equal to #1[i]% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.",
+        "zh-CN": "对敌方全体造成等同于忘归人#1[i]%攻击力的火属性伤害，本次攻击无视弱点属性削减敌方全体的韧性，击破弱点时，触发火属性的弱点击破效果。",
+        "ja": "敵全体に帰忘の流離人の攻撃力#1[i]%分の炎属性ダメージを与え、弱点属性を無視して敵全体の靭性を削る。敵を弱点撃破する時、炎属性の弱点撃破効果を発動する。",
+        "ko": "모든 적에게 망귀인 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, 이번 공격은 약점 속성을 무시하고 모든 적의 강인성을 감소시키며, 약점 격파 시 화염 속성의 약점 격파 효과가 발동된다"
+      },
+      "params": [
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ],
+        [
+          1.5
+        ],
+        [
+          1.625
+        ],
+        [
+          1.75
+        ],
+        [
+          1.875
+        ],
+        [
+          2
+        ],
+        [
+          2.1
+        ],
+        [
+          2.2
+        ],
+        [
+          2.3
+        ],
+        [
+          2.4
+        ],
+        [
+          2.5
+        ]
+      ]
+    },
+    {
+      "id": 122504,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "A Sorte Segue o Caminho da Virtude",
+        "en": "Fortune Follows Where Virtue Spreads",
+        "zh-CN": "善盈后福，德气流布",
+        "ja": "善満ちる所福来たる",
+        "ko": "보답받는 선행, 확산되는 덕행"
+      },
+      "description": {
+        "pt-BR": "Enquanto Fugue estiver em campo, os inimigos-alvo serão adicionalmente afetados por \"Bruma Abrasante\", equivalente a #2[i]% de sua Tenacidade Máxima. Quando a Tenacidade inicial for reduzida a 0, a \"Bruma Abrasante\" pode ser ainda mais reduzida. Ao chegar a 0, o inimigo receberá novamente Dano de Quebra de Fraqueza.\nEnquanto Fugue estiver em campo, após os aliados atacarem inimigos com Quebra de Fraqueza, a Redução de Tenacidade desse ataque será convertida em 1 instancia de #1[i]% de Super Dano de Quebra.",
+        "en": "While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can continue to be reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of #1[i]% Super Break DMG.",
+        "zh-CN": "忘归人在场时，敌方目标会被额外附上等同于自身韧性上限#2[i]%的【云火昭】，在初始韧性被削减至0时可被继续削减【云火昭】，【云火昭】被削减至0时会再次受到弱点击破伤害。\n忘归人在场时，我方攻击处于弱点击破状态的敌方目标后，会将本次攻击的削韧值转化为1次#1[i]%的超击破伤害。",
+        "ja": "帰忘の流離人がフィールド上にいる時、敵は自身の最大靭性値#2[i]%分の「雲火昭瑞」を付与される。初期靭性が0まで削られた後、引き続き「雲火昭瑞」が削られる。「雲火昭瑞」が0まで削られた時、敵は再度弱点撃破ダメージを受ける。\n帰忘の流離人がフィールド上にいる時、味方が弱点撃破状態の敵に攻撃を行った後、その回の攻撃の削靭値を1回の#1[i]%分の超撃破ダメージに転換する。",
+        "ko": "망귀인이 필드에 있을 시 적은 자신의 강인성 최대치의 #2[i]%만큼 [서조의 불빛]을 추가로 보유한다. 초기 강인성이 소진되면 계속해서 [서조의 불빛]이 감소되며, [서조의 불빛]이 소진되면 또다시 약점 격파 피해를 받는다.\n망귀인이 필드에 있을 시 아군이 약점 격파 상태의 적을 공격하면, 이번 공격의 강인성 감소 수치를 #1[i]%의 슈퍼 격파 피해로 1회 전환한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.4
+        ],
+        [
+          0.55,
+          0.4
+        ],
+        [
+          0.6,
+          0.4
+        ],
+        [
+          0.65,
+          0.4
+        ],
+        [
+          0.7,
+          0.4
+        ],
+        [
+          0.75,
+          0.4
+        ],
+        [
+          0.8125,
+          0.4
+        ],
+        [
+          0.875,
+          0.4
+        ],
+        [
+          0.9375,
+          0.4
+        ],
+        [
+          1,
+          0.4
+        ],
+        [
+          1.05,
+          0.4
+        ],
+        [
+          1.1,
+          0.4
+        ],
+        [
+          1.15,
+          0.4
+        ],
+        [
+          1.2,
+          0.4
+        ],
+        [
+          1.25,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": 122506,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 122507,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Brilho Perceptivo",
+        "en": "Percipient Shine",
+        "zh-CN": "炤炤彻旷",
+        "ja": "照照たる光輝",
+        "ko": "대지를 밝히는 통찰"
+      },
+      "description": {
+        "pt-BR": "Após usar a Técnica, inflige \"Confusão\" aos inimigos dentro de uma certa área que dura por #1[i] segundo(s). Enquanto os inimigos estão em estado de \"Confusão\", eles não atacarão ativamente aliados-alvo.\nApós entrar em combate ao atacar ativamente inimigos afligidos com \"Confusão\", a ação de Fugue é Avançada Adiante em #4[i]%, com uma chance-base de #2[i]% de infligir cada inimigo-alvo com o mesmo estado de Redução de DEF aplicado pela Perícia de Fugue, durando por #3[i] rodada(s).",
+        "en": "After using Technique, inflicts Daze on enemies within a certain area, lasting for #1[i] second(s). While Dazed, enemies will not actively attack ally targets.\nAfter entering battle via actively attacking Dazed enemies, Fugue's action advances by #4[i]%, with a #2[i]% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for #3[i] turn(s).",
+        "zh-CN": "使用秘技后使一定区域内的敌人陷入#1[i]秒的晕眩状态，晕眩状态下敌人不会主动攻击我方目标。\n若主动攻击陷入晕眩状态的敌人，进入战斗后忘归人行动提前#4[i]%，并有#2[i]%的基础概率使敌方每个单体目标陷入与忘归人战技相同的防御力降低状态，持续#3[i]回合。",
+        "ja": "秘技を使用した後、一定範囲内の敵を#1[i]秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った後、帰忘の流離人は行動順が#4[i]%早まる。また、#2[i]%の基礎確率で敵それぞれに帰忘の流離人の戦闘スキルと同じ防御力ダウン状態を付与する。#3[i]ターン継続。",
+        "ko": "비술 사용 후 일정 구역 내의 적을 #1[i]초 동안 현기증 상태에 빠트린다. 현기증 상태의 적은 아군을 선공할 수 없다.\n현기증 상태에 빠진 적을 선공하면 전투 진입 후 망귀인의 행동 게이지가 #4[i]% 증가하고, #2[i]%의 기본 확률로 각 단일 적을 망귀인의 전투 스킬과 동일한 방어력 감소 효과에 빠트린다, 지속 시간: #3[i]턴"
+      },
+      "params": [
+        [
+          10,
+          1,
+          2,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": 122508,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Carícia Incandescente",
+        "en": "Fiery Caress",
+        "zh-CN": "冉冉方炽",
+        "ja": "緩緩たる熾炎",
+        "ko": "살랑이는 불꽃"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Fugue a um inimigo designado e #2[i]% do ATQ de Fugue como Dano de Fogo aos inimigos adjacentes.",
+        "en": "Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy and Fire DMG equal to #2[i]% of Fugue's ATK to adjacent targets.",
+        "zh-CN": "对指定敌方单体造成等同于忘归人#1[i]%攻击力的火属性伤害，对相邻目标造成等同于忘归人#2[i]%攻击力的火属性伤害。",
+        "ja": "指定した敵単体に帰忘の流離人の攻撃力#1[i]%分の炎属性ダメージを与え、隣接する敵に帰忘の流離人の攻撃力#2[i]%分の炎属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 망귀인 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, 인접한 목표에게 망귀인 공격력의 #2[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.6,
+          0.3
+        ],
+        [
+          0.7,
+          0.35
+        ],
+        [
+          0.8,
+          0.4
+        ],
+        [
+          0.9,
+          0.45
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1.1,
+          0.55
+        ],
+        [
+          1.2,
+          0.6
+        ],
+        [
+          1.3,
+          0.65
+        ],
+        [
+          1.4,
+          0.7
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Estava Presa à Terra, Agora Sigo para as Nuvens",
+        "en": "Earthbound I Was, Cloudward I Be",
+        "zh-CN": "狐尘已去，云驾有期",
+        "ja": "{RUBY_B#こじん}狐塵{RUBY_E#}とうに{RUBY_B#ち}散{RUBY_E#}り、{RUBY_B#くも}雲{RUBY_E#}を{RUBY_B#が}駕{RUBY_E#}とすればその{RUBY_B#き}期{RUBY_E#}あり",
+        "ko": "떠나간 여우의 삶, 기약된 운거"
+      },
+      "description": {
+        "pt-BR": "O aliado-alvo com \"Prece Vulpe\" aumenta sua Eficiência de Quebra de Fraqueza em 50%.",
+        "en": "Ally target with \"Foxian Prayer\" increases their Weakness Break Efficiency by 50%.",
+        "zh-CN": "持有【狐祈】的我方目标，弱点击破效率提高50%。",
+        "ja": "「狐の祈り」状態の味方の弱点撃破効率+50%。",
+        "ko": "[여우의 기도]를 보유한 아군의 약점 격파 효율이 50% 증가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "A Beatitude Alvorece para os Justos",
+        "en": "Beatitude Dawns for the Worthy",
+        "zh-CN": "瑞应之來，必昭有德",
+        "ja": "{RUBY_B#ずいおう}瑞応{RUBY_E#}{RUBY_B#きた}来{RUBY_E#}れば、{RUBY_B#かなら}必{RUBY_E#}ず{RUBY_B#ゆうとく}有徳{RUBY_E#}を{RUBY_B#あ}明{RUBY_E#}かす",
+        "ko": "서응의 도래, 알려진 현인"
+      },
+      "description": {
+        "pt-BR": "Quando um inimigo-alvo sofre Quebra de Fraqueza, Fugue regenera 3 de Energia. Após ela usar sua Perícia Suprema, as ações de todos os aliados são Avançadas Adiante em 24%.",
+        "en": "When an enemy target's Weakness gets broken, Fugue regenerates 3 Energy. After using Ultimate, advances the action of all allies by 24%.",
+        "zh-CN": "当有敌方目标的弱点被击破时，为忘归人恢复3点能量。施放终结技后，我方全体行动提前24%。",
+        "ja": "敵が弱点撃破された時、帰忘の流離人はEPを3回復する。必殺技を発動した後、味方全体の行動順が24%早まる。",
+        "ko": "적의 약점이 격파될 시 망귀인이 에너지를 3pt 회복한다. 필살기 발동 후 모든 아군의 행동 게이지가 24% 증가한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "A Verdade Tece Pensamentos em Lâminas",
+        "en": "Verity Weaves Thoughts to Blade",
+        "zh-CN": "正色鸿焘，神思化伐",
+        "ja": "{RUBY_B#せいしょく}正色{RUBY_E#}の{RUBY_B#こうじゅ}鴻寿{RUBY_E#}、\n{RUBY_B#しんし}神思{RUBY_E#}は{RUBY_B#か}化{RUBY_E#}して{RUBY_B#う}伐{RUBY_E#}つ",
+        "ko": "가려진 실체, 드러낸 진상"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nATQ Básico Nv. +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Desprovida de Forma, Qual Nome Ela Assume",
+        "en": "Bereft of Form, Which Name to Bear",
+        "zh-CN": "自我离形，而今几姓",
+        "ja": "{RUBY_B#じがかたち}自我形{RUBY_E#}を{RUBY_B#はな}離{RUBY_E#}れ、\n{RUBY_B#いま}今{RUBY_E#}や{RUBY_B#あまた}数多{RUBY_E#}の{RUBY_B#せい}姓{RUBY_E#}となる",
+        "ko": "떠나보낸 형체, 짊어져 온 이름"
+      },
+      "description": {
+        "pt-BR": "O aliado-alvo com \"Prece Vulpe\" aumenta seu Dano de Quebra causado em 20%.",
+        "en": "Ally target with \"Foxian Prayer\" increases their Break DMG dealt by 20%.",
+        "zh-CN": "持有【狐祈】的我方目标，造成的击破伤害提高20%。",
+        "ja": "「狐の祈り」状態の味方の弱点撃破ダメージ+20%。",
+        "ko": "[여우의 기도]를 보유한 아군이 가하는 격파 피해가 20% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "As Nuvens Coloridas Fazem Chover Boa Sorte",
+        "en": "Colored Cloud Rains Fortune",
+        "zh-CN": "五色云生，穹施后承",
+        "ja": "{RUBY_B#ごしき}五色{RUBY_E#}の{RUBY_B#くも}雲{RUBY_E#}、\n{RUBY_B#そうきゅう}蒼穹{RUBY_E#}は{RUBY_B#あと}後{RUBY_E#}を{RUBY_B#ほどこ}施{RUBY_E#}す",
+        "ko": "오색구름의 탄생, 천명을 짊어질 결심"
+      },
+      "description": {
+        "pt-BR": "Perícia Suprema Nv. +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Clarividência da Aniquilação Explosiva",
+        "en": "Clairvoyance of Boom and Doom",
+        "zh-CN": "肇素未来，晦明兴灭",
+        "ja": "{RUBY_B#はじ}肇{RUBY_E#}めて{RUBY_B#みらい}未来{RUBY_E#}を{RUBY_B#さと}悟{RUBY_E#}り、\n{RUBY_B#めいあん}明暗{RUBY_E#}の{RUBY_B#こうぼう}興亡{RUBY_E#}を{RUBY_B#し}知{RUBY_E#}る",
+        "ko": "예지된 미래, 밝혀진 성쇠"
+      },
+      "description": {
+        "pt-BR": "Aumenta a Eficiência de Quebra de Fraqueza de Fugue em 50%. Quando Fugue estiver no estado de \"Abrasamento Tórrido\", a \"Prece Vulpe\" terá efeito em todos os aliados.",
+        "en": "Increases Fugue's Weakness Break Efficiency by 50%. While Fugue is in the \"Torrid Scorch\" state, \"Foxian Prayer\" takes effect on all allies.",
+        "zh-CN": "忘归人的弱点击破效率提高50%。当忘归人处于【炽灼】状态时，【狐祈】效果对我方全体生效。",
+        "ja": "帰忘の流離人の弱点撃破効率+50%。帰忘の流離人が「灼熱」状態の時、「狐の祈り」が味方全体に効果を発揮するようになる。",
+        "ko": "망귀인의 약점 격파 효율이 50% 증가한다. 망귀인이 [염화] 상태일 시 [여우의 기도] 효과가 모든 아군에게 적용된다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1225.png",
+    "preview": "image/character_preview/1225.png",
+    "portrait": "image/character_portrait/1225.png"
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "id": 1008,
+  "slug": "arlan",
+  "name": {
+    "pt-BR": "Arlan",
+    "en": "Arlan",
+    "zh-CN": "阿兰",
+    "ja": "アーラン",
+    "ko": "아를란"
+  },
+  "rarity": 4,
+  "path": "Destruction",
+  "element": "Lightning",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 100801,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Descarga de Raio",
+        "en": "Lightning Rush",
+        "zh-CN": "如雷疾行",
+        "ja": "疾行する雷の如し",
+        "ko": "번개 같은 질주"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Arlan a um único inimigo.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于阿兰#1[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体にアーランの攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 100802,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Quebra-Grilhões",
+        "en": "Shackle Breaker",
+        "zh-CN": "禁锢解除",
+        "ja": "禁錮解除",
+        "ko": "속박 해제"
+      },
+      "description": {
+        "pt-BR": "Consome os PV de Arlan, com valor equivalente a #1[i]% de seus PV máximos, para causar #2[i]% do ATQ de Arlan como Dano de Raio a um único inimigo. Se os PV de Arlan forem insuficientes, os seus PV serão reduzidos a 1 depois de usar a Perícia.",
+        "en": "Consumes Arlan's HP equal to #1[i]% of his Max HP to deal Lightning DMG equal to #2[i]% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "zh-CN": "消耗等同于阿兰生命上限#1[i]%的生命值对指定敌方单体造成等同于阿兰#2[i]%攻击力的雷属性伤害。若当前生命值不足，施放战技时阿兰的当前生命值降至1点。",
+        "ja": "アーランのHPを最大HP#1[i]%分消費して、指定した敵単体にアーランの攻撃力#2[i]%分の雷属性ダメージを与える。残りHPが足りない場合、戦闘スキルを発動する時、アーランの残りHPが1になる。",
+        "ko": "아를란 HP 최대치 #1[i]%만큼의 HP를 소모해 지정된 단일 적에게 아를란 공격력 #2[i]%만큼의 번개 속성 피해를 가한다. 현재 HP가 부족할 때 전투 스킬 발동 시 아를란의 HP가 1pt까지 하락한다"
+      },
+      "params": [
+        [
+          0.15,
+          1.2
+        ],
+        [
+          0.15,
+          1.32
+        ],
+        [
+          0.15,
+          1.44
+        ],
+        [
+          0.15,
+          1.56
+        ],
+        [
+          0.15,
+          1.68
+        ],
+        [
+          0.15,
+          1.8
+        ],
+        [
+          0.15,
+          1.95
+        ],
+        [
+          0.15,
+          2.1
+        ],
+        [
+          0.15,
+          2.25
+        ],
+        [
+          0.15,
+          2.4
+        ],
+        [
+          0.15,
+          2.52
+        ],
+        [
+          0.15,
+          2.64
+        ],
+        [
+          0.15,
+          2.76
+        ],
+        [
+          0.15,
+          2.88
+        ],
+        [
+          0.15,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 100803,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Punição Frenética",
+        "en": "Frenzied Punishment",
+        "zh-CN": "狂者制裁",
+        "ja": "狂者の制裁",
+        "ko": "광자의 제재"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Arlan a um único inimigo e #2[i]% do ATQ de Arlan como Dano de Raio aos inimigos adjacentes a ele.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy and Lightning DMG equal to #2[i]% of Arlan's ATK to enemies adjacent to it.",
+        "zh-CN": "对指定敌方单体造成等同于阿兰#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于阿兰#2[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体にアーランの攻撃力#1[i]%分の雷属性ダメージを与え、隣接する敵にアーランの攻撃力#2[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가하고, 인접한 목표에게 아를란 공격력 #2[i]%만큼의 번개 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          1.92,
+          0.96
+        ],
+        [
+          2.048,
+          1.024
+        ],
+        [
+          2.176,
+          1.088
+        ],
+        [
+          2.304,
+          1.152
+        ],
+        [
+          2.432,
+          1.216
+        ],
+        [
+          2.56,
+          1.28
+        ],
+        [
+          2.72,
+          1.36
+        ],
+        [
+          2.88,
+          1.44
+        ],
+        [
+          3.04,
+          1.52
+        ],
+        [
+          3.2,
+          1.6
+        ],
+        [
+          3.328,
+          1.664
+        ],
+        [
+          3.456,
+          1.728
+        ],
+        [
+          3.584,
+          1.792
+        ],
+        [
+          3.712,
+          1.856
+        ],
+        [
+          3.84,
+          1.92
+        ]
+      ]
+    },
+    {
+      "id": 100804,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Dor e Raiva",
+        "en": "Pain and Anger",
+        "zh-CN": "至痛至怒",
+        "ja": "痛みと怒りの極み",
+        "ko": "고통과 분노"
+      },
+      "description": {
+        "pt-BR": "Com base na porcentagem atual de PV perdidos de Arlan, ganha um bônus de Dano, até um aumento máximo de #1[i]% no Dano causado por Arlan.",
+        "en": "Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of #1[i]% DMG dealt by Arlan.",
+        "zh-CN": "根据阿兰当前损失的生命值百分比获得伤害加成，最多使阿兰造成的伤害提高#1[i]%。",
+        "ja": "アーランの失ったHPの割合に応じて与ダメージアップ、最大でアーランの与ダメージ+#1[i]%",
+        "ko": "아를란이 현재 잃은 HP 백분율에 따라 피해 보너스를 획득하며, 아를란이 가하는 피해가 최대 #1[i]% 증가한다"
+      },
+      "params": [
+        [
+          0.36
+        ],
+        [
+          0.396
+        ],
+        [
+          0.432
+        ],
+        [
+          0.468
+        ],
+        [
+          0.504
+        ],
+        [
+          0.54
+        ],
+        [
+          0.585
+        ],
+        [
+          0.63
+        ],
+        [
+          0.675
+        ],
+        [
+          0.72
+        ],
+        [
+          0.756
+        ],
+        [
+          0.792
+        ],
+        [
+          0.828
+        ],
+        [
+          0.864
+        ],
+        [
+          0.9
+        ]
+      ]
+    },
+    {
+      "id": 100806,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 100807,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Colheita Rápida",
+        "en": "Swift Harvest",
+        "zh-CN": "极速收割",
+        "ja": "特急ハーベスト",
+        "ko": "신속한 수확"
+      },
+      "description": {
+        "pt-BR": "Ataca o inimigo imediatamente. Depois de entrar na batalha, causa #1[i]% do ATQ de Arlan como Dano de Raio a todos os inimigos.",
+        "en": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #1[i]% of Arlan's ATK to all enemies.",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于阿兰#1[i]%攻击力的雷属性伤害。",
+        "ja": "敵を攻撃。戦闘に入った後、敵全体にアーランの攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "적을 바로 공격하며, 전투 진입 후 모든 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.8
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Até o Amargo Fim",
+        "en": "To the Bitter End",
+        "zh-CN": "万死不辞",
+        "ja": "{RUBY_B#ばんし}万死{RUBY_E#}も{RUBY_B#じ}辞{RUBY_E#}さぬ{RUBY_B#けつい}決意{RUBY_E#}",
+        "ko": "필사즉생"
+      },
+      "description": {
+        "pt-BR": "Quando a porcentagem dos PV estiverem abaixo ou iguais a 50% dos PV máximos, o Dano da Perícia aumenta em 10%.",
+        "en": "When HP percentage is lower than or equal to 50% of Max HP, increases DMG dealt by Skill by 10%.",
+        "zh-CN": "当前生命值百分比小于等于50%时，战技造成的伤害提高10%。",
+        "ja": "残りHPが50%以下の時、戦闘スキルによるダメージ+10%。",
+        "ko": "현재 HP 백분율이 50% 이하일 경우 전투 스킬이 가하는 피해가 10% 증가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Libertação",
+        "en": "Breaking Free",
+        "zh-CN": "除制去缚",
+        "ja": "{RUBY_B#しば}縛{RUBY_E#}りより{RUBY_B#はな}放{RUBY_E#}たれし{RUBY_B#こころ}心{RUBY_E#}",
+        "ko": "구속 해제"
+      },
+      "description": {
+        "pt-BR": "Usar a Perícia ou a Perícia Suprema remove 1 penalidade desta unidade.",
+        "en": "Using Skill or Ultimate removes 1 debuff from this unit.",
+        "zh-CN": "施放战技、终结技时，解除自身的1个负面效果。",
+        "ja": "戦闘スキルまたは必殺技を発動した時、自身のデバフを1つ解除する。",
+        "ko": "전투 스킬, 필살기 발동 시 자신의 디버프 효과를 1개 해제한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Superação",
+        "en": "Power Through",
+        "zh-CN": "重剑强攻",
+        "ja": "{RUBY_B#じゅうけんきょうこう}重剣強攻{RUBY_E#}",
+        "ko": "강검 공격"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Virando o Jogo",
+        "en": "Turn the Tables",
+        "zh-CN": "绝处反击",
+        "ja": "{RUBY_B#ぜっきょう}絶境{RUBY_E#}の{RUBY_B#はんげき}反撃{RUBY_E#}",
+        "ko": "절체절명의 반격"
+      },
+      "description": {
+        "pt-BR": "Ao ser atingido por um golpe fatal depois de entrar em batalha, Arlan restaura seus PV igual a 25% de seus PV máximos ao invés de ser derrubado. Esse efeito é removido automaticamente após ser ativado uma vez ou depois que 2 rodada(s) tiverem passado.",
+        "en": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed.",
+        "zh-CN": "进入战斗后，受到致命攻击时阿兰不会陷入无法战斗状态，并立即回复至自身生命上限的25%。该效果在触发1次后或持续2回合后自动解除。",
+        "ja": "戦闘に入った後、アーランはHPが0になる攻撃を受けても戦闘不能状態にならず、HPを25%まで回復する。この効果は1回発動した後、または2ターン以降に自動解除される。",
+        "ko": "전투 진입 후 치명적인 공격을 받아도 아를란은 전투 불능 상태에 빠지지 않으며, 즉시 자신 HP 최대치의 25%까지 회복한다. 해당 효과는 1회 발동 후 또는 2턴 지속 후 자동으로 해제된다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Fogo da Forja",
+        "en": "Hammer and Tongs",
+        "zh-CN": "全力倾注",
+        "ja": "{RUBY_B#ぜんりょくけいちゅう}全力傾注{RUBY_E#}",
+        "ko": "전력투구"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Autossacrifício",
+        "en": "Self-Sacrifice",
+        "zh-CN": "以身作引",
+        "ja": "{RUBY_B#けんしんてき}献身的{RUBY_E#}な{RUBY_B#せんどう}先導{RUBY_E#}",
+        "ko": "솔선수범"
+      },
+      "description": {
+        "pt-BR": "Quando a porcentagem atual de PV cai para 50% ou menos, a Perícia Suprema causa 20% a mais de Dano e o multiplicador de Dano para alvos adjacentes é elevado ao mesmo nível que o do alvo principal.",
+        "en": "When the current HP percentage drops to 50% or below, Ultimate deals 20% more DMG, and the DMG multiplier for adjacent targets is raised to the same level as that for the primary target.",
+        "zh-CN": "当前生命值百分比小于等于50%时，终结技造成的伤害提高20%，且对相邻目标的伤害倍率提高到与主目标相同的伤害倍率。",
+        "ja": "残りHPが50%以下の時、必殺技によるダメージ+20%、隣接する敵に対するダメージ倍率がメインターゲットと同じになる。",
+        "ko": "현재 HP 백분율이 50% 이하일 경우 필살기가 가하는 피해가 20% 증가하며, 인접한 목표에 대한 피해 배율이 주목표와 같은 피해 배율로 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1008.png",
+    "preview": "image/character_preview/1008.png",
+    "portrait": "image/character_portrait/1008.png"
+  }
+}

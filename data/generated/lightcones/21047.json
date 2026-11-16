@@ -1,0 +1,70 @@
+{
+  "id": 21047,
+  "slug": "shadowed-by-night",
+  "name": {
+    "pt-BR": "Sombreado pela Noite",
+    "en": "Shadowed by Night",
+    "zh-CN": "黑夜如影随行",
+    "ja": "夜は影のように付き纏う",
+    "ko": "그림자처럼 뒤따르는 밤"
+  },
+  "rarity": 4,
+  "path": "Hunt",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "\"Pegadas.\"\n\"Arranhões.\"\n\"Aromas.\"\nDepois que tudo foi resolvido de forma apropriada, ele pega uma pena de corvo e graciosamente salta para o telhado.\nNa enorme cidade, uma sombra salta pelos cantos obscuros.\n\"Devo me fundir às sombras e cuidar de todos vocês.\"",
+    "en": "\"Footprints.\"\n\"Scratches.\"\n\"Scents.\"\nAfter everything has been appropriately handled, he picks up a crow feather and gracefully leaps onto the roof.\nIn the vast city, a pitch-black shadow shuttles through the corners unseen.\n\"I shall merge into shadows and keep vigil over you all.\"",
+    "zh-CN": "「脚印。」\n「擦痕。」\n「气味。」\n一切处理妥当后，他拾起一片鸦羽，轻盈跃上楼顶。\n广袤的城市里，漆黑的影穿梭在无人注视的角落里。\n「我将溶于影中，为你们守望。」",
+    "ja": "「足跡」\n「擦った跡」\n「匂い」\nすべてを適切に処理すると、彼は烏の羽を拾い上げ、軽やかに屋根の上へ飛び乗った。\n広大な都市の中、人目に付かない片隅を漆黒の影が通り過ぎる。\n「影に溶け込み、お前たちを見守っている」",
+    "ko": "「발자국」\n「긁힌 자국」\n「냄새」\n모든 것을 깔끔하게 처리한 후, 그는 까마귀 깃털 하나를 주워 옥상으로 가볍게 뛰어올랐다.\n넓은 도시 속, 칠흑 같은 그림자가 아무도 주목하지 않는 구석을 가로질렀다.\n「난 그림자에 녹아들어 너희를 지켜볼게」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Ocultação",
+      "en": "Concealment",
+      "zh-CN": "隐匿",
+      "ja": "隠伏",
+      "ko": "은닉"
+    },
+    "description": {
+      "pt-BR": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Ao entrar em batalha ou após causar Dano de Quebra, aumenta a VEL em #2[i]%, durando por #3[i] rodada(s). Este efeito só pode ser ativado 1 vez por rodada.",
+      "en": "Increases the wearer's Break Effect by #1[i]%. When entering battle or after dealing Break DMG, increases SPD by #2[i]%, lasting for #3[i] turn(s). This effect can only trigger once per turn.",
+      "zh-CN": "使装备者的击破特攻提高#1[i]%。进入战斗时或造成击破伤害后，速度提高#2[i]%，持续#3[i]回合，该效果每回合只可触发1次。",
+      "ja": "装備キャラの撃破特効+#1[i]%、戦闘に入った時または弱点撃破ダメージを与えた後、速度+#2[i]%、#3[i]ターン継続。この効果はターンが回ってくるたびに1回まで発動できる。",
+      "ko": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가한다. 전투 진입 시 또는 격파 피해를 가한 후 속도가 #2[i]% 증가한다, 지속 시간: #3[i]턴, 해당 효과는 턴마다 1회만 발동할 수 있다"
+    },
+    "params": [
+      [
+        0.28,
+        0.08,
+        2
+      ],
+      [
+        0.35,
+        0.09,
+        2
+      ],
+      [
+        0.42,
+        0.1,
+        2
+      ],
+      [
+        0.49,
+        0.11,
+        2
+      ],
+      [
+        0.56,
+        0.12,
+        2
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21047.png",
+    "preview": "image/light_cone_preview/21047.png",
+    "portrait": "image/light_cone_portrait/21047.png"
+  }
+}

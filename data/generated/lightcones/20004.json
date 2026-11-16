@@ -1,0 +1,65 @@
+{
+  "id": 20004,
+  "slug": "void",
+  "name": {
+    "pt-BR": "Vazio",
+    "en": "Void",
+    "zh-CN": "幽邃",
+    "ja": "幽邃",
+    "ko": "그윽"
+  },
+  "rarity": 3,
+  "path": "Nihility",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino.\n\"Ele encarou o vazio, pendurado como o sol escuro no limite de toda a matéria, ou uma boca que respondeu a todas as perguntas. Ela disse: ███ █ ███ ██ \nNão era possível expressá-la em linguagem humana, mas todos conseguiam compreendê-la.\"",
+    "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"He stared into the void, hanging high like the dark sun at the end of all matter, or a mouth that answered all questions. It said: ███ █ ███ ██ The answer couldn't be expressed in any human language, but could be understood by all.\"",
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「他凝视着那轮空洞，它犹如在万物终末时高悬的漆黑太阳，又像是一张解答一切疑问的口——那张口说道：███ █ ███ ██ 这答案无法以任何人类的语言诠释，却能被所有人听懂。 」",
+    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「彼はその空洞を見つめていた。それは、すべての終焉に高く昇る漆黒の太陽のようで、すべての疑問に答える口のよう——その口は言う。███ █ ███ ██。答えは、人間の言語で表すことはできないが、誰もがその意味を理解した」",
+    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「그는 공허를 응시했다. 마치 만물의 종말에서 높이 걸린 검은 태양처럼, 또 마치 모든 의문에 해답을 내놓는 입처럼. 그 입이 말하길: ███ █ ███ ██ 이 대답은 인간의 어떤 언어로도 설명할 수 없었으나 모두가 이를 이해할 수 있었다」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Caído",
+      "en": "Fallen",
+      "zh-CN": "沉沦",
+      "ja": "沈淪",
+      "ko": "타락"
+    },
+    "description": {
+      "pt-BR": "No início da batalha, aumenta em #1[i]% a Taxa de Acerto de Efeito do usuário por #2[i] rodada(s).",
+      "en": "At the start of the battle, the wearer's Effect Hit Rate increases by #1[i]% for #2[i] turn(s).",
+      "zh-CN": "战斗开始时，使装备者的效果命中提高#1[i]%，持续#2[i]回合。",
+      "ja": "戦闘開始時、装備キャラの効果命中+#1[i]%、#2[i]ターン継続。",
+      "ko": "전투 시작 시 장착한 캐릭터의 효과 명중이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+    },
+    "params": [
+      [
+        0.2,
+        3
+      ],
+      [
+        0.25,
+        3
+      ],
+      [
+        0.3,
+        3
+      ],
+      [
+        0.35,
+        3
+      ],
+      [
+        0.4,
+        3
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/20004.png",
+    "preview": "image/light_cone_preview/20004.png",
+    "portrait": "image/light_cone_portrait/20004.png"
+  }
+}

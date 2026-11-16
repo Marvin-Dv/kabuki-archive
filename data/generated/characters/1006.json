@@ -1,0 +1,1090 @@
+{
+  "id": 1006,
+  "slug": "silver-wolf",
+  "name": {
+    "pt-BR": "Loba Prateada",
+    "en": "Silver Wolf",
+    "zh-CN": "银狼",
+    "ja": "銀狼",
+    "ko": "은랑"
+  },
+  "rarity": 5,
+  "path": "Nihility",
+  "element": "Quantum",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 100601,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Aviso do Sistema",
+        "en": "System Warning",
+        "zh-CN": "|系统警告|",
+        "ja": "|システム警告|",
+        "ko": "|시스템 경고|"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a um único inimigo.",
+        "en": "Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于银狼#1[i]%攻击力的量子属性伤害。",
+        "ja": "指定した敵単体に銀狼の攻撃力#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 100602,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Permitir Mudanças?",
+        "en": "Allow Changes?",
+        "zh-CN": "是否允许更改？",
+        "ja": "変更を許可しますか？",
+        "ko": "수정하시겠습니까?"
+      },
+      "description": {
+        "pt-BR": "Tem #2[i]% de chance-base de adicionar 1 Fraqueza do Tipo de um personagem em campo ao inimigo-alvo. Isso também reduz a RES a Dano do inimigo a este Tipo de Fraqueza em #4[i]% por #3[i] rodada(s). Se o inimigo já possui Fraqueza a este Tipo, o efeito de redução da RES a Dano a este Tipo de Fraqueza não será ativado.\nCada inimigo pode ter apenas 1 Fraqueza implantada pela Loba Prateada. Quando Loba Prateada implanta outra Fraqueza ao alvo, apenas a última Fraqueza implantada será mantida. Adicionalmente, existe #5[i]% de chance-base de reduzir mais ainda a RES a Todos os Tipos do inimigo em #6[f1]% por #7[i] rodada(s).\nCausa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a um único inimigo-alvo.",
+        "en": "There is a #2[i]% base chance to add 1 Weakness of an on-field character's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by #4[i]% for #3[i] turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.\nEach enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept.\nIn addition, there is a #5[i]% base chance to further reduce the All-Type RES of the enemy by #6[f1]% for #7[i] turn(s).\nDeals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this enemy.",
+        "zh-CN": "有#2[i]%的基础概率为指定敌方单体目标添加1个场上我方目标持有属性的弱点，且该弱点对应属性的抗性降低#4[i]%，持续#3[i]回合。若添加的是敌方目标原有属性的弱点，则不会触发对应属性的抗性降低效果。\n单个敌方目标仅能被银狼添加1个弱点，当银狼对其再次添加弱点时，仅保留最新添加的弱点。\n有#5[i]%的基础概率额外使该目标的全属性抗性降低#6[f1]%，持续#7[i]回合。\n对该目标造成等同于银狼#1[i]%攻击力的量子属性伤害。",
+        "ja": "#2[i]%の基礎確率で指定した敵単体に、フィールド上の味方が有する属性の内1つを弱点として埋め込む、さらにその弱点属性の属性耐性-#4[i]%、#3[i]ターン継続。元からあった弱点を埋め込んだ場合、対応属性の属性耐性がダウンする効果は発動されない。\n1体の敵に対し、銀狼が埋め込める弱点は1つまで。銀狼が同じ敵に対して再度弱点を埋め込む時、最後に埋め込んだ弱点のみが残される。\n#5[i]%の基礎確率でさらにその敵の全属性耐性-#6[f1]%、#7[i]ターン継続。\nその敵に銀狼の攻撃力#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 필드 위 아군이 보유한 속성의 약점을 #2[i]%의 기본 확률로 1개 부여하고, 해당 약점에 대응하는 속성의 저항이 #4[i]% 감소한다, 지속 시간: #3[i]턴. 적이 보유한 속성과 동일한 약점이 부여되면 대응하는 속성 저항 감소 효과가 발동되지 않는다.\n은랑은 단일 적에게 1개의 약점만 부여할 수 있고, 약점 재부여 시 새로 부여된 약점만 존재한다.\n#5[i]%의 기본 확률로 해당 목표의 모든 속성 저항이 추가로 #6[f1]% 감소한다. 지속 시간: #7[i]턴\n해당 목표에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.98,
+          0.75,
+          2,
+          0.2,
+          1,
+          0.075,
+          2
+        ],
+        [
+          1.078,
+          0.76,
+          2,
+          0.2,
+          1,
+          0.0775,
+          2
+        ],
+        [
+          1.176,
+          0.77,
+          2,
+          0.2,
+          1,
+          0.08,
+          2
+        ],
+        [
+          1.274,
+          0.78,
+          2,
+          0.2,
+          1,
+          0.0825,
+          2
+        ],
+        [
+          1.372,
+          0.79,
+          2,
+          0.2,
+          1,
+          0.085,
+          2
+        ],
+        [
+          1.47,
+          0.8,
+          2,
+          0.2,
+          1,
+          0.0875,
+          2
+        ],
+        [
+          1.5925,
+          0.8125,
+          2,
+          0.2,
+          1,
+          0.0906,
+          2
+        ],
+        [
+          1.715,
+          0.825,
+          2,
+          0.2,
+          1,
+          0.0938,
+          2
+        ],
+        [
+          1.8375,
+          0.8375,
+          2,
+          0.2,
+          1,
+          0.0969,
+          2
+        ],
+        [
+          1.96,
+          0.85,
+          2,
+          0.2,
+          1,
+          0.1,
+          2
+        ],
+        [
+          2.058,
+          0.86,
+          2,
+          0.2,
+          1,
+          0.1025,
+          2
+        ],
+        [
+          2.156,
+          0.87,
+          2,
+          0.2,
+          1,
+          0.105,
+          2
+        ],
+        [
+          2.254,
+          0.88,
+          2,
+          0.2,
+          1,
+          0.1075,
+          2
+        ],
+        [
+          2.352,
+          0.89,
+          2,
+          0.2,
+          1,
+          0.11,
+          2
+        ],
+        [
+          2.45,
+          0.9,
+          2,
+          0.2,
+          1,
+          0.1125,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 100603,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Usuário Banido",
+        "en": "User Banned",
+        "zh-CN": "|账号已封禁|",
+        "ja": "|アカウントがBANされた|",
+        "ko": "|계정 정지|"
+      },
+      "description": {
+        "pt-BR": "Tem uma chance-base de #2[i]% de diminuir a DEF do inimigo-alvo em #3[f1]% por #4[i] rodada(s). E, ao mesmo tempo, causa #1[i]% do ATQ da Loba Prateada como Dano Quântico ao inimigo-alvo.",
+        "en": "There's a #2[i]% base chance to decrease the target enemy's DEF by #3[f1]% for #4[i] turn(s). And at the same time, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to the target enemy.",
+        "zh-CN": "有#2[i]%的基础概率使指定敌方单体防御力降低#3[f1]%，持续#4[i]回合，同时对该目标造成等同于银狼#1[i]%攻击力的量子属性伤害。",
+        "ja": "#2[i]%の基礎確率で指定した敵単体の防御力-#3[f1]%、#4[i]ターン継続。その敵に銀狼の攻撃力#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적의 방어력이 #2[i]%의 기본 확률로 #3[f1]% 감소한다. 지속 시간: #4[i]턴. 동시에 해당 목표에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 준다"
+      },
+      "params": [
+        [
+          2.28,
+          0.85,
+          0.36,
+          3
+        ],
+        [
+          2.432,
+          0.865,
+          0.369,
+          3
+        ],
+        [
+          2.584,
+          0.88,
+          0.378,
+          3
+        ],
+        [
+          2.736,
+          0.895,
+          0.387,
+          3
+        ],
+        [
+          2.888,
+          0.91,
+          0.396,
+          3
+        ],
+        [
+          3.04,
+          0.925,
+          0.405,
+          3
+        ],
+        [
+          3.23,
+          0.9437,
+          0.4163,
+          3
+        ],
+        [
+          3.42,
+          0.9625,
+          0.4275,
+          3
+        ],
+        [
+          3.61,
+          0.9812,
+          0.4387,
+          3
+        ],
+        [
+          3.8,
+          1,
+          0.45,
+          3
+        ],
+        [
+          3.952,
+          1.015,
+          0.459,
+          3
+        ],
+        [
+          4.104,
+          1.03,
+          0.468,
+          3
+        ],
+        [
+          4.256,
+          1.045,
+          0.477,
+          3
+        ],
+        [
+          4.408,
+          1.06,
+          0.486,
+          3
+        ],
+        [
+          4.56,
+          1.075,
+          0.495,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 100604,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Esperando Resposta do Sistema...",
+        "en": "Awaiting System Response...",
+        "zh-CN": "等待程序响应…",
+        "ja": "プログラム応答なし…",
+        "ko": "프로그램 응답 대기 중…"
+      },
+      "description": {
+        "pt-BR": "Loba Prateada pode criar três tipos de Erros: reduzir em #1[f1]% o ATQ, reduzir em #2[f1]% a DEF e reduzir em #3[f1]% a VEL.\nSempre que Loba Prateada ataca, ela tem uma chance-base de #4[i]% de implantar a um inimigo-alvo um Erro aleatório que dura #5[i] rodada(s).",
+        "en": "Silver Wolf can create three types of Bugs: Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nEvery time Silver Wolf attacks, she has a #4[i]% base chance to implant a random Bug that lasts for #5[i] turn(s) in an enemy target.",
+        "zh-CN": "银狼能够制造：攻击力降低#1[f1]%、防御力降低#2[f1]%、速度降低#3[f1]%3种【缺陷】。\n银狼每次施放攻击后有#4[i]%的基础概率给受到攻击的敌方目标植入1个随机【缺陷】，持续#5[i]回合。",
+        "ja": "銀狼は以下の3つの「欠陥」を作成できる：攻撃力-#1[f1]%、防御力-#2[f1]%、速度-#3[f1]%。\n銀狼が攻撃を行った後、#4[i]%の基礎確率で攻撃を受けた敵にランダムな「欠陥」を1つ埋め込む、#5[i]ターン継続。",
+        "ko": "은랑은 다음 3가지의 [결함]을 생성할 수 있다: 공격력 #1[f1]% 감소, 방어력 #2[f1]% 감소, 속도 #3[f1]% 감소.\n은랑은 매번 공격 발동 후 피격된 적에게 #4[i]%의 기본 확률로 랜덤 [결함]을 1개 이식한다, 지속 시간: #5[i]턴"
+      },
+      "params": [
+        [
+          0.05,
+          0.04,
+          0.03,
+          0.6,
+          3
+        ],
+        [
+          0.055,
+          0.044,
+          0.033,
+          0.612,
+          3
+        ],
+        [
+          0.06,
+          0.048,
+          0.036,
+          0.624,
+          3
+        ],
+        [
+          0.065,
+          0.052,
+          0.039,
+          0.636,
+          3
+        ],
+        [
+          0.07,
+          0.056,
+          0.042,
+          0.648,
+          3
+        ],
+        [
+          0.075,
+          0.06,
+          0.045,
+          0.66,
+          3
+        ],
+        [
+          0.0813,
+          0.065,
+          0.0488,
+          0.675,
+          3
+        ],
+        [
+          0.0875,
+          0.07,
+          0.0525,
+          0.69,
+          3
+        ],
+        [
+          0.0938,
+          0.075,
+          0.0563,
+          0.705,
+          3
+        ],
+        [
+          0.1,
+          0.08,
+          0.06,
+          0.72,
+          3
+        ],
+        [
+          0.105,
+          0.084,
+          0.063,
+          0.732,
+          3
+        ],
+        [
+          0.11,
+          0.088,
+          0.066,
+          0.744,
+          3
+        ],
+        [
+          0.115,
+          0.092,
+          0.069,
+          0.756,
+          3
+        ],
+        [
+          0.12,
+          0.096,
+          0.072,
+          0.768,
+          3
+        ],
+        [
+          0.125,
+          0.1,
+          0.075,
+          0.78,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 100606,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 100607,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Fechar o Programa",
+        "en": "Force Quit Program",
+        "zh-CN": "|强制结束进程|",
+        "ja": "|プロセス強制終了|",
+        "ko": "|프로세스 강제 종료|"
+      },
+      "description": {
+        "pt-BR": "Ataca o inimigo imediatamente. Após entrar na batalha, causa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a todos os inimigos, ignora os Tipos de Fraqueza e reduz a Tenacidade de todos os inimigos. Inimigos com suas Fraquezas Quebradas desta forma ativarão o efeito de Quebra de Fraqueza contra Quântico.",
+        "en": "Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于银狼#1[i]%攻击力的量子属性伤害，并无视弱点属性削减敌方全体的韧性，击破弱点时，触发量子属性的弱点击破效果。",
+        "ja": "敵を攻撃。戦闘に入った後、敵全体に銀狼の攻撃力#1[i]%分の量子属性ダメージを与え、弱点属性を無視して敵全体の靭性を削る。この秘技で敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。",
+        "ko": "적을 바로 공격하며, 전투 진입 후 모든 적에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 주고, 모든 적의 강인성을 소모하는데 이때 약점 속성을 무시한다. 약점 격파 시 발동되는 약점 격파 효과는 양자 속성이다"
+      },
+      "params": [
+        [
+          0.8
+        ]
+      ]
+    },
+    {
+      "id": 1100601,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Aviso do Sistema",
+        "en": "System Warning",
+        "zh-CN": "|系统警告|",
+        "ja": "|システム警告|",
+        "ko": "|시스템 경고|"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Loba Prateada a um inimigo designado.",
+        "en": "Deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于银狼#1[i]%攻击力的量子属性伤害。",
+        "ja": "指定した敵単体に銀狼の攻撃力#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 1100602,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Permitir Mudanças?",
+        "en": "Allow Changes?",
+        "zh-CN": "是否允许更改？",
+        "ja": "変更を許可しますか？",
+        "ko": "수정하시겠습니까?"
+      },
+      "description": {
+        "pt-BR": "Há uma chance-base de #2[i]% de adicionar 1 Fraqueza do Tipo de um aliado-alvo no campo a um inimigo-alvo designado (priorizando a aplicação da Fraqueza correspondente ao Tipo do primeiro personagem na formação), além de reduzir a RES do inimigo-alvo para aquele Tipo de Fraqueza em #4[i]% por #3[i] rodada(s). Se o inimigo-alvo já possuir esse Tipo de Fraqueza, o efeito de redução de RES para esse Tipo não será ativado.\nCada inimigo-alvo pode ter apenas 1 Fraqueza implantada pela Loba Prateada. Quando Loba Prateada implanta outra Fraqueza no alvo, apenas a Fraqueza mais recente implantada será mantida.\nAlém disso, há uma chance-base de #5[i]% de reduzir ainda mais a RES a Todos os Tipos do alvo em #6[f1]% por #7[i] rodada(s).\nCausa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a este alvo.",
+        "en": "There is a #2[i]% base chance to add 1 Weakness of an on-field ally target's Type to one designated enemy target (prioritizing the implant of a Weakness that matches the first character in the team lineup). This also reduces the enemy target's RES to that Weakness Type by #4[i]% for #3[i] turn(s). If the enemy target already has that Type of Weakness, the RES reduction effect to that Type will not be triggered.\nEach enemy target can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be retained.\nIn addition, there is a #5[i]% base chance to further reduce the target's All-Type RES by #6[f1]% for #7[i] turn(s).\nDeals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to this target.",
+        "zh-CN": "有#2[i]%的基础概率为指定敌方单体目标添加1个场上我方目标持有属性的弱点（优先添加我方编队中的第一位角色持有属性的弱点），且该弱点对应属性的抗性降低#4[i]%，持续#3[i]回合。若添加的是敌方目标原有属性的弱点，则不会触发对应属性的抗性降低效果。\n单个敌方目标仅能被银狼添加1个弱点，当银狼对其再次添加弱点时，仅保留最新添加的弱点。\n有#5[i]%的基础概率额外使该目标的全属性抗性降低#6[f1]%，持续#7[i]回合。\n对该目标造成等同于银狼#1[i]%攻击力的量子属性伤害。",
+        "ja": "#2[i]%の基礎確率で指定した敵単体に、フィールド上の味方が有する属性の内1つを弱点として埋め込む（パーティの1枠目のキャラの属性を優先的に埋め込む）。さらにその弱点属性の属性耐性-#4[i]%、#3[i]ターン継続。元からあった弱点を埋め込んだ場合、対応属性の属性耐性がダウンする効果は発動されない。\n1体の敵に対し、銀狼が埋め込める弱点は1つまで。銀狼が同じ敵に対して再度弱点を埋め込む時、最後に埋め込んだ弱点のみが残される。\n#5[i]%の基礎確率でさらにその敵の全属性耐性-#6[f1]%、#7[i]ターン継続。\nその敵に銀狼の攻撃力#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 필드 위 아군이 보유한 속성의 약점을 #2[i]%의 기본 확률로 1개 부여하고(아군 파티 편성의 첫 번째 캐릭터가 보유한 속성의 약점을 우선으로 부여), 해당 약점에 대응하는 속성의 저항이 #4[i]% 감소한다, 지속 시간: #3[i]턴. 적이 보유한 속성과 동일한 약점이 부여되면 대응하는 속성의 저항 감소 효과가 발동되지 않는다.\n은랑은 단일 적에게 1개의 약점만 부여할 수 있고, 약점 재부여 시 새로 부여된 약점만 존재한다.\n#5[i]%의 기본 확률로 해당 목표의 모든 속성 저항이 추가로 #6[f1]% 감소한다, 지속 시간: #7[i]턴\n해당 목표에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.98,
+          0.8,
+          3,
+          0.2,
+          1,
+          0.105,
+          2
+        ],
+        [
+          1.078,
+          0.84,
+          3,
+          0.2,
+          1,
+          0.1075,
+          2
+        ],
+        [
+          1.176,
+          0.88,
+          3,
+          0.2,
+          1,
+          0.11,
+          2
+        ],
+        [
+          1.274,
+          0.92,
+          3,
+          0.2,
+          1,
+          0.1125,
+          2
+        ],
+        [
+          1.372,
+          0.96,
+          3,
+          0.2,
+          1,
+          0.115,
+          2
+        ],
+        [
+          1.47,
+          1,
+          3,
+          0.2,
+          1,
+          0.1175,
+          2
+        ],
+        [
+          1.5925,
+          1.05,
+          3,
+          0.2,
+          1,
+          0.1206,
+          2
+        ],
+        [
+          1.715,
+          1.1,
+          3,
+          0.2,
+          1,
+          0.1237,
+          2
+        ],
+        [
+          1.8375,
+          1.15,
+          3,
+          0.2,
+          1,
+          0.1269,
+          2
+        ],
+        [
+          1.96,
+          1.2,
+          3,
+          0.2,
+          1,
+          0.13,
+          2
+        ],
+        [
+          2.058,
+          1.24,
+          3,
+          0.2,
+          1,
+          0.1325,
+          2
+        ],
+        [
+          2.156,
+          1.28,
+          3,
+          0.2,
+          1,
+          0.135,
+          2
+        ],
+        [
+          2.254,
+          1.32,
+          3,
+          0.2,
+          1,
+          0.1375,
+          2
+        ],
+        [
+          2.352,
+          1.36,
+          3,
+          0.2,
+          1,
+          0.14,
+          2
+        ],
+        [
+          2.45,
+          1.4,
+          3,
+          0.2,
+          1,
+          0.1425,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 1100603,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Usuário Banido",
+        "en": "User Banned",
+        "zh-CN": "|账号已封禁|",
+        "ja": "|アカウントがBANされた|",
+        "ko": "|계정 정지|"
+      },
+      "description": {
+        "pt-BR": "Tem uma chance-base de #2[i]% de diminuir a DEF de todos os inimigos em #3[f1]% por #4[i] rodada(s). Ao mesmo tempo, causa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a todos os inimigos.",
+        "en": "Has a #2[i]% base chance to reduce the DEF of all enemies by #3[f1]% for #4[i] turn(s). At the same time, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies.",
+        "zh-CN": "有#2[i]%的基础概率使敌方全体防御力降低#3[f1]%，持续#4[i]回合，同时对敌方全体造成等同于银狼#1[i]%攻击力的量子属性伤害。",
+        "ja": "#2[i]%の基礎確率で敵全体の防御力-#3[f1]%、#4[i]ターン継続。敵全体に銀狼の攻撃力#1[i]%分の量子属性ダメージを与える。",
+        "ko": "모든 적의 방어력이 #2[i]%의 기본 확률로 #3[f1]% 감소한다, 지속 시간: #4[i]턴. 동시에 모든 적에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          2.28,
+          0.8,
+          0.36,
+          3
+        ],
+        [
+          2.432,
+          0.84,
+          0.369,
+          3
+        ],
+        [
+          2.584,
+          0.88,
+          0.378,
+          3
+        ],
+        [
+          2.736,
+          0.92,
+          0.387,
+          3
+        ],
+        [
+          2.888,
+          0.96,
+          0.396,
+          3
+        ],
+        [
+          3.04,
+          1,
+          0.405,
+          3
+        ],
+        [
+          3.23,
+          1.05,
+          0.4163,
+          3
+        ],
+        [
+          3.42,
+          1.1,
+          0.4275,
+          3
+        ],
+        [
+          3.61,
+          1.15,
+          0.4387,
+          3
+        ],
+        [
+          3.8,
+          1.2,
+          0.45,
+          3
+        ],
+        [
+          3.952,
+          1.24,
+          0.459,
+          3
+        ],
+        [
+          4.104,
+          1.28,
+          0.468,
+          3
+        ],
+        [
+          4.256,
+          1.32,
+          0.477,
+          3
+        ],
+        [
+          4.408,
+          1.36,
+          0.486,
+          3
+        ],
+        [
+          4.56,
+          1.4,
+          0.495,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 1100604,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Esperando Resposta do Sistema...",
+        "en": "Awaiting System Response...",
+        "zh-CN": "等待程序响应…",
+        "ja": "プログラム応答なし…",
+        "ko": "프로그램 응답 대기 중…"
+      },
+      "description": {
+        "pt-BR": "Loba Prateada pode criar três tipos de \"Erros\": reduz o ATQ em #1[f1]%, reduz a DEF em #2[f1]% e reduz a VEL em #3[f1]%.\nDepois de cada ataque realizado por Loba Prateada, ela tem uma chance-base de #4[i]% de implantar 1 \"Erro\" aleatório que dura por #5[i] rodada(s) no inimigo-alvo atacado.\nQuando o inimigo-alvo é derrotado, a Fraqueza que Loba Prateada implantou nele será transferida para outro inimigo sobrevivente no campo que não tenha sido implantado com Fraqueza pela Loba Prateada, priorizando alvos de Elite e superiores.",
+        "en": "Silver Wolf can create three types of \"Bugs\": Reduce ATK by #1[f1]%, reduce DEF by #2[f1]%, and reduce SPD by #3[f1]%.\nAfter every attack launched by Silver Wolf, she has a #4[i]% base chance to implant 1 random \"Bug\" that lasts for #5[i] turn(s) in the attacked enemy target. \nWhen the enemy target gets defeated, the Weakness Silver Wolf implanted on it will be transferred to another surviving enemy on the field that hasn't been implanted with Weakness by Silver Wolf, prioritizing targets at Elite-level and above.",
+        "zh-CN": "银狼能够制造：攻击力降低#1[f1]%、防御力降低#2[f1]%、速度降低#3[f1]%3种【缺陷】。\n银狼每次施放攻击后有#4[i]%的基础概率给受到攻击的敌方目标植入1个随机【缺陷】，持续#5[i]回合。\n敌方目标被消灭时，银狼对其添加的弱点会转移给场上存活的未被银狼添加弱点的敌人，优先转移给精英级别及以上的目标。",
+        "ja": "銀狼は以下の3つの「欠陥」を作成できる：攻撃力-#1[f1]%、防御力-#2[f1]%、速度-#3[f1]%。\n銀狼が攻撃を行った後、#4[i]%の基礎確率で攻撃を受けた敵にランダムな「欠陥」を1つ埋め込む、#5[i]ターン継続。\n敵が倒された時、銀狼がその敵に付与した弱点は、銀狼が弱点を付与していないフィールド上の敵に移る。なお、優先的に精鋭エネミー以上の敵に移る。",
+        "ko": "은랑은 다음 3가지의 결함을 생성할 수 있다. 공격력 #1[f1]% 감소, 방어력 #2[f1]% 감소, 속도 #3[f1]% 감소.\n은랑은 매번 공격을 발동한 후 피격된 적에게 #4[i]%의 기본 확률로 랜덤 [결함]을 1개 이식한다, 지속 시간: #5[i]턴\n적이 처치될 시, 은랑이 대상에게 부여한 약점은 필드 위 생존한 적 중 은랑에게 약점이 부여되지 않은 적에게로 이전되며, 정예급 이상의 목표에게 우선 이전된다"
+      },
+      "params": [
+        [
+          0.05,
+          0.06,
+          0.03,
+          0.6,
+          3
+        ],
+        [
+          0.055,
+          0.066,
+          0.033,
+          0.64,
+          3
+        ],
+        [
+          0.06,
+          0.072,
+          0.036,
+          0.68,
+          3
+        ],
+        [
+          0.065,
+          0.078,
+          0.039,
+          0.72,
+          3
+        ],
+        [
+          0.07,
+          0.084,
+          0.042,
+          0.76,
+          3
+        ],
+        [
+          0.075,
+          0.09,
+          0.045,
+          0.8,
+          3
+        ],
+        [
+          0.0813,
+          0.0975,
+          0.0488,
+          0.85,
+          3
+        ],
+        [
+          0.0875,
+          0.105,
+          0.0525,
+          0.9,
+          3
+        ],
+        [
+          0.0938,
+          0.1125,
+          0.0563,
+          0.95,
+          3
+        ],
+        [
+          0.1,
+          0.12,
+          0.06,
+          1,
+          3
+        ],
+        [
+          0.105,
+          0.126,
+          0.063,
+          1.04,
+          3
+        ],
+        [
+          0.11,
+          0.132,
+          0.066,
+          1.08,
+          3
+        ],
+        [
+          0.115,
+          0.138,
+          0.069,
+          1.12,
+          3
+        ],
+        [
+          0.12,
+          0.144,
+          0.072,
+          1.16,
+          3
+        ],
+        [
+          0.125,
+          0.15,
+          0.075,
+          1.2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 1100606,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 1100607,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Fechar o Programa",
+        "en": "Force Quit Program",
+        "zh-CN": "|强制结束进程|",
+        "ja": "|プロセス強制終了|",
+        "ko": "|프로세스 강제 종료|"
+      },
+      "description": {
+        "pt-BR": "Ataca o inimigo imediatamente. Após entrar na batalha, causa Dano Quântico igual a #1[i]% do ATQ da Loba Prateada a todos os inimigos, reduz a Tenacidade de todos os inimigos, independentemente dos seus Tipos de Fraqueza. Inimigos que sofram Quebra de Fraqueza desta forma ativarão o efeito de Quebra de Fraqueza contra Quântico.",
+        "en": "Immediately attacks the enemy. After entering combat, deals Quantum DMG equal to #1[i]% of Silver Wolf's ATK to all enemies, and reduces Toughness of all enemies regardless of Weakness Types. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于银狼#1[i]%攻击力的量子属性伤害，并无视弱点属性削减敌方全体的韧性，击破弱点时，触发量子属性的弱点击破效果。",
+        "ja": "敵を攻撃。戦闘に入った後、敵全体に銀狼の攻撃力#1[i]%分の量子属性ダメージを与え、弱点属性を無視して敵全体の靭性を削る。この秘技で敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。",
+        "ko": "적을 즉시 공격하며, 전투 진입 후 모든 적에게 은랑 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 약점 속성을 무시하며 모든 적의 강인성을 감소시킨다. 약점 격파 시 양자 속성의 약점 격파 효과를 발동한다"
+      },
+      "params": [
+        [
+          0.8
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Engenharia Social",
+        "en": "Social Engineering",
+        "zh-CN": "社会工程",
+        "ja": "{RUBY_B#しゃかいこうがく}社会工学{RUBY_E#}",
+        "ko": "소셜 엔지니어링"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Perícia Suprema para atacar inimigos, Loba Prateada regenera 7 de Energia para cada penalidade que o inimigo-alvo possui no momento. Este efeito pode ser ativado até 5 vez(es) cada vez que a Perícia Suprema da Loba Prateada for utilizada.",
+        "en": "After using her Ultimate to attack enemies, Silver Wolf regenerates 7 Energy for every debuff that the target enemy currently has. This effect can be triggered up to 5 time(s) in each use of her Ultimate.",
+        "zh-CN": "施放终结技攻击敌方目标后，目标每有1个负面效果，银狼恢复7点能量。该效果在每次终结技攻击中最多生效5次。",
+        "ja": "必殺技で敵を攻撃した後、敵にデバフが1つあるごとに、銀狼はEPを7回復する。この効果は一回の必殺技発動につき、最大で5回発動できる。",
+        "ko": "필살기를 발동해 적 공격 후 목표가 보유한 디버프 효과 1개당 은랑은 에너지를 7pt 회복한다. 해당 효과는 필살기 공격마다 최대 5회 적용된다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Rede de Zumbis",
+        "en": "Zombie Network",
+        "zh-CN": "僵尸网络",
+        "ja": "ボットネット",
+        "ko": "좀비 네트워크"
+      },
+      "description": {
+        "pt-BR": "Quando um inimigo entra na batalha, reduz a RES a Efeito dele em 20%.",
+        "en": "When an enemy enters combat, reduces their Effect RES by 20%.",
+        "zh-CN": "在敌方目标进入战斗时，使其效果抵抗降低20%。",
+        "ja": "敵が戦闘に入る時、効果抵抗-20%。",
+        "ko": "적이 전투 진입 시 효과 저항이 20% 감소한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Carga Explosiva",
+        "en": "Payload",
+        "zh-CN": "攻击载荷",
+        "ja": "ペイロード",
+        "ko": "페이로드"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Ataque Rebote",
+        "en": "Bounce Attack",
+        "zh-CN": "反弹端口",
+        "ja": "バウンス{RUBY_B#こうげき}攻撃{RUBY_E#}",
+        "ko": "바운스 공격"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Perícia Suprema para atacar inimigos, causa Dano Quântico Adicional igual a 20% do ATQ da Loba Prateada para cada penalidade que o inimigo-alvo possui no momento. Este efeito pode ser ativado até 5 vez(es) cada vez que a Perícia Suprema dela for utilizada.",
+        "en": "After using her Ultimate to attack enemies, deals Quantum Additional DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s) during each use of her Ultimate.",
+        "zh-CN": "施放终结技攻击敌方目标后，目标每有1个负面效果，则额外造成等同于银狼20%攻击力的量子属性附加伤害。该效果在每次终结技攻击中最多触发5次。",
+        "ja": "必殺技で敵を攻撃した後、その敵にあるデバフ1つにつき、さらに銀狼の攻撃力20%分の量子属性付加ダメージを与える。この効果は1回の必殺技で、最大で5回発動できる。",
+        "ko": "필살기를 발동해 적 공격 후 목표가 보유한 디버프 효과 1개당 추가로 은랑 공격력의 20%만큼 양자 속성 추가 피해를 가한다. 해당 효과는 필살기 공격마다 최대 5회 발동된다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Ataque de Força Bruta",
+        "en": "Brute Force Attack",
+        "zh-CN": "暴力破解",
+        "ja": "{RUBY_B#そう}総{RUBY_E#}{RUBY_B#あ}当{RUBY_E#}たり{RUBY_B#こうげき}攻撃{RUBY_E#}",
+        "ko": "무차별 대입 공격"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Rede Sobreposta",
+        "en": "Overlay Network",
+        "zh-CN": "重叠网络",
+        "ja": "オーバーレイ\nネットワーク",
+        "ko": "오버레이 네트워크"
+      },
+      "description": {
+        "pt-BR": "Para cada penalidade no inimigo-alvo, o Dano causado pela Loba Prateada aumenta em 20%, até um limite de 100%.",
+        "en": "For every debuff the enemy target has, the DMG dealt by Silver Wolf to it increases by 20%, up to a max increase of 100%.",
+        "zh-CN": "敌方目标每有1个负面效果，银狼对其造成的伤害提高20%，最多提高100%。",
+        "ja": "敵にあるデバフ1つにつき、その敵に対する銀狼の与ダメージ+20%、最大で+100%。",
+        "ko": "적이 보유한 디버프 효과 1개당 은랑이 대상에게 가하는 피해가 20% 증가하며, 최대 100% 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1006.png",
+    "preview": "image/character_preview/1006.png",
+    "portrait": "image/character_portrait/1006.png"
+  }
+}

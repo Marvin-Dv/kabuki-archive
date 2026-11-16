@@ -1,0 +1,521 @@
+{
+  "id": 1209,
+  "slug": "yanqing",
+  "name": {
+    "pt-BR": "Yanqing",
+    "en": "Yanqing",
+    "zh-CN": "彦卿",
+    "ja": "彦卿",
+    "ko": "연경"
+  },
+  "rarity": 5,
+  "path": "Hunt",
+  "element": "Ice",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 120901,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Espinho Congelado",
+        "en": "Frost Thorn",
+        "zh-CN": "霜锋点寒芒",
+        "ja": "寒光刺す霜鋒",
+        "ko": "서늘한 칼끝"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Yanqing a um único inimigo.",
+        "en": "Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于彦卿#1[i]%攻击力的冰属性伤害。",
+        "ja": "指定した敵単体に彦卿の攻撃力#1[i]%分の氷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 연경 공격력 #1[i]%만큼의 얼음 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 120902,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Espinho de Ferro Veloz",
+        "en": "Darting Ironthorn",
+        "zh-CN": "遥击三尺水",
+        "ja": "三尺秋水",
+        "ko": "삼척추수"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Yanqing a um único inimigo e ativa a Sincronia d'Alma de Ferro por 1 rodada.",
+        "en": "Deals Ice DMG equal to #1[i]% of Yanqing's ATK to one designated enemy and activates \"Soulsteel Sync\" for 1 turn.",
+        "zh-CN": "对指定敌方单体造成等同于彦卿#1[i]%攻击力的冰属性伤害，并为彦卿附加【智剑连心】，持续1回合。",
+        "ja": "指定した敵単体に彦卿の攻撃力#1[i]%分の氷属性ダメージを与え、彦卿に「智剣連心」を付与する、1ターン継続。",
+        "ko": "지정된 단일 적에게 연경 공격력 #1[i]%만큼의 얼음 속성 피해를 준다. 이때 연경에게 [신검합일] 효과를 부여한다. 지속 시간: 1턴"
+      },
+      "params": [
+        [
+          1.1
+        ],
+        [
+          1.21
+        ],
+        [
+          1.32
+        ],
+        [
+          1.43
+        ],
+        [
+          1.54
+        ],
+        [
+          1.65
+        ],
+        [
+          1.7875
+        ],
+        [
+          1.925
+        ],
+        [
+          2.0625
+        ],
+        [
+          2.2
+        ],
+        [
+          2.31
+        ],
+        [
+          2.42
+        ],
+        [
+          2.53
+        ],
+        [
+          2.64
+        ],
+        [
+          2.75
+        ]
+      ]
+    },
+    {
+      "id": 120903,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Em Meio à Chuva de Bênçãos",
+        "en": "Amidst the Raining Bliss",
+        "zh-CN": "快雨燕相逐",
+        "ja": "快雨に戯れる燕",
+        "ko": "비바람을 가르는 제비"
+      },
+      "description": {
+        "pt-BR": "Aumenta a Chance de CRIT de Yanqing em #1[i]%. Quando a Sincronia d'Alma de Ferro está ativa, aumenta o Dano CRIT de Yanqing em mais #2[i]%. Essa melhoria dura por uma rodada. Depois, causa Dano de Gelo igual a #3[i]% do ATQ de Yanqing a um único inimigo.",
+        "en": "Increases Yanqing's CRIT Rate by #1[i]%. When \"Soulsteel Sync\" is active, increases Yanqing's CRIT DMG by an extra #2[i]%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to #3[i]% of Yanqing's ATK to one designated enemy.",
+        "zh-CN": "提高自身#1[i]%暴击率，若彦卿处于【智剑连心】效果，则使其暴击伤害额外提高#2[i]%，增益效果持续1回合。随后对指定敌方单体造成等同于彦卿#3[i]%攻击力的冰属性伤害。",
+        "ja": "自身の会心率+#1[i]%、彦卿に「智剣連心」がある場合、さらに会心ダメージ+#2[i]%、バフは1ターン継続。その後、指定した敵単体に彦卿の攻撃力#3[i]%分の氷属性ダメージを与える。",
+        "ko": "자신의 치명타 확률이 #1[i]% 증가하고 만일 연경이 [신검합일] 효과를 가지고 있다면 치명타 피해가 추가로 #2[i]% 증가한다. 버프 효과는 1턴 동안 지속된다. 이후 지정된 단일 적에게 연경 공격력 #3[i]%만큼의 얼음 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.6,
+          0.3,
+          2.1
+        ],
+        [
+          0.6,
+          0.32,
+          2.24
+        ],
+        [
+          0.6,
+          0.34,
+          2.38
+        ],
+        [
+          0.6,
+          0.36,
+          2.52
+        ],
+        [
+          0.6,
+          0.38,
+          2.66
+        ],
+        [
+          0.6,
+          0.4,
+          2.8
+        ],
+        [
+          0.6,
+          0.425,
+          2.975
+        ],
+        [
+          0.6,
+          0.45,
+          3.15
+        ],
+        [
+          0.6,
+          0.475,
+          3.325
+        ],
+        [
+          0.6,
+          0.5,
+          3.5
+        ],
+        [
+          0.6,
+          0.52,
+          3.64
+        ],
+        [
+          0.6,
+          0.54,
+          3.78
+        ],
+        [
+          0.6,
+          0.56,
+          3.92
+        ],
+        [
+          0.6,
+          0.58,
+          4.06
+        ],
+        [
+          0.6,
+          0.6,
+          4.2
+        ]
+      ]
+    },
+    {
+      "id": 120904,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Eu e a Espada Somos Um",
+        "en": "One With the Sword",
+        "zh-CN": "呼剑如影",
+        "ja": "呼影剣",
+        "ko": "호검여영(呼劍如影)"
+      },
+      "description": {
+        "pt-BR": "Quando a Sincronia d'Alma de Ferro está ativa, Yanqing tem menos chance de ser atacado por inimigos. A Chance de CRIT de Yanqing aumenta em #1[f1]% e o Dano CRIT em #2[i]%. Depois que Yanqing ataca um inimigo, há uma chance fixa de #3[i]%  de executar um Ataque Extra, causando Dano de Gelo igual a #4[i]% do ATQ de Yanqing ao alvo, com uma chance-base de #6[i]% de causar Congelamento no alvo por 1 rodada.\nO alvo com Congelamento não pode realizar ações e sofre Dano Adicional de Gelo igual a #5[i]% do ATQ de Yanqing no início de cada rodada. \nQuando Yanqing recebe Dano, o efeito da Sincronia d'Alma de Ferro desaparece.",
+        "en": "When \"Soulsteel Sync\" is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by #1[f1]% and his CRIT DMG increases by #2[i]%. After Yanqing attacks an enemy, there is a #3[i]% fixed chance to launch Follow-Up ATK, dealing Ice DMG equal to #4[i]% of Yanqing's ATK to the enemy, which has a #6[i]% base chance to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives Ice Additional DMG equal to #5[i]% of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the \"Soulsteel Sync\" effect will disappear.",
+        "zh-CN": "彦卿处于【智剑连心】效果时，受到攻击的概率降低，并为自身提高#1[f1]%暴击率和#2[i]%暴击伤害。对敌方目标施放攻击后，有#3[i]%的固定概率发动追加攻击，对目标造成等同于彦卿#4[i]%攻击力的冰属性伤害，并有#6[i]%的基础概率使其陷入冻结状态，持续1回合。\n冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于彦卿#5[i]%攻击力的冰属性附加伤害。\n当彦卿受到伤害后，【智剑连心】将会消失。",
+        "ja": "彦卿に「智剣連心」がある場合、攻撃を受ける確率ダウン、自身の会心率+#1[f1]%、会心ダメージ+#2[i]%。敵に攻撃を行った後、#3[i]%の固定確率で追加攻撃を行い、敵に彦卿の攻撃力#4[i]%分の氷属性ダメージを与え、#6[i]%の基礎確率で敵を凍結状態にする、1ターン継続。\n凍結状態の敵は行動できず、ターンが回ってくるたびに彦卿の攻撃力#5[i]%分の氷属性付加ダメージを受ける。\n彦卿がダメージを受けると「智剣連心」が解除される。",
+        "ko": "연경이 [신검합일] 상태일 경우 피격될 확률이 감소하고 자신의 치명타 확률이 #1[f1]%, 치명타 피해가 #2[i]% 증가한다. 적에게 공격을 발동한 후, #3[i]%의 고정 확률로 추가 공격을 발동해 연경 공격력 #4[i]%만큼의 얼음 속성 피해를 주고 #6[i]%의 기본 확률로 1턴 동안 대상을 빙결 상태에 빠트린다.\n빙결 상태인 적은 행동할 수 없으며, 턴이 시작될 때마다 연경 공격력 #5[i]%만큼의 얼음 속성 추가 피해를 받는다.\n연경이 피해를 받으면 [신검합일] 효과는 소멸된다"
+      },
+      "params": [
+        [
+          0.15,
+          0.15,
+          0.5,
+          0.25,
+          0.25,
+          0.65
+        ],
+        [
+          0.155,
+          0.165,
+          0.51,
+          0.275,
+          0.275,
+          0.65
+        ],
+        [
+          0.16,
+          0.18,
+          0.52,
+          0.3,
+          0.3,
+          0.65
+        ],
+        [
+          0.165,
+          0.195,
+          0.53,
+          0.325,
+          0.325,
+          0.65
+        ],
+        [
+          0.17,
+          0.21,
+          0.54,
+          0.35,
+          0.35,
+          0.65
+        ],
+        [
+          0.175,
+          0.225,
+          0.55,
+          0.375,
+          0.375,
+          0.65
+        ],
+        [
+          0.1812,
+          0.2437,
+          0.5625,
+          0.4062,
+          0.4062,
+          0.65
+        ],
+        [
+          0.1875,
+          0.2625,
+          0.575,
+          0.4375,
+          0.4375,
+          0.65
+        ],
+        [
+          0.1938,
+          0.2812,
+          0.5875,
+          0.4688,
+          0.4688,
+          0.65
+        ],
+        [
+          0.2,
+          0.3,
+          0.6,
+          0.5,
+          0.5,
+          0.65
+        ],
+        [
+          0.205,
+          0.315,
+          0.61,
+          0.525,
+          0.525,
+          0.65
+        ],
+        [
+          0.21,
+          0.33,
+          0.62,
+          0.55,
+          0.55,
+          0.65
+        ],
+        [
+          0.215,
+          0.345,
+          0.63,
+          0.575,
+          0.575,
+          0.65
+        ],
+        [
+          0.22,
+          0.36,
+          0.64,
+          0.6,
+          0.6,
+          0.65
+        ],
+        [
+          0.225,
+          0.375,
+          0.65,
+          0.625,
+          0.625,
+          0.65
+        ]
+      ]
+    },
+    {
+      "id": 120906,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 120907,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "A Verdadeira Espada",
+        "en": "The One True Sword",
+        "zh-CN": "御剑真诀",
+        "ja": "御剣真訣",
+        "ko": "어검의 비결"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Técnica, no início da próxima batalha, Yanqing causa #2[i]% a mais de Dano por #3[i] rodada(s) a inimigos que, no momento, têm a porcentagem dos PV igual ou superior a #1[i]%.",
+        "en": "After using his Technique, at the start of the next battle, Yanqing deals #2[i]% more DMG for #3[i] turn(s) to enemies whose current HP percentage is #1[i]% or higher.",
+        "zh-CN": "使用秘技后，下一次战斗开始时彦卿对当前生命值百分比大于等于#1[i]%的敌方目标造成的伤害提高#2[i]%，持续#3[i]回合。",
+        "ja": "秘技を使用した後、次の戦闘開始時、残りHPが#1[i]%以上の敵に対して、彦卿の与ダメージ+#2[i]%、#3[i]ターン継続。",
+        "ko": "비술 발동 후 다음 전투 시작 시 연경은 현재 HP 백분율이 #1[i]% 이상인 적에게 가하는 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
+      },
+      "params": [
+        [
+          0.5,
+          0.3,
+          2
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Sabre Esbelto",
+        "en": "Svelte Saber",
+        "zh-CN": "素刃",
+        "ja": "{RUBY_B#そじん}素刃{RUBY_E#}",
+        "ko": "칼날의 섬광"
+      },
+      "description": {
+        "pt-BR": "Quando Yanqing ataca um inimigo afligido com \"Congelamento\", ele causa 60% de seu ATQ como Dano de Gelo Adicional.",
+        "en": "When Yanqing attacks a Frozen enemy, he deals Ice Additional DMG equal to 60% of his ATK.",
+        "zh-CN": "当彦卿攻击敌方目标时，如果目标处于冻结状态，则立即对目标造成等同于彦卿60%攻击力的冰属性附加伤害。",
+        "ja": "彦卿が敵に攻撃を行う時、その敵が凍結状態の場合、敵に彦卿の攻撃力60%分の氷属性付加ダメージを与える。",
+        "ko": "연경이 적 공격 시 목표가 빙결 상태면 즉시 목표에게 연경 공격력의 60%만큼 얼음 속성 추가 피해를 가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Serenata do Supino",
+        "en": "Supine Serenade",
+        "zh-CN": "空明",
+        "ja": "{RUBY_B#くうめい}空明{RUBY_E#}",
+        "ko": "공명"
+      },
+      "description": {
+        "pt-BR": "Quando a Sincronia d'Alma de Ferro estiver ativa, a Taxa de Regeneração de Energia aumenta em 10% extra.",
+        "en": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%.",
+        "zh-CN": "处于【智剑连心】效果时，额外提高10%的能量恢复效率。",
+        "ja": "彦卿に「智剣連心」がある場合、さらにEP回復効率+10%。",
+        "ko": "[신검합일] 효과 상태일 경우 에너지 회복효율이 추가로 10% 증가한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Espada Erudita",
+        "en": "Sword Savant",
+        "zh-CN": "剑胎",
+        "ja": "{RUBY_B#けんたい}剣胎{RUBY_E#}",
+        "ko": "검술의 극의"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Perfuração Flamejante",
+        "en": "Searing Sting",
+        "zh-CN": "霜厉",
+        "ja": "{RUBY_B#そうれい}霜厲{RUBY_E#}",
+        "ko": "서릿발"
+      },
+      "description": {
+        "pt-BR": "Quando os PV atuais estiverem em 80% ou mais, a PEN de RES a Gelo desta unidade aumenta em 12%.",
+        "en": "When the current HP percentage is 80% or higher, this unit's Ice RES PEN increases by 12%.",
+        "zh-CN": "当前生命值百分比大于等于80%时，提高自身12%的冰属性抗性穿透。",
+        "ja": "残りHPが80%以上の時、自身の氷属性耐性貫通+12%。",
+        "ko": "현재 HP 백분율이 80% 이상일 경우, 자신의 얼음 속성 저항 관통이 12% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Conflito Crescente",
+        "en": "Surging Strife",
+        "zh-CN": "武骨",
+        "ja": "{RUBY_B#ぶこつ}武骨{RUBY_E#}",
+        "ko": "무골"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Ataque Rápido",
+        "en": "Swift Swoop",
+        "zh-CN": "自在",
+        "ja": "{RUBY_B#じざい}自在{RUBY_E#}",
+        "ko": "자유자재"
+      },
+      "description": {
+        "pt-BR": "Se as melhorias de \"Sincronia d'Alma de Ferro\" ou da Perícia Suprema estiverem em efeito quando o inimigo for derrotado, a duração dessas melhorias é estendida em 1 rodada.",
+        "en": "If the buffs from \"Soulsteel Sync\" or the Ultimate are in effect when an enemy is defeated, the duration of these buffs is extended by 1 turn.",
+        "zh-CN": "消灭敌方目标时，如果当前持有【智剑连心】或终结技的增益效果，则使这些增益效果的持续时间全部延长1回合。",
+        "ja": "敵を倒した時、「智剣連心」または必殺技のバフがある場合、それらの継続時間+1ターン。",
+        "ko": "적 처치 시 [신검합일] 또는 필살기의 버프 효과를 보유 중일 경우, 해당 버프 효과의 지속 시간이 모두 1턴 연장된다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1209.png",
+    "preview": "image/character_preview/1209.png",
+    "portrait": "image/character_portrait/1209.png"
+  }
+}

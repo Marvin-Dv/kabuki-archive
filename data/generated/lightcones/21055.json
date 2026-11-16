@@ -1,0 +1,70 @@
+{
+  "id": 21055,
+  "slug": "unto-tomorrows-morrow",
+  "name": {
+    "pt-BR": "Até o Amanhã do Amanhã",
+    "en": "Unto Tomorrow's Morrow",
+    "zh-CN": "直到明天的明天",
+    "ja": "明日の明日まで",
+    "ko": "내일의 내일이 올 때까지"
+  },
+  "rarity": 4,
+  "path": "Abundance",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "\"Até amanhã, Tribios...\"\nA menina enxugou as lágrimas das bochechas quando sua mãe partiu para um lugar muito, muito distante.\nEla esperou por um amanhã após o outro, até crescer e se tornar alguém como sua mãe.\nDiante da passagem, ela segura firmemente a Chama Primordial, recordando-se das palavras de sua mãe.\n\"Lá não há nevascas, frio ou chuva...\"\n\"Mas se não virmos esse lugar amanhã, então...\"\nEla cai em direção à terra, deixando para trás sua jovem figura, como uma estrela-cadente no céu.\n\"Então o veremos depois de amanhã!\"",
+    "en": "\"See you tomorrow, Tribios...\"\nThe girl wiped the tears on her cheeks when her mother went somewhere far, far away.\nShe waited one tomorrow after another, till she grew up to be someone like her mother.\nShe stands before the passage and grasps the Coreflame tight as she recalled her mother's words.\n\"There are no blizzards, colds, or rain at that place...\"\n\"But if we can't see you tomorrow, then...\"\nShe falls towards the earth, leaving her young figure behind, like a shooting star across the sky —\n\"Then, see you on tomorrow's morrow!\"",
+    "zh-CN": "「缇里西庇俄丝，明天见……」\n母亲远行的时分，女孩拭去她脸庞的泪。\n她等待着一个又一个明天，直到自己也成长为母亲一般的人。\n她站在门扉之前，紧握火种，耳边响起母亲的话。\n「那里，没有风雪、严寒与骤雨……」\n「但如果明天见不到……」\n她坠向大地，留下稚嫩的身影如流星划过天空——\n「那就明天的明天见啦！」",
+    "ja": "「トリスビアス、また明日……」\n母親が長い旅に出る時、少女は彼女の頬を伝う涙を拭った。\n彼女はいくつもの明日を待ち続け、やがて自分も母親のような大人へと成長した。\n彼女はドアの前に立って火種を握りしめ、耳元に蘇る母親の言葉を聞いた。\n「そこには吹雪も、厳しい寒さも、激しい雨もない……」\n「もし、明日会えなかったら……」\n彼女は地上へと落ちていき、その幼い姿が流れ星のように空を駆ける——\n「明日の明日に会おう！」",
+    "ko": "「트리스비오스, 내일 봐……」\n어머니가 먼 길을 떠날 때 소녀는 그녀의 얼굴에 흐르는 눈물을 닦았다.\n그녀는 자신이 어머니처럼 성장할 때까지 수많은 내일을 기다렸다.\n그녀는 불씨를 움켜쥔 채 문 앞에 섰다. 그러자 귓가에 어머니의 말이 들려왔다.\n「그곳에는 눈보라도, 추위도, 폭우도 없을 거란다……」\n「하지만 내일 만나지 못한다면……」\n그녀는 유성이 하늘을 가르듯 어린아이의 모습만을 남긴 채 대지로 떨어졌다.\n「내일의 내일 보자!」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Adeus",
+      "en": "Farewell",
+      "zh-CN": "离别",
+      "ja": "別れ",
+      "ko": "이별"
+    },
+    "description": {
+      "pt-BR": "Aumenta a Cura Realizada pelo usuário em #1[i]%. Quando a porcentagem de PV atual do aliado-alvo for maior ou igual a #2[i]%, aumenta o Dano causado em #3[i]%.",
+      "en": "Increases the wearer's Outgoing Healing by #1[i]%. When an ally target's current HP percentage is greater than or equal to #2[i]%, increases the DMG dealt by #3[i]%.",
+      "zh-CN": "使装备者的治疗量提高#1[i]%。我方目标当前生命值百分比大于等于#2[i]%时，造成的伤害提高#3[i]%。",
+      "ja": "装備キャラの治癒量+#1[i]%。味方の残りHPが#2[i]%以上の場合、与ダメージ+#3[i]%。",
+      "ko": "장착한 캐릭터의 치유량이 #1[i]% 증가한다. 아군의 현재 HP 백분율이 #2[i]% 이상일 시 가하는 피해가 #3[i]% 증가한다"
+    },
+    "params": [
+      [
+        0.12,
+        0.5,
+        0.12
+      ],
+      [
+        0.15,
+        0.5,
+        0.14
+      ],
+      [
+        0.18,
+        0.5,
+        0.16
+      ],
+      [
+        0.21,
+        0.5,
+        0.18
+      ],
+      [
+        0.24,
+        0.5,
+        0.2
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21055.png",
+    "preview": "image/light_cone_preview/21055.png",
+    "portrait": "image/light_cone_portrait/21055.png"
+  }
+}

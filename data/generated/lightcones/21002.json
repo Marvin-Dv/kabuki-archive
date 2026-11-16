@@ -1,0 +1,65 @@
+{
+  "id": 21002,
+  "slug": "day-one-of-my-new-life",
+  "name": {
+    "pt-BR": "Primeiro Dia da Minha Vida Nova",
+    "en": "Day One of My New Life",
+    "zh-CN": "余生的第一天",
+    "ja": "余生の初日",
+    "ko": "여생의 첫날"
+  },
+  "rarity": 4,
+  "path": "Preservation",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "\"Estou tão feliz que eu vi o Pom-Pom de roupinha nova hoje! Adorei!\"\n\"Hoje é meu aniversário! Continuo a mesma fofura de sempre.\"\n\"Hoje, ATÉ QUE ENFIM vou ser veterana de alguém! Não é mesmo, {NICKNAME}?\"\nBatemos um monte de fotos sem nem pensar.\nSerá que é porque queremos capturar a felicidade naquele instante?\nOu porque queremos nos capturar naquele instante?",
+    "en": "\"So happy I got to see Pom-Pom in new clothes today! I like it~\"\n\"Today's my birthday! I'm still as cute as ever.\"\n\"Today, I finally finally finally have a junior! Isn't that right, {NICKNAME}?\"\nWe click the shutter many times without thinking.\nDo we do that to capture the happiness at that moment?\nOr to capture ourselves at that moment?",
+    "zh-CN": "「今天帕姆换上了新衣服，开心~喜欢~」\n「今天过生日啦，今年的我依旧可爱。」\n「今天我终于终于终于也有后辈啦！是不是，{NICKNAME}？」\n一次次不假思索地按下快门。\n是为了抓住当时的快乐？\n还是抓住当时的自己？",
+    "ja": "「今日パムが新しい服に着替えたんだよ、嬉しい～スキ～」\n「今日は誕生日なんだ、今年のウチも可愛い」\n「今日、ウチにもついに後輩ができたんだ！でしょ、{NICKNAME}？」\n何度も何度も、何も考えずにシャッターを押すのは、\nその瞬間の楽しさを掴むため？\nそれとも、その瞬間の自分を掴むため？",
+    "ko": "「오늘 폼폼이 새 옷으로 갈아입었어~ 좋아 좋아~」\n「오늘은 내 생일이야. 난 올해도 귀여워」\n「나도 드디어드디어드디어 후배가 생겼다네! 그렇지, {NICKNAME}?」\n망설임 없이 셔터를 계속 누른다.\n당시의 즐거움을 담기 위해서야?\n아니면 그때의 자신을 담기 위해서야?"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Neste Exato Momento",
+      "en": "At This Very Moment",
+      "zh-CN": "此刻定格",
+      "ja": "この一時を永遠に",
+      "ko": "지금 이 순간"
+    },
+    "description": {
+      "pt-BR": "Aumenta a DEF do usuário em #1[i]%. Após entrar na batalha, aumenta a RES a todos os Tipos de todos os aliados em #2[i]%. Habilidades do mesmo tipo não se acumulam.",
+      "en": "Increases the wearer's DEF by #1[i]%. After entering battle, increases All-Type RES of all allies by #2[i]%. Abilities of the same type cannot stack.",
+      "zh-CN": "使装备者的防御力提高#1[i]%。进入战斗后，使我方全体的全属性抗性提高#2[i]%。同类技能无法重复生效。",
+      "ja": "装備キャラの防御力+#1[i]%。戦闘に入った後、味方全体の全属性耐性+#2[i]%。同系統のスキルは重ね掛け不可。",
+      "ko": "장착한 캐릭터의 방어력이 #1[i]% 증가한다. 전투 진입 후 모든 아군의 모든 속성 저항이 #2[i]% 증가한다. 같은 유형의 스킬 효과는 중복 적용되지 않는다"
+    },
+    "params": [
+      [
+        0.16,
+        0.08
+      ],
+      [
+        0.18,
+        0.09
+      ],
+      [
+        0.2,
+        0.1
+      ],
+      [
+        0.22,
+        0.11
+      ],
+      [
+        0.24,
+        0.12
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21002.png",
+    "preview": "image/light_cone_preview/21002.png",
+    "portrait": "image/light_cone_portrait/21002.png"
+  }
+}

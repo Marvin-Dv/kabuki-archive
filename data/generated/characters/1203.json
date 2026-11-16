@@ -1,0 +1,514 @@
+{
+  "id": 1203,
+  "slug": "luocha",
+  "name": {
+    "pt-BR": "Luocha",
+    "en": "Luocha",
+    "zh-CN": "罗刹",
+    "ja": "羅刹",
+    "ko": "나찰"
+  },
+  "rarity": 5,
+  "path": "Abundance",
+  "element": "Imaginary",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 120301,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Espinhos do Abismo",
+        "en": "Thorns of the Abyss",
+        "zh-CN": "黑渊的棘刺",
+        "ja": "黒淵の棘",
+        "ko": "흑연의 가시"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Luocha a um único inimigo.",
+        "en": "Deals Imaginary DMG equal to #1[i]% of Luocha's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于罗刹#1[i]%攻击力的虚数属性伤害。",
+        "ja": "指定した敵単体に羅刹の攻撃力#1[i]%分の虚数属性ダメージを与える。",
+        "ko": "지정한 단일 적에게 나찰 공격력의 #1[i]%만큼 허수 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 120302,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Prece da Flor do Abismo",
+        "en": "Prayer of Abyss Flower",
+        "zh-CN": "白花的祈望",
+        "ja": "白花の祈望",
+        "ko": "백화의 기원"
+      },
+      "description": {
+        "pt-BR": "Após usar a sua Perícia, Luocha restaura os PV do aliado-alvo imediatamente em #1[i]% do ATQ de Luocha + #2[i]. Enquanto isso, Luocha ganha 1 acúmulo de Flor do Abismo.\nQuando a porcentagem dos PV de qualquer aliado chega a #3[i]% ou menos, um efeito equivalente à Perícia de Luocha será imediatamente ativado e aplicado a este aliado uma vez (sem consumir Pontos de Perícia). Este efeito pode ser ativado novamente após #4[i] rodada(s).",
+        "en": "After using his Skill, Luocha immediately restores the target ally's HP equal to #1[i]% of Luocha's ATK plus #2[i]. Meanwhile, Luocha gains 1 stack of Abyss Flower.\nWhen any ally's HP percentage drops to #3[i]% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after #4[i] turn(s).",
+        "zh-CN": "施放战技后立即为指定我方单体回复等同于罗刹#1[i]%攻击力+#2[i]的生命值，并使罗刹获得1层【白花之刻】。\n当我方任意单体当前生命值百分比小于等于#3[i]%时，罗刹会立即对其触发1次等同于战技的效果，此次触发不消耗战技点。该效果在#4[i]回合后可再次触发。",
+        "ja": "戦闘スキルを発動した後、指定した味方単体のHPを、羅刹の攻撃力#1[i]%+#2[i]回復し、羅刹は「白花の刻」を1層獲得する。\n任意の味方単体の残りHPが#3[i]%以下の時、その味方をターゲットとして、羅刹の戦闘スキルと同等の効果が1回発動される、この行動はSPを消費しない。この効果は#4[i]ターン後に再度発動できる。",
+        "ko": "전투 스킬 발동 후 지정한 단일 아군의 HP를 즉시 나찰 공격력의 #1[i]%+#2[i]만큼 회복시키고, 나찰은 [백화의 순간]을 1스택 획득한다.\n임의의 단일 아군의 현재 HP 백분율이 #3[i]% 이하가 되면, 나찰은 즉시 해당 아군에게 전투 스킬과 동일한 효과를 1회 발동한다. 해당 효과 발동 시 전투 스킬 포인트를 소모하지 않고, #4[i]턴 후 다시 발동할 수 있다"
+      },
+      "params": [
+        [
+          0.4,
+          200,
+          0.5,
+          2
+        ],
+        [
+          0.425,
+          320,
+          0.5,
+          2
+        ],
+        [
+          0.45,
+          410,
+          0.5,
+          2
+        ],
+        [
+          0.475,
+          500,
+          0.5,
+          2
+        ],
+        [
+          0.5,
+          560,
+          0.5,
+          2
+        ],
+        [
+          0.52,
+          620,
+          0.5,
+          2
+        ],
+        [
+          0.54,
+          665,
+          0.5,
+          2
+        ],
+        [
+          0.56,
+          710,
+          0.5,
+          2
+        ],
+        [
+          0.58,
+          755,
+          0.5,
+          2
+        ],
+        [
+          0.6,
+          800,
+          0.5,
+          2
+        ],
+        [
+          0.62,
+          845,
+          0.5,
+          2
+        ],
+        [
+          0.64,
+          890,
+          0.5,
+          2
+        ],
+        [
+          0.66,
+          935,
+          0.5,
+          2
+        ],
+        [
+          0.68,
+          980,
+          0.5,
+          2
+        ],
+        [
+          0.7,
+          1025,
+          0.5,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 120303,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Desejo de Morte",
+        "en": "Death Wish",
+        "zh-CN": "归葬的遂愿",
+        "ja": "帰葬の成就",
+        "ko": "망자의 숙원"
+      },
+      "description": {
+        "pt-BR": "Remove #2[i] melhoria(s) de todos os inimigos e causa #1[i]% do ATQ de Luocha como Dano Imaginário a todos os inimigos. Ao mesmo tempo, Luocha ganha 1 acúmulo de Flor do Abismo.",
+        "en": "Removes #2[i] buff(s) from all enemies and deals all enemies Imaginary DMG equal to #1[i]% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.",
+        "zh-CN": "解除敌方全体#2[i]个增益效果，并对敌方全体造成等同于罗刹#1[i]%攻击力的虚数属性伤害，同时使罗刹获得1层【白花之刻】。",
+        "ja": "敵全体のバフを#2[i]つ解除し、敵全体に羅刹の攻撃力#1[i]%分の虚数属性ダメージを与える。羅刹は「白花の刻」を1層獲得する。",
+        "ko": "모든 적의 버프 효과를 #2[i]개 해제하고, 모든 적에게 나찰 공격력의 #1[i]%만큼 허수 속성 피해를 준다. 동시에 나찰은 [백화의 순간]을 1스택 획득한다"
+      },
+      "params": [
+        [
+          1.2,
+          1
+        ],
+        [
+          1.28,
+          1
+        ],
+        [
+          1.36,
+          1
+        ],
+        [
+          1.44,
+          1
+        ],
+        [
+          1.52,
+          1
+        ],
+        [
+          1.6,
+          1
+        ],
+        [
+          1.7,
+          1
+        ],
+        [
+          1.8,
+          1
+        ],
+        [
+          1.9,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2.08,
+          1
+        ],
+        [
+          2.16,
+          1
+        ],
+        [
+          2.24,
+          1
+        ],
+        [
+          2.32,
+          1
+        ],
+        [
+          2.4,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 120304,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Ciclo da Vida",
+        "en": "Cycle of Life",
+        "zh-CN": "生息的轮转",
+        "ja": "生命の輪廻",
+        "ko": "생명의 윤회"
+      },
+      "description": {
+        "pt-BR": "Quando a Flor do Abismo alcança #1[i] acúmulo(s), Luocha consome todos os acúmulos de Flor do Abismo para ativar um Campo contra o inimigo.\nQuando qualquer inimigo dentro do Campo é atacado por um aliado, o PV desse aliado é imediatamente restaurado em uma quantidade igual a #2[f1]% do ATQ de Luocha mais #4[i].\nO efeito do Campo dura #3[i] rodadas. Quando Luocha é derrubado, o Campo é desativado.",
+        "en": "When Abyss Flower reaches #1[i] stacks, Luocha consumes all stacks of Abyss Flower to deploy a Zone against the enemy.\nWhen any enemy in the Zone is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to #2[f1]% of Luocha's ATK plus #4[i].\nThe Zone's effect lasts for #3[i] turns. When Luocha is knocked down, the Zone will be dispelled.",
+        "zh-CN": "当【白花之刻】达到#1[i]层时，罗刹会消耗全部【白花之刻】展开结界。\n处于结界中的任意敌方目标受到攻击后，施放攻击的我方目标立即回复等同于罗刹#2[f1]%攻击力+#4[i]的生命值。\n结界效果持续#3[i]回合。当罗刹陷入无法战斗状态时，结界也会被解除。",
+        "ja": "「白花の刻」が#1[i]層に達した時、羅刹が「白花の刻」をすべて消費し、結界を展開する。\n結界内の任意の敵が攻撃を受けた後、攻撃を行った味方は羅刹の攻撃力#2[f1]%+#4[i]のHPを回復する。\n結界は#3[i]ターン継続する。羅刹が戦闘不能状態になった時、結界は解除される。",
+        "ko": "[백화의 순간]이 #1[i]스택이 되면 나찰은 모든 [백화의 순간]을 소모해 결계를 펼친다.\n결계에 있는 임의의 적이 피격되면 공격을 발동한 아군은 즉시 나찰 공격력 #2[f1]%+#4[i]만큼의 HP를 회복한다.\n결계 효과 지속 시간: #3[i]턴. 나찰이 전투 불능 상태에 빠지면 결계도 해제된다"
+      },
+      "params": [
+        [
+          2,
+          0.12,
+          2,
+          60
+        ],
+        [
+          2,
+          0.1275,
+          2,
+          96
+        ],
+        [
+          2,
+          0.135,
+          2,
+          123
+        ],
+        [
+          2,
+          0.1425,
+          2,
+          150
+        ],
+        [
+          2,
+          0.15,
+          2,
+          168
+        ],
+        [
+          2,
+          0.156,
+          2,
+          186
+        ],
+        [
+          2,
+          0.162,
+          2,
+          199.5
+        ],
+        [
+          2,
+          0.168,
+          2,
+          213
+        ],
+        [
+          2,
+          0.174,
+          2,
+          226.5
+        ],
+        [
+          2,
+          0.18,
+          2,
+          240
+        ],
+        [
+          2,
+          0.186,
+          2,
+          253.5
+        ],
+        [
+          2,
+          0.192,
+          2,
+          267
+        ],
+        [
+          2,
+          0.198,
+          2,
+          280.5
+        ],
+        [
+          2,
+          0.204,
+          2,
+          294
+        ],
+        [
+          2,
+          0.21,
+          2,
+          307.5
+        ]
+      ]
+    },
+    {
+      "id": 120306,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 120307,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Misericórdia dos Tolos",
+        "en": "Mercy of a Fool",
+        "zh-CN": "愚者的悲悯",
+        "ja": "愚者の悲哀",
+        "ko": "우인의 연민"
+      },
+      "description": {
+        "pt-BR": "Após a Técnica ser utilizada, o Talento será acionado imediatamente no início da próxima batalha.",
+        "en": "After the Technique is used, the Talent will be immediately triggered at the start of the next battle.",
+        "zh-CN": "使用秘技后，下一次战斗开始时立即触发天赋。",
+        "ja": "秘技を使用した後、次の戦闘開始時、天賦を発動する。",
+        "ko": "비술 발동 후 다음 전투 시작 시 특성을 바로 발동한다"
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Ablução da Rapidez",
+        "en": "Ablution of the Quick",
+        "zh-CN": "濯洗生者",
+        "ja": "{RUBY_B#しょうじゃ}生者{RUBY_E#}の{RUBY_B#じょうか}浄化{RUBY_E#}",
+        "ko": "생자 정화"
+      },
+      "description": {
+        "pt-BR": "Enquanto o Campo estiver ativo, o ATQ de todos os aliados aumenta em 20%.",
+        "en": "While the Zone is active, ATK of all allies increases by 20%.",
+        "zh-CN": "结界生效时我方全体攻击力提高20%。",
+        "ja": "結界が展開されている間、味方全体の攻撃力+20%。",
+        "ko": "결계 효과 발동 시 모든 아군의 공격력이 20% 증가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Concessão da Pureza",
+        "en": "Bestowal From the Pure",
+        "zh-CN": "净庭赐礼",
+        "ja": "{RUBY_B#じゅんてい}純庭{RUBY_E#}の{RUBY_B#れいし}礼賜{RUBY_E#}",
+        "ko": "정토의 선물"
+      },
+      "description": {
+        "pt-BR": "Quando sua Perícia é ativada, se a porcentagem dos PV do aliado-alvo forem inferiores a 50%, a Cura Realizada por Luocha aumenta em 30%. Se o aliado-alvo tiver 50% ou mais de PV, o aliado recebe um Escudo que pode absorver Dano igual a 18% do ATQ de Luocha + 240, que dura por 2 rodadas.",
+        "en": "When his Skill is triggered, if the target ally's HP percentage is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP percentage is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns.",
+        "zh-CN": "触发战技效果时，若指定我方目标当前生命值百分比小于50%，则罗刹提供的治疗量提高30%；若指定我方目标当前生命值百分比大于等于50%，则为其提供能够抵消等同于罗刹18%攻击力+240伤害的护盾，持续2回合。",
+        "ja": "戦闘スキルの効果が発動された時、指定した味方の残りHPが50%未満の場合、羅刹の治癒量+30%。指定した味方の残りHPが50%以上の場合、その味方に羅刹の攻撃力18%+240の耐久値を持つバリアを付与する、2ターン継続。",
+        "ko": "전투 스킬 효과 발동 시 지정한 아군의 현재 HP 백분율이 50% 미만일 경우 나찰이 제공하는 치유량이 30% 증가하고, 현재 HP 백분율이 50% 이상일 경우 나찰 공격력의 18%+240만큼 피해를 상쇄할 수 있는 실드를 제공한다. 실드 지속 시간: 2턴"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Questionamento pelos Tolos",
+        "en": "Surveyal by the Fool",
+        "zh-CN": "愚人试探",
+        "ja": "{RUBY_B#ぐしゃ}愚者{RUBY_E#}の{RUBY_B#もさく}模索{RUBY_E#}",
+        "ko": "우인의 모색"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "O Peso da Coroa",
+        "en": "Heavy Lies the Crown",
+        "zh-CN": "荆冠审判",
+        "ja": "{RUBY_B#いばら}荊{RUBY_E#}の{RUBY_B#しんぱん}審判{RUBY_E#}",
+        "ko": "가시관의 심판"
+      },
+      "description": {
+        "pt-BR": "Quando o Campo de Luocha está ativo, inimigos recebem Enfraquecimento e causam 12% a menos de Dano.",
+        "en": "When Luocha's Zone is active, enemies become Weakened and deal 12% less DMG.",
+        "zh-CN": "结界生效时使敌方目标陷入虚弱状态，造成的伤害降低12%。",
+        "ja": "結界が展開されている間、敵を虚弱状態にし、敵の与ダメージ-12%。",
+        "ko": "결계 효과 발동 시 적은 허약 상태에 빠지고, 가하는 피해가 12% 감소한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Cicatriz Abaixo da Dor",
+        "en": "Cicatrix 'Neath the Pain",
+        "zh-CN": "受难之痕",
+        "ja": "{RUBY_B#じゅなん}受難{RUBY_E#}の{RUBY_B#あと}痕{RUBY_E#}",
+        "ko": "수난의 흔적"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "De Volta ao Pó",
+        "en": "Reunion With the Dust",
+        "zh-CN": "皆归尘土",
+        "ja": "{RUBY_B#みなかいじん}皆灰燼{RUBY_E#}に{RUBY_B#き}帰{RUBY_E#}す",
+        "ko": "모두가 먼지로 돌아가리"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia Suprema, há uma chance fixa de 100% de reduzir a RES a Todos os Tipos de todos os inimigos em 20% por 2 rodada(s).",
+        "en": "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s).",
+        "zh-CN": "施放终结技时，有100%固定概率使敌方全体全属性抗性降低20%，持续2回合。",
+        "ja": "必殺技を発動した時、100%の固定確率で敵全体の全属性耐性-20%、2ターン継続。",
+        "ko": "필살기 발동 시 100%의 고정 확률로 모든 적의 모든 속성 저항이 20% 감소한다. 지속 시간: 2턴"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1203.png",
+    "preview": "image/character_preview/1203.png",
+    "portrait": "image/character_portrait/1203.png"
+  }
+}

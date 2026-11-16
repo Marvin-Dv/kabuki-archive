@@ -1,0 +1,70 @@
+{
+  "id": 21014,
+  "slug": "perfect-timing",
+  "name": {
+    "pt-BR": "Momento Perfeito",
+    "en": "Perfect Timing",
+    "zh-CN": "此时恰好",
+    "ja": "今が丁度",
+    "ko": "알맞은 타이밍"
+  },
+  "rarity": 4,
+  "path": "Abundance",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Em uma rua movimentada, ele caminha e caminha. A luz do sol segue de perto seus passos.\nEle para e pega uma sombrinha para se proteger do sol...\ne daquele olhar curioso.",
+    "en": "On a bustling street, he walks and walks. The sunlight closely follows his footsteps.\nHe makes a stop and picks up an umbrella to shade himself from the sun\n...and from that prying gaze.",
+    "zh-CN": "街道熙攘，他走着，阳光跟着。\n他停了脚步，挑了纸伞，乘了阴凉\n——也遮了那一道目光。",
+    "ja": "賑やかな町。彼は歩き、日の光が後をついて行く。\n彼は足を止め、紙傘を選び、涼を取る\n——同時に、その視線も遮った。",
+    "ko": "거리는 붐비고, 그는 걷고, 햇빛은 따라온다.\n그는 발걸음을 멈추고 종이 우산을 들고 그늘을 펼친다.\n그 한줄기의 시선도 가렸다"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Refração da Visão",
+      "en": "Refraction of Sightline",
+      "zh-CN": "折射的视线",
+      "ja": "屈折する視線",
+      "ko": "굴절된 시선"
+    },
+    "description": {
+      "pt-BR": "Aumenta RES a Efeito do usuário em #1[i]% e aumenta a Cura Realizada em um valor igual a #2[i]% da RES de Efeito. A Cura Realizada pode ser aumentada dessa forma em até #3[i]%.",
+      "en": "Increases the wearer's Effect RES by #1[i]% and increases Outgoing Healing by an amount that is equal to #2[i]% of Effect RES. Outgoing Healing can be increased this way by up to #3[i]%.",
+      "zh-CN": "使装备者的效果抵抗提高#1[i]%，并使装备者的治疗量提高，提高数值等同于效果抵抗的#2[i]%，最多使治疗量提高#3[i]%。",
+      "ja": "装備キャラの効果抵抗+#1[i]%。装備キャラの治癒量が、効果抵抗の#2[i]%分アップする、最大で#3[i]%アップできる。",
+      "ko": "장착한 캐릭터의 효과 저항이 #1[i]% 증가하고, 장착한 캐릭터 치유량이 증가한다. 증가 수치는 효과 저항의 #2[i]%만큼이다. 치유량은 최대 #3[i]% 증가한다"
+    },
+    "params": [
+      [
+        0.16,
+        0.33,
+        0.15
+      ],
+      [
+        0.2,
+        0.36,
+        0.18
+      ],
+      [
+        0.24,
+        0.39,
+        0.21
+      ],
+      [
+        0.28,
+        0.42,
+        0.24
+      ],
+      [
+        0.32,
+        0.45,
+        0.27
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21014.png",
+    "preview": "image/light_cone_preview/21014.png",
+    "portrait": "image/light_cone_portrait/21014.png"
+  }
+}

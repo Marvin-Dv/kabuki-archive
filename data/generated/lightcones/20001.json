@@ -1,0 +1,60 @@
+{
+  "id": 20001,
+  "slug": "cornucopia",
+  "name": {
+    "pt-BR": "Cornucópia",
+    "en": "Cornucopia",
+    "zh-CN": "物穰",
+    "ja": "物穣",
+    "ko": "풍작"
+  },
+  "rarity": 3,
+  "path": "Abundance",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino.\n\"A vida é a existência da ordem para além de determinado limiar. Sua origem é a resposta definitiva para um universo em silêncio sepulcral, declarando o fim de uma era caótica.\"",
+    "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"Life is the existence of order beyond a certain threshold. Its birth is the final answer to the silent universe, declaring the end to the era of old chaos.\"",
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「生命就是有序度超越了某个阈值的存在。它的诞生便是对死寂宇宙的最终解答，宣告着古老混沌的时代一去不返。」",
+    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「生命とは、ある秩序のしきい値を超えた存在。その誕生は、静寂な宇宙に対する終極の答えであり、古き混沌の時代の終わりを告げる出来事」",
+    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「생명은 질서의 정도가 어떤 역치(閾値)를 초월한 존재. 그 탄생은 적막한 우주의 마지막 해답이며, 오래된 혼돈의 시대가 돌아오지 않음을 선포한다」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Prosperidade",
+      "en": "Prosperity",
+      "zh-CN": "繁盛",
+      "ja": "繁盛",
+      "ko": "번성"
+    },
+    "description": {
+      "pt-BR": "Quando o usuário usa sua Perícia ou Perícia Suprema, aumenta em #1[i]% a Cura Realizada.",
+      "en": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by #1[i]%.",
+      "zh-CN": "装备者施放战技和终结技时，治疗量提高#1[i]%。",
+      "ja": "装備キャラが戦闘スキル、または必殺技を発動した時、治癒量+#1[i]%。",
+      "ko": "장착한 캐릭터가 전투 스킬과 필살기 발동 시 치유량이 #1[i]% 증가한다"
+    },
+    "params": [
+      [
+        0.12
+      ],
+      [
+        0.15
+      ],
+      [
+        0.18
+      ],
+      [
+        0.21
+      ],
+      [
+        0.24
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/20001.png",
+    "preview": "image/light_cone_preview/20001.png",
+    "portrait": "image/light_cone_portrait/20001.png"
+  }
+}

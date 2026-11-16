@@ -1,0 +1,1434 @@
+{
+  "id": 1510,
+  "slug": "himeko-nova",
+  "name": {
+    "pt-BR": "Himeko - Nova",
+    "en": "Himeko • Nova",
+    "zh-CN": "姬子•启行",
+    "ja": "姫子・旅立ち",
+    "ko": "히메코•노바"
+  },
+  "rarity": 5,
+  "path": "Erudition",
+  "element": "Fire",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 151001,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Acenda a Primeira Estrela-Guia",
+        "en": "Enkindle the First Lodestar",
+        "zh-CN": "点燃第一里航标",
+        "ja": "はじまりの航路標識を灯して",
+        "ko": "첫 번째 이정표를 밝혀"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Himeko - Nova a um único inimigo.",
+        "en": "Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to one enemy.",
+        "zh-CN": "对敌方单体造成等同于姬子•启行#1[i]%攻击力的火属性伤害。",
+        "ja": "敵単体に姫子・旅立ちの攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "단일 적에게 히메코•노바 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 151002,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Erga o Archote que Guia o Caminho",
+        "en": "Upraise the Vanward Cresset",
+        "zh-CN": "升起领航的烽火",
+        "ja": "立ち昇る導きの狼煙",
+        "ko": "항법의 봉화를 올려"
+      },
+      "description": {
+        "pt-BR": "Após usar a Perícia, recupera imediatamente todos os usos da Perícia de Assistência. Himeko - Nova obtém \"Semáforo da Navegadora\", durando por #2[i] rodada(s). Essa duração é reduzida em 1 no início de cada rodada de Himeko - Nova. Quando Himeko - Nova possui \"Semáforo da Navegadora\", o Dano causado por todos os aliados aumenta em #1[i]%. No início de cada rodada, recupera imediatamente 1 uso da Perícia de Assistência.",
+        "en": "After using Skill, immediately recovers all Assist Skill uses. Himeko • Nova gains \"Navigator's Semaphore,\" lasting for #2[i] turn(s). This duration decreases by 1 at the start of Himeko • Nova's every turn. When Himeko • Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by #1[i]%. At the start of every turn, immediately recovers 1 Assist Skill use.",
+        "zh-CN": "施放战技后立即恢复所有助战技使用次数，姬子•启行获得【领航旗语】，持续#2[i]回合，姬子•启行每回合开始时持续回合数减1。当姬子•启行拥有【领航旗语】时，我方全体造成的伤害提高#1[i]%，每个回合开始时，立即恢复1次助战技使用次数。",
+        "ja": "戦闘スキルを発動した後、姫子・旅立ちは即座に支援スキルの使用可能回数をすべて回復し、「導く旗印」を獲得する、#2[i]ターン継続。姫子・旅立ちのターンが回ってくるたびに継続ターン数-1。姫子・旅立ちが「導く旗印」を持つ時、味方全体の与ダメージ+#1[i]%、ターンが回ってくるたびに、支援スキルの使用可能回数を1回復する。",
+        "ko": "전투 스킬 발동 후 즉시 모든 전투 지원 스킬 사용 횟수를 회복하고, 히메코•노바는 [항법 수기 신호]를 획득한다, 지속 시간: #2[i]턴, 히메코•노바의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 히메코•노바가 [항법 수기 신호] 보유 시, 모든 아군이 가하는 피해가 #1[i]% 증가하며, 턴이 시작될 때마다 즉시 전투 지원 스킬 사용 횟수를 1회 회복한다"
+      },
+      "params": [
+        [
+          0.1,
+          3
+        ],
+        [
+          0.11,
+          3
+        ],
+        [
+          0.12,
+          3
+        ],
+        [
+          0.13,
+          3
+        ],
+        [
+          0.14,
+          3
+        ],
+        [
+          0.15,
+          3
+        ],
+        [
+          0.1625,
+          3
+        ],
+        [
+          0.175,
+          3
+        ],
+        [
+          0.1875,
+          3
+        ],
+        [
+          0.2,
+          3
+        ],
+        [
+          0.21,
+          3
+        ],
+        [
+          0.22,
+          3
+        ],
+        [
+          0.23,
+          3
+        ],
+        [
+          0.24,
+          3
+        ],
+        [
+          0.25,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 151003,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Nós, Também Trilhamos as Estrelas",
+        "en": "We, Too, Stride the Stars",
+        "zh-CN": "我们，亦是逐星的巨人",
+        "ja": "我ら、星を追う巨人",
+        "ko": "우리 또한 별을 좇는 거인"
+      },
+      "description": {
+        "pt-BR": "Assume o controle do Desbravestrelas imediatamente. O Desbravestrelas pode lançar \"Feixe de Partículas Hiperluminal\" contra inimigos 6 vezes, ou consumir \"Energia Fonte\" para lançar \"Pulso de Aniquilação Orbital\", causando Dano de Fogo de até #9[i]% do ATQ de Himeko - Nova a um inimigo designado, e Dano de Fogo de até #10[i]% do ATQ de Himeko - Nova aos outros alvos.\nQuando os usos do \"Feixe de Partículas Hiperluminal\" forem exauridos, usa automaticamente \"Pulso de Aniquilação Orbital\", seguido do Golpe Final, causando #6[i] instância(s) de Dano, com cada instância causando Dano de Fogo igual a #7[i]% do ATQ de Himeko - Nova a um inimigo aleatório.\nQuando o \"Feixe de Partículas Hiperluminal\" ou o \"Pulso de Aniquilação Orbital\" causa Dano fatal a todos os inimigos em campo, ou quando os PV dos inimigos não podem mais ser reduzidos, utiliza imediatamente o Golpe Final.",
+        "en": "Immediately takes control of \"Starblazer.\" \"Starblazer\" can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume \"Source Energy\" to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to #9[i]% of Himeko • Nova's ATK to one designated enemy, and Fire DMG up to #10[i]% of Himeko • Nova's ATK to other targets.\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing #6[i] instance(s) of DMG, with each instance dealing Fire DMG equal to #7[i]% of Himeko • Nova's ATK to one random enemy.\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.",
+        "zh-CN": "立即操控「拓星者」，「拓星者」拥有可对敌方发动6次的【超频粒子光束】或消耗【源能】发动的【轨道歼灭脉冲】，对指定敌方单体最多造成等同于姬子•启行#9[i]%攻击力的火属性伤害，对其他目标最多造成等同于姬子•启行#10[i]%攻击力的火属性伤害。\n当【超频粒子光束】次数耗尽时，会自动发动【轨道歼灭脉冲】，随后发动最后一击，造成#6[i]次伤害，每次伤害对敌方随机单体造成等同于姬子•启行#7[i]%攻击力的火属性伤害。\n施放【超频粒子光束】或【轨道歼灭脉冲】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，会立即发动最后一击。",
+        "ja": "即座に「星を拓く者」を操縦する。「星を拓く者」は、敵に6回発動できる「超光速粒子ビーム」と「原動力」を消費して発動できる「軌道殲滅パルス砲」を持つ。\n指定した敵単体に最大で姫子・旅立ちの攻撃力#9[i]%分の炎属性ダメージを与え、その他の敵に最大で姫子・旅立ちの攻撃力#10[i]%分の炎属性ダメージを与える。\n「超光速粒子ビーム」の発動可能回数が尽きた時、自動で「軌道殲滅パルス砲」が発動する。その後、ラストアタックを発動し、#6[i]ヒットする。1ヒットごとにランダムな敵単体に姫子・旅立ちの攻撃力#7[i]%分の炎属性ダメージを与える。\n「超光速粒子ビーム」または「軌道殲滅パルス砲」を発動し、フィールドにいるすべての敵にHPが0になるダメージを与えた時、または敵のHPがそれ以上削れない時、即座にラストアタックを発動する。",
+        "ko": "즉시 「별의 인도자」를 조종한다. 「별의 인도자」는 적에게 6회 발동할 수 있는 [초주파 입자 광선] 또는 [코어 동력]을 소모하여 발동하는 [궤도 섬멸 펄스]를 보유하며, 지정된 단일 적에게 최대 히메코•노바 공격력의 #9[i]%만큼 화염 속성 피해를 가하고, 다른 목표에게 최대 히메코•노바 공격력의 #10[i]%만큼 화염 속성 피해를 가한다.\n[초주파 입자 광선] 횟수를 소진하면 자동으로 [궤도 섬멸 펄스]를 발동하며, 이후 마지막 일격을 발동하여 피해를 #6[i]회 가하고, 피해당 랜덤 단일 적에게 히메코•노바 공격력의 #7[i]%만큼 화염 속성 피해를 가한다.\n[초주파 입자 광선] 또는 [궤도 섬멸 펄스]를 발동하여 필드 위의 모든 적에게 치명적인 피해를 가하거나 적의 HP를 더 이상 감소시킬 수 없을 시, 즉시 마지막 일격을 발동한다"
+      },
+      "params": [
+        [
+          0.16,
+          1,
+          0.1,
+          1,
+          0.15,
+          3,
+          0.4,
+          3,
+          3.81,
+          1.26
+        ],
+        [
+          0.176,
+          1,
+          0.11,
+          1,
+          0.165,
+          3,
+          0.44,
+          3,
+          4.191,
+          1.386
+        ],
+        [
+          0.192,
+          1,
+          0.12,
+          1,
+          0.18,
+          3,
+          0.48,
+          3,
+          4.572,
+          1.512
+        ],
+        [
+          0.208,
+          1,
+          0.13,
+          1,
+          0.195,
+          3,
+          0.52,
+          3,
+          4.953,
+          1.638
+        ],
+        [
+          0.224,
+          1,
+          0.14,
+          1,
+          0.21,
+          3,
+          0.56,
+          3,
+          5.334,
+          1.764
+        ],
+        [
+          0.24,
+          1,
+          0.15,
+          1,
+          0.225,
+          3,
+          0.6,
+          3,
+          5.715,
+          1.89
+        ],
+        [
+          0.26,
+          1,
+          0.1625,
+          1,
+          0.2437,
+          3,
+          0.65,
+          3,
+          6.1913,
+          2.0475
+        ],
+        [
+          0.28,
+          1,
+          0.175,
+          1,
+          0.2625,
+          3,
+          0.7,
+          3,
+          6.6675,
+          2.205
+        ],
+        [
+          0.3,
+          1,
+          0.1875,
+          1,
+          0.2812,
+          3,
+          0.75,
+          3,
+          7.1437,
+          2.3625
+        ],
+        [
+          0.32,
+          1,
+          0.2,
+          1,
+          0.3,
+          3,
+          0.8,
+          3,
+          7.62,
+          2.52
+        ],
+        [
+          0.336,
+          1,
+          0.21,
+          1,
+          0.315,
+          3,
+          0.84,
+          3,
+          8.001,
+          2.646
+        ],
+        [
+          0.352,
+          1,
+          0.22,
+          1,
+          0.33,
+          3,
+          0.88,
+          3,
+          8.382,
+          2.772
+        ],
+        [
+          0.368,
+          1,
+          0.23,
+          1,
+          0.345,
+          3,
+          0.92,
+          3,
+          8.763,
+          2.898
+        ],
+        [
+          0.384,
+          1,
+          0.24,
+          1,
+          0.36,
+          3,
+          0.96,
+          3,
+          9.144,
+          3.024
+        ],
+        [
+          0.4,
+          1,
+          0.25,
+          1,
+          0.375,
+          3,
+          1,
+          3,
+          9.525,
+          3.15
+        ]
+      ]
+    },
+    {
+      "id": 151004,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Rumo à Expedição Ardente",
+        "en": "Of Fire and Far Faring",
+        "zh-CN": "共赴灼热的远征",
+        "ja": "共に灼熱の遠征へ",
+        "ko": "함께 타오르는 여정을 향해"
+      },
+      "description": {
+        "pt-BR": "Enquanto Himeko - Nova estiver em campo, implanta imediatamente o Território \"Horizonte do Desbravestrelas\", convocando o \"Desbravestrelas\" para o campo e concedendo a todos os personagens aliados 1 uso de Perícia de Assistência. Os personagens aliados podem usar a Perícia de Assistência para chamar o \"Desbravestrelas\" para atacar os inimigos.\nUsar a Perícia de Assistência é considerado como se Himeko - Nova tivesse usado sua Perícia. Himeko - Nova ganha #2[i]% de aumento de PEN de RES a Todos os Tipos e #1[i]% de aumento de Dano CRIT. Ao atacar, pode ignorar os Tipos de Fraqueza para reduzir a Tenacidade dos inimigos. Ao aplicar Quebra de Fraqueza, ativa o efeito de Quebra de Fraqueza de Fogo.\nQuando personagens aliados diferentes de Himeko - Nova usam a Perícia de Assistência, eles regeneram #3[i] de Energia.",
+        "en": "While Himeko • Nova is on the field, immediately deploys the Territory \"Starblazer Visioscape,\" summoning \"Starblazer\" to the field and granting all ally characters 1 Assist Skill use. Ally characters can use Assist Skill to call upon \"Starblazer\" to attack enemies.\nUsing Assist Skill is considered as Himeko • Nova using her Skill. Himeko • Nova gains #2[i]% increased All-Type RES PEN and #1[i]% increased CRIT DMG. When attacking, can ignore Weakness Types to reduce enemy Toughness. When breaking Weakness, triggers the Fire Weakness Break effect.\nWhen ally characters other than Himeko • Nova use their Assist Skill, regenerates #3[i] Energy for them.",
+        "zh-CN": "姬子•启行在场时立即展开境界【拓星视界】，场上出现「拓星者」，并使我方全体角色获得1次助战技使用次数。我方角色可使用助战技呼唤「拓星者」攻击敌人。\n使用助战技视为姬子•启行施放了战技，姬子•启行获得全属性抗性穿透提高#2[i]%、暴击伤害提高#1[i]%，攻击时可无视弱点属性削减敌方韧性，击破弱点时，触发火属性的弱点击破效果。\n除姬子•启行外的我方角色使用助战技时，会使其恢复#3[i]点能量。",
+        "ja": "姫子・旅立ちはフィールド上にいる時、境界「星拓きの視界」を展開する。フィールドに「星を拓く者」が出現し、味方キャラ全体が支援スキルの使用可能回数を1獲得する。味方キャラは支援スキルを使用して「星を拓く者」を呼び、敵を攻撃できる。\n支援スキルの使用は「姫子・旅立ち」が戦闘スキルを発動したものと見なされる。同時に姫子・旅立ちの全属性耐性貫通+#2[i]%、会心ダメージ+#1[i]%。なお、姫子・旅立ちは攻撃を行う時、弱点属性を無視して敵の靭性を削るようになる。敵を弱点撃破をした時、炎属性の弱点撃破効果を発動する。\n「姫子・旅立ち」以外の味方キャラが支援スキルを使用した時、その使用したキャラのEPを#3[i]回復する。",
+        "ko": "히메코•노바가 필드에 있을 시 즉시 경계 [별을 인도하는 시야]를 펼치며, 필드에 「별의 인도자」가 나타나고, 모든 아군 캐릭터가 전투 지원 스킬 사용 횟수를 1회 획득한다. 아군 캐릭터는 전투 지원 스킬을 사용하여 「별의 인도자」를 소환해 적을 공격할 수 있다.\n전투 지원 스킬을 사용하면 히메코•노바가 전투 스킬을 발동한 것으로 간주하고, 히메코•노바는 모든 속성 저항 관통 #2[i]% 증가, 치명타 피해 #1[i]% 증가를 획득하며, 공격 시 약점 속성을 무시하고 적의 강인성을 소모할 수 있고, 약점 격파 시 화염 속성의 약점 격파 효과를 발동한다.\n히메코•노바를 제외한 아군 캐릭터가 전투 지원 스킬 사용 시, 해당 아군 캐릭터의 에너지를 #3[i]pt 회복한다"
+      },
+      "params": [
+        [
+          0.4,
+          0.1,
+          4
+        ],
+        [
+          0.44,
+          0.11,
+          4
+        ],
+        [
+          0.48,
+          0.12,
+          4
+        ],
+        [
+          0.52,
+          0.13,
+          4
+        ],
+        [
+          0.56,
+          0.14,
+          4
+        ],
+        [
+          0.6,
+          0.15,
+          4
+        ],
+        [
+          0.65,
+          0.1625,
+          4
+        ],
+        [
+          0.7,
+          0.175,
+          4
+        ],
+        [
+          0.75,
+          0.1875,
+          4
+        ],
+        [
+          0.8,
+          0.2,
+          4
+        ],
+        [
+          0.84,
+          0.21,
+          4
+        ],
+        [
+          0.88,
+          0.22,
+          4
+        ],
+        [
+          0.92,
+          0.23,
+          4
+        ],
+        [
+          0.96,
+          0.24,
+          4
+        ],
+        [
+          1,
+          0.25,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 151006,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 151007,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Cruzeiro da Cartógrafa Estelar",
+        "en": "Starcharter Cruise",
+        "zh-CN": "拓星巡航",
+        "ja": "星を拓く巡航",
+        "ko": "별의 인도 순항"
+      },
+      "description": {
+        "pt-BR": "Quando Himeko - Nova estiver na equipe, os Pontos de Técnica máximos aumentam em 3.\nApós usar a Técnica, ela entra no estado de \"Cruzeiro\", que dura por #1[i] segundos. Usar a Técnica ativamente consome 2 Pontos de Técnica e ataca imediatamente todos os inimigos dentro de um certo alcance. Após entrar em combate, usa imediatamente a Perícia 1 vez no início de cada onda.\nAo atacar um inimigo Normal, ele é derrotado imediatamente sem entrar em combate. Nenhum Ponto de Técnica é consumido se nenhum inimigo for atingido.",
+        "en": "When Himeko • Nova is in the team, increases the max Technique Points by 3.\nAfter using Technique, enters the \"Cruise\" state for #1[i] seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
+        "zh-CN": "姬子•启行在队伍中时，使秘技点上限提高3点。\n使用秘技后进入持续#1[i]秒的【巡航】状态，主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，每个波次开始时立即施放1次战技。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。",
+        "ja": "「姫子・旅立ち」がパーティにいる時、秘技PT上限+3。\n秘技を使用した後、#1[i]秒継続する「巡航」状態に入る。秘技を使用すると秘技PTを2消費し、即座に一定範囲内にいるすべての敵を攻撃する。戦闘に入った後、各ウェーブ開始時に即座に戦闘スキルを1回発動する。\n通常エネミーを攻撃するとターゲットはその場で倒され、戦闘に入らない。敵に命中しなかった場合、秘技PTは消費されない。",
+        "ko": "히메코•노바가 파티에 있을 시 비술 포인트 최대치가 3pt 증가한다.\n비술 사용 후 #1[i]초 동안 지속되는 [순항] 상태에 진입하며, 직접 비술을 발동하면 비술 포인트를 2pt 소모하고 즉시 일정 범위 내의 모든 적을 공격한다. 전투 진입 후 웨이브가 시작될 때마다 즉시 전투 스킬을 1회 발동한다.\n일반 적을 공격하면 즉시 처치하며 전투에 진입하지 않는다. 적을 명중하지 않으면 비술 포인트를 소모하지 않는다"
+      },
+      "params": [
+        [
+          30
+        ]
+      ]
+    },
+    {
+      "id": 151008,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Feixe de Partículas Hiperluminal",
+        "en": "Hyperluminal Particle Beam",
+        "zh-CN": "超频粒子光束",
+        "ja": "超光速粒子ビーム",
+        "ko": "초주파 입자 광선"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo em um valor igual a #1[i]% do ATQ de Himeko - Nova a todos os inimigos e obtém #2[i] ponto(s) de \"Energia Fonte\". É possível acumular até #3[i] ponto(s) de \"Energia Fonte\".",
+        "en": "Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to all enemies and gains #2[i] point(s) of \"Source Energy.\" A maximum of #3[i] \"Source Energy\" can be held.",
+        "zh-CN": "对敌方全体造成等同于姬子•启行#1[i]%攻击力的火属性伤害，获得#2[i]点【源能】，【源能】最多获得#3[i]个。",
+        "ja": "敵全体に姫子・旅立ちの攻撃力#1[i]%分の炎属性ダメージを与え、「原動力」を#2[i]獲得する。「原動力」は最大#3[i]まで獲得できる。",
+        "ko": "모든 적에게 히메코•노바 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, [코어 동력]을 #2[i]pt 획득한다. [코어 동력]은 최대 #3[i]개까지 획득할 수 있다"
+      },
+      "params": [
+        [
+          0.16,
+          1,
+          3
+        ],
+        [
+          0.176,
+          1,
+          3
+        ],
+        [
+          0.192,
+          1,
+          3
+        ],
+        [
+          0.208,
+          1,
+          3
+        ],
+        [
+          0.224,
+          1,
+          3
+        ],
+        [
+          0.24,
+          1,
+          3
+        ],
+        [
+          0.26,
+          1,
+          3
+        ],
+        [
+          0.28,
+          1,
+          3
+        ],
+        [
+          0.3,
+          1,
+          3
+        ],
+        [
+          0.32,
+          1,
+          3
+        ],
+        [
+          0.336,
+          1,
+          3
+        ],
+        [
+          0.352,
+          1,
+          3
+        ],
+        [
+          0.368,
+          1,
+          3
+        ],
+        [
+          0.384,
+          1,
+          3
+        ],
+        [
+          0.4,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 151009,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Pulso de Aniquilação Orbital",
+        "en": "Orbital Annihilation Pulse",
+        "zh-CN": "轨道歼灭脉冲",
+        "ja": "軌道殲滅パルス砲",
+        "ko": "궤도 섬멸 펄스"
+      },
+      "description": {
+        "pt-BR": "Consome 1 ponto de \"Energia Fonte\" para causar Dano de Fogo em um valor igual a #1[i]% do ATQ de Himeko - Nova a todos os inimigos. Quando a quantidade atual de \"Energia Fonte\" for superior a 1, para cada #2[i] ponto(s) de \"Energia Fonte\" consumido(s), causa adicionalmente 1 instância de Dano de Fogo em um valor igual a #3[i]% do ATQ de Himeko - Nova a um inimigo aleatório.",
+        "en": "Consumes 1 point of \"Source Energy\" to deal Fire DMG equal to #1[i]% of Himeko • Nova's ATK to all enemies. When the current \"Source Energy\" is more than 1, for every #2[i] point(s) of \"Source Energy\" consumed, additionally deals 1 instance of Fire DMG equal to #3[i]% of Himeko • Nova's ATK to one random enemy.",
+        "zh-CN": "消耗1点【源能】对敌方全体造成等同于姬子•启行#1[i]%攻击力的火属性伤害。当前【源能】大于1点时，每消耗#2[i]点【源能】，额外对敌方随机单体造成1次等同于姬子•启行#3[i]%攻击力的火属性伤害。",
+        "ja": "「原動力」を1消費し、敵全体に姫子・旅立ちの攻撃力#1[i]%分の炎属性ダメージを与える。所持している「原動力」が1を超えた場合、「原動力」を#2[i]消費するごとに、追加でランダムな敵単体に姫子・旅立ちの攻撃力#3[i]%分の炎属性ダメージを1回与える。",
+        "ko": "[코어 동력]을 1pt 소모해 모든 적에게 히메코•노바 공격력의 #1[i]%만큼 화염 속성 피해를 가한다. 현재 [코어 동력]이 1pt보다 많을 경우, [코어 동력]을 #2[i]pt 소모할 때마다 추가로 랜덤 단일 적에게 히메코•노바 공격력의 #3[i]%만큼 화염 속성 피해를 1회 가한다"
+      },
+      "params": [
+        [
+          0.1,
+          1,
+          0.15
+        ],
+        [
+          0.11,
+          1,
+          0.165
+        ],
+        [
+          0.12,
+          1,
+          0.18
+        ],
+        [
+          0.13,
+          1,
+          0.195
+        ],
+        [
+          0.14,
+          1,
+          0.21
+        ],
+        [
+          0.15,
+          1,
+          0.225
+        ],
+        [
+          0.1625,
+          1,
+          0.2437
+        ],
+        [
+          0.175,
+          1,
+          0.2625
+        ],
+        [
+          0.1875,
+          1,
+          0.2812
+        ],
+        [
+          0.2,
+          1,
+          0.3
+        ],
+        [
+          0.21,
+          1,
+          0.315
+        ],
+        [
+          0.22,
+          1,
+          0.33
+        ],
+        [
+          0.23,
+          1,
+          0.345
+        ],
+        [
+          0.24,
+          1,
+          0.36
+        ],
+        [
+          0.25,
+          1,
+          0.375
+        ]
+      ]
+    },
+    {
+      "id": 151014,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Nós, Também Trilhamos as Estrelas",
+        "en": "We, Too, Stride the Stars",
+        "zh-CN": "我们，亦是逐星的巨人",
+        "ja": "我ら、星を追う巨人",
+        "ko": "우리 또한 별을 좇는 거인"
+      },
+      "description": {
+        "pt-BR": "Causa #2[i] instância(s) de Dano, cada uma causando Dano de Fogo a um inimigo aleatório.",
+        "en": "Deals #2[i] instance(s) of DMG, each dealing Fire DMG to one random enemy.",
+        "zh-CN": "造成#2[i]次伤害，每次伤害对敌方随机单体造成火属性伤害。",
+        "ja": "ダメージを#2[i]回与える。1回につき、ランダムな敵単体に炎属性ダメージを与える。",
+        "ko": "피해를 #2[i]회 가하며, 피해당 랜덤 단일 적에게 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          3,
+          0.4
+        ],
+        [
+          3,
+          0.44
+        ],
+        [
+          3,
+          0.48
+        ],
+        [
+          3,
+          0.52
+        ],
+        [
+          3,
+          0.56
+        ],
+        [
+          3,
+          0.6
+        ],
+        [
+          3,
+          0.65
+        ],
+        [
+          3,
+          0.7
+        ],
+        [
+          3,
+          0.75
+        ],
+        [
+          3,
+          0.8
+        ],
+        [
+          3,
+          0.84
+        ],
+        [
+          3,
+          0.88
+        ],
+        [
+          3,
+          0.92
+        ],
+        [
+          3,
+          0.96
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 151022,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Desbravamento, Ao Seu Lado",
+        "en": "Trailblaze, By Your Side",
+        "zh-CN": "开拓，与你同行",
+        "ja": "開拓が共にあらんことを",
+        "ko": "개척, 너와 함께"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Himeko - Nova a todos os inimigos e causa adicionalmente #2[i] instâncias de Dano, com cada instância causando Dano de Fogo igual a #3[i]% do ATQ de Himeko - Nova a um inimigo aleatório. Quando usada por Himeko - Nova, causa Dano de Fogo igual a #4[i]% do ATQ de Himeko - Nova a todos os inimigos e causa adicionalmente #5[i] instâncias de Dano, com cada instância causando Dano de Fogo igual a #6[i]% do ATQ de Himeko - Nova a um inimigo aleatório.\nSe usada por um personagem Companheiro de Desbravamento que não seja Himeko - Nova, Himeko - Nova ganhará adicionalmente 1 dos Efeitos Especiais dependendo do usuário.\nA Perícia de Assistência extra ativada por todos os Efeitos Especiais pode ser ativada até #8[i] vez(es) por batalha, e a contagem de ativação é reiniciada após Himeko - Nova usar sua Perícia Suprema.",
+        "en": "Deals Fire DMG equal to #1[i]% of Himeko • Nova's ATK to all enemies, and additionally deals #2[i] instances of DMG, with each instance dealing Fire DMG equal to #3[i]% of Himeko • Nova's ATK to one random enemy. When used by Himeko • Nova, deals Fire DMG equal to #4[i]% of Himeko • Nova's ATK to all enemies, and additionally deals #5[i] instances of DMG, with each instance dealing Fire DMG equal to #6[i]% of Himeko • Nova's ATK to one random enemy.\nIf the user is a Trailblaze Companions character other than Himeko • Nova, then depending on the user, Himeko • Nova additionally gains 1 of the Special Effects.\nThe extra Assist Skill via all Special Effects can be launched up to #8[i] time(s) per battle, and this count is reset after Himeko • Nova uses her Ultimate.",
+        "zh-CN": "对敌方全体造成等同于姬子•启行#1[i]%攻击力的火属性伤害，额外造成#2[i]次伤害，每次伤害对敌方随机单体造成等同于姬子•启行#3[i]%攻击力的火属性伤害。姬子•启行使用时，对敌方全体造成等同于姬子•启行#4[i]%攻击力的火属性伤害，额外造成#5[i]次伤害，每次伤害对敌方随机单体造成等同于姬子•启行#6[i]%攻击力的火属性伤害。\n若使用者为姬子•启行外的开拓同行角色，则根据使用者的不同，姬子•启行额外获得特殊效果的其中1种。\n所有特殊效果发动的额外助战技单场战斗中最多发动#8[i]次，姬子•启行施放终结技后刷新发动次数。",
+        "ja": "敵全体に姫子・旅立ちの攻撃力#1[i]%分の炎属性ダメージを与え、追加で#2[i]ヒットする。1ヒットごとにランダムな敵単体に姫子・旅立ちの攻撃力#3[i]%分の炎属性ダメージを与える。姫子・旅立ちが使用した場合、敵全体に姫子・旅立ちの攻撃力#4[i]%分の炎属性ダメージを与え、追加で#5[i]ヒットする。1ヒットごとに、ランダムな敵単体に姫子・旅立ちの攻撃力#6[i]%分の炎属性ダメージを与える。\n姫子・旅立ち以外の開拓仲間キャラクターが使用した場合、使用者に応じて、姫子・旅立ちは追加で特殊効果の中から1つを獲得する。\n一度の戦闘で、すべての特殊効果が発動する追加の支援スキルは最大で#8[i]回まで発動できる。姫子・旅立ちが必殺技を発動した後、発動可能回数はリセットされる。",
+        "ko": "모든 적에게 히메코•노바 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, 추가로 피해를 #2[i]회 가하며, 피해당 랜덤 단일 적에게 히메코•노바 공격력의 #3[i]%만큼 화염 속성 피해를 가한다. 히메코•노바가 사용 시, 모든 적에게 히메코•노바 공격력의 #4[i]%만큼 화염 속성 피해를 가하고, 추가로 피해를 #5[i]회 가하며, 피해당 랜덤 단일 적에게 히메코•노바 공격력의 #6[i]%만큼 화염 속성 피해를 가한다.\n사용자가 히메코•노바를 제외한 개척 동행 캐릭터일 경우, 사용자에 따라 히메코•노바는 추가로 특수 효과 중 1개를 획득한다.\n특수 효과로 발동하는 모든 추가 전투 지원 스킬은 단일 전투에서 최대 #8[i]회 발동하며, 히메코•노바가 필살기를 발동하면 발동 횟수가 초기화된다"
+      },
+      "params": [
+        [
+          0.8,
+          3,
+          0.12,
+          1,
+          4,
+          0.18,
+          4,
+          2
+        ],
+        [
+          0.88,
+          3,
+          0.132,
+          1.1,
+          4,
+          0.194,
+          4,
+          2
+        ],
+        [
+          0.96,
+          3,
+          0.144,
+          1.2,
+          4,
+          0.208,
+          4,
+          2
+        ],
+        [
+          1.04,
+          3,
+          0.156,
+          1.3,
+          4,
+          0.222,
+          4,
+          2
+        ],
+        [
+          1.12,
+          3,
+          0.168,
+          1.4,
+          4,
+          0.236,
+          4,
+          2
+        ],
+        [
+          1.2,
+          3,
+          0.18,
+          1.5,
+          4,
+          0.25,
+          4,
+          2
+        ],
+        [
+          1.3,
+          3,
+          0.195,
+          1.625,
+          4,
+          0.2675,
+          4,
+          2
+        ],
+        [
+          1.4,
+          3,
+          0.21,
+          1.75,
+          4,
+          0.285,
+          4,
+          2
+        ],
+        [
+          1.5,
+          3,
+          0.225,
+          1.875,
+          4,
+          0.3025,
+          4,
+          2
+        ],
+        [
+          1.6,
+          3,
+          0.24,
+          2,
+          4,
+          0.32,
+          4,
+          2
+        ],
+        [
+          1.68,
+          3,
+          0.252,
+          2.1,
+          4,
+          0.334,
+          4,
+          2
+        ],
+        [
+          1.76,
+          3,
+          0.264,
+          2.2,
+          4,
+          0.348,
+          4,
+          2
+        ],
+        [
+          1.84,
+          3,
+          0.276,
+          2.3,
+          4,
+          0.362,
+          4,
+          2
+        ],
+        [
+          1.92,
+          3,
+          0.288,
+          2.4,
+          4,
+          0.376,
+          4,
+          2
+        ],
+        [
+          2,
+          3,
+          0.3,
+          2.5,
+          4,
+          0.39,
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 151025,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Protocolo de Companhia: Veredito",
+        "en": "Companion Protocol: Verdict",
+        "zh-CN": "同行协议：裁决",
+        "ja": "同行協定：裁決",
+        "ko": "동행 프로토콜: 판결"
+      },
+      "description": {
+        "pt-BR": "Entra no estado de \"Protocolo de Companhia: Veredito\". Aumenta o Dano causado por Himeko - Nova em #8[i]%, e aumenta adicionalmente o Dano de Perícia Suprema causado por ela em #10[i]%. Após os aliados de Himeko - Nova usarem ativamente a Perícia Suprema #9[i] vez(es), Himeko - Nova utiliza imediatamente 1 Perícia de Assistência contra o inimigo sem custo.",
+        "en": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova by #8[i]%, and additionally increases her Ultimate DMG dealt by #10[i]%. After Himeko • Nova's teammates actively use their Ultimate #9[i] time(s), Himeko • Nova immediately launches 1 Assist Skill against enemies at no cost.",
+        "zh-CN": "进入【同行协议：裁决】状态。姬子•启行造成的伤害提高#8[i]%，造成的终结技伤害额外提高#10[i]%。姬子•启行的队友主动施放#9[i]次终结技后，姬子•启行立即对敌方发动1次无消耗的助战技。",
+        "ja": "「同行協定：裁決」状態に入る。姫子・旅立ちの与ダメージ+#8[i]%、与える必殺技ダメージがさらに+#10[i]%。姫子・旅立ち以外の味方が必殺技を#9[i]回発動した後、姫子・旅立ちは即座に敵に使用可能回数を消費しない支援スキルを1回発動する。",
+        "ko": "[동행 프로토콜: 판결] 상태에 진입한다. 히메코•노바가 가하는 피해가 #8[i]% 증가하고, 가하는 필살기 피해가 추가로 #10[i]% 증가한다. 히메코•노바의 동료가 필살기를 직접 #9[i]회 발동한 후, 히메코•노바는 즉시 적에게 소모 없는 전투 지원 스킬을 1회 발동한다"
+      },
+      "params": [
+        [
+          0.8,
+          3,
+          0.12,
+          1,
+          4,
+          0.18,
+          4,
+          0.5,
+          2,
+          0.5
+        ],
+        [
+          0.88,
+          3,
+          0.132,
+          1.1,
+          4,
+          0.194,
+          4,
+          0.55,
+          2,
+          0.55
+        ],
+        [
+          0.96,
+          3,
+          0.144,
+          1.2,
+          4,
+          0.208,
+          4,
+          0.6,
+          2,
+          0.6
+        ],
+        [
+          1.04,
+          3,
+          0.156,
+          1.3,
+          4,
+          0.222,
+          4,
+          0.65,
+          2,
+          0.65
+        ],
+        [
+          1.12,
+          3,
+          0.168,
+          1.4,
+          4,
+          0.236,
+          4,
+          0.7,
+          2,
+          0.7
+        ],
+        [
+          1.2,
+          3,
+          0.18,
+          1.5,
+          4,
+          0.25,
+          4,
+          0.75,
+          2,
+          0.75
+        ],
+        [
+          1.3,
+          3,
+          0.195,
+          1.625,
+          4,
+          0.2675,
+          4,
+          0.8125,
+          2,
+          0.8125
+        ],
+        [
+          1.4,
+          3,
+          0.21,
+          1.75,
+          4,
+          0.285,
+          4,
+          0.875,
+          2,
+          0.875
+        ],
+        [
+          1.5,
+          3,
+          0.225,
+          1.875,
+          4,
+          0.3025,
+          4,
+          0.9375,
+          2,
+          0.9375
+        ],
+        [
+          1.6,
+          3,
+          0.24,
+          2,
+          4,
+          0.32,
+          4,
+          1,
+          2,
+          1
+        ],
+        [
+          1.68,
+          3,
+          0.252,
+          2.1,
+          4,
+          0.334,
+          4,
+          1.05,
+          2,
+          1.05
+        ],
+        [
+          1.76,
+          3,
+          0.264,
+          2.2,
+          4,
+          0.348,
+          4,
+          1.1,
+          2,
+          1.1
+        ],
+        [
+          1.84,
+          3,
+          0.276,
+          2.3,
+          4,
+          0.362,
+          4,
+          1.15,
+          2,
+          1.15
+        ],
+        [
+          1.92,
+          3,
+          0.288,
+          2.4,
+          4,
+          0.376,
+          4,
+          1.2,
+          2,
+          1.2
+        ],
+        [
+          2,
+          3,
+          0.3,
+          2.5,
+          4,
+          0.39,
+          4,
+          1.25,
+          2,
+          1.25
+        ]
+      ]
+    },
+    {
+      "id": 151026,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Protocolo de Companhia: Dizimação",
+        "en": "Companion Protocol: Decimation",
+        "zh-CN": "同行协议：歼破",
+        "ja": "同行協定：殲滅",
+        "ko": "동행 프로토콜: 섬멸"
+      },
+      "description": {
+        "pt-BR": "Entra no estado de \"Protocolo de Companhia: Dizimação\". Aumenta o Dano CRIT de todos os aliados em #8[i]%, e adicionalmente aumenta o Dano CRIT causado por Perícia em #10[i]%. Para cada 1 inimigo-alvo atingido pelos aliados, ganha 1 Carga. Quando a Carga atingir #9[i], consome toda a Carga, e Himeko - Nova utiliza imediatamente 1 Perícia de Assistência contra os inimigos sem custo. Esta instância da Perícia de Assistência não pode conceder Carga.",
+        "en": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by #8[i]%, and additionally increases the CRIT DMG dealt by Skill by #10[i]%. For every 1 enemy target hit by allies, gains 1 Charge. When Charge reaches #9[i], consumes all Charge, and Himeko • Nova immediately launches 1 Assist Skill against enemies at no cost. This instance of Assist Skill cannot grant Charge.",
+        "zh-CN": "进入【同行协议：歼破】状态。我方全体暴击伤害提高#8[i]%，战技造成的暴击伤害额外提高#10[i]%。我方每击中1名敌方目标均可获得1点充能，当充能到达#9[i]点后消耗所有充能，姬子•启行立即对敌方发动1次无消耗的助战技。本次助战技无法获得充能。",
+        "ja": "「同行協定：殲滅」状態に入る。味方全体の会心ダメージ+#8[i]%、戦闘スキルによるダメージの会心ダメージがさらに+#10[i]%。味方の攻撃が命中した敵1体につき、チャージを1獲得する。チャージが#9[i]に達した後、姫子・旅立ちはチャージをすべて消費し、即座に敵に使用可能回数を消費しない支援スキルを1回発動する。なお、この回の支援スキルからはチャージを獲得できない。",
+        "ko": "[동행 프로토콜: 섬멸] 상태에 진입한다. 모든 아군의 치명타 피해가 #8[i]% 증가하고, 전투 스킬이 가하는 치명타 피해가 추가로 #10[i]% 증가한다. 아군이 적을 1기 명중할 때마다 충전을 1pt 획득하며, 충전이 #9[i]pt에 도달하면 모든 충전을 소모해 히메코•노바가 즉시 적에게 소모 없는 전투 지원 스킬을 1회 발동한다. 이번 전투 지원 스킬은 충전을 획득할 수 없다"
+      },
+      "params": [
+        [
+          0.8,
+          3,
+          0.12,
+          1,
+          4,
+          0.18,
+          4,
+          0.5,
+          9,
+          0.5
+        ],
+        [
+          0.88,
+          3,
+          0.132,
+          1.1,
+          4,
+          0.194,
+          4,
+          0.55,
+          9,
+          0.55
+        ],
+        [
+          0.96,
+          3,
+          0.144,
+          1.2,
+          4,
+          0.208,
+          4,
+          0.6,
+          9,
+          0.6
+        ],
+        [
+          1.04,
+          3,
+          0.156,
+          1.3,
+          4,
+          0.222,
+          4,
+          0.65,
+          9,
+          0.65
+        ],
+        [
+          1.12,
+          3,
+          0.168,
+          1.4,
+          4,
+          0.236,
+          4,
+          0.7,
+          9,
+          0.7
+        ],
+        [
+          1.2,
+          3,
+          0.18,
+          1.5,
+          4,
+          0.25,
+          4,
+          0.75,
+          9,
+          0.75
+        ],
+        [
+          1.3,
+          3,
+          0.195,
+          1.625,
+          4,
+          0.2675,
+          4,
+          0.8125,
+          9,
+          0.8125
+        ],
+        [
+          1.4,
+          3,
+          0.21,
+          1.75,
+          4,
+          0.285,
+          4,
+          0.875,
+          9,
+          0.875
+        ],
+        [
+          1.5,
+          3,
+          0.225,
+          1.875,
+          4,
+          0.3025,
+          4,
+          0.9375,
+          9,
+          0.9375
+        ],
+        [
+          1.6,
+          3,
+          0.24,
+          2,
+          4,
+          0.32,
+          4,
+          1,
+          9,
+          1
+        ],
+        [
+          1.68,
+          3,
+          0.252,
+          2.1,
+          4,
+          0.334,
+          4,
+          1.05,
+          9,
+          1.05
+        ],
+        [
+          1.76,
+          3,
+          0.264,
+          2.2,
+          4,
+          0.348,
+          4,
+          1.1,
+          9,
+          1.1
+        ],
+        [
+          1.84,
+          3,
+          0.276,
+          2.3,
+          4,
+          0.362,
+          4,
+          1.15,
+          9,
+          1.15
+        ],
+        [
+          1.92,
+          3,
+          0.288,
+          2.4,
+          4,
+          0.376,
+          4,
+          1.2,
+          9,
+          1.2
+        ],
+        [
+          2,
+          3,
+          0.3,
+          2.5,
+          4,
+          0.39,
+          4,
+          1.25,
+          9,
+          1.25
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Aquilo que Trilhamos é o Desbravamento",
+        "en": "That Which We Stride Is the Trailblaze",
+        "zh-CN": "我们称之为路的，是开拓",
+        "ja": "{RUBY_B#みち}道{RUBY_E#}と{RUBY_B#よ}呼{RUBY_E#}ばれるものこそ{RUBY_B#かいたく}開拓{RUBY_E#}",
+        "ko": "우리가 길이라 부르는 것은 곧 개척"
+      },
+      "description": {
+        "pt-BR": "O número de usos extras da Perícia de Assistência concedidos pelo Talento aumenta em 1. Enquanto estiver no estado de \"Protocolo de Companhia: Veredito\", o número de usos da Perícia Suprema necessários para utilizar a Perícia de Assistência é reduzido em 1. Enquanto estiver no estado de \"Protocolo de Companhia: Dizimação\", a Carga necessária para utilizar a Perícia de Assistência é reduzida em 3. Quando Himeko - Nova utiliza a Perícia de Assistência, o número de instâncias de Dano adicionais aumenta em 1.",
+        "en": "The number of extra Assist Skill uses from Talent additionally increases by 1. While in the \"Companion Protocol: Verdict\" state, reduces the number of Ultimate uses required to launch Assist Skill by 1. While in the \"Companion Protocol: Decimation\" state, reduces the Charge required to launch Assist Skill by 3. When Himeko • Nova launches Assist Skill, the number of extra DMG instances increases by 1.",
+        "zh-CN": "天赋额外发动助战技效果的次数额外增加1次。【同行协议：裁决】状态下，发动助战技所需的终结技施放次数减少1次。【同行协议：歼破】状态下，发动助战技所需的充能减少3点。姬子•启行发动助战技时，造成额外伤害的效果次数增加1次。",
+        "ja": "天賦により発動する追加の支援スキルの発動可能回数+1回。「同行協定：裁決」状態の時、支援スキルの発動に必要な必殺技の発動回数-1。「同行協定：殲滅」状態の時、支援スキルの発動に必要なチャージ-3。姫子・旅立ちが支援スキルを発動する時、追加でヒットする際のヒット数+1。",
+        "ko": "특성이 추가로 전투 지원 스킬 효과를 발동하는 횟수가 추가로 1회 증가한다. [동행 프로토콜: 판결] 상태에서 전투 지원 스킬 발동에 필요한 필살기 발동 횟수가 1회 감소한다. [동행 프로토콜: 섬멸] 상태에서 전투 지원 스킬 발동에 필요한 충전이 3pt 감소한다. 히메코•노바가 전투 지원 스킬 발동 시, 추가로 피해를 가하는 효과 횟수가 1회 증가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "A Bandeira, A Vela que Jamais se Recolhe",
+        "en": "The Colors We Never Strike",
+        "zh-CN": "旗帜，永不降下的帆",
+        "ja": "{RUBY_B#はた}旗{RUBY_E#}は{RUBY_B#お}下{RUBY_E#}ろされることなき{RUBY_B#ほ}帆{RUBY_E#}",
+        "ko": "깃발은 영원히 내리지 않는 돛"
+      },
+      "description": {
+        "pt-BR": "O limite de usos da Perícia de Assistência de Himeko - Nova aumenta para 2, e o Dano causado pela Perícia Suprema e pela Perícia de Assistência passa a ser 130% do Dano original. Durante o estado \"Semáforo da Navegadora\", no início de cada rodada, recupera imediatamente 1 uso adicional da Perícia de Assistência. Quando um personagem que não seja um Companheiro de Desbravamento usa a Perícia de Assistência, o Rastro \"Escutem! O Pulsar do Expresso Ruge\" também concede a ele 1 rodada extra.",
+        "en": "The cap of Himeko • Nova's Assist Skill uses increases to 2, and the DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn, additionally recovers 1 use of Assist Skill immediately. When a non-Trailblaze Companions character uses Assist Skill, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 extra turn.",
+        "zh-CN": "姬子•启行助战技的使用上限提高至2次，终结技和助战技造成的伤害为原伤害的130%。【领航旗语】状态下每个回合开始时，立即额外恢复1次助战技使用次数。行迹【列车的脉搏在轰鸣】效果非开拓同行角色使用助战技时，也会获得1个额外回合。",
+        "ja": "姫子・旅立ちの支援スキルの使用可能回数の上限が2回までアップする。必殺技と支援スキルの与ダメージは本来のダメージの130%になる。「導く旗印」状態の姫子のターンが回ってきた時、即座に支援スキルの使用可能回数を追加で1回復する。軌跡「鳴り響く列車の鼓動」の効果によって開拓仲間でないキャラクターが支援スキルを使用する時、そのキャラクターも追加ターンを1獲得する。",
+        "ko": "히메코•노바 전투 지원 스킬의 사용 최대치가 2회로 증가하고, 필살기 및 전투 지원 스킬이 가하는 피해가 기존 피해의 130%가 된다. [항법 수기 신호] 상태에서 턴이 시작될 때마다 즉시 추가로 전투 지원 스킬 사용 횟수를 1회 회복한다. 행적 [울려 퍼지는 열차의 맥박] 효과는 개척 동행이 아닌 캐릭터가 전투 지원 스킬 사용 시에도 보너스 턴을 1개 획득하게 한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Nós, Nascidos das Estrelas, Contemplamos os Astros",
+        "en": "We Who Are Starborn Muse Starward",
+        "zh-CN": "星辰之子，也在思索繁星",
+        "ja": "{RUBY_B#ほし}星{RUBY_E#}の{RUBY_B#こ}子{RUBY_E#}も{RUBY_B#ほし}星{RUBY_E#}に{RUBY_B#おも}思{RUBY_E#}いを{RUBY_B#は}馳{RUBY_E#}せる",
+        "ko": "별의 아이도 뭇별에 대해 사색하고 있어"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Que Nenhuma Mão Erguida aos Céus Fique Sem Amparo",
+        "en": "Let No Skyward Hand Stay Unheld",
+        "zh-CN": "握住所有伸向天空的手",
+        "ja": "{RUBY_B#そら}空{RUBY_E#}へ{RUBY_B#の}伸{RUBY_E#}ばされる{RUBY_B#て}手{RUBY_E#}を{RUBY_B#と}取{RUBY_E#}って",
+        "ko": "하늘을 향해 뻗은 모든 손을 잡고"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia de Assistência via o Talento \"Rumo à Expedição Ardente\", o bônus de PEN de RES a Todos os Tipos agora é aplicado a todos os aliados. E quando Himeko - Nova obtém esse efeito, sua PEN de RES a Todos os Tipos aumenta adicionalmente em 10%.",
+        "en": "When using Assist Skill via the Talent \"Of Fire and Far Faring,\" the All-Type RES PEN boost now applies to all allies. And when Himeko • Nova gains this effect, her All-Type RES PEN additionally increases by 10%.",
+        "zh-CN": "天赋【共赴灼热的远征】使用助战技时，全属性抗性穿透提高效果对我方全体生效，姬子•启行获得该效果时全属性抗性穿透额外提高10%。",
+        "ja": "天賦「共に灼熱の遠征へ」によって支援スキルを使用する時、全属性耐性貫通アップ効果が味方全体に対して有効となる。姫子・旅立ちがこの効果を獲得する時、全属性耐性貫通がさらに+10%。",
+        "ko": "특성 [함께 타오르는 여정을 향해]로 전투 지원 스킬 사용 시, 모든 속성 저항 관통 증가 효과가 모든 아군에게 적용되며, 히메코•노바가 해당 효과 획득 시 모든 속성 저항 관통이 추가로 10% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Atravesse o Cosmos e Vá Além",
+        "en": "To Cross the Cosmos and Beyond",
+        "zh-CN": "去跨越宇宙的全境",
+        "ja": "{RUBY_B#うちゅう}宇宙{RUBY_E#}をすべて{RUBY_B#とうは}踏破{RUBY_E#}する",
+        "ko": "우주의 모든 곳을 넘어"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Nosso é o Juramento Rumo às Estrelas",
+        "en": "Ours Is the Oath to Sail Starward",
+        "zh-CN": "铭记，终抵群星的誓约",
+        "ja": "{RUBY_B#ぐんせい}群星{RUBY_E#}に{RUBY_B#たど}辿{RUBY_E#}り{RUBY_B#つ}着{RUBY_E#}く{RUBY_B#ちか}誓{RUBY_E#}いを{RUBY_B#むね}胸{RUBY_E#}に",
+        "ko": "명심해, 뭇별에 닿겠다는 맹세를"
+      },
+      "description": {
+        "pt-BR": "A PEN de RES a Fogo de Himeko - Nova aumenta em 20%. O máximo de \"Energia Fonte\" aumenta para 6. Quando um aliado usa ou ativa uma Perícia de Assistência, o Dano causado pela Perícia de Assistência aumenta em 75%, e Himeko - Nova ganha 1 \"Energia Fonte\". Ao lançar o \"Feixe de Partículas Hiperluminal\" durante a Perícia Suprema, ganha adicionalmente 1 \"Energia Fonte\". Ao utilizar o \"Pulso de Aniquilação Orbital\", se a \"Energia Fonte\" atual for 6 ou mais, causa adicionalmente 1 instância de Dano de Fogo a todos os inimigos, equivalente a 160% do ATQ de Himeko - Nova.",
+        "en": "Himeko • Nova's Fire RES PEN increases by 20%. The cap of \"Source Energy\" increases to 6. When an ally uses or launches Assist Skill, DMG dealt by Assist Skill increases by 75%, and Himeko • Nova gains 1 \"Source Energy.\" When launching \"Hyperluminal Particle Beam\" during Ultimate, additionally gains 1 \"Source Energy\". When launching \"Orbital Annihilation Pulse,\" if the current \"Source Energy\" is 6 or more, additionally deals 1 instance of Fire DMG to all enemies, equal to 160% of Himeko • Nova's ATK.",
+        "zh-CN": "姬子•启行火属性抗性穿透提高20%。【源能】的上限提高至6点，我方使用或发动助战技时，助战技造成的伤害提高75%，姬子•启行会获得1点【源能】。终结技期间发动【超频粒子光束】攻击时，额外获得1点【源能】。发动【轨道歼灭脉冲】时，若当前【源能】大于等于6点，则额外对敌方全体造成1次等同于姬子•启行160%攻击力的火属性伤害。",
+        "ja": "姫子・旅立ちの炎属性耐性貫通+20%。「原動力」の上限が6までアップする。味方が支援スキルを使用または発動する時、支援スキルによるダメージ+75%、姫子・旅立ちは「原動力」を1獲得する。必殺技の間、「超光速粒子ビーム」を発動して攻撃する時、追加で「原動力」を1獲得する。「軌道殲滅パルス砲」を発動する時、所持している「原動力」が6以上の場合、追加で敵全体に姫子・旅立ちの攻撃力160%分の炎属性ダメージを1回与える。",
+        "ko": "히메코•노바의 화염 속성 저항 관통이 20% 증가한다. [코어 동력]의 최대치가 6pt로 증가하며, 아군이 전투 지원 스킬을 사용하거나 발동하면 전투 지원 스킬이 가하는 피해가 75% 증가하고, 히메코•노바는 [코어 동력]을 1pt 획득한다. 필살기 발동 중 [초주파 입자 광선] 공격 발동 시, 추가로 [코어 동력]을 1pt 획득한다. [궤도 섬멸 펄스] 발동 시, 현재 [코어 동력]이 6pt 이상일 경우 추가로 모든 적에게 히메코•노바 공격력의 160%만큼 화염 속성 피해를 1회 가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1510.png",
+    "preview": "image/character_preview/1510.png",
+    "portrait": "image/character_portrait/1510.png"
+  }
+}

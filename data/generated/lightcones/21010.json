@@ -1,0 +1,65 @@
+{
+  "id": 21010,
+  "slug": "swordplay",
+  "name": {
+    "pt-BR": "Jogo de Espadas",
+    "en": "Swordplay",
+    "zh-CN": "论剑",
+    "ja": "論剣",
+    "ko": "논검"
+  },
+  "rarity": 4,
+  "path": "Hunt",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Um tanto descrente, a garota empunhou a pequena espada, perfurando um inimigo imaginário para tentar se convencer de que aquela coisa tinha utilidade.\nComo algo tão frágil pode competir com a minha espada de duas mãos? Será que os inimigos ao menos percebem quando são apunhalados?\nO dono da espada parecia não se importar com o tamanho dela.\nAfinal, são as estratégias que derrotam os inimigos, não as espadas.\nNão importa se a espada é pesada ou leve, desde que se use o lado pontiagudo.",
+    "en": "Looking rather skeptical, the girl thrust the small sword at her imaginary enemy in an attempt to convince herself that this thing was useful.\nHow can something so feeble compete with my two-handed sword? Do enemies even notice when they get stabbed?\nThe owner of the sword did not seem to care about its size.\nAfter all, enemies are defeated by strategy, not swords.\nIt doesn't matter whether the sword is heavy or light, as long as you use the pointy end.",
+    "zh-CN": "少女不解地比划着手中的细剑。\n自己的剑要双手才能挥舞，这样的剑也能算剑？这样的剑也能杀敌？\n剑的主人倒是对此毫不在意，毕竟——\n杀不杀敌又不在剑，全在心。\n用的重剑还是细剑，又有什么区别。",
+    "ja": "少女は納得できないといった顔で、手にした細い剣を振る。\n自分の剣は、両手でやっと振り回せるものだ。それなのに、この剣は剣と言えるのだろうか？そんな剣で敵を倒せるのだろうか？\nしかし剣の主は、それを気にしていない、何しろ――\n敵を殺めるのは剣ではなく、その心であるからだ。\n重かろうと細かろうと、何の変わりもない。",
+    "ko": "소녀는 이해할 수 없다는 듯 손에 든 얇은 검을 바라봤다.\n검은 양손으로 휘둘러야 제맛인 데, 이런 검도 검이라고 할 수 있을까? 이런 검으로 정말 적을 무찌를 수는 있는 걸까?\n하지만 검의 주인은 이 점을 전혀 신경 쓰지 않는 것 같다.\n적을 처치하는 건 검의 성능에 달린 게 아니라 마음에 달렸다.\n검이 무겁든 가볍든 무슨 차이가 있을까"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Suas Próprias Respostas",
+      "en": "Answers of Their Own",
+      "zh-CN": "各自的答案",
+      "ja": "それぞれの答え",
+      "ko": "각자의 답"
+    },
+    "description": {
+      "pt-BR": "A cada vez que acertar o mesmo alvo, o Dano causado aumentará em #1[i]%, podendo acumular até #2[i] vez(es). Esse efeito será removido quando o usuário mudar de alvo.",
+      "en": "For each time the wearer hits the same target, DMG dealt increases by #1[i]%, stacking up to #2[i] time(s). This effect will be dispelled when the wearer changes targets.",
+      "zh-CN": "当装备者多次击中同一敌方目标时，每次造成的伤害提高#1[i]%，该效果最多叠加#2[i]层。若攻击目标发生变化，立即解除当前的增益效果。",
+      "ja": "装備キャラの攻撃が連続で同じ敵に命中するたびに、与ダメージ+#1[i]%、この効果は最大で#2[i]層累積できる。ターゲットが変わると、バフはリセットされる。",
+      "ko": "장착한 캐릭터가 동일한 적을 여러 회 명중 후 매번 가하는 피해가 #1[i]% 증가한다. 해당 효과 최대 중첩수: #2[i]스택. 공격 목표에 변화가 생길 경우 현재 버프 효과가 해제된다"
+    },
+    "params": [
+      [
+        0.08,
+        5
+      ],
+      [
+        0.1,
+        5
+      ],
+      [
+        0.12,
+        5
+      ],
+      [
+        0.14,
+        5
+      ],
+      [
+        0.16,
+        5
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21010.png",
+    "preview": "image/light_cone_preview/21010.png",
+    "portrait": "image/light_cone_portrait/21010.png"
+  }
+}

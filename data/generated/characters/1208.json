@@ -1,0 +1,505 @@
+{
+  "id": 1208,
+  "slug": "fu-xuan",
+  "name": {
+    "pt-BR": "Fu Xuan",
+    "en": "Fu Xuan",
+    "zh-CN": "符玄",
+    "ja": "符玄",
+    "ko": "부현"
+  },
+  "rarity": 5,
+  "path": "Preservation",
+  "element": "Quantum",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 120801,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Explosão Supernova",
+        "en": "Novaburst",
+        "zh-CN": "始击岁星",
+        "ja": "始撃歳星",
+        "ko": "태세(太歲) 진격"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[i]% dos PV máximos de Fu Xuan a um único inimigo.",
+        "en": "Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于符玄#1[i]%生命上限的量子属性伤害。",
+        "ja": "指定した敵単体に符玄の最大HPの#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 부현 HP 최대치의 #1[i]%만큼 양자 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.25
+        ],
+        [
+          0.3
+        ],
+        [
+          0.35
+        ],
+        [
+          0.4
+        ],
+        [
+          0.45
+        ],
+        [
+          0.5
+        ],
+        [
+          0.55
+        ],
+        [
+          0.6
+        ],
+        [
+          0.65
+        ],
+        [
+          0.7
+        ]
+      ]
+    },
+    {
+      "id": 120802,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Conhecida pelas Estrelas, Exibida pelos Corações",
+        "en": "Known by Stars, Shown by Hearts",
+        "zh-CN": "太微行棋，灵台示影",
+        "ja": "太微の行棋、影示す霊台",
+        "ko": "별의 움직임, 미래의 그림자"
+      },
+      "description": {
+        "pt-BR": "Ativa a Matriz de Presciência através da qual outros membros da equipe de Fu Xuan vão Distribuir #1[i]% do Dano que eles receberem (antes deste Dano ser mitigado por quaisquer Escudos) com Fu Xuan por #3[i] rodada(s).\nEnquanto afetados pela Matriz de Presciência, todos os aliados-alvo ganham o efeito de Conhecimento, que aumenta seus respectivos PV máximos em #4[f1]% dos PV máximos de Fu Xuan, e aumenta a Chance de CRIT em #5[f1]%.\nQuando Fu Xuan é derrubada, a Matriz de Presciência é desfeita.",
+        "en": "Activates Matrix of Prescience, via which Fu Xuan's teammates will Distribute #1[i]% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for #3[i] turn(s).\nWhile affected by Matrix of Prescience, all ally targets gain the Knowledge effect, which increases their respective Max HP by #4[f1]% of Fu Xuan's Max HP, and increases CRIT Rate by #5[f1]%.\nWhen Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+        "zh-CN": "开启【穷观阵】，使符玄队友所承受的未受护盾抵挡之前的伤害的#1[i]%分摊给符玄，持续#3[i]回合。\n处于【穷观阵】的我方全体获得【鉴知】。【鉴知】状态下的我方目标生命上限提高，提高数值等同于符玄生命上限的#4[f1]%，暴击率提高#5[f1]%。\n当符玄陷入无法战斗状态时，【穷观阵】也会被解除。",
+        "ja": "「窮観の陣」を起動し、符玄以外の味方が受ける、バリアに防がれる前のダメージの#1[i]%を符玄が分担する、#3[i]ターン継続。\n「窮観の陣」の中にいる味方全体は「鑑知」を得る。「鑑知」状態の味方は、最大HPが符玄の最大HPの#4[f1]%分アップし、会心率+#5[f1]%。\n符玄が戦闘不能状態になった時、「窮観の陣」は解除される。",
+        "ko": "[궁관진]을 활성화하여, 부현의 동료가 실드로 막기 전에 받은 피해의 #1[i]%를 부현이 분담한다. 지속 시간: #3[i]턴\n[궁관진] 상태의 모든 아군이 [감식] 효과를 획득한다. [감식]: 아군 HP 최대치가 부현 HP 최대치의 #4[f1]%만큼 증가하고, 치명타 확률이 #5[f1]% 증가한다.\n부현이 전투 불능 상태가 되면 [궁관진]도 해제된다"
+      },
+      "params": [
+        [
+          0.65,
+          0,
+          3,
+          0.03,
+          0.06
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.033,
+          0.066
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.036,
+          0.072
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.039,
+          0.078
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.042,
+          0.084
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.045,
+          0.09
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.0488,
+          0.0975
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.0525,
+          0.105
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.0563,
+          0.1125
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.06,
+          0.12
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.063,
+          0.126
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.066,
+          0.132
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.069,
+          0.138
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.072,
+          0.144
+        ],
+        [
+          0.65,
+          0,
+          3,
+          0.075,
+          0.15
+        ]
+      ]
+    },
+    {
+      "id": 120803,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Os Lamentos de Muitos Transformaram-se em Um",
+        "en": "Woes of Many Morphed to One",
+        "zh-CN": "天律大衍，历劫归一",
+        "ja": "天律大衍、歴劫帰一",
+        "ko": "천률의 규칙, 돌고 도는 역겁"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[i]% dos PV máximos de Fu Xuan a todos os inimigos e obtém 1 contagem de ativação para o efeito de Restauração de PV concedido pelo Talento de Fu Xuan.",
+        "en": "Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.",
+        "zh-CN": "对敌方全体造成等同于符玄#1[i]%生命上限的量子属性伤害，并获得1次符玄天赋生命回复的触发次数。",
+        "ja": "敵全体に符玄の最大HPの#1[i]%分の量子属性ダメージを与え、天賦によるHP回復の発動回数+1。",
+        "ko": "모든 적에게 부현 HP 최대치의 #1[i]%만큼 양자 속성 피해를 주고, 부현 특성의 HP 회복 효과 발동 횟수를 1회 획득한다"
+      },
+      "params": [
+        [
+          0.6
+        ],
+        [
+          0.64
+        ],
+        [
+          0.68
+        ],
+        [
+          0.72
+        ],
+        [
+          0.76
+        ],
+        [
+          0.8
+        ],
+        [
+          0.85
+        ],
+        [
+          0.9
+        ],
+        [
+          0.95
+        ],
+        [
+          1
+        ],
+        [
+          1.04
+        ],
+        [
+          1.08
+        ],
+        [
+          1.12
+        ],
+        [
+          1.16
+        ],
+        [
+          1.2
+        ]
+      ]
+    },
+    {
+      "id": 120804,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Das Sombras à Alegria",
+        "en": "Bleak Breeds Bliss",
+        "zh-CN": "乾清坤夷，否极泰来",
+        "ja": "乾坤清夷、一陽来復",
+        "ko": "건청곤이, 불행 끝 행운 시작"
+      },
+      "description": {
+        "pt-BR": "Enquanto Fu Xuan estiver ativa em combate, a \"Prevenção de Infortúnio\" é aplicada a toda a equipe. Enquanto estiverem com Prevenção de Infortúnio, os aliados recebem #1[f1]% a menos de Dano.\nQuando a porcentagem dos PV atuais de Fu Xuan caírem para #2[i]% ou menos dos seus PV máximos, a Restauração de PV será ativada para Fu Xuan, recuperando os PV dela em #3[i]% da quantidade de PV perdida no momento. Este efeito não pode ser ativado se ela receber um golpe fatal. Este efeito possui 1 contagem de ativação por padrão, e pode possuir um máximo de 2 contagens de ativação.",
+        "en": "While Fu Xuan is still active in combat, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[f1]% less DMG.\nWhen Fu Xuan's current HP percentage falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
+        "zh-CN": "当符玄处于可战斗状态时，为我方全体附加【避厄】。【避厄】状态下的我方目标受到的伤害降低#1[f1]%。\n当符玄当前生命值百分比小于等于#2[i]%时触发生命回复，使自身回复等同于已损失生命值#3[i]%的生命值，受到致命攻击时无法触发该效果。该效果初始拥有1次触发次数，最多可拥有2次触发次数。",
+        "ja": "符玄が戦闘可能状態の時、味方全体に「避邪」を付与する。「避邪」状態の味方の受けるダメージ-#1[f1]%。\n符玄の残りHP割合が#2[i]%以下になった時、自身の失ったHP#3[i]%分のHPを回復する。HPが0になる攻撃を受けた時、この効果は発動できない。この効果の初期の発動可能回数は1回、最大で2回まで累積できる。",
+        "ko": "부현이 전투 가능 상태일 때 모든 아군에게 [피액(避厄)] 효과를 부여한다. [피액]: 아군이 받는 피해가 #1[f1]% 감소한다.\n부현의 현재 HP 백분율이 #2[i]% 이하가 되면 HP를 자신이 손실한 HP의 #3[i]%만큼 회복한다. 치명적인 공격을 받을 경우 해당 효과는 발동되지 않는다. 해당 효과는 기본 상태에서 1회의 발동 횟수를 보유하며, 최대 2회의 발동 횟수를 보유할 수 있다"
+      },
+      "params": [
+        [
+          0.1,
+          0.5,
+          0.8
+        ],
+        [
+          0.108,
+          0.5,
+          0.81
+        ],
+        [
+          0.116,
+          0.5,
+          0.82
+        ],
+        [
+          0.124,
+          0.5,
+          0.83
+        ],
+        [
+          0.132,
+          0.5,
+          0.84
+        ],
+        [
+          0.14,
+          0.5,
+          0.85
+        ],
+        [
+          0.15,
+          0.5,
+          0.8625
+        ],
+        [
+          0.16,
+          0.5,
+          0.875
+        ],
+        [
+          0.17,
+          0.5,
+          0.8875
+        ],
+        [
+          0.18,
+          0.5,
+          0.9
+        ],
+        [
+          0.188,
+          0.5,
+          0.91
+        ],
+        [
+          0.196,
+          0.5,
+          0.92
+        ],
+        [
+          0.204,
+          0.5,
+          0.93
+        ],
+        [
+          0.212,
+          0.5,
+          0.94
+        ],
+        [
+          0.22,
+          0.5,
+          0.95
+        ]
+      ]
+    },
+    {
+      "id": 120806,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 120807,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Da Sorte Vem o Destino",
+        "en": "Of Fortune Comes Fate",
+        "zh-CN": "岁记否泰，固守四郭",
+        "ja": "否泰記す四郭固",
+        "ko": "길흉화복, 성좌의 영역"
+      },
+      "description": {
+        "pt-BR": "Depois que a Técnica é utilizada, todos os membros da equipe recebem uma Barreira que dura #1[i] segundos. Esta Barreira pode bloquear todos os ataques inimigos e a equipe não entrará em batalha quando atacada. Entrar em batalha enquanto a Barreira estiver ativa fará com que Fu Xuan ative a Matriz de Presciência automaticamente no início da batalha por #2[i] rodada(s).",
+        "en": "After the Technique is used, all team members receive a Barrier, lasting for #1[i] seconds. This Barrier can block all enemy attacks, and the team will not enter combat when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for #2[i] turn(s).",
+        "zh-CN": "使用秘技后，我方全体获得持续#1[i]秒的屏障。该屏障可抵挡敌人的所有攻击，不会进入战斗。屏障持续期间进入战斗时符玄自动开启【穷观阵】，持续#2[i]回合。",
+        "ja": "秘技を使用した後、味方全体は#1[i]秒間継続するバリアを獲得する。このバリアは敵のすべての攻撃を防ぎ、敵の攻撃を受けても戦闘に入らない。バリア継続期間中、戦闘に入る時、符玄は自動で「窮観の陣」を起動する、#2[i]ターン継続。",
+        "ko": "비술 사용 후 모든 아군이 #1[i]초간 지속되는 배리어를 획득한다. 해당 배리어는 적의 모든 공격을 막으며, 공격을 받아도 전투에 진입하지 않는다. 배리어가 지속되는 동안 전투에 진입하면 부현은 자동으로 [궁관진]을 활성화한다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          20,
+          2
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Dominus Pacis",
+        "en": "Dominus Pacis",
+        "zh-CN": "司危",
+        "ja": "{RUBY_B#しき}司危{RUBY_E#}",
+        "ko": "사위(司危)"
+      },
+      "description": {
+        "pt-BR": "O efeito de Conhecimento aumenta o Dano CRIT em 30%.",
+        "en": "The Knowledge effect increases CRIT DMG by 30%.",
+        "zh-CN": "【鉴知】使暴击伤害提高30%。",
+        "ja": "「鑑知」状態の味方の会心ダメージ+30%。",
+        "ko": "[감식]은 치명타 피해를 30% 증가시킨다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Optimus Felix",
+        "en": "Optimus Felix",
+        "zh-CN": "柔兆",
+        "ja": "{RUBY_B#じゅうちょう}柔兆{RUBY_E#}",
+        "ko": "유조(柔兆)"
+      },
+      "description": {
+        "pt-BR": "Se qualquer aliado-alvo for atingido por um golpe fatal enquanto a \"Matriz de Presciência\" estiver ativa, todos os aliados-alvo que forem atingidos por um golpe fatal durante esta ação não serão derrubados e 70% de seus PV máximos serão restaurados imediatamente. Este efeito pode ser ativado 1 vez por batalha.",
+        "en": "If any ally target is struck by a killing blow while \"Matrix of Prescience\" is active, then all ally targets who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle.",
+        "zh-CN": "【穷观阵】开启时，若我方目标受到致命伤害，则本次行动中所有受到致命伤害的我方目标都不会陷入无法战斗状态，并立即回复等同于其自身生命上限70%的生命值。该效果单场战斗中可以触发1次。",
+        "ja": "「窮観の陣」が起動している時、味方がHPが0になるダメージを受けても、今回の行動でHPが0になるダメージを受けたすべての味方は戦闘不能状態にならず、自身の最大HP70%分のHPを回復する。この効果は一度の戦闘で1回まで発動できる。",
+        "ko": "[궁관진] 활성화 시 아군이 치명적인 피해를 받을 경우, 모든 아군이 이번 행동에서 전투 불능 상태에 빠지지 않으며, 즉시 HP를 자신의 HP 최대치의 70%만큼 회복한다. 해당 효과는 단일 전투에서 1회만 발동한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Ápice da Ligação",
+        "en": "Apex Nexus",
+        "zh-CN": "直符",
+        "ja": "{RUBY_B#ちょくふ}直符{RUBY_E#}",
+        "ko": "직부(直符)"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Fortuna Stellaris",
+        "en": "Fortuna Stellaris",
+        "zh-CN": "格泽",
+        "ja": "{RUBY_B#こうたく}格澤{RUBY_E#}",
+        "ko": "격택(格澤)"
+      },
+      "description": {
+        "pt-BR": "Quando outros aliados sob a Matriz de Presciência são atacados, Fu Xuan regenera 5 de Energia.",
+        "en": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy.",
+        "zh-CN": "当处于【穷观阵】的我方其他目标受到攻击后，符玄恢复5点能量。",
+        "ja": "「窮観の陣」の中にいる符玄以外の味方が攻撃を受けた後、符玄はEPを5回復する。",
+        "ko": "[궁관진] 활성화 시 다른 아군이 피격되면 부현의 에너지를 5pt 회복한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Árbitra Primordial",
+        "en": "Arbiter Primus",
+        "zh-CN": "计神",
+        "ja": "{RUBY_B#けいしん}計神{RUBY_E#}",
+        "ko": "계신(計神)"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Omnia Vita",
+        "en": "Omnia Vita",
+        "zh-CN": "种陵",
+        "ja": "{RUBY_B#しゅりょう}種陵{RUBY_E#}",
+        "ko": "종릉(種陵)"
+      },
+      "description": {
+        "pt-BR": "Assim que a Matriz de Presciência é ativada, ela manterá um registro com o valor total de PV perdidos por todos os membros da equipe na batalha atual. O Dano causado pela Perícia Suprema de Fu Xuan aumentará em 200% desse valor de PV perdidos.\nEsse valor também é limitado a 120% dos PV máximos de Fu Xuan e o valor registrado será reiniciado e reacumulado após a Perícia Suprema de Fu Xuan ser utilizada.",
+        "en": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. The DMG dealt by Fu Xuan's Ultimate will increase by 200% of this tally of HP loss.\nThis tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used.",
+        "zh-CN": "【穷观阵】开启时，会累计我方全体本场战斗中的已损失生命值。符玄施放终结技造成的伤害提高，提高数值等同于本场战斗中累计已损失生命值的200%。\n本场战斗中累计已损失生命值最高不超过符玄生命上限的120%，施放终结技后会清空并进行重新累计。",
+        "ja": "「窮観の陣」が起動している時、味方全体が戦闘中失った累計HPをカウントする。符玄の必殺技によるダメージが、戦闘中失った累計HP200%分アップする。\n戦闘中失った累計HPのカウントは、符玄の最大HPの120%を超えず、必殺技を発動した後にリセットされる。",
+        "ko": "[궁관진] 활성화 시 모든 아군의 이번 전투에서 누적 손실한 HP를 기록한다. 부현이 필살기로 가하는 피해가 이번 전투에서 누적 손실한 HP의 200%만큼 증가한다.\n이번 전투에서 기록되는 누적 손실 HP는 부현 HP 최대치의 120%를 넘지 않으며, 필살기를 발동하면 리셋하고 다시 누적된다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1208.png",
+    "preview": "image/character_preview/1208.png",
+    "portrait": "image/character_portrait/1208.png"
+  }
+}

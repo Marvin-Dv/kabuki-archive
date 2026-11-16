@@ -1,0 +1,579 @@
+{
+  "id": 8008,
+  "slug": "nickname-8008",
+  "name": {
+    "pt-BR": "{NICKNAME}",
+    "en": "{NICKNAME}",
+    "zh-CN": "{NICKNAME}",
+    "ja": "{NICKNAME}",
+    "ko": "{NICKNAME}"
+  },
+  "rarity": 5,
+  "path": "Remembrance",
+  "element": "Ice",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 800801,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Deixa Comigo!",
+        "en": "Leave It to Me!",
+        "zh-CN": "包在我身上！",
+        "ja": "お任せあれ！",
+        "ko": "나한테 맡겨!"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo equivalente a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um inimigo designado.",
+        "en": "Deals Ice DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的冰属性伤害。",
+        "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の氷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 개척자 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 800802,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Eu Escolho Você!",
+        "en": "I Choose You!",
+        "zh-CN": "就决定是你了！",
+        "ja": "ミュリオンに決めた！",
+        "ko": "너로 정했다!"
+      },
+      "description": {
+        "pt-BR": "Invoca o Memoespírito Mem. Se Mem já estiver no campo de batalha, restaura os PV de Mem em uma quantidade igual a #1[i]% dos PV máximos de Mem e concede #2[i]% de Carga a Mem.",
+        "en": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP by an amount equal to #1[i]% of Mem's Max HP, and grants Mem #2[i]% Charge.",
+        "zh-CN": "召唤忆灵迷迷。若迷迷已在场，为迷迷回复等同于迷迷生命上限#1[i]%的生命值，并且使迷迷获得#2[i]%充能。",
+        "ja": "記憶の精霊「ミュリオン」を召喚する。ミュリオンがすでにフィールド上にいる場合、ミュリオンはHPを最大HP#1[i]%分回復し、チャージを#2[i]%獲得する。",
+        "ko": "기억 정령 미미를 소환한다. 미미가 필드에 있을 시 미미의 HP를 미미 HP 최대치의 #1[i]%만큼 회복하고, 미미가 충전을 #2[i]% 획득한다"
+      },
+      "params": [
+        [
+          0.3,
+          0.1
+        ],
+        [
+          0.33,
+          0.1
+        ],
+        [
+          0.36,
+          0.1
+        ],
+        [
+          0.39,
+          0.1
+        ],
+        [
+          0.42,
+          0.1
+        ],
+        [
+          0.45,
+          0.1
+        ],
+        [
+          0.4875,
+          0.1
+        ],
+        [
+          0.525,
+          0.1
+        ],
+        [
+          0.5625,
+          0.1
+        ],
+        [
+          0.6,
+          0.1
+        ],
+        [
+          0.63,
+          0.1
+        ],
+        [
+          0.66,
+          0.1
+        ],
+        [
+          0.69,
+          0.1
+        ],
+        [
+          0.72,
+          0.1
+        ],
+        [
+          0.75,
+          0.1
+        ]
+      ]
+    },
+    {
+      "id": 800803,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Vamos, Mem!",
+        "en": "Together, Mem!",
+        "zh-CN": "一起上吧，迷迷！",
+        "ja": "やっちゃえミュリオン！",
+        "ko": "가자, 미미!"
+      },
+      "description": {
+        "pt-BR": "Invoca o Memoespírito Mem. Concede #2[i]% de Carga a Mem, e em seguida faz com que Mem cause Dano de Gelo igual a #1[i]% do ATQ de Mem a todos os inimigos.",
+        "en": "Summons memosprite Mem. Grants Mem #2[i]% Charge, then makes Mem deal Ice DMG equal to #1[i]% of Mem's ATK to all enemies.",
+        "zh-CN": "召唤忆灵迷迷。使迷迷获得#2[i]%充能，随后使迷迷对敌方全体造成等同于迷迷#1[i]%攻击力的冰属性伤害。",
+        "ja": "記憶の精霊「ミュリオン」を召喚する。ミュリオンがチャージを#2[i]%獲得し、敵全体に自身攻撃力#1[i]%分の氷属性ダメージを与える。",
+        "ko": "기억 정령 미미를 소환한다. 미미가 충전을 #2[i]% 획득하고 모든 적에게 미미 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          1.2,
+          0.4
+        ],
+        [
+          1.32,
+          0.4
+        ],
+        [
+          1.44,
+          0.4
+        ],
+        [
+          1.56,
+          0.4
+        ],
+        [
+          1.68,
+          0.4
+        ],
+        [
+          1.8,
+          0.4
+        ],
+        [
+          1.95,
+          0.4
+        ],
+        [
+          2.1,
+          0.4
+        ],
+        [
+          2.25,
+          0.4
+        ],
+        [
+          2.4,
+          0.4
+        ],
+        [
+          2.52,
+          0.4
+        ],
+        [
+          2.64,
+          0.4
+        ],
+        [
+          2.76,
+          0.4
+        ],
+        [
+          2.88,
+          0.4
+        ],
+        [
+          3,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": 800804,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Companheira Poderosa",
+        "en": "Almighty Companion",
+        "zh-CN": "无所不能的伙伴",
+        "ja": "なんでもできる仲間",
+        "ko": "만능 파트너"
+      },
+      "description": {
+        "pt-BR": "O Memoespírito Mem tem uma VEL inicial de #1[i] e PV máximos iguais a #2[i]% dos PV máximos {M#do Desbravador}{F#da Desbravadora} + #4[i]. Para cada #3[i] de Energia regenerada por todos os aliados no total, Mem ganha 1% de Carga.",
+        "en": "Memosprite Mem has an initial SPD of #1[i] and a Max HP equal to #2[i]% of Trailblazer's Max HP plus #4[i]. For every #3[i] Energy regenerated by all allies in total, Mem gains 1% Charge.",
+        "zh-CN": "忆灵迷迷初始拥有#1[i]点速度和等同于开拓者#2[i]%生命上限+#4[i]的生命上限。我方全体每累计恢复#3[i]点能量，迷迷都会获得1%充能。",
+        "ja": "記憶の精霊「ミュリオン」の初期速度は#1[i]となり、初期最大HPは、開拓者の最大HP#2[i]%分+#4[i]となる。味方全体でEPを#3[i]回復するたびに、ミュリオンがチャージを1%獲得する。",
+        "ko": "기억 정령 미미의 기본 속도는 #1[i]pt이며, 기본 HP 최대치는 개척자 HP 최대치의 #2[i]%+#4[i]이다. 모든 아군이 에너지를 #3[i]pt 누적 회복할 때마다 미미가 충전을 1% 획득한다"
+      },
+      "params": [
+        [
+          130,
+          0.5,
+          10,
+          400
+        ],
+        [
+          130,
+          0.53,
+          10,
+          424
+        ],
+        [
+          130,
+          0.56,
+          10,
+          448
+        ],
+        [
+          130,
+          0.59,
+          10,
+          472
+        ],
+        [
+          130,
+          0.62,
+          10,
+          496
+        ],
+        [
+          130,
+          0.65,
+          10,
+          520
+        ],
+        [
+          130,
+          0.6875,
+          10,
+          550
+        ],
+        [
+          130,
+          0.725,
+          10,
+          580
+        ],
+        [
+          130,
+          0.7625,
+          10,
+          610
+        ],
+        [
+          130,
+          0.8,
+          10,
+          640
+        ],
+        [
+          130,
+          0.83,
+          10,
+          664
+        ],
+        [
+          130,
+          0.86,
+          10,
+          688
+        ],
+        [
+          130,
+          0.89,
+          10,
+          712
+        ],
+        [
+          130,
+          0.92,
+          10,
+          736
+        ],
+        [
+          130,
+          0.95,
+          10,
+          760
+        ]
+      ]
+    },
+    {
+      "id": 800806,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 800807,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Memórias Ressurgem Como Ecos",
+        "en": "Memories Back as Echoes",
+        "zh-CN": "记忆如往日重现",
+        "ja": "こだまする記憶",
+        "ko": "되살아난 기억"
+      },
+      "description": {
+        "pt-BR": "Depois de usar a Técnica, cria uma Dimensão Especial que dura por #1[i] segundo(s). Inimigos dentro da Dimensão Especial são colocados em um estado de \"Tempo Parado\", interrompendo todas suas ações.\nApós entrar na batalha contra inimigos afligidos com o estado de \"Tempo Parado\", atrasa a ação de todos os inimigos em #2[i]%, e então causa Dano de Gelo a todos os inimigos igual a #3[i]% do ATQ {F#da Desbravadora}{M#do Desbravador}.\nApenas 1 Efeito de Dimensão Especial criado por aliados pode existir ao mesmo tempo.",
+        "en": "After using Technique, creates a Special Dimension that lasts for #1[i] second(s). Enemies within the Special Dimension are placed in a Time Stop state, halting all their actions.\nAfter entering battle against enemies afflicted with the Time Stop state, delays the action of all enemies by #2[i]%, and then deals Ice DMG to all enemies equal to #3[i]% of Trailblazer's ATK.\nOnly 1 Dimension Effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，制造1片持续#1[i]秒的特殊领域。处于特殊领域内的敌人陷入时停状态。时停状态下的敌人会停止所有行动。\n与处于时停状态下的敌人进入战斗后，使敌方全体行动延后#2[i]%，随后对敌方全体造成等同于开拓者#3[i]%攻击力的冰属性伤害。\n我方制造的领域效果最多存在1个。",
+        "ja": "秘技を使用した後、#1[i]秒間継続する特殊領域を作り出す。特殊領域内にいる敵はタイムストップ状態を付与され、タイムストップ状態の敵は行動を停止する。\nタイムストップ状態の敵と戦闘に入った後、敵全体の行動順を#2[i]%遅延させ、敵全体に開拓者の攻撃力#3[i]%分の氷属性ダメージを与える。\n味方が作り出した領域は1つまで存在できる。",
+        "ko": "비술 사용 후 #1[i]초 동안 지속되는 특수 영역을 만든다. 특수 영역 내에 있는 적은 시간 정지 상태에 빠진다. 시간 정지 상태의 적은 움직일 수 없다.\n시간 정지 상태의 적과 전투에 진입하면 모든 적의 행동 게이지가 #2[i]% 감소하고, 모든 적에게 개척자 공격력의 #3[i]%만큼 얼음 속성 피해를 가한다.\n아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
+      },
+      "params": [
+        [
+          10,
+          0.5,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 800808,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Vamos Escrever o Amanhã!",
+        "en": "Together, We Script Tomorrow!",
+        "zh-CN": "明天，一同写下！",
+        "ja": "明日を一緒に紡ごう！",
+        "ko": "내일을, 함께 써내려 가자!"
+      },
+      "description": {
+        "pt-BR": "Consome 1 acúmulo de \"Epopeia\" para remover todas as penalidades de Controle Negativo em Mem. {M#O Desbravador}{F#A Desbravadora} e Mem realizam um Ataque Conjunto e causando Dano de Gelo igual a #1[i]% do ATQ {M#do Desbravador}{F#da Desbravadora} e #2[i]% do ATQ de Mem a todos os inimigos respectivamente. Então, Mem ganha #3[i]% de Carga.",
+        "en": "Consumes 1 stack of \"Epic\" to dispel all Crowd Control debuffs on Mem. Trailblazer and Mem launch a Joint ATK, dealing Ice DMG to all enemies equal to #1[i]% of Trailblazer's ATK and #2[i]% of Mem's ATK respectively. Then, Mem gains #3[i]% Charge.",
+        "zh-CN": "消耗1层【史诗】，解除迷迷陷入的所有控制类负面状态。开拓者与迷迷发起连携攻击，对敌方全体分别造成等同于开拓者#1[i]%攻击力以及迷迷#2[i]%攻击力的冰属性伤害，随后使迷迷获得#3[i]%充能。",
+        "ja": "「叙事詩」を1層消費し、ミュリオンに付与されているすべての行動制限系デバフを解除する。開拓者とミュリオンが連携攻撃を行い、敵全体に開拓者の攻撃力#1[i]%分の氷属性ダメージとミュリオンの攻撃力#2[i]%分の氷属性ダメージを与える。その後、ミュリオンはチャージを#3[i]%獲得する。",
+        "ko": "[서사시]를 1스택 소모하고, 미미가 빠진 모든 제어류 디버프 상태를 해제한다. 개척자와 미미가 연계 공격을 발동하고, 모든 적에게 각각 개척자 공격력의 #1[i]%와 미미 공격력의 #2[i]%만큼 얼음 속성 피해를 가하며, 이후 미미가 충전을 #3[i]% 획득한다"
+      },
+      "params": [
+        [
+          0.6,
+          0.6,
+          0.1
+        ],
+        [
+          0.72,
+          0.72,
+          0.1
+        ],
+        [
+          0.84,
+          0.84,
+          0.1
+        ],
+        [
+          0.96,
+          0.96,
+          0.1
+        ],
+        [
+          1.08,
+          1.08,
+          0.1
+        ],
+        [
+          1.2,
+          1.2,
+          0.1
+        ],
+        [
+          1.32,
+          1.32,
+          0.1
+        ],
+        [
+          1.44,
+          1.44,
+          0.1
+        ],
+        [
+          1.56,
+          1.56,
+          0.1
+        ],
+        [
+          1.68,
+          1.68,
+          0.1
+        ]
+      ]
+    },
+    {
+      "id": 800809,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Eu Escolho Você!",
+        "en": "I Choose You!",
+        "zh-CN": "就决定是你了！",
+        "ja": "ミュリオンに決めた！",
+        "ko": "너로 정했다!"
+      },
+      "description": {
+        "pt-BR": "Invoca o Memoespírito Mem. Se Mem já estiver em campo, restaura os PV de Mem e concede Carga a Mem.",
+        "en": "Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP, and grants Mem Charge.",
+        "zh-CN": "召唤忆灵迷迷。若迷迷已在场，为迷迷回复生命值，并使迷迷获得充能。",
+        "ja": "記憶の精霊「ミュリオン」を召喚する。ミュリオンがすでにフィールド上にいる場合、ミュリオンはHPを回復し、チャージを獲得する。",
+        "ko": "기억 정령 미미를 소환한다. 미미가 필드에 있을 시 미미가 HP를 회복하고 충전을 획득한다"
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "{M#Narrador}{F#Narradora} do Presente",
+        "en": "Narrator of the Present",
+        "zh-CN": "现在的记叙者",
+        "ja": "{RUBY_B#げんざい}現在{RUBY_E#}を{RUBY_B#きろく}記録{RUBY_E#}する{RUBY_B#もの}者{RUBY_E#}",
+        "ko": "현재의 서술자"
+      },
+      "description": {
+        "pt-BR": "Aumenta a Chance de CRIT de aliados-alvo com \"Suporte da Mem\" em 10%. Quando um aliado-alvo possui \"Suporte da Mem\", o efeito de \"Suporte da Mem\" também se aplica ao Memoespírito/Memomestre do alvo. Este efeito não pode acumular.",
+        "en": "Increases the CRIT Rate of ally targets with \"Mem's Support\" by 10%. When an ally target has \"Mem's Support,\" the effect of \"Mem's Support\" also applies to the target's memosprite/memomaster. This effect cannot stack.",
+        "zh-CN": "持有【迷迷的声援】的我方目标暴击率提高10%。当我方目标持有【迷迷的声援】时，【迷迷的声援】的效果对该目标的忆灵/忆师也生效，该效果不可叠加。",
+        "ja": "「ミュリオンの応援」を持つ味方の会心率+10%。味方が「ミュリオンの応援」を持つ時、その効果はその味方の記憶の精霊/召喚者、両方に適用される。なお、この効果は累積できない。",
+        "ko": "[미미의 응원]을 보유한 아군의 치명타 확률이 10% 증가한다. 아군이 [미미의 응원] 보유 시 해당 목표의 기억 정령/기억 마스터에게도 [미미의 응원] 효과가 적용되며, 해당 효과는 중첩되지 않는다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "{M#Colhedor}{F#Colhedora} do Passado",
+        "en": "Gleaner of the Past",
+        "zh-CN": "过往的拾遗者",
+        "ja": "{RUBY_B#かこ}過去{RUBY_E#}を{RUBY_B#ひろ}拾{RUBY_E#}う{RUBY_B#もの}者{RUBY_E#}",
+        "ko": "과거의 습득자"
+      },
+      "description": {
+        "pt-BR": "Quando Memoespíritos aliados (exceto por Mem) agem, {F#a Desbravadora}{M#o Desbravador} regenera 8 de Energia. Este efeito pode ativar um máximo de 1 vez(es) por rodada. A contagem de ativação é reiniciada no início da rodada {F#da Desbravadora}{M#do Desbravador}.",
+        "en": "When ally memosprites (aside from Mem) take action, Trailblazer regenerates 8 Energy. This effect can trigger a max of 1 time(s) per turn. The trigger count resets at the start of Trailblazer's turn.",
+        "zh-CN": "除迷迷以外的我方忆灵行动时，开拓者恢复8点能量。该效果每回合最多触发1次，开拓者回合开始时重置可触发次数。",
+        "ja": "「ミュリオン」以外の味方の記憶の精霊が行動する時、開拓者のEPを8回復する。この効果はターンが回ってくるたびに1回まで発動でき、開拓者のターンが回ってきた時に発動可能回数がリセットされる。",
+        "ko": "미미를 제외한 아군 기억 정령이 행동 시 개척자가 에너지를 8pt 회복한다. 해당 효과는 턴마다 최대 1회 발동하며, 개척자의 턴 시작 시 발동 가능 횟수가 초기화된다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "{M#Cantor}{F#Cantora} do Futuro",
+        "en": "Chanter of the Future",
+        "zh-CN": "未来的咏唱者",
+        "ja": "{RUBY_B#みらい}未来{RUBY_E#}を{RUBY_B#うた}詠{RUBY_E#}う{RUBY_B#もの}者{RUBY_E#}",
+        "ko": "미래의 영창자"
+      },
+      "description": {
+        "pt-BR": "Nv. de Perícia +2, até no máximo Nv. 15.\nNv. de Talento +2, até no máximo Nv. 15.\nNv. de Talento do Memoespírito +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵天赋等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊天賦のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 기억 정령 특성 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "{F#Dançarina}{M#Dançarino} da Musa",
+        "en": "Dancer of the Muse",
+        "zh-CN": "缪斯的新舞伴",
+        "ja": "ミューズの{RUBY_B#あら}新{RUBY_E#}たな\n{RUBY_B#おど}踊{RUBY_E#}り{RUBY_B#て}手{RUBY_E#}",
+        "ko": "뮤즈의 새 댄스 파트너"
+      },
+      "description": {
+        "pt-BR": "Quando um aliado-alvo com 0 de Energia Máxima usa uma habilidade, Mem também pode ganhar 3% de Carga, e o multiplicador do Dano Verdadeiro causado por esse alvo através do \"Suporte da Mem\" aumenta adicionalmente em 6%.",
+        "en": "When an ally target with 0 Max Energy actively uses an ability, Mem can also gain 3% Charge, and the multiplier of the True DMG dealt by this target via \"Mem's Support\" additionally increases by 6%.",
+        "zh-CN": "使能量上限为0的我方目标主动施放技能时，迷迷也能够获得3%充能，并且该目标通过【迷迷的声援】造成的真实伤害倍率额外提高6%。",
+        "ja": "最大EPが0の味方がスキルを発動する時、「ミュリオン」はチャージを3%獲得し、その味方が「ミュリオンの応援」による確定ダメージのダメージ倍率がさらに+6%。",
+        "ko": "에너지 최대치가 0인 아군이 직접 스킬을 발동하면 미미도 충전을 3% 획득하고, 해당 목표가 [미미의 응원]을 통해 가하는 확정 피해 배율이 추가로 6% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "{F#Costureira}{M#Costureiro} da Ode",
+        "en": "Seamster of the Ode",
+        "zh-CN": "诗篇的裁缝匠",
+        "ja": "{RUBY_B#しへん}詩篇{RUBY_E#}の{RUBY_B#つむ}紡{RUBY_E#}ぎ{RUBY_B#て}手{RUBY_E#}",
+        "ko": "시편의 재봉사"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.\nNv. da Perícia do Memoespírito +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵技等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊スキルのLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 기억 정령 스킬 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "{M#Portador}{F#Portadora} da Revelação",
+        "en": "Bearer of the Revelation",
+        "zh-CN": "神启的转呈者",
+        "ja": "{RUBY_B#けいじ}啓示{RUBY_E#}の{RUBY_B#かた}語{RUBY_E#}り{RUBY_B#て}手{RUBY_E#}",
+        "ko": "계시의 전달자"
+      },
+      "description": {
+        "pt-BR": "A Chance de CRIT da Perícia Suprema é definida em 100%.",
+        "en": "Ultimate's CRIT Rate is set at 100%.",
+        "zh-CN": "终结技的暴击率固定为100%。",
+        "ja": "必殺技の会心率が100%に固定される。",
+        "ko": "필살기의 치명타 확률이 100%로 고정된다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/8008.png",
+    "preview": "image/character_preview/8008.png",
+    "portrait": "image/character_portrait/8008.png"
+  }
+}
