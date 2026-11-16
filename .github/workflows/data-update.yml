@@ -1,0 +1,45 @@
+name: Atualizar dados (PR automático)
+
+# Fase 1: ative o agendamento depois que os adaptadores de ingestão existirem.
+# Por enquanto o fluxo só roda manualmente (Actions → Run workflow), por exemplo no dia de um patch.
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 8 * * *' # diário, 08:00 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --no-frozen-lockfile
+
+      - name: Buscar e normalizar dados
+        run: pnpm data:fetch
+
+      - name: Validar
+        run: pnpm validate
+
+      - name: Abrir Pull Request com o diff
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/data-update
+          delete-branch: true
+          commit-message: 'data: atualização automática'
+          title: 'data: atualização automática'
+          body: |
+            Atualização gerada pelo workflow de ingestão.
+            Revise o diff em `data/generated/` e faça o merge para publicar.
+          labels: data

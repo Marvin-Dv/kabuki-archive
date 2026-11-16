@@ -1,0 +1,16 @@
+node_modules
+.nuxt
+.output
+.data
+.nitro
+.cache
+dist
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Cache bruto das fontes (regenerado pelos scripts de ingestão)
+data/raw/*
+!data/raw/.gitkeep

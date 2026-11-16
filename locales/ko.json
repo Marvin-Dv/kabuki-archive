@@ -1,0 +1,52 @@
+{
+  "site": {
+    "name": "Kabuki Archive",
+    "tagline": "비공식 붕괴: 스타레일 데이터베이스 및 위키",
+    "description": "붕괴: 스타레일의 캐릭터, 광추, 유물, 적, 재료를 정리하고 파티 편성과 파밍 계획 도구를 제공합니다."
+  },
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "menu": "메인 메뉴"
+  },
+  "theme": {
+    "toLight": "라이트 테마로 전환",
+    "toDark": "다크 테마로 전환"
+  },
+  "locale": {
+    "label": "언어"
+  },
+  "home": {
+    "eyebrow": "막이 오르다",
+    "title": "성궤 열차의 완전한 아카이브",
+    "subtitle": "캐릭터, 장비, 적 데이터를 빠르게 찾아볼 수 있도록 정리했으며 예기치 않은 스포일러를 줄였습니다.",
+    "ctaPrimary": "아카이브 둘러보기",
+    "ctaSecondary": "프로젝트 소개",
+    "sectionTitle": "무대 위",
+    "sectionSubtitle": "컬렉션을 준비하고 있습니다. 각 컬렉션은 전용 도구와 함께 공개됩니다.",
+    "soon": "곧 공개"
+  },
+  "collections": {
+    "characters": { "name": "캐릭터", "desc": "스킬, 행적, 에이돌론, 돌파 재료." },
+    "lightcones": { "name": "광추", "desc": "능력치, 효과, 중첩." },
+    "relics": { "name": "유물", "desc": "유물 세트와 차원 장식구." },
+    "enemies": { "name": "적", "desc": "약점, 저항, 스킬." },
+    "materials": { "name": "재료", "desc": "획득처와 용도." },
+    "tools": { "name": "도구", "desc": "파티 편성기, 파밍 계획, 계산기." }
+  },
+  "spoiler": {
+    "title": "스포일러 주의",
+    "body": "이 콘텐츠는 최근 패치의 내용이며 스토리나 신규 캐릭터에 대한 정보가 포함될 수 있습니다."
+  },
+  "about": {
+    "title": "Kabuki Archive 소개",
+    "p1": "Kabuki Archive는 붕괴: 스타레일의 데이터를 한곳에 모으는 팬 프로젝트입니다.",
+    "p2": "공식 발표 이후에만 콘텐츠를 공개합니다. 최근 패치 페이지에는 스포일러 경고가 표시되며, 패치 출시 2주 후 자동으로 사라집니다.",
+    "p3": "코드는 오픈 소스(MIT 라이선스)입니다. 게임 데이터, 이미지, 텍스트의 권리는 HoYoverse에 있습니다.",
+    "dedication": "스파클에게 바칩니다."
+  },
+  "footer": {
+    "disclaimer": "비공식 팬 프로젝트입니다. 붕괴: 스타레일 및 관련 콘텐츠의 권리는 HoYoverse(Cognosphere PTE. LTD.)에 있습니다.",
+    "dedication": "스파클을 위해 정성껏 만들었습니다."
+  }
+}
