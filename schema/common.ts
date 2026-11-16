@@ -44,6 +44,7 @@ export const PATHS = [
   'Preservation',
   'Abundance',
   'Remembrance',
+  'Elation',
 ] as const
 export const path = z.enum(PATHS)
 

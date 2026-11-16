@@ -28,6 +28,7 @@ export const PATH_MAP: Record<string, string> = {
   Knight: 'Preservation',
   Priest: 'Abundance',
   Memory: 'Remembrance',
+  Elation: 'Elation',
 }
 
 export const ELEMENT_MAP: Record<string, string> = {

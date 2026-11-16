@@ -59,6 +59,18 @@ describe('normalizeCharacters', () => {
     expect(warnings.some((w) => w.includes('9999'))).toBe(true)
   })
 
+  it('aceita o caminho Elation', () => {
+    const elation = normalizeCharacters({
+      en: {
+        ...tables.en!,
+        characters: { 1501: { id: '1501', name: 'Sparxie', rarity: 5, path: 'Elation', element: 'Fire' } },
+      },
+    })
+    expect(elation.warnings).toEqual([])
+    expect(character.safeParse(elation.items[0]).success).toBe(true)
+    expect(elation.items[0].path).toBe('Elation')
+  })
+
   it('nunca preenche announcedAt (embargo)', () => {
     expect(items.every((c) => c.announcedAt === null)).toBe(true)
   })
