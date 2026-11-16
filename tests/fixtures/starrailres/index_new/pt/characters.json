@@ -1,0 +1,63 @@
+{
+  "1001": {
+    "id": "1001",
+    "name": "March 7th",
+    "tag": "kafka",
+    "rarity": 4,
+    "path": "Knight",
+    "element": "Ice",
+    "max_sp": 110,
+    "ranks": [
+      "100101",
+      "100102"
+    ],
+    "skills": [
+      "100101",
+      "100102"
+    ],
+    "icon": "icon/character/1001.png",
+    "preview": "image/character_preview/1001.png",
+    "portrait": "image/character_portrait/1001.png"
+  },
+  "1005": {
+    "id": "1005",
+    "name": "Kafka",
+    "rarity": 5,
+    "path": "Warlock",
+    "element": "Thunder",
+    "ranks": [],
+    "skills": [],
+    "icon": "icon/character/1005.png",
+    "preview": "image/character_preview/1005.png",
+    "portrait": "image/character_portrait/1005.png"
+  },
+  "8001": {
+    "id": "8001",
+    "name": "Trailblazer",
+    "rarity": 5,
+    "path": "Warrior",
+    "element": "Physical",
+    "ranks": [],
+    "skills": [],
+    "icon": "icon/character/8001.png"
+  },
+  "8002": {
+    "id": "8002",
+    "name": "Trailblazer",
+    "rarity": 5,
+    "path": "Warrior",
+    "element": "Physical",
+    "ranks": [],
+    "skills": [],
+    "icon": "icon/character/8002.png"
+  },
+  "9999": {
+    "id": "9999",
+    "name": "Mystery",
+    "rarity": 5,
+    "path": "NewPath",
+    "element": "Fire",
+    "ranks": [],
+    "skills": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "100101": {
+    "id": "100101",
+    "name": "Memory of You",
+    "rank": 1,
+    "desc": "Gain SP.",
+    "params": []
+  },
+  "100102": {
+    "id": "100102",
+    "name": "Dear Ice",
+    "rank": 2,
+    "desc": "Heal.",
+    "params": []
+  }
+}

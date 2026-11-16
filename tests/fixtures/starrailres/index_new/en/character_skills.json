@@ -1,0 +1,32 @@
+{
+  "100101": {
+    "id": "100101",
+    "name": "Frigid Cold Arrow",
+    "type": "Normal",
+    "desc": "Deals Ice DMG equal to #1[i]% of March 7th's ATK.",
+    "params": [
+      [
+        0.5
+      ],
+      [
+        0.6
+      ]
+    ]
+  },
+  "100102": {
+    "id": "100102",
+    "name": "The Power of Cuteness",
+    "type": "BPSkill",
+    "desc": "Shield for #1[f1] turns.",
+    "params": [
+      [
+        0.3,
+        2
+      ],
+      [
+        0.35,
+        2
+      ]
+    ]
+  }
+}

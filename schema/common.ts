@@ -62,3 +62,13 @@ export const embargoFields = {
   /** Versão do jogo, ex.: "3.8". */
   version: z.string().regex(/^\d+\.\d+$/).optional(),
 }
+
+/**
+ * Caminho relativo de um asset no StarRailRes (ex.: "icon/character/1001.png").
+ * O site monta a URL final a partir de `utils/assets.ts`, então trocar de CDN
+ * não exige regenerar os dados.
+ */
+export const assetPath = z.string().min(1)
+
+/** Parâmetros numéricos por nível/rank usados nos templates de descrição. */
+export const paramTable = z.array(z.array(z.number()))

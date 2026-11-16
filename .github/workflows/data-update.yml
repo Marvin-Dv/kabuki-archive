@@ -1,11 +1,20 @@
 name: Atualizar dados (PR automático)
 
-# Fase 1: ative o agendamento depois que os adaptadores de ingestão existirem.
-# Por enquanto o fluxo só roda manualmente (Actions → Run workflow), por exemplo no dia de um patch.
+# Roda todo dia e também manualmente (Actions → Run workflow), por exemplo no dia de um patch.
+# Só abre PR se algo mudou em data/generated. Nada vai ao ar sem você dar merge.
+#
+# PRIMEIRA EXECUÇÃO: rode manualmente com `baseline` = a data de hoje (YYYY-MM-DD).
+# Isso marca todo o conteúdo já existente como anunciado. Sem isso, nenhuma entidade
+# tem `announcedAt` e nada é publicado (regra de embargo).
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 8 * * *' # diário, 08:00 UTC
+    inputs:
+      baseline:
+        description: 'Marcar entidades ainda não registradas como anunciadas nesta data (YYYY-MM-DD). Use só na primeira vez.'
+        required: false
+        default: ''
+  schedule:
+    - cron: '0 8 * * *' # diário, 08:00 UTC
 
 permissions:
   contents: write
@@ -27,7 +36,14 @@ jobs:
       - run: pnpm install --no-frozen-lockfile
 
       - name: Buscar e normalizar dados
-        run: pnpm data:fetch
+        env:
+          BASELINE: ${{ inputs.baseline }}
+        run: |
+          if [ -n "$BASELINE" ]; then
+            pnpm data:fetch --baseline "$BASELINE"
+          else
+            pnpm data:fetch
+          fi
 
       - name: Validar
         run: pnpm validate
@@ -42,4 +58,7 @@ jobs:
           body: |
             Atualização gerada pelo workflow de ingestão.
             Revise o diff em `data/generated/` e faça o merge para publicar.
+
+            Entidades novas sem data em `data/announcements.json` ficam com
+            `announcedAt: null` e **não são publicadas** até você registrar o anúncio.
           labels: data

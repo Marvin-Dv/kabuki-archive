@@ -1,0 +1,19 @@
+{
+  "20000": {
+    "id": "20000",
+    "name": "Flechas",
+    "rarity": 3,
+    "path": "Rogue",
+    "desc": "Flechas.",
+    "icon": "icon/light_cone/20000.png",
+    "preview": "image/light_cone_preview/20000.png",
+    "portrait": "image/light_cone_portrait/20000.png"
+  },
+  "23001": {
+    "id": "23001",
+    "name": "Na Noite",
+    "rarity": 5,
+    "path": "Rogue",
+    "icon": "icon/light_cone/23001.png"
+  }
+}
