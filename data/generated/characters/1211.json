@@ -1,0 +1,549 @@
+{
+  "id": 1211,
+  "slug": "bailu",
+  "name": {
+    "pt-BR": "Bailu",
+    "en": "Bailu",
+    "zh-CN": "白露",
+    "ja": "白露",
+    "ko": "백로"
+  },
+  "rarity": 5,
+  "path": "Abundance",
+  "element": "Lightning",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 121101,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Chute de Diagnóstico",
+        "en": "Diagnostic Kick",
+        "zh-CN": "望 、闻、问…蹴！",
+        "ja": "望・聞・問…蹴！",
+        "ko": "보고 듣고 묻고… 아뵤!"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Bailu a um único inimigo.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Bailu's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于白露#1[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体に白露の攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 백로 공격력 #1[i]%만큼의 번개 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 121102,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Cantoria Entre as Nuvens",
+        "en": "Singing Among Clouds",
+        "zh-CN": "云吟乍涌坠珠露",
+        "ja": "雲吟乍然、零れる珠露",
+        "ko": "구름의 노래 속 떨어지는 이슬"
+      },
+      "description": {
+        "pt-BR": "Cura um aliado em #1[f1]% dos PV máximos de Bailu + #2[i]. Bailu então cura aliados aleatórios #4[i] vez(es). Após cada cura, os PV restaurados da próxima cura reduzem em #3[i]%.",
+        "en": "Heals a single ally for #1[f1]% of Bailu's Max HP plus #2[i]. Bailu then heals random allies #4[i] time(s). After each healing, HP restored from the next healing is reduced by #3[i]%.",
+        "zh-CN": "立即为指定我方单体回复等同于白露#1[f1]%生命上限+#2[i]的生命值，然后白露随机为我方单体进行#4[i]次治疗，每提供1次治疗，下一次治疗回复的生命值会降低#3[i]%。",
+        "ja": "指定した味方単体のHPを白露の最大HP#1[f1]%+#2[i]回復し、さらに#4[i]回、ランダムに味方単体を治癒する。治癒するたびに、次の治癒で回復するHP-#3[i]%。",
+        "ko": "즉시 지정된 단일 아군의 HP를 백로 HP 최대치 #1[f1]%+#2[i]만큼 회복한 다음 백로는 랜덤으로 단일 아군을 #4[i]회 치유한다. 1회 치유할 때마다 다음 치유로 회복하는 HP는 #3[i]% 감소한다"
+      },
+      "params": [
+        [
+          0.078,
+          78,
+          0.15,
+          2
+        ],
+        [
+          0.0829,
+          124.8,
+          0.15,
+          2
+        ],
+        [
+          0.0877,
+          159.9,
+          0.15,
+          2
+        ],
+        [
+          0.0926,
+          195,
+          0.15,
+          2
+        ],
+        [
+          0.0975,
+          218.4,
+          0.15,
+          2
+        ],
+        [
+          0.1014,
+          241.8,
+          0.15,
+          2
+        ],
+        [
+          0.1053,
+          259.35,
+          0.15,
+          2
+        ],
+        [
+          0.1092,
+          276.9,
+          0.15,
+          2
+        ],
+        [
+          0.1131,
+          294.45,
+          0.15,
+          2
+        ],
+        [
+          0.117,
+          312,
+          0.15,
+          2
+        ],
+        [
+          0.1209,
+          329.55,
+          0.15,
+          2
+        ],
+        [
+          0.1248,
+          347.1,
+          0.15,
+          2
+        ],
+        [
+          0.1287,
+          364.65,
+          0.15,
+          2
+        ],
+        [
+          0.1326,
+          382.2,
+          0.15,
+          2
+        ],
+        [
+          0.1365,
+          399.75,
+          0.15,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 121103,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Trovão Oportuno",
+        "en": "Felicitous Thunderleap",
+        "zh-CN": "匏蛟跃渊先雷音",
+        "ja": "雷鳴率いる躍渊の蛟龍",
+        "ko": "천둥이 알리는 교룡의 도약"
+      },
+      "description": {
+        "pt-BR": "Cura todos os aliados em #1[f1]% dos PV máximos de Bailu + #2[i].\nBailu aplica Revigoramento nos aliados que ainda não tiverem Revigoramento. Para os que já possuírem Revigoramento, Bailu estende a sua duração em 1 rodada.\nO efeito de Revigoramento pode durar por #3[i] rodada(s). Este efeito não pode acumular.",
+        "en": "Heals all allies for #1[f1]% of Bailu's Max HP plus #2[i].\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for #3[i] turn(s). This effect cannot stack.",
+        "zh-CN": "立即为我方全体回复等同于白露#1[f1]%生命上限+#2[i]的生命值。\n对于没有【生息】的我方目标，白露使其附上【生息】，对于已拥有【生息】的我方目标，白露使其已有的【生息】持续时间延长1回合。\n【生息】可持续#3[i]回合，该效果不可叠加。",
+        "ja": "味方全体のHPを白露の最大HP#1[f1]%+#2[i]回復する。\n「生生」が付与されていない味方に「生生」を付与する。「生生」が付与されている味方の「生生」の継続時間+1ターン。\n「生生」は#3[i]ターン継続でき、効果は累積できない。",
+        "ko": "모든 아군이 백로 HP 최대치 #1[f1]%+#2[i]만큼의 HP를 회복한다.\n백로는 [생명] 효과가 없는 아군에게 [생명] 효과를 부여하며, [생명] 효과를 보유한 아군에게는 [생명] 효과 지속 시간을 1턴 늘려준다\n[생명] 지속 시간: #3[i]턴. 해당 효과는 중첩될 수 없다"
+      },
+      "params": [
+        [
+          0.09,
+          90,
+          2
+        ],
+        [
+          0.0956,
+          144,
+          2
+        ],
+        [
+          0.1013,
+          184.5,
+          2
+        ],
+        [
+          0.1069,
+          225,
+          2
+        ],
+        [
+          0.1125,
+          252,
+          2
+        ],
+        [
+          0.117,
+          279,
+          2
+        ],
+        [
+          0.1215,
+          299.25,
+          2
+        ],
+        [
+          0.126,
+          319.5,
+          2
+        ],
+        [
+          0.1305,
+          339.75,
+          2
+        ],
+        [
+          0.135,
+          360,
+          2
+        ],
+        [
+          0.1395,
+          380.25,
+          2
+        ],
+        [
+          0.144,
+          400.5,
+          2
+        ],
+        [
+          0.1485,
+          420.75,
+          2
+        ],
+        [
+          0.153,
+          441,
+          2
+        ],
+        [
+          0.1575,
+          461.25,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 121104,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Cabaça Cheia de Elixir",
+        "en": "Gourdful of Elixir",
+        "zh-CN": "奔走悬壶济世长",
+        "ja": "懸壺済世",
+        "ko": "발로 뛰는 구원의 의술"
+      },
+      "description": {
+        "pt-BR": "Depois que um aliado com Revigoramento é atingido, restaura #1[f1]% dos PV máximos de Bailu + #2[i]. Este efeito pode ser ativado #5[i] vez(es). Quando um aliado receber um golpe fatal, ele não será derrubado. Bailu o cura imediatamente em #3[f1]% dos PV máximos de Bailu + #4[i] de PV. Este efeito pode ser ativado uma vez por batalha.",
+        "en": "After an ally target with Invigoration is hit, restores the ally's HP for #1[f1]% of Bailu's Max HP plus #2[i]. This effect can trigger #5[i] time(s).\nWhen Bailu's teammate receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for #3[f1]% of Bailu's Max HP plus #4[i] HP. This effect can be triggered 1 time per battle.",
+        "zh-CN": "拥有【生息】的我方目标，在受到攻击后会回复等同于白露#1[f1]%生命上限+#2[i]的生命值，该效果可以触发#5[i]次。\n当白露的队友受到致命攻击时，不会陷入无法战斗状态，白露会立即为其提供治疗，回复等同于白露#3[f1]%生命上限+#4[i]的生命值。该效果单场战斗中可以触发1次。",
+        "ja": "「生生」を持つ味方が攻撃を受けた後、HPを白露の最大HP#1[f1]%+#2[i]回復する、この効果は#5[i]回発動できる。\n白露以外の味方は、HPが0になる攻撃を受けても戦闘不能状態にならず、白露がその味方を治癒し、白露の最大HP#3[f1]%+#4[i]のHPを回復させる。この効果は一度の戦闘で1回発動できる。",
+        "ko": "[생명] 효과를 보유한 아군은 피격 후 백로 HP 최대치의 #1[f1]%+#2[i]만큼 회복한다. 해당 효과는 #5[i]회 발동할 수 있다.\n백로의 동료는 치명적인 공격을 받아도 전투 불능 상태에 빠지지 않고, 백로가 즉시 대상에게 치유를 제공해 HP를 백로 HP 최대치의 #3[f1]%+#4[i]만큼 회복한다. 해당 효과는 단일 전투에서 1회 발동할 수 있다"
+      },
+      "params": [
+        [
+          0.036,
+          36,
+          0.12,
+          120,
+          2
+        ],
+        [
+          0.0382,
+          57.6,
+          0.1275,
+          192,
+          2
+        ],
+        [
+          0.0405,
+          73.8,
+          0.135,
+          246,
+          2
+        ],
+        [
+          0.0428,
+          90,
+          0.1425,
+          300,
+          2
+        ],
+        [
+          0.045,
+          100.8,
+          0.15,
+          336,
+          2
+        ],
+        [
+          0.0468,
+          111.6,
+          0.156,
+          372,
+          2
+        ],
+        [
+          0.0486,
+          119.7,
+          0.162,
+          399,
+          2
+        ],
+        [
+          0.0504,
+          127.8,
+          0.168,
+          426,
+          2
+        ],
+        [
+          0.0522,
+          135.9,
+          0.174,
+          453,
+          2
+        ],
+        [
+          0.054,
+          144,
+          0.18,
+          480,
+          2
+        ],
+        [
+          0.0558,
+          152.1,
+          0.186,
+          507,
+          2
+        ],
+        [
+          0.0576,
+          160.2,
+          0.192,
+          534,
+          2
+        ],
+        [
+          0.0594,
+          168.3,
+          0.198,
+          561,
+          2
+        ],
+        [
+          0.0612,
+          176.4,
+          0.204,
+          588,
+          2
+        ],
+        [
+          0.063,
+          184.5,
+          0.21,
+          615,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 121106,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 121107,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Passeio na Chuva",
+        "en": "Saunter in the Rain",
+        "zh-CN": "徜徉灵泽病恙短",
+        "ja": "恙病を払拭せし、徜徉する霊澤",
+        "ko": "은덕을 누려 짧아진 병환"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Técnica, no início da próxima batalha, todos os aliados recebem Revigoramento por #1[i] rodada(s).",
+        "en": "After Technique is used, at the start of the next battle, all allies are granted Invigoration for #1[i] turn(s).",
+        "zh-CN": "使用秘技后，下一次战斗开始时为我方全体附上【生息】，持续#1[i]回合。",
+        "ja": "秘技を使用した後、次の戦闘開始時、味方全体に「生生」を付与、#1[i]ターン継続。",
+        "ko": "비술 발동 후 다음 전투 시작 시 모든 아군에게 [생명] 효과를 부여한다. 지속 시간: #1[i]턴"
+      },
+      "params": [
+        [
+          2
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Aqua Ambrosiana",
+        "en": "Ambrosial Aqua",
+        "zh-CN": "百脉甘津宁神久",
+        "ja": "{RUBY_B#ひゃくみゃくしず}百脈静{RUBY_E#}める{RUBY_B#かんろ}甘露{RUBY_E#}",
+        "ko": "맥을 가라앉히는 감로"
+      },
+      "description": {
+        "pt-BR": "Se os PV atuais do aliado-alvo forem igual aos PV máximos dele quando o Revigoramento acabar, regenera 8 de Energia extra para esse alvo.",
+        "en": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra Energy for this target.",
+        "zh-CN": "【生息】结束时若我方目标当前生命值等于其生命上限，则额外恢复目标8点能量。",
+        "ja": "「生生」効果が終了する時、味方のHPが満タンの場合、さらにEPを8回復させる。",
+        "ko": "[생명] 효과 종료 시 아군의 현재 HP가 HP 최대치면, 추가로 해당 아군의 에너지를 8pt 회복한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Sono Sílfico",
+        "en": "Sylphic Slumber",
+        "zh-CN": "壶中洞天云螭眠",
+        "ja": "{RUBY_B#こちゅう}壺中{RUBY_E#}の{RUBY_B#てん}天{RUBY_E#}には{RUBY_B#うんりゅうねむ}雲龍眠{RUBY_E#}る",
+        "ko": "항아리 속 동천에는 운룡이 잠든다"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Perícia Suprema, aumenta em mais 15% a Cura Realizada de Bailu por 2 rodada(s).",
+        "en": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s).",
+        "zh-CN": "施放终结技后，白露的治疗量提高15%，持续2回合。",
+        "ja": "必殺技を発動した後、白露の治癒量+15%、2ターン継続。",
+        "ko": "필살기 발동 후 백로의 치유량이 15% 증가한다. 지속 시간: 2턴"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Opulência Onisciente",
+        "en": "Omniscient Opulence",
+        "zh-CN": "掌间乾坤便通玄",
+        "ja": "{RUBY_B#ここちやす}心地安{RUBY_E#}らぐ{RUBY_B#かいしゅん}回春{RUBY_E#}の{RUBY_B#みょうしゅ}妙手{RUBY_E#}",
+        "ko": "건곤을 깨우치고 통현하다"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Extração Maléfica",
+        "en": "Evil Excision",
+        "zh-CN": "肘后备急除外障",
+        "ja": "{RUBY_B#がいしょういや}外傷癒{RUBY_E#}す{RUBY_B#ちゅうご}肘後{RUBY_E#}の{RUBY_B#びきゅう}備急{RUBY_E#}",
+        "ko": "눈이 맑아지는 비급"
+      },
+      "description": {
+        "pt-BR": "Toda a cura fornecida pela Perícia faz com que o recipiente cause 10% a mais de Dano por 2 rodada(s). Este efeito pode se acumular até 3 vez(es).",
+        "en": "Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s).",
+        "zh-CN": "战技提供的每1次治疗会额外使受治疗者造成的伤害提高10%，最多叠加3层，持续2回合。",
+        "ja": "戦闘スキルによる治癒を受けるたび、その味方の与ダメージ+10%、最大で3層累積できる、2ターン継続。",
+        "ko": "전투 스킬이 제공하는 치유를 받을 때마다 치유를 받는 아군은 가하는 피해가 추가로 10% 증가한다. 최대 중첩수: 3스택. 지속 시간: 2턴"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Preocupações Minguantes",
+        "en": "Waning Worries",
+        "zh-CN": "方定一倾浣俗尘",
+        "ja": "{RUBY_B#ぞくじんすす}俗塵濯{RUBY_E#}ぐ{RUBY_B#じう}慈雨{RUBY_E#}",
+        "ko": "속세의 먼지를 씻는 단비"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Gota de Divindade Dracônica",
+        "en": "Drooling Drop of Draconic Divinity",
+        "zh-CN": "龙漦吐哺胜金丹",
+        "ja": "{RUBY_B#りゅうぜんせんやく}龍涎仙薬{RUBY_E#}、{RUBY_B#きんたん}金丹{RUBY_E#}に{RUBY_B#まさ}勝{RUBY_E#}る",
+        "ko": "영험한 용의 침방울"
+      },
+      "description": {
+        "pt-BR": "Bailu pode curar aliados que recebem um golpe fatal mais 1 vez(es) em uma única batalha.",
+        "en": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle.",
+        "zh-CN": "白露在单场战斗中累计可以对受到致命攻击的我方目标提供治疗的效果触发次数增加1次。",
+        "ja": "一度の戦闘で、白露がHPが0になる攻撃を受けた味方を治癒する効果の発動可能回数+1。",
+        "ko": "백로가 단일 전투에서 치명적인 공격을 받은 아군에게 제공하는 치유 효과 발동 횟수가 1회 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1211.png",
+    "preview": "image/character_preview/1211.png",
+    "portrait": "image/character_portrait/1211.png"
+  }
+}

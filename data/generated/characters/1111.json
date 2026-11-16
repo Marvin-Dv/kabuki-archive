@@ -1,0 +1,610 @@
+{
+  "id": 1111,
+  "slug": "luka",
+  "name": {
+    "pt-BR": "Luka",
+    "en": "Luka",
+    "zh-CN": "卢卡",
+    "ja": "ルカ",
+    "ko": "루카"
+  },
+  "rarity": 4,
+  "path": "Nihility",
+  "element": "Physical",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 111101,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Punho Certeiro",
+        "en": "Direct Punch",
+        "zh-CN": "直冲拳",
+        "ja": "裂地拳",
+        "ko": "돌격 펀치"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Luka a um único inimigo.",
+        "en": "Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于卢卡#1[i]%攻击力的物理属性伤害。",
+        "ja": "指定した敵単体にルカの攻撃力#1[i]%分の物理属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 루카 공격력 #1[i]%만큼의 물리 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 111102,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Punho Lacerante",
+        "en": "Lacerating Fist",
+        "zh-CN": "裂伤拳",
+        "ja": "裂創拳",
+        "ko": "열상 펀치"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Luka a um único inimigo-alvo. Além disso, há uma chance-base de #2[i]% de infligir Sangramento a ele, durando #5[i] rodada(s).\nEnquanto estiver com Sangramento, o inimigo recebe #3[f1]% de seus PV máximos como Dano Físico Contínuo ao início de cada rodada. Este Dano não pode exceder #4[i]% do ATQ de Luka.",
+        "en": "Deals Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy target. In addition, there is a #2[i]% base chance to inflict Bleed on them, lasting for #5[i] turn(s).\nWhile Bleeding, the enemy will take #3[f1]% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than #4[i]% of Luka's ATK.",
+        "zh-CN": "对指定敌方单体造成等同于卢卡#1[i]%攻击力的物理属性伤害，随后有#2[i]%的基础概率使目标陷入裂伤状态，持续#5[i]回合。\n裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过卢卡攻击力的#4[i]%。",
+        "ja": "指定した敵単体にルカの攻撃力#1[i]%分の物理属性ダメージを与え、#2[i]%の基礎確率で敵を裂創状態にする、#5[i]ターン継続。\n裂創状態の敵はターンが回ってくるたびに、自身の最大HP#3[f1]%分の物理属性持続ダメージを受ける。このダメージは最大でルカの攻撃力の#4[i]%を超えない。",
+        "ko": "지정된 단일 적에게 루카 공격력 #1[i]%만큼의 물리 속성 피해를 가하고, #2[i]%의 기본 확률로 목표를 열상 상태에 빠트린다. 지속 시간: #5[i]턴\n열상 상태인 적은 턴이 시작될 때마다 자신의 HP 최대치 #3[f1]%만큼의 물리 속성 지속 피해를 받으며, 최대 루카 공격력의 #4[i]%를 초과하지 않는다"
+      },
+      "params": [
+        [
+          0.6,
+          1,
+          0.24,
+          1.3,
+          3
+        ],
+        [
+          0.66,
+          1,
+          0.24,
+          1.43,
+          3
+        ],
+        [
+          0.72,
+          1,
+          0.24,
+          1.56,
+          3
+        ],
+        [
+          0.78,
+          1,
+          0.24,
+          1.69,
+          3
+        ],
+        [
+          0.84,
+          1,
+          0.24,
+          1.82,
+          3
+        ],
+        [
+          0.9,
+          1,
+          0.24,
+          2.015,
+          3
+        ],
+        [
+          0.975,
+          1,
+          0.24,
+          2.275,
+          3
+        ],
+        [
+          1.05,
+          1,
+          0.24,
+          2.6,
+          3
+        ],
+        [
+          1.125,
+          1,
+          0.24,
+          2.99,
+          3
+        ],
+        [
+          1.2,
+          1,
+          0.24,
+          3.38,
+          3
+        ],
+        [
+          1.26,
+          1,
+          0.24,
+          3.549,
+          3
+        ],
+        [
+          1.32,
+          1,
+          0.24,
+          3.718,
+          3
+        ],
+        [
+          1.38,
+          1,
+          0.24,
+          3.887,
+          3
+        ],
+        [
+          1.44,
+          1,
+          0.24,
+          4.056,
+          3
+        ],
+        [
+          1.5,
+          1,
+          0.24,
+          4.225,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 111103,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Golpe de Misericórdia",
+        "en": "Coup de Grâce",
+        "zh-CN": "制胜一击",
+        "ja": "勝利の一撃",
+        "ko": "승리의 일격"
+      },
+      "description": {
+        "pt-BR": "Recebe #5[i] acúmulo(s) de Desejo de Lutar, com uma chance-base de #2[i]% de aumentar o Dano recebido de um único inimigo-alvo em #3[f1]% por #4[i] rodada(s). Então, causa Dano Físico igual a #1[i]% do ATQ de Luka ao alvo.",
+        "en": "Receives #5[i] stack(s) of \"Fighting Will,\" with a #2[i]% base chance to increase one designated enemy target's DMG received by #3[f1]% for #4[i] turn(s). Then, deals Physical DMG equal to #1[i]% of Luka's ATK to the target.",
+        "zh-CN": "获得#5[i]层【斗志】，并有#2[i]%的基础概率使指定敌方单体受到的伤害提高#3[f1]%，持续#4[i]回合，随后对该目标造成等同于卢卡#1[i]%攻击力的物理属性伤害。",
+        "ja": "「闘志」を#5[i]層獲得し、#2[i]%の基礎確率で指定した敵単体の受けるダメージ+#3[f1]%、#4[i]ターン継続。その後、指定した敵単体にルカの攻撃力#1[i]%分の物理属性ダメージを与える。",
+        "ko": "[투지]를 #5[i]스택 획득하고 #2[i]%의 기본 확률로 지정된 단일 적이 받는 피해가 #3[f1]% 증가한다. 지속 시간: #4[i]턴. 그 후 해당 목표에게 루카 공격력 #1[i]%만큼의 물리 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          1.98,
+          1,
+          0.12,
+          3,
+          2
+        ],
+        [
+          2.112,
+          1,
+          0.128,
+          3,
+          2
+        ],
+        [
+          2.244,
+          1,
+          0.136,
+          3,
+          2
+        ],
+        [
+          2.376,
+          1,
+          0.144,
+          3,
+          2
+        ],
+        [
+          2.508,
+          1,
+          0.152,
+          3,
+          2
+        ],
+        [
+          2.64,
+          1,
+          0.16,
+          3,
+          2
+        ],
+        [
+          2.805,
+          1,
+          0.17,
+          3,
+          2
+        ],
+        [
+          2.97,
+          1,
+          0.18,
+          3,
+          2
+        ],
+        [
+          3.135,
+          1,
+          0.19,
+          3,
+          2
+        ],
+        [
+          3.3,
+          1,
+          0.2,
+          3,
+          2
+        ],
+        [
+          3.432,
+          1,
+          0.208,
+          3,
+          2
+        ],
+        [
+          3.564,
+          1,
+          0.216,
+          3,
+          2
+        ],
+        [
+          3.696,
+          1,
+          0.224,
+          3,
+          2
+        ],
+        [
+          3.828,
+          1,
+          0.232,
+          3,
+          2
+        ],
+        [
+          3.96,
+          1,
+          0.24,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 111104,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Faíscas Voadoras",
+        "en": "Flying Sparks",
+        "zh-CN": "火花四溅",
+        "ja": "飛び散る火花",
+        "ko": "흩날리는 불꽃"
+      },
+      "description": {
+        "pt-BR": "Após Luka usar seu ATQ Básico \"Punho Certeiro\" ou sua Perícia \"Punho Lacerante\", ele recebe #1[i] acúmulo de Desejo de Lutar, até um máximo de 4 acúmulos. Quando ele tiver 2 ou mais acúmulos de Desejo de Lutar, seu ATQ Básico \"Punho Certeiro\" é aprimorado para \"Punho Demolidor de Céus\". Depois que o \"Gancho Ascendente\" do seu ATQ Básico Aprimorado atinge um inimigo-alvo com Sangramento, o Sangramento causa Dano ao alvo imediatamente por 1 vez igual a #2[i]% do Dano original. No início da batalha, Luka possuirá 1 acúmulo de Desejo de Lutar.",
+        "en": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives #1[i] stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to #2[i]% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+        "zh-CN": "卢卡在施放普攻【直冲拳】和战技【裂伤拳】后，获得#1[i]层【斗志】，最多可持有4层【斗志】。当持有的【斗志】大于等于2层时，普攻【直冲拳】强化为【直冲碎天拳】。当强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标后，则使其当前承受的裂伤状态立即产生1次相当于原伤害#2[i]%的伤害。战斗开始时，卢卡持有1层【斗志】。",
+        "ja": "ルカが通常攻撃「裂地拳」または戦闘スキル「裂創拳」を発動した後、「闘志」を#1[i]層獲得する。「闘志」は最大で4層累積できる。「闘志」が2層以上の時、通常攻撃「裂地拳」が「裂地砕天拳」に強化される。強化通常攻撃の「砕天拳」が裂創状態の敵に命中した後、その敵に付与された裂創状態が、本来のダメージ#2[i]%分のダメージを発生する。戦闘開始時、ルカは「闘志」を1層獲得する。",
+        "ko": "루카는 일반 공격 [돌격 펀치]와 전투 스킬 [열상 펀치]를 발동하면 [투지]를 #1[i]스택 획득한다. [투지]는 최대 4스택 보유할 수 있다. 보유한 [투지]가 2스택 이상일 시 일반 공격 [돌격 펀치]는 [돌격 어퍼컷]으로 강화된다. 강화된 일반 공격의 [어퍼컷]으로 열상 상태에 빠진 적을 명중하면 현재 받는 열상 상태는 기존 피해 #2[i]%만큼의 피해를 즉시 1회 생성한다. 전투 시작 시 루카는 [투지] 1스택을 보유한다"
+      },
+      "params": [
+        [
+          1,
+          0.68
+        ],
+        [
+          1,
+          0.697
+        ],
+        [
+          1,
+          0.714
+        ],
+        [
+          1,
+          0.731
+        ],
+        [
+          1,
+          0.748
+        ],
+        [
+          1,
+          0.765
+        ],
+        [
+          1,
+          0.7863
+        ],
+        [
+          1,
+          0.8075
+        ],
+        [
+          1,
+          0.8287
+        ],
+        [
+          1,
+          0.85
+        ],
+        [
+          1,
+          0.867
+        ],
+        [
+          1,
+          0.884
+        ],
+        [
+          1,
+          0.901
+        ],
+        [
+          1,
+          0.918
+        ],
+        [
+          1,
+          0.935
+        ]
+      ]
+    },
+    {
+      "id": 111106,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 111107,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Antecipador",
+        "en": "Anticipator",
+        "zh-CN": "抢先者",
+        "ja": "先を行く者",
+        "ko": "앞서는 자"
+      },
+      "description": {
+        "pt-BR": "Ataca imediatamente o inimigo. Ao entrar em batalha, Luka causa Dano Físico igual a #1[i]% de seu ATQ a um único inimigo aleatório, com #2[i]% de chance-base de infligir o efeito de Sangramento da sua Perícia no alvo. Depois, Luka ganha 1 acúmulo adicional de Desejo de Lutar.",
+        "en": "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to #1[i]% of his ATK to a random single enemy with a #2[i]% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于卢卡#1[i]%攻击力的物理属性伤害，并有#2[i]%的基础概率使目标陷入与战技相同的裂伤状态。随后卢卡额外获得1层【斗志】。",
+        "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体にルカの攻撃力#1[i]%分の物理属性ダメージを与え、#2[i]%の基礎確率でその敵を、戦闘スキルが与えるものと同じ裂創状態にする。その後、ルカは「闘志」をさらに1層獲得する。",
+        "ko": "적을 바로 공격하며, 전투 진입 후 임의의 단일 적에게 루카 공격력 #1[i]%만큼의 물리 속성 피해를 가하고, #2[i]%의 기본 확률로 목표를 전투 스킬과 동일한 열상 상태에 빠트린다. 그 후 루카는 [투지]를 1스택 추가로 획득한다"
+      },
+      "params": [
+        [
+          0.5,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 111108,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Punho Demolidor de Céus",
+        "en": "Sky-Shatter Fist",
+        "zh-CN": "直冲碎天拳",
+        "ja": "裂地砕天拳",
+        "ko": "돌격 어퍼컷"
+      },
+      "description": {
+        "pt-BR": "Consome 2 acúmulos de Desejo de Lutar. Primeiramente, usa o Punho Certeiro para dar 3 golpes, com cada golpe causando Dano Físico igual a #1[i]% do ATQ de Luka a um único inimigo-alvo.\nEntão, usa o Gancho Ascendente para dar 1 golpe, causando Dano Físico igual a #2[i]% do ATQ de Luka a um único inimigo-alvo.",
+        "en": "Consumes 2 stacks of \"Fighting Will.\" First, uses \"Direct Punch\" to deal 3 hits, with each hit dealing Physical DMG equal to #1[i]% of Luka's ATK to one designated enemy target.\nThen, uses \"Rising Uppercut\" to deal 1 hit, dealing Physical DMG equal to #2[i]% of Luka's ATK to the designated enemy target.",
+        "zh-CN": "消耗2层【斗志】，先使用【直冲拳】施放3段攻击，每段攻击对指定敌方单体造成等同于卢卡#1[i]%攻击力的物理属性伤害。\n再使用【碎天拳】施放1段攻击，对指定敌方单体造成等同于卢卡#2[i]%攻击力的物理属性伤害。",
+        "ja": "「闘志」を2層消費し、「裂地拳」で3段の攻撃を行う。1段の攻撃で指定した敵単体にルカの攻撃力#1[i]%分の物理属性ダメージを与える。\nそして「砕天拳」で1段の攻撃を行い、指定した敵単体にルカの攻撃力#2[i]%分の物理属性ダメージを与える。",
+        "ko": "[투지] 2스택을 소모하여 먼저 [돌격 펀치]를 사용해 3단 공격을 발동한다. 공격 단수마다 지정된 단일 적에게 루카 공격력 #1[i]%만큼의 물리 속성 피해를 가한다.\n그리고 [어퍼컷]을 사용하여 1단 공격을 발동하고, 지정된 단일 적에게 루카 공격력 #2[i]%만큼의 물리 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.1,
+          0.4
+        ],
+        [
+          0.12,
+          0.48
+        ],
+        [
+          0.14,
+          0.56
+        ],
+        [
+          0.16,
+          0.64
+        ],
+        [
+          0.18,
+          0.72
+        ],
+        [
+          0.2,
+          0.8
+        ],
+        [
+          0.22,
+          0.88
+        ],
+        [
+          0.24,
+          0.96
+        ],
+        [
+          0.26,
+          1.04
+        ],
+        [
+          0.28,
+          1.12
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Lutando Infinitamente",
+        "en": "Fighting Endlessly",
+        "zh-CN": "争斗不休",
+        "ja": "{RUBY_B#や}止{RUBY_E#}まぬ{RUBY_B#あらそ}争{RUBY_E#}い",
+        "ko": "끊임없는 싸움"
+      },
+      "description": {
+        "pt-BR": "Quando Luka age, se o inimigo-alvo estiver com Sangramento, aumenta o Dano causado por Luka em 15% por 2 rodada(s).",
+        "en": "When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s).",
+        "zh-CN": "当卢卡行动时，若指定的敌方目标处于裂伤状态，卢卡造成的伤害提高15%，持续2回合。",
+        "ja": "ルカが行動する時、指定した敵が裂創状態の場合、ルカの与ダメージ+15%、2ターン継続。",
+        "ko": "루카 행동 시 지정된 적이 열상 상태이면 루카가 가하는 피해는 15% 증가한다. 지속 시간: 2턴"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "O Inimigo é Fraco, Eu Sou Forte",
+        "en": "The Enemy is Weak, I am Strong",
+        "zh-CN": "敌弱，我强",
+        "ja": "オレが{RUBY_B#つよ}強{RUBY_E#}い",
+        "ko": "약한 적, 강한 나"
+      },
+      "description": {
+        "pt-BR": "Se a Perícia atingir um inimigo-alvo com Fraqueza contra Físico, ganha 1 acúmulo(s) de Desejo de Lutar.",
+        "en": "If the Skill hits an enemy target with Physical Weakness, gain 1 stack(s) of Fighting Will.",
+        "zh-CN": "若战技击中的敌方目标弱点为物理属性，获得1层【斗志】。",
+        "ja": "物理属性の弱点がある敵に戦闘スキルが命中した場合、「闘志」を1層獲得する。",
+        "ko": "전투 스킬을 명중한 적의 약점이 물리 속성이면 [투지]를 1스택 획득한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Nascido Para o Ringue",
+        "en": "Born for the Ring",
+        "zh-CN": "为擂台而生",
+        "ja": "リングに{RUBY_B#た}立{RUBY_E#}つため{RUBY_B#う}生{RUBY_E#}まれた{RUBY_B#おとこ}男{RUBY_E#}",
+        "ko": "링을 위해 태어난 자"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Nunca Recuar",
+        "en": "Never Turning Back",
+        "zh-CN": "百折不回",
+        "ja": "{RUBY_B#ふとうふくつ}不撓不屈{RUBY_E#}",
+        "ko": "칠전팔기"
+      },
+      "description": {
+        "pt-BR": "Para cada acúmulo de Desejo de Lutar obtido, aumenta o ATQ em 5%, acumulando até 4 vez(es).",
+        "en": "For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s).",
+        "zh-CN": "每获得1层【斗志】，攻击力提高5%，该效果最多叠加4层。",
+        "ja": "「闘志」を1層獲得するごとに、攻撃力+5%。この効果は最大で4層累積できる。",
+        "ko": "[투지]를 1스택 획득할 때마다 공격력이 5% 증가한다. 해당 효과 최대 중첩수: 4스택"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "O Espírito da Fogo Vivo",
+        "en": "The Spirit of Wildfire",
+        "zh-CN": "地火之魂",
+        "ja": "{RUBY_B#ちえんだましい}地炎魂{RUBY_E#}",
+        "ko": "와일드 파이어 스피릿"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Aplausos de um Campeão",
+        "en": "A Champion's Applause",
+        "zh-CN": "冠军应得的喝彩",
+        "ja": "チャンピオンに{RUBY_B#ふさわ}相応{RUBY_E#}しい{RUBY_B#かっさい}喝采{RUBY_E#}",
+        "ko": "챔피언의 영광"
+      },
+      "description": {
+        "pt-BR": "Depois que o \"Gancho Ascendente\" do ATQ Básico Aprimorado atinge um inimigo-alvo com Sangramento, o status de Sangramento imediatamente causará Dano 1 vez. O Dano causado é igual a 8% do Dano original para cada golpe de Punho Certeiro já usado pelo ATQ Básico Aprimorado atual.",
+        "en": "After the Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to 8% of the original DMG for every hit of Direct Punch already unleashed during the current Enhanced Basic ATK.",
+        "zh-CN": "施放强化普攻的【碎天拳】击中陷入裂伤状态下的敌方目标后，本次强化普攻使用的【直冲拳】每施放过1段攻击，则额外使其当前承受的裂伤状态立即产生1次相当于原伤害8%的伤害。",
+        "ja": "強化通常攻撃の「砕天拳」が裂創状態の敵に命中した後、その回の攻撃で「裂地拳」を1段行ったごとに、敵に付与された裂創状態が、さらに本来のダメージ8%分のダメージを1回発生する。",
+        "ko": "강화된 일반 공격의 [어퍼컷]을 발동해 열상 상태에 빠진 적을 명중하면 이번 강화된 일반 공격에 사용한 [돌격 펀치] 공격 단수마다 적이 현재 받는 열상 상태가 기존 피해 8%의 피해를 추가로 즉시 1회 생성한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1111.png",
+    "preview": "image/character_preview/1111.png",
+    "portrait": "image/character_portrait/1111.png"
+  }
+}

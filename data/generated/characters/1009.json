@@ -1,0 +1,459 @@
+{
+  "id": 1009,
+  "slug": "asta",
+  "name": {
+    "pt-BR": "Asta",
+    "en": "Asta",
+    "zh-CN": "艾丝妲",
+    "ja": "アスター",
+    "ko": "아스타"
+  },
+  "rarity": 4,
+  "path": "Harmony",
+  "element": "Fire",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 100901,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Raio Espectral",
+        "en": "Spectrum Beam",
+        "zh-CN": "光谱射线",
+        "ja": "スペクトル光線",
+        "ko": "스펙트럼 빔"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Asta a um único inimigo.",
+        "en": "Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于艾丝妲#1[i]%攻击力的火属性伤害。",
+        "ja": "指定した敵単体にアスターの攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 아스타 공격력 #1[i]%만큼의 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 100902,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Tempestade de Meteoros",
+        "en": "Meteor Storm",
+        "zh-CN": "流星群落",
+        "ja": "スターフォール",
+        "ko": "메테오 스톰"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Asta a um único inimigo e causa Dano mais 4 vezes, com cada acerto causando Dano de Fogo igual a #1[i]% do ATQ de Asta a um inimigo aleatório.",
+        "en": "Deals Fire DMG equal to #1[i]% of Asta's ATK to one designated enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to #1[i]% of Asta's ATK to a random enemy.",
+        "zh-CN": "对指定敌方单体造成等同于艾丝妲#1[i]%攻击力的火属性伤害，并额外造成4次伤害。每次伤害对随机敌方单体造成等同于艾丝妲#1[i]%攻击力的火属性伤害。",
+        "ja": "指定した敵単体にアスターの攻撃力#1[i]%分の炎属性ダメージを与え、さらに4ヒットする。1ヒットごとに、ランダムな敵単体にアスターの攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 아스타 공격력 #1[i]%만큼의 화염 속성 피해를 주며, 추가로 피해를 4회 가한다. 피해를 가할 때마다 임의의 단일 적에게 아스타 공격력 #1[i]%만큼의 화염 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.25
+        ],
+        [
+          0.275
+        ],
+        [
+          0.3
+        ],
+        [
+          0.325
+        ],
+        [
+          0.35
+        ],
+        [
+          0.375
+        ],
+        [
+          0.4062
+        ],
+        [
+          0.4375
+        ],
+        [
+          0.4688
+        ],
+        [
+          0.5
+        ],
+        [
+          0.525
+        ],
+        [
+          0.55
+        ],
+        [
+          0.575
+        ],
+        [
+          0.6
+        ],
+        [
+          0.625
+        ]
+      ]
+    },
+    {
+      "id": 100903,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Bênção Astral",
+        "en": "Astral Blessing",
+        "zh-CN": "星空祝言",
+        "ja": "星空祝言",
+        "ko": "별하늘의 축언"
+      },
+      "description": {
+        "pt-BR": "Aumenta a VEL de todos os aliados em #1[i] por #2[i] rodada(s).",
+        "en": "Increases SPD of all allies by #1[i] for #2[i] turn(s).",
+        "zh-CN": "使我方全体速度提高#1[i]点，持续#2[i]回合。",
+        "ja": "味方全体の速度+#1[i]、#2[i]ターン継続。",
+        "ko": "모든 아군의 속도가 #1[i]pt 증가한다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          36,
+          2
+        ],
+        [
+          37.4,
+          2
+        ],
+        [
+          38.8,
+          2
+        ],
+        [
+          40.2,
+          2
+        ],
+        [
+          41.6,
+          2
+        ],
+        [
+          43,
+          2
+        ],
+        [
+          44.75,
+          2
+        ],
+        [
+          46.5,
+          2
+        ],
+        [
+          48.25,
+          2
+        ],
+        [
+          50,
+          2
+        ],
+        [
+          51.4,
+          2
+        ],
+        [
+          52.8,
+          2
+        ],
+        [
+          54.2,
+          2
+        ],
+        [
+          55.6,
+          2
+        ],
+        [
+          57,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 100904,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Astrometria",
+        "en": "Astrometry",
+        "zh-CN": "天象学",
+        "ja": "天象学",
+        "ko": "천체학"
+      },
+      "description": {
+        "pt-BR": "Ganha 1 acúmulo de Carga para cada inimigo diferente que Asta atingir, além de um acúmulo extra se o inimigo atingido tiver Fraqueza contra Fogo.\nPara cada acúmulo de Carga que Asta tiver, aumenta em #1[f1]% o ATQ de todos os aliados, até #2[i] vez(es).\nA partir da segunda rodada, reduz em #3[i] a contagem de acúmulos de Carga de Asta no início de cada rodada.",
+        "en": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by #1[f1]%, up to #2[i] time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by #3[i] at the beginning of every turn.",
+        "zh-CN": "每击中1名不同的敌方目标获得1层蓄能，若受到攻击的敌方目标弱点为火属性，则额外获得1层蓄能。\n艾丝妲每拥有1层蓄能，会使我方全体攻击力提高#1[f1]%，该效果最多叠加#2[i]层。\n从自身的第2回合开始，艾丝妲每回合开始时蓄能层数减少#3[i]层。",
+        "ja": "異なる敵に攻撃が命中するごとに蓄エネを1層獲得する。攻撃を受けた敵の弱点が炎属性の場合、さらに蓄エネを1層獲得する。\nアスターが持つ蓄エネ1層につき、味方全体の攻撃力+#1[f1]%、最大で#2[i]回累積できる。\n自身の2ターン目から、アスターのターンが回ってくるたびに蓄エネ層数-#3[i]。",
+        "ko": "다른 적을 명중할 때마다 에너지 충전을 1스택 획득하며 피격된 적의 약점이 화염 속성일 경우 추가로 에너지 충전 1스택을 획득한다.\n아스타가 에너지 충전을 1스택 보유할 때마다 모든 아군의 공격력이 #1[f1]% 증가한다. 해당 효과 최대 중첩수: #2[i]스택\n자신의 2번째 턴부터 새로운 턴이 시작될 때마다 충전 스택이 #3[i]스택 감소한다"
+      },
+      "params": [
+        [
+          0.07,
+          5,
+          3
+        ],
+        [
+          0.077,
+          5,
+          3
+        ],
+        [
+          0.084,
+          5,
+          3
+        ],
+        [
+          0.091,
+          5,
+          3
+        ],
+        [
+          0.098,
+          5,
+          3
+        ],
+        [
+          0.105,
+          5,
+          3
+        ],
+        [
+          0.1138,
+          5,
+          3
+        ],
+        [
+          0.1225,
+          5,
+          3
+        ],
+        [
+          0.1313,
+          5,
+          3
+        ],
+        [
+          0.14,
+          5,
+          3
+        ],
+        [
+          0.147,
+          5,
+          3
+        ],
+        [
+          0.154,
+          5,
+          3
+        ],
+        [
+          0.161,
+          5,
+          3
+        ],
+        [
+          0.168,
+          5,
+          3
+        ],
+        [
+          0.175,
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 100906,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 100907,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Lampejo Milagroso",
+        "en": "Miracle Flash",
+        "zh-CN": "灵光一现",
+        "ja": "着想の一閃",
+        "ko": "미라클 플래쉬"
+      },
+      "description": {
+        "pt-BR": "Ataca o inimigo imediatamente. Depois de entrar na batalha, causa #1[i]% do ATQ de Asta como Dano de Fogo a todos os inimigos.",
+        "en": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体目标造成等同于艾丝妲#1[i]%攻击力的火属性伤害。",
+        "ja": "敵を攻撃。戦闘に入った後、敵全体にアスターの攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "적을 바로 공격하며, 전투 진입 후 모든 적에게 아스타 공격력 #1[i]%만큼의 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "As Estrelas Cantam Sem Versos ou Vocais",
+        "en": "Star Sings Sans Verses or Vocals",
+        "zh-CN": "星有无言之歌",
+        "ja": "{RUBY_B#ほし}星{RUBY_E#}に{RUBY_B#むごん}無言{RUBY_E#}の{RUBY_B#うた}歌{RUBY_E#}あり",
+        "ko": "별의 가사 없는 노래"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia, causa Dano 1 vez a mais a um inimigo aleatório.",
+        "en": "When using Skill, deals DMG for 1 extra time to a random enemy.",
+        "zh-CN": "施放战技时，对敌方随机单体额外造成1次伤害。",
+        "ja": "戦闘スキルを発動した時、さらにランダムな敵単体にダメージを1回与える。",
+        "ko": "전투 스킬 발동 시 임의의 단일 적에게 추가로 1회 피해를 가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "A Lua Fala com Uma Voz Inconstante",
+        "en": "Moon Speaks in Wax and Wane",
+        "zh-CN": "月见圆缺之意",
+        "ja": "{RUBY_B#つき}月{RUBY_E#}は{RUBY_B#えいきょ}盈虚{RUBY_E#}の{RUBY_B#い}意{RUBY_E#}を{RUBY_B#あらわ}現{RUBY_E#}す",
+        "ko": "차고 기운 달의 뜻"
+      },
+      "description": {
+        "pt-BR": "Ao usar sua Perícia Suprema, os acúmulos de Carga de Asta não serão reduzidos na próxima rodada.",
+        "en": "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.",
+        "zh-CN": "施放终结技时，艾丝妲下回合不会减少蓄能层数。",
+        "ja": "必殺技を発動した時、アスターの次のターンの蓄エネ層数が減少しなくなる。",
+        "ko": "필살기 발동 시 다음 턴에서 아스타의 에너지 충전 스택이 감소하지 않는다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Chuva de Meteoros do Desejo",
+        "en": "Meteor Showers for Wish and Want",
+        "zh-CN": "黄道陨石之变",
+        "ja": "{RUBY_B#こうどういんせき}黄道隕石{RUBY_E#}の{RUBY_B#へん}変{RUBY_E#}",
+        "ko": "황도 운석의 변화"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "A Aurora Aquece com Beleza e Alegria",
+        "en": "Aurora Basks in Beauty and Bliss",
+        "zh-CN": "极光显现之时",
+        "ja": "{RUBY_B#きょっこう}極光{RUBY_E#}が{RUBY_B#けんげん}顕現{RUBY_E#}する{RUBY_B#とき}時{RUBY_E#}",
+        "ko": "오로라가 나타날 때"
+      },
+      "description": {
+        "pt-BR": "A Taxa de Regeneração de Energia de Asta aumenta em 15% quando ela tem 2 ou mais acúmulos de Carga.",
+        "en": "Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks.",
+        "zh-CN": "天赋的蓄能层数大于等于2时，艾丝妲的能量恢复效率提高15%。",
+        "ja": "天賦の蓄エネが2層以上の時、アスターのEP回復効率+15%。",
+        "ko": "특성 에너지 충전 스택이 2 이상일 경우 아스타의 에너지 회복효율이 15% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "A Nebulosa se Isola em Runas e Enigmas",
+        "en": "Nebula Secludes in Runes and Riddles",
+        "zh-CN": "深空天体之谜",
+        "ja": "{RUBY_B#しんくう}深空{RUBY_E#}{RUBY_B#ざ}座{RUBY_E#}す{RUBY_B#てんたい}天体{RUBY_E#}の{RUBY_B#なぞ}謎{RUBY_E#}",
+        "ko": "천체의 수수께끼"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Sonhos Cósmicos Tranquilos e Confortáveis",
+        "en": "Cosmos Dreams in Calm and Comfort",
+        "zh-CN": "眠于银河之下",
+        "ja": "{RUBY_B#ぎんが}銀河{RUBY_E#}の{RUBY_B#もと}下{RUBY_E#}に{RUBY_B#ねむ}眠{RUBY_E#}る",
+        "ko": "은하 아래에서의 단잠"
+      },
+      "description": {
+        "pt-BR": "A perda de acúmulo(s) de carregamento a cada rodada é diminuída em 1.",
+        "en": "Charging stack(s) lost in each turn is reduced by 1.",
+        "zh-CN": "天赋每回合减少的蓄能层数降低1。",
+        "ja": "ターンが回ってくるたびに天賦の蓄エネ層数減少値-1。",
+        "ko": "특성의 턴마다 감소하는 에너지 충전 스택 수가 1 감소한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1009.png",
+    "preview": "image/character_preview/1009.png",
+    "portrait": "image/character_portrait/1009.png"
+  }
+}

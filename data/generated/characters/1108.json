@@ -1,0 +1,521 @@
+{
+  "id": 1108,
+  "slug": "sampo",
+  "name": {
+    "pt-BR": "Sampo",
+    "en": "Sampo",
+    "zh-CN": "桑博",
+    "ja": "サンポ",
+    "ko": "삼포"
+  },
+  "rarity": 4,
+  "path": "Nihility",
+  "element": "Wind",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 110801,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Lâminas Ofuscantes",
+        "en": "Dazzling Blades",
+        "zh-CN": "酷炫的刀花",
+        "ja": "眩い刃紋",
+        "ko": "화려한 도흔"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Sampo a um único inimigo.",
+        "en": "Deals Wind DMG equal to #1[i]% of Sampo's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于桑博#1[i]%攻击力的风属性伤害。",
+        "ja": "指定した敵単体にサンポの攻撃力#1[i]%分の風属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 삼포 공격력 #1[i]%만큼의 바람 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 110802,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Amor Ricochete",
+        "en": "Ricochet Love",
+        "zh-CN": "反复横跳的爱",
+        "ja": "反復横跳びの愛",
+        "ko": "변덕스러운 사랑"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Vento igual a #2[i]% do ATQ de Sampo a um único inimigo, e causa Dano mais #1[i] vez(es) extra(s), com cada vez causando Dano de Vento igual a #2[i]% do ATQ de Sampo a um inimigo aleatório.",
+        "en": "Deals Wind DMG equal to #2[i]% of Sampo's ATK to one designated enemy, and further deals DMG for #1[i] extra time(s), with each time dealing Wind DMG equal to #2[i]% of Sampo's ATK to a random enemy.",
+        "zh-CN": "对指定敌方单体造成等同于桑博#2[i]%攻击力的风属性伤害，并额外造成#1[i]次伤害，每次伤害对敌方随机单体造成等同于桑博#2[i]%攻击力的风属性伤害。",
+        "ja": "指定した敵単体にサンポの攻撃力#2[i]%分の風属性ダメージを与え、さらに#1[i]ヒットする。1ヒットごとにランダムな敵単体にサンポの攻撃力#2[i]%分の風属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 삼포 공격력의 #2[i]%만큼 바람 속성 피해를 가하고, 추가로 피해를 #1[i]회 가한다. 피해마다 랜덤 단일 적에게 삼포 공격력의 #2[i]%만큼 바람 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          4,
+          0.28
+        ],
+        [
+          4,
+          0.308
+        ],
+        [
+          4,
+          0.336
+        ],
+        [
+          4,
+          0.364
+        ],
+        [
+          4,
+          0.392
+        ],
+        [
+          4,
+          0.42
+        ],
+        [
+          4,
+          0.455
+        ],
+        [
+          4,
+          0.49
+        ],
+        [
+          4,
+          0.525
+        ],
+        [
+          4,
+          0.56
+        ],
+        [
+          4,
+          0.588
+        ],
+        [
+          4,
+          0.616
+        ],
+        [
+          4,
+          0.644
+        ],
+        [
+          4,
+          0.672
+        ],
+        [
+          4,
+          0.7
+        ]
+      ]
+    },
+    {
+      "id": 110803,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Presente Surpresa",
+        "en": "Surprise Present",
+        "zh-CN": "惊喜礼盒",
+        "ja": "サプライズボックス",
+        "ko": "서프라이즈 선물 상자"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Sampo a todos os inimigos, com #4[i]% de chance-base de aumentar o Dano Contínuo recebido pelo alvo em #2[i]% por #3[i] rodada(s).",
+        "en": "Deals Wind DMG equal to #1[i]% of Sampo's ATK to all enemies, with a #4[i]% base chance to increase the targets' DoT taken by #2[i]% for #3[i] turn(s).",
+        "zh-CN": "对敌方全体造成等同于桑博#1[i]%攻击力的风属性伤害，同时有#4[i]%的基础概率使被攻击的敌方目标受到的持续伤害提高#2[i]%，持续#3[i]回合。",
+        "ja": "敵全体にサンポの攻撃力#1[i]%分の風属性ダメージを与え、#4[i]%の基礎確率で攻撃を受けた敵の受ける持続ダメージ+#2[i]%、#3[i]ターン継続。",
+        "ko": "모든 적에게 삼포 공격력 #1[i]%만큼의 바람 속성 피해를 주고, #4[i]%의 기본 확률로 피격된 적이 받는 지속 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
+      },
+      "params": [
+        [
+          0.96,
+          0.2,
+          2,
+          1
+        ],
+        [
+          1.024,
+          0.21,
+          2,
+          1
+        ],
+        [
+          1.088,
+          0.22,
+          2,
+          1
+        ],
+        [
+          1.152,
+          0.23,
+          2,
+          1
+        ],
+        [
+          1.216,
+          0.24,
+          2,
+          1
+        ],
+        [
+          1.28,
+          0.25,
+          2,
+          1
+        ],
+        [
+          1.36,
+          0.2625,
+          2,
+          1
+        ],
+        [
+          1.44,
+          0.275,
+          2,
+          1
+        ],
+        [
+          1.52,
+          0.2875,
+          2,
+          1
+        ],
+        [
+          1.6,
+          0.3,
+          2,
+          1
+        ],
+        [
+          1.664,
+          0.31,
+          2,
+          1
+        ],
+        [
+          1.728,
+          0.32,
+          2,
+          1
+        ],
+        [
+          1.792,
+          0.33,
+          2,
+          1
+        ],
+        [
+          1.856,
+          0.34,
+          2,
+          1
+        ],
+        [
+          1.92,
+          0.35,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 110804,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Adaga da Ventania",
+        "en": "Windtorn Dagger",
+        "zh-CN": "撕风的匕首",
+        "ja": "風を切り裂く匕首",
+        "ko": "바람을 찢는 비수"
+      },
+      "description": {
+        "pt-BR": "Os ataques de Sampo têm #1[i]% de chance-base de infligir Cisalhamento de Vento por #3[i] rodada(s).\nInimigos infligidos com Cisalhamento de Vento recebem Dano de Vento Contínuo igual a #2[i]% do ATQ de Sampo no início de cada rodada. Cisalhamento de Vento pode se acumular até #4[i] vez(es).",
+        "en": "Sampo's attacks have a #1[i]% base chance to inflict Wind Shear for #3[i] turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to #4[i] time(s).",
+        "zh-CN": "桑博击中敌方目标后有#1[i]%的基础概率使目标陷入风化状态，持续#3[i]回合。\n风化状态下，敌方目标每回合开始时受到等同于桑博#2[i]%攻击力的风属性持续伤害。风化状态最多叠加#4[i]层。",
+        "ja": "サンポの攻撃が敵に命中した後、#1[i]%の基礎確率で敵を風化状態にする、#3[i]ターン継続。\n風化状態の敵はターンが回ってくるたびに、サンポの攻撃力#2[i]%分の風属性持続ダメージを受ける。風化状態は最大で#4[i]層累積できる。",
+        "ko": "삼포는 적 공격 후 #1[i]%의 기본 확률로 적을 풍화 상태에 빠트린다. 지속 시간: #3[i]턴\n풍화 상태의 적은 새로운 턴이 시작될 때마다 삼포 공격력 #2[i]%만큼의 바람 속성 지속 피해를 받는다. 풍화 상태 최대 중첩수: #4[i]스택"
+      },
+      "params": [
+        [
+          0.65,
+          0.2,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.22,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.24,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.26,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.28,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.31,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.35,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.4,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.46,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.52,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.546,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.572,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.598,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.624,
+          3,
+          5
+        ],
+        [
+          0.65,
+          0.65,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "id": 110806,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 110807,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Brilho Ofuscante",
+        "en": "Shining Bright",
+        "zh-CN": "你最闪亮",
+        "ja": "一番の輝きをあなたへ",
+        "ko": "네가 가장 빛나"
+      },
+      "description": {
+        "pt-BR": "Após usar a Técnica de Sampo, inflige \"Cegueira\" em inimigos em uma área definida por #1[i] segundos. Inimigos com \"Cegueira\" não conseguem detectar alvos aliados.\nAo iniciar o combate contra um inimigo com \"Cegueira\", há #2[i]% de chance fixa de atrasar as ações de todos os inimigos em #3[i]%.",
+        "en": "After Sampo uses his Technique, enemies in a set area are afflicted with Blind for #1[i] second(s). Blinded enemies cannot detect ally targets.\nWhen initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.",
+        "zh-CN": "使用秘技后使一定区域内的敌人陷入#1[i]秒的目盲状态，目盲状态下的敌人无法发现我方目标。\n若主动攻击陷入目盲状态的敌人，进入战斗时有#2[i]%固定概率使敌方每个单体目标行动延后#3[i]%。",
+        "ja": "秘技を使用した後、一定範囲内の敵を#1[i]秒間のブラインド状態にする。ブラインド状態の敵は味方を発見できない。\nブラインド状態の敵を先制攻撃して戦闘に入った時、#2[i]%の固定確率で、敵単体それぞれの行動順を#3[i]%遅延させる。",
+        "ko": "비술 사용 후 일정 영역 내의 적을 #1[i]초 동안 실명 상태에 빠트린다. 실명 상태에 진입한 적은 아군을 발견할 수 없다.\n실명 상태의 적을 선공하여 전투 진입 시 #2[i]%의 고정 확률로 각 단일 적의 행동 게이지가 #3[i]% 감소한다"
+      },
+      "params": [
+        [
+          10,
+          1,
+          0.25
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Amor Crescente",
+        "en": "Rising Love",
+        "zh-CN": "加码的爱",
+        "ja": "{RUBY_B#ねあ}値上{RUBY_E#}げする{RUBY_B#あい}愛{RUBY_E#}",
+        "ko": "곱절의 사랑"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia, causa Dano 1 vez(es) a mais a um inimigo aleatório.",
+        "en": "When using Skill, deals DMG for 1 extra time(s) to a random enemy.",
+        "zh-CN": "施放战技时，对敌方随机单体额外造成1次伤害。",
+        "ja": "戦闘スキルを発動した時、さらにランダムな敵単体にダメージを1回与える。",
+        "ko": "전투 스킬 발동 시 랜덤 단일 적에게 추가로 피해를 1회 가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Entusiasmo Infeccioso",
+        "en": "Infectious Enthusiasm",
+        "zh-CN": "热情会传染",
+        "ja": "{RUBY_B#ねつじょう}熱情{RUBY_E#}はうつる",
+        "ko": "전염되는 열정"
+      },
+      "description": {
+        "pt-BR": "Derrotar um inimigo infligido com \"Cisalhamento de Vento\" concede 100% de chance-base de infligir 1 acúmulo(s) de \"Cisalhamento de Vento\" a todos os inimigos, equivalente ao \"Cisalhamento de Vento\" da Perícia.",
+        "en": "Defeating an enemy afflicted with Wind Shear has a 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to that of Skill.",
+        "zh-CN": "风化状态下的敌方目标被消灭时，使敌方全体有100%的基础概率叠加1层等同于天赋的风化状态。",
+        "ja": "風化状態の敵が倒された時、100%の基礎確率で敵全体に、天賦と同じ風化状態を1層付与する。",
+        "ko": "풍화 상태의 적 처치 시 모든 적은 100%의 기본 확률로 특성만큼의 풍화 상태를 1스택 중첩한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Riquinho!",
+        "en": "Big Money!",
+        "zh-CN": "大数字！",
+        "ja": "{RUBY_B#おおもう}大儲{RUBY_E#}け！",
+        "ko": "큰 돈!"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Quanto Maior o Amor, Maior o Ódio",
+        "en": "The Deeper the Love, the Stronger the Hate",
+        "zh-CN": "爱之深，恨之切",
+        "ja": "{RUBY_B#あい}愛{RUBY_E#}する{RUBY_B#ほど}程{RUBY_E#}{RUBY_B#うら}恨{RUBY_E#}む",
+        "ko": "사랑할수록 커지는 증오"
+      },
+      "description": {
+        "pt-BR": "Quando a Perícia atinge um inimigo com 5 ou mais acúmulo(s) de Cisalhamento de Vento, o inimigo imediatamente sofre 8% do Dano atual do Cisalhamento de Vento.",
+        "en": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG.",
+        "zh-CN": "战技击中风化状态大于等于5层的敌方目标时，使其当前承受的风化状态立即产生相当于原伤害8%的伤害。",
+        "ja": "戦闘スキルが風化状態5層以上の敵に命中した時、その敵が受けている風化状態が本来のダメージ8%分のダメージを発生する。",
+        "ko": "전투 스킬이 풍화 상태를 5스택 이상 보유한 적을 명중할 시 보유한 풍화 상태는 즉시 기존 피해의 8%만큼 피해를 가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Cheeeeio de Grana!",
+        "en": "Huuuuge Money!",
+        "zh-CN": "超大数字！",
+        "ja": "{RUBY_B#ちょうおおもう}超大儲{RUBY_E#}け！",
+        "ko": "엄청난 돈!"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Aumento de Gasto",
+        "en": "Increased Spending",
+        "zh-CN": "消费升级",
+        "ja": "{RUBY_B#しょうひ}消費{RUBY_E#}のアップグレード",
+        "ko": "커진 씀씀이"
+      },
+      "description": {
+        "pt-BR": "O multiplicador de Dano do Talento para Cisalhamento de Vento aumenta em 15%.",
+        "en": "Talent's Wind Shear DMG multiplier increases by 15%.",
+        "zh-CN": "天赋施加的风化状态的伤害倍率提高15%。",
+        "ja": "天賦が付与した風化状態のダメージ倍率+15%。",
+        "ko": "특성이 부여한 풍화 상태의 피해 배율이 15% 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1108.png",
+    "preview": "image/character_preview/1108.png",
+    "portrait": "image/character_portrait/1108.png"
+  }
+}

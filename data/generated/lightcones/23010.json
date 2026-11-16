@@ -1,0 +1,70 @@
+{
+  "id": 23010,
+  "slug": "before-dawn",
+  "name": {
+    "pt-BR": "Antes do Amanhecer",
+    "en": "Before Dawn",
+    "zh-CN": "拂晓之前",
+    "ja": "夜明け前",
+    "ko": "동트기 전"
+  },
+  "rarity": 5,
+  "path": "Erudition",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "\"Leve essa decisão a sério, general... Pense em como você quer ser lembrado no futuro...\"\nO general dos Cavaleiros das Nuvens ouve as palavras de seus subordinados com os olhos semicerrados.\n\"A história fará seu próprio julgamento, mas não tenho interesse em meu legado.\"\n\"Se eu tiver sucesso, a história afirmará que eu tenho confiança suprema em minha estratégia de mestre.\"\n\"Mas se eu falhar, a história afirmará que estou negligenciando meus deveres por puro prazer, dando mais atenção a pássaros que ao meu povo.\"\nUm pássaro desce do ombro do general, e ele estende a mão para pegar a pequena criatura.\n\"Eu simplesmente tomei minha própria decisão.\"",
+    "en": "\"Do not make this decision lightly, general... Think about how you will be remembered in history...\"\nThe general of the Cloud Knights listens to his subordinates' words with eyes half-closed.\n\"History will make its own judgment, but I have no interest in my legacy.\"\n\"If I succeed, history will state that I am currently supremely confident in my masterful strategy.\"\n\"But if I fail, then history will state that I am currently neglecting my duties in wanton pleasure, preferring finches over my people.\"\nA finch jumps down from his shoulder, and he extends his hand to catch the small creature.\n\"I have simply made my own decision.\"",
+    "zh-CN": "「将军，此事请务必慎重…往后历史会怎么评论将军您……」\n云骑将军双目半阖，听取手下来报。\n「历史自然会有判断，但我对历史的结论无甚兴趣。」\n「事成，我此时便是胸有成竹，神闲气定。」\n「事败，我此时便是逸乐无度，爱雀失众。」\n一只雀儿跳下他的肩膀，他顺势抬手接住。\n「我只是做了我的判断罢了。」",
+    "ja": "「将軍、くれぐれもご慎重に…将軍の名が歴史にどう残るか…」\n雲騎将軍は目を半分つむり、部下の報告を聞く。\n「歴史は勝手に判断するだろうが、私は歴史の結論に興味はない」\n「為せば、今の私は自信を以て悠々自適」\n「為さねば、今の私は雀を愛で、衆を失った逸楽者」\n雀が男の肩から飛び降り、彼は手を伸ばして受け止めた。\n「私は、判断をしたまで」",
+    "ko": "「장군님, 이 일은 신중해야 합니다… 앞으로의 역사는 장군님을 어떻게 평가할지…」\n운기 장군은 두 눈을 반쯤 감고 부하의 보고를 듣는다.\n「역사는 알아서 판단하겠지만, 나는 역사의 결론에 큰 관심이 없어」\n「성사된다면, 난 당연히 자신만만하고 마음이 편해지겠지」\n「성사되지 않으면, 난 절제를 모르고 작은 것을 위해 큰 걸 놓친 자가 될 거고」\n참새 한 마리가 그의 어깨에서 뛰어내리자 그는 손으로 받아낸다.\n「난 나의 판단을 내릴 뿐이야」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Longa Noite",
+      "en": "Long Night",
+      "zh-CN": "长夜",
+      "ja": "長夜",
+      "ko": "긴 밤"
+    },
+    "description": {
+      "pt-BR": "Aumenta em #1[i]% o Dano CRIT do usuário. Aumenta em #2[i]% o Dano causado pela Perícia e pela Perícia Suprema do usuário. Após o usuário usar sua Perícia ou Perícia Suprema, ele ganha Somnus Corpus. Ao ativar um Ataque Extra, Somnus Corpus é consumido, e aumenta o Dano causado pelo Ataque Extra em #3[i]%.",
+      "en": "Increases the wearer's CRIT DMG by #1[i]%. Increases DMG dealt by the wearer's Skill and Ultimate by #2[i]%. After the wearer uses Skill or Ultimate, gains \"Somnus Corpus.\" Upon triggering a Follow-Up ATK, consumes \"Somnus Corpus,\" and increases DMG dealt by Follow-Up ATK by #3[i]%.",
+      "zh-CN": "使装备者暴击伤害提高#1[i]%。使装备者战技和终结技造成的伤害提高#2[i]%。当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高#3[i]%。",
+      "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラの戦闘スキルと必殺技によるダメージ+#2[i]%。装備キャラが戦闘スキル、または必殺技を発動した後、「夢身」効果を獲得する。追加攻撃を行う時、「夢身」を消費し、追加攻撃ダメージ+#3[i]%。",
+      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가하며, 장착한 캐릭터의 전투 스킬과 필살기로 가하는 피해가 #2[i]% 증가한다. 장착한 캐릭터는 전투 스킬 혹은 필살기 발동 후 [몽신] 효과를 획득한다. 추가 공격 발동 시 [몽신]을 소모해 추가 공격으로 가하는 피해가 #3[i]% 증가한다"
+    },
+    "params": [
+      [
+        0.36,
+        0.18,
+        0.48
+      ],
+      [
+        0.42,
+        0.21,
+        0.56
+      ],
+      [
+        0.48,
+        0.24,
+        0.64
+      ],
+      [
+        0.54,
+        0.27,
+        0.72
+      ],
+      [
+        0.6,
+        0.3,
+        0.8
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/23010.png",
+    "preview": "image/light_cone_preview/23010.png",
+    "portrait": "image/light_cone_portrait/23010.png"
+  }
+}

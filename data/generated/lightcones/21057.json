@@ -1,0 +1,65 @@
+{
+  "id": 21057,
+  "slug": "the-flower-remembers",
+  "name": {
+    "pt-BR": "A Flor se Recorda",
+    "en": "The Flower Remembers",
+    "zh-CN": "花儿不会忘记",
+    "ja": "花は忘れない",
+    "ko": "꽃은 잊지 않는다"
+  },
+  "rarity": 4,
+  "path": "Remembrance",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Na primavera, eles plantaram sementes.\nNo verão, irrigaram os campos.\nNo outono, colheram os frutos.\nNo inverno, cantaram enquanto caminhavam na neve.\n...\nA terra que antes era estéril agora floresce com flores, e as borboletas são atraídas pelas risadas que ecoam, pousando nas pontas dos dedos das meninas.\n\"Mana! Vamos continuar trabalhando juntas para transformar isso num enorme mar de flores!\"\n\"Veja. Nossa promessa...\"\nA borboleta voa para a outra margem. A garota, bastante reservada, acaricia suavemente as pétalas quentes da flor, como se sua irmãzinha ainda estivesse ali com ela.\n\"...Não foi esquecida por mim nem pelas flores que um dia cuidamos.\"",
+    "en": "In spring, they sowed seeds.\nIn summer, they irrigated the fields.\nIn autumn, they harvested the fruits.\nIn winter, they sang as they walked in the snow.\n...\nThe land that was originally barren now blooms with flowers, and butterflies are drawn by the peals of laughter and land on the girls' fingertips.\n\"Big sis! We'll keep working together to turn this into a huge sea of flowers!\"\n\"See. Our promise...\"\nThe butterfly flies to the other shore. The rather taciturn girl softly caresses the warm flower petals as if her little sister is still there with her.\n\"...Wasn't forgotten by me or the flowers we once attended.\"",
+    "zh-CN": "春天，她们播下种子。\n夏日，她们灌溉花野。\n秋夕，她们撷取硕果。\n冬夜，她们踏雪欢歌。\n……\n原本荒芜的土地花朵盛放，蝴蝶被那银铃般的笑声吸引，停驻指尖。\n「姐姐，我们以后也会一起，把这里变作盛大的花海！」\n「看，我们的约定……」\n蝴蝶向着彼岸飞去，那稍显沉默的少女轻轻抚过温暖的花瓣，就像妹妹依然在身旁。\n「我，和我们照顾的那些花儿…都不曾忘记。」",
+    "ja": "春、彼女たちは種を蒔いた。\n夏、彼女たちは畑に水を注いだ。\n秋、彼女たちは実を摘んだ。\n冬、彼女たちは雪を踏み、歌を紡いだ。\n……\n荒れ果てた土地で花が咲き誇る中、鈴声のような笑い声に誘われた蝶が指先にとまる。\n「お姉ちゃん、これから一緒に、ここをおっきな花の海にしよう！」\n「見て、私たちの約束……」\n蝶は彼岸へと飛び、寡黙な少女は温かな花びらにそっと手を添えた。まるで、妹が今も傍にいるかのように。\n「私も、私たちが育てた花たちも…決して忘れることはありません」",
+    "ko": "그녀들은 봄에 씨앗을 뿌린다.\n여름이 되면 꽃밭에 물을 준다.\n가을이 오면 열매를 딴다.\n겨울이 깃들면 눈을 밟으며 즐겁게 노래한다.\n……\n황폐했던 땅에는 꽃이 피었고, 나비는 은방울 같은 웃음소리에 이끌려 손끝에 내려앉았다.\n「언니, 우리 앞으로도 같이 이곳을 드넓은 꽃바다로 만들자!」\n「봐, 우리의 약속을……」\n나비가 피안을 향해 날아가자, 조금 과묵해 보이는 소녀는 여동생이 여전히 옆에 있는 것처럼, 따뜻한 꽃잎을 어루만졌다.\n「나와 우리가 돌봐온 꽃들 모두… 잊지 않았어」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Interdependência",
+      "en": "Interdependence",
+      "zh-CN": "相依为命",
+      "ja": "一蓮托生",
+      "ko": "서로 의지하며"
+    },
+    "description": {
+      "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. O Dano CRIT causado pelo Memoespírito do usuário aumenta em #2[i]%.",
+      "en": "Increases the wearer's CRIT DMG by #1[i]%. The CRIT DMG dealt by the wearer's memosprite increases by #2[i]%.",
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者忆灵造成的暴击伤害额外提高#2[i]%。",
+      "ja": "装備キャラの会心ダメージ+#1[i]%。さらに装備キャラの記憶の精霊の会心ダメージ+#2[i]%。",
+      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터의 기억 정령이 가하는 치명타 피해가 추가로 #2[i]% 증가한다"
+    },
+    "params": [
+      [
+        0.24,
+        0.24
+      ],
+      [
+        0.28,
+        0.3
+      ],
+      [
+        0.32,
+        0.36
+      ],
+      [
+        0.36,
+        0.42
+      ],
+      [
+        0.4,
+        0.48
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21057.png",
+    "preview": "image/light_cone_preview/21057.png",
+    "portrait": "image/light_cone_portrait/21057.png"
+  }
+}

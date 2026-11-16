@@ -1,0 +1,65 @@
+{
+  "id": 21034,
+  "slug": "today-is-another-peaceful-day",
+  "name": {
+    "pt-BR": "Hoje é Mais um Dia de Paz",
+    "en": "Today Is Another Peaceful Day",
+    "zh-CN": "今日亦是和平的一日",
+    "ja": "今日も平和な一日",
+    "ko": "오늘도 평화로운 하루"
+  },
+  "rarity": 4,
+  "path": "Erudition",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Ela conseguiu um novo livro emprestado para o almoço e acabou de descobrir um novo jeito de se divertir.\nSe trabalhar com calma, provavelmente conseguirá terminar o serviço até o fim do dia.\nEla se abaixa com facilidade em um canto.\nNinguém deve atrapalhá-la em seu momento de folga — nem mesmo\na profetisa Fu.\nMas se ela aparecer...\n\"É só oferecer essa balinha para a profetisa Fu. Ela não vai ficar com raiva se tiver uns docinhos para comer!\"",
+    "en": "There is the new book borrowed for lunch and she just figured out a new way to play tiles.\nIf she works slowly, the rest of her job should last exactly till the end of day.\nShe ducks easily into a corner.\nNo one must disturb her in her wonderful off time\n— not even diviner Fu.\nJust on the off chance that she does show up...\n\"Then I'll give this milk candy ball to Diviner Fu. She can't be angry after having sweets!\"",
+    "zh-CN": "牌戏的新玩法刚有了眉头，午休又借了闲书。\n掐指一算，余下的工作慢慢做，正好能做到下班。\n她不慌不忙，躲入一隅。\n美好的闲散时光，绝不能被任何人打扰\n——就算是符太卜也不能。\n只是万一，要是有个万一……\n「就把这奶糖团子给符太卜。吃了甜食，总该消气罢！」",
+    "ja": "牌の新しい遊び方を思い付いたばかりだし、昼休みに雑書も借りてきた。\n計算したところ、残りの仕事はのんびりやれば、ちょうどよく退勤までに終わるだろう。\n彼女は急がず焦らず、人のいない隅っこに潜り込んだ。\n美しく長閑な時間に、邪魔が入らぬようにしなければ\n――たとえ太卜であっても許すわけにはいかない。\nだが万が一、万が一の時は……\n「この飴玉団子を太卜様にあげよう。甘いものを食べれば、怒りも収まるはずだよね！」",
+    "ko": "새로운 놀이를 떠올린 그녀는 점심시간에 또 책을 빌려왔다.\n손가락으로 헤아리면서 업무의 양을 계산해 본 그녀는 퇴근 시간에 딱 맞춰 끝날 정도의 속도로 느릿느릿 일했다.\n그녀는 슬그머니 한쪽 구석으로 숨어 들어갔다.\n즐거운 시간은 그 누구에게도 방해받아서는 안 되니까.\n——그게 부 태복이라 해도 말이다.\n하지만 만일의 경우에는……\n「이 우유 사탕을 부 태복에게 주세요. 단것을 먹으면 화도 가라앉을 테니까!」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Uma Tempestade se Aproxima",
+      "en": "A Storm Is Coming",
+      "zh-CN": "风雨将至",
+      "ja": "風雨、間もなく至る",
+      "ko": "폭풍전야"
+    },
+    "description": {
+      "pt-BR": "Após entrar em batalha, aumenta o Dano do usuário com base em sua Energia Máxima. Cada ponto de Energia aumenta o Dano em #1[f2]%. Um máximo de #2[i] de Energia será considerado para este efeito.",
+      "en": "After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by #1[f2]%. A max of #2[i] Energy will be taken into account for this.",
+      "zh-CN": "进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高#1[f2]%，最多计入#2[i]点。",
+      "ja": "戦闘に入った後、装備キャラの最大EPに応じて、装備キャラの与ダメージをアップする。1EPにつき+#1[f2]%、最大で#2[i]までカウントされる。",
+      "ko": "전투 진입 후 장착한 캐릭터의 에너지 최대치에 따라 장착한 캐릭터가 가하는 피해가 증가한다: 에너지 1pt당 #1[f2]% 증가. 최대 #2[i]pt까지 계산한다"
+    },
+    "params": [
+      [
+        0.002,
+        160
+      ],
+      [
+        0.0025,
+        160
+      ],
+      [
+        0.003,
+        160
+      ],
+      [
+        0.0035,
+        160
+      ],
+      [
+        0.004,
+        160
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21034.png",
+    "preview": "image/light_cone_preview/21034.png",
+    "portrait": "image/light_cone_portrait/21034.png"
+  }
+}

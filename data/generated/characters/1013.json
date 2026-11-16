@@ -1,0 +1,460 @@
+{
+  "id": 1013,
+  "slug": "herta",
+  "name": {
+    "pt-BR": "Herta",
+    "en": "Herta",
+    "zh-CN": "黑塔",
+    "ja": "ヘルタ",
+    "ko": "헤르타"
+  },
+  "rarity": 4,
+  "path": "Erudition",
+  "element": "Ice",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 101301,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Está Olhando o Quê?",
+        "en": "What Are You Looking At?",
+        "zh-CN": "看什么看",
+        "ja": "何見てるの？",
+        "ko": "보긴 뭘 봐"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Herta a um único inimigo.",
+        "en": "Deals Ice DMG equal to #1[i]% of Herta's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于黑塔#1[i]%攻击力的冰属性伤害。",
+        "ja": "指定した敵単体にヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 헤르타 공격력 #1[i]%만큼의 얼음 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 101302,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Oferta Única",
+        "en": "One-Time Offer",
+        "zh-CN": "一锤子买卖",
+        "ja": "一度限りの取引",
+        "ko": "일회성 거래"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% do ATQ de Herta como Dano de Gelo a todos os inimigos. Se o alvo estiver com #2[i]% de PV ou mais, o Dano causado a esse alvo aumenta em #3[i]%.",
+        "en": "Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies. If the enemy's HP percentage is #2[i]% or higher, DMG dealt to this target increases by #3[i]%.",
+        "zh-CN": "对敌方全体造成等同于黑塔#1[i]%攻击力的冰属性伤害。若敌方目标当前生命值百分比大于等于#2[i]%，则对该目标造成的伤害提高#3[i]%。",
+        "ja": "敵全体にヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。敵の残りHPが#2[i]%以上の場合、その敵に対して与ダメージ+#3[i]%。",
+        "ko": "모든 적에게 헤르타 공격력 #1[i]%만큼의 얼음 속성 피해를 준다. 해당 적의 현재 HP 백분율이 #2[i]% 이상이면 해당 적에게 가하는 피해가 #3[i]% 증가한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.5,
+          0.2
+        ],
+        [
+          0.55,
+          0.5,
+          0.2
+        ],
+        [
+          0.6,
+          0.5,
+          0.2
+        ],
+        [
+          0.65,
+          0.5,
+          0.2
+        ],
+        [
+          0.7,
+          0.5,
+          0.2
+        ],
+        [
+          0.75,
+          0.5,
+          0.2
+        ],
+        [
+          0.8125,
+          0.5,
+          0.2
+        ],
+        [
+          0.875,
+          0.5,
+          0.2
+        ],
+        [
+          0.9375,
+          0.5,
+          0.2
+        ],
+        [
+          1,
+          0.5,
+          0.2
+        ],
+        [
+          1.05,
+          0.5,
+          0.2
+        ],
+        [
+          1.1,
+          0.5,
+          0.2
+        ],
+        [
+          1.15,
+          0.5,
+          0.2
+        ],
+        [
+          1.2,
+          0.5,
+          0.2
+        ],
+        [
+          1.25,
+          0.5,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": 101303,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "É Magia, Eu Adicionei Magia",
+        "en": "It's Magic, I Added Some Magic",
+        "zh-CN": "是魔法，我加了魔法",
+        "ja": "私がかけた魔法だよ",
+        "ko": "마법이야, 내가 마법을 추가했어"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Herta a todos os inimigos.",
+        "en": "Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies.",
+        "zh-CN": "对敌方全体造成等同于黑塔#1[i]%攻击力的冰属性伤害。",
+        "ja": "敵全体にヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。",
+        "ko": "모든 적에게 헤르타 공격력 #1[i]%만큼의 얼음 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          1.2
+        ],
+        [
+          1.28
+        ],
+        [
+          1.36
+        ],
+        [
+          1.44
+        ],
+        [
+          1.52
+        ],
+        [
+          1.6
+        ],
+        [
+          1.7
+        ],
+        [
+          1.8
+        ],
+        [
+          1.9
+        ],
+        [
+          2
+        ],
+        [
+          2.08
+        ],
+        [
+          2.16
+        ],
+        [
+          2.24
+        ],
+        [
+          2.32
+        ],
+        [
+          2.4
+        ]
+      ]
+    },
+    {
+      "id": 101304,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Está Bem, Eu Cuido Disso",
+        "en": "Fine, I'll Do It Myself",
+        "zh-CN": "还是我来吧",
+        "ja": "やっぱり私がやる",
+        "ko": "그냥 내가 할게"
+      },
+      "description": {
+        "pt-BR": "Quando um ataque de um aliado reduzir os PV de um inimigo a #1[i]% ou menos, Herta usa um Ataque Extra, causando #2[i]% do ATQ de Herta como Dano de Gelo a todos os inimigos.",
+        "en": "When an ally target's attack causes an enemy target's HP percentage to fall to #1[i]% or lower, Herta will launch a Follow-Up ATK, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.",
+        "zh-CN": "当任意我方目标的攻击使敌方目标的当前生命值百分比小于等于#1[i]%时，黑塔发动追加攻击，对敌方全体造成等同于黑塔#2[i]%攻击力的冰属性伤害。",
+        "ja": "味方の攻撃が敵の残りHPを#1[i]%以下にした時、ヘルタは追加攻撃を発動し、敵全体にヘルタの攻撃力#2[i]%分の氷属性ダメージを与える。",
+        "ko": "임의의 아군 공격으로 적의 현재 HP 백분율이 #1[i]% 이하일 시, 헤르타는 추가 공격을 발동하여 모든 적에게 헤르타 공격력 #2[i]%만큼의 얼음 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.5,
+          0.265
+        ],
+        [
+          0.5,
+          0.28
+        ],
+        [
+          0.5,
+          0.295
+        ],
+        [
+          0.5,
+          0.31
+        ],
+        [
+          0.5,
+          0.325
+        ],
+        [
+          0.5,
+          0.3438
+        ],
+        [
+          0.5,
+          0.3625
+        ],
+        [
+          0.5,
+          0.3812
+        ],
+        [
+          0.5,
+          0.4
+        ],
+        [
+          0.5,
+          0.415
+        ],
+        [
+          0.5,
+          0.43
+        ],
+        [
+          0.5,
+          0.445
+        ],
+        [
+          0.5,
+          0.46
+        ],
+        [
+          0.5,
+          0.475
+        ]
+      ]
+    },
+    {
+      "id": 101306,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 101307,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Ainda É Possível Otimizar",
+        "en": "It Can Still Be Optimized",
+        "zh-CN": "可以优化一下",
+        "ja": "改善すべきだよ",
+        "ko": "최적화가 필요해"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Técnica, no início da próxima batalha o ATQ de Herta aumenta em #1[i]% por #2[i] rodada(s).",
+        "en": "After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.",
+        "zh-CN": "使用秘技后，下一次战斗开始时黑塔攻击力提高#1[i]%，持续#2[i]回合。",
+        "ja": "秘技を使用した後、次の戦闘開始時、ヘルタの攻撃力+#1[i]%、#2[i]ターン継続。",
+        "ko": "비술 발동 후 다음 전투 시작 시 헤르타의 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          0.4,
+          3
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Vai Ficar Ainda Pior",
+        "en": "Kick You When You're Down",
+        "zh-CN": "落井当下石",
+        "ja": "{RUBY_B#よわ}弱{RUBY_E#}みは{RUBY_B#つ}付{RUBY_E#}け{RUBY_B#こ}込{RUBY_E#}み",
+        "ko": "엎친 데 덮친 격"
+      },
+      "description": {
+        "pt-BR": "Ao utilizar um ATQ Básico e se o percentual de PV do inimigo designado for 50% ou menos, o ATQ Básico de Herta também causa Dano de Gelo Adicional igual a 40% do ATQ dela.",
+        "en": "When using Basic ATK, if the designated enemy's HP percentage is at 50% or less, additionally deals Ice Additional DMG equal to 40% of Herta's ATK.",
+        "zh-CN": "施放普攻时，若指定敌方单体生命值百分比小于等于50%，则额外造成等同于黑塔40%攻击力的冰属性附加伤害。",
+        "ja": "通常攻撃を行った時、指定した敵単体の残りHPが50%以下の場合、さらにヘルタの攻撃力40%分の氷属性付加ダメージを与える。",
+        "ko": "일반 공격 발동 시 지정된 단일 적의 HP 백분율이 50% 이하일 경우 추가로 헤르타 공격력의 40%만큼 얼음 속성 추가 피해를 가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Dar o Pontapé Inicial",
+        "en": "Keep the Ball Rolling",
+        "zh-CN": "得胜必追击",
+        "ja": "{RUBY_B#か}勝{RUBY_E#}てば{RUBY_B#お}追{RUBY_E#}い{RUBY_B#う}打{RUBY_E#}ち",
+        "ko": "승리를 위한 추격"
+      },
+      "description": {
+        "pt-BR": "Sempre que o Talento for ativado, a chance de CRIT deste personagem aumenta em 3%. Este efeito pode se acumular até 5 vez(es).",
+        "en": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s).",
+        "zh-CN": "天赋每触发1次，自身暴击率提高3%，该效果最多叠加5层。",
+        "ja": "天賦が1回発動するごとに、自身の会心率+3%、この効果は最大で5回累積できる。",
+        "ko": "특성을 1회 발동할 때마다 자신의 치명타 확률이 3% 증가한다. 해당 효과 최대 중첩수: 5스택"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Eu Sou Este Tipo de Garota",
+        "en": "That's the Kind of Girl I Am",
+        "zh-CN": "我就是这样女子",
+        "ja": "{RUBY_B#わたし}私{RUBY_E#}はこういう{RUBY_B#おんな}女{RUBY_E#}なの",
+        "ko": "나 이런 여자야"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Dedo na Ferida",
+        "en": "Hit Where It Hurts",
+        "zh-CN": "打人要打脸",
+        "ja": "{RUBY_B#めんつ}面子{RUBY_E#}は{RUBY_B#てっていてき}徹底的{RUBY_E#}に{RUBY_B#つぶ}潰{RUBY_E#}す",
+        "ko": "때리려면 뺨을"
+      },
+      "description": {
+        "pt-BR": "O Dano aumenta em 10% quando o Talento for ativado.",
+        "en": "When Talent is triggered, DMG increases by 10%.",
+        "zh-CN": "触发天赋时造成的伤害提高10%。",
+        "ja": "天賦発動時の与ダメージ+10%。",
+        "ko": "특성이 발동될 시 가하는 피해가 10% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Se For Xingar, Xingue Direito",
+        "en": "Cuss Big or Cuss Nothing",
+        "zh-CN": "骂人不留口",
+        "ja": "{RUBY_B#けってん}欠点{RUBY_E#}{RUBY_B#つか}掴{RUBY_E#}んで{RUBY_B#ののし}罵{RUBY_E#}り{RUBY_B#たお}倒{RUBY_E#}す",
+        "ko": "폭언멸구"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Ninguém Pode Me Trair",
+        "en": "No One Can Betray Me",
+        "zh-CN": "世上没人能负我",
+        "ja": "{RUBY_B#だれ}誰{RUBY_E#}も{RUBY_B#わたし}私{RUBY_E#}を{RUBY_B#うらぎ}裏切{RUBY_E#}れない",
+        "ko": "누구도 날 저버리지 못해"
+      },
+      "description": {
+        "pt-BR": "Após usar a Perícia Suprema, o ATQ deste personagem aumenta em 25% por 1 rodada(s).",
+        "en": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s).",
+        "zh-CN": "施放终结技后，攻击力提高25%，持续1回合。",
+        "ja": "必殺技を発動した後、攻撃力+25%、1ターン継続。",
+        "ko": "필살기 발동 후 공격력이 25% 증가한다. 지속 시간: 1턴"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1013.png",
+    "preview": "image/character_preview/1013.png",
+    "portrait": "image/character_portrait/1013.png"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": 24005,
+  "slug": "memorys-curtain-never-falls",
+  "name": {
+    "pt-BR": "As Cortinas da Memória Nunca Caem",
+    "en": "Memory's Curtain Never Falls",
+    "zh-CN": "记忆永不落幕",
+    "ja": "尽きぬ追憶",
+    "ko": "기억은 영원히 막을 내리지 않는다"
+  },
+  "rarity": 5,
+  "path": "Remembrance",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Seja ele agitado, desolado, fugaz ou duradouro... cada planeta e cada instante estão repletos de incontáveis eventos.\nEssa história condensada derrete com um único toque, fluindo como lágrimas do olhar do mundo:\nAlguns dizem: \"Quão pesadas devem ser essas lágrimas, os anos acumulados capazes de desvanecer a eternidade.\"\nAlguns dizem: \"Quão maravilhosas são as histórias que contam, a tristeza tão clara, a alegria tão serena, sem serem prejudicadas nem mesmo por um indício de falsidade.\"\nO cosmos flui em silêncio e não sai nenhuma palavra de SUA boca, SEUS olhos apenas observam.\nObservam e esperam que se tornem \"memórias\".",
+    "en": "Be it bustling, desolate, fleeting, or enduring... every planet and every instant is brimming with countless events.\nThat condensed history melts at a single touch, flowing as tears from the world's gaze—\nSome say: How heavy those tears must be, the amassed years capable of fading eternity.\nSome say: How wondrous the stories they tell, sorrow so clear, joy so serene, unmarred by even a hint of falsehood.\nThe Cosmos flows in silent stillness, and THEY speak not, only watching—\nWatching and waiting for them to become \"memories.\"",
+    "zh-CN": "不论繁华的、荒凉的、短暂的、漫长的…每一颗星球，每一个瞬间皆在发生无数的事件。\n那凝结的历史一触便融化于手中，化作泪水自世界的眼眸流淌而下——\n有人说，那是多么沉重的泪水，凝聚的岁月足以令永恒褪色。\n有人说，那是多么美妙的故事，悲哀澄澈，欢悦明静，其间不夹杂一丝虚伪。\n银河静默流淌，祂不语，只是凝望——\n凝望着，等待着它们成为「记忆」。",
+    "ja": "繁栄したもの、荒れ果てたもの、短く終えるもの、長く生きるもの…宇宙に存在する星々では、常に無数の出来事が起こっている。\n凝結した歴史は触れるだけで手の中に溶け、涙となって世界の瞳から流れ落ちる——\nある人は、その涙はとても重く、凝縮された月日は「永遠」さえも色褪せるほどだと言う。\nまたある人は、その物語はとても美しく、透き通った悲しさや、明るく静かな嬉しさなど、感情に一切の偽りがないと言う。\n銀河は静かに流れる。其は沈黙したまま、ただ見つめる——\n見つめて、それらが「記憶」になるのを待っているのだ。",
+    "ko": "번화한 행성이든, 황량한 행성이든, 짧은 행성이든, 기나긴 행성이든… 모든 행성에는 모든 순간에 무수한 사건이 일어난다.\n응결된 역사는 손에 닿자마자 녹아내려 눈물이 되어 세계의 눈동자에서 흘러내린다——\n어떤 이들은 그 눈물이 너무나도 무겁기에 응축된 세월은 영원을 퇴색시킬 수 있을 정도라고 한다.\n어떤 이들은 그 이야기가 너무나도 아름다우며, 슬픔은 맑고, 기쁨은 평온하며, 그 사이에는 일말의 거짓도 없다고 한다.\n은하는 고요히 흐르고 있고, 그는 어떤 말도 하지 않고 그저 바라볼 뿐이다——\n그들이 「기억」이 되길 기다리면서"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Recepção",
+      "en": "Reception",
+      "zh-CN": "收取",
+      "ja": "徴収",
+      "ko": "수취"
+    },
+    "description": {
+      "pt-BR": "Aumenta a VEL do usuário em #1[f1]%. Depois que o usuário usa a Perícia, aumenta o Dano causado por todos os aliados em #2[i]%, durando por #3[i] rodada(s).",
+      "en": "Increases the wearer's SPD by #1[f1]%. After the wearer uses Skill, increases the DMG dealt by all allies by #2[i]%, lasting for #3[i] turn(s).",
+      "zh-CN": "使装备者的速度提高#1[f1]%。装备者施放战技后，使我方全体造成的伤害提高#2[i]%，持续#3[i]回合。",
+      "ja": "装備キャラの速度+#1[f1]%。装備キャラが戦闘スキルを発動した後、味方全体の与ダメージ+#2[i]%、#3[i]ターン継続。",
+      "ko": "장착한 캐릭터의 속도가 #1[f1]% 증가한다. 장착한 캐릭터가 전투 스킬을 발동하면 모든 아군이 가하는 피해가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
+    },
+    "params": [
+      [
+        0.06,
+        0.08,
+        3
+      ],
+      [
+        0.075,
+        0.1,
+        3
+      ],
+      [
+        0.09,
+        0.12,
+        3
+      ],
+      [
+        0.105,
+        0.14,
+        3
+      ],
+      [
+        0.12,
+        0.16,
+        3
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/24005.png",
+    "preview": "image/light_cone_preview/24005.png",
+    "portrait": "image/light_cone_portrait/24005.png"
+  }
+}

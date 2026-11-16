@@ -1,0 +1,504 @@
+{
+  "id": 1206,
+  "slug": "sushang",
+  "name": {
+    "pt-BR": "Sushang",
+    "en": "Sushang",
+    "zh-CN": "素裳",
+    "ja": "素裳",
+    "ko": "소상"
+  },
+  "rarity": 4,
+  "path": "Hunt",
+  "element": "Physical",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 120601,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Arte do Espadachim das Nuvens: Brilho Estelar",
+        "en": "Cloudfencer Art: Starshine",
+        "zh-CN": "云骑剑经 • 素霓",
+        "ja": "雲騎剣経・月虹",
+        "ko": "운기검경 • 소예"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Sushang a um único inimigo.",
+        "en": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于素裳#1[i]%攻击力的物理属性伤害。",
+        "ja": "指定した敵単体に素裳の攻撃力#1[i]%分の物理属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 소상 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 120602,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Arte do Espadachim das Nuvens: Queda Montanhosa",
+        "en": "Cloudfencer Art: Mountainfall",
+        "zh-CN": "云骑剑经 • 山倾",
+        "ja": "雲騎剣経・山傾",
+        "ko": "운기검경 • 산경"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Sushang a um inimigo. Além disso, há #3[i]% de chance de ativar a Postura da Espada no último golpe, causando Dano Físico Adicional igual a #2[i]% do ATQ de Sushang ao inimigo.\nSe o inimigo estiver infligido com Quebra de Fraqueza, a ativação da Postura da Espada é garantida.",
+        "en": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy. In addition, there is a #3[i]% chance to trigger \"Sword Stance\" on the final hit, dealing Physical Additional DMG equal to #2[i]% of Sushang's ATK to the enemy.\nIf the enemy is inflicted with Weakness Break, \"Sword Stance\" is guaranteed to trigger.",
+        "zh-CN": "对指定敌方单体造成等同于素裳#1[i]%攻击力的物理属性伤害。同时最后一击后有#3[i]%概率发动【剑势】，对目标造成等同于素裳#2[i]%攻击力的物理属性附加伤害。\n若该目标处于弱点击破状态，则【剑势】必定发动。",
+        "ja": "指定した敵単体に素裳の攻撃力#1[i]%分の物理属性ダメージを与える。最後の1ヒットの後に#3[i]%の確率で「剣勢」を発動し、敵に素裳の攻撃力#2[i]%分の物理属性付加ダメージを与える。\n敵が弱点撃破状態である場合、「剣勢」は必ず発動する。",
+        "ko": "지정된 단일 적에게 소상 공격력 #1[i]%만큼의 물리 속성 피해를 준다. 동시에 마지막 일격 후 #3[i]% 확률로 [검세]를 발동해 적에게 소상 공격력 #2[i]%만큼의 물리 속성 추가 피해를 준다.\n해당 목표가 약점 격파 상태일 경우 [검세]는 반드시 발동한다"
+      },
+      "params": [
+        [
+          1.05,
+          0.5,
+          0.33
+        ],
+        [
+          1.155,
+          0.55,
+          0.33
+        ],
+        [
+          1.26,
+          0.6,
+          0.33
+        ],
+        [
+          1.365,
+          0.65,
+          0.33
+        ],
+        [
+          1.47,
+          0.7,
+          0.33
+        ],
+        [
+          1.575,
+          0.75,
+          0.33
+        ],
+        [
+          1.7063,
+          0.8125,
+          0.33
+        ],
+        [
+          1.8375,
+          0.875,
+          0.33
+        ],
+        [
+          1.9688,
+          0.9375,
+          0.33
+        ],
+        [
+          2.1,
+          1,
+          0.33
+        ],
+        [
+          2.205,
+          1.05,
+          0.33
+        ],
+        [
+          2.31,
+          1.1,
+          0.33
+        ],
+        [
+          2.415,
+          1.15,
+          0.33
+        ],
+        [
+          2.52,
+          1.2,
+          0.33
+        ],
+        [
+          2.625,
+          1.25,
+          0.33
+        ]
+      ]
+    },
+    {
+      "id": 120603,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Forma de Taixu: Anúncio do Amanhecer",
+        "en": "Shape of Taixu: Dawn Herald",
+        "zh-CN": "太虚形蕴 • 烛夜",
+        "ja": "太虚形蘊・燭夜",
+        "ko": "태허형온 • 촉야"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Sushang a um único inimigo-alvo e ela age imediatamente. Além disso, o ATQ de Sushang aumenta em #4[i]% e usar sua Perícia concede 2 chances extras de ativar a Postura da Espada por #2[i] rodada(s).\nQuando ativada graças às chances extras, a Postura da Espada causa #3[i]% do Dano original.",
+        "en": "Deals Physical DMG equal to #1[i]% of Sushang's ATK to one designated enemy target, and she immediately takes action. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger \"Sword Stance\" for #2[i] turn(s).\n\"Sword Stance\" triggered from the extra chances deals #3[i]% of the original DMG.",
+        "zh-CN": "对指定敌方单体造成等同于素裳#1[i]%攻击力的物理属性伤害，并使素裳立即行动。同时使其攻击力提高#4[i]%，且施放战技时额外增加2次【剑势】的发动判定，持续#2[i]回合。\n通过额外判定发动的【剑势】伤害为原伤害的#3[i]%。",
+        "ja": "指定した敵単体に素裳の攻撃力#1[i]%分の物理属性ダメージを与え、素裳が即座に行動する。素裳の攻撃力+#4[i]%、戦闘スキルを発動した時に「剣勢」発動の判定回数+2、#2[i]ターン継続。\n追加の判定で発動した「剣勢」のダメージは、本来のダメージの#3[i]%。",
+        "ko": "지정된 단일 적에게 소상 공격력 #1[i]%만큼의 물리 속성 피해를 주고 소상은 즉시 행동한다. 동시에 소상의 공격력이 #4[i]% 증가하고 전투 스킬 발동 시 [검세]의 발동 판정이 추가로 2회 증가한다. 지속 시간: #2[i]턴\n추가 판정으로 발동된 [검세]의 피해는 기존 피해의 #3[i]%이다"
+      },
+      "params": [
+        [
+          1.92,
+          2,
+          0.5,
+          0.18
+        ],
+        [
+          2.048,
+          2,
+          0.5,
+          0.192
+        ],
+        [
+          2.176,
+          2,
+          0.5,
+          0.204
+        ],
+        [
+          2.304,
+          2,
+          0.5,
+          0.216
+        ],
+        [
+          2.432,
+          2,
+          0.5,
+          0.228
+        ],
+        [
+          2.56,
+          2,
+          0.5,
+          0.24
+        ],
+        [
+          2.72,
+          2,
+          0.5,
+          0.255
+        ],
+        [
+          2.88,
+          2,
+          0.5,
+          0.27
+        ],
+        [
+          3.04,
+          2,
+          0.5,
+          0.285
+        ],
+        [
+          3.2,
+          2,
+          0.5,
+          0.3
+        ],
+        [
+          3.328,
+          2,
+          0.5,
+          0.312
+        ],
+        [
+          3.456,
+          2,
+          0.5,
+          0.324
+        ],
+        [
+          3.584,
+          2,
+          0.5,
+          0.336
+        ],
+        [
+          3.712,
+          2,
+          0.5,
+          0.348
+        ],
+        [
+          3.84,
+          2,
+          0.5,
+          0.36
+        ]
+      ]
+    },
+    {
+      "id": 120604,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Lâmina Dançante",
+        "en": "Dancing Blade",
+        "zh-CN": "游刃若水",
+        "ja": "游刃若水",
+        "ko": "자유자재의 칼날"
+      },
+      "description": {
+        "pt-BR": "Quando um inimigo sofre Quebra de Fraqueza no campo, a VEL de Sushang aumenta em #1[f2]% por #2[i] rodada(s).",
+        "en": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[f2]% for #2[i] turn(s).",
+        "zh-CN": "当场上有敌方目标的弱点被击破，素裳的速度提高#1[f2]%，持续#2[i]回合。",
+        "ja": "フィールド上の敵が弱点撃破された時、素裳の速度+#1[f2]%、#2[i]ターン継続。",
+        "ko": "필드 위 적의 약점이 격파될 시 소상의 속도가 #1[f2]% 증가한다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          0.15,
+          2
+        ],
+        [
+          0.155,
+          2
+        ],
+        [
+          0.16,
+          2
+        ],
+        [
+          0.165,
+          2
+        ],
+        [
+          0.17,
+          2
+        ],
+        [
+          0.175,
+          2
+        ],
+        [
+          0.1812,
+          2
+        ],
+        [
+          0.1875,
+          2
+        ],
+        [
+          0.1938,
+          2
+        ],
+        [
+          0.2,
+          2
+        ],
+        [
+          0.205,
+          2
+        ],
+        [
+          0.21,
+          2
+        ],
+        [
+          0.215,
+          2
+        ],
+        [
+          0.22,
+          2
+        ],
+        [
+          0.225,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 120606,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 120607,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Arte do Espadachim das Nuvens: Grito de Guerra",
+        "en": "Cloudfencer Art: Warcry",
+        "zh-CN": "云骑剑经 • 叩阵",
+        "ja": "雲騎剣経・叩陣",
+        "ko": "운기검경 • 함성"
+      },
+      "description": {
+        "pt-BR": "Ataca o inimigo imediatamente. Ao entrar na batalha, Sushang causa Dano Físico igual a #1[i]% do ATQ dela a todos os inimigos.",
+        "en": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于素裳#1[i]%攻击力的物理属性伤害。",
+        "ja": "敵を攻撃。戦闘に入った後、敵全体に素裳の攻撃力#1[i]%分の物理属性ダメージを与える。",
+        "ko": "적을 바로 공격하며, 전투 진입 후 모든 적에게 소상 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.8
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Cortar Facilmente",
+        "en": "Cut With Ease",
+        "zh-CN": "游刃有余",
+        "ja": "{RUBY_B#ゆうじんゆうよ}游刃有余{RUBY_E#}",
+        "ko": "여유만만"
+      },
+      "description": {
+        "pt-BR": "Após usar a Perícia contra um inimigo com Quebra de Fraqueza, regenera 1 Ponto de Perícia.",
+        "en": "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.",
+        "zh-CN": "对陷入弱点击破状态的敌方目标施放战技后，恢复1个战技点。",
+        "ja": "弱点撃破状態の敵に対して戦闘スキルを発動した後、SPを1回復する。",
+        "ko": "약점 격파 상태의 적에게 전투 스킬 발동 후 전투 스킬 포인트를 1pt 회복한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Refino pela Labuta",
+        "en": "Refine in Toil",
+        "zh-CN": "其身百炼",
+        "ja": "{RUBY_B#そ}其{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}、{RUBY_B#ひゃくれん}百煉{RUBY_E#}",
+        "ko": "단련된 신체"
+      },
+      "description": {
+        "pt-BR": "Depois que a Postura da Espada é ativada, o Dano recebido por Sushang é reduzido em 20% por 1 rodada.",
+        "en": "After Sword Stance is triggered, the DMG taken by Sushang is reduced by 20% for 1 turn.",
+        "zh-CN": "触发【剑势】后，素裳受到的伤害降低20%，持续1回合。",
+        "ja": "「剣勢」発動後、素裳の被ダメージ-20%、1ターン継続。",
+        "ko": "[검세] 발동 후 소상이 받는 피해가 20% 감소한다. 지속 시간: 1턴"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Surgir da Fama",
+        "en": "Rise From Fame",
+        "zh-CN": "传古剑流",
+        "ja": "{RUBY_B#でんこけんりゅう}伝古剣流{RUBY_E#}",
+        "ko": "전설의 검류"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Golpeie com o Coração",
+        "en": "Cleave With Heart",
+        "zh-CN": "其心百辟",
+        "ja": "{RUBY_B#そ}其{RUBY_E#}の{RUBY_B#こころ}心{RUBY_E#}、{RUBY_B#ひゃくへき}百闢{RUBY_E#}",
+        "ko": "넓은 아량"
+      },
+      "description": {
+        "pt-BR": "Aumenta em 40% o Efeito de Quebra de Sushang.",
+        "en": "Sushang's Break Effect increases by 40%.",
+        "zh-CN": "素裳的击破特攻提高40%。",
+        "ja": "素裳の撃破特効+40%。",
+        "ko": "소상의 격파 특수효과가 40% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Prevalecer por Taixu",
+        "en": "Prevail via Taixu",
+        "zh-CN": "太虚神意",
+        "ja": "{RUBY_B#たいきょしんい}太虚神意{RUBY_E#}",
+        "ko": "태공의 신의"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Permanecer Como Água",
+        "en": "Dwell Like Water",
+        "zh-CN": "上善若水",
+        "ja": "{RUBY_B#じょうぜんじゃくすい}上善若水{RUBY_E#}",
+        "ko": "상선약수"
+      },
+      "description": {
+        "pt-BR": "O Bônus de VEL do Talento é acumulável e pode acumular até 2 vezes. Adicionalmente, após entrar em batalha, Sushang imediatamente ganha 1 acúmulo do Bônus de VEL do seu Talento.",
+        "en": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost.",
+        "zh-CN": "天赋的加速效果可以叠加，最多叠加2层，且进入战斗后素裳立即获得1层天赋的加速效果。",
+        "ja": "天賦の加速効果が累積できるようになる、最大で2層累積できる。戦闘に入った後、素裳は天賦の加速効果を1層獲得する。",
+        "ko": "특성의 가속 효과는 최대 2스택 중첩 가능하고 전투 진입 후 소상은 즉시 특성의 가속 효과를 1스택 획득한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1206.png",
+    "preview": "image/character_preview/1206.png",
+    "portrait": "image/character_portrait/1206.png"
+  }
+}

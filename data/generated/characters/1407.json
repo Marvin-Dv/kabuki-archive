@@ -1,0 +1,1157 @@
+{
+  "id": 1407,
+  "slug": "castorice",
+  "name": {
+    "pt-BR": "Castorice",
+    "en": "Castorice",
+    "zh-CN": "遐蝶",
+    "ja": "キャストリス",
+    "ko": "카스토리스"
+  },
+  "rarity": 5,
+  "path": "Remembrance",
+  "element": "Quantum",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 140701,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Luto nas Ondulações do Mar Morto",
+        "en": "Lament, Nethersea's Ripple",
+        "zh-CN": "哀悼，死海之涟漪",
+        "ja": "哀悼、死海の小波",
+        "ko": "애도, 사해의 파문"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico em um valor igual a #1[i]% dos PV máximos de Castorice a um inimigo designado.",
+        "en": "Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于遐蝶#1[i]%生命上限的量子属性伤害。",
+        "ja": "指定した敵単体にキャストリスの最大HP#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 카스토리스 HP 최대치의 #1[i]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.25
+        ],
+        [
+          0.3
+        ],
+        [
+          0.35
+        ],
+        [
+          0.4
+        ],
+        [
+          0.45
+        ],
+        [
+          0.5
+        ],
+        [
+          0.55
+        ],
+        [
+          0.6
+        ],
+        [
+          0.65
+        ],
+        [
+          0.7
+        ]
+      ]
+    },
+    {
+      "id": 140702,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "O Silêncio é a Carícia da Borboleta",
+        "en": "Silence, Wraithfly's Caress",
+        "zh-CN": "缄默，幽蝶之轻抚",
+        "ja": "沈黙、幽蝶の慈しみ",
+        "ko": "침묵, 나비의 손길"
+      },
+      "description": {
+        "pt-BR": "Consome #1[i]% dos PV atuais de todos os aliados. Causa Dano Quântico igual a #2[i]% dos PV máximos de Castorice a um inimigo específico e Dano Quântico igual a #3[i]% dos PV máximos de Castorice aos alvos adjacentes.\nSe os PV atuais forem insuficientes, os PV serão reduzidos para 1.\nSe o \"Dragão Abissal\" estiver no campo de batalha, a Perícia será substituída por \"Garraespectral do Dragão da Perdição\".",
+        "en": "Consumes #1[i]% of all allies' current HP. Deals Quantum DMG equal to #2[i]% of Castorice's Max HP to one designated enemy and Quantum DMG equal to #3[i]% of Castorice's Max HP to adjacent targets.\nIf the current HP is insufficient, reduces the current HP down to 1.\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead.",
+        "zh-CN": "消耗我方全体当前#1[i]%的生命值，对指定敌方单体造成等同于遐蝶#2[i]%生命上限的量子属性伤害，并对其相邻目标造成等同于遐蝶#3[i]%生命上限的量子属性伤害。\n若当前生命值不足，最多使当前生命值降至1点。\n若死龙在场，战技替换为【骸爪，冥龙之环拥】。",
+        "ja": "味方それぞれの残りHP#1[i]%分のHPを消費し、指定した敵単体にキャストリスの最大HP#2[i]%分の量子属性ダメージを与え、さらに隣接する敵にキャストリスの最大HPの#3[i]%分の量子属性ダメージを与える。\n残りHPが足りない場合、残りHPが1になる。\n死竜がフィールドにいる時、戦闘スキルは「骸爪、冥竜の抱擁」に切り替わる。",
+        "ko": "모든 아군의 현재 HP를 #1[i]% 소모해 지정된 단일 적에게 카스토리스 HP 최대치의 #2[i]%만큼 양자 속성 피해를 가하고, 인접한 목표에게 카스토리스 HP 최대치의 #3[i]%만큼 양자 속성 피해를 가한다.\n현재 HP가 부족하면 HP를 최대 1pt까지 감소시킨다.\n죽음의 용이 필드에 있으면 전투 스킬이 [뼈의 발톱, 저승 용의 포옹]으로 전환된다"
+      },
+      "params": [
+        [
+          0.3,
+          0.25,
+          0.15
+        ],
+        [
+          0.3,
+          0.275,
+          0.165
+        ],
+        [
+          0.3,
+          0.3,
+          0.18
+        ],
+        [
+          0.3,
+          0.325,
+          0.195
+        ],
+        [
+          0.3,
+          0.35,
+          0.21
+        ],
+        [
+          0.3,
+          0.375,
+          0.225
+        ],
+        [
+          0.3,
+          0.4062,
+          0.2437
+        ],
+        [
+          0.3,
+          0.4375,
+          0.2625
+        ],
+        [
+          0.3,
+          0.4688,
+          0.2812
+        ],
+        [
+          0.3,
+          0.5,
+          0.3
+        ],
+        [
+          0.3,
+          0.525,
+          0.315
+        ],
+        [
+          0.3,
+          0.55,
+          0.33
+        ],
+        [
+          0.3,
+          0.575,
+          0.345
+        ],
+        [
+          0.3,
+          0.6,
+          0.36
+        ],
+        [
+          0.3,
+          0.625,
+          0.375
+        ]
+      ]
+    },
+    {
+      "id": 140703,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Grito da Perdição do Sino do Alvorecer",
+        "en": "Doomshriek, Dawn's Chime",
+        "zh-CN": "亡喉怒哮，苏生之颂铃",
+        "ja": "亡者の怒哮、蘇生の鐘",
+        "ko": "포효하는 망자, 소생의 종"
+      },
+      "description": {
+        "pt-BR": "Invoca o Memoespírito \"Dragão Abissal\" e Avança Adiante sua ação em 100%. Ao mesmo tempo, ativa o Território \"Reino Perdido\", que reduz a RES a Todos os Tipos de todos os inimigos em #4[i]%. Se Castorice possuir o efeito de Bônus de Dano proveniente de seu Talento, esse efeito será estendido ao \"Dragão Abissal\". O \"Dragão Abissal\" possui VEL inicial de #1[i] e um valor fixo de PV máximos igual a #3[i]% do máximo de \"Brotar\".\nApós agir por #2[i] rodadas ou quando seus PV chegarem a 0, ele desaparece e dissipa o Território \"Reino Perdido\".",
+        "en": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys the Territory \"Lost Netherland,\" which decreases all enemies' All-Type RES by #4[i]%. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of #1[i] and a set Max HP equal to #3[i]% of max \"Newbud.\"\nAfter Netherwing experiences #2[i] turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland.\"",
+        "zh-CN": "召唤忆灵死龙使其行动提前100%，同时展开境界【遗世冥域】，使敌方全体全属性抗性降低#4[i]%，若遐蝶持有天赋的造成伤害提高效果，使该效果扩散至死龙。死龙初始拥有#1[i]点速度以及等同于【新蕊】上限#3[i]%的固定生命上限。\n死龙#2[i]个回合后或生命值为0时消失，同时解除境界【遗世冥域】。",
+        "ja": "記憶の精霊「死竜」を召喚し、その行動順を100%早める。同時に、境界「遺世の冥域」を展開し、敵全体の全属性耐性を#4[i]%ダウンさせる。キャストリスが天賦のダメージアップ効果を持っている場合、死竜にその効果を拡散する。死竜は#1[i]の初期速度と、「新蕾」の上限#3[i]%分の固定最大HPを持つ。\n死竜は自身のターンが#2[i]回経過した後、またはHPが0になった時にフィールドから消え、同時に境界「遺世の冥域」を解除する。",
+        "ko": "기억 정령 죽음의 용을 소환하고 대상의 행동 게이지를 100% 증가시키며, 동시에 경계 [세상을 잊은 저승]을 전개하여 모든 적의 모든 속성 저항을 #4[i]% 감소시킨다. 카스토리스가 특성의 가하는 피해 증가 효과를 보유할 시, 해당 효과를 죽음의 용에게 확산시킨다. 죽음의 용은 기본 상태에서 #1[i]pt의 속도와 [새로운 꽃술] 최대치의 #3[i]%만큼 고정 HP 최대치를 보유한다.\n죽음의 용은 #2[i]턴 후 또는 HP가 0이 되면 사라지며, 동시에 경계 [세상을 잊은 저승]이 해제된다"
+      },
+      "params": [
+        [
+          165,
+          3,
+          1,
+          0.1,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.11,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.12,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.13,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.14,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.15,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.1625,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.175,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.1875,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.2,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.21,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.22,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.23,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.24,
+          0
+        ],
+        [
+          165,
+          3,
+          1,
+          0.25,
+          0
+        ]
+      ]
+    },
+    {
+      "id": 140704,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Palmas da Desolação",
+        "en": "Desolation Across Palms",
+        "zh-CN": "掌心淌过的荒芜",
+        "ja": "手のひらを伝う衰亡",
+        "ko": "손바닥에 흐르는 황무"
+      },
+      "description": {
+        "pt-BR": "O limite máximo de \"Brotar\" está relacionado aos níveis de todos os personagens no campo de batalha. Para cada ponto de PV perdido por todos os aliados, Castorice ganha 1 ponto de \"Brotar\". Quando \"Brotar\" atinge seu limite máximo, a Perícia Suprema pode ser ativada. Quando aliados perdem PV, o Dano causado por Castorice e pelo \"Dragão Abissal\" aumenta em #2[i]%. Este efeito pode se acumular até #3[i] vez(es), durando por #4[i] rodada(s).\nQuando o \"Dragão Abissal\" estiver em Campo, \"Brotar\" não poderá ser adquirido através do Talento, e os PV perdidos por todos os aliados (exceto o \"Dragão Abissal\") serão convertidos na mesma quantidade de PV para o \"Dragão Abissal\".",
+        "en": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting for #4[i] turn(s).\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+        "zh-CN": "【新蕊】上限与场上全体角色等级有关，我方全体每损失1点生命值遐蝶获得1点【新蕊】，当【新蕊】达到上限时可激活终结技。我方损失生命值时，遐蝶与死龙造成的伤害提高#2[i]%，该效果最多叠加#3[i]层，持续#4[i]回合。\n死龙在场时无法通过天赋获得【新蕊】，除死龙以外我方全体每损失1点生命值会转化为死龙同等的生命值。",
+        "ja": "「新蕾」の上限はフィールド上にいるすべてのキャラのレベルと関係している。味方全体がHPを1失うたびに、キャストリスは「新蕾」を1獲得する。「新蕾」が上限に達すると必殺技を発動できる。味方がHPを失った時、キャストリスと死竜の与ダメージ+#2[i]%、この効果は最大で#3[i]層累積できる。#4[i]ターン継続。\n死竜がフィールドにいる時、キャストリスは天賦を通じて「新蕾」を獲得することはできず、死竜以外の味方がHPを1失うたびに、失ったのと同等のHPが死竜のHPに変換される。",
+        "ko": "[새로운 꽃술] 최대치는 필드 위 모든 캐릭터의 레벨에 영향을 받는다. 모든 아군이 HP를 1pt 잃을 때마다 카스토리스는 [새로운 꽃술]을 1pt 획득하고, [새로운 꽃술]이 최대치에 도달하면 필살기를 활성화할 수 있다. 아군이 HP를 잃을 시 카스토리스와 죽음의 용이 가하는 피해가 #2[i]% 증가한다, 해당 효과 최대 중첩수: #3[i]스택, 지속 시간: #4[i]턴.\n죽음의 용이 필드에 있을 시 특성을 통해 [새로운 꽃술]을 획득할 수 없으며, 죽음의 용을 제외한 모든 아군이 HP를 1pt 잃을 때마다 같은 양의 죽음의 용 HP로 전환된다"
+      },
+      "params": [
+        [
+          0,
+          0.1,
+          3,
+          3
+        ],
+        [
+          0,
+          0.11,
+          3,
+          3
+        ],
+        [
+          0,
+          0.12,
+          3,
+          3
+        ],
+        [
+          0,
+          0.13,
+          3,
+          3
+        ],
+        [
+          0,
+          0.14,
+          3,
+          3
+        ],
+        [
+          0,
+          0.15,
+          3,
+          3
+        ],
+        [
+          0,
+          0.1625,
+          3,
+          3
+        ],
+        [
+          0,
+          0.175,
+          3,
+          3
+        ],
+        [
+          0,
+          0.1875,
+          3,
+          3
+        ],
+        [
+          0,
+          0.2,
+          3,
+          3
+        ],
+        [
+          0,
+          0.21,
+          3,
+          3
+        ],
+        [
+          0,
+          0.22,
+          3,
+          3
+        ],
+        [
+          0,
+          0.23,
+          3,
+          3
+        ],
+        [
+          0,
+          0.24,
+          3,
+          3
+        ],
+        [
+          0,
+          0.25,
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 140706,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo e, quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 140707,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Lamento, o Arauto da Morte",
+        "en": "Wail, Death's Herald",
+        "zh-CN": "悲鸣，赐死之先声",
+        "ja": "慟哭、死の兆しを贈る",
+        "ko": "비명, 죽음을 하사하는 선성"
+      },
+      "description": {
+        "pt-BR": "Após usar a Técnica, entra no estado \"Confusão Mortal\", que dura por #3[i] segundos. Enquanto \"Confusão Mortal\" estiver ativa, inimigos não podem se aproximar ativamente da Castorice.\nDurante a \"Confusão Mortal\", ataques ativos farão com que todos os inimigos dentro do alcance entrem em combate. Ao mesmo tempo, invoca o Memoespírito \"Dragão Abissal\", Avança Adiante sua ação em 100% e ativa o Território \"Reino Perdido\". O \"Dragão Abissal\" começa com PV atuais em um valor igual a #2[i]% do máximo de \"Brotar\". Após entrar em combate, consome #1[i]% dos PV atuais de todos os aliados (exceto o \"Dragão Abissal\").\nSe o \"Dragão Abissal\" não for invocado após entrar em combate, Castorice ganha \"Brotar\" em uma quantidade igual a #4[i]% do máximo de \"Brotar\".",
+        "en": "After using Technique, enters the \"Netherveil\" state that lasts for #3[i] seconds. While \"Netherveil\" is active, enemies are unable to actively approach Castorice.\nDuring \"Netherveil,\" active attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%, and deploys the Territory \"Lost Netherland.\" Netherwing has its current HP equal to #2[i]% of max \"Newbud.\" After entering battle, consumes #1[i]% of the current HP of all allies (except Netherwing).\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to #4[i]% of max \"Newbud.\"",
+        "zh-CN": "使用秘技后进入持续#3[i]秒的【冥茫】状态。【冥茫】状态下敌人无法主动靠近遐蝶。\n【冥茫】状态下主动攻击会使所有范围内的敌人进入战斗，同时召唤忆灵死龙使其行动提前100%并展开境界【遗世冥域】，死龙拥有等同于【新蕊】上限#2[i]%的当前生命值。进入战斗后，消耗除死龙以外的我方全体#1[i]%当前生命值。\n进入战斗后未召唤死龙则遐蝶获得等同于【新蕊】上限#4[i]%点数的【新蕊】。",
+        "ja": "秘技を使用した後、#3[i]秒間継続する「冥茫」状態に入る。「冥茫」状態の敵はキャストリスに近づくことができない。\n「冥茫」状態で攻撃を行うと、範囲内のすべての敵が戦闘に入る。同時に記憶の精霊「死竜」を召喚し、その行動順を100%早め、境界「遺世の冥域」を展開する。「死竜」の残りHPは「新蕾」の上限#2[i]%分となる。戦闘に入った後、死竜以外の味方全体の残りHPを#1[i]%消費する。\nなお、戦闘に入った後、死竜を召喚しなかった場合、キャストリスは「新蕾」の上限#4[i]%分の「新蕾」を獲得する。",
+        "ko": "비술 사용 후 #3[i]초 동안 [아득한 어둠] 상태에 진입한다. [아득한 어둠] 상태의 적은 카스토리스에게 직접 다가올 수 없다.\n[아득한 어둠] 상태에서 선공하면 범위 내 모든 적을 전투에 진입시키고, 동시에 기억 정령 죽음의 용을 소환하고 행동 게이지를 100% 증가시키며, 경계 [세상을 잊은 저승]을 펼친다. 또한, 죽음의 용은 [새로운 꽃술] 최대치의 #2[i]%만큼 현재 HP를 보유한다. 전투 진입 후, 죽음의 용을 제외한 모든 아군의 현재 HP를 #1[i]% 소모한다.\n전투 진입 후 죽음의 용이 소환되지 않을 시 카스토리스는 [새로운 꽃술]을 [새로운 꽃술] 최대치의 #4[i]%만큼 획득한다"
+      },
+      "params": [
+        [
+          0.4,
+          0.5,
+          20,
+          0.3
+        ]
+      ]
+    },
+    {
+      "id": 140709,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Garraespectral do Dragão da Perdição",
+        "en": "Boneclaw, Doomdrake's Embrace",
+        "zh-CN": "骸爪，冥龙之环拥",
+        "ja": "骸爪、冥竜の抱擁",
+        "ko": "뼈의 발톱, 저승 용의 포옹"
+      },
+      "description": {
+        "pt-BR": "Consome #1[i]% dos PV atuais de todos os aliados (exceto o \"Dragão Abissal\"). Castorice e o Dragão Abissal realizam um Ataque Conjunto nos alvos, causando Dano Quântico igual a #2[f1]% e #3[f1]% dos PV máximos de Castorice a todos os inimigos.\nSe os PV atuais forem insuficientes, os PV serão reduzidos para 1.",
+        "en": "Consumes #1[i]% of the current HP of all allies (except Netherwing). Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG equal to #2[f1]% and #3[f1]% of Castorice's Max HP to all enemies.\nIf the current HP is insufficient, reduces the current HP down to 1.",
+        "zh-CN": "消耗除死龙以外的我方全体当前#1[i]%的生命值，遐蝶与死龙向目标发起连携攻击，对敌方全体造成等同于遐蝶#2[f1]%和#3[f1]%生命上限的量子属性伤害。\n若当前生命值不足，最多使当前生命值降至1点。",
+        "ja": "死竜以外の味方の残りHP#1[i]%分のHPを消費し、キャストリスと死竜が連携攻撃を行い、敵全体にキャストリスの最大HP#2[f1]%分と#3[f1]%分の量子属性ダメージを与える。\n残りHPが足りない場合、残りHPが1になる。",
+        "ko": "죽음의 용을 제외한 모든 아군의 현재 HP를 #1[i]% 소모하고, 카스토리스와 죽음의 용이 목표에게 연계 공격을 발동해 모든 적에게 카스토리스 HP 최대치의 #2[f1]%와 #3[f1]%만큼 양자 속성 피해를 가한다.\n현재 HP가 부족하면 HP를 최대 1pt까지 감소시킨다"
+      },
+      "params": [
+        [
+          0.4,
+          0.15,
+          0.25
+        ],
+        [
+          0.4,
+          0.165,
+          0.275
+        ],
+        [
+          0.4,
+          0.18,
+          0.3
+        ],
+        [
+          0.4,
+          0.195,
+          0.325
+        ],
+        [
+          0.4,
+          0.21,
+          0.35
+        ],
+        [
+          0.4,
+          0.225,
+          0.375
+        ],
+        [
+          0.4,
+          0.2437,
+          0.4062
+        ],
+        [
+          0.4,
+          0.2625,
+          0.4375
+        ],
+        [
+          0.4,
+          0.2812,
+          0.4688
+        ],
+        [
+          0.4,
+          0.3,
+          0.5
+        ],
+        [
+          0.4,
+          0.315,
+          0.525
+        ],
+        [
+          0.4,
+          0.33,
+          0.55
+        ],
+        [
+          0.4,
+          0.345,
+          0.575
+        ],
+        [
+          0.4,
+          0.36,
+          0.6
+        ],
+        [
+          0.4,
+          0.375,
+          0.625
+        ]
+      ]
+    },
+    {
+      "id": 1140701,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Garras Rompem o Véu",
+        "en": "Claw Splits the Veil",
+        "zh-CN": "擘裂冥茫的爪痕",
+        "ja": "冥茫裂く爪痕",
+        "ko": "어둠을 찢는 발톱"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[f1]% dos PV máximos de Castorice a todos os inimigos.",
+        "en": "Deals Quantum DMG equal to #1[f1]% of Castorice's Max HP to all enemies.",
+        "zh-CN": "对敌方全体造成等同于遐蝶#1[f1]%生命上限的量子属性伤害。",
+        "ja": "敵全体にキャストリスの最大HP#1[f1]%分の量子属性ダメージを与える。",
+        "ko": "모든 적에게 카스토리스 HP 최대치의 #1[f1]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.2
+        ],
+        [
+          0.24
+        ],
+        [
+          0.28
+        ],
+        [
+          0.32
+        ],
+        [
+          0.36
+        ],
+        [
+          0.4
+        ],
+        [
+          0.44
+        ],
+        [
+          0.48
+        ],
+        [
+          0.52
+        ],
+        [
+          0.56
+        ]
+      ]
+    },
+    {
+      "id": 1140702,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Sopro de Chama Negra",
+        "en": "Breath Scorches the Shadow",
+        "zh-CN": "燎尽黯泽的焰息",
+        "ja": "晦冥焼き払う息吹",
+        "ko": "암흑을 불태우는 화염의 숨결"
+      },
+      "description": {
+        "pt-BR": "Ativar \"Sopro de Chama Negra\" consumirá #1[i]% dos PV máximos do \"Dragão Abissal\" para causar Dano Quântico igual a #2[f1]% dos PV máximos de Castorice a todos os inimigos.\nEm um único ataque, \"Sopro de Chama Negra\" pode ser ativado repetidamente, com o multiplicador de Dano aumentando progressivamente para #3[f1]% / #4[f1]%. Após atingir #4[f1]%, não aumentará mais. O efeito de Bônus de multiplicador de Dano não será reduzido antes do desaparecimento do \"Dragão Abissal\".\nQuando os PV atuais do \"Dragão Abissal\" forem iguais ou inferiores a #5[i]% de seus PV máximos, ativar a habilidade reduzirá os PV para 1 e ativará um efeito equivalente ao do Talento \"Asas Sobre as Ruínas\".",
+        "en": "Launching \"Breath Scorches the Shadow\" will consume #1[i]% of Netherwing's Max HP to deal Quantum DMG equal to #2[f1]% of Castorice's Max HP to all enemies.\nIn one attack, \"Breath Scorches the Shadow\" can be launched repeatedly, with the DMG multiplier increased progressively to #3[f1]% / #4[f1]%. After reaching #4[f1]%, it will not increase further. The DMG Multiplier Boost effect will not decrease before Netherwing disappears.\nWhen Netherwing's current HP is equal to or less than #5[i]% of its Max HP, launching this ability will actively reduce HP down to 1, and then trigger the ability effect equal to that of the Talent \"Wings Sweep the Ruins.\"",
+        "zh-CN": "发动【燎尽黯泽的焰息】会消耗等同于死龙生命上限#1[i]%的生命值，对敌方全体造成等同于遐蝶#2[f1]%生命上限的量子属性伤害。\n一次攻击中可重复发动【燎尽黯泽的焰息】，重复发动时，伤害倍率依次提高至#3[f1]%/#4[f1]%，达到#4[f1]%后不再提高，伤害倍率提高效果在死龙消失前不会降低。\n死龙当前生命值小于等于自身生命上限#5[i]%时，发动该技能会主动将生命值降至1点后触发等同于天赋【灼掠幽墟的晦翼】的技能效果。",
+        "ja": "「晦冥焼き払う息吹」を発動すると、死竜の最大HP#1[i]%分のHPを消費し、敵全体にキャストリスの最大HP#2[f1]%分の量子属性ダメージを与える。\n1回の攻撃で「晦冥焼き払う息吹」を重複して発動することができ、その際、ダメージ倍率はそれぞれ#3[f1]%/#4[f1]%までアップする。すでに#4[f1]%までアップした場合、それ以上は上がらない。また、この効果により上昇したダメージ倍率は死竜が消えるまで下がらない。\n死竜の残りHPが自身の最大HPの#5[i]%以下の時にこのスキルを発動すると、HPが1になり、同時に精霊天賦「幽墟奪略の晦翼」と同じスキル効果が発動する。",
+        "ko": "[암흑을 불태우는 화염의 숨결]을 발동하면 죽음의 용의 HP를 HP 최대치의 #1[i]%만큼 소모하고, 모든 적에게 카스토리스 HP 최대치의 #2[f1]%만큼 양자 속성 피해를 가한다.\n1회의 공격 동안 [암흑을 불태우는 화염의 숨결]을 중복 발동할 수 있으며, 중복 발동 시 피해 배율이 순차대로 #3[f1]%/#4[f1]%로 증가하며, #4[f1]%에 도달하면 더 이상 증가하지 않는다. 피해 배율 증가 효과는 죽음의 용이 사라지기 전까지 감소하지 않는다.\n죽음의 용의 현재 HP가 자신의 HP 최대치의 #5[i]% 이하일 시 해당 스킬을 발동하면 HP가 1pt로 감소하고, 특성 [묘지를 불사르는 어둠의 날개]와 동일한 스킬 효과를 발동한다"
+      },
+      "params": [
+        [
+          0.25,
+          0.12,
+          0.14,
+          0.17,
+          0.25
+        ],
+        [
+          0.25,
+          0.144,
+          0.168,
+          0.204,
+          0.25
+        ],
+        [
+          0.25,
+          0.168,
+          0.196,
+          0.238,
+          0.25
+        ],
+        [
+          0.25,
+          0.192,
+          0.224,
+          0.272,
+          0.25
+        ],
+        [
+          0.25,
+          0.216,
+          0.252,
+          0.306,
+          0.25
+        ],
+        [
+          0.25,
+          0.24,
+          0.28,
+          0.34,
+          0.25
+        ],
+        [
+          0.25,
+          0.264,
+          0.308,
+          0.374,
+          0.25
+        ],
+        [
+          0.25,
+          0.288,
+          0.336,
+          0.408,
+          0.25
+        ],
+        [
+          0.25,
+          0.312,
+          0.364,
+          0.442,
+          0.25
+        ],
+        [
+          0.25,
+          0.336,
+          0.392,
+          0.476,
+          0.25
+        ]
+      ]
+    },
+    {
+      "id": 1140703,
+      "type": "Other",
+      "name": {
+        "pt-BR": "O Casulo Lunar Envolve a Forma",
+        "en": "Mooncocoon Shrouds the Form",
+        "zh-CN": "月茧荫蔽的身躯",
+        "ja": "月の繭が覆う身躯",
+        "ko": "달의 고치에 가려진 몸체"
+      },
+      "description": {
+        "pt-BR": "Quando o \"Dragão Abissal\" está no campo, ele fornece apoio aos aliados. Quando os aliados recebem Dano ou consomem PV, seus PV atuais podem ser reduzidos até um mínimo de 1, após o qual o \"Dragão Abissal\" assumirá a perda de PV. Porém, o \"Dragão Abissal\" consome PV equivalente a #1[i]% do valor original. Isso persiste até que o \"Dragão Abissal\" desapareça.",
+        "en": "When Netherwing is on the field, it acts as backup for allies. When allies take DMG or consume HP, their current HP can be reduced down to a minimum of 1, after which Netherwing will bear the HP loss. But Netherwing consumes HP equal to #1[i]% of the original value. This lasts until Netherwing disappears.",
+        "zh-CN": "死龙在场时为我方后援，我方受到伤害或消耗生命值时，当前生命值最多降至1点，此后由死龙承担，但死龙会消耗等同于原数值#1[i]%的生命值，持续至死龙消失。",
+        "ja": "死竜がフィールドにいる時、味方の後陣となる。味方がダメージを受けるまたはHPを消費する時、残りHPが1を下回ることはない。以降のダメージは死竜が負担するが、死竜が消えるまで、本来の数値の#1[i]%に相当するHPを消費する。",
+        "ko": "죽음의 용이 필드에 있을 시 아군을 후방 지원하며, 아군이 피해를 받거나 HP를 소모할 시 현재 HP가 최대 1pt까지 감소하고, 이후에는 죽음의 용이 대신 감당하나 죽음의 용이 기존 수치의 #1[i]%만큼 HP를 소모한다. 해당 효과는 죽음의 용이 사라질 때까지 지속된다"
+      },
+      "params": [
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ],
+        [
+          5
+        ]
+      ]
+    },
+    {
+      "id": 1140705,
+      "type": "Other",
+      "name": {
+        "pt-BR": "O Rugido Ecoa pelo Reino",
+        "en": "Roar Rumbles the Realm",
+        "zh-CN": "震彻寂壤的怒啸",
+        "ja": "静寂を揺るがす怒哮",
+        "ko": "적막한 땅을 뒤흔드는 포효"
+      },
+      "description": {
+        "pt-BR": "Quando o \"Dragão Abissal\" é invocado, aumenta o Dano causado por todos os aliados em #1[i]% por #2[i] rodada(s).",
+        "en": "When Netherwing is summoned, increases DMG dealt by all allies by #1[i]%, lasting for #2[i] turn(s).",
+        "zh-CN": "死龙被召唤时，我方全体造成的伤害提高#1[i]%，持续#2[i]回合。",
+        "ja": "死竜が召喚された時、味方全体の与ダメージ+#1[i]%、#2[i]ターン継続。",
+        "ko": "죽음의 용이 소환될 시, 모든 아군이 가하는 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ],
+        [
+          0.1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 1140706,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Asas Sobre as Ruínas",
+        "en": "Wings Sweep the Ruins",
+        "zh-CN": "灼掠幽墟的晦翼",
+        "ja": "幽墟奪略の晦翼",
+        "ko": "묘지를 불사르는 어둠의 날개"
+      },
+      "description": {
+        "pt-BR": "Quando o \"Dragão Abissal\" desaparece, causa #2[i] instância(s) de Dano, com cada uma causando Dano Quântico igual a #1[f1]% dos PV máximos de Castorice a uma unidade inimiga aleatória. Ao mesmo tempo, restaura PV em um valor igual a #3[i]% dos PV máximos de Castorice + #4[i] a todos os aliados.",
+        "en": "When Netherwing disappears, deals #2[i] instance(s) of DMG, with each instance dealing Quantum DMG equal to #1[f1]% of Castorice's Max HP to one random enemy. At the same time, restores HP by an amount equal to #3[i]% of Castorice's Max HP plus #4[i] for all allies.",
+        "zh-CN": "死龙消失时，造成#2[i]次伤害，每次伤害对敌方随机单体造成等同于遐蝶#1[f1]%生命上限的量子属性伤害，同时为我方全体回复等同于遐蝶#3[i]%生命上限+#4[i]点的生命值。",
+        "ja": "死竜が消える時、敵に#2[i]回ダメージを与える。1ヒットごとにランダムな敵単体にキャストリスの最大HP#1[f1]%分の量子属性ダメージを与える。同時に味方全体のHPをキャストリスの最大HP#3[i]%+#4[i]回復する。",
+        "ko": "죽음의 용이 사라질 시 피해를 #2[i]회 가하며, 피해당 랜덤 단일 적에게 카스토리스 HP 최대치의 #1[f1]%만큼 양자 속성 피해를 가하고, 모든 아군의 HP를 카스토리스 HP 최대치의 #3[i]%+#4[i]pt만큼 회복한다"
+      },
+      "params": [
+        [
+          0.2,
+          6,
+          0.03,
+          400
+        ],
+        [
+          0.24,
+          6,
+          0.036,
+          480
+        ],
+        [
+          0.28,
+          6,
+          0.042,
+          560
+        ],
+        [
+          0.32,
+          6,
+          0.048,
+          640
+        ],
+        [
+          0.36,
+          6,
+          0.054,
+          720
+        ],
+        [
+          0.4,
+          6,
+          0.06,
+          800
+        ],
+        [
+          0.44,
+          6,
+          0.066,
+          880
+        ],
+        [
+          0.48,
+          6,
+          0.072,
+          960
+        ],
+        [
+          0.52,
+          6,
+          0.078,
+          1040
+        ],
+        [
+          0.56,
+          6,
+          0.084,
+          1120
+        ]
+      ]
+    },
+    {
+      "id": 1140710,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Sopro de Chama Negra",
+        "en": "Breath Scorches the Shadow",
+        "zh-CN": "燎尽黯泽的焰息",
+        "ja": "晦冥焼き払う息吹",
+        "ko": "암흑을 불태우는 화염의 숨결"
+      },
+      "description": {
+        "pt-BR": "Consome PV desta unidade para causar Dano Quântico a todos os inimigos. Esta rodada não será concluída. Ao usar esta habilidade repetidamente, ela pode ser aprimorada até 3 vezes. Quando os PV forem menores ou iguais a #5[i]%, usar esta habilidade ativará o efeito da habilidade do Talento do Memoespírito \"Asas Sobre as Ruínas\".",
+        "en": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is #5[i]% or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "zh-CN": "消耗自身生命值，对敌方全体造成量子属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于#5[i]%时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+        "ja": "自身のHPを消費し、敵全体に量子属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが#5[i]%以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+        "ko": "자신의 HP를 소모하고 모든 적에게 양자 속성 피해를 가하며, 이번 턴은 종료되지 않는다. 스킬 중복 발동 시 스킬은 최대 3회 강화된다. HP가 #5[i]% 이하일 시 해당 스킬을 발동하면 기억 정령 특성 [묘지를 불사르는 어둠의 날개]의 스킬 효과를 직접 발동한다"
+      },
+      "params": [
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ]
+      ]
+    },
+    {
+      "id": 1140711,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Sopro de Chama Negra",
+        "en": "Breath Scorches the Shadow",
+        "zh-CN": "燎尽黯泽的焰息",
+        "ja": "晦冥焼き払う息吹",
+        "ko": "암흑을 불태우는 화염의 숨결"
+      },
+      "description": {
+        "pt-BR": "Consome PV desta unidade para causar Dano Quântico a todos os inimigos. Esta rodada não será concluída. Ao usar esta habilidade repetidamente, ela pode ser aprimorada até 3 vezes. Quando os PV forem menores ou iguais a #5[i]%, usar esta habilidade ativará o efeito da habilidade do Talento do Memoespírito \"Asas Sobre as Ruínas\".",
+        "en": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is #5[i]% or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "zh-CN": "消耗自身生命值，对敌方全体造成量子属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于#5[i]%时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+        "ja": "自身のHPを消費し、敵全体に量子属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが#5[i]%以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+        "ko": "자신의 HP를 소모하고 모든 적에게 양자 속성 피해를 가하며, 이번 턴은 종료되지 않는다. 스킬 중복 발동 시 스킬은 최대 3회 강화된다. HP가 #5[i]% 이하일 시 해당 스킬을 발동하면 기억 정령 특성 [묘지를 불사르는 어둠의 날개]의 스킬 효과를 직접 발동한다"
+      },
+      "params": [
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ]
+      ]
+    },
+    {
+      "id": 1140712,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Asas Sobre as Ruínas",
+        "en": "Wings Sweep the Ruins",
+        "zh-CN": "灼掠幽墟的晦翼",
+        "ja": "幽墟奪略の晦翼",
+        "ko": "묘지를 불사르는 어둠의 날개"
+      },
+      "description": {
+        "pt-BR": "Consome todos os PV e causa #2[i] instância(s) de Dano, com cada uma causando Dano Quântico igual a #1[f1]% dos PV máximos de Castorice a uma unidade inimiga aleatória. Ao mesmo tempo, restaura PV em um valor igual a #3[i]% dos PV máximos de Castorice + #4[i] a todos os aliados.",
+        "en": "Consumes all HP and deals #2[i] instance(s) of DMG, with each instance dealing Quantum DMG equal to #1[f1]% of Castorice's Max HP to one random enemy. At the same time, restores HP by an amount equal to #3[i]% of Castorice's Max HP plus #4[i] for all allies.",
+        "zh-CN": "消耗全部生命，造成#2[i]次伤害，每次伤害对敌方随机单体造成等同于遐蝶#1[f1]%生命上限的量子属性伤害，同时为我方全体回复等同于遐蝶#3[i]%生命上限+#4[i]点的生命值。",
+        "ja": "HPをすべて消費し、敵に#2[i]回ダメージを与える。1ヒットごとにランダムな敵単体にキャストリスの最大HPの#1[f1]%分の量子属性ダメージを与える。同時に味方全体のHPをキャストリスの最大HP#3[i]%+#4[i]回復する。",
+        "ko": "모든 HP를 소모하고 피해를 #2[i]회 가하며, 피해당 랜덤 단일 적에게 카스토리스 HP 최대치의 #1[f1]%만큼 양자 속성 피해를 가하고, 모든 아군의 HP를 카스토리스 HP 최대치의 #3[i]%+#4[i]pt만큼 회복한다"
+      },
+      "params": [
+        [
+          0.2,
+          6,
+          0.03,
+          400
+        ],
+        [
+          0.24,
+          6,
+          0.036,
+          480
+        ],
+        [
+          0.28,
+          6,
+          0.042,
+          560
+        ],
+        [
+          0.32,
+          6,
+          0.048,
+          640
+        ],
+        [
+          0.36,
+          6,
+          0.054,
+          720
+        ],
+        [
+          0.4,
+          6,
+          0.06,
+          800
+        ],
+        [
+          0.44,
+          6,
+          0.066,
+          880
+        ],
+        [
+          0.48,
+          6,
+          0.072,
+          960
+        ],
+        [
+          0.52,
+          6,
+          0.078,
+          1040
+        ],
+        [
+          0.56,
+          6,
+          0.084,
+          1120
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Memórias Sepultadas da Donzela da Terra da Neve",
+        "en": "Snowbound Maiden, Memory to Tomb",
+        "zh-CN": "雪地的圣女，付记忆入殓",
+        "ja": "{RUBY_B#ゆきじ}雪地{RUBY_E#}の{RUBY_B#せいじょ}聖女{RUBY_E#}、\n{RUBY_B#きおく}記憶{RUBY_E#}を{RUBY_B#ひつぎ}棺{RUBY_E#}に{RUBY_B#と}閉{RUBY_E#}じ{RUBY_B#こ}込{RUBY_E#}めて",
+        "ko": "기억을 대가로 납관하는 설원의 성녀"
+      },
+      "description": {
+        "pt-BR": "Quando os PV atuais do inimigo-alvo forem iguais ou inferiores a 80%/50% dos PV máximos, o Dano causado por \"Garraespectral do Dragão da Perdição\", \"Garras Rompem o Véu\", \"Sopro de Chama Negra\" e \"Asas Sobre as Ruínas\" será igual a 120%/140% do Dano original, respectivamente.",
+        "en": "When the enemy target's current HP is 80%/50% of Max HP or lower, the DMG dealt to it by \"Boneclaw, Doomdrake's Embrace,\" \"Claw Splits the Veil,\" \"Breath Scorches the Shadow,\" and \"Wings Sweep the Ruins\" is 120%/140% of the original DMG respectively.",
+        "zh-CN": "敌方目标当前生命值小于等于自身生命上限80%/50%时，【骸爪，冥龙之环拥】、【擘裂冥茫的爪痕】、【燎尽黯泽的焰息】、【灼掠幽墟的晦翼】对其造成的伤害为原伤害的120%/140%。",
+        "ja": "敵の残りHPが最大HP80%/50%以下の時、その敵に対する「骸爪、冥竜の抱擁」、「冥茫裂く爪痕」、「晦冥焼き払う息吹」、「幽墟奪略の晦翼」の与ダメージは本来の120%/140%になる。",
+        "ko": "적의 현재 HP가 자신의 HP 최대치의 80%/50% 이하일 시, [뼈의 발톱, 저승 용의 포옹], [어둠을 찢는 발톱], [암흑을 불태우는 화염의 숨결], [묘지를 불사르는 어둠의 날개]가 대상에게 가하는 피해가 기존 피해의 120%/140%가 된다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Coroa nas Asas do Desabrochar",
+        "en": "Crown on Wings of Bloom",
+        "zh-CN": "以扑翼繁花加冕",
+        "ja": "{RUBY_B#よくし}翼翅{RUBY_E#}と{RUBY_B#はな}花{RUBY_E#}の{RUBY_B#かんむり}冠{RUBY_E#}を{RUBY_B#いただ}戴{RUBY_E#}く",
+        "ko": "날갯짓하는 꽃으로 왕관을 씌우리"
+      },
+      "description": {
+        "pt-BR": "Após conjurar o Memoespírito \"Dragão Abissal\", Castorice recebe 2 acúmulo(s) de \"Determinação Ardente\". \"Determinação Ardente\" pode acumular até 2 vez(es) e pode ser usada para compensar o custo de PV da Perícia do Memoespírito do \"Dragão Abissal\", \"Sopro de Chama Negra\", além de Avançar Adiante a ação de Castorice em 100%. Ao usar a próxima Perícia Aprimorada, Castorice ganha \"Brotar\" em uma quantidade equivalente a 30% do \"Brotar\" máximo.",
+        "en": "After summoning the memosprite Netherwing, Castorice gains 2 stack(s) of \"Ardent Will.\" \"Ardent Will\" can stack up to 2 time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, \"Breath Scorches the Shadow\" and advance Castorice's action by 100%. When using the next Enhanced Skill, Castorice gains \"Newbud\" by an amount equal to 30% of max \"Newbud.\"",
+        "zh-CN": "召唤忆灵死龙后，遐蝶获得2层【炽意】，【炽意】最多持有2层，可用来抵扣死龙忆灵技【燎尽黯泽的焰息】的生命值消耗，并使遐蝶行动提前100%，下一次施放强化战技遐蝶获得等同于【新蕊】上限30%点数的【新蕊】。",
+        "ja": "記憶の精霊「死竜」を召喚した後、キャストリスは「熾意」を2層獲得する。「熾意」は最大で2層累積でき、死竜の精霊スキル「晦冥焼き払う息吹」が消費するHPの代わりとして消費できる。さらにキャストリスの行動順が100%早まり、次の強化戦闘スキル発動後、キャストリスは「新蕾」の上限30%分の「新蕾」を獲得する。",
+        "ko": "기억 정령 죽음의 용을 소환한 후, 카스토리스는 [타오르는 의지]를 2스택 획득한다. [타오르는 의지]는 최대 2스택 보유할 수 있으며, 죽음의 용 기억 정령 스킬 [암흑을 불태우는 화염의 숨결]의 HP 소모를 대체할 수 있다. 또한, 카스토리스의 행동 게이지가 100% 증가하며, 다음번 강화된 전투 스킬 발동 시 카스토리스가 [새로운 꽃술] 최대치의 30%만큼 [새로운 꽃술] 포인트를 획득한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Dança da Peregrina no Reino da Morte",
+        "en": "Pious Pilgrim, Dance in Doom",
+        "zh-CN": "虔敬的旅人，于死境翩跹",
+        "ja": "{RUBY_B#けいけん}敬虔{RUBY_E#}な{RUBY_B#たびびと}旅人{RUBY_E#}、\n{RUBY_B#しきょう}死境{RUBY_E#}で{RUBY_B#かろ}軽{RUBY_E#}やかに{RUBY_B#ま}舞{RUBY_E#}って",
+        "ko": "사경에서 춤추는 경건한 나그네"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.\nNv. do Talento do Memoespírito +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊天賦のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 기억 정령 특성 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Descanso nas Melodias da Melancolia",
+        "en": "Rest in Songs of Gloom",
+        "zh-CN": "拥悲怜哀歌安眠",
+        "ja": "{RUBY_B#あいか}哀歌{RUBY_E#}を{RUBY_B#いだ}抱{RUBY_E#}く\n{RUBY_B#やす}安{RUBY_E#}らかな{RUBY_B#ねむ}眠{RUBY_E#}り",
+        "ko": "슬픔을 안고 애가 속에 잠드니"
+      },
+      "description": {
+        "pt-BR": "Enquanto Castorice estiver em campo, a Cura Recebida de todos os aliados durante a restauração de PV aumenta em 20%.",
+        "en": "While Castorice is on the field, all allies' HP restored when receiving healing increases by 20%.",
+        "zh-CN": "遐蝶在场时，我方全体受到治疗时的回复量提高20%。",
+        "ja": "キャストリスがフィールドにいる時、味方全体が治癒を受けた場合、回復量+20%。",
+        "ko": "카스토리스가 필드에 있을 시, 모든 아군이 치유를 받을 시의 회복량이 20% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Páginas Imaculadas, a Profecia como uma Pluma",
+        "en": "Pristine Pages, Prophecy as Plume",
+        "zh-CN": "素白的新篇，以预言装点",
+        "ja": "{RUBY_B#じゅんぱく}純白{RUBY_E#}の{RUBY_B#しんぺん}新編{RUBY_E#}、\n{RUBY_B#よげん}預言{RUBY_E#}で{RUBY_B#いろど}彩{RUBY_E#}られて",
+        "ko": "예언으로 장식한 순백의 새로운 장"
+      },
+      "description": {
+        "pt-BR": "Nv. de Perícia +2, até no máximo Nv. 15.\nNv. de Talento +2, até no máximo Nv. 15.\nNv. da Perícia do Memoespírito +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊スキルのLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 기억 정령 스킬 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "O Desabrochar para Além do Casulo",
+        "en": "Await for Years to Loom",
+        "zh-CN": "待流年奔涌破茧",
+        "ja": "{RUBY_B#りゅうねん}流年{RUBY_E#}を{RUBY_B#ま}待{RUBY_E#}ち{RUBY_B#まゆ}繭{RUBY_E#}を{RUBY_B#やぶ}破{RUBY_E#}る",
+        "ko": "세월이 고치를 깨길 기다리네"
+      },
+      "description": {
+        "pt-BR": "Quando Castorice ou \"Dragão Abissal\" causa Dano, aumenta a PEN de RES a Quântico em 20%. Durante os ataques do \"Dragão Abissal\", pode reduzir a Tenacidade do inimigo independentemente dos Tipos de Fraqueza. Ao realizar uma Quebra de Fraqueza, ativa o efeito de Fraqueza contra Quântico. Além disso, o número de Rebotes do Talento do \"Dragão Abissal\", \"Asas Sobre as Ruínas\", aumenta em 3.",
+        "en": "When Castorice or Netherwing deals DMG, increases Quantum RES PEN by 20%. During Netherwing's attacks, can reduce enemy Toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Quantum Weakness Break effect. And the number of Bounces for Netherwing's Talent \"Wings Sweep the Ruins\" additionally increases by 3.",
+        "zh-CN": "遐蝶与死龙造成伤害时，量子属性抗性穿透提高20%。死龙攻击期间可以无视弱点属性削减敌方韧性，击破弱点时，触发量子属性的弱点击破效果，触发天赋【灼掠幽墟的晦翼】的弹射次数额外增加3次。",
+        "ja": "キャストリスと死竜がダメージを与える時、量子属性耐性貫通+20%。死竜は攻撃時、弱点属性を無視して敵の靭性を削ることができる。敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。また、精霊天賦「幽墟奪略の晦翼」のバウンド回数+3。",
+        "ko": "카스토리스와 죽음의 용이 피해를 가할 시 양자 속성 저항 관통이 20% 증가한다. 죽음의 용은 공격 중에 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 약점 격파 시 양자 속성의 약점 격파 효과를 발동하고, 특성 [묘지를 불사르는 어둠의 날개]의 바운스 발동 횟수가 추가로 3회 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1407.png",
+    "preview": "image/character_preview/1407.png",
+    "portrait": "image/character_portrait/1407.png"
+  }
+}

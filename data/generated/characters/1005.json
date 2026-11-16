@@ -1,0 +1,989 @@
+{
+  "id": 1005,
+  "slug": "kafka",
+  "name": {
+    "pt-BR": "Kafka",
+    "en": "Kafka",
+    "zh-CN": "卡芙卡",
+    "ja": "カフカ",
+    "ko": "카프카"
+  },
+  "rarity": 5,
+  "path": "Nihility",
+  "element": "Lightning",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 100501,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Tumulto da Meia-noite",
+        "en": "Midnight Tumult",
+        "zh-CN": "夜间喧嚣不止",
+        "ja": "止まない夜の喧騒",
+        "ko": "소란스러운 밤"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Kafka a um único inimigo.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to a one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于卡芙卡#1[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体にカフカの攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 100502,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Luar Carinhoso",
+        "en": "Caressing Moonlight",
+        "zh-CN": "月光摩挲连绵",
+        "ja": "月明かりが撫でる連綿",
+        "ko": "달빛의 어루만짐"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% do ATQ de Kafka como Dano de Raio a um inimigo-alvo e #3[i]% do ATQ de Kafka como Dano de Raio aos inimigos adjacentes a ele.\nSe o inimigo-alvo estiver recebendo Dano Contínuo, todos os Danos Contínuos sobre aquele inimigo causarão imediatamente Dano de #2[i]% do seu Dano original.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to a target enemy and Lightning DMG equal to #3[i]% of Kafka's ATK to enemies adjacent to it.\nIf the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to #2[i]% of their original DMG.",
+        "zh-CN": "对指定敌方单体造成等同于卡芙卡#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于卡芙卡#3[i]%攻击力的雷属性伤害。\n若指定敌方单体处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害#2[i]%的伤害。",
+        "ja": "指定した敵単体にカフカの攻撃力#1[i]%分の雷属性ダメージを与え、隣接する敵にカフカの攻撃力#3[i]%分の雷属性ダメージを与える。\n指定した敵が持続ダメージ系デバフである場合、付与された全持続ダメージ系デバフが、本来のダメージ#2[i]%分のダメージを発生する。",
+        "ko": "지정된 단일 적에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 인접한 목표에게 카프카 공격력의 #3[i]%만큼 번개 속성 피해를 가한다.\n지정된 단일 적이 지속 피해 상태인 경우, 현재 해당 적이 받는 모든 지속 피해는 즉시 기존 피해 #2[i]%만큼의 피해를 생성한다"
+      },
+      "params": [
+        [
+          0.8,
+          0.6,
+          0.3
+        ],
+        [
+          0.88,
+          0.615,
+          0.33
+        ],
+        [
+          0.96,
+          0.63,
+          0.36
+        ],
+        [
+          1.04,
+          0.645,
+          0.39
+        ],
+        [
+          1.12,
+          0.66,
+          0.42
+        ],
+        [
+          1.2,
+          0.675,
+          0.45
+        ],
+        [
+          1.3,
+          0.6937,
+          0.4875
+        ],
+        [
+          1.4,
+          0.7125,
+          0.525
+        ],
+        [
+          1.5,
+          0.7312,
+          0.5625
+        ],
+        [
+          1.6,
+          0.75,
+          0.6
+        ],
+        [
+          1.68,
+          0.765,
+          0.63
+        ],
+        [
+          1.76,
+          0.78,
+          0.66
+        ],
+        [
+          1.84,
+          0.795,
+          0.69
+        ],
+        [
+          1.92,
+          0.81,
+          0.72
+        ],
+        [
+          2,
+          0.825,
+          0.75
+        ]
+      ]
+    },
+    {
+      "id": 100503,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Vibração do Crepúsculo",
+        "en": "Twilight Trill",
+        "zh-CN": "悲剧尽头的颤音",
+        "ja": "悲劇最果ての顫音",
+        "ko": "비극 끝의 떨리는 소리"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% do ATQ de Kafka como Dano de Raio a todos os inimigos. Há #2[i]% de chance-base de os inimigos atingidos serem afligidos com Choque e imediatamente receberem Dano do estado de Choque atual igual a #5[i]% do Dano original. Choque dura #3[i] rodada(s).\nEnquanto em Choque, inimigos recebem #4[i]% do ATQ de Kafka como Dano de Raio Contínuo no início de cada rodada.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to all enemies, with a #2[i]% base chance for enemies hit to become Shocked and immediately take DMG from their current Shock state, equal to #5[i]% of its original DMG. Shock lasts for #3[i] turn(s).\nWhile Shocked, enemies receive Lightning DoT equal to #4[i]% of Kafka's ATK at the beginning of each turn.",
+        "zh-CN": "对敌方全体造成等同于卡芙卡#1[i]%攻击力的雷属性伤害，有#2[i]%的基础概率使受到攻击的敌方目标陷入触电状态，并使其当前承受的触电状态立即产生相当于原伤害#5[i]%的伤害。触电状态持续#3[i]回合。\n触电状态下，敌方目标每回合开始时受到等同于卡芙卡#4[i]%攻击力的雷属性持续伤害。",
+        "ja": "敵全体にカフカの攻撃力#1[i]%分の雷属性ダメージを与え、#2[i]%の基礎確率で攻撃を受けた敵を感電状態にし、付与された感電状態が本来のダメージ#5[i]%分のダメージを発生する。感電状態は#3[i]ターン継続。\n感電状態の敵はターンが回ってくるたびに、カフカの攻撃力#4[i]%分の雷属性持続ダメージを受ける。",
+        "ko": "모든 적에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 피격된 적을 #2[i]%의 기본 확률로 감전 상태에 빠트리며, 현재 대상이 받는 감전 상태는 즉시 기존 피해 #5[i]%만큼의 피해를 생성한다. 감전 상태 지속 시간: #3[i]턴\n감전 상태인 적은 턴이 시작될 때마다 카프카 공격력의 #4[i]%만큼 번개 속성 지속 피해를 받는다"
+      },
+      "params": [
+        [
+          0.48,
+          1,
+          2,
+          1.16,
+          0.8
+        ],
+        [
+          0.512,
+          1,
+          2,
+          1.2688,
+          0.82
+        ],
+        [
+          0.544,
+          1,
+          2,
+          1.3775,
+          0.84
+        ],
+        [
+          0.576,
+          1,
+          2,
+          1.4863,
+          0.86
+        ],
+        [
+          0.608,
+          1,
+          2,
+          1.595,
+          0.88
+        ],
+        [
+          0.64,
+          1,
+          2,
+          1.7581,
+          0.9
+        ],
+        [
+          0.68,
+          1,
+          2,
+          1.9756,
+          0.925
+        ],
+        [
+          0.72,
+          1,
+          2,
+          2.2475,
+          0.95
+        ],
+        [
+          0.76,
+          1,
+          2,
+          2.5737,
+          0.975
+        ],
+        [
+          0.8,
+          1,
+          2,
+          2.9,
+          1
+        ],
+        [
+          0.832,
+          1,
+          2,
+          3.0414,
+          1.02
+        ],
+        [
+          0.864,
+          1,
+          2,
+          3.1827,
+          1.04
+        ],
+        [
+          0.896,
+          1,
+          2,
+          3.3241,
+          1.06
+        ],
+        [
+          0.928,
+          1,
+          2,
+          3.4655,
+          1.08
+        ],
+        [
+          0.96,
+          1,
+          2,
+          3.6069,
+          1.1
+        ]
+      ]
+    },
+    {
+      "id": 100504,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Gentil, Mas Cruel",
+        "en": "Gentle but Cruel",
+        "zh-CN": "温柔亦同残酷",
+        "ja": "優しさもまた残酷",
+        "ko": "상냥함이 곧 잔혹함"
+      },
+      "description": {
+        "pt-BR": "Após um aliado de Kafka usar um ATQ Básico em um inimigo-alvo, Kafka realiza imediatamente 1 Ataque Extra e causa Dano de Raio igual a #1[i]% do seu ATQ ao alvo, com #2[i]% de chance-base de infligir Choque equivalente àquele aplicado pela Perícia Suprema dela ao inimigo-alvo atacado, durando por #3[i] rodadas. Este efeito só pode ser ativado 1 vez por rodada.",
+        "en": "After Kafka's teammate uses Basic ATK on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to #1[i]% of her ATK to that target, with a #2[i]% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target, lasting for #3[i] turns. This effect can only be triggered 1 time per turn.",
+        "zh-CN": "当卡芙卡的队友对敌方目标施放普攻后，卡芙卡立即发动追加攻击，对该目标造成等同于卡芙卡#1[i]%攻击力的雷属性伤害，并有#2[i]%的基础概率使受到攻击的敌方目标陷入与终结技相同的触电状态，持续#3[i]回合，该效果每回合只能触发1次。",
+        "ja": "カフカ以外の味方が敵に通常攻撃を行った後、カフカは追加攻撃を行い、その敵にカフカの攻撃力#1[i]%分の雷属性ダメージを与え、#2[i]%の基礎確率で攻撃を受けた敵を必殺技が与えるものと同じ感電状態にする、#3[i]ターン継続。この効果はターンが回って来るたびに1回まで発動できる。",
+        "ko": "카프카의 동료가 적에게 일반 공격을 발동하면 카프카는 즉시 추가 공격을 발동하고 해당 목표에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, #2[i]%의 기본 확률로 피격된 적을 필살기와 동일한 감전 상태에 빠트린다, 지속 시간: #3[i]턴. 해당 효과는 턴마다 1회만 발동한다"
+      },
+      "params": [
+        [
+          0.42,
+          1,
+          2
+        ],
+        [
+          0.518,
+          1,
+          2
+        ],
+        [
+          0.616,
+          1,
+          2
+        ],
+        [
+          0.714,
+          1,
+          2
+        ],
+        [
+          0.812,
+          1,
+          2
+        ],
+        [
+          0.91,
+          1,
+          2
+        ],
+        [
+          1.0325,
+          1,
+          2
+        ],
+        [
+          1.155,
+          1,
+          2
+        ],
+        [
+          1.2775,
+          1,
+          2
+        ],
+        [
+          1.4,
+          1,
+          2
+        ],
+        [
+          1.498,
+          1,
+          2
+        ],
+        [
+          1.596,
+          1,
+          2
+        ],
+        [
+          1.694,
+          1,
+          2
+        ],
+        [
+          1.792,
+          1,
+          2
+        ],
+        [
+          1.89,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 100506,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 100507,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Misericórdia Não É Perdão",
+        "en": "Mercy Is Not Forgiveness",
+        "zh-CN": "宽恕无关慈悲",
+        "ja": "許しは慈悲に非ず",
+        "ko": "자비와 무관한 용서"
+      },
+      "description": {
+        "pt-BR": "Ataca imediatamente todos os inimigos dentro de um alcance específico. Depois de entrar em batalha, causa Dano de Raio igual a #3[i]% do ATQ de Kafka a todos os inimigos, com uma chance-base de #1[i]% de infligir Choque equivalente àquele aplicado pela Perícia Suprema dela a todos os inimigos-alvo por #2[i] rodada(s).",
+        "en": "Immediately attacks all enemies within a set range. After entering battle, deals Lightning DMG equal to #3[i]% of Kafka's ATK to all enemies, with a #1[i]% base chance to inflict Shock equivalent to that applied by her Ultimate on every enemy target for #2[i] turn(s).",
+        "zh-CN": "立即攻击一定范围内的所有敌人，进入战斗后对敌方全体造成等同于卡芙卡#3[i]%攻击力的雷属性伤害，同时有#1[i]%的基础概率使敌方每个单体目标陷入与终结技相同的触电状态，持续#2[i]回合。",
+        "ja": "一定範囲内のすべての敵を攻撃。戦闘に入った後、敵全体にカフカの攻撃力#3[i]%分の雷属性ダメージを与え、#1[i]%の基礎確率で敵単体それぞれを、必殺技が与えるものと同じ感電状態にする、#2[i]ターン継続。",
+        "ko": "일정 범위 내 모든 적을 즉시 공격하며, 전투 진입 후 모든 적에게 카프카 공격력의 #3[i]%만큼 번개 속성 피해를 가하고, #1[i]%의 기본 확률로 각 단일 적을 필살기와 동일한 감전 상태에 빠트린다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          1,
+          2,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": 1100501,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Tumulto da Meia-noite",
+        "en": "Midnight Tumult",
+        "zh-CN": "夜间喧嚣不止",
+        "ja": "止まない夜の喧騒",
+        "ko": "소란스러운 밤"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Kafka a um inimigo designado.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于卡芙卡#1[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体にカフカの攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 1100502,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Luar Carinhoso",
+        "en": "Caressing Moonlight",
+        "zh-CN": "月光摩挲连绵",
+        "ja": "月明かりが撫でる連綿",
+        "ko": "달빛의 어루만짐"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Kafka a um inimigo designado e Dano de Raio igual a #3[i]% do ATQ de Kafka a alvos adjacentes.\nSe o inimigo designado ou os alvos adjacentes estiverem atualmente afetados por Dano Contínuo, todos os Danos Contínuos aplicados a esses inimigos causarão imediatamente Dano igual a #2[i]% ou #4[i]% do Dano original.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to one designated enemy and Lightning DMG equal to #3[i]% of Kafka's ATK to adjacent targets.\nIf the designated enemy or the adjacent targets are currently afflicted with DoT, all DoTs currently placed on those enemies immediately produces DMG equal to #2[i]% or #4[i]% of the original DMG.",
+        "zh-CN": "对指定敌方单体造成等同于卡芙卡#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于卡芙卡#3[i]%攻击力的雷属性伤害。\n若指定敌方单体或相邻目标处于持续伤害状态，其当前承受的所有持续伤害立即产生相当于原伤害#2[i]%或#4[i]%的伤害。",
+        "ja": "指定した敵単体にカフカの攻撃力#1[i]%分の雷属性ダメージを与え、隣接する敵にカフカの攻撃力#3[i]%分の雷属性ダメージを与える。\n指定した敵単体または隣接する敵が持続ダメージ系デバフ状態である場合、付与された全持続ダメージ系デバフが、即座に本来のダメージ#2[i]%分または#4[i]%分のダメージを発生させる。",
+        "ko": "지정된 단일 적에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 인접한 목표에게 카프카 공격력의 #3[i]%만큼 번개 속성 피해를 가한다.\n지정된 단일 적 또는 인접한 목표가 지속 피해 상태인 경우, 현재 대상이 받는 모든 지속 피해는 즉시 기존 피해의 #2[i]%/#4[i]%만큼 피해를 생성한다"
+      },
+      "params": [
+        [
+          0.8,
+          0.6,
+          0.3,
+          0.4
+        ],
+        [
+          0.88,
+          0.615,
+          0.33,
+          0.41
+        ],
+        [
+          0.96,
+          0.63,
+          0.36,
+          0.42
+        ],
+        [
+          1.04,
+          0.645,
+          0.39,
+          0.43
+        ],
+        [
+          1.12,
+          0.66,
+          0.42,
+          0.44
+        ],
+        [
+          1.2,
+          0.675,
+          0.45,
+          0.45
+        ],
+        [
+          1.3,
+          0.6937,
+          0.4875,
+          0.4625
+        ],
+        [
+          1.4,
+          0.7125,
+          0.525,
+          0.475
+        ],
+        [
+          1.5,
+          0.7312,
+          0.5625,
+          0.4875
+        ],
+        [
+          1.6,
+          0.75,
+          0.6,
+          0.5
+        ],
+        [
+          1.68,
+          0.765,
+          0.63,
+          0.51
+        ],
+        [
+          1.76,
+          0.78,
+          0.66,
+          0.52
+        ],
+        [
+          1.84,
+          0.795,
+          0.69,
+          0.53
+        ],
+        [
+          1.92,
+          0.81,
+          0.72,
+          0.54
+        ],
+        [
+          2,
+          0.825,
+          0.75,
+          0.55
+        ]
+      ]
+    },
+    {
+      "id": 1100503,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Vibração do Crepúsculo",
+        "en": "Twilight Trill",
+        "zh-CN": "悲剧尽头的颤音",
+        "ja": "悲劇最果ての顫音",
+        "ko": "비극 끝의 떨리는 소리"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% do ATQ de Kafka como Dano de Raio a todos os inimigos. Há #2[i]% de chance-base dos inimigos-alvo atingidos serem afligidos com \"Choque\" e imediatamente sofrerem Dano de todas as penalidades de Dano Contínuo atuais igual a #5[i]% do Dano original. \"Choque\" dura #3[i] rodada(s).\nEnquanto em \"Choque\", inimigos-alvo recebem #4[i]% do ATQ de Kafka como Dano de Raio Contínuo no início de cada rodada.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Kafka's ATK to all enemies, with a #2[i]% base chance for enemy targets hit to become Shocked and immediately take DMG from their current DoT debuff(s), equal to #5[i]% of the original DMG. Shock lasts for #3[i] turn(s).\nWhile Shocked, enemy targets receive Lightning DoT equal to #4[i]% of Kafka's ATK at the beginning of each turn.",
+        "zh-CN": "对敌方全体造成等同于卡芙卡#1[i]%攻击力的雷属性伤害，有#2[i]%的基础概率使受到攻击的敌方目标陷入触电状态，并使其当前承受的持续伤害类负面状态立即产生相当于原伤害#5[i]%的伤害。触电状态持续#3[i]回合。\n触电状态下，敌方目标每回合开始时受到等同于卡芙卡#4[i]%攻击力的雷属性持续伤害。",
+        "ja": "敵全体にカフカの攻撃力#1[i]%分の雷属性ダメージを与え、#2[i]%の基礎確率で攻撃を受けた敵を感電状態にし、付与された持続ダメージ系デバフが即座に本来のダメージ#5[i]%分のダメージを発生させる。感電状態は#3[i]ターン継続。\n感電状態の敵はターンが回ってくるたびに、カフカの攻撃力#4[i]%分の雷属性持続ダメージを受ける。",
+        "ko": "모든 적에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 피격된 적을 #2[i]%의 기본 확률로 감전 상태에 빠트리며, 현재 대상이 받는 지속 피해류 디버프 상태는 즉시 기존 피해의 #5[i]%만큼 피해를 생성한다. 감전 상태 지속 시간: #3[i]턴\n감전 상태인 적은 턴이 시작될 때마다 카프카 공격력의 #4[i]%만큼 번개 속성 지속 피해를 받는다"
+      },
+      "params": [
+        [
+          0.48,
+          1,
+          2,
+          1.16,
+          1
+        ],
+        [
+          0.512,
+          1,
+          2,
+          1.2688,
+          1.02
+        ],
+        [
+          0.544,
+          1,
+          2,
+          1.3775,
+          1.04
+        ],
+        [
+          0.576,
+          1,
+          2,
+          1.4863,
+          1.06
+        ],
+        [
+          0.608,
+          1,
+          2,
+          1.595,
+          1.08
+        ],
+        [
+          0.64,
+          1,
+          2,
+          1.7581,
+          1.1
+        ],
+        [
+          0.68,
+          1,
+          2,
+          1.9756,
+          1.125
+        ],
+        [
+          0.72,
+          1,
+          2,
+          2.2475,
+          1.15
+        ],
+        [
+          0.76,
+          1,
+          2,
+          2.5737,
+          1.175
+        ],
+        [
+          0.8,
+          1,
+          2,
+          2.9,
+          1.2
+        ],
+        [
+          0.832,
+          1,
+          2,
+          3.0414,
+          1.22
+        ],
+        [
+          0.864,
+          1,
+          2,
+          3.1827,
+          1.24
+        ],
+        [
+          0.896,
+          1,
+          2,
+          3.3241,
+          1.26
+        ],
+        [
+          0.928,
+          1,
+          2,
+          3.4655,
+          1.28
+        ],
+        [
+          0.96,
+          1,
+          2,
+          3.6069,
+          1.3
+        ]
+      ]
+    },
+    {
+      "id": 1100504,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Gentil, Mas Cruel",
+        "en": "Gentle but Cruel",
+        "zh-CN": "温柔亦同残酷",
+        "ja": "優しさもまた残酷",
+        "ko": "상냥함이 곧 잔혹함"
+      },
+      "description": {
+        "pt-BR": "Após um aliado de Kafka usar um ataque contra um inimigo-alvo, Kafka realiza imediatamente um Ataque Extra e causa Dano de Raio igual a #1[i]% do ATQ de Kafka no alvo principal, com uma chance-base de #2[i]% para infligir \"Choque\" (equivalente ao aplicado por sua Perícia Suprema) no inimigo-alvo atacado por #3[i] rodadas. Este efeito pode ser ativado até #5[i] vez(es), com #4[i] uso(s) recuperado(s) ao final da rodada de Kafka.",
+        "en": "After Kafka's teammate uses an attack on an enemy target, Kafka immediately launches Follow-Up ATK and deals Lightning DMG equal to #1[i]% of Kafka's ATK to the primary target, with a #2[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on the attacked enemy target for #3[i] turns. This effect can trigger up to #5[i] time(s), #4[i] of which can be regained at the end of Kafka's turn.",
+        "zh-CN": "当卡芙卡的队友对敌方目标施放攻击后，卡芙卡立即发动追加攻击，对主目标造成等同于卡芙卡#1[i]%攻击力的雷属性伤害，并有#2[i]%的基础概率使受到攻击的敌方目标陷入与终结技相同的触电状态，持续#3[i]回合。该效果最多可触发#5[i]次，卡芙卡回合结束时恢复#4[i]次。",
+        "ja": "カフカ以外の味方が敵に攻撃を行った後、カフカは即座に追加攻撃を行い、メインターゲットにカフカの攻撃力#1[i]%分の雷属性ダメージを与え、#2[i]%の基礎確率で攻撃を受けた敵を必殺技が与えるものと同じ感電状態にする、#3[i]ターン継続。この効果は最大#5[i]回まで発動でき、カフカのターン終了時、発動可能回数が#4[i]回復する。",
+        "ko": "카프카의 동료가 적에게 공격을 발동하면 카프카는 즉시 추가 공격을 발동하고 주목표에게 카프카 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, 피격된 적을 #2[i]%의 기본 확률로 필살기와 동일한 감전 상태에 빠트린다, 감전 상태 지속 시간: #3[i]턴. 해당 효과는 최대 #5[i]회 발동하며, 카프카의 턴 종료 시 #4[i]회 회복된다"
+      },
+      "params": [
+        [
+          0.42,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          0.518,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          0.616,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          0.714,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          0.812,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          0.91,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.0325,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.155,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.2775,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.4,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.498,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.596,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.694,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.792,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          1.89,
+          1,
+          2,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 1100506,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 1100507,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Misericórdia Não É Perdão",
+        "en": "Mercy Is Not Forgiveness",
+        "zh-CN": "宽恕无关慈悲",
+        "ja": "許しは慈悲に非ず",
+        "ko": "자비와 무관한 용서"
+      },
+      "description": {
+        "pt-BR": "Ataca imediatamente todos os inimigos dentro de um alcance específico. Depois de entrar em batalha, causa Dano de Raio igual a #3[i]% do ATQ de Kafka a todos os inimigos, com uma chance-base de #1[i]% de infligir \"Choque\" (equivalente àquele aplicado pela Perícia Suprema dela) a todos os inimigos-alvo por #2[i] rodada(s).",
+        "en": "Immediately attacks all enemies within a set range. After entering combat, deals Lightning DMG equal to #3[i]% of Kafka's ATK to all enemies, with a #1[i]% base chance to inflict Shock (equivalent to that applied by her Ultimate) on every enemy target for #2[i] turn(s).",
+        "zh-CN": "立即攻击一定范围内的所有敌人，进入战斗后对敌方全体造成等同于卡芙卡#3[i]%攻击力的雷属性伤害，同时有#1[i]%的基础概率使敌方每个单体目标陷入与终结技相同的触电状态，持续#2[i]回合。",
+        "ja": "一定範囲内のすべての敵を攻撃。戦闘に入った後、敵全体にカフカの攻撃力#3[i]%分の雷属性ダメージを与え、#1[i]%の基礎確率で敵単体それぞれを、必殺技が付与するものと同じ感電状態にする、#2[i]ターン継続。",
+        "ko": "일정 범위 내 모든 적을 즉시 공격하며, 전투 진입 후 모든 적에게 카프카 공격력의 #3[i]%만큼 번개 속성 피해를 가하고, #1[i]%의 기본 확률로 각 단일 적을 필살기와 동일한 감전 상태에 빠트린다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          1,
+          2,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Da Capo",
+        "en": "Da Capo",
+        "zh-CN": "无穷动！无穷",
+        "ja": "{RUBY_B#むきゅう}無窮{RUBY_E#}に{RUBY_B#うご}動{RUBY_E#}く！{RUBY_B#むきゅう}無窮{RUBY_E#}に",
+        "ko": "다카포"
+      },
+      "description": {
+        "pt-BR": "Quando o Talento ativa um Ataque Extra, há 100% de chance-base de aumentar o Dano Contínuo recebido pelo alvo em 30% por 2 rodada(s).",
+        "en": "When the Talent triggers a Follow-Up ATK, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s).",
+        "zh-CN": "天赋触发追加攻击时，有100%的基础概率使目标受到的持续伤害提高30%，持续2回合。",
+        "ja": "天賦効果により追加攻撃を行った時、100%の基礎確率でターゲットの受ける持続ダメージ+30%、2ターン継続。",
+        "ko": "특성으로 추가 공격 발동 시 100%의 기본 확률로 목표가 받는 지속 피해가 30% 증가한다. 지속 시간: 2턴"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Fortississimo",
+        "en": "Fortississimo",
+        "zh-CN": "狂想者，呜咽",
+        "ja": "{RUBY_B#きょうそうしゃ}狂想者{RUBY_E#}の{RUBY_B#おえつ}嗚咽{RUBY_E#}",
+        "ko": "포르티시시모"
+      },
+      "description": {
+        "pt-BR": "Enquanto Kafka está no campo, o Dano Contínuo causado por todos os aliados aumenta em 25%.",
+        "en": "While Kafka is on the field, DoT dealt by all allies increases by 25%.",
+        "zh-CN": "卡芙卡在场时，我方全体造成的持续伤害提高25%。",
+        "ja": "カフカがフィールド上にいる時、味方全体の持続ダメージ+25%。",
+        "ko": "카프카가 필드에 있으면 모든 아군이 가하는 지속 피해가 25% 증가한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Capriccio",
+        "en": "Capriccio",
+        "zh-CN": "我赞美，即兴",
+        "ja": "{RUBY_B#そっきょう}即興{RUBY_E#}の{RUBY_B#さんび}賛美{RUBY_E#}",
+        "ko": "카프리치오"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Recitativo",
+        "en": "Recitativo",
+        "zh-CN": "把宣叙呈献给",
+        "ja": "この{RUBY_B#じょしょう}叙唱{RUBY_E#}を",
+        "ko": "레치타티보"
+      },
+      "description": {
+        "pt-BR": "Quando um inimigo-alvo recebe Dano do status de Choque infligido por Kafka, Kafka regenera adicionalmente 2 de Energia.",
+        "en": "When an enemy target takes DMG from the Shock status inflicted by Kafka, Kafka additionally regenerates 2 Energy.",
+        "zh-CN": "当敌方目标承受的由卡芙卡造成的触电状态产生伤害时，额外为卡芙卡恢复2点能量。",
+        "ja": "カフカが敵に付与した感電状態がダメージを発生する時、カフカのEPをさらに2回復する。",
+        "ko": "적이 카프카가 부여한 감전 상태로 인해 피해를 받으면 카프카는 에너지 2pt를 추가로 회복한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Doloroso",
+        "en": "Doloroso",
+        "zh-CN": "只有今晚奏鸣",
+        "ja": "{RUBY_B#こんばん}今晩{RUBY_E#}だけの{RUBY_B#そうめい}奏鳴{RUBY_E#}",
+        "ko": "돌로로소"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Leggiero",
+        "en": "Leggiero",
+        "zh-CN": "回旋，悄悄地",
+        "ja": "{RUBY_B#まわ}回{RUBY_E#}る、{RUBY_B#しず}静{RUBY_E#}かに",
+        "ko": "레지에로"
+      },
+      "description": {
+        "pt-BR": "O Choque causado no inimigo pela Perícia Suprema, pela Técnica, ou pelo Ataque Extra ativado pelo Talento tem um aumento de 156% no multiplicador de Dano, e dura 1 rodada(s) a mais.",
+        "en": "The Shock state inflicted on the enemy target by the Ultimate, Technique, or the Talent-triggered Follow-Up ATK has a DMG multiplier increase of 156% and lasts 1 turn(s) longer.",
+        "zh-CN": "终结技、秘技与天赋触发的追加攻击使敌方目标陷入的触电状态的伤害倍率提高156%，并使触电状态的持续时间增加1回合。",
+        "ja": "必殺技、秘技、天賦による追加攻撃が敵に付与する感電状態のダメージ倍率+156%、感電状態の継続時間+1ターン。",
+        "ko": "필살기, 비술, 특성으로 발동한 추가 공격은 적이 빠진 감전 상태의 피해 배율을 156% 증가시키고, 감전 상태의 지속 시간을 1턴 증가시킨다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1005.png",
+    "preview": "image/character_preview/1005.png",
+    "portrait": "image/character_portrait/1005.png"
+  }
+}

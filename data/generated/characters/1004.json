@@ -1,0 +1,963 @@
+{
+  "id": 1004,
+  "slug": "welt",
+  "name": {
+    "pt-BR": "Welt",
+    "en": "Welt",
+    "zh-CN": "瓦尔特",
+    "ja": "ヴェルト",
+    "ko": "웰트"
+  },
+  "rarity": 5,
+  "path": "Nihility",
+  "element": "Imaginary",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 100401,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Supressão Gravitacional",
+        "en": "Gravity Suppression",
+        "zh-CN": "重力压制",
+        "ja": "重力制圧",
+        "ko": "중력 압박"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Welt a um único inimigo.",
+        "en": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害。",
+        "ja": "指定した敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 100402,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Borda do Vazio",
+        "en": "Edge of the Void",
+        "zh-CN": "虚空断界",
+        "ja": "虚空断界",
+        "ko": "허공 단열"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Welt a um único inimigo e causa Dano mais 2 vezes, causando Dano Imaginário igual a #1[i]% do ATQ de Welt por acerto a um inimigo aleatório. Ao acertar, há uma chance-base de #2[i]% de reduzir em #3[i]% a VEL do inimigo por #4[i] rodada(s).",
+        "en": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy and additionally deals 2 instances of DMG, with each time dealing Imaginary DMG equal to #1[i]% of Welt's ATK to a random enemy. On hit, there is a #2[i]% base chance to reduce the enemy's SPD by #3[i]% for #4[i] turn(s).",
+        "zh-CN": "对指定敌方单体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害，并额外造成2次伤害。每次伤害对敌方随机单体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害。攻击命中时有#2[i]%的基础概率使受到攻击的敌方目标速度降低#3[i]%，持续#4[i]回合。",
+        "ja": "指定した敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与え、さらに2ヒットする。1ヒットごとに、ランダムな敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与える。攻撃が命中すると、#2[i]%の基礎確率で攻撃を受けた敵の速度-#3[i]%、#4[i]ターン継続。",
+        "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, 추가로 피해를 2회 가한다. 피해당 랜덤 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다. 공격이 명중하면 #2[i]%의 기본 확률로 피격된 적의 속도를 #3[i]% 감소시킨다, 지속 시간: #4[i]턴"
+      },
+      "params": [
+        [
+          0.36,
+          0.65,
+          0.1,
+          2
+        ],
+        [
+          0.396,
+          0.66,
+          0.1,
+          2
+        ],
+        [
+          0.432,
+          0.67,
+          0.1,
+          2
+        ],
+        [
+          0.468,
+          0.68,
+          0.1,
+          2
+        ],
+        [
+          0.504,
+          0.69,
+          0.1,
+          2
+        ],
+        [
+          0.54,
+          0.7,
+          0.1,
+          2
+        ],
+        [
+          0.585,
+          0.7125,
+          0.1,
+          2
+        ],
+        [
+          0.63,
+          0.725,
+          0.1,
+          2
+        ],
+        [
+          0.675,
+          0.7375,
+          0.1,
+          2
+        ],
+        [
+          0.72,
+          0.75,
+          0.1,
+          2
+        ],
+        [
+          0.756,
+          0.76,
+          0.1,
+          2
+        ],
+        [
+          0.792,
+          0.77,
+          0.1,
+          2
+        ],
+        [
+          0.828,
+          0.78,
+          0.1,
+          2
+        ],
+        [
+          0.864,
+          0.79,
+          0.1,
+          2
+        ],
+        [
+          0.9,
+          0.8,
+          0.1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 100403,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Buraco Negro Sintético",
+        "en": "Synthetic Black Hole",
+        "zh-CN": "拟似黑洞",
+        "ja": "疑似ブラックホール",
+        "ko": "유사 블랙홀"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% do ATQ de Welt como Dano Imaginário a todos os inimigos, com #3[i]% de chance-base de que inimigos atingidos por esta habilidade sejam afetados por Aprisionamento por 1 rodada.\nInimigos aprisionados têm ações atrasadas em #2[f1]% e VEL reduzida em #4[i]%.",
+        "en": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies, with a #3[i]% base chance for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their actions delayed by #2[f1]% and SPD reduced by #4[i]%.",
+        "zh-CN": "对敌方全体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害，有#3[i]%的基础概率使受到攻击的敌方目标陷入禁锢状态，持续1回合。\n禁锢状态下，敌方目标行动延后#2[f1]%，速度降低#4[i]%。",
+        "ja": "敵全体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与え、#3[i]%の基礎確率で攻撃を受けた敵を禁錮状態にする、1ターン継続。\n禁錮状態の敵の行動順は#2[f1]%遅延し、速度-#4[i]%。",
+        "ko": "모든 적에게 웰트 공격력 #1[i]%만큼의 허수 속성 피해를 주고 #3[i]%의 기본 확률로 피격된 적을 속박 상태에 빠트린다. 지속 시간: 1턴\n속박 상태에서 적의 행동 게이지가 #2[f1]% 감소하고, 속도가 #4[i]% 감소한다"
+      },
+      "params": [
+        [
+          0.9,
+          0.32,
+          1,
+          0.1
+        ],
+        [
+          0.96,
+          0.328,
+          1,
+          0.1
+        ],
+        [
+          1.02,
+          0.336,
+          1,
+          0.1
+        ],
+        [
+          1.08,
+          0.344,
+          1,
+          0.1
+        ],
+        [
+          1.14,
+          0.352,
+          1,
+          0.1
+        ],
+        [
+          1.2,
+          0.36,
+          1,
+          0.1
+        ],
+        [
+          1.275,
+          0.37,
+          1,
+          0.1
+        ],
+        [
+          1.35,
+          0.38,
+          1,
+          0.1
+        ],
+        [
+          1.425,
+          0.39,
+          1,
+          0.1
+        ],
+        [
+          1.5,
+          0.4,
+          1,
+          0.1
+        ],
+        [
+          1.56,
+          0.408,
+          1,
+          0.1
+        ],
+        [
+          1.62,
+          0.416,
+          1,
+          0.1
+        ],
+        [
+          1.68,
+          0.424,
+          1,
+          0.1
+        ],
+        [
+          1.74,
+          0.432,
+          1,
+          0.1
+        ],
+        [
+          1.8,
+          0.44,
+          1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "id": 100404,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Distorção Temporal",
+        "en": "Time Distortion",
+        "zh-CN": "时空扭曲",
+        "ja": "時空の歪み",
+        "ko": "시공 왜곡"
+      },
+      "description": {
+        "pt-BR": "Ao atingir um inimigo que já está sob Lentidão, Welt causa um Dano Adicional de #1[i]% do seu ATQ como Dano Imaginário ao inimigo.",
+        "en": "When hitting an enemy that is already Slowed, Welt deals Imaginary Additional DMG equal to #1[i]% of his ATK to the enemy.",
+        "zh-CN": "击中处于减速状态的敌方目标时，额外造成1次等同于瓦尔特#1[i]%攻击力的虚数属性附加伤害。",
+        "ja": "攻撃が減速状態の敵に命中した時、さらにヴェルトの攻撃力#1[i]%分の虚数属性付加ダメージを1回与える。",
+        "ko": "감속 상태의 적을 공격 시 추가로 웰트 공격력 #1[i]%만큼의 허수 속성 추가 피해를 1회 준다"
+      },
+      "params": [
+        [
+          0.3
+        ],
+        [
+          0.33
+        ],
+        [
+          0.36
+        ],
+        [
+          0.39
+        ],
+        [
+          0.42
+        ],
+        [
+          0.45
+        ],
+        [
+          0.4875
+        ],
+        [
+          0.525
+        ],
+        [
+          0.5625
+        ],
+        [
+          0.6
+        ],
+        [
+          0.63
+        ],
+        [
+          0.66
+        ],
+        [
+          0.69
+        ],
+        [
+          0.72
+        ],
+        [
+          0.75
+        ]
+      ]
+    },
+    {
+      "id": 100406,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 100407,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Aprisionamento Gravitacional",
+        "en": "Gravitational Imprisonment",
+        "zh-CN": "画地为牢",
+        "ja": "画地為牢",
+        "ko": "범위 제한"
+      },
+      "description": {
+        "pt-BR": "Após Welt usar sua Técnica, cria uma Dimensão Especial que dura #4[i]s. Inimigos nessa Dimensão Especial têm a VEL de Movimento reduzida em #5[i]%. Depois de entrar em batalha com inimigos na Dimensão Especial, há #1[i]% de chance-base de Aprisionar os inimigos por 1 rodada.\nInimigos aprisionados têm ações atrasadas em #2[i]% e a VEL reduzida em #3[i]%. Só 1 Efeito de Dimensão criado por aliados pode existir ao mesmo tempo.",
+        "en": "After using Welt's Technique, create a Special Dimension that lasts for #4[i] second(s). Enemies in this Special Dimension have their movement speed reduced by #5[i]%. After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 Dimension Effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，制造1片持续#4[i]秒的特殊领域。处于特殊领域内的敌人移动速度降低#5[i]%。与处于特殊领域内的敌人进入战斗后，有#1[i]%的基础概率使敌方目标陷入禁锢状态，持续1回合。\n禁锢状态下，敌方目标行动延后#2[i]%，速度降低#3[i]%。我方制造的领域效果最多存在1个。",
+        "ja": "秘技を使用した後、#4[i]秒間継続する特殊領域を作り出す、特殊領域内にいる敵の移動速度-#5[i]%。特殊領域内にいる敵と戦闘に入った後、#1[i]%の基礎確率で敵を禁錮状態にする、1ターン継続。\n禁錮状態の敵は行動順が#2[i]%遅延し、速度-#3[i]%。味方が作り出した領域は1つまで存在できる。",
+        "ko": "비술 사용 후 #4[i]초 동안 지속되는 특수 영역을 하나 만든다. 특수 영역 안에 있는 적은 이동 속도가 #5[i]% 감소한다. 특수 영역 안에 있는 적은 전투 진입 후 #1[i]%의 기본 확률로 속박 상태에 빠진다, 지속 시간: 1턴\n속박 상태의 적은 행동 게이지가 #2[i]% 감소하고, 속도가 #3[i]% 감소한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
+      },
+      "params": [
+        [
+          1,
+          0.2,
+          0.1,
+          15,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": 1100401,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Supressão Gravitacional",
+        "en": "Gravity Suppression",
+        "zh-CN": "重力压制",
+        "ja": "重力制圧",
+        "ko": "중력 압박"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Welt a um único inimigo.",
+        "en": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害。",
+        "ja": "指定した敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 1100402,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Borda do Vazio",
+        "en": "Edge of the Void",
+        "zh-CN": "虚空断界",
+        "ja": "虚空断界",
+        "ko": "허공 단열"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Welt a um único inimigo e adicionalmente causa Dano 4 vezes, causando Dano Imaginário igual a #1[i]% do ATQ de Welt por acerto a um inimigo aleatório. Ao acertar, há uma chance-base de #2[i]% de reduzir em #3[i]% a VEL do inimigo por #4[i] rodada(s).",
+        "en": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to one designated enemy and additionally deals DMG 4 times, with each time dealing Imaginary DMG equal to #1[i]% of Welt's ATK to one random enemy. On hit, there is a #2[i]% base chance to reduce the enemy's SPD by #3[i]% for #4[i] turn(s).",
+        "zh-CN": "对指定敌方单体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害，并额外造成4次伤害。每次伤害对敌方随机单体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害。攻击命中时有#2[i]%的基础概率使受到攻击的敌方目标速度降低#3[i]%，持续#4[i]回合。",
+        "ja": "指定した敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与え、さらに4ヒットする。1ヒットごとに、ランダムな敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与える。攻撃が命中すると、#2[i]%の基礎確率で攻撃を受けた敵の速度-#3[i]%、#4[i]ターン継続。",
+        "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, 추가로 피해를 4회 가한다. 피해당 랜덤 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다. 공격이 명중하면 #2[i]%의 기본 확률로 피격된 적의 속도를 #3[i]% 감소시킨다, 지속 시간: #4[i]턴"
+      },
+      "params": [
+        [
+          0.36,
+          0.65,
+          0.1,
+          2
+        ],
+        [
+          0.396,
+          0.66,
+          0.1,
+          2
+        ],
+        [
+          0.432,
+          0.67,
+          0.1,
+          2
+        ],
+        [
+          0.468,
+          0.68,
+          0.1,
+          2
+        ],
+        [
+          0.504,
+          0.69,
+          0.1,
+          2
+        ],
+        [
+          0.54,
+          0.7,
+          0.1,
+          2
+        ],
+        [
+          0.585,
+          0.7125,
+          0.1,
+          2
+        ],
+        [
+          0.63,
+          0.725,
+          0.1,
+          2
+        ],
+        [
+          0.675,
+          0.7375,
+          0.1,
+          2
+        ],
+        [
+          0.72,
+          0.75,
+          0.1,
+          2
+        ],
+        [
+          0.756,
+          0.76,
+          0.1,
+          2
+        ],
+        [
+          0.792,
+          0.77,
+          0.1,
+          2
+        ],
+        [
+          0.828,
+          0.78,
+          0.1,
+          2
+        ],
+        [
+          0.864,
+          0.79,
+          0.1,
+          2
+        ],
+        [
+          0.9,
+          0.8,
+          0.1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 1100403,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Buraco Negro Sintético",
+        "en": "Synthetic Black Hole",
+        "zh-CN": "拟似黑洞",
+        "ja": "疑似ブラックホール",
+        "ko": "유사 블랙홀"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Welt a todos os inimigos. Tem #3[i]% de chance-base de aplicar \"Aprisionamento\" nos inimigos-alvo atingidos por 1 rodada.\nEnquanto estão sob \"Aprisionamento\", os inimigos-alvo têm suas ações atrasadas em #2[f1]% e sua VEL reduzida em #4[i]%. Após usar sua Perícia Suprema, inflige o estado de \"Sem Peso\" a todos os inimigos. Quando alvos no estado de \"Sem Peso\" são atacados, suas ações são atrasadas em #5[f1]%. Esse efeito pode ser ativado até #6[i] vez(es) por alvo por rodada. \"Sem Peso\" dura por #7[i] rodada(s).",
+        "en": "Deals Imaginary DMG equal to #1[i]% of Welt's ATK to all enemies. Has a #3[i]% base chance to Imprison hit enemy targets for 1 turn.\nWhile Imprisoned, enemy targets have their actions delayed by #2[f1]% and their SPD reduced by #4[i]%. After using his Ultimate, inflicts the \"Weightless\" state on all enemies. When targets in \"Weightless\" state get attacked, their actions are delayed by #5[f1]%. This effect can trigger up to #6[i] time(s) per target per turn. \"Weightless\" lasts for #7[i] turn(s).",
+        "zh-CN": "对敌方全体造成等同于瓦尔特#1[i]%攻击力的虚数属性伤害，有#3[i]%的基础概率使受到攻击的敌方目标陷入禁锢状态，持续1回合。\n禁锢状态下，敌方目标行动延后#2[f1]%，速度降低#4[i]%。施放终结技后使敌方全体陷入【失重】状态，【失重】状态下的敌方目标受到攻击时行动延后#5[f1]%，该效果每个目标每回合内最多触发#6[i]次，【失重】状态持续#7[i]回合。",
+        "ja": "敵全体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与え、#3[i]%の基礎確率で攻撃を受けた敵を禁錮状態にする。禁錮状態は1ターン継続する。\n禁錮状態の敵の行動順は#2[f1]%遅延し、速度-#4[i]%。必殺技を発動した後、敵全体に「無重力」状態を付与する。「無重力」状態の敵は攻撃を受ける時に行動順が#5[f1]%遅延する。この効果は各ターゲットごとに1ターンで最大#6[i]回発動可能。「無重力」状態は#7[i]ターン継続する。",
+        "ko": "모든 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, #3[i]%의 기본 확률로 피격된 적을 속박 상태에 빠트린다, 지속 시간: 1턴\n속박 상태의 적은 행동 게이지가 #2[f1]% 감소하고, 속도가 #4[i]% 감소한다. 필살기 발동 후 모든 적을 [무중력] 상태에 빠트린다. [무중력] 상태의 적은 피격 시 행동 게이지가 #5[f1]% 감소하고, 해당 효과는 목표마다 턴당 최대 #6[i]회 발동한다, [무중력] 상태 지속 시간: #7[i]턴"
+      },
+      "params": [
+        [
+          0.9,
+          0.06,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          0.96,
+          0.066,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.02,
+          0.072,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.08,
+          0.078,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.14,
+          0.084,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.2,
+          0.09,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.275,
+          0.0975,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.35,
+          0.105,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.425,
+          0.1125,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.5,
+          0.12,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.56,
+          0.126,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.62,
+          0.132,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.68,
+          0.138,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.74,
+          0.144,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ],
+        [
+          1.8,
+          0.15,
+          1,
+          0.1,
+          0.04,
+          8,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 1100404,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Distorção Temporal",
+        "en": "Time Distortion",
+        "zh-CN": "时空扭曲",
+        "ja": "時空の歪み",
+        "ko": "시공 왜곡"
+      },
+      "description": {
+        "pt-BR": "Inimigos-alvo no estado de \"Sem Peso\" têm a DEF reduzida em #2[i]% e a VEL reduzida em #3[i]%. Quando Welt ataca um inimigo que já está afligido com \"Lentidão\", ele causa adicionalmente Dano Adicional Imaginário igual a #1[i]% do ATQ dele ao inimigo.",
+        "en": "Enemy targets in the \"Weightless\" state have their DEF reduced by #2[i]% and their SPD reduced by #3[i]%. When Welt attacks an enemy that is already Slowed, he additionally deals Imaginary Additional DMG equal to #1[i]% of his ATK to the enemy.",
+        "zh-CN": "处于【失重】状态下的敌方目标防御力降低#2[i]%，速度降低#3[i]%。瓦尔特击中处于减速状态的敌方目标时，额外造成1次等同于瓦尔特#1[i]%攻击力的虚数属性附加伤害。",
+        "ja": "「無重力」状態の敵の防御力-#2[i]%、速度-#3[i]%。ヴェルトの攻撃が減速状態の敵に命中した時、さらにヴェルトの攻撃力#1[i]%分の虚数属性付加ダメージを1回与える。",
+        "ko": "[무중력] 상태의 적 방어력이 #2[i]% 감소하고, 속도가 #3[i]% 감소한다. 웰트가 감속 상태의 적 명중 시 추가로 웰트 공격력의 #1[i]%만큼 허수 속성 추가 피해를 1회 가한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.4,
+          0.05
+        ],
+        [
+          0.55,
+          0.4,
+          0.05
+        ],
+        [
+          0.6,
+          0.4,
+          0.05
+        ],
+        [
+          0.65,
+          0.4,
+          0.05
+        ],
+        [
+          0.7,
+          0.4,
+          0.05
+        ],
+        [
+          0.75,
+          0.4,
+          0.05
+        ],
+        [
+          0.8125,
+          0.4,
+          0.05
+        ],
+        [
+          0.875,
+          0.4,
+          0.05
+        ],
+        [
+          0.9375,
+          0.4,
+          0.05
+        ],
+        [
+          1,
+          0.4,
+          0.05
+        ],
+        [
+          1.05,
+          0.4,
+          0.05
+        ],
+        [
+          1.1,
+          0.4,
+          0.05
+        ],
+        [
+          1.15,
+          0.4,
+          0.05
+        ],
+        [
+          1.2,
+          0.4,
+          0.05
+        ],
+        [
+          1.25,
+          0.4,
+          0.05
+        ]
+      ]
+    },
+    {
+      "id": 1100406,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 1100407,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Aprisionamento Gravitacional",
+        "en": "Gravitational Imprisonment",
+        "zh-CN": "画地为牢",
+        "ja": "画地為牢",
+        "ko": "범위 제한"
+      },
+      "description": {
+        "pt-BR": "Após Welt usar sua Técnica, cria uma Dimensão Especial que dura por #4[i] segundo(s). Inimigos nessa Dimensão Especial têm a VEL de Movimento reduzida em #5[i]%. Depois de entrar em batalha com inimigos na Dimensão Especial, há #1[i]% de chance-base de causar \"Aprisionamento\" nos inimigos por 1 rodada.\nInimigos no estado de \"Aprisionamento\" têm ações atrasadas em #2[i]% e a VEL reduzida em #3[i]%. Só 1 Efeito de Dimensão criado por aliados pode existir ao mesmo tempo.",
+        "en": "After using Welt's Technique, create a Special Dimension that lasts for #4[i] second(s). Enemies in this Special Dimension have their movement speed reduced by #5[i]%. After entering combat with enemies in the Special Dimension, there is a #1[i]% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by #2[i]% and SPD reduced by #3[i]%. Only 1 Dimension Effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，制造1片持续#4[i]秒的特殊领域。处于特殊领域内的敌人移动速度降低#5[i]%。与处于特殊领域内的敌人进入战斗后，有#1[i]%的基础概率使敌方目标陷入禁锢状态，持续1回合。\n禁锢状态下，敌方目标行动延后#2[i]%，速度降低#3[i]%。我方制造的领域效果最多存在1个。",
+        "ja": "秘技を使用した後、#4[i]秒間継続する特殊領域を作り出す、特殊領域内にいる敵の移動速度-#5[i]%。特殊領域内にいる敵と戦闘に入った後、#1[i]%の基礎確率で敵を禁錮状態にする、1ターン継続。\n禁錮状態の敵は行動順が#2[i]%遅延し、速度-#3[i]%。味方が作り出した領域は1つまで存在できる。",
+        "ko": "비술 사용 후 #4[i]초 동안 지속되는 특수 영역을 하나 만든다. 특수 영역 안에 있는 적은 이동 속도가 #5[i]% 감소한다. 특수 영역 안에 있는 적은 전투 진입 후 #1[i]%의 기본 확률로 속박 상태에 빠진다, 지속 시간: 1턴\n속박 상태의 적은 행동 게이지가 #2[i]% 감소하고, 속도가 #3[i]% 감소한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
+      },
+      "params": [
+        [
+          1,
+          0.2,
+          0.1,
+          15,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Legado de Honra",
+        "en": "Legacy of Honor",
+        "zh-CN": "名的传承",
+        "ja": "{RUBY_B#な}名{RUBY_E#}の{RUBY_B#けいしょう}継承{RUBY_E#}",
+        "ko": "명성의 계승"
+      },
+      "description": {
+        "pt-BR": "Depois de usar sua Perícia Suprema, Welt é aprimorado. Então, a(s) próxima(s) 2 utilização(ões) de seu ATQ Básico ou Perícia irá(ão) causar 1 instância extra de Dano Adicional ao inimigo-alvo. O Dano Adicional causado ao utilizar o ATQ Básico é igual a 50% do Multiplicador de Dano do ATQ Básico. O Dano Adicional causado ao utilizar a Perícia é igual a 80% do Multiplicador de Dano da Perícia.",
+        "en": "After using Ultimate, Welt gets enhanced. Then, the next 2 time(s) he uses Basic ATK or Skill, deals 1 extra instance of Additional DMG to the enemy target. The Additional DMG dealt when using Basic ATK is equal to 50% of Basic ATK DMG multiplier. The Additional DMG dealt when using Skill is equal to 80% of Skill DMG multiplier.",
+        "zh-CN": "施放终结技后，瓦尔特获得强化，在随后2次施放普攻或战技时额外对敌方目标造成1次附加伤害。施放普攻造成的附加伤害等同于普攻伤害倍率的50%，施放战技造成的附加伤害等同于战技伤害倍率的80%。",
+        "ja": "必殺技を発動した後、ヴェルトは強化を獲得、以後2回の通常攻撃/戦闘スキルはさらに敵に付加ダメージを1回与える。通常攻撃による付加ダメージは通常攻撃のダメージ倍率の50%、戦闘スキルによる付加ダメージは戦闘スキルのダメージ倍率の80%となる。",
+        "ko": "필살기 발동 후 웰트는 강화를 획득하며 다음 2번의 일반 공격 혹은 전투 스킬 발동 시 적에게 1회 추가 피해를 가한다. 일반 공격 발동 시의 추가 피해는 일반 공격 피해 배율의 50%이고, 전투 스킬 발동 시의 추가 피해는 전투 스킬 피해 배율의 80%이다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Confluência Estelar",
+        "en": "Conflux of Stars",
+        "zh-CN": "星的凝聚",
+        "ja": "{RUBY_B#ほし}星{RUBY_E#}の{RUBY_B#ぎょうしゅう}凝集{RUBY_E#}",
+        "ko": "별의 응집"
+      },
+      "description": {
+        "pt-BR": "Quando seu Talento é ativado, Welt regenera 3 de Energia.",
+        "en": "When his Talent is triggered, Welt regenerates 3 Energy.",
+        "zh-CN": "触发天赋时，瓦尔特恢复3点能量。",
+        "ja": "天賦発動時、ヴェルトはEPを3回復する。",
+        "ko": "특성 발동 시 웰트가 에너지를 3pt 회복한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Prece da Paz",
+        "en": "Prayer of Peace",
+        "zh-CN": "和平的祈愿",
+        "ja": "{RUBY_B#へいわ}平和{RUBY_E#}の{RUBY_B#ねが}願{RUBY_E#}い",
+        "ko": "평화의 기도"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Apelação da Justiça",
+        "en": "Appellation of Justice",
+        "zh-CN": "义的名号",
+        "ja": "{RUBY_B#ぎ}義{RUBY_E#}の{RUBY_B#はたじるし}旗標{RUBY_E#}",
+        "ko": "정의의 이름으로"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia, aumenta a chance-base de reduzir a VEL do inimigo-alvo atacado em 35%.",
+        "en": "When using Skill, increases the base chance of reducing the attacked enemy target's SPD by 35%.",
+        "zh-CN": "施放战技时，使受到攻击的敌方目标速度降低的基础概率提高35%。",
+        "ja": "戦闘スキルを発動した時、攻撃を受けた敵の速度をダウンさせる基礎確率+35%。",
+        "ko": "전투 스킬 발동 시 피격된 적의 속도가 감소하는 기본 확률이 35% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Poder da Bondade",
+        "en": "Power of Kindness",
+        "zh-CN": "善的力量",
+        "ja": "{RUBY_B#ぜん}善{RUBY_E#}の{RUBY_B#ちから}力{RUBY_E#}",
+        "ko": "선의 힘"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Perspectiva Brilhante",
+        "en": "Prospect of Glory",
+        "zh-CN": "光明的未来",
+        "ja": "{RUBY_B#ひかり}光{RUBY_E#}ある{RUBY_B#みらい}未来{RUBY_E#}",
+        "ko": "찬란한 미래"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia, causa Dano 1 vez a mais a um inimigo aleatório.",
+        "en": "When using Skill, deals DMG for 1 extra time to one random enemy.",
+        "zh-CN": "施放战技时，对随机敌方单体额外造成1次伤害。",
+        "ja": "戦闘スキルを発動した時、さらにランダムな敵単体にダメージを1回与える。",
+        "ko": "전투 스킬 발동 시 랜덤 단일 적에게 추가로 피해를 1회 가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1004.png",
+    "preview": "image/character_preview/1004.png",
+    "portrait": "image/character_portrait/1004.png"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": 21001,
+  "slug": "good-night-and-sleep-well",
+  "name": {
+    "pt-BR": "Boa Noite e Durma Bem",
+    "en": "Good Night and Sleep Well",
+    "zh-CN": "晚安与睡颜",
+    "ja": "おやすみなさいと寝顔",
+    "ko": "밤 인사와 잠든 얼굴"
+  },
+  "rarity": 4,
+  "path": "Nihility",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "A luz fraca delineia as pegadas na terra, enquanto uma menina\nmurmura meigamente durante o sono.\nUma silhueta silenciosa surge atrás dela.\n\"Ora, ora, ora. Você fica mais bonita sem aqueles óculos — eu sabia.\"\nA guitarrista observa o rosto adormecido e murmura:\n\"Boa noite, menina brilhante que se preocupa demais.\"",
+    "en": "The dim light outlines the dust tracks,\nAs a young girl mumbles sweetly in her sleep.\nA silent figure appears behind her.\n\"Well, well, well, you're cuter without those glasses — I knew it.\"\nThe guitarist stares at her sleeping face, muttering to herself:\n\"Good night, the genius girl that worries a lot.\"",
+    "zh-CN": "静谧的灯光勾勒出尘埃的轨迹，\n平稳的呼吸里有少女香甜的梦呓。\n一个人影出现在她身后，悄无声息。\n「啧啧啧，果然还是摘掉眼镜比较可爱嘛。」\n吉他手端详着她的睡颜喃喃自语：\n「晚安，爱操心的天才少女。」",
+    "ja": "静謐な光が微かに舞う埃を照らす。\n穏やかな寝息の中には、少女の甘い夢がある。\n彼女の背後に、何の気配もなく人影が現れた。\n「ふふふ、やっぱり眼鏡を取った方が可愛い」\nギタリストは彼女の寝顔や寝言をつぶさに観察し\n「おやすみ、世話焼きな天才少女ちゃん」と言った。",
+    "ko": "고요한 빛이 먼지의 실루엣을 비춘다.\n규칙적인 숨소리에 소녀가 단잠을 꾸는 잠꼬대가 섞여있다.\n한 사람의 그림자가 그녀 뒤로 나타나자 쥐 죽은 듯 조용해진다.\n「후후후, 역시 안경을 벗으면 더 귀엽잖아」\n소녀의 잠든 얼굴을 감상하던 기타리스트가 혼잣말한다.\n「잘자, 걱정 많은 천재 소녀」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Diligente",
+      "en": "Toiler",
+      "zh-CN": "劳碌者",
+      "ja": "奔走者",
+      "ko": "고된 자"
+    },
+    "description": {
+      "pt-BR": "Para cada penalidade do inimigo-alvo, aumenta em #1[i]% o Dano causado pelo usuário, podendo acumular até #2[i] vez(es). O efeito também se aplica ao Dano Contínuo.",
+      "en": "For every debuff the target enemy has, the DMG dealt by the wearer increases by #1[i]%, stacking up to #2[i] time(s). This effect also applies to DoT.",
+      "zh-CN": "敌方目标每承受1个负面效果，装备者对其造成的伤害提高#1[i]%，最多叠加#2[i]层。该效果对持续伤害也会生效。",
+      "ja": "敵に付与されたデバフが1つにつき、その敵に対する装備キャラの与ダメージ+#1[i]%、最大で#2[i]層累積できる。この効果は持続ダメージにも有効。",
+      "ko": "적이 디버프 효과 1개를 보유할 때마다 장착한 캐릭터가 대상에게 가하는 피해가 #1[i]% 증가한다. 최대 중첩수: #2[i]스택. 해당 효과는 지속 피해에도 적용된다"
+    },
+    "params": [
+      [
+        0.12,
+        3
+      ],
+      [
+        0.15,
+        3
+      ],
+      [
+        0.18,
+        3
+      ],
+      [
+        0.21,
+        3
+      ],
+      [
+        0.24,
+        3
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21001.png",
+    "preview": "image/light_cone_preview/21001.png",
+    "portrait": "image/light_cone_portrait/21001.png"
+  }
+}

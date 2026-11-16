@@ -1,0 +1,70 @@
+{
+  "id": 23009,
+  "slug": "the-unreachable-side",
+  "name": {
+    "pt-BR": "O Lado Inacessível",
+    "en": "The Unreachable Side",
+    "zh-CN": "到不了的彼岸",
+    "ja": "着かない彼岸",
+    "ko": "닿을 수 없는 저편"
+  },
+  "rarity": 5,
+  "path": "Destruction",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Ele vinha a este lugar todo ano, trazendo novas espadas consigo todas as vezes.\nEle esteve presente nos últimos momentos de vida de todos os donos dessas espadas.\nSempre que ele parte, ele pensa angustiado...\nQuando será que a sua própria espada será trazida até aqui por alguém?",
+    "en": "He would come to this place every year, bringing new swords with him each time.\nHe had seen all the owners of the swords draw their last breath.\nEvery time he leaves, he would sorrowfully ponder...\nWhen would his own blade be brought here by someone else?",
+    "zh-CN": "他每年都会来这里，带来几把新的剑。\n所有剑的主人，他都见过他们的最后一面。\n每当他离开，都会不无遗憾地想……\n自己的剑，何时才会被人带来此处。",
+    "ja": "彼は毎年、何本かの新しい剣を携えここにやってくる。\n彼は剣の主たちの最期を見届けた。\nその場を離れるたび、彼は無念に思う…\n己の剣は、いつになったらここに運ばれてくるのだろう。",
+    "ko": "그는 매년 이곳에 새로운 검들을 가지고 온다.\n검의 주인들, 그는 그들의 마지막 모습을 보았다.\n그는 떠날 때마다 아쉬움에 잠긴다…….\n자신의 검은 언제쯤 누가 이곳으로 가져와줄까…."
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Desejo Não Realizado",
+      "en": "Unfulfilled Yearning",
+      "zh-CN": "不得",
+      "ja": "ならぬ",
+      "ko": "불능"
+    },
+    "description": {
+      "pt-BR": "Aumenta em #1[i]% a Chance de CRIT e em #2[i]% os PV máximos do usuário. Quando o usuário é atacado ou consome seus próprios PV, o Dano dele aumenta em #3[i]%. Esse efeito é removido depois que o usuário usar um ataque.",
+      "en": "Increases the wearer's CRIT Rate by #1[i]% and increases their Max HP by #2[i]%. When the wearer is attacked or consumes their own HP, their DMG increases by #3[i]%. This effect is removed after the wearer uses an attack.",
+      "zh-CN": "使装备者的暴击率提高#1[i]%，生命上限提高#2[i]%。当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高#3[i]%，该效果在装备者施放攻击后解除。",
+      "ja": "装備キャラの会心率+#1[i]%、最大HP+#2[i]%。装備キャラが攻撃を受ける、または自身のHPを消費すると、与ダメージ+#3[i]%、この効果は装備キャラが攻撃を行った後に解除される。",
+      "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가하고, HP 최대치가 #2[i]% 증가한다. 장착한 캐릭터가 피격되거나 자신의 HP를 소모한 후 가하는 피해가 #3[i]% 증가한다. 해당 효과는 장착한 캐릭터가 공격을 발동한 후 해제된다"
+    },
+    "params": [
+      [
+        0.18,
+        0.18,
+        0.24
+      ],
+      [
+        0.21,
+        0.21,
+        0.28
+      ],
+      [
+        0.24,
+        0.24,
+        0.32
+      ],
+      [
+        0.27,
+        0.27,
+        0.36
+      ],
+      [
+        0.3,
+        0.3,
+        0.4
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/23009.png",
+    "preview": "image/light_cone_preview/23009.png",
+    "portrait": "image/light_cone_portrait/23009.png"
+  }
+}

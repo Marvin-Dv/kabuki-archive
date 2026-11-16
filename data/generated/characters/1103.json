@@ -1,0 +1,492 @@
+{
+  "id": 1103,
+  "slug": "serval",
+  "name": {
+    "pt-BR": "Serval",
+    "en": "Serval",
+    "zh-CN": "希露瓦",
+    "ja": "セーバル",
+    "ko": "서벌"
+  },
+  "rarity": 4,
+  "path": "Erudition",
+  "element": "Lightning",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 110301,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Trovoada Estrondosa",
+        "en": "Roaring Thunderclap",
+        "zh-CN": "雷鸣音阶",
+        "ja": "雷鳴音階",
+        "ko": "뇌명의 음계"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Serval a um único inimigo.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Serval's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于希露瓦#1[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体にセーバルの攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 서벌 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 110302,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Clarão de Raio",
+        "en": "Lightning Flash",
+        "zh-CN": "电光石火间",
+        "ja": "スパーク",
+        "ko": "전광석화의 순간"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% do ATQ de Serval como Dano de Raio a um único inimigo e #2[i]% do ATQ de Serval como Dano de Raio aos inimigos adjacentes a ele, com #3[i]% de chance-base de os inimigos atingidos receberem Choque por #4[i] rodada(s).\nQuando em Choque, inimigos recebem Dano de Raio Contínuo igual a #5[i]% do ATQ de Serval no início de cada rodada.",
+        "en": "Deals Lightning DMG equal to #1[i]% of Serval's ATK to one designated enemy and Lightning DMG equal to #2[i]% of Serval's ATK to enemies adjacent to it, with a #3[i]% base chance for enemies hit to become Shocked for #4[i] turn(s).\nWhile Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the beginning of each turn.",
+        "zh-CN": "对指定敌方单体造成等同于希露瓦#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于希露瓦#2[i]%攻击力的雷属性伤害，此外有#3[i]%的基础概率使受到攻击的敌方目标陷入触电状态，持续#4[i]回合。\n触电状态下，敌方目标每回合开始时受到等同于希露瓦#5[i]%攻击力的雷属性持续伤害。",
+        "ja": "指定した敵単体にセーバルの攻撃力#1[i]%分の雷属性ダメージを与え、隣接する敵にセーバルの攻撃力#2[i]%分の雷属性ダメージを与える。さらに#3[i]%の基礎確率で攻撃を受けた敵を感電状態にする、#4[i]ターン継続。\n感電状態の敵はターンが回ってくるたびに、セーバルの攻撃力#5[i]%分の雷属性持続ダメージを受ける。",
+        "ko": "지정된 단일 적에게 서벌 공격력 #1[i]%만큼의 번개 속성 피해를 가하고, 인접한 목표에게 서벌 공격력 #2[i]%만큼의 번개 속성 피해를 가한다. 또한, 피격된 적은 #3[i]%의 기본 확률로 감전 상태에 빠진다. 지속 시간: #4[i]턴\n감전 상태의 적은 턴이 시작될 때마다 서벌 공격력 #5[i]%만큼의 번개 속성 지속 피해를 받는다"
+      },
+      "params": [
+        [
+          0.7,
+          0.3,
+          0.8,
+          2,
+          0.4
+        ],
+        [
+          0.77,
+          0.33,
+          0.8,
+          2,
+          0.44
+        ],
+        [
+          0.84,
+          0.36,
+          0.8,
+          2,
+          0.48
+        ],
+        [
+          0.91,
+          0.39,
+          0.8,
+          2,
+          0.52
+        ],
+        [
+          0.98,
+          0.42,
+          0.8,
+          2,
+          0.56
+        ],
+        [
+          1.05,
+          0.45,
+          0.8,
+          2,
+          0.62
+        ],
+        [
+          1.1375,
+          0.4875,
+          0.8,
+          2,
+          0.7
+        ],
+        [
+          1.225,
+          0.525,
+          0.8,
+          2,
+          0.8
+        ],
+        [
+          1.3125,
+          0.5625,
+          0.8,
+          2,
+          0.92
+        ],
+        [
+          1.4,
+          0.6,
+          0.8,
+          2,
+          1.04
+        ],
+        [
+          1.47,
+          0.63,
+          0.8,
+          2,
+          1.092
+        ],
+        [
+          1.54,
+          0.66,
+          0.8,
+          2,
+          1.144
+        ],
+        [
+          1.61,
+          0.69,
+          0.8,
+          2,
+          1.196
+        ],
+        [
+          1.68,
+          0.72,
+          0.8,
+          2,
+          1.248
+        ],
+        [
+          1.75,
+          0.75,
+          0.8,
+          2,
+          1.3
+        ]
+      ]
+    },
+    {
+      "id": 110303,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "A Febre Mecânica Ataca",
+        "en": "Here Comes the Mechanical Fever",
+        "zh-CN": "机械热潮登场！",
+        "ja": "機械ブーム登場！",
+        "ko": "매커니컬 피버 등장!"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Serval a todos os inimigos. Inimigos com Choque terão esse estado prolongado por #2[i] rodada(s).",
+        "en": "Deals Lightning DMG equal to #1[i]% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by #2[i] turn(s).",
+        "zh-CN": "对敌方全体造成等同于希露瓦#1[i]%攻击力的雷属性伤害，并使触电状态下的敌方目标延长#2[i]回合的触电状态。",
+        "ja": "敵全体にセーバルの攻撃力#1[i]%分の雷属性ダメージを与え、敵の感電状態+#2[i]ターン。",
+        "ko": "모든 적에게 서벌 공격력 #1[i]%만큼의 번개 속성 피해를 가하고, 감전 상태의 적은 감전 상태 지속 시간이 #2[i]턴 증가한다"
+      },
+      "params": [
+        [
+          1.08,
+          2
+        ],
+        [
+          1.152,
+          2
+        ],
+        [
+          1.224,
+          2
+        ],
+        [
+          1.296,
+          2
+        ],
+        [
+          1.368,
+          2
+        ],
+        [
+          1.44,
+          2
+        ],
+        [
+          1.53,
+          2
+        ],
+        [
+          1.62,
+          2
+        ],
+        [
+          1.71,
+          2
+        ],
+        [
+          1.8,
+          2
+        ],
+        [
+          1.872,
+          2
+        ],
+        [
+          1.944,
+          2
+        ],
+        [
+          2.016,
+          2
+        ],
+        [
+          2.088,
+          2
+        ],
+        [
+          2.16,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 110304,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Cordas Galvânicas",
+        "en": "Galvanic Chords",
+        "zh-CN": "燃情和弦",
+        "ja": "情熱コード",
+        "ko": "타오르는 화음"
+      },
+      "description": {
+        "pt-BR": "Após Serval atacar, causa Dano de Raio Adicional igual a #1[i]% do ATQ de Serval a todos os inimigos com Choque.",
+        "en": "After Serval attacks, deals Lightning Additional DMG equal to #1[i]% of Serval's ATK to all Shocked enemies.",
+        "zh-CN": "施放攻击后，对所有触电状态下的敌方目标造成等同于希露瓦#1[i]%攻击力的雷属性附加伤害。",
+        "ja": "攻撃を行った後、すべての感電状態の敵にセーバルの攻撃力#1[i]%分の雷属性付加ダメージを与える。",
+        "ko": "공격 발동 후 모든 감전 상태의 적에게 서벌 공격력 #1[i]%만큼의 번개 속성 추가 피해를 가한다"
+      },
+      "params": [
+        [
+          0.36
+        ],
+        [
+          0.396
+        ],
+        [
+          0.432
+        ],
+        [
+          0.468
+        ],
+        [
+          0.504
+        ],
+        [
+          0.54
+        ],
+        [
+          0.585
+        ],
+        [
+          0.63
+        ],
+        [
+          0.675
+        ],
+        [
+          0.72
+        ],
+        [
+          0.756
+        ],
+        [
+          0.792
+        ],
+        [
+          0.828
+        ],
+        [
+          0.864
+        ],
+        [
+          0.9
+        ]
+      ]
+    },
+    {
+      "id": 110306,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 110307,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Boa Noite, Belobog",
+        "en": "Good Night, Belobog",
+        "zh-CN": "晚安，贝洛伯格",
+        "ja": "おやすみ、ベロブルグ",
+        "ko": "굿나잇, 벨로보그"
+      },
+      "description": {
+        "pt-BR": "Ataca o inimigo imediatamente. Após entrar na batalha, causa #4[i]% do ATQ de Serval como Dano de Raio a um inimigo aleatório, com #1[i]% de chance-base de todos os inimigos receberem Choque por #3[i] rodada(s).\nQuando em Choque, inimigos recebem #2[i]% do ATQ de Serval como Dano de Raio Contínuo no início de cada rodada.",
+        "en": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Serval's ATK to a random enemy, with a #1[i]% base chance for all enemies to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK at the beginning of each turn.",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于希露瓦#4[i]%攻击力的雷属性伤害，同时有#1[i]%的基础概率使敌方每个单体目标陷入触电状态，持续#3[i]回合。\n触电状态下，敌方目标每回合开始时受到等同于希露瓦#2[i]%攻击力的雷属性持续伤害。",
+        "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体にセーバルの攻撃力#4[i]%分の雷属性ダメージを与え、#1[i]%の基礎確率で敵単体それぞれに感電状態を付与する、#3[i]ターン継続。\n感電状態の敵はターンが回ってくるたびに、セーバルの攻撃力#2[i]%分の雷属性持続ダメージを受ける。",
+        "ko": "적을 바로 공격하며, 전투 진입 후 랜덤 단일 적에게 서벌 공격력 #4[i]%만큼의 번개 속성 피해를 가하고, #1[i]%의 기본 확률로 각 단일 적을 감전 상태에 빠트린다. 지속 시간: #3[i]턴\n감전 상태의 적은 새로운 턴이 시작될 때마다 서벌 공격력 #2[i]%만큼의 번개 속성 지속 피해를 받는다"
+      },
+      "params": [
+        [
+          1,
+          0.5,
+          3,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Câmara do Eco",
+        "en": "Echo Chamber",
+        "zh-CN": "余音绕梁",
+        "ja": "いつまでも{RUBY_B#な}鳴{RUBY_E#}り{RUBY_B#ひび}響{RUBY_E#}け",
+        "ko": "귓가에 맴도는 소리"
+      },
+      "description": {
+        "pt-BR": "O ATQ Básico causa Dano de Raio igual a 60% do Dano do ATQ Básico a um inimigo-alvo aleatório adjacente ao inimigo-alvo.",
+        "en": "Basic ATK deals Lightning DMG equal to 60% of Basic ATK DMG to a random target adjacent to the target enemy.",
+        "zh-CN": "普攻对指定敌方目标的1个随机相邻目标造成等同于普攻伤害60%的雷属性伤害。",
+        "ja": "通常攻撃は指定した敵に隣接するランダムな敵に、通常攻撃ダメージ60%分の雷属性ダメージを与える。",
+        "ko": "일반 공격이 지정된 적에 인접한 임의의 적 1기에게 일반 공격 피해 60%만큼의 번개 속성 피해를 가한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Bis!",
+        "en": "Encore!",
+        "zh-CN": "安可！",
+        "ja": "アンコール！",
+        "ko": "앵콜!"
+      },
+      "description": {
+        "pt-BR": "Sempre que o Talento de Serval ativar Dano Adicional, ela regenera 4 de Energia.",
+        "en": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy.",
+        "zh-CN": "每触发1次天赋的附加伤害，希露瓦恢复4点能量。",
+        "ja": "天賦による付加ダメージを1回発動するたびに、セーバルはEPを4回復する。",
+        "ko": "특성의 추가 피해를 1회 발동할 때마다 서벌은 에너지를 4pt 회복한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Ouça o Batimento das Engrenagens",
+        "en": "Listen, the Heartbeat of the Gears",
+        "zh-CN": "听，齿轮的心跳",
+        "ja": "{RUBY_B#き}聞{RUBY_E#}け、{RUBY_B#はぐるま}歯車{RUBY_E#}の{RUBY_B#こどう}鼓動{RUBY_E#}を",
+        "ko": "톱니바퀴의 심장 소리를 들어봐"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Faça Barulho!",
+        "en": "Make Some Noise!",
+        "zh-CN": "制造噪音吧！",
+        "ja": "{RUBY_B#そうおん}噪音{RUBY_E#}を{RUBY_B#な}鳴{RUBY_E#}らせ！",
+        "ko": "소리 질러!"
+      },
+      "description": {
+        "pt-BR": "A Perícia Suprema tem uma chance-base de 100% de causar \"Choque\" em inimigos que ainda não possuírem esse estado. Esse estado de \"Choque\" tem os mesmos efeitos daquele causado pela Perícia.",
+        "en": "Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.",
+        "zh-CN": "施放终结技时，有100%基础概率使非触电状态下的敌方目标状态陷入与战技相同的触电状态。",
+        "ja": "必殺技を発動した時、100%の基礎確率で感電状態でない敵を、戦闘スキルが与えるものと同じ感電状態にする。",
+        "ko": "필살기 발동 시 100%의 기본 확률로 비감전 상태의 적을 전투 스킬과 동일한 감전 상태에 빠트린다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "O Rugido Mais Alto de Belobog!",
+        "en": "Belobog's Loudest Roar!",
+        "zh-CN": "贝洛伯格最强音！",
+        "ja": "ベロブルグ{RUBY_B#さいきょうおん}最強音{RUBY_E#}！",
+        "ko": "벨로보그 가수다!"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Essa Música Abala os Céus!",
+        "en": "This Song Rocks to Heaven!",
+        "zh-CN": "这一曲，贯穿天穹！",
+        "ja": "この{RUBY_B#いっきょく}一曲{RUBY_E#}、\n{RUBY_B#てんきゅう}天穹{RUBY_E#}を{RUBY_B#つらぬ}貫{RUBY_E#}く！",
+        "ko": "천공을 가르는 노래!"
+      },
+      "description": {
+        "pt-BR": "Serval causa 30% a mais de Dano a inimigos afligidos com Choque.",
+        "en": "Serval deals 30% more DMG to Shocked enemies.",
+        "zh-CN": "希露瓦对触电状态下的敌方目标造成的伤害提高30%。",
+        "ja": "感電状態の敵に対するセーバルの与ダメージ+30%。",
+        "ko": "서벌이 감전 상태의 적에게 가하는 피해가 30% 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1103.png",
+    "preview": "image/character_preview/1103.png",
+    "portrait": "image/character_portrait/1103.png"
+  }
+}

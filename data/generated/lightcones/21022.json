@@ -1,0 +1,65 @@
+{
+  "id": 21022,
+  "slug": "fermata",
+  "name": {
+    "pt-BR": "Fermata",
+    "en": "Fermata",
+    "zh-CN": "延长记号",
+    "ja": "フェルマータ",
+    "ko": "페르마타"
+  },
+  "rarity": 4,
+  "path": "Nihility",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "O disco fonográfico está tocando, girando sem parar. Mesmo os sons de todos aqueles gritos roucos não conseguem escapar da onda de calor e são amortecidos por sua tepidez.\nEla parecia despreparada e totalmente encantada com as fascinantes melodias:\nO disco começou com sinceridade e antecipação...\n...seguido por uma catarse apaixonada...\n...com um clímax após o outro...\n...Até que o disco chegou ao fim e aqueles gritos roucos não eram mais perceptíveis.\n\"Missão cumprida.\"",
+    "en": "The phonograph record is being played, spinning nonstop. Even the sounds of all those hoarse shrieks cannot escape the heatwave and are dampened by its tepidity.\nShe seemed unprepared and utterly enthralled by the fascinating melodies:\nIt started with sincerity and anticipation...\n...followed by a passionate catharsis...\n...with one climax after another...\n...until the record's spinning came to a final stop and those hoarse shrieks were no longer audible.\n\"Mission accomplished.\"",
+    "zh-CN": "唱片转呀转呀，嘶哑的叫喊被热气浸润。\n她看似毫无防备，沉醉在迷人的旋律中：\n先由恳求与期待引入，\n再是激烈真挚的倾诉，\n跃过一个又一个高潮…\n直到唱片停转，嘶哑的叫喊也失了声息。\n「任务结束。」",
+    "ja": "レコードは回り続け、かすれた叫び声は熱気に浸潤される。\n彼女は無防備で、魅力的な旋律に酔い痴れているように見える。\n懇願と期待から引き入れ、\nそして激情的で真摯な陳情、\n一つ、また一つの最高潮を超え…\nそしてレコードが回転を止め、叫び声が途切れる。\n「任務完了」",
+    "ko": "레코드판이 돌고 돌아, 고함소리가 열기에 젖어든다.\n그녀는 무방비해 보이는 상태로 황홀한 멜로디에 취한다:\n도입부에서 기대감을 주고,\n격렬하고 진지한 서사가 이어지고,\n연이은 클라이맥스를 뛰어넘는다….\n레코드판이 멈추고 나서야 고함소리가 사라진다.\n「임무 종료」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Descanso Semibreve",
+      "en": "Semibreve Rest",
+      "zh-CN": "休止符",
+      "ja": "休符",
+      "ko": "쉼표"
+    },
+    "description": {
+      "pt-BR": "Aumenta em #1[i]% o Efeito de Quebra do usuário e aumenta o Dano que ele causa a inimigos sob o status de Choque ou Cisalhamento de Vento em #2[i]%. Também se aplica a Dano Contínuo.",
+      "en": "Increases the wearer's Break Effect by #1[i]%, and increases their DMG to enemies afflicted with Shock or Wind Shear by #2[i]%. This also applies to DoT.",
+      "zh-CN": "使装备者的击破特攻提高#1[i]%，对处于触电或风化状态的敌方目标造成的伤害提高#2[i]%，该效果对持续伤害也会生效。",
+      "ja": "装備キャラの撃破特効+#1[i]%、感電状態または風化状態の敵に対する与ダメージ+#2[i]%、この効果は持続ダメージにも有効。",
+      "ko": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가하고, 감전이나 풍화 상태의 적에게 가하는 피해가 #2[i]% 증가한다. 해당 효과는 지속 피해에도 적용된다"
+    },
+    "params": [
+      [
+        0.16,
+        0.16
+      ],
+      [
+        0.2,
+        0.2
+      ],
+      [
+        0.24,
+        0.24
+      ],
+      [
+        0.28,
+        0.28
+      ],
+      [
+        0.32,
+        0.32
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21022.png",
+    "preview": "image/light_cone_preview/21022.png",
+    "portrait": "image/light_cone_portrait/21022.png"
+  }
+}

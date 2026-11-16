@@ -1,0 +1,75 @@
+{
+  "id": 23036,
+  "slug": "time-woven-into-gold",
+  "name": {
+    "pt-BR": "Tempo Tecido em Ouro",
+    "en": "Time Woven Into Gold",
+    "zh-CN": "将光阴织成黄金",
+    "ja": "光陰を織り黄金と成す",
+    "ko": "시간을 황금으로 엮어"
+  },
+  "rarity": 5,
+  "path": "Remembrance",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "\"Este fio é o sacrifício de um soldado.\"\n\"Este fio, o crescimento de um herói.\"\n\"Este fio, a prosperidade da pólis.\"\n...\n...\nA Confeccionadora puxa os fios usando uma agulha, segurando tudo entre seus dedos.\n\"O destino de alguns heróis já foi rompido...\"\nEla pega outro conjunto de fios dourados e continua seu trabalho.\n\"Os destinos de certos heróis devem continuar...\"\nO tear dado pela divindade continuou a trabalhar, e as Confeccionadoras dançavam com graça vibrante. Éons já haviam passado pelo tear, e ela estava há muito acostumada a esperar assim...\nPelo bem da transformação do tempo em \"Inspiração\" dourada.",
+    "en": "\"This strand, a soldier's sacrifice.\"\n\"This strand, a hero's growth.\"\n\"This strand, the city's prosperity.\"\n....\nThe Garmentmaker pulls at the threads using a needle, everything held between her fingers.\n\"The destiny of certain heroes has already been severed...\"\nShe scoops up another set of golden threads and continues her mending.\n\"The fates of certain heroes must continue...\"\nThe divine loom weaves on, and the Garmentmakers dance with lively grace. Eons of time had already passed through the loom, and she has long been accustomed to such waiting....\nFor the sake of turning time to golden \"inspiration.\"",
+    "zh-CN": "「这一缕，是战士的牺牲。」\n「这一缕，是英雄的成长。」\n「这一缕，是城邦的繁盛。」\n……\n衣匠牵丝引线，汇聚在她的指尖。\n「一些英雄的轨迹，已然断裂……」\n她挽起另一些金丝，接续缝补。\n「一些英雄的命运，仍要向前延展……」\n被赋予神性的织机兀自运转，衣匠们曼舞翩跹。千年时光在织机上流过，她早已习惯了如此的等待——\n为了那将光阴织成黄金的「灵感」。",
+    "ja": "「この一筋は、戦士の犠牲」\n「この一筋は英雄の成長」\n「そして、この一筋は都市国家の繁栄」\n……\nラフトラが金糸を手繰り寄せ、彼女の指先に集めていく。\n「いくつかの英雄の軌跡は…すでに断たれています……」\n彼女は他の金糸を引き寄せて織り続ける。\n「いくつかの英雄の運命は…まだ紡がれていくべきです……」\n神性を与えられた織機が回り続け、ラフトラたちは軽やかに舞い、千年の歳月が織機によって織られていく。彼女は待つことにすっかり慣れてしまった——\nその忍耐強さは、光陰を黄金へと織り上げる「インスピレーション」のためにあるのだ。",
+    "ko": "「이 실은 전사의 희생」\n「이 실은 영웅의 성장」\n「이 실은 나라의 번영」\n……\n의상공은 실을 그녀의 손가락 끝에 모았다.\n「일부 영웅들의 궤적이 끊겼어……」\n그녀는 다른 금실들을 잡아당기고는 바느질을 이어갔다.\n「어떤 영웅들의 운명은 계속 이어져야 해……」\n신성이 깃든 베틀은 여전히 돌아가고, 의상공들은 경쾌하게 춤을 췄다. 기나긴 시간이 베틀 위에서 흘러갔고, 그녀는 이러한 기다림에 익숙해진지 오래다——\n시간을 황금으로 엮는 「영감」을 위해서"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Estabelecimento",
+      "en": "Establishment",
+      "zh-CN": "创设",
+      "ja": "設立",
+      "ko": "창설"
+    },
+    "description": {
+      "pt-BR": "Aumenta a VEL base do usuário em #1[i]. Após o usuário e o Memoespírito do usuário atacarem, o usuário ganha 1 acúmulo de \"Brocado\". Cada acúmulo de \"Brocado\" aumenta o Dano CRIT do usuário e de seu Memoespírito em #4[f1]%, acumulando até #2[i] vez(es). Ao atingir o número máximo de acúmulos, cada acúmulo de \"Brocado\" aumentará adicionalmente o Dano causado pelo ATQ Básico em #3[f1]%.",
+      "en": "Increases the wearer's base SPD by #1[i]. After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of \"Brocade.\" Each stack of \"Brocade\" increases the wearer's and their memosprite's CRIT DMG by #4[f1]%, stacking up to #2[i] time(s). When reaching maximum stacks, each \"Brocade\" stack additionally increases Basic ATK DMG dealt by #3[f1]%.",
+      "zh-CN": "使装备者的基础速度提高#1[i]，装备者和装备者的忆灵在攻击后使装备者获得1层【织锦】，每层【织锦】使装备者和装备者的忆灵暴击伤害提高#4[f1]%，最多叠加#2[i]层。叠加至上限时，每层【织锦】额外使造成的普攻伤害提高#3[f1]%。",
+      "ja": "装備キャラの基礎速度+#1[i]。装備キャラまたはその記憶の精霊が攻撃を行った後、装備キャラに「錦を織って」を1層付与する。「錦を織って」1層につき、装備キャラおよびその記憶の精霊の会心ダメージ+#4[f1]%、最大で#2[i]層累積できる。「錦を織って」の層数が上限に達すると、1層につき、追加で通常攻撃ダメージ+#3[f1]%。",
+      "ko": "장착한 캐릭터의 기본 속도가 #1[i] 증가한다. 장착한 캐릭터 및 장착한 캐릭터의 기억 정령이 공격 후 장착한 캐릭터는 [비단]을 1스택 획득하며, [비단] 스택마다 장착한 캐릭터 및 장착한 캐릭터의 기억 정령의 치명타 피해가 #4[f1]% 증가한다, 최대 중첩수: #2[i]스택. 최대 중첩수에 도달하면 [비단] 스택마다 가하는 일반 공격 피해가 추가로 #3[f1]% 증가한다"
+    },
+    "params": [
+      [
+        12,
+        6,
+        0.09,
+        0.09
+      ],
+      [
+        14,
+        6,
+        0.105,
+        0.105
+      ],
+      [
+        16,
+        6,
+        0.12,
+        0.12
+      ],
+      [
+        18,
+        6,
+        0.135,
+        0.135
+      ],
+      [
+        20,
+        6,
+        0.15,
+        0.15
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/23036.png",
+    "preview": "image/light_cone_preview/23036.png",
+    "portrait": "image/light_cone_portrait/23036.png"
+  }
+}

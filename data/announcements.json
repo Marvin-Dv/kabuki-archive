@@ -1,1 +1,994 @@
-{}
+{
+  "characters": {
+    "1001": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1002": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1003": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1004": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1006": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1009": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1013": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1014": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1015": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1101": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1102": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1103": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1104": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1105": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1106": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1107": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1108": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1109": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1110": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1111": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1112": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1201": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1202": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1203": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1204": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1205": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1206": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1207": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1208": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1209": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1210": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1211": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1212": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1213": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1214": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1215": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1217": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1218": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1220": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1221": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1222": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1223": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1224": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1225": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1301": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1302": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1303": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1304": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1305": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1306": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1307": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1308": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1309": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1310": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1312": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1313": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1314": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1315": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1317": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1321": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1401": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1402": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1403": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1404": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1405": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1406": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1407": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1408": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1409": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1410": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1412": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1413": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1414": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1415": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1504": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1507": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1508": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1509": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1510": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1512": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8001": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8002": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8003": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8004": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8006": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8007": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    }
+  },
+  "lightcones": {
+    "20000": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20001": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20002": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20003": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20004": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20006": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20007": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20009": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20010": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20011": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20012": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20013": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20014": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20015": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20016": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20017": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20018": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20019": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20020": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20021": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20022": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21000": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21001": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21002": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21003": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21004": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21006": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21007": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21009": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21010": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21011": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21012": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21013": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21014": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21015": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21016": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21017": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21018": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21019": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21020": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21021": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21022": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21023": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21024": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21025": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21026": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21027": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21028": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21029": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21030": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21031": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21032": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21033": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21034": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21035": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21036": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21037": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21038": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21039": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21040": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21041": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21042": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21043": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21044": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21045": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21046": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21047": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21048": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21050": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21051": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21052": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21053": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21054": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21055": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21056": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21057": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21058": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21060": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21061": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21062": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22000": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22001": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22002": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22003": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22004": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22006": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23000": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23001": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23002": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23003": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23004": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23006": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23007": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23009": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23010": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23011": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23012": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23013": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23014": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23015": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23016": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23017": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23018": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23019": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23020": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23021": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23022": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23023": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23024": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23025": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23026": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23027": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23028": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23029": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23030": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23031": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23032": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23033": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23034": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23035": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23036": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23037": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23038": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23039": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23040": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23041": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23042": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23043": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23044": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23045": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23046": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23047": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23048": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23049": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23050": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23051": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23052": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23056": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23059": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23060": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23061": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23062": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23063": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "24000": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "24001": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "24002": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "24003": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "24004": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "24005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    }
+  }
+}

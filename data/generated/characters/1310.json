@@ -1,0 +1,1419 @@
+{
+  "id": 1310,
+  "slug": "firefly",
+  "name": {
+    "pt-BR": "Vaga-lume",
+    "en": "Firefly",
+    "zh-CN": "流萤",
+    "ja": "ホタル",
+    "ko": "반디"
+  },
+  "rarity": 5,
+  "path": "Destruction",
+  "element": "Fire",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 131001,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Ordem: Propulsão de Chamas",
+        "en": "Order: Flare Propulsion",
+        "zh-CN": "指令-闪燃推进",
+        "ja": "コマンド-フラッシュオーバー推進",
+        "ko": "지령-폭연 추진"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de SAM a um único inimigo.",
+        "en": "Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于装甲「萨姆」#1[i]%攻击力的火属性伤害。",
+        "ja": "指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 131002,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Ordem: Bombardeio Aéreo",
+        "en": "Order: Aerial Bombardment",
+        "zh-CN": "指令-天火轰击",
+        "ja": "コマンド-天火轟撃",
+        "ko": "지령-천공 포격"
+      },
+      "description": {
+        "pt-BR": "Consome PV igual a #2[i]% dos PV máximos desta unidade e regenera uma quantidade fixa de Energia igual a #3[i]% da Energia Máxima desta unidade. Causa Dano de Fogo equivalente a #1[i]% do ATQ de SAM a um inimigo designado. Se os PV atuais não forem suficientes, os PV de SAM serão reduzidos a 1 ao usar esta Perícia. Avança Adiante a próxima ação desta unidade em #4[i]%.",
+        "en": "Consumes HP equal to #2[i]% of this unit's Max HP and regenerates a fixed amount of Energy equal to #3[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by #4[i]%.",
+        "zh-CN": "消耗等同于自身生命上限#2[i]%的生命值固定恢复等同于自身#3[i]%能量上限的能量，对指定敌方单体造成等同于装甲「萨姆」#1[i]%攻击力的火属性伤害。若当前生命值不足，施放战技时装甲「萨姆」的当前生命值降至1点。使自身下一次行动提前#4[i]%。",
+        "ja": "自身の最大HP#2[i]%分のHPを消費し、自身の最大EP#3[i]%分のEPを固定で回復する。指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。残りHPが足りない場合、戦闘スキルを発動する時、装甲「サム」の残りHPが1になる。自身の次の行動順を#4[i]%早める。",
+        "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 소모해 자신의 에너지 최대치의 #3[i]%만큼 에너지를 고정으로 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다. 현재 HP가 부족하면 전투 스킬 발동 시 기갑 「샘」의 현재 HP가 1pt로 감소한다. 자신의 다음번 행동 게이지를 #4[i]% 증가시킨다"
+      },
+      "params": [
+        [
+          1,
+          0.4,
+          0.5,
+          0.25
+        ],
+        [
+          1.1,
+          0.4,
+          0.51,
+          0.25
+        ],
+        [
+          1.2,
+          0.4,
+          0.52,
+          0.25
+        ],
+        [
+          1.3,
+          0.4,
+          0.53,
+          0.25
+        ],
+        [
+          1.4,
+          0.4,
+          0.54,
+          0.25
+        ],
+        [
+          1.5,
+          0.4,
+          0.55,
+          0.25
+        ],
+        [
+          1.625,
+          0.4,
+          0.5625,
+          0.25
+        ],
+        [
+          1.75,
+          0.4,
+          0.575,
+          0.25
+        ],
+        [
+          1.875,
+          0.4,
+          0.5875,
+          0.25
+        ],
+        [
+          2,
+          0.4,
+          0.6,
+          0.25
+        ],
+        [
+          2.1,
+          0.4,
+          0.61,
+          0.25
+        ],
+        [
+          2.2,
+          0.4,
+          0.62,
+          0.25
+        ],
+        [
+          2.3,
+          0.4,
+          0.63,
+          0.25
+        ],
+        [
+          2.4,
+          0.4,
+          0.64,
+          0.25
+        ],
+        [
+          2.5,
+          0.4,
+          0.65,
+          0.25
+        ]
+      ]
+    },
+    {
+      "id": 131003,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Vaga-lume Tipo-IV: Combustão Completa",
+        "en": "Fyrefly Type-IV: Complete Combustion",
+        "zh-CN": "火萤Ⅳ型-完全燃烧",
+        "ja": "ファイアフライ-IV-完全燃焼",
+        "ko": "반딧불이 Type-IV•완전연소"
+      },
+      "description": {
+        "pt-BR": "Entra no estado de \"Combustão Completa\", a ação desta unidade é Avançada Adiante em 100% e ganha ATQ Básico Aprimorado e Perícia Aprimorada. Enquanto em \"Combustão Completa\", aumenta a VEL de SAM em #3[i], e ao usar o ATQ Básico Aprimorado ou a Perícia Aprimorada, aumenta a eficiência de Quebra de Fraqueza desta unidade em #2[i]%, e aumenta o Dano de Quebra causado por SAM aos inimigos-alvo em #1[f1]%, durando até o fim do ataque atual.\nUm contador de tempo para o estado de \"Combustão Completa\" aparece na Ordem de Ação. Quando a rodada do contador começa, SAM sai do estado de \"Combustão Completa\". O contador tem uma VEL fixa de #4[i].\nSAM não pode usar a Perícia Suprema enquanto estiver em \"Combustão Completa\".",
+        "en": "Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #3[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by #2[i]% and increases the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.\nA countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of #4[i].\nSAM cannot use Ultimate while in Complete Combustion.",
+        "zh-CN": "进入「完全燃烧」状态，自身行动提前100%并获得强化普攻和强化战技。「完全燃烧」状态下速度提高#3[i]点，且施放强化普攻、强化战技时自身弱点击破效率提高#2[i]%、使敌方目标受到装甲「萨姆」造成的击破伤害提高#1[f1]%，持续至本次攻击结束。\n行动序列上出现「完全燃烧」倒计时，倒计时回合开始时装甲「萨姆」解除「完全燃烧」状态，倒计时固定拥有#4[i]速度。\n「完全燃烧」状态下装甲「萨姆」无法施放终结技。",
+        "ja": "「完全燃焼」状態に入り、自身の行動順を100%早める。また、通常攻撃が「ファイアフライ-IV-底火斬撃」に、戦闘スキルが「ファイアフライ-IV-死星オーバーロード」に強化される。「完全燃焼」状態の時、速度+#3[i]。さらに、強化通常攻撃または強化戦闘スキルを発動する時、自身の弱点撃破効率+#2[i]%、敵が装甲「サム」から受ける弱点撃破ダメージ+#1[f1]%、その回の攻撃が終了するまで継続。\nアクションバーに「完全燃焼」のカウントダウンが出現する。カウントダウンのターンが回ってきた時、装甲「サム」は「完全燃焼」状態を解除する。カウントダウンの速度は#4[i]に固定される。\n「完全燃焼」状態の装甲「サム」は必殺技を発動できない。",
+        "ko": "「완전연소」 상태에 진입하고 자신의 행동 게이지가 100% 증가하며, 일반 공격 강화 및 전투 스킬 강화를 획득한다. 「완전연소」 상태에서는 속도가 #3[i]pt 증가하며, 강화된 일반 공격 및 강화된 전투 스킬 발동 시 자신의 약점 격파 효율이 #2[i]% 증가하고, 적이 기갑 「샘」으로부터 받는 격파 피해가 #1[f1]% 증가하며, 이번 공격이 끝날 때까지 지속된다.\n행동 서열에 「완전연소」 카운트다운이 나타나고, 카운트다운 턴 시작 시 기갑 「샘」이 「완전연소」 상태를 해제한다. 카운트다운이 보유한 고정 속도는 #4[i]이다.\n기갑 「샘」은 「완전연소」 상태에서 필살기를 발동할 수 없다"
+      },
+      "params": [
+        [
+          0.1,
+          0.5,
+          30,
+          70
+        ],
+        [
+          0.11,
+          0.5,
+          33,
+          70
+        ],
+        [
+          0.12,
+          0.5,
+          36,
+          70
+        ],
+        [
+          0.13,
+          0.5,
+          39,
+          70
+        ],
+        [
+          0.14,
+          0.5,
+          42,
+          70
+        ],
+        [
+          0.15,
+          0.5,
+          45,
+          70
+        ],
+        [
+          0.1625,
+          0.5,
+          48.75,
+          70
+        ],
+        [
+          0.175,
+          0.5,
+          52.5,
+          70
+        ],
+        [
+          0.1875,
+          0.5,
+          56.25,
+          70
+        ],
+        [
+          0.2,
+          0.5,
+          60,
+          70
+        ],
+        [
+          0.21,
+          0.5,
+          63,
+          70
+        ],
+        [
+          0.22,
+          0.5,
+          66,
+          70
+        ],
+        [
+          0.23,
+          0.5,
+          69,
+          70
+        ],
+        [
+          0.24,
+          0.5,
+          72,
+          70
+        ],
+        [
+          0.25,
+          0.5,
+          75,
+          70
+        ]
+      ]
+    },
+    {
+      "id": 131004,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Pironexus de Crisálida",
+        "en": "Chrysalid Pyronexus",
+        "zh-CN": "茧式源火中枢",
+        "ja": "ホタル式源火中枢",
+        "ko": "고치형 원초 화염 중추"
+      },
+      "description": {
+        "pt-BR": "Quanto menores os PV, menor o Dano recebido. Quando os PV estiverem em #3[i]% ou menos, a Redução de Dano alcança seu efeito máximo, reduzindo até #1[i]%. Durante a \"Combustão Completa\", a Redução de Dano permanece em seu efeito máximo, e a RES a Efeitos aumenta em #4[i]%.\nSe a Energia estiver abaixo de #2[i]% quando a batalha começar, a Energia será regenerada até #2[i]%. Quando a Energia for regenerada ao máximo, todas as penalidades desta unidade serão dissipadas.",
+        "en": "The lower the HP, the less DMG received. When HP is #3[i]% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #4[i]%.\nIf Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[i]%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+        "zh-CN": "生命值越低受到的伤害越低，生命值小于等于#3[i]%时减伤效果达到最大值，最多降低#1[i]%。「完全燃烧」状态下减伤效果维持最大值，效果抵抗提高#4[i]%。\n战斗开始时若能量不足#2[i]%则使其恢复至#2[i]%。当能量恢复至上限时解除自身所有负面效果。",
+        "ja": "残りHPが少ないほど受けるダメージがダウンする。残りHPが#3[i]%以下の時、ダメージ軽減効果が最大値に達する、最大で受けるダメージ-#1[i]%。「完全燃焼」状態の時、ダメージ軽減効果は最大値を維持し、効果抵抗+#4[i]%。\n戦闘開始時、EPが#2[i]%未満の場合、EPを#2[i]%まで回復する。EPが満タンになる時、自身にあるデバフをすべて解除する。",
+        "ko": "HP가 낮을수록 받는 피해가 감소한다. HP가 #3[i]% 이하일 경우 피해 감소 효과가 최대치에 도달하며, 최대 #1[i]% 감소한다. 「완전연소」 상태에서는 피해 감소 효과가 최대치를 유지하며, 효과 저항이 #4[i]% 증가한다.\n전투 시작 시 에너지가 #2[i]% 미만일 경우 에너지를 #2[i]%까지 회복한다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과가 해제된다"
+      },
+      "params": [
+        [
+          0.2,
+          0.5,
+          0.2,
+          0.1
+        ],
+        [
+          0.22,
+          0.5,
+          0.2,
+          0.12
+        ],
+        [
+          0.24,
+          0.5,
+          0.2,
+          0.14
+        ],
+        [
+          0.26,
+          0.5,
+          0.2,
+          0.16
+        ],
+        [
+          0.28,
+          0.5,
+          0.2,
+          0.18
+        ],
+        [
+          0.3,
+          0.5,
+          0.2,
+          0.2
+        ],
+        [
+          0.325,
+          0.5,
+          0.2,
+          0.225
+        ],
+        [
+          0.35,
+          0.5,
+          0.2,
+          0.25
+        ],
+        [
+          0.375,
+          0.5,
+          0.2,
+          0.275
+        ],
+        [
+          0.4,
+          0.5,
+          0.2,
+          0.3
+        ],
+        [
+          0.42,
+          0.5,
+          0.2,
+          0.32
+        ],
+        [
+          0.44,
+          0.5,
+          0.2,
+          0.34
+        ],
+        [
+          0.46,
+          0.5,
+          0.2,
+          0.36
+        ],
+        [
+          0.48,
+          0.5,
+          0.2,
+          0.38
+        ],
+        [
+          0.5,
+          0.5,
+          0.2,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": 131006,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 131007,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Ordem Δ: Incineração Meteórica",
+        "en": "Δ Order: Meteoric Incineration",
+        "zh-CN": "Δ指令-焦土陨击",
+        "ja": "Δコマンド-焦土隕撃",
+        "ko": "Δ지령-초토화 운석 폭격"
+      },
+      "description": {
+        "pt-BR": "Salta no ar e se move livremente por #1[i] segundos, podendo finalizar esse movimento mais cedo com um ataque de mergulho. Quando esta duração termina, SAM mergulha e ataca imediatamente todos os inimigos dentro de uma área definida. No início de cada onda, aplica Fraqueza contra Fogo a todos os inimigos, durando por #3[i] rodada(s). Em seguida, causa Dano de Fogo igual a #2[i]% do ATQ de SAM a todos os inimigos.",
+        "en": "Leaps into the air and moves about freely for #1[i] seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for #3[i] turn(s). Then, deals Fire DMG equal to #2[i]% of SAM's ATK to all enemies.",
+        "zh-CN": "跳跃至空中并进行自由移动，持续#1[i]秒，此时施放下落攻击可以提前结束持续时间。持续时间结束后，下落并立即攻击一定范围内的所有敌人，每个波次开始时为敌方全体添加火属性弱点，持续#3[i]回合，此后对敌方全体造成等同于装甲「萨姆」#2[i]%攻击力的火属性伤害。",
+        "ja": "空中に跳び上がり、自由に移動する、#1[i]秒間継続。継続時間終了後、落下攻撃を行い、一定範囲内のすべての敵を攻撃する。継続時間中に攻撃を行うと、直ちに落下攻撃を行うことができる。各ウェーブ開始時、敵全体に炎属性弱点を付与する、#3[i]ターン継続。その後、敵全体に装甲「サム」の攻撃力#2[i]%分の炎属性ダメージを与える。",
+        "ko": "공중으로 도약해 #1[i]초 동안 자유롭게 이동하며, 이때 낙하 공격을 발동하면 지속 시간을 조기 종료한다. 지속 시간이 종료되면 낙하해 즉시 일정 범위 내 모든 적을 공격하고, 매 웨이브 시작 시 모든 적에게 화염 속성 약점을 추가한다, 지속 시간: #3[i]턴. 이후 모든 적에게 기갑 「샘」 공격력의 #2[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          5,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 131008,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Vaga-lume Tipo-IV: Dizimação Pirogênica",
+        "en": "Fyrefly Type-IV: Pyrogenic Decimation",
+        "zh-CN": "火萤Ⅳ型-底火斩击",
+        "ja": "ファイアフライ-IV-底火斬撃",
+        "ko": "반딧불이 Type-IV•뇌관 참격"
+      },
+      "description": {
+        "pt-BR": "Restaura PV em uma quantidade igual a #2[i]% dos PV máximos desta unidade. Causa Dano de Fogo igual a #1[i]% do ATQ de SAM a um inimigo designado.",
+        "en": "Restores HP by an amount equal to #2[i]% of this unit's Max HP. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.",
+        "zh-CN": "回复等同于自身#2[i]%生命上限的生命值。对指定敌方单体造成等同于装甲「萨姆」#1[i]%攻击力的火属性伤害。",
+        "ja": "自身の最大HP#2[i]%分のHPを回復する。指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          1,
+          0.2
+        ],
+        [
+          1.2,
+          0.2
+        ],
+        [
+          1.4,
+          0.2
+        ],
+        [
+          1.6,
+          0.2
+        ],
+        [
+          1.8,
+          0.2
+        ],
+        [
+          2,
+          0.2
+        ],
+        [
+          2.2,
+          0.2
+        ],
+        [
+          2.4,
+          0.2
+        ],
+        [
+          2.6,
+          0.2
+        ],
+        [
+          2.8,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": 131009,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Vaga-lume Tipo-IV: Sobrecarga da Estrela da Morte",
+        "en": "Fyrefly Type-IV: Deathstar Overload",
+        "zh-CN": "火萤Ⅳ型-死星过载",
+        "ja": "ファイアフライ-IV-死星オーバーロード",
+        "ko": "반딧불이 Type-IV•데스 스타 과부하"
+      },
+      "description": {
+        "pt-BR": "Restaura os PV em #3[i]% dos PV máximos desta unidade. Aplica Fraqueza contra Fogo a um único inimigo, durando por #4[i] rodada(s). Causa Dano de Fogo igual a (#5[f1] x Efeito de Quebra + #1[f1]%) do ATQ de SAM a este alvo. Ao mesmo tempo, causa Dano de Fogo igual a (#6[f1] x Efeito de Quebra + #2[f1]%) do ATQ de SAM aos alvos adjacentes. O Efeito de Quebra considerado no cálculo é limitado a #7[i]%.",
+        "en": "Restores HP by an amount equal to #3[i]% of this unit's Max HP. Applies Fire Weakness to one designated enemy, lasting for #4[i] turn(s). Deals Fire DMG equal to (#5[f1] × Break Effect + #1[f1]%) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (#6[f1] × Break Effect + #2[f1]%) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at #7[i]%.",
+        "zh-CN": "回复等同于自身#3[i]%生命上限的生命值。为指定敌方单体添加火属性弱点，持续#4[i]回合。对该目标造成等同于装甲「萨姆」（#5[f1]*击破特攻+#1[f1]%）攻击力的火属性伤害。同时对其相邻目标造成等同于装甲「萨姆」（#6[f1]*击破特攻+#2[f1]%）攻击力的火属性伤害。最多计算#7[i]%击破特攻。",
+        "ja": "自身の最大HP#3[i]%分のHPを回復する。指定した敵単体に炎属性弱点を付与する、#4[i]ターン継続。その敵に装甲「サム」の攻撃力（#5[f1]×撃破特効+#1[f1]%）分の炎属性ダメージを与え、隣接する敵に装甲「サム」の攻撃力（#6[f1]×撃破特効+#2[f1]%）分の炎属性ダメージを与える。撃破特効は最大で#7[i]%までカウントされる。",
+        "ko": "자신의 HP 최대치의 #3[i]%만큼 HP를 회복한다. 지정된 단일 적에게 화염 속성 약점을 부여한다, 지속 시간: #4[i]턴. 해당 목표에게 기갑 「샘」 공격력의 (#5[f1]x격파 특수효과+#1[f1]%)만큼 화염 속성 피해를 가하고, 인접한 목표에게 기갑 「샘」 공격력의 (#6[f1]x격파 특수효과+#2[f1]%)만큼 화염 속성 피해를 가한다. 격파 특수효과는 최대 #7[i]%까지 계산한다"
+      },
+      "params": [
+        [
+          1,
+          0.5,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.1,
+          0.55,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.2,
+          0.6,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.3,
+          0.65,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.4,
+          0.7,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.5,
+          0.75,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.625,
+          0.8125,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.75,
+          0.875,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          1.875,
+          0.9375,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          2,
+          1,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          2.1,
+          1.05,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          2.2,
+          1.1,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          2.3,
+          1.15,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          2.4,
+          1.2,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ],
+        [
+          2.5,
+          1.25,
+          0.25,
+          2,
+          0.2,
+          0.1,
+          3.6
+        ]
+      ]
+    },
+    {
+      "id": 1131001,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Ordem: Propulsão de Chamas",
+        "en": "Order: Flare Propulsion",
+        "zh-CN": "指令-闪燃推进",
+        "ja": "コマンド-フラッシュオーバー推進",
+        "ko": "지령-폭연 추진"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de SAM a um único inimigo.",
+        "en": "Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于装甲「萨姆」#1[i]%攻击力的火属性伤害。",
+        "ja": "指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 1131002,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Ordem: Bombardeio Aéreo",
+        "en": "Order: Aerial Bombardment",
+        "zh-CN": "指令-天火轰击",
+        "ja": "コマンド-天火轟撃",
+        "ko": "지령-천공 포격"
+      },
+      "description": {
+        "pt-BR": "Consome PV igual a #2[i]% dos PV máximos desta unidade e regenera uma quantidade fixa de Energia igual a #3[i]% da Energia Máxima desta unidade. Causa Dano de Fogo equivalente a #1[i]% do ATQ de SAM a um inimigo designado. Se os PV atuais não forem suficientes, os PV de SAM serão reduzidos a 1 ao usar esta Perícia. Avança Adiante a próxima ação desta unidade em #4[i]%.",
+        "en": "Consumes HP equal to #2[i]% of this unit's Max HP and regenerates a fixed amount of Energy equal to #3[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by #4[i]%.",
+        "zh-CN": "消耗等同于自身生命上限#2[i]%的生命值固定恢复等同于自身#3[i]%能量上限的能量，对指定敌方单体造成等同于装甲「萨姆」#1[i]%攻击力的火属性伤害。若当前生命值不足，施放战技时装甲「萨姆」的当前生命值降至1点。使自身下一次行动提前#4[i]%。",
+        "ja": "自身の最大HP#2[i]%分のHPを消費し、自身の最大EP#3[i]%分のEPを固定で回復する。指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。残りHPが足りない場合、戦闘スキルを発動する時、装甲「サム」の残りHPが1になる。自身の次の行動順を#4[i]%早める。",
+        "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 소모해 자신의 에너지 최대치의 #3[i]%만큼 에너지를 고정으로 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다. 현재 HP가 부족하면 전투 스킬 발동 시 기갑 「샘」의 현재 HP가 1pt로 감소한다. 자신의 다음번 행동 게이지를 #4[i]% 증가시킨다"
+      },
+      "params": [
+        [
+          1,
+          0.4,
+          0.5,
+          0.25
+        ],
+        [
+          1.1,
+          0.4,
+          0.51,
+          0.25
+        ],
+        [
+          1.2,
+          0.4,
+          0.52,
+          0.25
+        ],
+        [
+          1.3,
+          0.4,
+          0.53,
+          0.25
+        ],
+        [
+          1.4,
+          0.4,
+          0.54,
+          0.25
+        ],
+        [
+          1.5,
+          0.4,
+          0.55,
+          0.25
+        ],
+        [
+          1.625,
+          0.4,
+          0.5625,
+          0.25
+        ],
+        [
+          1.75,
+          0.4,
+          0.575,
+          0.25
+        ],
+        [
+          1.875,
+          0.4,
+          0.5875,
+          0.25
+        ],
+        [
+          2,
+          0.4,
+          0.6,
+          0.25
+        ],
+        [
+          2.1,
+          0.4,
+          0.61,
+          0.25
+        ],
+        [
+          2.2,
+          0.4,
+          0.62,
+          0.25
+        ],
+        [
+          2.3,
+          0.4,
+          0.63,
+          0.25
+        ],
+        [
+          2.4,
+          0.4,
+          0.64,
+          0.25
+        ],
+        [
+          2.5,
+          0.4,
+          0.65,
+          0.25
+        ]
+      ]
+    },
+    {
+      "id": 1131003,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Vaga-lume Tipo-IV: Combustão Completa",
+        "en": "Fyrefly Type-IV: Complete Combustion",
+        "zh-CN": "火萤Ⅳ型-完全燃烧",
+        "ja": "ファイアフライ-IV-完全燃焼",
+        "ko": "반딧불이 Type-IV•완전연소"
+      },
+      "description": {
+        "pt-BR": "Entra no estado de \"Combustão Completa\", a ação desta unidade é Avançada Adiante em 100% e ganha ATQ Básico Aprimorado e Perícia Aprimorada. Enquanto em \"Combustão Completa\", aumenta a VEL de SAM em #3[i], e ao usar o ATQ Básico Aprimorado ou a Perícia Aprimorada, aumenta a eficiência de Quebra de Fraqueza desta unidade em #2[i]%, e aumenta o Dano de Quebra causado por SAM aos inimigos-alvo em #1[f1]%, durando até o fim do ataque atual.\nUm contador de tempo para o estado de \"Combustão Completa\" aparece na Ordem de Ação. Quando a rodada do contador começa, SAM sai do estado de \"Combustão Completa\". O contador tem uma VEL fixa de #4[i].\nSAM não pode usar a Perícia Suprema enquanto estiver em \"Combustão Completa\".",
+        "en": "Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #3[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by #2[i]% and increases the Break DMG dealt by SAM to the enemy targets by #1[f1]%, lasting until this current attack ends.\nA countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of #4[i].\nSAM cannot use Ultimate while in Complete Combustion.",
+        "zh-CN": "进入「完全燃烧」状态，自身行动提前100%并获得强化普攻和强化战技。「完全燃烧」状态下速度提高#3[i]点，且施放强化普攻、强化战技时自身弱点击破效率提高#2[i]%、使敌方目标受到装甲「萨姆」造成的击破伤害提高#1[f1]%，持续至本次攻击结束。\n行动序列上出现「完全燃烧」倒计时，倒计时回合开始时装甲「萨姆」解除「完全燃烧」状态，倒计时固定拥有#4[i]速度。\n「完全燃烧」状态下装甲「萨姆」无法施放终结技。",
+        "ja": "「完全燃焼」状態に入り、自身の行動順を100%早める。また、通常攻撃が「ファイアフライ-IV-底火斬撃」に、戦闘スキルが「ファイアフライ-IV-死星オーバーロード」に強化される。「完全燃焼」状態の時、速度+#3[i]。さらに、強化通常攻撃または強化戦闘スキルを発動する時、自身の弱点撃破効率+#2[i]%、敵が装甲「サム」から受ける弱点撃破ダメージ+#1[f1]%、その回の攻撃が終了するまで継続。\nアクションバーに「完全燃焼」のカウントダウンが出現する。カウントダウンのターンが回ってきた時、装甲「サム」は「完全燃焼」状態を解除する。カウントダウンの速度は#4[i]に固定される。\n「完全燃焼」状態の装甲「サム」は必殺技を発動できない。",
+        "ko": "「완전연소」 상태에 진입하고 자신의 행동 게이지가 100% 증가하며, 일반 공격 강화 및 전투 스킬 강화를 획득한다. 「완전연소」 상태에서는 속도가 #3[i]pt 증가하며, 강화된 일반 공격 및 강화된 전투 스킬 발동 시 자신의 약점 격파 효율이 #2[i]% 증가하고, 적이 기갑 「샘」으로부터 받는 격파 피해가 #1[f1]% 증가하며, 이번 공격이 끝날 때까지 지속된다.\n행동 서열에 「완전연소」 카운트다운이 나타나고, 카운트다운 턴 시작 시 기갑 「샘」이 「완전연소」 상태를 해제한다. 카운트다운이 보유한 고정 속도는 #4[i]이다.\n기갑 「샘」은 「완전연소」 상태에서 필살기를 발동할 수 없다"
+      },
+      "params": [
+        [
+          0.1,
+          0.5,
+          30,
+          70
+        ],
+        [
+          0.11,
+          0.5,
+          33,
+          70
+        ],
+        [
+          0.12,
+          0.5,
+          36,
+          70
+        ],
+        [
+          0.13,
+          0.5,
+          39,
+          70
+        ],
+        [
+          0.14,
+          0.5,
+          42,
+          70
+        ],
+        [
+          0.15,
+          0.5,
+          45,
+          70
+        ],
+        [
+          0.1625,
+          0.5,
+          48.75,
+          70
+        ],
+        [
+          0.175,
+          0.5,
+          52.5,
+          70
+        ],
+        [
+          0.1875,
+          0.5,
+          56.25,
+          70
+        ],
+        [
+          0.2,
+          0.5,
+          60,
+          70
+        ],
+        [
+          0.21,
+          0.5,
+          63,
+          70
+        ],
+        [
+          0.22,
+          0.5,
+          66,
+          70
+        ],
+        [
+          0.23,
+          0.5,
+          69,
+          70
+        ],
+        [
+          0.24,
+          0.5,
+          72,
+          70
+        ],
+        [
+          0.25,
+          0.5,
+          75,
+          70
+        ]
+      ]
+    },
+    {
+      "id": 1131004,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Pironexus de Crisálida",
+        "en": "Chrysalid Pyronexus",
+        "zh-CN": "茧式源火中枢",
+        "ja": "ホタル式源火中枢",
+        "ko": "고치형 원초 화염 중추"
+      },
+      "description": {
+        "pt-BR": "Quanto menores os PV, menor o Dano recebido. Quando os PV estiverem em #3[i]% ou menos, a Redução de Dano alcança seu efeito máximo, reduzindo até #1[i]%. Durante a \"Combustão Completa\", a Redução de Dano permanece em seu efeito máximo, e a RES a Efeitos aumenta em #4[i]%.\nSe a Energia estiver abaixo de #2[i]% quando a batalha começar, a Energia será regenerada até #2[i]%. Quando a Energia for regenerada ao máximo, todas as penalidades desta unidade serão removidas.",
+        "en": "The lower the HP, the less DMG received. When HP is #3[i]% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #4[i]%.\nIf Energy is lower than #2[i]% when the battle starts, regenerates Energy to #2[i]%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+        "zh-CN": "生命值越低受到的伤害越低，生命值小于等于#3[i]%时减伤效果达到最大值，最多降低#1[i]%。「完全燃烧」状态下减伤效果维持最大值，效果抵抗提高#4[i]%。\n战斗开始时若能量不足#2[i]%则使其恢复至#2[i]%。当能量恢复至上限时解除自身所有负面效果。",
+        "ja": "残りHPが少ないほど受けるダメージがダウンする。残りHPが#3[i]%以下の時、ダメージ軽減効果が最大値に達する、最大で受けるダメージ-#1[i]%。「完全燃焼」状態の時、ダメージ軽減効果は最大値を維持し、効果抵抗+#4[i]%。\n戦闘開始時、EPが#2[i]%未満の場合、EPを#2[i]%まで回復する。EPが満タンになる時、自身にあるデバフをすべて解除する。",
+        "ko": "HP가 낮을수록 받는 피해가 감소한다. HP가 #3[i]% 이하일 경우 피해 감소 효과가 최대치에 도달하며, 최대 #1[i]% 감소한다. 「완전연소」 상태에서는 피해 감소 효과가 최대치를 유지하며, 효과 저항이 #4[i]% 증가한다.\n전투 시작 시 에너지가 #2[i]% 미만일 경우 에너지를 #2[i]%까지 회복한다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과가 해제된다"
+      },
+      "params": [
+        [
+          0.2,
+          0.5,
+          0.2,
+          0.1
+        ],
+        [
+          0.22,
+          0.5,
+          0.2,
+          0.12
+        ],
+        [
+          0.24,
+          0.5,
+          0.2,
+          0.14
+        ],
+        [
+          0.26,
+          0.5,
+          0.2,
+          0.16
+        ],
+        [
+          0.28,
+          0.5,
+          0.2,
+          0.18
+        ],
+        [
+          0.3,
+          0.5,
+          0.2,
+          0.2
+        ],
+        [
+          0.325,
+          0.5,
+          0.2,
+          0.225
+        ],
+        [
+          0.35,
+          0.5,
+          0.2,
+          0.25
+        ],
+        [
+          0.375,
+          0.5,
+          0.2,
+          0.275
+        ],
+        [
+          0.4,
+          0.5,
+          0.2,
+          0.3
+        ],
+        [
+          0.42,
+          0.5,
+          0.2,
+          0.32
+        ],
+        [
+          0.44,
+          0.5,
+          0.2,
+          0.34
+        ],
+        [
+          0.46,
+          0.5,
+          0.2,
+          0.36
+        ],
+        [
+          0.48,
+          0.5,
+          0.2,
+          0.38
+        ],
+        [
+          0.5,
+          0.5,
+          0.2,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": 1131006,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 1131007,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Ordem Δ: Incineração Meteórica",
+        "en": "Δ Order: Meteoric Incineration",
+        "zh-CN": "Δ指令-焦土陨击",
+        "ja": "Δコマンド-焦土隕撃",
+        "ko": "Δ지령-초토화 운석 폭격"
+      },
+      "description": {
+        "pt-BR": "Salta no ar e se move livremente por #1[i] segundos, podendo finalizar esse movimento mais cedo com um ataque de mergulho. Quando esta duração termina, SAM mergulha e ataca imediatamente todos os inimigos dentro de uma área definida. No início de cada onda, aplica Fraqueza contra Fogo a todos os inimigos, durando por #3[i] rodada(s). Em seguida, causa Dano de Fogo igual a #2[i]% do ATQ de SAM a todos os inimigos.",
+        "en": "Leaps into the air and moves about freely for #1[i] seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for #3[i] turn(s). Then, deals Fire DMG equal to #2[i]% of SAM's ATK to all enemies.",
+        "zh-CN": "跳跃至空中并进行自由移动，持续#1[i]秒，此时施放下落攻击可以提前结束持续时间。持续时间结束后，下落并立即攻击一定范围内的所有敌人，每个波次开始时为敌方全体添加火属性弱点，持续#3[i]回合，此后对敌方全体造成等同于装甲「萨姆」#2[i]%攻击力的火属性伤害。",
+        "ja": "空中に跳び上がり、自由に移動する、#1[i]秒間継続。継続時間終了後、落下攻撃を行い、一定範囲内のすべての敵を攻撃する。継続時間中に攻撃を行うと、直ちに落下攻撃を行うことができる。各ウェーブ開始時、敵全体に炎属性弱点を付与する、#3[i]ターン継続。その後、敵全体に装甲「サム」の攻撃力#2[i]%分の炎属性ダメージを与える。",
+        "ko": "공중으로 도약해 #1[i]초 동안 자유롭게 이동하며, 이때 낙하 공격을 발동하면 지속 시간을 조기 종료한다. 지속 시간이 종료되면 낙하해 즉시 일정 범위 내 모든 적을 공격하고, 매 웨이브 시작 시 모든 적에게 화염 속성 약점을 추가한다, 지속 시간: #3[i]턴. 이후 모든 적에게 기갑 「샘」 공격력의 #2[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          5,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "id": 1131008,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Vaga-lume Tipo-IV: Dizimação Pirogênica",
+        "en": "Fyrefly Type-IV: Pyrogenic Decimation",
+        "zh-CN": "火萤Ⅳ型-底火斩击",
+        "ja": "ファイアフライ-IV-底火斬撃",
+        "ko": "반딧불이 Type-IV•뇌관 참격"
+      },
+      "description": {
+        "pt-BR": "Restaura PV em uma quantidade igual a #2[i]% dos PV máximos desta unidade. Causa Dano de Fogo igual a #1[i]% do ATQ de SAM a um inimigo designado.",
+        "en": "Restores HP by an amount equal to #2[i]% of this unit's Max HP. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy.",
+        "zh-CN": "回复等同于自身#2[i]%生命上限的生命值。对指定敌方单体造成等同于装甲「萨姆」#1[i]%攻击力的火属性伤害。",
+        "ja": "自身の最大HP#2[i]%分のHPを回復する。指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。",
+        "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          1,
+          0.2
+        ],
+        [
+          1.2,
+          0.2
+        ],
+        [
+          1.4,
+          0.2
+        ],
+        [
+          1.6,
+          0.2
+        ],
+        [
+          1.8,
+          0.2
+        ],
+        [
+          2,
+          0.2
+        ],
+        [
+          2.2,
+          0.2
+        ],
+        [
+          2.4,
+          0.2
+        ],
+        [
+          2.6,
+          0.2
+        ],
+        [
+          2.8,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": 1131009,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Vaga-lume Tipo-IV: Sobrecarga da Estrela da Morte",
+        "en": "Fyrefly Type-IV: Deathstar Overload",
+        "zh-CN": "火萤Ⅳ型-死星过载",
+        "ja": "ファイアフライ-IV-死星オーバーロード",
+        "ko": "반딧불이 Type-IV•데스 스타 과부하"
+      },
+      "description": {
+        "pt-BR": "Restaura os PV em uma quantidade igual a 25% dos PV máximos desta unidade. Adiciona Fraqueza contra Fogo a um inimigo designado e aos alvos adjacentes, durando por 2 rodadas. Causa Dano de Fogo igual a (#5[f1] × Efeito de Quebra + #1[f1]%) do ATQ de SAM a este alvo. Ao mesmo tempo, causa Dano de Fogo igual a (#6[f1] × Efeito de Quebra + #2[f1]%) do ATQ de SAM aos alvos adjacentes. O Efeito de Quebra considerado no cálculo é limitado a #7[i]%.",
+        "en": "Restores HP by an amount equal to 25% of this unit's Max HP. Adds Fire Weakness to one designated enemy and its adjacent targets, lasting for 2 turns. Deals Fire DMG equal to (#5[f1] × Break Effect + #1[f1]%) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (#6[f1] × Break Effect + #2[f1]%) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at #7[i]%.",
+        "zh-CN": "回复等同于自身25%生命上限的生命值。为指定敌方单体及其相邻目标添加火属性弱点，持续2回合。对该目标造成等同于装甲「萨姆」（#5[f1]*击破特攻+#1[f1]%）攻击力的火属性伤害。同时对其相邻目标造成等同于装甲「萨姆」（#6[f1]*击破特攻+#2[f1]%）攻击力的火属性伤害。最多计算#7[i]%击破特攻。",
+        "ja": "自身の最大HP25%分のHPを回復する。指定した敵単体および隣接する敵に炎属性弱点を付与する、2ターン継続。その敵に装甲「サム」の攻撃力（#5[f1]×撃破特効+#1[f1]%）分の炎属性ダメージを与え、隣接する敵に装甲「サム」の攻撃力（#6[f1]×撃破特効+#2[f1]%）分の炎属性ダメージを与える。撃破特効は最大で#7[i]%までカウントされる。",
+        "ko": "자신의 HP 최대치의 25%만큼 HP를 회복한다. 지정된 단일 적 및 인접한 목표에게 화염 속성 약점을 부여한다, 지속 시간: 2턴. 해당 목표에게 기갑 「샘」 공격력의 (#5[f1]x격파 특수효과+#1[f1]%)만큼 화염 속성 피해를 가하고, 인접한 목표에게 기갑 「샘」 공격력의 (#6[f1]x격파 특수효과+#2[f1]%)만큼 화염 속성 피해를 가한다. 격파 특수효과는 최대 #7[i]%까지 계산한다"
+      },
+      "params": [
+        [
+          1,
+          0.5,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.1,
+          0.55,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.2,
+          0.6,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.3,
+          0.65,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.4,
+          0.7,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.5,
+          0.75,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.625,
+          0.8125,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.75,
+          0.875,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          1.875,
+          0.9375,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          2.1,
+          1.05,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          2.2,
+          1.1,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          2.3,
+          1.15,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          2.4,
+          1.2,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ],
+        [
+          2.5,
+          1.25,
+          0,
+          0,
+          0.2,
+          0.1,
+          3.6,
+          0
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Em Crisálidas Avermelhadas, Já Tive Meu Descanso",
+        "en": "In Reddened Chrysalis, I Once Rest",
+        "zh-CN": "我曾安眠，赤染之茧",
+        "ja": "かつて{RUBY_B#あんみん}安眠{RUBY_E#}せし\n{RUBY_B#あかぞめ}赤染{RUBY_E#}の{RUBY_B#まゆ}繭{RUBY_E#}",
+        "ko": "나는 잠들었네, 붉은 고치 안에서"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia Aprimorada, ignora 15% da DEF do alvo. A Perícia Aprimorada não consome Pontos de Perícia.",
+        "en": "When using the Enhanced Skill, ignores 15% of the target's DEF. The Enhanced Skill does not consume Skill Points.",
+        "zh-CN": "施放强化战技时无视目标15%的防御，且强化战技不消耗战技点。",
+        "ja": "強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動する時、ターゲットの防御力を15%無視し、SPを消費しない。",
+        "ko": "강화된 전투 스킬 발동 시 목표의 방어력을 15% 무시하고, 강화된 전투 스킬은 전투 스킬 포인트를 소모하지 않는다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Em Queda Livre no Céu Estilhaçado",
+        "en": "From Shattered Sky, I Free Fall",
+        "zh-CN": "自破碎的天空坠落",
+        "ja": "{RUBY_B#くだ}砕{RUBY_E#}かれし{RUBY_B#そら}空{RUBY_E#}からの{RUBY_B#ついらく}墜落{RUBY_E#}",
+        "ko": "부서진 하늘에서 추락해"
+      },
+      "description": {
+        "pt-BR": "Enquanto está em \"Combustão Completa\", usar o ATQ Básico Aprimorado ou a Perícia Aprimorada para derrotar um inimigo-alvo ou aplicar Quebra de Fraqueza a ele faz com que SAM ganhe imediatamente 1 rodada extra. Esse efeito pode ser ativado novamente após 1 rodada(s).",
+        "en": "While in Complete Combustion, using the Enhanced Basic ATK or the Enhanced Skill to defeat an enemy target or to Break their Weakness allows SAM to immediately gain 1 extra turn. This effect can trigger again after 1 turn(s).",
+        "zh-CN": "「完全燃烧」状态下施放强化普攻、强化战技消灭敌方目标或使目标陷入弱点击破状态时，装甲「萨姆」立即获得1个额外回合。该效果在1回合后可再次触发。",
+        "ja": "「完全燃焼」状態で強化通常攻撃「ファイアフライ-IV-底火斬撃」か強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動して敵を倒す、または敵を弱点撃破状態にする時、装甲「サム」が追加ターンを1獲得する。この効果は1ターン後に再度発動できる。",
+        "ko": "「완전연소」 상태에서 강화된 일반 공격, 강화된 전투 스킬을 발동해 적을 처치하거나 적을 약점 격파 상태에 빠트릴 시 기갑 「샘」이 즉시 보너스 턴을 1개 획득한다. 해당 효과는 1턴 후 다시 발동할 수 있다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Sono Profundo Entre os Astros",
+        "en": "Amidst Silenced Stars, I Deep Sleep",
+        "zh-CN": "沉睡在静默的星河",
+        "ja": "{RUBY_B#しず}静{RUBY_E#}かな{RUBY_B#ほし}星{RUBY_E#}の{RUBY_B#かわ}川{RUBY_E#}で{RUBY_B#ねむ}眠{RUBY_E#}る",
+        "ko": "고요한 성하에 깊이 잠들고"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Sobre os Vaga-lumes Iluminados, Eu Logo Olho",
+        "en": "Upon Lighted Fyrefly, I Soon Gaze",
+        "zh-CN": "我会看见，飞萤之火",
+        "ja": "いつか{RUBY_B#ほたるび}蛍火{RUBY_E#}を\nこの{RUBY_B#め}目{RUBY_E#}に",
+        "ko": "나는 보리라, 반딧불이의 불빛을"
+      },
+      "description": {
+        "pt-BR": "Enquanto está no estado de \"Combustão Completa\", aumenta a RES de Efeito de SAM em 50%.",
+        "en": "While in Complete Combustion, increases SAM's Effect RES by 50%.",
+        "zh-CN": "「完全燃烧」状态下，装甲「萨姆」的效果抵抗提高50%。",
+        "ja": "「完全燃焼」状態の時、装甲「サム」の効果抵抗+50%。",
+        "ko": "「완전연소」 상태일 때 기갑 「샘」의 효과 저항이 50% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Das Noites Sem Sonhos, Eu Então Brilho",
+        "en": "From Undreamt Night, I Thence Shine",
+        "zh-CN": "自无梦的长夜亮起",
+        "ja": "{RUBY_B#ゆめ}夢{RUBY_E#}なき{RUBY_B#なが}長{RUBY_E#}い{RUBY_B#よる}夜{RUBY_E#}が\n{RUBY_B#あ}明{RUBY_E#}ける",
+        "ko": "꿈 없는 긴밤에서 비추며"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "No Amanhã Findado, Eu Floresço",
+        "en": "In Finalized Morrow, I Full Bloom",
+        "zh-CN": "绽放在终竟的明天",
+        "ja": "{RUBY_B#お}終{RUBY_E#}わりの{RUBY_B#あす}明日{RUBY_E#}に\n{RUBY_B#さ}咲{RUBY_E#}き{RUBY_B#ほこ}誇{RUBY_E#}る",
+        "ko": "종극의 내일에 피어나리"
+      },
+      "description": {
+        "pt-BR": "Enquanto estiver em \"Combustão Completa\", aumenta a PEN de RES a Fogo em 20%. Ao usar o ATQ Básico Aprimorado ou a Perícia Aprimorada, aumenta a eficiência da Quebra de Fraqueza em 50%.",
+        "en": "While in Complete Combustion, increases SAM's Fire RES PEN by 20%. When using the Enhanced Basic ATK or Enhanced Skill, increases Weakness Break Efficiency by 50%.",
+        "zh-CN": "「完全燃烧」状态下装甲「萨姆」的火属性抗性穿透提高20%。施放强化普攻、强化战技时弱点击破效率提高50%。",
+        "ja": "「完全燃焼」状態の時、装甲「サム」の炎属性耐性貫通+20%。強化通常攻撃「ファイアフライ-IV-底火斬撃」または強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動する時、弱点撃破効率+50%。",
+        "ko": "「완전연소」 상태에서 기갑 「샘」의 화염 속성 저항 관통이 20% 증가한다. 강화된 일반 공격, 강화된 전투 스킬 발동 시 약점 격파 효율이 50% 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1310.png",
+    "preview": "image/character_preview/1310.png",
+    "portrait": "image/character_portrait/1310.png"
+  }
+}

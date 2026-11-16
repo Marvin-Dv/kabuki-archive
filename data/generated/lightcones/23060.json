@@ -1,0 +1,90 @@
+{
+  "id": 23060,
+  "slug": "a-star-that-lights-the-night",
+  "name": {
+    "pt-BR": "Quando uma Estrela Ilumina o Céu Noturno",
+    "en": "A Star That Lights the Night",
+    "zh-CN": "当一颗星照亮夜空",
+    "ja": "夜を照らす導きの星",
+    "ko": "별이 밤하늘을 밝힐 때"
+  },
+  "rarity": 5,
+  "path": "Erudition",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Ao relembrar a infância, ela se recordou da primeira vez em que ouviu histórias de aventura do Desbravamento.\nSeu pequeno coração pulsava pelo mistério e pela vastidão do universo, então ela pegou um pincel e desenhou suas primeiras imaginações do cosmos.\n\"Uma nave-cometa, uma Ferrovia Prateada, uma Navegadora...\"\n\"Com isso, já é possível Desbravar?\"\nMas uma maldição atrasou seus passos, e um leito de enfermidade confinou sua juventude.\nDurante aqueles tempos solitários, pilhas imponentes de livros, projetos de motores espalhados e frascos de tinta vazios tornaram-se seu cotidiano.\nSua figura frágil empunhava o pincel, delineando cuidadosamente o sonho que tanto almejava.\n\"Talvez eu possa alcançar mais possibilidades dentro deste tempo limitado.\"\n\"Até mesmo um sonho merece ser iluminado por cores.\"\nÀ medida que as estrelas voltavam a se mover, num piscar de olhos, ela já havia partido em sua jornada rumo às estrelas.\nCarregando o desejo que compartilhava com sua amiga, tornou-se a pessoa que sempre sonhou ser.\n\"A jornada do Desbravamento começa neste exato momento.\"\nO Expresso atravessa o universo, e as pegadas da Navegadora e de seus companheiros, avançando lado a lado, formam uma sólida Ferrovia Prateada.\n\"Juntos, vamos alcançar o futuro onde as estrelas habitam!\"",
+    "en": "Looking back at her childhood, she remembered the first time she heard adventure stories of the Trailblaze.\nHer tiny heart beat for the mystery and vastness of the universe, so she picked up a paintbrush and drew her very first imaginings of the cosmos.\n\"A comet ship, a silver rail, a Navigator...\"\n\"With this, is it possible to Trailblaze now?\"\nBut a curse delayed her footsteps, and a sickbed confined her youth.\nDuring those lonely times, towering stacks of books, scattered engine blueprints, and empty bottles of paint became her everyday life.\nHer frail figure wielded the brush, carefully outlining the dream she yearned for.\n\"Perhaps I can seize more possibilities within this limited time.\"\n\"Even a dream is worth being illuminated by colors.\"\nAs the stars shifted once more, in the blink of an eye, she had already departed on her journey to the stars.\nCarrying the wish she shared with her friend, she became the person she had always dreamed of becoming.\n\"The journey of the Trailblaze begins at this very moment.\"\nThe Express traverses the universe, and the footprints of the Navigator and her companions advancing side by side form a solid silver rail.\n\"Together, let's reach the future where the stars reside!\"",
+    "zh-CN": "回望幼时，第一次听闻有关「开拓」的冒险故事。\n小小的心为宇宙的神秘浩渺而跳动，于是她拿起画笔，描摹对寰宇最初的想象。\n「一艘彗星船，一条银轨，一位领航员…」\n「这样，是不是就有开拓的可能啦？」\n可诅咒拖延了她的脚步，病床困住了她的青春。\n孤独的时光里，高摞的书籍、凌乱的引擎图纸、空瓶的颜料成了日常。\n消瘦的身影挥动笔触，细细勾勒着她期待的梦。\n「或许我能在有限的时间里抢来更多可能。」\n「即便是梦，也值得被色彩点亮。」\n当星辰再度流转，垂眸与抬眸间，她已启程踏上通往群星的旅路。\n带着与友人共同的心愿，成为了梦想中的自己。\n「属于开拓的旅程，在这一刻开始。」\n列车在寰宇间穿行，领航员与同伴并肩前行的旅印形成坚实的银轨。\n「一同抵达群星所在的未来吧！」",
+    "ja": "それは幼い頃、「開拓」の冒険譚を初めて聞かされた日のこと。\n果てしなく広がる宇宙の神秘に小さな胸を高鳴らせ、彼女は絵筆を執り、宇宙について初めての想像を描き出した。\n「1隻の宇宙船、1本のレール、それから1人のナビゲーター……」\n「これで、開拓の旅に出られるかしら？」\nしかし、呪いは彼女の足を捕らえ、病床はその青春を閉じ込めた。\n孤独な時間の中で、高く積まれた本と散らばったエンジンの設計図、そして空っぽの絵の具が日常となった。\n痩せ細った体で懸命に筆を動かし、待ち望んだ夢を少しずつ、丁寧に描き出していく。\n「あるいは限られた時間の中でも、もっと多くの可能性を掴み取れるかもしれない」\n「ただの夢だとしても、それを彩り、輝かせることに価値はある」\n星々が再び巡る頃、伏せていた瞳を上げたその瞬間には、彼女はすでに群星へ続く旅路を歩み始めていた。\n友と一緒に描いた願いを胸に、ずっと夢見ていた自分自身となったのだ。\n「開拓の旅は、いまこの瞬間から始まる」\n列車は広大な宇宙を駆け抜け、ナビゲーターと仲間たちが肩を並べて進んだ旅の軌跡は、揺るがぬ強固なレールとなる。\n「一緒に、群星が照らす未来へ向かいましょう！」",
+    "ko": "어린 시절을 돌아보면, 처음으로 「개척」에 관한 모험 이야기를 들었던 때가 떠오른다.\n조그만 심장은 우주의 신비로움과 광활함에 두근거렸고, 그녀는 붓을 들어 우주에 대한 최초의 상상을 그려냈다.\n「한 척의 혜성선, 한 개의 은하 궤도, 한 명의 항법사…」\n「이러면 개척의 가능성이 생기는 거겠지?」\n하지만 저주는 그녀의 발걸음을 늦췄고, 병상은 그녀의 청춘을 가두었다.\n고독한 시간 속에서 높이 쌓인 서적, 어지러운 엔진 설계도, 빈 물감 통이 일상이 되었다.\n수척해진 모습으로 붓을 놀리며, 그녀가 그리던 꿈을 세밀하게 그려 나갔다.\n「어쩌면 제한된 시간 속에서 더 많은 가능성을 쟁취할 수 있을지도 몰라」\n「꿈일지라도, 색채로 밝힐 가치는 있으니까」\n별의 궤적이 다시금 흐르자, 눈을 감고 다시 뜨는 사이 그녀는 이미 출발하여 뭇별로 향하는 여정에 올랐다.\n친구와 함께 품었던 소원을 짊어지고, 꿈꾸던 자신이 되었다.\n「개척의 여정은 지금 이 순간 시작될 거야」\n열차는 우주 사이를 누비고, 항법사와 동료가 함께한 발자취는 굳건한 은하 궤도를 이룬다.\n「함께 뭇별이 있는 미래에 도달하자!」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Primeiro Desejo",
+      "en": "First Wish",
+      "zh-CN": "初愿",
+      "ja": "初心",
+      "ko": "최초의 소원"
+    },
+    "description": {
+      "pt-BR": "O usuário ignora #7[i]% da DEF do alvo ao causar Dano. Quando o usuário usa uma Perícia de Assistência, recupera #2[i] de Energia e obtém \"Zarpar\", que dura por 2 rodadas e acumula até #3[i] vez(es). Cada acúmulo de \"Zarpar\" aumenta o Dano da Perícia de Assistência em #4[i]%. Quando \"Zarpar\" atinge #5[i] acúmulos, cada acúmulo de \"Zarpar\" aumenta o Dano da Perícia Suprema em #6[i]%.",
+      "en": "The wearer ignores #7[i]% of the target's DEF when dealing DMG. When the wearer uses Assist Skill, they regenerate #2[i] Energy and gain \"Sail,\" lasting for 2 turns and stacking up to #3[i] time(s). Each stack of \"Sail\" increases Assist Skill DMG by #4[i]%. When \"Sail\" reaches #5[i] stacks, each stack of \"Sail\" increases Ultimate DMG by #6[i]%.",
+      "zh-CN": "使装备者造成伤害时无视目标#7[i]%的防御力。当装备者施放助战技时，恢复#2[i]点能量并获得【启航】，持续2回合，最多叠加#3[i]层。每层【启航】使助战技伤害提高#4[i]%，【启航】达到#5[i]层时，每层【启航】使终结技伤害提高#6[i]%。",
+      "ja": "装備キャラがダメージを与える時、ターゲットの防御力を#7[i]%無視する。装備キャラが支援スキルを発動する時、EPを#2[i]回復し、「出航」を獲得する。「出航」は2ターン継続し、最大#3[i]層まで累積できる。「出航」1層につき、支援スキルダメージ+#4[i]%。「出航」が#5[i]層に達した時、「出航」1層につき、必殺技ダメージ+#6[i]%。",
+      "ko": "장착한 캐릭터가 피해를 가할 시 목표의 방어력을 #7[i]% 무시한다. 장착한 캐릭터가 전투 지원 스킬 발동 시 에너지를 #2[i]pt 회복하고 [출항]을 획득한다, 지속 시간: 2턴, 최대 중첩수: #3[i]스택. [출항] 스택당 전투 지원 스킬 피해가 #4[i]% 증가하며, [출항] #5[i]스택 도달 시 [출항] 스택당 필살기 피해가 #6[i]% 증가한다"
+    },
+    "params": [
+      [
+        0,
+        6,
+        3,
+        0.2,
+        3,
+        0.2,
+        0.32
+      ],
+      [
+        0,
+        6,
+        3,
+        0.25,
+        3,
+        0.25,
+        0.36
+      ],
+      [
+        0,
+        6,
+        3,
+        0.3,
+        3,
+        0.3,
+        0.4
+      ],
+      [
+        0,
+        6,
+        3,
+        0.35,
+        3,
+        0.35,
+        0.44
+      ],
+      [
+        0,
+        6,
+        3,
+        0.4,
+        3,
+        0.4,
+        0.48
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/23060.png",
+    "preview": "image/light_cone_preview/23060.png",
+    "portrait": "image/light_cone_portrait/23060.png"
+  }
+}

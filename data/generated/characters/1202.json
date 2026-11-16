@@ -1,0 +1,489 @@
+{
+  "id": 1202,
+  "slug": "tingyun",
+  "name": {
+    "pt-BR": "Tingyun",
+    "en": "Tingyun",
+    "zh-CN": "停云",
+    "ja": "停雲",
+    "ko": "정운"
+  },
+  "rarity": 4,
+  "path": "Harmony",
+  "element": "Lightning",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 120201,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Expulsão",
+        "en": "Dislodged",
+        "zh-CN": "逐客令",
+        "ja": "逐客令",
+        "ko": "축객령"
+      },
+      "description": {
+        "pt-BR": "Tingyun causa Dano de Raio igual a #1[i]% de seu ATQ a um único inimigo.",
+        "en": "Tingyun deals Lightning DMG equal to #1[i]% of her ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于停云#1[i]%攻击力的雷属性伤害。",
+        "ja": "指定した敵単体に停雲の攻撃力#1[i]%分の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 정운 공격력 #1[i]%의 번개 속성 피해를 준다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 120202,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Melodia Calmante",
+        "en": "Soothing Melody",
+        "zh-CN": "祥音和韵",
+        "ja": "祥音和韻",
+        "ko": "정다운 화음"
+      },
+      "description": {
+        "pt-BR": "Concede Bênção a um único aliado e aumenta o ATQ dele em #2[i]%, até o máximo de #4[i]% do ATQ atual de Tingyun.\nQuando o aliado com Bênção ataca, ele causa Dano Adicional de Raio igual a #1[i]% do ATQ daquele aliado 1 vez.\nA Bênção dura por #3[i] rodada(s) e só tem efeito no último aliado a receber a Perícia de Tingyun.",
+        "en": "Grants a single ally with Benediction to increase their ATK by #2[i]%, up to #4[i]% of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal Lightning Additional DMG equal to #1[i]% of that ally's ATK for 1 time.\nBenediction lasts for #3[i] turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "zh-CN": "为指定我方单体提供【赐福】，使其攻击力提高#2[i]%，最高不超过停云当前攻击力的#4[i]%。\n获得【赐福】的目标施放攻击后，会额外造成1次等同于其自身#1[i]%攻击力的雷属性附加伤害。\n【赐福】持续#3[i]回合且仅对停云战技最新的施放目标生效。",
+        "ja": "指定した味方単体に「賜福」を付与し、その味方の攻撃力+#2[i]%、攻撃力アップ量は停雲の現在の攻撃力の#4[i]%を超えない。\n「賜福」を付与された味方が攻撃を行った後、敵にその味方の攻撃力#1[i]%分の雷属性付加ダメージを1回与える。\n「賜福」は#3[i]ターン継続し、停雲の戦闘スキルで最後に指定したターゲットにのみ効果を発揮する。",
+        "ko": "지정된 단일 아군에게 [축복]을 제공한다. 대상의 공격력을 #2[i]% 증가시키며 현재 정운 공격력의 #4[i]%을 넘지 않는다.\n[축복]을 획득한 대상은 공격 발동 후 추가로 자신의 공격력 #1[i]%만큼의 번개 속성 추가 피해를 1회 가한다.\n[축복] 지속 시간: #3[i]턴. 최근 정운의 전투 스킬 대상이 된 아군에게만 적용된다"
+      },
+      "params": [
+        [
+          0.2,
+          0.25,
+          3,
+          0.15
+        ],
+        [
+          0.22,
+          0.275,
+          3,
+          0.16
+        ],
+        [
+          0.24,
+          0.3,
+          3,
+          0.17
+        ],
+        [
+          0.26,
+          0.325,
+          3,
+          0.18
+        ],
+        [
+          0.28,
+          0.35,
+          3,
+          0.19
+        ],
+        [
+          0.3,
+          0.375,
+          3,
+          0.2
+        ],
+        [
+          0.325,
+          0.4062,
+          3,
+          0.2125
+        ],
+        [
+          0.35,
+          0.4375,
+          3,
+          0.225
+        ],
+        [
+          0.375,
+          0.4688,
+          3,
+          0.2375
+        ],
+        [
+          0.4,
+          0.5,
+          3,
+          0.25
+        ],
+        [
+          0.42,
+          0.525,
+          3,
+          0.26
+        ],
+        [
+          0.44,
+          0.55,
+          3,
+          0.27
+        ],
+        [
+          0.46,
+          0.575,
+          3,
+          0.28
+        ],
+        [
+          0.48,
+          0.6,
+          3,
+          0.29
+        ],
+        [
+          0.5,
+          0.625,
+          3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "id": 120203,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Em Meio às Nuvens Alegres",
+        "en": "Amidst the Rejoicing Clouds",
+        "zh-CN": "庆云光覆仪祷",
+        "ja": "慶雲光覆儀祷",
+        "ko": "상서로운 구름의 기원"
+      },
+      "description": {
+        "pt-BR": "Regenera #1[i] de Energia de um aliado e aumenta o Dano dele em #3[i]% por #2[i] rodada(s).",
+        "en": "Regenerates #1[i] Energy for a single ally and increases the target's DMG by #3[i]% for #2[i] turn(s).",
+        "zh-CN": "为指定我方单体恢复#1[i]点能量，同时使目标造成的伤害提高#3[i]%，持续#2[i]回合。",
+        "ja": "指定した味方単体のEPを#1[i]回復し、その味方の与ダメージ+#3[i]%、#2[i]ターン継続。",
+        "ko": "지정된 단일 아군의 에너지를 #1[i]pt 회복하고, 목표가 가하는 피해가 #3[i]% 증가한다. 지속 시간: #2[i]턴"
+      },
+      "params": [
+        [
+          50,
+          2,
+          0.2
+        ],
+        [
+          50,
+          2,
+          0.23
+        ],
+        [
+          50,
+          2,
+          0.26
+        ],
+        [
+          50,
+          2,
+          0.29
+        ],
+        [
+          50,
+          2,
+          0.32
+        ],
+        [
+          50,
+          2,
+          0.35
+        ],
+        [
+          50,
+          2,
+          0.3875
+        ],
+        [
+          50,
+          2,
+          0.425
+        ],
+        [
+          50,
+          2,
+          0.4625
+        ],
+        [
+          50,
+          2,
+          0.5
+        ],
+        [
+          50,
+          2,
+          0.53
+        ],
+        [
+          50,
+          2,
+          0.56
+        ],
+        [
+          50,
+          2,
+          0.59
+        ],
+        [
+          50,
+          2,
+          0.62
+        ],
+        [
+          50,
+          2,
+          0.65
+        ]
+      ]
+    },
+    {
+      "id": 120204,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Tornafagulha Violeta",
+        "en": "Violet Sparknado",
+        "zh-CN": "紫电扶摇",
+        "ja": "揺れる紫電",
+        "ko": "자전 폭풍"
+      },
+      "description": {
+        "pt-BR": "Quando um inimigo é atacado por Tingyun, o aliado com Bênção causa imediatamente Dano de Raio Adicional igual a #1[i]% do ATQ daquele aliado ao mesmo inimigo.",
+        "en": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Lightning Additional DMG equal to #1[i]% of that ally's ATK to the same enemy.",
+        "zh-CN": "敌方目标受到停云攻击后，获得【赐福】的目标立即对其造成等同于自身#1[i]%攻击力的雷属性附加伤害。",
+        "ja": "敵が停雲の攻撃を受けた後、「賜福」を付与された味方が、その敵に自身の攻撃力#1[i]%分の雷属性付加ダメージを与える。",
+        "ko": "적이 정운의 공격을 받으면 [축복]을 획득한 목표는 즉시 해당 대상에게 자신 공격력 #1[i]%만큼의 번개 속성 추가 피해를 가한다"
+      },
+      "params": [
+        [
+          0.3
+        ],
+        [
+          0.33
+        ],
+        [
+          0.36
+        ],
+        [
+          0.39
+        ],
+        [
+          0.42
+        ],
+        [
+          0.45
+        ],
+        [
+          0.4875
+        ],
+        [
+          0.525
+        ],
+        [
+          0.5625
+        ],
+        [
+          0.6
+        ],
+        [
+          0.63
+        ],
+        [
+          0.66
+        ],
+        [
+          0.69
+        ],
+        [
+          0.72
+        ],
+        [
+          0.75
+        ]
+      ]
+    },
+    {
+      "id": 120206,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 120207,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Brisa Suave",
+        "en": "Gentle Breeze",
+        "zh-CN": "惠风和畅",
+        "ja": "恵風和暢",
+        "ko": "산들바람"
+      },
+      "description": {
+        "pt-BR": "Tingyun regenera #1[i] de Energia imediatamente após usar sua Técnica.",
+        "en": "Tingyun immediately regenerates #1[i] Energy upon using her Technique.",
+        "zh-CN": "使用秘技后立即为自身恢复#1[i]点能量。",
+        "ja": "秘技を使用した後、自身のEPを#1[i]回復する。",
+        "ko": "비술을 발동하는 즉시 자신의 에너지를 #1[i]pt 회복한다"
+      },
+      "params": [
+        [
+          50
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "A Sorte Sorri com Bondade",
+        "en": "Windfall of Lucky Springs",
+        "zh-CN": "春风得意，时运驰骋",
+        "ja": "{RUBY_B#はるかぜ}春風{RUBY_E#}{RUBY_B#ふ}吹{RUBY_E#}きて{RUBY_B#じうん}時運{RUBY_E#}{RUBY_B#めぐ}巡{RUBY_E#}る",
+        "ko": "봄바람과 함께 불어오는 행운"
+      },
+      "description": {
+        "pt-BR": "Após usar a Perícia Suprema, o aliado com Bênção ganha 20% de aumento de VEL por 1 rodada.",
+        "en": "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn.",
+        "zh-CN": "得到【赐福】的我方单体施放终结技后速度提高20%，持续1回合。",
+        "ja": "「賜福」を与えられた味方単体は、必殺技を発動した後に速度+20%、1ターン継続。",
+        "ko": "[축복] 효과를 획득한 단일 아군은 필살기 발동 후 속도가 20% 증가한다. 지속 시간:1턴"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Dá os Ganhos, Ganha o que Dá",
+        "en": "Gainfully Gives, Givingly Gains",
+        "zh-CN": "君子惠渥，晏笑承之",
+        "ja": "{RUBY_B#くんし}君子{RUBY_E#}の{RUBY_B#おんけい}恩恵{RUBY_E#}\n{RUBY_B#ほほえ}微笑{RUBY_E#}みを{RUBY_B#もっ}以{RUBY_E#}て{RUBY_B#うけたまわ}承{RUBY_E#}るべき",
+        "ko": "군자의 은혜에는 미소로 화답을"
+      },
+      "description": {
+        "pt-BR": "O aliado com Bênção regenera 5 de Energia após derrotar um inimigo. Esse efeito só pode ser ativado uma vez por rodada.",
+        "en": "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn.",
+        "zh-CN": "得到【赐福】的我方单体在消灭敌方目标时恢复5点能量，该效果每回合只能触发1次。",
+        "ja": "「賜福」を与えられた味方単体は、敵を倒した時にEPを5回復する、この効果はターンが回ってくるたびに1回まで発動できる。",
+        "ko": "[축복] 효과를 보유 중인 단일 아군이 적을 처치할 경우 에너지를 5pt 회복한다. 해당 효과는 턴당 1회만 발동한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Legado de Alcíone",
+        "en": "Halcyon Bequest",
+        "zh-CN": "青丘遗泽",
+        "ja": "{RUBY_B#せいきゅう}青丘{RUBY_E#}の{RUBY_B#いおん}遺恩{RUBY_E#}",
+        "ko": "푸른 언덕의 유산"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Versatilidade Jovial",
+        "en": "Jovial Versatility",
+        "zh-CN": "鸣火机变，度时察势",
+        "ja": "{RUBY_B#じょうせい}情勢{RUBY_E#}を{RUBY_B#よ}読{RUBY_E#}み\n{RUBY_B#へんか}変化{RUBY_E#}せし{RUBY_B#めいか}鳴火{RUBY_E#}",
+        "ko": "명화는 변화하며 형세를 읽나니"
+      },
+      "description": {
+        "pt-BR": "O multiplicador de Dano concedido pela Bênção aumenta em 20%.",
+        "en": "The DMG multiplier provided by Benediction increases by 20%.",
+        "zh-CN": "【赐福】附加的伤害倍率提高20%。",
+        "ja": "「賜福」の付加ダメージ倍率+20%。",
+        "ko": "[축복] 효과로 인한 피해 배율이 20% 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Astúcia Tranquila",
+        "en": "Sauntering Coquette",
+        "zh-CN": "绥绥狐魅",
+        "ja": "{RUBY_B#やす}綏{RUBY_E#}んずる{RUBY_B#こび}狐魅{RUBY_E#}",
+        "ko": "여우의 태연함"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "A Paz Traz Riqueza a Todos",
+        "en": "Peace Brings Wealth to All",
+        "zh-CN": "和气生财，泽盈四方",
+        "ja": "{RUBY_B#わきしょうざい}和気生財{RUBY_E#}",
+        "ko": "평화는 모두를 부유하게 할지니"
+      },
+      "description": {
+        "pt-BR": "A Perícia Suprema regenera mais 10 de Energia para o aliado-alvo.",
+        "en": "Ultimate regenerates 10 more Energy for the target ally.",
+        "zh-CN": "终结技为我方目标恢复的能量提高10点。",
+        "ja": "必殺技で味方のEPをさらに10回復する。",
+        "ko": "필살기로 회복하는 아군 대상의 에너지가 10pt 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1202.png",
+    "preview": "image/character_preview/1202.png",
+    "portrait": "image/character_portrait/1202.png"
+  }
+}

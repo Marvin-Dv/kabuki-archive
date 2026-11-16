@@ -1,0 +1,522 @@
+{
+  "id": 1303,
+  "slug": "ruan-mei",
+  "name": {
+    "pt-BR": "Ruan Mei",
+    "en": "Ruan Mei",
+    "zh-CN": "阮•梅",
+    "ja": "ルアン・メェイ",
+    "ko": "완•매"
+  },
+  "rarity": 5,
+  "path": "Harmony",
+  "element": "Ice",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 130301,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Fios de Perfume",
+        "en": "Threading Fragrance",
+        "zh-CN": "一针幽兰",
+        "ja": "幽蘭の調べ",
+        "ko": "그윽한 일침"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Ruan Mei a um único inimigo-alvo.",
+        "en": "Deals Ice DMG equal to #1[i]% of Ruan Mei's ATK to one designated enemy target.",
+        "zh-CN": "对指定敌方单体造成等同于阮•梅#1[i]%攻击力的冰属性伤害。",
+        "ja": "指定した敵単体にルアン・メェイの攻撃力#1[i]%分の氷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 완•매 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 130302,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Cordas Cantam Lentos Sons",
+        "en": "String Sings Slow Swirls",
+        "zh-CN": "慢捻抹复挑",
+        "ja": "緩く捻りて",
+        "ko": "우아한 연주"
+      },
+      "description": {
+        "pt-BR": "Após usar sua Perícia, Ruan Mei ganha Tom Acima, durando por #3[i] rodada(s). Essa duração diminui em 1 no início de todas as rodadas de Ruan Mei. Quando Ruan Mei possui Tom Acima, o Dano de todos os aliados é aumentado em #1[f1]% e a Eficiência de Quebra de Fraqueza deles aumenta em #2[i]%.",
+        "en": "After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's every turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[f1]% and Weakness Break Efficiency increases by #2[i]%.",
+        "zh-CN": "施放战技后阮•梅获得【弦外音】，持续#3[i]回合，阮•梅每回合开始时持续回合数减1。当阮•梅拥有【弦外音】时，我方全体伤害提高#1[f1]%，弱点击破效率提高#2[i]%。",
+        "ja": "戦闘スキルを発動した後、ルアン・メェイは#3[i]ターン継続する「弦外の音」を獲得する。ルアン・メェイのターンが回ってくるたびに、「弦外の音」の継続時間-1ターン。ルアン・メェイに「弦外の音」がある時、味方全体の与ダメージ+#1[f1]%、弱点撃破効率+#2[i]%。",
+        "ko": "전투 스킬 발동 후 완•매는 [현의 여음]을 획득한다. 지속 시간: #3[i]턴. 완•매의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 완•매가 [현의 여음]을 보유하면 모든 아군의 피해가 #1[f1]% 증가하며 약점 격파 효율이 #2[i]% 증가한다"
+      },
+      "params": [
+        [
+          0.16,
+          0.5,
+          3
+        ],
+        [
+          0.176,
+          0.5,
+          3
+        ],
+        [
+          0.192,
+          0.5,
+          3
+        ],
+        [
+          0.208,
+          0.5,
+          3
+        ],
+        [
+          0.224,
+          0.5,
+          3
+        ],
+        [
+          0.24,
+          0.5,
+          3
+        ],
+        [
+          0.26,
+          0.5,
+          3
+        ],
+        [
+          0.28,
+          0.5,
+          3
+        ],
+        [
+          0.3,
+          0.5,
+          3
+        ],
+        [
+          0.32,
+          0.5,
+          3
+        ],
+        [
+          0.336,
+          0.5,
+          3
+        ],
+        [
+          0.352,
+          0.5,
+          3
+        ],
+        [
+          0.368,
+          0.5,
+          3
+        ],
+        [
+          0.384,
+          0.5,
+          3
+        ],
+        [
+          0.4,
+          0.5,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 130303,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Pétalas na Corrente, Repouso Indolente",
+        "en": "Petals to Stream, Repose in Dream",
+        "zh-CN": "摇花缎水，沾衣不摘",
+        "ja": "花に濡れても雫は払わず",
+        "ko": "꽃잎에 인 물결, 옷을 물들인 꽃"
+      },
+      "description": {
+        "pt-BR": "Ruan Mei implanta um Campo que dura por #2[i] rodadas. A duração do campo diminui em 1 no início da rodada dela.\nEnquanto estiver dentro do Campo, a PEN de RES a Todos os Tipos de todos os aliados aumenta em #1[f1]% e os ataques deles aplicam Reflorescer da Ameixa aos inimigos atingidos.\nQuando esses inimigos tentam se recuperar da Quebra de Fraqueza, Reflorescer da Ameixa é ativado, estendendo a duração da sua Quebra de Fraqueza, atrasando sua ação em uma quantidade igual a #3[i]% do Efeito de Quebra de Ruan Mei + #4[i]%, e causando Dano de Quebra igual a #5[i]% do Dano de Quebra de Gelo de Ruan Mei.\nReflorescer da Ameixa não pode ser aplicado novamente aos inimigos-alvo até eles se recuperarem da Quebra de Fraqueza.",
+        "en": "Ruan Mei deploys a Zone that lasts for #2[i] turns. The Zone's duration decreases by 1 at the start of her turn.\nWhile inside the Zone, all allies' All-Type RES PEN increases by #1[f1]% and their attacks apply Thanatoplum Rebloom to the enemies hit.\nWhen these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to #3[i]% of Ruan Mei's Break Effect plus #4[i]%, and dealing Break DMG equal to #5[i]% of Ruan Mei's Ice Break DMG.\nEnemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.",
+        "zh-CN": "阮•梅展开结界，持续#2[i]回合，自身每回合开始时结界持续回合数减1。\n处于结界中时我方全体全属性抗性穿透提高#1[f1]%，且攻击后会对敌方目标施加【残梅绽】。\n【残梅绽】会在敌方目标尝试从弱点击破状态恢复时触发，延长目标的弱点击破状态并使其行动延后，延后数值等同于阮•梅#3[i]%的击破特攻+#4[i]%，并对其造成等同于阮•梅#5[i]%冰属性击破伤害的击破伤害。\n敌方目标从弱点击破状态恢复前不可被再次附加【残梅绽】。",
+        "ja": "ルアン・メェイが結界を展開する、#2[i]ターン継続。ルアン・メェイのターンが回ってくるたびに結界の継続時間-1ターン。\n結界が展開されている間、味方全体の全属性耐性貫通+#1[f1]%、かつ味方が攻撃を行った後、敵に「残梅」を付与する。\n敵が弱点撃破状態から回復しようとする時に「残梅」が発動する。敵の弱点撃破状態を延長し、行動順をルアン・メェイの撃破特効#3[i]%+#4[i]%遅延させ、ルアン・メェイの氷属性弱点撃破ダメージ#5[i]%分の弱点撃破ダメージを与える。\n敵が弱点撃破状態から回復するまで、再度「残梅」を付与することはできない。",
+        "ko": "완•매가 #2[i]턴간 결계를 펼치고, 자신의 턴이 시작될 때마다 지속 턴 수가 1 감소한다.\n결계 안에 있는 모든 아군의 모든 속성 저항 관통이 #1[f1]% 증가하고, 공격 시 적에게 [다시 핀 매화]를 부여한다.\n[다시 핀 매화]는 적이 약점 격파 상태에서 회복하려고 할 때 발동하며, 목표의 약점 격파 상태를 연장하고 행동 게이지를 감소시킨다. 감소 수치는 완•매 격파 특수효과의 #3[i]%에 #4[i]%를 더한 값이며, 해당 목표에게 격파 피해를 완•매의 얼음 속성 격파 피해의 #5[i]%만큼 가한다.\n적이 약점 격파 상태에서 회복하기 전까지는 [다시 핀 매화]를 추가로 부여할 수 없다"
+      },
+      "params": [
+        [
+          0.15,
+          2,
+          0.2,
+          0.1,
+          0.3
+        ],
+        [
+          0.16,
+          2,
+          0.2,
+          0.1,
+          0.32
+        ],
+        [
+          0.17,
+          2,
+          0.2,
+          0.1,
+          0.34
+        ],
+        [
+          0.18,
+          2,
+          0.2,
+          0.1,
+          0.36
+        ],
+        [
+          0.19,
+          2,
+          0.2,
+          0.1,
+          0.38
+        ],
+        [
+          0.2,
+          2,
+          0.2,
+          0.1,
+          0.4
+        ],
+        [
+          0.2125,
+          2,
+          0.2,
+          0.1,
+          0.425
+        ],
+        [
+          0.225,
+          2,
+          0.2,
+          0.1,
+          0.45
+        ],
+        [
+          0.2375,
+          2,
+          0.2,
+          0.1,
+          0.475
+        ],
+        [
+          0.25,
+          2,
+          0.2,
+          0.1,
+          0.5
+        ],
+        [
+          0.26,
+          2,
+          0.2,
+          0.1,
+          0.52
+        ],
+        [
+          0.27,
+          2,
+          0.2,
+          0.1,
+          0.54
+        ],
+        [
+          0.28,
+          2,
+          0.2,
+          0.1,
+          0.56
+        ],
+        [
+          0.29,
+          2,
+          0.2,
+          0.1,
+          0.58
+        ],
+        [
+          0.3,
+          2,
+          0.2,
+          0.1,
+          0.6
+        ]
+      ]
+    },
+    {
+      "id": 130304,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Hélice Somatotípica",
+        "en": "Somatotypical Helix",
+        "zh-CN": "分型的螺旋",
+        "ja": "フラクタルの螺旋",
+        "ko": "프랙탈 나선"
+      },
+      "description": {
+        "pt-BR": "Aumenta a VEL em #1[f1]% para a equipe (excluindo esta unidade). Quando os aliados aplicam Quebra de Fraqueza a um inimigo-alvo, Ruan Mei causa Dano de Quebra a esse inimigo igual a #2[f1]% de seu Dano de Quebra de Gelo.",
+        "en": "Increases SPD by #1[f1]% for all teammates (i.e., excluding this unit). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[f1]% of her Ice Break DMG.",
+        "zh-CN": "使除自身以外的队友速度提高#1[f1]%。我方全体击破敌方目标弱点时，阮•梅对其造成等同于自身#2[f1]%冰属性击破伤害的击破伤害。",
+        "ja": "自身を除く味方全体の速度+#1[f1]%。敵を弱点撃破した後、その敵にルアン・メェイの氷属性弱点撃破ダメージ#2[f1]%分の弱点撃破ダメージを与える。",
+        "ko": "자신을 제외한 동료의 속도가 #1[f1]% 증가한다. 모든 아군이 적의 약점을 격파하면 완•매는 해당 목표에게 자신의 얼음 속성 격파 피해의 #2[f1]%만큼 격파 피해를 가한다"
+      },
+      "params": [
+        [
+          0.08,
+          0.6
+        ],
+        [
+          0.082,
+          0.66
+        ],
+        [
+          0.084,
+          0.72
+        ],
+        [
+          0.086,
+          0.78
+        ],
+        [
+          0.088,
+          0.84
+        ],
+        [
+          0.09,
+          0.9
+        ],
+        [
+          0.0925,
+          0.975
+        ],
+        [
+          0.095,
+          1.05
+        ],
+        [
+          0.0975,
+          1.125
+        ],
+        [
+          0.1,
+          1.2
+        ],
+        [
+          0.102,
+          1.26
+        ],
+        [
+          0.104,
+          1.32
+        ],
+        [
+          0.106,
+          1.38
+        ],
+        [
+          0.108,
+          1.44
+        ],
+        [
+          0.11,
+          1.5
+        ]
+      ]
+    },
+    {
+      "id": 130306,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 130307,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Serenata de Seda",
+        "en": "Silken Serenade",
+        "zh-CN": "拭琴抚罗袂",
+        "ja": "琴拭い、霓裳撫でる",
+        "ko": "매무새를 가다듬으며"
+      },
+      "description": {
+        "pt-BR": "Depois de usar a Técnica, ganha Serenata de Seda. No início da próxima batalha, ativa automaticamente a Perícia #1[i] vez(es) sem consumir Pontos de Perícia.\nNo Universo Simulado ou no Universo Divergente, quando Ruan Mei possuir Serenata de Seda, a equipe atacando inimigos será considerada como se sempre estivesse atacando sua Fraqueza para entrar em batalha, e este ataque pode reduzir a Tenacidade de todos os inimigos independente dos Tipos de Fraqueza. Ao aplicar Quebra de Fraqueza, ativa o Efeito de Quebra de Fraqueza correspondente ao Tipo do atacante. Para cada Bênção em posse (até um máximo de #4[i] Bênção(s) será(ão) considerada(s)), adicionalmente aumenta a Redução de Tenacidade deste ataque em #2[i]%. Após aplicar a Quebra de Fraqueza a um inimigo-alvo, causa adicionalmente Dano de Quebra igual a #3[i]% do Dano de Quebra de Gelo de Ruan Mei ao inimigo-alvo.",
+        "en": "After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for #1[i] time(s) without consuming Skill Points.\nIn Simulated Universe or Divergent Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter combat, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a max of #4[i] Blessings will be taken into account), additionally increases the Toughness Reduction of this attack by #2[i]%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to #3[i]% of Ruan Mei's Ice Break DMG.",
+        "zh-CN": "使用秘技后，获得【拭琴抚罗袂】，使下一次战斗开始时自动触发#1[i]次战技，此次触发不消耗战技点。\n在模拟宇宙、差分宇宙中，当阮•梅拥有【拭琴抚罗袂】时，我方主动攻击敌人时总会视为利用弱点进入战斗，且本次攻击可以无视弱点属性削减敌方全体的韧性。击破弱点时，触发攻击者自身属性的弱点击破效果。每拥有1个祝福，本次攻击的削韧值额外提高#2[i]%，且击破敌方目标弱点后对其额外造成等同于阮•梅#3[i]%冰属性击破伤害的击破伤害，最多计入#4[i]个祝福。",
+        "ja": "秘技を使用した後、「琴拭い、霓裳撫でる」を獲得し、次の戦闘開始時に自動で戦闘スキルを#1[i]回発動する。この効果発動はSPを消費しない。\n模擬宇宙、階差宇宙の中で、ルアン・メェイが「琴拭い、霓裳撫でる」を所有し、味方が敵を先制攻撃して戦闘に入った場合、弱点属性を攻撃して戦闘に入ったと見なされる。また、その回の攻撃は弱点属性を無視して敵全体の靭性を削る。敵を弱点撃破した場合、攻撃者の属性に対応する弱点撃破効果を触発する。所持する祝福1つにつき、さらにその回の攻撃の削靭値+#2[i]%、敵を弱点撃破した後、さらにルアン・メェイの氷属性弱点撃破ダメージ#3[i]%分の弱点撃破ダメージを与える。祝福は最大で#4[i]つまでカウントされる。",
+        "ko": "비술을 사용하면 [매무새를 가다듬으며]를 획득하고 다음 전투가 시작될 때 자동으로 전투 스킬을 #1[i]회 발동하며, 이번 발동은 전투 스킬 포인트를 소모하지 않는다.\n시뮬레이션 우주 및 차분화 우주에서 완•매가 [매무새를 가다듬으며]를 보유했을 때 아군이 적을 선공하면 약점을 이용해 전투에 진입한 것으로 간주되며, 이번 공격은 약점 속성을 무시하고 모든 적의 강인성을 감소시킨다. 약점을 격파하면 공격자 속성의 약점 격파 효과를 발동한다. 축복을 1개 보유할 때마다 이번 공격의 강인성 감소 수치가 추가로 #2[i]% 증가하고, 적의 약점을 격파한 후 해당 적에게 격파 피해를 완•매의 얼음 속성 격파 피해의 #3[i]%만큼 가한다. (최대 #4[i]개의 축복까지 계산)"
+      },
+      "params": [
+        [
+          1,
+          1,
+          1,
+          20
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Bordado Neurônico",
+        "en": "Neuronic Embroidery",
+        "zh-CN": "神经仿绣图",
+        "ja": "{RUBY_B#しんけいししゅうず}神経刺繍図{RUBY_E#}",
+        "ko": "신경망 자수"
+      },
+      "description": {
+        "pt-BR": "Quando o Campo da Perícia Suprema é ativado, o Dano causado por todos os aliados ignora 20% da DEF do alvo.",
+        "en": "While the Ultimate's Zone is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.",
+        "zh-CN": "终结技展开结界期间，我方全体造成伤害时无视目标20%的防御力。",
+        "ja": "必殺技の結界が展開されている間、味方全体がダメージを与える時、敵の防御力を20%無視する。",
+        "ko": "필살기로 펼친 결계가 활성화되는 동안 모든 아군이 가하는 피해는 목표의 방어력을 20% 무시한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Passeio Pela Relva",
+        "en": "Reedside Promenade",
+        "zh-CN": "芦前漫步",
+        "ja": "{RUBY_B#とお}通{RUBY_E#}りし{RUBY_B#すすき}芒{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
+        "ko": "갈대밭을 거닐며"
+      },
+      "description": {
+        "pt-BR": "Enquanto Ruan Mei está no campo, todos os aliados aumentam seus ATQs em 40% ao causar Dano a inimigos com Quebra de Fraqueza.",
+        "en": "While Ruan Mei is on the field, all allies increase their ATK by 40% when dealing DMG to enemies that are Weakness Broken.",
+        "zh-CN": "阮•梅在场时，我方全体对处于弱点击破状态的敌方目标造成伤害时，攻击力提高40%。",
+        "ja": "ルアン・メェイがフィールド上にいる場合、弱点撃破状態の敵に対する味方全体の攻撃力+40%。",
+        "ko": "완•매가 필드에 있으면 모든 아군이 약점 격파 상태의 적에게 피해를 가할 때 공격력이 40% 증가한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Pirueta Viridescente",
+        "en": "Viridescent Pirouette",
+        "zh-CN": "彩缎烟衫绿婆娑",
+        "ja": "{RUBY_B#えんさん}煙衫{RUBY_E#}を{RUBY_B#あやど}綾取{RUBY_E#}る{RUBY_B#りょくい}緑意{RUBY_E#}",
+        "ko": "아른대는 담록빛"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Chatoyant Éclat",
+        "en": "Chatoyant Éclat",
+        "zh-CN": "寻神铜镜前",
+        "ja": "{RUBY_B#どうきょうまえ}銅鏡前{RUBY_E#}にて{RUBY_B#かみ}神{RUBY_E#}を{RUBY_B#さが}探{RUBY_E#}す",
+        "ko": "청동거울 앞에서 신을 찾네"
+      },
+      "description": {
+        "pt-BR": "Quando um inimigo-alvo sofrer de Quebra de Fraqueza, o Efeito de Quebra de Ruan Mei aumenta em 100% por 3 rodada(s).",
+        "en": "When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s).",
+        "zh-CN": "当敌方目标的弱点被击破时，阮•梅自身击破特攻提高100%，持续3回合。",
+        "ja": "敵が弱点撃破された時、ルアン・メェイの撃破特効+100%、3ターン継続。",
+        "ko": "적의 약점이 격파될 시 완•매의 격파 특수효과가 100% 증가한다. 지속 시간: 3턴"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Presilha Lânguida",
+        "en": "Languid Barrette",
+        "zh-CN": "手弄慵鬟玲珑钗",
+        "ja": "{RUBY_B#けだる}気怠{RUBY_E#}く{RUBY_B#いじ}弄{RUBY_E#}る{RUBY_B#れいろうさい}玲瓏釵{RUBY_E#}",
+        "ko": "비녀로 단정히 다듬은 머리"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Cascada de Lenços",
+        "en": "Sash Cascade",
+        "zh-CN": "半脱纱巾落团扇",
+        "ja": "{RUBY_B#さきんぬ}紗巾脱{RUBY_E#}ぎかけ\n{RUBY_B#うちわ}団扇{RUBY_E#}に{RUBY_B#お}落{RUBY_E#}ちる",
+        "ko": "반쯤 내린 면사, 땅에 떨군 부채"
+      },
+      "description": {
+        "pt-BR": "Estende a duração do Campo da Perícia Suprema por 1 rodada(s). O multiplicador do Dano de Quebra do Talento aumenta adicionalmente em 200%.",
+        "en": "Extends the duration of the Ultimate's Zone by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200%.",
+        "zh-CN": "终结技展开的结界持续时间延长1回合。天赋造成的击破伤害倍率额外提高200%。",
+        "ja": "必殺技を発動して展開する結界の継続時間+1ターン。天賦による弱点撃破ダメージ倍率+200%。",
+        "ko": "필살기로 펼친 결계의 지속 시간이 1턴 연장된다. 특성이 가하는 격파 피해 배율이 추가로 200% 증가한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1303.png",
+    "preview": "image/character_preview/1303.png",
+    "portrait": "image/character_portrait/1303.png"
+  }
+}
