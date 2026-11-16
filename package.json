@@ -10,14 +10,15 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
+    "dev": "tsx scripts/build-index.ts && nuxt dev",
+    "build": "tsx scripts/build-index.ts && nuxt build",
+    "generate": "tsx scripts/build-index.ts && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "test": "vitest run",
     "validate": "tsx scripts/validate-data.ts",
     "data:fetch": "tsx scripts/fetch-data.ts",
+    "data:index": "tsx scripts/build-index.ts",
     "format": "prettier --write ."
   },
   "dependencies": {

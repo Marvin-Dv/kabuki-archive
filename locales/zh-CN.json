@@ -5,6 +5,7 @@
     "description": "收录《崩坏：星穹铁道》的角色、光锥、遗器、敌人与材料，并提供配队与养成规划工具。"
   },
   "nav": {
+    "characters": "角色",
     "home": "首页",
     "about": "关于",
     "menu": "主导航"
@@ -24,7 +25,8 @@
     "ctaSecondary": "关于本项目",
     "sectionTitle": "登台",
     "sectionSubtitle": "各个分类正在整理中，每个分类上线时都会附带对应的工具。",
-    "soon": "即将上线"
+    "soon": "即将上线",
+    "available": "已上线"
   },
   "collections": {
     "characters": { "name": "角色", "desc": "技能、行迹、星魂与突破材料。" },
@@ -48,5 +50,42 @@
   "footer": {
     "disclaimer": "非官方粉丝项目。《崩坏：星穹铁道》及相关内容归 HoYoverse（Cognosphere PTE. LTD.）所有。",
     "dedication": "为花火而作。"
+  },
+  "characters": {
+    "title": "角色",
+    "subtitle": "按属性、命途和稀有度筛选。页面地址会保存筛选条件，复制即可分享。",
+    "searchLabel": "搜索角色",
+    "searchPlaceholder": "按名称搜索（任意语言）",
+    "element": "属性",
+    "path": "命途",
+    "rarity": "稀有度",
+    "sort": "排序",
+    "sortName": "名称",
+    "sortRarity": "稀有度",
+    "clear": "清除筛选",
+    "count": "{n} 位角色",
+    "empty": "未找到角色",
+    "emptyHint": "试试移除某个筛选条件，或更换名称。",
+    "trailblazer": "开拓者"
+  },
+  "elements": {
+    "Physical": "物理",
+    "Fire": "火",
+    "Ice": "冰",
+    "Lightning": "雷",
+    "Wind": "风",
+    "Quantum": "量子",
+    "Imaginary": "虚数"
+  },
+  "paths": {
+    "Destruction": "毁灭",
+    "Hunt": "巡猎",
+    "Erudition": "智识",
+    "Harmony": "同谐",
+    "Nihility": "虚无",
+    "Preservation": "存护",
+    "Abundance": "丰饶",
+    "Remembrance": "记忆",
+    "Elation": "Elation"
   }
 }

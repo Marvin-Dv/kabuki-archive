@@ -1,8 +1,9 @@
 import { z } from 'zod'
+import { ELEMENTS, PATHS } from './constants'
 
-/** Idiomas suportados pelo site. */
-export const LOCALES = ['pt-BR', 'en', 'zh-CN', 'ja', 'ko'] as const
-export type Locale = (typeof LOCALES)[number]
+// Listas e tipos básicos vivem em constants.ts (sem zod), para o front-end poder
+// usá-los sem levar a biblioteca de validação para o navegador.
+export * from './constants'
 
 /**
  * Texto localizado. Exige ao menos o inglês (fonte mais completa) e aceita
@@ -19,33 +20,8 @@ export const localizedText = z
   .strict()
 export type LocalizedText = z.infer<typeof localizedText>
 
-/** Elementos do jogo. */
-export const ELEMENTS = [
-  'Physical',
-  'Fire',
-  'Ice',
-  'Lightning',
-  'Wind',
-  'Quantum',
-  'Imaginary',
-] as const
 export const element = z.enum(ELEMENTS)
 
-/**
- * Caminhos do jogo. Se o jogo lançar um caminho novo, o validador falha de
- * propósito: adicione-o aqui (e o ícone/tradução correspondente).
- */
-export const PATHS = [
-  'Destruction',
-  'Hunt',
-  'Erudition',
-  'Harmony',
-  'Nihility',
-  'Preservation',
-  'Abundance',
-  'Remembrance',
-  'Elation',
-] as const
 export const path = z.enum(PATHS)
 
 /** Data no formato YYYY-MM-DD. */

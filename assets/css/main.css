@@ -140,6 +140,56 @@ a.k-card:hover {
   border: 1px solid var(--k-border);
 }
 
+/* ---------- Filtros ---------- */
+
+.k-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--k-border);
+  background: var(--k-surface);
+  color: var(--k-text);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.k-chip:hover {
+  border-color: var(--chip, var(--k-accent));
+}
+.k-chip[aria-pressed='true'] {
+  background: var(--k-surface-2);
+  border-color: var(--chip, var(--k-accent));
+  box-shadow: 0 0 0 1px var(--chip, var(--k-accent)) inset;
+  font-weight: 700;
+}
+.k-chip-dot {
+  display: inline-block;
+  flex: none;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 999px;
+  background: var(--chip, var(--k-accent));
+}
+
+.k-input {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--k-border);
+  background: var(--k-bg-soft);
+  color: var(--k-text);
+  font: inherit;
+}
+.k-input::placeholder {
+  color: var(--k-muted);
+}
+.k-input:focus-visible {
+  border-color: var(--k-accent);
+}
+
 /* ---------- Hero: palco, holofote e cortinas ---------- */
 
 .k-hero {
@@ -204,7 +254,8 @@ a.k-card:hover {
   }
   html,
   .k-card,
-  .k-btn {
+  .k-btn,
+  .k-chip {
     transition: none;
   }
 }

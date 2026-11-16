@@ -5,8 +5,8 @@ const localePath = useLocalePath()
 useHead({ title: t('site.tagline') })
 
 // Cada coleção ganha um acento de elemento, para dar cor sem depender de arte do jogo.
-const collections = [
-  { key: 'characters', color: 'var(--el-fire)' },
+const collections: Array<{ key: string; color: string; to?: string }> = [
+  { key: 'characters', color: 'var(--el-fire)', to: '/characters' },
   { key: 'lightcones', color: 'var(--el-ice)' },
   { key: 'relics', color: 'var(--el-quantum)' },
   { key: 'enemies', color: 'var(--el-lightning)' },
@@ -40,15 +40,25 @@ const collections = [
       <p class="mt-2 max-w-2xl text-muted">{{ t('home.sectionSubtitle') }}</p>
 
       <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <li v-for="c in collections" :key="c.key" class="k-card relative overflow-hidden p-6">
+        <li
+          v-for="c in collections"
+          :key="c.key"
+          class="k-card relative overflow-hidden p-6"
+          :class="{ 'hover:border-accent': c.to }"
+        >
           <span
             aria-hidden="true"
             class="absolute inset-x-0 top-0 h-1"
             :style="{ background: c.color }"
           />
           <div class="flex items-start justify-between gap-3">
-            <h3 class="text-xl font-bold">{{ t(`collections.${c.key}.name`) }}</h3>
-            <span class="k-badge">{{ t('home.soon') }}</span>
+            <h3 class="text-xl font-bold">
+              <NuxtLink v-if="c.to" :to="localePath(c.to)" class="after:absolute after:inset-0">
+                {{ t(`collections.${c.key}.name`) }}
+              </NuxtLink>
+              <template v-else>{{ t(`collections.${c.key}.name`) }}</template>
+            </h3>
+            <span class="k-badge">{{ c.to ? t('home.available') : t('home.soon') }}</span>
           </div>
           <p class="mt-3 text-sm leading-relaxed text-muted">
             {{ t(`collections.${c.key}.desc`) }}

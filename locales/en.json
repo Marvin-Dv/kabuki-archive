@@ -5,6 +5,7 @@
     "description": "Characters, light cones, relics, enemies and materials for Honkai: Star Rail, with tools to build teams and plan farming."
   },
   "nav": {
+    "characters": "Characters",
     "home": "Home",
     "about": "About",
     "menu": "Main menu"
@@ -24,7 +25,8 @@
     "ctaSecondary": "About the project",
     "sectionTitle": "On stage",
     "sectionSubtitle": "The collections are being assembled. Each one arrives together with its own tool.",
-    "soon": "Coming soon"
+    "soon": "Coming soon",
+    "available": "Available"
   },
   "collections": {
     "characters": { "name": "Characters", "desc": "Kits, traces, eidolons and ascension materials." },
@@ -48,5 +50,42 @@
   "footer": {
     "disclaimer": "Unofficial fan project. Honkai: Star Rail and all related content belong to HoYoverse (Cognosphere PTE. LTD.).",
     "dedication": "Made with love for Sparkle."
+  },
+  "characters": {
+    "title": "Characters",
+    "subtitle": "Filter by element, path and rarity. The page address keeps your filters, so you can copy and share it.",
+    "searchLabel": "Search characters",
+    "searchPlaceholder": "Search by name (any language)",
+    "element": "Element",
+    "path": "Path",
+    "rarity": "Rarity",
+    "sort": "Sort by",
+    "sortName": "Name",
+    "sortRarity": "Rarity",
+    "clear": "Clear filters",
+    "count": "{n} character | {n} characters",
+    "empty": "No characters found",
+    "emptyHint": "Try removing a filter or searching for another name.",
+    "trailblazer": "Trailblazer"
+  },
+  "elements": {
+    "Physical": "Physical",
+    "Fire": "Fire",
+    "Ice": "Ice",
+    "Lightning": "Lightning",
+    "Wind": "Wind",
+    "Quantum": "Quantum",
+    "Imaginary": "Imaginary"
+  },
+  "paths": {
+    "Destruction": "Destruction",
+    "Hunt": "The Hunt",
+    "Erudition": "Erudition",
+    "Harmony": "Harmony",
+    "Nihility": "Nihility",
+    "Preservation": "Preservation",
+    "Abundance": "Abundance",
+    "Remembrance": "Remembrance",
+    "Elation": "Elation"
   }
 }

@@ -5,6 +5,7 @@
     "description": "「崩壊：スターレイル」のキャラクター、光円錐、遺物、敵、素材を収録。編成やファーム計画のツールも用意しています。"
   },
   "nav": {
+    "characters": "キャラクター",
     "home": "ホーム",
     "about": "このサイトについて",
     "menu": "メインメニュー"
@@ -24,7 +25,8 @@
     "ctaSecondary": "プロジェクトについて",
     "sectionTitle": "ステージ",
     "sectionSubtitle": "各コレクションは準備中です。公開時にそれぞれ専用のツールも追加されます。",
-    "soon": "近日公開"
+    "soon": "近日公開",
+    "available": "公開中"
   },
   "collections": {
     "characters": { "name": "キャラクター", "desc": "スキル、軌跡、星魂、突破素材。" },
@@ -48,5 +50,42 @@
   "footer": {
     "disclaimer": "非公式のファンプロジェクトです。「崩壊：スターレイル」および関連コンテンツの権利は HoYoverse（Cognosphere PTE. LTD.）に帰属します。",
     "dedication": "花火への想いを込めて。"
+  },
+  "characters": {
+    "title": "キャラクター",
+    "subtitle": "属性・運命の道・レアリティで絞り込めます。ページのアドレスに条件が保存されるので、コピーして共有できます。",
+    "searchLabel": "キャラクターを検索",
+    "searchPlaceholder": "名前で検索（どの言語でも可）",
+    "element": "属性",
+    "path": "運命の道",
+    "rarity": "レアリティ",
+    "sort": "並び替え",
+    "sortName": "名前",
+    "sortRarity": "レアリティ",
+    "clear": "絞り込みをクリア",
+    "count": "{n}人",
+    "empty": "キャラクターが見つかりません",
+    "emptyHint": "絞り込みを外すか、別の名前で試してください。",
+    "trailblazer": "開拓者"
+  },
+  "elements": {
+    "Physical": "物理",
+    "Fire": "炎",
+    "Ice": "氷",
+    "Lightning": "雷",
+    "Wind": "風",
+    "Quantum": "量子",
+    "Imaginary": "虚数"
+  },
+  "paths": {
+    "Destruction": "破壊",
+    "Hunt": "狩猟",
+    "Erudition": "知恵",
+    "Harmony": "調和",
+    "Nihility": "虚無",
+    "Preservation": "存護",
+    "Abundance": "豊穣",
+    "Remembrance": "記憶",
+    "Elation": "Elation"
   }
 }

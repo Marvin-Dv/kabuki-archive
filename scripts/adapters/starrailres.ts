@@ -6,6 +6,7 @@
 
 import { LOCALES, type Character, type Locale, type LightCone } from '../../schema'
 import { readJson } from '../lib/source'
+import { NICKNAME_TOKEN } from '../../utils/catalog'
 import { uniqueSlug } from '../../utils/slug'
 import type { Adapter, AdapterContext, AdapterResult } from './types'
 
@@ -193,7 +194,12 @@ export function normalizeCharacters(
     })
     eidolons.sort((a, b) => a.rank - b.rank)
 
-    const slug = existingSlugs.get(id) ?? uniqueSlug(name.en, id, taken)
+    // O protagonista vem como "{NICKNAME}" (o nome é do jogador): o slug vira
+    // "trailblazer-<id>", sempre com o ID, pois são 8+ entradas com o mesmo nome.
+    const slugSource = name.en.includes(NICKNAME_TOKEN)
+      ? `${name.en.split(NICKNAME_TOKEN).join('Trailblazer')} ${id}`
+      : name.en
+    const slug = existingSlugs.get(id) ?? uniqueSlug(slugSource, id, taken)
     items.push({
       id,
       slug,

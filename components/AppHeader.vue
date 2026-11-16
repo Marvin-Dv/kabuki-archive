@@ -14,9 +14,12 @@ const logoSrc = `${useRuntimeConfig().app.baseURL}favicon.svg`
         </span>
       </NuxtLink>
 
-      <nav :aria-label="t('nav.menu')" class="hidden items-center gap-6 text-sm font-medium sm:flex">
-        <NuxtLink :to="localePath('/')" class="text-muted transition-colors hover:text-ink">
+      <nav :aria-label="t('nav.menu')" class="flex items-center gap-4 text-sm font-medium sm:gap-6">
+        <NuxtLink :to="localePath('/')" class="hidden text-muted transition-colors hover:text-ink sm:inline">
           {{ t('nav.home') }}
+        </NuxtLink>
+        <NuxtLink :to="localePath('/characters')" class="text-muted transition-colors hover:text-ink">
+          {{ t('nav.characters') }}
         </NuxtLink>
         <NuxtLink :to="localePath('/about')" class="text-muted transition-colors hover:text-ink">
           {{ t('nav.about') }}

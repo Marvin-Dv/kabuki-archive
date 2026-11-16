@@ -14,3 +14,7 @@ dist
 # Cache bruto das fontes (regenerado pelos scripts de ingestão)
 data/raw/*
 !data/raw/.gitkeep
+
+# Índice do catálogo gerado no build (scripts/build-index.ts)
+data/built/*
+!data/built/.gitkeep

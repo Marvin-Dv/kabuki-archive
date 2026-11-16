@@ -5,6 +5,7 @@
     "description": "Personagens, cones de luz, relíquias, inimigos e materiais de Honkai: Star Rail, com ferramentas para montar times e planejar farm."
   },
   "nav": {
+    "characters": "Personagens",
     "home": "Início",
     "about": "Sobre",
     "menu": "Menu principal"
@@ -24,7 +25,8 @@
     "ctaSecondary": "Sobre o projeto",
     "sectionTitle": "No palco",
     "sectionSubtitle": "As coleções estão sendo montadas. Cada uma chega junto com a sua ferramenta.",
-    "soon": "Em breve"
+    "soon": "Em breve",
+    "available": "Disponível"
   },
   "collections": {
     "characters": { "name": "Personagens", "desc": "Kits, traços, eidolons e materiais de ascensão." },
@@ -48,5 +50,42 @@
   "footer": {
     "disclaimer": "Projeto de fã, não oficial. Honkai: Star Rail e todo o conteúdo relacionado pertencem à HoYoverse (Cognosphere PTE. LTD.).",
     "dedication": "Feito com carinho para a Sparkle."
+  },
+  "characters": {
+    "title": "Personagens",
+    "subtitle": "Filtre por elemento, caminho e raridade. O endereço da página guarda os filtros: é só copiar e compartilhar.",
+    "searchLabel": "Buscar personagem",
+    "searchPlaceholder": "Buscar por nome (em qualquer idioma)",
+    "element": "Elemento",
+    "path": "Caminho",
+    "rarity": "Raridade",
+    "sort": "Ordenar por",
+    "sortName": "Nome",
+    "sortRarity": "Raridade",
+    "clear": "Limpar filtros",
+    "count": "{n} personagem | {n} personagens",
+    "empty": "Nenhum personagem encontrado",
+    "emptyHint": "Tente remover algum filtro ou buscar por outro nome.",
+    "trailblazer": "Desbravador"
+  },
+  "elements": {
+    "Physical": "Físico",
+    "Fire": "Fogo",
+    "Ice": "Gelo",
+    "Lightning": "Raio",
+    "Wind": "Vento",
+    "Quantum": "Quântico",
+    "Imaginary": "Imaginário"
+  },
+  "paths": {
+    "Destruction": "Destruição",
+    "Hunt": "Caça",
+    "Erudition": "Erudição",
+    "Harmony": "Harmonia",
+    "Nihility": "Nihilidade",
+    "Preservation": "Preservação",
+    "Abundance": "Abundância",
+    "Remembrance": "Memória",
+    "Elation": "Elation"
   }
 }

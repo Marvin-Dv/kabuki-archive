@@ -75,6 +75,19 @@ describe('normalizeCharacters', () => {
     expect(items.every((c) => c.announcedAt === null)).toBe(true)
   })
 
+  it('protagonista {NICKNAME} ganha slug trailblazer-<id>', () => {
+    const nick = normalizeCharacters({
+      en: {
+        ...tables.en!,
+        characters: {
+          8001: { id: '8001', name: '{NICKNAME}', rarity: 5, path: 'Warrior', element: 'Physical' },
+          8002: { id: '8002', name: '{NICKNAME}', rarity: 5, path: 'Warrior', element: 'Physical' },
+        },
+      },
+    })
+    expect(nick.items.map((c) => c.slug)).toEqual(['trailblazer-8001', 'trailblazer-8002'])
+  })
+
   it('preserva slugs já publicados', () => {
     const again = normalizeCharacters(tables, new Map([[1001, 'march-7th-antigo']]))
     expect(again.items.find((c) => c.id === 1001)!.slug).toBe('march-7th-antigo')
