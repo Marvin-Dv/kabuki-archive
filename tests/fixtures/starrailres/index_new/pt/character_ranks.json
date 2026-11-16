@@ -1,0 +1,16 @@
+{
+  "100101": {
+    "id": "100101",
+    "name": "Lembrança",
+    "rank": 1,
+    "desc": "Ganha PE.",
+    "params": []
+  },
+  "100102": {
+    "id": "100102",
+    "name": "Gelo",
+    "rank": 2,
+    "desc": "Cura.",
+    "params": []
+  }
+}

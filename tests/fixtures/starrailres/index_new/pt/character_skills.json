@@ -1,0 +1,32 @@
+{
+  "100101": {
+    "id": "100101",
+    "name": "Flecha Gélida",
+    "type": "Normal",
+    "desc": "Causa dano de Gelo igual a #1[i]% do ATQ.",
+    "params": [
+      [
+        0.5
+      ],
+      [
+        0.6
+      ]
+    ]
+  },
+  "100102": {
+    "id": "100102",
+    "name": "O Poder da Fofura",
+    "type": "BPSkill",
+    "desc": "Escudo por #1[f1] turnos.",
+    "params": [
+      [
+        0.3,
+        2
+      ],
+      [
+        0.35,
+        2
+      ]
+    ]
+  }
+}
