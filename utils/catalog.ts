@@ -18,8 +18,10 @@ export interface CharacterCard {
   rarity: 4 | 5
   path: Character['path']
   element: Character['element']
-  /** Caminho relativo do ícone (use `assetUrl`). */
+  /** Caminho relativo do ícone, quadrado (use `assetUrl`). */
   icon: string | null
+  /** Caminho relativo do retrato, usado na arte 4:5 do card. */
+  portrait: string | null
   patchReleaseDate: string | null
   version?: string
 }
@@ -33,6 +35,7 @@ export function toCharacterCard(c: Character): CharacterCard {
     path: c.path,
     element: c.element,
     icon: c.images.icon ?? null,
+    portrait: c.images.portrait ?? null,
     patchReleaseDate: c.patchReleaseDate,
     ...(c.version ? { version: c.version } : {}),
   }

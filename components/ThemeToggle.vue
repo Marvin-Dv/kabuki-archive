@@ -12,7 +12,7 @@ function toggle() {
 <template>
   <button
     type="button"
-    class="flex h-9 w-9 items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-accent"
+    class="flex h-11 w-11 items-center justify-center rounded-xl border border-line bg-surface text-ink transition-colors hover:bg-surface-2"
     :aria-label="isDark ? t('theme.toLight') : t('theme.toDark')"
     :title="isDark ? t('theme.toLight') : t('theme.toDark')"
     @click="toggle"

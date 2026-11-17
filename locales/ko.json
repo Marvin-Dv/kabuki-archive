@@ -8,7 +8,8 @@
     "characters": "캐릭터",
     "home": "홈",
     "about": "소개",
-    "menu": "메인 메뉴"
+    "menu": "메인 메뉴",
+    "skip": "본문으로 건너뛰기"
   },
   "theme": {
     "toLight": "라이트 테마로 전환",
@@ -18,12 +19,12 @@
     "label": "언어"
   },
   "home": {
-    "eyebrow": "막이 오르다",
+    "eyebrow": "팬 프로젝트",
     "title": "성궤 열차의 완전한 아카이브",
     "subtitle": "캐릭터, 장비, 적 데이터를 빠르게 찾아볼 수 있도록 정리했으며 예기치 않은 스포일러를 줄였습니다.",
     "ctaPrimary": "아카이브 둘러보기",
     "ctaSecondary": "프로젝트 소개",
-    "sectionTitle": "무대 위",
+    "sectionTitle": "컬렉션",
     "sectionSubtitle": "컬렉션을 준비하고 있습니다. 각 컬렉션은 전용 도구와 함께 공개됩니다.",
     "soon": "곧 공개",
     "available": "이용 가능"
@@ -44,12 +45,10 @@
     "title": "Kabuki Archive 소개",
     "p1": "Kabuki Archive는 붕괴: 스타레일의 데이터를 한곳에 모으는 팬 프로젝트입니다.",
     "p2": "공식 발표 이후에만 콘텐츠를 공개합니다. 최근 패치 페이지에는 스포일러 경고가 표시되며, 패치 출시 2주 후 자동으로 사라집니다.",
-    "p3": "코드는 오픈 소스(MIT 라이선스)입니다. 게임 데이터, 이미지, 텍스트의 권리는 HoYoverse에 있습니다.",
-    "dedication": "스파클에게 바칩니다."
+    "p3": "코드는 오픈 소스(MIT 라이선스)입니다. 게임 데이터, 이미지, 텍스트의 권리는 HoYoverse에 있습니다."
   },
   "footer": {
-    "disclaimer": "비공식 팬 프로젝트입니다. 붕괴: 스타레일 및 관련 콘텐츠의 권리는 HoYoverse(Cognosphere PTE. LTD.)에 있습니다.",
-    "dedication": "스파클을 위해 정성껏 만들었습니다."
+    "disclaimer": "비공식 팬 프로젝트입니다. 붕괴: 스타레일 및 관련 콘텐츠의 권리는 HoYoverse(Cognosphere PTE. LTD.)에 있습니다."
   },
   "characters": {
     "title": "캐릭터",
