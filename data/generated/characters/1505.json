@@ -1,0 +1,722 @@
+{
+  "id": 1505,
+  "slug": "evanescia",
+  "name": {
+    "pt-BR": "Evanescia",
+    "en": "Evanescia",
+    "zh-CN": "绯英",
+    "ja": "緋英",
+    "ko": "에바네시아"
+  },
+  "rarity": 5,
+  "path": "Elation",
+  "element": "Physical",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 150501,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Ementa: Teste Surpresa",
+        "en": "Syllabus: Pop Quiz",
+        "zh-CN": "课业•突击检查",
+        "ja": "指導・抜き打ち検査",
+        "ko": "과제•기습점검"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Evanescia a um único inimigo.",
+        "en": "Deals Physical DMG equal to #1[i]% of Evanescia's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于绯英#1[i]%攻击力的物理属性伤害。",
+        "ja": "指定した敵単体に緋英の攻撃力#1[i]%分の物理属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 에바네시아 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 150502,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Disciplina: Veredito Final",
+        "en": "Discipline: Final Verdict",
+        "zh-CN": "风纪•尺出缭判",
+        "ja": "風紀・量刀にて裁かん",
+        "ko": "풍기•척출요판"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #2[i]% do ATQ de Evanescia a um inimigo-alvo designado e Dano Físico igual a #3[i]% do ATQ de Evanescia a alvos adjacentes. Além disso, ganha #4[i] ponto(s) de \"Piada\".",
+        "en": "Deals Physical DMG equal to #2[i]% of Evanescia's ATK to one designated enemy and Physical DMG equal to #3[i]% of Evanescia's ATK to adjacent targets. Additionally gains #4[i] Punchline.",
+        "zh-CN": "对指定敌方单体造成等同于绯英#2[i]%攻击力的物理属性伤害，对相邻目标造成等同于绯英#3[i]%攻击力的物理属性伤害，并额外获得#4[i]点笑点。",
+        "ja": "指定した敵単体に緋英の攻撃力#2[i]%分の物理属性ダメージを与え、隣接する敵に緋英の攻撃力#3[i]%分の物理属性ダメージを与える。さらに爆笑ネタを#4[i]個獲得する。",
+        "ko": "지정된 단일 적에게 에바네시아 공격력의 #2[i]%만큼 물리 속성 피해를 가하고, 인접한 목표에게 에바네시아 공격력의 #3[i]%만큼 물리 속성 피해를 가하며, 추가로 웃음 포인트를 #4[i]pt 획득한다"
+      },
+      "params": [
+        [
+          1,
+          1.5,
+          0.75,
+          10
+        ],
+        [
+          1,
+          1.65,
+          0.825,
+          10
+        ],
+        [
+          1,
+          1.8,
+          0.9,
+          10
+        ],
+        [
+          1,
+          1.95,
+          0.975,
+          10
+        ],
+        [
+          1,
+          2.1,
+          1.05,
+          10
+        ],
+        [
+          1,
+          2.25,
+          1.125,
+          10
+        ],
+        [
+          1,
+          2.4375,
+          1.2188,
+          10
+        ],
+        [
+          1,
+          2.625,
+          1.3125,
+          10
+        ],
+        [
+          1,
+          2.8125,
+          1.4062,
+          10
+        ],
+        [
+          1,
+          3,
+          1.5,
+          10
+        ],
+        [
+          1,
+          3.15,
+          1.575,
+          10
+        ],
+        [
+          1,
+          3.3,
+          1.65,
+          10
+        ],
+        [
+          1,
+          3.45,
+          1.725,
+          10
+        ],
+        [
+          1,
+          3.6,
+          1.8,
+          10
+        ],
+        [
+          1,
+          3.75,
+          1.875,
+          10
+        ]
+      ]
+    },
+    {
+      "id": 150503,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Canção da Espada: Absolvição Negada",
+        "en": "Swordsong: Absolution Denied",
+        "zh-CN": "剑歌•神鬼无赦",
+        "ja": "剣歌・神鬼無赦",
+        "ko": "검가•신귀무사"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Evanescia a todos os inimigos-alvo e depois causa 5 instâncias de Dano, cada uma causando Dano Físico igual a #3[i]% do ATQ de Evanescia a 1 inimigo aleatório.",
+        "en": "Deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to #3[i]% of Evanescia's ATK to one random enemy.",
+        "zh-CN": "对敌方全体造成等同于绯英#1[i]%攻击力的物理属性伤害，随后造成5次伤害，每次伤害对敌方随机单体造成等同于绯英#3[i]%攻击力的物理属性伤害。",
+        "ja": "敵全体に緋英の攻撃力#1[i]%分の物理属性ダメージを与え、追加で5ヒットする。1ヒットごとに、ランダムな敵単体に緋英の攻撃力#3[i]%分の物理属性ダメージを与える。",
+        "ko": "모든 적에게 에바네시아 공격력의 #1[i]%만큼 물리 속성 피해를 가하고, 이후 피해를 5회 가하며, 피해당 랜덤 단일 적에게 에바네시아 공격력의 #3[i]%만큼 물리 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.8,
+          5,
+          0.72,
+          88
+        ],
+        [
+          0.88,
+          5,
+          0.768,
+          88
+        ],
+        [
+          0.96,
+          5,
+          0.816,
+          88
+        ],
+        [
+          1.04,
+          5,
+          0.864,
+          88
+        ],
+        [
+          1.12,
+          5,
+          0.912,
+          88
+        ],
+        [
+          1.2,
+          5,
+          0.96,
+          88
+        ],
+        [
+          1.3,
+          5,
+          1.02,
+          88
+        ],
+        [
+          1.4,
+          5,
+          1.08,
+          88
+        ],
+        [
+          1.5,
+          5,
+          1.14,
+          88
+        ],
+        [
+          1.6,
+          5,
+          1.2,
+          88
+        ],
+        [
+          1.68,
+          5,
+          1.248,
+          88
+        ],
+        [
+          1.76,
+          5,
+          1.296,
+          88
+        ],
+        [
+          1.84,
+          5,
+          1.344,
+          88
+        ],
+        [
+          1.92,
+          5,
+          1.392,
+          88
+        ],
+        [
+          2,
+          5,
+          1.44,
+          88
+        ]
+      ]
+    },
+    {
+      "id": 150504,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Juventude: Tranquilidade Eterna",
+        "en": "Youth: Halcyon Evermore",
+        "zh-CN": "青春•韶华无限",
+        "ja": "青春・果てなき春の光",
+        "ko": "청춘•찬란무한"
+      },
+      "description": {
+        "pt-BR": "Evanescia ganha Euforia igual a #5[i]% do Dano CRIT. Quando Evanescia ganha Energia, ela ganha simultaneamente uma quantidade igual de \"Mandou Bem\". Quando Evanescia ganha \"Mandou Bem\", ela ganha simultaneamente uma quantidade igual de Energia. A quantidade de \"Mandou Bem\" levada em consideração no cálculo por este método não pode exceder 100 pontos em uma única instância.\nApós acumular #3[i] de Energia, ela consome esse acúmulo de #3[i], e \"Mestre Raposinha\" realiza um Ataque Extra, causando Dano Físico igual a #1[i]% do ATQ de Evanescia a todos os inimigos, e regenerando #4[i] de Energia para Evanescia. Cada instância de regeneração de Energia concede até um acúmulo de #3[i]. Enquanto Evanescia possui \"Mandou Bem\":\nUsar a Perícia pode causar #7[f1]% de Dano de Euforia Físico aos inimigos-alvo atacados.\nUsar a Perícia Suprema pode causar #6[i]% de Dano de Euforia Físico a todos os inimigos e também causa #8[i]% de Dano de Euforia Físico aos inimigos-alvo que sofreram Dano aleatoriamente pela Perícia Suprema. Quando a Perícia Suprema causa Dano de Euforia, a quantidade de \"Mandou Bem\" levada em consideração é pelo menos igual à Energia Máxima.\nO Ataque Extra de \"Mestre Raposinha\" causa #2[i]% de Dano de Euforia Físico a todos os inimigos.",
+        "en": "Evanescia gains Elation equal to #5[i]% of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"Certified Banger.\" When Evanescia gains \"Certified Banger,\" she will simultaneously gain an equal amount of Energy. The amount of \"Certified Banger\" taken into calculation via this method cannot exceed 100 points in a single instance.\nAfter accumulating #3[i] Energy, she consumes this accumulation of #3[i], and \"Master Fox\" launches Follow-Up ATK, dealing Physical DMG equal to #1[i]% of Evanescia's ATK to all enemies, and regenerates #4[i] Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of #3[i]. While Evanescia holds \"Certified Banger\":\nUsing Skill can deal #7[f1]% Physical Elation DMG to the attacked enemy targets.\nUsing Ultimate can deal #6[i]% Physical Elation DMG to all enemies and also deals #8[i]% Physical Elation DMG to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals Elation DMG, the amount of \"Certified Banger\" taken into account is at least equal to Max Energy.\nMaster Fox's Follow-Up ATK deals #2[i]% Physical Elation DMG to all enemies.",
+        "zh-CN": "绯英获得等同于暴击伤害#5[i]%的欢愉度。绯英获得能量时，将同步获得等值的【好活当赏】；绯英获得【好活当赏】时，将同步获得等值的能量，单次通过此方式计算的【好活当赏】不超过100点。\n累计获得#3[i]点能量时，消耗#3[i]点累计值，【狐狸老师】发动追加攻击对敌方全体造成等同于绯英#1[i]%攻击力的物理属性伤害，为绯英恢复#4[i]点能量，单次获得能量时最多获得#3[i]点累计值。当绯英持有【好活当赏】时：\n施放战技可对受到攻击的敌方目标造成#7[f1]%的物理属性欢愉伤害。\n施放终结技可对敌方全体造成#6[i]%的物理属性欢愉伤害，并对终结技随机造成伤害的敌方目标造成#8[i]%的物理属性欢愉伤害，终结技造成欢愉伤害时至少计入等同于能量上限的【好活当赏】。\n【狐狸老师】的追加攻击可对敌方全体造成#2[i]%的物理属性欢愉伤害。",
+        "ja": "緋英は会心ダメージ#5[i]%分の愉悦度を獲得する。緋英がEPを獲得する時、同量の「爆笑の褒美」を獲得する。緋英が「爆笑の褒美」を獲得する時、同量のEPを獲得する。なお、この方法でEPを獲得する際、1度にカウントされる「爆笑の褒美」は最大100まで。\n累計でEPを#3[i]獲得した時、累計値を#3[i]消費し、「キツネ先生」が追加攻撃を発動し、敵全体に緋英の攻撃力#1[i]%分の物理属性ダメージを与え、緋英のEPを#4[i]回復する。EPを獲得する際、1度に獲得できる累計値は最大#3[i]まで。緋英が「爆笑の褒美」を持つ時、以下の効果が発動する。\n戦闘スキルを発動すると、攻撃を受けた敵に#7[f1]%分の物理属性の愉悦ダメージを与える。\n必殺技を発動すると、敵全体に#6[i]%分の物理属性の愉悦ダメージを与え、必殺技の追加のヒットでダメージを受けたランダムな敵に#8[i]%分の物理属性の愉悦ダメージを与える。必殺技で愉悦ダメージを与える時、カウントされる「爆笑の褒美」は少なくとも最大EPと同量となる。\n「キツネ先生」の追加攻撃は、敵全体に#2[i]%分の物理属性の愉悦ダメージを与える。",
+        "ko": "에바네시아가 치명타 피해의 #5[i]%만큼 환락도를 획득한다. 에바네시아가 에너지 획득 시 같은 양의 [훌륭한 솜씨에는 보상을]을 획득하고, 에바네시아가 [훌륭한 솜씨에는 보상을] 획득 시 같은 양의 에너지를 획득하며, 해당 방식으로 계산되는 [훌륭한 솜씨에는 보상을]은 회당 100pt를 초과하지 않는다.\n에너지를 누적 #3[i]pt 획득하면, 누적 수치를 #3[i]pt 소모하고, [여우 선생님]이 추가 공격을 발동해 모든 적에게 에바네시아 공격력의 #1[i]%만큼 물리 속성 피해를 가하고, 에바네시아의 에너지를 #4[i]pt 회복하며, 에너지 획득 시 회당 최대 누적 수치를 #3[i]pt 획득한다. 에바네시아가 [훌륭한 솜씨에는 보상을] 보유 시:\n전투 스킬 발동 시 피격된 적에게 물리 속성 환락 피해를 #7[f1]% 가한다.\n필살기 발동 시 모든 적에게 물리 속성 환락 피해를 #6[i]% 가하고, 필살기가 랜덤으로 피해를 가한 적에게 물리 속성 환락 피해를 #8[i]% 가하며, 필살기로 환락 피해를 가할 시 [훌륭한 솜씨에는 보상을]을 최소 에너지 최대치만큼 집계한다.\n[여우 선생님]의 추가 공격은 모든 적에게 물리 속성 환락 피해를 #2[i]% 가한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.125,
+          240,
+          10,
+          0.2,
+          0.12,
+          0.08,
+          0.14
+        ],
+        [
+          0.55,
+          0.1375,
+          240,
+          10,
+          0.2,
+          0.132,
+          0.088,
+          0.154
+        ],
+        [
+          0.6,
+          0.15,
+          240,
+          10,
+          0.2,
+          0.144,
+          0.096,
+          0.168
+        ],
+        [
+          0.65,
+          0.1625,
+          240,
+          10,
+          0.2,
+          0.156,
+          0.104,
+          0.182
+        ],
+        [
+          0.7,
+          0.175,
+          240,
+          10,
+          0.2,
+          0.168,
+          0.112,
+          0.196
+        ],
+        [
+          0.75,
+          0.1875,
+          240,
+          10,
+          0.2,
+          0.18,
+          0.12,
+          0.21
+        ],
+        [
+          0.8125,
+          0.2031,
+          240,
+          10,
+          0.2,
+          0.195,
+          0.13,
+          0.2275
+        ],
+        [
+          0.875,
+          0.2188,
+          240,
+          10,
+          0.2,
+          0.21,
+          0.14,
+          0.245
+        ],
+        [
+          0.9375,
+          0.2344,
+          240,
+          10,
+          0.2,
+          0.225,
+          0.15,
+          0.2625
+        ],
+        [
+          1,
+          0.25,
+          240,
+          10,
+          0.2,
+          0.24,
+          0.16,
+          0.28
+        ],
+        [
+          1.05,
+          0.2625,
+          240,
+          10,
+          0.2,
+          0.252,
+          0.168,
+          0.294
+        ],
+        [
+          1.1,
+          0.275,
+          240,
+          10,
+          0.2,
+          0.264,
+          0.176,
+          0.308
+        ],
+        [
+          1.15,
+          0.2875,
+          240,
+          10,
+          0.2,
+          0.276,
+          0.184,
+          0.322
+        ],
+        [
+          1.2,
+          0.3,
+          240,
+          10,
+          0.2,
+          0.288,
+          0.192,
+          0.336
+        ],
+        [
+          1.25,
+          0.3125,
+          240,
+          10,
+          0.2,
+          0.3,
+          0.2,
+          0.35
+        ]
+      ]
+    },
+    {
+      "id": 150506,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 150507,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Queda das Pétalas: Recordação Floral",
+        "en": "Petalfall: Floral Reminiscence",
+        "zh-CN": "落英•散者皆忆",
+        "ja": "落英・思い出も散りて",
+        "ko": "낙화•기억파편"
+      },
+      "description": {
+        "pt-BR": "Ataca imediatamente todos os inimigos dentro de um determinado alcance. Após entrar em combate, causa Dano Físico igual a #1[i]% do ATQ da Evanescia a todos os inimigos e ganha #2[i] ponto(s) de \"Mandou Bem\".",
+        "en": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to #1[i]% of Evanescia's ATK to all enemies and gains #2[i] point(s) of \"Certified Banger.\"",
+        "zh-CN": "立即攻击一定范围内的所有敌人。进入战斗后，对敌方全体造成等同于绯英#1[i]%攻击力的物理属性伤害并获得#2[i]点【好活当赏】。",
+        "ja": "即座に一定範囲内のすべての敵を攻撃する。戦闘に入った後、敵全体に緋英の攻撃力#1[i]%分の物理属性ダメージを与え、「爆笑の褒美」を#2[i]個獲得する。",
+        "ko": "즉시 일정 범위 내의 모든 적을 공격한다. 전투 진입 후 모든 적에게 에바네시아 공격력의 #1[i]%만큼 물리 속성 피해를 가하고 [훌륭한 솜씨에는 보상을]을 #2[i]pt 획득한다"
+      },
+      "params": [
+        [
+          1,
+          20
+        ]
+      ]
+    },
+    {
+      "id": 150520,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Escarlate: Euforia ou Execução",
+        "en": "Scarlet: Elation or Execution",
+        "zh-CN": "绯色•不乐即斩",
+        "ja": "薄紅・不興なれば斬る",
+        "ko": "비색•불락즉참"
+      },
+      "description": {
+        "pt-BR": "Causa #2[i]% de Dano de Euforia Físico a todos os inimigos e adicionalmente ganha #1[i] ponto(s) de \"Mandou Bem\".",
+        "en": "Deals #2[i]% Physical Elation DMG to all enemies and additionally gains #1[i] point(s) of \"Certified Banger\".",
+        "zh-CN": "对敌方全体造成#2[i]%的物理属性欢愉伤害并额外获得#1[i]点【好活当赏】。",
+        "ja": "敵全体に#2[i]%分の物理属性の愉悦ダメージを与え、追加で「爆笑の褒美」を#1[i]個獲得する。",
+        "ko": "모든 적에게 물리 속성 환락 피해를 #2[i]% 가하고 추가로 [훌륭한 솜씨에는 보상을]을 #1[i]pt 획득한다"
+      },
+      "params": [
+        [
+          5,
+          0.55
+        ],
+        [
+          5,
+          0.605
+        ],
+        [
+          5,
+          0.66
+        ],
+        [
+          5,
+          0.715
+        ],
+        [
+          5,
+          0.77
+        ],
+        [
+          5,
+          0.825
+        ],
+        [
+          5,
+          0.8938
+        ],
+        [
+          5,
+          0.9625
+        ],
+        [
+          5,
+          1.0312
+        ],
+        [
+          5,
+          1.1
+        ],
+        [
+          5,
+          1.155
+        ],
+        [
+          5,
+          1.21
+        ],
+        [
+          5,
+          1.265
+        ],
+        [
+          5,
+          1.32
+        ],
+        [
+          5,
+          1.375
+        ]
+      ]
+    },
+    {
+      "id": 150529,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Faces da Euforia ★ Das Páginas às Pétalas",
+        "en": "Faces of Elation ★ Pages to Petals",
+        "zh-CN": "欢愉万相★书中折花",
+        "ja": "愉悦の万象★本を花に",
+        "ko": "환락만상★책 속의 접힌 꽃"
+      },
+      "description": {
+        "pt-BR": "Quando o Caminho da Euforia ascende, a Energia excedente pode acumular até #3[i] ponto(s). Após usar a Perícia Suprema, esse acúmulo é zerado para regenerar a quantidade equivalente de Energia. Essa regeneração não ativa o efeito de ganho de \"Mandou Bem\" do Talento. O Dano causado ignora #2[i]% da DEF do inimigo-alvo. Para cada #4[i] pontos de \"Arrasou!\" acumulado(s), o multiplicador de Dano da próxima Perícia Suprema e o do Dano de Euforia causado por essa Perícia Suprema por meio do Talento aumentam em #1[i]% dos seus respectivos valores originais. Esse efeito não pode acumular.",
+        "en": "When the Path of Elation ascends, overflow Energy can accumulate up to #3[i]. After using Ultimate, clears this accumulation to regenerate an equal amount of Energy. This instance of regeneration will not trigger the Talent's Certified Banger gain effect. The DMG dealt ignores #2[i]% of the enemy target's DEF. For every #4[i] \"Party Trick\" accumulated, the DMG multiplier of the next Ultimate and the multiplier of the Elation DMG dealt by that Ultimate via the Talent increases by #1[i]% of their respective original values. This effect cannot stack.",
+        "zh-CN": "当「欢愉」命途升格时，可积攒最多#3[i]点溢出能量，施放终结技后清空并恢复相应的能量值，本次恢复不会触发天赋的获得好活当赏效果。造成的伤害无视敌方目标#2[i]%的防御力，每累计获得#4[i]点【绝活共赏】，使下一次终结技的伤害倍率及本次终结技通过天赋造成的欢愉伤害倍率提高原倍率的#1[i]%，该效果无法叠加。",
+        "ja": "「愉悦」の運命が昇格すると、最大EPを超えてEPを最大#3[i]まで蓄積できるようになる。必殺技発動後、上限を超えて蓄積していたEPをクリアし、その分のEPを回復する。なお、この回復は、天賦による爆笑の褒美の獲得効果を発動させない。与えるダメージが敵の防御力を#2[i]%無視するようになる。「大爆笑の褒美」を累計#4[i]獲得するごとに、次の必殺技のダメージ倍率と、その必殺技が天賦を通じて与える愉悦ダメージの倍率が、それぞれ元の倍率の#1[i]%分アップする。この効果は累積できない。",
+        "ko": "「환락」 운명의 길 승격 시 최대 초과 에너지를 #3[i]pt 축적할 수 있으며, 필살기 발동 후 초기화하고 이에 상응하는 에너지 수치를 회복하며, 이번 회복은 특성의 훌륭한 솜씨에는 보상을 획득 효과를 발동하지 않는다. 가하는 피해는 적의 방어력을 #2[i]% 무시하고, [절묘한 솜씨는 함께 감상을]을 누적 #4[i]pt 획득할 때마다 다음 필살기의 피해 배율 및 해당 필살기가 특성을 통해 가하는 환락 피해 배율이 기존 배율의 #1[i]%만큼 증가하며, 해당 효과는 중첩할 수 없다"
+      },
+      "params": [
+        [
+          0.75,
+          0.1,
+          60,
+          480
+        ],
+        [
+          1.5,
+          0.24,
+          240,
+          480
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Lar: Uma Prece em Dança",
+        "en": "Home: A Prayer in Dance",
+        "zh-CN": "故乡，为祈福起舞",
+        "ja": "{RUBY_B#ふるさと}故郷{RUBY_E#}、\n{RUBY_B#いの}祈{RUBY_E#}りを{RUBY_B#こ}込{RUBY_E#}めた{RUBY_B#まい}舞{RUBY_E#}",
+        "ko": "고향에서 바친 기원의 춤"
+      },
+      "description": {
+        "pt-BR": "Aumenta a PEN de RES a Todos os Tipos em 20%. Depois que a \"Mestre Raposinha\" usa um ataque, aciona adicionalmente 1 instância de Perícia da Euforia. A Perícia da Euforia concede adicionalmente a essa unidade 10 ponto(s) de \"Mandou Bem\".",
+        "en": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"Certified Banger\" point(s).",
+        "zh-CN": "全属性抗性穿透提高20%，【狐狸老师】施放攻击后会额外触发一次欢愉技。欢愉技会使自身额外获得10点【好活当赏】。",
+        "ja": "全属性耐性貫通+20%。「キツネ先生」が攻撃を行った後、追加で愉悦スキルを1回発動する。また、愉悦スキルは追加で自身に「爆笑の褒美」を10付与するようになる。",
+        "ko": "모든 속성 저항 관통이 20% 증가하고, [여우 선생님] 공격 발동 후 추가로 환락 스킬을 1회 발동한다. 환락 스킬은 자신이 추가로 [훌륭한 솜씨에는 보상을]을 10pt 획득하게 한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Viagem: Um Desejo Pelo Desabrochar",
+        "en": "Voyage: A Wish for Everbloom",
+        "zh-CN": "遥途，求长开不谢",
+        "ja": "{RUBY_B#えんろ}遠路{RUBY_E#}、\n{RUBY_B#とわ}永遠{RUBY_E#}に{RUBY_B#さ}咲{RUBY_E#}きたし",
+        "ko": "시들지 않는 것을 위한 여정"
+      },
+      "description": {
+        "pt-BR": "O Dano CRIT aumenta em 36%. Ao ativar o efeito de ganho de \"Mandou Bem\" do Rastro \"Contemplação do Alvoroço\"/\"Florescimento Perene\", ganha adicionalmente \"Mandou Bem\" equivalente a 50%/100% do \"Mandou Bem\" obtido desta vez.",
+        "en": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"Certified Banger\" equal to 50%/100% of the \"Certified Banger\" gained this time.",
+        "zh-CN": "暴击伤害提高36%，触发行迹【瞰众乐】/行迹【开不败】的获得好活当赏效果时，额外获得等同于本次获得的【好活当赏】50%/100%的【好活当赏】。",
+        "ja": "会心ダメージ+36%。追加能力「楽しむ大衆を眺めて」の効果を発動して爆笑の褒美を獲得した時、追加でその回に獲得した「爆笑の褒美」50%分の「爆笑の褒美」を獲得する。\nまた、追加能力「咲きても散らず」を発動して爆笑の褒美を獲得した時、追加でその回に獲得した「爆笑の褒美」100%分の「爆笑の褒美」を獲得する。",
+        "ko": "치명타 피해가 36% 증가하며, 행적 [환희의 조망자]/행적 [지지 않는 꽃]의 [훌륭한 솜씨에는 보상을] 획득 효과 발동 시, 추가로 이번에 획득한 [훌륭한 솜씨에는 보상을]의 50%/100%만큼 [훌륭한 솜씨에는 보상을]을 획득한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Lâmina: Um Banquete de Maldades",
+        "en": "Blade: A Feast on Evils",
+        "zh-CN": "尺剑，吞赤月妖邪",
+        "ja": "{RUBY_B#りょうとう}量刀{RUBY_E#}、\n{RUBY_B#こうげつ}紅月{RUBY_E#}の{RUBY_B#ま}魔{RUBY_E#}を{RUBY_B#の}呑{RUBY_E#}む",
+        "ko": "붉은 달의 요괴를 삼킨 척검"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Prado: Uma Destruição Pelo Vício",
+        "en": "Meadow: A Ruin by Vice",
+        "zh-CN": "花田，遭恶徒摘落",
+        "ja": "{RUBY_B#はなぞの}花園{RUBY_E#}、\n{RUBY_B#あくとう}悪党{RUBY_E#}に{RUBY_B#かどわか}拐{RUBY_E#}されて",
+        "ko": "악당에게 꺾인 꽃밭"
+      },
+      "description": {
+        "pt-BR": "O Dano causado por Evanescia ignora 15% da DEF do inimigo-alvo.",
+        "en": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF.",
+        "zh-CN": "绯英造成的伤害无视敌方目标15%的防御力。",
+        "ja": "緋英が与えるダメージは、敵の防御力を15%無視する。",
+        "ko": "에바네시아가 가하는 피해가 적의 방어력을 15% 무시한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Arcádia: Um Vislumbre dos Destinos",
+        "en": "Arcadia: A Glimpse of Fates",
+        "zh-CN": "乐园，见悲喜苦乐",
+        "ja": "{RUBY_B#らくえん}楽園{RUBY_E#}、\n{RUBY_B#ひきくらく}悲喜苦楽{RUBY_E#}を{RUBY_B#み}見{RUBY_E#}る",
+        "ko": "희비고락을 지켜본 낙원"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Donzela: Um Passo Rumo aos Sonhos",
+        "en": "Maiden: A Step into Dreams",
+        "zh-CN": "少女，见浮生入梦",
+        "ja": "{RUBY_B#おとめ}乙女{RUBY_E#}、\n{RUBY_B#うきよ}浮世{RUBY_E#}は{RUBY_B#ゆめ}夢{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}し",
+        "ko": "덧없는 꿈을 본 소녀"
+      },
+      "description": {
+        "pt-BR": "A duração do \"Mandou Bem\" de Evanescia aumenta em 1 rodada(s). O Dano de Euforia causado por Evanescia fica 15% mais \"galhofa\". Para cada 100 pontos de \"Mandou Bem\" mantidos, fica mais \"galhofa\" adicionalmente em 2.0%. Até 1.000 pontos de \"Mandou Bem\" podem ser levados em conta. Após usar a Perícia Suprema pela primeira vez ao entrar em combate, regenera uma quantidade fixa de 120 de Energia para Evanescia. Esse efeito pode ser ativado 1 vez a cada 4 usos adicionais da Perícia Suprema.",
+        "en": "The duration of Evanescia's \"Certified Banger\" increases by 1 turn(s). The Elation DMG dealt by Evanescia merrymakes by 15%. For every 100 points of \"Certified Banger\" held, it additionally merrymakes by 2.0%. Up to 1000 points of \"Certified Banger\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used.",
+        "zh-CN": "绯英的【好活当赏】的持续时间增加1回合。绯英造成的欢愉伤害增笑15%，每持有100点【好活当赏】额外增笑2.0%，最高计入1000点【好活当赏】。进入战斗首次施放终结技后，为绯英固定恢复120点能量，该效果每再施放4次终结技可触发1次。",
+        "ja": "緋英の「爆笑の褒美」の継続時間+1ターン。緋英が与える愉悦ダメージが15%上笑する。「爆笑の褒美」を100所持しているごとに、さらに2.0%上笑する。「爆笑の褒美」は最大1000までカウントされる。\n戦闘に入って初めて必殺技を発動した後、緋英はEPを固定で120回復する。この効果は必殺技を4回発動するたびに1回発動できる。",
+        "ko": "에바네시아의 [훌륭한 솜씨에는 보상을] 지속 시간이 1턴 증가한다. 에바네시아가 가하는 환락 피해가 15% 증소하고, 보유한 [훌륭한 솜씨에는 보상을] 100pt당 추가로 2.0% 증소하며, [훌륭한 솜씨에는 보상을]은 최대 1,000pt까지 집계된다. 전투 진입 후 처음으로 필살기를 발동하면 에바네시아의 에너지를 고정으로 120pt 회복하며, 해당 효과는 필살기를 4회 더 발동할 때마다 1회 발동할 수 있다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1505.png",
+    "preview": "image/character_preview/1505.png",
+    "portrait": "image/character_portrait/1505.png"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": 22009,
+  "slug": "see-you-at-the-worlds-end",
+  "name": {
+    "pt-BR": "Te Vejo no Fim do Mundo!",
+    "en": "See You at the World's End!",
+    "zh-CN": "在世界尽头相会吧！",
+    "ja": "世界の果てで会おう！",
+    "ko": "세상 끝에서 만나자!"
+  },
+  "rarity": 4,
+  "path": "Elation",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "O show de magia do Aeon chega ao fim, mas o calor persistente do milagre ainda reverbera pelo universo.\nAssim como milhares de Eras de Âmbar atrás, o Desbravamento e a Euforia estão lado a lado mais uma vez, e SEU caminho se separará para seguir em frente mais uma vez.\nNinguém sabe o que o futuro reserva, mas a promessa permanece inalterada.\n\"Entendido! Eu vou espalhar variáveis pelo universo, criando uma jornada onde o desconhecido e as surpresas andam de mãos dadas!\"\nA SUA silhueta desaparece no cosmos, a SUA risada flutuando ao vento:\n\"Percorra o caminho que Akivili nunca terminou e, então, a gente se vê no Fim do Mundo!\"",
+    "en": "The Aeon's magic act draws to a close, yet the lingering warmth of the miracle still reverberates across the universe.\nJust as it was thousands of Amber Eras ago, the \"Trailblaze\" and \"Elation\" stand side by side once more, and THEY shall part ways to forge ahead yet again.\nNo one knows what the future holds, but the promise remains unchanged.\n\"Got it! I'll scatter variables across the universe, creating a journey where the unknown and surprises go hand in hand~\"\nTHEIR silhouette vanishes into the cosmos, THEIR laughter drifting in the wind:\n\"Walk the path Akivili never finished, and then, see you at the World's End!\"",
+    "zh-CN": "星神的魔术落幕，奇迹的余温仍在震动寰宇。\n一如数千琥珀纪之前，「开拓」与「欢愉」再度并肩而立，也将再度分道向前。\n没有人知道未来如何，但约定却从未改变。\n「知道了，我会为寰宇播撒变数，创造未知与惊喜并存的旅途~」\n祂的身影消失在银河，笑语随风传来——\n「走完阿基维利没走的路，然后，在世界尽头相会吧！」",
+    "ja": "星神のマジックショーは幕を下ろし、その奇跡の余熱は今も宇宙を震わせている。\n幾千の琥珀紀が過ぎる前と同じように、「開拓」と「愉悦」は並び立ち、そしてまた、それぞれの道へと歩き出す。\n未来がどうなるかなど誰にもわからない。それでも、この約束が変わることは決してない。\n「わかったよ。あたしはこの宇宙に変数をばら撒いて、未知と驚きの共存する旅路を創り出す」\n其の姿は銀河の中へ溶けていき、笑い声が風に乗って響き渡る——\n「アキヴィリが行かなかった道を、歩き通してみせて。そしてまた、世界の果てで会おう！」",
+    "ko": "에이언즈의 마술이 막을 내리고, 기적의 남은 온기는 여전히 우주를 뒤흔들고 있다.\n수천 앰버기원 전 때처럼, 「개척」과 「환락」은 또 한 번 나란히 섰고, 또다시 각자의 길을 향해 나아갈 것이다.\n미래가 어떨지는 아무도 모르지만, 약속은 결코 변하지 않았다.\n「알았어, 내가 우주에 변수를 흩뿌리고, 미지와 놀라움이 공존하는 여정을 만들어 줄게~」\n그의 모습은 은하 속으로 사라졌고, 웃음소리가 바람을 타고 들려왔다——\n「아키비리가 걷지 못한 길을 끝까지 걷고 난 다음, 세상 끝에서 만나자!」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Conspirador",
+      "en": "Conspirator",
+      "zh-CN": "同谋",
+      "ja": "イタズラ仲間",
+      "ko": "공모"
+    },
+    "description": {
+      "pt-BR": "Para cada personagem de Euforia na equipe, aumenta o Dano CRIT do usuário em #1[i]%. Quando Aeon ★ Aha está em campo, o Dano CRIT do usuário aumenta adicionalmente em #2[i]%.",
+      "en": "For every Elation character on the team, increase the wearer's CRIT DMG by #1[i]%. When Aeon ★ Aha is on the field, the wearer's CRIT DMG additionally increases by #2[i]%.",
+      "zh-CN": "队伍中每有1名「欢愉」命途的角色，使装备者的暴击伤害提高#1[i]%，星神★阿哈在场时，装备者的暴击伤害额外提高#2[i]%。",
+      "ja": "パーティの愉悦の運命を歩むキャラ1名につき、装備キャラの会心ダメージ+#1[i]%。星神★アッハがフィールド上にいる時、さらに装備キャラの会心ダメージ+#2[i]%。",
+      "ko": "파티 내 「환락」 운명의 길 캐릭터 1명당 장착한 캐릭터의 치명타 피해가 #1[i]% 증가하고, 에이언즈★아하가 필드에 있을 시 장착한 캐릭터의 치명타 피해가 추가로 #2[i]% 증가한다"
+    },
+    "params": [
+      [
+        0.06,
+        0.12
+      ],
+      [
+        0.07,
+        0.14
+      ],
+      [
+        0.08,
+        0.16
+      ],
+      [
+        0.09,
+        0.18
+      ],
+      [
+        0.1,
+        0.2
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/22009.png",
+    "preview": "image/light_cone_preview/22009.png",
+    "portrait": "image/light_cone_portrait/22009.png"
+  }
+}

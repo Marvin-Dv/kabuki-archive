@@ -1,0 +1,90 @@
+{
+  "id": 23053,
+  "slug": "dazzled-by-a-flowery-world",
+  "name": {
+    "pt-BR": "Deslumbramento Por Um Mundo Florido",
+    "en": "Dazzled by a Flowery World",
+    "zh-CN": "花花世界迷人眼",
+    "ja": "きらびやかな世界",
+    "ko": "눈부신 파키의 세상"
+  },
+  "rarity": 5,
+  "path": "Elation",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "Quando ela ri, seus fãs riem.\nQuando ela chora, seus fãs derramam lágrimas.\nQuando ela se irrita, seus fãs ficam furiosos.\n\"Fofa, brincalhona, popular. A Sparxie é tudo o que eu quero ser...\"\n\"Não se deixe enganar, a Sparxie é um veneno, ela é uma mentira...\"\n\"Eu vou seguir a Sparxinha para sempre, ela me deu coragem para renascer...\"\n\"A Sparxie deveria desaparecer desse mundo!\"\n...\nCliques, comentários flutuantes, discussões... Sparxie arde cada vez mais intensamente nos olhos de todos.\n\"Eu recebi todos os sentimentos de vocês, hihi! Vou devolver eles com a resposta mais apaixonada ♥! Por exemplo...\"\nQuando a stream chega ao fim, a jovem pisca, como se enxergasse o coração de todos por trás das telas...\n\"Aqui tá sua chance! Você escolheria se tornar o amorzinho da Sparxie?\"",
+    "en": "When she laughs, her fans laugh.\nWhen she cries, her fans shed tears.\nWhen she's angry, her fans rage.\n\"Cute, playful, popular. Sparxie is everything I want to be...\"\n\"Don't be fooled, Sparxie is a poison, she's a lie...\"\n\"I'll follow Sparxicle forever, she gave me the courage for rebirth...\"\n\"Sparxie should vanish from this world!\"\n...\nClicks, bullet comments, discussions... Sparxie burns ever brighter in everyone's eyes.\n\"I've received everyone's feelings~ I'll return them with the most passionate response~♥! For example...\"\nAs the stream draws to a close, the young girl winks, as if she sees through the hearts of everyone behind their screens...\n\"Here's your chance! Would you choose to become the cutesy Sparxie?\"",
+    "zh-CN": "当她大笑时，粉丝大笑着。\n当她悲伤时，粉丝流泪着。\n当她愤怒时，粉丝愤怒着。\n「可爱、俏皮、受欢迎，火花是我想成为的样子……」\n「不要被骗了，火花是毒药，是谎言……」\n「永远追随火花花，她给了我重生的勇气……」\n「火花该从这个世界消失！」\n……\n点击，弹幕，评论…在每个人的瞳孔里，「火花」燃烧得更加旺盛。\n「大家的心意我收到了~我会以最热烈的方式回报大家~♥，比如……」\n直播尾声，少女眨眨眼睛，仿佛看穿了屏幕前所有人的内心——\n「给你一个机会，你会选择成为火花吗？」",
+    "ja": "彼女が笑えば、ファンたちも笑う。\n彼女が悲しめば、ファンたちも涙を流す。\n彼女が怒れば、ファンたちも怒る。\n「可愛くて愛らしくて、みんなに好かれてる。火花はまさに私がなりたい姿……」\n「騙されないで、火花は毒で、嘘の塊なの……」\n「火花を一生推します！火花が生きる勇気をくれました……」\n「火花はこの世から消えるべきだ！」\n……\nクリック、弾幕、コメント…一人ひとりの瞳の中で、「火花」はより一層激しく燃え上がる。\n「みんなの気持ち、ちゃんと受け取ったよ！最高な方法で恩返しするからね～♥例えば……」\n配信の終わり際、少女はまばたきをした後、まるでスクリーンの向こうにいる全員の心を見通したかのように続けた——\n「もしもチャンスがあったら、君は火花になりたい？」",
+    "ko": "그녀가 크게 웃으면, 팬들도 크게 웃었다.\n그녀가 슬퍼하면, 팬들도 눈물을 흘렸다.\n그녀가 분노하면, 팬들도 분노했다.\n「귀엽고, 장난기 넘치고, 인기 많고, 스파키는 내가 되고 싶은 모습이야……」\n「속지 마, 스파키는 독약이고, 거짓말이야……」\n「영원히 파키를 따를 거야, 그녀는 나에게 다시 태어날 용기를 줬어……」\n「스파키는 이 세상에서 사라져야 해!」\n……\n클릭, 실시간 채팅, 댓글… 모든 사람의 눈동자 속에서 「스파키」는 더욱 거세게 타올랐다.\n「모두의 마음은 잘 받았어~ 가장 뜨거운 방식으로 보답해 줄게~♥, 예를 들면……」\n방송 말미, 소녀는 눈을 깜빡이며 마치 화면 앞 모든 사람의 마음을 꿰뚫어 보는 듯 말했다——\n「선택할 기회를 줄게, 넌 스파키가 될래?」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Centro das Atenções",
+      "en": "Center of Attention",
+      "zh-CN": "瞩目",
+      "ja": "注目の的",
+      "ko": "이목"
+    },
+    "description": {
+      "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Enquanto o usuário estiver no campo, para cada 1 personagem de Euforia na equipe, o limite máximo de Pontos de Perícia aumenta em #2[i], até um aumento máximo de #3[i]. Para cada 1 Ponto de Perícia consumido pelo usuário, o Dano de Euforia causado por esta unidade ignora #6[f1]% da DEF dos inimigos-alvo, acumulando até #5[i] vezes. Se #7[i] ou mais Pontos de Perícia forem consumidos na mesma rodada, o usuário ganha \"Promoção da Stream\", o que aumenta a Euforia de todos os aliados em #4[i]%. Efeitos do mesmo tipo de Cone de Luz não podem acumular.",
+      "en": "Increases the wearer's CRIT DMG by #1[i]%. While the wearer is on the field, for every 1 Elation character in the team, increases the Skill Point upper limit by #2[i], up to a max increase of #3[i]. For every 1 Skill Point the wearer consumes, enables the Elation DMG dealt by this unit to ignore #6[f1]% of enemy targets' DEF, stacking up to #5[i] times. If #7[i] or more Skill Points are consumed in the same turn, the wearer gains \"Stream Promo,\" which increases all allies' Elation by #4[i]%. Light Cone effects of the same type cannot stack.",
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者在场时，队伍中每有1名「欢愉」命途的角色，战技点上限提高#2[i]点，最多提高#3[i]点；装备者每消耗1个战技点使自身造成的欢愉伤害无视敌方目标#6[f1]%的防御力，最多叠加#5[i]层，若在同一回合内消耗大于等于#7[i]个战技点则使装备者获得【推流】。装备者持有【推流】时，我方全体欢愉度提高#4[i]%。同类光锥效果无法叠加。",
+      "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラがフィールド上にいる時、パーティにいる「愉悦」の運命を歩むキャラ1名につき、最大SP+#2[i]、最大で+#3[i]。装備キャラがSPを1消費するたびに、自身が与える愉悦ダメージは敵の防御力を#6[f1]%無視する。最大で#5[i]層累積できる。\n装備キャラが1ターン以内にSPを#7[i]以上消費した場合、「配信プッシュ」を獲得する。装備キャラが「配信プッシュ」を持つ時、味方全体の愉悦度+#4[i]%。同系統の光円錐効果は累積できない。",
+      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터가 필드에 있을 시, 파티에 있는 「환락」 운명의 길 캐릭터 1명당 전투 스킬 포인트 최대치가 #2[i]pt 증가하며, 최대 #3[i]pt 증가한다. 장착한 캐릭터가 전투 스킬 포인트를 1pt 소모할 때마다 자신이 가하는 환락 피해가 적의 방어력을 #6[f1]% 무시한다, 최대 중첩수: #5[i]스택, 같은 턴 동안 전투 스킬 포인트를 #7[i]pt 이상 소모할 시 장착한 캐릭터는 [방송 지원]을 획득한다. 장착한 캐릭터가 [방송 지원] 보유 시, 모든 아군의 환락도가 #4[i]% 증가한다. 같은 종류의 광추 효과는 중첩되지 않는다"
+    },
+    "params": [
+      [
+        0.48,
+        1,
+        3,
+        0.2,
+        4,
+        0.05,
+        4
+      ],
+      [
+        0.56,
+        1,
+        3,
+        0.24,
+        4,
+        0.06,
+        4
+      ],
+      [
+        0.64,
+        1,
+        3,
+        0.28,
+        4,
+        0.07,
+        4
+      ],
+      [
+        0.72,
+        1,
+        3,
+        0.32,
+        4,
+        0.08,
+        4
+      ],
+      [
+        0.8,
+        1,
+        3,
+        0.36,
+        4,
+        0.09,
+        4
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/23053.png",
+    "preview": "image/light_cone_preview/23053.png",
+    "portrait": "image/light_cone_portrait/23053.png"
+  }
+}
