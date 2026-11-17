@@ -78,14 +78,14 @@
     "Imaginary": "Imaginário"
   },
   "paths": {
-    "Destruction": "Destruição",
-    "Hunt": "Caça",
-    "Erudition": "Erudição",
-    "Harmony": "Harmonia",
-    "Nihility": "Nihilidade",
-    "Preservation": "Preservação",
-    "Abundance": "Abundância",
-    "Remembrance": "Memória",
-    "Elation": "Elation"
+    "Destruction": "A Destruição",
+    "Hunt": "A Caça",
+    "Erudition": "A Erudição",
+    "Harmony": "A Harmonia",
+    "Nihility": "A Inexistência",
+    "Preservation": "A Preservação",
+    "Abundance": "A Abundância",
+    "Remembrance": "A Recordação",
+    "Elation": "A Euforia"
   }
 }
