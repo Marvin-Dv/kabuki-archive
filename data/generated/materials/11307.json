@@ -1,0 +1,17 @@
+{
+  "id": 11307,
+  "slug": "black-swans-eidolon",
+  "name": {
+    "pt-BR": "Eidolon da Cisne Negro",
+    "en": "Black Swan's Eidolon",
+    "zh-CN": "【黑天鹅】的星魂",
+    "ja": "「ブラックスワン」の星魂",
+    "ko": "[블랙 스완]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

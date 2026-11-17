@@ -1,0 +1,17 @@
+{
+  "id": 11505,
+  "slug": "evanescias-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Evanescia",
+    "en": "Evanescia's Eidolon",
+    "zh-CN": "【绯英】的星魂",
+    "ja": "「緋英」の星魂",
+    "ko": "[에바네시아]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

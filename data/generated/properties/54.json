@@ -1,0 +1,13 @@
+{
+  "id": 54,
+  "type": "QuantumResistanceDelta",
+  "name": {
+    "pt-BR": "Bônus de RES a Quântico",
+    "en": "Quantum RES Boost",
+    "zh-CN": "量子属性抗性提高",
+    "ja": "量子属性耐性",
+    "ko": "양자 속성 저항 증가"
+  },
+  "icon": "icon/property/IconQuantumResistanceDelta.png",
+  "percent": true
+}

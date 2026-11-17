@@ -1,13 +1,7 @@
 {
   "id": 1404,
   "slug": "mydei",
-  "name": {
-    "pt-BR": "Mydei",
-    "en": "Mydei",
-    "zh-CN": "万敌",
-    "ja": "モーディス",
-    "ko": "마이데이"
-  },
+  "name": { "pt-BR": "Mydei", "en": "Mydei", "zh-CN": "万敌", "ja": "モーディス", "ko": "마이데이" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Imaginary",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にモーディスの最大HP#1[i]%分の虚数属性ダメージを与える。",
         "ko": "지정된 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.25
-        ],
-        [
-          0.3
-        ],
-        [
-          0.35
-        ],
-        [
-          0.4
-        ],
-        [
-          0.45
-        ],
-        [
-          0.5
-        ],
-        [
-          0.55
-        ],
-        [
-          0.6
-        ],
-        [
-          0.65
-        ],
-        [
-          0.7
-        ]
-      ]
+      "params": [[0.25], [0.3], [0.35], [0.4], [0.45], [0.5], [0.55], [0.6], [0.65], [0.7]],
+      "icon": "icon/skill/1404_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário leve a um inimigo.",
+        "en": "Deals minor Imaginary DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量虚数属性伤害。",
+        "ja": "敵単体に少量の虚数属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 허수 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140402,
@@ -82,82 +56,33 @@
         "ko": "마이데이 현재 HP의 #3[i]%만큼 HP를 소모해 지정된 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가한다.\n현재 HP가 부족하면 전투 스킬 발동 시 마이데이의 현재 HP가 1pt까지 감소한다"
       },
       "params": [
-        [
-          0.45,
-          0.25,
-          0.5
-        ],
-        [
-          0.495,
-          0.275,
-          0.5
-        ],
-        [
-          0.54,
-          0.3,
-          0.5
-        ],
-        [
-          0.585,
-          0.325,
-          0.5
-        ],
-        [
-          0.63,
-          0.35,
-          0.5
-        ],
-        [
-          0.675,
-          0.375,
-          0.5
-        ],
-        [
-          0.7312,
-          0.4062,
-          0.5
-        ],
-        [
-          0.7875,
-          0.4375,
-          0.5
-        ],
-        [
-          0.8438,
-          0.4688,
-          0.5
-        ],
-        [
-          0.9,
-          0.5,
-          0.5
-        ],
-        [
-          0.945,
-          0.525,
-          0.5
-        ],
-        [
-          0.99,
-          0.55,
-          0.5
-        ],
-        [
-          1.035,
-          0.575,
-          0.5
-        ],
-        [
-          1.08,
-          0.6,
-          0.5
-        ],
-        [
-          1.125,
-          0.625,
-          0.5
-        ]
-      ]
+        [0.45, 0.25, 0.5],
+        [0.495, 0.275, 0.5],
+        [0.54, 0.3, 0.5],
+        [0.585, 0.325, 0.5],
+        [0.63, 0.35, 0.5],
+        [0.675, 0.375, 0.5],
+        [0.7312, 0.4062, 0.5],
+        [0.7875, 0.4375, 0.5],
+        [0.8438, 0.4688, 0.5],
+        [0.9, 0.5, 0.5],
+        [0.945, 0.525, 0.5],
+        [0.99, 0.55, 0.5],
+        [1.035, 0.575, 0.5],
+        [1.08, 0.6, 0.5],
+        [1.125, 0.625, 0.5]
+      ],
+      "icon": "icon/skill/1404_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome PV e causa Dano Imaginário a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes.",
+        "en": "Consumes HP and deals Imaginary DMG to one designated enemy unit and minor Imaginary DMG to adjacent targets.",
+        "zh-CN": "消耗生命值，对指定敌方单体造成虚数属性伤害，对相邻目标造成少量虚数属性伤害。",
+        "ja": "HPを消費し、指定した敵単体に虚数属性ダメージを与え、隣接する敵に少量の虚数属性ダメージを与える。",
+        "ko": "HP를 소모해 지정된 단일 적에게 허수 속성 피해를 가하고, 인접한 목표에게 소량의 허수 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140403,
@@ -177,112 +102,33 @@
         "ko": "마이데이 HP 최대치의 #3[f1]%만큼 HP를 회복하고, 특성 충전을 #5[i]pt 누적한다. 지정된 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 동시에 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가하며, 목표 및 인접한 목표를 도발 상태에 빠트린다, 지속 시간: #4[i]턴. 다음번 [신을 죽여 신이 된 자]는 지정된 단일 적을 우선 공격하며, 해당 효과는 가장 최근의 목표에게만 적용된다"
       },
       "params": [
-        [
-          0.96,
-          0.6,
-          0.15,
-          2,
-          20
-        ],
-        [
-          1.024,
-          0.64,
-          0.155,
-          2,
-          20
-        ],
-        [
-          1.088,
-          0.68,
-          0.16,
-          2,
-          20
-        ],
-        [
-          1.152,
-          0.72,
-          0.165,
-          2,
-          20
-        ],
-        [
-          1.216,
-          0.76,
-          0.17,
-          2,
-          20
-        ],
-        [
-          1.28,
-          0.8,
-          0.175,
-          2,
-          20
-        ],
-        [
-          1.36,
-          0.85,
-          0.1812,
-          2,
-          20
-        ],
-        [
-          1.44,
-          0.9,
-          0.1875,
-          2,
-          20
-        ],
-        [
-          1.52,
-          0.95,
-          0.1938,
-          2,
-          20
-        ],
-        [
-          1.6,
-          1,
-          0.2,
-          2,
-          20
-        ],
-        [
-          1.664,
-          1.04,
-          0.205,
-          2,
-          20
-        ],
-        [
-          1.728,
-          1.08,
-          0.21,
-          2,
-          20
-        ],
-        [
-          1.792,
-          1.12,
-          0.215,
-          2,
-          20
-        ],
-        [
-          1.856,
-          1.16,
-          0.22,
-          2,
-          20
-        ],
-        [
-          1.92,
-          1.2,
-          0.225,
-          2,
-          20
-        ]
-      ]
+        [0.96, 0.6, 0.15, 2, 20],
+        [1.024, 0.64, 0.155, 2, 20],
+        [1.088, 0.68, 0.16, 2, 20],
+        [1.152, 0.72, 0.165, 2, 20],
+        [1.216, 0.76, 0.17, 2, 20],
+        [1.28, 0.8, 0.175, 2, 20],
+        [1.36, 0.85, 0.1812, 2, 20],
+        [1.44, 0.9, 0.1875, 2, 20],
+        [1.52, 0.95, 0.1938, 2, 20],
+        [1.6, 1, 0.2, 2, 20],
+        [1.664, 1.04, 0.205, 2, 20],
+        [1.728, 1.08, 0.21, 2, 20],
+        [1.792, 1.12, 0.215, 2, 20],
+        [1.856, 1.16, 0.22, 2, 20],
+        [1.92, 1.2, 0.225, 2, 20]
+      ],
+      "icon": "icon/skill/1404_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Restaura PV e acumula Carga do Talento. Causa Dano Imaginário massivo a um inimigo designado e Dano Imaginário a alvos adjacentes, então, aplica \"Provocação\" ao alvo e seus alvos adjacentes.",
+        "en": "Restores HP and accumulates Talent's Charge. Deals massive Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets, then Taunts the target and their adjacent targets.",
+        "zh-CN": "回复生命值并积攒天赋充能，对指定敌方单体造成大量虚数属性伤害，对相邻目标造成虚数属性伤害，并使目标与相邻目标陷入嘲讽状态。",
+        "ja": "HPを回復し、天賦のチャージを獲得する。指定した敵単体に大量の虚数属性ダメージを与え、隣接する敵にも虚数属性ダメージを与える。さらに、ターゲットおよび隣接する敵を挑発状態にする。",
+        "ko": "HP를 회복하고 특성 충전을 누적한다. 지정된 단일 적에게 대량의 허수 속성 피해를 가하고, 인접한 목표에게 허수 속성 피해를 가하며, 목표 및 인접한 목표를 도발 상태에 빠트린다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140404,
@@ -302,124 +148,48 @@
         "ko": "HP를 1% 잃을 때마다 충전을 1pt 누적하고, 최대 200pt까지 누적할 수 있다. 충전이 100에 도달하면 충전을 100pt 소모해 [피의 원한] 상태에 진입하며, 마이데이 HP 최대치의 #1[i]%만큼 HP를 회복하고 행동 게이지가 100% 증가한다. [피의 원한] 상태에서는 HP 최대치가 현재 HP 최대치의 #5[i]%만큼 증가하고 방어력이 0으로 유지된다. 자신의 턴이 시작되면 [왕을 죽여 왕이 된 자]가 자동으로 발동된다.\n[피의 원한] 상태 동안 충전이 #3[i]pt에 도달하면 마이데이가 즉시 보너스 턴을 1개 획득하며, [신을 죽여 신이 된 자]가 자동으로 발동된다.\n[피의 원한] 상태 동안 마이데이가 치명적인 공격을 받을 시 전투 불능 상태에 빠지지 않는 대신 충전이 초기화되고 [피의 원한] 상태가 해제되며, 자신 HP 최대치의 #4[i]%만큼 HP를 회복한다"
       },
       "params": [
-        [
-          0.15,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.16,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.17,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.18,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.19,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.2,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.2125,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.225,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.2375,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.25,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.26,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.27,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.28,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.29,
-          0,
-          150,
-          0.5,
-          0.5
-        ],
-        [
-          0.3,
-          0,
-          150,
-          0.5,
-          0.5
-        ]
-      ]
+        [0.15, 0, 150, 0.5, 0.5],
+        [0.16, 0, 150, 0.5, 0.5],
+        [0.17, 0, 150, 0.5, 0.5],
+        [0.18, 0, 150, 0.5, 0.5],
+        [0.19, 0, 150, 0.5, 0.5],
+        [0.2, 0, 150, 0.5, 0.5],
+        [0.2125, 0, 150, 0.5, 0.5],
+        [0.225, 0, 150, 0.5, 0.5],
+        [0.2375, 0, 150, 0.5, 0.5],
+        [0.25, 0, 150, 0.5, 0.5],
+        [0.26, 0, 150, 0.5, 0.5],
+        [0.27, 0, 150, 0.5, 0.5],
+        [0.28, 0, 150, 0.5, 0.5],
+        [0.29, 0, 150, 0.5, 0.5],
+        [0.3, 0, 150, 0.5, 0.5]
+      ],
+      "icon": "icon/skill/1404_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ao perder PV, acumula Carga. Quando a Carga está em 100, entra no estado de \"Vingança\", restaura PV e Avança Adiante a ação. Durante \"Vingança\", os PV máximos aumentam e a DEF permanece em 0. No início da rodada desta unidade, usa automaticamente \"Regicida, Torne-se Rei\".\nQuando a Carga atinge 150 durante \"Vingança\", Mydei ganha imediatamente 1 rodada extra e usa automaticamente \"Deicida, Torne-se Uma Divindade\".\nQuando Mydei recebe um golpe fatal, sai do estado de \"Vingança\".",
+        "en": "When losing HP, accumulates Charge. When Charge is at 100, enters the \"Vendetta\" state, restores HP and advances action. During \"Vendetta,\" Max HP increases and DEF remains at 0. At the start of this unit's turn, automatically uses \"Kingslayer Be King.\"\nWhen Charge reaches 150 during \"Vendetta,\" Mydei immediately gains 1 extra turn and automatically uses \"Godslayer Be God.\"\nWhen Mydei receives a killing blow, he exits the \"Vendetta\" state.",
+        "zh-CN": "损失生命值时积攒充能，充能达到100时进入【血仇】状态，回复生命值且行动提前。【血仇】状态下当前生命上限提高，防御力保持为0。自身回合开始时自动施放【弑王成王】。\n【血仇】状态期间充能达到150时，万敌立即获得1个额外回合并自动施放【弑神登神】。\n万敌受到致命攻击时退出【血仇】状态。",
+        "ja": "HPを失う時にチャージを獲得する。チャージが100になると「血の報復」状態に入り、HPを回復して行動順が早まる。「血の報復」状態の間、現在の最大HPがアップし、防御力が0に固定される。自身のターンが回ってきた時に「王を殺め王となる」を自動で発動する。\n「血の報復」状態の間、チャージが150になると、モーディスが追加ターンを1獲得し、「神を殺め神となる」を自動で発動する。\nモーディスがHPが0になる攻撃を受けた時、「血の報復」状態を解除する。",
+        "ko": "HP를 잃을 시 충전을 누적한다. 충전이 100에 도달하면 [피의 원한] 상태에 진입하며, HP가 회복되고 행동 게이지가 증가한다. [피의 원한] 상태에서는 현재 HP 최대치가 증가하고 방어력이 0으로 유지된다. 자신의 턴 시작 시 [왕을 죽여 왕이 된 자]가 자동으로 발동된다.\n[피의 원한] 상태 동안 충전이 150에 도달하면 마이데이가 즉시 보너스 턴을 1개 획득하고, [신을 죽여 신이 된 자]가 자동으로 발동된다.\n마이데이가 치명적인 공격을 받으면 [피의 원한] 상태가 해제된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140406,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1404_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -444,15 +214,18 @@
         "ja": "秘技を使用した後、一定範囲内の敵を引き寄せ、#1[i]秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った後、敵全体にモーディスの最大HP#2[i]%分の虚数属性ダメージを与え、敵を挑発状態にする。#4[i]ターン継続。また、自身は天賦のチャージを#5[i]獲得する。",
         "ko": "비술을 사용하면 일정 구역 내의 적을 끌어당기고 #1[i]초 동안 현기증 상태에 빠트린다. 현기증 상태인 적은 아군을 선공할 수 없다.\n현기증 상태에 빠진 적을 선공해 전투 진입 시, 모든 적에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: #4[i]턴. 자신은 특성 충전을 #5[i]pt 누적한다"
       },
-      "params": [
-        [
-          10,
-          0.8,
-          1,
-          1,
-          50
-        ]
-      ]
+      "params": [[10, 0.8, 1, 1, 50]],
+      "icon": "icon/skill/1404_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Puxa inimigos dentro de uma certa área e inflige \"Confusão\" neles. Após atacar inimigos em estado de \"Confusão\" e entrar em batalha, causa Dano Imaginário leve a todos os inimigos e aplica \"Provocação\" aos alvos. Esta unidade acumula a Carga de Talento.",
+        "en": "Pulls in enemies within a certain area and inflicts Daze on them. After attacking Dazed enemies and entering battle, deals minor Imaginary DMG to all enemies and Taunts the targets. This unit accumulates Talent's Charge.",
+        "zh-CN": "牵引一定区域内的敌人并使其陷入晕眩状态。攻击陷入晕眩状态的敌人，进战后对敌方全体造成少量虚数属性伤害，并使目标陷入嘲讽状态。自身积攒天赋充能。",
+        "ja": "一定範囲内の敵を引き寄せ、目眩状態にする。目眩状態の敵を攻撃して戦闘に入った後、敵全体に少量の虚数属性ダメージを与え、敵を挑発状態にする。自身は天賦によるチャージを獲得する。",
+        "ko": "일정 구역 내의 적을 끌어당기고 현기증 상태에 빠트린다. 현기증 상태인 적을 공격하면 전투 진입 시 모든 적에게 소량의 허수 속성 피해를 가하고, 목표를 도발 상태에 빠트린다. 자신은 특성 충전을 누적한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 140409,
@@ -472,82 +245,33 @@
         "ko": "마이데이 현재 HP의 #3[i]%만큼 HP를 소모해 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가한다.\n현재 HP가 부족하면 전투 스킬 발동 시 마이데이의 현재 HP가 1pt까지 감소한다.\n해당 스킬은 자동으로 발동된다"
       },
       "params": [
-        [
-          0.55,
-          0.33,
-          0.35
-        ],
-        [
-          0.605,
-          0.363,
-          0.35
-        ],
-        [
-          0.66,
-          0.396,
-          0.35
-        ],
-        [
-          0.715,
-          0.429,
-          0.35
-        ],
-        [
-          0.77,
-          0.462,
-          0.35
-        ],
-        [
-          0.825,
-          0.495,
-          0.35
-        ],
-        [
-          0.8938,
-          0.5363,
-          0.35
-        ],
-        [
-          0.9625,
-          0.5775,
-          0.35
-        ],
-        [
-          1.0312,
-          0.6188,
-          0.35
-        ],
-        [
-          1.1,
-          0.66,
-          0.35
-        ],
-        [
-          1.155,
-          0.693,
-          0.35
-        ],
-        [
-          1.21,
-          0.726,
-          0.35
-        ],
-        [
-          1.265,
-          0.759,
-          0.35
-        ],
-        [
-          1.32,
-          0.792,
-          0.35
-        ],
-        [
-          1.375,
-          0.825,
-          0.35
-        ]
-      ]
+        [0.55, 0.33, 0.35],
+        [0.605, 0.363, 0.35],
+        [0.66, 0.396, 0.35],
+        [0.715, 0.429, 0.35],
+        [0.77, 0.462, 0.35],
+        [0.825, 0.495, 0.35],
+        [0.8938, 0.5363, 0.35],
+        [0.9625, 0.5775, 0.35],
+        [1.0312, 0.6188, 0.35],
+        [1.1, 0.66, 0.35],
+        [1.155, 0.693, 0.35],
+        [1.21, 0.726, 0.35],
+        [1.265, 0.759, 0.35],
+        [1.32, 0.792, 0.35],
+        [1.375, 0.825, 0.35]
+      ],
+      "icon": "icon/skill/1404_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome PV. Causa Dano Imaginário a um inimigo designado e Dano Imaginário aos alvos adjacentes.\nEsta habilidade será usada automaticamente.",
+        "en": "Consumes HP. Deals Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets.\nThis ability will be automatically used.",
+        "zh-CN": "消耗生命值，对指定敌方单体造成虚数属性伤害，对相邻目标造成虚数属性伤害。\n该技能会自动施放。",
+        "ja": "HPを消費し、指定した敵単体に虚数属性ダメージを与え、隣接する敵に虚数属性ダメージを与える。\nこのスキルは自動で発動する。",
+        "ko": "HP를 소모해 지정된 단일 적에게 허수 속성 피해를 가하고, 인접한 목표에게 허수 속성 피해를 가한다.\n해당 스킬은 자동으로 발동된다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140411,
@@ -567,82 +291,33 @@
         "ko": "충전을 #3[i]pt 소모해 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가한다.\n해당 스킬은 자동으로 발동된다. 이 스킬을 발동하는 동안 충전이 누적되지 않는다"
       },
       "params": [
-        [
-          1.4,
-          0.84,
-          150
-        ],
-        [
-          1.54,
-          0.924,
-          150
-        ],
-        [
-          1.68,
-          1.008,
-          150
-        ],
-        [
-          1.82,
-          1.092,
-          150
-        ],
-        [
-          1.96,
-          1.176,
-          150
-        ],
-        [
-          2.1,
-          1.26,
-          150
-        ],
-        [
-          2.275,
-          1.365,
-          150
-        ],
-        [
-          2.45,
-          1.47,
-          150
-        ],
-        [
-          2.625,
-          1.575,
-          150
-        ],
-        [
-          2.8,
-          1.68,
-          150
-        ],
-        [
-          2.94,
-          1.764,
-          150
-        ],
-        [
-          3.08,
-          1.848,
-          150
-        ],
-        [
-          3.22,
-          1.932,
-          150
-        ],
-        [
-          3.36,
-          2.016,
-          150
-        ],
-        [
-          3.5,
-          2.1,
-          150
-        ]
-      ]
+        [1.4, 0.84, 150],
+        [1.54, 0.924, 150],
+        [1.68, 1.008, 150],
+        [1.82, 1.092, 150],
+        [1.96, 1.176, 150],
+        [2.1, 1.26, 150],
+        [2.275, 1.365, 150],
+        [2.45, 1.47, 150],
+        [2.625, 1.575, 150],
+        [2.8, 1.68, 150],
+        [2.94, 1.764, 150],
+        [3.08, 1.848, 150],
+        [3.22, 1.932, 150],
+        [3.36, 2.016, 150],
+        [3.5, 2.1, 150]
+      ],
+      "icon": "icon/skill/1404_skill2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome Carga. Causa Dano Imaginário massivo a um inimigo designado e Dano Imaginário massivo aos alvos adjacentes.\nEsta habilidade será usada automaticamente.",
+        "en": "Consumes Charge. Deals massive Imaginary DMG to one designated enemy and massive Imaginary DMG to adjacent targets.\nThis ability will be automatically used.",
+        "zh-CN": "消耗充能，对指定敌方单体造成大量虚数属性伤害，对相邻目标造成大量虚数属性伤害。\n该技能会自动施放。",
+        "ja": "チャージを消費し、指定した敵単体に大量の虚数属性ダメージを与え、隣接する敵に大量の虚数属性ダメージを与える。\nこのスキルは自動で発動する。",
+        "ko": "충전을 소모하고, 지정된 단일 적에게 대량의 허수 속성 피해를 가하며, 인접한 목표에게 대량의 허수 속성 피해를 가한다.\n해당 스킬은 자동으로 발동된다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -661,7 +336,10 @@
         "zh-CN": "【弑神登神】对主目标造成的伤害倍率提高30%，且变成对敌方全体造成等同于主目标伤害倍率的虚数属性伤害。",
         "ja": "「神を殺め神となる」のメインターゲットに対するダメージ倍率+30%、また、「神を殺め神となる」はメインターゲットに対するダメージ倍率で敵全体に虚数属性ダメージを与えるようになる。",
         "ko": "[신을 죽여 신이 된 자]가 주목표에게 가하는 피해 배율이 30% 증가하고, 모든 적에게 주목표 피해 배율만큼 허수 속성 피해를 가하는 것으로 변경된다"
-      }
+      },
+      "icon": "icon/skill/1404_rank1.png",
+      "materials": [{ "id": 11404, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -678,7 +356,10 @@
         "zh-CN": "【血仇】状态期间，万敌造成的伤害无视敌方目标15%的防御力，且接受治疗后会将40%的治疗数值转化为充能，累计转化的充能不超过40点。任意单位行动后重置可累计的充能。",
         "ja": "「血の報復」状態の間、モーディスが与えるダメージは敵の防御力を15%無視する。治癒を受けた後、治癒量の40%分がチャージに変換され、累計で40まで変換できる。任意のユニットが行動した後、変換できるチャージのカウントはリセットされる。",
         "ko": "[피의 원한] 상태 동안, 마이데이가 가하는 피해는 적의 방어력을 15% 무시하며, 치유를 받으면 치유량의 40%가 충전으로 전환된다. 누적 전환되는 충전은 40pt를 초과하지 않는다. 임의 유닛 행동 후 누적 가능한 충전이 초기화된다"
-      }
+      },
+      "icon": "icon/skill/1404_rank2.png",
+      "materials": [{ "id": 11404, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -695,7 +376,15 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1404_skill.png",
+      "materials": [{ "id": 11404, "num": 1 }],
+      "levelUpSkills": [
+        { "id": 140402, "num": 2 },
+        { "id": 140401, "num": 1 },
+        { "id": 140409, "num": 2 },
+        { "id": 140411, "num": 2 }
+      ]
     },
     {
       "rank": 4,
@@ -712,7 +401,10 @@
         "zh-CN": "【血仇】状态期间暴击伤害提高30%，且受到来自敌方目标的攻击后回复等同于自身10%生命上限的生命值。",
         "ja": "「血の報復」状態の間、会心ダメージ+30%。敵から攻撃を受けた後、自身の最大HP10%分のHPを回復する。",
         "ko": "[피의 원한] 상태 동안 치명타 피해가 30% 증가하며, 적의 공격을 받으면 자신의 HP 최대치의 10%만큼 HP를 회복한다"
-      }
+      },
+      "icon": "icon/skill/1404_rank4.png",
+      "materials": [{ "id": 11404, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -729,7 +421,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1404_ultimate.png",
+      "materials": [{ "id": 11404, "num": 1 }],
+      "levelUpSkills": [{ "id": 140403, "num": 2 }, { "id": 140404, "num": 2 }]
     },
     {
       "rank": 6,
@@ -746,10 +441,681 @@
         "zh-CN": "进入战斗时立刻进入【血仇】状态且【弑神登神】所需的充能值降低至100点。",
         "ja": "戦闘に入る時、「血の報復」状態に入り、「神を殺め神となる」に必要なチャージが100になる。",
         "ko": "전투 진입 시 즉시 [피의 원한] 상태에 진입하고, [신을 죽여 신이 된 자]에 필요한 충전치가 100pt로 감소한다"
-      }
+      },
+      "icon": "icon/skill/1404_rank6.png",
+      "materials": [{ "id": 11404, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 160,
+  "stats": [
+    {
+      "hp": { "base": 211.2, "step": 10.56 },
+      "atk": { "base": 58.08, "step": 2.904 },
+      "def": { "base": 26.4, "step": 1.32 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 295.68, "step": 10.56 },
+      "atk": { "base": 81.312, "step": 2.904 },
+      "def": { "base": 36.96, "step": 1.32 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 380.16, "step": 10.56 },
+      "atk": { "base": 104.544, "step": 2.904 },
+      "def": { "base": 47.52, "step": 1.32 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 464.64, "step": 10.56 },
+      "atk": { "base": 127.776, "step": 2.904 },
+      "def": { "base": 58.08, "step": 1.32 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 549.12, "step": 10.56 },
+      "atk": { "base": 151.008, "step": 2.904 },
+      "def": { "base": 68.64, "step": 1.32 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 633.6, "step": 10.56 },
+      "atk": { "base": 174.24, "step": 2.904 },
+      "def": { "base": 79.2, "step": 1.32 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 718.08, "step": 10.56 },
+      "atk": { "base": 197.472, "step": 2.904 },
+      "def": { "base": 89.76, "step": 1.32 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 115001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 115001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 115002, "num": 6 }, { "id": 110437, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 115002, "num": 9 }, { "id": 110437, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 115003, "num": 6 }, { "id": 110437, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 115003, "num": 9 }, { "id": 110437, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1404001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1404_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [140401],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 115003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1404002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1404_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140402, 140409, 140411],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 115002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 115003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1404003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1404_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140403],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 115002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 115003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1404004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1404_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140404],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 115002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 115003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1404007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1404_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [140407],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1404101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Terra e Água",
+        "en": "Earth and Water",
+        "zh-CN": "水与泥土",
+        "ja": "{RUBY_B#つち}土{RUBY_E#}と{RUBY_B#みず}水{RUBY_E#}",
+        "ko": "물과 흙"
+      },
+      "description": {
+        "pt-BR": "Enquanto estiver no estado de \"Vingança\", Mydei não sairá do estado de \"Vingança\" ao receber um Golpe Fatal. Este efeito pode ser ativado #1[i] vez(es) por batalha.",
+        "en": "During the \"Vendetta\" state, Mydei will not exit the \"Vendetta\" state when receiving a killing blow. This effect can trigger #1[i] time(s) per battle.",
+        "zh-CN": "【血仇】状态下万敌受到致命攻击时不会退出【血仇】状态。该效果单场战斗中可以触发#1[i]次。",
+        "ja": "「血の報復」状態のモーディスがHPが0になる攻撃を受けても、「血の報復」状態を解除しない。この効果は一度の戦闘で#1[i]回まで発動できる。",
+        "ko": "[피의 원한] 상태에서 마이데이가 치명적인 공격을 받을 시 [피의 원한] 상태가 해제되지 않는다. 해당 효과는 단일 전투 중 #1[i]회 발동할 수 있다"
+      },
+      "params": [[3]],
+      "icon": "icon/skill/1404_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 110506, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1404102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Trinta Tiranos",
+        "en": "Thirty Tyrants",
+        "zh-CN": "三十僭主",
+        "ja": "{RUBY_B#さんじゅう}三十{RUBY_E#}の{RUBY_B#せんしゅ}僭主{RUBY_E#}",
+        "ko": "30인 참주"
+      },
+      "description": {
+        "pt-BR": "Enquanto estiver no estado de \"Vingança\", Mydei é imune a Penalidades de Controle Negativo.",
+        "en": "While in the \"Vendetta\" state, Mydei is immune to Crowd Control debuffs.",
+        "zh-CN": "【血仇】状态下万敌免疫控制类负面状态。",
+        "ja": "「血の報復」状態のモーディスは行動制限系デバフに抵抗できる。",
+        "ko": "[피의 원한] 상태에서 마이데이가 제어류 디버프 상태에 면역된다"
+      },
+      "icon": "icon/skill/1404_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110182, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1404103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Quíton Ensanguentado",
+        "en": "Bloodied Chiton",
+        "zh-CN": "血祥罩衫",
+        "ja": "{RUBY_B#ちぞ}血染{RUBY_E#}めの{RUBY_B#ころも}衣{RUBY_E#}",
+        "ko": "혈조의 의복"
+      },
+      "description": {
+        "pt-BR": "No início da batalha, se os PV máximos de Mydei excederem #1[i], para cada 100 PV excedentes, sua Chance de CRIT aumenta em #3[f1]%, sua taxa de Carga gerada pelo Dano dos inimigos-alvo aumenta em #4[f1]% e sua Cura Recebida aumenta em #5[f2]%. Até #2[i] PV excedentes podem ser considerados para este efeito.",
+        "en": "When battle starts, if Mydei's Max HP exceeds #1[i], for every 100 excess HP, Mydei's CRIT Rate increases by #3[f1]%, his Charge ratio from enemy targets' DMG increases by #4[f1]%, and his HP restored when receiving healing increases by #5[f2]%. Up to #2[i] excess HP can be taken into account for this effect.",
+        "zh-CN": "战斗开始时，若万敌的生命上限高于#1[i]点，每超过100点生命值可使自身暴击率提高#3[f1]%，万敌受到来自敌方目标伤害造成的充能比例提高#4[f1]%，受到治疗时的回复量提高#5[f2]%，超出部分最多计入#2[i]点生命值。",
+        "ja": "戦闘開始時、モーディスの最大HPが#1[i]を超えた場合、超過したHP100につき、自身の会心率+#3[f1]%。モーディスが敵からの攻撃でダメージを受けた際に得られるチャージ割合+#4[f1]%、治癒を受けた時の回復量+#5[f2]%。超過したHPは最大で#2[i]までカウントされる。",
+        "ko": "전투 시작 시 마이데이의 HP 최대치가 #1[i]pt보다 높으면 100pt 초과할 때마다 자신의 치명타 확률이 #3[f1]% 증가하고, 마이데이가 적으로부터 받은 피해로 인한 충전 비율이 #4[f1]% 증가하며, 치유를 받을 시의 회복량이 #5[f2]% 증가한다. 초과한 HP는 최대 #2[i]pt까지 계산된다"
+      },
+      "params": [[4000, 4000, 0.012, 0.025, 0.0075]],
+      "icon": "icon/skill/1404_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1404201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1404202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1404101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 115001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1404203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1404202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 115002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1404204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1404203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 115002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1404205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1404102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 115002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1404206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1404205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 115003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1404207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1404206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 115003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1404208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1404103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 115003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1404209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1404208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 115003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1404210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1404208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 115003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11404, 110181, 110182, 110183, 110437, 110506, 115001, 115002, 115003],
   "images": {
     "icon": "icon/character/1404.png",
     "preview": "image/character_preview/1404.png",

@@ -1,0 +1,17 @@
+{
+  "id": 11503,
+  "slug": "pearls-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Pearl",
+    "en": "Pearl's Eidolon",
+    "zh-CN": "【真珠】的星魂",
+    "ja": "「パール」の星魂",
+    "ko": "[펄]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

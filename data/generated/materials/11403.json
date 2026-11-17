@@ -1,0 +1,17 @@
+{
+  "id": 11403,
+  "slug": "tribbies-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Tribbie",
+    "en": "Tribbie's Eidolon",
+    "zh-CN": "【缇宝】的星魂",
+    "ja": "「トリビー」の星魂",
+    "ko": "[트리비]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

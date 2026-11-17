@@ -1,13 +1,7 @@
 {
   "id": 1004,
   "slug": "welt",
-  "name": {
-    "pt-BR": "Welt",
-    "en": "Welt",
-    "zh-CN": "瓦尔特",
-    "ja": "ヴェルト",
-    "ko": "웰트"
-  },
+  "name": { "pt-BR": "Welt", "en": "Welt", "zh-CN": "瓦尔特", "ja": "ヴェルト", "ko": "웰트" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Imaginary",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与える。",
         "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1004_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário leve a um único inimigo.",
+        "en": "Deals minor Imaginary DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量虚数属性伤害。",
+        "ja": "敵単体に少量の虚数属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 허수 속성 피해를 준다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 100402,
@@ -82,97 +56,33 @@
         "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, 추가로 피해를 2회 가한다. 피해당 랜덤 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다. 공격이 명중하면 #2[i]%의 기본 확률로 피격된 적의 속도를 #3[i]% 감소시킨다, 지속 시간: #4[i]턴"
       },
       "params": [
-        [
-          0.36,
-          0.65,
-          0.1,
-          2
-        ],
-        [
-          0.396,
-          0.66,
-          0.1,
-          2
-        ],
-        [
-          0.432,
-          0.67,
-          0.1,
-          2
-        ],
-        [
-          0.468,
-          0.68,
-          0.1,
-          2
-        ],
-        [
-          0.504,
-          0.69,
-          0.1,
-          2
-        ],
-        [
-          0.54,
-          0.7,
-          0.1,
-          2
-        ],
-        [
-          0.585,
-          0.7125,
-          0.1,
-          2
-        ],
-        [
-          0.63,
-          0.725,
-          0.1,
-          2
-        ],
-        [
-          0.675,
-          0.7375,
-          0.1,
-          2
-        ],
-        [
-          0.72,
-          0.75,
-          0.1,
-          2
-        ],
-        [
-          0.756,
-          0.76,
-          0.1,
-          2
-        ],
-        [
-          0.792,
-          0.77,
-          0.1,
-          2
-        ],
-        [
-          0.828,
-          0.78,
-          0.1,
-          2
-        ],
-        [
-          0.864,
-          0.79,
-          0.1,
-          2
-        ],
-        [
-          0.9,
-          0.8,
-          0.1,
-          2
-        ]
-      ]
+        [0.36, 0.65, 0.1, 2],
+        [0.396, 0.66, 0.1, 2],
+        [0.432, 0.67, 0.1, 2],
+        [0.468, 0.68, 0.1, 2],
+        [0.504, 0.69, 0.1, 2],
+        [0.54, 0.7, 0.1, 2],
+        [0.585, 0.7125, 0.1, 2],
+        [0.63, 0.725, 0.1, 2],
+        [0.675, 0.7375, 0.1, 2],
+        [0.72, 0.75, 0.1, 2],
+        [0.756, 0.76, 0.1, 2],
+        [0.792, 0.77, 0.1, 2],
+        [0.828, 0.78, 0.1, 2],
+        [0.864, 0.79, 0.1, 2],
+        [0.9, 0.8, 0.1, 2]
+      ],
+      "icon": "icon/skill/1004_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário leve a um único inimigo. Este ataque pode ser Rebatido 3 vezes, com chance de causar Lentidão aos inimigos atingidos.",
+        "en": "Deals minor Imaginary DMG to one enemy. This attack can Bounce 3 times, with a chance of Slowing the hit enemies.",
+        "zh-CN": "对敌方单体造成少量虚数属性伤害，共弹射3次，有概率对目标施加减速状态。",
+        "ja": "敵単体に少量の虚数属性ダメージを与える、3回バウンドし、確率で敵に減速状態を付与する。",
+        "ko": "단일 적에게 소량의 허수 속성 피해를 가하고 총 3회 바운스한다. 일정 확률로 해당 적에게 감속 상태를 부여한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
     },
     {
       "id": 100403,
@@ -192,97 +102,33 @@
         "ko": "모든 적에게 웰트 공격력 #1[i]%만큼의 허수 속성 피해를 주고 #3[i]%의 기본 확률로 피격된 적을 속박 상태에 빠트린다. 지속 시간: 1턴\n속박 상태에서 적의 행동 게이지가 #2[f1]% 감소하고, 속도가 #4[i]% 감소한다"
       },
       "params": [
-        [
-          0.9,
-          0.32,
-          1,
-          0.1
-        ],
-        [
-          0.96,
-          0.328,
-          1,
-          0.1
-        ],
-        [
-          1.02,
-          0.336,
-          1,
-          0.1
-        ],
-        [
-          1.08,
-          0.344,
-          1,
-          0.1
-        ],
-        [
-          1.14,
-          0.352,
-          1,
-          0.1
-        ],
-        [
-          1.2,
-          0.36,
-          1,
-          0.1
-        ],
-        [
-          1.275,
-          0.37,
-          1,
-          0.1
-        ],
-        [
-          1.35,
-          0.38,
-          1,
-          0.1
-        ],
-        [
-          1.425,
-          0.39,
-          1,
-          0.1
-        ],
-        [
-          1.5,
-          0.4,
-          1,
-          0.1
-        ],
-        [
-          1.56,
-          0.408,
-          1,
-          0.1
-        ],
-        [
-          1.62,
-          0.416,
-          1,
-          0.1
-        ],
-        [
-          1.68,
-          0.424,
-          1,
-          0.1
-        ],
-        [
-          1.74,
-          0.432,
-          1,
-          0.1
-        ],
-        [
-          1.8,
-          0.44,
-          1,
-          0.1
-        ]
-      ]
+        [0.9, 0.32, 1, 0.1],
+        [0.96, 0.328, 1, 0.1],
+        [1.02, 0.336, 1, 0.1],
+        [1.08, 0.344, 1, 0.1],
+        [1.14, 0.352, 1, 0.1],
+        [1.2, 0.36, 1, 0.1],
+        [1.275, 0.37, 1, 0.1],
+        [1.35, 0.38, 1, 0.1],
+        [1.425, 0.39, 1, 0.1],
+        [1.5, 0.4, 1, 0.1],
+        [1.56, 0.408, 1, 0.1],
+        [1.62, 0.416, 1, 0.1],
+        [1.68, 0.424, 1, 0.1],
+        [1.74, 0.432, 1, 0.1],
+        [1.8, 0.44, 1, 0.1]
+      ],
+      "icon": "icon/skill/1004_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário a todos os inimigos, com altas chances de também causar Aprisionamento.",
+        "en": "Deals Imaginary DMG to all enemies, with a high chance of Imprisoning them.",
+        "zh-CN": "对敌方全体造成虚数属性伤害，大概率施加禁锢效果。",
+        "ja": "敵全体に虚数属性ダメージを与え、高確率で禁錮状態にする。",
+        "ko": "모든 적에게 허수 속성 피해를 가하고 높은 확률로 속박 효과를 부여한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 100404,
@@ -302,64 +148,48 @@
         "ko": "감속 상태의 적을 공격 시 추가로 웰트 공격력 #1[i]%만큼의 허수 속성 추가 피해를 1회 준다"
       },
       "params": [
-        [
-          0.3
-        ],
-        [
-          0.33
-        ],
-        [
-          0.36
-        ],
-        [
-          0.39
-        ],
-        [
-          0.42
-        ],
-        [
-          0.45
-        ],
-        [
-          0.4875
-        ],
-        [
-          0.525
-        ],
-        [
-          0.5625
-        ],
-        [
-          0.6
-        ],
-        [
-          0.63
-        ],
-        [
-          0.66
-        ],
-        [
-          0.69
-        ],
-        [
-          0.72
-        ],
-        [
-          0.75
-        ]
-      ]
+        [0.3],
+        [0.33],
+        [0.36],
+        [0.39],
+        [0.42],
+        [0.45],
+        [0.4875],
+        [0.525],
+        [0.5625],
+        [0.6],
+        [0.63],
+        [0.66],
+        [0.69],
+        [0.72],
+        [0.75]
+      ],
+      "icon": "icon/skill/1004_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ao golpear um inimigo com Lentidão, adicionalmente causa Dano Adicional Imaginário leve.",
+        "en": "When hitting a Slowed enemy, additionally deals minor Imaginary Additional DMG.",
+        "zh-CN": "击中处于减速状态的敌方目标时，额外造成少量虚数属性附加伤害。",
+        "ja": "攻撃が減速状態の敵に命中した時、さらに少量の虚数属性付加ダメージを与える。",
+        "ko": "감속 상태의 적 명중 시 소량의 허수 속성 추가 피해를 추가로 가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 100406,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1004_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -384,15 +214,18 @@
         "ja": "秘技を使用した後、#4[i]秒間継続する特殊領域を作り出す、特殊領域内にいる敵の移動速度-#5[i]%。特殊領域内にいる敵と戦闘に入った後、#1[i]%の基礎確率で敵を禁錮状態にする、1ターン継続。\n禁錮状態の敵は行動順が#2[i]%遅延し、速度-#3[i]%。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 #4[i]초 동안 지속되는 특수 영역을 하나 만든다. 특수 영역 안에 있는 적은 이동 속도가 #5[i]% 감소한다. 특수 영역 안에 있는 적은 전투 진입 후 #1[i]%의 기본 확률로 속박 상태에 빠진다, 지속 시간: 1턴\n속박 상태의 적은 행동 게이지가 #2[i]% 감소하고, 속도가 #3[i]% 감소한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
-      "params": [
-        [
-          1,
-          0.2,
-          0.1,
-          15,
-          0.5
-        ]
-      ]
+      "params": [[1, 0.2, 0.1, 15, 0.5]],
+      "icon": "icon/skill/1004_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Cria uma dimensão especial. Inimigos nessa dimensão têm sua VEL de Movimento reduzida. Depois de entrar em combate com inimigos na dimensão, existe uma alta chance dos inimigos sofrerem de Aprisionamento.",
+        "en": "Creates a Special Dimension. Enemies in this dimension have their movement speed reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
+        "zh-CN": "制造特殊领域。领域内敌人移动速度降低。与领域内敌人进入战斗后，大概率使敌方目标陷入禁锢状态。",
+        "ja": "特殊領域を作り出す。領域内の敵の移動速度をダウンさせる。領域内の敵と戦闘に入った後、高確率で敵を禁錮状態にする。",
+        "ko": "특수 영역을 만든다. 영역 내의 적은 이동 속도가 감소한다. 영역 내의 적과 전투에 진입하면 높은 확률로 적을 속박 상태에 빠트린다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 1100401,
@@ -411,38 +244,18 @@
         "ja": "指定した敵単体にヴェルトの攻撃力#1[i]%分の虚数属性ダメージを与える。",
         "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/11004_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário leve a um único inimigo.",
+        "en": "Deals minor Imaginary DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量虚数属性伤害。",
+        "ja": "敵単体に少量の虚数属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 허수 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1100402,
@@ -462,97 +275,33 @@
         "ko": "지정된 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, 추가로 피해를 4회 가한다. 피해당 랜덤 단일 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가한다. 공격이 명중하면 #2[i]%의 기본 확률로 피격된 적의 속도를 #3[i]% 감소시킨다, 지속 시간: #4[i]턴"
       },
       "params": [
-        [
-          0.36,
-          0.65,
-          0.1,
-          2
-        ],
-        [
-          0.396,
-          0.66,
-          0.1,
-          2
-        ],
-        [
-          0.432,
-          0.67,
-          0.1,
-          2
-        ],
-        [
-          0.468,
-          0.68,
-          0.1,
-          2
-        ],
-        [
-          0.504,
-          0.69,
-          0.1,
-          2
-        ],
-        [
-          0.54,
-          0.7,
-          0.1,
-          2
-        ],
-        [
-          0.585,
-          0.7125,
-          0.1,
-          2
-        ],
-        [
-          0.63,
-          0.725,
-          0.1,
-          2
-        ],
-        [
-          0.675,
-          0.7375,
-          0.1,
-          2
-        ],
-        [
-          0.72,
-          0.75,
-          0.1,
-          2
-        ],
-        [
-          0.756,
-          0.76,
-          0.1,
-          2
-        ],
-        [
-          0.792,
-          0.77,
-          0.1,
-          2
-        ],
-        [
-          0.828,
-          0.78,
-          0.1,
-          2
-        ],
-        [
-          0.864,
-          0.79,
-          0.1,
-          2
-        ],
-        [
-          0.9,
-          0.8,
-          0.1,
-          2
-        ]
-      ]
+        [0.36, 0.65, 0.1, 2],
+        [0.396, 0.66, 0.1, 2],
+        [0.432, 0.67, 0.1, 2],
+        [0.468, 0.68, 0.1, 2],
+        [0.504, 0.69, 0.1, 2],
+        [0.54, 0.7, 0.1, 2],
+        [0.585, 0.7125, 0.1, 2],
+        [0.63, 0.725, 0.1, 2],
+        [0.675, 0.7375, 0.1, 2],
+        [0.72, 0.75, 0.1, 2],
+        [0.756, 0.76, 0.1, 2],
+        [0.792, 0.77, 0.1, 2],
+        [0.828, 0.78, 0.1, 2],
+        [0.864, 0.79, 0.1, 2],
+        [0.9, 0.8, 0.1, 2]
+      ],
+      "icon": "icon/skill/11004_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário leve a um único inimigo. Este ataque pode ser Ricochetear 5 vezes, com chance de causar \"Lentidão\" aos inimigos atingidos.",
+        "en": "Deals minor Imaginary DMG to one enemy. This attack can Bounce 5 times, with a chance of Slowing the hit enemies.",
+        "zh-CN": "对敌方单体造成少量虚数属性伤害，共弹射5次，有概率对目标施加减速状态。",
+        "ja": "敵単体に少量の虚数属性ダメージを与える、5回バウンドし、確率で敵に減速状態を付与する。",
+        "ko": "단일 적에게 소량의 허수 속성 피해를 가하고, 총 5회 바운스한다. 일정 확률로 해당 적에게 감속 상태를 부여한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
     },
     {
       "id": 1100403,
@@ -572,142 +321,33 @@
         "ko": "모든 적에게 웰트 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, #3[i]%의 기본 확률로 피격된 적을 속박 상태에 빠트린다, 지속 시간: 1턴\n속박 상태의 적은 행동 게이지가 #2[f1]% 감소하고, 속도가 #4[i]% 감소한다. 필살기 발동 후 모든 적을 [무중력] 상태에 빠트린다. [무중력] 상태의 적은 피격 시 행동 게이지가 #5[f1]% 감소하고, 해당 효과는 목표마다 턴당 최대 #6[i]회 발동한다, [무중력] 상태 지속 시간: #7[i]턴"
       },
       "params": [
-        [
-          0.9,
-          0.06,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          0.96,
-          0.066,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.02,
-          0.072,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.08,
-          0.078,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.14,
-          0.084,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.2,
-          0.09,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.275,
-          0.0975,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.35,
-          0.105,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.425,
-          0.1125,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.5,
-          0.12,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.56,
-          0.126,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.62,
-          0.132,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.68,
-          0.138,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.74,
-          0.144,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ],
-        [
-          1.8,
-          0.15,
-          1,
-          0.1,
-          0.04,
-          8,
-          2
-        ]
-      ]
+        [0.9, 0.06, 1, 0.1, 0.04, 8, 2],
+        [0.96, 0.066, 1, 0.1, 0.04, 8, 2],
+        [1.02, 0.072, 1, 0.1, 0.04, 8, 2],
+        [1.08, 0.078, 1, 0.1, 0.04, 8, 2],
+        [1.14, 0.084, 1, 0.1, 0.04, 8, 2],
+        [1.2, 0.09, 1, 0.1, 0.04, 8, 2],
+        [1.275, 0.0975, 1, 0.1, 0.04, 8, 2],
+        [1.35, 0.105, 1, 0.1, 0.04, 8, 2],
+        [1.425, 0.1125, 1, 0.1, 0.04, 8, 2],
+        [1.5, 0.12, 1, 0.1, 0.04, 8, 2],
+        [1.56, 0.126, 1, 0.1, 0.04, 8, 2],
+        [1.62, 0.132, 1, 0.1, 0.04, 8, 2],
+        [1.68, 0.138, 1, 0.1, 0.04, 8, 2],
+        [1.74, 0.144, 1, 0.1, 0.04, 8, 2],
+        [1.8, 0.15, 1, 0.1, 0.04, 8, 2]
+      ],
+      "icon": "icon/skill/11004_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário a todos os inimigos com uma chance alta de infligir \"Aprisionamento\". Inflige \"Sem Peso\" a todos os inimigos: quando atacados, suas ações são atrasadas.",
+        "en": "Deals Imaginary DMG to all enemies with a high chance to inflict Imprisonment. Inflicts all enemies with \"Weightless\": when attacked, their actions are delayed.",
+        "zh-CN": "对敌方全体造成虚数属性伤害，大概率施加禁锢效果。使敌方全体陷入【失重】状态：受到攻击时行动延后。",
+        "ja": "敵全体に虚数属性ダメージを与え、高確率で禁錮状態を付与する。敵全体に「無重力」状態を付与する。「無重力」状態の敵は、攻撃を受ける時に行動順が遅延する。",
+        "ko": "모든 적에게 허수 속성 피해를 가하고, 높은 확률로 속박 효과를 부여한다. 모든 적을 [무중력] 상태에 빠트린다. [무중력]: 피격 시 행동 게이지가 감소한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1100404,
@@ -727,94 +367,48 @@
         "ko": "[무중력] 상태의 적 방어력이 #2[i]% 감소하고, 속도가 #3[i]% 감소한다. 웰트가 감속 상태의 적 명중 시 추가로 웰트 공격력의 #1[i]%만큼 허수 속성 추가 피해를 1회 가한다"
       },
       "params": [
-        [
-          0.5,
-          0.4,
-          0.05
-        ],
-        [
-          0.55,
-          0.4,
-          0.05
-        ],
-        [
-          0.6,
-          0.4,
-          0.05
-        ],
-        [
-          0.65,
-          0.4,
-          0.05
-        ],
-        [
-          0.7,
-          0.4,
-          0.05
-        ],
-        [
-          0.75,
-          0.4,
-          0.05
-        ],
-        [
-          0.8125,
-          0.4,
-          0.05
-        ],
-        [
-          0.875,
-          0.4,
-          0.05
-        ],
-        [
-          0.9375,
-          0.4,
-          0.05
-        ],
-        [
-          1,
-          0.4,
-          0.05
-        ],
-        [
-          1.05,
-          0.4,
-          0.05
-        ],
-        [
-          1.1,
-          0.4,
-          0.05
-        ],
-        [
-          1.15,
-          0.4,
-          0.05
-        ],
-        [
-          1.2,
-          0.4,
-          0.05
-        ],
-        [
-          1.25,
-          0.4,
-          0.05
-        ]
-      ]
+        [0.5, 0.4, 0.05],
+        [0.55, 0.4, 0.05],
+        [0.6, 0.4, 0.05],
+        [0.65, 0.4, 0.05],
+        [0.7, 0.4, 0.05],
+        [0.75, 0.4, 0.05],
+        [0.8125, 0.4, 0.05],
+        [0.875, 0.4, 0.05],
+        [0.9375, 0.4, 0.05],
+        [1, 0.4, 0.05],
+        [1.05, 0.4, 0.05],
+        [1.1, 0.4, 0.05],
+        [1.15, 0.4, 0.05],
+        [1.2, 0.4, 0.05],
+        [1.25, 0.4, 0.05]
+      ],
+      "icon": "icon/skill/11004_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Inimigos-alvo no estado \"Sem Peso\" têm DEF e VEL reduzidas. Ao atingir um inimigo-alvo com \"Lentidão\", causa Dano Adicional Imaginário leve adicional.",
+        "en": "Enemy targets in the \"Weightless\" state have reduced DEF and SPD. When hitting a Slowed enemy target, additionally deals minor Imaginary Additional DMG.",
+        "zh-CN": "处于【失重】状态下的敌方目标防御力及速度降低。击中处于减速状态的敌方目标时，额外造成少量虚数属性附加伤害。",
+        "ja": "「無重力」状態の敵の防御力と速度がダウンする。攻撃が減速状態の敵に命中した時、さらに少量の虚数属性付加ダメージを与える。",
+        "ko": "[무중력] 상태인 적의 방어력과 속도가 감소한다. 감속 상태인 적에게 명중 시, 추가로 소량의 허수 속성 추가 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1100406,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/11004_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -839,15 +433,18 @@
         "ja": "秘技を使用した後、#4[i]秒間継続する特殊領域を作り出す、特殊領域内にいる敵の移動速度-#5[i]%。特殊領域内にいる敵と戦闘に入った後、#1[i]%の基礎確率で敵を禁錮状態にする、1ターン継続。\n禁錮状態の敵は行動順が#2[i]%遅延し、速度-#3[i]%。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 #4[i]초 동안 지속되는 특수 영역을 하나 만든다. 특수 영역 안에 있는 적은 이동 속도가 #5[i]% 감소한다. 특수 영역 안에 있는 적은 전투 진입 후 #1[i]%의 기본 확률로 속박 상태에 빠진다, 지속 시간: 1턴\n속박 상태의 적은 행동 게이지가 #2[i]% 감소하고, 속도가 #3[i]% 감소한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
-      "params": [
-        [
-          1,
-          0.2,
-          0.1,
-          15,
-          0.5
-        ]
-      ]
+      "params": [[1, 0.2, 0.1, 15, 0.5]],
+      "icon": "icon/skill/11004_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Cria uma Dimensão Especial. Inimigos nessa dimensão têm sua VEL de Movimento reduzida. Depois de entrar em combate com inimigos na dimensão, existe uma alta chance dos inimigos sofrerem \"Aprisionamento\".",
+        "en": "Creates a Special Dimension. Enemies in this dimension have their movement speed reduced. After entering combat with enemies in the dimension, there is a high chance for the enemies to become Imprisoned.",
+        "zh-CN": "制造特殊领域。领域内敌人移动速度降低。与领域内敌人进入战斗后，大概率使敌方目标陷入禁锢状态。",
+        "ja": "特殊領域を作り出す。領域内の敵の移動速度をダウンさせる。領域内の敵と戦闘に入った後、高確率で敵を禁錮状態にする。",
+        "ko": "특수 영역을 만든다. 영역 내의 적은 이동 속도가 감소한다. 영역 내의 적과 전투에 진입하면 높은 확률로 적을 속박 상태에 빠트린다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -866,7 +463,10 @@
         "zh-CN": "施放终结技后，瓦尔特获得强化，在随后2次施放普攻或战技时额外对敌方目标造成1次附加伤害。施放普攻造成的附加伤害等同于普攻伤害倍率的50%，施放战技造成的附加伤害等同于战技伤害倍率的80%。",
         "ja": "必殺技を発動した後、ヴェルトは強化を獲得、以後2回の通常攻撃/戦闘スキルはさらに敵に付加ダメージを1回与える。通常攻撃による付加ダメージは通常攻撃のダメージ倍率の50%、戦闘スキルによる付加ダメージは戦闘スキルのダメージ倍率の80%となる。",
         "ko": "필살기 발동 후 웰트는 강화를 획득하며 다음 2번의 일반 공격 혹은 전투 스킬 발동 시 적에게 1회 추가 피해를 가한다. 일반 공격 발동 시의 추가 피해는 일반 공격 피해 배율의 50%이고, 전투 스킬 발동 시의 추가 피해는 전투 스킬 피해 배율의 80%이다"
-      }
+      },
+      "icon": "icon/skill/1004_rank1.png",
+      "materials": [{ "id": 11004, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -883,7 +483,10 @@
         "zh-CN": "触发天赋时，瓦尔特恢复3点能量。",
         "ja": "天賦発動時、ヴェルトはEPを3回復する。",
         "ko": "특성 발동 시 웰트가 에너지를 3pt 회복한다"
-      }
+      },
+      "icon": "icon/skill/1004_rank2.png",
+      "materials": [{ "id": 11004, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -900,7 +503,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1004_skill.png",
+      "materials": [{ "id": 11004, "num": 1 }],
+      "levelUpSkills": [{ "id": 100402, "num": 2 }, { "id": 100401, "num": 1 }]
     },
     {
       "rank": 4,
@@ -917,7 +523,10 @@
         "zh-CN": "施放战技时，使受到攻击的敌方目标速度降低的基础概率提高35%。",
         "ja": "戦闘スキルを発動した時、攻撃を受けた敵の速度をダウンさせる基礎確率+35%。",
         "ko": "전투 스킬 발동 시 피격된 적의 속도가 감소하는 기본 확률이 35% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1004_rank4.png",
+      "materials": [{ "id": 11004, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -934,7 +543,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1004_ultimate.png",
+      "materials": [{ "id": 11004, "num": 1 }],
+      "levelUpSkills": [{ "id": 100403, "num": 2 }, { "id": 100404, "num": 2 }]
     },
     {
       "rank": 6,
@@ -951,10 +563,1305 @@
         "zh-CN": "施放战技时，对随机敌方单体额外造成1次伤害。",
         "ja": "戦闘スキルを発動した時、さらにランダムな敵単体にダメージを1回与える。",
         "ko": "전투 스킬 발동 시 랜덤 단일 적에게 추가로 피해를 1회 가한다"
-      }
+      },
+      "icon": "icon/skill/1004_rank6.png",
+      "materials": [{ "id": 11004, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 120,
+  "stats": [
+    {
+      "hp": { "base": 153.12, "step": 7.656 },
+      "atk": { "base": 84.48, "step": 4.224 },
+      "def": { "base": 69.3, "step": 3.465 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 214.368, "step": 7.656 },
+      "atk": { "base": 118.272, "step": 4.224 },
+      "def": { "base": 97.02, "step": 3.465 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 275.616, "step": 7.656 },
+      "atk": { "base": 152.064, "step": 4.224 },
+      "def": { "base": 124.74, "step": 3.465 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 336.864, "step": 7.656 },
+      "atk": { "base": 185.856, "step": 4.224 },
+      "def": { "base": 152.46, "step": 3.465 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 398.112, "step": 7.656 },
+      "atk": { "base": 219.648, "step": 4.224 },
+      "def": { "base": 180.18, "step": 3.465 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 459.36, "step": 7.656 },
+      "atk": { "base": 253.44, "step": 4.224 },
+      "def": { "base": 207.9, "step": 3.465 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 520.608, "step": 7.656 },
+      "atk": { "base": 287.232, "step": 4.224 },
+      "def": { "base": 235.62, "step": 3.465 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 112001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 112001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 112002, "num": 6 }, { "id": 110407, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 112002, "num": 9 }, { "id": 110407, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 112003, "num": 6 }, { "id": 110407, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 112003, "num": 9 }, { "id": 110407, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1004001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1004_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [100401],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1004002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1004_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100402],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110152, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110153, "num": 5 },
+            { "id": 110501, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110153, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1004003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1004_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100403],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110152, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110153, "num": 5 },
+            { "id": 110501, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110153, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1004004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1004_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100404],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110152, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110153, "num": 5 },
+            { "id": 110501, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110153, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1004007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1004_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [100407],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1004101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Retaliação",
+        "en": "Retribution",
+        "zh-CN": "惩戒",
+        "ja": "{RUBY_B#ちょうかい}懲戒{RUBY_E#}",
+        "ko": "징벌"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia Suprema, há #1[i]% de chance-base de aumentar o Dano recebido pelos alvos em #2[i]% por #3[i] rodada(s).",
+        "en": "When using Ultimate, there is a #1[i]% base chance to increase the DMG taken by the targets by #2[i]% for #3[i] turn(s).",
+        "zh-CN": "施放终结技时，有#1[i]%基础概率使目标受到的伤害提高#2[i]%，持续#3[i]回合。",
+        "ja": "必殺技を発動する時、#1[i]%の基礎確率で敵の受けるダメージ+#2[i]%、#3[i]ターン継続。",
+        "ko": "필살기 발동 시 #1[i]%의 기본 확률로 목표가 받는 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
+      },
+      "params": [[1, 0.12, 2]],
+      "icon": "icon/skill/1004_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 110501, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1004102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Julgamento",
+        "en": "Judgment",
+        "zh-CN": "审判",
+        "ja": "{RUBY_B#しんぱん}審判{RUBY_E#}",
+        "ko": "심판"
+      },
+      "description": {
+        "pt-BR": "Usar a Perícia Suprema regenera um adicional de #1[i] de Energia.",
+        "en": "Using Ultimate additionally regenerates #1[i] Energy.",
+        "zh-CN": "施放终结技时，额外恢复#1[i]点能量。",
+        "ja": "必殺技を発動した時、さらにEPを#1[i]回復する。",
+        "ko": "필살기 발동 시 추가로 에너지를 #1[i]pt 회복한다"
+      },
+      "params": [[10]],
+      "icon": "icon/skill/1004_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110152, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1004103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Punição",
+        "en": "Punishment",
+        "zh-CN": "裁决",
+        "ja": "{RUBY_B#さいけつ}裁決{RUBY_E#}",
+        "ko": "판결"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% a mais de Dano a inimigos afetados por Quebra de Fraqueza.",
+        "en": "Deals #1[i]% more DMG to enemies inflicted with Weakness Break.",
+        "zh-CN": "对被弱点击破的敌方目标造成的伤害提高#1[i]%。",
+        "ja": "弱点撃破された敵に対して与ダメージ+#1[i]%。",
+        "ko": "약점이 격파된 적에게 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.2]],
+      "icon": "icon/skill/1004_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1004201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1004202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Dano: Imaginário",
+        "en": "DMG Boost: Imaginary",
+        "zh-CN": "伤害强化•虚数",
+        "ja": "ダメージ強化・虚数",
+        "ko": "피해 강화•허수"
+      },
+      "icon": "icon/property/IconImaginaryAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1004101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "ImaginaryAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1004203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1004202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1004204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1004203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1004205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1004102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1004206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Dano: Imaginário",
+        "en": "DMG Boost: Imaginary",
+        "zh-CN": "伤害强化•虚数",
+        "ja": "ダメージ強化・虚数",
+        "ko": "피해 강화•허수"
+      },
+      "icon": "icon/property/IconImaginaryAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1004205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "ImaginaryAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1004207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1004206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1004208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1004103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1004209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Dano: Imaginário",
+        "en": "DMG Boost: Imaginary",
+        "zh-CN": "伤害强化•虚数",
+        "ja": "ダメージ強化・虚数",
+        "ko": "피해 강화•허수"
+      },
+      "icon": "icon/property/IconImaginaryAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1004103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "ImaginaryAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1004210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1004201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 11004001,
+      "anchor": "Point01",
+      "icon": "icon/skill/11004_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [1100401],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 11004002,
+      "anchor": "Point02",
+      "icon": "icon/skill/11004_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [1100402],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110152, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110153, "num": 5 },
+            { "id": 110501, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110153, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11004003,
+      "anchor": "Point03",
+      "icon": "icon/skill/11004_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [1100403],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110152, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110153, "num": 5 },
+            { "id": 110501, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110153, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11004004,
+      "anchor": "Point04",
+      "icon": "icon/skill/11004_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [1100404],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110152, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110153, "num": 5 },
+            { "id": 110501, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110153, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11004007,
+      "anchor": "Point05",
+      "icon": "icon/skill/11004_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [1100407],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 11004101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Retaliação",
+        "en": "Retribution",
+        "zh-CN": "惩戒",
+        "ja": "{RUBY_B#ちょうかい}懲戒{RUBY_E#}",
+        "ko": "징벌"
+      },
+      "description": {
+        "pt-BR": "Quando aliados-alvo atacam alvos afligidos com o estado de \"Sem Peso\", o Dano causado aumenta em #1[i]%. Esse efeito acumula até #2[i] vezes e dura por #3[i] rodada(s). No início da batalha, Welt regenera #4[i] de Energia.",
+        "en": "When ally targets attack targets under the \"Weightless\" state, their DMG dealt increases by #1[i]%. This effect stacks up to #2[i] times and lasts for #3[i] turn(s). At the start of the battle, Welt regenerates #4[i] Energy.",
+        "zh-CN": "我方目标攻击【失重】状态下的目标时，造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续#3[i]回合。战斗开始时瓦尔特恢复#4[i]点能量。",
+        "ja": "味方が「無重力」状態のターゲットを攻撃する時、与ダメージ+#1[i]%。この効果は最大#2[i]層まで累積可能、#3[i]ターン継続。戦闘開始時にヴェルトはEPを#4[i]回復する。",
+        "ko": "아군이 [무중력] 상태의 목표 공격 시 가하는 피해가 #1[i]% 증가한다, 해당 효과 최대 중첩수: #2[i]스택, 지속 시간: #3[i]턴. 전투 시작 시 웰트는 에너지를 #4[i]pt 회복한다"
+      },
+      "params": [[0.1, 10, 2, 30]],
+      "icon": "icon/skill/11004_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 110501, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 11004102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Julgamento",
+        "en": "Judgment",
+        "zh-CN": "审判",
+        "ja": "{RUBY_B#しんぱん}審判{RUBY_E#}",
+        "ko": "심판"
+      },
+      "description": {
+        "pt-BR": "Quando Welt usa seu ATQ Básico ou Perícia, causa adicionalmente 1 instância extra de Dano Adicional ao inimigo-alvo. O Dano Adicional causado ao utilizar o ATQ Básico é igual a #1[i]% do Multiplicador de Dano do ATQ Básico. O Dano Adicional causado ao utilizar a Perícia é igual a #2[i]% do Multiplicador de Dano da Perícia.",
+        "en": "When Welt uses Basic ATK or Skill, additionally deals 1 extra instance of Additional DMG to the enemy target. The Additional DMG dealt when using Basic ATK is equal to #1[i]% of Basic ATK DMG multiplier. The Additional DMG dealt when using Skill is equal to #2[i]% of Skill DMG multiplier.",
+        "zh-CN": "施放普攻或战技时额外对敌方目标造成1次附加伤害。施放普攻造成的附加伤害等同于普攻伤害倍率的#1[i]%，施放战技造成的附加伤害等同于战技伤害倍率的#2[i]%。",
+        "ja": "通常攻撃または戦闘スキルを発動する時、追加でターゲットに付加ダメージを1回与える。通常攻撃による付加ダメージは通常攻撃のダメージ倍率の#1[i]%、戦闘スキルによる付加ダメージは戦闘スキルのダメージ倍率の#2[i]%となる。",
+        "ko": "일반 공격 또는 전투 스킬 발동 시 추가로 적에게 추가 피해를 1회 가한다. 일반 공격 발동 시 가하는 추가 피해는 일반 공격 피해 배율의 #1[i]%고, 전투 스킬 발동 시 가하는 추가 피해는 전투 스킬 피해 배율의 #2[i]%다"
+      },
+      "params": [[0.8, 1.2]],
+      "icon": "icon/skill/11004_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110152, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11004103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Punição",
+        "en": "Punishment",
+        "zh-CN": "裁决",
+        "ja": "{RUBY_B#さいけつ}裁決{RUBY_E#}",
+        "ko": "판결"
+      },
+      "description": {
+        "pt-BR": "Quando a Taxa de Acerto de Efeito de Welt for maior que #1[i]%, a cada #2[i]% que exceder esse valor, aumenta o ATQ em #3[i]%, até um máximo de #4[i]%. Ao usar a Perícia Suprema, restaura #5[i] de Energia adicionalmente.",
+        "en": "When Welt's Effect Hit Rate is greater than #1[i]%, for every #2[i]% that exceeds this value, increases ATK by #3[i]%, up to a maximum increase of #4[i]%. When using Ultimate, additionally restores #5[i] Energy.",
+        "zh-CN": "瓦尔特的效果命中大于#1[i]%时，每超过#2[i]%，则攻击力提高#3[i]%，最多提高#4[i]%。施放终结技时，额外恢复#5[i]点能量。",
+        "ja": "ヴェルトの効果命中が#1[i]%を超えた時、超過した効果命中#2[i]%につき、攻撃力+#3[i]%、最大で+#4[i]%。必殺技を発動する時、さらにEPを#5[i]回復する。",
+        "ko": "웰트의 효과 명중이 #1[i]% 초과 시, 초과한 #2[i]%당 공격력이 #3[i]% 증가한다(최대 #4[i]% 증가). 필살기 발동 시 추가로 에너지를 #5[i]pt 회복한다"
+      },
+      "params": [[0.4, 0.1, 0.2, 0.8, 5]],
+      "icon": "icon/skill/11004_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110153, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11004201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 11004202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Dano: Imaginário",
+        "en": "DMG Boost: Imaginary",
+        "zh-CN": "伤害强化•虚数",
+        "ja": "ダメージ強化・虚数",
+        "ko": "피해 강화•허수"
+      },
+      "icon": "icon/property/IconImaginaryAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [11004101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "ImaginaryAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110151, "num": 3 }, { "id": 112001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 11004203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [11004202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11004204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [11004203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110152, "num": 3 }, { "id": 112002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11004205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [11004102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110152, "num": 5 }, { "id": 112002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 11004206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Dano: Imaginário",
+        "en": "DMG Boost: Imaginary",
+        "zh-CN": "伤害强化•虚数",
+        "ja": "ダメージ強化・虚数",
+        "ko": "피해 강화•허수"
+      },
+      "icon": "icon/property/IconImaginaryAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [11004205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "ImaginaryAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11004207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [11004206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110153, "num": 3 }, { "id": 112003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11004208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [11004103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 11004209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Dano: Imaginário",
+        "en": "DMG Boost: Imaginary",
+        "zh-CN": "伤害强化•虚数",
+        "ja": "ダメージ強化・虚数",
+        "ko": "피해 강화•허수"
+      },
+      "icon": "icon/property/IconImaginaryAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [11004103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "ImaginaryAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 11004210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [11004201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110153, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11004, 110151, 110152, 110153, 110407, 110501, 112001, 112002, 112003],
   "images": {
     "icon": "icon/character/1004.png",
     "preview": "image/character_preview/1004.png",

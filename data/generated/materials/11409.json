@@ -1,0 +1,17 @@
+{
+  "id": 11409,
+  "slug": "hyacines-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Hyacine",
+    "en": "Hyacine's Eidolon",
+    "zh-CN": "【风堇】的星魂",
+    "ja": "「ヒアンシー」の星魂",
+    "ko": "[히아킨]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

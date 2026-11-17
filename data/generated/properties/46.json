@@ -1,0 +1,7 @@
+{
+  "id": 46,
+  "type": "DefenceAddedRatio",
+  "name": { "pt-BR": "DEF", "en": "DEF", "zh-CN": "防御力", "ja": "防御力", "ko": "방어력" },
+  "icon": "icon/property/IconDefence.png",
+  "percent": true
+}

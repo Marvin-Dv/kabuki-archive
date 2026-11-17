@@ -1,13 +1,7 @@
 {
   "id": 1002,
   "slug": "dan-heng",
-  "name": {
-    "pt-BR": "Dan Heng",
-    "en": "Dan Heng",
-    "zh-CN": "丹恒",
-    "ja": "丹恒",
-    "ko": "단항"
-  },
+  "name": { "pt-BR": "Dan Heng", "en": "Dan Heng", "zh-CN": "丹恒", "ja": "丹恒", "ko": "단항" },
   "rarity": 4,
   "path": "Hunt",
   "element": "Wind",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体に丹恒の攻撃力#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 단항 공격력 #1[i]%만큼의 바람 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1002_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
+        "en": "Deals minor Wind DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量风属性伤害。",
+        "ja": "敵単体に少量の風属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 100202,
@@ -82,97 +56,33 @@
         "ko": "지정된 단일 적에게 단항 공격력 #1[i]%만큼의 바람 속성 피해를 가한다.\n전투 스킬로 가하는 피해가 치명타 발동 시 #4[i]%의 기본 확률로 피격된 적의 속도를 #2[i]% 감소시킨다. 지속 시간: #3[i]턴"
       },
       "params": [
-        [
-          1.3,
-          0.12,
-          2,
-          1
-        ],
-        [
-          1.43,
-          0.12,
-          2,
-          1
-        ],
-        [
-          1.56,
-          0.12,
-          2,
-          1
-        ],
-        [
-          1.69,
-          0.12,
-          2,
-          1
-        ],
-        [
-          1.82,
-          0.12,
-          2,
-          1
-        ],
-        [
-          1.95,
-          0.12,
-          2,
-          1
-        ],
-        [
-          2.1125,
-          0.12,
-          2,
-          1
-        ],
-        [
-          2.275,
-          0.12,
-          2,
-          1
-        ],
-        [
-          2.4375,
-          0.12,
-          2,
-          1
-        ],
-        [
-          2.6,
-          0.12,
-          2,
-          1
-        ],
-        [
-          2.73,
-          0.12,
-          2,
-          1
-        ],
-        [
-          2.86,
-          0.12,
-          2,
-          1
-        ],
-        [
-          2.99,
-          0.12,
-          2,
-          1
-        ],
-        [
-          3.12,
-          0.12,
-          2,
-          1
-        ],
-        [
-          3.25,
-          0.12,
-          2,
-          1
-        ]
-      ]
+        [1.3, 0.12, 2, 1],
+        [1.43, 0.12, 2, 1],
+        [1.56, 0.12, 2, 1],
+        [1.69, 0.12, 2, 1],
+        [1.82, 0.12, 2, 1],
+        [1.95, 0.12, 2, 1],
+        [2.1125, 0.12, 2, 1],
+        [2.275, 0.12, 2, 1],
+        [2.4375, 0.12, 2, 1],
+        [2.6, 0.12, 2, 1],
+        [2.73, 0.12, 2, 1],
+        [2.86, 0.12, 2, 1],
+        [2.99, 0.12, 2, 1],
+        [3.12, 0.12, 2, 1],
+        [3.25, 0.12, 2, 1]
+      ],
+      "icon": "icon/skill/1002_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento a um único inimigo. Ao realizar um Acerto CRIT, há altas chances de causar Lentidão no inimigo.",
+        "en": "Deals Wind DMG to one enemy. Upon a CRIT Hit, there is a high chance of Slowing the enemy.",
+        "zh-CN": "对敌方单体造成风属性伤害，暴击时大概率施加减速状态。",
+        "ja": "敵単体に風属性ダメージを与え、会心時に高確率で減速状態を付与。",
+        "ko": "단일 적에게 바람 속성 피해를 주고, 치명타 발생 시 높은 확률로 감속 상태를 부여한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 100203,
@@ -192,67 +102,33 @@
         "ko": "지정된 단일 적에게 단항 공격력 #1[i]%만큼의 바람 속성 피해를 가한다. 피격된 적이 감속 상태인 경우 필살기로 가하는 피해 배율이 #2[i]% 증가한다"
       },
       "params": [
-        [
-          2.4,
-          0.72
-        ],
-        [
-          2.56,
-          0.768
-        ],
-        [
-          2.72,
-          0.816
-        ],
-        [
-          2.88,
-          0.864
-        ],
-        [
-          3.04,
-          0.912
-        ],
-        [
-          3.2,
-          0.96
-        ],
-        [
-          3.4,
-          1.02
-        ],
-        [
-          3.6,
-          1.08
-        ],
-        [
-          3.8,
-          1.14
-        ],
-        [
-          4,
-          1.2
-        ],
-        [
-          4.16,
-          1.248
-        ],
-        [
-          4.32,
-          1.296
-        ],
-        [
-          4.48,
-          1.344
-        ],
-        [
-          4.64,
-          1.392
-        ],
-        [
-          4.8,
-          1.44
-        ]
-      ]
+        [2.4, 0.72],
+        [2.56, 0.768],
+        [2.72, 0.816],
+        [2.88, 0.864],
+        [3.04, 0.912],
+        [3.2, 0.96],
+        [3.4, 1.02],
+        [3.6, 1.08],
+        [3.8, 1.14],
+        [4, 1.2],
+        [4.16, 1.248],
+        [4.32, 1.296],
+        [4.48, 1.344],
+        [4.64, 1.392],
+        [4.8, 1.44]
+      ],
+      "icon": "icon/skill/1002_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento massivo a um inimigo. Se o inimigo estiver sofrendo de Lentidão, o multiplicador de Dano causado será maior.",
+        "en": "Deals massive Wind DMG to one enemy. If the enemy is Slowed, DMG multiplier dealt will be increased.",
+        "zh-CN": "对敌方单体造成大量风属性伤害，对减速状态的目标伤害倍率提高。",
+        "ja": "敵単体に大量の風属性ダメージを与える、減速状態の敵に対してダメージ倍率アップ。",
+        "ko": "단일 적에게 대량의 바람 속성 피해를 주고, 감속 상태의 적에게 가하는 피해 배율이 증가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 100204,
@@ -272,79 +148,48 @@
         "ko": "단항이 아군 스킬의 발동 목표가 되면, 다음 공격의 바람 속성 저항 관통이 #1[i]% 증가한다. 해당 효과는 #2[i]턴 후 다시 발동할 수 있다"
       },
       "params": [
-        [
-          0.18,
-          2
-        ],
-        [
-          0.198,
-          2
-        ],
-        [
-          0.216,
-          2
-        ],
-        [
-          0.234,
-          2
-        ],
-        [
-          0.252,
-          2
-        ],
-        [
-          0.27,
-          2
-        ],
-        [
-          0.2925,
-          2
-        ],
-        [
-          0.315,
-          2
-        ],
-        [
-          0.3375,
-          2
-        ],
-        [
-          0.36,
-          2
-        ],
-        [
-          0.378,
-          2
-        ],
-        [
-          0.396,
-          2
-        ],
-        [
-          0.414,
-          2
-        ],
-        [
-          0.432,
-          2
-        ],
-        [
-          0.45,
-          2
-        ]
-      ]
+        [0.18, 2],
+        [0.198, 2],
+        [0.216, 2],
+        [0.234, 2],
+        [0.252, 2],
+        [0.27, 2],
+        [0.2925, 2],
+        [0.315, 2],
+        [0.3375, 2],
+        [0.36, 2],
+        [0.378, 2],
+        [0.396, 2],
+        [0.414, 2],
+        [0.432, 2],
+        [0.45, 2]
+      ],
+      "icon": "icon/skill/1002_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quando esta unidade se torna o alvo de uma habilidade de um aliado, a PEN de RES a Vento do próximo ataque dessa unidade aumenta. Este efeito pode ser ativado novamente depois de 2 rodadas.",
+        "en": "When this unit becomes the target of an ally's ability, this unit's next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.",
+        "zh-CN": "成为我方技能施放目标时，下一次攻击风属性抗性穿透提高。该效果2回合后可再次触发。",
+        "ja": "味方スキルのターゲットになった時、次の攻撃の風属性耐性貫通をアップする。この効果は2ターン後に再度発動できる。",
+        "ko": "아군 스킬의 발동 목표가 되면, 다음 공격의 바람 속성 저항 관통이 증가한다. 해당 효과는 2턴 후 다시 발동할 수 있다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 100206,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1002_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -369,12 +214,18 @@
         "ja": "秘技を使用した後、次の戦闘開始時、丹恒の攻撃力+#1[i]%、#2[i]ターン継続。",
         "ko": "비술 발동 후 다음 전투 시작 시 단항의 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
       },
-      "params": [
-        [
-          0.4,
-          3
-        ]
-      ]
+      "params": [[0.4, 3]],
+      "icon": "icon/skill/1002_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Após usar a sua Técnica, seu ATQ é aumentado no início da próxima batalha.",
+        "en": "After they use their Technique, their ATK is increased at the start of the next battle.",
+        "zh-CN": "使用秘技，下一次进战后攻击力提高。",
+        "ja": "秘技を使用、次の戦闘に入った後に攻撃力アップ。",
+        "ko": "비술을 발동하며, 다음 전투 진입 후 공격력이 증가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -393,7 +244,10 @@
         "zh-CN": "当击中的敌方目标当前生命值百分比大于等于50%时，暴击率提高12%。",
         "ja": "攻撃が命中した敵の残りHPが50%以上の場合、会心率+12%。",
         "ko": "피격된 적의 현재 HP 백분율이 50% 이상이면, 치명타 확률이 12% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1002_rank1.png",
+      "materials": [{ "id": 11002, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -410,7 +264,10 @@
         "zh-CN": "天赋的冷却时间减少1回合。",
         "ja": "天賦のクールタイム-1ターン。",
         "ko": "특성의 재사용 대기시간이 1턴 감소한다"
-      }
+      },
+      "icon": "icon/skill/1002_rank2.png",
+      "materials": [{ "id": 11002, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -427,7 +284,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1002_skill.png",
+      "materials": [{ "id": 11002, "num": 1 }],
+      "levelUpSkills": [{ "id": 100202, "num": 2 }, { "id": 100201, "num": 1 }]
     },
     {
       "rank": 4,
@@ -444,7 +304,10 @@
         "zh-CN": "施放终结技消灭敌方目标时，丹恒立即行动。",
         "ja": "必殺技で敵を倒した時、丹恒が即座に行動する。",
         "ko": "필살기를 발동하여 적을 처치할 시 단항은 즉시 행동한다"
-      }
+      },
+      "icon": "icon/skill/1002_rank4.png",
+      "materials": [{ "id": 11002, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -461,7 +324,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1002_ultimate.png",
+      "materials": [{ "id": 11002, "num": 1 }],
+      "levelUpSkills": [{ "id": 100203, "num": 2 }, { "id": 100204, "num": 2 }]
     },
     {
       "rank": 6,
@@ -478,10 +344,667 @@
         "zh-CN": "战技触发的减速状态使目标的速度额外降低8%。",
         "ja": "戦闘スキルによって減速状態を付与された敵は、さらに速度-8%。",
         "ko": "전투 스킬로 발동한 감속 상태는 목표의 속도를 추가로 8% 감소시킨다"
-      }
+      },
+      "icon": "icon/skill/1002_rank6.png",
+      "materials": [{ "id": 11002, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 100,
+  "stats": [
+    {
+      "hp": { "base": 120, "step": 6 },
+      "atk": { "base": 74.4, "step": 3.72 },
+      "def": { "base": 54, "step": 2.7 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 168, "step": 6 },
+      "atk": { "base": 104.16, "step": 3.72 },
+      "def": { "base": 75.6, "step": 2.7 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 216, "step": 6 },
+      "atk": { "base": 133.92, "step": 3.72 },
+      "def": { "base": 97.2, "step": 2.7 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 264, "step": 6 },
+      "atk": { "base": 163.68, "step": 3.72 },
+      "def": { "base": 118.8, "step": 2.7 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 312, "step": 6 },
+      "atk": { "base": 193.44, "step": 3.72 },
+      "def": { "base": 140.4, "step": 2.7 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 360, "step": 6 },
+      "atk": { "base": 223.2, "step": 3.72 },
+      "def": { "base": 162, "step": 2.7 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 408, "step": 6 },
+      "atk": { "base": 252.96, "step": 3.72 },
+      "def": { "base": 183.6, "step": 2.7 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 111002, "num": 5 }, { "id": 110405, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 111002, "num": 8 }, { "id": 110405, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 111003, "num": 5 }, { "id": 110405, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 111003, "num": 7 }, { "id": 110405, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1002001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1002_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [100201],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110121, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110122, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110122, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110123, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110123, "num": 6 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1002002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1002_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100202],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110121, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110122, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110122, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110122, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110123, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110123, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110123, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110123, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1002003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1002_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100203],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110121, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110122, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110122, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110122, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110123, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110123, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110123, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110123, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1002004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1002_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100204],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110121, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110122, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110122, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110122, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110123, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110123, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110123, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110123, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1002007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1002_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [100207],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1002101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Dragão Escondido",
+        "en": "Hidden Dragon",
+        "zh-CN": "潜龙",
+        "ja": "{RUBY_B#せんりゅう}潜龍{RUBY_E#}",
+        "ko": "잠룡"
+      },
+      "description": {
+        "pt-BR": "Quando os PV atuais forem iguais a #1[i]% ou inferiores, reduz a chance de ser atacado por inimigos.",
+        "en": "When current HP percentage is #1[i]% or lower, reduces the chance of being attacked by enemies.",
+        "zh-CN": "若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。",
+        "ja": "残りHPが#1[i]%以下の場合、敵に攻撃される確率ダウン。",
+        "ko": "현재 HP 백분율이 #1[i]% 이하인 경우, 적에게 피격될 확률이 감소한다"
+      },
+      "params": [[0.5, 0.5]],
+      "icon": "icon/skill/1002_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110121, "num": 2 }, { "id": 110501, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1002102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Mais Rápido que a Luz",
+        "en": "Faster Than Light",
+        "zh-CN": "绝影",
+        "ja": "{RUBY_B#ぜつえい}絶影{RUBY_E#}",
+        "ko": "절영"
+      },
+      "description": {
+        "pt-BR": "Depois de desferir um ataque, há uma chance fixa de #1[i]% de aumentar a VEL desta unidade em #2[i]% por #3[i] rodada(s).",
+        "en": "After launching an attack, there is a #1[i]% fixed chance to increase this unit's SPD by #2[i]% for #3[i] turn(s).",
+        "zh-CN": "施放攻击后有#1[i]%的固定概率使自身速度提高#2[i]%，持续#3[i]回合。",
+        "ja": "攻撃を行った後、#1[i]%の固定確率で自身の速度+#2[i]%、#3[i]ターン継続。",
+        "ko": "공격 발동 후 #1[i]%의 고정 확률로 자신의 속도가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
+      },
+      "params": [[0.5, 0.2, 2]],
+      "icon": "icon/skill/1002_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110122, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1002103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Forte Ventania",
+        "en": "High Gale",
+        "zh-CN": "罡风",
+        "ja": "{RUBY_B#ごうふう}剛風{RUBY_E#}",
+        "ko": "세찬 바람"
+      },
+      "description": {
+        "pt-BR": "ATQ Básico causa #1[i]% a mais de Dano a inimigos com Lentidão.",
+        "en": "Basic ATK deals #1[i]% more DMG to Slowed enemies.",
+        "zh-CN": "普攻对减速状态下的敌方目标造成的伤害提高#1[i]%。",
+        "ja": "減速状態の敵に対する、通常攻撃によるダメージ+#1[i]%。",
+        "ko": "일반 공격이 감속 상태의 적에게 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.4]],
+      "icon": "icon/skill/1002_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110123, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1002201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1002202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1002101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110121, "num": 2 }, { "id": 111001, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1002203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1002202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110122, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1002204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.05 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110122, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1002205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1002102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110122, "num": 4 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1002206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1002205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110123, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1002207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110123, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1002208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1002103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.075 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110123, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1002209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1002208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110123, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1002210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1002208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110123, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11002, 110121, 110122, 110123, 110405, 110501, 111001, 111002, 111003],
   "images": {
     "icon": "icon/character/1002.png",
     "preview": "image/character_preview/1002.png",

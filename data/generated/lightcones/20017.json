@@ -1,13 +1,7 @@
 {
   "id": 20017,
   "slug": "pioneering",
-  "name": {
-    "pt-BR": "Pioneirismo",
-    "en": "Pioneering",
-    "zh-CN": "开疆",
-    "ja": "新天地",
-    "ko": "강토 개척"
-  },
+  "name": { "pt-BR": "Pioneirismo", "en": "Pioneering", "zh-CN": "开疆", "ja": "新天地", "ko": "강토 개척" },
   "rarity": 3,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -20,13 +14,7 @@
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「의지할 곳 없는 나날이 종지부를 찍었습니다, 컴퍼니는 여러분의 손을 잡고 도울 것입니다」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "CPI",
-      "en": "IPC",
-      "zh-CN": "公司",
-      "ja": "カンパニー",
-      "ko": "컴퍼니"
-    },
+    "name": { "pt-BR": "CPI", "en": "IPC", "zh-CN": "公司", "ja": "カンパニー", "ko": "컴퍼니" },
     "description": {
       "pt-BR": "Ao aplicar Quebra de Fraqueza contra um inimigo-alvo, o usuário restaura PV em #1[i]% de seus PV máximos.",
       "en": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by #1[i]% of their Max HP.",
@@ -34,24 +22,54 @@
       "ja": "装備キャラが敵を弱点撃破した時、HPを最大HP#1[i]%分回復する。",
       "ko": "장착한 캐릭터는 적의 약점을 격파할 시 자신 HP 최대치 #1[i]%만큼의 HP를 회복한다"
     },
-    "params": [
-      [
-        0.12
-      ],
-      [
-        0.14
-      ],
-      [
-        0.16
-      ],
-      [
-        0.18
-      ],
-      [
-        0.2
-      ]
-    ]
+    "params": [[0.12], [0.14], [0.16], [0.18], [0.2]],
+    "properties": [[], [], [], [], []]
   },
+  "stats": [
+    {
+      "hp": { "base": 43.2, "step": 6.48 },
+      "atk": { "base": 12, "step": 1.8 },
+      "def": { "base": 12, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 95.04, "step": 6.48 },
+      "atk": { "base": 26.4, "step": 1.8 },
+      "def": { "base": 26.4, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 164.16, "step": 6.48 },
+      "atk": { "base": 45.6, "step": 1.8 },
+      "def": { "base": 45.6, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 64.8, "step": 1.8 },
+      "def": { "base": 64.8, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 302.4, "step": 6.48 },
+      "atk": { "base": 84, "step": 1.8 },
+      "def": { "base": 84, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 371.52, "step": 6.48 },
+      "atk": { "base": 103.2, "step": 1.8 },
+      "def": { "base": 103.2, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 122.4, "step": 1.8 },
+      "def": { "base": 122.4, "step": 1.8 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3000 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6000 }, { "id": 110141, "num": 2 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12000 }, { "id": 110142, "num": 2 }, { "id": 111002, "num": 4 }],
+    [{ "id": 2, "num": 30000 }, { "id": 110142, "num": 4 }, { "id": 111002, "num": 6 }],
+    [{ "id": 2, "num": 60000 }, { "id": 110143, "num": 3 }, { "id": 111003, "num": 3 }],
+    [{ "id": 2, "num": 120000 }, { "id": 110143, "num": 6 }, { "id": 111003, "num": 5 }]
+  ],
   "images": {
     "icon": "icon/light_cone/20017.png",
     "preview": "image/light_cone_preview/20017.png",

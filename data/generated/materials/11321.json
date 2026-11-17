@@ -1,0 +1,17 @@
+{
+  "id": 11321,
+  "slug": "the-dahlias-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de A Dália",
+    "en": "The Dahlia's Eidolon",
+    "zh-CN": "【大丽花】的星魂",
+    "ja": "「ダリア」の星魂",
+    "ko": "[달리아]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

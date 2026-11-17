@@ -31,38 +31,18 @@
         "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/8002_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Físico leve a um único inimigo.",
+        "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
+        "ja": "敵単体に少量の物理属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 800202,
@@ -82,52 +62,33 @@
         "ko": "지정된 단일 적과 인접한 목표에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
       },
       "params": [
-        [
-          0.625
-        ],
-        [
-          0.6875
-        ],
-        [
-          0.75
-        ],
-        [
-          0.8125
-        ],
-        [
-          0.875
-        ],
-        [
-          0.9375
-        ],
-        [
-          1.0156
-        ],
-        [
-          1.0938
-        ],
-        [
-          1.1719
-        ],
-        [
-          1.25
-        ],
-        [
-          1.3125
-        ],
-        [
-          1.375
-        ],
-        [
-          1.4375
-        ],
-        [
-          1.5
-        ],
-        [
-          1.5625
-        ]
-      ]
+        [0.625],
+        [0.6875],
+        [0.75],
+        [0.8125],
+        [0.875],
+        [0.9375],
+        [1.0156],
+        [1.0938],
+        [1.1719],
+        [1.25],
+        [1.3125],
+        [1.375],
+        [1.4375],
+        [1.5],
+        [1.5625]
+      ],
+      "icon": "icon/skill/8002_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Físico a um único inimigo e aos inimigos adjacentes a ele.",
+        "en": "Deals Physical DMG to one enemy and enemies adjacent to it.",
+        "zh-CN": "对敌方单体以及相邻目标造成物理属性伤害。",
+        "ja": "敵単体および隣接する敵に物理属性ダメージを与える。",
+        "ko": "단일 적 및 인접한 목표에게 물리 속성 피해를 준다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 800203,
@@ -147,82 +108,33 @@
         "ko": "두 가지 모드 중 하나를 선택해 전력의 일격을 가한다.\n[압승•끝내기 안타]: 지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다.\n[압승•안식 홈런]: 지정된 단일 적에게 개척자 공격력 #2[i]%만큼의 물리 속성 피해를 주고, 인접한 목표에게도 개척자 공격력 #3[i]%만큼의 물리 속성 피해를 준다"
       },
       "params": [
-        [
-          3,
-          1.8,
-          1.08
-        ],
-        [
-          3.15,
-          1.89,
-          1.134
-        ],
-        [
-          3.3,
-          1.98,
-          1.188
-        ],
-        [
-          3.45,
-          2.07,
-          1.242
-        ],
-        [
-          3.6,
-          2.16,
-          1.296
-        ],
-        [
-          3.75,
-          2.25,
-          1.35
-        ],
-        [
-          3.9375,
-          2.3625,
-          1.4175
-        ],
-        [
-          4.125,
-          2.475,
-          1.485
-        ],
-        [
-          4.3125,
-          2.5875,
-          1.5525
-        ],
-        [
-          4.5,
-          2.7,
-          1.62
-        ],
-        [
-          4.65,
-          2.79,
-          1.674
-        ],
-        [
-          4.8,
-          2.88,
-          1.728
-        ],
-        [
-          4.95,
-          2.97,
-          1.782
-        ],
-        [
-          5.1,
-          3.06,
-          1.836
-        ],
-        [
-          5.25,
-          3.15,
-          1.89
-        ]
-      ]
+        [3, 1.8, 1.08],
+        [3.15, 1.89, 1.134],
+        [3.3, 1.98, 1.188],
+        [3.45, 2.07, 1.242],
+        [3.6, 2.16, 1.296],
+        [3.75, 2.25, 1.35],
+        [3.9375, 2.3625, 1.4175],
+        [4.125, 2.475, 1.485],
+        [4.3125, 2.5875, 1.5525],
+        [4.5, 2.7, 1.62],
+        [4.65, 2.79, 1.674],
+        [4.8, 2.88, 1.728],
+        [4.95, 2.97, 1.782],
+        [5.1, 3.06, 1.836],
+        [5.25, 3.15, 1.89]
+      ],
+      "icon": "icon/skill/8002_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Usa ATQ de alvo único ou uma Explosão para realizar um golpe com força máxima.",
+        "en": "Uses Single Target ATK or Blast to strike with full force.",
+        "zh-CN": "选择单攻或扩散的攻击方式，挥出全力一击。",
+        "ja": "単体攻撃または拡散攻撃を選択し、全力のバッティングを振り出す。",
+        "ko": "단일 공격 또는 확산 공격으로 전력의 일격을 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 800204,
@@ -242,79 +154,48 @@
         "ko": "적의 약점을 격파할 때마다 개척자의 공격력이 #1[i]% 증가한다. 해당 효과 최대 중첩수: #2[i]스택"
       },
       "params": [
-        [
-          0.1,
-          2
-        ],
-        [
-          0.11,
-          2
-        ],
-        [
-          0.12,
-          2
-        ],
-        [
-          0.13,
-          2
-        ],
-        [
-          0.14,
-          2
-        ],
-        [
-          0.15,
-          2
-        ],
-        [
-          0.1625,
-          2
-        ],
-        [
-          0.175,
-          2
-        ],
-        [
-          0.1875,
-          2
-        ],
-        [
-          0.2,
-          2
-        ],
-        [
-          0.21,
-          2
-        ],
-        [
-          0.22,
-          2
-        ],
-        [
-          0.23,
-          2
-        ],
-        [
-          0.24,
-          2
-        ],
-        [
-          0.25,
-          2
-        ]
-      ]
+        [0.1, 2],
+        [0.11, 2],
+        [0.12, 2],
+        [0.13, 2],
+        [0.14, 2],
+        [0.15, 2],
+        [0.1625, 2],
+        [0.175, 2],
+        [0.1875, 2],
+        [0.2, 2],
+        [0.21, 2],
+        [0.22, 2],
+        [0.23, 2],
+        [0.24, 2],
+        [0.25, 2]
+      ],
+      "icon": "icon/skill/8002_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Toda vez que essa unidade causa Quebra de Fraqueza a um inimigo-alvo, o ATQ aumenta.",
+        "en": "Every time this unit breaks an enemy target's Weakness, ATK increases.",
+        "zh-CN": "每次击破敌方目标的弱点后，攻击力提高。",
+        "ja": "敵を弱点撃破した後、攻撃力がアップする。",
+        "ko": "적의 약점을 격파할 때마다 공격력이 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 800206,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/8002_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -339,11 +220,18 @@
         "ja": "秘技を使用した後、味方全体のHPをそれぞれの最大HP#1[i]%分回復する。",
         "ko": "비술 발동 후 즉시 모든 아군은 자신의 HP 최대치 #1[i]%만큼의 HP를 회복한다"
       },
-      "params": [
-        [
-          0.15
-        ]
-      ]
+      "params": [[0.15]],
+      "icon": "icon/skill/8002_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Após usar a Técnica, imediatamente restaura PV para a equipe.",
+        "en": "After using Technique, immediately restores HP for team.",
+        "zh-CN": "使用秘技后立即为我方全体回复生命值。",
+        "ja": "秘技を使用した後、味方全体のHPを回復する。",
+        "ko": "비술 사용 후 즉시 모든 아군의 HP를 회복한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 800208,
@@ -363,52 +251,33 @@
         "ko": "지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
       },
       "params": [
-        [
-          3
-        ],
-        [
-          3.15
-        ],
-        [
-          3.3
-        ],
-        [
-          3.45
-        ],
-        [
-          3.6
-        ],
-        [
-          3.75
-        ],
-        [
-          3.9375
-        ],
-        [
-          4.125
-        ],
-        [
-          4.3125
-        ],
-        [
-          4.5
-        ],
-        [
-          4.65
-        ],
-        [
-          4.8
-        ],
-        [
-          4.95
-        ],
-        [
-          5.1
-        ],
-        [
-          5.25
-        ]
-      ]
+        [3],
+        [3.15],
+        [3.3],
+        [3.45],
+        [3.6],
+        [3.75],
+        [3.9375],
+        [4.125],
+        [4.3125],
+        [4.5],
+        [4.65],
+        [4.8],
+        [4.95],
+        [5.1],
+        [5.25]
+      ],
+      "icon": "icon/skill/8002_basic_atk2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Físico massivo a um único inimigo.",
+        "en": "Deals massive Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成大量物理属性伤害。",
+        "ja": "敵単体に大量の物理属性ダメージを与える。",
+        "ko": "단일 적에게 대량의 물리 속성 피해를 준다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 800209,
@@ -428,67 +297,33 @@
         "ko": "지정된 단일 적에게 개척자 공격력의 #1[i]%만큼 물리 속성 피해를 가하며, 인접한 목표에게 개척자 공격력의 #2[i]%만큼 물리 속성 피해를 가한다"
       },
       "params": [
-        [
-          1.8,
-          1.08
-        ],
-        [
-          1.89,
-          1.134
-        ],
-        [
-          1.98,
-          1.188
-        ],
-        [
-          2.07,
-          1.242
-        ],
-        [
-          2.16,
-          1.296
-        ],
-        [
-          2.25,
-          1.35
-        ],
-        [
-          2.3625,
-          1.4175
-        ],
-        [
-          2.475,
-          1.485
-        ],
-        [
-          2.5875,
-          1.5525
-        ],
-        [
-          2.7,
-          1.62
-        ],
-        [
-          2.79,
-          1.674
-        ],
-        [
-          2.88,
-          1.728
-        ],
-        [
-          2.97,
-          1.782
-        ],
-        [
-          3.06,
-          1.836
-        ],
-        [
-          3.15,
-          1.89
-        ]
-      ]
+        [1.8, 1.08],
+        [1.89, 1.134],
+        [1.98, 1.188],
+        [2.07, 1.242],
+        [2.16, 1.296],
+        [2.25, 1.35],
+        [2.3625, 1.4175],
+        [2.475, 1.485],
+        [2.5875, 1.5525],
+        [2.7, 1.62],
+        [2.79, 1.674],
+        [2.88, 1.728],
+        [2.97, 1.782],
+        [3.06, 1.836],
+        [3.15, 1.89]
+      ],
+      "icon": "icon/skill/8002_skill2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Físico a um único inimigo e aos inimigos adjacentes a ele.",
+        "en": "Deals Physical DMG to one enemy and enemies adjacent to it.",
+        "zh-CN": "对敌方单体及其相邻目标造成物理属性伤害。",
+        "ja": "敵単体および隣接する敵に物理属性ダメージを与える。",
+        "ko": "단일 적 및 대상의 인접한 목표에게 물리 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -507,7 +342,10 @@
         "zh-CN": "施放终结技消灭敌方目标时，开拓者额外恢复10点能量，该效果每次攻击只能触发1次。",
         "ja": "必殺技で敵を倒した時、さらに開拓者のEPを10回復する。この効果は1回の攻撃で1回まで発動できる。",
         "ko": "필살기를 발동하여 적 처치 시 개척자는 에너지를 추가로 10pt 회복한다. 해당 효과는 공격할 때마다 1회만 발동할 수 있다"
-      }
+      },
+      "icon": "icon/skill/8002_rank1.png",
+      "materials": [{ "id": 18001, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -524,7 +362,10 @@
         "zh-CN": "施放攻击后，若击中的敌方目标弱点为物理属性，则回复等同于开拓者5%攻击力的生命值。",
         "ja": "攻撃を行った後、攻撃が命中した敵の弱点が物理属性の場合、開拓者の攻撃力5%分のHPを回復する。",
         "ko": "공격 발동 후 명중한 적의 약점이 물리 속성이면 개척자 공격력 5%만큼의 HP를 회복한다"
-      }
+      },
+      "icon": "icon/skill/8002_rank2.png",
+      "materials": [{ "id": 18001, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -541,7 +382,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/8002_skill.png",
+      "materials": [{ "id": 18001, "num": 1 }],
+      "levelUpSkills": [{ "id": 800202, "num": 2 }, { "id": 800204, "num": 2 }]
     },
     {
       "rank": 4,
@@ -558,7 +402,10 @@
         "zh-CN": "击中处于弱点击破状态的敌方目标时，暴击率提高25%。",
         "ja": "弱点撃破状態の敵に攻撃が命中した時、会心率+25%。",
         "ko": "약점 격파 상태의 적 공격 시 치명타 확률이 25% 증가한다"
-      }
+      },
+      "icon": "icon/skill/8002_rank4.png",
+      "materials": [{ "id": 18001, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -575,7 +422,15 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/8002_ultimate.png",
+      "materials": [{ "id": 18001, "num": 1 }],
+      "levelUpSkills": [
+        { "id": 800203, "num": 2 },
+        { "id": 800201, "num": 1 },
+        { "id": 800208, "num": 2 },
+        { "id": 800209, "num": 2 }
+      ]
     },
     {
       "rank": 6,
@@ -592,10 +447,637 @@
         "zh-CN": "开拓者消灭敌方目标时，也会触发天赋。",
         "ja": "開拓者が敵を倒した時も、天賦が発動する。",
         "ko": "개척자가 적 처치 시에도 특성을 발동한다"
-      }
+      },
+      "icon": "icon/skill/8002_rank6.png",
+      "materials": [{ "id": 18001, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 120,
+  "stats": [
+    {
+      "hp": { "base": 163.68, "step": 8.184 },
+      "atk": { "base": 84.48, "step": 4.224 },
+      "def": { "base": 62.7, "step": 3.135 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 229.152, "step": 8.184 },
+      "atk": { "base": 118.272, "step": 4.224 },
+      "def": { "base": 87.78, "step": 3.135 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 294.624, "step": 8.184 },
+      "atk": { "base": 152.064, "step": 4.224 },
+      "def": { "base": 112.86, "step": 3.135 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 360.096, "step": 8.184 },
+      "atk": { "base": 185.856, "step": 4.224 },
+      "def": { "base": 137.94, "step": 3.135 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 425.568, "step": 8.184 },
+      "atk": { "base": 219.648, "step": 4.224 },
+      "def": { "base": 163.02, "step": 3.135 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 491.04, "step": 8.184 },
+      "atk": { "base": 253.44, "step": 4.224 },
+      "def": { "base": 188.1, "step": 3.135 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 556.512, "step": 8.184 },
+      "atk": { "base": 287.232, "step": 4.224 },
+      "def": { "base": 213.18, "step": 3.135 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 111011, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 111011, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 111012, "num": 5 }, { "id": 110400, "num": 4 }],
+    [{ "id": 2, "num": 32000 }, { "id": 111012, "num": 8 }, { "id": 110400, "num": 6 }],
+    [{ "id": 2, "num": 64000 }, { "id": 111013, "num": 5 }, { "id": 110400, "num": 8 }],
+    [{ "id": 2, "num": 128000 }, { "id": 111013, "num": 7 }, { "id": 110400, "num": 10 }]
+  ],
+  "traces": [
+    {
+      "id": 8002001,
+      "anchor": "Point01",
+      "icon": "icon/skill/8002_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [800201],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 8002002,
+      "anchor": "Point02",
+      "icon": "icon/skill/8002_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [800202],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110112, "num": 6 }, { "id": 111012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110113, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110113, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8002003,
+      "anchor": "Point03",
+      "icon": "icon/skill/8002_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [800203, 800208, 800209],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110112, "num": 6 }, { "id": 111012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110113, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110113, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8002004,
+      "anchor": "Point04",
+      "icon": "icon/skill/8002_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [800204],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110112, "num": 6 }, { "id": 111012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110113, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110113, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8002007,
+      "anchor": "Point05",
+      "icon": "icon/skill/8002_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [800207],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 8002101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Pront{M#o}{F#a} para a Batalha",
+        "en": "Ready for Battle",
+        "zh-CN": "蓄势",
+        "ja": "{RUBY_B#ちからた}力溜{RUBY_E#}め",
+        "ko": "전투 준비"
+      },
+      "description": {
+        "pt-BR": "No início da batalha, regenera #1[i] de Energia imediatamente.",
+        "en": "At the start of the battle, immediately regenerates #1[i] Energy.",
+        "zh-CN": "战斗开始时，立刻恢复#1[i]点能量。",
+        "ja": "戦闘開始時、EPを#1[i]回復する。",
+        "ko": "전투 시작 시 즉시 에너지를 #1[i]pt 회복한다"
+      },
+      "params": [[15]],
+      "icon": "icon/skill/8002_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 110501, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 8002102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Tenacidade",
+        "en": "Tenacity",
+        "zh-CN": "坚韧",
+        "ja": "{RUBY_B#けんじん}堅靭{RUBY_E#}",
+        "ko": "강인"
+      },
+      "description": {
+        "pt-BR": "Cada acúmulo de Talento aumenta a DEF {F#da}{M#do} Desbravador{F#a} em #1[i]%.",
+        "en": "Each Talent stack increases the Trailblazer's DEF by #1[i]%.",
+        "zh-CN": "天赋的效果每层同时使开拓者的防御力提高#1[i]%。",
+        "ja": "天賦効果1層につき、開拓者の防御力+#1[i]%。",
+        "ko": "특성의 효과는 스택마다 동시에 개척자의 방어력을 #1[i]% 증가시킨다"
+      },
+      "params": [[0.1]],
+      "icon": "icon/skill/8002_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110112, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8002103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Desejo de Lutar",
+        "en": "Fighting Will",
+        "zh-CN": "斗志",
+        "ja": "{RUBY_B#とうし}闘志{RUBY_E#}",
+        "ko": "투지"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia ou a Perícia Suprema \"Ruptura: Home Run Fatal\", o Dano causado ao inimigo-alvo é aumentado em #1[i]%.",
+        "en": "When using Skill or Ultimate \"Blowout: RIP Home Run,\" DMG dealt to the target enemy is increased by #1[i]%.",
+        "zh-CN": "施放战技或终结技【全胜•安息全垒打】时，对指定敌方目标造成的伤害提高#1[i]%。",
+        "ja": "戦闘スキルまたは必殺技「全勝・安息ホームラン」を発動した時、指定した敵に対して与ダメージ+#1[i]%。",
+        "ko": "전투 스킬 또는 필살기 [압승•안식 홈런] 발동 시 지정된 적에게 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.25]],
+      "icon": "icon/skill/8002_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110113, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8002201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 8002202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [8002101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111011, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 8002203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [8002202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 8002204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [8002203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.05 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 8002205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [8002102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 8002206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [8002205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 8002207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [8002206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 8002208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [8002103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.075 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 8002209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [8002208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 8002210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [8002208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111013, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 18001, 110111, 110112, 110113, 110400, 110501, 111011, 111012, 111013],
   "images": {
     "icon": "icon/character/8002.png",
     "preview": "image/character_preview/8002.png",

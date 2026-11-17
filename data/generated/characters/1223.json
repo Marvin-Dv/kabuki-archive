@@ -1,13 +1,7 @@
 {
   "id": 1223,
   "slug": "moze",
-  "name": {
-    "pt-BR": "Moze",
-    "en": "Moze",
-    "zh-CN": "貊泽",
-    "ja": "モゼ",
-    "ko": "맥택"
-  },
+  "name": { "pt-BR": "Moze", "en": "Moze", "zh-CN": "貊泽", "ja": "モゼ", "ko": "맥택" },
   "rarity": 4,
   "path": "Hunt",
   "element": "Lightning",
@@ -17,13 +11,7 @@
     {
       "id": 122301,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Atirar Espinhos",
-        "en": "Hurlthorn",
-        "zh-CN": "飞铙",
-        "ja": "暗器",
-        "ko": "암기 투척"
-      },
+      "name": { "pt-BR": "Atirar Espinhos", "en": "Hurlthorn", "zh-CN": "飞铙", "ja": "暗器", "ko": "암기 투척" },
       "description": {
         "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Moze a um único inimigo-alvo.",
         "en": "Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target.",
@@ -31,38 +19,18 @@
         "ja": "指定した敵単体にモゼの攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 맥택 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1223_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
+        "en": "Deals minor Lightning DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量雷属性伤害。",
+        "ja": "敵単体に少量の雷属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122302,
@@ -82,67 +50,33 @@
         "ko": "지정된 단일 적을 [사냥감]으로 만들고 해당 목표에게 맥택 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, 충전을 #2[i]pt 획득한다.\n필드 위에 전투 가능한 다른 캐릭터가 없을 시 맥택은 전투 스킬을 사용할 수 없으며, 적의 [사냥감] 상태는 해제된다"
       },
       "params": [
-        [
-          0.75,
-          9
-        ],
-        [
-          0.825,
-          9
-        ],
-        [
-          0.9,
-          9
-        ],
-        [
-          0.975,
-          9
-        ],
-        [
-          1.05,
-          9
-        ],
-        [
-          1.125,
-          9
-        ],
-        [
-          1.2188,
-          9
-        ],
-        [
-          1.3125,
-          9
-        ],
-        [
-          1.4062,
-          9
-        ],
-        [
-          1.5,
-          9
-        ],
-        [
-          1.575,
-          9
-        ],
-        [
-          1.65,
-          9
-        ],
-        [
-          1.725,
-          9
-        ],
-        [
-          1.8,
-          9
-        ],
-        [
-          1.875,
-          9
-        ]
-      ]
+        [0.75, 9],
+        [0.825, 9],
+        [0.9, 9],
+        [0.975, 9],
+        [1.05, 9],
+        [1.125, 9],
+        [1.2188, 9],
+        [1.3125, 9],
+        [1.4062, 9],
+        [1.5, 9],
+        [1.575, 9],
+        [1.65, 9],
+        [1.725, 9],
+        [1.8, 9],
+        [1.875, 9]
+      ],
+      "icon": "icon/skill/1223_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Marca um único inimigo como \"Presa\" e causa Dano de Raio a ele. Ganha 9 ponto(s) de Carga.",
+        "en": "Marks one enemy as \"Prey\" and deals Lightning DMG to it. Gains 9 points of Charge.",
+        "zh-CN": "使敌方单体成为【猎物】，对其造成雷属性伤害，并获得9点充能。",
+        "ja": "敵単体を「獲物」状態にし、雷属性ダメージを与え、チャージを9獲得する。",
+        "ko": "단일 적을 [사냥감]으로 만들고, 해당 적에게 번개 속성 피해를 가하며, 충전을 9pt 획득한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122303,
@@ -162,52 +96,33 @@
         "ko": "지정된 단일 적에게 맥택 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 해당 목표에게 특성의 추가 공격을 발동한다. 이번 추가 공격 발동 전에 목표가 처치됐을 경우 랜덤 단일 적에게 추가 공격을 발동한다"
       },
       "params": [
-        [
-          1.62
-        ],
-        [
-          1.728
-        ],
-        [
-          1.836
-        ],
-        [
-          1.944
-        ],
-        [
-          2.052
-        ],
-        [
-          2.16
-        ],
-        [
-          2.295
-        ],
-        [
-          2.43
-        ],
-        [
-          2.565
-        ],
-        [
-          2.7
-        ],
-        [
-          2.808
-        ],
-        [
-          2.916
-        ],
-        [
-          3.024
-        ],
-        [
-          3.132
-        ],
-        [
-          3.24
-        ]
-      ]
+        [1.62],
+        [1.728],
+        [1.836],
+        [1.944],
+        [2.052],
+        [2.16],
+        [2.295],
+        [2.43],
+        [2.565],
+        [2.7],
+        [2.808],
+        [2.916],
+        [3.024],
+        [3.132],
+        [3.24]
+      ],
+      "icon": "icon/skill/1223_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Raio a um único inimigo e utiliza o Ataque Extra do Talento.",
+        "en": "Deals Lightning DMG to one enemy, and launches Talent's Follow-Up ATK.",
+        "zh-CN": "对敌方单体造成雷属性伤害，并发动天赋的追加攻击。",
+        "ja": "敵単体に雷属性ダメージを与え、天賦による追加攻撃を発動する。",
+        "ko": "단일 적에게 번개 속성 피해를 가하고, 특성의 추가 공격을 발동한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122304,
@@ -227,94 +142,48 @@
         "ko": "필드 위에 [사냥감]이 있을 시 맥택이 퇴장 상태에 진입한다.\n아군이 [사냥감]을 공격하면 맥택은 추가로 자신의 공격력의 #1[i]%만큼 번개 속성 추가 피해를 1회 가하고, 충전을 1pt 소모한다. 충전을 #2[i]pt 소모할 때마다 맥택이 [사냥감]에게 추가 공격을 1회 발동하며, 자신의 공격력의 #3[i]%만큼 번개 속성 피해를 가한다. 충전이 0일 시 목표의 [사냥감] 상태를 해제하고, 추가 공격 발동에 필요한 충전 포인트 계산을 초기화한다. 특성의 추가 공격은 충전을 소모하지 않는다"
       },
       "params": [
-        [
-          0.15,
-          3,
-          0.8
-        ],
-        [
-          0.165,
-          3,
-          0.88
-        ],
-        [
-          0.18,
-          3,
-          0.96
-        ],
-        [
-          0.195,
-          3,
-          1.04
-        ],
-        [
-          0.21,
-          3,
-          1.12
-        ],
-        [
-          0.225,
-          3,
-          1.2
-        ],
-        [
-          0.2437,
-          3,
-          1.3
-        ],
-        [
-          0.2625,
-          3,
-          1.4
-        ],
-        [
-          0.2812,
-          3,
-          1.5
-        ],
-        [
-          0.3,
-          3,
-          1.6
-        ],
-        [
-          0.315,
-          3,
-          1.68
-        ],
-        [
-          0.33,
-          3,
-          1.76
-        ],
-        [
-          0.345,
-          3,
-          1.84
-        ],
-        [
-          0.36,
-          3,
-          1.92
-        ],
-        [
-          0.375,
-          3,
-          2
-        ]
-      ]
+        [0.15, 3, 0.8],
+        [0.165, 3, 0.88],
+        [0.18, 3, 0.96],
+        [0.195, 3, 1.04],
+        [0.21, 3, 1.12],
+        [0.225, 3, 1.2],
+        [0.2437, 3, 1.3],
+        [0.2625, 3, 1.4],
+        [0.2812, 3, 1.5],
+        [0.3, 3, 1.6],
+        [0.315, 3, 1.68],
+        [0.33, 3, 1.76],
+        [0.345, 3, 1.84],
+        [0.36, 3, 1.92],
+        [0.375, 3, 2]
+      ],
+      "icon": "icon/skill/1223_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Enquanto houver uma \"Presa\" no campo, Moze entrará no estado de Partida.\nDepois que aliados atacam a \"Presa\", Moze causa Dano Adicional de Raio e consome 1 ponto de Carga. Para cada 3 ponto(s) de Carga consumido(s), Moze utiliza Ataque Extra conta a \"Presa\", causando Dano de Raio. Quando a Carga está em 0, remove o estado de \"Presa\" do alvo.",
+        "en": "When \"Prey\" exists on the field, Moze will enter the Departed state.\nAfter allies attack \"Prey,\" Moze deals Lightning Additional DMG and consumes 1 Charge point. For every 3 point(s) of Charge consumed, Moze launches Follow-Up ATK on \"Prey,\" dealing Lightning DMG. When Charge is 0, dispels the target's \"Prey\" state.",
+        "zh-CN": "场上存在【猎物】时，貊泽会进入离场状态。\n我方目标攻击【猎物】后，貊泽造成雷属性附加伤害，并消耗1点充能。每消耗3点充能，貊泽会对【猎物】发动追加攻击，造成雷属性伤害，当充能为0时，解除目标【猎物】状态。",
+        "ja": "フィールド上に「獲物」状態の敵がいる時、モゼは一時離脱状態に入る。\n味方が「獲物」状態の敵を攻撃した後、モゼはその敵に雷属性付加ダメージを与え、チャージを1消費する。チャージを3消費するたびに、モゼは「獲物」状態の敵に追加攻撃を行い、雷属性ダメージを与える。チャージが0になると、敵の「獲物」状態が解除される。",
+        "ko": "필드 위에 [사냥감]이 있을 시 맥택이 퇴장 상태에 진입한다.\n아군이 [사냥감] 공격 후 맥택이 번개 속성 추가 피해를 가하고, 충전을 1pt 소모한다. 충전을 3pt 소모할 때마다 맥택이 [사냥감]에게 추가 공격을 발동하고 번개 속성 피해를 가하며, 충전이 0일 시 목표의 [사냥감] 상태를 해제한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122306,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1223_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -339,13 +208,18 @@
         "ja": "秘技を使用した後、#1[i]秒間継続するステルス状態に入る。ステルス状態の間は敵に発見されない。ステルス状態のモゼが敵を先制攻撃して戦闘に入った時、与ダメージ+#2[i]%、#3[i]ターン継続。",
         "ko": "비술 사용 후 #1[i]초 동안 지속되는 은신 상태에 진입한다. 은신 상태에선 적에게 들키지 않으며, 맥택이 은신 상태에서 적을 공격해 전투에 진입할 시 피해가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
       },
-      "params": [
-        [
-          20,
-          0.3,
-          2
-        ]
-      ]
+      "params": [[20, 0.3, 2]],
+      "icon": "icon/skill/1223_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Entra no estado de Furtividade. Atacar inimigos para iniciar o combate enquanto no modo de Furtividade aumenta o Dano.",
+        "en": "Enters the Stealth state. Attacking enemies to enter combat while in Stealth increases DMG.",
+        "zh-CN": "进入隐身状态。隐身状态攻击敌人进入战斗时提高伤害。",
+        "ja": "ステルス状態に入る。ステルス状態で敵を先制攻撃して戦闘に入った時、与ダメージがアップする。",
+        "ko": "은신 상태에 진입한다. 은신 상태에서 적을 공격해 전투 진입 시 피해가 증가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -364,7 +238,10 @@
         "zh-CN": "进入战斗后，貊泽恢复20点能量。每触发1次天赋的附加伤害，貊泽恢复2点能量。",
         "ja": "戦闘に入った後、モゼはEPを20回復する。天賦による付加ダメージを1回発動するたびに、EPを2回復する。",
         "ko": "전투 진입 후 맥택은 에너지를 20pt 회복한다. 특성의 추가 피해를 1회 발동할 때마다 맥택은 에너지를 2pt 회복한다"
-      }
+      },
+      "icon": "icon/skill/1223_rank1.png",
+      "materials": [{ "id": 11223, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -381,7 +258,10 @@
         "zh-CN": "我方全体目标对成为【猎物】的敌方目标造成伤害时，暴击伤害提高40%。",
         "ja": "味方が「獲物」状態の敵にダメージを与える時、会心ダメージ+40%。",
         "ko": "모든 아군이 [사냥감]이 된 적에게 피해를 가할 시 치명타 피해가 40% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1223_rank2.png",
+      "materials": [{ "id": 11223, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -398,7 +278,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1223_ultimate.png",
+      "materials": [{ "id": 11223, "num": 1 }],
+      "levelUpSkills": [{ "id": 122303, "num": 2 }, { "id": 122304, "num": 2 }]
     },
     {
       "rank": 4,
@@ -415,7 +298,10 @@
         "zh-CN": "施放终结技时，貊泽造成的伤害提高30.0%，持续2回合。",
         "ja": "必殺技を発動する時、モゼの与ダメージ+30.0%、2ターン継続。",
         "ko": "필살기 발동 시 맥택이 가하는 피해가 30.0% 증가한다. 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1223_rank4.png",
+      "materials": [{ "id": 11223, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -432,7 +318,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1223_skill.png",
+      "materials": [{ "id": 11223, "num": 1 }],
+      "levelUpSkills": [{ "id": 122302, "num": 2 }, { "id": 122301, "num": 1 }]
     },
     {
       "rank": 6,
@@ -449,10 +338,667 @@
         "zh-CN": "天赋的追加攻击的伤害倍率提高25%。",
         "ja": "天賦による追加攻撃のダメージ倍率+25%。",
         "ko": "특성의 추가 공격 피해 배율이 25% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1223_rank6.png",
+      "materials": [{ "id": 11223, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 120,
+  "stats": [
+    {
+      "hp": { "base": 110.4, "step": 5.52 },
+      "atk": { "base": 81.6, "step": 4.08 },
+      "def": { "base": 48, "step": 2.4 },
+      "spd": { "base": 111, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 154.56, "step": 5.52 },
+      "atk": { "base": 114.24, "step": 4.08 },
+      "def": { "base": 67.2, "step": 2.4 },
+      "spd": { "base": 111, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 198.72, "step": 5.52 },
+      "atk": { "base": 146.88, "step": 4.08 },
+      "def": { "base": 86.4, "step": 2.4 },
+      "spd": { "base": 111, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 242.88, "step": 5.52 },
+      "atk": { "base": 179.52, "step": 4.08 },
+      "def": { "base": 105.6, "step": 2.4 },
+      "spd": { "base": 111, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 287.04, "step": 5.52 },
+      "atk": { "base": 212.16, "step": 4.08 },
+      "def": { "base": 124.8, "step": 2.4 },
+      "spd": { "base": 111, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 331.2, "step": 5.52 },
+      "atk": { "base": 244.8, "step": 4.08 },
+      "def": { "base": 144, "step": 2.4 },
+      "spd": { "base": 111, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 375.36, "step": 5.52 },
+      "atk": { "base": 277.44, "step": 4.08 },
+      "def": { "base": 163.2, "step": 2.4 },
+      "spd": { "base": 111, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 113011, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 113011, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 113012, "num": 5 }, { "id": 110424, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 113012, "num": 8 }, { "id": 110424, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 113013, "num": 5 }, { "id": 110424, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 113013, "num": 7 }, { "id": 110424, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1223001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1223_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [122301],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110191, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110192, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110192, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110193, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110193, "num": 6 }, { "id": 113013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1223002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1223_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [122302],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110191, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110192, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110192, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110192, "num": 6 }, { "id": 113012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110193, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110193, "num": 4 },
+            { "id": 110506, "num": 1 },
+            { "id": 113013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110193, "num": 6 }, { "id": 110506, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110193, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1223003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1223_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [122303],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110191, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110192, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110192, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110192, "num": 6 }, { "id": 113012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110193, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110193, "num": 4 },
+            { "id": 110506, "num": 1 },
+            { "id": 113013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110193, "num": 6 }, { "id": 110506, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110193, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1223004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1223_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [122304],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110191, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110192, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110192, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110192, "num": 6 }, { "id": 113012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110193, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110193, "num": 4 },
+            { "id": 110506, "num": 1 },
+            { "id": 113013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110193, "num": 6 }, { "id": 110506, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110193, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1223007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1223_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [122307],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1223101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Pena Noturna",
+        "en": "Nightfeather",
+        "zh-CN": "墨毫绣衣",
+        "ja": "{RUBY_B#からすば}烏羽{RUBY_E#}の{RUBY_B#ころも}衣{RUBY_E#}",
+        "ko": "수묵자객"
+      },
+      "description": {
+        "pt-BR": "Depois de usar o Ataque Extra do Talento, recupera #1[i] Ponto(s) de Perícia. Este efeito pode ser ativado novamente após #2[i] rodada(s).",
+        "en": "After using Talent's Follow-Up ATK, recovers #1[i] Skill Point(s). This effect can trigger again after #2[i] turn(s).",
+        "zh-CN": "施放天赋的追加攻击后，恢复#1[i]个战技点，该效果在#2[i]回合后可再次触发。",
+        "ja": "天賦による追加攻撃を行った後、SPを#1[i]回復する。この効果は#2[i]ターン後に再度発動できる。",
+        "ko": "특성의 추가 공격 발동 후 전투 스킬 포인트를 #1[i]pt 회복한다. 해당 효과는 #2[i]턴 후 다시 발동할 수 있다"
+      },
+      "params": [[1, 1]],
+      "icon": "icon/skill/1223_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110191, "num": 2 }, { "id": 110506, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1223102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Empunhar Adagas",
+        "en": "Daggerhold",
+        "zh-CN": "手奋匕尺",
+        "ja": "{RUBY_B#しの}忍{RUBY_E#}び{RUBY_B#よ}寄{RUBY_E#}る{RUBY_B#あいくち}匕首{RUBY_E#}",
+        "ko": "비수를 쥔 손"
+      },
+      "description": {
+        "pt-BR": "Quando Moze remove seu estado de \"Partida\", sua ação é Avançada Adiante em #1[i]%. No início de cada onda, a ação de Moze é Avançada Adiante em #2[i]%.",
+        "en": "When Moze dispels his Departed state, his action advances by #1[i]%. At the start of each wave, Moze's action advances by #2[i]%.",
+        "zh-CN": "貊泽解除离场状态时，行动提前#1[i]%。每个波次开始时，貊泽行动提前#2[i]%。",
+        "ja": "モゼの一時離脱状態が解除される時、行動順+#1[i]%。各ウェーブ開始時、モゼの行動順+#2[i]%。",
+        "ko": "맥택이 퇴장 상태 해제 시 행동 게이지가 #1[i]% 증가한다. 웨이브가 시작될 때마다 맥택의 행동 게이지가 #2[i]% 증가한다"
+      },
+      "params": [[0.2, 0.3]],
+      "icon": "icon/skill/1223_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110192, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1223103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Vingança",
+        "en": "Vengewise",
+        "zh-CN": "不折镆干",
+        "ja": "その{RUBY_B#かげ}影{RUBY_E#}、{RUBY_B#ほうけん}宝剣{RUBY_E#}と{RUBY_B#とも}共{RUBY_E#}に{RUBY_B#あ}在{RUBY_E#}り",
+        "ko": "올곧은 복수심"
+      },
+      "description": {
+        "pt-BR": "Ao causar Dano utilizando a Perícia Suprema, esse Dano será considerado um Ataque Extra. O Dano de Ataque Extra recebido pela \"Presa\" aumenta em #1[i]%.",
+        "en": "When dealing DMG by using Ultimate, it is considered as having launched a Follow-Up ATK. The Follow-Up ATK DMG taken by the \"Prey\" increases by #1[i]%.",
+        "zh-CN": "施放终结技造成伤害时，被视为发动了追加攻击。【猎物】受到的追加攻击伤害提高#1[i]%。",
+        "ja": "必殺技を発動してダメージを与える時、追加攻撃を行うと見なされる。「獲物」状態の敵が受ける追加攻撃ダメージ+#1[i]%。",
+        "ko": "필살기를 발동해 피해를 가할 시 추가 공격을 발동한 것으로 간주한다. [사냥감]이 받는 추가 공격 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.25]],
+      "icon": "icon/skill/1223_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110193, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1223201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1223202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1223101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110191, "num": 2 }, { "id": 113011, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1223203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1223202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110192, "num": 2 }, { "id": 113012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1223204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110192, "num": 2 }, { "id": 113012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1223205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1223102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110192, "num": 4 }, { "id": 113012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1223206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1223205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110193, "num": 2 }, { "id": 113013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1223207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110193, "num": 2 }, { "id": 113013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1223208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1223103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110193, "num": 6 }, { "id": 113013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1223209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1223208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110193, "num": 6 }, { "id": 113013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1223210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1223208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110193, "num": 6 }, { "id": 113013, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11223, 110191, 110192, 110193, 110424, 110506, 113011, 113012, 113013],
   "images": {
     "icon": "icon/character/1223.png",
     "preview": "image/character_preview/1223.png",

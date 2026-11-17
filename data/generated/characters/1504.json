@@ -1,13 +1,7 @@
 {
   "id": 1504,
   "slug": "ashveil",
-  "name": {
-    "pt-BR": "Ashveil",
-    "en": "Ashveil",
-    "zh-CN": "不死途",
-    "ja": "不死途",
-    "ko": "애쉬베일"
-  },
+  "name": { "pt-BR": "Ashveil", "en": "Ashveil", "zh-CN": "不死途", "ja": "不死途", "ko": "애쉬베일" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Lightning",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体に不死途の攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 애쉬베일 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1504_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Raio leve a um único inimigo designado.",
+        "en": "Deals minor Lightning DMG to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成少量雷属性伤害。",
+        "ja": "指定した敵単体に少量の雷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 소량의 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150402,
@@ -82,112 +56,33 @@
         "ko": "지정된 단일 적을 [미끼]로 만들고, 대상에게 애쉬베일 공격력의 #1[i]%만큼 번개 속성 피해를 가한다. 해당 목표가 [미끼]일 경우, 추가로 대상에게 애쉬베일 공격력의 #3[i]%만큼 번개 속성 피해를 가하고, 전투 스킬 포인트를 #5[i]pt 회복한다. 필드에 [미끼]가 존재할 시, 모든 적의 방어력이 #4[i]% 감소한다.\n필드에 [미끼]가 없을 시, 애쉬베일은 즉시 현재 필드의 HP가 가장 낮은 단일 적을 [미끼]로 만들며, [미끼] 상태는 가장 최근에 부여된 목표에게만 적용된다"
       },
       "params": [
-        [
-          1,
-          1,
-          0.5,
-          0.2,
-          1
-        ],
-        [
-          1.1,
-          1,
-          0.55,
-          0.22,
-          1
-        ],
-        [
-          1.2,
-          1,
-          0.6,
-          0.24,
-          1
-        ],
-        [
-          1.3,
-          1,
-          0.65,
-          0.26,
-          1
-        ],
-        [
-          1.4,
-          1,
-          0.7,
-          0.28,
-          1
-        ],
-        [
-          1.5,
-          1,
-          0.75,
-          0.3,
-          1
-        ],
-        [
-          1.625,
-          1,
-          0.8125,
-          0.325,
-          1
-        ],
-        [
-          1.75,
-          1,
-          0.875,
-          0.35,
-          1
-        ],
-        [
-          1.875,
-          1,
-          0.9375,
-          0.375,
-          1
-        ],
-        [
-          2,
-          1,
-          1,
-          0.4,
-          1
-        ],
-        [
-          2.1,
-          1,
-          1.05,
-          0.42,
-          1
-        ],
-        [
-          2.2,
-          1,
-          1.1,
-          0.44,
-          1
-        ],
-        [
-          2.3,
-          1,
-          1.15,
-          0.46,
-          1
-        ],
-        [
-          2.4,
-          1,
-          1.2,
-          0.48,
-          1
-        ],
-        [
-          2.5,
-          1,
-          1.25,
-          0.5,
-          1
-        ]
-      ]
+        [1, 1, 0.5, 0.2, 1],
+        [1.1, 1, 0.55, 0.22, 1],
+        [1.2, 1, 0.6, 0.24, 1],
+        [1.3, 1, 0.65, 0.26, 1],
+        [1.4, 1, 0.7, 0.28, 1],
+        [1.5, 1, 0.75, 0.3, 1],
+        [1.625, 1, 0.8125, 0.325, 1],
+        [1.75, 1, 0.875, 0.35, 1],
+        [1.875, 1, 0.9375, 0.375, 1],
+        [2, 1, 1, 0.4, 1],
+        [2.1, 1, 1.05, 0.42, 1],
+        [2.2, 1, 1.1, 0.44, 1],
+        [2.3, 1, 1.15, 0.46, 1],
+        [2.4, 1, 1.2, 0.48, 1],
+        [2.5, 1, 1.25, 0.5, 1]
+      ],
+      "icon": "icon/skill/1504_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Faz com que um inimigo-alvo designado se torne a \"Isca\", causando Dano de Raio massivo a ele. Se o alvo já estiver marcado como \"Isca\", causa adicionalmente Dano de Raio leve a ele e recupera 1 Ponto(s) de Perícia. Quando a \"Isca\" está presente no campo, a DEF de todos os inimigos é reduzida.",
+        "en": "Makes one designated enemy become the \"Bait,\" dealing massive Lightning DMG to them. If the target is already the \"Bait,\" additionally deals minor Lightning DMG to them, and recovers 1 Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced.",
+        "zh-CN": "使指定敌方单体成为【饲饵】，对其造成大量雷属性伤害。若该目标为【饲饵】，则额外对其造成少量雷属性伤害并恢复1点战技点。场上存在【饲饵】时，敌方全体防御力降低。",
+        "ja": "指定した敵単体を「餌食」にし、大量の雷属性ダメージを与える。ターゲットが「餌食」の場合、さらに少量の雷属性ダメージを与え、SPを1回復する。フィールド上に「餌食」が存在する時、敵全体の防御力がダウンする。",
+        "ko": "지정된 단일 적을 [미끼]로 만들고, 대상에게 대량의 번개 속성 피해를 가한다. 해당 목표가 [미끼]일 경우 추가로 대상에게 소량의 번개 속성 피해를 가하고, 전투 스킬 포인트를 1pt 회복한다. 필드에 [미끼]가 존재할 시, 모든 적의 방어력이 감소한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150403,
@@ -207,97 +102,33 @@
         "ko": "지정된 단일 적을 [미끼]로 만들고, 대상에게 애쉬베일 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, 이후 즉시 [미끼]에게 강화된 특성 추가 공격을 1회 발동하고, 애쉬베일은 충전을 #2[i]pt 획득한다.\n강화된 특성 추가 공격은 충전을 소모하지 않는다. [탐닉]이 #3[i]스택 이상일 시, 보유한 [탐닉] #3[i]스택당 상응하는 스택을 소모해 추가로 애쉬베일 공격력의 #4[i]%만큼 번개 속성 피해를 1회 가하며, 이번 추가 공격 도중 목표에게 치명적인 공격을 가했을 경우, [탐닉]이 #3[i]스택 미만이 될 때까지 계속해서 새로운 [미끼]에게 피해를 가한다. 현재 필드 위 모든 적이 치명적인 공격을 받으면 강화된 특성 추가 공격은 즉시 종료된다"
       },
       "params": [
-        [
-          2,
-          3,
-          4,
-          1
-        ],
-        [
-          2.2,
-          3,
-          4,
-          1.1
-        ],
-        [
-          2.4,
-          3,
-          4,
-          1.2
-        ],
-        [
-          2.6,
-          3,
-          4,
-          1.3
-        ],
-        [
-          2.8,
-          3,
-          4,
-          1.4
-        ],
-        [
-          3,
-          3,
-          4,
-          1.5
-        ],
-        [
-          3.25,
-          3,
-          4,
-          1.625
-        ],
-        [
-          3.5,
-          3,
-          4,
-          1.75
-        ],
-        [
-          3.75,
-          3,
-          4,
-          1.875
-        ],
-        [
-          4,
-          3,
-          4,
-          2
-        ],
-        [
-          4.2,
-          3,
-          4,
-          2.1
-        ],
-        [
-          4.4,
-          3,
-          4,
-          2.2
-        ],
-        [
-          4.6,
-          3,
-          4,
-          2.3
-        ],
-        [
-          4.8,
-          3,
-          4,
-          2.4
-        ],
-        [
-          5,
-          3,
-          4,
-          2.5
-        ]
-      ]
+        [2, 3, 4, 1],
+        [2.2, 3, 4, 1.1],
+        [2.4, 3, 4, 1.2],
+        [2.6, 3, 4, 1.3],
+        [2.8, 3, 4, 1.4],
+        [3, 3, 4, 1.5],
+        [3.25, 3, 4, 1.625],
+        [3.5, 3, 4, 1.75],
+        [3.75, 3, 4, 1.875],
+        [4, 3, 4, 2],
+        [4.2, 3, 4, 2.1],
+        [4.4, 3, 4, 2.2],
+        [4.6, 3, 4, 2.3],
+        [4.8, 3, 4, 2.4],
+        [5, 3, 4, 2.5]
+      ],
+      "icon": "icon/skill/1504_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Marca um inimigo designado como \"Isca\", causa Dano de Raio massivo a ele e, em seguida, desfere imediatamente contra a \"Isca\" 1 instância do Ataque Extra do Talento aprimorado, e Ashveil ganha Carga.\nEsse Ataque Extra do Talento aprimorado não consome Carga. Sempre que \"Gula\" atingir 4 acúmulo(s) ou mais, consome 4 acúmulo(s) de \"Gula\" para causar adicionalmente Dano de Raio massivo. E quando essa instância de Ataque Extra desferir um Golpe Fatal ao alvo, ela continuará causando Dano a uma nova \"Isca\". Fica ativo até que \"Gula\" se torne menor que 4 acúmulo(s).",
+        "en": "Marks one designated enemy as \"Bait,\" deals massive Lightning DMG to them, then immediately launches enhanced Talent's Follow-Up ATK against \"Bait\" 1 time, and Ashveil gains Charge.\nThis enhanced Talent's Follow-Up ATK does not consume Charge. Whenever \"Gluttony\" reaches 4 stack(s) or more, consumes 4 stack(s) of \"Gluttony\" to additionally deal massive Lightning DMG. If this instance of Follow-Up ATK deals a killing blow to the target, it will continue to deal DMG to a new \"Bait\" until \"Gluttony\" becomes lower than 4 stacks.",
+        "zh-CN": "使指定敌方单体成为【饲饵】，对其造成大量雷属性伤害，随后立即对【饲饵】发动1次获得强化的天赋追加攻击，且不死途获得充能。\n强化天赋追加攻击不消耗充能，拥有【婪酣】时，每消耗4层【婪酣】可额外造成大量雷属性伤害，且本次追加攻击过程中对目标造成致命攻击时，会继续对新的【饲饵】造成伤害，直至【婪酣】小于4层。",
+        "ja": "指定した敵単体を「餌食」にし、大量の雷属性ダメージを与える。その後「餌食」に対し、即座に強化された天賦による追加攻撃を1回行い、不死途はチャージを獲得する。この回の強化された天賦による追加攻撃はチャージを消費しない。\n所持している「暴食」が4層以上である限り、「暴食」を4層消費し、追加で大量の雷属性ダメージを1回与える。\nまた、この回の追加攻撃の発動中、ターゲットにHPが0になる攻撃を与えた時、所持している「暴食」が4層未満になるまで、不死途は新しく「餌食」となった敵に、引き続きダメージを与える。",
+        "ko": "지정된 단일 적을 [미끼]로 만들고, 대상에게 대량의 번개 속성 피해를 가하며, 이후 즉시 [미끼]에게 강화된 특성 추가 공격을 1회 발동하고, 애쉬베일은 충전을 획득한다.\n강화된 특성 추가 공격은 충전을 소모하지 않는다. [탐닉]이 4스택 이상일 시, 보유한 [탐닉] 4스택당 상응하는 스택을 소모해 추가로 대량의 번개 속성 피해를 가하며, 이번 추가 공격 도중 목표에게 치명적인 공격을 가했을 경우, [탐닉]이 4스택 미만이 될 때까지 계속해서 새로운 [미끼]에게 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150404,
@@ -317,142 +148,33 @@
         "ko": "애쉬베일은 기본 상태에서 충전을 #1[i]pt 보유하며, 최대 #2[i]pt 보유할 수 있다. [미끼]가 다른 아군에게 피격되면, 애쉬베일은 고정으로 에너지를 #7[i]pt 회복하고, 이후 충전을 #3[i]pt 소모해 [미끼]에게 추가 공격을 발동하여 애쉬베일 공격력의 #4[i]%만큼 번개 속성 피해를 가하고, 이후 [탐닉]을 #5[i]스택 획득한다, 최대 중첩수: #6[i]스택"
       },
       "params": [
-        [
-          2,
-          3,
-          1,
-          1,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.1,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.2,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.3,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.4,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.5,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.625,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.75,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          1.875,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          2,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          2.1,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          2.2,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          2.3,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          2.4,
-          2,
-          12,
-          8
-        ],
-        [
-          2,
-          3,
-          1,
-          2.5,
-          2,
-          12,
-          8
-        ]
-      ]
+        [2, 3, 1, 1, 2, 12, 8],
+        [2, 3, 1, 1.1, 2, 12, 8],
+        [2, 3, 1, 1.2, 2, 12, 8],
+        [2, 3, 1, 1.3, 2, 12, 8],
+        [2, 3, 1, 1.4, 2, 12, 8],
+        [2, 3, 1, 1.5, 2, 12, 8],
+        [2, 3, 1, 1.625, 2, 12, 8],
+        [2, 3, 1, 1.75, 2, 12, 8],
+        [2, 3, 1, 1.875, 2, 12, 8],
+        [2, 3, 1, 2, 2, 12, 8],
+        [2, 3, 1, 2.1, 2, 12, 8],
+        [2, 3, 1, 2.2, 2, 12, 8],
+        [2, 3, 1, 2.3, 2, 12, 8],
+        [2, 3, 1, 2.4, 2, 12, 8],
+        [2, 3, 1, 2.5, 2, 12, 8]
+      ],
+      "icon": "icon/skill/1504_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Depois que a \"Isca\" é atacada por outros aliados-alvo, Ashveil regenera uma quantidade fixa de Energia, depois consome Carga para desferir um Ataque Extra contra a \"Isca\", causando Dano de Raio massivo. Depois, ganha 2 acúmulo(s) de \"Gula\".",
+        "en": "After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of Energy, then consumes Charge to launch Follow-Up ATK against the \"Bait,\" dealing massive Lightning DMG. Afterwards, gains 2 stack(s) of \"Gluttony.\"",
+        "zh-CN": "【饲饵】受到我方其他目标攻击后，不死途固定恢复能量，随后会消耗充能对【饲饵】发动追加攻击，造成大量雷属性伤害，随后获得2层【婪酣】。",
+        "ja": "「餌食」が不死途以外の味方の攻撃を受けた後、不死途は固定でEPを回復する。その後、チャージを消費して「餌食」に追加攻撃を行い、大量の雷属性のダメージを与え、「暴食」を2層獲得する。",
+        "ko": "[미끼]가 다른 아군에게 피격되면, 애쉬베일은 에너지를 고정으로 회복하고, 이후 충전을 소모해 [미끼]에게 추가 공격을 발동하여 대량의 번개 속성 피해를 가하며, 이후 [탐닉]을 2스택 획득한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150406,
@@ -465,6 +187,15 @@
         "ko": "예절을 가르치는 발톱"
       },
       "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1504_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -489,13 +220,18 @@
         "ja": "秘技を使用した後、一定範囲内の敵を#1[i]秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った時、敵全体に不死途の攻撃力#2[i]%分の雷属性ダメージを与え、不死途はチャージを#3[i]獲得する。",
         "ko": "비술 사용 후 일정 구역 내의 적을 #1[i]초 동안 현기증 상태에 빠트린다. 현기증 상태인 적은 아군을 선공할 수 없다.\n현기증 상태에 빠진 적을 선공해 전투 진입 시, 모든 적에게 애쉬베일 공격력의 #2[i]%만큼 번개 속성 피해를 가하고, 애쉬베일이 충전을 #3[i]pt 획득한다"
       },
-      "params": [
-        [
-          10,
-          1,
-          1
-        ]
-      ]
+      "params": [[10, 1, 1]],
+      "icon": "icon/skill/1504_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Inflige \"Confusão\" em inimigos dentro de uma área definida. Depois de entrar em combate atacando um inimigo afligido com \"Confusão\", causa Dano de Raio leve a todos os inimigos, e concede 1 ponto(s) de Carga a Ashveil.",
+        "en": "Inflicts Daze on enemies within a set area. After entering combat via attacking a Dazed enemy, deals minor Lightning DMG to all enemies, and grants Ashveil 1 Charge.",
+        "zh-CN": "使一定区域内敌人陷入晕眩状态。攻击陷入晕眩状态敌人，进战后对敌方全体造成少量雷属性伤害，且不死途获得1点充能。",
+        "ja": "一定範囲内の敵を目眩状態にする。目眩状態の敵を攻撃して戦闘に入った後、敵全体に少量の雷属性ダメージを与え、不死途はチャージを1獲得する。",
+        "ko": "일정 구역 내의 적을 현기증 상태에 빠트린다. 현기증 상태인 적을 공격하면 전투 진입 후 모든 적에게 소량의 번개 속성 피해를 가하고, 애쉬베일이 충전을 1pt 획득한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -514,7 +250,10 @@
         "zh-CN": "不死途在场时，敌方全体受到的伤害提高24%。当敌方目标当前生命值百分比小于等于50%时，其受到的伤害提高至36%。",
         "ja": "不死途がフィールドにいる時、敵全体の受けるダメージ+24%。残りHPの割合が50%以下の敵が受けるダメージアップ効果は36%にアップする。",
         "ko": "애쉬베일이 필드에 있을 시, 모든 적이 받는 피해가 24% 증가한다. 적 현재 HP 백분율이 50% 이하일 시, 대상이 받는 피해가 36%로 증가한다"
-      }
+      },
+      "icon": "icon/skill/1504_rank1.png",
+      "materials": [{ "id": 11504, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -531,7 +270,10 @@
         "zh-CN": "【婪酣】叠加上限提高至18层，每当不死途发动强化天赋追加攻击后，返还所移除【婪酣】层数的35%。",
         "ja": "「暴食」の最大累積可能層数が18層になる。不死途が強化された天賦による追加攻撃を行った後、消費した「暴食」層数の35%が返還される。",
         "ko": "[탐닉] 중첩 상한이 18스택으로 증가하며, 애쉬베일이 강화된 특성 추가 공격을 발동할 때마다 해제된 [탐닉] 스택 수의 35%를 반환한다"
-      }
+      },
+      "icon": "icon/skill/1504_rank2.png",
+      "materials": [{ "id": 11504, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -548,7 +290,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1504_ultimate.png",
+      "materials": [{ "id": 11504, "num": 1 }],
+      "levelUpSkills": [{ "id": 150403, "num": 2 }, { "id": 150401, "num": 1 }]
     },
     {
       "rank": 4,
@@ -565,7 +310,10 @@
         "zh-CN": "不死途施放终结技时，攻击力提高40%，持续3回合。",
         "ja": "不死途が必殺技を発動する時、攻撃力+40%、3ターン継続。",
         "ko": "애쉬베일이 필살기 발동 시 공격력이 40% 증가한다, 지속 시간: 3턴"
-      }
+      },
+      "icon": "icon/skill/1504_rank4.png",
+      "materials": [{ "id": 11504, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -582,7 +330,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1504_skill.png",
+      "materials": [{ "id": 11504, "num": 1 }],
+      "levelUpSkills": [{ "id": 150402, "num": 2 }, { "id": 150404, "num": 2 }]
     },
     {
       "rank": 6,
@@ -599,10 +350,700 @@
         "zh-CN": "当场上存在【饲饵】时，敌方全体的全属性抗性降低20%。不死途每获得过1层【婪酣】，造成的伤害提高4%，该效果最多叠加30层。",
         "ja": "フィールド上に「餌食」が存在する時、敵全体の全属性耐性-20%。不死途が「暴食」を1層獲得するたびに、与えるダメージ+4%、最大で30層累積できる。",
         "ko": "필드에 [미끼]가 존재할 경우, 모든 적의 모든 속성 저항이 20% 감소한다. 애쉬베일은 [탐닉]을 1스택 획득할 때마다 가하는 피해가 4% 증가한다, 해당 효과 최대 중첩수: 30스택"
-      }
+      },
+      "icon": "icon/skill/1504_rank6.png",
+      "materials": [{ "id": 11504, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 150,
+  "stats": [
+    {
+      "hp": { "base": 116.16, "step": 5.808 },
+      "atk": { "base": 105.6, "step": 5.28 },
+      "def": { "base": 52.8, "step": 2.64 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 162.624, "step": 5.808 },
+      "atk": { "base": 147.84, "step": 5.28 },
+      "def": { "base": 73.92, "step": 2.64 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 209.088, "step": 5.808 },
+      "atk": { "base": 190.08, "step": 5.28 },
+      "def": { "base": 95.04, "step": 2.64 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 255.552, "step": 5.808 },
+      "atk": { "base": 232.32, "step": 5.28 },
+      "def": { "base": 116.16, "step": 2.64 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 302.016, "step": 5.808 },
+      "atk": { "base": 274.56, "step": 5.28 },
+      "def": { "base": 137.28, "step": 2.64 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 348.48, "step": 5.808 },
+      "atk": { "base": 316.8, "step": 5.28 },
+      "def": { "base": 158.4, "step": 2.64 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 394.944, "step": 5.808 },
+      "atk": { "base": 359.04, "step": 5.28 },
+      "def": { "base": 179.52, "step": 2.64 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 116001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 116001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 116002, "num": 6 }, { "id": 110434, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 116002, "num": 9 }, { "id": 110434, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 116003, "num": 6 }, { "id": 110434, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 116003, "num": 9 }, { "id": 110434, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1504001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1504_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [150401],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110271, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110272, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110272, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110273, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110273, "num": 8 }, { "id": 116003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1504002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1504_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150402],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110271, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110272, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110272, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110272, "num": 7 }, { "id": 116002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110273, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110273, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110273, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110273, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1504003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1504_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150403],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110271, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110272, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110272, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110272, "num": 7 }, { "id": 116002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110273, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110273, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110273, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110273, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1504004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1504_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150404],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110271, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110272, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110272, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110272, "num": 7 }, { "id": 116002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110273, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110273, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110273, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110273, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1504007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1504_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [150407],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1504101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Caminho da Maldição",
+        "en": "Damnation Trail",
+        "zh-CN": "罪途",
+        "ja": "{RUBY_B#つみ}罪{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
+        "ko": "죄의 길"
+      },
+      "description": {
+        "pt-BR": "Quando Ashveil usa a Perícia/Perícia Suprema, ganha #1[i]/#2[i] acúmulos de \"Gula\". Durante o Ataque Extra de Ashveil, para cada #3[i] inimigo(s) que sofrer(em) um golpe fatal, Ashveil ganha #4[i] acúmulo(s) de \"Gula\".",
+        "en": "When Ashveil uses Skill/Ultimate, gains #1[i]/#2[i] stacks of \"Gluttony.\" During Ashveil's Follow-Up ATK, for every #3[i] enemy(ies) that suffer a killing blow, Ashveil gains #4[i] stack(s) of \"Gluttony.\"",
+        "zh-CN": "不死途施放战技/终结技时，获得#1[i]/#2[i]层【婪酣】。不死途追加攻击过程中每有#3[i]个敌人受到致命攻击时，不死途获得#4[i]层【婪酣】。",
+        "ja": "不死途が戦闘スキル/必殺技を発動する時、「暴食」を#1[i]/#2[i]層獲得する。不死途の追加攻撃中に、敵#3[i]体がHPが0になる攻撃を受けるたびに、不死途は「暴食」を#4[i]層獲得する。",
+        "ko": "애쉬베일이 전투 스킬/필살기 발동 시, [탐닉]을 #1[i]/#2[i]스택 획득한다. 애쉬베일의 추가 공격 도중 적 #3[i]기가 치명적인 공격을 받을 때마다, 애쉬베일이 [탐닉]을 #4[i]스택 획득한다"
+      },
+      "params": [[1, 2, 1, 1]],
+      "icon": "icon/skill/1504_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110271, "num": 3 }, { "id": 110508, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1504102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Membro Fantasma",
+        "en": "Phantom Limb",
+        "zh-CN": "影肢",
+        "ja": "{RUBY_B#かげ}影{RUBY_E#}の{RUBY_B#うで}腕{RUBY_E#}",
+        "ko": "그림자의 팔"
+      },
+      "description": {
+        "pt-BR": "O Dano causado pelo Ataque Extra de Ashveil aumenta em #1[i]%. A cada #2[i] acúmulo(s) de \"Gula\" possuídos, o Dano causado pelo Ataque Extra aumenta adicionalmente em #3[i]%.",
+        "en": "DMG dealt by Ashveil's Follow-Up ATK increases by #1[i]%. And for every #2[i] stack(s) of \"Gluttony\" in possession, DMG dealt by Follow-Up ATK additionally increases by #3[i]%.",
+        "zh-CN": "不死途追加攻击造成的伤害提高#1[i]%，且每有#2[i]层【婪酣】，追加攻击造成的伤害额外提高#3[i]%。",
+        "ja": "不死途の追加攻撃ダメージ+#1[i]%。所持している「暴食」#2[i]層につき、さらに追加攻撃ダメージ+#3[i]%。",
+        "ko": "애쉬베일의 추가 공격이 가하는 피해가 #1[i]% 증가하고, 보유한 [탐닉] #2[i]스택당 추가 공격이 가하는 피해가 추가로 #3[i]% 증가한다"
+      },
+      "params": [[0.8, 1, 0.1]],
+      "icon": "icon/skill/1504_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110272, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1504103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Primeira Presa",
+        "en": "First Fang",
+        "zh-CN": "头狼",
+        "ja": "{RUBY_B#おさ}長{RUBY_E#}の{RUBY_B#おおかみ}狼{RUBY_E#}",
+        "ko": "늑대 우두머리"
+      },
+      "description": {
+        "pt-BR": "Enquanto Ashveil estiver no campo, o Dano CRIT causado pelos aliados-alvo aumenta em #1[i]%, e o Dano CRIT causado pelos Ataques Extras dos aliados-alvo aumenta adicionalmente em #2[i]%.",
+        "en": "While Ashveil is on the field, CRIT DMG dealt by ally targets increases by #1[i]%, and CRIT DMG dealt by ally target's Follow-Up ATK additionally increases by #2[i]%.",
+        "zh-CN": "不死途在场时，我方目标造成的暴击伤害提高#1[i]%，我方目标追加攻击造成的暴击伤害额外提高#2[i]%。",
+        "ja": "不死途がフィールド上にいる時、味方の会心ダメージ+#1[i]%、味方の追加攻撃の会心ダメージがさらに+#2[i]%。",
+        "ko": "애쉬베일이 필드에 있을 시, 아군이 가하는 치명타 피해가 #1[i]% 증가하고, 아군이 추가 공격으로 가하는 치명타 피해가 추가로 #2[i]% 증가한다"
+      },
+      "params": [[0.4, 0.8]],
+      "icon": "icon/skill/1504_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110273, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1504201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1504202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Dano: Raio",
+        "en": "DMG Boost: Lightning",
+        "zh-CN": "伤害强化•雷",
+        "ja": "ダメージ強化・雷",
+        "ko": "피해 강화•번개"
+      },
+      "icon": "icon/property/IconThunderAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1504101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "ThunderAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110271, "num": 3 }, { "id": 116001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1504203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1504202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110272, "num": 3 }, { "id": 116002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1504204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110272, "num": 3 }, { "id": 116002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1504205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1504102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110272, "num": 5 }, { "id": 116002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1504206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Dano: Raio",
+        "en": "DMG Boost: Lightning",
+        "zh-CN": "伤害强化•雷",
+        "ja": "ダメージ強化・雷",
+        "ko": "피해 강화•번개"
+      },
+      "icon": "icon/property/IconThunderAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1504205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "ThunderAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110273, "num": 3 }, { "id": 116003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1504207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110273, "num": 3 }, { "id": 116003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1504208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1504103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110273, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1504209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Dano: Raio",
+        "en": "DMG Boost: Lightning",
+        "zh-CN": "伤害强化•雷",
+        "ja": "ダメージ強化・雷",
+        "ko": "피해 강화•번개"
+      },
+      "icon": "icon/property/IconThunderAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1504208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "ThunderAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110273, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1504210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1504208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110273, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11504, 110271, 110272, 110273, 110434, 110508, 116001, 116002, 116003],
   "images": {
     "icon": "icon/character/1504.png",
     "preview": "image/character_preview/1504.png",

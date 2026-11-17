@@ -20,13 +20,7 @@
     "ko": "「이미 도착했는데, 안 내려?」\n머리 위에서 작은 웃음소리가 들린다. 그는 눈만 치켜뜨고 고개는 들지 않았다.\n「미리 말하자면, Mar. 7th가 자꾸 너보고 무표정이라고 하는데, 난 그렇게 생각 안해」\n「열차 아카이브의 데이터에 업데이트한 흔적이 있는데, 결과를 저장하지 못했어」\n「그래서… 뭐가 문제야?」\n그가 펜을 움켜쥐고 노트에 기억대로 다시 쓴 참혹한 장면을 본다.\n「아, 너에 대한 일이구나…」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Registro",
-      "en": "Record",
-      "zh-CN": "记录",
-      "ja": "記録",
-      "ko": "기록"
-    },
+    "name": { "pt-BR": "Registro", "en": "Record", "zh-CN": "记录", "ja": "記録", "ko": "기록" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o ATQ do usuário. Se houver 2 inimigos ou menos em campo, aumenta em #2[i]% a Chance de CRIT do usuário.",
       "en": "Increases the wearer's ATK by #1[i]%. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by #2[i]%.",
@@ -34,29 +28,60 @@
       "ja": "装備キャラの攻撃力+#1[i]%。フィールド上の敵の数が2体以下の場合、装備キャラの会心率+#2[i]%。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 필드 위의 적이 2명 이하일 경우, 장착한 캐릭터의 치명타 확률이 #2[i]% 증가한다"
     },
-    "params": [
-      [
-        0.16,
-        0.12
-      ],
-      [
-        0.2,
-        0.15
-      ],
-      [
-        0.24,
-        0.18
-      ],
-      [
-        0.28,
-        0.21
-      ],
-      [
-        0.32,
-        0.24
-      ]
+    "params": [[0.16, 0.12], [0.2, 0.15], [0.24, 0.18], [0.28, 0.21], [0.32, 0.24]],
+    "properties": [
+      [{ "type": "AttackAddedRatio", "value": 0.16 }],
+      [{ "type": "AttackAddedRatio", "value": 0.2 }],
+      [{ "type": "AttackAddedRatio", "value": 0.24 }],
+      [{ "type": "AttackAddedRatio", "value": 0.28 }],
+      [{ "type": "AttackAddedRatio", "value": 0.32 }]
     ]
   },
+  "stats": [
+    {
+      "hp": { "base": 43.2, "step": 6.48 },
+      "atk": { "base": 21.6, "step": 3.24 },
+      "def": { "base": 15, "step": 2.25 }
+    },
+    {
+      "hp": { "base": 95.04, "step": 6.48 },
+      "atk": { "base": 47.52, "step": 3.24 },
+      "def": { "base": 33, "step": 2.25 }
+    },
+    {
+      "hp": { "base": 164.16, "step": 6.48 },
+      "atk": { "base": 82.08, "step": 3.24 },
+      "def": { "base": 57, "step": 2.25 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 116.64, "step": 3.24 },
+      "def": { "base": 81, "step": 2.25 }
+    },
+    {
+      "hp": { "base": 302.4, "step": 6.48 },
+      "atk": { "base": 151.2, "step": 3.24 },
+      "def": { "base": 105, "step": 2.25 }
+    },
+    {
+      "hp": { "base": 371.52, "step": 6.48 },
+      "atk": { "base": 185.76, "step": 3.24 },
+      "def": { "base": 129, "step": 2.25 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 220.32, "step": 3.24 },
+      "def": { "base": 153, "step": 2.25 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 112001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 110121, "num": 3 }, { "id": 112001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 110122, "num": 3 }, { "id": 112002, "num": 6 }],
+    [{ "id": 2, "num": 40000 }, { "id": 110122, "num": 6 }, { "id": 112002, "num": 9 }],
+    [{ "id": 2, "num": 80000 }, { "id": 110123, "num": 4 }, { "id": 112003, "num": 5 }],
+    [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 112003, "num": 7 }]
+  ],
   "images": {
     "icon": "icon/light_cone/21003.png",
     "preview": "image/light_cone_preview/21003.png",

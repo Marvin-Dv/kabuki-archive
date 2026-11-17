@@ -1,0 +1,13 @@
+{
+  "id": 26,
+  "type": "FireAddedRatio",
+  "name": {
+    "pt-BR": "Bônus de Dano de Fogo",
+    "en": "Fire DMG Boost",
+    "zh-CN": "火属性伤害提高",
+    "ja": "炎属性ダメージ",
+    "ko": "화염 속성 피해 증가"
+  },
+  "icon": "icon/property/IconFireAddedRatio.png",
+  "percent": true
+}

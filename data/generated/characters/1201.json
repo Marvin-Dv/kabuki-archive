@@ -1,13 +1,7 @@
 {
   "id": 1201,
   "slug": "qingque",
-  "name": {
-    "pt-BR": "Qingque",
-    "en": "Qingque",
-    "zh-CN": "青雀",
-    "ja": "青雀",
-    "ko": "청작"
-  },
+  "name": { "pt-BR": "Qingque", "en": "Qingque", "zh-CN": "青雀", "ja": "青雀", "ko": "청작" },
   "rarity": 4,
   "path": "Erudition",
   "element": "Quantum",
@@ -17,13 +11,7 @@
     {
       "id": 120101,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Colher Flores",
-        "en": "Flower Pick",
-        "zh-CN": "门前清",
-        "ja": "門前清",
-        "ko": "판쓸이"
-      },
+      "name": { "pt-BR": "Colher Flores", "en": "Flower Pick", "zh-CN": "门前清", "ja": "門前清", "ko": "판쓸이" },
       "description": {
         "pt-BR": "Lança 1 peça de jade do naipe com o menor número de peças nas mãos para causar Dano Quântico igual a #1[i]% do ATQ de Qingque a um único inimigo.",
         "en": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to #1[i]% of Qingque's ATK to one designated enemy.",
@@ -31,38 +19,18 @@
         "ja": "数が一番少ない絵柄の美玉牌を1枚使用し、指定した敵単体に青雀の攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "가장 적은 문양의 경옥패 1장을 사용해 지정된 단일 적에게 청작 공격력 #1[i]%만큼의 양자 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1201_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Lança uma peça que causa Dano Quântico leve a um único inimigo.",
+        "en": "Tosses a tile to deal minor Quantum DMG to one enemy.",
+        "zh-CN": "使用1张牌，对敌方单体造成少量量子属性伤害。",
+        "ja": "牌を1枚使用し、敵単体に少量の量子属性ダメージを与える。",
+        "ko": "패 1장을 사용해 단일 적에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120102,
@@ -82,82 +50,33 @@
         "ko": "즉시 경옥패를 #1[i]장 뽑는다. 자신이 가하는 피해가 #2[i]% 증가하며, 이번 턴이 끝날 때까지 지속된다. 최대 중첩수: #3[i]스택. 해당 전투 스킬 발동 후 그 턴은 종료되지 않는다"
       },
       "params": [
-        [
-          2,
-          0.14,
-          4
-        ],
-        [
-          2,
-          0.154,
-          4
-        ],
-        [
-          2,
-          0.168,
-          4
-        ],
-        [
-          2,
-          0.182,
-          4
-        ],
-        [
-          2,
-          0.196,
-          4
-        ],
-        [
-          2,
-          0.21,
-          4
-        ],
-        [
-          2,
-          0.2275,
-          4
-        ],
-        [
-          2,
-          0.245,
-          4
-        ],
-        [
-          2,
-          0.2625,
-          4
-        ],
-        [
-          2,
-          0.28,
-          4
-        ],
-        [
-          2,
-          0.294,
-          4
-        ],
-        [
-          2,
-          0.308,
-          4
-        ],
-        [
-          2,
-          0.322,
-          4
-        ],
-        [
-          2,
-          0.336,
-          4
-        ],
-        [
-          2,
-          0.35,
-          4
-        ]
-      ]
+        [2, 0.14, 4],
+        [2, 0.154, 4],
+        [2, 0.168, 4],
+        [2, 0.182, 4],
+        [2, 0.196, 4],
+        [2, 0.21, 4],
+        [2, 0.2275, 4],
+        [2, 0.245, 4],
+        [2, 0.2625, 4],
+        [2, 0.28, 4],
+        [2, 0.294, 4],
+        [2, 0.308, 4],
+        [2, 0.322, 4],
+        [2, 0.336, 4],
+        [2, 0.35, 4]
+      ],
+      "icon": "icon/skill/1201_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Pega peças e aumenta o Dano causado. Esta rodada não termina após esta ação.",
+        "en": "Draws tiles and increases DMG dealt. This turn does not end after this action.",
+        "zh-CN": "抽牌，使自身造成的伤害提高，且本回合不会结束。",
+        "ja": "牌を取り、自身の与ダメージをアップする。ターンは終了しない。",
+        "ko": "패를 뽑고 자신이 가하는 피해가 증가하며, 이번 턴이 종료되지 않는다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 120103,
@@ -177,52 +96,33 @@
         "ko": "모든 적에게 청작 공격력 #1[i]%만큼의 양자 속성 피해를 가하며, 같은 문양의 경옥패를 4장 획득한다"
       },
       "params": [
-        [
-          1.2
-        ],
-        [
-          1.28
-        ],
-        [
-          1.36
-        ],
-        [
-          1.44
-        ],
-        [
-          1.52
-        ],
-        [
-          1.6
-        ],
-        [
-          1.7
-        ],
-        [
-          1.8
-        ],
-        [
-          1.9
-        ],
-        [
-          2
-        ],
-        [
-          2.08
-        ],
-        [
-          2.16
-        ],
-        [
-          2.24
-        ],
-        [
-          2.32
-        ],
-        [
-          2.4
-        ]
-      ]
+        [1.2],
+        [1.28],
+        [1.36],
+        [1.44],
+        [1.52],
+        [1.6],
+        [1.7],
+        [1.8],
+        [1.9],
+        [2],
+        [2.08],
+        [2.16],
+        [2.24],
+        [2.32],
+        [2.4]
+      ],
+      "icon": "icon/skill/1201_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Quântico a todos os inimigos, depois obtêm 4 peças do mesmo naipe.",
+        "en": "Deals Quantum DMG to all enemies, then obtains 4 tiles of the same suit.",
+        "zh-CN": "对敌方全体造成量子属性伤害，获得4张相同花色的牌。",
+        "ja": "敵全体に量子属性ダメージを与え、同じ絵柄の牌を4枚獲得する。",
+        "ko": "모든 적에게 양자 속성 피해를 가하며, 같은 문양의 패를 4장 획득한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 120104,
@@ -242,64 +142,48 @@
         "ko": "아군 턴 시작 시 청작은 3가지 각각 다른 문양의 경옥패에서 랜덤으로 1장을 뽑는다. 경옥패는 최대 4장까지 보유할 수 있다.\n청작의 턴이 시작될 때 보유 중인 경옥패의 수가 4개고 문양이 모두 동일할 경우 경옥패를 전부 소모해서 [꿀조합]에 진입한다.\n[꿀조합] 상태일 때는 전투 스킬을 다시 발동할 수 없으며 자신의 공격력이 #1[i]% 증가하고, 일반 공격 [판쓸이]가 [아싸~ 가오리!]로 강화되며 [아싸~ 가오리!] 발동 후 [꿀조합] 상태는 종료된다"
       },
       "params": [
-        [
-          0.36
-        ],
-        [
-          0.396
-        ],
-        [
-          0.432
-        ],
-        [
-          0.468
-        ],
-        [
-          0.504
-        ],
-        [
-          0.54
-        ],
-        [
-          0.585
-        ],
-        [
-          0.63
-        ],
-        [
-          0.675
-        ],
-        [
-          0.72
-        ],
-        [
-          0.756
-        ],
-        [
-          0.792
-        ],
-        [
-          0.828
-        ],
-        [
-          0.864
-        ],
-        [
-          0.9
-        ]
-      ]
+        [0.36],
+        [0.396],
+        [0.432],
+        [0.468],
+        [0.504],
+        [0.54],
+        [0.585],
+        [0.63],
+        [0.675],
+        [0.72],
+        [0.756],
+        [0.792],
+        [0.828],
+        [0.864],
+        [0.9]
+      ],
+      "icon": "icon/skill/1201_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Pega uma peça no início da rodada de qualquer aliado. No início da rodada deste personagem, se este personagem possuir 4 peças de um mesmo naipe, remove todas as peças em posse e Aprimora o ATQ Básico enquanto aumenta o ATQ deste personagem.",
+        "en": "At the start of any ally's turn, draws a tile. At the start of this character's turn, if this character holds 4 tiles from the same suit, remove all tiles in possession and Enhance this Basic ATK while increasing this character's ATK.",
+        "zh-CN": "我方目标回合开始时，抽牌。自身回合开始时，若持有4张同花色牌，则清空已有牌并强化本次普攻，同时使自身攻击力提高。",
+        "ja": "味方のターンが回ってきた時、牌を取る。自身のターンが回ってきた時、同じ絵柄の牌が4つある場合、牌を全部消費してその回の通常攻撃を強化し、自身の攻撃力をアップする。",
+        "ko": "아군의 턴이 시작되면 패를 뽑는다. 자신의 턴이 시작될 때 같은 문양의 패를 4장 보유하고 있으면 가진 패를 모두 소진하여 이번 일반 공격을 강화하고 공격력이 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 120106,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1201_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -324,11 +208,18 @@
         "ja": "秘技を使用した後、戦闘に入る時、青雀は美玉牌を#1[i]枚取る。",
         "ko": "비술을 사용한 이후에 전투에 진입할 경우 청작이 경옥패를 #1[i]장 뽑는다"
       },
-      "params": [
-        [
-          2
-        ]
-      ]
+      "params": [[2]],
+      "icon": "icon/skill/1201_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Após usar sua Técnica, pega peça(s) no início da próxima batalha.",
+        "en": "After they use their Technique, draw tile(s) at the start of the next battle.",
+        "zh-CN": "使用秘技，下一次进战时抽牌。",
+        "ja": "秘技を使用、次の戦闘に入った時に牌を取る。",
+        "ko": "비술을 발동하며, 다음 전투 진입 시 패를 뽑는다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 120108,
@@ -348,47 +239,28 @@
         "ko": "지정된 단일 적에게 청작 공격력 #1[i]%만큼의 양자 속성 피해를 가하고, 인접한 목표에게 청작 공격력 #2[i]%만큼의 양자 속성 피해를 준다.\n[아싸~ 가오리!]는 전투 스킬 포인트를 회복할 수 없다"
       },
       "params": [
-        [
-          1.2,
-          0.5
-        ],
-        [
-          1.44,
-          0.6
-        ],
-        [
-          1.68,
-          0.7
-        ],
-        [
-          1.92,
-          0.8
-        ],
-        [
-          2.16,
-          0.9
-        ],
-        [
-          2.4,
-          1
-        ],
-        [
-          2.64,
-          1.1
-        ],
-        [
-          2.88,
-          1.2
-        ],
-        [
-          3.12,
-          1.3
-        ],
-        [
-          3.36,
-          1.4
-        ]
-      ]
+        [1.2, 0.5],
+        [1.44, 0.6],
+        [1.68, 0.7],
+        [1.92, 0.8],
+        [2.16, 0.9],
+        [2.4, 1],
+        [2.64, 1.1],
+        [2.88, 1.2],
+        [3.12, 1.3],
+        [3.36, 1.4]
+      ],
+      "icon": "icon/skill/1201_basic_atk2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Quântico a um único inimigo e Dano Quântico leve a inimigos adjacentes a ele.",
+        "en": "Deals Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.",
+        "zh-CN": "对敌方单体造成量子属性伤害，并对相邻目标造成少量量子属性伤害。",
+        "ja": "敵単体に量子属性ダメージを与え、隣接する敵に少量の量子属性ダメージを与える。",
+        "ko": "단일 적에게 양자 속성 피해를 가하고, 인접한 목표에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -407,7 +279,10 @@
         "zh-CN": "施放终结技造成的伤害提高10%。",
         "ja": "必殺技によるダメージ+10%。",
         "ko": "필살기가 가하는 피해가 10% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1201_rank1.png",
+      "materials": [{ "id": 11201, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -424,7 +299,10 @@
         "zh-CN": "青雀每次触发抽牌时，立即恢复1点能量。",
         "ja": "青雀は牌を取るたびにEPを1回復する。",
         "ko": "청작이 패 뽑기를 발동할 때마다 즉각 에너지를 1pt 회복한다"
-      }
+      },
+      "icon": "icon/skill/1201_rank2.png",
+      "materials": [{ "id": 11201, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -441,7 +319,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1201_ultimate.png",
+      "materials": [{ "id": 11201, "num": 1 }],
+      "levelUpSkills": [{ "id": 120103, "num": 2 }, { "id": 120104, "num": 2 }]
     },
     {
       "rank": 4,
@@ -458,7 +339,10 @@
         "zh-CN": "施放战技后，有24%的固定概率获得【不求人】状态，持续至本回合结束。\n【不求人】状态下，施放普攻或施放强化普攻后立即进行1次追加攻击，对该目标造成等同于普攻或强化普攻伤害100%的量子属性伤害。",
         "ja": "戦闘スキルを発動した後、24%の固定確率で「門前ツモ」状態に入る、このターンが終了するまで継続。\n「門前ツモ」状態では、通常攻撃または強化通常攻撃を行った後に追加攻撃を1回行い、敵にその通常攻撃または強化通常攻撃ダメージ100%分の量子属性ダメージを与える。",
         "ko": "전투 스킬 발동 후 24%의 고정 확률로 [불구인] 상태를 획득하며, 이번 턴이 종료될 때까지 지속된다.\n[불구인] 상태에서 일반 공격이나 강화된 일반 공격 발동 후 즉시 추가 공격을 1회 진행하고, 해당 목표에게 일반 공격이나 강화된 일반 공격 피해의 100%만큼 양자 속성 피해를 가한다"
-      }
+      },
+      "icon": "icon/skill/1201_rank4.png",
+      "materials": [{ "id": 11201, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -475,7 +359,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1201_skill.png",
+      "materials": [{ "id": 11201, "num": 1 }],
+      "levelUpSkills": [{ "id": 120102, "num": 2 }, { "id": 120101, "num": 1 }, { "id": 120108, "num": 1 }]
     },
     {
       "rank": 6,
@@ -492,10 +379,648 @@
         "zh-CN": "施放强化普攻后，恢复1个战技点。",
         "ja": "強化通常攻撃を行った後、SPを1回復する。",
         "ko": "일반 공격 강화 발동 후 전투 스킬 포인트를 1pt 회복한다"
-      }
+      },
+      "icon": "icon/skill/1201_rank6.png",
+      "materials": [{ "id": 11201, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 140,
+  "stats": [
+    {
+      "hp": { "base": 139.2, "step": 6.96 },
+      "atk": { "base": 88.8, "step": 4.44 },
+      "def": { "base": 60, "step": 3 },
+      "spd": { "base": 98, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 194.88, "step": 6.96 },
+      "atk": { "base": 124.32, "step": 4.44 },
+      "def": { "base": 84, "step": 3 },
+      "spd": { "base": 98, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 250.56, "step": 6.96 },
+      "atk": { "base": 159.84, "step": 4.44 },
+      "def": { "base": 108, "step": 3 },
+      "spd": { "base": 98, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 306.24, "step": 6.96 },
+      "atk": { "base": 195.36, "step": 4.44 },
+      "def": { "base": 132, "step": 3 },
+      "spd": { "base": 98, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 361.92, "step": 6.96 },
+      "atk": { "base": 230.88, "step": 4.44 },
+      "def": { "base": 156, "step": 3 },
+      "spd": { "base": 98, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 417.6, "step": 6.96 },
+      "atk": { "base": 266.4, "step": 4.44 },
+      "def": { "base": 180, "step": 3 },
+      "spd": { "base": 98, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 473.28, "step": 6.96 },
+      "atk": { "base": 301.92, "step": 4.44 },
+      "def": { "base": 204, "step": 3 },
+      "spd": { "base": 98, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 111011, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 111011, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 111012, "num": 5 }, { "id": 110406, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 111012, "num": 8 }, { "id": 110406, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 111013, "num": 5 }, { "id": 110406, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 111013, "num": 7 }, { "id": 110406, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1201001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1201_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [120101, 120108],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1201002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1201_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120102],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110132, "num": 6 }, { "id": 111012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110133, "num": 4 },
+            { "id": 110502, "num": 1 },
+            { "id": 111013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 110502, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110133, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1201003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1201_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120103],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110132, "num": 6 }, { "id": 111012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110133, "num": 4 },
+            { "id": 110502, "num": 1 },
+            { "id": 111013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 110502, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110133, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1201004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1201_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120104],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110132, "num": 6 }, { "id": 111012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110133, "num": 4 },
+            { "id": 110502, "num": 1 },
+            { "id": 111013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 110502, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110133, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1201007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1201_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [120107],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1201101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Batalha de Peças",
+        "en": "Tile Battle",
+        "zh-CN": "争番",
+        "ja": "{RUBY_B#そうはん}争番{RUBY_E#}",
+        "ko": "순위 경쟁"
+      },
+      "description": {
+        "pt-BR": "Restaura 1 Ponto de Perícia ao usar a Perícia. Este efeito só pode ser ativado 1 vez por batalha.",
+        "en": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+        "zh-CN": "施放战技时，恢复1个战技点。该效果单场战斗中只能触发1次。",
+        "ja": "戦闘スキルを発動した時、SPを1回復する。この効果は一度の戦闘で1回まで発動できる。",
+        "ko": "전투 스킬 발동 시 전투 스킬 포인트를 1pt 회복한다. 해당 효과는 단일 전투에서 1회만 발동한다"
+      },
+      "icon": "icon/skill/1201_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 110502, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1201102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Enrolar",
+        "en": "Bide Time",
+        "zh-CN": "听牌",
+        "ja": "{RUBY_B#テンパイ}聴牌{RUBY_E#}",
+        "ko": "한 끗 차"
+      },
+      "description": {
+        "pt-BR": "Usar a Perícia aumenta o efeito do bônus de Dano dos ataques em #1[i]% extra.",
+        "en": "Using the Skill increases DMG Boost effect of attacks by an extra #1[i]%.",
+        "zh-CN": "战技使自身造成的伤害提高效果额外提高#1[i]%。",
+        "ja": "戦闘スキルによる、自身の与ダメージアップ効果がさらに#1[i]%アップする。",
+        "ko": "전투 스킬로 자신이 가하는 피해 증가 효과가 추가로 #1[i]% 증가한다"
+      },
+      "params": [[0.1]],
+      "icon": "icon/skill/1201_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110132, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1201103,
+      "anchor": "Point08",
+      "name": { "pt-BR": "Mão Vitoriosa", "en": "Winning Hand", "zh-CN": "抢杠", "ja": "チャンカン", "ko": "맞불" },
+      "description": {
+        "pt-BR": "Aumenta em #1[i]% a VEL de Qingque por 1 rodada após usar o ATQ Básico Aprimorado.",
+        "en": "Qingque's SPD increases by #1[i]% for 1 turn after using the Enhanced Basic ATK.",
+        "zh-CN": "施放强化普攻后，青雀的速度提高#1[i]%，持续1回合。",
+        "ja": "強化通常攻撃を行った後、青雀の速度+#1[i]%、1ターン継続。",
+        "ko": "일반 공격 강화 발동 후 청작의 속도가 #1[i]% 증가한다. 지속 시간: 1턴"
+      },
+      "params": [[0.1]],
+      "icon": "icon/skill/1201_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110133, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1201201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1201202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1201101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111011, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1201203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1201202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1201204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1201202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.05 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1201205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1201102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1201206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1201205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1201207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1201205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1201208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1201103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.075 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1201209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1201103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1201210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111013, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11201, 110131, 110132, 110133, 110406, 110502, 111011, 111012, 111013],
   "images": {
     "icon": "icon/character/1201.png",
     "preview": "image/character_preview/1201.png",

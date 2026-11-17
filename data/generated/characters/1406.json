@@ -1,13 +1,7 @@
 {
   "id": 1406,
   "slug": "cipher",
-  "name": {
-    "pt-BR": "Cipher",
-    "en": "Cipher",
-    "zh-CN": "赛飞儿",
-    "ja": "サフェル",
-    "ko": "사이퍼"
-  },
+  "name": { "pt-BR": "Cipher", "en": "Cipher", "zh-CN": "赛飞儿", "ja": "サフェル", "ko": "사이퍼" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Quantum",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にサフェルの攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1406_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Quântico leve a um inimigo.",
+        "en": "Deals minor Quantum DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量量子属性伤害。",
+        "ja": "敵単体に少量の量子属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140602,
@@ -82,127 +56,33 @@
         "ko": "#6[i]%의 기본 확률로 지정된 단일 적 및 인접한 목표를 허약 상태에 빠트려 가하는 피해를 #3[i]% 감소시키고, 사이퍼의 공격력을 #5[i]% 증가시킨다, 지속 시간: #4[i]턴. 또한 지정된 단일 적에게 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 인접한 목표에게 사이퍼 공격력의 #2[i]%만큼 양자 속성 피해를 가한다"
       },
       "params": [
-        [
-          1,
-          0.5,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.1,
-          0.55,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.2,
-          0.6,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.3,
-          0.65,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.4,
-          0.7,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.5,
-          0.75,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.625,
-          0.8125,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.75,
-          0.875,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          1.875,
-          0.9375,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          2,
-          1,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          2.1,
-          1.05,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          2.2,
-          1.1,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          2.3,
-          1.15,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          2.4,
-          1.2,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ],
-        [
-          2.5,
-          1.25,
-          0.1,
-          2,
-          0.3,
-          1.2
-        ]
-      ]
+        [1, 0.5, 0.1, 2, 0.3, 1.2],
+        [1.1, 0.55, 0.1, 2, 0.3, 1.2],
+        [1.2, 0.6, 0.1, 2, 0.3, 1.2],
+        [1.3, 0.65, 0.1, 2, 0.3, 1.2],
+        [1.4, 0.7, 0.1, 2, 0.3, 1.2],
+        [1.5, 0.75, 0.1, 2, 0.3, 1.2],
+        [1.625, 0.8125, 0.1, 2, 0.3, 1.2],
+        [1.75, 0.875, 0.1, 2, 0.3, 1.2],
+        [1.875, 0.9375, 0.1, 2, 0.3, 1.2],
+        [2, 1, 0.1, 2, 0.3, 1.2],
+        [2.1, 1.05, 0.1, 2, 0.3, 1.2],
+        [2.2, 1.1, 0.1, 2, 0.3, 1.2],
+        [2.3, 1.15, 0.1, 2, 0.3, 1.2],
+        [2.4, 1.2, 0.1, 2, 0.3, 1.2],
+        [2.5, 1.25, 0.1, 2, 0.3, 1.2]
+      ],
+      "icon": "icon/skill/1406_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Há uma alta chance de diminuir o Dano causado por um inimigo e por alvos adjacentes e aumenta o ATQ de Cipher. Causa Dano Quântico a um inimigo designado e Dano Quântico leve aos alvos adjacentes.",
+        "en": "Has a high chance to decrease one enemy and adjacent targets' DMG dealt and increases Cipher's ATK. Deals Quantum DMG to one designated enemy and minor Quantum DMG to adjacent targets.",
+        "zh-CN": "大概率使敌方单体及相邻目标造成的伤害降低，使赛飞儿攻击力提高，并对指定敌方单体造成量子属性伤害，对相邻目标造成少量量子属性伤害。",
+        "ja": "高確率で敵単体および隣接する敵の与ダメージダウン、サフェルの攻撃力アップ、指定した敵単体に量子属性ダメージを与え、隣接する敵に少量の量子属性ダメージを与える。",
+        "ko": "높은 확률로 단일 적 및 인접한 목표가 가하는 피해를 감소시키고, 사이퍼의 공격력을 증가시킨다. 지정된 단일 적에게 양자 속성 피해를 가하고, 인접한 목표에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140603,
@@ -222,97 +102,33 @@
         "ko": "지정된 단일 적에게 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. 이후 지정된 단일 적에게 현재 특성 기록 수치의 #2[i]%만큼 확정 피해를 가한다. 또한, 지정된 단일 적 및 인접한 목표에게 사이퍼 공격력의 #4[i]%만큼 양자 속성 피해를 가하고, 현재 특성 기록 수치의 총 #3[i]%만큼 확정 피해를 가하며, 해당 확정 피해는 모든 스킬 목표가 균등 분담한다"
       },
       "params": [
-        [
-          0.6,
-          0.25,
-          0.75,
-          0.2
-        ],
-        [
-          0.66,
-          0.25,
-          0.75,
-          0.22
-        ],
-        [
-          0.72,
-          0.25,
-          0.75,
-          0.24
-        ],
-        [
-          0.78,
-          0.25,
-          0.75,
-          0.26
-        ],
-        [
-          0.84,
-          0.25,
-          0.75,
-          0.28
-        ],
-        [
-          0.9,
-          0.25,
-          0.75,
-          0.3
-        ],
-        [
-          0.975,
-          0.25,
-          0.75,
-          0.325
-        ],
-        [
-          1.05,
-          0.25,
-          0.75,
-          0.35
-        ],
-        [
-          1.125,
-          0.25,
-          0.75,
-          0.375
-        ],
-        [
-          1.2,
-          0.25,
-          0.75,
-          0.4
-        ],
-        [
-          1.26,
-          0.25,
-          0.75,
-          0.42
-        ],
-        [
-          1.32,
-          0.25,
-          0.75,
-          0.44
-        ],
-        [
-          1.38,
-          0.25,
-          0.75,
-          0.46
-        ],
-        [
-          1.44,
-          0.25,
-          0.75,
-          0.48
-        ],
-        [
-          1.5,
-          0.25,
-          0.75,
-          0.5
-        ]
-      ]
+        [0.6, 0.25, 0.75, 0.2],
+        [0.66, 0.25, 0.75, 0.22],
+        [0.72, 0.25, 0.75, 0.24],
+        [0.78, 0.25, 0.75, 0.26],
+        [0.84, 0.25, 0.75, 0.28],
+        [0.9, 0.25, 0.75, 0.3],
+        [0.975, 0.25, 0.75, 0.325],
+        [1.05, 0.25, 0.75, 0.35],
+        [1.125, 0.25, 0.75, 0.375],
+        [1.2, 0.25, 0.75, 0.4],
+        [1.26, 0.25, 0.75, 0.42],
+        [1.32, 0.25, 0.75, 0.44],
+        [1.38, 0.25, 0.75, 0.46],
+        [1.44, 0.25, 0.75, 0.48],
+        [1.5, 0.25, 0.75, 0.5]
+      ],
+      "icon": "icon/skill/1406_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano Quântico e Dano Verdadeiro iguais a uma porcentagem da contagem atual mantida pelo Talento em um inimigo. Além disso, causa Dano Quântico leve e Dano Verdadeiro leve equivalentes a uma porcentagem da contagem atual mantida pelo Talento a um inimigo e a seus alvos adjacentes. E esse Dano Verdadeiro é distribuído igualmente entre todos os alvos dessa habilidade.",
+        "en": "Deals Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to one enemy. Moreover, deals minor Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to the one enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.",
+        "zh-CN": "对敌方单体造成量子属性伤害及天赋记录值一定比例的真实伤害，并对敌方单体及其相邻目标造成少量量子属性伤害及天赋记录值一定比例的真实伤害，该真实伤害由所有技能目标均分。",
+        "ja": "敵単体に量子属性ダメージおよび天賦のダメージ記録値の一定割合分の確定ダメージを与える。さらに、敵単体および隣接する敵に少量の量子属性ダメージと天賦のダメージ記録値の一定割合分の確定ダメージを与える（この確定ダメージはすべてのスキルターゲットに均等に分けられる）。",
+        "ko": "단일 적에게 양자 속성 피해와 특성 기록 수치의 일정 비율만큼 확정 피해를 가하고, 단일 적 및 인접한 목표에게 소량의 양자 속성 피해와 특성 기록 수치의 일정 비율만큼 확정 피해를 가한다. 해당 확정 피해는 모든 스킬 목표가 균등 분담한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140604,
@@ -332,109 +148,48 @@
         "ko": "필드 위에 [단골손님] 상태에 빠진 적이 없을 시 사이퍼는 즉시 현재 필드 위 HP 최대치가 가장 높은 단일 적을 [단골손님]으로 만든다. 전투 스킬과 필살기 발동 시 주목표를 [단골손님]으로 만든다. [단골손님] 상태는 가장 최근에 부여된 목표에게만 적용된다.\n[단골손님]이 다른 아군의 공격을 받으면 사이퍼는 즉시 [단골손님]에게 추가 공격을 발동하고, 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. 해당 효과는 턴마다 최대 #3[i]회 발동할 수 있으며, 사이퍼 턴 시작 시 발동 가능 횟수가 초기화된다.\n사이퍼는 아군이 [단골손님]에게 가한 피해(확정 피해 제외)의 #2[i]%를 기록한다. 초과 피해는 기록하지 않으며, 필살기 발동 후 기록 수치는 초기화된다"
       },
       "params": [
-        [
-          0.75,
-          0.12,
-          1,
-          5
-        ],
-        [
-          0.825,
-          0.12,
-          1,
-          5
-        ],
-        [
-          0.9,
-          0.12,
-          1,
-          5
-        ],
-        [
-          0.975,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.05,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.125,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.2188,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.3125,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.4062,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.5,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.575,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.65,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.725,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.8,
-          0.12,
-          1,
-          5
-        ],
-        [
-          1.875,
-          0.12,
-          1,
-          5
-        ]
-      ]
+        [0.75, 0.12, 1, 5],
+        [0.825, 0.12, 1, 5],
+        [0.9, 0.12, 1, 5],
+        [0.975, 0.12, 1, 5],
+        [1.05, 0.12, 1, 5],
+        [1.125, 0.12, 1, 5],
+        [1.2188, 0.12, 1, 5],
+        [1.3125, 0.12, 1, 5],
+        [1.4062, 0.12, 1, 5],
+        [1.5, 0.12, 1, 5],
+        [1.575, 0.12, 1, 5],
+        [1.65, 0.12, 1, 5],
+        [1.725, 0.12, 1, 5],
+        [1.8, 0.12, 1, 5],
+        [1.875, 0.12, 1, 5]
+      ],
+      "icon": "icon/skill/1406_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Cipher faz com que um inimigo-alvo entre no estado de \"Patrono\". Depois que o alvo nesse estado for atacado por companheiros de equipe, Cipher realiza um Ataque Extra, causando Dano Quântico ao alvo. Isso pode ser ativado 1 vez(es) por rodada.\nCipher manterá um registro do Dano causado pelos aliados ao alvo no estado \"Patrono\". Depois de usar a Perícia Suprema, redefine esse registro.",
+        "en": "Cipher causes one enemy target to enter the \"Patron\" state. After the target in this state gets attacked by teammates, Cipher launches Follow-Up ATK, dealing Quantum DMG to the target. This can trigger 1 time(s) per turn.\nCipher will keep a tally of the DMG dealt by allies to the target in the \"Patron\" state. After using Ultimate, clears this tally.",
+        "zh-CN": "赛飞儿会使一个敌方目标陷入【老主顾】状态，队友攻击该状态的目标后，赛飞儿发动追加攻击，对该目标造成量子属性伤害，每回合可触发1次。\n赛飞儿会记录我方对【老主顾】状态的目标造成的伤害值，施放终结技后清空。",
+        "ja": "サフェルは敵1体を「お得意様」状態にする。サフェル以外の味方が「お得意様」状態の敵を攻撃した後、サフェルはそのターゲットに追加攻撃を行い、量子属性ダメージを与える。この効果はターンが回ってくるたびに1回まで発動できる。\nサフェルは味方が「お得意様」状態の敵に与えたダメージを記録し、必殺技を発動した後に記録値をクリアする。",
+        "ko": "사이퍼가 적 1기를 [단골손님] 상태에 빠트린다. 아군이 해당 상태의 목표를 공격하면 사이퍼가 추가 공격을 발동하여 해당 목표에게 양자 속성 피해를 가하며, 해당 효과는 턴마다 1회 발동할 수 있다.\n사이퍼는 아군이 [단골손님] 상태의 목표에게 가한 피해량을 기록하며, 피해량은 필살기 발동 후 초기화된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140606,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a sua Tenacidade do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1406_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a sua Tenacidade do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -459,14 +214,18 @@
         "ja": "秘技を使用した後、#1[i]秒間継続する「ザグレウスの祝福」を獲得する。「ザグレウスの祝福」が継続している間、サフェルは敵に発見されず、かつ移動速度+50%。マップ/模擬宇宙/階差宇宙内の敵に近づくと、ランダムな消耗品を獲得できるが、1日に最大#4[i]回までの制限がある。\n「ザグレウスの祝福」を持った状態で戦闘に入ると、敵全体にサフェルの攻撃力#3[i]%分の量子属性ダメージを与える。また、このダメージで獲得するダメージ記録値+#2[i]%。",
         "ko": "[자그레우스의 축복]을 획득한다, 지속 시간: #1[i]초. 지속 시간 동안 사이퍼는 적에게 발각되지 않으며, 이동 속도가 50% 증가한다. 일반 맵/시뮬레이션 우주/차분화 우주의 적에게 다가갈 시 즉시 랜덤 소모품을 획득하며, 하루에 최대 #4[i]회 획득할 수 있다.\n[자그레우스의 축복]을 보유하는 동안 전투에 진입하면 모든 적에게 사이퍼 공격력의 #3[i]%만큼 양자 속성 피해를 가하고, 사이퍼가 해당 피해로 획득하는 기록 수치가 #2[i]% 증가한다"
       },
-      "params": [
-        [
-          15,
-          2,
-          1,
-          50
-        ]
-      ]
+      "params": [[15, 2, 1, 50]],
+      "icon": "icon/skill/1406_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Ganha a \"Bênção de Zagreus\". Enquanto ela estiver ativa, Cipher não pode ser detectada por inimigos e obtém Consumíveis aleatórios ao se aproximar deles. Ao entrar em batalha, Cipher causa Dano Quântico leve a todos os inimigos.",
+        "en": "Gains \"Zagreus's Blessing.\" While it is active, Cipher cannot be detected by enemies, and gains random Consumables when approaching them. When entering battle, Cipher deals minor Quantum DMG to all enemies.",
+        "zh-CN": "获得【扎格列斯的祝福】，期间敌人无法发现赛飞儿，靠近敌人时获取随机消耗品，进入战斗时赛飞儿对敌方全体造成少量量子属性伤害。",
+        "ja": "「ザグレウスの祝福」を獲得する。「ザグレウスの祝福」が存在している間、サフェルは敵に発見されない。敵に近づくとランダムな消耗品を獲得する。戦闘に入った時、サフェルは敵全体に少量の量子属性ダメージを与える。",
+        "ko": "[자그레우스의 축복]을 획득한다. 지속 시간 동안 적은 사이퍼를 발견할 수 없으며, 적에게 다가갈 시 랜덤 소모품을 획득한다. 전투 진입 시 사이퍼가 모든 적에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -485,7 +244,10 @@
         "zh-CN": "赛飞儿记录的伤害值为原记录值的150%。施放天赋的追加攻击时，赛飞儿的攻击力提高80%，持续2回合。",
         "ja": "サフェルが記録するダメージ記録値が本来の150%になる。天賦による追加攻撃を発動する時、サフェルの攻撃力+80%、2ターン継続。",
         "ko": "사이퍼가 기록하는 피해량이 기존 기록 수치의 150%가 된다. 특성의 추가 공격 발동 시 사이퍼의 공격력이 80% 증가한다, 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1406_rank1.png",
+      "materials": [{ "id": 11406, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -502,7 +264,10 @@
         "zh-CN": "赛飞儿击中敌方目标时，有120%的基础概率使其受到的伤害提高30%，持续2回合。",
         "ja": "サフェルの攻撃が敵に命中する時、120%の基礎確率でその敵の受けるダメージ+30%、2ターン継続。",
         "ko": "사이퍼가 적 명중 시 120%의 기본 확률로 대상이 받는 피해가 30% 증가한다, 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1406_rank2.png",
+      "materials": [{ "id": 11406, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -519,7 +284,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1406_ultimate.png",
+      "materials": [{ "id": 11406, "num": 1 }],
+      "levelUpSkills": [{ "id": 140603, "num": 2 }, { "id": 140601, "num": 1 }]
     },
     {
       "rank": 4,
@@ -536,7 +304,10 @@
         "zh-CN": "【老主顾】受到我方目标攻击后，赛飞儿对其造成等同于赛飞儿50%攻击力的量子属性附加伤害。",
         "ja": "「お得意様」が味方の攻撃を受けた後、サフェルはその敵にサフェルの攻撃力50%分の量子属性付加ダメージを与える。",
         "ko": "[단골손님]이 아군의 공격을 받은 후, 사이퍼는 대상에게 사이퍼 공격력의 50%만큼 양자 속성 추가 피해를 가한다"
-      }
+      },
+      "icon": "icon/skill/1406_rank4.png",
+      "materials": [{ "id": 11406, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -553,7 +324,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1406_skill.png",
+      "materials": [{ "id": 11406, "num": 1 }],
+      "levelUpSkills": [{ "id": 140602, "num": 2 }, { "id": 140604, "num": 2 }]
     },
     {
       "rank": 6,
@@ -570,10 +344,682 @@
         "zh-CN": "赛飞儿天赋的追加攻击造成的伤害提高350%，记录时额外记录该攻击造成的非溢出伤害的16%。施放终结技清空记录值后，返还本次清除记录值的20%。",
         "ja": "サフェルの天賦による追加攻撃ダメージ+350%。なお、このダメージを記録する際、非超過ダメージの16%分を追加で記録する。必殺技を発動してダメージ記録値がクリアされた後、その回でクリアされたダメージ記録値の20%分が返還される。",
         "ko": "사이퍼 특성의 추가 공격이 가하는 피해가 350% 증가하고, 기록 시 추가로 해당 공격이 가하는 비초과 피해의 16%를 기록한다. 필살기를 발동하여 기록 수치가 초기화되면 이번에 초기화된 기록 수치의 20%를 반환한다"
-      }
+      },
+      "icon": "icon/skill/1406_rank6.png",
+      "materials": [{ "id": 11406, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 130,
+  "stats": [
+    {
+      "hp": { "base": 126.72, "step": 6.336 },
+      "atk": { "base": 87.12, "step": 4.356 },
+      "def": { "base": 69.3, "step": 3.465 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 177.408, "step": 6.336 },
+      "atk": { "base": 121.968, "step": 4.356 },
+      "def": { "base": 97.02, "step": 3.465 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 228.096, "step": 6.336 },
+      "atk": { "base": 156.816, "step": 4.356 },
+      "def": { "base": 124.74, "step": 3.465 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 278.784, "step": 6.336 },
+      "atk": { "base": 191.664, "step": 4.356 },
+      "def": { "base": 152.46, "step": 3.465 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 329.472, "step": 6.336 },
+      "atk": { "base": 226.512, "step": 4.356 },
+      "def": { "base": 180.18, "step": 3.465 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 380.16, "step": 6.336 },
+      "atk": { "base": 261.36, "step": 4.356 },
+      "def": { "base": 207.9, "step": 3.465 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 430.848, "step": 6.336 },
+      "atk": { "base": 296.208, "step": 4.356 },
+      "def": { "base": 235.62, "step": 3.465 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 115011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 115011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 115012, "num": 6 }, { "id": 110436, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 115012, "num": 9 }, { "id": 110436, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 115013, "num": 6 }, { "id": 110436, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 115013, "num": 9 }, { "id": 110436, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1406001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1406_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [140601],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1406002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1406_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140602],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1406003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1406_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140603],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1406004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1406_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140604],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1406007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1406_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [140607],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1406101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Passos Empíreos",
+        "en": "Empyrean Strides",
+        "zh-CN": "神行宝鞋",
+        "ja": "{RUBY_B#きん}金{RUBY_E#}のボテス",
+        "ko": "신행의 신발"
+      },
+      "description": {
+        "pt-BR": "Quando a VEL de Cipher for maior ou igual a 140/170, aumenta a Chance de CRIT em #1[i]%/#2[i]%, e a contagem ganha aumenta em #3[i]%/#4[i]%.",
+        "en": "When Cipher's SPD is higher than or equal to 140/170, CRIT Rate increases by #1[i]%/#2[i]%, and the gained tally increases by #3[i]%/#4[i]%.",
+        "zh-CN": "赛飞儿的速度大于等于140/170时，暴击率提高#1[i]%/#2[i]%，获得的记录值提高#3[i]%/#4[i]%。",
+        "ja": "サフェルの速度が140/170以上の時、会心率+#1[i]%/#2[i]%、獲得するダメージ記録値+#3[i]%/#4[i]%。",
+        "ko": "사이퍼의 속도가 140/170 이상일 시 치명타 확률이 #1[i]%/#2[i]% 증가하고, 획득하는 기록 수치가 #3[i]%/#4[i]% 증가한다"
+      },
+      "params": [[0.25, 0.5, 0.5, 1]],
+      "icon": "icon/skill/1406_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 110507, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1406102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "300 Renegados",
+        "en": "300 Rogues",
+        "zh-CN": "三百侠盗",
+        "ja": "{RUBY_B#さんびゃく}三百{RUBY_E#}の{RUBY_B#ぎぞく}義賊{RUBY_E#}",
+        "ko": "300 의적"
+      },
+      "description": {
+        "pt-BR": "Cipher pode registrar #1[i]% do Dano que não for Dano Verdadeiro causado pelos aliados-alvo aos inimigos-alvo, exceto o \"Patrono\". O Dano Sobressalente não é registrado.",
+        "en": "Cipher can tally #1[i]% of the non-True DMG dealt by ally targets to the enemy targets other than the \"Patron.\" Overflow DMG is not tallied.",
+        "zh-CN": "赛飞儿会记录我方目标对【老主顾】以外的敌方目标造成的非真实伤害的#1[i]%，不记录溢出伤害。",
+        "ja": "サフェルは味方が「お得意様」以外の敵に与えた確定ダメージ以外のダメージの#1[i]%分を記録する。超過ダメージは記録しない。",
+        "ko": "사이퍼는 아군이 [단골손님]을 제외한 적에게 가하는 피해(확정 피해 제외)의 #1[i]%를 기록한다. 초과 피해는 기록되지 않는다"
+      },
+      "params": [[0.08]],
+      "icon": "icon/skill/1406_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110222, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1406103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Destreza Celestial",
+        "en": "Sleight of Sky",
+        "zh-CN": "偷天换日",
+        "ja": "{RUBY_B#よ}世{RUBY_E#}を{RUBY_B#あざむ}欺{RUBY_E#}く{RUBY_B#うそ}嘘{RUBY_E#}",
+        "ko": "해를 바꿔치기한 대도"
+      },
+      "description": {
+        "pt-BR": "Aumenta em #2[i]% o Dano CRIT causado pelo Ataque Extra do Talento. Enquanto Cipher estiver no campo de batalha, o Dano recebido por todos os inimigos-alvo aumenta em #1[i]%.",
+        "en": "Increases the CRIT DMG dealt by the Talent's Follow-Up ATK by #2[i]%. When Cipher is on the battlefield, DMG received by all enemy targets increases by #1[i]%.",
+        "zh-CN": "天赋的追加攻击造成的暴击伤害提高#2[i]%。赛飞儿在场时，敌方全体目标受到的伤害提高#1[i]%。",
+        "ja": "天賦による追加攻撃の会心ダメージ+#2[i]%。サフェルがフィールド上にいる場合、敵全体の受けるダメージ+#1[i]%。",
+        "ko": "특성의 추가 공격이 가하는 치명타 피해가 #2[i]% 증가한다. 사이퍼가 필드에 있을 시 모든 적이 받는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.4, 1]],
+      "icon": "icon/skill/1406_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1406201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1406202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1406101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1406203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1406202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1406204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1406203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1406205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1406102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1406206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1406205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1406207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1406206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1406208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1406103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1406209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1406103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1406210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1406201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "SpeedDelta", "value": 4 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11406, 110221, 110222, 110223, 110436, 110507, 115011, 115012, 115013],
   "images": {
     "icon": "icon/character/1406.png",
     "preview": "image/character_preview/1406.png",

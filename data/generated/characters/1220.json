@@ -1,13 +1,7 @@
 {
   "id": 1220,
   "slug": "feixiao",
-  "name": {
-    "pt-BR": "Feixiao",
-    "en": "Feixiao",
-    "zh-CN": "飞霄",
-    "ja": "飛霄",
-    "ko": "비소"
-  },
+  "name": { "pt-BR": "Feixiao", "en": "Feixiao", "zh-CN": "飞霄", "ja": "飛霄", "ko": "비소" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Wind",
@@ -17,13 +11,7 @@
     {
       "id": 122001,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Trovão Descendente",
-        "en": "Boltsunder",
-        "zh-CN": "闪裂",
-        "ja": "閃裂",
-        "ko": "섬렬"
-      },
+      "name": { "pt-BR": "Trovão Descendente", "en": "Boltsunder", "zh-CN": "闪裂", "ja": "閃裂", "ko": "섬렬" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único inimigo-alvo.",
         "en": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target.",
@@ -31,49 +19,23 @@
         "ja": "指定した敵単体に飛霄の攻撃力#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1220_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
+        "en": "Deals minor Wind DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量风属性伤害。",
+        "ja": "敵単体に少量の風属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122002,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Fissura do Machado",
-        "en": "Waraxe",
-        "zh-CN": "钺贯",
-        "ja": "斧貫",
-        "ko": "꿰뚫는 도끼"
-      },
+      "name": { "pt-BR": "Fissura do Machado", "en": "Waraxe", "zh-CN": "钺贯", "ja": "斧貫", "ko": "꿰뚫는 도끼" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único inimigo-alvo. Então, imediatamente desfere 1 instância adicional do Ataque Extra do Talento contra o alvo.",
         "en": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.",
@@ -82,63 +44,38 @@
         "ko": "지정된 단일 적에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가하고, 그 후 즉시 해당 목표에게 특성의 추가 공격을 1회 추가로 발동한다"
       },
       "params": [
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ],
-        [
-          1.5
-        ],
-        [
-          1.625
-        ],
-        [
-          1.75
-        ],
-        [
-          1.875
-        ],
-        [
-          2
-        ],
-        [
-          2.1
-        ],
-        [
-          2.2
-        ],
-        [
-          2.3
-        ],
-        [
-          2.4
-        ],
-        [
-          2.5
-        ]
-      ]
+        [1],
+        [1.1],
+        [1.2],
+        [1.3],
+        [1.4],
+        [1.5],
+        [1.625],
+        [1.75],
+        [1.875],
+        [2],
+        [2.1],
+        [2.2],
+        [2.3],
+        [2.4],
+        [2.5]
+      ],
+      "icon": "icon/skill/1220_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento a um inimigo, e utiliza adicionalmente o Ataque Extra do Talento 1 vez.",
+        "en": "Deals Wind DMG to an enemy, and additionally launches Talent's Follow-Up ATK 1 time.",
+        "zh-CN": "对敌方单体造成风属性伤害，随后额外发动1次天赋的追加攻击。",
+        "ja": "敵単体に風属性ダメージを与え、その後、天賦による追加攻撃を1回発動する。",
+        "ko": "단일 적에게 바람 속성 피해를 가하고, 그 후 특성의 추가 공격을 1회 추가로 발동한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122003,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Rompeterra",
-        "en": "Terrasplit",
-        "zh-CN": "凿破大荒",
-        "ja": "大荒滅破砕",
-        "ko": "천지 격쇄"
-      },
+      "name": { "pt-BR": "Rompeterra", "en": "Terrasplit", "zh-CN": "凿破大荒", "ja": "大荒滅破砕", "ko": "천지 격쇄" },
       "description": {
         "pt-BR": "Causa Dano de Vento em um único inimigo-alvo igual a #4[i]% do ATQ de Feixiao. Durante este período, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do alvo. Se o alvo não estiver afetado com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta em #2[i]%.\nDurante o ataque, Feixiao primeiro usa Trovão Descendente ou Fissura do Machado Celestial no alvo, por um total de #3[i] vez(es).\nFinalmente, causa Dano de Vento igual a #1[i]% do ATQ de Feixiao ao alvo.",
         "en": "Deals Wind DMG to one designated enemy target, up to #4[i]% of Feixiao's ATK. During this time, can ignore Weakness Type to reduce the target's Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases by #2[i]%.\nDuring the attack, Feixiao first launches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on the target, for a total of #3[i] time(s). At the end, deals Wind DMG equal to #1[i]% of Feixiao's ATK to the target.",
@@ -147,97 +84,33 @@
         "ko": "지정된 단일 적에게 최대 비소 공격력의 #4[i]%만큼 바람 속성 피해를 가한다. 해당 공격 중에는 약점 속성을 무시하고 목표의 강인성을 감소시키며, 목표가 약점 격파 상태가 아닐 시 비소의 약점 격파 효율이 #2[i]% 증가한다.\n비소는 먼저 해당 목표에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 총 #3[i]회 발동하고, 마지막으로 해당 목표에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
       "params": [
-        [
-          0.96,
-          1,
-          6,
-          4.02
-        ],
-        [
-          1.024,
-          1,
-          6,
-          4.318
-        ],
-        [
-          1.088,
-          1,
-          6,
-          4.616
-        ],
-        [
-          1.152,
-          1,
-          6,
-          4.914
-        ],
-        [
-          1.216,
-          1,
-          6,
-          5.212
-        ],
-        [
-          1.28,
-          1,
-          6,
-          5.51
-        ],
-        [
-          1.36,
-          1,
-          6,
-          5.8825
-        ],
-        [
-          1.44,
-          1,
-          6,
-          6.255
-        ],
-        [
-          1.52,
-          1,
-          6,
-          6.6275
-        ],
-        [
-          1.6,
-          1,
-          6,
-          7
-        ],
-        [
-          1.664,
-          1,
-          6,
-          7.298
-        ],
-        [
-          1.728,
-          1,
-          6,
-          7.596
-        ],
-        [
-          1.792,
-          1,
-          6,
-          7.894
-        ],
-        [
-          1.856,
-          1,
-          6,
-          8.192
-        ],
-        [
-          1.92,
-          1,
-          6,
-          8.49
-        ]
-      ]
+        [0.96, 1, 6, 4.02],
+        [1.024, 1, 6, 4.318],
+        [1.088, 1, 6, 4.616],
+        [1.152, 1, 6, 4.914],
+        [1.216, 1, 6, 5.212],
+        [1.28, 1, 6, 5.51],
+        [1.36, 1, 6, 5.8825],
+        [1.44, 1, 6, 6.255],
+        [1.52, 1, 6, 6.6275],
+        [1.6, 1, 6, 7],
+        [1.664, 1, 6, 7.298],
+        [1.728, 1, 6, 7.596],
+        [1.792, 1, 6, 7.894],
+        [1.856, 1, 6, 8.192],
+        [1.92, 1, 6, 8.49]
+      ],
+      "icon": "icon/skill/1220_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Durante a Perícia Suprema, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do inimigo. Quando o alvo não estiver infligido com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta.\nUtiliza Trovão Descendente ou Fissura do Machado Celestial em um único inimigo 6 vez(es). Causa Dano de Vento no final.",
+        "en": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on one enemy 6 time(s). Deals Wind DMG at the end.",
+        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动6次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。",
+        "ja": "必殺技発動中、弱点属性を無視して敵の靭性を削る。敵が弱点撃破状態にない時、飛霄の弱点撃破効率がアップする。\n敵単体に「閃裂刃舞」または「斧貫衝天」を合計で6回発動し、最後に風属性ダメージを与える。",
+        "ko": "필살기 발동 중엔 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 목표가 격파되지 않았을 시 비소의 약점 격파 효율이 증가한다.\n단일 적에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 6회 발동하며, 마지막으로 바람 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122004,
@@ -257,139 +130,48 @@
         "ko": "[비황] #3[i]pt 도달 시 필살기를 활성화할 수 있으며, 최대 #4[i]pt 누적된다. 아군이 공격을 #2[i]회 발동할 때마다 비소가 [비황]을 1pt 획득하며, 비소의 필살기 공격은 횟수에 계산되지 않는다.\n비소의 동료가 적에게 공격 발동 후 비소가 즉시 주목표에게 추가 공격을 발동하고, 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다. 공격 가능한 주목표가 없을 시 랜덤 단일 적을 공격한다. 해당 효과는 턴마다 최대 1회 발동하며, 비소의 턴 시작 시 발동 횟수가 초기화된다. 해당 공격 발동 시 자신이 가하는 피해가 #5[i]% 증가한다, 지속 시간: #6[i]턴"
       },
       "params": [
-        [
-          0.55,
-          2,
-          6,
-          12,
-          0.3,
-          2
-        ],
-        [
-          0.605,
-          2,
-          6,
-          12,
-          0.33,
-          2
-        ],
-        [
-          0.66,
-          2,
-          6,
-          12,
-          0.36,
-          2
-        ],
-        [
-          0.715,
-          2,
-          6,
-          12,
-          0.39,
-          2
-        ],
-        [
-          0.77,
-          2,
-          6,
-          12,
-          0.42,
-          2
-        ],
-        [
-          0.825,
-          2,
-          6,
-          12,
-          0.45,
-          2
-        ],
-        [
-          0.8938,
-          2,
-          6,
-          12,
-          0.4875,
-          2
-        ],
-        [
-          0.9625,
-          2,
-          6,
-          12,
-          0.525,
-          2
-        ],
-        [
-          1.0312,
-          2,
-          6,
-          12,
-          0.5625,
-          2
-        ],
-        [
-          1.1,
-          2,
-          6,
-          12,
-          0.6,
-          2
-        ],
-        [
-          1.155,
-          2,
-          6,
-          12,
-          0.63,
-          2
-        ],
-        [
-          1.21,
-          2,
-          6,
-          12,
-          0.66,
-          2
-        ],
-        [
-          1.265,
-          2,
-          6,
-          12,
-          0.69,
-          2
-        ],
-        [
-          1.32,
-          2,
-          6,
-          12,
-          0.72,
-          2
-        ],
-        [
-          1.375,
-          2,
-          6,
-          12,
-          0.75,
-          2
-        ]
-      ]
+        [0.55, 2, 6, 12, 0.3, 2],
+        [0.605, 2, 6, 12, 0.33, 2],
+        [0.66, 2, 6, 12, 0.36, 2],
+        [0.715, 2, 6, 12, 0.39, 2],
+        [0.77, 2, 6, 12, 0.42, 2],
+        [0.825, 2, 6, 12, 0.45, 2],
+        [0.8938, 2, 6, 12, 0.4875, 2],
+        [0.9625, 2, 6, 12, 0.525, 2],
+        [1.0312, 2, 6, 12, 0.5625, 2],
+        [1.1, 2, 6, 12, 0.6, 2],
+        [1.155, 2, 6, 12, 0.63, 2],
+        [1.21, 2, 6, 12, 0.66, 2],
+        [1.265, 2, 6, 12, 0.69, 2],
+        [1.32, 2, 6, 12, 0.72, 2],
+        [1.375, 2, 6, 12, 0.75, 2]
+      ],
+      "icon": "icon/skill/1220_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "A Perícia Suprema pode ser ativada quando \"Aureus Voador\" atingir 6 pontos, acumulando até um máximo de 12 pontos. Para cada 2 ataques utilizados considerando todos os aliados-alvo, Feixiao ganha \"Aureus Voador\".\nDepois que companheiros de equipe usarem um ataque, Feixiao desfere um Ataque Extra contra o alvo principal, causando Dano de Vento. Este efeito pode ser ativado 1 vez por rodada. Ao utilizar esse ataque, aumenta o Dano causado por esta unidade.",
+        "en": "Can activate Ultimate when \"Flying Aureus\" reaches 6 points, accumulating up to 12 points. For every 2 attacks by ally targets, Feixiao gains \"Flying Aureus\".\nAfter teammates attack, Feixiao launches Follow-Up ATK against the primary target, dealing Wind DMG. This effect can only trigger once per turn. When using this attack, increases DMG dealt by this unit.",
+        "zh-CN": "【飞黄】达到6点时可激活终结技，最多累计12点。我方目标每施放2次攻击，飞霄获得【飞黄】。\n队友施放攻击后，飞霄对主目标发动追加攻击，造成风属性伤害。该效果每回合最多触发1次，发动此攻击时使自身造成的伤害提高。",
+        "ja": "「飛黄」が6層に達すると必殺技が発動可能になる。「飛黄」は最大で12層累積できる。味方が2回攻撃を行うたびに、飛霄は「飛黄」を獲得する。\n自身以外の味方が攻撃を行った後、味方のメインターゲットとなった敵に飛霄が追加攻撃を発動し、風属性ダメージを与える。この効果はターンが回ってくるたびに1回まで発動できる。また、この攻撃を発動する時、自身の与ダメージがアップする。",
+        "ko": "[비황] 6pt 도달 시 필살기를 활성화할 수 있으며, 최대 12pt 누적된다. 아군이 공격을 2회 발동할 때마다 비소가 [비황]을 획득한다.\n동료가 공격 발동 후 비소가 주목표에게 추가 공격을 발동하고 바람 속성 피해를 가한다. 해당 효과는 턴마다 최대 1회 발동하고, 해당 공격 발동 시 자신이 가하는 피해가 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122006,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1220_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -414,16 +196,18 @@
         "ja": "秘技を使用した後、#1[i]秒間継続する「陥陣」状態に入る。「陥陣」状態の間は一定範囲内の敵を引き寄せられるほか、自身の移動速度+#2[i]%。戦闘に入った後、「飛黄」を#4[i]層獲得する。\n「陥陣」状態の時に敵を攻撃すると、引き寄せたすべての敵と戦闘に入る。戦闘開始後、各ウェーブ開始時に敵全体に飛霄の攻撃力#3[i]%分の風属性ダメージを与える。なお、このダメージは必ず会心が発生する。引き寄せた敵の数が1体以上の場合、超過分1体につき、このダメージの倍率+#5[i]%。このダメージ倍率の上限は#6[i]%。",
         "ko": "비술 사용 후 #1[i]초 동안 지속되는 [적진 돌격] 상태에 진입한다. [적진 돌격] 상태에서는 일정 범위 내의 적을 끌어당기고 자신의 이동 속도가 #2[i]% 증가하며, 전투 진입 후 [비황]을 #4[i]pt 획득한다.\n[적진 돌격] 상태에서 선공하면 끌어당긴 모든 적을 전투에 진입시킨다. 전투 진입 후 웨이브가 시작될 때마다 모든 적에게 비소 공격력의 #3[i]%만큼 바람 속성 피해를 가하고, 해당 피해는 반드시 치명타를 가한다. 끌어당긴 적이 1기를 초과하면 1기를 초과할 때마다 해당 피해의 배율이 #5[i]% 증가하고, 최대 #6[i]%까지 증가한다"
       },
-      "params": [
-        [
-          20,
-          0.5,
-          2,
-          1,
-          1,
-          10
-        ]
-      ]
+      "params": [[20, 0.5, 2, 1, 1, 10]],
+      "icon": "icon/skill/1220_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Entra no estado de \"Investida\". Puxa continuamente inimigos e aumenta a velocidade de movimento. Ganha \"Aureus Voador\" depois de entrar em batalha.\nEnquanto estiver em \"Investida\", pode atacar ativamente todos os inimigos puxados. No início de cada onda, causa Dano de Vento a todos os inimigos. Este Dano tem CRIT garantido. Quanto mais inimigos forem puxados, maior será o Multiplicador de Dano.",
+        "en": "Enters the \"Onrush\" state. Continuously pulls in enemies and increases movement speed. Gains \"Flying Aureus\" after entering battle.\nWhile in \"Onrush,\" can actively attack all pulled enemies. At the start of every wave, deals Wind DMG to all enemies. This DMG is guaranteed to CRIT. The more enemies are pulled in, the higher the DMG multiplier becomes.",
+        "zh-CN": "进入【陷锋】状态，持续牵引敌人且移动速度提高，进战后获得【飞黄】。\n【陷锋】状态下可主动攻击所有牵引的敌人，每个波次开始时对敌方全体造成风属性伤害，该伤害必定暴击。牵引敌人越多，伤害倍率越高。",
+        "ja": "「陥陣」状態に入り、一定範囲内の敵を継続的に引き寄せ、自身の移動速度をアップする。戦闘に入った後、「飛黄」を獲得する。\n「陥陣」状態では引き寄せたすべての敵を攻撃でき、各ウェーブ開始時、敵全体に風属性ダメージを与える。このダメージは必ず会心が発生する。なお、引き寄せた敵が多いほど、ダメージ倍率がアップする。",
+        "ko": "[적진 돌격] 상태에 진입한다. 지속적으로 적을 끌어당기고 이동 속도가 증가하며, 전투 진입 후 [비황]을 획득한다.\n[적진 돌격] 상태에서는 끌어당긴 모든 적을 선공할 수 있고, 웨이브가 시작될 때마다 모든 적에게 바람 속성 피해를 가하며, 해당 피해는 반드시 치명타이다. 끌어당긴 적이 많을수록 피해 배율이 증가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 122008,
@@ -443,67 +227,33 @@
         "ko": "선택한 목표에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다. 목표가 약점 격파 상태일 경우 피해 배율이 #2[i]% 증가한다"
       },
       "params": [
-        [
-          0.36,
-          0.15
-        ],
-        [
-          0.384,
-          0.165
-        ],
-        [
-          0.408,
-          0.18
-        ],
-        [
-          0.432,
-          0.195
-        ],
-        [
-          0.456,
-          0.21
-        ],
-        [
-          0.48,
-          0.225
-        ],
-        [
-          0.51,
-          0.2437
-        ],
-        [
-          0.54,
-          0.2625
-        ],
-        [
-          0.57,
-          0.2812
-        ],
-        [
-          0.6,
-          0.3
-        ],
-        [
-          0.624,
-          0.315
-        ],
-        [
-          0.648,
-          0.33
-        ],
-        [
-          0.672,
-          0.345
-        ],
-        [
-          0.696,
-          0.36
-        ],
-        [
-          0.72,
-          0.375
-        ]
-      ]
+        [0.36, 0.15],
+        [0.384, 0.165],
+        [0.408, 0.18],
+        [0.432, 0.195],
+        [0.456, 0.21],
+        [0.48, 0.225],
+        [0.51, 0.2437],
+        [0.54, 0.2625],
+        [0.57, 0.2812],
+        [0.6, 0.3],
+        [0.624, 0.315],
+        [0.648, 0.33],
+        [0.672, 0.345],
+        [0.696, 0.36],
+        [0.72, 0.375]
+      ],
+      "icon": "icon/skill/1220_ultimate_on2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento leve a um único inimigo e aumenta o Multiplicador de Dano contra alvos afligidos com Quebra de Fraqueza.",
+        "en": "Deals minor Wind DMG to one enemy and increases the DMG multiplier against targets that are Weakness Broken.",
+        "zh-CN": "对敌方单体造成少量风属性伤害，对被击破的目标伤害倍率提高。",
+        "ja": "敵単体に少量の風属性ダメージを与える。弱点撃破状態の敵に対するダメージ倍率がアップする。",
+        "ko": "단일 적에게 소량의 바람 속성 피해를 가하고, 격파된 목표에게 가하는 피해 배율이 증가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122009,
@@ -523,78 +273,38 @@
         "ko": "선택한 목표에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다. 목표가 약점 격파 상태가 아닐 경우 피해 배율이 #2[i]% 증가한다"
       },
       "params": [
-        [
-          0.36,
-          0.15
-        ],
-        [
-          0.384,
-          0.165
-        ],
-        [
-          0.408,
-          0.18
-        ],
-        [
-          0.432,
-          0.195
-        ],
-        [
-          0.456,
-          0.21
-        ],
-        [
-          0.48,
-          0.225
-        ],
-        [
-          0.51,
-          0.2437
-        ],
-        [
-          0.54,
-          0.2625
-        ],
-        [
-          0.57,
-          0.2812
-        ],
-        [
-          0.6,
-          0.3
-        ],
-        [
-          0.624,
-          0.315
-        ],
-        [
-          0.648,
-          0.33
-        ],
-        [
-          0.672,
-          0.345
-        ],
-        [
-          0.696,
-          0.36
-        ],
-        [
-          0.72,
-          0.375
-        ]
-      ]
+        [0.36, 0.15],
+        [0.384, 0.165],
+        [0.408, 0.18],
+        [0.432, 0.195],
+        [0.456, 0.21],
+        [0.48, 0.225],
+        [0.51, 0.2437],
+        [0.54, 0.2625],
+        [0.57, 0.2812],
+        [0.6, 0.3],
+        [0.624, 0.315],
+        [0.648, 0.33],
+        [0.672, 0.345],
+        [0.696, 0.36],
+        [0.72, 0.375]
+      ],
+      "icon": "icon/skill/1220_ultimate_on3.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento leve a um único inimigo e aumenta o Multiplicador de Dano de ataques contra inimigos que não estão afligidos com Quebra de Fraqueza.",
+        "en": "Deals minor Wind DMG to one enemy and increases the DMG multiplier against targets that are not Weakness Broken.",
+        "zh-CN": "对敌方单体造成少量风属性伤害，对未被击破的目标伤害倍率提高。",
+        "ja": "敵単体に少量の風属性ダメージを与える。弱点撃破状態でない敵に対するダメージ倍率がアップする。",
+        "ko": "단일 적에게 소량의 바람 속성 피해를 가하고, 격파되지 않은 목표에게 가하는 피해 배율이 증가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122014,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Rompeterra",
-        "en": "Terrasplit",
-        "zh-CN": "凿破大荒",
-        "ja": "大荒滅破砕",
-        "ko": "천지 격쇄"
-      },
+      "name": { "pt-BR": "Rompeterra", "en": "Terrasplit", "zh-CN": "凿破大荒", "ja": "大荒滅破砕", "ko": "천지 격쇄" },
       "description": {
         "pt-BR": "Durante a Perícia Suprema, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do inimigo. Quando o alvo não estiver infligido com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta.\nUtiliza Trovão Descendente ou Fissura do Machado Celestial em um único inimigo #3[i] vez(es). Causa Dano de Vento no final.",
         "en": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on one enemy #3[i] time(s). Deals Wind DMG at the end.",
@@ -603,97 +313,33 @@
         "ko": "필살기 발동 중엔 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 목표가 격파되지 않았을 시 비소의 약점 격파 효율이 증가한다.\n단일 적에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 #3[i]회 발동하며, 마지막으로 바람 속성 피해를 가한다"
       },
       "params": [
-        [
-          0.96,
-          1,
-          6,
-          4.02
-        ],
-        [
-          1.024,
-          1,
-          6,
-          4.318
-        ],
-        [
-          1.088,
-          1,
-          6,
-          4.616
-        ],
-        [
-          1.152,
-          1,
-          6,
-          4.914
-        ],
-        [
-          1.216,
-          1,
-          6,
-          5.212
-        ],
-        [
-          1.28,
-          1,
-          6,
-          5.51
-        ],
-        [
-          1.36,
-          1,
-          6,
-          5.8825
-        ],
-        [
-          1.44,
-          1,
-          6,
-          6.255
-        ],
-        [
-          1.52,
-          1,
-          6,
-          6.6275
-        ],
-        [
-          1.6,
-          1,
-          6,
-          7
-        ],
-        [
-          1.664,
-          1,
-          6,
-          7.298
-        ],
-        [
-          1.728,
-          1,
-          6,
-          7.596
-        ],
-        [
-          1.792,
-          1,
-          6,
-          7.894
-        ],
-        [
-          1.856,
-          1,
-          6,
-          8.192
-        ],
-        [
-          1.92,
-          1,
-          6,
-          8.49
-        ]
-      ]
+        [0.96, 1, 6, 4.02],
+        [1.024, 1, 6, 4.318],
+        [1.088, 1, 6, 4.616],
+        [1.152, 1, 6, 4.914],
+        [1.216, 1, 6, 5.212],
+        [1.28, 1, 6, 5.51],
+        [1.36, 1, 6, 5.8825],
+        [1.44, 1, 6, 6.255],
+        [1.52, 1, 6, 6.6275],
+        [1.6, 1, 6, 7],
+        [1.664, 1, 6, 7.298],
+        [1.728, 1, 6, 7.596],
+        [1.792, 1, 6, 7.894],
+        [1.856, 1, 6, 8.192],
+        [1.92, 1, 6, 8.49]
+      ],
+      "icon": "icon/skill/1220_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Durante a Perícia Suprema, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do inimigo. Quando o alvo não estiver infligido com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta.\nUtiliza Trovão Descendente ou Fissura do Machado Celestial em um único inimigo 6 vez(es). Causa Dano de Vento no final.",
+        "en": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on one enemy 6 time(s). Deals Wind DMG at the end.",
+        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动6次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。",
+        "ja": "必殺技発動中、弱点属性を無視して敵の靭性を削る。敵が弱点撃破状態にない時、飛霄の弱点撃破効率がアップする。\n敵単体に「閃裂刃舞」または「斧貫衝天」を合計で6回発動し、最後に風属性ダメージを与える。",
+        "ko": "필살기 발동 중엔 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 목표가 격파되지 않았을 시 비소의 약점 격파 효율이 증가한다.\n단일 적에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 6회 발동하며, 마지막으로 바람 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     }
   ],
   "eidolons": [
@@ -712,7 +358,10 @@
         "zh-CN": "发动【闪裂刃舞】或【钺贯天冲】后，使飞霄造成的终结技伤害额外提高，提高数值等同于原伤害的10%，最多叠加5层，持续至终结技行动结束。",
         "ja": "「閃裂刃舞」または「斧貫衝天」を発動した後、飛霄の与える必殺技ダメージがさらに本来のダメージの10%分アップする。最大5層累積でき、必殺技の行動終了まで継続する。",
         "ko": "[섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼] 발동 후 비소가 가하는 필살기 피해가 기존 피해의 10%만큼 추가로 증가한다. 최대 5스택 중첩되며, 필살기 행동이 종료될 때까지 지속된다"
-      }
+      },
+      "icon": "icon/skill/1220_rank1.png",
+      "materials": [{ "id": 11220, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -729,7 +378,10 @@
         "zh-CN": "天赋效果中，我方目标每施放1次追加攻击即可使飞霄获得1点【飞黄】。该效果每回合最多触发6次。",
         "ja": "天賦効果が強化される。味方の行った攻撃が追加攻撃だった場合、飛霄は直接「飛黄」を1層獲得する。この効果はターンが回ってくるたびに6回まで発動できる。",
         "ko": "특성 효과에서 아군이 추가 공격을 1회 발동할 때마다 비소가 [비황]을 1pt 획득한다. 해당 효과는 턴마다 최대 6회 발동한다"
-      }
+      },
+      "icon": "icon/skill/1220_rank2.png",
+      "materials": [{ "id": 11220, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -746,7 +398,16 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1220_ultimate.png",
+      "materials": [{ "id": 11220, "num": 1 }],
+      "levelUpSkills": [
+        { "id": 122003, "num": 2 },
+        { "id": 122001, "num": 1 },
+        { "id": 122008, "num": 2 },
+        { "id": 122009, "num": 2 },
+        { "id": 122014, "num": 2 }
+      ]
     },
     {
       "rank": 4,
@@ -763,7 +424,10 @@
         "zh-CN": "天赋的追加攻击的削韧值提高100%，并且发动时使自身速度提高8%，持续2回合。",
         "ja": "天賦による追加攻撃の削靭値+100%。天賦による追加攻撃を行う時、自身の速度+8%、2ターン継続。",
         "ko": "특성 추가 공격의 강인성 감소 수치가 100% 증가하고, 발동 시 자신의 속도가 8% 증가한다, 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1220_rank4.png",
+      "materials": [{ "id": 11220, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -780,7 +444,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1220_skill.png",
+      "materials": [{ "id": 11220, "num": 1 }],
+      "levelUpSkills": [{ "id": 122002, "num": 2 }, { "id": 122004, "num": 2 }]
     },
     {
       "rank": 6,
@@ -797,10 +464,670 @@
         "zh-CN": "飞霄造成的终结技伤害的全属性抗性穿透提高20%。天赋的追加攻击伤害同时视为终结技伤害，并且伤害倍率提高140%。",
         "ja": "飛霄が与える必殺技ダメージの全属性耐性貫通+20%。天賦による追加攻撃ダメージが同時に必殺技ダメージと見なされ、ダメージ倍率+140%。",
         "ko": "비소가 가하는 필살기 피해의 모든 속성 저항 관통이 20% 증가한다. 특성의 추가 공격 피해는 동시에 필살기 피해로 간주되며, 피해 배율이 140% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1220_rank6.png",
+      "materials": [{ "id": 11220, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 12,
+  "stats": [
+    {
+      "hp": { "base": 142.56, "step": 7.128 },
+      "atk": { "base": 81.84, "step": 4.092 },
+      "def": { "base": 52.8, "step": 2.64 },
+      "spd": { "base": 112, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 199.584, "step": 7.128 },
+      "atk": { "base": 114.576, "step": 4.092 },
+      "def": { "base": 73.92, "step": 2.64 },
+      "spd": { "base": 112, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 256.608, "step": 7.128 },
+      "atk": { "base": 147.312, "step": 4.092 },
+      "def": { "base": 95.04, "step": 2.64 },
+      "spd": { "base": 112, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 313.632, "step": 7.128 },
+      "atk": { "base": 180.048, "step": 4.092 },
+      "def": { "base": 116.16, "step": 2.64 },
+      "spd": { "base": 112, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 370.656, "step": 7.128 },
+      "atk": { "base": 212.784, "step": 4.092 },
+      "def": { "base": 137.28, "step": 2.64 },
+      "spd": { "base": 112, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 427.68, "step": 7.128 },
+      "atk": { "base": 245.52, "step": 4.092 },
+      "def": { "base": 158.4, "step": 2.64 },
+      "spd": { "base": 112, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 484.704, "step": 7.128 },
+      "atk": { "base": 278.256, "step": 4.092 },
+      "def": { "base": 179.52, "step": 2.64 },
+      "spd": { "base": 112, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 113011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 113011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 113012, "num": 6 }, { "id": 110425, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 113012, "num": 9 }, { "id": 110425, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 113013, "num": 6 }, { "id": 110425, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 113013, "num": 9 }, { "id": 110425, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1220001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1220_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [122001],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 113013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1220002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1220_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [122002],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110192, "num": 7 }, { "id": 113012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110193, "num": 5 },
+            { "id": 110503, "num": 1 },
+            { "id": 113013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110193, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1220003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1220_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [122003, 122008, 122009, 122014],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110192, "num": 7 }, { "id": 113012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110193, "num": 5 },
+            { "id": 110503, "num": 1 },
+            { "id": 113013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110193, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1220004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1220_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [122004],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110192, "num": 7 }, { "id": 113012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110193, "num": 5 },
+            { "id": 110503, "num": 1 },
+            { "id": 113013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110193, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1220007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1220_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [122007],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1220101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Caminho Celestial",
+        "en": "Heavenpath",
+        "zh-CN": "天通",
+        "ja": "{RUBY_B#つうてん}通天{RUBY_E#}",
+        "ko": "통천"
+      },
+      "description": {
+        "pt-BR": "Quando a batalha começa, recebe #1[i] ponto(s) de \"Aureus Voador\".\nNo início da rodada, se nenhum Ataque Extra do Talento tiver sido utilizado na rodada anterior, isso conta como 1 em direção ao número de ataques necessários para ganhar \"Aureus Voador\".",
+        "en": "When the battle starts, gains #1[i] point(s) of \"Flying Aureus.\"\nAt the start of a turn, if no Follow-Up ATK was launched via Talent in the previous turn, then this counts as 1 toward the number of attacks required to gain \"Flying Aureus.\"",
+        "zh-CN": "战斗开始时，获得#1[i]点【飞黄】。\n回合开始时，若上回合未通过天赋发动追加攻击，计入1次获得【飞黄】所需的攻击次数。",
+        "ja": "戦闘開始時に「飛黄」を#1[i]層獲得する。\nターンが回ってきた時、飛霄が1つ前の自身のターンから天賦による追加攻撃を発動していなかった場合、「飛黄」を獲得するのに必要な攻撃回数が1加算される。",
+        "ko": "전투 시작 시 [비황]을 #1[i]pt 획득한다.\n턴 시작 시, 이전 턴에서 특성으로 추가 공격을 발동하지 않은 경우 [비황] 획득에 필요한 공격 횟수가 1회 계산된다"
+      },
+      "params": [[3]],
+      "icon": "icon/skill/1220_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 110503, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1220102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Mudar de Forma",
+        "en": "Formshift",
+        "zh-CN": "解形",
+        "ja": "{RUBY_B#かいけい}解形{RUBY_E#}",
+        "ko": "해형"
+      },
+      "description": {
+        "pt-BR": "Ao causar Dano a um inimigo com a Perícia Suprema, este ataque é considerado como um Ataque Extra. O Dano CRIT dos Ataques Extras aumenta em #1[i]%.",
+        "en": "When using Ultimate to deal DMG to an enemy target, it is considered as a Follow-Up ATK. Follow-Up ATKs' CRIT DMG increases by #1[i]%.",
+        "zh-CN": "施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。追加攻击的暴击伤害提高#1[i]%。",
+        "ja": "必殺技を発動して敵にダメージを与える時、追加攻撃を行うと見なされる。追加攻撃の会心ダメージ+#1[i]%。",
+        "ko": "필살기를 발동해 적에게 피해를 가하면 추가 공격을 발동한 것으로 간주한다. 추가 공격의 치명타 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.36]],
+      "icon": "icon/skill/1220_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110192, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1220103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Capturar Raios",
+        "en": "Boltcatch",
+        "zh-CN": "电举",
+        "ja": "{RUBY_B#しんそく}神速{RUBY_E#}",
+        "ko": "섬전"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia, o ATQ aumenta em #1[i]%, durando por #2[i] rodada(s).",
+        "en": "When using Skill, increases ATK by #1[i]%, lasting for #2[i] turn(s).",
+        "zh-CN": "施放战技时，攻击力提高#1[i]%，持续#2[i]回合。",
+        "ja": "戦闘スキルを発動する時、攻撃力+#1[i]%、#2[i]ターン継続。",
+        "ko": "전투 스킬 발동 시 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+      },
+      "params": [[0.48, 3]],
+      "icon": "icon/skill/1220_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1220201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1220202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1220101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 113011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1220203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1220202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 113012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1220204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.05 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 113012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1220205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1220102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 113012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1220206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1220205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 113013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1220207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 113013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1220208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1220103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.075 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 113013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1220209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1220208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 113013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1220210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1220208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 113013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11220, 110191, 110192, 110193, 110425, 110503, 113011, 113012, 113013],
   "images": {
     "icon": "icon/character/1220.png",
     "preview": "image/character_preview/1220.png",

@@ -1,13 +1,7 @@
 {
   "id": 1310,
   "slug": "firefly",
-  "name": {
-    "pt-BR": "Vaga-lume",
-    "en": "Firefly",
-    "zh-CN": "流萤",
-    "ja": "ホタル",
-    "ko": "반디"
-  },
+  "name": { "pt-BR": "Vaga-lume", "en": "Firefly", "zh-CN": "流萤", "ja": "ホタル", "ko": "반디" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Fire",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1310_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo leve a um único inimigo.",
+        "en": "Deals minor Fire DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量火属性伤害。",
+        "ja": "敵単体に少量の炎属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 131002,
@@ -82,97 +56,33 @@
         "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 소모해 자신의 에너지 최대치의 #3[i]%만큼 에너지를 고정으로 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다. 현재 HP가 부족하면 전투 스킬 발동 시 기갑 「샘」의 현재 HP가 1pt로 감소한다. 자신의 다음번 행동 게이지를 #4[i]% 증가시킨다"
       },
       "params": [
-        [
-          1,
-          0.4,
-          0.5,
-          0.25
-        ],
-        [
-          1.1,
-          0.4,
-          0.51,
-          0.25
-        ],
-        [
-          1.2,
-          0.4,
-          0.52,
-          0.25
-        ],
-        [
-          1.3,
-          0.4,
-          0.53,
-          0.25
-        ],
-        [
-          1.4,
-          0.4,
-          0.54,
-          0.25
-        ],
-        [
-          1.5,
-          0.4,
-          0.55,
-          0.25
-        ],
-        [
-          1.625,
-          0.4,
-          0.5625,
-          0.25
-        ],
-        [
-          1.75,
-          0.4,
-          0.575,
-          0.25
-        ],
-        [
-          1.875,
-          0.4,
-          0.5875,
-          0.25
-        ],
-        [
-          2,
-          0.4,
-          0.6,
-          0.25
-        ],
-        [
-          2.1,
-          0.4,
-          0.61,
-          0.25
-        ],
-        [
-          2.2,
-          0.4,
-          0.62,
-          0.25
-        ],
-        [
-          2.3,
-          0.4,
-          0.63,
-          0.25
-        ],
-        [
-          2.4,
-          0.4,
-          0.64,
-          0.25
-        ],
-        [
-          2.5,
-          0.4,
-          0.65,
-          0.25
-        ]
-      ]
+        [1, 0.4, 0.5, 0.25],
+        [1.1, 0.4, 0.51, 0.25],
+        [1.2, 0.4, 0.52, 0.25],
+        [1.3, 0.4, 0.53, 0.25],
+        [1.4, 0.4, 0.54, 0.25],
+        [1.5, 0.4, 0.55, 0.25],
+        [1.625, 0.4, 0.5625, 0.25],
+        [1.75, 0.4, 0.575, 0.25],
+        [1.875, 0.4, 0.5875, 0.25],
+        [2, 0.4, 0.6, 0.25],
+        [2.1, 0.4, 0.61, 0.25],
+        [2.2, 0.4, 0.62, 0.25],
+        [2.3, 0.4, 0.63, 0.25],
+        [2.4, 0.4, 0.64, 0.25],
+        [2.5, 0.4, 0.65, 0.25]
+      ],
+      "icon": "icon/skill/1310_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome uma parte dos PV desta unidade para regenerar Energia. Causa Dano de Fogo a um único inimigo. Faz com que a próxima ação do personagem seja Avançada Adiante.",
+        "en": "Consumes a portion of this unit's own HP to regenerate Energy. Deals Fire DMG to one enemy. Advances this unit's next Action.",
+        "zh-CN": "消耗自身部分生命值恢复能量，对敌方单体造成火属性伤害。使自身下一次行动提前。",
+        "ja": "自身のHPを一部消費してEPを回復し、指定した敵単体に炎属性ダメージを与える。自身の次の行動順を早める。",
+        "ko": "자신의 일부 HP를 소모해 에너지를 회복하고, 단일 적에게 화염 속성 피해를 가한다. 자신의 다음번 행동 게이지를 증가시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 131003,
@@ -192,97 +102,33 @@
         "ko": "「완전연소」 상태에 진입하고 자신의 행동 게이지가 100% 증가하며, 일반 공격 강화 및 전투 스킬 강화를 획득한다. 「완전연소」 상태에서는 속도가 #3[i]pt 증가하며, 강화된 일반 공격 및 강화된 전투 스킬 발동 시 자신의 약점 격파 효율이 #2[i]% 증가하고, 적이 기갑 「샘」으로부터 받는 격파 피해가 #1[f1]% 증가하며, 이번 공격이 끝날 때까지 지속된다.\n행동 서열에 「완전연소」 카운트다운이 나타나고, 카운트다운 턴 시작 시 기갑 「샘」이 「완전연소」 상태를 해제한다. 카운트다운이 보유한 고정 속도는 #4[i]이다.\n기갑 「샘」은 「완전연소」 상태에서 필살기를 발동할 수 없다"
       },
       "params": [
-        [
-          0.1,
-          0.5,
-          30,
-          70
-        ],
-        [
-          0.11,
-          0.5,
-          33,
-          70
-        ],
-        [
-          0.12,
-          0.5,
-          36,
-          70
-        ],
-        [
-          0.13,
-          0.5,
-          39,
-          70
-        ],
-        [
-          0.14,
-          0.5,
-          42,
-          70
-        ],
-        [
-          0.15,
-          0.5,
-          45,
-          70
-        ],
-        [
-          0.1625,
-          0.5,
-          48.75,
-          70
-        ],
-        [
-          0.175,
-          0.5,
-          52.5,
-          70
-        ],
-        [
-          0.1875,
-          0.5,
-          56.25,
-          70
-        ],
-        [
-          0.2,
-          0.5,
-          60,
-          70
-        ],
-        [
-          0.21,
-          0.5,
-          63,
-          70
-        ],
-        [
-          0.22,
-          0.5,
-          66,
-          70
-        ],
-        [
-          0.23,
-          0.5,
-          69,
-          70
-        ],
-        [
-          0.24,
-          0.5,
-          72,
-          70
-        ],
-        [
-          0.25,
-          0.5,
-          75,
-          70
-        ]
-      ]
+        [0.1, 0.5, 30, 70],
+        [0.11, 0.5, 33, 70],
+        [0.12, 0.5, 36, 70],
+        [0.13, 0.5, 39, 70],
+        [0.14, 0.5, 42, 70],
+        [0.15, 0.5, 45, 70],
+        [0.1625, 0.5, 48.75, 70],
+        [0.175, 0.5, 52.5, 70],
+        [0.1875, 0.5, 56.25, 70],
+        [0.2, 0.5, 60, 70],
+        [0.21, 0.5, 63, 70],
+        [0.22, 0.5, 66, 70],
+        [0.23, 0.5, 69, 70],
+        [0.24, 0.5, 72, 70],
+        [0.25, 0.5, 75, 70]
+      ],
+      "icon": "icon/skill/1310_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Entra no estado de \"Combustão Completa\". A Ação de SAM é Avançada Adiante em 100%, ganha ATQ Básico Aprimorado e Perícia Aprimorada. Aumenta a VEL e a Eficiência de Quebra de Fraqueza desta unidade, e aumenta o Dano de Quebra recebido pelos inimigos-alvo, durando até o fim da contagem regressiva.",
+        "en": "Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break Efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.",
+        "zh-CN": "进入「完全燃烧」状态，使自身行动提前100%，获得强化普攻和强化战技，并提高自身速度、弱点击破效率和敌方目标受到的击破伤害，直至倒计时结束。",
+        "ja": "「完全燃焼」状態に入り、自身の行動順を100%早める。強化通常攻撃と強化戦闘スキルを獲得し、カウントダウンが終了するまで自身の速度、弱点撃破効率、敵の受ける弱点撃破ダメージをアップする。",
+        "ko": "「완전연소」 상태에 진입하고 자신의 행동 게이지를 100% 증가시킨다. 일반 공격 강화 및 전투 스킬 강화를 획득하고, 자신의 속도, 약점 격파 효율, 적이 받는 격파 피해가 증가하며, 카운트다운이 종료될 때까지 지속된다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 131004,
@@ -302,109 +148,48 @@
         "ko": "HP가 낮을수록 받는 피해가 감소한다. HP가 #3[i]% 이하일 경우 피해 감소 효과가 최대치에 도달하며, 최대 #1[i]% 감소한다. 「완전연소」 상태에서는 피해 감소 효과가 최대치를 유지하며, 효과 저항이 #4[i]% 증가한다.\n전투 시작 시 에너지가 #2[i]% 미만일 경우 에너지를 #2[i]%까지 회복한다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과가 해제된다"
       },
       "params": [
-        [
-          0.2,
-          0.5,
-          0.2,
-          0.1
-        ],
-        [
-          0.22,
-          0.5,
-          0.2,
-          0.12
-        ],
-        [
-          0.24,
-          0.5,
-          0.2,
-          0.14
-        ],
-        [
-          0.26,
-          0.5,
-          0.2,
-          0.16
-        ],
-        [
-          0.28,
-          0.5,
-          0.2,
-          0.18
-        ],
-        [
-          0.3,
-          0.5,
-          0.2,
-          0.2
-        ],
-        [
-          0.325,
-          0.5,
-          0.2,
-          0.225
-        ],
-        [
-          0.35,
-          0.5,
-          0.2,
-          0.25
-        ],
-        [
-          0.375,
-          0.5,
-          0.2,
-          0.275
-        ],
-        [
-          0.4,
-          0.5,
-          0.2,
-          0.3
-        ],
-        [
-          0.42,
-          0.5,
-          0.2,
-          0.32
-        ],
-        [
-          0.44,
-          0.5,
-          0.2,
-          0.34
-        ],
-        [
-          0.46,
-          0.5,
-          0.2,
-          0.36
-        ],
-        [
-          0.48,
-          0.5,
-          0.2,
-          0.38
-        ],
-        [
-          0.5,
-          0.5,
-          0.2,
-          0.4
-        ]
-      ]
+        [0.2, 0.5, 0.2, 0.1],
+        [0.22, 0.5, 0.2, 0.12],
+        [0.24, 0.5, 0.2, 0.14],
+        [0.26, 0.5, 0.2, 0.16],
+        [0.28, 0.5, 0.2, 0.18],
+        [0.3, 0.5, 0.2, 0.2],
+        [0.325, 0.5, 0.2, 0.225],
+        [0.35, 0.5, 0.2, 0.25],
+        [0.375, 0.5, 0.2, 0.275],
+        [0.4, 0.5, 0.2, 0.3],
+        [0.42, 0.5, 0.2, 0.32],
+        [0.44, 0.5, 0.2, 0.34],
+        [0.46, 0.5, 0.2, 0.36],
+        [0.48, 0.5, 0.2, 0.38],
+        [0.5, 0.5, 0.2, 0.4]
+      ],
+      "icon": "icon/skill/1310_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quanto menores os PV, menor o Dano recebido. Durante o estado de \"Combustão Completa\", o efeito de redução de Dano permanece em sua duração máxima, e a RES a Efeitos aumenta. Se a Energia estiver abaixo de 50% quando a batalha começar, a Energia será regenerada até 50%. Quando a energia for regenerada ao máximo, todas as penalidades desta unidade serão dissipadas.",
+        "en": "The lower the HP, the less DMG received. During the Complete Combustion state, the DMG Reduction effect remains at its maximum extent and Effect RES is increased. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+        "zh-CN": "生命值越低受到的伤害越低。「完全燃烧」状态下减伤效果维持最大值，效果抵抗提高。战斗开始时若能量不足50%则使其恢复至50%。当能量恢复至上限时解除自身所有负面效果。",
+        "ja": "残りHPが少ないほど受けるダメージがダウンする。「完全燃焼」状態の時、ダメージ軽減効果は最大値を維持し、効果抵抗がアップする。戦闘開始時、EPが50%未満の場合、EPを50%まで回復する。EPが満タンになる時、自身にあるデバフをすべて解除する。",
+        "ko": "HP가 낮을수록 받는 피해가 감소한다. 「완전연소」 상태에서는 피해 감소 효과가 최대치를 유지하며, 효과 저항이 증가한다. 전투 시작 시 에너지가 50% 미만이면 에너지가 50%까지 회복된다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과가 해제된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
     },
     {
       "id": 131006,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1310_basic_atk2.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -429,13 +214,17 @@
         "ja": "空中に跳び上がり、自由に移動する、#1[i]秒間継続。継続時間終了後、落下攻撃を行い、一定範囲内のすべての敵を攻撃する。継続時間中に攻撃を行うと、直ちに落下攻撃を行うことができる。各ウェーブ開始時、敵全体に炎属性弱点を付与する、#3[i]ターン継続。その後、敵全体に装甲「サム」の攻撃力#2[i]%分の炎属性ダメージを与える。",
         "ko": "공중으로 도약해 #1[i]초 동안 자유롭게 이동하며, 이때 낙하 공격을 발동하면 지속 시간을 조기 종료한다. 지속 시간이 종료되면 낙하해 즉시 일정 범위 내 모든 적을 공격하고, 매 웨이브 시작 시 모든 적에게 화염 속성 약점을 추가한다, 지속 시간: #3[i]턴. 이후 모든 적에게 기갑 「샘」 공격력의 #2[i]%만큼 화염 속성 피해를 가한다"
       },
-      "params": [
-        [
-          5,
-          2,
-          2
-        ]
-      ]
+      "params": [[5, 2, 2]],
+      "icon": "icon/skill/1310_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Salta no ar e se move livremente. Após alguns segundos de movimento, mergulha e ataca todos os inimigos dentro do alcance. No início de cada onda, aplica Fraqueza contra Fogo a todos os inimigos e causa Dano de Fogo a eles.",
+        "en": "Leaps into the air and moves about freely. After a few seconds of movement, plunges and attacks all enemies within range. At the start of each wave, applies a Fire Weakness to all enemies and deals Fire DMG to them.",
+        "zh-CN": "跳跃至空中并自由移动，移动数秒后下落并攻击范围内的所有敌人，每个波次开始时为敌方全体添加火属性弱点，并对敌方全体造成火属性伤害。",
+        "ja": "空中に跳び上がって自由に移動する。数秒移動した後、着地して範囲内のすべての敵を攻撃する。各ウェーブ開始時、敵全体に炎属性弱点を付与し、敵全体に炎属性ダメージを与える。",
+        "ko": "공중으로 도약해 자유롭게 이동하며, 수초 이동 후 낙하해 범위 내 모든 적을 공격한다. 매 웨이브 시작 시 모든 적에게 화염 속성 약점을 추가하고, 모든 적에게 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 131008,
@@ -455,47 +244,28 @@
         "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
       },
       "params": [
-        [
-          1,
-          0.2
-        ],
-        [
-          1.2,
-          0.2
-        ],
-        [
-          1.4,
-          0.2
-        ],
-        [
-          1.6,
-          0.2
-        ],
-        [
-          1.8,
-          0.2
-        ],
-        [
-          2,
-          0.2
-        ],
-        [
-          2.2,
-          0.2
-        ],
-        [
-          2.4,
-          0.2
-        ],
-        [
-          2.6,
-          0.2
-        ],
-        [
-          2.8,
-          0.2
-        ]
-      ]
+        [1, 0.2],
+        [1.2, 0.2],
+        [1.4, 0.2],
+        [1.6, 0.2],
+        [1.8, 0.2],
+        [2, 0.2],
+        [2.2, 0.2],
+        [2.4, 0.2],
+        [2.6, 0.2],
+        [2.8, 0.2]
+      ],
+      "icon": "icon/skill/1310_basic_atk2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Restaura uma porção dos PV dessa unidade e causa Dano de Fogo a um único inimigo.",
+        "en": "Restores a portion of this unit's own HP and deals Fire DMG to one enemy.",
+        "zh-CN": "回复自身部分生命值，对敌方单体造成火属性伤害。",
+        "ja": "自身のHPを回復し、敵単体に炎属性ダメージを与える。",
+        "ko": "자신의 HP를 일부 회복하고 단일 적에게 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 131009,
@@ -515,142 +285,33 @@
         "ko": "자신의 HP 최대치의 #3[i]%만큼 HP를 회복한다. 지정된 단일 적에게 화염 속성 약점을 부여한다, 지속 시간: #4[i]턴. 해당 목표에게 기갑 「샘」 공격력의 (#5[f1]x격파 특수효과+#1[f1]%)만큼 화염 속성 피해를 가하고, 인접한 목표에게 기갑 「샘」 공격력의 (#6[f1]x격파 특수효과+#2[f1]%)만큼 화염 속성 피해를 가한다. 격파 특수효과는 최대 #7[i]%까지 계산한다"
       },
       "params": [
-        [
-          1,
-          0.5,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.1,
-          0.55,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.2,
-          0.6,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.3,
-          0.65,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.4,
-          0.7,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.5,
-          0.75,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.625,
-          0.8125,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.75,
-          0.875,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          1.875,
-          0.9375,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          2,
-          1,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          2.1,
-          1.05,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          2.2,
-          1.1,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          2.3,
-          1.15,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          2.4,
-          1.2,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ],
-        [
-          2.5,
-          1.25,
-          0.25,
-          2,
-          0.2,
-          0.1,
-          3.6
-        ]
-      ]
+        [1, 0.5, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.1, 0.55, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.2, 0.6, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.3, 0.65, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.4, 0.7, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.5, 0.75, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.625, 0.8125, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.75, 0.875, 0.25, 2, 0.2, 0.1, 3.6],
+        [1.875, 0.9375, 0.25, 2, 0.2, 0.1, 3.6],
+        [2, 1, 0.25, 2, 0.2, 0.1, 3.6],
+        [2.1, 1.05, 0.25, 2, 0.2, 0.1, 3.6],
+        [2.2, 1.1, 0.25, 2, 0.2, 0.1, 3.6],
+        [2.3, 1.15, 0.25, 2, 0.2, 0.1, 3.6],
+        [2.4, 1.2, 0.25, 2, 0.2, 0.1, 3.6],
+        [2.5, 1.25, 0.25, 2, 0.2, 0.1, 3.6]
+      ],
+      "icon": "icon/skill/1310_skill2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Restaura uma parte dos PV desta unidade. Aplica Fraqueza contra Fogo a um único inimigo, causando Dano de Fogo massivo a este alvo e Dano de Fogo aos alvos adjacentes.",
+        "en": "Restores a portion of this unit's own HP. Applies Fire Weakness to one enemy. Deals massive Fire DMG to this target and Fire DMG to adjacent targets.",
+        "zh-CN": "回复自身部分生命值，为敌方单体添加火属性弱点，并对其造成大量火属性伤害，对相邻目标造成火属性伤害。",
+        "ja": "自身のHPを回復する。敵単体に炎属性弱点を付与し、大量の炎属性ダメージを与え、隣接する敵に炎属性ダメージを与える。",
+        "ko": "자신의 HP를 일부 회복한다. 단일 적에게 화염 속성 약점을 추가하고, 해당 적에게 대량의 화염 속성 피해를 가하며, 인접한 목표에게 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 1131001,
@@ -669,38 +330,18 @@
         "ja": "指定した敵単体に装甲「サム」の攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/11310_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo leve a um inimigo.",
+        "en": "Deals minor Fire DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量火属性伤害。",
+        "ja": "敵単体に少量の炎属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1131002,
@@ -720,97 +361,33 @@
         "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 소모해 자신의 에너지 최대치의 #3[i]%만큼 에너지를 고정으로 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다. 현재 HP가 부족하면 전투 스킬 발동 시 기갑 「샘」의 현재 HP가 1pt로 감소한다. 자신의 다음번 행동 게이지를 #4[i]% 증가시킨다"
       },
       "params": [
-        [
-          1,
-          0.4,
-          0.5,
-          0.25
-        ],
-        [
-          1.1,
-          0.4,
-          0.51,
-          0.25
-        ],
-        [
-          1.2,
-          0.4,
-          0.52,
-          0.25
-        ],
-        [
-          1.3,
-          0.4,
-          0.53,
-          0.25
-        ],
-        [
-          1.4,
-          0.4,
-          0.54,
-          0.25
-        ],
-        [
-          1.5,
-          0.4,
-          0.55,
-          0.25
-        ],
-        [
-          1.625,
-          0.4,
-          0.5625,
-          0.25
-        ],
-        [
-          1.75,
-          0.4,
-          0.575,
-          0.25
-        ],
-        [
-          1.875,
-          0.4,
-          0.5875,
-          0.25
-        ],
-        [
-          2,
-          0.4,
-          0.6,
-          0.25
-        ],
-        [
-          2.1,
-          0.4,
-          0.61,
-          0.25
-        ],
-        [
-          2.2,
-          0.4,
-          0.62,
-          0.25
-        ],
-        [
-          2.3,
-          0.4,
-          0.63,
-          0.25
-        ],
-        [
-          2.4,
-          0.4,
-          0.64,
-          0.25
-        ],
-        [
-          2.5,
-          0.4,
-          0.65,
-          0.25
-        ]
-      ]
+        [1, 0.4, 0.5, 0.25],
+        [1.1, 0.4, 0.51, 0.25],
+        [1.2, 0.4, 0.52, 0.25],
+        [1.3, 0.4, 0.53, 0.25],
+        [1.4, 0.4, 0.54, 0.25],
+        [1.5, 0.4, 0.55, 0.25],
+        [1.625, 0.4, 0.5625, 0.25],
+        [1.75, 0.4, 0.575, 0.25],
+        [1.875, 0.4, 0.5875, 0.25],
+        [2, 0.4, 0.6, 0.25],
+        [2.1, 0.4, 0.61, 0.25],
+        [2.2, 0.4, 0.62, 0.25],
+        [2.3, 0.4, 0.63, 0.25],
+        [2.4, 0.4, 0.64, 0.25],
+        [2.5, 0.4, 0.65, 0.25]
+      ],
+      "icon": "icon/skill/11310_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome uma parte dos PV desta unidade para regenerar Energia. Causa Dano de Fogo a um único inimigo. Faz com que a próxima ação do personagem seja Avançada Adiante.",
+        "en": "Consumes a portion of this unit's own HP to regenerate Energy. Deals Fire DMG to one enemy. Advances this unit's next Action.",
+        "zh-CN": "消耗自身部分生命值恢复能量，对敌方单体造成火属性伤害。使自身下一次行动提前。",
+        "ja": "自身のHPを一部消費してEPを回復し、指定した敵単体に炎属性ダメージを与える。自身の次の行動順を早める。",
+        "ko": "자신의 일부 HP를 소모해 에너지를 회복하고, 단일 적에게 화염 속성 피해를 가한다. 자신의 다음번 행동 게이지를 증가시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1131003,
@@ -830,97 +407,33 @@
         "ko": "「완전연소」 상태에 진입하고 자신의 행동 게이지가 100% 증가하며, 일반 공격 강화 및 전투 스킬 강화를 획득한다. 「완전연소」 상태에서는 속도가 #3[i]pt 증가하며, 강화된 일반 공격 및 강화된 전투 스킬 발동 시 자신의 약점 격파 효율이 #2[i]% 증가하고, 적이 기갑 「샘」으로부터 받는 격파 피해가 #1[f1]% 증가하며, 이번 공격이 끝날 때까지 지속된다.\n행동 서열에 「완전연소」 카운트다운이 나타나고, 카운트다운 턴 시작 시 기갑 「샘」이 「완전연소」 상태를 해제한다. 카운트다운이 보유한 고정 속도는 #4[i]이다.\n기갑 「샘」은 「완전연소」 상태에서 필살기를 발동할 수 없다"
       },
       "params": [
-        [
-          0.1,
-          0.5,
-          30,
-          70
-        ],
-        [
-          0.11,
-          0.5,
-          33,
-          70
-        ],
-        [
-          0.12,
-          0.5,
-          36,
-          70
-        ],
-        [
-          0.13,
-          0.5,
-          39,
-          70
-        ],
-        [
-          0.14,
-          0.5,
-          42,
-          70
-        ],
-        [
-          0.15,
-          0.5,
-          45,
-          70
-        ],
-        [
-          0.1625,
-          0.5,
-          48.75,
-          70
-        ],
-        [
-          0.175,
-          0.5,
-          52.5,
-          70
-        ],
-        [
-          0.1875,
-          0.5,
-          56.25,
-          70
-        ],
-        [
-          0.2,
-          0.5,
-          60,
-          70
-        ],
-        [
-          0.21,
-          0.5,
-          63,
-          70
-        ],
-        [
-          0.22,
-          0.5,
-          66,
-          70
-        ],
-        [
-          0.23,
-          0.5,
-          69,
-          70
-        ],
-        [
-          0.24,
-          0.5,
-          72,
-          70
-        ],
-        [
-          0.25,
-          0.5,
-          75,
-          70
-        ]
-      ]
+        [0.1, 0.5, 30, 70],
+        [0.11, 0.5, 33, 70],
+        [0.12, 0.5, 36, 70],
+        [0.13, 0.5, 39, 70],
+        [0.14, 0.5, 42, 70],
+        [0.15, 0.5, 45, 70],
+        [0.1625, 0.5, 48.75, 70],
+        [0.175, 0.5, 52.5, 70],
+        [0.1875, 0.5, 56.25, 70],
+        [0.2, 0.5, 60, 70],
+        [0.21, 0.5, 63, 70],
+        [0.22, 0.5, 66, 70],
+        [0.23, 0.5, 69, 70],
+        [0.24, 0.5, 72, 70],
+        [0.25, 0.5, 75, 70]
+      ],
+      "icon": "icon/skill/11310_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Entra no estado de \"Combustão Completa\". A ação de SAM é Avançada Adiante em 100%, ganha ATQ Básico Aprimorado e Perícia Aprimorada. Aumenta a VEL e a Eficiência de Quebra de Fraqueza desta unidade, e aumenta o Dano de Quebra recebido pelos inimigos-alvo, durando até o fim da contagem regressiva.",
+        "en": "Enters the Complete Combustion state. Advances this unit's Action by 100%. Gains Enhanced Basic ATK and Enhanced Skill. Increases this unit's SPD, Weakness Break Efficiency, and the Break DMG received by the enemy targets, lasting until the countdown ends.",
+        "zh-CN": "进入「完全燃烧」状态，使自身行动提前100%，获得强化普攻和强化战技，并提高自身速度、弱点击破效率和敌方目标受到的击破伤害，直至倒计时结束。",
+        "ja": "「完全燃焼」状態に入り、自身の行動順を100%早める。強化通常攻撃と強化戦闘スキルを獲得し、カウントダウンが終了するまで自身の速度、弱点撃破効率、敵の受ける弱点撃破ダメージをアップする。",
+        "ko": "「완전연소」 상태에 진입하고 자신의 행동 게이지를 100% 증가시킨다. 일반 공격 강화 및 전투 스킬 강화를 획득하고, 자신의 속도, 약점 격파 효율, 적이 받는 격파 피해가 증가하며, 카운트다운이 종료될 때까지 지속된다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1131004,
@@ -940,109 +453,48 @@
         "ko": "HP가 낮을수록 받는 피해가 감소한다. HP가 #3[i]% 이하일 경우 피해 감소 효과가 최대치에 도달하며, 최대 #1[i]% 감소한다. 「완전연소」 상태에서는 피해 감소 효과가 최대치를 유지하며, 효과 저항이 #4[i]% 증가한다.\n전투 시작 시 에너지가 #2[i]% 미만일 경우 에너지를 #2[i]%까지 회복한다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과가 해제된다"
       },
       "params": [
-        [
-          0.2,
-          0.5,
-          0.2,
-          0.1
-        ],
-        [
-          0.22,
-          0.5,
-          0.2,
-          0.12
-        ],
-        [
-          0.24,
-          0.5,
-          0.2,
-          0.14
-        ],
-        [
-          0.26,
-          0.5,
-          0.2,
-          0.16
-        ],
-        [
-          0.28,
-          0.5,
-          0.2,
-          0.18
-        ],
-        [
-          0.3,
-          0.5,
-          0.2,
-          0.2
-        ],
-        [
-          0.325,
-          0.5,
-          0.2,
-          0.225
-        ],
-        [
-          0.35,
-          0.5,
-          0.2,
-          0.25
-        ],
-        [
-          0.375,
-          0.5,
-          0.2,
-          0.275
-        ],
-        [
-          0.4,
-          0.5,
-          0.2,
-          0.3
-        ],
-        [
-          0.42,
-          0.5,
-          0.2,
-          0.32
-        ],
-        [
-          0.44,
-          0.5,
-          0.2,
-          0.34
-        ],
-        [
-          0.46,
-          0.5,
-          0.2,
-          0.36
-        ],
-        [
-          0.48,
-          0.5,
-          0.2,
-          0.38
-        ],
-        [
-          0.5,
-          0.5,
-          0.2,
-          0.4
-        ]
-      ]
+        [0.2, 0.5, 0.2, 0.1],
+        [0.22, 0.5, 0.2, 0.12],
+        [0.24, 0.5, 0.2, 0.14],
+        [0.26, 0.5, 0.2, 0.16],
+        [0.28, 0.5, 0.2, 0.18],
+        [0.3, 0.5, 0.2, 0.2],
+        [0.325, 0.5, 0.2, 0.225],
+        [0.35, 0.5, 0.2, 0.25],
+        [0.375, 0.5, 0.2, 0.275],
+        [0.4, 0.5, 0.2, 0.3],
+        [0.42, 0.5, 0.2, 0.32],
+        [0.44, 0.5, 0.2, 0.34],
+        [0.46, 0.5, 0.2, 0.36],
+        [0.48, 0.5, 0.2, 0.38],
+        [0.5, 0.5, 0.2, 0.4]
+      ],
+      "icon": "icon/skill/11310_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quanto menores os PV, menor o Dano recebido. Durante o estado de \"Combustão Completa\", a redução de Dano permanece em seu efeito máximo, e a RES a Efeitos aumenta. Se a Energia estiver abaixo de 50% quando a batalha começar, a Energia será regenerada até 50%. Quando a Energia for regenerada ao máximo, todas as penalidades desta unidade serão removidas.",
+        "en": "The lower the HP, the less DMG received. During the Complete Combustion state, the DMG Reduction effect remains at its maximum extent and Effect RES is increased. If Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.",
+        "zh-CN": "生命值越低受到的伤害越低。「完全燃烧」状态下减伤效果维持最大值，效果抵抗提高。战斗开始时若能量不足50%则使其恢复至50%。当能量恢复至上限时解除自身所有负面效果。",
+        "ja": "残りHPが少ないほど受けるダメージがダウンする。「完全燃焼」状態の時、ダメージ軽減効果は最大値を維持し、効果抵抗がアップする。戦闘開始時、EPが50%未満の場合、EPを50%まで回復する。EPが満タンになる時、自身にあるデバフをすべて解除する。",
+        "ko": "HP가 낮을수록 받는 피해가 감소한다. 「완전연소」 상태에서는 피해 감소 효과가 최대치를 유지하며, 효과 저항이 증가한다. 전투 시작 시 에너지가 50% 미만이면 에너지가 50%까지 회복된다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과가 해제된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
     },
     {
       "id": 1131006,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/11310_basic_atk2.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -1067,13 +519,17 @@
         "ja": "空中に跳び上がり、自由に移動する、#1[i]秒間継続。継続時間終了後、落下攻撃を行い、一定範囲内のすべての敵を攻撃する。継続時間中に攻撃を行うと、直ちに落下攻撃を行うことができる。各ウェーブ開始時、敵全体に炎属性弱点を付与する、#3[i]ターン継続。その後、敵全体に装甲「サム」の攻撃力#2[i]%分の炎属性ダメージを与える。",
         "ko": "공중으로 도약해 #1[i]초 동안 자유롭게 이동하며, 이때 낙하 공격을 발동하면 지속 시간을 조기 종료한다. 지속 시간이 종료되면 낙하해 즉시 일정 범위 내 모든 적을 공격하고, 매 웨이브 시작 시 모든 적에게 화염 속성 약점을 추가한다, 지속 시간: #3[i]턴. 이후 모든 적에게 기갑 「샘」 공격력의 #2[i]%만큼 화염 속성 피해를 가한다"
       },
-      "params": [
-        [
-          5,
-          2,
-          2
-        ]
-      ]
+      "params": [[5, 2, 2]],
+      "icon": "icon/skill/11310_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Salta no ar e se move livremente. Após alguns segundos de movimento, mergulha e ataca todos os inimigos dentro do alcance. No início de cada onda, aplica Fraqueza contra Fogo a todos os inimigos e causa Dano de Fogo a eles.",
+        "en": "Leaps into the air and moves about freely. After a few seconds of movement, plunges and attacks all enemies within range. At the start of each wave, applies a Fire Weakness to all enemies and deals Fire DMG to them.",
+        "zh-CN": "跳跃至空中并自由移动，移动数秒后下落并攻击范围内的所有敌人，每个波次开始时为敌方全体添加火属性弱点，并对敌方全体造成火属性伤害。",
+        "ja": "空中に跳び上がって自由に移動する。数秒移動した後、着地して範囲内のすべての敵を攻撃する。各ウェーブ開始時、敵全体に炎属性弱点を付与し、敵全体に炎属性ダメージを与える。",
+        "ko": "공중으로 도약해 자유롭게 이동하며, 수초 이동 후 낙하해 범위 내 모든 적을 공격한다. 매 웨이브 시작 시 모든 적에게 화염 속성 약점을 추가하고, 모든 적에게 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 1131008,
@@ -1093,47 +549,28 @@
         "ko": "자신의 HP 최대치의 #2[i]%만큼 HP를 회복한다. 지정된 단일 적에게 기갑 「샘」 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
       },
       "params": [
-        [
-          1,
-          0.2
-        ],
-        [
-          1.2,
-          0.2
-        ],
-        [
-          1.4,
-          0.2
-        ],
-        [
-          1.6,
-          0.2
-        ],
-        [
-          1.8,
-          0.2
-        ],
-        [
-          2,
-          0.2
-        ],
-        [
-          2.2,
-          0.2
-        ],
-        [
-          2.4,
-          0.2
-        ],
-        [
-          2.6,
-          0.2
-        ],
-        [
-          2.8,
-          0.2
-        ]
-      ]
+        [1, 0.2],
+        [1.2, 0.2],
+        [1.4, 0.2],
+        [1.6, 0.2],
+        [1.8, 0.2],
+        [2, 0.2],
+        [2.2, 0.2],
+        [2.4, 0.2],
+        [2.6, 0.2],
+        [2.8, 0.2]
+      ],
+      "icon": "icon/skill/11310_basic_atk2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Restaura uma porção dos PV dessa unidade e causa Dano de Fogo a um único inimigo.",
+        "en": "Restores a portion of this unit's own HP and deals Fire DMG to one enemy.",
+        "zh-CN": "回复自身部分生命值，对敌方单体造成火属性伤害。",
+        "ja": "自身のHPを回復し、敵単体に炎属性ダメージを与える。",
+        "ko": "자신의 HP를 일부 회복하고 단일 적에게 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1131009,
@@ -1153,157 +590,33 @@
         "ko": "자신의 HP 최대치의 25%만큼 HP를 회복한다. 지정된 단일 적 및 인접한 목표에게 화염 속성 약점을 부여한다, 지속 시간: 2턴. 해당 목표에게 기갑 「샘」 공격력의 (#5[f1]x격파 특수효과+#1[f1]%)만큼 화염 속성 피해를 가하고, 인접한 목표에게 기갑 「샘」 공격력의 (#6[f1]x격파 특수효과+#2[f1]%)만큼 화염 속성 피해를 가한다. 격파 특수효과는 최대 #7[i]%까지 계산한다"
       },
       "params": [
-        [
-          1,
-          0.5,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.1,
-          0.55,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.2,
-          0.6,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.3,
-          0.65,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.4,
-          0.7,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.5,
-          0.75,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.625,
-          0.8125,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.75,
-          0.875,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          1.875,
-          0.9375,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          2,
-          1,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          2.1,
-          1.05,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          2.2,
-          1.1,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          2.3,
-          1.15,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          2.4,
-          1.2,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ],
-        [
-          2.5,
-          1.25,
-          0,
-          0,
-          0.2,
-          0.1,
-          3.6,
-          0
-        ]
-      ]
+        [1, 0.5, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.1, 0.55, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.2, 0.6, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.3, 0.65, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.4, 0.7, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.5, 0.75, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.625, 0.8125, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.75, 0.875, 0, 0, 0.2, 0.1, 3.6, 0],
+        [1.875, 0.9375, 0, 0, 0.2, 0.1, 3.6, 0],
+        [2, 1, 0, 0, 0.2, 0.1, 3.6, 0],
+        [2.1, 1.05, 0, 0, 0.2, 0.1, 3.6, 0],
+        [2.2, 1.1, 0, 0, 0.2, 0.1, 3.6, 0],
+        [2.3, 1.15, 0, 0, 0.2, 0.1, 3.6, 0],
+        [2.4, 1.2, 0, 0, 0.2, 0.1, 3.6, 0],
+        [2.5, 1.25, 0, 0, 0.2, 0.1, 3.6, 0]
+      ],
+      "icon": "icon/skill/11310_skill2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Restaura uma parte dos PV desta unidade. Adiciona Fraqueza contra Fogo a um inimigo e seus alvos adjacentes. Causa Dano de Fogo massivo a este alvo e Dano de Fogo aos alvos adjacentes.",
+        "en": "Restores a portion of this unit's own HP. Adds Fire Weakness to one enemy and its adjacent targets. Deals massive Fire DMG to this target and Fire DMG to adjacent targets.",
+        "zh-CN": "回复自身部分生命值，为敌方单体及相邻目标添加火属性弱点，并对其造成大量火属性伤害，对相邻目标造成火属性伤害。",
+        "ja": "自身のHPを回復する。敵単体および隣接する敵に炎属性弱点を付与し、大量の炎属性ダメージを与え、隣接する敵に炎属性ダメージを与える。",
+        "ko": "자신의 HP를 일부 회복한다. 단일 적 및 인접한 목표에게 화염 속성 약점을 부여하고, 해당 적에게 대량의 화염 속성 피해를 가하며, 인접한 목표에게 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -1322,7 +635,10 @@
         "zh-CN": "施放强化战技时无视目标15%的防御，且强化战技不消耗战技点。",
         "ja": "強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動する時、ターゲットの防御力を15%無視し、SPを消費しない。",
         "ko": "강화된 전투 스킬 발동 시 목표의 방어력을 15% 무시하고, 강화된 전투 스킬은 전투 스킬 포인트를 소모하지 않는다"
-      }
+      },
+      "icon": "icon/skill/1310_rank1.png",
+      "materials": [{ "id": 11310, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -1339,7 +655,10 @@
         "zh-CN": "「完全燃烧」状态下施放强化普攻、强化战技消灭敌方目标或使目标陷入弱点击破状态时，装甲「萨姆」立即获得1个额外回合。该效果在1回合后可再次触发。",
         "ja": "「完全燃焼」状態で強化通常攻撃「ファイアフライ-IV-底火斬撃」か強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動して敵を倒す、または敵を弱点撃破状態にする時、装甲「サム」が追加ターンを1獲得する。この効果は1ターン後に再度発動できる。",
         "ko": "「완전연소」 상태에서 강화된 일반 공격, 강화된 전투 스킬을 발동해 적을 처치하거나 적을 약점 격파 상태에 빠트릴 시 기갑 「샘」이 즉시 보너스 턴을 1개 획득한다. 해당 효과는 1턴 후 다시 발동할 수 있다"
-      }
+      },
+      "icon": "icon/skill/1310_rank2.png",
+      "materials": [{ "id": 11310, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -1356,7 +675,15 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1310_skill.png",
+      "materials": [{ "id": 11310, "num": 1 }],
+      "levelUpSkills": [
+        { "id": 131002, "num": 2 },
+        { "id": 131001, "num": 1 },
+        { "id": 131009, "num": 2 },
+        { "id": 131008, "num": 1 }
+      ]
     },
     {
       "rank": 4,
@@ -1373,7 +700,10 @@
         "zh-CN": "「完全燃烧」状态下，装甲「萨姆」的效果抵抗提高50%。",
         "ja": "「完全燃焼」状態の時、装甲「サム」の効果抵抗+50%。",
         "ko": "「완전연소」 상태일 때 기갑 「샘」의 효과 저항이 50% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1310_rank4.png",
+      "materials": [{ "id": 11310, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -1390,7 +720,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1310_ultimate.png",
+      "materials": [{ "id": 11310, "num": 1 }],
+      "levelUpSkills": [{ "id": 131003, "num": 2 }, { "id": 131004, "num": 2 }]
     },
     {
       "rank": 6,
@@ -1407,10 +740,1311 @@
         "zh-CN": "「完全燃烧」状态下装甲「萨姆」的火属性抗性穿透提高20%。施放强化普攻、强化战技时弱点击破效率提高50%。",
         "ja": "「完全燃焼」状態の時、装甲「サム」の炎属性耐性貫通+20%。強化通常攻撃「ファイアフライ-IV-底火斬撃」または強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動する時、弱点撃破効率+50%。",
         "ko": "「완전연소」 상태에서 기갑 「샘」의 화염 속성 저항 관통이 20% 증가한다. 강화된 일반 공격, 강화된 전투 스킬 발동 시 약점 격파 효율이 50% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1310_rank6.png",
+      "materials": [{ "id": 11310, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 240,
+  "stats": [
+    {
+      "hp": { "base": 110.88, "step": 5.544 },
+      "atk": { "base": 71.28, "step": 3.564 },
+      "def": { "base": 105.6, "step": 5.28 },
+      "spd": { "base": 104, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 155.232, "step": 5.544 },
+      "atk": { "base": 99.792, "step": 3.564 },
+      "def": { "base": 147.84, "step": 5.28 },
+      "spd": { "base": 104, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 199.584, "step": 5.544 },
+      "atk": { "base": 128.304, "step": 3.564 },
+      "def": { "base": 190.08, "step": 5.28 },
+      "spd": { "base": 104, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 243.936, "step": 5.544 },
+      "atk": { "base": 156.816, "step": 3.564 },
+      "def": { "base": 232.32, "step": 5.28 },
+      "spd": { "base": 104, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 288.288, "step": 5.544 },
+      "atk": { "base": 185.328, "step": 3.564 },
+      "def": { "base": 274.56, "step": 5.28 },
+      "spd": { "base": 104, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 332.64, "step": 5.544 },
+      "atk": { "base": 213.84, "step": 3.564 },
+      "def": { "base": 316.8, "step": 5.28 },
+      "spd": { "base": 104, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 376.992, "step": 5.544 },
+      "atk": { "base": 242.352, "step": 3.564 },
+      "def": { "base": 359.04, "step": 5.28 },
+      "spd": { "base": 104, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 114011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 114011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 114012, "num": 6 }, { "id": 110422, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 114012, "num": 9 }, { "id": 110422, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 114013, "num": 6 }, { "id": 110422, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 114013, "num": 9 }, { "id": 110422, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1310001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1310_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [131001, 131008],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1310002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1310_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [131002, 131009],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1310003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1310_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [131003],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1310004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1310_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [131004],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1310007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1310_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [131007],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1310101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Módulo α: Explosão Anti-Lag",
+        "en": "Module α: Antilag Outburst",
+        "zh-CN": "α模组-偏时迸发",
+        "ja": "αモジュール-アンチラグバースト",
+        "ko": "α모듈-안티랙 아웃버스트"
+      },
+      "description": {
+        "pt-BR": "Durante a \"Combustão Completa\", atacar inimigos que não têm Fraqueza contra Fogo também pode reduzir sua Tenacidade, com o efeito sendo equivalente a #1[i]% da Redução de Tenacidade original das habilidades.",
+        "en": "During the Complete Combustion, attacking enemies that have no Fire Weakness can also reduce their Toughness, with the effect being equivalent to #1[i]% of the original Toughness Reduction from abilities.",
+        "zh-CN": "「完全燃烧」状态下，攻击没有火属性弱点的敌人也能削减韧性，效果等同于原技能削韧值的#1[i]%。",
+        "ja": "「完全燃焼」状態の時、炎属性弱点を持たない敵に攻撃を行う場合、本来の削靭値#1[i]%分の靭性を削る。",
+        "ko": "「완전연소」 상태에서 화염 속성 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다. 효과는 기존 스킬 강인성 감소 수치의 #1[i]%만큼이다"
+      },
+      "params": [[0.55]],
+      "icon": "icon/skill/1310_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 110505, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1310102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Módulo β: Armadura Auto-Reativa",
+        "en": "Module β: Autoreactive Armor",
+        "zh-CN": "β模组-自限装甲",
+        "ja": "βモジュール-{RUBY_B#じこせいげんそうこう}自己制限装甲{RUBY_E#}",
+        "ko": "β모듈-자기 제어 기갑"
+      },
+      "description": {
+        "pt-BR": "Quando SAM está em \"Combustão Completa\" com um Efeito de Quebra que seja igual ou maior a #1[i]%/#2[i]%, atacar um inimigo-alvo afligido com Quebra de Fraqueza converterá a Redução de Tenacidade deste ataque em 1 instância de #3[i]%/#4[i]% Super Dano de Quebra.",
+        "en": "When SAM is in Complete Combustion with a Break Effect that is equal to or greater than #1[i]%/#2[i]%, attacking a Weakness-Broken enemy target will convert the Toughness Reduction of this attack into 1 instance of #3[i]%/#4[i]% Super Break DMG.",
+        "zh-CN": "「完全燃烧」状态下，当装甲「萨姆」的击破特攻大于等于#1[i]%/#2[i]%时，攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次#3[i]%/#4[i]%的超击破伤害。",
+        "ja": "「完全燃焼」状態の時、装甲「サム」の撃破特効が#1[i]%/#2[i]%以上の場合、弱点撃破状態の敵に攻撃を行った後、その回の攻撃の削靭値を#3[i]%/#4[i]%分の超撃破ダメージに転換する。",
+        "ko": "「완전연소」 상태에서 기갑 「샘」의 격파 특수효과가 #1[i]%/#2[i]% 이상일 시, 약점 격파 상태의 적을 공격하면 이번 공격의 강인성 감소 수치가 #3[i]%/#4[i]%의 슈퍼 격파 피해 1회로 전환된다"
+      },
+      "params": [[2, 3.6, 0.35, 0.5]],
+      "icon": "icon/skill/1310_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110182, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1310103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Módulo γ: Sobrecarga Nuclear",
+        "en": "Module γ: Core Overload",
+        "zh-CN": "γ模组-过载核心",
+        "ja": "γモジュール-{RUBY_B#かふか}過負荷{RUBY_E#}コア",
+        "ko": "γ모듈-과부하 코어"
+      },
+      "description": {
+        "pt-BR": "Para cada #2[i] ponto(s) do ATQ de SAM que exceda #1[i], o Efeito de Quebra da unidade aumenta em #3[f1]%.",
+        "en": "For every #2[i] point(s) of SAM's ATK that exceeds #1[i], increases this unit's Break Effect by #3[f1]%.",
+        "zh-CN": "若装甲「萨姆」的攻击力高于#1[i]点，每超过#2[i]点攻击力可使自身击破特攻提高#3[f1]%。",
+        "ja": "装甲「サム」の攻撃力が#1[i]を超えた場合、超過した攻撃力#2[i]につき、自身の撃破特効+#3[f1]%。",
+        "ko": "기갑 「샘」의 공격력이 #1[i]pt보다 높으면 초과한 공격력 #2[i]pt당 자신의 격파 특수효과가 #3[f1]% 증가한다"
+      },
+      "params": [[1800, 10, 0.008]],
+      "icon": "icon/skill/1310_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1310201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1310202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1310101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1310203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1310202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1310204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1310203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1310205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1310102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1310206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1310205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1310207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1310206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1310208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1310103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1310209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1310208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1310210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1310208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 11310001,
+      "anchor": "Point01",
+      "icon": "icon/skill/11310_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [1131001, 1131008],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 11310002,
+      "anchor": "Point02",
+      "icon": "icon/skill/11310_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [1131002, 1131009],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11310003,
+      "anchor": "Point03",
+      "icon": "icon/skill/11310_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [1131003],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11310004,
+      "anchor": "Point04",
+      "icon": "icon/skill/11310_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [1131004],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110182, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110183, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110183, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11310007,
+      "anchor": "Point05",
+      "icon": "icon/skill/11310_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [1131007],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 11310101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Módulo α: Explosão Anti-Lag",
+        "en": "Module α: Antilag Outburst",
+        "zh-CN": "α模组-偏时迸发",
+        "ja": "αモジュール-アンチラグバースト",
+        "ko": "α모듈-안티랙 아웃버스트"
+      },
+      "description": {
+        "pt-BR": "Enquanto está no estado de \"Combustão Completa\", o Efeito de Quebra de SAM aumenta em #1[i]%. Ao usar ATQ Básico Aprimorado ou Perícia Aprimorada para infligir Quebra de Fraqueza em um alvo, a contagem regressiva de \"Combustão Completa\" na Ordem de Ação é atrasada em #2[i]%. Esse efeito pode ser ativado no máximo #3[i] vez(es) durante cada estado de \"Combustão Completa\".",
+        "en": "While in the Complete Combustion state, SAM's Break Effect increases by #1[i]%. When using Enhanced Basic ATK or Enhanced Skill to inflict Weakness Break on a target, the Complete Combustion countdown is delayed by #2[i]%. This effect can trigger a maximum of #3[i] time(s) during each Complete Combustion state.",
+        "zh-CN": "「完全燃烧」状态下，装甲「萨姆」的击破特攻提高#1[i]%，施放强化普攻、强化战技使目标陷入弱点击破状态时，「完全燃烧」倒计时行动延后#2[i]%，该效果在每次「完全燃烧」状态期间最多触发#3[i]次。",
+        "ja": "「完全燃焼」状態の時、装甲「サム」の撃破特効+#1[i]%。強化通常攻撃「ファイアフライ-IV-底火斬撃」または強化戦闘スキル「ファイアフライ-IV-死星オーバーロード」を発動して敵を弱点撃破状態にした時、「完全燃焼」のカウントダウンの行動順を#2[i]%遅延させる。この効果は1度の「完全燃焼」状態で、最大#3[i]回まで発動できる。",
+        "ko": "「완전연소」 상태에서 기갑 「샘」의 격파 특수효과가 #1[i]% 증가하고, 강화된 일반 공격, 강화된 전투 스킬을 발동해 목표를 약점 격파 상태에 빠트리면 「완전연소」 카운트다운의 행동 게이지가 #2[i]% 감소하며, 해당 효과는 「완전연소」 상태마다 최대 #3[i]회 발동한다"
+      },
+      "params": [[0.25, 0.1, 3]],
+      "icon": "icon/skill/11310_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 110505, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 11310102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Módulo β: Armadura Auto-Reativa",
+        "en": "Module β: Autoreactive Armor",
+        "zh-CN": "β模组-自限装甲",
+        "ja": "βモジュール-{RUBY_B#じこせいげんそうこう}自己制限装甲{RUBY_E#}",
+        "ko": "β모듈-자기 제어 기갑"
+      },
+      "description": {
+        "pt-BR": "Quando SAM está no estado de \"Combustão Completa\" com um Efeito de Quebra que seja igual ou maior a #1[i]%/#2[i]%, atacar um inimigo-alvo afligido com Quebra de Fraqueza converterá a Redução de Tenacidade deste ataque em 1 instância de #3[i]%/#4[i]% de Super Dano de Quebra.",
+        "en": "When SAM is in Complete Combustion with a Break Effect that is equal to or greater than #1[i]%/#2[i]%, attacking a Weakness-Broken enemy target will convert the Toughness Reduction of this attack into 1 instance of #3[i]%/#4[i]% Super Break DMG.",
+        "zh-CN": "「完全燃烧」状态下，当装甲「萨姆」的击破特攻大于等于#1[i]%/#2[i]%时，攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧值转化为1次#3[i]%/#4[i]%的超击破伤害。",
+        "ja": "「完全燃焼」状態の時、装甲「サム」の撃破特効が#1[i]%/#2[i]%以上の場合、弱点撃破状態の敵に攻撃を行った後、その回の攻撃の削靭値を#3[i]%/#4[i]%分の超撃破ダメージに転換する。",
+        "ko": "「완전연소」 상태에서 기갑 「샘」의 격파 특수효과가 #1[i]%/#2[i]% 이상일 시, 약점 격파 상태의 적을 공격하면 이번 공격의 강인성 감소 수치가 #3[i]%/#4[i]%의 슈퍼 격파 피해 1회로 전환된다"
+      },
+      "params": [[1.5, 3, 1, 1.5]],
+      "icon": "icon/skill/11310_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110182, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11310103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Módulo γ: Sobrecarga Nuclear",
+        "en": "Module γ: Core Overload",
+        "zh-CN": "γ模组-过载核心",
+        "ja": "γモジュール-{RUBY_B#かふか}過負荷{RUBY_E#}コア",
+        "ko": "γ모듈-과부하 코어"
+      },
+      "description": {
+        "pt-BR": "Para cada #2[i] ponto(s) do ATQ de SAM que exceda #1[i], o Efeito de Quebra da unidade aumenta em #3[f1]%.",
+        "en": "For every #2[i] point(s) of SAM's ATK that exceeds #1[i], increases this unit's Break Effect by #3[f1]%.",
+        "zh-CN": "若装甲「萨姆」的攻击力高于#1[i]点，每超过#2[i]点攻击力可使自身击破特攻提高#3[f1]%。",
+        "ja": "装甲「サム」の攻撃力が#1[i]を超えた場合、超過した攻撃力#2[i]につき、自身の撃破特効+#3[f1]%。",
+        "ko": "기갑 「샘」의 공격력이 #1[i]pt보다 높으면 초과한 공격력 #2[i]pt당 자신의 격파 특수효과가 #3[f1]% 증가한다"
+      },
+      "params": [[1800, 10, 0.008]],
+      "icon": "icon/skill/11310_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110183, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11310201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 11310202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [11310101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110181, "num": 3 }, { "id": 114011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 11310203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [11310202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11310204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [11310203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110182, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11310205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [11310102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110182, "num": 5 }, { "id": 114012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 11310206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [11310205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11310207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [11310206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110183, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 11310208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [11310103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 11310209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [11310208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 11310210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [11310208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110183, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11310, 110181, 110182, 110183, 110422, 110505, 114011, 114012, 114013],
   "images": {
     "icon": "icon/character/1310.png",
     "preview": "image/character_preview/1310.png",

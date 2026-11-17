@@ -1,13 +1,7 @@
 {
   "id": 1106,
   "slug": "pela",
-  "name": {
-    "pt-BR": "Pela",
-    "en": "Pela",
-    "zh-CN": "佩拉",
-    "ja": "ペラ",
-    "ko": "페라"
-  },
+  "name": { "pt-BR": "Pela", "en": "Pela", "zh-CN": "佩拉", "ja": "ペラ", "ko": "페라" },
   "rarity": 4,
   "path": "Nihility",
   "element": "Ice",
@@ -17,13 +11,7 @@
     {
       "id": 110601,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Tiro Gélido",
-        "en": "Frost Shot",
-        "zh-CN": "冰点射击",
-        "ja": "氷点狙撃",
-        "ko": "빙점 사격"
-      },
+      "name": { "pt-BR": "Tiro Gélido", "en": "Frost Shot", "zh-CN": "冰点射击", "ja": "氷点狙撃", "ko": "빙점 사격" },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Pela a um único inimigo-alvo.",
         "en": "Deals Ice DMG equal to #1[i]% of Pela's ATK to one designated enemy target.",
@@ -31,49 +19,23 @@
         "ja": "指定した敵単体にペラの攻撃力#1[i]%分の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 페라 공격력 #1[i]%만큼의 얼음 속성 피해를 준다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1106_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Gelo leve a um único inimigo.",
+        "en": "Deals minor Ice DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量冰属性伤害。",
+        "ja": "敵単体に少量の氷属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110602,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Geladura",
-        "en": "Frostbite",
-        "zh-CN": "低温妨害",
-        "ja": "低温妨害",
-        "ko": "저온 방해"
-      },
+      "name": { "pt-BR": "Geladura", "en": "Frostbite", "zh-CN": "低温妨害", "ja": "低温妨害", "ko": "저온 방해" },
       "description": {
         "pt-BR": "Remove #2[i] melhoria(s) e causa Dano de Gelo equivalente a #1[i]% do ATQ de Pela a um inimigo-alvo designado.",
         "en": "Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to one designated target enemy.",
@@ -82,67 +44,33 @@
         "ko": "지정된 단일 적의 버프 효과 #2[i]개를 해제하고, 페라 공격력 #1[i]%만큼의 얼음 속성 피해를 준다"
       },
       "params": [
-        [
-          1.05,
-          1
-        ],
-        [
-          1.155,
-          1
-        ],
-        [
-          1.26,
-          1
-        ],
-        [
-          1.365,
-          1
-        ],
-        [
-          1.47,
-          1
-        ],
-        [
-          1.575,
-          1
-        ],
-        [
-          1.7063,
-          1
-        ],
-        [
-          1.8375,
-          1
-        ],
-        [
-          1.9688,
-          1
-        ],
-        [
-          2.1,
-          1
-        ],
-        [
-          2.205,
-          1
-        ],
-        [
-          2.31,
-          1
-        ],
-        [
-          2.415,
-          1
-        ],
-        [
-          2.52,
-          1
-        ],
-        [
-          2.625,
-          1
-        ]
-      ]
+        [1.05, 1],
+        [1.155, 1],
+        [1.26, 1],
+        [1.365, 1],
+        [1.47, 1],
+        [1.575, 1],
+        [1.7063, 1],
+        [1.8375, 1],
+        [1.9688, 1],
+        [2.1, 1],
+        [2.205, 1],
+        [2.31, 1],
+        [2.415, 1],
+        [2.52, 1],
+        [2.625, 1]
+      ],
+      "icon": "icon/skill/1106_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Remove 1 melhoria de um único inimigo-alvo e causa Dano de Gelo ao inimigo-alvo.",
+        "en": "Dispels 1 buff from one enemy target, and deals Ice DMG to the target enemy.",
+        "zh-CN": "解除敌方单体1个增益效果，对敌方单体造成冰属性伤害。",
+        "ja": "敵単体のバフを1つ解除し、敵単体に氷属性ダメージを与える。",
+        "ko": "단일 적의 버프 효과를 1개 해제하고, 단일 적에게 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110603,
@@ -162,97 +90,33 @@
         "ko": "#1[i]%의 기본 확률로 각 단일 적을 [분석] 상태에 빠트리는 동시에 모든 적에게 페라 공격력 #4[i]%만큼의 얼음 속성 피해를 가한다.\n[분석] 상태의 적은 방어력이 #2[i]% 감소한다. 지속 시간: #3[i]턴"
       },
       "params": [
-        [
-          1,
-          0.3,
-          2,
-          0.6
-        ],
-        [
-          1,
-          0.31,
-          2,
-          0.64
-        ],
-        [
-          1,
-          0.32,
-          2,
-          0.68
-        ],
-        [
-          1,
-          0.33,
-          2,
-          0.72
-        ],
-        [
-          1,
-          0.34,
-          2,
-          0.76
-        ],
-        [
-          1,
-          0.35,
-          2,
-          0.8
-        ],
-        [
-          1,
-          0.3625,
-          2,
-          0.85
-        ],
-        [
-          1,
-          0.375,
-          2,
-          0.9
-        ],
-        [
-          1,
-          0.3875,
-          2,
-          0.95
-        ],
-        [
-          1,
-          0.4,
-          2,
-          1
-        ],
-        [
-          1,
-          0.41,
-          2,
-          1.04
-        ],
-        [
-          1,
-          0.42,
-          2,
-          1.08
-        ],
-        [
-          1,
-          0.43,
-          2,
-          1.12
-        ],
-        [
-          1,
-          0.44,
-          2,
-          1.16
-        ],
-        [
-          1,
-          0.45,
-          2,
-          1.2
-        ]
-      ]
+        [1, 0.3, 2, 0.6],
+        [1, 0.31, 2, 0.64],
+        [1, 0.32, 2, 0.68],
+        [1, 0.33, 2, 0.72],
+        [1, 0.34, 2, 0.76],
+        [1, 0.35, 2, 0.8],
+        [1, 0.3625, 2, 0.85],
+        [1, 0.375, 2, 0.9],
+        [1, 0.3875, 2, 0.95],
+        [1, 0.4, 2, 1],
+        [1, 0.41, 2, 1.04],
+        [1, 0.42, 2, 1.08],
+        [1, 0.43, 2, 1.12],
+        [1, 0.44, 2, 1.16],
+        [1, 0.45, 2, 1.2]
+      ],
+      "icon": "icon/skill/1106_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Tem altas chances de reduzir a DEF dos inimigos, além de causar Dano de Gelo leve a todos os inimigos.",
+        "en": "Has a high chance of lowering enemies' DEF and deals minor Ice DMG to all enemies.",
+        "zh-CN": "大概率使敌方目标防御力降低，并对敌方全体造成少量冰属性伤害。",
+        "ja": "高確率で敵の防御力をダウンし、敵全体に少量の氷属性ダメージを与える。",
+        "ko": "높은 확률로 적의 방어력을 감소시키고 모든 적에게 소량의 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 110604,
@@ -272,64 +136,48 @@
         "ko": "공격 발동 후 적이 디버프 효과 상태를 보유하면, 페라는 에너지 #1[f1]pt를 추가로 회복한다. 해당 효과는 공격마다 1회만 발동할 수 있다"
       },
       "params": [
-        [
-          5
-        ],
-        [
-          5.5
-        ],
-        [
-          6
-        ],
-        [
-          6.5
-        ],
-        [
-          7
-        ],
-        [
-          7.5
-        ],
-        [
-          8.125
-        ],
-        [
-          8.75
-        ],
-        [
-          9.375
-        ],
-        [
-          10
-        ],
-        [
-          10.5
-        ],
-        [
-          11
-        ],
-        [
-          11.5
-        ],
-        [
-          12
-        ],
-        [
-          12.5
-        ]
-      ]
+        [5],
+        [5.5],
+        [6],
+        [6.5],
+        [7],
+        [7.5],
+        [8.125],
+        [8.75],
+        [9.375],
+        [10],
+        [10.5],
+        [11],
+        [11.5],
+        [12],
+        [12.5]
+      ],
+      "icon": "icon/skill/1106_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Após usar um ataque, se o inimigo-alvo estiver com alguma penalidade, Pela regenera Energia.",
+        "en": "After using an attack, if the enemy target is currently inflicted with debuff(s), Pela regenerates Energy.",
+        "zh-CN": "施放攻击后，若敌方目标处于负面效果状态，则佩拉恢复能量。",
+        "ja": "攻撃後、敵にデバフがある場合、ペラはEPを回復する。",
+        "ko": "공격 발동 후 적이 디버프 효과상태에 빠지면, 페라는 에너지를 회복한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 110606,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1106_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -354,14 +202,17 @@
         "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体にペラの攻撃力#4[i]%分の氷属性ダメージを与え、#1[i]%の基礎確率で敵単体それぞれの防御力-#2[i]%、#3[i]ターン継続。",
         "ko": "적을 바로 공격하며, 전투 진입 후 임의의 단일 적에게 페라 공격력 #4[i]%만큼의 얼음 속성 피해를 준다. 동시에 #1[i]%의 기본 확률로 각 단일 적의 방어력이 #2[i]% 감소한다. 지속 시간: #3[i]턴"
       },
-      "params": [
-        [
-          1,
-          0.2,
-          2,
-          0.8
-        ]
-      ]
+      "params": [[1, 0.2, 2, 0.8]],
+      "icon": "icon/skill/1106_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Ataca o inimigo. Após entrar na batalha, causa uma pequena quantidade de Dano a um inimigo aleatório, com alta chance de diminuir a DEF de todos os inimigos-alvo.",
+        "en": "Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of lowering the DEF of all enemy targets.",
+        "zh-CN": "攻击敌人，进战后对敌方随机单体造成少量伤害，并有大概率使敌方每个单体目标防御力降低。",
+        "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体に少量のダメージを与え、高確率で敵それぞれの防御力ダウン。",
+        "ko": "적을 공격하며, 전투 진입 후 임의의 단일 적에게 소량의 피해를 가하고, 높은 확률로 각 단일 적의 방어력이 감소한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     }
   ],
   "eidolons": [
@@ -380,7 +231,10 @@
         "zh-CN": "敌方目标被消灭时，佩拉恢复5点能量。",
         "ja": "敵が倒された時、ペラはEPを5回復する。",
         "ko": "적이 처치될 경우 페라는 에너지를 5pt 회복한다"
-      }
+      },
+      "icon": "icon/skill/1106_rank1.png",
+      "materials": [{ "id": 11106, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -397,7 +251,10 @@
         "zh-CN": "施放战技解除增益效果时，速度提高10%，持续2回合。",
         "ja": "戦闘スキルを発動してバフを解除する時、速度+10%、2ターン継続。",
         "ko": "전투 스킬을 발동해 버프 효과를 해제하면 속도가 10% 증가한다. 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1106_rank2.png",
+      "materials": [{ "id": 11106, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -414,7 +271,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1106_skill.png",
+      "materials": [{ "id": 11106, "num": 1 }],
+      "levelUpSkills": [{ "id": 110602, "num": 2 }, { "id": 110601, "num": 1 }]
     },
     {
       "rank": 4,
@@ -431,7 +291,10 @@
         "zh-CN": "施放战技时，有100%的基础概率使敌方目标冰属性抗性降低12%，持续2回合。",
         "ja": "戦闘スキルを発動した時、100%の基礎確率で敵の氷属性耐性-12%、2ターン継続。",
         "ko": "전투 스킬 발동 시 100%의 기본 확률로 적의 얼음 속성 저항이 12% 감소한다. 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1106_rank4.png",
+      "materials": [{ "id": 11106, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -448,7 +311,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1106_ultimate.png",
+      "materials": [{ "id": 11106, "num": 1 }],
+      "levelUpSkills": [{ "id": 110603, "num": 2 }, { "id": 110604, "num": 2 }]
     },
     {
       "rank": 6,
@@ -465,10 +331,679 @@
         "zh-CN": "施放攻击后，若敌方目标处于负面效果，则对其造成等同于佩拉40%攻击力的冰属性附加伤害。",
         "ja": "攻撃を行った後、敵がデバフ状態の場合、ペラの攻撃力40%分の氷属性付加ダメージを与える。",
         "ko": "공격 발동 후 적이 디버프 효과를 보유한 경우, 페라 공격력의 40%만큼 얼음 속성 추가 피해를 가한다"
-      }
+      },
+      "icon": "icon/skill/1106_rank6.png",
+      "materials": [{ "id": 11106, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 110,
+  "stats": [
+    {
+      "hp": { "base": 134.4, "step": 6.72 },
+      "atk": { "base": 74.4, "step": 3.72 },
+      "def": { "base": 63, "step": 3.15 },
+      "spd": { "base": 105, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 188.16, "step": 6.72 },
+      "atk": { "base": 104.16, "step": 3.72 },
+      "def": { "base": 88.2, "step": 3.15 },
+      "spd": { "base": 105, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 241.92, "step": 6.72 },
+      "atk": { "base": 133.92, "step": 3.72 },
+      "def": { "base": 113.4, "step": 3.15 },
+      "spd": { "base": 105, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 295.68, "step": 6.72 },
+      "atk": { "base": 163.68, "step": 3.72 },
+      "def": { "base": 138.6, "step": 3.15 },
+      "spd": { "base": 105, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 349.44, "step": 6.72 },
+      "atk": { "base": 193.44, "step": 3.72 },
+      "def": { "base": 163.8, "step": 3.15 },
+      "spd": { "base": 105, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 403.2, "step": 6.72 },
+      "atk": { "base": 223.2, "step": 3.72 },
+      "def": { "base": 189, "step": 3.15 },
+      "spd": { "base": 105, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 456.96, "step": 6.72 },
+      "atk": { "base": 252.96, "step": 3.72 },
+      "def": { "base": 214.2, "step": 3.15 },
+      "spd": { "base": 105, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 111002, "num": 5 }, { "id": 110403, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 111002, "num": 8 }, { "id": 110403, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 111003, "num": 5 }, { "id": 110403, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 111003, "num": 7 }, { "id": 110403, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1106001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1106_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [110601],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1106002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1106_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [110602],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110152, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110153, "num": 4 },
+            { "id": 110502, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 110502, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110153, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1106003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1106_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [110603],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110152, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110153, "num": 4 },
+            { "id": 110502, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 110502, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110153, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1106004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1106_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [110604],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110152, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110153, "num": 4 },
+            { "id": 110502, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 110502, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110153, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1106007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1106_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [110607],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1106101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Pancada",
+        "en": "Bash",
+        "zh-CN": "痛击",
+        "ja": "{RUBY_B#つうげき}痛撃{RUBY_E#}",
+        "ko": "통격"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% a mais de Dano a inimigos com penalidades.",
+        "en": "Deals #1[i]% more DMG to debuffed enemy targets.",
+        "zh-CN": "对处于负面效果的敌方目标造成的伤害提高#1[i]%。",
+        "ja": "デバフ状態の敵に対して与ダメージ+#1[i]%。",
+        "ko": "디버프 효과를 보유한 적에게 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.2]],
+      "icon": "icon/skill/1106_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 110502, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1106102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "A Estratégia Secreta",
+        "en": "The Secret Strategy",
+        "zh-CN": "秘策",
+        "ja": "{RUBY_B#ひさく}秘策{RUBY_E#}",
+        "ko": "비책"
+      },
+      "description": {
+        "pt-BR": "Quando Pela está no campo, a Taxa de Acerto de Efeito de todos os aliados aumenta em #1[i]%.",
+        "en": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by #1[i]%.",
+        "zh-CN": "佩拉在场时，我方全体的效果命中提高#1[i]%。",
+        "ja": "ペラがフィールド上にいる時、味方全体の効果命中+#1[i]%。",
+        "ko": "페라가 필드에 있으면 모든 아군의 효과 명중이 #1[i]% 증가한다"
+      },
+      "params": [[0.1]],
+      "icon": "icon/skill/1106_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110152, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1106103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Exterminar",
+        "en": "Wipe Out",
+        "zh-CN": "追歼",
+        "ja": "{RUBY_B#ついげきせんめつ}追撃殲滅{RUBY_E#}",
+        "ko": "추격 토벌"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia para remover melhoria(s), aumenta em #1[i]% o Dano do próximo ataque.",
+        "en": "When using Skill to dispel buff(s), increases the DMG dealt by the next attack by #1[i]%.",
+        "zh-CN": "施放战技解除增益效果时，下一次攻击造成的伤害提高#1[i]%。",
+        "ja": "戦闘スキルを発動してバフを解除した時、次の攻撃の与ダメージ+#1[i]%。",
+        "ko": "전투 스킬 발동으로 버프 효과를 해제할 시 다음 공격으로 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.2]],
+      "icon": "icon/skill/1106_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110153, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1106201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1106202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1106101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 111001, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1106203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1106202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1106204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1106203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1106205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1106102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1106206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1106205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1106207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1106206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1106208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1106103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1106209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1106103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1106210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1106201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11106, 110151, 110152, 110153, 110403, 110502, 111001, 111002, 111003],
   "images": {
     "icon": "icon/character/1106.png",
     "preview": "image/character_preview/1106.png",

@@ -31,38 +31,18 @@
         "ja": "指定した敵単体に千冶・刃の最大HP#1[i]%分の炎属性ダメージを与え、ターゲットを挑発状態にする。挑発状態は1ターン継続する。",
         "ko": "지정된 단일 적에게 천야•블레이드 HP 최대치의 #1[i]%만큼 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: 1턴"
       },
-      "params": [
-        [
-          0.25
-        ],
-        [
-          0.3
-        ],
-        [
-          0.35
-        ],
-        [
-          0.4
-        ],
-        [
-          0.45
-        ],
-        [
-          0.5
-        ],
-        [
-          0.55
-        ],
-        [
-          0.6
-        ],
-        [
-          0.65
-        ],
-        [
-          0.7
-        ]
-      ]
+      "params": [[0.25], [0.3], [0.35], [0.4], [0.45], [0.5], [0.55], [0.6], [0.65], [0.7]],
+      "icon": "icon/skill/1507_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo leve a um inimigo e inflige o estado de \"Provocação\" no alvo.",
+        "en": "Deals minor Fire DMG to one enemy and inflicts the Taunt state on the target.",
+        "zh-CN": "对敌方单体造成少量火属性伤害，并使目标陷入嘲讽状态。",
+        "ja": "敵単体に少量の炎属性ダメージを与え、ターゲットを挑発状態にする。",
+        "ko": "단일 적에게 소량의 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150702,
@@ -82,97 +62,33 @@
         "ko": "천야•블레이드 HP 최대치의 #4[f1]%만큼 HP를 소모해 모든 적에게 천야•블레이드 HP 최대치의 #1[i]%만큼 화염 속성 피해를 가하고, 추가로 피해를 #2[i]회 가한다. 피해당 랜덤 단일 적에게 천야•블레이드 HP 최대치의 #3[f1]%만큼 화염 속성 피해를 가한다.\n현재 HP가 부족할 시, 전투 스킬을 발동하면 천야•블레이드의 현재 HP가 1pt로 감소한다.\n[끝없는 분노] 상태가 아니거나 현재 HP가 1 이하일 시 천야•블레이드는 전투 스킬을 발동할 수 없다.\n전투 스킬 발동 시 전투 스킬 포인트를 소모하지 않는다"
       },
       "params": [
-        [
-          0.36,
-          4,
-          0.12,
-          0.1
-        ],
-        [
-          0.396,
-          4,
-          0.132,
-          0.1
-        ],
-        [
-          0.432,
-          4,
-          0.144,
-          0.1
-        ],
-        [
-          0.468,
-          4,
-          0.156,
-          0.1
-        ],
-        [
-          0.504,
-          4,
-          0.168,
-          0.1
-        ],
-        [
-          0.54,
-          4,
-          0.18,
-          0.1
-        ],
-        [
-          0.585,
-          4,
-          0.195,
-          0.1
-        ],
-        [
-          0.63,
-          4,
-          0.21,
-          0.1
-        ],
-        [
-          0.675,
-          4,
-          0.225,
-          0.1
-        ],
-        [
-          0.72,
-          4,
-          0.24,
-          0.1
-        ],
-        [
-          0.756,
-          4,
-          0.252,
-          0.1
-        ],
-        [
-          0.792,
-          4,
-          0.264,
-          0.1
-        ],
-        [
-          0.828,
-          4,
-          0.276,
-          0.1
-        ],
-        [
-          0.864,
-          4,
-          0.288,
-          0.1
-        ],
-        [
-          0.9,
-          4,
-          0.3,
-          0.1
-        ]
-      ]
+        [0.36, 4, 0.12, 0.1],
+        [0.396, 4, 0.132, 0.1],
+        [0.432, 4, 0.144, 0.1],
+        [0.468, 4, 0.156, 0.1],
+        [0.504, 4, 0.168, 0.1],
+        [0.54, 4, 0.18, 0.1],
+        [0.585, 4, 0.195, 0.1],
+        [0.63, 4, 0.21, 0.1],
+        [0.675, 4, 0.225, 0.1],
+        [0.72, 4, 0.24, 0.1],
+        [0.756, 4, 0.252, 0.1],
+        [0.792, 4, 0.264, 0.1],
+        [0.828, 4, 0.276, 0.1],
+        [0.864, 4, 0.288, 0.1],
+        [0.9, 4, 0.3, 0.1]
+      ],
+      "icon": "icon/skill/1507_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome PV e causa Dano de Fogo a todos os inimigos. Depois, causa Dano de Fogo leve a inimigos únicos, ricocheteando 4 vez(es).",
+        "en": "Consumes HP and deals Fire DMG to all enemies. Then, deals minor Fire DMG to single enemies, bouncing 4 time(s).",
+        "zh-CN": "消耗生命值对敌方全体造成火属性伤害，随后对敌方单体造成少量火属性伤害，弹射4次。",
+        "ja": "HPを消費し、敵全体に炎属性ダメージを与える。その後、敵単体に少量の炎属性ダメージを与え、4回バウンドする。",
+        "ko": "HP를 소모해 모든 적에게 화염 속성 피해를 가하고, 이후 단일 적에게 소량의 화염 속성 피해를 가하며, 4회 바운스한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150703,
@@ -192,157 +108,33 @@
         "ko": "모든 적을 [전신살화] 상태에 빠트린다. [전신살화] 상태의 적은 방어력이 #7[f1]% 감소하고, 받는 피해가 #4[f1]% 증가한다, 지속 시간: #8[i]턴. 이후 천야•블레이드 HP 최대치의 #1[i]%만큼 HP를 소모해 결계를 펼치며, 결계가 지속되는 동안 천야•블레이드는 [끝없는 분노] 상태를 획득한다.\n[끝없는 분노] 상태에서는 치명타 확률이 #2[i]% 증가하고, 치명타 피해가 #3[f1]% 증가하며, 일반 공격이 강화되는 동시에 전투 스킬이 해방되고 새로운 필살기 [천야로 빚어내어, 영겁토록 신멸하리]를 획득한다. 또한, 치명적인 공격을 받으면 전투 불능 상태에 빠지지 않지만, 결계를 해제하고 [끝없는 분노] 상태를 종료하며, 자신의 HP 최대치의 #6[i]%만큼 HP를 회복한다.\n[끝없는 분노] 상태 획득 시 행동 서열에 상응하는 카운트다운이 나타난다. 카운트다운은 #5[i]의 고정 속도를 가지며, 카운트다운 턴 시작 시 결계가 해제되고 [끝없는 분노] 상태가 종료된다.\n현재 HP가 부족하면, 해당 스킬 발동 시 천야•블레이드의 HP가 1pt로 감소한다"
       },
       "params": [
-        [
-          0.2,
-          0.2,
-          0.3,
-          0.3,
-          70,
-          0.5,
-          0.2,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.33,
-          0.32,
-          70,
-          0.5,
-          0.21,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.36,
-          0.34,
-          70,
-          0.5,
-          0.22,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.39,
-          0.36,
-          70,
-          0.5,
-          0.23,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.42,
-          0.38,
-          70,
-          0.5,
-          0.24,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.45,
-          0.4,
-          70,
-          0.5,
-          0.25,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.4875,
-          0.425,
-          70,
-          0.5,
-          0.2625,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.525,
-          0.45,
-          70,
-          0.5,
-          0.275,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.5625,
-          0.475,
-          70,
-          0.5,
-          0.2875,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.6,
-          0.5,
-          70,
-          0.5,
-          0.3,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.63,
-          0.52,
-          70,
-          0.5,
-          0.31,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.66,
-          0.54,
-          70,
-          0.5,
-          0.32,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.69,
-          0.56,
-          70,
-          0.5,
-          0.33,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.72,
-          0.58,
-          70,
-          0.5,
-          0.34,
-          2
-        ],
-        [
-          0.2,
-          0.2,
-          0.75,
-          0.6,
-          70,
-          0.5,
-          0.35,
-          2
-        ]
-      ]
+        [0.2, 0.2, 0.3, 0.3, 70, 0.5, 0.2, 2],
+        [0.2, 0.2, 0.33, 0.32, 70, 0.5, 0.21, 2],
+        [0.2, 0.2, 0.36, 0.34, 70, 0.5, 0.22, 2],
+        [0.2, 0.2, 0.39, 0.36, 70, 0.5, 0.23, 2],
+        [0.2, 0.2, 0.42, 0.38, 70, 0.5, 0.24, 2],
+        [0.2, 0.2, 0.45, 0.4, 70, 0.5, 0.25, 2],
+        [0.2, 0.2, 0.4875, 0.425, 70, 0.5, 0.2625, 2],
+        [0.2, 0.2, 0.525, 0.45, 70, 0.5, 0.275, 2],
+        [0.2, 0.2, 0.5625, 0.475, 70, 0.5, 0.2875, 2],
+        [0.2, 0.2, 0.6, 0.5, 70, 0.5, 0.3, 2],
+        [0.2, 0.2, 0.63, 0.52, 70, 0.5, 0.31, 2],
+        [0.2, 0.2, 0.66, 0.54, 70, 0.5, 0.32, 2],
+        [0.2, 0.2, 0.69, 0.56, 70, 0.5, 0.33, 2],
+        [0.2, 0.2, 0.72, 0.58, 70, 0.5, 0.34, 2],
+        [0.2, 0.2, 0.75, 0.6, 70, 0.5, 0.35, 2]
+      ],
+      "icon": "icon/skill/1507_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Inflige \"Abraço das Chamas Malditas\" em todos os inimigos, fazendo com que a DEF dos alvos seja reduzida e o Dano sofrido por eles aumente. Depois, consome os PV dessa unidade para ativar um Campo. Enquanto o Campo estiver ativo, esta unidade entra no estado de \"Fúria Infinita\", aumentando a Chance de CRIT e o Dano CRIT, aprimorando o ATQ Básico, desbloqueando a Perícia e ganhando uma nova Perícia Suprema, durando até o contador terminar.\nQuando Mortenax Blade recebe um golpe fatal, o Campo é dissipado.",
+        "en": "Inflicts \"Balefire Bind\" on all enemies, causing the targets to decrease their DEF and increase the DMG they receive. Then, consumes this unit's HP to activate a Zone. While the Zone is active, this unit gains the \"Infinite Fury\" state, increases CRIT Rate, increases CRIT DMG, enhances Basic ATK, unlocks Skill, and gains a new Ultimate, lasting until the countdown ends.\nWhen Mortenax Blade receives a killing blow, the Zone is dispelled.",
+        "zh-CN": "使敌方全体陷入【煞火缠身】状态，使目标防御力降低，受到的伤害提高。随后消耗自身生命值开启结界。结界持续期间，自身获得【无量忿怒】状态，暴击率提高，暴击伤害提高，普攻获得强化，解放战技并获得全新终结技，直至倒计时结束。\n千冶•刃受到致命攻击时解除结界。",
+        "ja": "敵全体に「修羅の炎」状態を付与し、ターゲットの防御力をダウンさせ、受けるダメージをアップさせる。その後、自身のHPを消費して結界を展開する。結界が展開されている間、自身が「無量忿怒」状態になり、会心率と会心ダメージがアップし、通常攻撃が強化されると同時に戦闘スキルが解放され、新たな必殺技を獲得する。カウントダウンが終了するまで継続。\nHPが0になる攻撃を千冶・刃が受けた時、結界が解除される。",
+        "ko": "모든 적을 [전신살화] 상태에 빠트리며, 목표의 방어력을 감소시키고, 받는 피해를 증가시킨다. 이후 자신의 HP를 소모해 결계를 활성화한다. 결계가 지속되는 동안 자신은 [끝없는 분노] 상태를 획득하고, 치명타 확률 및 치명타 피해가 증가하며, 일반 공격이 강화되고, 전투 스킬을 해방하며 카운트다운이 종료될 때까지 새로운 필살기를 획득한다.\n천야•블레이드가 치명적인 공격을 받으면 결계가 해제된다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 150704,
@@ -362,67 +154,33 @@
         "ko": "결계가 지속되는 동안 아군이 적을 공격할 때마다 해당 적을 [전신살화] 상태에 빠트리고, 천야•블레이드가 충전을 1pt 획득한다. 충전 #1[i]pt 도달 및 현재 HP가 1 보다 높을 시, 충전을 #1[i]pt 소모해 에너지를 #2[f1]pt 회복하고, 천야•블레이드가 추가로 전투 스킬을 1회 발동한다. 이번 전투 스킬은 추가 공격으로 간주한다"
       },
       "params": [
-        [
-          9,
-          15
-        ],
-        [
-          9,
-          16
-        ],
-        [
-          9,
-          17
-        ],
-        [
-          9,
-          18
-        ],
-        [
-          9,
-          19
-        ],
-        [
-          9,
-          20
-        ],
-        [
-          9,
-          21.25
-        ],
-        [
-          9,
-          22.5
-        ],
-        [
-          9,
-          23.75
-        ],
-        [
-          9,
-          25
-        ],
-        [
-          9,
-          26
-        ],
-        [
-          9,
-          27
-        ],
-        [
-          9,
-          28
-        ],
-        [
-          9,
-          29
-        ],
-        [
-          9,
-          30
-        ]
-      ]
+        [9, 15],
+        [9, 16],
+        [9, 17],
+        [9, 18],
+        [9, 19],
+        [9, 20],
+        [9, 21.25],
+        [9, 22.5],
+        [9, 23.75],
+        [9, 25],
+        [9, 26],
+        [9, 27],
+        [9, 28],
+        [9, 29],
+        [9, 30]
+      ],
+      "icon": "icon/skill/1507_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Enquanto o Campo está ativo, após um aliado-alvo atacar um inimigo, inflige o estado de \"Abraço das Chamas Malditas\" no inimigo e concede Carga a Mortenax Blade. Quando a Carga atinge 9 pontos e seus PV são maiores que 1, consome 9 de Carga para regenerar Energia e permite que Mortenax Blade use sua Perícia 1 vez extra.",
+        "en": "While the Zone is active, after an ally target attacks an enemy, inflicts the \"Balefire Bind\" state on the enemy and grants Charge to Mortenax Blade. When Charge reaches 9 points and his HP is higher than 1, consumes 9 Charge to regenerate Energy, and enables Mortenax Blade to use his Skill 1 extra time.",
+        "zh-CN": "结界持续期间，我方目标攻击敌方后使敌方陷入【煞火缠身】状态并使千冶•刃获得充能，当充能达到9点且生命值大于1时，消耗9点充能恢复能量，并使千冶•刃额外施放1次战技。",
+        "ja": "結界が展開されている間、味方が敵を攻撃した後、敵に「修羅の炎」状態を付与し、千冶・刃はチャージを獲得する。チャージが9に達し、かつHPが1を超えた時、チャージを9消費してEPを回復し、千冶・刃は追加で戦闘スキルを1回発動する。",
+        "ko": "결계가 지속되는 동안 아군이 적을 공격하면 적을 [전신살화] 상태에 빠트리고, 천야•블레이드가 충전을 획득한다. 충전이 9pt 도달 및 HP가 1보다 높을 시, 충전을 9pt 소모해 에너지를 회복하고, 천야•블레이드가 추가로 전투 스킬을 1회 발동한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 150706,
@@ -435,6 +193,15 @@
         "ko": "단념 일참"
       },
       "description": {
+        "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1507_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -459,12 +226,17 @@
         "ja": "一定範囲内のすべての敵を即座に攻撃する。戦闘に入った後、敵全体を挑発状態にする。挑発状態は1ターン継続する。また、自身の受けるダメージ-#1[i]%、#2[i]ターン継続。",
         "ko": "즉시 일정 범위 내의 모든 적을 공격하고, 전투 진입 후 모든 적을 도발 상태에 빠트린다, 지속 시간: 1턴. 또한, 자신이 받는 피해를 #1[i]% 감소시킨다, 지속 시간: #2[i]턴"
       },
-      "params": [
-        [
-          0.9,
-          2
-        ]
-      ]
+      "params": [[0.9, 2]],
+      "icon": "icon/skill/1507_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Ataca todos os inimigos dentro do alcance. Ao entrar em combate, inflige o estado de \"Provocação\" em todos os inimigos e reduz o Dano recebido por esta unidade.",
+        "en": "Attacks all enemies within range. After entering combat, inflicts the Taunt state on all enemies and reduces DMG taken by this unit.",
+        "zh-CN": "攻击范围内的所有敌人，进战后使敌方全体陷入嘲讽状态并使自身受到的伤害降低。",
+        "ja": "範囲内のすべての敵を攻撃する。戦闘に入った後、敵全体を挑発状態にし、自身の受けるダメージをダウンさせる。",
+        "ko": "범위 내의 모든 적을 공격하며, 전투 진입 후 모든 적을 도발 상태에 빠트리고 자신이 받는 피해를 감소시킨다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 150708,
@@ -483,38 +255,18 @@
         "ja": "指定した敵単体に千冶・刃の最大HP#1[i]%分の炎属性ダメージを与え、ターゲットを挑発状態にする。挑発状態は1ターン継続する。",
         "ko": "지정된 단일 적에게 천야•블레이드 HP 최대치의 #1[i]%만큼 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: 1턴"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1507_basic_atk2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo a um inimigo e inflige o estado de \"Provocação\" no alvo.",
+        "en": "Deals Fire DMG to one enemy and inflicts the Taunt state on the target.",
+        "zh-CN": "对敌方单体造成火属性伤害，并使目标陷入嘲讽状态。",
+        "ja": "敵単体に炎属性ダメージを与え、ターゲットを挑発状態にする。",
+        "ko": "단일 적에게 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150709,
@@ -527,52 +279,26 @@
         "ko": "검날 아래, 귀장"
       },
       "params": [
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ],
-        [
-          0.1
-        ]
-      ]
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1],
+        [0.1]
+      ],
+      "icon": "icon/skill/1507_skill.png",
+      "maxLevel": 15,
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150714,
@@ -592,52 +318,33 @@
         "ko": "모든 적에게 천야•블레이드 HP 최대치의 #1[f1]%만큼 화염 속성 피해를 가한다"
       },
       "params": [
-        [
-          2.1
-        ],
-        [
-          2.24
-        ],
-        [
-          2.38
-        ],
-        [
-          2.52
-        ],
-        [
-          2.66
-        ],
-        [
-          2.8
-        ],
-        [
-          2.975
-        ],
-        [
-          3.15
-        ],
-        [
-          3.325
-        ],
-        [
-          3.5
-        ],
-        [
-          3.64
-        ],
-        [
-          3.78
-        ],
-        [
-          3.92
-        ],
-        [
-          4.06
-        ],
-        [
-          4.2
-        ]
-      ]
+        [2.1],
+        [2.24],
+        [2.38],
+        [2.52],
+        [2.66],
+        [2.8],
+        [2.975],
+        [3.15],
+        [3.325],
+        [3.5],
+        [3.64],
+        [3.78],
+        [3.92],
+        [4.06],
+        [4.2]
+      ],
+      "icon": "icon/skill/1507_ultimate2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo massivo a todos os inimigos.",
+        "en": "Deals massive Fire DMG to all enemies.",
+        "zh-CN": "对敌方全体造成大量火属性伤害。",
+        "ja": "敵全体に大量の炎属性ダメージを与える。",
+        "ko": "모든 적에게 대량의 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     }
   ],
   "eidolons": [
@@ -656,7 +363,10 @@
         "zh-CN": "结界持续期间，使敌方全体全属性抗性降低20%，施放天赋的额外战技后使【无量忿怒】倒计时行动延后15%。",
         "ja": "結界が展開されている間、敵全体の全属性耐性-20%。天賦による追加の戦闘スキルを発動した後、「無量忿怒」のカウントダウンの行動順を15%遅延させる。",
         "ko": "결계가 지속되는 동안 모든 적의 모든 속성 저항을 20% 감소시키며, 특성의 추가 전투 스킬 발동 후 [끝없는 분노] 카운트다운 행동 게이지를 15% 감소시킨다"
-      }
+      },
+      "icon": "icon/skill/1507_rank1.png",
+      "materials": [{ "id": 11507, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -673,7 +383,10 @@
         "zh-CN": "我方角色施放终结技造成伤害时，被视为发动了追加攻击，我方目标造成的追加攻击伤害提高75%。千冶•刃充能点的上限降低至7。",
         "ja": "味方キャラが必殺技を発動してダメージを与える時、追加攻撃を行うと見なされる。味方の追加攻撃ダメージ+75%。千冶・刃のチャージ上限が7にダウンする。",
         "ko": "아군 캐릭터가 필살기를 발동해 피해를 가할 시 추가 공격을 발동한 것으로 간주하며, 아군이 가하는 추가 공격 피해가 75% 증가한다. 천야•블레이드의 충전 포인트 최대치가 7로 감소한다"
-      }
+      },
+      "icon": "icon/skill/1507_rank2.png",
+      "materials": [{ "id": 11507, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -690,7 +403,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1507_ultimate.png",
+      "materials": [{ "id": 11507, "num": 1 }],
+      "levelUpSkills": [{ "id": 150703, "num": 2 }, { "id": 150704, "num": 2 }, { "id": 150714, "num": 2 }]
     },
     {
       "rank": 4,
@@ -707,7 +423,10 @@
         "zh-CN": "【万淬心】使我方目标造成的伤害额外提高50%。",
         "ja": "「万淬の心」は味方の与ダメージをさらに50%アップさせる。",
         "ko": "[만쉬심]은 아군이 가하는 피해를 추가로 50% 증가시킨다"
-      }
+      },
+      "icon": "icon/skill/1507_rank4.png",
+      "materials": [{ "id": 11507, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -724,7 +443,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1507_skill.png",
+      "materials": [{ "id": 11507, "num": 1 }],
+      "levelUpSkills": [{ "id": 150702, "num": 2 }, { "id": 150701, "num": 1 }, { "id": 150708, "num": 1 }]
     },
     {
       "rank": 6,
@@ -741,10 +463,700 @@
         "zh-CN": "结界持续期间，千冶•刃受到伤害或消耗生命值时，获得1点充能，该效果在任意目标回合结束后可再次触发。【千冶铸一，万劫烬灭】的伤害倍率提高为原倍率的150%。",
         "ja": "結界が展開されている間、千冶・刃がダメージを受ける、またはHPを消費した時、チャージを1獲得する。この効果はいずれかの味方または敵のターンが終了した後に再度発動可能になる。「千冶は一を鋳り、万劫を燼滅す」のダメージ倍率が元の倍率の150%になる。",
         "ko": "결계가 지속되는 동안 천야•블레이드가 피해를 받거나 HP를 소모하면 충전을 1pt 획득한다. 해당 효과는 임의의 목표 턴 종료 후 다시 발동할 수 있다. [천야로 빚어내어, 영겁토록 신멸하리]의 피해 배율이 기존 배율의 150%로 증가한다"
-      }
+      },
+      "icon": "icon/skill/1507_rank6.png",
+      "materials": [{ "id": 11507, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 160,
+  "stats": [
+    {
+      "hp": { "base": 184.8, "step": 9.24 },
+      "atk": { "base": 73.92, "step": 3.696 },
+      "def": { "base": 66, "step": 3.3 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 258.72, "step": 9.24 },
+      "atk": { "base": 103.488, "step": 3.696 },
+      "def": { "base": 92.4, "step": 3.3 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 332.64, "step": 9.24 },
+      "atk": { "base": 133.056, "step": 3.696 },
+      "def": { "base": 118.8, "step": 3.3 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 406.56, "step": 9.24 },
+      "atk": { "base": 162.624, "step": 3.696 },
+      "def": { "base": 145.2, "step": 3.3 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 480.48, "step": 9.24 },
+      "atk": { "base": 192.192, "step": 3.696 },
+      "def": { "base": 171.6, "step": 3.3 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 554.4, "step": 9.24 },
+      "atk": { "base": 221.76, "step": 3.696 },
+      "def": { "base": 198, "step": 3.3 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 628.32, "step": 9.24 },
+      "atk": { "base": 251.328, "step": 3.696 },
+      "def": { "base": 224.4, "step": 3.3 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 116001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 116001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 116002, "num": 6 }, { "id": 110432, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 116002, "num": 9 }, { "id": 110432, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 116003, "num": 6 }, { "id": 110432, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 116003, "num": 9 }, { "id": 110432, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1507001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1507_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [150701, 150708],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110311, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110312, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110312, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110313, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110313, "num": 8 }, { "id": 116003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1507002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1507_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150702, 150709],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110311, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110312, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110312, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110312, "num": 7 }, { "id": 116002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110313, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110313, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110313, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110313, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1507003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1507_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150703, 150714],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110311, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110312, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110312, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110312, "num": 7 }, { "id": 116002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110313, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110313, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110313, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110313, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1507004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1507_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150704],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110311, "num": 3 }, { "id": 116001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110312, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110312, "num": 5 }, { "id": 116002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110312, "num": 7 }, { "id": 116002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110313, "num": 3 }, { "id": 116003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110313, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110313, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110313, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1507007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1507_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [150707],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1507101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Osso Endurecidos Até a Náusea",
+        "en": "Bone, Hardened ad Nauseam",
+        "zh-CN": "百炼骨",
+        "ja": "{RUBY_B#ひゃくれん}百錬{RUBY_E#}の{RUBY_B#ほね}骨{RUBY_E#}",
+        "ko": "백련골"
+      },
+      "description": {
+        "pt-BR": "Mortenax Blade pode acumular até #2[i] de Energia excedente. Após usar a Perícia Suprema, a Energia excedente é redefinida e uma quantidade correspondente de Energia é regenerada. Quando a batalha começa ou quando o Campo é dissipado, se a Energia estiver abaixo de #1[i]%, ela é imediatamente regenerada para #1[i]%. Quando a Energia é regenerada ao máximo, dissipa todas as penalidades desta unidade.",
+        "en": "Mortenax Blade can accumulate up to #2[i] overflow Energy. After using Ultimate, clears it and regenerates a corresponding amount of Energy. When the battle starts or when the Zone is dispelled, if Energy is below #1[i]%, it is immediately regenerated to #1[i]%. When Energy is regenerated to its maximum, dispels all debuffs from this unit.",
+        "zh-CN": "千冶•刃可积攒最多#2[i]点溢出能量，施放终结技后清空并恢复相应的能量值。战斗开始时或结界解除时，若能量不足#1[i]%则立刻恢复至#1[i]%。当能量恢复至上限时解除自身所有负面效果。",
+        "ja": "千冶・刃は最大EPを超えた分のEPを#2[i]まで蓄積できる。必殺技を発動した後、上限を超えて蓄積された分のEPを回復し、蓄積した超過分をクリアする。戦闘開始時または結界が解除された時、EPが#1[i]%未満の場合、即座に#1[i]%まで回復する。EPが上限まで回復した時、自身のすべてのデバフを解除する。",
+        "ko": "천야•블레이드는 초과 에너지를 최대 #2[i]pt 축적할 수 있으며, 필살기 발동 후 초기화하고 상응하는 에너지를 회복한다. 전투 시작 시 또는 결계 해제 시 에너지가 #1[i]% 미만이면 즉시 #1[i]%까지 회복한다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과를 해제한다"
+      },
+      "params": [[0.75, 80]],
+      "icon": "icon/skill/1507_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110311, "num": 3 }, { "id": 110508, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1507102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Alma Temperada até a Morte",
+        "en": "Soul, Tempered ad Mortem",
+        "zh-CN": "千锻魂",
+        "ja": "{RUBY_B#せんたん}千鍛{RUBY_E#}の{RUBY_B#たましい}魂{RUBY_E#}",
+        "ko": "천단혼"
+      },
+      "description": {
+        "pt-BR": "Enquanto o Campo está ativo, aumenta a chance de ser atacado por inimigos, reduz o Dano recebido por esta unidade em #2[i]% e aumenta a Cura Recebida em #3[i]%. Após ser atacado, inflige o estado de \"Abraço das Chamas Malditas\" no atacante e Mortenax Blade ganha 1 Carga.",
+        "en": "While the Zone is active, increases the chance of being attacked by enemies, decreases DMG taken by this unit by #2[i]%, and increases Incoming Healing by #3[i]%. After being attacked, inflicts the \"Balefire Bind\" state on the corresponding target, and enables Mortenax Blade to gain 1 Charge.",
+        "zh-CN": "结界持续期间，被敌方攻击的概率提高，自身受到的伤害降低#2[i]%，受到的治疗量提高#3[i]%，且受到攻击后使对应目标陷入【煞火缠身】状态并使千冶•刃获得1点充能。",
+        "ja": "結界が展開されている間、敵に攻撃される確率がアップ、自身の受けるダメージ-#2[i]%、受ける治癒量+#3[i]%。攻撃を受けた後、攻撃者に「修羅の炎」状態を付与し、千冶・刃はチャージを1獲得する。",
+        "ko": "결계가 지속되는 동안 적에게 피격될 확률이 증가하고, 자신이 받는 피해가 #2[i]% 감소하며, 받는 치유량이 #3[i]% 증가한다. 또한, 피격 후 해당 목표를 [전신살화] 상태에 빠트리며, 천야•블레이드가 충전을 1pt 획득한다"
+      },
+      "params": [[10, 0.5, 0.5]],
+      "icon": "icon/skill/1507_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110312, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1507103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Coração Infinitamente Temperado",
+        "en": "Heart, Refined ad Infinitum",
+        "zh-CN": "万淬心",
+        "ja": "{RUBY_B#ばんさい}万淬{RUBY_E#}の{RUBY_B#こころ}心{RUBY_E#}",
+        "ko": "만쉬심"
+      },
+      "description": {
+        "pt-BR": "Enquanto o Campo estiver ativo, aliados-alvo causam #1[i]% a mais de Dano. Se houver outros personagens da Inexistência além de Mortenax Blade na equipe, o Dano de Perícia Suprema causado pelos aliados-alvo aumenta em #2[i]%. Caso contrário, o Dano causado por Mortenax Blade aumenta adicionalmente em #3[i]%.",
+        "en": "While the Zone is active, ally targets deal #1[i]% increased DMG. If there are other Nihility characters aside from Mortenax Blade in the team, Ultimate DMG dealt by ally targets increases by #2[i]%. Otherwise, DMG dealt by Mortenax Blade additionally increases by #3[i]%.",
+        "zh-CN": "结界持续期间，我方目标造成的伤害提高#1[i]%，我方队伍中存在除千冶•刃之外的「虚无」命途角色时，使我方目标造成的终结技伤害提高#2[i]%，否则，使千冶•刃造成的伤害额外提高#3[i]%。",
+        "ja": "結界が展開されている間、味方の与ダメージ+#1[i]%。パーティに千冶・刃以外の「虚無」の運命を歩むキャラがいる場合、味方の必殺技ダメージ+#2[i]%。また、パーティに千冶・刃以外の「虚無」の運命を歩むキャラがいない場合、千冶・刃の与ダメージがさらに+#3[i]%。",
+        "ko": "결계가 지속되는 동안 아군이 가하는 피해가 #1[i]% 증가하며, 아군 파티 내 천야•블레이드를 제외한 「공허」 운명의 길 캐릭터가 존재할 시 아군이 가하는 필살기 피해가 #2[i]% 증가하고, 그렇지 않을 시 천야•블레이드가 가하는 피해가 추가로 #3[i]% 증가한다"
+      },
+      "params": [[0.5, 0.75, 0.75]],
+      "icon": "icon/skill/1507_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110313, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1507201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 116001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1507202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1507101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110311, "num": 3 }, { "id": 116001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1507203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1507202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110312, "num": 3 }, { "id": 116002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1507204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1507203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110312, "num": 3 }, { "id": 116002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1507205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1507102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110312, "num": 5 }, { "id": 116002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1507206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1507205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110313, "num": 3 }, { "id": 116003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1507207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1507206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110313, "num": 3 }, { "id": 116003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1507208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1507103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110313, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1507209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1507103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110313, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1507210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1507201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110313, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11507, 110311, 110312, 110313, 110432, 110508, 116001, 116002, 116003],
   "images": {
     "icon": "icon/character/1507.png",
     "preview": "image/character_preview/1507.png",

@@ -1,0 +1,13 @@
+{
+  "id": 31,
+  "type": "ThunderResistance",
+  "name": {
+    "pt-BR": "Bônus de RES a Raio",
+    "en": "Lightning RES Boost",
+    "zh-CN": "雷属性抗性提高",
+    "ja": "雷属性耐性",
+    "ko": "번개 속성 저항 증가"
+  },
+  "icon": "icon/property/IconThunderResistanceDelta.png",
+  "percent": true
+}

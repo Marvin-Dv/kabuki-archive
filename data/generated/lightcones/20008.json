@@ -1,13 +1,7 @@
 {
   "id": 20008,
   "slug": "fine-fruit",
-  "name": {
-    "pt-BR": "Fruta Delicada",
-    "en": "Fine Fruit",
-    "zh-CN": "嘉果",
-    "ja": "嘉果",
-    "ko": "알찬 열매"
-  },
+  "name": { "pt-BR": "Fruta Delicada", "en": "Fine Fruit", "zh-CN": "嘉果", "ja": "嘉果", "ko": "알찬 열매" },
   "rarity": 3,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
@@ -20,13 +14,7 @@
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「목이 마르면 모든 것이 달콤하다」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Saborear",
-      "en": "Savor",
-      "zh-CN": "甘美",
-      "ja": "甘美",
-      "ko": "감미"
-    },
+    "name": { "pt-BR": "Saborear", "en": "Savor", "zh-CN": "甘美", "ja": "甘美", "ko": "감미" },
     "description": {
       "pt-BR": "No início da batalha, regenera imediatamente #1[i] de Energia de todos os aliados.",
       "en": "At the start of the battle, immediately regenerates #1[i] Energy for all allies.",
@@ -34,24 +22,54 @@
       "ja": "戦闘開始時、味方全体のEPを#1[i]回復する。",
       "ko": "전투 시작 시 즉시 모든 아군의 에너지를 #1[i]pt 회복한다"
     },
-    "params": [
-      [
-        6
-      ],
-      [
-        7.5
-      ],
-      [
-        9
-      ],
-      [
-        10.5
-      ],
-      [
-        12
-      ]
-    ]
+    "params": [[6], [7.5], [9], [10.5], [12]],
+    "properties": [[], [], [], [], []]
   },
+  "stats": [
+    {
+      "hp": { "base": 43.2, "step": 6.48 },
+      "atk": { "base": 14.4, "step": 2.16 },
+      "def": { "base": 9, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 95.04, "step": 6.48 },
+      "atk": { "base": 31.68, "step": 2.16 },
+      "def": { "base": 19.8, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 164.16, "step": 6.48 },
+      "atk": { "base": 54.72, "step": 2.16 },
+      "def": { "base": 34.2, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 77.76, "step": 2.16 },
+      "def": { "base": 48.6, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 302.4, "step": 6.48 },
+      "atk": { "base": 100.8, "step": 2.16 },
+      "def": { "base": 63, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 371.52, "step": 6.48 },
+      "atk": { "base": 123.84, "step": 2.16 },
+      "def": { "base": 77.4, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 146.88, "step": 2.16 },
+      "def": { "base": 91.8, "step": 1.35 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3000 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6000 }, { "id": 110171, "num": 2 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12000 }, { "id": 110172, "num": 2 }, { "id": 111002, "num": 4 }],
+    [{ "id": 2, "num": 30000 }, { "id": 110172, "num": 4 }, { "id": 111002, "num": 6 }],
+    [{ "id": 2, "num": 60000 }, { "id": 110173, "num": 3 }, { "id": 111003, "num": 3 }],
+    [{ "id": 2, "num": 120000 }, { "id": 110173, "num": 6 }, { "id": 111003, "num": 5 }]
+  ],
   "images": {
     "icon": "icon/light_cone/20008.png",
     "preview": "image/light_cone_preview/20008.png",

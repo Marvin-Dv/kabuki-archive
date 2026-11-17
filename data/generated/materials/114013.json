@@ -1,0 +1,48 @@
+{
+  "id": 114013,
+  "slug": "shards-of-desires",
+  "name": {
+    "pt-BR": "Fragmentos de Desejos",
+    "en": "Shards of Desires",
+    "zh-CN": "欲念碎镜",
+    "ja": "砕けた欲望の鏡",
+    "ko": "욕망의 거울 조각"
+  },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "CommonMonsterDrop",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/114013.png",
+  "sources": {
+    "en": [
+      "Memory Zone Meme at Equilibrium Level 4 or higher",
+      "Omni-Synthesizer — Material Synthesis",
+      "Dropped by enemies in Divergent Universe",
+      "Simulated Universe enemies",
+      "Omni-Synthesizer — Material Exchange"
+    ],
+    "pt-BR": [
+      "Mimema da Zona da Memória no Nível de Equilíbrio 4 ou maior",
+      "Sintetizador Omni — Síntese de Material",
+      "Espólio deixado por inimigos no Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Sintetizador Omni — Troca de Material"
+    ],
+    "zh-CN": ["突破至均衡等级4后，忆域迷因掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
+    "ja": [
+      "均衡Lv.4に達した後、記憶域ミームからドロップ",
+      "「万能合成マシン」- 素材合成",
+      "「階差宇宙」で敵からドロップ",
+      "「模擬宇宙」で敵からドロップ",
+      "「万能合成マシン」- 素材交換"
+    ],
+    "ko": [
+      "균형 레벨 Lv.4까지 돌파 후 기억의 영역 밈 드랍",
+      "「만능 합성기」- 재료 합성",
+      "「차분화 우주」 적 드랍",
+      "「시뮬레이션 우주」 적 드랍",
+      "「만능 합성기」- 재료 치환"
+    ]
+  }
+}

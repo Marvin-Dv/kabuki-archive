@@ -20,13 +20,7 @@
     "ko": "「≪탐정 추리 입문≫에서 뭐라고 했더라? 정말 부득이한 경우가 아니라면……」\n붉은색과 검은색이 뒤엉킨 송곳니가, 어깨 위로 조금씩 타고 오른다.\n밤빛이 깊게 잠긴 곳에 의구심이 피어오르고, 어둑한 숲속에는 사나운 짐승이 숨어 있다.\n「쫓고 쫓기는 이 게임, 이제 끝낼 때가 됐어」\n핏빛이 가시고, 하늘 위 달빛은 여전히 교결하며, 별들은 고이 잠들어 있다.\n이것은 진상을 향한 그의 또 한 번의 탐색이다. 하지만 과거의 그림자가 그의 어깨를 두드리더니, 이내 흩어져 사라졌다.\n지금 이 순간의 대치는, 계속 이어질 것이다——\n「……죄악에 징벌을 내리는, 그날까지」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Subsumir",
-      "en": "Subsume",
-      "zh-CN": "吞没",
-      "ja": "呑噬",
-      "ko": "잠식"
-    },
+    "name": { "pt-BR": "Subsumir", "en": "Subsume", "zh-CN": "吞没", "ja": "呑噬", "ko": "잠식" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. No início da batalha ou a cada #2[i] Ataque(s) Extra usado(s) pelo usuário, o usuário ganha \"Devorador de Umbra\", que dura por #3[i] rodada(s). Enquanto o usuário possuir \"Devorador de Umbra\", aumenta o ATQ em #4[i]% e aumenta o Dano recebido por todos os inimigos em #5[i]%. Efeitos do mesmo tipo não podem acumular.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. At the start of battle or for every #2[i] instance(s) of Follow-Up ATK the wearer uses, the wearer gains \"Umbra Devourer,\" lasting for #3[i] turn(s). While the wearer holds \"Umbra Devourer,\" increases ATK by #4[i]% and increases the DMG taken by all enemies by #5[i]%. Effects of the same type cannot stack.",
@@ -35,43 +29,65 @@
       "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 전투 시작 시 또는 장착한 캐릭터가 추가 공격을 누적 #2[i]회 발동할 때마다 장착한 캐릭터는 [그림자 포식]을 획득한다, 지속 시간: #3[i]턴. 장착한 캐릭터가 [그림자 포식] 보유 시, 공격력이 #4[i]% 증가하고, 모든 적이 받는 피해를 #5[i]% 증가시키며, 같은 유형의 효과는 중첩되지 않는다"
     },
     "params": [
-      [
-        0.18,
-        4,
-        3,
-        0.4,
-        0.2
-      ],
-      [
-        0.21,
-        4,
-        3,
-        0.5,
-        0.225
-      ],
-      [
-        0.24,
-        4,
-        3,
-        0.6,
-        0.25
-      ],
-      [
-        0.27,
-        4,
-        3,
-        0.7,
-        0.275
-      ],
-      [
-        0.3,
-        4,
-        3,
-        0.8,
-        0.3
-      ]
+      [0.18, 4, 3, 0.4, 0.2],
+      [0.21, 4, 3, 0.5, 0.225],
+      [0.24, 4, 3, 0.6, 0.25],
+      [0.27, 4, 3, 0.7, 0.275],
+      [0.3, 4, 3, 0.8, 0.3]
+    ],
+    "properties": [
+      [{ "type": "CriticalChanceBase", "value": 0.18 }],
+      [{ "type": "CriticalChanceBase", "value": 0.21 }],
+      [{ "type": "CriticalChanceBase", "value": 0.24 }],
+      [{ "type": "CriticalChanceBase", "value": 0.27 }],
+      [{ "type": "CriticalChanceBase", "value": 0.3 }]
     ]
   },
+  "stats": [
+    {
+      "hp": { "base": 38.4, "step": 5.76 },
+      "atk": { "base": 28.8, "step": 4.32 },
+      "def": { "base": 24, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 84.48, "step": 5.76 },
+      "atk": { "base": 63.36, "step": 4.32 },
+      "def": { "base": 52.8, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 145.92, "step": 5.76 },
+      "atk": { "base": 109.44, "step": 4.32 },
+      "def": { "base": 91.2, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 207.36, "step": 5.76 },
+      "atk": { "base": 155.52, "step": 4.32 },
+      "def": { "base": 129.6, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 268.8, "step": 5.76 },
+      "atk": { "base": 201.6, "step": 4.32 },
+      "def": { "base": 168, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 330.24, "step": 5.76 },
+      "atk": { "base": 247.68, "step": 4.32 },
+      "def": { "base": 206.4, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 391.68, "step": 5.76 },
+      "atk": { "base": 293.76, "step": 4.32 },
+      "def": { "base": 244.8, "step": 3.6 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 5000 }, { "id": 116001, "num": 8 }],
+    [{ "id": 2, "num": 10000 }, { "id": 110271, "num": 4 }, { "id": 116001, "num": 12 }],
+    [{ "id": 2, "num": 20000 }, { "id": 110272, "num": 4 }, { "id": 116002, "num": 8 }],
+    [{ "id": 2, "num": 50000 }, { "id": 110272, "num": 8 }, { "id": 116002, "num": 12 }],
+    [{ "id": 2, "num": 100000 }, { "id": 110273, "num": 5 }, { "id": 116003, "num": 6 }],
+    [{ "id": 2, "num": 200000 }, { "id": 110273, "num": 10 }, { "id": 116003, "num": 8 }]
+  ],
   "images": {
     "icon": "icon/light_cone/23056.png",
     "preview": "image/light_cone_preview/23056.png",

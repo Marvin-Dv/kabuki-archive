@@ -1,13 +1,7 @@
 {
   "id": 20018,
   "slug": "hidden-shadow",
-  "name": {
-    "pt-BR": "Sombra Oculta",
-    "en": "Hidden Shadow",
-    "zh-CN": "匿影",
-    "ja": "匿影",
-    "ko": "숨은 그림자"
-  },
+  "name": { "pt-BR": "Sombra Oculta", "en": "Hidden Shadow", "zh-CN": "匿影", "ja": "匿影", "ko": "숨은 그림자" },
   "rarity": 3,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
@@ -20,13 +14,7 @@
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「공허가 우리를 찾아낼 수도 있지만, 못 찾아낼 가능성이 높습니다」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Mecanismo",
-      "en": "Mechanism",
-      "zh-CN": "机关",
-      "ja": "機関",
-      "ko": "장치"
-    },
+    "name": { "pt-BR": "Mecanismo", "en": "Mechanism", "zh-CN": "机关", "ja": "機関", "ko": "장치" },
     "description": {
       "pt-BR": "Após usar a Perícia, o próximo ATQ Básico do usuário causa #1[i]% do ATQ como Dano Adicional ao inimigo-alvo.",
       "en": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to #1[i]% of ATK to the target enemy.",
@@ -34,24 +22,54 @@
       "ja": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力#1[i]%分の付加ダメージを与える。",
       "ko": "전투 스킬 발동 후, 장착한 캐릭터의 다음 일반 공격 1회는 적에게 자신 공격력 #1[i]%만큼의 추가 피해를 가한다"
     },
-    "params": [
-      [
-        0.6
-      ],
-      [
-        0.75
-      ],
-      [
-        0.9
-      ],
-      [
-        1.05
-      ],
-      [
-        1.2
-      ]
-    ]
+    "params": [[0.6], [0.75], [0.9], [1.05], [1.2]],
+    "properties": [[], [], [], [], []]
   },
+  "stats": [
+    {
+      "hp": { "base": 38.4, "step": 5.76 },
+      "atk": { "base": 14.4, "step": 2.16 },
+      "def": { "base": 12, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 84.48, "step": 5.76 },
+      "atk": { "base": 31.68, "step": 2.16 },
+      "def": { "base": 26.4, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 145.92, "step": 5.76 },
+      "atk": { "base": 54.72, "step": 2.16 },
+      "def": { "base": 45.6, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 207.36, "step": 5.76 },
+      "atk": { "base": 77.76, "step": 2.16 },
+      "def": { "base": 64.8, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 268.8, "step": 5.76 },
+      "atk": { "base": 100.8, "step": 2.16 },
+      "def": { "base": 84, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 330.24, "step": 5.76 },
+      "atk": { "base": 123.84, "step": 2.16 },
+      "def": { "base": 103.2, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 391.68, "step": 5.76 },
+      "atk": { "base": 146.88, "step": 2.16 },
+      "def": { "base": 122.4, "step": 1.8 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3000 }, { "id": 113011, "num": 4 }],
+    [{ "id": 2, "num": 6000 }, { "id": 110151, "num": 2 }, { "id": 113011, "num": 8 }],
+    [{ "id": 2, "num": 12000 }, { "id": 110152, "num": 2 }, { "id": 113012, "num": 4 }],
+    [{ "id": 2, "num": 30000 }, { "id": 110152, "num": 4 }, { "id": 113012, "num": 6 }],
+    [{ "id": 2, "num": 60000 }, { "id": 110153, "num": 3 }, { "id": 113013, "num": 3 }],
+    [{ "id": 2, "num": 120000 }, { "id": 110153, "num": 6 }, { "id": 113013, "num": 5 }]
+  ],
   "images": {
     "icon": "icon/light_cone/20018.png",
     "preview": "image/light_cone_preview/20018.png",

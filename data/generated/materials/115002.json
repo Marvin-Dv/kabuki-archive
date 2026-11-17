@@ -1,0 +1,59 @@
+{
+  "id": 115002,
+  "slug": "courage-torn-chest",
+  "name": {
+    "pt-BR": "Baú da Coragem Rasgada",
+    "en": "Courage-Torn Chest",
+    "zh-CN": "勇气撕裂胸膛",
+    "ja": "勇気は胸を切り裂く",
+    "ko": "용기에 찢긴 가슴"
+  },
+  "rarity": 3,
+  "type": "Material",
+  "subType": "CommonMonsterDrop",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/115002.png",
+  "sources": {
+    "en": [
+      "Titankin at Equilibrium Level 2 or higher",
+      "Crepuscular Beasts at Equilibrium Level 2 or higher",
+      "Omni-Synthesizer — Material Synthesis",
+      "Divergent Universe enemies",
+      "Simulated Universe enemies",
+      "Omni-Synthesizer — Material Exchange"
+    ],
+    "pt-BR": [
+      "Titâneo em Nível de Equilíbrio 2 ou maior",
+      "Bestas Crepusculares no Nível de Equilíbrio 2 ou maior",
+      "Sintetizador Omni - Síntese de Material",
+      "Inimigos do Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Sintetizador Omni - Troca de Material"
+    ],
+    "zh-CN": [
+      "突破至均衡等级2后，泰坦眷属掉落",
+      "突破至均衡等级2后，晨昏奇兽掉落",
+      "「万能合成机」- 材料合成",
+      "「差分宇宙」中敌方掉落",
+      "「模拟宇宙」中敌方掉落",
+      "「万能合成机」- 材料置换"
+    ],
+    "ja": [
+      "均衡Lv.2に達した後、タイタンの眷属からドロップ",
+      "均衡Lv.2に達した後、晨昏の奇獣からドロップ",
+      "「万能合成マシン」- 素材合成",
+      "「階差宇宙」で敵からドロップ",
+      "「模擬宇宙」で敵からドロップ",
+      "「万能合成マシン」- 素材交換"
+    ],
+    "ko": [
+      "균형 레벨 Lv.2까지 돌파 후 티탄 권속 드랍",
+      "균형 레벨 Lv.2까지 돌파 후 조석의 환수 드랍",
+      "「만능 합성기」- 재료 합성",
+      "「차분화 우주」 적 드랍",
+      "「시뮬레이션 우주」 적 드랍",
+      "「만능 합성기」- 재료 치환"
+    ]
+  }
+}

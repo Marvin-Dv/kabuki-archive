@@ -1,0 +1,24 @@
+{
+  "id": 110443,
+  "slug": "sneering-harlequin",
+  "name": {
+    "pt-BR": "Máscara de Escárnio",
+    "en": "Sneering Harlequin",
+    "zh-CN": "嗤笑丑面",
+    "ja": "嗤うピエロの面",
+    "ko": "비웃는 광대 가면"
+  },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "AvatarRank",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/110443.png",
+  "sources": {
+    "en": ["Stagnant Shadow: Inkford Hermitage", "Omni-Synthesizer — Material Exchange"],
+    "pt-BR": ["Sombra Estagnada: Retiro Purificarte", "Sintetizador Omni — Troca de Material"],
+    "zh-CN": ["凝滞虚影【渡画泉隐】", "「万能合成机」- 材料置换"],
+    "ja": ["凝結虚影「{RUBY_B#とがせんいん}渡画泉隠{RUBY_E#}」", "「万能合成マシン」- 素材交換"],
+    "ko": ["정체된 허영 [화중은천]", "「만능 합성기」- 재료 치환"]
+  }
+}

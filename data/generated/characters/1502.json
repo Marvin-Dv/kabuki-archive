@@ -1,13 +1,7 @@
 {
   "id": 1502,
   "slug": "yao-guang",
-  "name": {
-    "pt-BR": "Yao Guang",
-    "en": "Yao Guang",
-    "zh-CN": "爻光",
-    "ja": "爻光",
-    "ko": "효광"
-  },
+  "name": { "pt-BR": "Yao Guang", "en": "Yao Guang", "zh-CN": "爻光", "ja": "爻光", "ko": "효광" },
   "rarity": 5,
   "path": "Elation",
   "element": "Physical",
@@ -32,47 +26,28 @@
         "ko": "지정된 단일 적에게 효광 공격력의 #1[i]%만큼 물리 속성 피해를 가하고, 동시에 인접한 목표에게 효광 공격력의 #2[i]%만큼 물리 속성 피해를 가한다. 일반 공격이 회복하는 에너지가 30pt로 증가한다"
       },
       "params": [
-        [
-          0.45,
-          0.15
-        ],
-        [
-          0.54,
-          0.18
-        ],
-        [
-          0.63,
-          0.21
-        ],
-        [
-          0.72,
-          0.24
-        ],
-        [
-          0.81,
-          0.27
-        ],
-        [
-          0.9,
-          0.3
-        ],
-        [
-          0.99,
-          0.33
-        ],
-        [
-          1.08,
-          0.36
-        ],
-        [
-          1.17,
-          0.39
-        ],
-        [
-          1.26,
-          0.42
-        ]
-      ]
+        [0.45, 0.15],
+        [0.54, 0.18],
+        [0.63, 0.21],
+        [0.72, 0.24],
+        [0.81, 0.27],
+        [0.9, 0.3],
+        [0.99, 0.33],
+        [1.08, 0.36],
+        [1.17, 0.39],
+        [1.26, 0.42]
+      ],
+      "icon": "icon/skill/1502_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Físico leve a um inimigo-alvo e Dano Físico leve a alvos adjacentes.",
+        "en": "Deals minor Physical DMG to one enemy target and minor Physical DMG to adjacent targets.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害，对相邻目标造成少量物理属性伤害。",
+        "ja": "敵単体に少量の物理属性のダメージを与え、隣接する敵に少量の物理属性のダメージを与える。",
+        "ko": "단일 적에게 소량의 물리 속성 피해를 가하고, 인접한 목표에게 소량의 물리 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 150202,
@@ -92,82 +67,33 @@
         "ko": "결계를 펼친다, 지속 시간: #1[i]턴, 자신의 턴이 시작될 때마다 결계 지속 턴 수가 1 감소한다. 결계 지속 시간 동안 모든 아군의 환락도가 효광 환락도의 #2[f1]%만큼 증가하며, 효광이 일반 공격, 전투 스킬 발동 후 웃음 포인트를 #3[i]pt 획득한다"
       },
       "params": [
-        [
-          3,
-          0.1,
-          3
-        ],
-        [
-          3,
-          0.11,
-          3
-        ],
-        [
-          3,
-          0.12,
-          3
-        ],
-        [
-          3,
-          0.13,
-          3
-        ],
-        [
-          3,
-          0.14,
-          3
-        ],
-        [
-          3,
-          0.15,
-          3
-        ],
-        [
-          3,
-          0.1625,
-          3
-        ],
-        [
-          3,
-          0.175,
-          3
-        ],
-        [
-          3,
-          0.1875,
-          3
-        ],
-        [
-          3,
-          0.2,
-          3
-        ],
-        [
-          3,
-          0.21,
-          3
-        ],
-        [
-          3,
-          0.22,
-          3
-        ],
-        [
-          3,
-          0.23,
-          3
-        ],
-        [
-          3,
-          0.24,
-          3
-        ],
-        [
-          3,
-          0.25,
-          3
-        ]
-      ]
+        [3, 0.1, 3],
+        [3, 0.11, 3],
+        [3, 0.12, 3],
+        [3, 0.13, 3],
+        [3, 0.14, 3],
+        [3, 0.15, 3],
+        [3, 0.1625, 3],
+        [3, 0.175, 3],
+        [3, 0.1875, 3],
+        [3, 0.2, 3],
+        [3, 0.21, 3],
+        [3, 0.22, 3],
+        [3, 0.23, 3],
+        [3, 0.24, 3],
+        [3, 0.25, 3]
+      ],
+      "icon": "icon/skill/1502_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Implanta um Campo que aumenta a Euforia de todos os aliados-alvo. Após Yao Guang usar o ATQ Básico ou a Perícia, ganha \"Piada\".",
+        "en": "Deploys a Zone that increases Elation for all ally targets. After Yao Guang uses Basic ATK or Skill, gains Punchline.",
+        "zh-CN": "展开结界，使我方全体目标欢愉度提高，且爻光施放普攻、战技后获得笑点。",
+        "ja": "結界を展開し、味方全体の愉悦度をアップさせる。爻光が通常攻撃または戦闘スキルを発動した後、爆笑ネタを獲得する。",
+        "ko": "결계를 펼쳐 모든 아군의 환락도를 증가시키고, 효광이 일반 공격, 전투 스킬 발동 후 웃음 포인트를 획득한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 150203,
@@ -187,112 +113,33 @@
         "ko": "웃음 포인트를 #1[i]pt 획득한다. 아하가 즉시 웃음 포인트 #4[i]pt로 고정 집계되는 보너스 턴을 1개 획득하고, 해당 턴은 웃음 포인트를 소모하지 않으며, 모든 아군의 모든 속성 저항 관통을 #2[f1]% 증가시킨다, 지속 시간: #3[i]턴"
       },
       "params": [
-        [
-          5,
-          0.1,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.11,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.12,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.13,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.14,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.15,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.1625,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.175,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.1875,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.2,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.21,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.22,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.23,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.24,
-          3,
-          20,
-          1
-        ],
-        [
-          5,
-          0.25,
-          3,
-          20,
-          1
-        ]
-      ]
+        [5, 0.1, 3, 20, 1],
+        [5, 0.11, 3, 20, 1],
+        [5, 0.12, 3, 20, 1],
+        [5, 0.13, 3, 20, 1],
+        [5, 0.14, 3, 20, 1],
+        [5, 0.15, 3, 20, 1],
+        [5, 0.1625, 3, 20, 1],
+        [5, 0.175, 3, 20, 1],
+        [5, 0.1875, 3, 20, 1],
+        [5, 0.2, 3, 20, 1],
+        [5, 0.21, 3, 20, 1],
+        [5, 0.22, 3, 20, 1],
+        [5, 0.23, 3, 20, 1],
+        [5, 0.24, 3, 20, 1],
+        [5, 0.25, 3, 20, 1]
+      ],
+      "icon": "icon/skill/1502_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ganha \"Piada\". Concede imediatamente 1 rodada extra a Aha, na qual uma quantidade fixa de pontos de \"Piada\" é levada em consideração e aumenta a PEN de RES a Todos os Tipos de todos os aliados.",
+        "en": "Gains Punchline. Immediately grants Aha 1 extra turn where a fixed amount of Punchline is taken into account, and increases all allies' All-Type RES PEN.",
+        "zh-CN": "获得笑点。使阿哈立即获得1个固定计入笑点的额外回合，并使我方全体目标全属性抗性穿透提高。",
+        "ja": "爆笑ネタを獲得する。アッハが即座に、一定数の爆笑ネタがカウントされる追加ターンを1ターン獲得し、味方全体の全属性耐性貫通をアップさせる。",
+        "ko": "웃음 포인트를 획득한다. 아하가 즉시 웃음 포인트가 고정으로 집계되는 보너스 턴을 1개 획득하고, 모든 아군의 모든 속성 저항 관통을 증가시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 150204,
@@ -312,52 +159,33 @@
         "ko": "효광이 [훌륭한 솜씨에는 보상을] 보유 시:\n아군이 공격을 발동하면 [만사형통] 효과를 발동하여, 명중한 랜덤 목표 1기에게 추가로 대응하는 속성의 환락 피해를 #1[f1]% 가하고, 이번 공격에서 전투 스킬 포인트를 소모하면 추가로 [만사형통] 효과를 1회 발동한다.\n[만사형통] 효과 발동 시 공격자의 환락도가 효광보다 낮을 경우 해당 환락 피해는 효광의 환락도를 사용하여 계산한다.\n[만사형통] 효과 발동은 공격으로 간주하지 않는다"
       },
       "params": [
-        [
-          0.1
-        ],
-        [
-          0.11
-        ],
-        [
-          0.12
-        ],
-        [
-          0.13
-        ],
-        [
-          0.14
-        ],
-        [
-          0.15
-        ],
-        [
-          0.1625
-        ],
-        [
-          0.175
-        ],
-        [
-          0.1875
-        ],
-        [
-          0.2
-        ],
-        [
-          0.21
-        ],
-        [
-          0.22
-        ],
-        [
-          0.23
-        ],
-        [
-          0.24
-        ],
-        [
-          0.25
-        ]
-      ]
+        [0.1],
+        [0.11],
+        [0.12],
+        [0.13],
+        [0.14],
+        [0.15],
+        [0.1625],
+        [0.175],
+        [0.1875],
+        [0.2],
+        [0.21],
+        [0.22],
+        [0.23],
+        [0.24],
+        [0.25]
+      ],
+      "icon": "icon/skill/1502_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Enquanto Yao Guang estiver em posse de \"Mandou Bem\", após um aliado-alvo usar um ataque, ativa \"Grande Dádiva\": causa adicionalmente 1 instância de Dano de Euforia leve do Tipo correspondente a 1 alvo atingido aleatório. Se esse ataque consumir Pontos de Perícia, esse efeito é ativado 1 vez adicional. Esse efeito não é considerado como um ataque.",
+        "en": "While Yao Guang is in possession of \"Certified Banger,\" after an ally target uses an attack, triggers \"Great Boon\": Additionally deals 1 instance of minor Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, this effect triggers 1 extra time. This effect is not considered as using 1 instance of attack.",
+        "zh-CN": "爻光持有【好活当赏】时，我方目标施放攻击后触发【大吉大利】：对随机1个击中目标额外造成1次少量对应属性欢愉伤害。本次攻击若消耗战技点，该效果额外触发1次。本效果不视为1次攻击。",
+        "ja": "爻光が「爆笑の褒美」を持つ時、味方が攻撃を行った後「大吉大利」効果を発動する。\n「大吉大利」：攻撃が命中したランダムな敵単体にさらに1回対応する属性の少量の愉悦ダメージを与える。その回の攻撃でSPを消費した場合、さらにこの効果を1回発動する。この効果は攻撃を1回発動したと見なされない。",
+        "ko": "효광이 [훌륭한 솜씨에는 보상을] 보유 시, 아군이 공격을 발동하면 [만사형통] 효과를 발동한다. [만사형통]: 명중한 랜덤 목표 1기에게 추가로 소량의 대응하는 속성의 환락 피해를 1회 가한다. 이번 공격에서 전투 스킬 포인트를 소모하면 해당 효과를 추가로 1회 발동한다. 해당 효과는 공격으로 간주하지 않는다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 150206,
@@ -370,6 +198,15 @@
         "ko": "공작의 명적, 대결의 기쁨"
       },
       "description": {
+        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1502_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -394,11 +231,18 @@
         "ja": "秘技を使用した後、次の戦闘開始時に戦闘スキルを自動で1回発動する。この発動ではSPを消費しない。爻光がパーティにいる場合、オブジェクトを破壊すると即座に「吉運一封」を獲得する。1週間ごとに最大で#1[i]個獲得できる。",
         "ko": "비술 사용 후, 다음 전투 시작 시 자동으로 전투 스킬을 1회 발동하며, 이번 발동은 전투 스킬 포인트를 소모하지 않는다. 효광이 파티에 있을 시, 파괴 가능한 물체를 파괴하면 즉시 「행운의 봉투」를 획득하며, 지구주마다 최대 #1[i]개 획득할 수 있다"
       },
-      "params": [
-        [
-          8
-        ]
-      ]
+      "params": [[8]],
+      "icon": "icon/skill/1502_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Ao entrar em batalha, ativa automaticamente a Perícia 1 vez. Quando Yao Guang está na equipe, recebe imediatamente um Envelope da Sorte ao quebrar Objetos Destrutíveis.",
+        "en": "Upon entering combat, automatically triggers Skill 1 time. When Yao Guang is in the team, immediately gains Fortune Pouch when breaking destructible objects.",
+        "zh-CN": "进战自动触发1次战技。爻光在队伍中时，击碎可破坏物时立刻获得「红包」。",
+        "ja": "戦闘に入る時、戦闘スキルを自動で1回発動する。爻光がパーティにいる時、オブジェクトを破壊すると即座に「吉運一封」を獲得する。",
+        "ko": "전투 진입 시 자동으로 전투 스킬을 1회 발동한다. 효광이 파티에 있을 시, 파괴 가능한 물체를 파괴하면 즉시 「행운의 봉투」를 획득한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 150220,
@@ -418,127 +262,39 @@
         "ko": "모든 적을 [흉성의 속삭임] 상태에 빠트린다, 지속 시간: #4[i]턴. [흉성의 속삭임] 상태의 적은 받는 피해가 #3[f1]% 증가한다. 모든 적에게 물리 속성 환락 피해를 #2[i]% 가하고, 이후 랜덤 단일 적에게 물리 속성 환락 피해를 #6[i]% #5[i]회 가한다"
       },
       "params": [
-        [
-          1,
-          0.5,
-          0.16,
-          3,
-          5,
-          0.1
-        ],
-        [
-          1,
-          0.55,
-          0.16,
-          3,
-          5,
-          0.11
-        ],
-        [
-          1,
-          0.6,
-          0.16,
-          3,
-          5,
-          0.12
-        ],
-        [
-          1,
-          0.65,
-          0.16,
-          3,
-          5,
-          0.13
-        ],
-        [
-          1,
-          0.7,
-          0.16,
-          3,
-          5,
-          0.14
-        ],
-        [
-          1,
-          0.75,
-          0.16,
-          3,
-          5,
-          0.15
-        ],
-        [
-          1,
-          0.8125,
-          0.16,
-          3,
-          5,
-          0.1625
-        ],
-        [
-          1,
-          0.875,
-          0.16,
-          3,
-          5,
-          0.175
-        ],
-        [
-          1,
-          0.9375,
-          0.16,
-          3,
-          5,
-          0.1875
-        ],
-        [
-          1,
-          1,
-          0.16,
-          3,
-          5,
-          0.2
-        ],
-        [
-          1,
-          1.05,
-          0.16,
-          3,
-          5,
-          0.21
-        ],
-        [
-          1,
-          1.1,
-          0.16,
-          3,
-          5,
-          0.22
-        ],
-        [
-          1,
-          1.15,
-          0.16,
-          3,
-          5,
-          0.23
-        ],
-        [
-          1,
-          1.2,
-          0.16,
-          3,
-          5,
-          0.24
-        ],
-        [
-          1,
-          1.25,
-          0.16,
-          3,
-          5,
-          0.25
-        ]
-      ]
+        [1, 0.5, 0.16, 3, 5, 0.1],
+        [1, 0.55, 0.16, 3, 5, 0.11],
+        [1, 0.6, 0.16, 3, 5, 0.12],
+        [1, 0.65, 0.16, 3, 5, 0.13],
+        [1, 0.7, 0.16, 3, 5, 0.14],
+        [1, 0.75, 0.16, 3, 5, 0.15],
+        [1, 0.8125, 0.16, 3, 5, 0.1625],
+        [1, 0.875, 0.16, 3, 5, 0.175],
+        [1, 0.9375, 0.16, 3, 5, 0.1875],
+        [1, 1, 0.16, 3, 5, 0.2],
+        [1, 1.05, 0.16, 3, 5, 0.21],
+        [1, 1.1, 0.16, 3, 5, 0.22],
+        [1, 1.15, 0.16, 3, 5, 0.23],
+        [1, 1.2, 0.16, 3, 5, 0.24],
+        [1, 1.25, 0.16, 3, 5, 0.25]
+      ],
+      "icon": "icon/skill/1502_elation.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Aumenta o Dano recebido por todos os inimigos. Causa Dano de Euforia Físico a todos os inimigos. Depois, causa Dano de Euforia Físico leve a um inimigo aleatório.",
+        "en": "Increases DMG received by all enemies. Deals Physical Elation DMG to all enemies. Then, deals minor Physical Elation DMG to one random enemy.",
+        "zh-CN": "使敌方全体受到的伤害提高。对敌方全体造成物理属性欢愉伤害，随后对敌方随机单体造成少量物理属性欢愉伤害。",
+        "ja": "敵全体の受けるダメージをアップさせる。敵全体に物理属性の愉悦ダメージを与える。その後、ランダムな敵単体に少量の物理属性の愉悦ダメージを与える。",
+        "ko": "모든 적이 받는 피해를 증가시킨다. 모든 적에게 물리 속성 환락 피해를 가하고, 이후 랜덤 단일 적에게 소량의 물리 속성 환락 피해를 가한다"
+      },
+      "typeText": {
+        "pt-BR": "Perícia da Euforia",
+        "en": "Elation Skill",
+        "zh-CN": "欢愉技",
+        "ja": "愉悦スキル",
+        "ko": "환락 스킬"
+      },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150229,
@@ -557,20 +313,24 @@
         "ja": "「愉悦」の運命が昇格すると、「大吉大利」効果のダメージ倍率が本来のダメージ倍率の#1[i]%分アップする。爻光が必殺技を発動した後、EPを固定で#2[i]回復し、爽快ネタを#4[i]個獲得する。",
         "ko": "「환락」 운명의 길 승격 시 [만사형통] 효과의 피해 배율이 기존 피해 배율의 #1[i]%만큼 증가한다. 효광이 필살기 발동 후 고정으로 에너지를 #2[i]pt 회복하고 쾌감 포인트를 #4[i]pt 획득한다"
       },
-      "params": [
-        [
-          0.2,
-          12,
-          0,
-          10
-        ],
-        [
-          0.4,
-          30,
-          0,
-          10
-        ]
-      ]
+      "params": [[0.2, 12, 0, 10], [0.4, 30, 0, 10]],
+      "icon": "icon/skill/1502_aha.png",
+      "maxLevel": 2,
+      "summary": {
+        "pt-BR": "Quando o Caminho da Euforia ascende, o multiplicador de Dano do efeito \"Grande Dádiva\" aumenta. Após usar a Perícia Suprema, Yao Guang regenera uma quantidade fixa de Energia e ganha \"Êxtase\".",
+        "en": "When the Path of Elation ascends, the DMG multiplier of the \"Great Boon\" effect increases. After using Ultimate, Yao Guang regenerates a fixed amount of Energy and gains Bliss.",
+        "zh-CN": "当「欢愉」命途升格时，【大吉大利】效果的伤害倍率提高，爻光施放终结技后固定恢复能量并获得爽点。",
+        "ja": "「愉悦」の運命が昇格すると、「大吉大利」効果のダメージ倍率がアップする。爻光が必殺技を発動した後、EPを固定で回復し、爽快ネタを獲得する。",
+        "ko": "「환락」 운명의 길 승격 시 [만사형통] 효과의 피해 배율이 증가하며, 효광이 필살기를 발동하면 고정으로 에너지를 회복하고 쾌감 포인트를 획득한다"
+      },
+      "typeText": {
+        "pt-BR": "Rastro Inato",
+        "en": "Innate Trace",
+        "zh-CN": "固有行迹",
+        "ja": "固有軌跡",
+        "ko": "고유 행적"
+      },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -589,7 +349,10 @@
         "zh-CN": "终结技触发的阿哈的额外回合固定计入笑点数提高至40个。我方全体目标造成欢愉伤害时无视目标20%防御力。",
         "ja": "必殺技で発動するアッハの追加ターンに固定でカウントされる爆笑ネタの数が40個までアップする。味方が愉悦ダメージを与える時、敵の防御力を20%無視する。",
         "ko": "필살기로 발동하는 아하의 보너스 턴이 고정으로 집계하는 웃음 포인트가 40pt로 증가한다. 모든 아군이 환락 피해를 가할 시 목표의 방어력을 20% 무시한다"
-      }
+      },
+      "icon": "icon/skill/1502_rank1.png",
+      "materials": [{ "id": 11502, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -606,7 +369,10 @@
         "zh-CN": "结界持续期间，我方全体目标速度提高12%，欢愉度额外提高16%。",
         "ja": "結界が展開されている間、味方全体の速度+12%、愉悦度がさらに+16%。",
         "ko": "결계 지속 시간 동안 모든 아군의 속도가 12% 증가하고, 환락도가 추가로 16% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1502_rank2.png",
+      "materials": [{ "id": 11502, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -623,7 +389,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。愉悦スキルのLv.+1、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 환락 스킬 레벨+1, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1502_skill.png",
+      "materials": [{ "id": 11502, "num": 1 }],
+      "levelUpSkills": [{ "id": 150202, "num": 2 }, { "id": 150201, "num": 1 }, { "id": 150220, "num": 1 }]
     },
     {
       "rank": 4,
@@ -640,7 +409,10 @@
         "zh-CN": "爻光终结技触发的阿哈的额外回合中，我方全体角色欢愉技造成的伤害为原伤害的150%。",
         "ja": "爻光の必殺技で発動するアッハの追加ターンで、味方が与える愉悦スキルダメージは本来のダメージの150%分になる。",
         "ko": "효광의 필살기로 발동한 아하의 보너스 턴 동안, 모든 아군 캐릭터의 환락 스킬이 가하는 피해가 기존 피해의 150%가 된다"
-      }
+      },
+      "icon": "icon/skill/1502_rank4.png",
+      "materials": [{ "id": 11502, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -657,7 +429,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。愉悦スキルのLv.+1、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 환락 스킬 레벨+1, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1502_ultimate.png",
+      "materials": [{ "id": 11502, "num": 1 }],
+      "levelUpSkills": [{ "id": 150203, "num": 2 }, { "id": 150204, "num": 2 }, { "id": 150220, "num": 1 }]
     },
     {
       "rank": 6,
@@ -674,10 +449,766 @@
         "zh-CN": "我方全体目标的欢愉伤害增笑25%。爻光欢愉技的伤害倍率提高原倍率的100%。",
         "ja": "味方全体の愉悦ダメージが25%上笑する。爻光の愉悦スキルのダメージ倍率が本来の100%分アップする。",
         "ko": "모든 아군의 환락 피해가 25% 증소한다. 효광 환락 스킬의 피해 배율이 기존 배율의 100%만큼 증가한다"
-      }
+      },
+      "icon": "icon/skill/1502_rank6.png",
+      "materials": [{ "id": 11502, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 180,
+  "stats": [
+    {
+      "hp": { "base": 168.96, "step": 8.448 },
+      "atk": { "base": 63.36, "step": 3.168 },
+      "def": { "base": 89.1, "step": 4.455 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 236.544, "step": 8.448 },
+      "atk": { "base": 88.704, "step": 3.168 },
+      "def": { "base": 124.74, "step": 4.455 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 304.128, "step": 8.448 },
+      "atk": { "base": 114.048, "step": 3.168 },
+      "def": { "base": 160.38, "step": 4.455 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 371.712, "step": 8.448 },
+      "atk": { "base": 139.392, "step": 3.168 },
+      "def": { "base": 196.02, "step": 4.455 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 439.296, "step": 8.448 },
+      "atk": { "base": 164.736, "step": 3.168 },
+      "def": { "base": 231.66, "step": 4.455 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 506.88, "step": 8.448 },
+      "atk": { "base": 190.08, "step": 3.168 },
+      "def": { "base": 267.3, "step": 4.455 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 574.464, "step": 8.448 },
+      "atk": { "base": 215.424, "step": 3.168 },
+      "def": { "base": 302.94, "step": 4.455 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 116001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 116001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 116002, "num": 6 }, { "id": 110431, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 116002, "num": 9 }, { "id": 110431, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 116003, "num": 6 }, { "id": 110431, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 116003, "num": 9 }, { "id": 110431, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1502001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1502_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [150201],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110261, "num": 2 }, { "id": 116001, "num": 5 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110262, "num": 2 }, { "id": 116002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110262, "num": 3 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 32000 }, { "id": 110263, "num": 3 }, { "id": 116003, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 120000 }, { "id": 110263, "num": 5 }, { "id": 116003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1502002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1502_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150202],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 116001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110261, "num": 3 }, { "id": 116001, "num": 5 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110262, "num": 2 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 15000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110262, "num": 6 }, { "id": 116002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 32000 }, { "id": 110263, "num": 2 }, { "id": 116003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 65000 },
+            { "id": 110263, "num": 4 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 120000 },
+            { "id": 110263, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 250000 },
+            { "id": 110263, "num": 12 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1502003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1502_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150203],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 116001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110261, "num": 3 }, { "id": 116001, "num": 5 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110262, "num": 2 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 15000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110262, "num": 6 }, { "id": 116002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 32000 }, { "id": 110263, "num": 2 }, { "id": 116003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 65000 },
+            { "id": 110263, "num": 4 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 120000 },
+            { "id": 110263, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 250000 },
+            { "id": 110263, "num": 12 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1502004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1502_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150204],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 116001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110261, "num": 3 }, { "id": 116001, "num": 5 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110262, "num": 2 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 15000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110262, "num": 6 }, { "id": 116002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 32000 }, { "id": 110263, "num": 2 }, { "id": 116003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 65000 },
+            { "id": 110263, "num": 4 },
+            { "id": 110508, "num": 1 },
+            { "id": 116003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 120000 },
+            { "id": 110263, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 250000 },
+            { "id": 110263, "num": 12 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1502007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1502_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [150207],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1502101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Graça Labirín-Tástica",
+        "en": "Amaze-In Grace",
+        "zh-CN": "开屏有礼",
+        "ja": "{RUBY_B#はねひら}羽開{RUBY_E#}きの{RUBY_B#れい}礼{RUBY_E#}",
+        "ko": "펼쳐서 선물 증정"
+      },
+      "description": {
+        "pt-BR": "Quando a VEL de Yao Guang for #1[i] ou superior, aumenta a Euforia desta unidade em #2[i]%. Para cada #3[i] de VEL excedente(s), aumenta a Euforia desta unidade em #4[i]%. Até um máximo de #5[i] pontos de VEL excedentes podem ser levados em consideração para esse efeito.",
+        "en": "When Yao Guang's SPD is #1[i] or higher, increases this unit's Elation by #2[i]%. For every #3[i] SPD exceeded, increases this unit's Elation by #4[i]%. Up to a max of #5[i] excess SPD can be taken into account for this effect.",
+        "zh-CN": "爻光的速度大于等于#1[i]时，使自身欢愉度提高#2[i]%，之后每超过#3[i]点速度使自身欢愉度提高#4[i]%，最多计入#5[i]点超出的速度。",
+        "ja": "爻光の速度が#1[i]以上の時、自身の愉悦度+#2[i]%。なお、超過した速度#3[i]につき、さらに自身の愉悦度+#4[i]%。超過した速度は最大#5[i]までカウントされる。",
+        "ko": "효광의 속도가 #1[i] 이상일 시, 자신의 환락도가 #2[i]% 증가하고, 이후 속도가 #3[i]pt 초과할 때마다 자신의 환락도가 #4[i]% 증가한다(초과한 속도는 최대 #5[i]pt까지 계산)"
+      },
+      "params": [[120, 0.3, 1, 0.01, 200]],
+      "icon": "icon/skill/1502_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110261, "num": 2 }, { "id": 110508, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1502102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Elegante e Satisfeita",
+        "en": "Poised and Sated",
+        "zh-CN": "神闲意满",
+        "ja": "{RUBY_B#み}満{RUBY_E#}ち{RUBY_B#た}足{RUBY_E#}りたひと{RUBY_B#とき}時{RUBY_E#}",
+        "ko": "여유로운 자태, 흡족한 마음"
+      },
+      "description": {
+        "pt-BR": "Aumenta o Dano CRIT desta unidade em #4[i]%. Após usar a Perícia da Euforia, recupera #1[i] Ponto(s) de Perícia para a equipe.",
+        "en": "Increases this unit's CRIT DMG by #4[i]%. After using Elation Skill, recovers #1[i] Skill Point(s) for the team.",
+        "zh-CN": "自身暴击伤害提高#4[i]%，施放欢愉技后，为我方恢复#1[i]个战技点。",
+        "ja": "自身の会心ダメージ+#4[i]%。愉悦スキルを発動した後、SPを#1[i]回復する。",
+        "ko": "자신의 치명타 피해가 #4[i]% 증가하고, 환락 스킬 발동 후 아군의 전투 스킬 포인트를 #1[i]pt 회복한다"
+      },
+      "params": [[1, 0.25, 0.4, 0.6]],
+      "icon": "icon/skill/1502_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110262, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1502103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Conjunto da Felicidade",
+        "en": "Felicity Ensemble",
+        "zh-CN": "鸿运鳞集",
+        "ja": "{RUBY_B#つど}集{RUBY_E#}う{RUBY_B#こううん}好運{RUBY_E#}",
+        "ko": "행운 집결"
+      },
+      "description": {
+        "pt-BR": "Quando Yao Guang obtém \"Mandou Bem\", aumenta sua duração em #2[i] rodada(s).",
+        "en": "When Yao Guang gains \"Certified Banger,\" its duration increases by #2[i] turn(s).",
+        "zh-CN": "爻光获得【好活当赏】时，使其持续时间增加#2[i]回合。",
+        "ja": "爻光が「爆笑の褒美」を獲得する時、その継続時間+#2[i]ターン。",
+        "ko": "효광이 [훌륭한 솜씨에는 보상을] 획득 시, 지속 시간이 #2[i]턴 증가한다"
+      },
+      "params": [[20, 1]],
+      "icon": "icon/skill/1502_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 140000 },
+            { "id": 110263, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1502201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 116001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1502202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110261, "num": 2 }, { "id": 116001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1502203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1502101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1502204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Euforia",
+        "en": "Elation Boost",
+        "zh-CN": "欢愉度强化",
+        "ja": "愉悦度強化",
+        "ko": "환락도 강화"
+      },
+      "icon": "icon/property/IconJoy.png",
+      "maxLevel": 1,
+      "prerequisites": [1502101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "ElationDamageAddedRatioBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1502205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1502102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 18000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1502206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1502205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110263, "num": 3 }, { "id": 116003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1502207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1502206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110263, "num": 3 }, { "id": 116003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1502208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Euforia",
+        "en": "Elation Boost",
+        "zh-CN": "欢愉度强化",
+        "ja": "愉悦度強化",
+        "ko": "환락도 강화"
+      },
+      "icon": "icon/property/IconJoy.png",
+      "maxLevel": 1,
+      "prerequisites": [1502103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "ElationDamageAddedRatioBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 120000 }, { "id": 110263, "num": 5 }, { "id": 116003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1502209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1502208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "SpeedDelta", "value": 4 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110263, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1502210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1502209],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110263, "num": 8 }, { "id": 116003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1502420,
+      "anchor": "Point22",
+      "name": {
+        "pt-BR": "Perícia da Euforia",
+        "en": "Elation Skill",
+        "zh-CN": "欢愉技",
+        "ja": "愉悦スキル",
+        "ko": "환락 스킬"
+      },
+      "icon": "icon/skill/1502_elation.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150220],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 116001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110261, "num": 3 }, { "id": 116001, "num": 5 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110262, "num": 2 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 15000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110262, "num": 6 }, { "id": 116002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 32000 }, { "id": 110263, "num": 2 }, { "id": 116003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 65000 }, { "id": 110263, "num": 4 }, { "id": 116003, "num": 4 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 120000 }, { "id": 110263, "num": 6 }, { "id": 116003, "num": 4 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 250000 }, { "id": 110263, "num": 12 }, { "id": 116003, "num": 4 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11502, 110261, 110262, 110263, 110431, 110508, 116001, 116002, 116003],
   "images": {
     "icon": "icon/character/1502.png",
     "preview": "image/character_preview/1502.png",

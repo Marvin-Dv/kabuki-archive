@@ -1,13 +1,7 @@
 {
   "id": 1407,
   "slug": "castorice",
-  "name": {
-    "pt-BR": "Castorice",
-    "en": "Castorice",
-    "zh-CN": "遐蝶",
-    "ja": "キャストリス",
-    "ko": "카스토리스"
-  },
+  "name": { "pt-BR": "Castorice", "en": "Castorice", "zh-CN": "遐蝶", "ja": "キャストリス", "ko": "카스토리스" },
   "rarity": 5,
   "path": "Remembrance",
   "element": "Quantum",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にキャストリスの最大HP#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 카스토리스 HP 최대치의 #1[i]%만큼 양자 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.25
-        ],
-        [
-          0.3
-        ],
-        [
-          0.35
-        ],
-        [
-          0.4
-        ],
-        [
-          0.45
-        ],
-        [
-          0.5
-        ],
-        [
-          0.55
-        ],
-        [
-          0.6
-        ],
-        [
-          0.65
-        ],
-        [
-          0.7
-        ]
-      ]
+      "params": [[0.25], [0.3], [0.35], [0.4], [0.45], [0.5], [0.55], [0.6], [0.65], [0.7]],
+      "icon": "icon/skill/1407_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Quântico leve a um inimigo.",
+        "en": "Deals minor Quantum DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量量子属性伤害。",
+        "ja": "敵単体に少量の量子属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140702,
@@ -82,82 +56,33 @@
         "ko": "모든 아군의 현재 HP를 #1[i]% 소모해 지정된 단일 적에게 카스토리스 HP 최대치의 #2[i]%만큼 양자 속성 피해를 가하고, 인접한 목표에게 카스토리스 HP 최대치의 #3[i]%만큼 양자 속성 피해를 가한다.\n현재 HP가 부족하면 HP를 최대 1pt까지 감소시킨다.\n죽음의 용이 필드에 있으면 전투 스킬이 [뼈의 발톱, 저승 용의 포옹]으로 전환된다"
       },
       "params": [
-        [
-          0.3,
-          0.25,
-          0.15
-        ],
-        [
-          0.3,
-          0.275,
-          0.165
-        ],
-        [
-          0.3,
-          0.3,
-          0.18
-        ],
-        [
-          0.3,
-          0.325,
-          0.195
-        ],
-        [
-          0.3,
-          0.35,
-          0.21
-        ],
-        [
-          0.3,
-          0.375,
-          0.225
-        ],
-        [
-          0.3,
-          0.4062,
-          0.2437
-        ],
-        [
-          0.3,
-          0.4375,
-          0.2625
-        ],
-        [
-          0.3,
-          0.4688,
-          0.2812
-        ],
-        [
-          0.3,
-          0.5,
-          0.3
-        ],
-        [
-          0.3,
-          0.525,
-          0.315
-        ],
-        [
-          0.3,
-          0.55,
-          0.33
-        ],
-        [
-          0.3,
-          0.575,
-          0.345
-        ],
-        [
-          0.3,
-          0.6,
-          0.36
-        ],
-        [
-          0.3,
-          0.625,
-          0.375
-        ]
-      ]
+        [0.3, 0.25, 0.15],
+        [0.3, 0.275, 0.165],
+        [0.3, 0.3, 0.18],
+        [0.3, 0.325, 0.195],
+        [0.3, 0.35, 0.21],
+        [0.3, 0.375, 0.225],
+        [0.3, 0.4062, 0.2437],
+        [0.3, 0.4375, 0.2625],
+        [0.3, 0.4688, 0.2812],
+        [0.3, 0.5, 0.3],
+        [0.3, 0.525, 0.315],
+        [0.3, 0.55, 0.33],
+        [0.3, 0.575, 0.345],
+        [0.3, 0.6, 0.36],
+        [0.3, 0.625, 0.375]
+      ],
+      "icon": "icon/skill/1407_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome PV de todos os aliados. Causa Dano Quântico a um inimigo e Dano Quântico leve aos alvos adjacentes.",
+        "en": "Consumes all allies' HP. Deals Quantum DMG to one enemy and minor Quantum DMG to adjacent targets.",
+        "zh-CN": "消耗我方全体生命值，对敌方单体造成量子属性伤害的同时对相邻目标造成少量量子属性伤害。",
+        "ja": "味方それぞれの残りHPを消費し、敵単体に量子属性ダメージを与え、隣接する敵に少量の量子属性ダメージを与える。",
+        "ko": "모든 아군의 HP를 소모하며, 단일 적에게 양자 속성 피해를 가하고, 인접한 목표에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140703,
@@ -177,112 +102,33 @@
         "ko": "기억 정령 죽음의 용을 소환하고 대상의 행동 게이지를 100% 증가시키며, 동시에 경계 [세상을 잊은 저승]을 전개하여 모든 적의 모든 속성 저항을 #4[i]% 감소시킨다. 카스토리스가 특성의 가하는 피해 증가 효과를 보유할 시, 해당 효과를 죽음의 용에게 확산시킨다. 죽음의 용은 기본 상태에서 #1[i]pt의 속도와 [새로운 꽃술] 최대치의 #3[i]%만큼 고정 HP 최대치를 보유한다.\n죽음의 용은 #2[i]턴 후 또는 HP가 0이 되면 사라지며, 동시에 경계 [세상을 잊은 저승]이 해제된다"
       },
       "params": [
-        [
-          165,
-          3,
-          1,
-          0.1,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.11,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.12,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.13,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.14,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.15,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.1625,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.175,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.1875,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.2,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.21,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.22,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.23,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.24,
-          0
-        ],
-        [
-          165,
-          3,
-          1,
-          0.25,
-          0
-        ]
-      ]
+        [165, 3, 1, 0.1, 0],
+        [165, 3, 1, 0.11, 0],
+        [165, 3, 1, 0.12, 0],
+        [165, 3, 1, 0.13, 0],
+        [165, 3, 1, 0.14, 0],
+        [165, 3, 1, 0.15, 0],
+        [165, 3, 1, 0.1625, 0],
+        [165, 3, 1, 0.175, 0],
+        [165, 3, 1, 0.1875, 0],
+        [165, 3, 1, 0.2, 0],
+        [165, 3, 1, 0.21, 0],
+        [165, 3, 1, 0.22, 0],
+        [165, 3, 1, 0.23, 0],
+        [165, 3, 1, 0.24, 0],
+        [165, 3, 1, 0.25, 0]
+      ],
+      "icon": "icon/skill/1407_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Invoca o Memoespírito \"Dragão Abissal\" e Avança Adiante sua ação em 100%. Ao mesmo tempo, cria um \"Território\" que reduz a RES a Todos os Tipos de todos os inimigos.",
+        "en": "Summons the memosprite Netherwing and advances its action by 100%. At the same time, deploys a Territory that decreases All-Type RES for all enemies.",
+        "zh-CN": "召唤忆灵死龙使其行动提前100%，同时展开境界，使敌方全体全属性抗性降低。",
+        "ja": "記憶の精霊「死竜」を召喚し、その行動順を100%早める。同時に境界を展開し、敵全体の全属性耐性をダウンさせる。",
+        "ko": "기억 정령 죽음의 용을 소환하고 대상의 행동 게이지를 100% 증가시키며, 동시에 경계를 전개하여 모든 적의 모든 속성 저항을 감소시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Invocar", "en": "Summon", "zh-CN": "召唤", "ja": "召喚", "ko": "소환" }
     },
     {
       "id": 140704,
@@ -302,109 +148,48 @@
         "ko": "[새로운 꽃술] 최대치는 필드 위 모든 캐릭터의 레벨에 영향을 받는다. 모든 아군이 HP를 1pt 잃을 때마다 카스토리스는 [새로운 꽃술]을 1pt 획득하고, [새로운 꽃술]이 최대치에 도달하면 필살기를 활성화할 수 있다. 아군이 HP를 잃을 시 카스토리스와 죽음의 용이 가하는 피해가 #2[i]% 증가한다, 해당 효과 최대 중첩수: #3[i]스택, 지속 시간: #4[i]턴.\n죽음의 용이 필드에 있을 시 특성을 통해 [새로운 꽃술]을 획득할 수 없으며, 죽음의 용을 제외한 모든 아군이 HP를 1pt 잃을 때마다 같은 양의 죽음의 용 HP로 전환된다"
       },
       "params": [
-        [
-          0,
-          0.1,
-          3,
-          3
-        ],
-        [
-          0,
-          0.11,
-          3,
-          3
-        ],
-        [
-          0,
-          0.12,
-          3,
-          3
-        ],
-        [
-          0,
-          0.13,
-          3,
-          3
-        ],
-        [
-          0,
-          0.14,
-          3,
-          3
-        ],
-        [
-          0,
-          0.15,
-          3,
-          3
-        ],
-        [
-          0,
-          0.1625,
-          3,
-          3
-        ],
-        [
-          0,
-          0.175,
-          3,
-          3
-        ],
-        [
-          0,
-          0.1875,
-          3,
-          3
-        ],
-        [
-          0,
-          0.2,
-          3,
-          3
-        ],
-        [
-          0,
-          0.21,
-          3,
-          3
-        ],
-        [
-          0,
-          0.22,
-          3,
-          3
-        ],
-        [
-          0,
-          0.23,
-          3,
-          3
-        ],
-        [
-          0,
-          0.24,
-          3,
-          3
-        ],
-        [
-          0,
-          0.25,
-          3,
-          3
-        ]
-      ]
+        [0, 0.1, 3, 3],
+        [0, 0.11, 3, 3],
+        [0, 0.12, 3, 3],
+        [0, 0.13, 3, 3],
+        [0, 0.14, 3, 3],
+        [0, 0.15, 3, 3],
+        [0, 0.1625, 3, 3],
+        [0, 0.175, 3, 3],
+        [0, 0.1875, 3, 3],
+        [0, 0.2, 3, 3],
+        [0, 0.21, 3, 3],
+        [0, 0.22, 3, 3],
+        [0, 0.23, 3, 3],
+        [0, 0.24, 3, 3],
+        [0, 0.25, 3, 3]
+      ],
+      "icon": "icon/skill/1407_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quando aliados perdem PV, Castorice ganha \"Brotar\". Aumenta o Dano causado de Castorice e do \"Dragão Abissal\". Quando \"Brotar\" atinge seu limite máximo, a Perícia Suprema pode ser ativada. Enquanto o \"Dragão Abissal\" estiver em campo, os PV perdidos por aliados (exceto o \"Dragão Abissal\") serão convertidos na mesma quantidade de PV para o \"Dragão Abissal\".",
+        "en": "When allies lose HP, Castorice gains \"Newbud\". Increases Castorice's and Netherwing's DMG dealt. When \"Newbud\" reaches its maximum limit, can activate the Ultimate. While Netherwing is on the field, HP lost by allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+        "zh-CN": "我方损失生命值时遐蝶获得【新蕊】，同时使遐蝶与死龙造成伤害提高，当【新蕊】达到上限可激活终结技。死龙在场时，除死龙以外我方损失生命值会转化为死龙同等的生命值。",
+        "ja": "味方がHPを失った時、キャストリスは「新蕾」を獲得し、同時にキャストリスと死竜の与ダメージがアップする。「新蕾」が上限に達すると必殺技を発動できる。死竜がフィールドにいる時、死竜以外の味方が失ったHPは、死竜のHPに変換される。",
+        "ko": "아군이 HP를 잃을 시 카스토리스는 [새로운 꽃술]을 획득하고, 동시에 카스토리스와 죽음의 용이 가하는 피해가 증가한다. [새로운 꽃술]이 최대치에 도달하면 필살기를 활성화할 수 있다. 죽음의 용이 필드에 있을 시, 죽음의 용을 제외한 아군이 HP를 잃으면 같은 양의 죽음의 용 HP로 전환된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140706,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo e, quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1407_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo e, quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -429,14 +214,17 @@
         "ja": "秘技を使用した後、#3[i]秒間継続する「冥茫」状態に入る。「冥茫」状態の敵はキャストリスに近づくことができない。\n「冥茫」状態で攻撃を行うと、範囲内のすべての敵が戦闘に入る。同時に記憶の精霊「死竜」を召喚し、その行動順を100%早め、境界「遺世の冥域」を展開する。「死竜」の残りHPは「新蕾」の上限#2[i]%分となる。戦闘に入った後、死竜以外の味方全体の残りHPを#1[i]%消費する。\nなお、戦闘に入った後、死竜を召喚しなかった場合、キャストリスは「新蕾」の上限#4[i]%分の「新蕾」を獲得する。",
         "ko": "비술 사용 후 #3[i]초 동안 [아득한 어둠] 상태에 진입한다. [아득한 어둠] 상태의 적은 카스토리스에게 직접 다가올 수 없다.\n[아득한 어둠] 상태에서 선공하면 범위 내 모든 적을 전투에 진입시키고, 동시에 기억 정령 죽음의 용을 소환하고 행동 게이지를 100% 증가시키며, 경계 [세상을 잊은 저승]을 펼친다. 또한, 죽음의 용은 [새로운 꽃술] 최대치의 #2[i]%만큼 현재 HP를 보유한다. 전투 진입 후, 죽음의 용을 제외한 모든 아군의 현재 HP를 #1[i]% 소모한다.\n전투 진입 후 죽음의 용이 소환되지 않을 시 카스토리스는 [새로운 꽃술]을 [새로운 꽃술] 최대치의 #4[i]%만큼 획득한다"
       },
-      "params": [
-        [
-          0.4,
-          0.5,
-          20,
-          0.3
-        ]
-      ]
+      "params": [[0.4, 0.5, 20, 0.3]],
+      "icon": "icon/skill/1407_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Entra no estado de \"Confusão Mortal\". Inimigos não podem se aproximar ativamente de Castorice.\nDurante a \"Confusão Mortal\", ataques farão com que todos os inimigos dentro do alcance entrem em combate. Ao mesmo tempo, invoca o Memoespírito \"Dragão Abissal\" e Avança Adiante sua ação em 100%. Ao entrar em combate, consome os PV de todos os aliados (exceto o \"Dragão Abissal\").\nSe o \"Dragão Abissal\" não for invocado após entrar em combate, Castorice ganha \"Brotar\" em uma quantidade igual a 30% do máximo de \"Brotar\".",
+        "en": "Enters the \"Netherveil\" state. Enemies are unable to actively approach Castorice.\nDuring \"Netherveil,\" attacks will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing, advances its action by 100%. Upon entering battle, consumes HP of all allies (except Netherwing).\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to 30% of max \"Newbud.\"",
+        "zh-CN": "进入【冥茫】状态，敌人无法主动靠近遐蝶，\n【冥茫】状态下攻击会使所有范围内的敌人进入战斗，同时召唤忆灵死龙使其行动提前100%。进入战斗时，消耗除死龙以外的我方全体生命值。\n进入战斗后未召唤死龙遐蝶回复等同于【新蕊】上限30%点数的【新蕊】。",
+        "ja": "「冥茫」状態に入ると、敵はキャストリスに近づくことができなくなる。\n「冥茫」状態で攻撃を行うと、範囲内のすべての敵が戦闘に入り、同時に記憶の精霊「死竜」を召喚し、その行動順を100%早める。戦闘に入った時、死竜以外の味方全体のHPを消費する。\n戦闘に入った後、死竜を召喚しなかった場合、キャストリスは「新蕾」の上限30%分の「新蕾」を回復する。",
+        "ko": "[아득한 어둠] 상태에 진입하며, 적은 카스토리스에게 직접 다가올 수 없다.\n[아득한 어둠] 상태에서 공격 시 범위 내 모든 적을 전투에 진입시키고, 동시에 기억 정령 죽음의 용을 소환하고 행동 게이지를 100% 증가시킨다. 전투 진입 시, 죽음의 용을 제외한 모든 아군의 HP를 소모한다.\n전투 진입 후 죽음의 용이 소환되지 않을 시 카스토리스는 [새로운 꽃술]을 [새로운 꽃술] 최대치의 30%만큼 회복한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 140709,
@@ -456,82 +244,33 @@
         "ko": "죽음의 용을 제외한 모든 아군의 현재 HP를 #1[i]% 소모하고, 카스토리스와 죽음의 용이 목표에게 연계 공격을 발동해 모든 적에게 카스토리스 HP 최대치의 #2[f1]%와 #3[f1]%만큼 양자 속성 피해를 가한다.\n현재 HP가 부족하면 HP를 최대 1pt까지 감소시킨다"
       },
       "params": [
-        [
-          0.4,
-          0.15,
-          0.25
-        ],
-        [
-          0.4,
-          0.165,
-          0.275
-        ],
-        [
-          0.4,
-          0.18,
-          0.3
-        ],
-        [
-          0.4,
-          0.195,
-          0.325
-        ],
-        [
-          0.4,
-          0.21,
-          0.35
-        ],
-        [
-          0.4,
-          0.225,
-          0.375
-        ],
-        [
-          0.4,
-          0.2437,
-          0.4062
-        ],
-        [
-          0.4,
-          0.2625,
-          0.4375
-        ],
-        [
-          0.4,
-          0.2812,
-          0.4688
-        ],
-        [
-          0.4,
-          0.3,
-          0.5
-        ],
-        [
-          0.4,
-          0.315,
-          0.525
-        ],
-        [
-          0.4,
-          0.33,
-          0.55
-        ],
-        [
-          0.4,
-          0.345,
-          0.575
-        ],
-        [
-          0.4,
-          0.36,
-          0.6
-        ],
-        [
-          0.4,
-          0.375,
-          0.625
-        ]
-      ]
+        [0.4, 0.15, 0.25],
+        [0.4, 0.165, 0.275],
+        [0.4, 0.18, 0.3],
+        [0.4, 0.195, 0.325],
+        [0.4, 0.21, 0.35],
+        [0.4, 0.225, 0.375],
+        [0.4, 0.2437, 0.4062],
+        [0.4, 0.2625, 0.4375],
+        [0.4, 0.2812, 0.4688],
+        [0.4, 0.3, 0.5],
+        [0.4, 0.315, 0.525],
+        [0.4, 0.33, 0.55],
+        [0.4, 0.345, 0.575],
+        [0.4, 0.36, 0.6],
+        [0.4, 0.375, 0.625]
+      ],
+      "icon": "icon/skill/1407_skill2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome os PV de todos os aliados. Castorice e \"Dragão Abissal\" realizam um Ataque Conjunto nos alvos e causam Dano Quântico a todos os inimigos.",
+        "en": "Consumes all allies' HP. Castorice and Netherwing launch Joint ATK on the targets, dealing Quantum DMG to all enemies.",
+        "zh-CN": "消耗我方全体生命值，遐蝶与死龙向目标发起连携攻击，对敌方全体造成量子属性伤害。",
+        "ja": "味方全体のHPを消費し、キャストリスと死竜が連携攻撃を行い、敵全体に量子属性ダメージを与える。",
+        "ko": "모든 아군의 HP를 소모하며, 카스토리스와 죽음의 용이 목표에게 연계 공격을 발동해 모든 적에게 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1140701,
@@ -550,38 +289,24 @@
         "ja": "敵全体にキャストリスの最大HP#1[f1]%分の量子属性ダメージを与える。",
         "ko": "모든 적에게 카스토리스 HP 최대치의 #1[f1]%만큼 양자 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.2
-        ],
-        [
-          0.24
-        ],
-        [
-          0.28
-        ],
-        [
-          0.32
-        ],
-        [
-          0.36
-        ],
-        [
-          0.4
-        ],
-        [
-          0.44
-        ],
-        [
-          0.48
-        ],
-        [
-          0.52
-        ],
-        [
-          0.56
-        ]
-      ]
+      "params": [[0.2], [0.24], [0.28], [0.32], [0.36], [0.4], [0.44], [0.48], [0.52], [0.56]],
+      "icon": "icon/skill/1407_memosprite_skill1.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Quântico leve a todos os inimigos.",
+        "en": "Deals minor Quantum DMG to all enemies.",
+        "zh-CN": "对敌方全体造成少量量子属性伤害。",
+        "ja": "敵全体に少量の量子属性ダメージを与える。",
+        "ko": "모든 적에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": {
+        "pt-BR": "Perícia do Memoespírito",
+        "en": "Memosprite Skill",
+        "zh-CN": "忆灵技",
+        "ja": "精霊スキル",
+        "ko": "기억 정령 스킬"
+      },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1140702,
@@ -601,77 +326,34 @@
         "ko": "[암흑을 불태우는 화염의 숨결]을 발동하면 죽음의 용의 HP를 HP 최대치의 #1[i]%만큼 소모하고, 모든 적에게 카스토리스 HP 최대치의 #2[f1]%만큼 양자 속성 피해를 가한다.\n1회의 공격 동안 [암흑을 불태우는 화염의 숨결]을 중복 발동할 수 있으며, 중복 발동 시 피해 배율이 순차대로 #3[f1]%/#4[f1]%로 증가하며, #4[f1]%에 도달하면 더 이상 증가하지 않는다. 피해 배율 증가 효과는 죽음의 용이 사라지기 전까지 감소하지 않는다.\n죽음의 용의 현재 HP가 자신의 HP 최대치의 #5[i]% 이하일 시 해당 스킬을 발동하면 HP가 1pt로 감소하고, 특성 [묘지를 불사르는 어둠의 날개]와 동일한 스킬 효과를 발동한다"
       },
       "params": [
-        [
-          0.25,
-          0.12,
-          0.14,
-          0.17,
-          0.25
-        ],
-        [
-          0.25,
-          0.144,
-          0.168,
-          0.204,
-          0.25
-        ],
-        [
-          0.25,
-          0.168,
-          0.196,
-          0.238,
-          0.25
-        ],
-        [
-          0.25,
-          0.192,
-          0.224,
-          0.272,
-          0.25
-        ],
-        [
-          0.25,
-          0.216,
-          0.252,
-          0.306,
-          0.25
-        ],
-        [
-          0.25,
-          0.24,
-          0.28,
-          0.34,
-          0.25
-        ],
-        [
-          0.25,
-          0.264,
-          0.308,
-          0.374,
-          0.25
-        ],
-        [
-          0.25,
-          0.288,
-          0.336,
-          0.408,
-          0.25
-        ],
-        [
-          0.25,
-          0.312,
-          0.364,
-          0.442,
-          0.25
-        ],
-        [
-          0.25,
-          0.336,
-          0.392,
-          0.476,
-          0.25
-        ]
-      ]
+        [0.25, 0.12, 0.14, 0.17, 0.25],
+        [0.25, 0.144, 0.168, 0.204, 0.25],
+        [0.25, 0.168, 0.196, 0.238, 0.25],
+        [0.25, 0.192, 0.224, 0.272, 0.25],
+        [0.25, 0.216, 0.252, 0.306, 0.25],
+        [0.25, 0.24, 0.28, 0.34, 0.25],
+        [0.25, 0.264, 0.308, 0.374, 0.25],
+        [0.25, 0.288, 0.336, 0.408, 0.25],
+        [0.25, 0.312, 0.364, 0.442, 0.25],
+        [0.25, 0.336, 0.392, 0.476, 0.25]
+      ],
+      "icon": "icon/skill/1407_memosprite_skill2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Consome PV desta unidade para causar Dano Quântico a todos os inimigos. Esta rodada não será concluída. Ao usar esta habilidade repetidamente, ela pode ser aprimorada até 3 vezes. Quando os PV forem menores ou iguais a 25%, usar esta habilidade ativará o efeito da habilidade do Talento do Memoespírito \"Asas Sobre as Ruínas\".",
+        "en": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is 25% or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "zh-CN": "消耗自身生命值，对敌方全体造成量子属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于25%时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+        "ja": "自身のHPを消費し、敵全体に量子属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが25%以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+        "ko": "자신의 HP를 소모하고 모든 적에게 양자 속성 피해를 가하며, 이번 턴은 종료되지 않는다. 스킬 중복 발동 시 스킬은 최대 3회 강화된다. HP가 25% 이하일 시 해당 스킬을 발동하면 기억 정령 특성 [묘지를 불사르는 어둠의 날개]의 스킬 효과를 직접 발동한다"
+      },
+      "typeText": {
+        "pt-BR": "Perícia do Memoespírito",
+        "en": "Memosprite Skill",
+        "zh-CN": "忆灵技",
+        "ja": "精霊スキル",
+        "ko": "기억 정령 스킬"
+      },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1140703,
@@ -690,38 +372,24 @@
         "ja": "死竜がフィールドにいる時、味方の後陣となる。味方がダメージを受けるまたはHPを消費する時、残りHPが1を下回ることはない。以降のダメージは死竜が負担するが、死竜が消えるまで、本来の数値の#1[i]%に相当するHPを消費する。",
         "ko": "죽음의 용이 필드에 있을 시 아군을 후방 지원하며, 아군이 피해를 받거나 HP를 소모할 시 현재 HP가 최대 1pt까지 감소하고, 이후에는 죽음의 용이 대신 감당하나 죽음의 용이 기존 수치의 #1[i]%만큼 HP를 소모한다. 해당 효과는 죽음의 용이 사라질 때까지 지속된다"
       },
-      "params": [
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ],
-        [
-          5
-        ]
-      ]
+      "params": [[5], [5], [5], [5], [5], [5], [5], [5], [5], [5]],
+      "icon": "icon/skill/1407_memosprite_talent.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Quando o \"Dragão Abissal\" está no campo, ele fornece apoio aos aliados. Os PV atuais dos aliados podem ser reduzidos até o mínimo de 1, após o qual o \"Dragão Abissal\" suportará o Dano recebido ou o consumo de PV.",
+        "en": "When Netherwing is on the field, it acts as backup for allies. Allies' current HP can be reduced down to a minimum of 1, after which Netherwing will bear the DMG received or the HP consumed.",
+        "zh-CN": "死龙在场时为我方后援，我方当前生命值最多降至1点，此后受到伤害或消耗生命值由死龙承担。",
+        "ja": "死竜がフィールドにいる時、味方の後陣となる。味方の残りHPが1になった後、以降の受けたダメージと消費したHPは死竜が負担する。",
+        "ko": "죽음의 용이 필드에 있을 시 아군을 후방 지원하며, 아군의 현재 HP는 최대 1pt까지 감소하고, 이후 받은 피해 또는 소모된 HP는 죽음의 용이 대신 감당한다"
+      },
+      "typeText": {
+        "pt-BR": "Talento do Memoespírito",
+        "en": "Memosprite Talent",
+        "zh-CN": "忆灵天赋",
+        "ja": "精霊天賦",
+        "ko": "기억 정령 특성"
+      },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 1140705,
@@ -741,47 +409,34 @@
         "ko": "죽음의 용이 소환될 시, 모든 아군이 가하는 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴"
       },
       "params": [
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ],
-        [
-          0.1,
-          3
-        ]
-      ]
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3],
+        [0.1, 3]
+      ],
+      "icon": "icon/skill/1407_memosprite_talent.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Quando invocado, aumenta o Dano causado por todos os aliados.",
+        "en": "When summoned, increases the DMG dealt by all allies.",
+        "zh-CN": "被召唤时，使我方全体造成的伤害提高。",
+        "ja": "召喚された時、味方全体の与ダメージをアップする。",
+        "ko": "소환될 시, 모든 아군이 가하는 피해가 증가한다"
+      },
+      "typeText": {
+        "pt-BR": "Talento do Memoespírito",
+        "en": "Memosprite Talent",
+        "zh-CN": "忆灵天赋",
+        "ja": "精霊天賦",
+        "ko": "기억 정령 특성"
+      },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 1140706,
@@ -801,67 +456,34 @@
         "ko": "죽음의 용이 사라질 시 피해를 #2[i]회 가하며, 피해당 랜덤 단일 적에게 카스토리스 HP 최대치의 #1[f1]%만큼 양자 속성 피해를 가하고, 모든 아군의 HP를 카스토리스 HP 최대치의 #3[i]%+#4[i]pt만큼 회복한다"
       },
       "params": [
-        [
-          0.2,
-          6,
-          0.03,
-          400
-        ],
-        [
-          0.24,
-          6,
-          0.036,
-          480
-        ],
-        [
-          0.28,
-          6,
-          0.042,
-          560
-        ],
-        [
-          0.32,
-          6,
-          0.048,
-          640
-        ],
-        [
-          0.36,
-          6,
-          0.054,
-          720
-        ],
-        [
-          0.4,
-          6,
-          0.06,
-          800
-        ],
-        [
-          0.44,
-          6,
-          0.066,
-          880
-        ],
-        [
-          0.48,
-          6,
-          0.072,
-          960
-        ],
-        [
-          0.52,
-          6,
-          0.078,
-          1040
-        ],
-        [
-          0.56,
-          6,
-          0.084,
-          1120
-        ]
-      ]
+        [0.2, 6, 0.03, 400],
+        [0.24, 6, 0.036, 480],
+        [0.28, 6, 0.042, 560],
+        [0.32, 6, 0.048, 640],
+        [0.36, 6, 0.054, 720],
+        [0.4, 6, 0.06, 800],
+        [0.44, 6, 0.066, 880],
+        [0.48, 6, 0.072, 960],
+        [0.52, 6, 0.078, 1040],
+        [0.56, 6, 0.084, 1120]
+      ],
+      "icon": "icon/skill/1407_memosprite_skill4.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Ao desaparecer, causa Dano Quântico leve a um inimigo, com 6 Ricochete(s) no total. Ao mesmo tempo, restaura os PV de todos os aliados.",
+        "en": "Upon disappearing, deals minor Quantum DMG to one enemy that Bounces a total of 6 time(s). At the same time, restores HP for all allies.",
+        "zh-CN": "消失时，对敌方单体造成少量量子属性伤害，共弹射6次，同时为我方全体回复生命值。",
+        "ja": "消える時、敵単体に少量の量子属性ダメージを与え、6回バウンドする。同時に味方全体のHPを回復する。",
+        "ko": "사라질 시, 단일 적에게 소량의 양자 속성 피해를 가하고 총 6회 바운스한다. 동시에 모든 아군의 HP를 회복한다"
+      },
+      "typeText": {
+        "pt-BR": "Talento do Memoespírito",
+        "en": "Memosprite Talent",
+        "zh-CN": "忆灵天赋",
+        "ja": "精霊天賦",
+        "ko": "기억 정령 특성"
+      },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
     },
     {
       "id": 1140710,
@@ -880,38 +502,24 @@
         "ja": "自身のHPを消費し、敵全体に量子属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが#5[i]%以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
         "ko": "자신의 HP를 소모하고 모든 적에게 양자 속성 피해를 가하며, 이번 턴은 종료되지 않는다. 스킬 중복 발동 시 스킬은 최대 3회 강화된다. HP가 #5[i]% 이하일 시 해당 스킬을 발동하면 기억 정령 특성 [묘지를 불사르는 어둠의 날개]의 스킬 효과를 직접 발동한다"
       },
-      "params": [
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ]
-      ]
+      "params": [[0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25]],
+      "icon": "icon/skill/1407_memosprite_skill2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Consome PV desta unidade para causar Dano Quântico a todos os inimigos. Esta rodada não será concluída. Ao usar esta habilidade repetidamente, ela pode ser aprimorada até 3 vezes. Quando os PV forem menores ou iguais a #5[i]%, usar esta habilidade ativará o efeito da habilidade do Talento do Memoespírito \"Asas Sobre as Ruínas\".",
+        "en": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is #5[i]% or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "zh-CN": "消耗自身生命值，对敌方全体造成量子属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于#5[i]%时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+        "ja": "自身のHPを消費し、敵全体に量子属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが#5[i]%以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+        "ko": "자신의 HP를 소모하고 모든 적에게 양자 속성 피해를 가하며, 이번 턴은 종료되지 않는다. 스킬 중복 발동 시 스킬은 최대 3회 강화된다. HP가 #5[i]% 이하일 시 해당 스킬을 발동하면 기억 정령 특성 [묘지를 불사르는 어둠의 날개]의 스킬 효과를 직접 발동한다"
+      },
+      "typeText": {
+        "pt-BR": "Perícia do Memoespírito",
+        "en": "Memosprite Skill",
+        "zh-CN": "忆灵技",
+        "ja": "精霊スキル",
+        "ko": "기억 정령 스킬"
+      },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1140711,
@@ -930,38 +538,24 @@
         "ja": "自身のHPを消費し、敵全体に量子属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが#5[i]%以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
         "ko": "자신의 HP를 소모하고 모든 적에게 양자 속성 피해를 가하며, 이번 턴은 종료되지 않는다. 스킬 중복 발동 시 스킬은 최대 3회 강화된다. HP가 #5[i]% 이하일 시 해당 스킬을 발동하면 기억 정령 특성 [묘지를 불사르는 어둠의 날개]의 스킬 효과를 직접 발동한다"
       },
-      "params": [
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ],
-        [
-          0.25
-        ]
-      ]
+      "params": [[0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25], [0.25]],
+      "icon": "icon/skill/1407_memosprite_skill2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Consome PV desta unidade para causar Dano Quântico a todos os inimigos. Esta rodada não será concluída. Ao usar esta habilidade repetidamente, ela pode ser aprimorada até 3 vezes. Quando os PV forem menores ou iguais a #5[i]%, usar esta habilidade ativará o efeito da habilidade do Talento do Memoespírito \"Asas Sobre as Ruínas\".",
+        "en": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is #5[i]% or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "zh-CN": "消耗自身生命值，对敌方全体造成量子属性伤害，且本回合不会结束。重复施放技能时，技能最多获得3次强化。生命值小于等于#5[i]%时，施放该技能会主动触发忆灵天赋【灼掠幽墟的晦翼】的技能效果。",
+        "ja": "自身のHPを消費し、敵全体に量子属性ダメージを与える。ターンは終了しない。スキルを重複して発動した時、最大3回まで強化される。残りHPが#5[i]%以下の時にこのスキルを発動すると、記憶の精霊の天賦「幽墟奪略の晦翼」の効果が発動する。",
+        "ko": "자신의 HP를 소모하고 모든 적에게 양자 속성 피해를 가하며, 이번 턴은 종료되지 않는다. 스킬 중복 발동 시 스킬은 최대 3회 강화된다. HP가 #5[i]% 이하일 시 해당 스킬을 발동하면 기억 정령 특성 [묘지를 불사르는 어둠의 날개]의 스킬 효과를 직접 발동한다"
+      },
+      "typeText": {
+        "pt-BR": "Perícia do Memoespírito",
+        "en": "Memosprite Skill",
+        "zh-CN": "忆灵技",
+        "ja": "精霊スキル",
+        "ko": "기억 정령 스킬"
+      },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1140712,
@@ -981,67 +575,34 @@
         "ko": "모든 HP를 소모하고 피해를 #2[i]회 가하며, 피해당 랜덤 단일 적에게 카스토리스 HP 최대치의 #1[f1]%만큼 양자 속성 피해를 가하고, 모든 아군의 HP를 카스토리스 HP 최대치의 #3[i]%+#4[i]pt만큼 회복한다"
       },
       "params": [
-        [
-          0.2,
-          6,
-          0.03,
-          400
-        ],
-        [
-          0.24,
-          6,
-          0.036,
-          480
-        ],
-        [
-          0.28,
-          6,
-          0.042,
-          560
-        ],
-        [
-          0.32,
-          6,
-          0.048,
-          640
-        ],
-        [
-          0.36,
-          6,
-          0.054,
-          720
-        ],
-        [
-          0.4,
-          6,
-          0.06,
-          800
-        ],
-        [
-          0.44,
-          6,
-          0.066,
-          880
-        ],
-        [
-          0.48,
-          6,
-          0.072,
-          960
-        ],
-        [
-          0.52,
-          6,
-          0.078,
-          1040
-        ],
-        [
-          0.56,
-          6,
-          0.084,
-          1120
-        ]
-      ]
+        [0.2, 6, 0.03, 400],
+        [0.24, 6, 0.036, 480],
+        [0.28, 6, 0.042, 560],
+        [0.32, 6, 0.048, 640],
+        [0.36, 6, 0.054, 720],
+        [0.4, 6, 0.06, 800],
+        [0.44, 6, 0.066, 880],
+        [0.48, 6, 0.072, 960],
+        [0.52, 6, 0.078, 1040],
+        [0.56, 6, 0.084, 1120]
+      ],
+      "icon": "icon/skill/1407_memosprite_skill4.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Consome todos os PV e causa Dano Quântico leve a um inimigo, com 6 Ricochete(s) no total. Ao mesmo tempo, restaura os PV de todos os aliados.",
+        "en": "Consumes all HP and deals minor Quantum DMG to one enemy that Bounces a total of 6 time(s). At the same time, restores HP for all allies.",
+        "zh-CN": "消耗全部生命值，对敌方单体造成少量量子属性伤害，共弹射6次，同时为我方全体回复生命值。",
+        "ja": "HPをすべて消費し、敵単体に少量の量子属性ダメージを与え、6回バウンドする。同時に味方全体のHPを回復する。",
+        "ko": "모든 HP를 소모하며, 단일 적에게 소량의 양자 속성 피해를 가하고 총 6회 바운스한다. 동시에 모든 아군의 HP를 회복한다"
+      },
+      "typeText": {
+        "pt-BR": "Perícia do Memoespírito",
+        "en": "Memosprite Skill",
+        "zh-CN": "忆灵技",
+        "ja": "精霊スキル",
+        "ko": "기억 정령 스킬"
+      },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
     }
   ],
   "eidolons": [
@@ -1060,7 +621,10 @@
         "zh-CN": "敌方目标当前生命值小于等于自身生命上限80%/50%时，【骸爪，冥龙之环拥】、【擘裂冥茫的爪痕】、【燎尽黯泽的焰息】、【灼掠幽墟的晦翼】对其造成的伤害为原伤害的120%/140%。",
         "ja": "敵の残りHPが最大HP80%/50%以下の時、その敵に対する「骸爪、冥竜の抱擁」、「冥茫裂く爪痕」、「晦冥焼き払う息吹」、「幽墟奪略の晦翼」の与ダメージは本来の120%/140%になる。",
         "ko": "적의 현재 HP가 자신의 HP 최대치의 80%/50% 이하일 시, [뼈의 발톱, 저승 용의 포옹], [어둠을 찢는 발톱], [암흑을 불태우는 화염의 숨결], [묘지를 불사르는 어둠의 날개]가 대상에게 가하는 피해가 기존 피해의 120%/140%가 된다"
-      }
+      },
+      "icon": "icon/skill/1407_rank1.png",
+      "materials": [{ "id": 11407, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -1077,7 +641,10 @@
         "zh-CN": "召唤忆灵死龙后，遐蝶获得2层【炽意】，【炽意】最多持有2层，可用来抵扣死龙忆灵技【燎尽黯泽的焰息】的生命值消耗，并使遐蝶行动提前100%，下一次施放强化战技遐蝶获得等同于【新蕊】上限30%点数的【新蕊】。",
         "ja": "記憶の精霊「死竜」を召喚した後、キャストリスは「熾意」を2層獲得する。「熾意」は最大で2層累積でき、死竜の精霊スキル「晦冥焼き払う息吹」が消費するHPの代わりとして消費できる。さらにキャストリスの行動順が100%早まり、次の強化戦闘スキル発動後、キャストリスは「新蕾」の上限30%分の「新蕾」を獲得する。",
         "ko": "기억 정령 죽음의 용을 소환한 후, 카스토리스는 [타오르는 의지]를 2스택 획득한다. [타오르는 의지]는 최대 2스택 보유할 수 있으며, 죽음의 용 기억 정령 스킬 [암흑을 불태우는 화염의 숨결]의 HP 소모를 대체할 수 있다. 또한, 카스토리스의 행동 게이지가 100% 증가하며, 다음번 강화된 전투 스킬 발동 시 카스토리스가 [새로운 꽃술] 최대치의 30%만큼 [새로운 꽃술] 포인트를 획득한다"
-      }
+      },
+      "icon": "icon/skill/1407_rank2.png",
+      "materials": [{ "id": 11407, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -1094,7 +661,17 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊天賦のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 기억 정령 특성 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1407_ultimate.png",
+      "materials": [{ "id": 11407, "num": 1 }],
+      "levelUpSkills": [
+        { "id": 140703, "num": 2 },
+        { "id": 140701, "num": 1 },
+        { "id": 1140703, "num": 1 },
+        { "id": 1140712, "num": 1 },
+        { "id": 1140705, "num": 1 },
+        { "id": 1140706, "num": 1 }
+      ]
     },
     {
       "rank": 4,
@@ -1111,7 +688,10 @@
         "zh-CN": "遐蝶在场时，我方全体受到治疗时的回复量提高20%。",
         "ja": "キャストリスがフィールドにいる時、味方全体が治癒を受けた場合、回復量+20%。",
         "ko": "카스토리스가 필드에 있을 시, 모든 아군이 치유를 받을 시의 회복량이 20% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1407_rank4.png",
+      "materials": [{ "id": 11407, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -1128,7 +708,16 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊スキルのLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 기억 정령 스킬 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1407_skill.png",
+      "materials": [{ "id": 11407, "num": 1 }],
+      "levelUpSkills": [
+        { "id": 140702, "num": 2 },
+        { "id": 140704, "num": 2 },
+        { "id": 1140701, "num": 1 },
+        { "id": 140709, "num": 2 },
+        { "id": 1140702, "num": 1 }
+      ]
     },
     {
       "rank": 6,
@@ -1145,10 +734,807 @@
         "zh-CN": "遐蝶与死龙造成伤害时，量子属性抗性穿透提高20%。死龙攻击期间可以无视弱点属性削减敌方韧性，击破弱点时，触发量子属性的弱点击破效果，触发天赋【灼掠幽墟的晦翼】的弹射次数额外增加3次。",
         "ja": "キャストリスと死竜がダメージを与える時、量子属性耐性貫通+20%。死竜は攻撃時、弱点属性を無視して敵の靭性を削ることができる。敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。また、精霊天賦「幽墟奪略の晦翼」のバウンド回数+3。",
         "ko": "카스토리스와 죽음의 용이 피해를 가할 시 양자 속성 저항 관통이 20% 증가한다. 죽음의 용은 공격 중에 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 약점 격파 시 양자 속성의 약점 격파 효과를 발동하고, 특성 [묘지를 불사르는 어둠의 날개]의 바운스 발동 횟수가 추가로 3회 증가한다"
-      }
+      },
+      "icon": "icon/skill/1407_rank6.png",
+      "materials": [{ "id": 11407, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "stats": [
+    {
+      "hp": { "base": 221.76, "step": 11.088 },
+      "atk": { "base": 71.28, "step": 3.564 },
+      "def": { "base": 66, "step": 3.3 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 310.464, "step": 11.088 },
+      "atk": { "base": 99.792, "step": 3.564 },
+      "def": { "base": 92.4, "step": 3.3 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 399.168, "step": 11.088 },
+      "atk": { "base": 128.304, "step": 3.564 },
+      "def": { "base": 118.8, "step": 3.3 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 487.872, "step": 11.088 },
+      "atk": { "base": 156.816, "step": 3.564 },
+      "def": { "base": 145.2, "step": 3.3 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 576.576, "step": 11.088 },
+      "atk": { "base": 185.328, "step": 3.564 },
+      "def": { "base": 171.6, "step": 3.3 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 665.28, "step": 11.088 },
+      "atk": { "base": 213.84, "step": 3.564 },
+      "def": { "base": 198, "step": 3.3 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 753.984, "step": 11.088 },
+      "atk": { "base": 242.352, "step": 3.564 },
+      "def": { "base": 224.4, "step": 3.3 },
+      "spd": { "base": 95, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 115011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 115011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 115012, "num": 6 }, { "id": 110436, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 115012, "num": 9 }, { "id": 110436, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 115013, "num": 6 }, { "id": 110436, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 115013, "num": 9 }, { "id": 110436, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1407001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1407_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [140701],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 3500 }, { "id": 110251, "num": 2 }, { "id": 115011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 7000 }, { "id": 110252, "num": 2 }, { "id": 115012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110252, "num": 4 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 35000 }, { "id": 110253, "num": 2 }, { "id": 115013, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 140000 }, { "id": 110253, "num": 6 }, { "id": 115013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1407002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1407_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140702, 140709],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 3500 }, { "id": 110251, "num": 2 }, { "id": 115011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 7000 }, { "id": 110252, "num": 2 }, { "id": 115012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110252, "num": 4 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 25000 }, { "id": 110252, "num": 6 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 35000 }, { "id": 110253, "num": 2 }, { "id": 115013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 70000 },
+            { "id": 110253, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 140000 },
+            { "id": 110253, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110253, "num": 13 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1407003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1407_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140703],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 3500 }, { "id": 110251, "num": 2 }, { "id": 115011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 7000 }, { "id": 110252, "num": 2 }, { "id": 115012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110252, "num": 4 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 25000 }, { "id": 110252, "num": 6 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 35000 }, { "id": 110253, "num": 2 }, { "id": 115013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 70000 },
+            { "id": 110253, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 140000 },
+            { "id": 110253, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110253, "num": 13 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1407004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1407_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140704],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 3500 }, { "id": 110251, "num": 2 }, { "id": 115011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 7000 }, { "id": 110252, "num": 2 }, { "id": 115012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110252, "num": 4 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 25000 }, { "id": 110252, "num": 6 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 35000 }, { "id": 110253, "num": 2 }, { "id": 115013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 70000 },
+            { "id": 110253, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 140000 },
+            { "id": 110253, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110253, "num": 13 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1407007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1407_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [140707],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1407101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Contenção da Maré Escura",
+        "en": "Contained Dark Tide",
+        "zh-CN": "收容的暗潮",
+        "ja": "{RUBY_B#びん}瓶{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}の{RUBY_B#あんりゅう}暗流{RUBY_E#}",
+        "ko": "수용된 암조"
+      },
+      "description": {
+        "pt-BR": "Após os aliados-alvo (exceto o \"Dragão Abissal\") receberem cura, converte #1[i]% do valor curado em \"Brotar\". Se o \"Dragão Abissal\" estiver em campo, o valor é convertido em PV para o \"Dragão Abissal\". Cada aliado-alvo pode acumular um valor de conversão de até #2[i]% do máximo de \"Brotar\". Após qualquer unidade agir, o valor de conversão acumulado de todas as unidades é redefinido.",
+        "en": "After ally targets (excluding Netherwing) receive healing, converts #1[i]% of the healed amount into \"Newbud.\" If Netherwing is on the field, this is converted to Netherwing's HP instead. Each ally target can accumulate a conversion amount up to #2[i]% of the max \"Newbud.\" After any unit takes action, all units reset their accumulated conversion amount.",
+        "zh-CN": "除死龙以外的我方目标接受治疗后会将#1[i]%的治疗数值转化为【新蕊】，死龙在场时则转化为死龙生命值，我方每个目标累计转化值不超过【新蕊】上限的#2[i]%。任意单位行动后重置所有单位累计的转化值。",
+        "ja": "死竜以外の味方が治癒を受けた後、治癒量の#1[i]%を「新蕾」に変換する。ただし、死竜がフィールドにいる場合は、死竜のHPに変換される。味方それぞれが累積できる変換量のカウントは「新蕾」の上限の#2[i]%を超えない。任意のユニットが行動した後、累積できる変換量のカウントはリセットされる。",
+        "ko": "죽음의 용을 제외한 아군이 치유를 받으면 치유량의 #1[i]%가 [새로운 꽃술]로 전환되고, 죽음의 용이 필드에 있으면 죽음의 용의 HP로 전환된다. 각 아군의 누적 전환 수치는 [새로운 꽃술] 최대치의 #2[i]%를 초과하지 않는다. 임의의 유닛이 행동하면 모든 유닛이 누적한 전환 수치가 초기화된다"
+      },
+      "params": [[1, 0.12]],
+      "icon": "icon/skill/1407_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110251, "num": 3 }, { "id": 110506, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1407102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Tocha Invertida",
+        "en": "Inverted Torch",
+        "zh-CN": "倒置的火炬",
+        "ja": "{RUBY_B#はんてん}反転{RUBY_E#}した{RUBY_B#きょか}炬火{RUBY_E#}",
+        "ko": "뒤집힌 횃불"
+      },
+      "description": {
+        "pt-BR": "Quando os PV atuais de Castorice forem maiores ou iguais a #1[i]% dos seus PV máximos, sua VEL aumenta em #2[i]%. Quando o \"Dragão Abissal\" usa \"Sopro de Chama Negra\" e causa Dano fatal a todos os inimigos no campo ou os leva a um ponto em que seus PV não podem ser mais reduzidos, a VEL do \"Dragão Abissal\" aumenta em #3[i]% por 1 rodada.",
+        "en": "When Castorice's current HP is higher than or equal to #1[i]% of her Max HP, her SPD increases by #2[i]%. When Netherwing uses \"Breath Scorches the Shadow\" and deals fatal damage to all enemies on the field or brings them to a point where their HP cannot be reduced further, Netherwing's SPD increases by #3[i]%, lasting for 1 turn.",
+        "zh-CN": "遐蝶当前生命值大于等于自身生命上限的#1[i]%时，遐蝶速度提高#2[i]%。死龙施放【燎尽黯泽的焰息】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，死龙速度提高#3[i]%，持续1回合。",
+        "ja": "キャストリスの残りHPが自身の最大HP#1[i]%以上の時、キャストリスの速度+#2[i]%。死竜が「晦冥焼き払う息吹」を発動し、フィールドにいるすべての敵にHPが0になるダメージを与えた時、または敵のHPがそれ以上削れない時、死竜の速度+#3[i]%、1ターン継続。",
+        "ko": "카스토리스의 현재 HP가 자신의 HP 최대치의 #1[i]% 이상일 시 카스토리스의 속도가 #2[i]% 증가한다. 죽음의 용이 [암흑을 불태우는 화염의 숨결]을 발동해 필드 위 모든 적에게 치명적인 피해를 가하거나 적의 HP가 더 이상 감소되지 않을 시 죽음의 용의 속도가 #3[i]% 증가한다, 지속 시간: 1턴"
+      },
+      "params": [[0.5, 0.4, 1]],
+      "icon": "icon/skill/1407_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110252, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1407103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Onde Cessa o Vento Oeste",
+        "en": "Where the West Wind Dwells",
+        "zh-CN": "西风的驻足",
+        "ja": "{RUBY_B#すんいんとど}寸陰留{RUBY_E#}まる{RUBY_B#にしかぜ}西風{RUBY_E#}",
+        "ko": "발걸음을 묶는 서풍"
+      },
+      "description": {
+        "pt-BR": "Sempre que \"Dragão Abissal\" usa \"Sopro de Chama Negra\", aumenta o Dano causado em #1[i]%. Este efeito pode chegar até a #2[i] acúmulos e dura até o final desta rodada.",
+        "en": "Each time Netherwing uses \"Breath Scorches the Shadow,\" the DMG dealt increases by #1[i]%. This effect stacks up to #2[i] time(s) and lasts until the end of this turn.",
+        "zh-CN": "死龙每次施放【燎尽黯泽的焰息】时，造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续至本回合结束。",
+        "ja": "死竜が「晦冥焼き払う息吹」を発動するたびに、与ダメージ+#1[i]%。この効果は最大#2[i]層まで累積できる。ターンが終了するまで継続。",
+        "ko": "죽음의 용이 [암흑을 불태우는 화염의 숨결]을 발동할 때마다 가하는 피해가 #1[i]% 증가한다, 해당 효과 최대 중첩수: #2[i]스택, 이번 턴이 종료될 때까지 지속된다"
+      },
+      "params": [[0.3, 6]],
+      "icon": "icon/skill/1407_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110253, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1407201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1407202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1407201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110251, "num": 3 }, { "id": 115011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1407203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1407201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 9000 }, { "id": 110252, "num": 3 }, { "id": 115012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1407204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1407101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 9000 }, { "id": 110252, "num": 3 }, { "id": 115012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1407205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1407101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 19000 }, { "id": 110252, "num": 4 }, { "id": 115012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1407206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1407102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110253, "num": 3 }, { "id": 115013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1407207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1407102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110253, "num": 3 }, { "id": 115013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1407208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
+      "icon": "icon/property/IconCriticalDamage.png",
+      "maxLevel": 1,
+      "prerequisites": [1407103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "CriticalDamageBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 140000 }, { "id": 110253, "num": 7 }, { "id": 115013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1407209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Dano: Quântico",
+        "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
+        "ja": "ダメージ強化・量子",
+        "ko": "피해 강화•양자"
+      },
+      "icon": "icon/property/IconQuantumAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1407208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "QuantumAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110253, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1407210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1407209],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110253, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1407301,
+      "anchor": "Point19",
+      "name": {
+        "pt-BR": "Garras Rompem o Véu",
+        "en": "Claw Splits the Veil",
+        "zh-CN": "擘裂冥茫的爪痕",
+        "ja": "{RUBY_B#めいぼうさ}冥茫裂{RUBY_E#}く{RUBY_B#そうこん}爪痕{RUBY_E#}",
+        "ko": "어둠을 찢는 발톱"
+      },
+      "icon": "icon/skill/1407_memosprite_skill1.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [1140701, 1140702, 1140710, 1140711],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 3500 }, { "id": 110251, "num": 2 }, { "id": 115011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 7000 }, { "id": 110252, "num": 2 }, { "id": 115012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110252, "num": 4 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 35000 }, { "id": 110253, "num": 2 }, { "id": 115013, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 140000 }, { "id": 110253, "num": 6 }, { "id": 115013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1407302,
+      "anchor": "Point20",
+      "name": {
+        "pt-BR": "Sopro de Chama Negra",
+        "en": "Breath Scorches the Shadow",
+        "zh-CN": "燎尽黯泽的焰息",
+        "ja": "{RUBY_B#かいめいや}晦冥焼{RUBY_E#}き{RUBY_B#はら}払{RUBY_E#}う{RUBY_B#いぶき}息吹{RUBY_E#}",
+        "ko": "암흑을 불태우는 화염의 숨결"
+      },
+      "icon": "icon/skill/1407_memosprite_talent.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [1140703, 1140712, 1140706, 1140705],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 3500 }, { "id": 110251, "num": 2 }, { "id": 115011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 7000 }, { "id": 110252, "num": 2 }, { "id": 115012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110252, "num": 4 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 35000 }, { "id": 110253, "num": 2 }, { "id": 115013, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 140000 }, { "id": 110253, "num": 6 }, { "id": 115013, "num": 2 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11407, 110251, 110252, 110253, 110436, 110506, 115011, 115012, 115013],
   "images": {
     "icon": "icon/character/1407.png",
     "preview": "image/character_preview/1407.png",

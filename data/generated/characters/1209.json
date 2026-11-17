@@ -1,13 +1,7 @@
 {
   "id": 1209,
   "slug": "yanqing",
-  "name": {
-    "pt-BR": "Yanqing",
-    "en": "Yanqing",
-    "zh-CN": "彦卿",
-    "ja": "彦卿",
-    "ko": "연경"
-  },
+  "name": { "pt-BR": "Yanqing", "en": "Yanqing", "zh-CN": "彦卿", "ja": "彦卿", "ko": "연경" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Ice",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体に彦卿の攻撃力#1[i]%分の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 연경 공격력 #1[i]%만큼의 얼음 속성 피해를 준다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1209_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Gelo leve a um único inimigo.",
+        "en": "Deals minor Ice DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量冰属性伤害。",
+        "ja": "敵単体に少量の氷属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120902,
@@ -82,52 +56,33 @@
         "ko": "지정된 단일 적에게 연경 공격력 #1[i]%만큼의 얼음 속성 피해를 준다. 이때 연경에게 [신검합일] 효과를 부여한다. 지속 시간: 1턴"
       },
       "params": [
-        [
-          1.1
-        ],
-        [
-          1.21
-        ],
-        [
-          1.32
-        ],
-        [
-          1.43
-        ],
-        [
-          1.54
-        ],
-        [
-          1.65
-        ],
-        [
-          1.7875
-        ],
-        [
-          1.925
-        ],
-        [
-          2.0625
-        ],
-        [
-          2.2
-        ],
-        [
-          2.31
-        ],
-        [
-          2.42
-        ],
-        [
-          2.53
-        ],
-        [
-          2.64
-        ],
-        [
-          2.75
-        ]
-      ]
+        [1.1],
+        [1.21],
+        [1.32],
+        [1.43],
+        [1.54],
+        [1.65],
+        [1.7875],
+        [1.925],
+        [2.0625],
+        [2.2],
+        [2.31],
+        [2.42],
+        [2.53],
+        [2.64],
+        [2.75]
+      ],
+      "icon": "icon/skill/1209_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Gelo a um único inimigo e ativa a Sincronia d'Alma de Ferro.",
+        "en": "Deals Ice DMG to one designated enemy and activates the \"Soulsteel Sync.\"",
+        "zh-CN": "对敌方单体造成冰属性伤害，并为自身附加【智剑连心】。",
+        "ja": "敵単体に氷属性ダメージを与え、自身に「智剣連心」を付与。",
+        "ko": "단일 적에게 얼음 속성 피해를 가하고 자신에게 [신검합일] 효과를 부여한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120903,
@@ -147,82 +102,33 @@
         "ko": "자신의 치명타 확률이 #1[i]% 증가하고 만일 연경이 [신검합일] 효과를 가지고 있다면 치명타 피해가 추가로 #2[i]% 증가한다. 버프 효과는 1턴 동안 지속된다. 이후 지정된 단일 적에게 연경 공격력 #3[i]%만큼의 얼음 속성 피해를 준다"
       },
       "params": [
-        [
-          0.6,
-          0.3,
-          2.1
-        ],
-        [
-          0.6,
-          0.32,
-          2.24
-        ],
-        [
-          0.6,
-          0.34,
-          2.38
-        ],
-        [
-          0.6,
-          0.36,
-          2.52
-        ],
-        [
-          0.6,
-          0.38,
-          2.66
-        ],
-        [
-          0.6,
-          0.4,
-          2.8
-        ],
-        [
-          0.6,
-          0.425,
-          2.975
-        ],
-        [
-          0.6,
-          0.45,
-          3.15
-        ],
-        [
-          0.6,
-          0.475,
-          3.325
-        ],
-        [
-          0.6,
-          0.5,
-          3.5
-        ],
-        [
-          0.6,
-          0.52,
-          3.64
-        ],
-        [
-          0.6,
-          0.54,
-          3.78
-        ],
-        [
-          0.6,
-          0.56,
-          3.92
-        ],
-        [
-          0.6,
-          0.58,
-          4.06
-        ],
-        [
-          0.6,
-          0.6,
-          4.2
-        ]
-      ]
+        [0.6, 0.3, 2.1],
+        [0.6, 0.32, 2.24],
+        [0.6, 0.34, 2.38],
+        [0.6, 0.36, 2.52],
+        [0.6, 0.38, 2.66],
+        [0.6, 0.4, 2.8],
+        [0.6, 0.425, 2.975],
+        [0.6, 0.45, 3.15],
+        [0.6, 0.475, 3.325],
+        [0.6, 0.5, 3.5],
+        [0.6, 0.52, 3.64],
+        [0.6, 0.54, 3.78],
+        [0.6, 0.56, 3.92],
+        [0.6, 0.58, 4.06],
+        [0.6, 0.6, 4.2]
+      ],
+      "icon": "icon/skill/1209_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Aumenta a Chance de CRIT de Yanqing. Aprimora a Sincronia d'Alma de Ferro e causa Dano de Gelo massivo a um único inimigo.",
+        "en": "Increases Yanqing's CRIT Rate. Enhances \"Soulsteel Sync\" and deals massive Ice DMG to one enemy.",
+        "zh-CN": "提高自身暴击率，并强化【智剑连心】，对敌方单体造成大量冰属性伤害。",
+        "ja": "自身の会心率アップ、「智剣連心」を強化、敵単体に大量の氷属性ダメージを与える。",
+        "ko": "자신의 치명타 확률이 증가하고 [신검합일] 효과가 강화된다. 또한 단일 적에게 대량의 얼음 속성 피해를 준다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120904,
@@ -242,139 +148,48 @@
         "ko": "연경이 [신검합일] 상태일 경우 피격될 확률이 감소하고 자신의 치명타 확률이 #1[f1]%, 치명타 피해가 #2[i]% 증가한다. 적에게 공격을 발동한 후, #3[i]%의 고정 확률로 추가 공격을 발동해 연경 공격력 #4[i]%만큼의 얼음 속성 피해를 주고 #6[i]%의 기본 확률로 1턴 동안 대상을 빙결 상태에 빠트린다.\n빙결 상태인 적은 행동할 수 없으며, 턴이 시작될 때마다 연경 공격력 #5[i]%만큼의 얼음 속성 추가 피해를 받는다.\n연경이 피해를 받으면 [신검합일] 효과는 소멸된다"
       },
       "params": [
-        [
-          0.15,
-          0.15,
-          0.5,
-          0.25,
-          0.25,
-          0.65
-        ],
-        [
-          0.155,
-          0.165,
-          0.51,
-          0.275,
-          0.275,
-          0.65
-        ],
-        [
-          0.16,
-          0.18,
-          0.52,
-          0.3,
-          0.3,
-          0.65
-        ],
-        [
-          0.165,
-          0.195,
-          0.53,
-          0.325,
-          0.325,
-          0.65
-        ],
-        [
-          0.17,
-          0.21,
-          0.54,
-          0.35,
-          0.35,
-          0.65
-        ],
-        [
-          0.175,
-          0.225,
-          0.55,
-          0.375,
-          0.375,
-          0.65
-        ],
-        [
-          0.1812,
-          0.2437,
-          0.5625,
-          0.4062,
-          0.4062,
-          0.65
-        ],
-        [
-          0.1875,
-          0.2625,
-          0.575,
-          0.4375,
-          0.4375,
-          0.65
-        ],
-        [
-          0.1938,
-          0.2812,
-          0.5875,
-          0.4688,
-          0.4688,
-          0.65
-        ],
-        [
-          0.2,
-          0.3,
-          0.6,
-          0.5,
-          0.5,
-          0.65
-        ],
-        [
-          0.205,
-          0.315,
-          0.61,
-          0.525,
-          0.525,
-          0.65
-        ],
-        [
-          0.21,
-          0.33,
-          0.62,
-          0.55,
-          0.55,
-          0.65
-        ],
-        [
-          0.215,
-          0.345,
-          0.63,
-          0.575,
-          0.575,
-          0.65
-        ],
-        [
-          0.22,
-          0.36,
-          0.64,
-          0.6,
-          0.6,
-          0.65
-        ],
-        [
-          0.225,
-          0.375,
-          0.65,
-          0.625,
-          0.625,
-          0.65
-        ]
-      ]
+        [0.15, 0.15, 0.5, 0.25, 0.25, 0.65],
+        [0.155, 0.165, 0.51, 0.275, 0.275, 0.65],
+        [0.16, 0.18, 0.52, 0.3, 0.3, 0.65],
+        [0.165, 0.195, 0.53, 0.325, 0.325, 0.65],
+        [0.17, 0.21, 0.54, 0.35, 0.35, 0.65],
+        [0.175, 0.225, 0.55, 0.375, 0.375, 0.65],
+        [0.1812, 0.2437, 0.5625, 0.4062, 0.4062, 0.65],
+        [0.1875, 0.2625, 0.575, 0.4375, 0.4375, 0.65],
+        [0.1938, 0.2812, 0.5875, 0.4688, 0.4688, 0.65],
+        [0.2, 0.3, 0.6, 0.5, 0.5, 0.65],
+        [0.205, 0.315, 0.61, 0.525, 0.525, 0.65],
+        [0.21, 0.33, 0.62, 0.55, 0.55, 0.65],
+        [0.215, 0.345, 0.63, 0.575, 0.575, 0.65],
+        [0.22, 0.36, 0.64, 0.6, 0.6, 0.65],
+        [0.225, 0.375, 0.65, 0.625, 0.625, 0.65]
+      ],
+      "icon": "icon/skill/1209_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Durante Sincronia d'Alma de Ferro, reduz a chance deste personagem ser atacado e aumenta a Chance de CRIT e Dano CRIT. Depois de atacar um inimigo, tem uma chance de realizar um Ataque Extra, causando Dano de Gelo com uma chance de causar Congelamento ao alvo.\nSincronia d'Alma de Ferro será removida depois que este personagem recebe Dano.",
+        "en": "During \"Soulsteel Sync\", reduces the chance of this character being attacked and increases their CRIT Rate and CRIT DMG. After attacking an enemy, there is a chance of launching a Follow-Up ATK, dealing Ice DMG with a chance to Freeze the target.\n\"Soulsteel Sync\" will be removed after this character receives damage.",
+        "zh-CN": "处于【智剑连心】时受到攻击的概率降低，自身暴击率和暴击伤害提高。对敌方目标施放攻击后，有概率发动追加攻击，对其造成冰属性伤害并有概率使其陷入冻结状态。\n自身受到伤害后，【智剑连心】消失。",
+        "ja": "「智剣連心」がある時、攻撃を受ける確率がダウンし、自身の会心率と会心ダメージがアップする。敵に攻撃を行った後、確率で追加攻撃を発動して氷属性ダメージを与え、確率で凍結状態にする。\n自身がダメージを受けた後、「智剣連心」は解除される。",
+        "ko": "[신검합일] 상태일 경우 피격될 확률이 감소하고 자신의 치명타 확률과 치명타 피해가 증가한다. 적에게 공격 발동 후, 일정 확률로 추가 공격을 발동해 얼음 속성 피해를 가하고 일정 확률로 대상을 빙결 상태에 빠트린다.\n자신이 피해를 받으면 [신검합일] 효과는 소멸된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120906,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1209_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -399,13 +214,18 @@
         "ja": "秘技を使用した後、次の戦闘開始時、残りHPが#1[i]%以上の敵に対して、彦卿の与ダメージ+#2[i]%、#3[i]ターン継続。",
         "ko": "비술 발동 후 다음 전투 시작 시 연경은 현재 HP 백분율이 #1[i]% 이상인 적에게 가하는 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
       },
-      "params": [
-        [
-          0.5,
-          0.3,
-          2
-        ]
-      ]
+      "params": [[0.5, 0.3, 2]],
+      "icon": "icon/skill/1209_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Depois que este personagem usa sua Técnica, no início da próxima batalha, aumenta o Dano causado por este personagem a inimigos-alvo com PV em 50% ou mais.",
+        "en": "After this character uses Technique, at the start of the next battle, increases the DMG dealt by this character to enemy targets whose HP percentage is 50% or higher.",
+        "zh-CN": "使用秘技，下一次战斗开始时自身对生命值百分比大于等于50%的敌方目标造成的伤害提高。",
+        "ja": "秘技を使用、次の戦闘開始時、残りHPが50%以上の敵に対して、自身の与ダメージがアップする。",
+        "ko": "비술을 사용하면 다음 전투 시작 시 자신의 HP 백분율이 50% 이상인 적에게 가하는 피해가 증가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -424,7 +244,10 @@
         "zh-CN": "当彦卿攻击敌方目标时，如果目标处于冻结状态，则立即对目标造成等同于彦卿60%攻击力的冰属性附加伤害。",
         "ja": "彦卿が敵に攻撃を行う時、その敵が凍結状態の場合、敵に彦卿の攻撃力60%分の氷属性付加ダメージを与える。",
         "ko": "연경이 적 공격 시 목표가 빙결 상태면 즉시 목표에게 연경 공격력의 60%만큼 얼음 속성 추가 피해를 가한다"
-      }
+      },
+      "icon": "icon/skill/1209_rank1.png",
+      "materials": [{ "id": 11209, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -441,7 +264,10 @@
         "zh-CN": "处于【智剑连心】效果时，额外提高10%的能量恢复效率。",
         "ja": "彦卿に「智剣連心」がある場合、さらにEP回復効率+10%。",
         "ko": "[신검합일] 효과 상태일 경우 에너지 회복효율이 추가로 10% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1209_rank2.png",
+      "materials": [{ "id": 11209, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -458,7 +284,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1209_skill.png",
+      "materials": [{ "id": 11209, "num": 1 }],
+      "levelUpSkills": [{ "id": 120902, "num": 2 }, { "id": 120901, "num": 1 }]
     },
     {
       "rank": 4,
@@ -475,7 +304,10 @@
         "zh-CN": "当前生命值百分比大于等于80%时，提高自身12%的冰属性抗性穿透。",
         "ja": "残りHPが80%以上の時、自身の氷属性耐性貫通+12%。",
         "ko": "현재 HP 백분율이 80% 이상일 경우, 자신의 얼음 속성 저항 관통이 12% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1209_rank4.png",
+      "materials": [{ "id": 11209, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -492,7 +324,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1209_ultimate.png",
+      "materials": [{ "id": 11209, "num": 1 }],
+      "levelUpSkills": [{ "id": 120903, "num": 2 }, { "id": 120904, "num": 2 }]
     },
     {
       "rank": 6,
@@ -509,10 +344,670 @@
         "zh-CN": "消灭敌方目标时，如果当前持有【智剑连心】或终结技的增益效果，则使这些增益效果的持续时间全部延长1回合。",
         "ja": "敵を倒した時、「智剣連心」または必殺技のバフがある場合、それらの継続時間+1ターン。",
         "ko": "적 처치 시 [신검합일] 또는 필살기의 버프 효과를 보유 중일 경우, 해당 버프 효과의 지속 시간이 모두 1턴 연장된다"
-      }
+      },
+      "icon": "icon/skill/1209_rank6.png",
+      "materials": [{ "id": 11209, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 140,
+  "stats": [
+    {
+      "hp": { "base": 121.44, "step": 6.072 },
+      "atk": { "base": 92.4, "step": 4.62 },
+      "def": { "base": 56.1, "step": 2.805 },
+      "spd": { "base": 109, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 170.016, "step": 6.072 },
+      "atk": { "base": 129.36, "step": 4.62 },
+      "def": { "base": 78.54, "step": 2.805 },
+      "spd": { "base": 109, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 218.592, "step": 6.072 },
+      "atk": { "base": 166.32, "step": 4.62 },
+      "def": { "base": 100.98, "step": 2.805 },
+      "spd": { "base": 109, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 267.168, "step": 6.072 },
+      "atk": { "base": 203.28, "step": 4.62 },
+      "def": { "base": 123.42, "step": 2.805 },
+      "spd": { "base": 109, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 315.744, "step": 6.072 },
+      "atk": { "base": 240.24, "step": 4.62 },
+      "def": { "base": 145.86, "step": 2.805 },
+      "spd": { "base": 109, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 364.32, "step": 6.072 },
+      "atk": { "base": 277.2, "step": 4.62 },
+      "def": { "base": 168.3, "step": 2.805 },
+      "spd": { "base": 109, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 412.896, "step": 6.072 },
+      "atk": { "base": 314.16, "step": 4.62 },
+      "def": { "base": 190.74, "step": 2.805 },
+      "spd": { "base": 109, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 111011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 111011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 111012, "num": 6 }, { "id": 110413, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 111012, "num": 9 }, { "id": 110413, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 111013, "num": 6 }, { "id": 110413, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 111013, "num": 9 }, { "id": 110413, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1209001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1209_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [120901],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 111011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 111012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 111013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 111013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1209002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1209_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120902],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 111011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 111012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110122, "num": 7 }, { "id": 111012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 111013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110123, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 111013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110123, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1209003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1209_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120903],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 111011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 111012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110122, "num": 7 }, { "id": 111012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 111013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110123, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 111013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110123, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1209004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1209_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120904],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 111011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 111012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 111012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110122, "num": 7 }, { "id": 111012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 111013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110123, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 111013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110123, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1209007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1209_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [120907],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1209101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Cereja do Chute",
+        "en": "Icing on the Kick",
+        "zh-CN": "颁冰",
+        "ja": "{RUBY_B#はんぴょう}頒氷{RUBY_E#}",
+        "ko": "서슬 퍼런 선물"
+      },
+      "description": {
+        "pt-BR": "Depois que Yanqing ataca, causa Dano de Gelo Adicional igual a #1[i]% do ATQ de Yanqing a inimigos com Fraqueza contra Gelo.",
+        "en": "After Yanqing attacks, deals Ice Additional DMG equal to #1[i]% of Yanqing's ATK to enemies with Ice Weakness.",
+        "zh-CN": "施放攻击后，对携带冰属性弱点的敌方目标造成等同于彦卿#1[i]%攻击力的冰属性附加伤害。",
+        "ja": "攻撃を行った後、氷属性の弱点がある敵に、彦卿の攻撃力#1[i]%分の氷属性付加ダメージを与える。",
+        "ko": "공격 발동 후 얼음 속성 약점을 보유한 적에게 연경 공격력의 #1[i]%만큼 얼음 속성 추가 피해를 가한다"
+      },
+      "params": [[0.3]],
+      "icon": "icon/skill/1209_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 110502, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1209102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "O Gelo Favorece os Corajosos",
+        "en": "Frost Favors the Brave",
+        "zh-CN": "凌霜",
+        "ja": "{RUBY_B#りょうそう}凌霜{RUBY_E#}",
+        "ko": "고결"
+      },
+      "description": {
+        "pt-BR": "Quando a Sincronia d'Alma de Ferro é ativada, a RES a Efeito aumenta em #1[i]%.",
+        "en": "When Soulsteel Sync is active, Effect RES increases by #1[i]%.",
+        "zh-CN": "处于【智剑连心】效果时，效果抵抗提高#1[i]%。",
+        "ja": "「智剣連心」がある場合、効果抵抗+#1[i]%。",
+        "ko": "[신검합일] 상태일 경우 효과 저항이 #1[i]% 증가한다"
+      },
+      "params": [[0.2]],
+      "icon": "icon/skill/1209_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110122, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1209103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Lâmina Gentil",
+        "en": "Gentle Blade",
+        "zh-CN": "轻吕",
+        "ja": "{RUBY_B#けいりょ}軽呂{RUBY_E#}",
+        "ko": "명검"
+      },
+      "description": {
+        "pt-BR": "Quando um Acerto CRIT for ativado, a VEL aumenta em #1[i]% por #2[i] rodada(s).",
+        "en": "When a CRIT Hit is triggered, increases SPD by #1[i]% for #2[i] turn(s).",
+        "zh-CN": "触发暴击时，速度提高#1[i]%，持续#2[i]回合。",
+        "ja": "会心が発生した時、速度+#1[i]%、#2[i]ターン継続。",
+        "ko": "치명타 발동 시 속도가 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+      },
+      "params": [[0.1, 2]],
+      "icon": "icon/skill/1209_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1209201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1209202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1209101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 111011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1209203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1209202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 111012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1209204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 111012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1209205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1209102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 111012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1209206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1209205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 111013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1209207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 111013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1209208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1209103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 111013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1209209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1209208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 111013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1209210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1209208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 111013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11209, 110121, 110122, 110123, 110413, 110502, 111011, 111012, 111013],
   "images": {
     "icon": "icon/character/1209.png",
     "preview": "image/character_preview/1209.png",

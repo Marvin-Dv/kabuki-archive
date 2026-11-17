@@ -1,0 +1,32 @@
+{
+  "id": 110253,
+  "slug": "flower-of-alaya",
+  "name": {
+    "pt-BR": "Flor de Ālaya",
+    "en": "Flower of Ālaya",
+    "zh-CN": "阿赖耶华",
+    "ja": "アラヤの花",
+    "ko": "아뢰야 꽃"
+  },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "TracePath",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/110253.png",
+  "sources": {
+    "en": [
+      "Calyx (\"Strife Ruins\" Castrum Kremnos)",
+      "Omni-Synthesizer — Material Synthesis",
+      "Omni-Synthesizer — Material Exchange"
+    ],
+    "pt-BR": [
+      "Cálice (\"Ruínas do Conflito\" - Castrum Kremnos)",
+      "Sintetizador Omni - Síntese de Material",
+      "Sintetizador Omni — Troca de Material"
+    ],
+    "zh-CN": ["拟造花萼【「纷争荒墟」悬锋城】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
+    "ja": ["疑似花萼「『紛争の爪痕』クレムノス」", "「万能合成マシン」- 素材合成", "「万能合成マシン」- 素材交換"],
+    "ko": ["모조 꽃받침 [「분쟁의 폐허」 크렘노스성]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
+  }
+}

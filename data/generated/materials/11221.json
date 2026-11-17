@@ -1,0 +1,17 @@
+{
+  "id": 11221,
+  "slug": "yunlis-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Yunli",
+    "en": "Yunli's Eidolon",
+    "zh-CN": "【云璃】的星魂",
+    "ja": "「雲璃」の星魂",
+    "ko": "[운리]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

@@ -20,13 +20,7 @@
     "ko": "「잘못된 획 수정 완료, 파라미터 조정 완료」\n그녀는 일찍이 작품 속 바다의 곡선 적합을 시도하고, 물의 형태와 의미를 추출하며, 점점이 흩어진 물거품을 해석하려 했다.\n몇 번이고 붓끝에서 수많은 파도가 일었지만, 그 어떤 것도 그녀가 상상하던 파도는 아니었다.\n「저는 사람들을 위해 그림을 그리고 싶습니다. 그들의 발자취를 따라 그리는 것이 아닌, 그들의 앞길을 그려내기 위해서 말이죠」\n붓을 휘두르자, 그녀는 굶주린 아이들에게 안식처를 가져다주었다.\n먹빛이 번지자, 그녀는 붓끝으로 천지의 균열을 메웠다.\n그리고 그녀의 가장 아득한 한 획은 이 세상의 캔버스를 관통해 광활한 은하로 뻗어나갔다.\n수많은 어제에서, 그녀는 타인을 위해 미래를 그리며——\n창백하고 암담했던 풍경을 희망의 색채로 물들인다.\n문득 고개를 돌려보니, 그녀가 남긴 모든 획이 그녀 마음속의 「진주」를 아로새기고 있었다"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Respingo de Tinta",
-      "en": "Ink Splash",
-      "zh-CN": "挥墨",
-      "ja": "墨しぶき",
-      "ko": "휘묵"
-    },
+    "name": { "pt-BR": "Respingo de Tinta", "en": "Ink Splash", "zh-CN": "挥墨", "ja": "墨しぶき", "ko": "휘묵" },
     "description": {
       "pt-BR": "Aumenta a DEF do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia em todos os aliados, aumenta o Dano recebido por todos os inimigos em #4[i]%, com duração de #3[i] rodada(s). Regenera #2[i] de Energia fixa para o usuário e restaura PV em um valor igual a #5[i]% da DEF do usuário para todos os aliados.",
       "en": "Increases the wearer's DEF by #1[i]%. When the wearer uses Elation Skill on all allies, increases DMG taken by all enemies by #4[i]%, lasting for #3[i] turn(s). Regenerates a fixed #2[i] Energy for the wearer, and restores HP equal to #5[i]% of the wearer's DEF for all allies.",
@@ -35,43 +29,65 @@
       "ko": "장착한 캐릭터의 방어력이 #1[i]% 증가한다. 장착한 캐릭터가 모든 아군에게 환락 스킬 발동 시 모든 적이 받는 피해가 #3[i]턴 동안 #4[i]% 증가하고, 장착한 캐릭터의 에너지를 고정으로 #2[i]pt 회복하며, 모든 아군의 HP를 장착한 캐릭터 방어력의 #5[i]%만큼 회복한다"
     },
     "params": [
-      [
-        0.48,
-        10,
-        3,
-        0.22,
-        0.1
-      ],
-      [
-        0.6,
-        10,
-        3,
-        0.275,
-        0.125
-      ],
-      [
-        0.72,
-        10,
-        3,
-        0.33,
-        0.15
-      ],
-      [
-        0.84,
-        10,
-        3,
-        0.385,
-        0.175
-      ],
-      [
-        0.96,
-        10,
-        3,
-        0.44,
-        0.2
-      ]
+      [0.48, 10, 3, 0.22, 0.1],
+      [0.6, 10, 3, 0.275, 0.125],
+      [0.72, 10, 3, 0.33, 0.15],
+      [0.84, 10, 3, 0.385, 0.175],
+      [0.96, 10, 3, 0.44, 0.2]
+    ],
+    "properties": [
+      [{ "type": "DefenceAddedRatio", "value": 0.48 }],
+      [{ "type": "DefenceAddedRatio", "value": 0.6 }],
+      [{ "type": "DefenceAddedRatio", "value": 0.72 }],
+      [{ "type": "DefenceAddedRatio", "value": 0.84 }],
+      [{ "type": "DefenceAddedRatio", "value": 0.96 }]
     ]
   },
+  "stats": [
+    {
+      "hp": { "base": 48, "step": 7.2 },
+      "atk": { "base": 21.6, "step": 3.24 },
+      "def": { "base": 27, "step": 4.05 }
+    },
+    {
+      "hp": { "base": 105.6, "step": 7.2 },
+      "atk": { "base": 47.52, "step": 3.24 },
+      "def": { "base": 59.4, "step": 4.05 }
+    },
+    {
+      "hp": { "base": 182.4, "step": 7.2 },
+      "atk": { "base": 82.08, "step": 3.24 },
+      "def": { "base": 102.6, "step": 4.05 }
+    },
+    {
+      "hp": { "base": 259.2, "step": 7.2 },
+      "atk": { "base": 116.64, "step": 3.24 },
+      "def": { "base": 145.8, "step": 4.05 }
+    },
+    {
+      "hp": { "base": 336, "step": 7.2 },
+      "atk": { "base": 151.2, "step": 3.24 },
+      "def": { "base": 189, "step": 4.05 }
+    },
+    {
+      "hp": { "base": 412.8, "step": 7.2 },
+      "atk": { "base": 185.76, "step": 3.24 },
+      "def": { "base": 232.2, "step": 4.05 }
+    },
+    {
+      "hp": { "base": 489.6, "step": 7.2 },
+      "atk": { "base": 220.32, "step": 3.24 },
+      "def": { "base": 275.4, "step": 4.05 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 5000 }, { "id": 116001, "num": 8 }],
+    [{ "id": 2, "num": 10000 }, { "id": 110261, "num": 4 }, { "id": 116001, "num": 12 }],
+    [{ "id": 2, "num": 20000 }, { "id": 110262, "num": 4 }, { "id": 116002, "num": 8 }],
+    [{ "id": 2, "num": 50000 }, { "id": 110262, "num": 8 }, { "id": 116002, "num": 12 }],
+    [{ "id": 2, "num": 100000 }, { "id": 110263, "num": 5 }, { "id": 116003, "num": 6 }],
+    [{ "id": 2, "num": 200000 }, { "id": 110263, "num": 10 }, { "id": 116003, "num": 8 }]
+  ],
   "images": {
     "icon": "icon/light_cone/23055.png",
     "preview": "image/light_cone_preview/23055.png",

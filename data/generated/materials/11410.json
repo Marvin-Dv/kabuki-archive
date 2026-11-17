@@ -1,0 +1,17 @@
+{
+  "id": 11410,
+  "slug": "hysilenss-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Hysilens",
+    "en": "Hysilens's Eidolon",
+    "zh-CN": "【海瑟音】的星魂",
+    "ja": "「セイレンス」の星魂",
+    "ko": "[히실렌스]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

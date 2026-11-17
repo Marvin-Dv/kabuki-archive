@@ -1,0 +1,13 @@
+{
+  "id": 29,
+  "type": "IceResistance",
+  "name": {
+    "pt-BR": "Bônus de RES a Gelo",
+    "en": "Ice RES Boost",
+    "zh-CN": "冰属性抗性提高",
+    "ja": "氷属性耐性",
+    "ko": "얼음 속성 저항 증가"
+  },
+  "icon": "icon/property/IconIceResistanceDelta.png",
+  "percent": true
+}

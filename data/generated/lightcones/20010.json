@@ -1,13 +1,7 @@
 {
   "id": 20010,
   "slug": "defense",
-  "name": {
-    "pt-BR": "Defesa",
-    "en": "Defense",
-    "zh-CN": "戍御",
-    "ja": "防衛",
-    "ko": "수비"
-  },
+  "name": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "戍御", "ja": "防衛", "ko": "수비" },
   "rarity": 3,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -20,13 +14,7 @@
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「성벽 뒤의 강인한 시민들이 방어도 승리의 수단임을 증명했다」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Revitalização",
-      "en": "Revitalization",
-      "zh-CN": "兴复",
-      "ja": "復興",
-      "ko": "부흥"
-    },
+    "name": { "pt-BR": "Revitalização", "en": "Revitalization", "zh-CN": "兴复", "ja": "復興", "ko": "부흥" },
     "description": {
       "pt-BR": "Ao usar sua Perícia Suprema, o usuário restaura PV em #1[i]% de seus PV máximos.",
       "en": "When the wearer unleashes their Ultimate, they restore HP by #1[i]% of their Max HP.",
@@ -34,24 +22,54 @@
       "ja": "装備キャラが必殺技を発動した時、HPを最大HP#1[i]%分回復する。",
       "ko": "장착한 캐릭터가 필살기 발동 시 HP 최대치 #1[i]%만큼의 HP를 회복한다"
     },
-    "params": [
-      [
-        0.18
-      ],
-      [
-        0.21
-      ],
-      [
-        0.24
-      ],
-      [
-        0.27
-      ],
-      [
-        0.3
-      ]
-    ]
+    "params": [[0.18], [0.21], [0.24], [0.27], [0.3]],
+    "properties": [[], [], [], [], []]
   },
+  "stats": [
+    {
+      "hp": { "base": 43.2, "step": 6.48 },
+      "atk": { "base": 12, "step": 1.8 },
+      "def": { "base": 12, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 95.04, "step": 6.48 },
+      "atk": { "base": 26.4, "step": 1.8 },
+      "def": { "base": 26.4, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 164.16, "step": 6.48 },
+      "atk": { "base": 45.6, "step": 1.8 },
+      "def": { "base": 45.6, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 64.8, "step": 1.8 },
+      "def": { "base": 64.8, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 302.4, "step": 6.48 },
+      "atk": { "base": 84, "step": 1.8 },
+      "def": { "base": 84, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 371.52, "step": 6.48 },
+      "atk": { "base": 103.2, "step": 1.8 },
+      "def": { "base": 103.2, "step": 1.8 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 122.4, "step": 1.8 },
+      "def": { "base": 122.4, "step": 1.8 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3000 }, { "id": 111011, "num": 4 }],
+    [{ "id": 2, "num": 6000 }, { "id": 110141, "num": 2 }, { "id": 111011, "num": 8 }],
+    [{ "id": 2, "num": 12000 }, { "id": 110142, "num": 2 }, { "id": 111012, "num": 4 }],
+    [{ "id": 2, "num": 30000 }, { "id": 110142, "num": 4 }, { "id": 111012, "num": 6 }],
+    [{ "id": 2, "num": 60000 }, { "id": 110143, "num": 3 }, { "id": 111013, "num": 3 }],
+    [{ "id": 2, "num": 120000 }, { "id": 110143, "num": 6 }, { "id": 111013, "num": 5 }]
+  ],
   "images": {
     "icon": "icon/light_cone/20010.png",
     "preview": "image/light_cone_preview/20010.png",

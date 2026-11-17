@@ -1,13 +1,7 @@
 {
   "id": 1509,
   "slug": "gilgamesh",
-  "name": {
-    "pt-BR": "Gilgamesh",
-    "en": "Gilgamesh",
-    "zh-CN": "吉尔伽美什",
-    "ja": "ギルガメッシュ",
-    "ko": "길가메시"
-  },
+  "name": { "pt-BR": "Gilgamesh", "en": "Gilgamesh", "zh-CN": "吉尔伽美什", "ja": "ギルガメッシュ", "ko": "길가메시" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Lightning",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にギルガメッシュの攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 길가메시 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1509_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
+        "en": "Deals minor Lightning DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量雷属性伤害。",
+        "ja": "敵単体に少量の雷属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150902,
@@ -82,142 +56,33 @@
         "ko": "[짐이 인정하노라]를 획득하며, 자신이 피해를 가할 시 목표의 방어력을 #5[i]% 무시한다, 지속 시간: #6[i]턴\n지정된 단일 적에게 길가메시 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 인접한 목표에게 길가메시 공격력의 #2[i]%만큼 번개 속성 피해를 가한다"
       },
       "params": [
-        [
-          1.4,
-          0.7,
-          0.1,
-          10,
-          0.15,
-          3,
-          2
-        ],
-        [
-          1.54,
-          0.77,
-          0.11,
-          10,
-          0.165,
-          3,
-          2
-        ],
-        [
-          1.68,
-          0.84,
-          0.12,
-          10,
-          0.18,
-          3,
-          2
-        ],
-        [
-          1.82,
-          0.91,
-          0.13,
-          10,
-          0.195,
-          3,
-          2
-        ],
-        [
-          1.96,
-          0.98,
-          0.14,
-          10,
-          0.21,
-          3,
-          2
-        ],
-        [
-          2.1,
-          1.05,
-          0.15,
-          10,
-          0.225,
-          3,
-          2
-        ],
-        [
-          2.275,
-          1.1375,
-          0.1625,
-          10,
-          0.2437,
-          3,
-          2
-        ],
-        [
-          2.45,
-          1.225,
-          0.175,
-          10,
-          0.2625,
-          3,
-          2
-        ],
-        [
-          2.625,
-          1.3125,
-          0.1875,
-          10,
-          0.2812,
-          3,
-          2
-        ],
-        [
-          2.8,
-          1.4,
-          0.2,
-          10,
-          0.3,
-          3,
-          2
-        ],
-        [
-          2.94,
-          1.47,
-          0.21,
-          10,
-          0.315,
-          3,
-          2
-        ],
-        [
-          3.08,
-          1.54,
-          0.22,
-          10,
-          0.33,
-          3,
-          2
-        ],
-        [
-          3.22,
-          1.61,
-          0.23,
-          10,
-          0.345,
-          3,
-          2
-        ],
-        [
-          3.36,
-          1.68,
-          0.24,
-          10,
-          0.36,
-          3,
-          2
-        ],
-        [
-          3.5,
-          1.75,
-          0.25,
-          10,
-          0.375,
-          3,
-          2
-        ]
-      ]
+        [1.4, 0.7, 0.1, 10, 0.15, 3, 2],
+        [1.54, 0.77, 0.11, 10, 0.165, 3, 2],
+        [1.68, 0.84, 0.12, 10, 0.18, 3, 2],
+        [1.82, 0.91, 0.13, 10, 0.195, 3, 2],
+        [1.96, 0.98, 0.14, 10, 0.21, 3, 2],
+        [2.1, 1.05, 0.15, 10, 0.225, 3, 2],
+        [2.275, 1.1375, 0.1625, 10, 0.2437, 3, 2],
+        [2.45, 1.225, 0.175, 10, 0.2625, 3, 2],
+        [2.625, 1.3125, 0.1875, 10, 0.2812, 3, 2],
+        [2.8, 1.4, 0.2, 10, 0.3, 3, 2],
+        [2.94, 1.47, 0.21, 10, 0.315, 3, 2],
+        [3.08, 1.54, 0.22, 10, 0.33, 3, 2],
+        [3.22, 1.61, 0.23, 10, 0.345, 3, 2],
+        [3.36, 1.68, 0.24, 10, 0.36, 3, 2],
+        [3.5, 1.75, 0.25, 10, 0.375, 3, 2]
+      ],
+      "icon": "icon/skill/1509_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ganha \"Reconhecimento do Rei\", permitindo que esta unidade ignore parte da DEF do alvo ao causar Dano. Causa Dano de Raio a um inimigo e Dano de Raio a alvos adjacentes.",
+        "en": "Gains \"King's Acknowledgement,\" enabling this unit to ignore part of the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.",
+        "zh-CN": "获得【王来承认】，使自身造成伤害时无视目标部分防御力。对敌方单体造成雷属性伤害，对相邻目标造成雷属性伤害。",
+        "ja": "「王が認める」を獲得し、自身がダメージを与える時、ターゲットの防御力の一部を無視する。敵単体に雷属性ダメージを与え、隣接する敵に雷属性ダメージを与える。",
+        "ko": "[짐이 인정하노라]를 획득하며, 자신이 피해를 가할 시 목표의 방어력을 일부 무시한다. 단일 적에게 번개 속성 피해를 가하고, 인접한 목표에게 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 150903,
@@ -237,82 +102,33 @@
         "ko": "모든 적에게 길가메시 공격력의 #1[i]%만큼 번개 속성 피해를 가한다. 추가로 피해를 #3[i]회 가하며, 피해당 랜덤 단일 적에게 길가메시 공격력의 #2[i]%만큼 번개 속성 피해를 가한다"
       },
       "params": [
-        [
-          2,
-          0.5,
-          10
-        ],
-        [
-          2.2,
-          0.55,
-          10
-        ],
-        [
-          2.4,
-          0.6,
-          10
-        ],
-        [
-          2.6,
-          0.65,
-          10
-        ],
-        [
-          2.8,
-          0.7,
-          10
-        ],
-        [
-          3,
-          0.75,
-          10
-        ],
-        [
-          3.25,
-          0.8125,
-          10
-        ],
-        [
-          3.5,
-          0.875,
-          10
-        ],
-        [
-          3.75,
-          0.9375,
-          10
-        ],
-        [
-          4,
-          1,
-          10
-        ],
-        [
-          4.2,
-          1.05,
-          10
-        ],
-        [
-          4.4,
-          1.1,
-          10
-        ],
-        [
-          4.6,
-          1.15,
-          10
-        ],
-        [
-          4.8,
-          1.2,
-          10
-        ],
-        [
-          5,
-          1.25,
-          10
-        ]
-      ]
+        [2, 0.5, 10],
+        [2.2, 0.55, 10],
+        [2.4, 0.6, 10],
+        [2.6, 0.65, 10],
+        [2.8, 0.7, 10],
+        [3, 0.75, 10],
+        [3.25, 0.8125, 10],
+        [3.5, 0.875, 10],
+        [3.75, 0.9375, 10],
+        [4, 1, 10],
+        [4.2, 1.05, 10],
+        [4.4, 1.1, 10],
+        [4.6, 1.15, 10],
+        [4.8, 1.2, 10],
+        [5, 1.25, 10]
+      ],
+      "icon": "icon/skill/1509_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Raio massivo a todos os inimigos. Adicionalmente, causa Dano de Raio leve a inimigos aleatórios, ricocheteando 10 vez(es).",
+        "en": "Deals massive Lightning DMG to all enemies. Additionally deals minor Lightning DMG to random enemies, bouncing 10 time(s).",
+        "zh-CN": "对敌方全体造成大量雷属性伤害。额外对敌方随机单体造成少量雷属性伤害，共弹射10次。",
+        "ja": "敵全体に大量の雷属性ダメージを与え、さらにランダムな敵単体に少量の雷属性ダメージを与える。10回バウンドする。",
+        "ko": "모든 적에게 대량의 번개 속성 피해를 가한다. 추가로 랜덤 단일 적에게 소량의 번개 속성 피해를 가하며, 총 10회 바운스한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150904,
@@ -332,97 +148,33 @@
         "ko": "아군 동료가 필살기 발동 시, 길가메시는 [짐이 짊어지리라]를 획득하며, 자신이 가하는 필살기 피해가 #3[i]% 증가한다, 지속 시간: #1[i]턴\n초기 자신의 턴 시작 시 자동으로 일반 공격을 발동한다. 다른 아군이 행동 시, 길가메시는 [흥미]를 1pt 획득하며, 보유한 [흥미] 1pt당 자신의 속도가 #4[i]% 증가한다.\n[흥미]가 처음으로 #2[i]pt 도달 시, [흥이 오르는군!] 상태에 진입하며, 해당 상태에서는 전투 스킬만 발동할 수 있고, 전투 내내 지속된다. 전투 스킬 발동 후, 자신의 [흥미]를 초기화한다"
       },
       "params": [
-        [
-          3,
-          10,
-          0.2,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.22,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.24,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.26,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.28,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.3,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.325,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.35,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.375,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.4,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.42,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.44,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.46,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.48,
-          0.1
-        ],
-        [
-          3,
-          10,
-          0.5,
-          0.1
-        ]
-      ]
+        [3, 10, 0.2, 0.1],
+        [3, 10, 0.22, 0.1],
+        [3, 10, 0.24, 0.1],
+        [3, 10, 0.26, 0.1],
+        [3, 10, 0.28, 0.1],
+        [3, 10, 0.3, 0.1],
+        [3, 10, 0.325, 0.1],
+        [3, 10, 0.35, 0.1],
+        [3, 10, 0.375, 0.1],
+        [3, 10, 0.4, 0.1],
+        [3, 10, 0.42, 0.1],
+        [3, 10, 0.44, 0.1],
+        [3, 10, 0.46, 0.1],
+        [3, 10, 0.48, 0.1],
+        [3, 10, 0.5, 0.1]
+      ],
+      "icon": "icon/skill/1509_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quando um aliado de equipe usa a Perícia Suprema, Gilgamesh ganha \"Fardo do Rei\", que aumenta o Dano de Perícia Suprema causado por esta unidade.\nInicialmente, usa o ATQ Básico automaticamente no início da rodada desta unidade. Quando outro aliado-alvo age, Gilgamesh ganha 1 ponto de \"Interesse\". Para cada ponto de \"Interesse\" em posse, aumenta a VEL desta unidade.\nQuando \"Interesse\" atinge 10 pela primeira vez, entra no estado de \"Interesse Despertado!\". Nesse estado, só pode usar a Perícia, durante toda a batalha. Após usar a Perícia, os pontos de \"Interesse\" desta unidade são zerados.",
+        "en": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit.\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest\". For each point of \"Interest\" in possession, increases SPD for this unit.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
+        "zh-CN": "我方队友施放终结技时，吉尔伽美什获得【王来背负】，使自身造成的终结技伤害提高。\n初始自身回合开始时自动施放普攻。我方其他目标行动时，吉尔伽美什获得1点【兴致】。每拥有1点【兴致】使自身速度提高。\n当【兴致】首次达到10点时，进入【来兴致了！】状态，该状态下仅能施放战技，且持续整场战斗。施放战技后，清空自身【兴致】。",
+        "ja": "自身以外の味方が必殺技を発動する時、ギルガメッシュは「王が背負う」を獲得し、自身の必殺技ダメージがアップする。\n初期状態では、自身のターンが回ってくると自動で通常攻撃を発動する。自身以外の味方が行動する時、ギルガメッシュは「興」を1獲得する。「興」が1あるごとに、ギルガメッシュは自身の速度をアップさせる。\n「興」が初めて10に達する時、ギルガメッシュは「興が乗った！」状態に入り、戦闘スキルだけ発動できるようになる。この状態は戦闘終了まで継続する。戦闘スキルを発動した後、自身の「興」をクリアする。",
+        "ko": "아군 동료가 필살기 발동 시, 길가메시는 [짐이 짊어지리라]를 획득하며, 자신이 가하는 필살기 피해가 증가한다.\n초기 자신의 턴 시작 시 자동으로 일반 공격을 발동한다. 다른 아군이 행동 시, 길가메시는 [흥미]를 1pt 획득한다. 보유한 [흥미] 1pt당 자신의 속도가 증가한다.\n[흥미]가 처음으로 10pt 도달 시, [흥이 오르는군!] 상태에 진입하며, 해당 상태에서는 전투 스킬만 발동할 수 있고, 전투 내내 지속된다. 전투 스킬 발동 후, 자신의 [흥미]를 초기화한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 150905,
@@ -442,139 +194,48 @@
         "ko": "길가메시 또는 세이버가 공격 시 공격 카운트를 1pt 누적하며, 임의의 유닛이 공격 후 누적 공격 카운트가 #5[i] 도달 시 길가메시와 세이버가 연계 추가 공격을 발동해 모든 적에게 각각 길가메시 공격력의 #1[i]%만큼의 번개 속성 피해 및 세이버 공격력의 #2[i]%만큼의 바람 속성 피해를 가한다. 이후 길가메시는 [흥미]를 #3[i]pt 획득하고, 세이버는 고정으로 에너지를 #4[i]pt 회복하며 자신의 다음 필살기 발동 시 가하는 피해가 기존 피해의 #6[i]%가 된다.\n연계 추가 공격 발동 후 누적 공격 카운트는 초기화된다"
       },
       "params": [
-        [
-          2,
-          3,
-          3,
-          120,
-          8,
-          1.2
-        ],
-        [
-          2.2,
-          3.3,
-          3,
-          120,
-          8,
-          1.28
-        ],
-        [
-          2.4,
-          3.6,
-          3,
-          120,
-          8,
-          1.36
-        ],
-        [
-          2.6,
-          3.9,
-          3,
-          120,
-          8,
-          1.44
-        ],
-        [
-          2.8,
-          4.2,
-          3,
-          120,
-          8,
-          1.52
-        ],
-        [
-          3,
-          4.5,
-          3,
-          120,
-          8,
-          1.6
-        ],
-        [
-          3.25,
-          4.875,
-          3,
-          120,
-          8,
-          1.7
-        ],
-        [
-          3.5,
-          5.25,
-          3,
-          120,
-          8,
-          1.8
-        ],
-        [
-          3.75,
-          5.625,
-          3,
-          120,
-          8,
-          1.9
-        ],
-        [
-          4,
-          6,
-          3,
-          120,
-          8,
-          2
-        ],
-        [
-          4.2,
-          6.3,
-          3,
-          120,
-          8,
-          2.08
-        ],
-        [
-          4.4,
-          6.6,
-          3,
-          120,
-          8,
-          2.16
-        ],
-        [
-          4.6,
-          6.9,
-          3,
-          120,
-          8,
-          2.24
-        ],
-        [
-          4.8,
-          7.2,
-          3,
-          120,
-          8,
-          2.32
-        ],
-        [
-          5,
-          7.5,
-          3,
-          120,
-          8,
-          2.4
-        ]
-      ]
+        [2, 3, 3, 120, 8, 1.2],
+        [2.2, 3.3, 3, 120, 8, 1.28],
+        [2.4, 3.6, 3, 120, 8, 1.36],
+        [2.6, 3.9, 3, 120, 8, 1.44],
+        [2.8, 4.2, 3, 120, 8, 1.52],
+        [3, 4.5, 3, 120, 8, 1.6],
+        [3.25, 4.875, 3, 120, 8, 1.7],
+        [3.5, 5.25, 3, 120, 8, 1.8],
+        [3.75, 5.625, 3, 120, 8, 1.9],
+        [4, 6, 3, 120, 8, 2],
+        [4.2, 6.3, 3, 120, 8, 2.08],
+        [4.4, 6.6, 3, 120, 8, 2.16],
+        [4.6, 6.9, 3, 120, 8, 2.24],
+        [4.8, 7.2, 3, 120, 8, 2.32],
+        [5, 7.5, 3, 120, 8, 2.4]
+      ],
+      "icon": "icon/skill/1509_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quando Gilgamesh ou Saber atacam, a contagem de ataques aumenta. Após qualquer unidade atacar, se a contagem de ataques atingir 8, Gilgamesh e Saber desferem um Ataque Extra Conjunto, causando Dano de Raio massivo e Dano de Vento massivo a todos os inimigos. Gilgamesh obtém 3 ponto(s) de \"Interesse\". Saber regenera Energia e aumenta adicionalmente o Dano da próxima Perícia Suprema dela.",
+        "en": "When Gilgamesh or Saber attacks, the attack tally increases. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing massive Lightning DMG and massive Wind DMG to all enemies. Gilgamesh gains 3 \"Interest.\" Saber regenerates Energy and additionally increases the DMG of her next Ultimate.",
+        "zh-CN": "吉尔伽美什或Saber攻击时累计攻击计数，任意单位攻击后若累计攻击计数达到8，吉尔伽美什和Saber发动连携追加攻击，对敌方全体造成大量雷属性伤害以及大量风属性伤害，吉尔伽美什获得3点【兴致】，Saber恢复能量并且额外提高下一次终结技的伤害。",
+        "ja": "ギルガメッシュまたはセイバーが攻撃すると、攻撃回数がカウントされる。任意のユニットが攻撃した後、累計攻撃回数が8に達した時、ギルガメッシュとセイバーは連携追加攻撃を発動する。敵全体に大量の雷属性ダメージと大量の風属性ダメージを与える。その後、ギルガメッシュは「興」を3獲得する。セイバーはEPを回復して、さらに次の必殺技のダメージがアップする。",
+        "ko": "길가메시 또는 세이버가 공격 시 공격 카운트를 누적하며, 임의의 유닛이 공격 후 누적 공격 카운트가 8 도달 시 길가메시와 세이버가 연계 추가 공격을 발동해 모든 적에게 대량의 번개 속성 피해 및 대량의 바람 속성 피해를 가한다. 길가메시는 [흥미]를 3pt 획득하고, 세이버는 에너지를 회복하며 다음 필살기의 피해가 추가로 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150906,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1509_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -585,13 +246,7 @@
     {
       "id": 150907,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Enkidu",
-        "en": "Enkidu",
-        "zh-CN": "天之锁",
-        "ja": "天の鎖",
-        "ko": "하늘의 사슬"
-      },
+      "name": { "pt-BR": "Enkidu", "en": "Enkidu", "zh-CN": "天之锁", "ja": "天の鎖", "ko": "하늘의 사슬" },
       "description": {
         "pt-BR": "Ao usar a Técnica, cria 1 Dimensão Especial com duração de #1[i] segundo(s). Os inimigos na Dimensão Especial entram no estado \"Permissão do Rei\". Inimigos no estado \"Permissão do Rei\" cessam todas as ações.\nAo entrar em combate atacando ativamente um inimigo no estado \"Permissão do Rei\", faz com que todos os inimigos no estado \"Permissão do Rei\" entrem em combate, e causa Dano de Raio equivalente a #2[i]% do ATQ de Gilgamesh a todos os inimigos ao entrar em combate. Gilgamesh também ganha imediatamente #3[i] \"Interesse\". Apenas 1 Efeito de Dimensão criado por aliados pode existir ao mesmo tempo.",
         "en": "After using Technique, creates 1 Special Dimension lasting for #1[i] second(s). Enemies in the Special Dimension enter the \"King's Permission\" state. Enemies in the \"King's Permission\" state will cease all actions.\nWhen entering combat by actively attacking an enemy in the \"King's Permission\" state, causes all enemies in the \"King's Permission\" state to enter combat, and deals Lightning DMG equal to #2[i]% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains #3[i] \"Interest.\" Only 1 Dimension Effect created by allies can exist at the same time.",
@@ -599,13 +254,18 @@
         "ja": "秘技を使用した後、#1[i]秒間継続する特殊領域を生成する。特殊領域内の敵は「王が許す」状態になり、すべての行動を停止する。\n「王が許す」状態の敵に先制攻撃を仕掛けた場合、すべての「王が許す」状態の敵と戦闘に入り、敵全体にギルガメッシュの攻撃力#2[i]%分の雷属性ダメージを与え、ギルガメッシュは即座に「興」を#3[i]獲得する。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후, #1[i]초 동안 지속되는 특수 영역을 1개 만든다. 특수 영역 내의 적은 [짐이 허락하노라] 상태에 빠지며, [짐이 허락하노라] 상태의 적은 모든 행동을 정지한다.\n[짐이 허락하노라] 상태에 빠진 적을 선공하여 전투에 진입하면, [짐이 허락하노라] 상태의 모든 적과 동시에 전투에 진입하고, 전투 진입 후 모든 적에게 길가메시 공격력의 #2[i]%만큼 번개 속성 피해를 가하며, 길가메시는 즉시 [흥미]를 #3[i]pt 획득한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
-      "params": [
-        [
-          10,
-          2,
-          3
-        ]
-      ]
+      "params": [[10, 2, 3]],
+      "icon": "icon/skill/1509_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Cria uma Dimensão Especial. Os inimigos na Dimensão Especial entram no estado de \"Permissão do Rei\" e interrompem todas as suas ações.\nAtacar um inimigo no estado de \"Permissão do Rei\" faz com que todos os inimigos no estado de \"Permissão do Rei\" entrem em combate simultaneamente. Após entrar em combate, causa Dano de Raio a todos os inimigos e imediatamente ganha 3 ponto(s) de \"Interesse\".",
+        "en": "Creates a Special Dimension. Enemies in the Special Dimension enter the \"King's Permission\" state and cease all actions.\nAttacking an enemy in the \"King's Permission\" state causes all enemies in the \"King's Permission\" state to enter combat simultaneously. After entering combat, deals Lightning DMG to all enemies and immediately gains 3 \"Interest.\"",
+        "zh-CN": "制造特殊领域。处于特殊领域内的敌人陷入【王来允许】状态，停止所有行动。\n攻击陷入【王来允许】的敌人，使所有处于【王来允许】状态的敌人同时进入战斗，进战后对敌方全体造成雷属性伤害，立即获得3点【兴致】。",
+        "ja": "特殊領域を作り出す。特殊領域内の敵は「王が許す」状態になり、すべての行動を停止する。\n「王が許す」状態の敵を攻撃した場合、すべての「王が許す」状態の敵と戦闘に入り、敵全体に雷属性ダメージを与え、ただちに「興」を3獲得する。",
+        "ko": "특수 영역을 만든다. 특수 영역 내의 적은 [짐이 허락하노라] 상태에 빠지며, 모든 행동을 정지한다.\n[짐이 허락하노라] 상태에 빠진 적을 공격하면 [짐이 허락하노라] 상태인 모든 적과 동시에 전투에 진입하고, 전투 진입 후 모든 적에게 번개 속성 피해를 가하며, 즉시 [흥미]를 3pt 획득한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 150909,
@@ -617,38 +277,11 @@
         "ja": "気まぐれ",
         "ko": "나른한 방심"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1509_basic_atk.png",
+      "maxLevel": 10,
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     }
   ],
   "eidolons": [
@@ -667,7 +300,10 @@
         "zh-CN": "当吉尔伽美什持有【王来承认】时，【王来承认】无视防御力的效果对其他队友也生效，且【王来承认】额外使吉尔伽美什攻击力提高60%。施放战技时额外固定恢复40能量。",
         "ja": "ギルガメッシュが「王が認める」を持つ時、「王が認める」の防御力無視効果はギルガメッシュ以外の味方にも適用される。また、「王が認める」を持つギルガメッシュの攻撃力がさらに+60%。戦闘スキルを発動する時、EPを追加で40回復する。",
         "ko": "길가메시가 [짐이 인정하노라] 보유 시, [짐이 인정하노라]의 방어력 무시 효과가 다른 동료에게도 적용되며, [짐이 인정하노라]는 추가로 길가메시의 공격력을 60% 증가시킨다. 전투 스킬 발동 시 추가로 고정으로 에너지를 40 회복한다"
-      }
+      },
+      "icon": "icon/skill/1509_rank1.png",
+      "materials": [{ "id": 11509, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -684,7 +320,10 @@
         "zh-CN": "吉尔伽美什进入战斗时获得5点【兴致】，施放终结技时额外获得5点【兴致】。战技【王之财宝】对主目标造成的伤害倍率提高100%，对相邻目标造成的伤害倍率提高50%。",
         "ja": "ギルガメッシュは戦闘開始時に「興」を5獲得し、必殺技を発動する時に追加で「興」を5獲得する。戦闘スキル「王の財宝」のメインターゲットへのダメージ倍率+100%、隣接する敵へのダメージ倍率+50%。",
         "ko": "길가메시가 전투 진입 시 [흥미]를 5pt 획득하고, 필살기 발동 시 추가로 [흥미]를 5pt 획득한다. 전투 스킬 [{RUBY_B#게이트 오브 바빌론}왕의 재보{RUBY_E#}]가 주목표에게 가하는 피해 배율이 100% 증가하고, 인접한 목표에게 가하는 피해 배율이 50% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1509_rank2.png",
+      "materials": [{ "id": 11509, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -701,7 +340,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1509_skill.png",
+      "materials": [{ "id": 11509, "num": 1 }],
+      "levelUpSkills": [{ "id": 150902, "num": 2 }, { "id": 150901, "num": 1 }]
     },
     {
       "rank": 4,
@@ -718,7 +360,10 @@
         "zh-CN": "吉尔伽美什的能量恢复效率提高20%。",
         "ja": "ギルガメッシュのEP回復効率+20%。",
         "ko": "길가메시의 에너지 회복효율이 20% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1509_rank4.png",
+      "materials": [{ "id": 11509, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -735,7 +380,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1509_ultimate.png",
+      "materials": [{ "id": 11509, "num": 1 }],
+      "levelUpSkills": [{ "id": 150903, "num": 2 }, { "id": 150904, "num": 2 }, { "id": 150905, "num": 2 }]
     },
     {
       "rank": 6,
@@ -752,10 +400,694 @@
         "zh-CN": "终结技【天地乖离•开辟之星】的弹射伤害倍率提高80%。吉尔伽美什在场时，使我方角色的全属性抗性穿透提高20%。队友施放终结技时，吉尔伽美什获得1点【黄金律】，最多累计3点。自身施放终结技时消耗全部【黄金律】，每消耗1点【黄金律】使造成的终结技伤害的暴击伤害提高100%。",
         "ja": "必殺技「天地乖離す開闢の星」のバウンドダメージ倍率+80%。ギルガメッシュがフィールド上にいる時、味方キャラの全属性耐性貫通+20%。自身以外の味方が必殺技を発動すると、ギルガメッシュは「黄金律」を1獲得する（最大3まで累積可能）。自身が必殺技を発動する時、所持しているすべての「黄金律」を消費し、消費した「黄金律」1につき、必殺技ダメージの会心ダメージ+100%。",
         "ko": "필살기 [{RUBY_B#에누마 엘리시}천지를 괴리시키는 개벽의 별{RUBY_E#}]의 바운스 피해 배율이 80% 증가한다. 길가메시가 필드에 있을 시, 아군 캐릭터의 모든 속성 저항 관통이 20% 증가한다. 동료가 필살기 발동 시 길가메시가 [황금률]을 1pt 획득한다(최대 3pt 누적). 자신이 필살기 발동 시 모든 [황금률]을 소모하며, 소모한 [황금률] 1pt당 가하는 필살기 피해의 치명타 피해가 100% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1509_rank6.png",
+      "materials": [{ "id": 11509, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 360,
+  "stats": [
+    {
+      "hp": { "base": 153.12, "step": 7.656 },
+      "atk": { "base": 97.68, "step": 4.884 },
+      "def": { "base": 69.3, "step": 3.465 },
+      "spd": { "base": 97, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 214.368, "step": 7.656 },
+      "atk": { "base": 136.752, "step": 4.884 },
+      "def": { "base": 97.02, "step": 3.465 },
+      "spd": { "base": 97, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 275.616, "step": 7.656 },
+      "atk": { "base": 175.824, "step": 4.884 },
+      "def": { "base": 124.74, "step": 3.465 },
+      "spd": { "base": 97, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 336.864, "step": 7.656 },
+      "atk": { "base": 214.896, "step": 4.884 },
+      "def": { "base": 152.46, "step": 3.465 },
+      "spd": { "base": 97, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 398.112, "step": 7.656 },
+      "atk": { "base": 253.968, "step": 4.884 },
+      "def": { "base": 180.18, "step": 3.465 },
+      "spd": { "base": 97, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 459.36, "step": 7.656 },
+      "atk": { "base": 293.04, "step": 4.884 },
+      "def": { "base": 207.9, "step": 3.465 },
+      "spd": { "base": 97, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 520.608, "step": 7.656 },
+      "atk": { "base": 332.112, "step": 4.884 },
+      "def": { "base": 235.62, "step": 3.465 },
+      "spd": { "base": 97, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 111001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 111001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 111002, "num": 6 }, { "id": 110434, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 111002, "num": 9 }, { "id": 110434, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 111003, "num": 6 }, { "id": 110434, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 111003, "num": 9 }, { "id": 110434, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1509001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1509_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [150901],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110281, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110282, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110282, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110283, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110283, "num": 8 }, { "id": 111003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1509002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1509_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150902],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110281, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110282, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110282, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110282, "num": 7 }, { "id": 111002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110283, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110283, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 111003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110283, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110283, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1509003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1509_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150903],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110281, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110282, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110282, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110282, "num": 7 }, { "id": 111002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110283, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110283, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 111003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110283, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110283, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1509004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1509_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [150904, 150905],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110281, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110282, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110282, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110282, "num": 7 }, { "id": 111002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110283, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110283, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 111003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110283, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110283, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1509007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1509_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [150907],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1509101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Início da Epopeia",
+        "en": "Epic's Opening",
+        "zh-CN": "史诗的源头",
+        "ja": "{RUBY_B#じょじし}叙事詩{RUBY_E#}の{RUBY_B#しげん}始源{RUBY_E#}",
+        "ko": "서사시의 근원"
+      },
+      "description": {
+        "pt-BR": "Quando Gilgamesh usa a Perícia Suprema, ganha #3[i] \"Interesse\". Quando outros personagens aliados usam a Perícia Suprema, Gilgamesh ganha adicionalmente #1[i] \"Interesse\" e regenera uma quantidade fixa de Energia igual a #2[i]% da Energia consumida neste momento.",
+        "en": "When Gilgamesh uses Ultimate, gains #3[i] \"Interest.\" When other ally characters use Ultimate, Gilgamesh additionally gains #1[i] \"Interest\" and regenerates a fixed amount of Energy equal to #2[i]% of the Energy consumed this time.",
+        "zh-CN": "吉尔伽美什施放终结技时，获得#3[i]点【兴致】。我方其他角色施放终结技时，吉尔伽美什额外获得#1[i]点【兴致】，并固定恢复等同于本次消耗能量值#2[i]%的能量。",
+        "ja": "ギルガメッシュが必殺技を発動する時、「興」を#3[i]獲得する。\n自身以外の味方キャラが必殺技を発動する時、ギルガメッシュは追加で「興」を#1[i]獲得し、固定で今回消費したEPの#2[i]%分のEPを回復する。",
+        "ko": "길가메시가 필살기 발동 시, [흥미]를 #3[i]pt 획득한다. 다른 아군 캐릭터가 필살기 발동 시, 길가메시는 추가로 [흥미]를 #1[i]pt 획득하고, 이번에 소모한 에너지의 #2[i]%만큼 에너지를 고정으로 회복한다"
+      },
+      "params": [[2, 0.3, 2]],
+      "icon": "icon/skill/1509_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110281, "num": 3 }, { "id": 110502, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1509102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Orgulho do Herói",
+        "en": "Hero's Hauteur",
+        "zh-CN": "英雄的孤傲",
+        "ja": "{RUBY_B#ここう}孤高{RUBY_E#}の{RUBY_B#えいゆう}英雄{RUBY_E#}",
+        "ko": "영웅의 고고함"
+      },
+      "description": {
+        "pt-BR": "Durante a batalha atual, a cada 1 ponto de \"Interesse\" obtido por Gilgamesh, o Dano CRIT dele aumenta em #1[i]%. Esse efeito pode ser acumulado até #2[i] vez(es).",
+        "en": "During the current battle, for every 1 point of \"Interest\" gained by Gilgamesh, increases his CRIT DMG by #1[i]%. This effect can stack up to #2[i] time(s).",
+        "zh-CN": "本场战斗中，吉尔伽美什每获得1点【兴致】，使自身暴击伤害提高#1[i]%，该效果最多叠加#2[i]层。",
+        "ja": "この戦闘中、ギルガメッシュが「興」を1獲得するたびに、自身の会心ダメージ+#1[i]%。この効果は最大#2[i]層まで累積できる。",
+        "ko": "이번 전투에서 길가메시가 획득한 [흥미] 1pt당 자신의 치명타 피해가 #1[i]% 증가한다, 해당 효과 최대 중첩수: #2[i]스택"
+      },
+      "params": [[0.25, 6]],
+      "icon": "icon/skill/1509_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110282, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1509103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Conflito de Hegemon",
+        "en": "Hegemon's Strife",
+        "zh-CN": "王霸的竞逐",
+        "ja": "{RUBY_B#おう}王{RUBY_E#}の{RUBY_B#そうは}争覇{RUBY_E#}",
+        "ko": "왕의 쟁패"
+      },
+      "description": {
+        "pt-BR": "Enquanto Gilgamesh estiver em campo, aumenta o ATQ de todos os aliados-alvo em #1[i]% e o Dano CRIT em #2[i]%. Se a Energia Máxima do alvo exceder #3[i], cada 1 ponto de Energia Máxima excedente aumenta adicionalmente o ATQ e o Dano CRIT em #4[i]%, até um máximo de #5[i]%.",
+        "en": "While Gilgamesh is on the field, increases all ally targets' ATK by #1[i]% and CRIT DMG by #2[i]%. If the target's Max Energy exceeds #3[i], for every 1 excess point of Max Energy, additionally increases ATK and CRIT DMG by #4[i]%, up to a maximum additional increase of #5[i]%.",
+        "zh-CN": "吉尔伽美什在场时，使我方全体目标攻击力提高#1[i]%，暴击伤害提高#2[i]%。若目标能量上限大于#3[i]，每超过1点能量上限使攻击力和暴击伤害额外提高#4[i]%，最多额外提高#5[i]%。",
+        "ja": "ギルガメッシュがフィールドにいる時、味方全体の攻撃力+#1[i]%、会心ダメージ+#2[i]%。味方の最大EPが#3[i]を超えている場合、超過分1につき、攻撃力と会心ダメージがさらに+#4[i]%、最大で+#5[i]%。",
+        "ko": "길가메시가 필드에 있을 시, 모든 아군의 공격력이 #1[i]% 증가하고, 치명타 피해가 #2[i]% 증가한다. 목표의 에너지 최대치가 #3[i]보다 높을 경우, 초과한 에너지 1pt당 공격력과 치명타 피해가 추가로 #4[i]% 증가하며, 최대 추가로 #5[i]% 증가한다"
+      },
+      "params": [[0.2, 0.2, 140, 0.01, 1]],
+      "icon": "icon/skill/1509_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110283, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1509201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1509202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1509101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110281, "num": 3 }, { "id": 111001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1509203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1509202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110282, "num": 3 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1509204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Dano: Raio",
+        "en": "DMG Boost: Lightning",
+        "zh-CN": "伤害强化•雷",
+        "ja": "ダメージ強化・雷",
+        "ko": "피해 강화•번개"
+      },
+      "icon": "icon/property/IconThunderAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1509203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "ThunderAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110282, "num": 3 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1509205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1509102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110282, "num": 5 }, { "id": 111002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1509206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1509205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110283, "num": 3 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1509207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1509206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110283, "num": 3 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1509208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Dano: Raio",
+        "en": "DMG Boost: Lightning",
+        "zh-CN": "伤害强化•雷",
+        "ja": "ダメージ強化・雷",
+        "ko": "피해 강화•번개"
+      },
+      "icon": "icon/property/IconThunderAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1509103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "ThunderAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110283, "num": 8 }, { "id": 111003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1509209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1509208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110283, "num": 8 }, { "id": 111003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1509210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1509208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110283, "num": 8 }, { "id": 111003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11509, 110281, 110282, 110283, 110434, 110502, 111001, 111002, 111003],
   "images": {
     "icon": "icon/character/1509.png",
     "preview": "image/character_preview/1509.png",

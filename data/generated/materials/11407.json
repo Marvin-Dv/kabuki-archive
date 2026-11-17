@@ -1,0 +1,17 @@
+{
+  "id": 11407,
+  "slug": "castorices-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Castorice",
+    "en": "Castorice's Eidolon",
+    "zh-CN": "【遐蝶】的星魂",
+    "ja": "「キャストリス」の星魂",
+    "ko": "[카스토리스]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

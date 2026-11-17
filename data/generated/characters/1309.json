@@ -1,13 +1,7 @@
 {
   "id": 1309,
   "slug": "robin",
-  "name": {
-    "pt-BR": "Robin",
-    "en": "Robin",
-    "zh-CN": "知更鸟",
-    "ja": "ロビン",
-    "ko": "로빈"
-  },
+  "name": { "pt-BR": "Robin", "en": "Robin", "zh-CN": "知更鸟", "ja": "ロビン", "ko": "로빈" },
   "rarity": 5,
   "path": "Harmony",
   "element": "Physical",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にロビンの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 로빈 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1309_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Físico leve a um único inimigo.",
+        "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
+        "ja": "敵単体に少量の物理属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 130902,
@@ -82,67 +56,33 @@
         "ko": "모든 아군이 가하는 피해를 #1[i]% 증가시킨다, 지속 시간: #2[i]턴. 로빈 턴이 시작될 때마다 지속 턴 수가 1 감소한다"
       },
       "params": [
-        [
-          0.25,
-          3
-        ],
-        [
-          0.275,
-          3
-        ],
-        [
-          0.3,
-          3
-        ],
-        [
-          0.325,
-          3
-        ],
-        [
-          0.35,
-          3
-        ],
-        [
-          0.375,
-          3
-        ],
-        [
-          0.4062,
-          3
-        ],
-        [
-          0.4375,
-          3
-        ],
-        [
-          0.4688,
-          3
-        ],
-        [
-          0.5,
-          3
-        ],
-        [
-          0.525,
-          3
-        ],
-        [
-          0.55,
-          3
-        ],
-        [
-          0.575,
-          3
-        ],
-        [
-          0.6,
-          3
-        ],
-        [
-          0.625,
-          3
-        ]
-      ]
+        [0.25, 3],
+        [0.275, 3],
+        [0.3, 3],
+        [0.325, 3],
+        [0.35, 3],
+        [0.375, 3],
+        [0.4062, 3],
+        [0.4375, 3],
+        [0.4688, 3],
+        [0.5, 3],
+        [0.525, 3],
+        [0.55, 3],
+        [0.575, 3],
+        [0.6, 3],
+        [0.625, 3]
+      ],
+      "icon": "icon/skill/1309_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Aumenta o Dano causado por todos os aliados.",
+        "en": "Increases DMG dealt by all allies.",
+        "zh-CN": "使我方全体伤害提高。",
+        "ja": "味方全体の与ダメージをアップする。",
+        "ko": "모든 아군의 피해를 증가시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 130903,
@@ -162,127 +102,33 @@
         "ko": "로빈이 [협주] 상태에 진입하고, 자신 이외의 동료를 즉시 행동하게 한다.\n[협주] 상태일 시 모든 아군의 공격력이 증가한다. 증가 수치는 로빈 공격력의 #1[f1]%+#3[i]pt이며, 아군이 공격을 발동할 때마다 로빈은 추가로 자신의 공격력의 #4[i]%만큼 물리 속성 추가 피해를 1회 가한다. 해당 피해의 치명타 확률은 #5[i]%, 치명타 피해는 #6[i]%로 고정된다.\n[협주] 상태일 시 로빈은 제어류 디버프 상태에 면역되고, [협주] 상태 종료 전에는 자신의 턴에 진입하지 않으며 행동할 수 없다.\n행동 서열에 [협주] 카운트다운이 나타나고, 카운트다운 턴 시작 시 로빈은 [협주] 상태를 종료하고 즉시 행동한다. 카운트다운이 보유한 고정 속도는 #2[i]pt이다"
       },
       "params": [
-        [
-          0.152,
-          90,
-          50,
-          0.72,
-          1,
-          1.5
-        ],
-        [
-          0.1596,
-          90,
-          65,
-          0.768,
-          1,
-          1.5
-        ],
-        [
-          0.1672,
-          90,
-          80,
-          0.816,
-          1,
-          1.5
-        ],
-        [
-          0.1748,
-          90,
-          95,
-          0.864,
-          1,
-          1.5
-        ],
-        [
-          0.1824,
-          90,
-          110,
-          0.912,
-          1,
-          1.5
-        ],
-        [
-          0.19,
-          90,
-          125,
-          0.96,
-          1,
-          1.5
-        ],
-        [
-          0.1995,
-          90,
-          143.75,
-          1.02,
-          1,
-          1.5
-        ],
-        [
-          0.209,
-          90,
-          162.5,
-          1.08,
-          1,
-          1.5
-        ],
-        [
-          0.2185,
-          90,
-          181.25,
-          1.14,
-          1,
-          1.5
-        ],
-        [
-          0.228,
-          90,
-          200,
-          1.2,
-          1,
-          1.5
-        ],
-        [
-          0.2356,
-          90,
-          215,
-          1.248,
-          1,
-          1.5
-        ],
-        [
-          0.2432,
-          90,
-          230,
-          1.296,
-          1,
-          1.5
-        ],
-        [
-          0.2508,
-          90,
-          245,
-          1.344,
-          1,
-          1.5
-        ],
-        [
-          0.2584,
-          90,
-          260,
-          1.392,
-          1,
-          1.5
-        ],
-        [
-          0.266,
-          90,
-          275,
-          1.44,
-          1,
-          1.5
-        ]
-      ]
+        [0.152, 90, 50, 0.72, 1, 1.5],
+        [0.1596, 90, 65, 0.768, 1, 1.5],
+        [0.1672, 90, 80, 0.816, 1, 1.5],
+        [0.1748, 90, 95, 0.864, 1, 1.5],
+        [0.1824, 90, 110, 0.912, 1, 1.5],
+        [0.19, 90, 125, 0.96, 1, 1.5],
+        [0.1995, 90, 143.75, 1.02, 1, 1.5],
+        [0.209, 90, 162.5, 1.08, 1, 1.5],
+        [0.2185, 90, 181.25, 1.14, 1, 1.5],
+        [0.228, 90, 200, 1.2, 1, 1.5],
+        [0.2356, 90, 215, 1.248, 1, 1.5],
+        [0.2432, 90, 230, 1.296, 1, 1.5],
+        [0.2508, 90, 245, 1.344, 1, 1.5],
+        [0.2584, 90, 260, 1.392, 1, 1.5],
+        [0.266, 90, 275, 1.44, 1, 1.5]
+      ],
+      "icon": "icon/skill/1309_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Entra no estado de Concerto, aumenta o ATQ de todos os aliados e faz com que todos os companheiros de equipe ajam imediatamente. Depois de um ataque, Robin causa Dano Físico Adicional. Enquanto Concerto dura, Robin é imune a penalidades de Controle Negativo. Antes de Concerto terminar, Robin não pode agir nem iniciar sua rodada até o final da contagem regressiva.",
+        "en": "Enters the \"Concerto\" state, increases all allies' ATK, and causes all teammates to immediately take action. After an attack, Robin deals Physical Additional DMG. While \"Concerto\" lasts, Robin is immune to Crowd Control debuffs. Before Concerto ends, Robin won't take a turn or action, lasting until the end of the countdown.",
+        "zh-CN": "进入【协奏】状态，使我方全体攻击力提高，并使队友立即行动，攻击后知更鸟额外造成物理属性附加伤害。【协奏】状态期间自身免疫控制类负面状态，状态结束前不会进入自己回合且无法行动，直至倒计时结束。",
+        "ja": "「協奏」状態に入り、味方全体の攻撃力をアップし、自身以外の味方を即座に行動させる。味方が攻撃を行った後、ロビンは物理属性付加ダメージを敵に与える。「協奏」状態の間、自身は行動制限系デバフに抵抗できる。ロビンは「協奏」状態が終了するまで自身のターンに入らず、行動できない。",
+        "ko": "[협주] 상태에 진입하고, 모든 아군의 공격력을 증가시키며 동료를 즉시 행동하게 한다. 공격 후 로빈은 추가로 물리 속성 추가 피해를 가한다. [협주] 상태 동안 자신은 제어류 디버프 상태에 면역되고, 상태가 종료되기 전에는 자신의 턴에 진입할 수도, 행동할 수도 없으며, 카운트다운이 종료될 때까지 지속된다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 130904,
@@ -302,79 +148,48 @@
         "ko": "모든 아군의 치명타 피해가 #1[f1]% 증가하고, 아군이 적 공격 후 로빈이 추가로 자신의 에너지를 #2[i]pt 회복한다"
       },
       "params": [
-        [
-          0.05,
-          2
-        ],
-        [
-          0.065,
-          2
-        ],
-        [
-          0.08,
-          2
-        ],
-        [
-          0.095,
-          2
-        ],
-        [
-          0.11,
-          2
-        ],
-        [
-          0.125,
-          2
-        ],
-        [
-          0.1437,
-          2
-        ],
-        [
-          0.1625,
-          2
-        ],
-        [
-          0.1812,
-          2
-        ],
-        [
-          0.2,
-          2
-        ],
-        [
-          0.215,
-          2
-        ],
-        [
-          0.23,
-          2
-        ],
-        [
-          0.245,
-          2
-        ],
-        [
-          0.26,
-          2
-        ],
-        [
-          0.275,
-          2
-        ]
-      ]
+        [0.05, 2],
+        [0.065, 2],
+        [0.08, 2],
+        [0.095, 2],
+        [0.11, 2],
+        [0.125, 2],
+        [0.1437, 2],
+        [0.1625, 2],
+        [0.1812, 2],
+        [0.2, 2],
+        [0.215, 2],
+        [0.23, 2],
+        [0.245, 2],
+        [0.26, 2],
+        [0.275, 2]
+      ],
+      "icon": "icon/skill/1309_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Aumenta o Dano CRIT de todos os aliados. Após um aliado atacar o inimigo, Robin regenera adicionalmente Energia.",
+        "en": "Increase all allies' CRIT DMG. After an ally target attacks the enemy, Robin additionally regenerates Energy.",
+        "zh-CN": "使我方全体暴击伤害提高，且我方目标攻击敌方后知更鸟额外恢复能量。",
+        "ja": "味方全体の会心ダメージをアップする。味方が敵を攻撃した後ロビンが追加でEPを回復する。",
+        "ko": "모든 아군의 치명타 피해가 증가하고, 아군이 적 공격 후 로빈의 에너지가 추가로 회복된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 130906,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1309_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -399,12 +214,18 @@
         "ja": "秘技を発動した後、自身の周囲に#1[i]秒間継続する特殊領域を作り出す。特殊領域内の敵はロビンを攻撃せず、領域が存在する間はロビンに追随する。領域展開中に戦闘に入った後、各ウェーブ開始時にロビンはEPを#2[i]回復する。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 발동 후 자기 주변에 #1[i]초 동안 지속되는 특수 영역을 펼친다. 영역 내의 적은 로빈을 공격하지 않고, 영역이 전개되어 있는 동안 로빈을 따라다닌다. 영역이 전개되어 있는 동안 전투에 진입하면, 웨이브가 시작될 때마다 로빈은 에너지를 #2[i]pt 회복한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
-      "params": [
-        [
-          15,
-          5
-        ]
-      ]
+      "params": [[15, 5]],
+      "icon": "icon/skill/1309_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Cria uma dimensão especial ao seu redor. Inimigos dentro dessa dimensão não atacarão Robin. Depois de entrar em batalha enquanto a dimensão está ativa, Robin regenera adicionalmente 5 de Energia no início de cada onda.",
+        "en": "Creates a Special Dimension around the character. Enemies within this dimension will not attack Robin. After entering battle while the dimension is active, Robin additionally regenerates 5 Energy at the start of each wave.",
+        "zh-CN": "在自身周围制造特殊领域。领域内敌人不会攻击知更鸟。领域展开期间进入战斗后，每个波次开始时知更鸟额外恢复5点能量。",
+        "ja": "自身の周囲に特殊領域を作り出す。領域内の敵はロビンを攻撃しない。領域展開中に戦闘に入った後、各ウェーブ開始時にロビンはEPを5回復する。",
+        "ko": "자기 주변에 특수 영역을 펼친다. 영역 내의 적은 로빈을 공격하지 않는다. 영역이 전개되어 있는 동안 전투에 진입하면, 웨이브가 시작될 때마다 로빈이 추가로 에너지를 5pt 회복한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     }
   ],
   "eidolons": [
@@ -423,7 +244,10 @@
         "zh-CN": "处于【协奏】状态时，我方全体全属性抗性穿透提高24%。",
         "ja": "「協奏」状態の時、味方全体の全属性耐性貫通+24%。",
         "ko": "[협주] 상태일 시 모든 아군의 모든 속성 저항 관통이 24% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1309_rank1.png",
+      "materials": [{ "id": 11309, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -440,7 +264,10 @@
         "zh-CN": "处于【协奏】状态时，我方全体速度提高16%。天赋的能量恢复效果额外提高1点。",
         "ja": "「協奏」状態の時、味方全体の速度+16%、天賦のEP回復効果がさらに1アップする。",
         "ko": "[협주] 상태일 시 모든 아군의 속도가 16% 증가한다. 특성의 에너지 회복 효과가 추가로 1pt 증가한다"
-      }
+      },
+      "icon": "icon/skill/1309_rank2.png",
+      "materials": [{ "id": 11309, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -457,7 +284,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；终结技等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。必殺技のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 필살기 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1309_skill.png",
+      "materials": [{ "id": 11309, "num": 1 }],
+      "levelUpSkills": [{ "id": 130902, "num": 2 }, { "id": 130903, "num": 2 }]
     },
     {
       "rank": 4,
@@ -474,7 +304,10 @@
         "zh-CN": "施放终结技时，解除我方全体的控制类负面状态，使我方全体在知更鸟处于【协奏】状态期间的效果抵抗提高50%。",
         "ja": "必殺技を発動する時、味方全体の行動制限系デバフを解除する。ロビンが「協奏」状態の時、味方全体の効果抵抗+50%。",
         "ko": "필살기 발동 시 모든 아군의 제어류 디버프 상태를 해제하고, 모든 아군은 로빈이 [협주] 상태일 동안 효과 저항이 50% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1309_rank4.png",
+      "materials": [{ "id": 11309, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -491,7 +324,10 @@
         "zh-CN": "普攻等级+1，最多不超过10级；天赋等级+2，最多不超过15级。",
         "ja": "通常攻撃のLv.+1、最大Lv.10まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "일반 공격 레벨+1, 최대 Lv.10. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1309_rank5.png",
+      "materials": [{ "id": 11309, "num": 1 }],
+      "levelUpSkills": [{ "id": 130901, "num": 1 }, { "id": 130904, "num": 2 }]
     },
     {
       "rank": 6,
@@ -508,10 +344,652 @@
         "zh-CN": "处于【协奏】状态时，终结技造成的物理属性附加伤害的暴击伤害额外提高450%。【月隐的午夜】效果最多触发8次，每次施放终结技时重置触发次数。",
         "ja": "「協奏」状態の時、必殺技による物理属性付加ダメージの会心ダメージ+450%。「月隠りの真夜中」の効果は8回まで発動できる。必殺技を発動すると、この効果の発動可能回数がリセットされる。",
         "ko": "[협주] 상태일 시 필살기로 가하는 물리 속성 추가 피해의 치명타 피해가 추가로 450% 증가한다. [달이 숨은 자정] 효과는 최대 8회 발동되며, 필살기를 발동할 때마다 발동 횟수가 초기화된다"
-      }
+      },
+      "icon": "icon/skill/1309_rank6.png",
+      "materials": [{ "id": 11309, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 160,
+  "stats": [
+    {
+      "hp": { "base": 174.24, "step": 8.712 },
+      "atk": { "base": 87.12, "step": 4.356 },
+      "def": { "base": 66, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 243.936, "step": 8.712 },
+      "atk": { "base": 121.968, "step": 4.356 },
+      "def": { "base": 92.4, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 313.632, "step": 8.712 },
+      "atk": { "base": 156.816, "step": 4.356 },
+      "def": { "base": 118.8, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 383.328, "step": 8.712 },
+      "atk": { "base": 191.664, "step": 4.356 },
+      "def": { "base": 145.2, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 453.024, "step": 8.712 },
+      "atk": { "base": 226.512, "step": 4.356 },
+      "def": { "base": 171.6, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 522.72, "step": 8.712 },
+      "atk": { "base": 261.36, "step": 4.356 },
+      "def": { "base": 198, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 592.416, "step": 8.712 },
+      "atk": { "base": 296.208, "step": 4.356 },
+      "def": { "base": 224.4, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 114001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 114001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 114002, "num": 6 }, { "id": 110421, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 114002, "num": 9 }, { "id": 110421, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 114003, "num": 6 }, { "id": 110421, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 114003, "num": 9 }, { "id": 110421, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1309001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1309_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [130901],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 114001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 114002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 114002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 114003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 114003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1309002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1309_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [130902],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 114001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 114002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 114002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110232, "num": 7 }, { "id": 114002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 114003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110233, "num": 5 },
+            { "id": 110504, "num": 1 },
+            { "id": 114003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110233, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1309003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1309_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [130903],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 114001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 114002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 114002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110232, "num": 7 }, { "id": 114002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 114003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110233, "num": 5 },
+            { "id": 110504, "num": 1 },
+            { "id": 114003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110233, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1309004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1309_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [130904],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 114001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 114002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 114002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110232, "num": 7 }, { "id": 114002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 114003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110233, "num": 5 },
+            { "id": 110504, "num": 1 },
+            { "id": 114003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110233, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1309007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1309_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [130907],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1309101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Cadência Coloratura",
+        "en": "Coloratura Cadenza",
+        "zh-CN": "华彩花腔",
+        "ja": "{RUBY_B#かさい}華彩{RUBY_E#}のコロラトゥーラ",
+        "ko": "콜로라투라 카덴차"
+      },
+      "description": {
+        "pt-BR": "No começo da batalha, a ação deste personagem é Avançada Adiante em #1[i]%.",
+        "en": "When the battle begins, action advances this character by #1[i]%.",
+        "zh-CN": "战斗开始时，自身行动提前#1[i]%。",
+        "ja": "戦闘開始時、自身の行動順が#1[i]%早まる。",
+        "ko": "전투 시작 시 자신의 행동 게이지가 #1[i]% 증가한다"
+      },
+      "params": [[0.25]],
+      "icon": "icon/skill/1309_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 110504, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1309102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Floreio Improvisado",
+        "en": "Impromptu Flourish",
+        "zh-CN": "即兴装饰",
+        "ja": "アドリブの{RUBY_B#そうしょくきょく}装飾曲{RUBY_E#}",
+        "ko": "즉흥 꾸밈음"
+      },
+      "description": {
+        "pt-BR": "Enquanto estiver no estado de \"Concerto\", o Dano CRIT causado por todos os aliados ao realizar Ataques Extras aumenta em #1[i]%.",
+        "en": "While the \"Concerto\" state is active, the CRIT DMG dealt when all allies launch Follow-Up ATK increases by #1[i]%.",
+        "zh-CN": "处于【协奏】状态时，我方全体发动追加攻击造成的暴击伤害提高#1[i]%。",
+        "ja": "「協奏」状態の時、味方全体の追加攻撃ダメージの会心ダメージ+#1[i]%。",
+        "ko": "[협주] 상태일 시 모든 아군이 추가 공격을 발동하여 가하는 치명타 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.25]],
+      "icon": "icon/skill/1309_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110232, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1309103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Passagem Sequencial",
+        "en": "Sequential Passage",
+        "zh-CN": "模进乐段",
+        "ja": "{RUBY_B#はんぷく}反復{RUBY_E#}するピリオド",
+        "ko": "시퀀스 악절"
+      },
+      "description": {
+        "pt-BR": "Ao usar a Perícia, adicionalmente regenera #1[i] de Energia.",
+        "en": "When using Skill, additionally regenerates #1[i] Energy.",
+        "zh-CN": "施放战技时额外恢复#1[i]点能量。",
+        "ja": "戦闘スキルを発動する時、さらにEPを#1[i]回復する。",
+        "ko": "전투 스킬 발동 시 추가로 에너지를 #1[i]pt 회복한다"
+      },
+      "params": [[5]],
+      "icon": "icon/skill/1309_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110504, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1309201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1309202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1309101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 114001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1309203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1309202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 114002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1309204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1309201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 114002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1309205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1309102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 114002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1309206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1309205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 114003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1309207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1309201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 114003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1309208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1309103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 114003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1309209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1309208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 114003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1309210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1309208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 114003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11309, 110231, 110232, 110233, 110421, 110504, 114001, 114002, 114003],
   "images": {
     "icon": "icon/character/1309.png",
     "preview": "image/character_preview/1309.png",
