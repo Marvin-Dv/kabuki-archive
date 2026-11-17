@@ -1,0 +1,17 @@
+{
+  "id": 11204,
+  "slug": "jing-yuans-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Jing Yuan",
+    "en": "Jing Yuan's Eidolon",
+    "zh-CN": "【景元】的星魂",
+    "ja": "「景元」の星魂",
+    "ko": "[경원]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

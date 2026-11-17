@@ -1,0 +1,13 @@
+{
+  "id": 19,
+  "type": "SPRatioBase",
+  "name": {
+    "pt-BR": "Taxa de Regeneração de Energia",
+    "en": "Energy Regeneration Rate",
+    "zh-CN": "能量恢复效率",
+    "ja": "EP回復効率",
+    "ko": "에너지 회복효율"
+  },
+  "icon": "icon/property/IconEnergyRecovery.png",
+  "percent": true
+}

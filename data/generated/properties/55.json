@@ -1,0 +1,13 @@
+{
+  "id": 55,
+  "type": "ImaginaryResistanceDelta",
+  "name": {
+    "pt-BR": "Bônus de RES a Imaginário",
+    "en": "Imaginary RES Boost",
+    "zh-CN": "虚数属性抗性提高",
+    "ja": "虚数属性耐性",
+    "ko": "허수 속성 저항 증가"
+  },
+  "icon": "icon/property/IconImaginaryResistanceDelta.png",
+  "percent": true
+}

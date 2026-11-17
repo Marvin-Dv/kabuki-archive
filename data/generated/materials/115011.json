@@ -1,0 +1,56 @@
+{
+  "id": 115011,
+  "slug": "ethereal-omen",
+  "name": {
+    "pt-BR": "Presságio Etéreo",
+    "en": "Ethereal Omen",
+    "zh-CN": "预兆似有若无",
+    "ja": "あるようでない予兆",
+    "ko": "있는 듯 없는 듯한 조짐"
+  },
+  "rarity": 2,
+  "type": "Material",
+  "subType": "CommonMonsterDrop",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/115011.png",
+  "sources": {
+    "en": [
+      "Black Tide Creatures",
+      "Divergent Universe enemies",
+      "Simulated Universe enemies",
+      "Assignment Rewards",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange",
+      "Calyx (Golden)"
+    ],
+    "pt-BR": [
+      "Criaturas da Maré Negra",
+      "Inimigos do Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Recompensas de Atribuição",
+      "Troca de Brasas",
+      "Sintetizador Omni — Troca de Material",
+      "Cálice (Dourado)"
+    ],
+    "zh-CN": ["黑潮造物掉落", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "委托奖励", "余烬兑换", "「万能合成机」- 材料置换", "拟造花萼（金）"],
+    "ja": [
+      "暗黒の潮の造物からドロップ",
+      "「階差宇宙」で敵からドロップ",
+      "「模擬宇宙」で敵からドロップ",
+      "依頼報酬",
+      "エンバー交換",
+      "「万能合成マシン」- 素材交換",
+      "疑似花萼（金）"
+    ],
+    "ko": [
+      "검은 물결 창조물 드랍",
+      "「차분화 우주」 적 드랍",
+      "「시뮬레이션 우주」 적 드랍",
+      "의뢰 보상",
+      "잔화 교환",
+      "「만능 합성기」- 재료 치환",
+      "모조 꽃받침(금)"
+    ]
+  }
+}

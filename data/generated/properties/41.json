@@ -1,0 +1,7 @@
+{
+  "id": 41,
+  "type": "BaseAttack",
+  "name": { "pt-BR": "ATQ Base", "en": "Base ATK", "zh-CN": "基础攻击力", "ja": "基礎攻撃力", "ko": "기초 공격력" },
+  "icon": "icon/property/IconAttack.png",
+  "percent": false
+}

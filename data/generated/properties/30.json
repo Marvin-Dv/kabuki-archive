@@ -1,0 +1,13 @@
+{
+  "id": 30,
+  "type": "ThunderAddedRatio",
+  "name": {
+    "pt-BR": "Bônus de Dano de Raio",
+    "en": "Lightning DMG Boost",
+    "zh-CN": "雷属性伤害提高",
+    "ja": "雷属性ダメージ",
+    "ko": "번개 속성 피해 증가"
+  },
+  "icon": "icon/property/IconThunderAddedRatio.png",
+  "percent": true
+}

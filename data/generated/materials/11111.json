@@ -1,0 +1,17 @@
+{
+  "id": 11111,
+  "slug": "lukas-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Luka",
+    "en": "Luka's Eidolon",
+    "zh-CN": "【卢卡】的星魂",
+    "ja": "「ルカ」の星魂",
+    "ko": "[루카]의 성혼"
+  },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11001.png"
+}

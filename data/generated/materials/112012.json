@@ -1,0 +1,48 @@
+{
+  "id": 112012,
+  "slug": "ancient-spindle",
+  "name": {
+    "pt-BR": "Eixo Antigo",
+    "en": "Ancient Spindle",
+    "zh-CN": "古代转轴",
+    "ja": "古代シャフト",
+    "ko": "고대 전동축"
+  },
+  "rarity": 3,
+  "type": "Material",
+  "subType": "CommonMonsterDrop",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/112012.png",
+  "sources": {
+    "en": [
+      "Automatons at Equilibrium Level 2 or higher",
+      "Omni-Synthesizer — Material Synthesis",
+      "Dropped by enemies in Divergent Universe",
+      "Simulated Universe enemies",
+      "Omni-Synthesizer — Material Exchange"
+    ],
+    "pt-BR": [
+      "Autômatos no Nível de Equilíbrio 2 ou superior",
+      "Sintetizador Omni — Síntese de Material",
+      "Espólio deixado por inimigos no Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Sintetizador Omni — Troca de Material"
+    ],
+    "zh-CN": ["突破至均衡等级2后，自动机兵掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
+    "ja": [
+      "均衡Lv.2に達した後、自動機兵からドロップ",
+      "「万能合成マシン」- 素材合成",
+      "「階差宇宙」で敵からドロップ",
+      "「模擬宇宙」で敵からドロップ",
+      "「万能合成マシン」- 素材交換"
+    ],
+    "ko": [
+      "균형 레벨 Lv.2까지 돌파 후 자동 기갑병 드랍",
+      "「만능 합성기」- 재료 합성",
+      "「차분화 우주」 적 드랍",
+      "「시뮬레이션 우주」 적 드랍",
+      "「만능 합성기」- 재료 치환"
+    ]
+  }
+}

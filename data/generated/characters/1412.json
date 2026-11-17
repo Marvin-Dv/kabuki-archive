@@ -1,13 +1,7 @@
 {
   "id": 1412,
   "slug": "cerydra",
-  "name": {
-    "pt-BR": "Cerydra",
-    "en": "Cerydra",
-    "zh-CN": "刻律德菈",
-    "ja": "ケリュドラ",
-    "ko": "케리드라"
-  },
+  "name": { "pt-BR": "Cerydra", "en": "Cerydra", "zh-CN": "刻律德菈", "ja": "ケリュドラ", "ko": "케리드라" },
   "rarity": 5,
   "path": "Harmony",
   "element": "Wind",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にケリュドラの攻撃力#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 케리드라 공격력의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1412_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Vento leve a um inimigo.",
+        "en": "Deals minor Wind DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量风属性伤害。",
+        "ja": "敵単体に少量の風属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 141202,
@@ -82,112 +56,33 @@
         "ko": "지정된 단일 아군 캐릭터가 [군공]을 획득하고 케리드라가 충전을 #2[i]pt 획득한다. 충전 상한: #3[i]pt. 충전 #4[i]pt 도달 시 캐릭터의 [군공]이 [작위]로 자동 업그레이드되고, 대상의 제어류 디버프 상태를 해제한다. [작위]를 보유한 캐릭터는 동시에 [군공]을 보유한 것으로 간주한다. [작위]를 보유한 캐릭터가 가하는 전투 스킬 피해의 치명타 피해가 #1[i]% 증가하고, 모든 속성 저항 관통이 #5[f1]% 증가하며, 적에게 전투 스킬 발동 시 기습을 발동한다. 기습 종료 후 충전을 #4[i]pt 소모하여 [작위]를 [군공]으로 되돌린다"
       },
       "params": [
-        [
-          0.36,
-          1,
-          8,
-          6,
-          0.08
-        ],
-        [
-          0.396,
-          1,
-          8,
-          6,
-          0.082
-        ],
-        [
-          0.432,
-          1,
-          8,
-          6,
-          0.084
-        ],
-        [
-          0.468,
-          1,
-          8,
-          6,
-          0.086
-        ],
-        [
-          0.504,
-          1,
-          8,
-          6,
-          0.088
-        ],
-        [
-          0.54,
-          1,
-          8,
-          6,
-          0.09
-        ],
-        [
-          0.585,
-          1,
-          8,
-          6,
-          0.0925
-        ],
-        [
-          0.63,
-          1,
-          8,
-          6,
-          0.095
-        ],
-        [
-          0.675,
-          1,
-          8,
-          6,
-          0.0975
-        ],
-        [
-          0.72,
-          1,
-          8,
-          6,
-          0.1
-        ],
-        [
-          0.756,
-          1,
-          8,
-          6,
-          0.102
-        ],
-        [
-          0.792,
-          1,
-          8,
-          6,
-          0.104
-        ],
-        [
-          0.828,
-          1,
-          8,
-          6,
-          0.106
-        ],
-        [
-          0.864,
-          1,
-          8,
-          6,
-          0.108
-        ],
-        [
-          0.9,
-          1,
-          8,
-          6,
-          0.11
-        ]
-      ]
+        [0.36, 1, 8, 6, 0.08],
+        [0.396, 1, 8, 6, 0.082],
+        [0.432, 1, 8, 6, 0.084],
+        [0.468, 1, 8, 6, 0.086],
+        [0.504, 1, 8, 6, 0.088],
+        [0.54, 1, 8, 6, 0.09],
+        [0.585, 1, 8, 6, 0.0925],
+        [0.63, 1, 8, 6, 0.095],
+        [0.675, 1, 8, 6, 0.0975],
+        [0.72, 1, 8, 6, 0.1],
+        [0.756, 1, 8, 6, 0.102],
+        [0.792, 1, 8, 6, 0.104],
+        [0.828, 1, 8, 6, 0.106],
+        [0.864, 1, 8, 6, 0.108],
+        [0.9, 1, 8, 6, 0.11]
+      ],
+      "icon": "icon/skill/1412_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Concede \"Mérito Militar\" a um personagem aliado e concede Carga a Cerydra. Quando a Carga atinge 6 pontos, o \"Mérito Militar\" é automaticamente aprimorado para \"Pariato\". O personagem com \"Pariato\" aumenta o Dano CRIT do Dano causado pela sua Perícia, aumenta a PEN de RES a todos os tipos e pode acionar \"Coup de Main\".",
+        "en": "Grants \"Military Merit\" to an ally character and gives Charge to Cerydra. When Charge reaches 6 points, automatically upgrades the ally character's \"Military Merit\" to \"Peerage.\" The character with \"Peerage\" increases the CRIT DMG for their dealt Skill DMG, increases All-Type RES PEN, and can trigger Coup de Main.",
+        "zh-CN": "使我方角色获得【军功】并使刻律德菈获得充能。当充能达到6点时，自动使角色的【军功】升级为【爵位】。持有【爵位】的角色造成的战技伤害的暴击伤害、全属性抗性穿透提高并可以触发奇袭。",
+        "ja": "味方キャラに「軍功」を付与し、ケリュドラはチャージを獲得する。チャージが6に達した時、「軍功」が自動で「爵位」へと昇格する。「爵位」を所持しているキャラの戦闘スキルの会心ダメージ、全属性耐性貫通がアップし、奇襲が発動可能になる。",
+        "ko": "아군 캐릭터가 [군공]을 획득하고 케리드라가 충전을 획득한다. 충전이 6pt 도달 시 캐릭터의 [군공]이 [작위]로 자동 업그레이드된다. [작위]를 보유한 캐릭터가 가하는 전투 스킬 피해의 치명타 피해, 모든 속성 저항 관통이 증가하고 기습을 발동할 수 있다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 141203,
@@ -207,67 +102,33 @@
         "ko": "충전을 #2[i]pt 획득한다. 모든 적에게 케리드라 공격력의 #1[i]%만큼 바람 속성 피해를 가한다. 필드에 [군공]을 보유한 캐릭터가 없을 경우 현재 파티 내 첫 번째 캐릭터가 [군공]을 우선 획득한다"
       },
       "params": [
-        [
-          1.44,
-          2
-        ],
-        [
-          1.536,
-          2
-        ],
-        [
-          1.632,
-          2
-        ],
-        [
-          1.728,
-          2
-        ],
-        [
-          1.824,
-          2
-        ],
-        [
-          1.92,
-          2
-        ],
-        [
-          2.04,
-          2
-        ],
-        [
-          2.16,
-          2
-        ],
-        [
-          2.28,
-          2
-        ],
-        [
-          2.4,
-          2
-        ],
-        [
-          2.496,
-          2
-        ],
-        [
-          2.592,
-          2
-        ],
-        [
-          2.688,
-          2
-        ],
-        [
-          2.784,
-          2
-        ],
-        [
-          2.88,
-          2
-        ]
-      ]
+        [1.44, 2],
+        [1.536, 2],
+        [1.632, 2],
+        [1.728, 2],
+        [1.824, 2],
+        [1.92, 2],
+        [2.04, 2],
+        [2.16, 2],
+        [2.28, 2],
+        [2.4, 2],
+        [2.496, 2],
+        [2.592, 2],
+        [2.688, 2],
+        [2.784, 2],
+        [2.88, 2]
+      ],
+      "icon": "icon/skill/1412_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Obtém Carga. Causa Dano de Vento a todos os inimigos.",
+        "en": "Gains Charge. Deals Wind DMG to all enemies.",
+        "zh-CN": "获得充能。对敌方全体造成风属性伤害。",
+        "ja": "チャージを獲得し、敵全体に風属性ダメージを与える。",
+        "ko": "충전을 획득한다. 모든 적에게 바람 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 141204,
@@ -287,109 +148,48 @@
         "ko": "[군공]을 보유한 캐릭터의 공격력이 케리드라 공격력의 #2[f1]%만큼 증가하고, 일반 공격 또는 전투 스킬 발동 시 케리드라가 충전을 #1[i]pt 획득한다. 기습 중에는 케리드라가 충전을 획득할 수 없다. [군공]을 보유한 캐릭터가 공격 발동 후 케리드라가 추가로 케리드라 공격력의 #3[i]%만큼 바람 속성 추가 피해를 1회 가하고, 해당 효과는 최대 #4[i]회 발동하며, 케리드라가 필살기를 발동할 때마다 발동 가능 횟수가 초기화된다. [군공]은 가장 최근에 부여한 목표에게만 적용되며, 목표 변경 시 케리드라의 충전이 0pt로 초기화된다"
       },
       "params": [
-        [
-          1,
-          0.18,
-          0.3,
-          20
-        ],
-        [
-          1,
-          0.186,
-          0.33,
-          20
-        ],
-        [
-          1,
-          0.192,
-          0.36,
-          20
-        ],
-        [
-          1,
-          0.198,
-          0.39,
-          20
-        ],
-        [
-          1,
-          0.204,
-          0.42,
-          20
-        ],
-        [
-          1,
-          0.21,
-          0.45,
-          20
-        ],
-        [
-          1,
-          0.2175,
-          0.4875,
-          20
-        ],
-        [
-          1,
-          0.225,
-          0.525,
-          20
-        ],
-        [
-          1,
-          0.2325,
-          0.5625,
-          20
-        ],
-        [
-          1,
-          0.24,
-          0.6,
-          20
-        ],
-        [
-          1,
-          0.246,
-          0.63,
-          20
-        ],
-        [
-          1,
-          0.252,
-          0.66,
-          20
-        ],
-        [
-          1,
-          0.258,
-          0.69,
-          20
-        ],
-        [
-          1,
-          0.264,
-          0.72,
-          20
-        ],
-        [
-          1,
-          0.27,
-          0.75,
-          20
-        ]
-      ]
+        [1, 0.18, 0.3, 20],
+        [1, 0.186, 0.33, 20],
+        [1, 0.192, 0.36, 20],
+        [1, 0.198, 0.39, 20],
+        [1, 0.204, 0.42, 20],
+        [1, 0.21, 0.45, 20],
+        [1, 0.2175, 0.4875, 20],
+        [1, 0.225, 0.525, 20],
+        [1, 0.2325, 0.5625, 20],
+        [1, 0.24, 0.6, 20],
+        [1, 0.246, 0.63, 20],
+        [1, 0.252, 0.66, 20],
+        [1, 0.258, 0.69, 20],
+        [1, 0.264, 0.72, 20],
+        [1, 0.27, 0.75, 20]
+      ],
+      "icon": "icon/skill/1412_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "O personagem com \"Mérito Militar\" aumenta seu ATQ, e quando ele usar o ATQ Básico ou a Perícia, Cerydra ganha Carga. Após o personagem com \"Mérito Militar\" usar ataques, Cerydra causa adicionalmente Dano Adicional leve de Vento.",
+        "en": "The character with \"Military Merit\" increases their ATK. When they use Basic ATK or Skill, Cerydra gains Charge. After the character with \"Military Merit\" uses an attack, Cerydra additionally deals minor Wind Additional DMG.",
+        "zh-CN": "持有【军功】的角色攻击力提高，且施放普攻或战技时使刻律德菈获得充能。持有【军功】的角色施放攻击后，刻律德菈额外造成少量风属性附加伤害。",
+        "ja": "「軍功」を所持しているキャラの攻撃力がアップし、かつ通常攻撃または戦闘スキルを発動した時、ケリュドラはチャージを獲得する。「軍功」を所持しているキャラが攻撃を行った後、ケリュドラは追加で少量の風属性付加ダメージを与える。",
+        "ko": "[군공]을 보유한 캐릭터의 공격력이 증가하고, 일반 공격 또는 전투 스킬을 발동하면 케리드라가 충전을 획득한다. [군공]을 보유한 캐릭터가 공격 발동 후 케리드라가 추가로 소량의 바람 속성 추가 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 141206,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1412_technique2.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -413,7 +213,18 @@
         "zh-CN": "使用秘技后获得【军功】，切换行动角色时【军功】转移至当前行动角色。下一次战斗开始时自动对持有【军功】的角色施放1次战技，此次战技不消耗战技点。",
         "ja": "秘技を使用した後、「軍功」を獲得する。キャラを切り替えると「軍功」は現在行動中のキャラに移る。次の戦闘開始時、「軍功」を所持しているキャラに戦闘スキルを自動で1回発動する。この発動はSPを消費しない。",
         "ko": "비술 사용 후 [군공]을 획득하고, 행동 캐릭터 변경 시 [군공]이 현재 행동 캐릭터에게 이전된다. 다음 전투 시작 시 [군공]을 보유한 캐릭터에게 자동으로 전투 스킬을 1회 발동하고, 해당 전투 스킬은 전투 스킬 포인트를 소모하지 않는다"
-      }
+      },
+      "icon": "icon/skill/1412_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Concede \"Mérito Militar\" ao personagem ativo no momento. Usa automaticamente a Perícia no personagem com \"Mérito Militar\" no início da próxima batalha.",
+        "en": "Grants \"Military Merit\" to the current active character. Automatically uses Skill on the character with \"Military Merit\" at the start of the next battle.",
+        "zh-CN": "使当前行动角色获得【军功】，下一次战斗开始时自动对持有【军功】的角色施放战技。",
+        "ja": "現在行動中のキャラに「軍功」を付与する。次の戦闘開始時、「軍功」を所持しているキャラに自動で戦闘スキルを発動する。",
+        "ko": "현재 행동 캐릭터가 [군공]을 획득하며, 다음 전투 시작 시 [군공]을 보유한 캐릭터에게 자동으로 전투 스킬을 발동한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     }
   ],
   "eidolons": [
@@ -432,7 +243,10 @@
         "zh-CN": "持有【军功】的角色造成伤害时无视目标16%的防御力。若当前【军功】已升级为【爵位】，则该角色造成战技伤害时额外无视目标20%的防御力。刻律德菈施放战技时，为指定我方目标恢复2点能量。",
         "ja": "「軍功」を所持しているキャラが敵にダメージを与える時、ターゲットの防御力を16%無視する。「軍功」が「爵位」に昇格している間、そのキャラが敵に戦闘スキルダメージを与える時、さらにターゲットの防御力を20%無視する。\nケリュドラが戦闘スキルを発動する時、指定した味方のEPを2回復する。",
         "ko": "[군공]을 보유한 캐릭터가 피해를 가할 시 목표의 방어력을 16% 무시한다. 현재 [군공]이 [작위]로 업그레이드되었을 경우, 해당 캐릭터가 전투 스킬 피해를 가할 시 추가로 목표의 방어력을 20% 무시한다. 케리드라가 전투 스킬 발동 시 지정된 아군의 에너지를 2pt 회복한다"
-      }
+      },
+      "icon": "icon/skill/1412_rank1.png",
+      "materials": [{ "id": 11412, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -449,7 +263,10 @@
         "zh-CN": "持有【军功】的角色造成的伤害提高40%。场上存在持有【军功】的队友时，刻律德菈造成的伤害提高160%。",
         "ja": "「軍功」を所持しているキャラの与ダメージ+40%。フィールド上に、ケリュドラ以外に「軍功」を所持している味方がいる場合、ケリュドラの与ダメージ+160%。",
         "ko": "[군공]을 보유한 캐릭터가 가하는 피해가 40% 증가한다. 필드에 [군공]을 보유한 동료가 있을 시 케리드라가 가하는 피해가 160% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1412_rank2.png",
+      "materials": [{ "id": 11412, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -466,7 +283,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1412_skill.png",
+      "materials": [{ "id": 11412, "num": 1 }],
+      "levelUpSkills": [{ "id": 141202, "num": 2 }, { "id": 141201, "num": 1 }]
     },
     {
       "rank": 4,
@@ -483,7 +303,10 @@
         "zh-CN": "终结技的伤害倍率提高240%。",
         "ja": "必殺技のダメージ倍率+240%。",
         "ko": "필살기의 피해 배율이 240% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1412_rank4.png",
+      "materials": [{ "id": 11412, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -500,7 +323,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1412_ultimate.png",
+      "materials": [{ "id": 11412, "num": 1 }],
+      "levelUpSkills": [{ "id": 141203, "num": 2 }, { "id": 141204, "num": 2 }]
     },
     {
       "rank": 6,
@@ -517,10 +343,682 @@
         "zh-CN": "持有【军功】的角色全属性抗性穿透提高20%，且【军功】触发的附加伤害倍率提高300%。场上存在持有【军功】的队友时，刻律德菈全属性抗性穿透提高20%。",
         "ja": "「軍功」を所持しているキャラの全属性耐性貫通+20%、「軍功」による付加ダメージの倍率+300%。フィールド上に、ケリュドラ以外に「軍功」を所持している味方がいる場合、ケリュドラの全属性耐性貫通+20%。",
         "ko": "[군공]을 보유한 캐릭터의 모든 속성 저항 관통이 20% 증가하고, [군공]이 발동하는 추가 피해 배율이 300% 증가한다. 필드에 [군공]을 보유한 동료가 있을 시 케리드라의 모든 속성 저항 관통이 20% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1412_rank6.png",
+      "materials": [{ "id": 11412, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 130,
+  "stats": [
+    {
+      "hp": { "base": 184.8, "step": 9.24 },
+      "atk": { "base": 84.48, "step": 4.224 },
+      "def": { "base": 66, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 258.72, "step": 9.24 },
+      "atk": { "base": 118.272, "step": 4.224 },
+      "def": { "base": 92.4, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 332.64, "step": 9.24 },
+      "atk": { "base": 152.064, "step": 4.224 },
+      "def": { "base": 118.8, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 406.56, "step": 9.24 },
+      "atk": { "base": 185.856, "step": 4.224 },
+      "def": { "base": 145.2, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 480.48, "step": 9.24 },
+      "atk": { "base": 219.648, "step": 4.224 },
+      "def": { "base": 171.6, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 554.4, "step": 9.24 },
+      "atk": { "base": 253.44, "step": 4.224 },
+      "def": { "base": 198, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 628.32, "step": 9.24 },
+      "atk": { "base": 287.232, "step": 4.224 },
+      "def": { "base": 224.4, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 115011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 115011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 115012, "num": 6 }, { "id": 110435, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 115012, "num": 9 }, { "id": 110435, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 115013, "num": 6 }, { "id": 110435, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 115013, "num": 9 }, { "id": 110435, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1412001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1412_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [141201],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 115013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1412002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1412_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [141202],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110232, "num": 7 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110233, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110233, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1412003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1412_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [141203],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110232, "num": 7 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110233, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110233, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1412004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1412_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [141204],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 115011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 115012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 115012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110232, "num": 7 }, { "id": 115012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 115013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110233, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110233, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1412007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1412_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [141207],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1412101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Eu Vim",
+        "en": "Veni",
+        "zh-CN": "来者",
+        "ja": "{RUBY_B#き}来{RUBY_E#}た{RUBY_B#もの}者{RUBY_E#}",
+        "ko": "온 자"
+      },
+      "description": {
+        "pt-BR": "Para cada #2[i] do ATQ de Cerydra que exceder #1[i], aumenta seu Dano CRIT em #3[i]%, até um aumento máximo de #4[i]%.",
+        "en": "For every #2[i] of Cerydra's ATK that exceeds #1[i], increases her CRIT DMG by #3[i]%, up to a max increase of #4[i]%.",
+        "zh-CN": "刻律德菈的攻击力大于#1[i]时，每超过#2[i]点攻击力可使自身暴击伤害提高#3[i]%，最多提高#4[i]%。",
+        "ja": "ケリュドラの攻撃力が#1[i]を超えた時、超過した攻撃力#2[i]につき、自身の会心ダメージ+#3[i]%、最大で+#4[i]%。",
+        "ko": "케리드라의 공격력이 #1[i]보다 높을 시 공격력이 #2[i]pt 초과할 때마다 자신의 치명타 피해가 #3[i]% 증가하며, 최대 #4[i]% 증가한다"
+      },
+      "params": [[2000, 100, 0.18, 3.6]],
+      "icon": "icon/skill/1412_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 110507, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1412102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Eu Vi",
+        "en": "Vidi",
+        "zh-CN": "见者",
+        "ja": "{RUBY_B#み}見{RUBY_E#}た{RUBY_B#もの}者{RUBY_E#}",
+        "ko": "본 자"
+      },
+      "description": {
+        "pt-BR": "Aumenta a Chance de CRIT de Cerydra em #1[i]%. Enquanto a Carga de Cerydra estiver abaixo do máximo, o personagem com \"Mérito Militar\" usando sua Perícia Suprema concede #2[i] de Carga a Cerydra. Este efeito pode ser ativado uma vez por batalha.",
+        "en": "Increases Cerydra's CRIT Rate by #1[i]%. While Cerydra's Charge is below its maximum, the character with \"Military Merit\" using their Ultimate grants Cerydra #2[i] Charge. This effect can trigger once per battle.",
+        "zh-CN": "刻律德菈的暴击率提高#1[i]%。当刻律德菈的充能小于上限时，持有【军功】的角色施放终结技时使刻律德菈获得#2[i]点充能，该效果单场战斗中可以触发1次。",
+        "ja": "ケリュドラの会心率+#1[i]%。ケリュドラのチャージが上限に達していない場合、「軍功」を所持しているキャラが必殺技を発動する時、ケリュドラはチャージを#2[i]獲得する。この効果は一度の戦闘で1回まで発動できる。",
+        "ko": "케리드라의 치명타 확률이 #1[i]% 증가한다. 케리드라의 충전이 최대치보다 낮을 시 [군공]을 보유한 캐릭터가 필살기를 발동하면 케리드라가 충전을 #2[i]pt 획득하며, 해당 효과는 단일 전투에서 1회 발동할 수 있다"
+      },
+      "params": [[1, 1]],
+      "icon": "icon/skill/1412_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110232, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1412103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Eu Venci",
+        "en": "Vici",
+        "zh-CN": "征服者",
+        "ja": "{RUBY_B#せい}征{RUBY_E#}した{RUBY_B#もの}者{RUBY_E#}",
+        "ko": "이긴 자"
+      },
+      "description": {
+        "pt-BR": "Ao usar uma Perícia, aumenta a VEL desta unidade e do aliado com \"Mérito Militar\" em #2[i] durando por #3[i] rodada(s). Quando o personagem com \"Mérito Militar\" usa o ATQ Básico ou a Perícia, Cerydra regenera #1[i] de Energia.",
+        "en": "When using Skill, increases SPD by #2[i] for this unit and the teammate with \"Military Merit,\" lasting for #3[i] turn(s). When the character with \"Military Merit\" uses Basic ATK or Skill, regenerates #1[i] Energy for Cerydra.",
+        "zh-CN": "施放战技时，使自身和持有【军功】的队友速度提高#2[i]点，持续#3[i]回合。持有【军功】的角色施放普攻或战技时，为刻律德菈恢复#1[i]点能量。",
+        "ja": "戦闘スキルを発動する時、自身および「軍功」を所持している他の味方の速度+#2[i]、#3[i]ターン継続。「軍功」を所持しているキャラが通常攻撃または戦闘スキルを発動する時、ケリュドラはEPを#1[i]回復する。",
+        "ko": "전투 스킬 발동 시 자신과 [군공]을 보유한 동료의 속도가 #2[i]pt 증가한다, 지속 시간: #3[i]턴. [군공]을 보유한 캐릭터가 일반 공격 또는 전투 스킬 발동 시 케리드라의 에너지를 #1[i]pt 회복한다"
+      },
+      "params": [[5, 20, 3]],
+      "icon": "icon/skill/1412_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110233, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1412201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1412202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1412101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110231, "num": 3 }, { "id": 115011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1412203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1412202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 115012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1412204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1412201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110232, "num": 3 }, { "id": 115012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1412205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1412102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110232, "num": 5 }, { "id": 115012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1412206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1412205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 115013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1412207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1412201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110233, "num": 3 }, { "id": 115013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1412208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1412103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1412209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1412208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1412210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Vento",
+        "en": "DMG Boost: Wind",
+        "zh-CN": "伤害强化•风",
+        "ja": "ダメージ強化・風",
+        "ko": "피해 강화•바람"
+      },
+      "icon": "icon/property/IconWindAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1412208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "WindAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110233, "num": 8 }, { "id": 115013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11412, 110231, 110232, 110233, 110435, 110507, 115011, 115012, 115013],
   "images": {
     "icon": "icon/character/1412.png",
     "preview": "image/character_preview/1412.png",

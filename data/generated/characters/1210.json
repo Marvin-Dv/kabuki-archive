@@ -1,13 +1,7 @@
 {
   "id": 1210,
   "slug": "guinaifen",
-  "name": {
-    "pt-BR": "Guinaifen",
-    "en": "Guinaifen",
-    "zh-CN": "桂乃芬",
-    "ja": "桂乃芬",
-    "ko": "계네빈"
-  },
+  "name": { "pt-BR": "Guinaifen", "en": "Guinaifen", "zh-CN": "桂乃芬", "ja": "桂乃芬", "ko": "계네빈" },
   "rarity": 4,
   "path": "Nihility",
   "element": "Fire",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体に桂乃芬の攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 계네빈 공격력 #1[i]%만큼의 화염 속성 피해를 준다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1210_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo leve a um único inimigo.",
+        "en": "Deals minor Fire DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量火属性伤害。",
+        "ja": "敵単体に少量の炎属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121002,
@@ -82,112 +56,33 @@
         "ko": "지정된 단일 적에게 계네빈 공격력 #1[i]%만큼의 화염 속성 피해를 주고, 인접한 목표에게 계네빈 공격력 #2[i]%만큼의 화염 속성 피해를 주며, #3[i]%의 기본 확률로 목표 및 인접한 목표를 연소 상태에 빠트린다. 연소 상태의 적은 턴이 시작될 때마다 계네빈 공격력 #4[i]%만큼의 화염 속성 지속 피해를 받는다. 지속 시간: #5[i]턴"
       },
       "params": [
-        [
-          0.6,
-          0.2,
-          1,
-          0.839,
-          2
-        ],
-        [
-          0.66,
-          0.22,
-          1,
-          0.923,
-          2
-        ],
-        [
-          0.72,
-          0.24,
-          1,
-          1.0069,
-          2
-        ],
-        [
-          0.78,
-          0.26,
-          1,
-          1.0909,
-          2
-        ],
-        [
-          0.84,
-          0.28,
-          1,
-          1.1748,
-          2
-        ],
-        [
-          0.9,
-          0.3,
-          1,
-          1.3007,
-          2
-        ],
-        [
-          0.975,
-          0.325,
-          1,
-          1.4686,
-          2
-        ],
-        [
-          1.05,
-          0.35,
-          1,
-          1.6784,
-          2
-        ],
-        [
-          1.125,
-          0.375,
-          1,
-          1.9303,
-          2
-        ],
-        [
-          1.2,
-          0.4,
-          1,
-          2.1821,
-          2
-        ],
-        [
-          1.26,
-          0.42,
-          1,
-          2.2912,
-          2
-        ],
-        [
-          1.32,
-          0.44,
-          1,
-          2.4003,
-          2
-        ],
-        [
-          1.38,
-          0.46,
-          1,
-          2.5094,
-          2
-        ],
-        [
-          1.44,
-          0.48,
-          1,
-          2.6186,
-          2
-        ],
-        [
-          1.5,
-          0.5,
-          1,
-          2.7277,
-          2
-        ]
-      ]
+        [0.6, 0.2, 1, 0.839, 2],
+        [0.66, 0.22, 1, 0.923, 2],
+        [0.72, 0.24, 1, 1.0069, 2],
+        [0.78, 0.26, 1, 1.0909, 2],
+        [0.84, 0.28, 1, 1.1748, 2],
+        [0.9, 0.3, 1, 1.3007, 2],
+        [0.975, 0.325, 1, 1.4686, 2],
+        [1.05, 0.35, 1, 1.6784, 2],
+        [1.125, 0.375, 1, 1.9303, 2],
+        [1.2, 0.4, 1, 2.1821, 2],
+        [1.26, 0.42, 1, 2.2912, 2],
+        [1.32, 0.44, 1, 2.4003, 2],
+        [1.38, 0.46, 1, 2.5094, 2],
+        [1.44, 0.48, 1, 2.6186, 2],
+        [1.5, 0.5, 1, 2.7277, 2]
+      ],
+      "icon": "icon/skill/1210_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo a um único inimigo e Dano de Fogo leve a inimigos adjacentes, com altas chances de causar Queimadura a eles.",
+        "en": "Deals Fire DMG to one enemy and minor Fire DMG to adjacent enemies, with a high chance of Burning them.",
+        "zh-CN": "对敌方单体造成火属性伤害，对相邻目标造成少量火属性伤害，大概率施加灼烧状态。",
+        "ja": "敵単体に炎属性ダメージを与え、隣接する敵に少量の炎属性ダメージを与え、高確率で燃焼状態を付与する。",
+        "ko": "단일 적에게 화염 속성 피해를 주고 인접한 적에게 소량의 화염 속성 피해를 주며, 높은 확률로 연소 상태를 부여한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 121003,
@@ -207,67 +102,33 @@
         "ko": "모든 적에게 계네빈 공격력 #1[f1]%만큼의 화염 속성 피해를 주고, 목표가 연소 상태인 경우 해당 연소 상태는 즉시 기존 피해 #2[i]%만큼의 피해를 생성한다"
       },
       "params": [
-        [
-          0.72,
-          0.72
-        ],
-        [
-          0.768,
-          0.74
-        ],
-        [
-          0.816,
-          0.76
-        ],
-        [
-          0.864,
-          0.78
-        ],
-        [
-          0.912,
-          0.8
-        ],
-        [
-          0.96,
-          0.82
-        ],
-        [
-          1.02,
-          0.845
-        ],
-        [
-          1.08,
-          0.87
-        ],
-        [
-          1.14,
-          0.895
-        ],
-        [
-          1.2,
-          0.92
-        ],
-        [
-          1.248,
-          0.94
-        ],
-        [
-          1.296,
-          0.96
-        ],
-        [
-          1.344,
-          0.98
-        ],
-        [
-          1.392,
-          1
-        ],
-        [
-          1.44,
-          1.02
-        ]
-      ]
+        [0.72, 0.72],
+        [0.768, 0.74],
+        [0.816, 0.76],
+        [0.864, 0.78],
+        [0.912, 0.8],
+        [0.96, 0.82],
+        [1.02, 0.845],
+        [1.08, 0.87],
+        [1.14, 0.895],
+        [1.2, 0.92],
+        [1.248, 0.94],
+        [1.296, 0.96],
+        [1.344, 0.98],
+        [1.392, 1],
+        [1.44, 1.02]
+      ],
+      "icon": "icon/skill/1210_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo a todos os inimigos. Se os inimigos já estiverem com Queimadura, o estado de Queimadura causa Dano 1 vez extra.",
+        "en": "Deals Fire DMG to all enemies. If the enemies are inflicted with Burn, the Burn status deals DMG 1 extra time.",
+        "zh-CN": "对敌方全体造成火属性伤害，若敌方目标处于灼烧状态，则使灼烧状态额外产生1次伤害。",
+        "ja": "敵全体に炎属性ダメージを与え、敵が燃焼状態の場合、燃焼状態がさらにダメージを1回発生する。",
+        "ko": "모든 적에게 화염 속성 피해를 주고, 적이 연소 상태인 경우 연소 상태는 피해를 1회 추가로 생성한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 121004,
@@ -287,139 +148,48 @@
         "ko": "계네빈이 필드에 있을 때 적에게 부여된 연소 상태가 피해를 발동하면 #1[i]%의 기본 확률로 적을 [불쇼] 상태에 빠트리고 [불쇼] 상태의 적이 받는 피해가 #4[f1]% 증가한다. 지속 시간: #5[i]턴. 최대 중첩수: #6[i]스택"
       },
       "params": [
-        [
-          1,
-          0,
-          0,
-          0.04,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.043,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.046,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.049,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.052,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.055,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.0587,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.0625,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.0663,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.07,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.073,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.076,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.079,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.082,
-          3,
-          3
-        ],
-        [
-          1,
-          0,
-          0,
-          0.085,
-          3,
-          3
-        ]
-      ]
+        [1, 0, 0, 0.04, 3, 3],
+        [1, 0, 0, 0.043, 3, 3],
+        [1, 0, 0, 0.046, 3, 3],
+        [1, 0, 0, 0.049, 3, 3],
+        [1, 0, 0, 0.052, 3, 3],
+        [1, 0, 0, 0.055, 3, 3],
+        [1, 0, 0, 0.0587, 3, 3],
+        [1, 0, 0, 0.0625, 3, 3],
+        [1, 0, 0, 0.0663, 3, 3],
+        [1, 0, 0, 0.07, 3, 3],
+        [1, 0, 0, 0.073, 3, 3],
+        [1, 0, 0, 0.076, 3, 3],
+        [1, 0, 0, 0.079, 3, 3],
+        [1, 0, 0, 0.082, 3, 3],
+        [1, 0, 0, 0.085, 3, 3]
+      ],
+      "icon": "icon/skill/1210_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Após o estado de Queimadura causar Dano no inimigo, há altas chances de aplicar Beijo de Fogo no inimigo.",
+        "en": "After the Burn status causes DMG on the enemy, there is a high chance of applying Firekiss to the enemy.",
+        "zh-CN": "敌方受到的灼烧状态触发伤害后，大概率施加【吞火】状态。",
+        "ja": "敵に付与された燃焼状態がダメージを発生すると、高確率で「火喰い」状態を付与する。",
+        "ko": "적에게 부여된 연소 상태가 피해를 발동하면, 높은 확률로 적에게 [불쇼] 상태를 부여한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 121006,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1210_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -444,13 +214,17 @@
         "ja": "敵を攻撃。戦闘に入った後、敵にダメージを#2[i]回与える。1ヒットごとにランダムな敵単体に桂乃芬の攻撃力#1[i]%分の炎属性ダメージを与え、#3[i]%の基礎確率でその敵を「火喰い」状態にする。",
         "ko": "적을 바로 공격하며, 전투 진입 후 피해를 #2[i]회 준다. 피해를 가할 때마다 임의의 단일 적에게 계네빈 공격력 #1[i]%만큼의 화염 속성 피해를 주고 #3[i]%의 기본 확률로 목표를 [불쇼] 상태에 빠트린다"
       },
-      "params": [
-        [
-          0.5,
-          4,
-          1
-        ]
-      ]
+      "params": [[0.5, 4, 1]],
+      "icon": "icon/skill/1210_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Ataca o inimigo. Depois de entrar em batalha, causa Dano de Fogo leve a um inimigo-alvo com altas chances de aplicar \"Beijo de Fogo\", com um total de 4 Rebotes.",
+        "en": "Attacks the enemy. After entering battle, deals minor Fire DMG to one enemy target with a high chance of applying Firekiss, with a total of 4 Bounces.",
+        "zh-CN": "攻击敌人，进战后对敌方单体造成少量火属性伤害并大概率施加【吞火】状态，共弹射4次。",
+        "ja": "敵を攻撃。戦闘に入った後、敵単体に少量の炎属性ダメージを与え、高確率で「火喰い」状態を付与する。4回バウンドする。",
+        "ko": "적을 공격하며, 전투 진입 후 단일 적에게 소량의 화염 속성 피해를 가하고 높은 확률로 [불쇼]  상태를 부여한다. 총 4회 바운스한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     }
   ],
   "eidolons": [
@@ -469,7 +243,10 @@
         "zh-CN": "施放战技时，有100%的基础概率使受到攻击的敌方目标效果抵抗降低10%，持续2回合。",
         "ja": "戦闘スキルを発動した時、100%の基礎確率で攻撃を受けた敵の効果抵抗-10%、2ターン継続。",
         "ko": "전투 스킬 발동 시 100%의 기본 확률로 피격된 적의 효과 저항이 10% 감소한다. 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1210_rank1.png",
+      "materials": [{ "id": 11210, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -486,7 +263,10 @@
         "zh-CN": "当敌方目标处于灼烧状态时，桂乃芬的普攻与战技对其施加的灼烧状态的伤害倍率提升40%。",
         "ja": "敵が燃焼状態の時、桂乃芬の通常攻撃と戦闘スキルがその敵に付与する燃焼状態のダメージ倍率+40%。",
         "ko": "적이 연소 상태면 계네빈의 일반 공격과 전투 스킬이 해당 적에게 부여하는 연소 상태의 피해 배율이 40% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1210_rank2.png",
+      "materials": [{ "id": 11210, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -503,7 +283,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1210_skill.png",
+      "materials": [{ "id": 11210, "num": 1 }],
+      "levelUpSkills": [{ "id": 121002, "num": 2 }, { "id": 121001, "num": 1 }]
     },
     {
       "rank": 4,
@@ -520,7 +303,10 @@
         "zh-CN": "桂乃芬施加的灼烧状态每触发一次伤害，使自身恢复2点能量。",
         "ja": "桂乃芬が付与した燃焼状態がダメージを与えるたびに、桂乃芬のEPを2回復する。",
         "ko": "계네빈이 부여한 연소 상태 피해가 발동할 때마다 자신의 에너지를 2pt 회복한다"
-      }
+      },
+      "icon": "icon/skill/1210_rank4.png",
+      "materials": [{ "id": 11210, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -537,7 +323,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1210_ultimate.png",
+      "materials": [{ "id": 11210, "num": 1 }],
+      "levelUpSkills": [{ "id": 121003, "num": 2 }, { "id": 121004, "num": 2 }]
     },
     {
       "rank": 6,
@@ -554,10 +343,697 @@
         "zh-CN": "使【吞火】的可叠加层数增加1层。",
         "ja": "「火喰い」の累積可能層数+1。",
         "ko": "[불쇼]의 중첩 가능 스택 수가 1스택 증가한다"
-      }
+      },
+      "icon": "icon/skill/1210_rank6.png",
+      "materials": [{ "id": 11210, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 120,
+  "stats": [
+    {
+      "hp": { "base": 120, "step": 6 },
+      "atk": { "base": 79.2, "step": 3.96 },
+      "def": { "base": 60, "step": 3 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 168, "step": 6 },
+      "atk": { "base": 110.88, "step": 3.96 },
+      "def": { "base": 84, "step": 3 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 216, "step": 6 },
+      "atk": { "base": 142.56, "step": 3.96 },
+      "def": { "base": 108, "step": 3 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 264, "step": 6 },
+      "atk": { "base": 174.24, "step": 3.96 },
+      "def": { "base": 132, "step": 3 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 312, "step": 6 },
+      "atk": { "base": 205.92, "step": 3.96 },
+      "def": { "base": 156, "step": 3 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 360, "step": 6 },
+      "atk": { "base": 237.6, "step": 3.96 },
+      "def": { "base": 180, "step": 3 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 408, "step": 6 },
+      "atk": { "base": 269.28, "step": 3.96 },
+      "def": { "base": 204, "step": 3 },
+      "spd": { "base": 106, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 113011, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 113011, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 113012, "num": 5 }, { "id": 110412, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 113012, "num": 8 }, { "id": 110412, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 113013, "num": 5 }, { "id": 110412, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 113013, "num": 7 }, { "id": 110412, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1210001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1210_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [121001],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 113013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1210002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1210_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [121002],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110152, "num": 6 }, { "id": 113012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110153, "num": 4 },
+            { "id": 110503, "num": 1 },
+            { "id": 113013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 110503, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110153, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1210003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1210_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [121003],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110152, "num": 6 }, { "id": 113012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110153, "num": 4 },
+            { "id": 110503, "num": 1 },
+            { "id": 113013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 110503, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110153, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1210004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1210_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [121004],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 113011, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 113012, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110152, "num": 6 }, { "id": 113012, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 113013, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110153, "num": 4 },
+            { "id": 110503, "num": 1 },
+            { "id": 113013, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 110503, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110153, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1210007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1210_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [121007],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1210101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Mastros Altos",
+        "en": "High Poles",
+        "zh-CN": "缘竿",
+        "ja": "{RUBY_B#えんかん}縁竿{RUBY_E#}",
+        "ko": "장대 타기"
+      },
+      "description": {
+        "pt-BR": "O ATQ Básico tem #1[i]% de chance-base de infligir \"Queimadura\" em um inimigo, equivalente à da Perícia.",
+        "en": "Basic ATK has a #1[i]% base chance of inflicting an enemy with a Burn equivalent to that of Skill.",
+        "zh-CN": "普攻有#1[i]%的基础概率使敌方目标陷入与战技相同的灼烧状态。",
+        "ja": "通常攻撃は#1[i]%の基礎確率で敵を戦闘スキルが与えるものと同じ燃焼状態にする。",
+        "ko": "일반 공격이 #1[i]%의 기본 확률로 적을 전투 스킬과 동일한 연소 상태에 빠트린다"
+      },
+      "params": [[0.8]],
+      "icon": "icon/skill/1210_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 110503, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1210102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Aros com Lâminas",
+        "en": "Bladed Hoop",
+        "zh-CN": "投狭",
+        "ja": "{RUBY_B#やいば}刃{RUBY_E#}の{RUBY_B#わ}輪{RUBY_E#}くぐり",
+        "ko": "장애물 통과"
+      },
+      "description": {
+        "pt-BR": "No começo da batalha, a ação de Guinaifen é Avançada Adiante em #1[i]%.",
+        "en": "When the battle begins, Guinaifen's action advances by #1[i]%.",
+        "zh-CN": "战斗开始时，桂乃芬的行动提前#1[i]%。",
+        "ja": "戦闘開始時、桂乃芬の行動順が#1[i]%早まる。",
+        "ko": "전투 시작 시 계네빈의 행동 게이지가 #1[i]% 증가한다"
+      },
+      "params": [[0.25]],
+      "icon": "icon/skill/1210_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110152, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1210103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Caminhando em Facas",
+        "en": "Walking on Knives",
+        "zh-CN": "逾锋",
+        "ja": "{RUBY_B#はだしとうとう}裸足踏刀{RUBY_E#}",
+        "ko": "칼날 위 걷기"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% a mais de Dano a inimigos com Queimadura.",
+        "en": "Deals #1[i]% more DMG to Burned enemies.",
+        "zh-CN": "对陷入灼烧状态的敌方目标造成的伤害提高#1[i]%。",
+        "ja": "燃焼状態の敵に対する与ダメージ+#1[i]%。",
+        "ko": "연소 상태에 빠진 적에게 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.2]],
+      "icon": "icon/skill/1210_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110153, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1210201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 113011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1210202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1210101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110151, "num": 2 }, { "id": 113011, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1210203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1210202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 113012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1210204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1210203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110152, "num": 2 }, { "id": 113012, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1210205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1210102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110152, "num": 4 }, { "id": 113012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1210206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1210205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 113013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1210207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1210206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110153, "num": 2 }, { "id": 113013, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1210208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1210103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 113013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1210209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1210103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 113013, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1210210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1210201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110153, "num": 6 }, { "id": 113013, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11210, 110151, 110152, 110153, 110412, 110503, 113011, 113012, 113013],
   "images": {
     "icon": "icon/character/1210.png",
     "preview": "image/character_preview/1210.png",

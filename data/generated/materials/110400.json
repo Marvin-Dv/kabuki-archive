@@ -1,0 +1,24 @@
+{
+  "id": 110400,
+  "slug": "enigmatic-ectostella",
+  "name": {
+    "pt-BR": "Ectostella Enigmática",
+    "en": "Enigmatic Ectostella",
+    "zh-CN": "深邃的星外质",
+    "ja": "深邃な星外物質",
+    "ko": "깊은 별의 외형질"
+  },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "AvatarRank",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/110400.png",
+  "sources": {
+    "en": ["Mission Rewards", "Level Rewards"],
+    "pt-BR": ["Recompensas de Missão", "Recompensas de Nível"],
+    "zh-CN": ["任务奖励", "等级奖励"],
+    "ja": ["クエスト報酬", "レベルボーナス"],
+    "ko": ["임무 보상", "레벨 보상"]
+  }
+}

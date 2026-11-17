@@ -1,0 +1,42 @@
+{
+  "id": 116003,
+  "slug": "lucid-awl",
+  "name": { "pt-BR": "Pincel Lúcido", "en": "Lucid Awl", "zh-CN": "梦现管锥", "ja": "夢見の絵筆", "ko": "꿈을 그리는 붓" },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "CommonMonsterDrop",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/116003.png",
+  "sources": {
+    "en": [
+      "Drops from imagenated creatures at Equilibrium Level 4",
+      "Omni-Synthesizer — Material Synthesis",
+      "Divergent Universe enemies",
+      "Simulated Universe enemies",
+      "Omni-Synthesizer — Material Exchange"
+    ],
+    "pt-BR": [
+      "Obtido de criaturas Imagenae no Nível de Equilíbrio 4",
+      "Sintetizador Omni — Síntese de Material",
+      "Inimigos do Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Sintetizador Omni — Troca de Material"
+    ],
+    "zh-CN": ["突破至均衡等级4后，幻造生物掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
+    "ja": [
+      "均衡Lv.4に達した後、幻造生物からドロップ",
+      "「万能合成マシン」- 素材合成",
+      "「階差宇宙」で敵からドロップ",
+      "「模擬宇宙」で敵からドロップ",
+      "「万能合成マシン」- 素材交換"
+    ],
+    "ko": [
+      "균형 레벨 Lv.4까지 돌파 후 환조 생물 드랍",
+      "「만능 합성기」- 재료 합성",
+      "「차분화 우주」 적 드랍",
+      "「시뮬레이션 우주」 적 드랍",
+      "「만능 합성기」- 재료 치환"
+    ]
+  }
+}

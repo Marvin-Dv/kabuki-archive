@@ -1,13 +1,7 @@
 {
   "id": 1321,
   "slug": "the-dahlia",
-  "name": {
-    "pt-BR": "A Dália",
-    "en": "The Dahlia",
-    "zh-CN": "大丽花",
-    "ja": "ダリア",
-    "ko": "달리아"
-  },
+  "name": { "pt-BR": "A Dália", "en": "The Dahlia", "zh-CN": "大丽花", "ja": "ダリア", "ko": "달리아" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Fire",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にダリアの攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 달리아 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1321_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo leve a um inimigo.",
+        "en": "Deals minor Fire DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量火属性伤害。",
+        "ja": "敵単体に少量の炎属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 132102,
@@ -82,82 +56,33 @@
         "ko": "#2[i]턴 동안 지속되는 결계를 활성화하며, 달리아의 턴 시작 시 지속 턴 수가 1 감소한다. 이후 지정된 단일 적 및 인접한 목표에게 달리아 공격력의 #1[i]%만큼 화염 속성 피해를 가한다.\n결계가 지속되는 동안 모든 아군의 약점 격파 효율이 #3[i]% 증가하고, 적이 약점 격파 상태가 아닐 때 받는 강인성 감소 수치도 슈퍼 격파 피해로 전환된다"
       },
       "params": [
-        [
-          0.8,
-          3,
-          0.5
-        ],
-        [
-          0.88,
-          3,
-          0.5
-        ],
-        [
-          0.96,
-          3,
-          0.5
-        ],
-        [
-          1.04,
-          3,
-          0.5
-        ],
-        [
-          1.12,
-          3,
-          0.5
-        ],
-        [
-          1.2,
-          3,
-          0.5
-        ],
-        [
-          1.3,
-          3,
-          0.5
-        ],
-        [
-          1.4,
-          3,
-          0.5
-        ],
-        [
-          1.5,
-          3,
-          0.5
-        ],
-        [
-          1.6,
-          3,
-          0.5
-        ],
-        [
-          1.68,
-          3,
-          0.5
-        ],
-        [
-          1.76,
-          3,
-          0.5
-        ],
-        [
-          1.84,
-          3,
-          0.5
-        ],
-        [
-          1.92,
-          3,
-          0.5
-        ],
-        [
-          2,
-          3,
-          0.5
-        ]
-      ]
+        [0.8, 3, 0.5],
+        [0.88, 3, 0.5],
+        [0.96, 3, 0.5],
+        [1.04, 3, 0.5],
+        [1.12, 3, 0.5],
+        [1.2, 3, 0.5],
+        [1.3, 3, 0.5],
+        [1.4, 3, 0.5],
+        [1.5, 3, 0.5],
+        [1.6, 3, 0.5],
+        [1.68, 3, 0.5],
+        [1.76, 3, 0.5],
+        [1.84, 3, 0.5],
+        [1.92, 3, 0.5],
+        [2, 3, 0.5]
+      ],
+      "icon": "icon/skill/1321_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Implanta um Campo. Causa Dano de Fogo a um inimigo e aos alvos adjacentes.\nEnquanto o Campo estiver ativo, aumenta a Eficiência de Quebra de Fraqueza de todos os aliados, e os inimigos-alvo também receberão Super Dano de Quebra mesmo sem estarem afligidos com Quebra de Fraqueza.",
+        "en": "Deploys a Zone. Deals Fire DMG to one enemy and their adjacent targets.\nWhile the Zone lasts, increases all allies' Weakness Break Efficiency, and enemy targets will also take Super Break DMG even when they are not Weakness Broken.",
+        "zh-CN": "开启结界。对敌方单体及其相邻目标造成火属性伤害。\n结界持续期间，我方全体的弱点击破效率提高，敌方目标未处于弱点击破状态时也能受到超击破伤害。",
+        "ja": "結界を展開する。敵単体および隣接する敵に炎属性ダメージを与える。\n結界が展開されている間、味方全体の弱点撃破効率がアップ。さらに、敵が弱点撃破状態でない場合でも、超撃破ダメージを与えられる。",
+        "ko": "결계를 활성화한다. 단일 적 및 인접한 목표에게 화염 속성 피해를 가한다.\n결계가 지속되는 동안 모든 아군의 약점 격파 효율이 증가하고, 적은 약점 격파 상태가 아닐 때도 슈퍼 격파 피해를 받는다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 132103,
@@ -177,82 +102,33 @@
         "ko": "모든 적을 [영락] 상태에 빠트린다, 지속 시간: #2[i]턴. 이후 달리아 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, 이는 모든 적이 균등 분담한다.\n[영락] 상태일 때 적의 방어력이 #3[f1]% 감소하고, 모든 [춤 파트너] 속성의 약점이 부여된다"
       },
       "params": [
-        [
-          1.8,
-          4,
-          0.08
-        ],
-        [
-          1.92,
-          4,
-          0.09
-        ],
-        [
-          2.04,
-          4,
-          0.1
-        ],
-        [
-          2.16,
-          4,
-          0.11
-        ],
-        [
-          2.28,
-          4,
-          0.12
-        ],
-        [
-          2.4,
-          4,
-          0.13
-        ],
-        [
-          2.55,
-          4,
-          0.1425
-        ],
-        [
-          2.7,
-          4,
-          0.155
-        ],
-        [
-          2.85,
-          4,
-          0.1675
-        ],
-        [
-          3,
-          4,
-          0.18
-        ],
-        [
-          3.12,
-          4,
-          0.19
-        ],
-        [
-          3.24,
-          4,
-          0.2
-        ],
-        [
-          3.36,
-          4,
-          0.21
-        ],
-        [
-          3.48,
-          4,
-          0.22
-        ],
-        [
-          3.6,
-          4,
-          0.23
-        ]
-      ]
+        [1.8, 4, 0.08],
+        [1.92, 4, 0.09],
+        [2.04, 4, 0.1],
+        [2.16, 4, 0.11],
+        [2.28, 4, 0.12],
+        [2.4, 4, 0.13],
+        [2.55, 4, 0.1425],
+        [2.7, 4, 0.155],
+        [2.85, 4, 0.1675],
+        [3, 4, 0.18],
+        [3.12, 4, 0.19],
+        [3.24, 4, 0.2],
+        [3.36, 4, 0.21],
+        [3.48, 4, 0.22],
+        [3.6, 4, 0.23]
+      ],
+      "icon": "icon/skill/1321_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Aplica a Fraqueza dos Tipos dos \"Pares de Dança\" a todos os inimigos e reduz a DEF deles. Causa Dano de Fogo massivo, que é distribuído igualmente entre todos os inimigos.",
+        "en": "Applies Weaknesses of Dance Partners' Types to all enemies and reduces their DEF. Deals massive Fire DMG, which is distributed evenly across all enemies.",
+        "zh-CN": "为敌方全体添加【共舞者】属性的弱点并使其防御力降低。造成大量火属性伤害，由敌方全体均分。",
+        "ja": "敵全体に「共に舞う者」の属性を弱点として付与し、防御力をダウンさせる。敵全体で均等に分担される大量の炎属性ダメージを与える。",
+        "ko": "모든 적에게 [춤 파트너] 속성의 약점을 부여하고 방어력을 감소시킨다. 대량의 화염 속성 피해를 가하고, 이는 모든 적이 균등 분담한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 132104,
@@ -272,124 +148,48 @@
         "ko": "전투 진입 시 달리아가 에너지를 #4[i]pt 회복하고, 자신과 전투를 시작한 다른 동료를 모두 [춤 파트너]로 만든다. 필드에 다른 [춤 파트너]가 없을 시 자신과 격파 특수효과가 가장 높은 동료를 모두 [춤 파트너]로 만든다. [춤 파트너]가 약점 격파 상태의 적을 공격하면, 이번 공격의 강인성 감소 수치를 #5[i]%의 슈퍼 격파 피해로 전환한다.\n적이 다른 [춤 파트너]에게 피격되면 달리아가 추가 공격을 발동하고, 피해를 #2[i]회 가하며, 회당 랜덤 단일 적에게 달리아 공격력의 #1[i]%만큼 화염 속성 피해를 가한다. 약점 격파 상태의 적에게 피해를 가할 때마다 이번 피해의 강인성 감소 수치를 #3[i]%의 슈퍼 격파 피해로 전환한다.\n해당 효과는 턴마다 최대 1회 발동하며, 추가 공격 발동 전에 목표가 처치되면 랜덤 단일 적에게 발동한다"
       },
       "params": [
-        [
-          0.15,
-          5,
-          1,
-          35,
-          0.3
-        ],
-        [
-          0.165,
-          5,
-          1.1,
-          35,
-          0.33
-        ],
-        [
-          0.18,
-          5,
-          1.2,
-          35,
-          0.36
-        ],
-        [
-          0.195,
-          5,
-          1.3,
-          35,
-          0.39
-        ],
-        [
-          0.21,
-          5,
-          1.4,
-          35,
-          0.42
-        ],
-        [
-          0.225,
-          5,
-          1.5,
-          35,
-          0.45
-        ],
-        [
-          0.2437,
-          5,
-          1.625,
-          35,
-          0.4875
-        ],
-        [
-          0.2625,
-          5,
-          1.75,
-          35,
-          0.525
-        ],
-        [
-          0.2812,
-          5,
-          1.875,
-          35,
-          0.5625
-        ],
-        [
-          0.3,
-          5,
-          2,
-          35,
-          0.6
-        ],
-        [
-          0.315,
-          5,
-          2.1,
-          35,
-          0.63
-        ],
-        [
-          0.33,
-          5,
-          2.2,
-          35,
-          0.66
-        ],
-        [
-          0.345,
-          5,
-          2.3,
-          35,
-          0.69
-        ],
-        [
-          0.36,
-          5,
-          2.4,
-          35,
-          0.72
-        ],
-        [
-          0.375,
-          5,
-          2.5,
-          35,
-          0.75
-        ]
-      ]
+        [0.15, 5, 1, 35, 0.3],
+        [0.165, 5, 1.1, 35, 0.33],
+        [0.18, 5, 1.2, 35, 0.36],
+        [0.195, 5, 1.3, 35, 0.39],
+        [0.21, 5, 1.4, 35, 0.42],
+        [0.225, 5, 1.5, 35, 0.45],
+        [0.2437, 5, 1.625, 35, 0.4875],
+        [0.2625, 5, 1.75, 35, 0.525],
+        [0.2812, 5, 1.875, 35, 0.5625],
+        [0.3, 5, 2, 35, 0.6],
+        [0.315, 5, 2.1, 35, 0.63],
+        [0.33, 5, 2.2, 35, 0.66],
+        [0.345, 5, 2.3, 35, 0.69],
+        [0.36, 5, 2.4, 35, 0.72],
+        [0.375, 5, 2.5, 35, 0.75]
+      ],
+      "icon": "icon/skill/1321_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ao entrar em combate, A Dália regenera Energia e se torna \"Par de Dança\" junto com o aliado que iniciou o combate. Quando um \"Par de Dança\" ataca um inimigo-alvo com Quebra de Fraqueza, causa adicionalmente Super Dano de Quebra.\nApós um inimigo-alvo ser atacado pelo outro \"Par de Dança\", A Dália realiza um Ataque Extra, causando Dano de Fogo leve a inimigos-alvo aleatórios e infligindo Super Dano de Quebra adicional a inimigos-alvo com Quebra de Fraqueza, ricocheteando 5 vez(es).",
+        "en": "When entering combat, The Dahlia regenerates Energy and becomes \"Dance Partner\" along with the teammate that triggered combat. When a \"Dance Partner\" attacks a Weakness Broken enemy target, additionally deals Super Break DMG.\nAfter an enemy target gets attacked by the other \"Dance Partner,\" The Dahlia triggers Follow-Up ATK, deals minor Fire DMG to random enemies, and additionally deals Super Break DMG to Weakness Broken enemy targets, bouncing a total of 5 time(s).",
+        "zh-CN": "进入战斗时，大丽花恢复能量，并使自身和开战队友成为【共舞者】。【共舞者】攻击处于弱点击破状态下的敌方目标后，额外造成超击破伤害。\n敌方目标受到另一位【共舞者】攻击后，大丽花发动追加攻击，对敌方随机单体造成少量火属性伤害，并且对处于弱点击破状态下的敌方目标额外造成超击破伤害，共弹射5次。",
+        "ja": "戦闘に入る時、ダリアはEPを回復し、自身と戦闘開始者を「共に舞う者」にする。「共に舞う者」が弱点撃破状態の敵を攻撃すると、追加で超撃破ダメージを与える。\n敵がダリア以外の「共に舞う者」から攻撃を受けた後、ダリアは追加攻撃を発動し、ランダムな敵単体に少量の炎属性ダメージを与え、5回バウンドする。なお、弱点撃破状態の敵に命中した場合、追加で超撃破ダメージを与える。",
+        "ko": "전투 진입 시 달리아가 에너지를 회복하고, 자신 및 전투를 시작한 동료를 [춤 파트너]로 만든다. [춤 파트너]가 약점 격파 상태의 적을 공격하면 추가로 슈퍼 격파 피해를 가한다.\n적이 다른 [춤 파트너]에게 피격되면 달리아가 추가 공격을 발동하여 랜덤 단일 적에게 소량의 화염 속성 피해를 가하고, 약점 격파 상태의 적에게 추가로 슈퍼 격파 피해를 가하며, 총 5회 바운스한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
     },
     {
       "id": 132106,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1321_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -414,12 +214,18 @@
         "ja": "秘技を使用した後、#1[i]秒間継続する特殊領域を作り出す。特殊領域内にいる敵は味方を攻撃しない。特殊領域内にいる敵と戦闘に入った後、ダリアは即座に戦闘スキルの結界を展開し、戦闘開始時に与えた削靭値を#2[i]%分の超撃破ダメージに転換して、弱点撃破状態の敵に与える。\n味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 #1[i]초 동안 지속되는 특수 영역을 1개 만든다. 특수 영역 내의 적은 아군을 선공하지 않는다. 특수 영역 내의 적과 전투에 진입하면 달리아는 즉시 전투 스킬의 결계를 활성화하고, 약점 격파 상태의 적에게 전투 시작 시의 강인성 감소 수치를 #2[i]%의 슈퍼 격파 피해로 전환한다.\n아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
-      "params": [
-        [
-          20,
-          0.6
-        ]
-      ]
+      "params": [[20, 0.6]],
+      "icon": "icon/skill/1321_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Cria uma Dimensão Especial onde os inimigos dentro dela não atacam os aliados-alvo. Ao entrar em combate com os inimigos dentro da dimensão, A Dália implanta imediatamente um Campo e causa Super Dano de Quebra aos inimigos-alvo em estado de Quebra de Fraqueza.",
+        "en": "Creates a Special Dimension where enemies within will not attack ally targets. After entering combat with enemies in the dimension, The Dahlia immediately deploys a Zone and deals Super Break DMG to enemy targets in the Weakness Break state.",
+        "zh-CN": "制造特殊领域，领域内敌人不会攻击我方目标。与领域内敌人进入战斗后，大丽花立即开启结界，并且对处于弱点击破状态下的敌方目标造成超击破伤害。",
+        "ja": "特殊領域を作り出す。領域内の敵は味方を攻撃しない。領域内の敵と戦闘に入った後、ダリアは即座に結界を展開し、弱点撃破状態の敵に対して超撃破ダメージを与える。",
+        "ko": "특수 영역을 만들며, 영역 내의 적은 아군을 공격하지 않는다. 영역 내의 적과 전투에 진입하면 달리아는 즉시 결계를 활성화하고, 약점 격파 상태의 적에게 슈퍼 격파 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -438,7 +244,10 @@
         "zh-CN": "天赋为【共舞者】提供的超击破伤害倍率对我方全体角色生效，其中【共舞者】的倍率额外提高40%。【共舞者】施放攻击后，对受到攻击的敌方目标额外造成等同于其韧性上限25%的固定削韧（至少10点，至多300点）。该效果每个敌方目标只能触发1次，敌方目标受到致命攻击后重置该目标的可触发次数。",
         "ja": "天賦による「共に舞う者」の超撃破ダメージ倍率が味方全体に適用され、「共に舞う者」の倍率がさらに40%アップする。「共に舞う者」が攻撃を行った後、追加で攻撃を受けた敵の最大靭性値25%分の靭性を削る（最小は10、最大は300）。この効果は敵1体につき1回しか発動できず、敵がHP0になる攻撃を受けた後、その敵への発動可能回数がリセットされる。",
         "ko": "특성이 [춤 파트너]에게 제공하는 슈퍼 격파 피해 배율이 모든 아군 캐릭터에게 적용되며, [춤 파트너]의 배율은 추가로 40% 증가한다. [춤 파트너]가 공격 발동 후, 피격된 적에게 대상의 강인성 최대치의 25%만큼 고정 강인성 감소를 추가로 가한다(최소 10pt, 최대 300pt). 해당 효과는 각 적에게 1회만 발동할 수 있으며, 적이 치명적인 공격을 받으면 해당 목표의 발동 가능 횟수가 초기화된다"
-      }
+      },
+      "icon": "icon/skill/1321_rank1.png",
+      "materials": [{ "id": 11321, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -455,7 +264,10 @@
         "zh-CN": "大丽花在场时，敌方全体全属性抗性降低20%。敌方目标入场时，立即陷入【败谢】状态，持续3回合。",
         "ja": "ダリアがフィールド上にいる時、敵全体の全属性耐性-20%。敵が戦闘に入る時、即座に「凋落」状態となる。「凋落」状態は3ターン継続。",
         "ko": "달리아가 필드에 있을 시 모든 적의 모든 속성 저항이 20% 감소한다. 적이 필드 입장 시 즉시 [영락] 상태에 빠진다, 지속 시간: 3턴"
-      }
+      },
+      "icon": "icon/skill/1321_rank2.png",
+      "materials": [{ "id": 11321, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -472,7 +284,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1321_ultimate.png",
+      "materials": [{ "id": 11321, "num": 1 }],
+      "levelUpSkills": [{ "id": 132103, "num": 2 }, { "id": 132101, "num": 1 }]
     },
     {
       "rank": 4,
@@ -489,7 +304,10 @@
         "zh-CN": "天赋的追加攻击的伤害次数增加5次，施放时使敌方全体目标受到的伤害提高12%，持续2回合。",
         "ja": "天賦による追加攻撃のヒット数+5。また、ダリアが追加攻撃を発動する時、敵全体の受けるダメージ+12%、2ターン継続。",
         "ko": "특성의 추가 공격 피해 횟수가 5회 증가하며, 발동 시 모든 적이 받는 피해가 12% 증가한다, 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1321_rank4.png",
+      "materials": [{ "id": 11321, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -506,7 +324,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1321_skill.png",
+      "materials": [{ "id": 11321, "num": 1 }],
+      "levelUpSkills": [{ "id": 132102, "num": 2 }, { "id": 132104, "num": 2 }]
     },
     {
       "rank": 6,
@@ -523,10 +344,700 @@
         "zh-CN": "【共舞者】的击破特攻提高150%。施放天赋的追加攻击时，使所有【共舞者】下一次行动提前20%。",
         "ja": "「共に舞う者」の撃破特効+150%。天賦による追加攻撃が発動する時、すべての「共に舞う者」の次の行動順を20%早める。",
         "ko": "[춤 파트너]의 격파 특수효과가 150% 증가한다. 특성의 추가 공격 발동 시 모든 [춤 파트너]의 다음 행동 게이지가 20% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1321_rank6.png",
+      "materials": [{ "id": 11321, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 130,
+  "stats": [
+    {
+      "hp": { "base": 147.84, "step": 7.392 },
+      "atk": { "base": 92.4, "step": 4.62 },
+      "def": { "base": 82.5, "step": 4.125 },
+      "spd": { "base": 96, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 206.976, "step": 7.392 },
+      "atk": { "base": 129.36, "step": 4.62 },
+      "def": { "base": 115.5, "step": 4.125 },
+      "spd": { "base": 96, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 266.112, "step": 7.392 },
+      "atk": { "base": 166.32, "step": 4.62 },
+      "def": { "base": 148.5, "step": 4.125 },
+      "spd": { "base": 96, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 325.248, "step": 7.392 },
+      "atk": { "base": 203.28, "step": 4.62 },
+      "def": { "base": 181.5, "step": 4.125 },
+      "spd": { "base": 96, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 384.384, "step": 7.392 },
+      "atk": { "base": 240.24, "step": 4.62 },
+      "def": { "base": 214.5, "step": 4.125 },
+      "spd": { "base": 96, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 443.52, "step": 7.392 },
+      "atk": { "base": 277.2, "step": 4.62 },
+      "def": { "base": 247.5, "step": 4.125 },
+      "spd": { "base": 96, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 502.656, "step": 7.392 },
+      "atk": { "base": 314.16, "step": 4.62 },
+      "def": { "base": 280.5, "step": 4.125 },
+      "spd": { "base": 96, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 114011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 114011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 114012, "num": 6 }, { "id": 110432, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 114012, "num": 9 }, { "id": 110432, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 114013, "num": 6 }, { "id": 110432, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 114013, "num": 9 }, { "id": 110432, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1321001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1321_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [132101],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 114013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1321002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1321_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [132102],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1321003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1321_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [132103],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1321004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1321_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [132104],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110508, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1321007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1321_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [132107],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1321101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Mais um Funeral",
+        "en": "Yet Another Funeral",
+        "zh-CN": "又一场葬礼",
+        "ja": "{RUBY_B#そうれい}葬礼{RUBY_E#}またひとつ",
+        "ko": "또 한 번의 장례"
+      },
+      "description": {
+        "pt-BR": "Ao entrar em combate, aumenta o Efeito de Quebra de outros personagens em um valor igual a #1[i]% do Efeito de Quebra de A Dália mais #3[i]%, durando por #2[i] rodada(s). Quando A Dália recebe Cura ou um Escudo fornecido por um companheiro de equipe, esse efeito é ativado novamente, durando por #4[i] rodada(s). Não pode ser ativado repetidamente dentro de uma rodada.",
+        "en": "When entering combat, increases other characters' Break Effect by an amount equal to #1[i]% of The Dahlia's Break Effect plus #3[i]%, lasting for #2[i] turn(s). When The Dahlia receives healing or a Shield provided by a teammate, this effect triggers again, lasting for #4[i] turn(s). Cannot trigger repeatedly within one turn.",
+        "zh-CN": "进入战斗时，使其他角色的击破特攻提高，提高数值等同于#1[i]%大丽花的击破特攻+#3[i]%，持续#2[i]回合。当大丽花受到队友提供的治疗效果或护盾时，再次触发该效果，持续#4[i]回合，单个回合内不可重复触发。",
+        "ja": "戦闘に入る時、自身以外の味方の撃破特効をダリアの撃破特効#1[i]%分+#3[i]%アップさせる。#2[i]ターン継続。ダリアが自身以外の味方による治癒効果またはバリアを得た時、この効果をもう1度発動する。#4[i]ターン継続。1ターンに1回まで発動できる。",
+        "ko": "전투 진입 시 다른 캐릭터의 격파 특수효과가 달리아 격파 특수효과의 #1[i]%에 #3[i]%를 더한 값만큼 증가한다, 지속 시간: #2[i]턴. 달리아가 동료가 제공하는 치유 효과 또는 실드를 받으면 해당 효과가 재발동한다, 지속 시간: #4[i]턴, 해당 효과는 단일 턴 내에 중복 발동하지 않는다"
+      },
+      "params": [[0.24, 1, 0.5, 3]],
+      "icon": "icon/skill/1321_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 110508, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1321102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Descanse em Paz, Amigo",
+        "en": "Lament, Lost Soul",
+        "zh-CN": "致哀，故人",
+        "ja": "{RUBY_B#こじん}故人{RUBY_E#}に{RUBY_B#あいとう}哀悼{RUBY_E#}を",
+        "ko": "고인에게 애도를"
+      },
+      "description": {
+        "pt-BR": "Ao usar o Ataque Extra do Talento, recupera 1 Ponto de Perícia para os aliados. A cada #1[i] instância(s) do Ataque Extra do Talento utilizada(s), esse efeito pode ser ativado uma vez.",
+        "en": "When using Talent's Follow-Up ATK, recovers 1 Skill Point for allies. For every #1[i] instance(s) of Talent's Follow-Up ATK used, this effect can trigger once.",
+        "zh-CN": "施放天赋的追加攻击时，为我方恢复1个战技点，该效果每施放#1[i]次天赋的追加攻击可触发1次。",
+        "ja": "天賦による追加攻撃が発動する時、味方のSPを1回復する。この効果は天賦による追加攻撃が#1[i]回発動するたびに、1回発動する。",
+        "ko": "특성의 추가 공격 발동 시 아군의 전투 스킬 포인트를 1pt 회복한다. 해당 효과는 특성의 추가 공격을 #1[i]회 발동할 때마다 1회 발동한다"
+      },
+      "params": [[2]],
+      "icon": "icon/skill/1321_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110222, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1321103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Dar Lugar ao Novo",
+        "en": "Outgrow the Old, Espouse the New",
+        "zh-CN": "弃旧，恋新",
+        "ja": "{RUBY_B#ふる}古{RUBY_E#}きを{RUBY_B#す}捨{RUBY_E#}て、{RUBY_B#あたら}新{RUBY_E#}しきに{RUBY_B#こい}恋{RUBY_E#}する",
+        "ko": "새로움을 위한 옛것과의 작별"
+      },
+      "description": {
+        "pt-BR": "Quando um aliado-alvo adiciona Fraqueza a um inimigo-alvo, aumenta a VEL em #3[i]% por #4[i] rodada(s). Se um aliado de Fogo tiver implantado Fraqueza ao usar um Ataque, então após o Ataque, causa adicionalmente uma quantidade fixa de #5[i] de Redução de Tenacidade de Fogo a todos os alvos com Fraqueza implantada. Além disso, regenera Energia igual a #2[i]% da Energia Máxima. Este efeito pode regenerar Energia até #1[i]% da Energia Máxima.",
+        "en": "When an ally target adds Weakness to an enemy target, increases SPD by #3[i]% for #4[i] turn(s). If a Fire ally character has implanted a Weakness when using an attack, then after the attack, additionally deals a fixed amount of #5[i] Fire Toughness Reduction to every target implanted with Weakness. Also, regenerates Energy equal to #2[i]% of Max Energy. This effect can regenerate Energy up to #1[i]% of Max Energy.",
+        "zh-CN": "我方目标为敌方目标添加弱点时，速度提高#3[i]%，持续#4[i]回合。若我方火属性角色施放攻击期间添加过弱点，则攻击后对每个添加弱点的目标额外造成#5[i]点火属性固定削韧，并恢复#2[i]%能量上限的能量，最多通过此效果恢复至能量上限的#1[i]%。",
+        "ja": "味方が敵に弱点を付与した時、速度+#3[i]%、#4[i]ターン継続。\n味方の炎属性キャラが攻撃中に弱点を付与した場合、攻撃後に追加で、弱点を付与した各ターゲットの靭性値を#5[i]削る。なお、この削靭は炎属性となる。同時に、最大EP#2[i]%分のEPを回復する。この効果で回復できるEPは、最大EPの#1[i]%までとなる。",
+        "ko": "아군이 적에게 약점 부여 시 속도가 #3[i]% 증가한다, 지속 시간: #4[i]턴. 화염 속성 아군 캐릭터가 공격 발동 중에 약점을 부여한 경우, 공격 후 약점을 부여한 각 목표에게 추가로 화염 속성 고정 강인성 감소를 #5[i]pt 가하고, 에너지를 에너지 최대치의 #2[i]%만큼 회복하며, 해당 효과를 통해 최대 에너지 최대치의 #1[i]%까지 회복할 수 있다"
+      },
+      "params": [[0.5, 0.1, 0.3, 2, 20]],
+      "icon": "icon/skill/1321_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110508, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1321201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1321202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1321101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 114011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1321203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1321202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1321204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1321203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1321205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1321102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 114012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1321206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1321205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1321207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1321206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1321208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1321103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1321209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1321103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1321210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1321201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11321, 110221, 110222, 110223, 110432, 110508, 114011, 114012, 114013],
   "images": {
     "icon": "icon/character/1321.png",
     "preview": "image/character_preview/1321.png",

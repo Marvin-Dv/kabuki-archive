@@ -1,13 +1,7 @@
 {
   "id": 1008,
   "slug": "arlan",
-  "name": {
-    "pt-BR": "Arlan",
-    "en": "Arlan",
-    "zh-CN": "阿兰",
-    "ja": "アーラン",
-    "ko": "아를란"
-  },
+  "name": { "pt-BR": "Arlan", "en": "Arlan", "zh-CN": "阿兰", "ja": "アーラン", "ko": "아를란" },
   "rarity": 4,
   "path": "Destruction",
   "element": "Lightning",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にアーランの攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1008_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
+        "en": "Deals minor Lightning DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量雷属性伤害。",
+        "ja": "敵単体に少量の雷属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 100802,
@@ -82,67 +56,33 @@
         "ko": "아를란 HP 최대치 #1[i]%만큼의 HP를 소모해 지정된 단일 적에게 아를란 공격력 #2[i]%만큼의 번개 속성 피해를 가한다. 현재 HP가 부족할 때 전투 스킬 발동 시 아를란의 HP가 1pt까지 하락한다"
       },
       "params": [
-        [
-          0.15,
-          1.2
-        ],
-        [
-          0.15,
-          1.32
-        ],
-        [
-          0.15,
-          1.44
-        ],
-        [
-          0.15,
-          1.56
-        ],
-        [
-          0.15,
-          1.68
-        ],
-        [
-          0.15,
-          1.8
-        ],
-        [
-          0.15,
-          1.95
-        ],
-        [
-          0.15,
-          2.1
-        ],
-        [
-          0.15,
-          2.25
-        ],
-        [
-          0.15,
-          2.4
-        ],
-        [
-          0.15,
-          2.52
-        ],
-        [
-          0.15,
-          2.64
-        ],
-        [
-          0.15,
-          2.76
-        ],
-        [
-          0.15,
-          2.88
-        ],
-        [
-          0.15,
-          3
-        ]
-      ]
+        [0.15, 1.2],
+        [0.15, 1.32],
+        [0.15, 1.44],
+        [0.15, 1.56],
+        [0.15, 1.68],
+        [0.15, 1.8],
+        [0.15, 1.95],
+        [0.15, 2.1],
+        [0.15, 2.25],
+        [0.15, 2.4],
+        [0.15, 2.52],
+        [0.15, 2.64],
+        [0.15, 2.76],
+        [0.15, 2.88],
+        [0.15, 3]
+      ],
+      "icon": "icon/skill/1008_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Consome uma porção dos PV para causar Dano de Raio a um único inimigo.",
+        "en": "Consumes a portion of HP to deal Lightning DMG to one enemy.",
+        "zh-CN": "消耗自身部分生命值，对敌方单体造成雷属性伤害。",
+        "ja": "自身のHPを消費し、敵単体に雷属性ダメージを与える。",
+        "ko": "자신의 일부 HP를 소모하고 단일 적에게 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 100803,
@@ -162,67 +102,33 @@
         "ko": "지정된 단일 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가하고, 인접한 목표에게 아를란 공격력 #2[i]%만큼의 번개 속성 피해를 가한다"
       },
       "params": [
-        [
-          1.92,
-          0.96
-        ],
-        [
-          2.048,
-          1.024
-        ],
-        [
-          2.176,
-          1.088
-        ],
-        [
-          2.304,
-          1.152
-        ],
-        [
-          2.432,
-          1.216
-        ],
-        [
-          2.56,
-          1.28
-        ],
-        [
-          2.72,
-          1.36
-        ],
-        [
-          2.88,
-          1.44
-        ],
-        [
-          3.04,
-          1.52
-        ],
-        [
-          3.2,
-          1.6
-        ],
-        [
-          3.328,
-          1.664
-        ],
-        [
-          3.456,
-          1.728
-        ],
-        [
-          3.584,
-          1.792
-        ],
-        [
-          3.712,
-          1.856
-        ],
-        [
-          3.84,
-          1.92
-        ]
-      ]
+        [1.92, 0.96],
+        [2.048, 1.024],
+        [2.176, 1.088],
+        [2.304, 1.152],
+        [2.432, 1.216],
+        [2.56, 1.28],
+        [2.72, 1.36],
+        [2.88, 1.44],
+        [3.04, 1.52],
+        [3.2, 1.6],
+        [3.328, 1.664],
+        [3.456, 1.728],
+        [3.584, 1.792],
+        [3.712, 1.856],
+        [3.84, 1.92]
+      ],
+      "icon": "icon/skill/1008_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Raio massivo a um único inimigo e Dano de Raio pequeno a inimigos adjacentes a ele.",
+        "en": "Deals massive Lightning DMG to one enemy and Lightning DMG to enemies adjacent to it.",
+        "zh-CN": "对敌方单体造成大量雷属性伤害，对相邻目标造成雷属性伤害。",
+        "ja": "敵単体に大量の雷属性ダメージを与え、隣接する敵に雷属性ダメージを与える。",
+        "ko": "단일 적에게 대량의 번개 속성 피해를 가하고, 인접한 목표에게 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 100804,
@@ -242,64 +148,48 @@
         "ko": "아를란이 현재 잃은 HP 백분율에 따라 피해 보너스를 획득하며, 아를란이 가하는 피해가 최대 #1[i]% 증가한다"
       },
       "params": [
-        [
-          0.36
-        ],
-        [
-          0.396
-        ],
-        [
-          0.432
-        ],
-        [
-          0.468
-        ],
-        [
-          0.504
-        ],
-        [
-          0.54
-        ],
-        [
-          0.585
-        ],
-        [
-          0.63
-        ],
-        [
-          0.675
-        ],
-        [
-          0.72
-        ],
-        [
-          0.756
-        ],
-        [
-          0.792
-        ],
-        [
-          0.828
-        ],
-        [
-          0.864
-        ],
-        [
-          0.9
-        ]
-      ]
+        [0.36],
+        [0.396],
+        [0.432],
+        [0.468],
+        [0.504],
+        [0.54],
+        [0.585],
+        [0.63],
+        [0.675],
+        [0.72],
+        [0.756],
+        [0.792],
+        [0.828],
+        [0.864],
+        [0.9]
+      ],
+      "icon": "icon/skill/1008_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ganha bônus de Dano baseado na porcentagem atual de PV perdidos.",
+        "en": "Gain DMG bonus based on currently missing HP percentage.",
+        "zh-CN": "根据自身当前已损失的生命值百分比提高伤害。",
+        "ja": "自身の失ったHPの割合に応じて与ダメージをアップする。",
+        "ko": "자신의 현재 잃은 HP 백분율에 따라 피해가 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 100806,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1008_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -324,11 +214,17 @@
         "ja": "敵を攻撃。戦闘に入った後、敵全体にアーランの攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "적을 바로 공격하며, 전투 진입 후 모든 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.8
-        ]
-      ]
+      "params": [[0.8]],
+      "icon": "icon/skill/1008_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Ataca o inimigo. Após entrar na batalha, causa Dano de Raio leve a todos os inimigos.",
+        "en": "Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.",
+        "zh-CN": "攻击敌人，进战后对敌方全体造成少量雷属性伤害。",
+        "ja": "敵を攻撃。戦闘に入った後、敵全体に少量の雷属性ダメージを与える。",
+        "ko": "적을 공격하며, 전투 진입 후 모든 적에게 소량의 번개 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     }
   ],
   "eidolons": [
@@ -347,7 +243,10 @@
         "zh-CN": "当前生命值百分比小于等于50%时，战技造成的伤害提高10%。",
         "ja": "残りHPが50%以下の時、戦闘スキルによるダメージ+10%。",
         "ko": "현재 HP 백분율이 50% 이하일 경우 전투 스킬이 가하는 피해가 10% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1008_rank1.png",
+      "materials": [{ "id": 11008, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -364,7 +263,10 @@
         "zh-CN": "施放战技、终结技时，解除自身的1个负面效果。",
         "ja": "戦闘スキルまたは必殺技を発動した時、自身のデバフを1つ解除する。",
         "ko": "전투 스킬, 필살기 발동 시 자신의 디버프 효과를 1개 해제한다"
-      }
+      },
+      "icon": "icon/skill/1008_rank2.png",
+      "materials": [{ "id": 11008, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -381,7 +283,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1008_skill.png",
+      "materials": [{ "id": 11008, "num": 1 }],
+      "levelUpSkills": [{ "id": 100802, "num": 2 }, { "id": 100801, "num": 1 }]
     },
     {
       "rank": 4,
@@ -398,7 +303,10 @@
         "zh-CN": "进入战斗后，受到致命攻击时阿兰不会陷入无法战斗状态，并立即回复至自身生命上限的25%。该效果在触发1次后或持续2回合后自动解除。",
         "ja": "戦闘に入った後、アーランはHPが0になる攻撃を受けても戦闘不能状態にならず、HPを25%まで回復する。この効果は1回発動した後、または2ターン以降に自動解除される。",
         "ko": "전투 진입 후 치명적인 공격을 받아도 아를란은 전투 불능 상태에 빠지지 않으며, 즉시 자신 HP 최대치의 25%까지 회복한다. 해당 효과는 1회 발동 후 또는 2턴 지속 후 자동으로 해제된다"
-      }
+      },
+      "icon": "icon/skill/1008_rank4.png",
+      "materials": [{ "id": 11008, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -415,7 +323,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1008_ultimate.png",
+      "materials": [{ "id": 11008, "num": 1 }],
+      "levelUpSkills": [{ "id": 100803, "num": 2 }, { "id": 100804, "num": 2 }]
     },
     {
       "rank": 6,
@@ -432,10 +343,655 @@
         "zh-CN": "当前生命值百分比小于等于50%时，终结技造成的伤害提高20%，且对相邻目标的伤害倍率提高到与主目标相同的伤害倍率。",
         "ja": "残りHPが50%以下の時、必殺技によるダメージ+20%、隣接する敵に対するダメージ倍率がメインターゲットと同じになる。",
         "ko": "현재 HP 백분율이 50% 이하일 경우 필살기가 가하는 피해가 20% 증가하며, 인접한 목표에 대한 피해 배율이 주목표와 같은 피해 배율로 증가한다"
-      }
+      },
+      "icon": "icon/skill/1008_rank6.png",
+      "materials": [{ "id": 11008, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 110,
+  "stats": [
+    {
+      "hp": { "base": 163.2, "step": 8.16 },
+      "atk": { "base": 81.6, "step": 4.08 },
+      "def": { "base": 45, "step": 2.25 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 228.48, "step": 8.16 },
+      "atk": { "base": 114.24, "step": 4.08 },
+      "def": { "base": 63, "step": 2.25 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 293.76, "step": 8.16 },
+      "atk": { "base": 146.88, "step": 4.08 },
+      "def": { "base": 81, "step": 2.25 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 359.04, "step": 8.16 },
+      "atk": { "base": 179.52, "step": 4.08 },
+      "def": { "base": 99, "step": 2.25 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 424.32, "step": 8.16 },
+      "atk": { "base": 212.16, "step": 4.08 },
+      "def": { "base": 117, "step": 2.25 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 489.6, "step": 8.16 },
+      "atk": { "base": 244.8, "step": 4.08 },
+      "def": { "base": 135, "step": 2.25 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 554.88, "step": 8.16 },
+      "atk": { "base": 277.44, "step": 4.08 },
+      "def": { "base": 153, "step": 2.25 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 125, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 111002, "num": 5 }, { "id": 110404, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 111002, "num": 8 }, { "id": 110404, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 111003, "num": 5 }, { "id": 110404, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 111003, "num": 7 }, { "id": 110404, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1008001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1008_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [100801],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1008002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1008_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100802],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110112, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110113, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110113, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1008003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1008_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100803],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110112, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110113, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110113, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1008004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1008_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [100804],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110112, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110113, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110113, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1008007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1008_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [100807],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1008101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Ressurgimento",
+        "en": "Revival",
+        "zh-CN": "苏生",
+        "ja": "{RUBY_B#そせい}蘇生{RUBY_E#}",
+        "ko": "소생"
+      },
+      "description": {
+        "pt-BR": "Se a porcentagem atual dos PV for igual ou inferior a #1[i]% ao derrotar um inimigo, recupera imediatamente PV igual a #2[i]% dos PV máximos.",
+        "en": "If the current HP percentage is #1[i]% or lower when defeating an enemy, immediately restores HP equal to #2[i]% of Max HP.",
+        "zh-CN": "消灭敌方目标时，若当前生命值百分比小于等于#1[i]%，则立即回复等同于自身生命上限#2[i]%的生命值。",
+        "ja": "敵を倒した時、残りHPが#1[i]%以下の場合、自身の最大HP#2[i]%分のHPを回復する。",
+        "ko": "적 처치 시 현재 HP 백분율이 #1[i]% 이하일 경우, 자신 HP 최대치 #2[i]%만큼의 HP를 즉시 회복한다"
+      },
+      "params": [[0.3, 0.2]],
+      "icon": "icon/skill/1008_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 110501, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1008102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Resistência",
+        "en": "Endurance",
+        "zh-CN": "坚忍",
+        "ja": "{RUBY_B#けんにん}堅忍{RUBY_E#}",
+        "ko": "인내"
+      },
+      "description": {
+        "pt-BR": "A chance de resistir a penalidades de Dano Contínuo aumenta em #1[i]%.",
+        "en": "The chance to resist DoT Debuffs increases by #1[i]%.",
+        "zh-CN": "抵抗持续伤害类负面状态的概率提高#1[i]%。",
+        "ja": "持続ダメージ系デバフに抵抗する確率+#1[i]%。",
+        "ko": "지속 피해류 디버프 상태 저항 확률이 #1[i]% 증가한다"
+      },
+      "params": [[0.5]],
+      "icon": "icon/skill/1008_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110112, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1008103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Repulsa",
+        "en": "Repel",
+        "zh-CN": "抗御",
+        "ja": "{RUBY_B#こうきょ}抗拒{RUBY_E#}",
+        "ko": "방어 저항"
+      },
+      "description": {
+        "pt-BR": "Ao entrar na batalha, se a porcentagem dos PV de Arlan forem iguais ou inferiores a #1[i]%, ele pode anular todo o Dano recebido até ser atacado, exceto por fontes de Dano Contínuo.",
+        "en": "Upon entering battle, if Arlan's HP percentage is less than or equal to #1[i]%, he can nullify all DMG received except for DoTs until he is attacked.",
+        "zh-CN": "进入战斗时，若当前生命值百分比小于等于#1[i]%，阿兰可以抵抗除持续伤害外的所有伤害。当阿兰受到攻击后，该效果解除。",
+        "ja": "戦闘に入る時、残りHPが#1[i]%以下の場合、アーランは持続ダメージ以外のすべてのダメージを防ぐ。アーランが攻撃を受けた後、この効果は解除される。",
+        "ko": "전투 진입 시 현재 HP 백분율이 #1[i]% 이하일 경우, 아를란은 지속 피해를 제외한 모든 피해에 저항한다. 해당 효과는 아를란이 피격된 후 해제된다"
+      },
+      "params": [[0.5]],
+      "icon": "icon/skill/1008_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110113, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1008201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1008202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1008101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110111, "num": 2 }, { "id": 111001, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1008203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1008202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1008204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1008203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110112, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1008205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1008102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110112, "num": 4 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1008206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1008205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1008207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1008206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110113, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1008208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1008103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1008209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1008208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1008210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1008208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110113, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11008, 110111, 110112, 110113, 110404, 110501, 111001, 111002, 111003],
   "images": {
     "icon": "icon/character/1008.png",
     "preview": "image/character_preview/1008.png",

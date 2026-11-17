@@ -1,0 +1,24 @@
+{
+  "id": 110281,
+  "slug": "four-phases-crossing-the-river-to-check-the-king",
+  "name": {
+    "pt-BR": "Quatro Fases, Cruzar o Rio e Dar Xeque no Rei",
+    "en": "Four Phases, Crossing the River to Check the King",
+    "zh-CN": "四相，过河照君",
+    "ja": "四相、過河照君",
+    "ko": "사상, 도하장군"
+  },
+  "rarity": 2,
+  "type": "Material",
+  "subType": "TracePath",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/110281.png",
+  "sources": {
+    "en": ["Calyx: Inkford Hermitage", "Embers Exchange", "Omni-Synthesizer — Material Exchange"],
+    "pt-BR": ["Cálice: Retiro Purificarte", "Troca de Brasas", "Sintetizador Omni — Troca de Material"],
+    "zh-CN": ["拟造花萼【渡画泉隐】", "余烬兑换", "「万能合成机」- 材料置换"],
+    "ja": ["疑似花萼「{RUBY_B#とがせんいん}渡画泉隠{RUBY_E#}」", "エンバー交換", "「万能合成マシン」- 素材交換"],
+    "ko": ["모조 꽃받침 [화중은천]", "잔화 교환", "「만능 합성기」- 재료 치환"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": 11402,
+  "slug": "aglaeas-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Aglaea",
+    "en": "Aglaea's Eidolon",
+    "zh-CN": "【阿格莱雅】的星魂",
+    "ja": "「アグライア」の星魂",
+    "ko": "[아글라이아]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

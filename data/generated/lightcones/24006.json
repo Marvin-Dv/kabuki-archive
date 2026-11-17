@@ -20,13 +20,7 @@
     "ko": "지니어스들의 손끝 아래, 데이터는 영원히 멈추지 않고 평온하게 돌아간다.\n가면은 「사건」의 틈새에 숨어, 움트길 기다리는 모든 가능성을 지켜본다.\n분석, 연산, 해답, 질문… 이 또한 천재들의 무대 아니겠는가?\n환호, 눈물, 분노, 절규… 생명의 희로애락이 모두 피어난다.\n무언극은 소란스러워지고, 환락은 축복이 넘쳐흐른다. 이게 가장 매혹적인 장면일까?\n답은 여전히——예측 불가!"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Abertura",
-      "en": "Opening",
-      "zh-CN": "开场",
-      "ja": "開幕",
-      "ko": "오프닝"
-    },
+    "name": { "pt-BR": "Abertura", "en": "Opening", "zh-CN": "开场", "ja": "開幕", "ko": "오프닝" },
     "description": {
       "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Depois que o usuário usa sua Perícia ou Perícia Suprema em um personagem aliado, aumenta a Euforia do alvo em #2[i]% por #3[i] rodada(s).",
       "en": "Increases the wearer's ATK by #1[i]%. After the wearer uses Skill or Ultimate on one ally character, increases the target's Elation stat by #2[i]% for #3[i] turn(s).",
@@ -34,34 +28,60 @@
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが味方キャラ単体に戦闘スキルまたは必殺技を発動した後、ターゲットの愉悦度+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 단일 아군 캐릭터에게 전투 스킬 또는 필살기를 발동한 후, 목표의 환락도를 #2[i]% 증가시킨다, 지속 시간: #3[i]턴"
     },
-    "params": [
-      [
-        0.2,
-        0.12,
-        2
-      ],
-      [
-        0.25,
-        0.15,
-        2
-      ],
-      [
-        0.3,
-        0.18,
-        2
-      ],
-      [
-        0.35,
-        0.21,
-        2
-      ],
-      [
-        0.4,
-        0.24,
-        2
-      ]
+    "params": [[0.2, 0.12, 2], [0.25, 0.15, 2], [0.3, 0.18, 2], [0.35, 0.21, 2], [0.4, 0.24, 2]],
+    "properties": [
+      [{ "type": "AttackAddedRatio", "value": 0.2 }],
+      [{ "type": "AttackAddedRatio", "value": 0.25 }],
+      [{ "type": "AttackAddedRatio", "value": 0.3 }],
+      [{ "type": "AttackAddedRatio", "value": 0.35 }],
+      [{ "type": "AttackAddedRatio", "value": 0.4 }]
     ]
   },
+  "stats": [
+    {
+      "hp": { "base": 43.2, "step": 6.48 },
+      "atk": { "base": 24, "step": 3.6 },
+      "def": { "base": 21, "step": 3.15 }
+    },
+    {
+      "hp": { "base": 95.04, "step": 6.48 },
+      "atk": { "base": 52.8, "step": 3.6 },
+      "def": { "base": 46.2, "step": 3.15 }
+    },
+    {
+      "hp": { "base": 164.16, "step": 6.48 },
+      "atk": { "base": 91.2, "step": 3.6 },
+      "def": { "base": 79.8, "step": 3.15 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 129.6, "step": 3.6 },
+      "def": { "base": 113.4, "step": 3.15 }
+    },
+    {
+      "hp": { "base": 302.4, "step": 6.48 },
+      "atk": { "base": 168, "step": 3.6 },
+      "def": { "base": 147, "step": 3.15 }
+    },
+    {
+      "hp": { "base": 371.52, "step": 6.48 },
+      "atk": { "base": 206.4, "step": 3.6 },
+      "def": { "base": 180.6, "step": 3.15 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 244.8, "step": 3.6 },
+      "def": { "base": 214.2, "step": 3.15 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 5000 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 10000 }, { "id": 110261, "num": 4 }, { "id": 111001, "num": 12 }],
+    [{ "id": 2, "num": 20000 }, { "id": 110262, "num": 4 }, { "id": 111002, "num": 8 }],
+    [{ "id": 2, "num": 50000 }, { "id": 110262, "num": 8 }, { "id": 111002, "num": 12 }],
+    [{ "id": 2, "num": 100000 }, { "id": 110263, "num": 5 }, { "id": 111003, "num": 6 }],
+    [{ "id": 2, "num": 200000 }, { "id": 110263, "num": 10 }, { "id": 111003, "num": 8 }]
+  ],
   "images": {
     "icon": "icon/light_cone/24006.png",
     "preview": "image/light_cone_preview/24006.png",

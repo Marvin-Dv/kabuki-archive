@@ -1,0 +1,17 @@
+{
+  "id": 11104,
+  "slug": "gepards-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Gepard",
+    "en": "Gepard's Eidolon",
+    "zh-CN": "【杰帕德】的星魂",
+    "ja": "「ジェパード」の星魂",
+    "ko": "[게파드]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 110426,
+  "slug": "dream-flamer",
+  "name": {
+    "pt-BR": "Fogareiro de Sonho",
+    "en": "Dream Flamer",
+    "zh-CN": "炙梦喷枪",
+    "ja": "夢を炙るトーチバーナー",
+    "ko": "꿈 토치"
+  },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "AvatarRank",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/110426.png",
+  "sources": {
+    "en": ["Stagnant Shadow: Dream's Edge", "Omni-Synthesizer — Material Exchange"],
+    "pt-BR": ["Sombra Estagnada: Margem do Sonho", "Sintetizador Omni — Troca de Material"],
+    "zh-CN": ["凝滞虚影【筑梦边境】", "「万能合成机」- 材料置换"],
+    "ja": ["凝結虚影「ドリームボーダー」", "「万能合成マシン」- 素材交換"],
+    "ko": ["정체된 허영 [꿈 건축 경계]", "「만능 합성기」- 재료 치환"]
+  }
+}

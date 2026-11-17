@@ -1,13 +1,7 @@
 {
   "id": 1401,
   "slug": "the-herta",
-  "name": {
-    "pt-BR": "A Herta",
-    "en": "The Herta",
-    "zh-CN": "大黑塔",
-    "ja": "マダム・ヘルタ",
-    "ko": "더 헤르타"
-  },
+  "name": { "pt-BR": "A Herta", "en": "The Herta", "zh-CN": "大黑塔", "ja": "マダム・ヘルタ", "ko": "더 헤르타" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Ice",
@@ -32,67 +26,28 @@
         "ko": "지정된 단일 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다"
       },
       "params": [
-        [
-          0.5,
-          3,
-          1,
-          0.3
-        ],
-        [
-          0.6,
-          3,
-          1,
-          0.3
-        ],
-        [
-          0.7,
-          3,
-          1,
-          0.3
-        ],
-        [
-          0.8,
-          3,
-          1,
-          0.3
-        ],
-        [
-          0.9,
-          3,
-          1,
-          0.3
-        ],
-        [
-          1,
-          3,
-          1,
-          0.3
-        ],
-        [
-          1.1,
-          3,
-          1,
-          0.3
-        ],
-        [
-          1.2,
-          3,
-          1,
-          0.3
-        ],
-        [
-          1.3,
-          3,
-          1,
-          0.3
-        ],
-        [
-          1.4,
-          3,
-          1,
-          0.3
-        ]
-      ]
+        [0.5, 3, 1, 0.3],
+        [0.6, 3, 1, 0.3],
+        [0.7, 3, 1, 0.3],
+        [0.8, 3, 1, 0.3],
+        [0.9, 3, 1, 0.3],
+        [1, 3, 1, 0.3],
+        [1.1, 3, 1, 0.3],
+        [1.2, 3, 1, 0.3],
+        [1.3, 3, 1, 0.3],
+        [1.4, 3, 1, 0.3]
+      ],
+      "icon": "icon/skill/1401_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Gelo leve a um inimigo-alvo designado.",
+        "en": "Deals minor Ice DMG to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成少量冰属性伤害。",
+        "ja": "敵単体に少量の氷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 소량의 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140102,
@@ -112,67 +67,33 @@
         "ko": "지정된 단일 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가하고 [해독]을 #2[i]스택 부여한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다. 해당 효과는 2회 반복할 수 있다"
       },
       "params": [
-        [
-          0.35,
-          1
-        ],
-        [
-          0.385,
-          1
-        ],
-        [
-          0.42,
-          1
-        ],
-        [
-          0.455,
-          1
-        ],
-        [
-          0.49,
-          1
-        ],
-        [
-          0.525,
-          1
-        ],
-        [
-          0.5687,
-          1
-        ],
-        [
-          0.6125,
-          1
-        ],
-        [
-          0.6562,
-          1
-        ],
-        [
-          0.7,
-          1
-        ],
-        [
-          0.735,
-          1
-        ],
-        [
-          0.77,
-          1
-        ],
-        [
-          0.805,
-          1
-        ],
-        [
-          0.84,
-          1
-        ],
-        [
-          0.875,
-          1
-        ]
-      ]
+        [0.35, 1],
+        [0.385, 1],
+        [0.42, 1],
+        [0.455, 1],
+        [0.49, 1],
+        [0.525, 1],
+        [0.5687, 1],
+        [0.6125, 1],
+        [0.6562, 1],
+        [0.7, 1],
+        [0.735, 1],
+        [0.77, 1],
+        [0.805, 1],
+        [0.84, 1],
+        [0.875, 1]
+      ],
+      "icon": "icon/skill/1401_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano a um inimigo designado. Causa Dano a alvos atingidos por esta instância da Perícia e aos seus alvos adjacentes, repetindo 2 vezes.",
+        "en": "Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times.",
+        "zh-CN": "对指定敌方单体造成伤害。对被本次战技击中的目标及其相邻目标造成伤害，重复2次。",
+        "ja": "指定した敵単体にダメージを与える。\nその回の戦闘スキルが命中した敵および隣接する敵にダメージを与える。2回繰り返す。",
+        "ko": "지정된 단일 적에게 피해를 가한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 피해를 가하며, 2회 반복한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140103,
@@ -192,127 +113,33 @@
         "ko": "모든 적의 [해독] 스택 수를 재정렬한다. 스택이 높은 [해독]은 정예급 이상의 목표에게 우선 이전되며, 모든 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다. 필살기 발동 시 더 헤르타의 공격력이 #4[i]% 증가한다, 지속 시간: #5[i]턴. 발동 후 더 헤르타는 즉시 행동하며, [영감]을 1스택 획득한다. [영감]은 최대 #6[i]스택 보유할 수 있으며, [영감] 보유 시 전투 스킬이 [내게 대담한 생각이 있어]로 강화된다"
       },
       "params": [
-        [
-          1,
-          2,
-          1,
-          0.4,
-          3,
-          4
-        ],
-        [
-          1.1,
-          2,
-          1,
-          0.44,
-          3,
-          4
-        ],
-        [
-          1.2,
-          2,
-          1,
-          0.48,
-          3,
-          4
-        ],
-        [
-          1.3,
-          2,
-          1,
-          0.52,
-          3,
-          4
-        ],
-        [
-          1.4,
-          2,
-          1,
-          0.56,
-          3,
-          4
-        ],
-        [
-          1.5,
-          2,
-          1,
-          0.6,
-          3,
-          4
-        ],
-        [
-          1.625,
-          2,
-          1,
-          0.65,
-          3,
-          4
-        ],
-        [
-          1.75,
-          2,
-          1,
-          0.7,
-          3,
-          4
-        ],
-        [
-          1.875,
-          2,
-          1,
-          0.75,
-          3,
-          4
-        ],
-        [
-          2,
-          2,
-          1,
-          0.8,
-          3,
-          4
-        ],
-        [
-          2.1,
-          2,
-          1,
-          0.84,
-          3,
-          4
-        ],
-        [
-          2.2,
-          2,
-          1,
-          0.88,
-          3,
-          4
-        ],
-        [
-          2.3,
-          2,
-          1,
-          0.92,
-          3,
-          4
-        ],
-        [
-          2.4,
-          2,
-          1,
-          0.96,
-          3,
-          4
-        ],
-        [
-          2.5,
-          2,
-          1,
-          1,
-          3,
-          4
-        ]
-      ]
+        [1, 2, 1, 0.4, 3, 4],
+        [1.1, 2, 1, 0.44, 3, 4],
+        [1.2, 2, 1, 0.48, 3, 4],
+        [1.3, 2, 1, 0.52, 3, 4],
+        [1.4, 2, 1, 0.56, 3, 4],
+        [1.5, 2, 1, 0.6, 3, 4],
+        [1.625, 2, 1, 0.65, 3, 4],
+        [1.75, 2, 1, 0.7, 3, 4],
+        [1.875, 2, 1, 0.75, 3, 4],
+        [2, 2, 1, 0.8, 3, 4],
+        [2.1, 2, 1, 0.84, 3, 4],
+        [2.2, 2, 1, 0.88, 3, 4],
+        [2.3, 2, 1, 0.92, 3, 4],
+        [2.4, 2, 1, 0.96, 3, 4],
+        [2.5, 2, 1, 1, 3, 4]
+      ],
+      "icon": "icon/skill/1401_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Rearranja o número de acúmulos de \"Interpretação\" em todos os inimigos, priorizando a transferência de maiores valores de acúmulos de \"Interpretação\" para alvos de Elite ou de raridade superior. Então, causa Dano de Gelo a todos os inimigos. Após o uso, aprimora a Perícia e age imediatamente.",
+        "en": "Rearranges the numbers of \"Interpretation\" stacks on all enemies, prioritizing the transfer of the higher numbers of \"Interpretation\" stacks to Elite-level targets and above. Then, deals Ice DMG to all enemies. After use, enhances Skill and immediately takes action.",
+        "zh-CN": "将敌方全体的【解读】层数重新排序，较高层数的【解读】将优先转移到精英级别及以上的目标，并对敌方全体造成冰属性伤害。使用后获得强化战技并立即行动。",
+        "ja": "敵それぞれが持つ「解読」の層数を並び替える。なお、精鋭エネミー以上の敵にはより多い層数を優先的に転移させる。\nまた、敵全体に氷属性ダメージを与え、発動した後に戦闘スキルを強化し、即座に行動する。",
+        "ko": "모든 적의 [해독] 스택 수를 재정렬한다. 스택이 높은 [해독]은 정예급 이상의 목표에게 우선 이전되며, 모든 적에게 얼음 속성 피해를 가한다. 사용 후 강화된 전투 스킬을 획득하고 즉시 행동한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 140104,
@@ -332,139 +159,48 @@
         "ko": "적이 전투 진입 시, 더 헤르타가 대상에게 [해독]을 1스택 부여한다. 웨이브가 시작될 때마다 랜덤 적 1기에게 [해독]을 #6[i]스택 부여하며, 정예급 이상의 목표에게 우선 부여한다. 강화된 전투 스킬의 주목표가 [해독] 보유 시, 스택마다 주목표/다른 목표에게 가하는 피해 배율이 #1[f1]%/#2[f1]% 증가하며, 파티에 「지식」 운명의 길 캐릭터가 2명 이상 있을 시, 스택마다 주목표/다른 목표에게 가하는 피해 배율이 추가로 #1[f1]%/#2[f1]% 증가한다. [해독]은 최대 #3[i]스택 중첩되며, 강화된 전투 스킬 사용 시 주목표의 [해독]은 1스택으로 초기화된다. 적이 퇴장하거나 임의 유닛에게 처치되면 [해독]은 이전되며, 정예급 이상의 목표에게 우선 이전된다"
       },
       "params": [
-        [
-          0.04,
-          0.02,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.044,
-          0.022,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.048,
-          0.024,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.052,
-          0.026,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.056,
-          0.028,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.06,
-          0.03,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.065,
-          0.0325,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.07,
-          0.035,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.075,
-          0.0375,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.08,
-          0.04,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.084,
-          0.042,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.088,
-          0.044,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.092,
-          0.046,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.096,
-          0.048,
-          42,
-          1,
-          42,
-          25
-        ],
-        [
-          0.1,
-          0.05,
-          42,
-          1,
-          42,
-          25
-        ]
-      ]
+        [0.04, 0.02, 42, 1, 42, 25],
+        [0.044, 0.022, 42, 1, 42, 25],
+        [0.048, 0.024, 42, 1, 42, 25],
+        [0.052, 0.026, 42, 1, 42, 25],
+        [0.056, 0.028, 42, 1, 42, 25],
+        [0.06, 0.03, 42, 1, 42, 25],
+        [0.065, 0.0325, 42, 1, 42, 25],
+        [0.07, 0.035, 42, 1, 42, 25],
+        [0.075, 0.0375, 42, 1, 42, 25],
+        [0.08, 0.04, 42, 1, 42, 25],
+        [0.084, 0.042, 42, 1, 42, 25],
+        [0.088, 0.044, 42, 1, 42, 25],
+        [0.092, 0.046, 42, 1, 42, 25],
+        [0.096, 0.048, 42, 1, 42, 25],
+        [0.1, 0.05, 42, 1, 42, 25]
+      ],
+      "icon": "icon/skill/1401_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "A Perícia Aprimorada aumenta o Dano causado com base nos acúmulos de \"Interpretação\" do alvo.",
+        "en": "Enhanced Skill increases the DMG dealt based on the target's \"Interpretation\" stacks.",
+        "zh-CN": "强化战技根据目标【解读】层数，提高造成的伤害。",
+        "ja": "ターゲットにある「解読」の層数に応じて、強化戦闘スキルのダメージ倍率がアップする。",
+        "ko": "강화된 전투 스킬은 목표의 [해독] 스택 수에 따라 가하는 피해가 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140106,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1401_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -489,16 +225,18 @@
         "ja": "秘技を使用した後、次の戦闘開始時、マダム・ヘルタの攻撃力+#1[i]%、#2[i]ターン継続。\nマップ内に普通の戦利品がある場合、秘技を使用すると普通の戦利品の位置を最大で#3[i]箇所マークする。\n模擬宇宙、または階差宇宙で秘技を使用して戦闘に入った後、各ウェーブ開始時に通常エネミーそれぞれに、その敵の最大HP#4[i]%分の確定ダメージを与え、精鋭エネミー以上の敵それぞれに、その敵の最大HP#5[i]%分の確定ダメージを与える。",
         "ko": "비술 사용 후, 다음 전투 시작 시 더 헤르타의 공격력이 #1[i]% 증가한다, 지속 시간: #2[i]턴\n현재 맵에 일반 전리품이 존재할 경우, 비술 사용 후 일반 전리품의 위치를 최대 #3[i]개 표시한다.\n시뮬레이션 우주, 차분화 우주에서 비술을 사용하고 전투에 진입한 후, 웨이브가 시작될 때마다 정예급 미만의 적에게 목표 HP 최대치의 #4[i]%만큼 확정 피해를 가하고, 정예급 이상의 목표에게 목표 HP 최대치의 #5[i]%만큼 확정 피해를 가한다"
       },
-      "params": [
-        [
-          0.6,
-          2,
-          3,
-          0.99,
-          0.3,
-          25
-        ]
-      ]
+      "params": [[0.6, 2, 3, 0.99, 0.3, 25]],
+      "icon": "icon/skill/1401_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Após usar a Técnica, marca várias localizações de Tesouros Básicos, e aumenta o ATQ de A Herta no início da próxima batalha.\nApós entrar em batalha usando a Técnica no Universo Simulado ou no Universo Divergente, causará uma quantidade massiva de Dano Verdadeiro a todos os inimigos no início de cada onda.",
+        "en": "After using Technique, can mark several Basic Treasures' locations, and increases The Herta's ATK at the start of the next battle.\nAfter entering battle by using Technique in Simulated Universe or Divergent Universe, deals massive True DMG to all enemies at the start of each wave.",
+        "zh-CN": "使用秘技后，可以标记数个普通战利品的位置，并且下一次战斗开始时大黑塔攻击力提高。\n在模拟宇宙、差分宇宙使用秘技进战后，每个波次开始时对敌方全体造成大量真实伤害。",
+        "ja": "秘技を使用した後、普通の戦利品の位置を数ヶ所マークする。また、次の戦闘開始時にマダム・ヘルタの攻撃力がアップする。\n模擬宇宙、または階差宇宙で秘技を使用して戦闘に入った後、各ウェーブ開始時に敵全体に大量の確定ダメージを与える。",
+        "ko": "비술을 사용하면 일반 전리품의 위치를 일부 표시하며, 다음 전투 시작 시 더 헤르타의 공격력이 증가한다.\n시뮬레이션 우주, 차분화 우주에서 비술을 사용하고 전투에 진입하면 웨이브가 시작될 때마다 모든 적에게 대량의 확정 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140109,
@@ -518,82 +256,33 @@
         "ko": "[영감]을 1스택 소모한다. 지정된 단일 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가하고 [해독]을 #2[i]스택 부여한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가하며, 2회 반복한다. 마지막으로 모든 적에게 더 헤르타 공격력의 #3[i]%만큼 얼음 속성 피해를 가한다"
       },
       "params": [
-        [
-          0.4,
-          1,
-          0.2
-        ],
-        [
-          0.44,
-          1,
-          0.22
-        ],
-        [
-          0.48,
-          1,
-          0.24
-        ],
-        [
-          0.52,
-          1,
-          0.26
-        ],
-        [
-          0.56,
-          1,
-          0.28
-        ],
-        [
-          0.6,
-          1,
-          0.3
-        ],
-        [
-          0.65,
-          1,
-          0.325
-        ],
-        [
-          0.7,
-          1,
-          0.35
-        ],
-        [
-          0.75,
-          1,
-          0.375
-        ],
-        [
-          0.8,
-          1,
-          0.4
-        ],
-        [
-          0.84,
-          1,
-          0.42
-        ],
-        [
-          0.88,
-          1,
-          0.44
-        ],
-        [
-          0.92,
-          1,
-          0.46
-        ],
-        [
-          0.96,
-          1,
-          0.48
-        ],
-        [
-          1,
-          1,
-          0.5
-        ]
-      ]
+        [0.4, 1, 0.2],
+        [0.44, 1, 0.22],
+        [0.48, 1, 0.24],
+        [0.52, 1, 0.26],
+        [0.56, 1, 0.28],
+        [0.6, 1, 0.3],
+        [0.65, 1, 0.325],
+        [0.7, 1, 0.35],
+        [0.75, 1, 0.375],
+        [0.8, 1, 0.4],
+        [0.84, 1, 0.42],
+        [0.88, 1, 0.44],
+        [0.92, 1, 0.46],
+        [0.96, 1, 0.48],
+        [1, 1, 0.5]
+      ],
+      "icon": "icon/skill/1401_skill2.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano a um inimigo designado. Causa Dano aos alvos atingidos por esta instância da Perícia e aos seus respectivos alvos adjacentes, repetindo 2 vezes. Após isso, causa Dano a todos os inimigos.",
+        "en": "Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times. After that, deals DMG to all enemies.",
+        "zh-CN": "对指定敌方单体造成伤害。对被本次战技击中的目标及其相邻目标造成伤害，重复2次。之后，对敌方全体造成伤害。",
+        "ja": "指定した敵単体にダメージを与える。\nその回の戦闘スキルが命中した敵および隣接する敵にダメージを与える。2回繰り返す。その後、敵全体にダメージを与える。",
+        "ko": "지정된 단일 적에게 피해를 가한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 피해를 가하며, 2회 반복한다. 이후 모든 적에게 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     }
   ],
   "eidolons": [
@@ -612,7 +301,10 @@
         "zh-CN": "强化战技计算【解读】层数时，额外计算主目标及相邻目标中层数最高的1个目标当前【解读】层数的50%。施放强化战技重置【解读】时，改为将层数重置为15层。",
         "ja": "強化戦闘スキルで「解読」の層数を計算する時、スキルのメインターゲットおよび隣接する敵の中で、最も「解読」の層数が多い敵1体の層数50%分を計算に加える。強化戦闘スキルを発動して「解読」をリセットした時、「解読」の層数は15層にリセットされる。",
         "ko": "강화된 전투 스킬이 [해독] 스택 수 계산 시, 추가로 주목표 및 인접한 목표 중 스택이 가장 높은 목표의 현재 [해독] 스택 수의 50%를 계산한다. 강화된 전투 스킬을 발동해 [해독] 초기화 시 스택 수가 15스택으로 초기화된다"
-      }
+      },
+      "icon": "icon/skill/1401_rank1.png",
+      "materials": [{ "id": 11401, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -629,7 +321,10 @@
         "zh-CN": "大黑塔进入战斗和施放终结技后，额外获得1层【灵感】。施放强化战技后，大黑塔的下一次行动提前35%。",
         "ja": "マダム・ヘルタが戦闘に入る、または必殺技を発動した後、追加で「第六感」を1層獲得する。強化戦闘スキルを発動した後、マダム・ヘルタの次の行動順が35%早まる。",
         "ko": "더 헤르타가 전투 진입 및 필살기 발동 후 추가로 [영감]을 1스택 획득한다. 강화된 전투 스킬 발동 후, 더 헤르타의 다음 행동 게이지가 35% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1401_rank2.png",
+      "materials": [{ "id": 11401, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -646,7 +341,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1401_skill.png",
+      "materials": [{ "id": 11401, "num": 1 }],
+      "levelUpSkills": [{ "id": 140102, "num": 2 }, { "id": 140104, "num": 2 }, { "id": 140109, "num": 2 }]
     },
     {
       "rank": 4,
@@ -663,7 +361,10 @@
         "zh-CN": "队伍中的「智识」命途角色的速度提高12%。",
         "ja": "パーティ内の「知恵」の運命を歩むキャラクターの速度+12%。",
         "ko": "파티 내 「지식」 운명의 길 캐릭터의 속도가 12% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1401_rank4.png",
+      "materials": [{ "id": 11401, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -680,7 +381,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1401_ultimate.png",
+      "materials": [{ "id": 11401, "num": 1 }],
+      "levelUpSkills": [{ "id": 140103, "num": 2 }, { "id": 140101, "num": 1 }]
     },
     {
       "rank": 6,
@@ -697,10 +401,682 @@
         "zh-CN": "大黑塔的冰属性抗性穿透提高20%，当场上敌方目标数量等于3或以上/2/1名时，终结技的伤害倍率提高140%/250%/400%。",
         "ja": "マダム・ヘルタの氷属性耐性貫通+20%。\nまた、必殺技のダメージ倍率がフィールド上の敵の数に応じてアップする。\n敵の数が3体以上の場合、必殺技のダメージ倍率+140%。\n敵の数が2体の場合、必殺技のダメージ倍率+250%。\n敵の数が1体の場合、必殺技のダメージ倍率+400%。",
         "ko": "더 헤르타의 얼음 속성 저항 관통이 20% 증가한다. 필드 위 적의 수량이 3 이상/2/1일 시 필살기의 피해 배율이 140%/250%/400% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1401_rank6.png",
+      "materials": [{ "id": 11401, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 220,
+  "stats": [
+    {
+      "hp": { "base": 158.4, "step": 7.92 },
+      "atk": { "base": 92.4, "step": 4.62 },
+      "def": { "base": 66, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 221.76, "step": 7.92 },
+      "atk": { "base": 129.36, "step": 4.62 },
+      "def": { "base": 92.4, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 285.12, "step": 7.92 },
+      "atk": { "base": 166.32, "step": 4.62 },
+      "def": { "base": 118.8, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 348.48, "step": 7.92 },
+      "atk": { "base": 203.28, "step": 4.62 },
+      "def": { "base": 145.2, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 411.84, "step": 7.92 },
+      "atk": { "base": 240.24, "step": 4.62 },
+      "def": { "base": 171.6, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 475.2, "step": 7.92 },
+      "atk": { "base": 277.2, "step": 4.62 },
+      "def": { "base": 198, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 538.56, "step": 7.92 },
+      "atk": { "base": 314.16, "step": 4.62 },
+      "def": { "base": 224.4, "step": 3.3 },
+      "spd": { "base": 99, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 111001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 111001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 111002, "num": 6 }, { "id": 110423, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 111002, "num": 9 }, { "id": 110423, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 111003, "num": 6 }, { "id": 110423, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 111003, "num": 9 }, { "id": 110423, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1401001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1401_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [140101],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110201, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110202, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110202, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110203, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110203, "num": 8 }, { "id": 111003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1401002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1401_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140102, 140109],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110201, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110202, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110202, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110202, "num": 7 }, { "id": 111002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110203, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110203, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 111003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110203, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110203, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1401003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1401_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140103],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110201, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110202, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110202, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110202, "num": 7 }, { "id": 111002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110203, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110203, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 111003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110203, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110203, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1401004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1401_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [140104],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110201, "num": 3 }, { "id": 111001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110202, "num": 3 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110202, "num": 5 }, { "id": 111002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110202, "num": 7 }, { "id": 111002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110203, "num": 3 }, { "id": 111003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110203, "num": 5 },
+            { "id": 110506, "num": 1 },
+            { "id": 111003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110203, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110203, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1401007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1401_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [140107],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1401101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Honestidade Indiferente",
+        "en": "Aloofly Honest",
+        "zh-CN": "冷漠的诚实",
+        "ja": "{RUBY_B#つめ}冷{RUBY_E#}たい{RUBY_B#しんじつ}真実{RUBY_E#}",
+        "ko": "냉정한 정직"
+      },
+      "description": {
+        "pt-BR": "Quando um aliado-alvo ataca, inflige 1 acúmulo de \"Interpretação\" ao inimigo-alvo atingido. Após atacar, para cada 1 alvo atingido por este ataque, regenera #1[i] de Energia fixa para A Herta, até um máximo de 5 alvos. Ao usar a Perícia Aprimorada, se o acúmulo de \"Interpretação\" do alvo principal chegar a 42, aumenta o Dano de Gelo causado por A Herta em #2[i]%, durando até o final deste ataque.",
+        "en": "When ally targets attack, inflicts 1 stack of \"Interpretation\" on the hit enemy target. After attacking, for every 1 target hit by this attack, regenerates #1[i] fixed Energy for The Herta, counting up to a maximum of 5 targets. When using Enhanced Skill, if the primary target's \"Interpretation\" stack reaches 42, increases the Ice DMG dealt by The Herta by #2[i]%, lasting until the end of this attack.",
+        "zh-CN": "我方目标攻击时，对被击中的敌方目标施加1层【解读】。攻击后，本次攻击每击中1个目标就使大黑塔固定恢复#1[i]点能量，最多计算5个目标。施放强化战技时，若主目标的【解读】层数达到42，使大黑塔造成的伤害提高#2[i]%，持续到本次攻击结束。",
+        "ja": "味方が攻撃を行う時、攻撃が命中する敵に「解読」を1層付与する。攻撃を行った後、その回の攻撃で命中した敵1体につき、マダム・ヘルタはEPを固定で#1[i]回復する。カウントされる敵は最大5体まで。\n強化戦闘スキルを発動する時、メインターゲットの「解読」が42層に達している場合、マダム・ヘルタの与ダメージ+#2[i]%。この強化はその回の攻撃が終了するまで継続する。",
+        "ko": "아군이 공격 시 명중한 적에게 [해독]을 1스택 부여한다. 공격 후, 이번 공격에서 명중한 목표 1기당 더 헤르타의 에너지를 고정으로 #1[i]pt 회복하며, 최대 5개 목표까지 계산한다. 강화된 전투 스킬 발동 시 주목표의 [해독]이 42스택에 도달하면 더 헤르타가 가하는 피해가 #2[i]% 증가하며, 이번 공격이 종료될 때까지 지속된다"
+      },
+      "params": [[3, 0.5]],
+      "icon": "icon/skill/1401_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110201, "num": 3 }, { "id": 110506, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1401102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Mensagem de Além do Véu",
+        "en": "Message From Beyond the Veil",
+        "zh-CN": "视界外来信",
+        "ja": "{RUBY_B#きょうかい}境界{RUBY_E#}からの{RUBY_B#たよ}便{RUBY_E#}り",
+        "ko": "시야 밖의 편지"
+      },
+      "description": {
+        "pt-BR": "Ao entrar em combate, se houver pelo menos 2 personagens seguindo o Caminho da Erudição na equipe, aumenta o Dano CRIT de todos os aliados em #1[i]%. E o Rastro \"Honestidade Indiferente\" conta ao menos #2[i] alvo(s) ao calcular o número de alvos atingidos. Após atacar, aplica #3[i] acúmulo(s) de \"Interpretação\" ao alvo que tem o maior número de acúmulo(s) existente(s) de \"Interpretação\" entre os inimigos-alvo atingidos. Se o atacante for um personagem do Caminho da Erudição, então aplica adicionalmente #4[i] acúmulo(s) de \"Interpretação\".",
+        "en": "When entering battle, if the team has 2 or more Erudition characters, increases all allies' CRIT DMG by #1[i]%. And the Trace \"Aloofly Honest\" counts at least #2[i] target(s) when calculating the number of targets hit. After attacking, applies #3[i] \"Interpretation\" stack(s) to the target that has the highest existing \"Interpretation\" stacks among the hit enemy targets. If the attacker is an Erudition character, then additionally applies #4[i] \"Interpretation\" stack(s).",
+        "zh-CN": "进入战斗时，若队伍中的「智识」命途角色大于等于2名，使我方全体暴击伤害提高#1[i]%，行迹【冷漠的诚实】计算击中目标数时至少计算#2[i]个目标，攻击后对被击中的敌方目标中【解读】层数最高的目标施加#3[i]层【解读】，若攻击者为「智识」命途角色则额外施加#4[i]层【解读】。",
+        "ja": "戦闘に入る時、パーティに「知恵」の運命を歩むキャラが2名以上いる場合、以下の効果が発動される。\n味方全体の会心ダメージ+#1[i]%、軌跡「冷たい真実」で命中した敵の数を計算する時、少なくとも#2[i]体を計算に加える。攻撃を行った後、命中した敵の中で「解読」層数が最も多い敵に「解読」を#3[i]層付与する。攻撃者が「知恵」の運命を歩むキャラクターである場合、追加で「解読」を#4[i]層付与する。",
+        "ko": "전투 진입 시 파티 내 「지식」 운명의 길 캐릭터가 2명 이상일 경우 모든 아군의 치명타 피해가 #1[i]% 증가한다. 행적 [냉정한 정직]이 명중한 목표 계산 시 최소 #2[i]기의 목표를 계산하고, 공격 후 명중한 적 중 [해독] 스택 수가 가장 높은 목표에게 [해독]을 #3[i]스택 부여하며, 공격자가 「지식」 운명의 길 캐릭터일 경우 추가로 [해독]을 #4[i]스택 부여한다"
+      },
+      "params": [[0.8, 3, 1, 2]],
+      "icon": "icon/skill/1401_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110202, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1401103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Paisagem Faminta de Vacua",
+        "en": "Starved Landscape of Vacua",
+        "zh-CN": "饥饿的地景",
+        "ja": "{RUBY_B#う}飢{RUBY_E#}えた{RUBY_B#ちけい}地景{RUBY_E#}",
+        "ko": "허기의 풍경"
+      },
+      "description": {
+        "pt-BR": "Para cada 1 acúmulo de \"Interpretação\" aplicado a inimigos-alvo, A Herta ganha 1 acúmulo de \"Resposta\" até um máximo de #2[i] acúmulo(s). Ao utilizar a Perícia Suprema, cada acúmulo de \"Resposta\" aumenta o multiplicador de Dano da Perícia Suprema em #1[f1]%.",
+        "en": "For every 1 stack of \"Interpretation\" inflicted on enemy targets, The Herta gains 1 stack of \"Answer,\" up to a max of #2[i] stack(s). When using Ultimate, each \"Answer\" stack increases this instance of Ultimate's DMG multiplier by #1[f1]%.",
+        "zh-CN": "敌方目标每被施加1层【解读】，大黑塔获得1层【谜底】，最多叠加#2[i]层。施放终结技时，每持有1层【谜底】，使本次终结技的伤害倍率提高#1[f1]%。",
+        "ja": "敵に「解読」が1層付与されるたびに、マダム・ヘルタは「回答」を1層獲得する、最大で#2[i]層累積できる。必殺技を発動する時、「回答」1層につき、その回の必殺技のダメージ倍率+#1[f1]%。",
+        "ko": "적에게 [해독]이 1스택 부여될 때마다 더 헤르타가 [수수께끼의 답]을 1스택 획득한다, 최대 중첩수: #2[i]스택. 필살기 발동 시 [수수께끼의 답]을 1스택 보유할 때마다 이번 필살기의 피해 배율이 #1[f1]% 증가한다"
+      },
+      "params": [[0.01, 99]],
+      "icon": "icon/skill/1401_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110203, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110506, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1401201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 111001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1401202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1401101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110201, "num": 3 }, { "id": 111001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1401203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1401202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110202, "num": 3 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1401204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1401202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110202, "num": 3 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1401205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1401102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110202, "num": 5 }, { "id": 111002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1401206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1401205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110203, "num": 3 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1401207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1401205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110203, "num": 3 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1401208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1401103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110203, "num": 8 }, { "id": 111003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1401209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1401103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110203, "num": 8 }, { "id": 111003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1401210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110203, "num": 8 }, { "id": 111003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11401, 110201, 110202, 110203, 110423, 110506, 111001, 111002, 111003],
   "images": {
     "icon": "icon/character/1401.png",
     "preview": "image/character_preview/1401.png",

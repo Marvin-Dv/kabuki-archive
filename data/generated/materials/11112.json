@@ -1,0 +1,17 @@
+{
+  "id": 11112,
+  "slug": "topaz-numbys-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Topaz e Dinheirinho",
+    "en": "Topaz & Numby's Eidolon",
+    "zh-CN": "【托帕&账账】的星魂",
+    "ja": "「トパーズ&カブ」の星魂",
+    "ko": "[토파즈&복순이]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

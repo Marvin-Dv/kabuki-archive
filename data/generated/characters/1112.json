@@ -17,13 +17,7 @@
     {
       "id": 111201,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Déficit...",
-        "en": "Deficit...",
-        "zh-CN": "赤字…",
-        "ja": "赤字…",
-        "ko": "적자…"
-      },
+      "name": { "pt-BR": "Déficit...", "en": "Deficit...", "zh-CN": "赤字…", "ja": "赤字…", "ko": "적자…" },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Topaz a um único inimigo.",
         "en": "Deals Fire DMG equal to #1[i]% of Topaz's ATK to one designated enemy.",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にトパーズの攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 토파즈 공격력 #1[i]%만큼의 화염 속성 피해를 준다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1112_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Fogo leve a um inimigo.",
+        "en": "Deals minor Fire DMG to an enemy.",
+        "zh-CN": "对敌方单体造成少量火属性伤害。",
+        "ja": "敵単体に少量の炎属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 111202,
@@ -82,67 +56,33 @@
         "ko": "지정된 단일 적을 [부채 증명] 상태에 빠트려 적이 받는 추가 공격 피해를 #2[i]% 증가시킨다. [부채 증명]은 가장 최근에 부여한 목표에게만 적용된다. 아군 턴 시작 또는 행동 시 필드 위에 [부채 증명] 상태에 빠진 적이 없으면 토파즈가 임의의 적을 [부채 증명] 상태에 빠트린다.\n복순이는 해당 목표에게 토파즈 공격력 #1[i]%만큼의 화염 속성 피해를 준다. 해당 전투 스킬 발동으로 피해를 가할 시 추가 공격을 발동한 것으로 간주한다"
       },
       "params": [
-        [
-          0.75,
-          0.25
-        ],
-        [
-          0.825,
-          0.275
-        ],
-        [
-          0.9,
-          0.3
-        ],
-        [
-          0.975,
-          0.325
-        ],
-        [
-          1.05,
-          0.35
-        ],
-        [
-          1.125,
-          0.375
-        ],
-        [
-          1.2188,
-          0.4062
-        ],
-        [
-          1.3125,
-          0.4375
-        ],
-        [
-          1.4062,
-          0.4688
-        ],
-        [
-          1.5,
-          0.5
-        ],
-        [
-          1.575,
-          0.525
-        ],
-        [
-          1.65,
-          0.55
-        ],
-        [
-          1.725,
-          0.575
-        ],
-        [
-          1.8,
-          0.6
-        ],
-        [
-          1.875,
-          0.625
-        ]
-      ]
+        [0.75, 0.25],
+        [0.825, 0.275],
+        [0.9, 0.3],
+        [0.975, 0.325],
+        [1.05, 0.35],
+        [1.125, 0.375],
+        [1.2188, 0.4062],
+        [1.3125, 0.4375],
+        [1.4062, 0.4688],
+        [1.5, 0.5],
+        [1.575, 0.525],
+        [1.65, 0.55],
+        [1.725, 0.575],
+        [1.8, 0.6],
+        [1.875, 0.625]
+      ],
+      "icon": "icon/skill/1112_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Inflige o estado de Prova de Débito a um único inimigo e faz com que ele receba mais Dano de Ataques Extras. Dinheirinho causa Dano de Fogo a este alvo.",
+        "en": "Inflicts one enemy with a \"Proof of Debt\" state and causes it to receive increased Follow-Up ATK DMG. Numby deals Fire DMG to the target.",
+        "zh-CN": "使敌方单体陷入【负债证明】状态，受到的追加攻击伤害提高。账账对目标造成火属性伤害。",
+        "ja": "敵単体を「負債証明」状態にし、受ける追加攻撃ダメージをアップさせる。カブはその敵に炎属性ダメージを与える。",
+        "ko": "단일 적을 [부채 증명] 상태에 빠트리고, 해당 적이 받는 추가 공격 피해를 증가시킨다. 복순이는 목표에게 화염 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 111203,
@@ -162,97 +102,33 @@
         "ko": "복순이가 [폭증!] 상태에 진입하고 복순이의 피해 배율이 #1[i]%, 치명타 피해가 #2[i]% 증가한다. [부채 증명] 상태에 빠진 적이 아군의 일반 공격, 전투 스킬 혹은 필살기로 공격을 받을 시 복순이의 행동 게이지가 #3[i]% 증가한다. 복순이가 #4[i]회 공격 후 [폭증!] 상태가 해제된다"
       },
       "params": [
-        [
-          0.75,
-          0.125,
-          0.5,
-          2
-        ],
-        [
-          0.825,
-          0.1375,
-          0.5,
-          2
-        ],
-        [
-          0.9,
-          0.15,
-          0.5,
-          2
-        ],
-        [
-          0.975,
-          0.1625,
-          0.5,
-          2
-        ],
-        [
-          1.05,
-          0.175,
-          0.5,
-          2
-        ],
-        [
-          1.125,
-          0.1875,
-          0.5,
-          2
-        ],
-        [
-          1.2188,
-          0.2031,
-          0.5,
-          2
-        ],
-        [
-          1.3125,
-          0.2188,
-          0.5,
-          2
-        ],
-        [
-          1.4062,
-          0.2344,
-          0.5,
-          2
-        ],
-        [
-          1.5,
-          0.25,
-          0.5,
-          2
-        ],
-        [
-          1.575,
-          0.2625,
-          0.5,
-          2
-        ],
-        [
-          1.65,
-          0.275,
-          0.5,
-          2
-        ],
-        [
-          1.725,
-          0.2875,
-          0.5,
-          2
-        ],
-        [
-          1.8,
-          0.3,
-          0.5,
-          2
-        ],
-        [
-          1.875,
-          0.3125,
-          0.5,
-          2
-        ]
-      ]
+        [0.75, 0.125, 0.5, 2],
+        [0.825, 0.1375, 0.5, 2],
+        [0.9, 0.15, 0.5, 2],
+        [0.975, 0.1625, 0.5, 2],
+        [1.05, 0.175, 0.5, 2],
+        [1.125, 0.1875, 0.5, 2],
+        [1.2188, 0.2031, 0.5, 2],
+        [1.3125, 0.2188, 0.5, 2],
+        [1.4062, 0.2344, 0.5, 2],
+        [1.5, 0.25, 0.5, 2],
+        [1.575, 0.2625, 0.5, 2],
+        [1.65, 0.275, 0.5, 2],
+        [1.725, 0.2875, 0.5, 2],
+        [1.8, 0.3, 0.5, 2],
+        [1.875, 0.3125, 0.5, 2]
+      ],
+      "icon": "icon/skill/1112_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Dinheirinho entra no estado de \"Bonança Inesperada!\" e aumenta seu multiplicador de Dano e seu Dano CRIT.",
+        "en": "Numby enters the Windfall Bonanza! state and increases its DMG multiplier and CRIT DMG.",
+        "zh-CN": "使账账进入【涨幅惊人！】状态，伤害倍率与暴击伤害提高。",
+        "ja": "カブを「心躍る上昇幅！」状態にし、ダメージ倍率と会心ダメージをアップする。",
+        "ko": "복순이가 [폭증!] 상태에 진입하고 피해 배율과 치명타 피해가 증가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 111204,
@@ -272,94 +148,48 @@
         "ko": "전투 시작 시 복순이를 소환한다. 복순이의 기본 속도는 #1[i]pt이며, 행동 시 추가 공격을 발동한다. [부채 증명] 상태에 빠진 단일 적에게 토파즈 공격력 #2[i]%만큼의 화염 속성 피해를 준다.\n[부채 증명] 상태에 빠진 적이 아군의 추가 공격을 받으면 복순이의 행동 게이지가 #3[i]% 증가한다. 복순이 자신의 턴에는 행동 게이지 증가 효과가 발동하지 않는다.\n토파즈가 전투 불능 상태에 빠지면 복순이도 사라진다"
       },
       "params": [
-        [
-          80,
-          0.75,
-          0.5
-        ],
-        [
-          80,
-          0.825,
-          0.5
-        ],
-        [
-          80,
-          0.9,
-          0.5
-        ],
-        [
-          80,
-          0.975,
-          0.5
-        ],
-        [
-          80,
-          1.05,
-          0.5
-        ],
-        [
-          80,
-          1.125,
-          0.5
-        ],
-        [
-          80,
-          1.2188,
-          0.5
-        ],
-        [
-          80,
-          1.3125,
-          0.5
-        ],
-        [
-          80,
-          1.4062,
-          0.5
-        ],
-        [
-          80,
-          1.5,
-          0.5
-        ],
-        [
-          80,
-          1.575,
-          0.5
-        ],
-        [
-          80,
-          1.65,
-          0.5
-        ],
-        [
-          80,
-          1.725,
-          0.5
-        ],
-        [
-          80,
-          1.8,
-          0.5
-        ],
-        [
-          80,
-          1.875,
-          0.5
-        ]
-      ]
+        [80, 0.75, 0.5],
+        [80, 0.825, 0.5],
+        [80, 0.9, 0.5],
+        [80, 0.975, 0.5],
+        [80, 1.05, 0.5],
+        [80, 1.125, 0.5],
+        [80, 1.2188, 0.5],
+        [80, 1.3125, 0.5],
+        [80, 1.4062, 0.5],
+        [80, 1.5, 0.5],
+        [80, 1.575, 0.5],
+        [80, 1.65, 0.5],
+        [80, 1.725, 0.5],
+        [80, 1.8, 0.5],
+        [80, 1.875, 0.5]
+      ],
+      "icon": "icon/skill/1112_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "No início da batalha, invoca Dinheirinho. Quando Dinheirinho age, ele realiza um Ataque Extra em um alvo afetado por \"Prova de Débito\", causando Dano de Fogo.\nQuando um inimigo afetado por \"Prova de Débito\" recebe Ataques Extra, a ação de Dinheirinho é adiantada.",
+        "en": "At the start of the battle, summons Numby. When Numby takes action, it launches Follow-Up ATK on a target afflicted with \"Proof of Debt\", dealing Fire DMG.\nWhen an enemy afflicted with \"Proof of Debt\" receives Follow-Up ATK, Numby's action advances.",
+        "zh-CN": "战斗开始召唤账账，账账行动时对陷入【负债证明】的目标发动追加攻击，造成火属性伤害。\n陷入【负债证明】的敌人受到追加攻击时账账行动提前。",
+        "ja": "戦闘開始時にカブを召喚する。カブは行動時に「負債証明」を付与された敵に追加攻撃を行い、炎属性ダメージを与える。\n「負債証明」を付与された敵が追加攻撃を受ける時、カブの行動順が早まる。",
+        "ko": "전투가 시작되면 복순이를 소환하고, 복순이가 행동 시 [부채 증명]에 빠진 목표에게 추가 공격을 발동하며 화염 속성 피해를 가한다.\n[부채 증명]에 빠진 적이 추가 공격을 받으면 복순이의 행동 게이지가 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 111206,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1112_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -384,12 +214,18 @@
         "ja": "操作キャラクターをトパーズに切り替えた時、カブを召喚する。カブは一定範囲内の普通の戦利品とプーマンを自動で捜索する。\n秘技を使用すると、次の戦闘でカブが初めて攻撃を行った後、トパーズのEPを#1[i]回復する。\n秘技を使用してマップ内の敵との戦闘に勝利した後、トパーズがパーティに編入されている場合、信用ポイントを獲得する時に追加で少量の信用ポイントを獲得する。この方法を通して、1日に最大で#2[i]信用ポイントを追加獲得できる。\n秘技を使用して模擬宇宙、階差宇宙の敵との戦闘に勝利した後、追加で少量の宇宙の欠片を獲得し、低確率でランダムな奇物を1つ獲得できる。",
         "ko": "토파즈는 필드 입장 시 복순이를 소환하고, 복순이는 일정 범위 내의 일반 전리품과 저금통을 자동으로 탐색한다.\n비술을 직접 발동하면 다음 전투에서 복순이가 첫 공격 발동 후 토파즈가 에너지를 #1[i]pt 회복한다.\n비술을 발동하고 맵에서 적과 전투하여 승리한 후, 토파즈가 여전히 파티에 있으면 신용 포인트 획득 단계에서 추가로 소량의 신용 포인트를 획득한다. 신용 포인트는 하루에 최대 추가로 #2[i] 포인트 획득할 수 있다.\n비술을 발동하고 시뮬레이션 우주, 차분화 우주에서 적과 전투하여 승리하면 추가로 소량의 우주 조각을 획득하고 낮은 확률로 랜덤 기물을 1개 획득한다"
       },
-      "params": [
-        [
-          60,
-          10000
-        ]
-      ]
+      "params": [[60, 10000]],
+      "icon": "icon/skill/1112_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Invoca Dinheirinho para acompanhar em um mapa. Dinheirinho procurará automaticamente por Tesouros Básicos e Cofrinhos por perto. Usar a Técnica regenerará a Energia de Topaz após o primeiro ataque de Dinheirinho na próxima batalha.",
+        "en": "Summons Numby to tag along in a map. Numby will automatically search for Basic Treasures and Trotters nearby. Using Technique will regenerate Energy for Topaz after Numby's first attack in the next battle.",
+        "zh-CN": "迷宫内召唤账账跟随移动，账账会自动搜寻附近的普通战利品和扑满。施放秘技使下一场战斗中账账首次攻击后，托帕恢复能量。",
+        "ja": "マップでカブを召喚する。カブは自動で近くにある普通の戦利品とプーマンを捜索する。秘技を発動すると、次の戦闘中にカブが初めて攻撃を行った後、トパーズはEPを回復する。",
+        "ko": "미궁 안에서 뒤따라 이동하는 복순이를 소환한다. 복순이는 자동으로 근처의 일반 전리품과 저금통을 탐색한다. 비술을 발동하면 다음 전투에서 복순이가 첫 공격 후 토파즈가 에너지를 회복한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -408,7 +244,10 @@
         "zh-CN": "陷入【负债证明】状态下的敌方目标受到追加攻击时，将会陷入【被执行】状态，单次攻击内最多生效1次。\n【被执行】使敌方目标受到的追加攻击的暴击伤害提高25%，最多叠加2层。【负债证明】被移除时，【被执行】也会被移除。",
         "ja": "「負債証明」状態の敵が追加攻撃ダメージを受ける時、「強制執行」状態を付与される。この効果は1回の攻撃で1回まで付与できる。\n「強制執行」状態の敵が受ける追加攻撃ダメージの会心ダメージ+25%、最大で2層累積できる。「負債証明」が解除される時、「強制執行」も解除される。",
         "ko": "[부채 증명] 상태에 빠진 적이 추가 공격을 받을 시 [강제 집행] 상태에 빠진다. 해당 상태는 단일 공격 내에 최대 1회 적용된다.\n[강제 집행]은 적이 받는 추가 공격의 치명타 피해를 25% 증가시킨다. 최대 중첩수: 2스택. [부채 증명]이 해제되면 [강제 집행]도 해제된다"
-      }
+      },
+      "icon": "icon/skill/1112_rank1.png",
+      "materials": [{ "id": 11112, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -425,7 +264,10 @@
         "zh-CN": "账账自身行动并发动攻击后，托帕恢复5点能量。",
         "ja": "カブ自身が行動し、攻撃を行った後、トパーズのEPを5回復する。",
         "ko": "복순이 자신이 행동하고 공격 발동 후 토파즈는 5pt의 에너지를 회복한다"
-      }
+      },
+      "icon": "icon/skill/1112_rank2.png",
+      "materials": [{ "id": 11112, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -442,7 +284,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1112_skill.png",
+      "materials": [{ "id": 11112, "num": 1 }],
+      "levelUpSkills": [{ "id": 111202, "num": 2 }, { "id": 111201, "num": 1 }]
     },
     {
       "rank": 4,
@@ -459,7 +304,10 @@
         "zh-CN": "账账自身回合开始时，托帕的行动提前20%。",
         "ja": "カブ自身のターンが回ってきた時、トパーズの行動順が20%早まる。",
         "ko": "복순이 자신의 턴 시작 시 토파즈의 행동 게이지가 20% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1112_rank4.png",
+      "materials": [{ "id": 11112, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -476,7 +324,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1112_ultimate.png",
+      "materials": [{ "id": 11112, "num": 1 }],
+      "levelUpSkills": [{ "id": 111203, "num": 2 }, { "id": 111204, "num": 2 }]
     },
     {
       "rank": 6,
@@ -493,10 +344,699 @@
         "zh-CN": "账账处于【涨幅惊人！】状态的攻击次数增加1次，且攻击时火属性抗性穿透提高10%。",
         "ja": "「心躍る上昇幅！」状態のカブの攻撃回数+1、攻撃時の炎属性耐性貫通+10%。",
         "ko": "복순이가 [폭증!] 상태일 때의 공격 횟수가 1회 증가한다. 공격 시 화염 속성 저항 관통이 10% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1112_rank6.png",
+      "materials": [{ "id": 11112, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 130,
+  "stats": [
+    {
+      "hp": { "base": 126.72, "step": 6.336 },
+      "atk": { "base": 84.48, "step": 4.224 },
+      "def": { "base": 56.1, "step": 2.805 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 177.408, "step": 6.336 },
+      "atk": { "base": 118.272, "step": 4.224 },
+      "def": { "base": 78.54, "step": 2.805 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 228.096, "step": 6.336 },
+      "atk": { "base": 152.064, "step": 4.224 },
+      "def": { "base": 100.98, "step": 2.805 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 278.784, "step": 6.336 },
+      "atk": { "base": 185.856, "step": 4.224 },
+      "def": { "base": 123.42, "step": 2.805 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 329.472, "step": 6.336 },
+      "atk": { "base": 219.648, "step": 4.224 },
+      "def": { "base": 145.86, "step": 2.805 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 380.16, "step": 6.336 },
+      "atk": { "base": 253.44, "step": 4.224 },
+      "def": { "base": 168.3, "step": 2.805 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 430.848, "step": 6.336 },
+      "atk": { "base": 287.232, "step": 4.224 },
+      "def": { "base": 190.74, "step": 2.805 },
+      "spd": { "base": 110, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 112001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 112001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 112002, "num": 6 }, { "id": 110412, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 112002, "num": 9 }, { "id": 110412, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 112003, "num": 6 }, { "id": 110412, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 112003, "num": 9 }, { "id": 110412, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1112001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1112_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [111201],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 112003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1112002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1112_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [111202],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110122, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110123, "num": 5 },
+            { "id": 110503, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110123, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1112003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1112_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [111203],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110122, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110123, "num": 5 },
+            { "id": 110503, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110123, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1112004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1112_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [111204],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 112001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 112002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 112002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110122, "num": 7 }, { "id": 112002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 112003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110123, "num": 5 },
+            { "id": 110503, "num": 1 },
+            { "id": 112003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110123, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1112007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1112_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [111207],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1112101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Descoberta",
+        "en": "Overdraft",
+        "zh-CN": "透支",
+        "ja": "{RUBY_B#かしこし}貸越{RUBY_E#}",
+        "ko": "당좌 대월"
+      },
+      "description": {
+        "pt-BR": "Quando Topaz usa seu ATQ Básico para causar Dano, ele será considerado um Ataque Extra.",
+        "en": "When Topaz uses Basic ATK to deal DMG, it is considered as a Follow-Up ATK.",
+        "zh-CN": "托帕施放普攻造成伤害时，被视为发动了追加攻击。",
+        "ja": "トパーズが通常攻撃でダメージを与える時、追加攻撃を行うと見なされる。",
+        "ko": "토파즈가 일반 공격으로 피해를 가할 시 추가 공격을 발동한 것으로 간주한다"
+      },
+      "icon": "icon/skill/1112_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 110503, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1112102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Turbulência Financeira",
+        "en": "Financial Turmoil",
+        "zh-CN": "金融动荡",
+        "ja": "{RUBY_B#きんゆうふあん}金融不安{RUBY_E#}",
+        "ko": "금융 불안"
+      },
+      "description": {
+        "pt-BR": "Aumenta em #1[i]% o Dano causado por Topaz e Dinheirinho aos inimigos-alvo com Fraqueza contra Fogo.",
+        "en": "Increases Topaz & Numby's DMG dealt to enemy targets with Fire Weakness by #1[i]%.",
+        "zh-CN": "托帕和账账对拥有火属性弱点的敌方目标造成的伤害提高#1[i]%。",
+        "ja": "トパーズとカブの、炎属性が弱点の敵に対する与ダメージ+#1[i]%。",
+        "ko": "토파즈와 복순이가 화염 속성 약점을 보유한 적에게 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.15]],
+      "icon": "icon/skill/1112_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110122, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1112103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Mercado Stonks",
+        "en": "Stonks Market",
+        "zh-CN": "技术性调整",
+        "ja": "{RUBY_B#ぎじゅつてきちょうせい}技術的調整{RUBY_E#}",
+        "ko": "기술적 조정"
+      },
+      "description": {
+        "pt-BR": "Após Dinheirinho usar um ataque enquanto está no estado de \"Bonança Inesperada!\", Topaz adicionalmente regenera #1[i] de Energia.",
+        "en": "After Numby uses an attack while in the Windfall Bonanza! state, Topaz additionally regenerates #1[i] Energy.",
+        "zh-CN": "当账账处于【涨幅惊人！】状态施放攻击后，额外使托帕恢复#1[i]点能量。",
+        "ja": "「心躍る上昇幅！」状態のカブが攻撃を行った後、さらにトパーズのEPを#1[i]回復する。",
+        "ko": "복순이가 [폭증!] 상태일 때 적에게 공격을 발동하면 토파즈는 에너지를 추가로 #1[i]pt 회복한다"
+      },
+      "params": [[10]],
+      "icon": "icon/skill/1112_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110123, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1112201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 112001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1112202,
+      "anchor": "Point10",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1112101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110121, "num": 3 }, { "id": 112001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1112203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1112202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 112002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1112204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110122, "num": 3 }, { "id": 112002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1112205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1112102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110122, "num": 5 }, { "id": 112002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1112206,
+      "anchor": "Point14",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1112205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 112003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1112207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110123, "num": 3 }, { "id": 112003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1112208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1112103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1112209,
+      "anchor": "Point17",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1112208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1112210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Fogo",
+        "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
+        "ja": "ダメージ強化・炎",
+        "ko": "피해 강화•화염"
+      },
+      "icon": "icon/property/IconFireAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1112208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "FireAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110123, "num": 8 }, { "id": 112003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11112, 110121, 110122, 110123, 110412, 110503, 112001, 112002, 112003],
   "images": {
     "icon": "icon/character/1112.png",
     "preview": "image/character_preview/1112.png",

@@ -1,0 +1,56 @@
+{
+  "id": 111001,
+  "slug": "extinguished-core",
+  "name": {
+    "pt-BR": "Núcleo Apagado",
+    "en": "Extinguished Core",
+    "zh-CN": "熄灭原核",
+    "ja": "消滅した原核",
+    "ko": "소멸된 코어"
+  },
+  "rarity": 2,
+  "type": "Material",
+  "subType": "CommonMonsterDrop",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/111001.png",
+  "sources": {
+    "en": [
+      "Certain Fragmentum Monsters",
+      "Dropped by enemies in Divergent Universe",
+      "Simulated Universe enemies",
+      "Assignment rewards",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange",
+      "Calyx (Golden)"
+    ],
+    "pt-BR": [
+      "Certos Monstros do Fragmentum",
+      "Espólio deixado por inimigos no Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Recompensas de Atribuição",
+      "Troca de Brasas",
+      "Sintetizador Omni — Troca de Material",
+      "Cálice (Dourado)"
+    ],
+    "zh-CN": ["部分裂界造物掉落", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "委托奖励", "余烬兑换", "「万能合成机」- 材料置换", "拟造花萼（金）"],
+    "ja": [
+      "一部の裂界造物からドロップ",
+      "「階差宇宙」で敵からドロップ",
+      "「模擬宇宙」で敵からドロップ",
+      "依頼報酬",
+      "エンバー交換",
+      "「万能合成マシン」- 素材交換",
+      "疑似花萼（金）"
+    ],
+    "ko": [
+      "일부 열계 창조물 드랍",
+      "「차분화 우주」 적 드랍",
+      "「시뮬레이션 우주」 적 드랍",
+      "의뢰 보상",
+      "잔화 교환",
+      "「만능 합성기」- 재료 치환",
+      "모조 꽃받침(금)"
+    ]
+  }
+}

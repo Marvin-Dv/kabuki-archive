@@ -20,13 +20,7 @@
     "ko": "밤의 장막이 드리우고, 창밖으로 별빛이 반짝인다. 조명은 벽에 두 개의 실루엣을 드리운다.\n「감지: 복순이의 행복 감정 지수: 97.9%」\n「여긴 가상 화폐가 충분히 많으니, 역시 복순이가 좋아하네!」\n지능 기계 소녀는 반려동물의 귀를 쓰다듬으며 오래된 황금 동전을 하나 꺼냈다.\n「복순아, 이건 먹으면 안 돼!」\n반려동물은 기뻐하며 펄쩍펄쩍 뛰었지만, 이내 그녀의 품에 덥석 안겨졌다.\n「제 기억이 맞다면, 이건 역사를 복원하는 데 쓰시는 소장품 아닌가요?」\n지능 기계 소녀는 빙그레 웃으며, 그 행성에서 오래전 사라진 문명을 떠올렸다.\n「괜찮습니다, 예레나. 행성의 역사 원형은 이미 제작 단계에 들어섰으니까요. 진도: 85%.\n지금은 그저 휴가를 즐기기만 하면 됩니다」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Sussurro",
-      "en": "Whisper",
-      "zh-CN": "秘语",
-      "ja": "秘密話",
-      "ko": "비밀 이야기"
-    },
+    "name": { "pt-BR": "Sussurro", "en": "Whisper", "zh-CN": "秘语", "ja": "秘密話", "ko": "비밀 이야기" },
     "description": {
       "pt-BR": "Aumenta a Euforia do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, ignora #2[i]% da DEF do alvo.",
       "en": "Increases the wearer's Elation by #1[i]%. During the use of Elation Skill by the wearer, ignores #2[i]% of the target's DEF.",
@@ -34,29 +28,60 @@
       "ja": "装備キャラの愉悦度+#1[i]%。装備キャラの愉悦スキル発動中、ターゲットの防御力を#2[i]%無視する。",
       "ko": "장착한 캐릭터의 환락도가 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬을 발동하는 중에는 목표의 방어력을 #2[i]% 무시한다"
     },
-    "params": [
-      [
-        0.2,
-        0.08
-      ],
-      [
-        0.25,
-        0.1
-      ],
-      [
-        0.3,
-        0.12
-      ],
-      [
-        0.35,
-        0.14
-      ],
-      [
-        0.4,
-        0.16
-      ]
+    "params": [[0.2, 0.08], [0.25, 0.1], [0.3, 0.12], [0.35, 0.14], [0.4, 0.16]],
+    "properties": [
+      [{ "type": "ElationDamageAddedRatioBase", "value": 0.2 }],
+      [{ "type": "ElationDamageAddedRatioBase", "value": 0.25 }],
+      [{ "type": "ElationDamageAddedRatioBase", "value": 0.3 }],
+      [{ "type": "ElationDamageAddedRatioBase", "value": 0.35 }],
+      [{ "type": "ElationDamageAddedRatioBase", "value": 0.4 }]
     ]
   },
+  "stats": [
+    {
+      "hp": { "base": 43.2, "step": 6.48 },
+      "atk": { "base": 19.2, "step": 2.88 },
+      "def": { "base": 18, "step": 2.7 }
+    },
+    {
+      "hp": { "base": 95.04, "step": 6.48 },
+      "atk": { "base": 42.24, "step": 2.88 },
+      "def": { "base": 39.6, "step": 2.7 }
+    },
+    {
+      "hp": { "base": 164.16, "step": 6.48 },
+      "atk": { "base": 72.96, "step": 2.88 },
+      "def": { "base": 68.4, "step": 2.7 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 103.68, "step": 2.88 },
+      "def": { "base": 97.2, "step": 2.7 }
+    },
+    {
+      "hp": { "base": 302.4, "step": 6.48 },
+      "atk": { "base": 134.4, "step": 2.88 },
+      "def": { "base": 126, "step": 2.7 }
+    },
+    {
+      "hp": { "base": 371.52, "step": 6.48 },
+      "atk": { "base": 165.12, "step": 2.88 },
+      "def": { "base": 154.8, "step": 2.7 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 195.84, "step": 2.88 },
+      "def": { "base": 183.6, "step": 2.7 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 116001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 110261, "num": 3 }, { "id": 116001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 110262, "num": 3 }, { "id": 116002, "num": 6 }],
+    [{ "id": 2, "num": 40000 }, { "id": 110262, "num": 6 }, { "id": 116002, "num": 9 }],
+    [{ "id": 2, "num": 80000 }, { "id": 110263, "num": 4 }, { "id": 116003, "num": 5 }],
+    [{ "id": 2, "num": 160000 }, { "id": 110263, "num": 8 }, { "id": 116003, "num": 7 }]
+  ],
   "images": {
     "icon": "icon/light_cone/21066.png",
     "preview": "image/light_cone_preview/21066.png",

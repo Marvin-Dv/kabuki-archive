@@ -1,0 +1,7 @@
+{
+  "id": 10,
+  "type": "MaxSP",
+  "name": { "pt-BR": "Energia Máxima", "en": "Max Energy", "zh-CN": "能量上限", "ja": "最大EP", "ko": "에너지 최대치" },
+  "icon": "icon/property/IconEnergyLimit.png",
+  "percent": false
+}

@@ -1,13 +1,7 @@
 {
   "id": 1315,
   "slug": "boothill",
-  "name": {
-    "pt-BR": "Boothill",
-    "en": "Boothill",
-    "zh-CN": "波提欧",
-    "ja": "ブートヒル",
-    "ko": "부트힐"
-  },
+  "name": { "pt-BR": "Boothill", "en": "Boothill", "zh-CN": "波提欧", "ja": "ブートヒル", "ko": "부트힐" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Physical",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にブートヒルの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 부트힐 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1315_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Físico leve a um único inimigo.",
+        "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
+        "ja": "敵単体に少量の物理属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 131502,
@@ -82,82 +56,33 @@
         "ko": "지정된 단일 적과 자신이 [목숨 건 대치] 상태에 진입한다. 부트힐의 일반 공격이 강화되고 전투 스킬을 발동할 수 없다, 지속 시간: #3[i]턴. 부트힐의 턴이 시작될 때마다 지속 턴 수가 1 감소한다.\n[목숨 건 대치] 상태의 적은 도발 상태에 빠진다. 해당 목표/부트힐이 상대의 공격을 받을 시 받는 피해가 #1[i]%/#2[i]% 증가한다.\n해당 목표가 처치되거나 약점이 격파된 후, 부트힐은 [포켓 어드벤티지]를 1스택 획득하고, [목숨 건 대치]가 해제된다.\n해당 전투 스킬은 에너지를 회복할 수 없다. 해당 전투 스킬 발동 후, 이번 턴은 종료되지 않는다"
       },
       "params": [
-        [
-          0.15,
-          0.15,
-          2
-        ],
-        [
-          0.165,
-          0.15,
-          2
-        ],
-        [
-          0.18,
-          0.15,
-          2
-        ],
-        [
-          0.195,
-          0.15,
-          2
-        ],
-        [
-          0.21,
-          0.15,
-          2
-        ],
-        [
-          0.225,
-          0.15,
-          2
-        ],
-        [
-          0.2437,
-          0.15,
-          2
-        ],
-        [
-          0.2625,
-          0.15,
-          2
-        ],
-        [
-          0.2812,
-          0.15,
-          2
-        ],
-        [
-          0.3,
-          0.15,
-          2
-        ],
-        [
-          0.315,
-          0.15,
-          2
-        ],
-        [
-          0.33,
-          0.15,
-          2
-        ],
-        [
-          0.345,
-          0.15,
-          2
-        ],
-        [
-          0.36,
-          0.15,
-          2
-        ],
-        [
-          0.375,
-          0.15,
-          2
-        ]
-      ]
+        [0.15, 0.15, 2],
+        [0.165, 0.15, 2],
+        [0.18, 0.15, 2],
+        [0.195, 0.15, 2],
+        [0.21, 0.15, 2],
+        [0.225, 0.15, 2],
+        [0.2437, 0.15, 2],
+        [0.2625, 0.15, 2],
+        [0.2812, 0.15, 2],
+        [0.3, 0.15, 2],
+        [0.315, 0.15, 2],
+        [0.33, 0.15, 2],
+        [0.345, 0.15, 2],
+        [0.36, 0.15, 2],
+        [0.375, 0.15, 2]
+      ],
+      "icon": "icon/skill/1315_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Inicia Confronto. Depois que o alvo no Confronto for derrotado ou sofrer Quebra de Fraqueza, Boothill recebe Truque de Bolso e desfaz o Confronto. Boothill ganha ATQs Básicos Aprimorados e esta rodada não termina.",
+        "en": "Initiates Standoff. After the target in the Standoff is defeated or Weakness Broken, Boothill receives Pocket Trickshot and dispels the Standoff. Boothill gains Enhanced Basic ATK and this turn does not end.",
+        "zh-CN": "开启【绝命对峙】，【绝命对峙】的目标被消灭或弱点被击破后，波提欧获得【优势口袋】并解除【绝命对峙】。使自身获得强化普攻，且本回合不会结束。",
+        "ja": "「九死の決闘」を始める。「九死の決闘」のターゲットが倒される、または弱点撃破された後、ブートヒルは「ポケットアドバンテージ」を獲得し、「九死の決闘」を解除する。通常攻撃を強化する。ターンは終了しない。",
+        "ko": "[목숨 건 대치]를 활성화한다. [목숨 건 대치]의 목표가 처치되거나 약점이 격파되면, 부트힐은 [포켓 어드벤티지]를 획득하고 [목숨 건 대치]를 해제한다. 자신의 일반 공격이 강화되며, 이번 턴은 종료되지 않는다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 131503,
@@ -177,82 +102,33 @@
         "ko": "지정된 단일 적에게 물리 약점을 부여한다, 지속 시간: #3[i]턴\n해당 목표에게 부트힐 공격력의 #1[i]%만큼 물리 속성 피해를 가하고, 행동 게이지를 #2[i]% 감소시킨다"
       },
       "params": [
-        [
-          2.4,
-          0.3,
-          2
-        ],
-        [
-          2.56,
-          0.31,
-          2
-        ],
-        [
-          2.72,
-          0.32,
-          2
-        ],
-        [
-          2.88,
-          0.33,
-          2
-        ],
-        [
-          3.04,
-          0.34,
-          2
-        ],
-        [
-          3.2,
-          0.35,
-          2
-        ],
-        [
-          3.4,
-          0.3625,
-          2
-        ],
-        [
-          3.6,
-          0.375,
-          2
-        ],
-        [
-          3.8,
-          0.3875,
-          2
-        ],
-        [
-          4,
-          0.4,
-          2
-        ],
-        [
-          4.16,
-          0.41,
-          2
-        ],
-        [
-          4.32,
-          0.42,
-          2
-        ],
-        [
-          4.48,
-          0.43,
-          2
-        ],
-        [
-          4.64,
-          0.44,
-          2
-        ],
-        [
-          4.8,
-          0.45,
-          2
-        ]
-      ]
+        [2.4, 0.3, 2],
+        [2.56, 0.31, 2],
+        [2.72, 0.32, 2],
+        [2.88, 0.33, 2],
+        [3.04, 0.34, 2],
+        [3.2, 0.35, 2],
+        [3.4, 0.3625, 2],
+        [3.6, 0.375, 2],
+        [3.8, 0.3875, 2],
+        [4, 0.4, 2],
+        [4.16, 0.41, 2],
+        [4.32, 0.42, 2],
+        [4.48, 0.43, 2],
+        [4.64, 0.44, 2],
+        [4.8, 0.45, 2]
+      ],
+      "icon": "icon/skill/1315_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Aplica Fraqueza contra Físico a um inimigo, causa uma quantidade massiva de Dano Físico e atrasa suas ações.",
+        "en": "Applies Physical Weakness to one enemy, deals massive Physical DMG to them, and delays their action.",
+        "zh-CN": "为敌方单体添加物理弱点，并对其造成大量物理属性伤害，使目标行动延后。",
+        "ja": "敵単体に物理属性弱点を付与し、大量の物理属性ダメージを与え、行動順を遅延させる。",
+        "ko": "단일 적에게 물리 약점을 부여하며 대량의 물리 속성 피해를 가하고, 목표의 행동 게이지를 감소시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 131504,
@@ -272,139 +148,48 @@
         "ko": "[포켓 어드벤티지] 1스택마다 강화된 일반 공격의 강인성 감소 수치가 #4[i]% 증가한다. 최대 중첩수: #5[i]스택\n강화된 일반 공격 발동 중에 목표가 약점 격파 상태일 경우, [포켓 어드벤티지] 스택 수에 따라 목표에게 부트힐 물리 속성 격파 피해의 #1[i]%/#2[i]%/#3[i]%만큼 격파 피해를 가한다. 해당 피해에 계산되는 강인성 최대치는 일반 공격 [두개골을 부수는 발굽]의 기초 강인성 감소 수치의 #6[i]배를 넘을 수 없다.\n전투 승리 후, 부트힐은 [포켓 어드벤티지]를 다음 전투까지 보류할 수 있다"
       },
       "params": [
-        [
-          0.35,
-          0.6,
-          0.85,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.385,
-          0.66,
-          0.935,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.42,
-          0.72,
-          1.02,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.455,
-          0.78,
-          1.105,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.49,
-          0.84,
-          1.19,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.525,
-          0.9,
-          1.275,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.5687,
-          0.975,
-          1.3813,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.6125,
-          1.05,
-          1.4875,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.6562,
-          1.125,
-          1.5938,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.7,
-          1.2,
-          1.7,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.735,
-          1.26,
-          1.785,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.77,
-          1.32,
-          1.87,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.805,
-          1.38,
-          1.955,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.84,
-          1.44,
-          2.04,
-          0.5,
-          3,
-          16
-        ],
-        [
-          0.875,
-          1.5,
-          2.125,
-          0.5,
-          3,
-          16
-        ]
-      ]
+        [0.35, 0.6, 0.85, 0.5, 3, 16],
+        [0.385, 0.66, 0.935, 0.5, 3, 16],
+        [0.42, 0.72, 1.02, 0.5, 3, 16],
+        [0.455, 0.78, 1.105, 0.5, 3, 16],
+        [0.49, 0.84, 1.19, 0.5, 3, 16],
+        [0.525, 0.9, 1.275, 0.5, 3, 16],
+        [0.5687, 0.975, 1.3813, 0.5, 3, 16],
+        [0.6125, 1.05, 1.4875, 0.5, 3, 16],
+        [0.6562, 1.125, 1.5938, 0.5, 3, 16],
+        [0.7, 1.2, 1.7, 0.5, 3, 16],
+        [0.735, 1.26, 1.785, 0.5, 3, 16],
+        [0.77, 1.32, 1.87, 0.5, 3, 16],
+        [0.805, 1.38, 1.955, 0.5, 3, 16],
+        [0.84, 1.44, 2.04, 0.5, 3, 16],
+        [0.875, 1.5, 2.125, 0.5, 3, 16]
+      ],
+      "icon": "icon/skill/1315_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "O Truque de Bolso aumenta a Redução de Tenacidade do ATQ Básico Aprimorado e causa Dano de Quebra de Físico adicional ao inimigo que sofreu Quebra de Fraqueza. Após vencer a batalha, mantém o Truque de Bolso para a próxima batalha.",
+        "en": "Pocket Trickshot increases the Enhanced Basic ATK's Toughness Reduction and additionally deals Physical Break DMG if the target is Weakness Broken. After winning the battle, retains Pocket Trickshot for the next battle.",
+        "zh-CN": "【优势口袋】使强化普攻削韧值提高，并对被击破的敌人额外造成物理属性击破伤害。战斗胜利后，将【优势口袋】保留至下一次战斗中。",
+        "ja": "「ポケットアドバンテージ」は「ファニング」の削靭値をアップし、弱点撃破された敵にさらに物理属性弱点撃破ダメージを与える。戦闘に勝利した後、「ポケットアドバンテージ」を次の戦闘に持ち越せる。",
+        "ko": "[포켓 어드벤티지]는 강화된 일반 공격의 강인성 감소 수치를 증가시키고, 격파된 적에게 추가로 물리 속성 격파 피해를 가한다. 전투 승리 후, [포켓 어드벤티지]는 다음 전투까지 유지된다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 131506,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1315_maze_normal.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -429,11 +214,18 @@
         "ja": "秘技を使用した後、次の戦闘で初めて戦闘スキルを発動する時、敵に必殺技が与えるものと同じ物理属性弱点を付与する、#1[i]ターン継続。",
         "ko": "비술 사용 후 다음번 전투에서 처음 전투 스킬을 발동할 시, 목표에게 필살기와 동일한 물리 약점을 부여한다. 지속 시간: #1[i]턴"
       },
-      "params": [
-        [
-          2
-        ]
-      ]
+      "params": [[2]],
+      "icon": "icon/skill/1315_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Depois que a Técnica é utilizada, aplica Fraqueza contra Físico contra um único inimigo ao usar a Perícia pela primeira vez na próxima batalha.",
+        "en": "After the Technique is used, inflicts Physical Weakness on one enemy when casting the Skill for the first time in the next battle.",
+        "zh-CN": "使用秘技，下一次进战首次施放战技为敌方单体添加物理弱点。",
+        "ja": "秘技を使用、次の戦闘で初めて戦闘スキルを発動する時、敵単体に物理属性弱点を付与する。",
+        "ko": "비술 사용 후 다음 전투 진입 시 처음으로 발동하는 전투 스킬은 단일 적에게 물리 약점을 부여한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 131508,
@@ -452,38 +244,18 @@
         "ja": "指定した敵単体にブートヒルの攻撃力#1[i]%分の物理属性ダメージを与える。\n強化通常攻撃はSPを回復できず、「九死の決闘」状態の敵のみを攻撃できる。",
         "ko": "지정된 단일 적에게 부트힐 공격력의 #1[i]%만큼 물리 속성 피해를 가한다.\n강화된 일반 공격은 전투 스킬 포인트를 회복할 수 없으며, [목숨 건 대치] 상태의 적만을 목표로 삼을 수 있다"
       },
-      "params": [
-        [
-          1.1
-        ],
-        [
-          1.32
-        ],
-        [
-          1.54
-        ],
-        [
-          1.76
-        ],
-        [
-          1.98
-        ],
-        [
-          2.2
-        ],
-        [
-          2.42
-        ],
-        [
-          2.64
-        ],
-        [
-          2.86
-        ],
-        [
-          3.08
-        ]
-      ]
+      "params": [[1.1], [1.32], [1.54], [1.76], [1.98], [2.2], [2.42], [2.64], [2.86], [3.08]],
+      "icon": "icon/skill/1315_basic_atk2.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Físico a um único inimigo. Só pode atacar o alvo em Confronto.",
+        "en": "Deals Physical DMG to one enemy. Can only attack the target in the \"Standoff.\"",
+        "zh-CN": "对敌方单体造成物理属性伤害，仅能攻击【绝命对峙】的目标。",
+        "ja": "敵単体に物理属性ダメージを与える。また、このスキルは「九死の決闘」状態の敵のみを攻撃できる。",
+        "ko": "단일 적에게 물리 속성 피해를 가하고, [목숨 건 대치]의 목표만 공격할 수 있다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     }
   ],
   "eidolons": [
@@ -502,7 +274,10 @@
         "zh-CN": "战斗开始时，获得1层【优势口袋】。波提欧造成伤害时无视敌方目标16%的防御力。",
         "ja": "戦闘開始時、「ポケットアドバンテージ」を1層獲得する。ブートヒルがダメージを与える時、敵の防御力を16%無視する。",
         "ko": "전투 시작 시 [포켓 어드벤티지]를 1스택 획득한다. 부트힐이 피해를 가할 시 적의 방어력을 16% 무시한다"
-      }
+      },
+      "icon": "icon/skill/1315_rank1.png",
+      "materials": [{ "id": 11315, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -519,7 +294,10 @@
         "zh-CN": "处于【绝命对峙】并获得【优势口袋】时，恢复1个战技点，并且击破特攻提高30%，持续2回合。该效果单个回合内不可重复触发，在获得溢出的【优势口袋】时也会触发。",
         "ja": "「九死の決闘」状態で「ポケットアドバンテージ」を獲得する時、SPを1回復する。同時に撃破特効+30%、2ターン継続。この効果はターンが回ってくるたびに1回まで発動でき、獲得する「ポケットアドバンテージ」が上限を超える時にも触発される。",
         "ko": "[목숨 건 대치] 상태에서 [포켓 어드벤티지] 획득 시, 전투 스킬 포인트를 1개 회복하고 격파 특수효과가 30% 증가한다. 지속 시간: 2턴. 해당 효과는 1턴 내에 중복 발동할 수 없으며, [포켓 어드벤티지]를 초과해 획득할 때도 발동된다"
-      }
+      },
+      "icon": "icon/skill/1315_rank2.png",
+      "materials": [{ "id": 11315, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -536,7 +314,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1315_ultimate.png",
+      "materials": [{ "id": 11315, "num": 1 }],
+      "levelUpSkills": [{ "id": 131503, "num": 2 }, { "id": 131501, "num": 1 }, { "id": 131508, "num": 1 }]
     },
     {
       "rank": 4,
@@ -553,7 +334,10 @@
         "zh-CN": "处于【绝命对峙】的敌方目标受到波提欧攻击时，受到的伤害额外提高12%。波提欧受到处于【绝命对峙】的敌方目标的攻击时，受到的伤害提高效果降低12%。",
         "ja": "「九死の決闘」状態の敵がブートヒルの攻撃を受ける時、被ダメージアップ効果さらに+12%。ブートヒルが「九死の決闘」状態の敵の攻撃を受ける時、被ダメージアップ効果-12%。",
         "ko": "[목숨 건 대치] 상태의 적이 부트힐에게 피격 시 받는 피해가 추가로 12% 증가한다. 부트힐이 [목숨 건 대치] 상태의 적에게 피격 시 받는 피해 증가 효과가 12% 감소한다"
-      }
+      },
+      "icon": "icon/skill/1315_rank4.png",
+      "materials": [{ "id": 11315, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -570,7 +354,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1315_skill.png",
+      "materials": [{ "id": 11315, "num": 1 }],
+      "levelUpSkills": [{ "id": 131502, "num": 2 }, { "id": 131504, "num": 2 }]
     },
     {
       "rank": 6,
@@ -587,10 +374,682 @@
         "zh-CN": "触发天赋造成击破伤害时，对目标额外造成等同于原伤害倍率40%的击破伤害，对相邻目标额外造成等同于原伤害倍率70%的击破伤害。",
         "ja": "天賦を触発して弱点撃破ダメージを与える時、ターゲットに対してさらに本来のダメージ倍率40%分の弱点撃破ダメージを与え、隣接する敵に本来のダメージ倍率70%分の弱点撃破ダメージを与える。",
         "ko": "특성을 발동하여 격파 피해를 가할 시, 목표에게 추가로 기존 피해 배율의 40%만큼 격파 피해를 가하고, 인접한 목표에게 추가로 기존 피해 배율의 70%만큼 격파 피해를 가한다"
-      }
+      },
+      "icon": "icon/skill/1315_rank6.png",
+      "materials": [{ "id": 11315, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 115,
+  "stats": [
+    {
+      "hp": { "base": 163.68, "step": 8.184 },
+      "atk": { "base": 84.48, "step": 4.224 },
+      "def": { "base": 59.4, "step": 2.97 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 229.152, "step": 8.184 },
+      "atk": { "base": 118.272, "step": 4.224 },
+      "def": { "base": 83.16, "step": 2.97 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 294.624, "step": 8.184 },
+      "atk": { "base": 152.064, "step": 4.224 },
+      "def": { "base": 106.92, "step": 2.97 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 360.096, "step": 8.184 },
+      "atk": { "base": 185.856, "step": 4.224 },
+      "def": { "base": 130.68, "step": 2.97 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 425.568, "step": 8.184 },
+      "atk": { "base": 219.648, "step": 4.224 },
+      "def": { "base": 154.44, "step": 2.97 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 491.04, "step": 8.184 },
+      "atk": { "base": 253.44, "step": 4.224 },
+      "def": { "base": 178.2, "step": 2.97 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 556.512, "step": 8.184 },
+      "atk": { "base": 287.232, "step": 4.224 },
+      "def": { "base": 201.96, "step": 2.97 },
+      "spd": { "base": 107, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 114011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 114011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 114012, "num": 6 }, { "id": 110421, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 114012, "num": 9 }, { "id": 110421, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 114013, "num": 6 }, { "id": 110421, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 114013, "num": 9 }, { "id": 110421, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1315001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1315_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [131501, 131508],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 114013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1315002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1315_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [131502],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110192, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110193, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110193, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1315003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1315_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [131503],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110192, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110193, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110193, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1315004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1315_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [131504],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 114011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 114012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 114012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110192, "num": 7 }, { "id": 114012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 114013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110193, "num": 5 },
+            { "id": 110505, "num": 1 },
+            { "id": 114013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110193, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1315007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1315_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [131507],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1315101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Munição Fantasma",
+        "en": "Ghost Load",
+        "zh-CN": "幽灵装填",
+        "ja": "ゴーストロード",
+        "ko": "고스트 로딩"
+      },
+      "description": {
+        "pt-BR": "Aumenta a Chance de CRIT / o Dano CRIT deste personagem em uma quantidade igual a #1[i]% / #3[i]% do Efeito de Quebra, com um aumento máximo de #2[i]% / #4[i]%.",
+        "en": "Increase this character's CRIT Rate/CRIT DMG, by an amount equal to #1[i]%/#3[i]% of Break Effect, up to a max increase of #2[i]%/#4[i]%.",
+        "zh-CN": "使自身暴击率/暴击伤害提高，提高数值等同于击破特攻的#1[i]%/#3[i]%，最多使暴击率/暴击伤害提高#2[i]%/#4[i]%。",
+        "ja": "自身の会心率を、撃破特効の#1[i]%分アップする。最大で会心率+#2[i]%。\n自身の会心ダメージを、撃破特効の#3[i]%分アップする。最大で会心ダメージ+#4[i]%。",
+        "ko": "자신의 치명타 확률/치명타 피해가 증가한다. 증가 수치는 격파 특수효과의 #1[i]%/#3[i]%이며, 치명타 확률/치명타 피해는 최대 #2[i]%/#4[i]% 증가한다"
+      },
+      "params": [[0.1, 0.3, 0.5, 1.5]],
+      "icon": "icon/skill/1315_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 110505, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1315102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Sobre as Cobras",
+        "en": "Above Snakes",
+        "zh-CN": "蛇之上行",
+        "ja": "{RUBY_B#しち}死地{RUBY_E#}からの{RUBY_B#だっしゅつ}脱出{RUBY_E#}",
+        "ko": "어보브 스네이크"
+      },
+      "description": {
+        "pt-BR": "Enquanto Boothill está em Confronto, diminui o Dano que ele recebe de alvos que não estejam em Confronto em #1[i]%.",
+        "en": "While Boothill is in the Standoff, reduces the DMG he receives from targets that are not in the Standoff by #1[i]%.",
+        "zh-CN": "波提欧处于【绝命对峙】时，受到未处于【绝命对峙】目标的伤害降低#1[i]%。",
+        "ja": "ブートヒルが「九死の決闘」状態の場合、「九死の決闘」状態でない敵の攻撃を受ける時、受けるダメージ-#1[i]%。",
+        "ko": "부트힐이 [목숨 건 대치] 상태일 시 [목숨 건 대치] 상태가 아닌 목표에게 받는 피해가 #1[i]% 감소한다"
+      },
+      "params": [[0.3]],
+      "icon": "icon/skill/1315_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110192, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1315103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "À Queima-Roupa",
+        "en": "Point Blank",
+        "zh-CN": "抵近射击",
+        "ja": "ポイントブランク",
+        "ko": "포인트 블랭크"
+      },
+      "description": {
+        "pt-BR": "Ao obter Truque de Bolso no Confronto, regenera #1[i] de Energia. Esse efeito também é ativado quando são obtidos acúmulos de Truque de Bolso que excedam o limite máximo.",
+        "en": "When in Standoff and gaining Pocket Trickshot, regenerates #1[i] Energy. Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit.",
+        "zh-CN": "处于【绝命对峙】并获得【优势口袋】时，恢复#1[i]点能量。该效果在获得溢出的【优势口袋】时也会触发。",
+        "ja": "「九死の決闘」の状態で「ポケットアドバンテージ」を獲得する時、EPを#1[i]回復する。この効果は獲得する「ポケットアドバンテージ」が上限を超える時にも発動する。",
+        "ko": "[목숨 건 대치] 상태에서 [포켓 어드벤티지] 획득 시, 에너지를 #1[i]pt 회복한다. 해당 효과는 [포켓 어드벤티지]를 초과해 획득할 때도 발동된다"
+      },
+      "params": [[10]],
+      "icon": "icon/skill/1315_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110193, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110505, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1315201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 114011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1315202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1315101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110191, "num": 3 }, { "id": 114011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1315203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1315202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.053 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1315204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110192, "num": 3 }, { "id": 114012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1315205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1315102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110192, "num": 5 }, { "id": 114012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1315206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1315205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1315207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110193, "num": 3 }, { "id": 114013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1315208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1315103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1315209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1315208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1315210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
+      "icon": "icon/property/IconBreakUp.png",
+      "maxLevel": 1,
+      "prerequisites": [1315208],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "BreakDamageAddedRatioBase", "value": 0.107 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110193, "num": 8 }, { "id": 114013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11315, 110191, 110192, 110193, 110421, 110505, 114011, 114012, 114013],
   "images": {
     "icon": "icon/character/1315.png",
     "preview": "image/character_preview/1315.png",

@@ -1,0 +1,13 @@
+{
+  "id": 17,
+  "type": "HealRatioBase",
+  "name": {
+    "pt-BR": "Bônus de Cura Realizada",
+    "en": "Outgoing Healing Boost",
+    "zh-CN": "治疗量加成",
+    "ja": "治癒量",
+    "ko": "치유량 보너스"
+  },
+  "icon": "icon/property/IconHealRatio.png",
+  "percent": true
+}

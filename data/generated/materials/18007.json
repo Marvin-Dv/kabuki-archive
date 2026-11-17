@@ -1,0 +1,28 @@
+{
+  "id": 18007,
+  "slug": "shadow-of-remembrance",
+  "name": {
+    "pt-BR": "Sombra da Recordação",
+    "en": "Shadow of Remembrance",
+    "zh-CN": "「记忆」之影",
+    "ja": "「記憶」の影",
+    "ko": "「기억」의 그림자"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/18007.png",
+  "sources": {
+    "en": ["Trailblaze Mission Rewards", "Level Rewards from Tidal Bounty", "As I've Written"],
+    "pt-BR": [
+      "Recompensas de Missão de Desbravamento",
+      "Recompensas de Nível da Recompensa das Marés",
+      "Conforme Escrevi"
+    ],
+    "zh-CN": ["开拓任务奖励", "「潮汐的馈赠」等级奖励获得", "「如我所书」获得"],
+    "ja": ["開拓クエスト報酬", "「潮騒の贈り物」レベルアップ報酬で獲得", "「紡がれた物語」で獲得"],
+    "ko": ["개척 임무 보상", "「조수의 선물」 레벨 보상 획득", "「내가 쓰는 대로」에서 획득"]
+  }
+}

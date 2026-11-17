@@ -1,0 +1,34 @@
+{
+  "id": 110242,
+  "slug": "nourishing-honey",
+  "name": {
+    "pt-BR": "Mel Nutricional",
+    "en": "Nourishing Honey",
+    "zh-CN": "滋长花蜜",
+    "ja": "育みの蜜",
+    "ko": "생장의 꽃꿀"
+  },
+  "rarity": 3,
+  "type": "Material",
+  "subType": "TracePath",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/110242.png",
+  "sources": {
+    "en": [
+      "Calyx (Fyxestroll Garden)",
+      "Omni-Synthesizer — Material Synthesis",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange"
+    ],
+    "pt-BR": [
+      "Cálice (Jardim Flamavulpe)",
+      "Sintetizador Omni - Síntese de Material",
+      "Troca de Brasas",
+      "Sintetizador Omni - Troca de Material"
+    ],
+    "zh-CN": ["拟造花萼【绥园】", "「万能合成机」- 材料合成", "余烬兑换", "「万能合成机」- 材料置换"],
+    "ja": ["疑似花萼「綏園」", "「万能合成マシン」- 素材合成", "エンバー交換", "「万能合成マシン」- 素材交換"],
+    "ko": ["모조 꽃받침 [유원]", "「만능 합성기」- 재료 합성", "잔화 교환", "「만능 합성기」- 재료 치환"]
+  }
+}

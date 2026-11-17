@@ -1,13 +1,7 @@
 {
   "id": 1013,
   "slug": "herta",
-  "name": {
-    "pt-BR": "Herta",
-    "en": "Herta",
-    "zh-CN": "黑塔",
-    "ja": "ヘルタ",
-    "ko": "헤르타"
-  },
+  "name": { "pt-BR": "Herta", "en": "Herta", "zh-CN": "黑塔", "ja": "ヘルタ", "ko": "헤르타" },
   "rarity": 4,
   "path": "Erudition",
   "element": "Ice",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体にヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 헤르타 공격력 #1[i]%만큼의 얼음 속성 피해를 가한다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1013_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano de Gelo leve a um único inimigo.",
+        "en": "Deals minor Ice DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量冰属性伤害。",
+        "ja": "敵単体に少量の氷属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 101302,
@@ -82,82 +56,33 @@
         "ko": "모든 적에게 헤르타 공격력 #1[i]%만큼의 얼음 속성 피해를 준다. 해당 적의 현재 HP 백분율이 #2[i]% 이상이면 해당 적에게 가하는 피해가 #3[i]% 증가한다"
       },
       "params": [
-        [
-          0.5,
-          0.5,
-          0.2
-        ],
-        [
-          0.55,
-          0.5,
-          0.2
-        ],
-        [
-          0.6,
-          0.5,
-          0.2
-        ],
-        [
-          0.65,
-          0.5,
-          0.2
-        ],
-        [
-          0.7,
-          0.5,
-          0.2
-        ],
-        [
-          0.75,
-          0.5,
-          0.2
-        ],
-        [
-          0.8125,
-          0.5,
-          0.2
-        ],
-        [
-          0.875,
-          0.5,
-          0.2
-        ],
-        [
-          0.9375,
-          0.5,
-          0.2
-        ],
-        [
-          1,
-          0.5,
-          0.2
-        ],
-        [
-          1.05,
-          0.5,
-          0.2
-        ],
-        [
-          1.1,
-          0.5,
-          0.2
-        ],
-        [
-          1.15,
-          0.5,
-          0.2
-        ],
-        [
-          1.2,
-          0.5,
-          0.2
-        ],
-        [
-          1.25,
-          0.5,
-          0.2
-        ]
-      ]
+        [0.5, 0.5, 0.2],
+        [0.55, 0.5, 0.2],
+        [0.6, 0.5, 0.2],
+        [0.65, 0.5, 0.2],
+        [0.7, 0.5, 0.2],
+        [0.75, 0.5, 0.2],
+        [0.8125, 0.5, 0.2],
+        [0.875, 0.5, 0.2],
+        [0.9375, 0.5, 0.2],
+        [1, 0.5, 0.2],
+        [1.05, 0.5, 0.2],
+        [1.1, 0.5, 0.2],
+        [1.15, 0.5, 0.2],
+        [1.2, 0.5, 0.2],
+        [1.25, 0.5, 0.2]
+      ],
+      "icon": "icon/skill/1013_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Gelo leve a todos os inimigos. Alvos com mais PV recebem mais Dano.",
+        "en": "Deals minor Ice DMG to all enemies. Targets with higher HP will receive increased DMG.",
+        "zh-CN": "对敌方全体造成少量冰属性伤害，对生命值较高的目标造成的伤害提高。",
+        "ja": "敵全体に少量の氷属性ダメージを与える、残りHP割合が高い敵に対する与ダメージがアップする。",
+        "ko": "모든 적에게 소량의 얼음 속성 피해를 가하고, HP가 비교적 높은 적에게 가하는 피해가 증가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 101303,
@@ -177,52 +102,33 @@
         "ko": "모든 적에게 헤르타 공격력 #1[i]%만큼의 얼음 속성 피해를 가한다"
       },
       "params": [
-        [
-          1.2
-        ],
-        [
-          1.28
-        ],
-        [
-          1.36
-        ],
-        [
-          1.44
-        ],
-        [
-          1.52
-        ],
-        [
-          1.6
-        ],
-        [
-          1.7
-        ],
-        [
-          1.8
-        ],
-        [
-          1.9
-        ],
-        [
-          2
-        ],
-        [
-          2.08
-        ],
-        [
-          2.16
-        ],
-        [
-          2.24
-        ],
-        [
-          2.32
-        ],
-        [
-          2.4
-        ]
-      ]
+        [1.2],
+        [1.28],
+        [1.36],
+        [1.44],
+        [1.52],
+        [1.6],
+        [1.7],
+        [1.8],
+        [1.9],
+        [2],
+        [2.08],
+        [2.16],
+        [2.24],
+        [2.32],
+        [2.4]
+      ],
+      "icon": "icon/skill/1013_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Causa Dano de Gelo a todos os inimigos.",
+        "en": "Deals Ice DMG to all enemies.",
+        "zh-CN": "对敌方全体造成冰属性伤害。",
+        "ja": "敵全体に氷属性ダメージを与える。",
+        "ko": "모든 적에게 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 101304,
@@ -242,79 +148,48 @@
         "ko": "임의의 아군 공격으로 적의 현재 HP 백분율이 #1[i]% 이하일 시, 헤르타는 추가 공격을 발동하여 모든 적에게 헤르타 공격력 #2[i]%만큼의 얼음 속성 피해를 준다"
       },
       "params": [
-        [
-          0.5,
-          0.25
-        ],
-        [
-          0.5,
-          0.265
-        ],
-        [
-          0.5,
-          0.28
-        ],
-        [
-          0.5,
-          0.295
-        ],
-        [
-          0.5,
-          0.31
-        ],
-        [
-          0.5,
-          0.325
-        ],
-        [
-          0.5,
-          0.3438
-        ],
-        [
-          0.5,
-          0.3625
-        ],
-        [
-          0.5,
-          0.3812
-        ],
-        [
-          0.5,
-          0.4
-        ],
-        [
-          0.5,
-          0.415
-        ],
-        [
-          0.5,
-          0.43
-        ],
-        [
-          0.5,
-          0.445
-        ],
-        [
-          0.5,
-          0.46
-        ],
-        [
-          0.5,
-          0.475
-        ]
-      ]
+        [0.5, 0.25],
+        [0.5, 0.265],
+        [0.5, 0.28],
+        [0.5, 0.295],
+        [0.5, 0.31],
+        [0.5, 0.325],
+        [0.5, 0.3438],
+        [0.5, 0.3625],
+        [0.5, 0.3812],
+        [0.5, 0.4],
+        [0.5, 0.415],
+        [0.5, 0.43],
+        [0.5, 0.445],
+        [0.5, 0.46],
+        [0.5, 0.475]
+      ],
+      "icon": "icon/skill/1013_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quando o ataque de qualquer aliado reduz a porcentagem dos PV do inimigo-alvo para 50% ou menos, Herta imediatamente desfere Ataque Extra, causando Dano de Gelo leve a todas as unidades inimigas.",
+        "en": "When any ally target's attack reduces the enemy target's current HP percentage to 50% or lower, Herta immediately launches Follow-Up ATK, dealing minor Ice DMG to all enemies.",
+        "zh-CN": "当任意我方目标的攻击使敌方目标的当前生命值百分比小于等于50%时，黑塔立即发动追加攻击，对敌方全体造成少量冰属性伤害。",
+        "ja": "任意の味方の攻撃によって敵の残りHPが50%以下になった時、ヘルタは即座に追加攻撃を行い、敵全体に少量の氷属性ダメージを与える。",
+        "ko": "임의의 아군의 공격으로 적의 현재 HP 백분율이 50% 이하일 시, 헤르타가 즉시 추가 공격을 발동하고 모든 적에게 소량의 얼음 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 101306,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1013_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -339,12 +214,18 @@
         "ja": "秘技を使用した後、次の戦闘開始時、ヘルタの攻撃力+#1[i]%、#2[i]ターン継続。",
         "ko": "비술 발동 후 다음 전투 시작 시 헤르타의 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
       },
-      "params": [
-        [
-          0.4,
-          3
-        ]
-      ]
+      "params": [[0.4, 3]],
+      "icon": "icon/skill/1013_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Depois de usar a Técnica, aumenta o ATQ desta unidade no início da próxima batalha.",
+        "en": "After using Technique, increases this unit's ATK at the start of the next battle.",
+        "zh-CN": "使用秘技，下一次战斗开始时使自身攻击力提高。",
+        "ja": "秘技を使用、次の戦闘開始時に自身の攻撃力をアップする。",
+        "ko": "비술을 발동하고 다음 전투 시작 시 자신의 공격력이 증가한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -363,7 +244,10 @@
         "zh-CN": "施放普攻时，若指定敌方单体生命值百分比小于等于50%，则额外造成等同于黑塔40%攻击力的冰属性附加伤害。",
         "ja": "通常攻撃を行った時、指定した敵単体の残りHPが50%以下の場合、さらにヘルタの攻撃力40%分の氷属性付加ダメージを与える。",
         "ko": "일반 공격 발동 시 지정된 단일 적의 HP 백분율이 50% 이하일 경우 추가로 헤르타 공격력의 40%만큼 얼음 속성 추가 피해를 가한다"
-      }
+      },
+      "icon": "icon/skill/1013_rank1.png",
+      "materials": [{ "id": 11013, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -380,7 +264,10 @@
         "zh-CN": "天赋每触发1次，自身暴击率提高3%，该效果最多叠加5层。",
         "ja": "天賦が1回発動するごとに、自身の会心率+3%、この効果は最大で5回累積できる。",
         "ko": "특성을 1회 발동할 때마다 자신의 치명타 확률이 3% 증가한다. 해당 효과 최대 중첩수: 5스택"
-      }
+      },
+      "icon": "icon/skill/1013_rank2.png",
+      "materials": [{ "id": 11013, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -397,7 +284,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1013_skill.png",
+      "materials": [{ "id": 11013, "num": 1 }],
+      "levelUpSkills": [{ "id": 101302, "num": 2 }, { "id": 101301, "num": 1 }]
     },
     {
       "rank": 4,
@@ -414,7 +304,10 @@
         "zh-CN": "触发天赋时造成的伤害提高10%。",
         "ja": "天賦発動時の与ダメージ+10%。",
         "ko": "특성이 발동될 시 가하는 피해가 10% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1013_rank4.png",
+      "materials": [{ "id": 11013, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -431,7 +324,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1013_ultimate.png",
+      "materials": [{ "id": 11013, "num": 1 }],
+      "levelUpSkills": [{ "id": 101303, "num": 2 }, { "id": 101304, "num": 2 }]
     },
     {
       "rank": 6,
@@ -448,10 +344,679 @@
         "zh-CN": "施放终结技后，攻击力提高25%，持续1回合。",
         "ja": "必殺技を発動した後、攻撃力+25%、1ターン継続。",
         "ko": "필살기 발동 후 공격력이 25% 증가한다. 지속 시간: 1턴"
-      }
+      },
+      "icon": "icon/skill/1013_rank6.png",
+      "materials": [{ "id": 11013, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 110,
+  "stats": [
+    {
+      "hp": { "base": 129.6, "step": 6.48 },
+      "atk": { "base": 79.2, "step": 3.96 },
+      "def": { "base": 54, "step": 2.7 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 181.44, "step": 6.48 },
+      "atk": { "base": 110.88, "step": 3.96 },
+      "def": { "base": 75.6, "step": 2.7 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 142.56, "step": 3.96 },
+      "def": { "base": 97.2, "step": 2.7 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 285.12, "step": 6.48 },
+      "atk": { "base": 174.24, "step": 3.96 },
+      "def": { "base": 118.8, "step": 2.7 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 336.96, "step": 6.48 },
+      "atk": { "base": 205.92, "step": 3.96 },
+      "def": { "base": 140.4, "step": 2.7 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 388.8, "step": 6.48 },
+      "atk": { "base": 237.6, "step": 3.96 },
+      "def": { "base": 162, "step": 2.7 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 269.28, "step": 3.96 },
+      "def": { "base": 183.6, "step": 2.7 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 75, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 111002, "num": 5 }, { "id": 110403, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 111002, "num": 8 }, { "id": 110403, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 111003, "num": 5 }, { "id": 110403, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 111003, "num": 7 }, { "id": 110403, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1013001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1013_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [101301],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1013002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1013_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [101302],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110132, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110133, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110133, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1013003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1013_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [101303],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110132, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110133, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110133, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1013004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1013_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [101304],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110132, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110133, "num": 4 },
+            { "id": 110501, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 110501, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110133, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1013007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1013_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [101307],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1013101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Eficiência",
+        "en": "Efficiency",
+        "zh-CN": "效率",
+        "ja": "{RUBY_B#こうりつ}効率{RUBY_E#}",
+        "ko": "효율"
+      },
+      "description": {
+        "pt-BR": "Quando a Perícia é utilizada, o efeito de Bônus de Dano em inimigos-alvo aumenta em #1[i]% extra.",
+        "en": "When Skill is used, the DMG Boost effect on target enemies increases by an extra #1[i]%.",
+        "zh-CN": "施放战技时，对目标造成的伤害提高效果额外再提高#1[i]%。",
+        "ja": "戦闘スキルを発動した時、さらに与ダメージ+#1[i]%。",
+        "ko": "전투 스킬 발동 시 적에게 가하는 피해 증가 효과가 추가로 #1[i]% 증가한다"
+      },
+      "params": [[0.25]],
+      "icon": "icon/skill/1013_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 110501, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1013102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Marionete",
+        "en": "Puppet",
+        "zh-CN": "人偶",
+        "ja": "{RUBY_B#にんぎょう}人形{RUBY_E#}",
+        "ko": "인형"
+      },
+      "description": {
+        "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
+        "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
+        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
+        "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
+        "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
+      },
+      "params": [[0.35]],
+      "icon": "icon/skill/1013_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110132, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1013103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Geleira",
+        "en": "Icing",
+        "zh-CN": "冰结",
+        "ja": "{RUBY_B#ひょうけつ}氷結{RUBY_E#}",
+        "ko": "빙결"
+      },
+      "description": {
+        "pt-BR": "Quando a Perícia Suprema é utilizada, causa #1[i]% a mais de Dano a inimigos com Congelamento.",
+        "en": "When Ultimate is used, deals #1[i]% more DMG to Frozen enemies.",
+        "zh-CN": "施放终结技时，对冻结状态下的敌人造成的伤害提高#1[i]%。",
+        "ja": "必殺技を発動した時、凍結状態の敵に対する与ダメージ+#1[i]%。",
+        "ko": "필살기 발동 시 빙결 상태의 적에게 가하는 피해가 #1[i]% 증가한다"
+      },
+      "params": [[0.2]],
+      "icon": "icon/skill/1013_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110133, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110501, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1013201,
+      "anchor": "Point09",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1013202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1013101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.05 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110131, "num": 2 }, { "id": 111001, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1013203,
+      "anchor": "Point11",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1013202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.032 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1013204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1013202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.027 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110132, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1013205,
+      "anchor": "Point13",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1013102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110132, "num": 4 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1013206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1013205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.075 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1013207,
+      "anchor": "Point15",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [1013205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.048 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110133, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1013208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Chance de CRIT",
+        "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
+        "ja": "会心率強化",
+        "ko": "치명타 확률 강화"
+      },
+      "icon": "icon/property/IconCriticalChance.png",
+      "maxLevel": 1,
+      "prerequisites": [1013103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "CriticalChanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1013209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1013103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.1 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1013210,
+      "anchor": "Point18",
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
+      "icon": "icon/property/IconIceAddedRatio.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "IceAddedRatio", "value": 0.064 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110133, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11013, 110131, 110132, 110133, 110403, 110501, 111001, 111002, 111003],
   "images": {
     "icon": "icon/character/1013.png",
     "preview": "image/character_preview/1013.png",

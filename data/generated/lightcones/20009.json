@@ -1,13 +1,7 @@
 {
   "id": 20009,
   "slug": "shattered-home",
-  "name": {
-    "pt-BR": "Casa Destruída",
-    "en": "Shattered Home",
-    "zh-CN": "乐圮",
-    "ja": "楽壊",
-    "ko": "무너진 행복"
-  },
+  "name": { "pt-BR": "Casa Destruída", "en": "Shattered Home", "zh-CN": "乐圮", "ja": "楽壊", "ko": "무너진 행복" },
   "rarity": 3,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
@@ -20,13 +14,7 @@
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「어떤 사물을 파괴할 수 있는 능력이 있는 사람만이 진정한 지배자이다」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Erradicação",
-      "en": "Eradication",
-      "zh-CN": "诛讨",
-      "ja": "誅討",
-      "ko": "토벌"
-    },
+    "name": { "pt-BR": "Erradicação", "en": "Eradication", "zh-CN": "诛讨", "ja": "誅討", "ko": "토벌" },
     "description": {
       "pt-BR": "O usuário causa #2[i]% a mais de Dano a inimigos-alvo com porcentagem de PV maior do que #1[i]%.",
       "en": "The wearer deals #2[i]% more DMG to enemy targets whose HP percentage is greater than #1[i]%.",
@@ -34,29 +22,54 @@
       "ja": "残りHPが#1[i]%を超える敵に対する、装備キャラの与ダメージ+#2[i]%。",
       "ko": "장착한 캐릭터는 현재 HP 백분율이 #1[i]%보다 높은 적을 공격할 경우 가하는 피해가 #2[i]% 증가한다"
     },
-    "params": [
-      [
-        0.5,
-        0.2
-      ],
-      [
-        0.5,
-        0.25
-      ],
-      [
-        0.5,
-        0.3
-      ],
-      [
-        0.5,
-        0.35
-      ],
-      [
-        0.5,
-        0.4
-      ]
-    ]
+    "params": [[0.5, 0.2], [0.5, 0.25], [0.5, 0.3], [0.5, 0.35], [0.5, 0.4]],
+    "properties": [[], [], [], [], []]
   },
+  "stats": [
+    {
+      "hp": { "base": 38.4, "step": 5.76 },
+      "atk": { "base": 16.8, "step": 2.52 },
+      "def": { "base": 9, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 84.48, "step": 5.76 },
+      "atk": { "base": 36.96, "step": 2.52 },
+      "def": { "base": 19.8, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 145.92, "step": 5.76 },
+      "atk": { "base": 63.84, "step": 2.52 },
+      "def": { "base": 34.2, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 207.36, "step": 5.76 },
+      "atk": { "base": 90.72, "step": 2.52 },
+      "def": { "base": 48.6, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 268.8, "step": 5.76 },
+      "atk": { "base": 117.6, "step": 2.52 },
+      "def": { "base": 63, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 330.24, "step": 5.76 },
+      "atk": { "base": 144.48, "step": 2.52 },
+      "def": { "base": 77.4, "step": 1.35 }
+    },
+    {
+      "hp": { "base": 391.68, "step": 5.76 },
+      "atk": { "base": 171.36, "step": 2.52 },
+      "def": { "base": 91.8, "step": 1.35 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3000 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6000 }, { "id": 110111, "num": 2 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12000 }, { "id": 110112, "num": 2 }, { "id": 111002, "num": 4 }],
+    [{ "id": 2, "num": 30000 }, { "id": 110112, "num": 4 }, { "id": 111002, "num": 6 }],
+    [{ "id": 2, "num": 60000 }, { "id": 110113, "num": 3 }, { "id": 111003, "num": 3 }],
+    [{ "id": 2, "num": 120000 }, { "id": 110113, "num": 6 }, { "id": 111003, "num": 5 }]
+  ],
   "images": {
     "icon": "icon/light_cone/20009.png",
     "preview": "image/light_cone_preview/20009.png",

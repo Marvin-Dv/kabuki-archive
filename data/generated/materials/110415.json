@@ -1,0 +1,24 @@
+{
+  "id": 110415,
+  "slug": "ascendant-debris",
+  "name": {
+    "pt-BR": "Detritos Ascendentes",
+    "en": "Ascendant Debris",
+    "zh-CN": "天人遗垢",
+    "ja": "天人の残穢",
+    "ko": "천인의 유해"
+  },
+  "rarity": 4,
+  "type": "Material",
+  "subType": "AvatarRank",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/110415.png",
+  "sources": {
+    "en": ["Stagnant Shadow: Alchemy Commission", "Omni-Synthesizer — Material Exchange"],
+    "pt-BR": ["Sombra Estagnada: Comissão de Alquimia", "Sintetizador Omni — Troca de Material"],
+    "zh-CN": ["凝滞虚影【丹鼎司】", "「万能合成机」- 材料置换"],
+    "ja": ["凝結虚影「丹鼎司」", "「万能合成マシン」- 素材交換"],
+    "ko": ["정체된 허영 [단정사]", "「만능 합성기」- 재료 치환"]
+  }
+}

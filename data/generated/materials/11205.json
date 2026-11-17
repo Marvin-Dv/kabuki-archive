@@ -1,0 +1,17 @@
+{
+  "id": 11205,
+  "slug": "blades-eidolon",
+  "name": {
+    "pt-BR": "Eidolon de Blade",
+    "en": "Blade's Eidolon",
+    "zh-CN": "【刃】的星魂",
+    "ja": "「刃」の星魂",
+    "ko": "[블레이드]의 성혼"
+  },
+  "rarity": 5,
+  "type": "Material",
+  "subType": "Eidolon",
+  "announcedAt": "2026-11-17",
+  "patchReleaseDate": null,
+  "icon": "icon/item/11003.png"
+}

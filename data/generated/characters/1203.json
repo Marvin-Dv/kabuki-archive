@@ -1,13 +1,7 @@
 {
   "id": 1203,
   "slug": "luocha",
-  "name": {
-    "pt-BR": "Luocha",
-    "en": "Luocha",
-    "zh-CN": "罗刹",
-    "ja": "羅刹",
-    "ko": "나찰"
-  },
+  "name": { "pt-BR": "Luocha", "en": "Luocha", "zh-CN": "罗刹", "ja": "羅刹", "ko": "나찰" },
   "rarity": 5,
   "path": "Abundance",
   "element": "Imaginary",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体に羅刹の攻撃力#1[i]%分の虚数属性ダメージを与える。",
         "ko": "지정한 단일 적에게 나찰 공격력의 #1[i]%만큼 허수 속성 피해를 준다"
       },
-      "params": [
-        [
-          0.5
-        ],
-        [
-          0.6
-        ],
-        [
-          0.7
-        ],
-        [
-          0.8
-        ],
-        [
-          0.9
-        ],
-        [
-          1
-        ],
-        [
-          1.1
-        ],
-        [
-          1.2
-        ],
-        [
-          1.3
-        ],
-        [
-          1.4
-        ]
-      ]
+      "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
+      "icon": "icon/skill/1203_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Imaginário leve a um único inimigo.",
+        "en": "Deals minor Imaginary DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量虚数属性伤害。",
+        "ja": "敵単体に少量の虚数属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 허수 속성 피해를 준다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120302,
@@ -82,97 +56,33 @@
         "ko": "전투 스킬 발동 후 지정한 단일 아군의 HP를 즉시 나찰 공격력의 #1[i]%+#2[i]만큼 회복시키고, 나찰은 [백화의 순간]을 1스택 획득한다.\n임의의 단일 아군의 현재 HP 백분율이 #3[i]% 이하가 되면, 나찰은 즉시 해당 아군에게 전투 스킬과 동일한 효과를 1회 발동한다. 해당 효과 발동 시 전투 스킬 포인트를 소모하지 않고, #4[i]턴 후 다시 발동할 수 있다"
       },
       "params": [
-        [
-          0.4,
-          200,
-          0.5,
-          2
-        ],
-        [
-          0.425,
-          320,
-          0.5,
-          2
-        ],
-        [
-          0.45,
-          410,
-          0.5,
-          2
-        ],
-        [
-          0.475,
-          500,
-          0.5,
-          2
-        ],
-        [
-          0.5,
-          560,
-          0.5,
-          2
-        ],
-        [
-          0.52,
-          620,
-          0.5,
-          2
-        ],
-        [
-          0.54,
-          665,
-          0.5,
-          2
-        ],
-        [
-          0.56,
-          710,
-          0.5,
-          2
-        ],
-        [
-          0.58,
-          755,
-          0.5,
-          2
-        ],
-        [
-          0.6,
-          800,
-          0.5,
-          2
-        ],
-        [
-          0.62,
-          845,
-          0.5,
-          2
-        ],
-        [
-          0.64,
-          890,
-          0.5,
-          2
-        ],
-        [
-          0.66,
-          935,
-          0.5,
-          2
-        ],
-        [
-          0.68,
-          980,
-          0.5,
-          2
-        ],
-        [
-          0.7,
-          1025,
-          0.5,
-          2
-        ]
-      ]
+        [0.4, 200, 0.5, 2],
+        [0.425, 320, 0.5, 2],
+        [0.45, 410, 0.5, 2],
+        [0.475, 500, 0.5, 2],
+        [0.5, 560, 0.5, 2],
+        [0.52, 620, 0.5, 2],
+        [0.54, 665, 0.5, 2],
+        [0.56, 710, 0.5, 2],
+        [0.58, 755, 0.5, 2],
+        [0.6, 800, 0.5, 2],
+        [0.62, 845, 0.5, 2],
+        [0.64, 890, 0.5, 2],
+        [0.66, 935, 0.5, 2],
+        [0.68, 980, 0.5, 2],
+        [0.7, 1025, 0.5, 2]
+      ],
+      "icon": "icon/skill/1203_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Restaura PV de um único aliado e ganha 1 acúmulo de Flor do Abismo.",
+        "en": "Restores a single ally's HP and gains 1 stack of Abyss Flower.",
+        "zh-CN": "为我方单体回复生命值，获得1层【白花之刻】。",
+        "ja": "味方単体のHPを回復し、「白花の刻」を1層獲得。",
+        "ko": "단일 아군의 HP를 회복하고, [백화의 순간]을 1스택 획득한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 120303,
@@ -192,67 +102,33 @@
         "ko": "모든 적의 버프 효과를 #2[i]개 해제하고, 모든 적에게 나찰 공격력의 #1[i]%만큼 허수 속성 피해를 준다. 동시에 나찰은 [백화의 순간]을 1스택 획득한다"
       },
       "params": [
-        [
-          1.2,
-          1
-        ],
-        [
-          1.28,
-          1
-        ],
-        [
-          1.36,
-          1
-        ],
-        [
-          1.44,
-          1
-        ],
-        [
-          1.52,
-          1
-        ],
-        [
-          1.6,
-          1
-        ],
-        [
-          1.7,
-          1
-        ],
-        [
-          1.8,
-          1
-        ],
-        [
-          1.9,
-          1
-        ],
-        [
-          2,
-          1
-        ],
-        [
-          2.08,
-          1
-        ],
-        [
-          2.16,
-          1
-        ],
-        [
-          2.24,
-          1
-        ],
-        [
-          2.32,
-          1
-        ],
-        [
-          2.4,
-          1
-        ]
-      ]
+        [1.2, 1],
+        [1.28, 1],
+        [1.36, 1],
+        [1.44, 1],
+        [1.52, 1],
+        [1.6, 1],
+        [1.7, 1],
+        [1.8, 1],
+        [1.9, 1],
+        [2, 1],
+        [2.08, 1],
+        [2.16, 1],
+        [2.24, 1],
+        [2.32, 1],
+        [2.4, 1]
+      ],
+      "icon": "icon/skill/1203_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Remove 1 melhoria de todos os inimigos, causa Dano Imaginário a todos os inimigos, e ganha 1 acúmulo de Flor do Abismo.",
+        "en": "Removes 1 buff from all enemies, deals Imaginary DMG to all enemies, and gains 1 stack of Abyss Flower.",
+        "zh-CN": "解除敌方全体1个增益效果，并对敌方全体造成虚数属性伤害，获得1层【白花之刻】。",
+        "ja": "敵全体のバフを1つ解除し、敵全体に虚数属性ダメージを与え、「白花の刻」を1層獲得する。",
+        "ko": "모든 적의 버프 효과를 1개 해제하고, 모든 적에게 허수 속성 피해를 준다. 동시에 [백화의 순간]을 1스택 획득한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 120304,
@@ -272,109 +148,48 @@
         "ko": "[백화의 순간]이 #1[i]스택이 되면 나찰은 모든 [백화의 순간]을 소모해 결계를 펼친다.\n결계에 있는 임의의 적이 피격되면 공격을 발동한 아군은 즉시 나찰 공격력 #2[f1]%+#4[i]만큼의 HP를 회복한다.\n결계 효과 지속 시간: #3[i]턴. 나찰이 전투 불능 상태에 빠지면 결계도 해제된다"
       },
       "params": [
-        [
-          2,
-          0.12,
-          2,
-          60
-        ],
-        [
-          2,
-          0.1275,
-          2,
-          96
-        ],
-        [
-          2,
-          0.135,
-          2,
-          123
-        ],
-        [
-          2,
-          0.1425,
-          2,
-          150
-        ],
-        [
-          2,
-          0.15,
-          2,
-          168
-        ],
-        [
-          2,
-          0.156,
-          2,
-          186
-        ],
-        [
-          2,
-          0.162,
-          2,
-          199.5
-        ],
-        [
-          2,
-          0.168,
-          2,
-          213
-        ],
-        [
-          2,
-          0.174,
-          2,
-          226.5
-        ],
-        [
-          2,
-          0.18,
-          2,
-          240
-        ],
-        [
-          2,
-          0.186,
-          2,
-          253.5
-        ],
-        [
-          2,
-          0.192,
-          2,
-          267
-        ],
-        [
-          2,
-          0.198,
-          2,
-          280.5
-        ],
-        [
-          2,
-          0.204,
-          2,
-          294
-        ],
-        [
-          2,
-          0.21,
-          2,
-          307.5
-        ]
-      ]
+        [2, 0.12, 2, 60],
+        [2, 0.1275, 2, 96],
+        [2, 0.135, 2, 123],
+        [2, 0.1425, 2, 150],
+        [2, 0.15, 2, 168],
+        [2, 0.156, 2, 186],
+        [2, 0.162, 2, 199.5],
+        [2, 0.168, 2, 213],
+        [2, 0.174, 2, 226.5],
+        [2, 0.18, 2, 240],
+        [2, 0.186, 2, 253.5],
+        [2, 0.192, 2, 267],
+        [2, 0.198, 2, 280.5],
+        [2, 0.204, 2, 294],
+        [2, 0.21, 2, 307.5]
+      ],
+      "icon": "icon/skill/1203_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Cria um Campo ao obter 2 acúmulos de Flor do Abismo. Enquanto o Campo estiver ativo, os aliados restauram PV após atacar.",
+        "en": "Deploys a Zone when Abyss Flower reaches 2 stacks. While the Zone is active, allies will restore HP after they attack.",
+        "zh-CN": "当【白花之刻】2层时展开结界。结界存在时我方攻击后回复生命值。",
+        "ja": "「白花の刻」が2層になると結界を展開する。結界が展開されている間、味方は攻撃後にHPを回復する。",
+        "ko": "[백화의 순간] 효과가 2스택 중첩되면 결계를 펼친다. 결계가 있을 때 아군이 공격하면 HP를 회복한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 120306,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1203_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -398,7 +213,18 @@
         "zh-CN": "使用秘技后，下一次战斗开始时立即触发天赋。",
         "ja": "秘技を使用した後、次の戦闘開始時、天賦を発動する。",
         "ko": "비술 발동 후 다음 전투 시작 시 특성을 바로 발동한다"
-      }
+      },
+      "icon": "icon/skill/1203_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Após a Técnica ser utilizada, ativa imediatamente o efeito do Talento no início da próxima batalha.",
+        "en": "After the Technique is used, immediately trigger the effect of the Talent at the start of the next battle.",
+        "zh-CN": "使用秘技，下一次进战后立即触发天赋效果。",
+        "ja": "秘技を使用、次の戦闘に入った時、即座に天賦の効果を発動。",
+        "ko": "비술 발동 후 다음 전투 진입 시 특성 효과를 발동한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     }
   ],
   "eidolons": [
@@ -417,7 +243,10 @@
         "zh-CN": "结界生效时我方全体攻击力提高20%。",
         "ja": "結界が展開されている間、味方全体の攻撃力+20%。",
         "ko": "결계 효과 발동 시 모든 아군의 공격력이 20% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1203_rank1.png",
+      "materials": [{ "id": 11203, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -434,7 +263,10 @@
         "zh-CN": "触发战技效果时，若指定我方目标当前生命值百分比小于50%，则罗刹提供的治疗量提高30%；若指定我方目标当前生命值百分比大于等于50%，则为其提供能够抵消等同于罗刹18%攻击力+240伤害的护盾，持续2回合。",
         "ja": "戦闘スキルの効果が発動された時、指定した味方の残りHPが50%未満の場合、羅刹の治癒量+30%。指定した味方の残りHPが50%以上の場合、その味方に羅刹の攻撃力18%+240の耐久値を持つバリアを付与する、2ターン継続。",
         "ko": "전투 스킬 효과 발동 시 지정한 아군의 현재 HP 백분율이 50% 미만일 경우 나찰이 제공하는 치유량이 30% 증가하고, 현재 HP 백분율이 50% 이상일 경우 나찰 공격력의 18%+240만큼 피해를 상쇄할 수 있는 실드를 제공한다. 실드 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1203_rank2.png",
+      "materials": [{ "id": 11203, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -451,7 +283,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1203_skill.png",
+      "materials": [{ "id": 11203, "num": 1 }],
+      "levelUpSkills": [{ "id": 120302, "num": 2 }, { "id": 120301, "num": 1 }]
     },
     {
       "rank": 4,
@@ -468,7 +303,10 @@
         "zh-CN": "结界生效时使敌方目标陷入虚弱状态，造成的伤害降低12%。",
         "ja": "結界が展開されている間、敵を虚弱状態にし、敵の与ダメージ-12%。",
         "ko": "결계 효과 발동 시 적은 허약 상태에 빠지고, 가하는 피해가 12% 감소한다"
-      }
+      },
+      "icon": "icon/skill/1203_rank4.png",
+      "materials": [{ "id": 11203, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -485,7 +323,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1203_ultimate.png",
+      "materials": [{ "id": 11203, "num": 1 }],
+      "levelUpSkills": [{ "id": 120303, "num": 2 }, { "id": 120304, "num": 2 }]
     },
     {
       "rank": 6,
@@ -502,10 +343,652 @@
         "zh-CN": "施放终结技时，有100%固定概率使敌方全体全属性抗性降低20%，持续2回合。",
         "ja": "必殺技を発動した時、100%の固定確率で敵全体の全属性耐性-20%、2ターン継続。",
         "ko": "필살기 발동 시 100%의 고정 확률로 모든 적의 모든 속성 저항이 20% 감소한다. 지속 시간: 2턴"
-      }
+      },
+      "icon": "icon/skill/1203_rank6.png",
+      "materials": [{ "id": 11203, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 100,
+  "stats": [
+    {
+      "hp": { "base": 174.24, "step": 8.712 },
+      "atk": { "base": 102.96, "step": 5.148 },
+      "def": { "base": 49.5, "step": 2.475 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 243.936, "step": 8.712 },
+      "atk": { "base": 144.144, "step": 5.148 },
+      "def": { "base": 69.3, "step": 2.475 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 313.632, "step": 8.712 },
+      "atk": { "base": 185.328, "step": 5.148 },
+      "def": { "base": 89.1, "step": 2.475 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 383.328, "step": 8.712 },
+      "atk": { "base": 226.512, "step": 5.148 },
+      "def": { "base": 108.9, "step": 2.475 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 453.024, "step": 8.712 },
+      "atk": { "base": 267.696, "step": 5.148 },
+      "def": { "base": 128.7, "step": 2.475 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 522.72, "step": 8.712 },
+      "atk": { "base": 308.88, "step": 5.148 },
+      "def": { "base": 148.5, "step": 2.475 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 592.416, "step": 8.712 },
+      "atk": { "base": 350.064, "step": 5.148 },
+      "def": { "base": 168.3, "step": 2.475 },
+      "spd": { "base": 101, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 113011, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 113011, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 113012, "num": 6 }, { "id": 110407, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 113012, "num": 9 }, { "id": 110407, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 113013, "num": 6 }, { "id": 110407, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 113013, "num": 9 }, { "id": 110407, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1203001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1203_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [120301],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110171, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110172, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110172, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110173, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110173, "num": 8 }, { "id": 113013, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1203002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1203_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120302],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110171, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110172, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110172, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110172, "num": 7 }, { "id": 113012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110173, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110173, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 113013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110173, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110173, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1203003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1203_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120303],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110171, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110172, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110172, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110172, "num": 7 }, { "id": 113012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110173, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110173, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 113013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110173, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110173, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1203004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1203_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [120304],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110171, "num": 3 }, { "id": 113011, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110172, "num": 3 }, { "id": 113012, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110172, "num": 5 }, { "id": 113012, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110172, "num": 7 }, { "id": 113012, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110173, "num": 3 }, { "id": 113013, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110173, "num": 5 },
+            { "id": 110502, "num": 1 },
+            { "id": 113013, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110173, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110173, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1203007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1203_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [120307],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1203101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Ressurgimento Purificador",
+        "en": "Cleansing Revival",
+        "zh-CN": "浸池苏生",
+        "ja": "{RUBY_B#てきすいそせい}滴水蘇生{RUBY_E#}",
+        "ko": "침지 소생"
+      },
+      "description": {
+        "pt-BR": "Quando o efeito da Perícia é ativado, remove #1[i] penalidade(s) de um aliado-alvo.",
+        "en": "When Skill's effect is triggered, dispel #1[i] debuff(s) from one designated ally.",
+        "zh-CN": "触发战技效果时，解除指定我方单体的#1[i]个负面效果。",
+        "ja": "戦闘スキルの効果が発動された時、ターゲットとなった味方単体のデバフを#1[i]つ解除する。",
+        "ko": "전투 스킬 효과 발동 시 지정된 단일 아군의 디버프 효과를 #1[i]개 해제한다"
+      },
+      "params": [[1]],
+      "icon": "icon/skill/1203_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110171, "num": 3 }, { "id": 110502, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1203102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Santificado",
+        "en": "Sanctified",
+        "zh-CN": "浇灌尘身",
+        "ja": "{RUBY_B#きよ}清{RUBY_E#}めし{RUBY_B#ちり}塵{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}",
+        "ko": "쇄신의 몸"
+      },
+      "description": {
+        "pt-BR": "Quando um inimigo no Campo é atacado por um aliado, todos os aliados, exceto o atacante, restauram PV igual a #1[f1]% do ATQ de Luocha + #2[i].",
+        "en": "When any enemy in the Zone is attacked by an ally, all allies (except the attacker) restore HP equal to #1[f1]% of Luocha's ATK plus #2[i].",
+        "zh-CN": "处于结界中的任意敌方目标受到我方攻击后，除攻击者外的我方目标也会回复等同于罗刹#1[f1]%攻击力+#2[i]的生命值。",
+        "ja": "結界内の任意の敵が味方の攻撃を受けた後、攻撃者以外の味方も羅刹の攻撃力#1[f1]%+#2[i]のHPを回復する。",
+        "ko": "결계 안에 있는 임의의 적이 아군에게 피격되면 공격자가 아닌 아군도 나찰 공격력의 #1[f1]%+#2[i]만큼 HP를 회복한다"
+      },
+      "params": [[0.07, 93]],
+      "icon": "icon/skill/1203_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110172, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1203103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Através do Vale",
+        "en": "Through the Valley",
+        "zh-CN": "行过幽谷",
+        "ja": "{RUBY_B#ゆうこく}幽谷{RUBY_E#}を{RUBY_B#こ}越{RUBY_E#}え",
+        "ko": "유곡을 걷다"
+      },
+      "description": {
+        "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
+        "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
+        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
+        "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
+        "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
+      },
+      "params": [[0.7]],
+      "icon": "icon/skill/1203_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110173, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110502, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1203201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 113011, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1203202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1203101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110171, "num": 3 }, { "id": 113011, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1203203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1203202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110172, "num": 3 }, { "id": 113012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1203204,
+      "anchor": "Point12",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1203203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.05 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110172, "num": 3 }, { "id": 113012, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1203205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1203102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110172, "num": 5 }, { "id": 113012, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1203206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1203205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110173, "num": 3 }, { "id": 113013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1203207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1203206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110173, "num": 3 }, { "id": 113013, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1203208,
+      "anchor": "Point16",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1203103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.075 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110173, "num": 8 }, { "id": 113013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1203209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1203103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110173, "num": 8 }, { "id": 113013, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1203210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110173, "num": 8 }, { "id": 113013, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11203, 110171, 110172, 110173, 110407, 110502, 113011, 113012, 113013],
   "images": {
     "icon": "icon/character/1203.png",
     "preview": "image/character_preview/1203.png",

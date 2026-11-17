@@ -1,0 +1,13 @@
+{
+  "id": 24,
+  "type": "PhysicalAddedRatio",
+  "name": {
+    "pt-BR": "Bônus de Dano Físico",
+    "en": "Physical DMG Boost",
+    "zh-CN": "物理属性伤害提高",
+    "ja": "物理属性ダメージ",
+    "ko": "물리 속성 피해 증가"
+  },
+  "icon": "icon/property/IconPhysicalAddedRatio.png",
+  "percent": true
+}

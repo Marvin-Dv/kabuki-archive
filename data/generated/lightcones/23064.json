@@ -20,13 +20,7 @@
     "ko": "바닷물이 보드 위로 솟구치고, 파도 끝이 일렁이는 틈을 갈라내자 햇빛이 수많은 조각의 금박으로 부서진다. 그는 서핑보드에 올라타 파도마루에 몸을 싣고 높이 날아오른다.\n「거센 파도는 숱한 위험을 의미하고, 위험은 곧 두둑한 보상을 뜻하지」\n그는 물결과 도박을 하듯, 몇 번이고 거센 바람과 파도의 정점에 몸을 내던진다. 한여름, 햇빛, 시원한 바닷바람, 그리고 수많은 이름과 손익의 숫자, 사람들의 눈에 서린 거짓과 속셈은 모두 흐릿한 색채로 번져 더는 구분할 필요가 없다.\n「파도가 밀려온 이상, 뭘 몰고 올지 한번 지켜볼까?」\n바다는 무한하고, 아스트로폴리스의 번영 역시 무한하다. 다음 칩을 던지기 전, 그는 파도마루에 올라 자신의 몸을 판돈으로 삼아, 파도를 내려다보는 그 순간으로 시선을 고정한다"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Deslize nas Ondas",
-      "en": "Waveriding",
-      "zh-CN": "浪行",
-      "ja": "波乗り",
-      "ko": "파도타기"
-    },
+    "name": { "pt-BR": "Deslize nas Ondas", "en": "Waveriding", "zh-CN": "浪行", "ja": "波乗り", "ko": "파도타기" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, ganha \"Ventania Ascendente\", que aumenta a VEL do usuário em #2[i]%. Se a Perícia da Euforia usada for diferente da última Perícia da Euforia usada, ganha adicionalmente \"Tendência\", que aumenta a Euforia do usuário em #3[i]%.\nNo início de cada onda ou após o usuário usar sua Perícia da Euforia #4[i] vez(es), recupera 1 Ponto de Perícia.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by #2[i]%. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by #3[i]%.\nWhen every wave starts or after the wearer uses Elation Skill #4[i] time(s), recovers 1 Skill Point.",
@@ -35,38 +29,65 @@
       "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬 발동 시 [바람길]을 획득하며, [바람길]은 장착한 캐릭터의 속도를 #2[i]% 증가시킨다. 발동한 환락 스킬이 이전에 발동한 환락 스킬과 다를 경우 추가로 [물결]을 획득하며, [물결]은 장착한 캐릭터의 환락도를 #3[i]% 증가시킨다.\n각 웨이브 시작 시 또는 장착한 캐릭터가 환락 스킬을 #4[i]회 발동할 때마다 전투 스킬 포인트를 1pt 회복한다"
     },
     "params": [
-      [
-        0.18,
-        0.24,
-        0.4,
-        3
-      ],
-      [
-        0.21,
-        0.28,
-        0.55,
-        3
-      ],
-      [
-        0.24,
-        0.32,
-        0.7,
-        3
-      ],
-      [
-        0.27,
-        0.36,
-        0.85,
-        3
-      ],
-      [
-        0.3,
-        0.4,
-        1,
-        3
-      ]
+      [0.18, 0.24, 0.4, 3],
+      [0.21, 0.28, 0.55, 3],
+      [0.24, 0.32, 0.7, 3],
+      [0.27, 0.36, 0.85, 3],
+      [0.3, 0.4, 1, 3]
+    ],
+    "properties": [
+      [{ "type": "CriticalChanceBase", "value": 0.18 }],
+      [{ "type": "CriticalChanceBase", "value": 0.21 }],
+      [{ "type": "CriticalChanceBase", "value": 0.24 }],
+      [{ "type": "CriticalChanceBase", "value": 0.27 }],
+      [{ "type": "CriticalChanceBase", "value": 0.3 }]
     ]
   },
+  "stats": [
+    {
+      "hp": { "base": 43.2, "step": 6.48 },
+      "atk": { "base": 26.4, "step": 3.96 },
+      "def": { "base": 24, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 95.04, "step": 6.48 },
+      "atk": { "base": 58.08, "step": 3.96 },
+      "def": { "base": 52.8, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 164.16, "step": 6.48 },
+      "atk": { "base": 100.32, "step": 3.96 },
+      "def": { "base": 91.2, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 233.28, "step": 6.48 },
+      "atk": { "base": 142.56, "step": 3.96 },
+      "def": { "base": 129.6, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 302.4, "step": 6.48 },
+      "atk": { "base": 184.8, "step": 3.96 },
+      "def": { "base": 168, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 371.52, "step": 6.48 },
+      "atk": { "base": 227.04, "step": 3.96 },
+      "def": { "base": 206.4, "step": 3.6 }
+    },
+    {
+      "hp": { "base": 440.64, "step": 6.48 },
+      "atk": { "base": 269.28, "step": 3.96 },
+      "def": { "base": 244.8, "step": 3.6 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 5000 }, { "id": 114011, "num": 8 }],
+    [{ "id": 2, "num": 10000 }, { "id": 110261, "num": 4 }, { "id": 114011, "num": 12 }],
+    [{ "id": 2, "num": 20000 }, { "id": 110262, "num": 4 }, { "id": 114012, "num": 8 }],
+    [{ "id": 2, "num": 50000 }, { "id": 110262, "num": 8 }, { "id": 114012, "num": 12 }],
+    [{ "id": 2, "num": 100000 }, { "id": 110263, "num": 5 }, { "id": 114013, "num": 6 }],
+    [{ "id": 2, "num": 200000 }, { "id": 110263, "num": 10 }, { "id": 114013, "num": 8 }]
+  ],
   "images": {
     "icon": "icon/light_cone/23064.png",
     "preview": "image/light_cone_preview/23064.png",

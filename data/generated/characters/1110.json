@@ -1,13 +1,7 @@
 {
   "id": 1110,
   "slug": "lynx",
-  "name": {
-    "pt-BR": "Lynx",
-    "en": "Lynx",
-    "zh-CN": "玲可",
-    "ja": "リンクス",
-    "ko": "링스"
-  },
+  "name": { "pt-BR": "Lynx", "en": "Lynx", "zh-CN": "玲可", "ja": "リンクス", "ko": "링스" },
   "rarity": 4,
   "path": "Abundance",
   "element": "Quantum",
@@ -31,38 +25,18 @@
         "ja": "指定した敵単体に自身の最大HP#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 자신의 HP 최대치의 #1[i]%만큼 양자 속성 피해를 준다"
       },
-      "params": [
-        [
-          0.25
-        ],
-        [
-          0.3
-        ],
-        [
-          0.35
-        ],
-        [
-          0.4
-        ],
-        [
-          0.45
-        ],
-        [
-          0.5
-        ],
-        [
-          0.55
-        ],
-        [
-          0.6
-        ],
-        [
-          0.65
-        ],
-        [
-          0.7
-        ]
-      ]
+      "params": [[0.25], [0.3], [0.35], [0.4], [0.45], [0.5], [0.55], [0.6], [0.65], [0.7]],
+      "icon": "icon/skill/1110_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Quântico leve a um único inimigo.",
+        "en": "Deals minor Quantum DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量量子属性伤害。",
+        "ja": "敵単体に少量の量子属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 111002,
@@ -82,127 +56,33 @@
         "ko": "지정된 단일 아군에게 [생존 반응]을 부여하며, HP 최대치가 링스 HP 최대치의 #1[f1]%+#2[i]만큼 증가하고, 해당 목표가 「파멸」 혹은 「보존」 운명의 길이면 적에게 피격될 확률이 대폭 증가한다. [생존 반응]은 #3[i]턴간 지속된다.\n해당 목표의 HP를 링스 HP 최대치의 #4[f1]%+#5[i]만큼 회복시킨다"
       },
       "params": [
-        [
-          0.05,
-          50,
-          2,
-          0.08,
-          80,
-          5
-        ],
-        [
-          0.0525,
-          80,
-          2,
-          0.085,
-          128,
-          5
-        ],
-        [
-          0.055,
-          102.5,
-          2,
-          0.09,
-          164,
-          5
-        ],
-        [
-          0.0575,
-          125,
-          2,
-          0.095,
-          200,
-          5
-        ],
-        [
-          0.06,
-          140,
-          2,
-          0.1,
-          224,
-          5
-        ],
-        [
-          0.0625,
-          155,
-          2,
-          0.104,
-          248,
-          5
-        ],
-        [
-          0.0656,
-          166.25,
-          2,
-          0.108,
-          266,
-          5
-        ],
-        [
-          0.0688,
-          177.5,
-          2,
-          0.112,
-          284,
-          5
-        ],
-        [
-          0.0719,
-          188.75,
-          2,
-          0.116,
-          302,
-          5
-        ],
-        [
-          0.075,
-          200,
-          2,
-          0.12,
-          320,
-          5
-        ],
-        [
-          0.0775,
-          211.25,
-          2,
-          0.124,
-          338,
-          5
-        ],
-        [
-          0.08,
-          222.5,
-          2,
-          0.128,
-          356,
-          5
-        ],
-        [
-          0.0825,
-          233.75,
-          2,
-          0.132,
-          374,
-          5
-        ],
-        [
-          0.085,
-          245,
-          2,
-          0.136,
-          392,
-          5
-        ],
-        [
-          0.0875,
-          256.25,
-          2,
-          0.14,
-          410,
-          5
-        ]
-      ]
+        [0.05, 50, 2, 0.08, 80, 5],
+        [0.0525, 80, 2, 0.085, 128, 5],
+        [0.055, 102.5, 2, 0.09, 164, 5],
+        [0.0575, 125, 2, 0.095, 200, 5],
+        [0.06, 140, 2, 0.1, 224, 5],
+        [0.0625, 155, 2, 0.104, 248, 5],
+        [0.0656, 166.25, 2, 0.108, 266, 5],
+        [0.0688, 177.5, 2, 0.112, 284, 5],
+        [0.0719, 188.75, 2, 0.116, 302, 5],
+        [0.075, 200, 2, 0.12, 320, 5],
+        [0.0775, 211.25, 2, 0.124, 338, 5],
+        [0.08, 222.5, 2, 0.128, 356, 5],
+        [0.0825, 233.75, 2, 0.132, 374, 5],
+        [0.085, 245, 2, 0.136, 392, 5],
+        [0.0875, 256.25, 2, 0.14, 410, 5]
+      ],
+      "icon": "icon/skill/1110_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Aplica \"Resposta de Sobrevivência\" a um único aliado, aumentando os PV máximos, e restaurando os PV dele.",
+        "en": "Applies \"Survival Response\" to a single ally, increases their Max HP, and restores their HP.",
+        "zh-CN": "使我方单体获得【求生反应】，使其生命上限提高，同时为其回复生命值。",
+        "ja": "味方単体に「サバイバル反応」を与え、最大HPをアップし、HPを回復する。",
+        "ko": "단일 아군에게 [생존 반응]을 부여하고, 대상의 HP 최대치를 증가시키며 동시에 HP를 회복시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 111003,
@@ -222,82 +102,33 @@
         "ko": "모든 아군의 디버프 효과를 #1[i]개 해제하고, 모든 아군의 HP를 즉시 링스 HP 최대치의 #2[f1]%+#3[i]만큼 회복시킨다"
       },
       "params": [
-        [
-          1,
-          0.09,
-          90
-        ],
-        [
-          1,
-          0.0956,
-          144
-        ],
-        [
-          1,
-          0.1013,
-          184.5
-        ],
-        [
-          1,
-          0.1069,
-          225
-        ],
-        [
-          1,
-          0.1125,
-          252
-        ],
-        [
-          1,
-          0.117,
-          279
-        ],
-        [
-          1,
-          0.1215,
-          299.25
-        ],
-        [
-          1,
-          0.126,
-          319.5
-        ],
-        [
-          1,
-          0.1305,
-          339.75
-        ],
-        [
-          1,
-          0.135,
-          360
-        ],
-        [
-          1,
-          0.1395,
-          380.25
-        ],
-        [
-          1,
-          0.144,
-          400.5
-        ],
-        [
-          1,
-          0.1485,
-          420.75
-        ],
-        [
-          1,
-          0.153,
-          441
-        ],
-        [
-          1,
-          0.1575,
-          461.25
-        ]
-      ]
+        [1, 0.09, 90],
+        [1, 0.0956, 144],
+        [1, 0.1013, 184.5],
+        [1, 0.1069, 225],
+        [1, 0.1125, 252],
+        [1, 0.117, 279],
+        [1, 0.1215, 299.25],
+        [1, 0.126, 319.5],
+        [1, 0.1305, 339.75],
+        [1, 0.135, 360],
+        [1, 0.1395, 380.25],
+        [1, 0.144, 400.5],
+        [1, 0.1485, 420.75],
+        [1, 0.153, 441],
+        [1, 0.1575, 461.25]
+      ],
+      "icon": "icon/skill/1110_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Remove 1 penalidade de todos os aliados e restaura seus PV.",
+        "en": "Dispels 1 debuff from all allies and restores their HP.",
+        "zh-CN": "解除我方全体1个负面效果，为我方全体回复生命值。",
+        "ja": "味方全体のデバフを1つ解除し、味方全体のHPを回復する。",
+        "ko": "모든 아군의 디버프 효과를 1개 해제하고, 모든 아군의 HP를 회복시킨다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 111004,
@@ -317,130 +148,55 @@
         "ko": "전투 스킬 혹은 필살기 발동 시 아군은 #1[i]턴의 지속 치유 효과를 획득하고, 해당 목표는 턴이 시작될 때마다 HP를 링스 HP 최대치의 #2[f1]%+#3[i]만큼 회복한다. 해당 목표가 [생존 반응]을 보유하고 있으면 지속 치유되는 HP가 추가로 링스 HP 최대치의 #4[f1]%+#5[i]만큼 증가한다"
       },
       "params": [
-        [
-          2,
-          0.024,
-          24,
-          0.03,
-          30
-        ],
-        [
-          2,
-          0.0255,
-          38.4,
-          0.0319,
-          48
-        ],
-        [
-          2,
-          0.027,
-          49.2,
-          0.0338,
-          61.5
-        ],
-        [
-          2,
-          0.0285,
-          60,
-          0.0356,
-          75
-        ],
-        [
-          2,
-          0.03,
-          67.2,
-          0.0375,
-          84
-        ],
-        [
-          2,
-          0.0312,
-          74.4,
-          0.039,
-          93
-        ],
-        [
-          2,
-          0.0324,
-          79.8,
-          0.0405,
-          99.75
-        ],
-        [
-          2,
-          0.0336,
-          85.2,
-          0.042,
-          106.5
-        ],
-        [
-          2,
-          0.0348,
-          90.6,
-          0.0435,
-          113.25
-        ],
-        [
-          2,
-          0.036,
-          96,
-          0.045,
-          120
-        ],
-        [
-          2,
-          0.0372,
-          101.4,
-          0.0465,
-          126.75
-        ],
-        [
-          2,
-          0.0384,
-          106.8,
-          0.048,
-          133.5
-        ],
-        [
-          2,
-          0.0396,
-          112.2,
-          0.0495,
-          140.25
-        ],
-        [
-          2,
-          0.0408,
-          117.6,
-          0.051,
-          147
-        ],
-        [
-          2,
-          0.042,
-          123,
-          0.0525,
-          153.75
-        ]
-      ]
+        [2, 0.024, 24, 0.03, 30],
+        [2, 0.0255, 38.4, 0.0319, 48],
+        [2, 0.027, 49.2, 0.0338, 61.5],
+        [2, 0.0285, 60, 0.0356, 75],
+        [2, 0.03, 67.2, 0.0375, 84],
+        [2, 0.0312, 74.4, 0.039, 93],
+        [2, 0.0324, 79.8, 0.0405, 99.75],
+        [2, 0.0336, 85.2, 0.042, 106.5],
+        [2, 0.0348, 90.6, 0.0435, 113.25],
+        [2, 0.036, 96, 0.045, 120],
+        [2, 0.0372, 101.4, 0.0465, 126.75],
+        [2, 0.0384, 106.8, 0.048, 133.5],
+        [2, 0.0396, 112.2, 0.0495, 140.25],
+        [2, 0.0408, 117.6, 0.051, 147],
+        [2, 0.042, 123, 0.0525, 153.75]
+      ],
+      "icon": "icon/skill/1110_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ao usar a Perícia ou a Perícia Suprema, aplica cura contínua ao aliado-alvo. Se o alvo tiver uma \"Resposta de Sobrevivência\" ativa, então o efeito da cura contínua aumenta adicionalmente.",
+        "en": "When using Skill or Ultimate, applies continuous healing on the target ally. If the target has \"Survival Response,\" the continuous healing effect additionally increases.",
+        "zh-CN": "施放战技或终结技时，使我方目标获得持续回复生命值效果，若目标持有【求生反应】持续回复生命值效果额外提高。",
+        "ja": "戦闘スキルまたは必殺技を発動した時、味方に持続HP回復効果を付与し、その味方が「サバイバル反応」を有している場合、持続回復効果がアップする。",
+        "ko": "전투 스킬 혹은 필살기 발동 시 아군은 HP 지속 회복 효과를 획득하고, 해당 목표가 [생존 반응]을 보유하고 있으면 HP 지속 회복 효과가 추가로 증가한다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 111006,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
-      }
+      },
+      "icon": "icon/skill/1110_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 111007,
@@ -459,11 +215,18 @@
         "ja": "秘技を使用した後、次の戦闘開始時、味方全体にリンクスの天賦による持続治癒効果を付与する、#1[i]ターン継続。",
         "ko": "비술 발동 후 다음 전투 시작 시 모든 아군에게 링스 특성과 동일한 지속 치유 효과를 부여한다. 지속 시간: #1[i]턴"
       },
-      "params": [
-        [
-          2
-        ]
-      ]
+      "params": [[2]],
+      "icon": "icon/skill/1110_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Depois que esta personagem usa sua Técnica, no início da próxima batalha, todos os aliados recebem um efeito de cura contínua.",
+        "en": "After this character uses her Technique, at the start of the next battle, all allies are granted a continuous healing effect.",
+        "zh-CN": "使用秘技，下一次战斗开始时为我方全体附上持续治疗效果。",
+        "ja": "秘技を使用、次の戦闘開始時、味方全体に持続治癒効果を付与する。",
+        "ko": "비술을 발동하면 다음 전투 시작 시 모든 아군에게 지속 치유 효과를 부여한다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     }
   ],
   "eidolons": [
@@ -482,7 +245,10 @@
         "zh-CN": "为当前生命值百分比小于等于50%的我方目标提供治疗时，玲可的治疗量提高20%，该效果对持续治疗效果也会生效。",
         "ja": "残りHPが50%以下の味方に治癒を行う時、リンクスの治癒量+20%。この効果は持続治癒効果にも有効。",
         "ko": "현재 HP 백분율이 50% 이하인 아군에게 치유 제공 시 링스의 치유량이 20% 증가한다. 해당 효과는 지속 치유 효과에도 적용된다"
-      }
+      },
+      "icon": "icon/skill/1110_rank1.png",
+      "materials": [{ "id": 11110, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -499,7 +265,10 @@
         "zh-CN": "持有【求生反应】的目标被施加负面效果时可抵抗1次负面效果。",
         "ja": "「サバイバル反応」を持つターゲットはデバフを付与された時、それを1回抵抗できる。",
         "ko": "[생존 반응]을 보유한 목표에게 디버프 효과가 부여될 시 디버프 효과에 1회 저항할 수 있다"
-      }
+      },
+      "icon": "icon/skill/1110_rank2.png",
+      "materials": [{ "id": 11110, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -516,7 +285,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1110_skill.png",
+      "materials": [{ "id": 11110, "num": 1 }],
+      "levelUpSkills": [{ "id": 111002, "num": 2 }, { "id": 111001, "num": 1 }]
     },
     {
       "rank": 4,
@@ -533,7 +305,10 @@
         "zh-CN": "获得【求生反应】时，使该目标攻击力提高，提高数值等同于玲可3.0%生命上限的攻击力，持续1回合。",
         "ja": "「サバイバル反応」を獲得した時、ターゲットの攻撃力がリンクスの最大HPの3.0%分アップする。1ターン継続。",
         "ko": "[생존 반응] 획득 시 해당 목표의 공격력이 링스 HP 최대치의 3.0%만큼 증가한다. 지속 시간: 1턴"
-      }
+      },
+      "icon": "icon/skill/1110_rank4.png",
+      "materials": [{ "id": 11110, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -550,7 +325,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1110_ultimate.png",
+      "materials": [{ "id": 11110, "num": 1 }],
+      "levelUpSkills": [{ "id": 111003, "num": 2 }, { "id": 111004, "num": 2 }]
     },
     {
       "rank": 6,
@@ -567,10 +345,649 @@
         "zh-CN": "【求生反应】的生命上限提高效果额外提高，提高数值等同于玲可6.0%的生命上限，并使其效果抵抗提高30%。",
         "ja": "「サバイバル反応」の最大HPアップ効果が、さらにリンクスの最大HPの6.0%分アップする。「サバイバル反応」を持つ味方の効果抵抗+30%。",
         "ko": "[생존 반응]의 HP 최대치 증가 효과가 링스 HP 최대치의 6.0%만큼 증가하고, 효과 저항이 30% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1110_rank6.png",
+      "materials": [{ "id": 11110, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 100,
+  "stats": [
+    {
+      "hp": { "base": 144, "step": 7.2 },
+      "atk": { "base": 67.2, "step": 3.36 },
+      "def": { "base": 75, "step": 3.75 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 201.6, "step": 7.2 },
+      "atk": { "base": 94.08, "step": 3.36 },
+      "def": { "base": 105, "step": 3.75 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 259.2, "step": 7.2 },
+      "atk": { "base": 120.96, "step": 3.36 },
+      "def": { "base": 135, "step": 3.75 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 316.8, "step": 7.2 },
+      "atk": { "base": 147.84, "step": 3.36 },
+      "def": { "base": 165, "step": 3.75 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 374.4, "step": 7.2 },
+      "atk": { "base": 174.72, "step": 3.36 },
+      "def": { "base": 195, "step": 3.75 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 432, "step": 7.2 },
+      "atk": { "base": 201.6, "step": 3.36 },
+      "def": { "base": 225, "step": 3.75 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 489.6, "step": 7.2 },
+      "atk": { "base": 228.48, "step": 3.36 },
+      "def": { "base": 255, "step": 3.75 },
+      "spd": { "base": 100, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 3200 }, { "id": 111001, "num": 4 }],
+    [{ "id": 2, "num": 6400 }, { "id": 111001, "num": 8 }],
+    [{ "id": 2, "num": 12800 }, { "id": 111002, "num": 5 }, { "id": 110416, "num": 2 }],
+    [{ "id": 2, "num": 32000 }, { "id": 111002, "num": 8 }, { "id": 110416, "num": 5 }],
+    [{ "id": 2, "num": 64000 }, { "id": 111003, "num": 5 }, { "id": 110416, "num": 15 }],
+    [{ "id": 2, "num": 128000 }, { "id": 111003, "num": 7 }, { "id": 110416, "num": 28 }]
+  ],
+  "traces": [
+    {
+      "id": 1110001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1110_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [111001],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110171, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110172, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110172, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110173, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110173, "num": 6 }, { "id": 111003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1110002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1110_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [111002],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110171, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110172, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110172, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110172, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110173, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110173, "num": 4 },
+            { "id": 110503, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110173, "num": 6 }, { "id": 110503, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110173, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1110_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [111003],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110171, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110172, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110172, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110172, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110173, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110173, "num": 4 },
+            { "id": 110503, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110173, "num": 6 }, { "id": 110503, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110173, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1110_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [111004],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110171, "num": 2 }, { "id": 111001, "num": 4 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110172, "num": 2 }, { "id": 111002, "num": 2 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110172, "num": 4 }, { "id": 111002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 24000 }, { "id": 110172, "num": 6 }, { "id": 111002, "num": 5 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110173, "num": 2 }, { "id": 111003, "num": 2 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 64000 },
+            { "id": 110173, "num": 4 },
+            { "id": 110503, "num": 1 },
+            { "id": 111003, "num": 3 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110173, "num": 6 }, { "id": 110503, "num": 1 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 240000 },
+            { "id": 110173, "num": 11 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1110_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [111007],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1110101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Pesquisa de Avanço",
+        "en": "Advance Surveying",
+        "zh-CN": "提前勘测",
+        "ja": "{RUBY_B#じぜんちょうさ}事前調査{RUBY_E#}",
+        "ko": "사전 탐측"
+      },
+      "description": {
+        "pt-BR": "Após um alvo com \"Resposta de Sobrevivência\" ser atingido, Lynx regenera #1[i] de Energia imediatamente.",
+        "en": "After a target with \"Survival Response\" is hit, Lynx regenerates #1[i] Energy immediately.",
+        "zh-CN": "当持有【求生反应】的目标受到攻击后，玲可立即恢复#1[i]点能量。",
+        "ja": "「サバイバル反応」を持つターゲットが攻撃を受けた後、リンクスはEPを#1[i]回復する。",
+        "ko": "[생존 반응]을 보유한 목표가 피격되면 링스는 즉시 에너지를 #1[i]pt 회복한다"
+      },
+      "params": [[2]],
+      "icon": "icon/skill/1110_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110171, "num": 2 }, { "id": 110503, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1110102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "Técnicas de Exploração",
+        "en": "Exploration Techniques",
+        "zh-CN": "探险技术",
+        "ja": "{RUBY_B#たんけん}探検{RUBY_E#}テクニック",
+        "ko": "탐험 스킬"
+      },
+      "description": {
+        "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
+        "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
+        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
+        "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
+        "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
+      },
+      "params": [[0.35]],
+      "icon": "icon/skill/1110_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 16000 },
+            { "id": 110172, "num": 4 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "Sobrevivência ao Extremo",
+        "en": "Survival in the Extreme",
+        "zh-CN": "极境求生",
+        "ja": "エクストリームサバイバル",
+        "ko": "극지 생존"
+      },
+      "description": {
+        "pt-BR": "Estende a duração do efeito de cura contínua concedido pelo Talento por #1[i] rodada(s).",
+        "en": "Extends the duration of the continuous healing effect granted by Talent for #1[i] turn(s).",
+        "zh-CN": "天赋产生的持续回复效果延长#1[i]回合。",
+        "ja": "天賦による持続治癒効果の継続時間+#1[i]ターン。",
+        "ko": "특성으로 발동한 지속 회복 효과를 #1[i]턴 연장한다"
+      },
+      "params": [[1]],
+      "icon": "icon/skill/1110_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 128000 },
+            { "id": 110173, "num": 6 },
+            { "id": 241, "num": 1 },
+            { "id": 110503, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1110201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 2000 }, { "id": 111001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1110202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1110101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.05 }],
+          "materials": [{ "id": 2, "num": 4000 }, { "id": 110171, "num": 2 }, { "id": 111001, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1110203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1110202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110172, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1110204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1110203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 8000 }, { "id": 110172, "num": 2 }, { "id": 111002, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1110205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1110102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 16000 }, { "id": 110172, "num": 4 }, { "id": 111002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1110206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1110205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.075 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110173, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1110207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [1110206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 36000 }, { "id": 110173, "num": 2 }, { "id": 111003, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1110208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de RES a Efeito",
+        "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
+        "ja": "効果抵抗強化",
+        "ko": "효과 저항 강화"
+      },
+      "icon": "icon/property/IconStatusResistance.png",
+      "maxLevel": 1,
+      "prerequisites": [1110103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "StatusResistanceBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110173, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1110209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "icon": "icon/property/IconDefence.png",
+      "maxLevel": 1,
+      "prerequisites": [1110103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "DefenceAddedRatio", "value": 0.1 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110173, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1110210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "icon": "icon/property/IconMaxHP.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "HPAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 128000 }, { "id": 110173, "num": 6 }, { "id": 111003, "num": 6 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11110, 110171, 110172, 110173, 110416, 110503, 111001, 111002, 111003],
   "images": {
     "icon": "icon/character/1110.png",
     "preview": "image/character_preview/1110.png",

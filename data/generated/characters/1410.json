@@ -1,13 +1,7 @@
 {
   "id": 1410,
   "slug": "hysilens",
-  "name": {
-    "pt-BR": "Hysilens",
-    "en": "Hysilens",
-    "zh-CN": "海瑟音",
-    "ja": "セイレンス",
-    "ko": "히실렌스"
-  },
+  "name": { "pt-BR": "Hysilens", "en": "Hysilens", "zh-CN": "海瑟音", "ja": "セイレンス", "ko": "히실렌스" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Physical",
@@ -32,57 +26,28 @@
         "ko": "지정된 단일 적에게 히실렌스 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
       },
       "params": [
-        [
-          0.5,
-          1,
-          3
-        ],
-        [
-          0.6,
-          1,
-          3
-        ],
-        [
-          0.7,
-          1,
-          3
-        ],
-        [
-          0.8,
-          1,
-          3
-        ],
-        [
-          0.9,
-          1,
-          3
-        ],
-        [
-          1,
-          1,
-          3
-        ],
-        [
-          1.1,
-          1,
-          3
-        ],
-        [
-          1.2,
-          1,
-          3
-        ],
-        [
-          1.3,
-          1,
-          3
-        ],
-        [
-          1.4,
-          1,
-          3
-        ]
-      ]
+        [0.5, 1, 3],
+        [0.6, 1, 3],
+        [0.7, 1, 3],
+        [0.8, 1, 3],
+        [0.9, 1, 3],
+        [1, 1, 3],
+        [1.1, 1, 3],
+        [1.2, 1, 3],
+        [1.3, 1, 3],
+        [1.4, 1, 3]
+      ],
+      "icon": "icon/skill/1410_basic_atk.png",
+      "maxLevel": 10,
+      "summary": {
+        "pt-BR": "Causa Dano Físico leve a um único inimigo.",
+        "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
+        "ja": "敵単体に少量の物理属性ダメージを与える。",
+        "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 141002,
@@ -102,97 +67,33 @@
         "ko": "#2[i]%의 기본 확률로 모든 적이 받는 피해를 #3[i]% 증가시킨다, 지속 시간: #4[i]턴. 동시에 모든 적에게 히실렌스 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
       },
       "params": [
-        [
-          0.7,
-          1,
-          0.1,
-          3
-        ],
-        [
-          0.77,
-          1,
-          0.11,
-          3
-        ],
-        [
-          0.84,
-          1,
-          0.12,
-          3
-        ],
-        [
-          0.91,
-          1,
-          0.13,
-          3
-        ],
-        [
-          0.98,
-          1,
-          0.14,
-          3
-        ],
-        [
-          1.05,
-          1,
-          0.15,
-          3
-        ],
-        [
-          1.1375,
-          1,
-          0.1625,
-          3
-        ],
-        [
-          1.225,
-          1,
-          0.175,
-          3
-        ],
-        [
-          1.3125,
-          1,
-          0.1875,
-          3
-        ],
-        [
-          1.4,
-          1,
-          0.2,
-          3
-        ],
-        [
-          1.47,
-          1,
-          0.21,
-          3
-        ],
-        [
-          1.54,
-          1,
-          0.22,
-          3
-        ],
-        [
-          1.61,
-          1,
-          0.23,
-          3
-        ],
-        [
-          1.68,
-          1,
-          0.24,
-          3
-        ],
-        [
-          1.75,
-          1,
-          0.25,
-          3
-        ]
-      ]
+        [0.7, 1, 0.1, 3],
+        [0.77, 1, 0.11, 3],
+        [0.84, 1, 0.12, 3],
+        [0.91, 1, 0.13, 3],
+        [0.98, 1, 0.14, 3],
+        [1.05, 1, 0.15, 3],
+        [1.1375, 1, 0.1625, 3],
+        [1.225, 1, 0.175, 3],
+        [1.3125, 1, 0.1875, 3],
+        [1.4, 1, 0.2, 3],
+        [1.47, 1, 0.21, 3],
+        [1.54, 1, 0.22, 3],
+        [1.61, 1, 0.23, 3],
+        [1.68, 1, 0.24, 3],
+        [1.75, 1, 0.25, 3]
+      ],
+      "icon": "icon/skill/1410_skill.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Tem uma alta chance de aumentar o Dano recebido por todos os inimigos e causa Dano Físico a eles.",
+        "en": "There is a high chance to increase the DMG taken by all enemies, and deals Physical DMG to them.",
+        "zh-CN": "大概率使敌方全体受到的伤害提高，并对其造成物理属性伤害。",
+        "ja": "高確率で敵全体の受けるダメージをアップし、物理属性ダメージを与える。",
+        "ko": "높은 확률로 모든 적이 받는 피해를 증가시키고 대상에게 물리 속성 피해를 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 141003,
@@ -212,127 +113,33 @@
         "ko": "히실렌스가 결계를 펼친다. 적의 공격력을 #6[f1]% 감소시키고 방어력을 #3[f1]% 감소시키며, 모든 적에게 히실렌스 공격력의 #1[i]%만큼 물리 속성 피해를 가한다.\n결계 안에 있는 적이 지속 피해를 1회 받을 때마다 히실렌스는 대상에게 자신의 공격력의 #4[f1]%만큼 물리 속성 지속 피해를 가한다. 해당 피해는 턴이 시작될 때마다 또는 아군의 단일 공격 후 발동하며, 최대 #5[i]회 발동한다. 해당 피해는 이 효과를 중복 발동할 수 없다.\n결계는 #2[i]턴 동안 지속되며, 자신의 턴이 시작될 때마다 결계의 지속 턴 수가 1 감소한다. 히실렌스가 전투 불능 상태에 빠질 시 결계도 해제된다"
       },
       "params": [
-        [
-          1.2,
-          3,
-          0.15,
-          0.32,
-          8,
-          0.15
-        ],
-        [
-          1.28,
-          3,
-          0.16,
-          0.3728,
-          8,
-          0.15
-        ],
-        [
-          1.36,
-          3,
-          0.17,
-          0.4256,
-          8,
-          0.15
-        ],
-        [
-          1.44,
-          3,
-          0.18,
-          0.4784,
-          8,
-          0.15
-        ],
-        [
-          1.52,
-          3,
-          0.19,
-          0.5312,
-          8,
-          0.15
-        ],
-        [
-          1.6,
-          3,
-          0.2,
-          0.584,
-          8,
-          0.15
-        ],
-        [
-          1.7,
-          3,
-          0.2125,
-          0.632,
-          8,
-          0.15
-        ],
-        [
-          1.8,
-          3,
-          0.225,
-          0.68,
-          8,
-          0.15
-        ],
-        [
-          1.9,
-          3,
-          0.2375,
-          0.74,
-          8,
-          0.15
-        ],
-        [
-          2,
-          3,
-          0.25,
-          0.8,
-          8,
-          0.15
-        ],
-        [
-          2.08,
-          3,
-          0.26,
-          0.84,
-          8,
-          0.15
-        ],
-        [
-          2.16,
-          3,
-          0.27,
-          0.88,
-          8,
-          0.15
-        ],
-        [
-          2.24,
-          3,
-          0.28,
-          0.92,
-          8,
-          0.15
-        ],
-        [
-          2.32,
-          3,
-          0.29,
-          0.96,
-          8,
-          0.15
-        ],
-        [
-          2.4,
-          3,
-          0.3,
-          1,
-          8,
-          0.15
-        ]
-      ]
+        [1.2, 3, 0.15, 0.32, 8, 0.15],
+        [1.28, 3, 0.16, 0.3728, 8, 0.15],
+        [1.36, 3, 0.17, 0.4256, 8, 0.15],
+        [1.44, 3, 0.18, 0.4784, 8, 0.15],
+        [1.52, 3, 0.19, 0.5312, 8, 0.15],
+        [1.6, 3, 0.2, 0.584, 8, 0.15],
+        [1.7, 3, 0.2125, 0.632, 8, 0.15],
+        [1.8, 3, 0.225, 0.68, 8, 0.15],
+        [1.9, 3, 0.2375, 0.74, 8, 0.15],
+        [2, 3, 0.25, 0.8, 8, 0.15],
+        [2.08, 3, 0.26, 0.84, 8, 0.15],
+        [2.16, 3, 0.27, 0.88, 8, 0.15],
+        [2.24, 3, 0.28, 0.92, 8, 0.15],
+        [2.32, 3, 0.29, 0.96, 8, 0.15],
+        [2.4, 3, 0.3, 1, 8, 0.15]
+      ],
+      "icon": "icon/skill/1410_ultimate.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Ativa um Campo que reduz o ATQ e DEF dos inimigos e causa Dano Físico a eles. Enquanto o Campo estiver ativo, para cada 1 ocorrência de Dano Contínuo recebida pelos inimigos-alvo, causa 1 ocorrência de Dano Físico Contínuo a eles.",
+        "en": "Deploys a Zone that reduces all enemies' ATK and DEF, and deals Physical DMG to them. While the Zone exists, for every 1 instance of DoT received by enemy targets, deals 1 instance of Physical DoT to them.",
+        "zh-CN": "展开结界使敌方全体攻击力、防御力降低，并对其造成物理属性伤害。结界存在时，敌方目标每受到1次持续伤害，对其造成1次物理属性持续伤害。",
+        "ja": "結界を展開し、敵全体の攻撃力と防御力をダウンさせ、物理属性ダメージを与える。結界が展開されている間、敵が持続ダメージを1回受けるたびに、その敵に物理属性持続ダメージを1回与える。",
+        "ko": "결계를 펼쳐 모든 적의 공격력과 방어력을 감소시키고, 대상에게 물리 속성 피해를 가한다. 결계 존재 시 적이 지속 피해를 1회 받을 때마다 대상에게 물리 속성 지속 피해를 1회 가한다"
+      },
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 141004,
@@ -352,124 +159,48 @@
         "ko": "아군이 공격 시 히실렌스가 #1[i]%의 기본 확률로 명중한 적을 풍화/열상/연소/감전 중 1가지 상태에 빠트리며, 다른 상태에 우선으로 빠트린다.\n풍화/연소/감전 상태일 때 적은 턴이 시작될 때마다 히실렌스 공격력의 #2[f1]%만큼 바람/화염/번개 속성 지속 피해를 받는다, 지속 시간: #5[i]턴\n열상 상태일 때 적은 턴이 시작될 때마다 자신의 HP 최대치의 #3[f1]%만큼 물리 속성 지속 피해를 받으며, 최대 히실렌스 공격력의 #4[f1]%를 넘지 않는다, 지속 시간: #5[i]턴"
       },
       "params": [
-        [
-          1,
-          0.1,
-          0.2,
-          0.1,
-          2
-        ],
-        [
-          1,
-          0.1165,
-          0.2,
-          0.1165,
-          2
-        ],
-        [
-          1,
-          0.133,
-          0.2,
-          0.133,
-          2
-        ],
-        [
-          1,
-          0.1495,
-          0.2,
-          0.1495,
-          2
-        ],
-        [
-          1,
-          0.166,
-          0.2,
-          0.166,
-          2
-        ],
-        [
-          1,
-          0.1825,
-          0.2,
-          0.1825,
-          2
-        ],
-        [
-          1,
-          0.1975,
-          0.2,
-          0.1975,
-          2
-        ],
-        [
-          1,
-          0.2125,
-          0.2,
-          0.2125,
-          2
-        ],
-        [
-          1,
-          0.2313,
-          0.2,
-          0.2313,
-          2
-        ],
-        [
-          1,
-          0.25,
-          0.2,
-          0.25,
-          2
-        ],
-        [
-          1,
-          0.2625,
-          0.2,
-          0.2625,
-          2
-        ],
-        [
-          1,
-          0.275,
-          0.2,
-          0.275,
-          2
-        ],
-        [
-          1,
-          0.2875,
-          0.2,
-          0.2875,
-          2
-        ],
-        [
-          1,
-          0.3,
-          0.2,
-          0.3,
-          2
-        ],
-        [
-          1,
-          0.3125,
-          0.2,
-          0.3125,
-          2
-        ]
-      ]
+        [1, 0.1, 0.2, 0.1, 2],
+        [1, 0.1165, 0.2, 0.1165, 2],
+        [1, 0.133, 0.2, 0.133, 2],
+        [1, 0.1495, 0.2, 0.1495, 2],
+        [1, 0.166, 0.2, 0.166, 2],
+        [1, 0.1825, 0.2, 0.1825, 2],
+        [1, 0.1975, 0.2, 0.1975, 2],
+        [1, 0.2125, 0.2, 0.2125, 2],
+        [1, 0.2313, 0.2, 0.2313, 2],
+        [1, 0.25, 0.2, 0.25, 2],
+        [1, 0.2625, 0.2, 0.2625, 2],
+        [1, 0.275, 0.2, 0.275, 2],
+        [1, 0.2875, 0.2, 0.2875, 2],
+        [1, 0.3, 0.2, 0.3, 2],
+        [1, 0.3125, 0.2, 0.3125, 2]
+      ],
+      "icon": "icon/skill/1410_talent.png",
+      "maxLevel": 15,
+      "summary": {
+        "pt-BR": "Quando um aliado-alvo ataca, Hysilens tem uma grande chance de infligir ao inimigo-alvo atingido um dos seguintes estados: \"Cisalhamento de Vento\"/\"Sangramento\"/\n\"Queimadura\"/\"Choque\".",
+        "en": "When an ally target attacks, Hysilens has a high chance to inflict the hit enemy target with one of the following states: Wind Shear/Bleed/Burn/Shock.",
+        "zh-CN": "我方目标攻击时，海瑟音有大概率使被击中的敌方目标陷入风化/裂伤/灼烧/触电其中1种状态。",
+        "ja": "味方が攻撃する時、セイレンスは高確率でその回の攻撃を受けた敵に風化/裂創/燃焼/感電状態のいずれか1種類を付与する。",
+        "ko": "아군이 공격 시 히실렌스가 높은 확률로 명중한 적을 풍화/열상/연소/감전 중 1가지 상태에 빠트린다"
+      },
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 141006,
       "type": "Other",
-      "name": {
-        "pt-BR": "Ataque",
-        "en": "Attack",
-        "zh-CN": "攻击",
-        "ja": "攻撃",
-        "ko": "공격"
-      },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      },
+      "icon": "icon/skill/1410_basic_atk.png",
+      "maxLevel": 1,
+      "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
         "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
@@ -494,13 +225,18 @@
         "ja": "秘技を使用した後、前方へ移動する特殊領域を#1[i]秒間作り出す。特殊領域内に入った敵は「酔心」状態を付与される。「酔心」状態の敵は味方を攻撃せず、領域継続中は領域に追随する。\n「酔心」状態の敵と戦闘に入った後、#2[i]%の基礎確率で、敵単体それぞれにセイレンスの天賦と同じ効果を持つ風化/裂創/燃焼/感電状態の中から、#3[i]種類の状態を付与する。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 #1[i]초 동안 지속되고 자동으로 전방을 향해 이동하는 특수 영역을 만들며, 특수 영역 내의 적은 [취심] 상태에 빠진다. [취심] 상태인 적은 아군에게 공격을 발동하지 않으며, 영역 지속 시간 동안 영역을 따라다닌다.\n[취심] 상태의 적과 전투에 진입하면 #2[i]%의 기본 확률로 각 단일 적을 히실렌스의 특성 효과와 동일한 풍화/열상/연소/감전 중 #3[i]가지 상태에 빠트린다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
-      "params": [
-        [
-          20,
-          1,
-          2
-        ]
-      ]
+      "params": [[20, 1, 2]],
+      "icon": "icon/skill/1410_technique.png",
+      "maxLevel": 1,
+      "summary": {
+        "pt-BR": "Cria uma Dimensão Especial. Inimigos dentro da dimensão não atacarão os aliados-alvo. Ao entrar em combate com inimigos dentro da dimensão, há uma chance alta de infligir 2 estado(s) entre \"Cisalhamento de Vento\"/\"Sangramento\"/\"Queimadura\"/\"Choque\" em cada inimigo-alvo.",
+        "en": "Creates a Special Dimension. Enemies within the dimension will not attack ally targets. After entering combat with enemies within the dimension, there's a high chance to inflict 2 state(s) from Wind Shear/Bleed/Burn/Shock on each enemy target.",
+        "zh-CN": "制造特殊领域。领域内敌人不会攻击我方目标。与领域内敌人进入战斗后，大概率使敌方每个单体目标陷入风化/裂伤/灼烧/触电其中2种状态。",
+        "ja": "特殊領域を作り出す。領域内の敵は味方を攻撃しない。領域内の敵と戦闘に入った後、高確率で敵それぞれに風化/裂創/燃焼/感電状態の中から2種類の状態を付与する。",
+        "ko": "특수 영역을 만든다. 영역 내의 적은 아군을 공격하지 않는다. 영역 내의 적과 전투에 진입하면 높은 확률로 각 단일 적을 풍화/열상/연소/감전 중 2가지 상태에 빠트린다"
+      },
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -519,7 +255,10 @@
         "zh-CN": "海瑟音在场时，我方目标造成的持续伤害为原伤害的116%，当海瑟音通过天赋使敌人陷入风化/裂伤/灼烧/触电状态时，有100%的基础概率额外使其陷入一次与原天赋效果相同，且可同时存在的风化/裂伤/灼烧/触电状态。",
         "ja": "セイレンスがフィールド上にいる時、味方が与える持続ダメージは本来の116%になる。セイレンスが天賦で敵に風化/裂創/燃焼/感電状態を付与する時、100%の基礎確率で、元の天賦効果と同じ、かつ同時に存在可能な風化/裂創/燃焼/感電状態を追加で1つ付与する。",
         "ko": "히실렌스가 필드에 있을 시 아군이 가하는 지속 피해는 기존 피해의 116%이며, 히실렌스가 특성으로 적을 풍화/열상/연소/감전 상태에 빠트릴 시 100%의 기본 확률로 추가로 대상을 기존 특성 효과와 동일하며, 동시에 존재할 수 있는 풍화/열상/연소/감전 상태에 1회 빠트린다"
-      }
+      },
+      "icon": "icon/skill/1410_rank1.png",
+      "materials": [{ "id": 11410, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 2,
@@ -536,7 +275,10 @@
         "zh-CN": "结界持续期间，行迹【珍珠的琴弦】的造成伤害提高效果对我方全体生效。",
         "ja": "結界が展開されている間、軌跡「真珠の琴線」による与ダメージアップ効果が味方全体に適用される。",
         "ko": "결계 지속 시간 동안 행적 [진주의 현]의 가하는 피해 증가 효과가 모든 아군에게 적용된다"
-      }
+      },
+      "icon": "icon/skill/1410_rank2.png",
+      "materials": [{ "id": 11410, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 3,
@@ -553,7 +295,10 @@
         "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
-      }
+      },
+      "icon": "icon/skill/1410_ultimate.png",
+      "materials": [{ "id": 11410, "num": 1 }],
+      "levelUpSkills": [{ "id": 141003, "num": 2 }, { "id": 141001, "num": 1 }]
     },
     {
       "rank": 4,
@@ -570,7 +315,10 @@
         "zh-CN": "结界持续期间，使敌方全体全属性抗性降低20%。",
         "ja": "結界が展開されている間、敵全体の全属性耐性-20%。",
         "ko": "결계가 지속되는 동안 모든 적의 모든 속성 저항이 20% 감소한다"
-      }
+      },
+      "icon": "icon/skill/1410_rank4.png",
+      "materials": [{ "id": 11410, "num": 1 }],
+      "levelUpSkills": []
     },
     {
       "rank": 5,
@@ -587,7 +335,10 @@
         "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
-      }
+      },
+      "icon": "icon/skill/1410_skill.png",
+      "materials": [{ "id": 11410, "num": 1 }],
+      "levelUpSkills": [{ "id": 141002, "num": 2 }, { "id": 141004, "num": 2 }]
     },
     {
       "rank": 6,
@@ -604,10 +355,664 @@
         "zh-CN": "结界持续期间，每回合开始时或我方目标单次攻击后，触发海瑟音物理持续伤害效果的次数上限提高至12次，且造成的伤害倍率提高20%。",
         "ja": "結界が展開されている間、敵のターンが回ってきた時に、または味方が攻撃を1回行った後に発動する、セイレンスの物理属性持続ダメージの発動可能回数の上限が12回になる。またそのダメージ倍率+20%。",
         "ko": "결계 지속 시간 동안 턴이 시작될 때마다 또는 아군의 단일 공격 후에 히실렌스 물리 지속 피해의 효과 발동 횟수 상한이 12회로 증가하고, 가하는 피해 배율이 20% 증가한다"
-      }
+      },
+      "icon": "icon/skill/1410_rank6.png",
+      "materials": [{ "id": 11410, "num": 1 }],
+      "levelUpSkills": []
     }
   ],
-  "materialIds": [],
+  "maxEnergy": 110,
+  "stats": [
+    {
+      "hp": { "base": 163.68, "step": 8.184 },
+      "atk": { "base": 81.84, "step": 4.092 },
+      "def": { "base": 66, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 229.152, "step": 8.184 },
+      "atk": { "base": 114.576, "step": 4.092 },
+      "def": { "base": 92.4, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 294.624, "step": 8.184 },
+      "atk": { "base": 147.312, "step": 4.092 },
+      "def": { "base": 118.8, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 360.096, "step": 8.184 },
+      "atk": { "base": 180.048, "step": 4.092 },
+      "def": { "base": 145.2, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 425.568, "step": 8.184 },
+      "atk": { "base": 212.784, "step": 4.092 },
+      "def": { "base": 171.6, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 491.04, "step": 8.184 },
+      "atk": { "base": 245.52, "step": 4.092 },
+      "def": { "base": 198, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    },
+    {
+      "hp": { "base": 556.512, "step": 8.184 },
+      "atk": { "base": 278.256, "step": 4.092 },
+      "def": { "base": 224.4, "step": 3.3 },
+      "spd": { "base": 102, "step": 0 },
+      "taunt": { "base": 100, "step": 0 },
+      "critRate": { "base": 0.05, "step": 0 },
+      "critDmg": { "base": 0.5, "step": 0 }
+    }
+  ],
+  "ascension": [
+    [{ "id": 2, "num": 4000 }, { "id": 115001, "num": 5 }],
+    [{ "id": 2, "num": 8000 }, { "id": 115001, "num": 10 }],
+    [{ "id": 2, "num": 16000 }, { "id": 115002, "num": 6 }, { "id": 110431, "num": 3 }],
+    [{ "id": 2, "num": 40000 }, { "id": 115002, "num": 9 }, { "id": 110431, "num": 7 }],
+    [{ "id": 2, "num": 80000 }, { "id": 115003, "num": 6 }, { "id": 110431, "num": 20 }],
+    [{ "id": 2, "num": 160000 }, { "id": 115003, "num": 9 }, { "id": 110431, "num": 35 }]
+  ],
+  "traces": [
+    {
+      "id": 1410001,
+      "anchor": "Point01",
+      "icon": "icon/skill/1410_basic_atk.png",
+      "maxLevel": 6,
+      "prerequisites": [],
+      "skillIds": [141001],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115003, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1410002,
+      "anchor": "Point02",
+      "icon": "icon/skill/1410_skill.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [141002],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 115002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1410003,
+      "anchor": "Point03",
+      "icon": "icon/skill/1410_ultimate.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [141003],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 115002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1410004,
+      "anchor": "Point04",
+      "icon": "icon/skill/1410_talent.png",
+      "maxLevel": 10,
+      "prerequisites": [],
+      "skillIds": [141004],
+      "levels": [
+        { "promotion": 0, "level": 0, "properties": [], "materials": [] },
+        {
+          "promotion": 1,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 3 }]
+        },
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115001, "num": 6 }]
+        },
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115002, "num": 3 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115002, "num": 4 }]
+        },
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 30000 }, { "id": 110222, "num": 7 }, { "id": 115002, "num": 6 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115003, "num": 3 }]
+        },
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 80000 },
+            { "id": 110223, "num": 5 },
+            { "id": 110507, "num": 1 },
+            { "id": 115003, "num": 4 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        },
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 300000 },
+            { "id": 110223, "num": 14 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1410007,
+      "anchor": "Point05",
+      "icon": "icon/skill/1410_technique.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [141007],
+      "levels": [{ "promotion": 0, "level": 0, "properties": [], "materials": [] }]
+    },
+    {
+      "id": 1410101,
+      "anchor": "Point06",
+      "name": {
+        "pt-BR": "Gladiatorum da Conquista",
+        "en": "The Gladius of Conquest",
+        "zh-CN": "征服的剑旗",
+        "ja": "{RUBY_B#せいふく}征服{RUBY_E#}の{RUBY_B#けんき}剣旗{RUBY_E#}",
+        "ko": "정복의 검"
+      },
+      "description": {
+        "pt-BR": "No início do combate, Hysilens implanta um Campo, equivalente ao proporcionado por sua Perícia Suprema, com duração de #1[i] rodada(s). Sempre que Hysilens implanta um Campo, ela recupera #2[i] Ponto(s) de Perícia.",
+        "en": "At the start of combat, Hysilens deploys a Zone, equivalent to that provided by her Ultimate, lasting for #1[i] turn(s). Whenever Hysilens deploys a Zone, she recovers #2[i] Skill Point(s).",
+        "zh-CN": "战斗开始时，海瑟音展开与终结技效果相同的结界，结界持续#1[i]回合。每当海瑟音展开结界时，恢复#2[i]个战技点。",
+        "ja": "戦闘開始時、セイレンスは必殺技の結界と同じ効果を持つ結界を展開する。結界は#1[i]ターン継続する。セイレンスが結界を展開するたびに、SPを#2[i]回復する。",
+        "ko": "전투 시작 시 히실렌스가 필살기 효과와 동일한 결계를 펼친다, 결계 지속 시간: #1[i]턴. 히실렌스가 결계를 펼칠 때마다 전투 스킬 포인트를 #2[i]pt 회복한다"
+      },
+      "params": [[3, 1]],
+      "icon": "icon/skill/1410_skilltree1.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 110507, "num": 1 }]
+        }
+      ]
+    },
+    {
+      "id": 1410102,
+      "anchor": "Point07",
+      "name": {
+        "pt-BR": "A Borbulha dos Banquetes",
+        "en": "The Bubble of Banquets",
+        "zh-CN": "盛会的泡沫",
+        "ja": "{RUBY_B#せいえん}盛宴{RUBY_E#}の{RUBY_B#うたかた}泡沫{RUBY_E#}",
+        "ko": "연회의 거품"
+      },
+      "description": {
+        "pt-BR": "Quando Hysilens usa sua Perícia Suprema, se o inimigo-alvo estiver atualmente afligido com Dano(s) Contínuo(s), todos os Danos Contínuos aplicados ao alvo irão produzir imediatamente um Dano igual a #1[i]% do seu Dano original.",
+        "en": "When Hysilens uses Ultimate, if the enemy target is currently afflicted with DoT(s), all DoTs currently applied on the target will immediately produce DMG equal to #1[i]% of their original DMG.",
+        "zh-CN": "海瑟音施放终结技时，若敌方目标处于持续伤害状态，使其当前承受的所有持续伤害立即产生相当于原伤害#1[i]%的伤害。",
+        "ja": "セイレンスが必殺技を発動した時、敵に持続ダメージ系デバフがある場合、付与されている全持続ダメージ系デバフが、本来のダメージ#1[i]%分のダメージを発生させる。",
+        "ko": "히실렌스가 필살기 발동 시 적이 지속 피해 상태일 경우, 대상이 현재 받는 모든 지속 피해가 즉시 기존 피해의 #1[i]%만큼 피해를 생성한다"
+      },
+      "params": [[1.5]],
+      "icon": "icon/skill/1410_skilltree2.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 20000 },
+            { "id": 110222, "num": 5 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1410103,
+      "anchor": "Point08",
+      "name": {
+        "pt-BR": "O Violino de Pérolas",
+        "en": "The Fiddle of Pearls",
+        "zh-CN": "珍珠的琴弦",
+        "ja": "{RUBY_B#しんじゅ}真珠{RUBY_E#}の{RUBY_B#きんせん}琴線{RUBY_E#}",
+        "ko": "진주의 현"
+      },
+      "description": {
+        "pt-BR": "Se a Taxa de Acerto de Efeito de Hysilens estiver acima de #1[i]%, para cada #2[i]% excedente, aumenta o Dano causado por ela em #3[i]%, até um aumento máximo de #4[i]%.",
+        "en": "For every #2[i]% of Hysilens's Effect Hit Rate that exceeds #1[i]%, increases her DMG dealt by #3[i]%, up to a max increase of #4[i]%.",
+        "zh-CN": "若海瑟音的效果命中高于#1[i]%，每超过#2[i]%可使自身造成的伤害提高#3[i]%，最多提高#4[i]%。",
+        "ja": "セイレンスの効果命中が#1[i]%を超えた時、超過した効果命中#2[i]%につき、自身の与ダメージ+#3[i]%、最大で+#4[i]%。",
+        "ko": "히실렌스의 효과 명중이 #1[i]%를 초과할 시 #2[i]% 초과할 때마다 자신이 가하는 피해가 #3[i]% 증가하며, 최대 #4[i]% 증가한다"
+      },
+      "params": [[0.6, 0.1, 0.15, 0.9]],
+      "icon": "icon/skill/1410_skilltree3.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [],
+          "materials": [
+            { "id": 2, "num": 160000 },
+            { "id": 110223, "num": 8 },
+            { "id": 241, "num": 1 },
+            { "id": 110507, "num": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1410201,
+      "anchor": "Point09",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 1,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 2500 }, { "id": 115001, "num": 2 }]
+        }
+      ]
+    },
+    {
+      "id": 1410202,
+      "anchor": "Point10",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1410101],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 2,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 5000 }, { "id": 110221, "num": 3 }, { "id": 115001, "num": 6 }]
+        }
+      ]
+    },
+    {
+      "id": 1410203,
+      "anchor": "Point11",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1410202],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 2 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1410204,
+      "anchor": "Point12",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1410203],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 3,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.04 }],
+          "materials": [{ "id": 2, "num": 10000 }, { "id": 110222, "num": 3 }, { "id": 115002, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1410205,
+      "anchor": "Point13",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1410102],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 4,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 20000 }, { "id": 110222, "num": 5 }, { "id": 115002, "num": 4 }]
+        }
+      ]
+    },
+    {
+      "id": 1410206,
+      "anchor": "Point14",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1410205],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1410207,
+      "anchor": "Point15",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1410206],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 5,
+          "level": 0,
+          "properties": [{ "type": "SpeedDelta", "value": 3 }],
+          "materials": [{ "id": 2, "num": 45000 }, { "id": 110223, "num": 3 }, { "id": 115003, "num": 3 }]
+        }
+      ]
+    },
+    {
+      "id": 1410208,
+      "anchor": "Point16",
+      "name": {
+        "pt-BR": "Bônus de Taxa de Acerto de Efeito",
+        "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
+        "ja": "効果命中強化",
+        "ko": "효과 명중 강화"
+      },
+      "icon": "icon/property/IconStatusProbability.png",
+      "maxLevel": 1,
+      "prerequisites": [1410103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 6,
+          "level": 0,
+          "properties": [{ "type": "StatusProbabilityBase", "value": 0.06 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1410209,
+      "anchor": "Point17",
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "icon": "icon/property/IconAttack.png",
+      "maxLevel": 1,
+      "prerequisites": [1410103],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 75,
+          "properties": [{ "type": "AttackAddedRatio", "value": 0.08 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115003, "num": 8 }]
+        }
+      ]
+    },
+    {
+      "id": 1410210,
+      "anchor": "Point18",
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "icon": "icon/property/IconSpeed.png",
+      "maxLevel": 1,
+      "prerequisites": [1410201],
+      "skillIds": [],
+      "levels": [
+        {
+          "promotion": 0,
+          "level": 80,
+          "properties": [{ "type": "SpeedDelta", "value": 4 }],
+          "materials": [{ "id": 2, "num": 160000 }, { "id": 110223, "num": 8 }, { "id": 115003, "num": 8 }]
+        }
+      ]
+    }
+  ],
+  "materialIds": [2, 241, 11410, 110221, 110222, 110223, 110431, 110507, 115001, 115002, 115003],
   "images": {
     "icon": "icon/character/1410.png",
     "preview": "image/character_preview/1410.png",
