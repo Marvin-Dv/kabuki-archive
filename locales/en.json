@@ -8,7 +8,8 @@
     "characters": "Characters",
     "home": "Home",
     "about": "About",
-    "menu": "Main menu"
+    "menu": "Main menu",
+    "skip": "Skip to content"
   },
   "theme": {
     "toLight": "Switch to light theme",
@@ -18,12 +19,12 @@
     "label": "Language"
   },
   "home": {
-    "eyebrow": "Curtain up",
+    "eyebrow": "Fan project",
     "title": "The complete archive of the Astral Express",
     "subtitle": "Character, gear and enemy data, organized for quick lookup and free of unexpected spoilers.",
     "ctaPrimary": "Explore the archive",
     "ctaSecondary": "About the project",
-    "sectionTitle": "On stage",
+    "sectionTitle": "Collections",
     "sectionSubtitle": "The collections are being assembled. Each one arrives together with its own tool.",
     "soon": "Coming soon",
     "available": "Available"
@@ -44,12 +45,10 @@
     "title": "About Kabuki Archive",
     "p1": "Kabuki Archive is a fan project that gathers Honkai: Star Rail data in one place.",
     "p2": "We only publish content after the official announcement. Pages from recent patches show a spoiler warning, removed automatically 2 weeks after the patch release.",
-    "p3": "The code is open source (MIT license). Game data, images and text belong to HoYoverse.",
-    "dedication": "Dedicated to Sparkle."
+    "p3": "The code is open source (MIT license). Game data, images and text belong to HoYoverse."
   },
   "footer": {
-    "disclaimer": "Unofficial fan project. Honkai: Star Rail and all related content belong to HoYoverse (Cognosphere PTE. LTD.).",
-    "dedication": "Made with love for Sparkle."
+    "disclaimer": "Unofficial fan project. Honkai: Star Rail and all related content belong to HoYoverse (Cognosphere PTE. LTD.)."
   },
   "characters": {
     "title": "Characters",

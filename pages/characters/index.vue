@@ -120,7 +120,7 @@ const clear = () => {
       </button>
     </div>
 
-    <ul v-if="results.length" class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <ul v-if="results.length" class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-5">
       <li v-for="card in results" :key="card.id">
         <CharacterTile :card="card" />
       </li>

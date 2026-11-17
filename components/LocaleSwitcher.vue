@@ -18,7 +18,7 @@ async function onChange(event: Event) {
     <span class="sr-only">{{ t('locale.label') }}</span>
     <select
       :value="locale"
-      class="h-9 cursor-pointer appearance-none rounded-full border border-line bg-bg px-4 pr-8 text-sm font-medium text-ink transition-colors hover:border-accent"
+      class="h-11 cursor-pointer appearance-none rounded-xl border border-line bg-surface pl-4 pr-9 text-sm font-medium text-ink transition-colors hover:bg-surface-2"
       @change="onChange"
     >
       <option v-for="o in options" :key="o.code" :value="o.code">{{ o.name }}</option>

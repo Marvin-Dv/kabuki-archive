@@ -11,6 +11,5 @@ useHead({ title: t('about.title') })
       <p>{{ t('about.p2') }}</p>
       <p>{{ t('about.p3') }}</p>
     </div>
-    <p class="mt-10 font-display text-2xl text-accent">{{ t('about.dedication') }}</p>
   </article>
 </template>
