@@ -1,0 +1,65 @@
+{
+  "id": 21066,
+  "slug": "a-little-getaway",
+  "name": {
+    "pt-BR": "Um Breve Descanso",
+    "en": "A Little Getaway",
+    "zh-CN": "放个短假",
+    "ja": "バカンスのひと時",
+    "ko": "짧은 휴가"
+  },
+  "rarity": 4,
+  "path": "Elation",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "description": {
+    "pt-BR": "A noite cai. As estrelas cintilam pela janela. A luz conjura duas silhuetas na parede.\n\"Análise: Índice de Felicidade do Dinheirinho: 97,9%.\"\n\"Tem um monte de moeda virtual aqui! O Dinheirinho vai adorar!\"\nA garota Intellitron acaricia as orelhas do bichinho e tira uma moeda de ouro antiga.\n\"Dinheirinho, você não pode comer isso!\"\nO bichinho pula de alegria, mas ela o agarra nos braços.\n\"Se eu me lembro bem, essa é uma peça de coleção usada para restauração histórica.\"\nA garota Intellitron sorri, lembrando da civilização há muito obliterada naquele planeta.\n\"Não importa, Jelena. O protótipo histórico do planeta entrou na fase de esboço. Progresso: 85%.\"\n\"Por enquanto, vamos aproveitar nossas férias.\"",
+    "en": "Night falls. Stars twinkle outside the window. The light casts two silhouettes on the wall.\n\"Sensing: Numby's Happiness Index: 97.9%.\"\n\"There's plenty of virtual currency here! Numby's bound to love it!\"\nThe Intellitron girl strokes the pet's ears and takes out an ancient gold coin.\n\"Numby, you can't eat this!\"\nThe pet leaps in joy, but she scoops it into her arms.\n\"If I remember correctly, this is a collection piece used to restore history.\"\nThe Intellitron girl smiles, recalling the long-obliterated civilization on that planet.\n\"It matters not, Jelena. The planet's historical prototype has entered the sketching phase. Progress: 85%.\"\n\"For now, let's just enjoy our vacation.\"",
+    "zh-CN": "夜幕降临，窗外星辰闪烁。灯光在墙壁上投下两个身影。\n「感受：账账的幸福情绪指数：97.9%」\n「这儿的虚拟货币够多，账账果然喜欢！」\n智械少女抚摸着宠物的耳朵，拿出一枚古老的黄金硬币。\n「账账，这个不能吃！」\n宠物欢脱雀跃，却被她一把抱在怀中。\n「如果没记错的话，这是你用来还原历史的藏品？」\n智械少女莞尔一笑，想起那颗星球上早已湮灭的文明。\n「无妨，叶琳娜。星球的历史雏形已进入绘制阶段，进度：85%。」\n「现在，让我们享受当下的假期就好。」",
+    "ja": "夜の帳が降り、窓の外に星々が瞬いている。灯りが、壁に2つの影を落としていた。\n「感知：カブさんの幸福指数は、97.9%です」\n「ここには仮想通貨がたくさんあるし、カブはそれを気に入ったのかもね！」\n小さなペットの耳を撫でながら、オムニックの女性は1枚の古びた金貨を取り出した。\n「おっと、カブ！それは食べちゃダメだからね」\n嬉しそうに飛び跳ねたペットは、飼い主にぎゅっと抱きしめられてしまった。\n「私の記憶違いじゃなければ、そのコインは君が歴史を蘇らせるために必要なものでしょ？」\nオムニックの女性はふわりと微笑み、あの星のとうに消滅してしまった文明に思いを馳せた。\n「いえ、構いませんよ。あの星の歴史はすでに雛型の描画段階に入りました。現在の進捗：85%」\n「今は、ただ目の前のバカンスを楽しみましょう」",
+    "ko": "밤의 장막이 드리우고, 창밖으로 별빛이 반짝인다. 조명은 벽에 두 개의 실루엣을 드리운다.\n「감지: 복순이의 행복 감정 지수: 97.9%」\n「여긴 가상 화폐가 충분히 많으니, 역시 복순이가 좋아하네!」\n지능 기계 소녀는 반려동물의 귀를 쓰다듬으며 오래된 황금 동전을 하나 꺼냈다.\n「복순아, 이건 먹으면 안 돼!」\n반려동물은 기뻐하며 펄쩍펄쩍 뛰었지만, 이내 그녀의 품에 덥석 안겨졌다.\n「제 기억이 맞다면, 이건 역사를 복원하는 데 쓰시는 소장품 아닌가요?」\n지능 기계 소녀는 빙그레 웃으며, 그 행성에서 오래전 사라진 문명을 떠올렸다.\n「괜찮습니다, 예레나. 행성의 역사 원형은 이미 제작 단계에 들어섰으니까요. 진도: 85%.\n지금은 그저 휴가를 즐기기만 하면 됩니다」"
+  },
+  "skill": {
+    "name": {
+      "pt-BR": "Sussurro",
+      "en": "Whisper",
+      "zh-CN": "秘语",
+      "ja": "秘密話",
+      "ko": "비밀 이야기"
+    },
+    "description": {
+      "pt-BR": "Aumenta a Euforia do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, ignora #2[i]% da DEF do alvo.",
+      "en": "Increases the wearer's Elation by #1[i]%. During the use of Elation Skill by the wearer, ignores #2[i]% of the target's DEF.",
+      "zh-CN": "使装备者的欢愉度提高#1[i]%。装备者施放欢愉技期间无视目标#2[i]%的防御力。",
+      "ja": "装備キャラの愉悦度+#1[i]%。装備キャラの愉悦スキル発動中、ターゲットの防御力を#2[i]%無視する。",
+      "ko": "장착한 캐릭터의 환락도가 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬을 발동하는 중에는 목표의 방어력을 #2[i]% 무시한다"
+    },
+    "params": [
+      [
+        0.2,
+        0.08
+      ],
+      [
+        0.25,
+        0.1
+      ],
+      [
+        0.3,
+        0.12
+      ],
+      [
+        0.35,
+        0.14
+      ],
+      [
+        0.4,
+        0.16
+      ]
+    ]
+  },
+  "images": {
+    "icon": "icon/light_cone/21066.png",
+    "preview": "image/light_cone_preview/21066.png",
+    "portrait": "image/light_cone_portrait/21066.png"
+  }
+}

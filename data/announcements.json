@@ -304,7 +304,27 @@
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
+    "1501": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1502": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1503": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
     "1504": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1505": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1506": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
@@ -324,7 +344,15 @@
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
+    "1511": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
     "1512": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "1513": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
@@ -357,6 +385,14 @@
       "patchReleaseDate": null
     },
     "8008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8009": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "8010": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     }
@@ -451,6 +487,14 @@
       "patchReleaseDate": null
     },
     "20022": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20023": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "20024": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
@@ -698,6 +742,18 @@
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
+    "21064": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21065": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "21066": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
     "22000": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
@@ -726,7 +782,15 @@
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
+    "22007": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
     "22008": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "22009": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
@@ -942,7 +1006,27 @@
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
+    "23053": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23054": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23055": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
     "23056": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23057": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23058": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
@@ -963,6 +1047,14 @@
       "patchReleaseDate": null
     },
     "23063": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23064": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "23065": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     },
@@ -987,6 +1079,10 @@
       "patchReleaseDate": null
     },
     "24005": {
+      "announcedAt": "2026-11-16",
+      "patchReleaseDate": null
+    },
+    "24006": {
       "announcedAt": "2026-11-16",
       "patchReleaseDate": null
     }

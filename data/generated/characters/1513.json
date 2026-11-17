@@ -1,0 +1,833 @@
+{
+  "id": 1513,
+  "slug": "aventurine-waveflair",
+  "name": {
+    "pt-BR": "Aventurine - Veraneio",
+    "en": "Aventurine • Waveflair",
+    "zh-CN": "砂金•戏浪",
+    "ja": "アベンチュリン・波と戯れる夏",
+    "ko": "어벤츄린•웨이브"
+  },
+  "rarity": 5,
+  "path": "Elation",
+  "element": "Quantum",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 151301,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Tempestade Certeira",
+        "en": "Dead Center, the Torrent Hits",
+        "zh-CN": "激流，正中红心",
+        "ja": "インナーブルに突き立つ激流",
+        "ko": "불스아이 웨이브"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Aventurine - Veraneio a um inimigo designado.",
+        "en": "Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于砂金•戏浪#1[i]%攻击力的量子属性伤害。",
+        "ja": "指定した敵単体にアベンチュリン・波と戯れる夏の攻撃力#1[i]%分の量子属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 어벤츄린•웨이브 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.5
+        ],
+        [
+          0.6
+        ],
+        [
+          0.7
+        ],
+        [
+          0.8
+        ],
+        [
+          0.9
+        ],
+        [
+          1
+        ],
+        [
+          1.1
+        ],
+        [
+          1.2
+        ],
+        [
+          1.3
+        ],
+        [
+          1.4
+        ]
+      ]
+    },
+    {
+      "id": 151302,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Golpe das Areias Ferventes",
+        "en": "Kill Shot, the Sands Boil",
+        "zh-CN": "绝杀，热砂沸腾",
+        "ja": "フィニッシュに沸く熱砂",
+        "ko": "모래가 들끓는 위닝 샷"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Aventurine - Veraneio a todos os inimigos e ganha #2[i] ponto(s) de \"Piada\" e #3[i] ponto(s) de \"Fervor\".",
+        "en": "Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to all enemies. Gains #2[i] Punchline and #3[i] \"Fervor.\"",
+        "zh-CN": "对敌方全体造成等同于砂金•戏浪#1[i]%攻击力的量子属性伤害，获得#2[i]个笑点和#3[i]点【热意】。",
+        "ja": "敵全体にアベンチュリン・波と戯れる夏の攻撃力#1[i]%分の量子属性ダメージを与え、爆笑ネタを#2[i]個、「熱気」を#3[i]獲得する。",
+        "ko": "모든 적에게 어벤츄린•웨이브 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 웃음 포인트 #2[i]pt와 [열의] #3[i]pt를 획득한다"
+      },
+      "params": [
+        [
+          1.2,
+          4,
+          4
+        ],
+        [
+          1.32,
+          4,
+          4
+        ],
+        [
+          1.44,
+          4,
+          4
+        ],
+        [
+          1.56,
+          4,
+          4
+        ],
+        [
+          1.68,
+          4,
+          4
+        ],
+        [
+          1.8,
+          4,
+          4
+        ],
+        [
+          1.95,
+          4,
+          4
+        ],
+        [
+          2.1,
+          4,
+          4
+        ],
+        [
+          2.25,
+          4,
+          4
+        ],
+        [
+          2.4,
+          4,
+          4
+        ],
+        [
+          2.52,
+          4,
+          4
+        ],
+        [
+          2.64,
+          4,
+          4
+        ],
+        [
+          2.76,
+          4,
+          4
+        ],
+        [
+          2.88,
+          4,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 151303,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Vitória Sobre as Ondas",
+        "en": "Grand Slam, Crest That High Tide",
+        "zh-CN": "胜局，凌越飓浪之上",
+        "ja": "荒波の先の勝利",
+        "ko": "승리, 거센 파도를 넘어"
+      },
+      "description": {
+        "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Aventurine - Veraneio a todos os inimigos. Ganha #3[i] ponto(s) de \"Piada\" e #2[i] ponto(s) de \"Fervor\". Aumenta a VEL desta unidade em #4[i]% por #5[i] rodada(s).",
+        "en": "Deals Quantum DMG equal to #1[i]% of Aventurine • Waveflair's ATK to all enemies. Gains #3[i] Punchline and #2[i] \"Fervor.\" Increases this unit's SPD by #4[i]%, lasting for #5[i] turn(s).",
+        "zh-CN": "对敌方全体造成等同于砂金•戏浪#1[i]%攻击力的量子属性伤害，获得#3[i]个笑点和#2[i]点【热意】。并使自身速度提高#4[i]%，持续#5[i]回合。",
+        "ja": "敵全体にアベンチュリン・波と戯れる夏の攻撃力#1[i]%分の量子属性ダメージを与え、爆笑ネタを#3[i]個、「熱気」を#2[i]獲得する。さらに自身の速度+#4[i]%、#5[i]ターン継続。",
+        "ko": "모든 적에게 어벤츄린•웨이브 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 웃음 포인트 #3[i]pt와 [열의] #2[i]pt를 획득한다. 또한 자신의 속도를 #4[i]% 증가시킨다, 지속 시간: #5[i]턴"
+      },
+      "params": [
+        [
+          2.4,
+          8,
+          6,
+          0.12,
+          4
+        ],
+        [
+          2.56,
+          8,
+          6,
+          0.138,
+          4
+        ],
+        [
+          2.72,
+          8,
+          6,
+          0.156,
+          4
+        ],
+        [
+          2.88,
+          8,
+          6,
+          0.174,
+          4
+        ],
+        [
+          3.04,
+          8,
+          6,
+          0.192,
+          4
+        ],
+        [
+          3.2,
+          8,
+          6,
+          0.21,
+          4
+        ],
+        [
+          3.4,
+          8,
+          6,
+          0.2325,
+          4
+        ],
+        [
+          3.6,
+          8,
+          6,
+          0.255,
+          4
+        ],
+        [
+          3.8,
+          8,
+          6,
+          0.2775,
+          4
+        ],
+        [
+          4,
+          8,
+          6,
+          0.3,
+          4
+        ],
+        [
+          4.16,
+          8,
+          6,
+          0.318,
+          4
+        ],
+        [
+          4.32,
+          8,
+          6,
+          0.336,
+          4
+        ],
+        [
+          4.48,
+          8,
+          6,
+          0.354,
+          4
+        ],
+        [
+          4.64,
+          8,
+          6,
+          0.372,
+          4
+        ],
+        [
+          4.8,
+          8,
+          6,
+          0.39,
+          4
+        ]
+      ]
+    },
+    {
+      "id": 151304,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Aposta com o Eco Abissal",
+        "en": "Ante Up, the Abyss Answers",
+        "zh-CN": "抛注，听深渊回响",
+        "ja": "ベットして深淵の響きを聞く",
+        "ko": "베팅, 심연 속 메아리"
+      },
+      "description": {
+        "pt-BR": "A duração de \"Mandou Bem\" de Aventurine - Veraneio aumenta em 1 rodada. Após um aliado atacar, Aventurine - Veraneio ganha #7[i] ponto(s) de \"Fervor\" e #6[i] ponto(s) de \"Piada\". O limite máximo de \"Fervor\" é #4[i] pontos.\nQuando \"Fervor\" atinge #1[i] pontos, Aventurine - Veraneio usa \"Um Brinde ao Calor do Verão!\" 1 vez, levando em conta #5[i] ponto(s) de \"Piada\" fixo(s). Após esse uso, a próxima Perícia da Euforia usada por esta unidade no Instante Aha é aprimorada para \"O Verão é Maravilhoso\".\nEnquanto Aventurine - Veraneio tiver \"Mandou Bem\", a Perícia dele causa adicionalmente #2[i]% de Dano de Euforia Quântico a todos os inimigos, e a Perícia Suprema dele causa adicionalmente #3[i]% de Dano de Euforia Quântico a todos os inimigos.",
+        "en": "The duration of Aventurine • Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains #7[i] \"Fervor\" and #6[i] Punchline. \"Fervor\" is capped at #4[i] points.\nWhen \"Fervor\" reaches #1[i], Aventurine • Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of #5[i] Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine • Waveflair holds \"Certified Banger,\" Skill additionally deals #2[i]% Quantum Elation DMG to all enemies, and Ultimate additionally deals #3[i]% Quantum Elation DMG to all enemies.",
+        "zh-CN": "砂金•戏浪的【好活当赏】的持续时间增加1回合。队友施放攻击后，砂金•戏浪获得#7[i]点【热意】以及#6[i]个笑点，【热意】上限为#4[i]点。\n【热意】达到#1[i]点时，砂金•戏浪会立即施放1次固定计入#5[i]笑点的【举杯！敬炽烈一夏】，并在施放后使自身下一次在阿哈时刻中施放的欢愉技强化为【All in！敬炽烈一夏】。\n砂金•戏浪持有【好活当赏】时，战技额外对敌方全体造成#2[i]%量子属性欢愉伤害，终结技额外对敌方全体造成#3[i]%量子属性欢愉伤害。",
+        "ja": "アベンチュリン・波と戯れる夏の「爆笑の褒美」の継続時間+1ターン。自身以外の味方が攻撃を行った後、アベンチュリン・波と戯れる夏は「熱気」を#7[i]、爆笑ネタを#6[i]個獲得する。「熱気」の上限は#4[i]。\n「熱気」が#1[i]に達した時、アベンチュリン・波と戯れる夏は爆笑ネタが固定で#5[i]個カウントされる愉悦スキル「灼熱の夏に乾杯！」を即座に1回発動する。その後、自身が次のアッハタイムで発動する愉悦スキルは「灼熱の夏にオールイン！」に強化される。\nアベンチュリン・波と戯れる夏が「爆笑の褒美」を持つ時、戦闘スキルは敵全体に追加で#2[i]%分の量子属性の愉悦ダメージを与え、必殺技は敵全体に追加で#3[i]%分の量子属性の愉悦ダメージを与える。",
+        "ko": "어벤츄린•웨이브의 [훌륭한 솜씨에는 보상을] 지속 시간이 1턴 증가한다. 동료가 공격을 발동한 후, 어벤츄린•웨이브는 [열의] #7[i]pt 및 웃음 포인트 #6[i]pt를 획득한다([열의] 최대치: #4[i]pt).\n[열의] #1[i]pt 도달 시, 어벤츄린•웨이브는 즉시 웃음 포인트 #5[i]pt로 고정 집계되는 [건배! 뜨거운 여름을 위하여]를 1회 발동하고, 자신이 다음 아하 타임에 발동하는 환락 스킬이 [올인! 뜨거운 여름을 위하여]로 강화된다.\n어벤츄린•웨이브가 [훌륭한 솜씨에는 보상을] 보유 시, 전투 스킬은 추가로 모든 적에게 양자 속성 환락 피해를 #2[i]% 가하고, 필살기는 추가로 모든 적에게 양자 속성 환락 피해를 #3[i]% 가한다"
+      },
+      "params": [
+        [
+          10,
+          0.2,
+          0.36,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.22,
+          0.396,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.24,
+          0.432,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.26,
+          0.468,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.28,
+          0.504,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.3,
+          0.54,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.325,
+          0.585,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.35,
+          0.63,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.375,
+          0.675,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.4,
+          0.72,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.42,
+          0.756,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.44,
+          0.792,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.46,
+          0.828,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.48,
+          0.864,
+          30,
+          20,
+          1,
+          1
+        ],
+        [
+          10,
+          0.5,
+          0.9,
+          30,
+          20,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 151306,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 151307,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Ondas em Águas Tranquilas",
+        "en": "Make Waves in Still Waters",
+        "zh-CN": "于静水掀起风浪",
+        "ja": "凪に波風を巻き起こせ",
+        "ko": "고요한 수면의 파란"
+      },
+      "description": {
+        "pt-BR": "Avança rapidamente por uma distância definida, atacando todos os inimigos no caminho contra os quais fizer contato e bloqueando todos os ataques recebidos. Após entrar em combate ao atacar inimigos ativamente, Aventurine - Veraneio causa Dano Quântico igual a #1[i]% do seu ATQ a todos os inimigos, e obtém #2[i] ponto(s) de \"Fervor\" e #3[i] ponto(s) de \"Mandou Bem\". Os Pontos de Técnica não são consumidos se nenhum inimigo for atingido.",
+        "en": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via actively attacking enemies, deals Quantum DMG to all enemies equal to #1[i]% of Aventurine • Waveflair's ATK, and gains #2[i] \"Fervor\" and #3[i] \"Certified Banger.\" Technique Points are not consumed if no enemies are hit.",
+        "zh-CN": "快速向前移动一段距离并攻击接触到的敌人，在快速移动的过程中可抵挡敌人的所有攻击。主动攻击敌人进入战斗后，对敌方全体造成等同于砂金•戏浪#1[i]%攻击力的量子属性伤害，并使自身获得#2[i]点【热意】和#3[i]点【好活当赏】。未击中敌人时不消耗秘技点。",
+        "ja": "素早く前方に一定距離移動し、触れた敵を攻撃する。移動中は敵からの攻撃をすべて防ぐことができる。敵を先制攻撃して戦闘に入った後、敵全体にアベンチュリン・波と戯れる夏の攻撃力#1[i]%分の量子属性ダメージを与え、自身は「熱気」を#2[i]、「爆笑の褒美」を#3[i]獲得する。敵に命中しなかった場合、秘技ポイントは消費されない。",
+        "ko": "빠르게 전방을 향해 일정 거리 이동하며, 접촉한 적을 공격한다. 빠른 이동 중에는 적의 모든 공격을 막을 수 있다. 적을 선공해 전투에 진입하면 모든 적에게 어벤츄린•웨이브 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, [열의] #2[i]pt 및 [훌륭한 솜씨에는 보상을] #3[i]pt를 획득한다. 적을 명중하지 않으면 비술 포인트를 소모하지 않는다"
+      },
+      "params": [
+        [
+          1,
+          2,
+          20
+        ]
+      ]
+    },
+    {
+      "id": 151320,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Um Brinde ao Calor do Verão!",
+        "en": "Cheers! To Summer's Blaze",
+        "zh-CN": "举杯！敬炽烈一夏",
+        "ja": "灼熱の夏に乾杯！",
+        "ko": "건배! 뜨거운 여름을 위하여"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% de Dano de Euforia Quântico a todos os inimigos e, adicionalmente, causa #2[i] instância(s) de Dano, com cada instância causando #3[f1]% de Dano de Euforia Quântico a um inimigo aleatório.",
+        "en": "Deals #1[i]% Quantum Elation DMG to all enemies, and additionally deals #2[i] instance(s) of DMG, with each instance dealing #3[f1]% Quantum Elation DMG to one random enemy.",
+        "zh-CN": "对敌方全体造成#1[i]%量子属性欢愉伤害，并额外造成#2[i]次伤害，每次伤害对随机敌方单体造成#3[f1]%量子属性欢愉伤害。",
+        "ja": "敵全体に#1[i]%分の量子属性の愉悦ダメージを与え、追加で#2[i]ヒットする。1ヒットごとにランダムな敵単体に#3[f1]%分の量子属性の愉悦ダメージを与える。",
+        "ko": "모든 적에게 양자 속성 환락 피해를 #1[i]% 가하고, 추가로 피해를 #2[i]회 가하며, 피해당 랜덤 단일 적에게 양자 속성 환락 피해를 #3[f1]% 가한다"
+      },
+      "params": [
+        [
+          0.3,
+          10,
+          0.09
+        ],
+        [
+          0.33,
+          10,
+          0.099
+        ],
+        [
+          0.36,
+          10,
+          0.108
+        ],
+        [
+          0.39,
+          10,
+          0.117
+        ],
+        [
+          0.42,
+          10,
+          0.126
+        ],
+        [
+          0.45,
+          10,
+          0.135
+        ],
+        [
+          0.4875,
+          10,
+          0.1462
+        ],
+        [
+          0.525,
+          10,
+          0.1575
+        ],
+        [
+          0.5625,
+          10,
+          0.1688
+        ],
+        [
+          0.6,
+          10,
+          0.18
+        ],
+        [
+          0.63,
+          10,
+          0.189
+        ],
+        [
+          0.66,
+          10,
+          0.198
+        ],
+        [
+          0.69,
+          10,
+          0.207
+        ],
+        [
+          0.72,
+          10,
+          0.216
+        ],
+        [
+          0.75,
+          10,
+          0.225
+        ]
+      ]
+    },
+    {
+      "id": 151321,
+      "type": "Other",
+      "name": {
+        "pt-BR": "O Verão é Maravilhoso",
+        "en": "All In! To Summer's Blaze",
+        "zh-CN": "All in！敬炽烈一夏",
+        "ja": "灼熱の夏にオールイン！",
+        "ko": "올인! 뜨거운 여름을 위하여"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% de Dano de Euforia Quântico a todos os inimigos e, adicionalmente, causa #3[i] instâncias de Dano, com cada instância causando #4[f1]% de Dano de Euforia Quântico a um inimigo aleatório. Consome todo o \"Fervor\" ao ser usado. Para cada 1 ponto de \"Fervor\" consumido, causa adicionalmente 1 instância de#2[f1]% de Dano de Euforia Quântico a um inimigo aleatório.",
+        "en": "Deals #1[i]% Quantum Elation DMG to all enemies, and additionally deals #3[i] instances of DMG, with each instance dealing #4[f1]% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of #2[f1]% Quantum Elation DMG to one random enemy.",
+        "zh-CN": "对敌方全体造成#1[i]%量子属性欢愉伤害，并额外造成#3[i]次伤害，每次伤害对随机敌方单体造成#4[f1]%量子属性欢愉伤害。施放时会消耗所有【热意】，每消耗1点【热意】都会额外对随机敌方单体造成1次#2[f1]%量子属性欢愉伤害。",
+        "ja": "敵全体に#1[i]%分の量子属性の愉悦ダメージを与え、追加で#3[i]ヒットする。1ヒットごとにランダムな敵単体に#4[f1]%分の量子属性の愉悦ダメージを与える。発動時に「熱気」をすべて消費し、「熱気」を1消費するごとに、ランダムな敵単体に追加で#2[f1]%分の量子属性の愉悦ダメージを1回与える。",
+        "ko": "모든 적에게 양자 속성 환락 피해를 #1[i]% 가하고, 추가로 피해를 #3[i]회 가하며, 피해당 랜덤 단일 적에게 양자 속성 환락 피해를 #4[f1]% 가한다. 발동 시 모든 [열의]를 소모하며, 소모한 [열의] 1pt당 추가로 랜덤 단일 적에게 양자 속성 환락 피해를 #2[f1]% 1회 가한다"
+      },
+      "params": [
+        [
+          0.3,
+          0.105,
+          10,
+          0.09
+        ],
+        [
+          0.33,
+          0.1155,
+          10,
+          0.099
+        ],
+        [
+          0.36,
+          0.126,
+          10,
+          0.108
+        ],
+        [
+          0.39,
+          0.1365,
+          10,
+          0.117
+        ],
+        [
+          0.42,
+          0.147,
+          10,
+          0.126
+        ],
+        [
+          0.45,
+          0.1575,
+          10,
+          0.135
+        ],
+        [
+          0.4875,
+          0.1706,
+          10,
+          0.1462
+        ],
+        [
+          0.525,
+          0.1837,
+          10,
+          0.1575
+        ],
+        [
+          0.5625,
+          0.1969,
+          10,
+          0.1688
+        ],
+        [
+          0.6,
+          0.21,
+          10,
+          0.18
+        ],
+        [
+          0.63,
+          0.2205,
+          10,
+          0.189
+        ],
+        [
+          0.66,
+          0.231,
+          10,
+          0.198
+        ],
+        [
+          0.69,
+          0.2415,
+          10,
+          0.207
+        ],
+        [
+          0.72,
+          0.252,
+          10,
+          0.216
+        ],
+        [
+          0.75,
+          0.2625,
+          10,
+          0.225
+        ]
+      ]
+    },
+    {
+      "id": 151329,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Faces da Euforia ★ Jogo de Três Cartas",
+        "en": "Faces of Elation ★ Three-Card Monte",
+        "zh-CN": "欢愉万相★三赌牌局",
+        "ja": "愉悦の万象★スリーカードモンテ",
+        "ko": "환락만상★쓰리카드몬테"
+      },
+      "description": {
+        "pt-BR": "Quando o Caminho da Euforia ascende, se Aeon ★ Aha for o único aliado da Euforia, o efeito do Rastro \"Desfrute as Marés Furiosas\" que normalmente requer que Aventurine - Veraneio seja o único personagem da Euforia também entrará em vigor, e esse efeito será aprimorado: a VEL de todos os aliados aumenta em #2[i]%. Depois que um aliado atacar, Aventurine - Veraneio ganha #3[i] de \"Fervor\" adicional e #4[i] de \"Êxtase\".",
+        "en": "When the Path of Elation ascends, if Aeon ★ Aha is the only Elation teammate, then in the Trace \"Revel in Raging Tides,\" the effect that normally requires Aventurine • Waveflair to be the only Elation character will also become active. And this effect is enhanced: The SPD of all allies increases by #2[i]%. After a teammate attacks, Aventurine • Waveflair additionally gains #3[i] \"Fervor\" and #4[i] Bliss.",
+        "zh-CN": "当「欢愉」命途升格时，若只有星神★阿哈1位「欢愉」命途的队友，则行迹【纵享惊涛】中只存在砂金•戏浪1名「欢愉」命途角色时的效果也会生效，且该效果获得加强：我方全体速度提高#2[i]%，队友施放攻击后，砂金•戏浪额外获得#3[i]点【热意】以及#4[i]个爽点。",
+        "ja": "「愉悦」の運命が昇格すると、パーティ内の愉悦の運命を歩む自身以外のキャラが星神★アッハのみの場合、追加能力「荒波を満喫しよう」が、愉悦の運命を歩むキャラがアベンチュリン・波と戯れる夏のみの場合の効果も発動するようになり、効果が以下の強化を獲得する。\n味方全体の速度+#2[i]%。自身以外の味方が攻撃を行った後、アベンチュリン・波と戯れる夏は追加で「熱気」を#3[i]、爽快ネタを#4[i]個獲得する。",
+        "ko": "「환락」 운명의 길 승격 시 「환락」 운명의 길 동료가 에이언즈★아하 1명뿐일 경우, 행적 [격랑의 향연] 중 「환락」 운명의 길 캐릭터가 어벤츄린•웨이브 1명뿐일 때의 효과도 적용되며, 해당 효과가 다음과 같이 강화된다. 모든 아군의 속도가 #2[i]% 증가하고, 동료가 공격을 발동하면 어벤츄린•웨이브는 추가로 [열의] #3[i]pt 및 쾌감 포인트 #4[i]pt를 획득한다"
+      },
+      "params": [
+        [
+          0,
+          0.15,
+          1,
+          1
+        ],
+        [
+          0,
+          0.25,
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Férias em Perigo",
+        "en": "A Holiday on the Line",
+        "zh-CN": "抵作筹码的假日",
+        "ja": "{RUBY_B#きゅうじつ}休日{RUBY_E#}はチップの{RUBY_B#か}代{RUBY_E#}わり",
+        "ko": "판돈으로 건 휴일"
+      },
+      "description": {
+        "pt-BR": "Aumenta a PEN de RES de Todos os Tipos em 24%.\nO Talento é aprimorado: quando \"Fervor\" atinge 10/20/30 pontos, usa imediatamente \"Um Brinde ao Calor do Verão!\".",
+        "en": "Increases All-Type RES PEN by 24%.\nTalent gets enhanced: When \"Fervor\" reaches 10/20/30 points, immediately uses \"Cheers! To Summer's Blaze.\"",
+        "zh-CN": "全属性抗性穿透提高24%。\n天赋获得强化：【热意】达到10点/20点/30点时，都会立即施放【举杯！敬炽烈一夏】。",
+        "ja": "全属性の耐性貫通+24%。\n天賦が強化され、下記の効果を獲得する。\n「熱気」が10/20/30に達した時、それぞれ即座に「灼熱の夏に乾杯！」を発動する。",
+        "ko": "모든 속성 저항 관통이 24% 증가한다.\n특성 강화: [열의] 10pt/20pt/30pt 도달 시, 즉시 [건배! 뜨거운 여름을 위하여]를 발동한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Ocioso como a Maré",
+        "en": "Idle as the Turning Tide",
+        "zh-CN": "闲情如海潮涨落",
+        "ja": "くつろぎは{RUBY_B#ちょうせき}潮汐{RUBY_E#}に{RUBY_B#に}似{RUBY_E#}て",
+        "ko": "밀물과 썰물처럼 오가는 여유"
+      },
+      "description": {
+        "pt-BR": "Aumenta o limite máximo de \"Fervor\" para 50 pontos. Quando \"Fervor\" atinge 40/50 pontos, também ativa o Talento para usar \"Um Brinde ao Calor do Verão!\". Após usar uma Perícia da Euforia, concede adicionalmente 4 ponto(s) de \"Fervor\".",
+        "en": "Increases the upper limit of \"Fervor\" to 50 points. \"Fervor\" reaching 40/50 points can also trigger the Talent to use \"Cheers! To Summer's Blaze.\" After using Elation Skill, additionally gains 4 \"Fervor.\"",
+        "zh-CN": "【热意】上限提高至50点，达到40点/50点时，也会触发天赋施放【举杯！敬炽烈一夏】。施放欢愉技后额外获得4点【热意】。",
+        "ja": "「熱気」の上限が50にアップし、40/50に達した時にも天賦による「灼熱の夏に乾杯！」が発動する。愉悦スキルを発動した後、追加で「熱気」を4獲得する。",
+        "ko": "[열의] 최대치가 50pt로 증가하고, 40pt/50pt 도달 시, 특성을 발동해 [건배! 뜨거운 여름을 위하여]를 발동한다. 환락 스킬 발동 후 추가로 [열의]를 4pt 획득한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Encontro Relaxante",
+        "en": "A Rendezvous Served Chilled",
+        "zh-CN": "冰镇的午后邀约",
+        "ja": "{RUBY_B#こおり}氷{RUBY_E#}で{RUBY_B#ひ}冷{RUBY_E#}えた{RUBY_B#ごご}午後{RUBY_E#}の{RUBY_B#さそ}誘{RUBY_E#}い",
+        "ko": "차가운 오후의 초대"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Com o Sol Não se Negocia",
+        "en": "Sunlight Runs No Tab",
+        "zh-CN": "无需同阳光交易",
+        "ja": "{RUBY_B#ひざ}日差{RUBY_E#}しとの{RUBY_B#とりひき}取引{RUBY_E#}は{RUBY_B#ふよう}不要{RUBY_E#}",
+        "ko": "태양과 거래할 필요 없이"
+      },
+      "description": {
+        "pt-BR": "Quando Aventurine - Veraneio usa a Perícia, permite que o Dano causado por todos os aliados ignore 18% da DEF dos inimigos-alvo, durando por 3 rodada(s).",
+        "en": "When Aventurine • Waveflair uses Skill, enables the DMG dealt by all allies to ignore 18% of enemy targets' DEF, lasting for 3 turn(s).",
+        "zh-CN": "砂金•戏浪施放战技时，使我方全体造成的伤害无视敌方目标18%的防御力，持续3回合。",
+        "ja": "アベンチュリン・波と戯れる夏が戦闘スキルを発動する時、味方全体の与ダメージが敵の防御力を18%無視する。3ターン継続。",
+        "ko": "어벤츄린•웨이브가 전투 스킬 발동 시, 모든 아군이 가하는 피해가 적의 방어력을 18% 무시한다, 지속 시간: 3턴"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Tirando a Sorte Grande",
+        "en": "Into the Eye of the Jackpot",
+        "zh-CN": "掷身于满贯风暴",
+        "ja": "グランドスラムに{RUBY_B#とつにゅう}突入{RUBY_E#}",
+        "ko": "그랜드 슬램의 폭풍 속으로"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "O Passado na Pista Rápida",
+        "en": "The Past in Fast Lane",
+        "zh-CN": "将往日兑作一场狂飙",
+        "ja": "{RUBY_B#かこ}過去{RUBY_E#}を1{RUBY_B#ぱい}杯{RUBY_E#}のレースに",
+        "ko": "질주로 블렌딩된 과거"
+      },
+      "description": {
+        "pt-BR": "O Dano de Euforia causado por Aventurine - Veraneio fica 25% mais galhofa. Após Aventurine - Veraneio usar a Perícia da Euforia 2 vez(es), todas as Perícias da Euforia subsequentes se tornam \"O Verão é Maravilhoso\", e, ao usar a Perícia da Euforia \"O Verão é Maravilhoso\" para causar Dano adicional fora do Instante Aha, não consome mais \"Fervor\".",
+        "en": "Elation DMG dealt by Aventurine • Waveflair merrymakes by 25%. After Aventurine • Waveflair uses his Elation Skill 2 time(s), all subsequent Elation Skills used become \"All In! To Summer's Blaze.\" And when using the Elation Skill \"All In! To Summer's Blaze\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+        "zh-CN": "砂金•戏浪造成的欢愉伤害增笑25%。砂金•戏浪施放2次欢愉技后，其后续施放的所有欢愉技均为【All in！敬炽烈一夏】，且在阿哈时刻外施放欢愉技【All in！敬炽烈一夏】造成额外伤害时不再消耗【热意】。",
+        "ja": "アベンチュリン・波と戯れる夏が与える愉悦ダメージが25%上笑する。アベンチュリン・波と戯れる夏が愉悦スキルを2回発動した後、以降に発動する愉悦スキルがすべて「灼熱の夏にオールイン！」に強化され、アッハタイム以外で発動した「灼熱の夏にオールイン！」の追加のダメージは「熱気」を消費しなくなる。",
+        "ko": "어벤츄린•웨이브가 가하는 환락 피해가 25% 증소한다. 어벤츄린•웨이브가 환락 스킬을 2회 발동한 후, 이후 발동하는 모든 환락 스킬은 [올인! 뜨거운 여름을 위하여]가 되며, 아하 타임 외에 환락 스킬 [올인! 뜨거운 여름을 위하여]를 발동해 추가로 피해를 가할 시 더는 [열의]를 소모하지 않는다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1513.png",
+    "preview": "image/character_preview/1513.png",
+    "portrait": "image/character_portrait/1513.png"
+  }
+}

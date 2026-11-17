@@ -1,0 +1,860 @@
+{
+  "id": 1511,
+  "slug": "aeon-aha",
+  "name": {
+    "pt-BR": "Aeon ★ Aha",
+    "en": "Aeon ★ Aha",
+    "zh-CN": "星神★阿哈",
+    "ja": "星神★アッハ",
+    "ko": "에이언즈★아하"
+  },
+  "rarity": 5,
+  "path": "Elation",
+  "element": "Quantum",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 151101,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Congelestrelas, Começa o Espetáculo!",
+        "en": "Starfrost, Showtime!",
+        "zh-CN": "点星，开幕！",
+        "ja": "星灯す可笑しな開幕！",
+        "ko": "스타프로스터, 개막!"
+      },
+      "description": {
+        "pt-BR": "Causa #1[i]% de Dano de Euforia Quântico a um inimigo-alvo designado.",
+        "en": "Deals #1[i]% Quantum Elation DMG to one designated enemy target.",
+        "zh-CN": "对指定敌方单体造成#1[i]%的量子属性欢愉伤害。",
+        "ja": "指定した敵単体に#1[i]%分の量子属性の愉悦ダメージを与える。",
+        "ko": "지정된 단일 적에게 양자 속성 환락 피해를 #1[i]% 가한다"
+      },
+      "params": [
+        [
+          0.25,
+          1
+        ],
+        [
+          0.3,
+          1
+        ],
+        [
+          0.35,
+          1
+        ],
+        [
+          0.4,
+          1
+        ],
+        [
+          0.45,
+          1
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0.55,
+          1
+        ],
+        [
+          0.6,
+          1
+        ],
+        [
+          0.65,
+          1
+        ],
+        [
+          0.7,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 151102,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Este Emanador Foi Certificado por Aha™",
+        "en": "This Emanator Was Certified by Aha™",
+        "zh-CN": "此乃令使，阿哈认证™",
+        "ja": "これぞ使令、アッハのお墨付き™",
+        "ko": "사도, 아하 인증™"
+      },
+      "description": {
+        "pt-BR": "Faz um personagem aliado designado (exceto esta unidade) entrar no estado de \"Emanador da Euforia\" e, em seguida, desfere imediatamente um Ataque Extra, causando #2[i]% de Dano de Euforia Quântico a todos os inimigos. O estado de \"Emanador da Euforia\" dura por toda a batalha, até trocar para o próximo alvo. O alvo com o estado de \"Emanador da Euforia\" tem seu atributo de Euforia aumentado em #1[i]% e, no início da sua rodada, faz Aeon ★ Aha ganhar #6[i] ponto(s) de \"Imaginouro\".",
+        "en": "Enables one designated ally character (excluding this unit) to gain the \"Emanator of Elation\" state, then immediately launches Follow-up ATK, dealing #2[i]% Quantum Elation DMG to all enemies. The \"Emanator of Elation\" state lasts for the entire battle until it switches to the next target. The target with the \"Emanator of Elation\" state has their Elation stat increased by #1[i]% and, at the start of their turn, enables Aeon ★ Aha to gain #6[i] point(s) of \"Wishpower.\"",
+        "zh-CN": "使除自身以外的指定我方单体角色获得【「欢愉」令使】状态，随后立即发动追加攻击，对敌方全体造成#2[i]%的量子属性欢愉伤害。【「欢愉」令使】状态持续整场战斗直至切换到下一个目标，持有【「欢愉」令使】状态的目标欢愉度提高#1[i]%并在回合开始时使星神★阿哈获得#6[i]点【愿力】。",
+        "ja": "自身以外の指定した味方キャラ単体に「『愉悦』の使令」状態を付与する。その後、即座に追加攻撃を発動し、敵全体に#2[i]%分の量子属性の愉悦ダメージを与える。「『愉悦』の使令」状態は戦闘が終了するか、別のターゲットに切り替わるまで継続する。「『愉悦』の使令」状態の味方は愉悦度+#1[i]%。また、「『愉悦』の使令」状態の味方のターンが回ってきた時、星神★アッハが「願力」を#6[i]獲得する。",
+        "ko": "자신을 제외한 지정된 단일 아군 캐릭터가 [「환락」의 사도] 상태를 획득하게 하고, 이후 즉시 추가 공격을 발동해 모든 적에게 양자 속성 환락 피해를 #2[i]% 가한다. [「환락」의 사도] 상태는 다음 목표로 전환될 때까지 전투 내내 지속되며, [「환락」의 사도] 상태를 보유한 목표는 환락도가 #1[i]% 증가하고, 턴 시작 시 에이언즈★아하가 [원력]을 #6[i]pt 획득하게 한다"
+      },
+      "params": [
+        [
+          0.1,
+          0.25,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.11,
+          0.275,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.12,
+          0.3,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.13,
+          0.325,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.14,
+          0.35,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.15,
+          0.375,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.1625,
+          0.4062,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.175,
+          0.4375,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.1875,
+          0.4688,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.2,
+          0.5,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.21,
+          0.525,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.22,
+          0.55,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.23,
+          0.575,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.24,
+          0.6,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0.25,
+          0.625,
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 151103,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Aha! Que Haja Riso",
+        "en": "Aha! Let There Be Laughter",
+        "zh-CN": "啊哈！宇宙笑点大爆炸",
+        "ja": "アッハ！銀河の爆笑ネタが炸裂",
+        "ko": "아하! 웃음 포인트 대폭발"
+      },
+      "description": {
+        "pt-BR": "Avança Adiante a ação de Aha em #5[i]%. Aeon ★ Aha entra no estado de \"Faces da Euforia\", com duração de #6[i] rodada(s). No início de cada rodada de Aeon ★ Aha, a duração diminui em 1. Causa #2[i]% de Dano de Euforia Quântico a todos os inimigos. Depois, causa #3[i] instância(s) de Dano, com cada instância causando #4[i]% de Dano de Euforia Quântico a um inimigo aleatório.",
+        "en": "Aha's action advances by #5[i]%. Aeon ★ Aha gains the \"Faces of Elation\" state, lasting for #6[i] turn(s). This duration decreases by 1 at the start of Aeon ★ Aha's every turn. Deals #2[i]% Quantum Elation DMG to all enemies. Then, deals #3[i] instance(s) of DMG, with each instance dealing #4[i]% Quantum Elation DMG to one random enemy.",
+        "zh-CN": "使阿哈行动提前#5[i]%，星神★阿哈获得【欢愉万相】状态，持续#6[i]回合，星神★阿哈每回合开始时持续回合数减1。对敌方全体造成#2[i]%的量子属性欢愉伤害，随后造成#3[i]次伤害，每次伤害对敌方随机单体造成#4[i]%的量子属性欢愉伤害。",
+        "ja": "アッハの行動順を#5[i]%早め、星神★アッハが「愉悦の万象」状態を獲得する。この状態は#6[i]ターン継続し、星神★アッハのターンが回ってくるたびに継続時間-1ターン。敵全体に#2[i]%分の量子属性の愉悦ダメージを与える。その後、追加で#3[i]ヒットし、1ヒットごとにランダムな敵単体に#4[i]%分の量子属性の愉悦ダメージを与える。",
+        "ko": "아하의 행동 게이지를 #5[i]% 증가시키고, 에이언즈★아하가 [환락만상] 상태를 획득한다, 지속 시간: #6[i]턴, 에이언즈★아하의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 모든 적에게 양자 속성 환락 피해를 #2[i]% 가하고, 이후 피해를 #3[i]회 가하며, 피해당 랜덤 단일 적에게 양자 속성 환락 피해를 #4[i]% 가한다"
+      },
+      "params": [
+        [
+          8,
+          1.2,
+          5,
+          0.36,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.28,
+          5,
+          0.384,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.36,
+          5,
+          0.408,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.44,
+          5,
+          0.432,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.52,
+          5,
+          0.456,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.6,
+          5,
+          0.48,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.7,
+          5,
+          0.51,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.8,
+          5,
+          0.54,
+          0.2,
+          3
+        ],
+        [
+          8,
+          1.9,
+          5,
+          0.57,
+          0.2,
+          3
+        ],
+        [
+          8,
+          2,
+          5,
+          0.6,
+          0.2,
+          3
+        ],
+        [
+          8,
+          2.08,
+          5,
+          0.624,
+          0.2,
+          3
+        ],
+        [
+          8,
+          2.16,
+          5,
+          0.648,
+          0.2,
+          3
+        ],
+        [
+          8,
+          2.24,
+          5,
+          0.672,
+          0.2,
+          3
+        ],
+        [
+          8,
+          2.32,
+          5,
+          0.696,
+          0.2,
+          3
+        ],
+        [
+          8,
+          2.4,
+          5,
+          0.72,
+          0.2,
+          3
+        ]
+      ]
+    },
+    {
+      "id": 151104,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Faça Maravilhas com Aha",
+        "en": "Work Wonders with THEM",
+        "zh-CN": "与祂共演，奇迹新篇",
+        "ja": "其との共演、奇跡の新章",
+        "ko": "그와 함께하는 공연, 기적의 새로운 장"
+      },
+      "description": {
+        "pt-BR": "Pode ativar a Perícia Suprema depois que o \"Imaginouro\" chegar a #8[i]. Depois de atingir seu limite superior, o Imaginouro ainda pode transbordar até #11[i]. Depois de usar o ATQ Básico, a Perícia ou a Perícia da Euforia, Aeon ★ Aha ganha #7[i] de \"Imaginouro\". Depois que os pontos de \"Piada\" de todos os aliados chegam a #2[i] pela primeira vez, Aeon ★ Aha ganha imediatamente #3[i] de Imaginouro e aumenta o Dano CRIT de todos os aliados em #9[i]%, durando #10[i] rodada(s). Isso pode ser ativado novamente depois que a rodada de Aha terminar.",
+        "en": "Can activate Ultimate after \"Wishpower\" reaches #8[i]. After reaching its upper limit, Wishpower can still overflow up to #11[i]. After using Basic ATK, Skill, or Elation Skill, Aeon ★ Aha gains #7[i] \"Wishpower.\" After allies' Punchline reaches #2[i] for the first time, Aeon ★ Aha will immediately gain #3[i] \"Wishpower\" and then increase all allies' CRIT DMG by #9[i]%, lasting for #10[i] turn(s). This can trigger again after Aha's turn ends.",
+        "zh-CN": "【愿力】达到#8[i]点后可激活终结技，达到上限后还可溢出至#11[i]点。星神★阿哈在施放普攻、战技、欢愉技后获得#7[i]点【愿力】。我方笑点首次达到#2[i]点后，星神★阿哈将立即获得#3[i]点【愿力】，随后使我方全体暴击伤害提高#9[i]%，持续#10[i]回合，阿哈回合结束后可再次触发。",
+        "ja": "「願力」が#8[i]に達すると必殺技を発動できる。上限を超えた「願力」は、最大で#11[i]まで蓄積される。星神★アッハが通常攻撃、戦闘スキルまたは愉悦スキルを発動すると、「願力」を#7[i]獲得する。\n味方の爆笑ネタが初めて#2[i]に達した時、星神★アッハは即座に「願力」を#3[i]獲得し、味方全体の会心ダメージ+#9[i]%、#10[i]ターン継続。この効果はアッハのターン終了後に再度発動できる。",
+        "ko": "[원력]이 #8[i]pt에 도달하면 필살기를 활성화할 수 있고, 최대치에 도달한 후에도 #11[i]pt까지 초과할 수 있다. 에이언즈★아하는 일반 공격, 전투 스킬, 환락 스킬 발동 후 [원력]을 #7[i]pt 획득한다. 아군의 웃음 포인트가 처음으로 #2[i]pt에 도달하면 에이언즈★아하는 즉시 [원력]을 #3[i]pt 획득하고, 이후 모든 아군의 치명타 피해를 #9[i]% 증가시킨다, 지속 시간: #10[i]턴, 아하 턴 종료 후 다시 발동할 수 있다"
+      },
+      "params": [
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.2,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.22,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.24,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.26,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.28,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.3,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.325,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.35,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.375,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.4,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.42,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.44,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.46,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.48,
+          3,
+          10
+        ],
+        [
+          1,
+          40,
+          1,
+          0,
+          20,
+          8,
+          1,
+          8,
+          0.5,
+          3,
+          10
+        ]
+      ]
+    },
+    {
+      "id": 151106,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 151107,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "ABRACADABRA!",
+        "en": "ABRACADABRA!",
+        "zh-CN": "ABRACADABRA！",
+        "ja": "アブラカダブラ！",
+        "ko": "아브라카다브라!"
+      },
+      "description": {
+        "pt-BR": "Após usar a Técnica, cria uma Dimensão Especial ao redor desta unidade, com duração de #2[i] segundo(s). Inimigos dentro da Dimensão Especial sofrem \"Equívoco\". Inimigos afligidos com \"Equívoco\" não conseguem detectar aliados-alvo. Após entrar em combate, Aha ganha imediatamente 1 rodada extra, que leva em conta uma quantidade fixa de #1[i] ponto(s) de \"Piada\". Essa rodada não consome pontos de \"Piada\". Só pode existir 1 Efeito de Dimensão criado pelos aliados ao mesmo tempo.",
+        "en": "After using Technique, creates a Special Dimension around this unit, lasting for #2[i] second(s). Enemies within this Special Dimension get inflicted with \"Optical Illusion.\" Once inflicted with \"Optical Illusion,\" they cannot detect ally targets. After entering combat, Aha immediately gains 1 extra turn where a fixed amount of #1[i] Punchline is taken into account. This turn does not consume Punchline. Only 1 dimension effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，在自身周围制造1片持续#2[i]秒的特殊领域，处于特殊领域内的敌人陷入【视错】状态，【视错】状态下的敌人无法发现我方目标，进入战斗后使阿哈立即获得1个固定计入#1[i]笑点的额外回合，该回合不消耗笑点。我方制造的领域效果最多存在1个。",
+        "ja": "秘技を使用した後、自身の周囲に#2[i]秒間継続する特殊領域を作り出す。領域内の敵は「錯視」状態となり、味方を発見できない。戦闘に入ると、アッハは爆笑ネタが固定で#1[i]個カウントされる追加ターンを即座に1ターン獲得する。このターンでは爆笑ネタが消費されない。味方が作り出した領域は1つまで存在できる。",
+        "ko": "비술 사용 후 자신의 주위에 #2[i]초 동안 지속되는 특수 영역을 1개 생성하며, 특수 영역 안에 있는 적은 [착시] 상태에 빠진다. [착시] 상태의 적은 아군을 발견할 수 없고, 전투 진입 후 아하가 즉시 웃음 포인트 #1[i]pt로 고정 집계되는 보너스 턴을 1개 획득하게 하며, 해당 턴은 웃음 포인트를 소모하지 않는다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
+      },
+      "params": [
+        [
+          20,
+          20
+        ]
+      ]
+    },
+    {
+      "id": 151120,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Lua Cheia Com Aha",
+        "en": "Yes Aha At Full Moon",
+        "zh-CN": "满月，是神在的时间",
+        "ja": "月満ちる時に神はあり",
+        "ko": "만월, 신이 있는 시간"
+      },
+      "description": {
+        "pt-BR": "É sempre usada no fim do Instante Aha, independentemente do \"ID do Participante\". Causa #1[i]% de Dano de Euforia Quântico a todos os inimigos e causa Dano Verdadeiro igual a #2[i]% do total de Dano não-Verdadeiro causado pelos aliados-alvo durante este Instante Aha, distribuído igualmente entre todos os inimigos.",
+        "en": "Always gets used at the end of Aha Instant regardless of Participant ID. Deals #1[i]% Quantum Elation DMG to all enemies, and deals True DMG based on #2[i]% of total non-True DMG dealt by ally targets during this Aha Instant, distributed evenly among all enemies.",
+        "zh-CN": "无视参演编号，始终在阿哈时刻最后施放。对敌方全体造成#1[i]%的量子属性欢愉伤害，并基于本次阿哈时刻我方目标造成的非真实伤害总和的#2[i]%造成真实伤害，由敌方全体均分。",
+        "ja": "出演番号に関係なく、常にアッハタイムの最後に発動する。敵全体に#1[i]%分の量子属性の愉悦ダメージを与え、今回のアッハタイムで味方が与えた、確定ダメージ以外の与ダメージの合計値#2[i]%分の確定ダメージを敵全体に均等に分けて与える。",
+        "ko": "출연 번호를 무시하고, 항상 아하 타임 마지막에 발동한다. 모든 적에게 양자 속성 환락 피해를 #1[i]% 가하고, 이번 아하 타임에 아군이 가한 비확정 피해 총합의 #2[i]%만큼 확정 피해를 가한다. 해당 피해는 모든 적이 균등 분담한다"
+      },
+      "params": [
+        [
+          0.3,
+          0.2
+        ],
+        [
+          0.33,
+          0.2
+        ],
+        [
+          0.36,
+          0.2
+        ],
+        [
+          0.39,
+          0.2
+        ],
+        [
+          0.42,
+          0.2
+        ],
+        [
+          0.45,
+          0.2
+        ],
+        [
+          0.4875,
+          0.2
+        ],
+        [
+          0.525,
+          0.2
+        ],
+        [
+          0.5625,
+          0.2
+        ],
+        [
+          0.6,
+          0.2
+        ],
+        [
+          0.63,
+          0.2
+        ],
+        [
+          0.66,
+          0.2
+        ],
+        [
+          0.69,
+          0.2
+        ],
+        [
+          0.72,
+          0.2
+        ],
+        [
+          0.75,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": 151129,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Faces da Euforia ★ Saído do Nada",
+        "en": "Faces of Elation ★ Ex Nihilo",
+        "zh-CN": "欢愉万相★无中生有",
+        "ja": "愉悦の万象★無中に有を生ず",
+        "ko": "환락만상★무로부터의 창조"
+      },
+      "description": {
+        "pt-BR": "Enquanto estiver no estado de \"Faces da Euforia\", Aeon ★ Aha faz o Caminho da Euforia dos aliados ascender e aprimora \"Piada\" e \"Mandou Bem\" para \"Êxtase\" e \"Arrasou!\", respectivamente. \"Êxtase\" recupera #1[i]% do valor consumido quando o \"Instante Aha\" termina. Durante \"Faces da Euforia\", a Chance de CRIT de Aeon ★ Aha aumenta em #3[i]%, e o Dano causado ignora #2[i]% da DEF do inimigo-alvo.",
+        "en": "While holding the \"Faces of Elation\" state, Aeon ★ Aha enables allies' Path of Elation to ascend, and enhances Punchline and \"Certified Banger\" into Bliss and \"Party Trick,\" respectively. Bliss recovers #1[i]% of its consumed amount when Aha Instant ends. During \"Faces of Elation,\" Aeon ★ Aha's CRIT Rate increases by #3[i]%, and the DMG dealt ignores #2[i]% of the enemy target's DEF.",
+        "zh-CN": "持有【欢愉万相】状态时，星神★阿哈使我方「欢愉」命途升格，笑点与【好活当赏】状态强化为爽点和【绝活共赏】状态。爽点会在阿哈时刻结束时，重新获得消耗爽点的#1[i]%。【欢愉万相】期间，星神★阿哈暴击率提高#3[i]%，造成的伤害无视敌方目标#2[i]%的防御力。",
+        "ja": "「愉悦の万象」状態の時、星神★アッハは味方の「愉悦」の運命を昇格させる。なお、爆笑ネタが爽快ネタに、「爆笑の褒美」が「大爆笑の褒美」に強化される。アッハタイム終了時、消費した爽快ネタの#1[i]%分を爽快ネタとして再度獲得する。「愉悦の万象」状態中、星神★アッハの会心率+#3[i]%。なお、ダメージを与える時、敵の防御力を#2[i]%無視する。",
+        "ko": "[환락만상] 상태 보유 시 에이언즈★아하가 아군의 「환락」 운명의 길을 승격하고, 웃음 포인트와 [훌륭한 솜씨에는 보상을] 상태를 쾌감 포인트와 [절묘한 솜씨는 함께 감상을] 상태로 강화한다. 쾌감 포인트는 아하 타임 종료 시 소모한 쾌감 포인트의 #1[i]%를 다시 획득한다. [환락만상] 동안 에이언즈★아하의 치명타 확률이 #3[i]% 증가하고, 가하는 피해는 적의 방어력을 #2[i]% 무시한다"
+      },
+      "params": [
+        [
+          0.1,
+          0.3,
+          0.12
+        ],
+        [
+          0.1,
+          0.6,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": 151131,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "A Verdadeira História de Aha",
+        "en": "The True Story of Aha",
+        "zh-CN": "阿哈正传",
+        "ja": "アッハの一期一会",
+        "ko": "아하정전"
+      },
+      "description": {
+        "pt-BR": "Quando Aeon ★ Aha ou um aliado causa Dano, também aplica o efeito de \"Dívida de Euforia\" ao inimigo-alvo, em um valor igual a #1[i]% da perda de PV do alvo. A \"Dívida de Euforia\" persiste durante a transição de fase do inimigo-alvo, com limite de #3[i]% dos PV máximos do alvo.",
+        "en": "When Aeon ★ Aha or a teammate deals DMG, additionally applies the \"Elation Debt\" effect onto the enemy target, equal to #1[i]% of their HP loss. Elation Debt persists through the enemy target's phase transition, capped at #3[i]% of the target's Max HP.",
+        "zh-CN": "星神★阿哈与队友造成伤害时，对敌方目标额外造成等同于损失的生命值#1[i]%的【欢愉负债】效果，敌方目标阶段转换时会保留【欢愉负债】，最高不超过目标生命上限的#3[i]%。",
+        "ja": "星神★アッハまたは自身以外の味方がダメージを与えた時、敵ターゲットに失ったHPの#1[i]%分の「愉悦の負債」効果を付与する。敵ターゲットが次の段階へ切り替わる際、「愉悦の負債」の効果は保持される。この効果はターゲットの最大HPの#3[i]%を超過しない。",
+        "ko": "에이언즈★아하와 동료가 피해를 가할 시, 적에게 추가로 잃은 HP의 #1[i]%만큼 [환락 채무] 효과를 가하고, 적 단계 전환 시 [환락 채무]를 유지하며, 최대 목표 HP 최대치의 #3[i]%를 초과하지 않는다"
+      },
+      "params": [
+        [
+          0.25,
+          1,
+          0.1
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Quem Deu Uma Risadinha no Silêncio Primordial?",
+        "en": "Who Giggled at the Primordial Hush?",
+        "zh-CN": "谁在太初噤声时笑场",
+        "ja": "{RUBY_B#たいしょ}太初{RUBY_E#}が{RUBY_B#ちんもく}沈黙{RUBY_E#}した{RUBY_B#とき}時{RUBY_E#}、\n{RUBY_B#わら}笑{RUBY_E#}ったのは？",
+        "ko": "태초의 침묵을 깨고 웃은 자 누구인가"
+      },
+      "description": {
+        "pt-BR": "Ao entrar em combate, ganha imediatamente 5 \"Imaginouro\". Quando Aeon ★ Aha está presente, concede uma galhofa de 15% ao Dano de Euforia causado por todos os aliados-alvo.",
+        "en": "When entering combat, immediately gains 5 \"Wishpower.\" When Aeon ★ Aha is present, Elation DMG dealt by all ally targets merrymakes by 15%.",
+        "zh-CN": "进入战斗时，立即获得5点【愿力】。星神★阿哈在场时，我方全体目标造成的欢愉伤害增笑15%。",
+        "ja": "戦闘に入った時、即座に「願力」を5獲得する。星神★アッハがフィールド上にいる時、味方全体が与える愉悦ダメージが15%上笑する。",
+        "ko": "전투 진입 시 즉시 [원력]을 5pt 획득한다. 에이언즈★아하가 필드에 있을 시 모든 아군이 가하는 환락 피해가 15% 증소한다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Entre os Olhos Divinos e os Seus",
+        "en": "Between THEIR Eyes and Yours",
+        "zh-CN": "在祂的眼睛和你之间",
+        "ja": "{RUBY_B#そ}其{RUBY_E#}の{RUBY_B#まなざ}眼差{RUBY_E#}しと\nキミの{RUBY_B#あいだ}間{RUBY_E#}に",
+        "ko": "그의 눈과 당신 사이"
+      },
+      "description": {
+        "pt-BR": "Aprimora os efeitos de Ascensão do Caminho da Euforia: \n#{series_ref_skill_desc:UIText_SeriesSkillDescFormat,151129,2}",
+        "en": "Enhances the \"Elation\" Path Ascension effects: \n#{series_ref_skill_desc:UIText_SeriesSkillDescFormat,151129,2}",
+        "zh-CN": "使「欢愉」命途升格效果获得加强：\n#{series_ref_skill_desc:UIText_SeriesSkillDescFormat,151129,2}",
+        "ja": "「愉悦」の運命を昇格させ、以下の強化を獲得する。\n#{series_ref_skill_desc:UIText_SeriesSkillDescFormat,151129,2}",
+        "ko": "「환락」 운명의 길 승격 효과가 강화된다:\n#{series_ref_skill_desc:UIText_SeriesSkillDescFormat,151129,2}"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Um Baralho Marcado de Tristeza e Alegria",
+        "en": "A Stacked Deck of Sorrow and Joy",
+        "zh-CN": "牌叠起，令悲喜轮回",
+        "ja": "カードをめくり、\n{RUBY_B#ひき}悲喜{RUBY_E#}を{RUBY_B#うらかえ}裏返{RUBY_E#}す",
+        "ko": "뒤집힌 패, 되풀이되는 희비"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "O Destino de uma Piada na Caixa-Preta",
+        "en": "A Joke's Fate Boxed in Black",
+        "zh-CN": "黑箱一个玩笑的命运",
+        "ja": "{RUBY_B#うんめい}運命{RUBY_E#}さえ、\nジョークのように",
+        "ko": "검은 상자 속 장난의 운명"
+      },
+      "description": {
+        "pt-BR": "O multiplicador do Dano Verdadeiro causado pela Perícia da Euforia aumenta em 25% do seu valor original. Quando Aeon ★ Aha causa Dano de Euforia, 100% adicional do total de \"Mandou Bem\" dos aliados será levado em consideração.",
+        "en": "The multiplier of the True DMG dealt by Elation Skill increases by 25% of its original value. When Aeon ★ Aha deals Elation DMG, an additional 100% of the total \"Certified Banger\" held by teammates will be taken into account.",
+        "zh-CN": "欢愉技造成的真实伤害倍率提高原倍率的25%。星神★阿哈造成的欢愉伤害，会额外计入队友持有的【好活当赏】总和的100%。",
+        "ja": "愉悦スキルが与える確定ダメージのダメージ倍率が、本来の倍率の25%分アップする。星神★アッハが与える愉悦ダメージは、追加で自身以外の味方が持つ「爆笑の褒美」の合計の100%をカウントする。",
+        "ko": "환락 스킬이 가하는 확정 피해 배율이 기존 배율의 25%만큼 증가한다. 에이언즈★아하가 가하는 환락 피해는 추가로 동료가 보유한 [훌륭한 솜씨에는 보상을] 총합의 100%만큼 집계된다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Moi no Palco e Eu nos Bastidores",
+        "en": "Moi Onstage and Me Offstage",
+        "zh-CN": "台前幕后，是我非我",
+        "ja": "{RUBY_B#ぶたいうえ}舞台上{RUBY_E#}のあたしと、\n{RUBY_B#ぶたいうら}舞台裏{RUBY_E#}のあたし",
+        "ko": "무대 앞과 커튼 뒤, 나이면서 내가 아닌 나"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Pois Aha Disse: Você é Euforia",
+        "en": "For THEY Said: You Are Elation",
+        "zh-CN": "因为神说：你就是欢愉",
+        "ja": "{RUBY_B#かみ}神{RUBY_E#}は{RUBY_B#い}言{RUBY_E#}った——\nキミこそ{RUBY_B#ゆえつ}愉悦{RUBY_E#}と！",
+        "ko": "왜냐하면 신이 이르길: 그대가 바로 환락이니라!"
+      },
+      "description": {
+        "pt-BR": "Os inimigos-alvo sempre carregam o efeito \"Dívida de Euforia\", que ocupa pelo menos 20% dos PV máximos deles. Após Aeon ★ Aha usar a Perícia Suprema pela primeira vez, a ação de \"Aha\" é Avançada Adiante em 100%, e Aha ganha 100 \"Piada(s)\".",
+        "en": "Enemy targets always carry an \"Elation Debt\" effect that claims at least 20% of their Max HP. After Aeon ★ Aha uses Ultimate for the first time, Aha's action advances by 100%, and Aha gains 100 Punchline.",
+        "zh-CN": "敌方目标始终拥有至少等同于该目标生命上限20%的【欢愉负债】效果。星神★阿哈首次施放终结技后，使阿哈行动提前100%并获得100笑点。",
+        "ja": "敵ターゲットは常に、少なくとも自身の最大HP20%分の「愉悦の負債」効果を保持する。星神★アッハが初めて必殺技を発動した後、アッハの行動順が100%早まり、爆笑ネタを100獲得する。",
+        "ko": "적은 항상 최소 해당 목표 HP 최대치의 20%만큼 [환락 채무] 효과를 보유한다. 에이언즈★아하가 처음으로 필살기를 발동한 후, 아하의 행동 게이지를 100% 증가시키고, 웃음 포인트를 100pt 획득한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1511.png",
+    "preview": "image/character_preview/1511.png",
+    "portrait": "image/character_portrait/1511.png"
+  }
+}

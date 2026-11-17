@@ -1,0 +1,920 @@
+{
+  "id": 1503,
+  "slug": "pearl",
+  "name": {
+    "pt-BR": "Pearl",
+    "en": "Pearl",
+    "zh-CN": "真珠",
+    "ja": "パール",
+    "ko": "펄"
+  },
+  "rarity": 5,
+  "path": "Elation",
+  "element": "Ice",
+  "announcedAt": "2026-11-16",
+  "patchReleaseDate": null,
+  "skills": [
+    {
+      "id": 150301,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Pincelada: Reprodução do Fluxo Interrompido",
+        "en": "Brushstroke: Trace the Severed Stream",
+        "zh-CN": "行笔，临摹断水",
+        "ja": "筆運び・断流臨模",
+        "ko": "붓으로 모사한 단수"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo igual a #1[i]% da DEF de Pearl a um inimigo designado.",
+        "en": "Deals Ice DMG equal to #1[i]% of Pearl's DEF to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于真珠#1[i]%防御力的冰属性伤害。",
+        "ja": "指定した敵単体にパールの防御力#1[i]%分の氷属性ダメージを与える。",
+        "ko": "지정된 단일 적에게 펄 방어력의 #1[i]%만큼 얼음 속성 피해를 가한다"
+      },
+      "params": [
+        [
+          0.45
+        ],
+        [
+          0.54
+        ],
+        [
+          0.63
+        ],
+        [
+          0.72
+        ],
+        [
+          0.81
+        ],
+        [
+          0.9
+        ],
+        [
+          0.99
+        ],
+        [
+          1.08
+        ],
+        [
+          1.17
+        ],
+        [
+          1.26
+        ]
+      ]
+    },
+    {
+      "id": 150302,
+      "type": "Skill",
+      "name": {
+        "pt-BR": "Luz Restauradora",
+        "en": "Relume Life's Light",
+        "zh-CN": "补缀生命的柔光",
+        "ja": "命繕う柔らかな光",
+        "ko": "생명을 보완하는 부드러운 빛"
+      },
+      "description": {
+        "pt-BR": "Ganha #1[i] ponto(s) de \"Mandou Bem\" e restaura os PV de todos os aliados-alvo em um valor igual a #2[f1]% da DEF de Pearl + #3[i]. Além disso, restaura os PV do aliado-alvo com a menor porcentagem de PV atual em um valor igual a #2[f1]% da DEF de Pearl + #3[i].",
+        "en": "Gains #1[i] point(s) of \"Certified Banger,\" restores HP for all ally targets equal to #2[f1]% of Pearl's DEF plus #3[i], and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to #2[f1]% of Pearl's DEF plus #3[i].",
+        "zh-CN": "获得#1[i]点【好活当赏】，为我方全体目标回复等同于真珠#2[f1]%防御力+#3[i]的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠#2[f1]%防御力+#3[i]的生命值。",
+        "ja": "「爆笑の褒美」を#1[i]獲得し、味方全体のHPをパールの防御力#2[f1]%+#3[i]回復する。さらに、残りHPの割合が最も低い味方のHPをパールの防御力#2[f1]%+#3[i]回復する。",
+        "ko": "[훌륭한 솜씨에는 보상을]을 #1[i]pt 획득하고, 모든 아군의 HP를 펄 방어력의 #2[f1]%+#3[i]만큼 회복하며, 추가로 현재 HP 백분율이 가장 낮은 아군의 HP를 펄 방어력의 #2[f1]%+#3[i]만큼 회복한다"
+      },
+      "params": [
+        [
+          15,
+          0.06,
+          120
+        ],
+        [
+          15,
+          0.066,
+          132
+        ],
+        [
+          15,
+          0.072,
+          144
+        ],
+        [
+          15,
+          0.078,
+          156
+        ],
+        [
+          15,
+          0.084,
+          168
+        ],
+        [
+          15,
+          0.09,
+          180
+        ],
+        [
+          15,
+          0.0975,
+          195
+        ],
+        [
+          15,
+          0.105,
+          210
+        ],
+        [
+          15,
+          0.1125,
+          225
+        ],
+        [
+          15,
+          0.12,
+          240
+        ],
+        [
+          15,
+          0.126,
+          252
+        ],
+        [
+          15,
+          0.132,
+          264
+        ],
+        [
+          15,
+          0.138,
+          276
+        ],
+        [
+          15,
+          0.144,
+          288
+        ],
+        [
+          15,
+          0.15,
+          300
+        ]
+      ]
+    },
+    {
+      "id": 150303,
+      "type": "Ultimate",
+      "name": {
+        "pt-BR": "Espelho das Nuances da Alma",
+        "en": "Appraise Soul's Ground",
+        "zh-CN": "鉴映灵魂的底色",
+        "ja": "魂の色を映せし明鑑",
+        "ko": "투영된 영혼의 바탕색"
+      },
+      "description": {
+        "pt-BR": "Obtém #3[i] ponto(s) de \"Mandou Bem\". Usa \"Aprendizagem Profunda\" em um aliado designado que não seja esta unidade, tornando o alvo o \"Arquétipo Estético\".\nQuando houver 1/2/3 ou mais personagens da Euforia na equipe, Avança Adiante a ação do \"Arquétipo Estético\" em #4[i]%/#5[i]%/#6[i]% respectivamente. Quando houver 4 ou mais personagens da Euforia na equipe, o \"Arquétipo Estético\" obtém 1 rodada extra. No início desta rodada extra, o \"Arquétipo Estético\" obtém #8[i] ponto(s) de \"Mandou Bem\" e #7[i] ponto(s) de \"Piada\", que são removidos ao final da rodada extra.\nEnquanto estiver sob \"Aprendizagem Profunda\", o ATQ Básico \"Pincelada: Reprodução do Fluxo Interrompido\" é aprimorado para \"Pincelada: Criação da Grande Onda\". Se o \"Arquétipo Estético\" trilhar no Caminho da Euforia, ele é, em vez disso, aprimorado para \"Pincelada: Imagenação da Noite Estrelada\". Após atacar, também causa #2[i]% de Dano de Euforia de Gelo. Esse Dano de Euforia é calculado usando os atributos do \"Arquétipo Estético\". \"Aprendizagem Profunda\" possui #1[i] ponto(s) de Carga. Após Pearl usar um ATQ Básico Aprimorado, consome 1 ponto de Carga. Se não restar nenhuma Carga após agir, \"Aprendizagem Profunda\" termina.",
+        "en": "Gains #3[i] point(s) of \"Certified Banger\". Uses \"Deep Learning\" on one designated ally character other than this unit, making the target the \"Aesthetic Archetype.\"\nWhen there are 1/2/(3 or more) Elation characters on the team, advances the \"Aesthetic Archetype's\" action by #4[i]%/#5[i]%/#6[i]% respectively. When there are 4 or more Elation characters on the team, the \"Aesthetic Archetype\" gains 1 extra turn. At the start of this extra turn, the \"Aesthetic Archetype\" gains #8[i] point(s) of \"Certified Banger\" and #7[i] point(s) of Punchline, which are removed at the end of the extra turn.\nWhile \"Deep Learning,\" Basic ATK \"Brushstroke: Trace the Severed Stream\" gets enhanced to \"Brushstroke: Render the Great Wave.\" If the \"Aesthetic Archetype\" is on the Path of Elation, it is instead enhanced to \"Brushstroke: Imagenate the Starry Night.\" And after attacking, additionally deals #2[i]% Ice Elation DMG. This Elation DMG is calculated based on the \"Aesthetic Archetype's\" stats. \"Deep Learning\" has #1[i] point(s) of Charge. After Pearl uses an Enhanced Basic ATK, 1 point of Charge is consumed. If no Charge remains after taking action, \"Deep Learning\" ends.",
+        "zh-CN": "获得#3[i]点【好活当赏】。【深度学习】除自身以外的指定我方单体角色，使目标成为【美学底本】。\n队伍中「欢愉」命途角色数量等于1/2/3或以上时，使【美学底本】行动提前#4[i]%/#5[i]%/#6[i]%。队伍中「欢愉」命途角色数量等于4或以上时，使【美学底本】获得1个额外回合。该额外回合开始时，【美学底本】获得#8[i]点【好活当赏】，并获得#7[i]点笑点，额外回合结束时移除。\n【深度学习】时，普攻【行笔，临摹断水】强化为【行笔，绘制末浪】。若【美学底本】为「欢愉」命途，则强化为【行笔，幻造星月】，且攻击后，额外造成#2[i]%的冰属性欢愉伤害，该次欢愉伤害使用【美学底本】的属性值计算。【深度学习】具有#1[i]点充能，真珠施放强化普攻后消耗1点充能，行动后若无充能则结束【深度学习】。",
+        "ja": "「爆笑の褒美」を#3[i]獲得する。指定した自身以外の味方キャラ単体を「深層学習」し、そのキャラを「美学の底本」にする。\nパーティに「愉悦」の運命を歩むキャラが1/2/3名以上いる時、「美学の底本」の行動順を#4[i]%/#5[i]%/#6[i]%早める。パーティに「愉悦」の運命を歩むキャラが4名以上いる場合、「美学の底本」は追加ターンを1獲得する。この追加ターンが回ってきた時、「美学の底本」は「爆笑の褒美」を#8[i]、爆笑ネタを#7[i]個獲得する。なお、これらは追加ターン終了時にクリアされる。\n「深層学習」中、パールの通常攻撃「筆運び・断流臨模」は「筆運び・波頭描き」に強化される。「美学の底本」が「愉悦」の運命を歩むキャラの場合、通常攻撃「筆運び・断流臨模」は「筆運び・星月の幻造」に強化され、攻撃を行った後、追加で#2[i]%分の氷属性の愉悦ダメージを与える。この愉悦ダメージは「美学の底本」のステータスを基に計算される。「深層学習」にはチャージが#1[i]あり、パールは強化通常攻撃を発動した後、チャージを1消費する。行動した後、チャージがない場合、「深層学習」は終了する。",
+        "ko": "[훌륭한 솜씨에는 보상을]을 #3[i]pt 획득한다. 자신을 제외한 지정된 단일 아군 캐릭터를 [심층 학습]하며, 목표를 [미학의 저본]으로 만든다.\n파티 내 「환락」 운명의 길 캐릭터가 1/2/3명 이상일 시, [미학의 저본]의 행동 게이지를 #4[i]%/#5[i]%/#6[i]% 증가시킨다. 파티 내 「환락」 운명의 길 캐릭터가 4명 이상일 시, [미학의 저본]은 보너스 턴을 1개 획득한다. 해당 보너스 턴 시작 시, [미학의 저본]은 [훌륭한 솜씨에는 보상을] #8[i]pt 및 웃음 포인트 #7[i]pt를 획득하며, 해당 효과는 보너스 턴 종료 시 해제된다.\n[심층 학습] 시, 일반 공격 [붓으로 모사한 단수]가 [붓으로 그려낸 마지막 물결]로 강화된다. [미학의 저본]이 「환락」 운명의 길일 경우 [붓으로 환조한 별과 달]로 강화되며, 공격 후 추가로 얼음 속성 환락 피해를 #2[i]% 가한다. 해당 환락 피해는 [미학의 저본]의 속성치로 계산한다. [심층 학습]은 충전을 #1[i]pt 보유하며, 펄이 강화된 일반 공격을 발동하면 충전을 1pt 소모하고, 행동 후 충전이 없으면 [심층 학습]이 종료된다"
+      },
+      "params": [
+        [
+          3,
+          0.3,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.33,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.36,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.39,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.42,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.45,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.4875,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.525,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.5625,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.6,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.63,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.66,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.69,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.72,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ],
+        [
+          3,
+          0.75,
+          20,
+          0.1,
+          0.15,
+          0.3,
+          60,
+          30
+        ]
+      ]
+    },
+    {
+      "id": 150304,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Graça Nascida da Adversidade",
+        "en": "Grow Grace from Grit",
+        "zh-CN": "吞纳沙砾，重塑生机",
+        "ja": "砂礫を呑み、命を磨く",
+        "ko": "모래알을 품어 재구성한 생명"
+      },
+      "description": {
+        "pt-BR": "Pearl pode usar \"Mandou Bem\" como \"Repelência\". Cada ponto de \"Mandou Bem\" é igual a #5[i] ponto(s) de \"Repelência\". Quando um aliado-alvo sofre Dano, Pearl pode consumir \"Repelência\" para bloquear #2[i]% do Dano para o aliado-alvo. \"Mandou Bem\" de Pearl dura indefinidamente e tem um limite de #3[i].\nQuando a porcentagem dos PV atuais de um aliado-alvo for igual ou inferior a #1[i]%, o Dano recebido é reduzido em #4[i]%.",
+        "en": "Pearl can use \"Certified Banger\" as Repellency. Each point of \"Certified Banger\" is equivalent to #5[i] point(s) of Repellency. When an ally target takes DMG, Pearl can consume Repellency to offset #2[i]% of that DMG for the ally target. Pearl's \"Certified Banger\" lasts indefinitely and has a max limit of #3[i].\nWhen an ally target's current HP percentage is #1[i]% or lower, their DMG taken gets reduced by #4[i]%.",
+        "zh-CN": "真珠可使用【好活当赏】作为抵御值，每点【好活当赏】等同于#5[i]点抵御值，我方目标受到伤害时，真珠可消耗抵御值为我方目标抵挡#2[i]%的伤害。真珠的【好活当赏】持续时间无限，且持有上限为#3[i]点。\n我方目标当前生命值百分比小于等于#1[i]%时，受到的伤害降低#4[i]%。",
+        "ja": "パールは「爆笑の褒美」を防護値として使用できる。「爆笑の褒美」1につき、防護値#5[i]に相当する。味方がダメージを受ける時、パールは防護値を消費して味方の受けるダメージの#2[i]%分を相殺することができる。パールの「爆笑の褒美」の継続時間に制限はなく、#3[i]まで所持できる。\n味方の残りHPが#1[i]%以下の時、受けるダメージ-#4[i]%。",
+        "ko": "펄은 [훌륭한 솜씨에는 보상을]을 상쇄 게이지로 사용할 수 있으며, [훌륭한 솜씨에는 보상을] 1pt는 상쇄 게이지 #5[i]pt에 해당한다. 아군이 피해를 받을 시, 펄은 상쇄 게이지를 소모해 아군의 피해를 #2[i]%를 상쇄할 수 있다. 펄의 [훌륭한 솜씨에는 보상을]은 지속 시간이 무한하며, 최대 #3[i]pt 보유할 수 있다.\n아군의 현재 HP 백분율이 #1[i]% 이하일 시, 받는 피해가 #4[i]% 감소한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.6,
+          50,
+          0.15,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.165,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.18,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.195,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.21,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.225,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.2437,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.2625,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.2812,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.3,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.315,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.33,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.345,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.36,
+          200
+        ],
+        [
+          0.5,
+          0.6,
+          50,
+          0.375,
+          200
+        ]
+      ]
+    },
+    {
+      "id": 150306,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Ataque",
+        "en": "Attack",
+        "zh-CN": "攻击",
+        "ja": "攻撃",
+        "ko": "공격"
+      },
+      "description": {
+        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
+        "en": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
+        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+      }
+    },
+    {
+      "id": 150307,
+      "type": "Technique",
+      "name": {
+        "pt-BR": "Reprodução de Obra-Prima em Nácar",
+        "en": "Recast Masterwork in Nacre",
+        "zh-CN": "凝润珠光，复刻真迹",
+        "ja": "艶めく真珠、真作再刻",
+        "ko": "영롱한 진주, 재현된 진본"
+      },
+      "description": {
+        "pt-BR": "Após usar a Técnica, obtém \"Arquétipo Estético\". Ao trocar o personagem ativo, \"Arquétipo Estético\" é transferido para o personagem ativo atualmente. No início da próxima batalha, Pearl obtém #2[i] ponto(s) de \"Mandou Bem\" e aplica \"Aprendizagem Profunda\" ao personagem com \"Arquétipo Estético\". Esta \"Aprendizagem Profunda\" possui #1[i] Carga(s). Pearl só pode aplicar \"Aprendizagem Profunda\" a personagens que não sejam ela mesma.",
+        "en": "After using Technique, gains \"Aesthetic Archetype.\" When switching active characters, \"Aesthetic Archetype\" transfers to the currently active character. At the start of the next battle, Pearl gains #2[i] \"Certified Banger\" and applies \"Deep Learning\" on the character with \"Aesthetic Archetype.\" This \"Deep Learning\" has #1[i] Charge. Pearl can only apply \"Deep Learning\" on characters other than herself.",
+        "zh-CN": "使用秘技后获得【美学底本】，切换行动角色时【美学底本】转移至当前行动角色。下一次战斗开始时，真珠获得#2[i]点【好活当赏】，并【深度学习】持有【美学底本】的角色，该【深度学习】具有#1[i]点充能。真珠只能【深度学习】除自身以外的角色。",
+        "ja": "秘技を使用すると、「美学の底本」を獲得する。キャラを切り替えると「美学の底本」は現在行動中のキャラに移る。次の戦闘開始時、パールは「爆笑の褒美」を#2[i]獲得し、「美学の底本」であるキャラを「深層学習」する。「深層学習」にはチャージが#1[i]ある。パールが「深層学習」できるのは自身以外のキャラのみ。",
+        "ko": "비술 사용 후 [미학의 저본]을 획득하고, 행동 캐릭터 전환 시 [미학의 저본]이 현재 행동 캐릭터에게 이전된다. 다음 전투 시작 시, 펄은 [훌륭한 솜씨에는 보상을]을 #2[i]pt 획득하고, [미학의 저본]을 보유한 캐릭터를 [심층 학습]하며, 해당 [심층 학습]은 충전을 #1[i]pt 보유한다. 펄은 자신을 제외한 캐릭터만 [심층 학습]할 수 있다"
+      },
+      "params": [
+        [
+          2,
+          20
+        ]
+      ]
+    },
+    {
+      "id": 150308,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Pincelada: Imagenação da Noite Estrelada",
+        "en": "Brushstroke: Imagenate the Starry Night",
+        "zh-CN": "行笔，幻造星月",
+        "ja": "筆運び・星月の幻造",
+        "ko": "붓으로 환조한 별과 달"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo aos inimigos igual a #1[i]% da DEF de Pearl, restaura os PV de todos os aliados-alvo em um valor igual a #2[f1]% da DEF de Pearl + #4[i] e, adicionalmente, restaura os PV do aliado-alvo com a menor porcentagem de PV em um valor igual a #2[f1]% da DEF de Pearl + #4[i]. Quando possuir \"Mandou Bem\", também causa #5[i]% de Dano de Euforia de Gelo.",
+        "en": "Deals Ice DMG equal to #1[i]% of Pearl's DEF to all enemies, restores HP for all ally targets equal to #2[f1]% of Pearl's DEF plus #4[i], and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to #2[f1]% of Pearl's DEF plus #4[i]. While holding \"Certified Banger\", additionally deals #5[i]% Ice Elation DMG.",
+        "zh-CN": "对敌方全体造成等同于真珠#1[i]%防御力的冰属性伤害，为我方全体目标回复等同于真珠#2[f1]%防御力+#4[i]的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠#2[f1]%防御力+#4[i]的生命值。持有【好活当赏】时，额外造成#5[i]%的冰属性欢愉伤害。",
+        "ja": "敵全体にパールの防御力#1[i]%分の氷属性ダメージを与え、味方全体のHPをパールの防御力#2[f1]%+#4[i]回復する。さらに、残りHPの割合が最も低い味方のHPをパールの防御力#2[f1]%+#4[i]回復する。「爆笑の褒美」を持っている場合、追加で#5[i]%分の氷属性の愉悦ダメージを与える。",
+        "ko": "모든 적에게 펄 방어력의 #1[i]%만큼 얼음 속성 피해를 가하고, 모든 아군의 HP를 펄 방어력의 #2[f1]%+#4[i]만큼 회복하며, 추가로 현재 HP 백분율이 가장 낮은 아군의 HP를 펄 방어력의 #2[f1]%+#4[i]만큼 회복한다. [훌륭한 솜씨에는 보상을] 보유 시, 추가로 얼음 속성 환락 피해를 #5[i]% 가한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.04,
+          1,
+          80,
+          0.1
+        ],
+        [
+          0.6,
+          0.048,
+          1,
+          96,
+          0.11
+        ],
+        [
+          0.7,
+          0.056,
+          1,
+          112,
+          0.12
+        ],
+        [
+          0.8,
+          0.064,
+          1,
+          128,
+          0.13
+        ],
+        [
+          0.9,
+          0.072,
+          1,
+          144,
+          0.14
+        ],
+        [
+          1,
+          0.08,
+          1,
+          160,
+          0.15
+        ],
+        [
+          1.1,
+          0.088,
+          1,
+          176,
+          0.1625
+        ],
+        [
+          1.2,
+          0.096,
+          1,
+          192,
+          0.175
+        ],
+        [
+          1.3,
+          0.104,
+          1,
+          208,
+          0.1875
+        ],
+        [
+          1.4,
+          0.112,
+          1,
+          224,
+          0.2
+        ]
+      ]
+    },
+    {
+      "id": 150310,
+      "type": "Basic",
+      "name": {
+        "pt-BR": "Pincelada: Criação da Grande Onda",
+        "en": "Brushstroke: Render the Great Wave",
+        "zh-CN": "行笔，绘制末浪",
+        "ja": "筆運び・波頭描き",
+        "ko": "붓으로 그려낸 마지막 물결"
+      },
+      "description": {
+        "pt-BR": "Causa Dano de Gelo igual a #1[i]% da DEF de Pearl a todos os inimigos. Restaura os PV de todos os aliados-alvo em um valor igual a #2[f1]% da DEF de Pearl + #4[i] e, adicionalmente, restaura os PV do aliado-alvo com a menor porcentagem de PV em um valor igual a #2[f1]% da DEF de Pearl + #4[i].",
+        "en": "Deals Ice DMG equal to #1[i]% of Pearl's DEF to all enemies. Restores HP for all ally targets equal to #2[f1]% of Pearl's DEF plus #4[i], and additionally restores HP for the ally with the lowest current HP percentage by an amount equal to #2[f1]% of Pearl's DEF plus #4[i].",
+        "zh-CN": "对敌方全体造成等同于真珠#1[i]%防御力的冰属性伤害，为我方全体目标回复等同于真珠#2[f1]%防御力+#4[i]的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠#2[f1]%防御力+#4[i]的生命值。",
+        "ja": "敵全体にパールの防御力#1[i]%分の氷属性ダメージを与え、味方全体のHPをパールの防御力#2[f1]%+#4[i]回復する。さらに、残りHPの割合が最も低い味方のHPをパールの防御力#2[f1]%+#4[i]回復する。",
+        "ko": "모든 적에게 펄 방어력의 #1[i]%만큼 얼음 속성 피해를 가하고, 모든 아군의 HP를 펄 방어력의 #2[f1]%+#4[i]만큼 회복하며, 추가로 현재 HP 백분율이 가장 낮은 아군의 HP를 펄 방어력의 #2[f1]%+#4[i]만큼 회복한다"
+      },
+      "params": [
+        [
+          0.5,
+          0.04,
+          1,
+          80
+        ],
+        [
+          0.6,
+          0.048,
+          1,
+          96
+        ],
+        [
+          0.7,
+          0.056,
+          1,
+          112
+        ],
+        [
+          0.8,
+          0.064,
+          1,
+          128
+        ],
+        [
+          0.9,
+          0.072,
+          1,
+          144
+        ],
+        [
+          1,
+          0.08,
+          1,
+          160
+        ],
+        [
+          1.1,
+          0.088,
+          1,
+          176
+        ],
+        [
+          1.2,
+          0.096,
+          1,
+          192
+        ],
+        [
+          1.3,
+          0.104,
+          1,
+          208
+        ],
+        [
+          1.4,
+          0.112,
+          1,
+          224
+        ]
+      ]
+    },
+    {
+      "id": 150320,
+      "type": "Other",
+      "name": {
+        "pt-BR": "Razão Dissolvida em Euforia",
+        "en": "Dissolve Reason into Elation",
+        "zh-CN": "渲染理性，解构欢愉",
+        "ja": "理性の描画、愉悦の脱構築",
+        "ko": "이성의 선염, 환락의 해체"
+      },
+      "description": {
+        "pt-BR": "Quando houver 1/2/3/4 ou mais personagens da Euforia na equipe, após todos os aliados-alvo realizarem seu próximo ataque, eles também causarão Dano de Euforia de seus Tipos correspondentes ao alvo do ataque em um valor igual a #1[f1]%/#2[f1]%/#3[f1]%/#4[f1]%, respectivamente.",
+        "en": "When there are 1/2/3/(4 or more) Elation characters in the team, then after all ally targets use their next attack, enables them to additionally deal Elation DMG of their corresponding Type to the attack target, equal to #1[f1]%/#2[f1]%/#3[f1]%/#4[f1]% respectively.",
+        "zh-CN": "队伍中「欢愉」命途角色数量等于1/2/3/4或以上时，使我方全体目标下一次攻击后，对攻击目标额外造成#1[f1]%/#2[f1]%/#3[f1]%/#4[f1]%的对应属性欢愉伤害。",
+        "ja": "パーティに「愉悦」の運命を歩むキャラが1/2/3/4名以上いる時、味方全体は次に攻撃を発動した後、攻撃ターゲットに追加で#1[f1]%/#2[f1]%/#3[f1]%/#4[f1]%分の対応する属性の愉悦ダメージを与える。",
+        "ko": "파티 내 「환락」 운명의 길 캐릭터가 1/2/3/4명 이상일 시, 모든 아군은 다음 공격 후 공격 목표에게 추가로 대응하는 속성의 환락 피해를 #1[f1]%/#2[f1]%/#3[f1]%/#4[f1]% 가한다"
+      },
+      "params": [
+        [
+          0.05,
+          0.075,
+          0.1,
+          0.2
+        ],
+        [
+          0.055,
+          0.0825,
+          0.11,
+          0.22
+        ],
+        [
+          0.06,
+          0.09,
+          0.12,
+          0.24
+        ],
+        [
+          0.065,
+          0.0975,
+          0.13,
+          0.26
+        ],
+        [
+          0.07,
+          0.105,
+          0.14,
+          0.28
+        ],
+        [
+          0.075,
+          0.1125,
+          0.15,
+          0.3
+        ],
+        [
+          0.0813,
+          0.1219,
+          0.1625,
+          0.325
+        ],
+        [
+          0.0875,
+          0.1313,
+          0.175,
+          0.35
+        ],
+        [
+          0.0938,
+          0.1406,
+          0.1875,
+          0.375
+        ],
+        [
+          0.1,
+          0.15,
+          0.2,
+          0.4
+        ],
+        [
+          0.105,
+          0.1575,
+          0.21,
+          0.42
+        ],
+        [
+          0.11,
+          0.165,
+          0.22,
+          0.44
+        ],
+        [
+          0.115,
+          0.1725,
+          0.23,
+          0.46
+        ],
+        [
+          0.12,
+          0.18,
+          0.24,
+          0.48
+        ],
+        [
+          0.125,
+          0.1875,
+          0.25,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": 150329,
+      "type": "Talent",
+      "name": {
+        "pt-BR": "Faces da Euforia ★ Saltando da Página",
+        "en": "Faces of Elation ★ Leaping Off the Page",
+        "zh-CN": "欢愉万相★跃然纸上",
+        "ja": "愉悦の万象★満ちる躍動感",
+        "ko": "환락만상★살아 숨 쉬는 그림"
+      },
+      "description": {
+        "pt-BR": "Quando o Caminho da Euforia ascende, o limite máximo de \"Arrasou!\" de Pearl aumenta para #1[i]. Quando a rodada extra concedida pela Perícia Suprema termina, #2[i]% ponto(s) de \"Mandou Bem\" e #3[i]% ponto(s) de \"Piada\" obtidos no início da rodada extra são mantidos.",
+        "en": "When the Path of Elation ascends, the upper limit for Pearl's \"Party Trick\" increases to #1[i]. When the extra turn granted by the Ultimate ends, #2[i]% of the \"Certified Banger\" and #3[i]% of the Punchline gained at the start of the extra turn are retained.",
+        "zh-CN": "当「欢愉」命途升格时，真珠的【绝活共赏】持有上限提高至#1[i]点。终结技提供的额外回合开始时获得的【好活当赏】和笑点，在额外回合结束时会保留#2[i]%和#3[i]%。",
+        "ja": "「愉悦」の運命が昇格すると、パールの「大爆笑の褒美」の所持上限が#1[i]までアップする。必殺技による追加ターンが回ってきた時に獲得する「爆笑の褒美」と爆笑ネタを、追加ターン終了時にそれぞれ#2[i]%、#3[i]%保持する。",
+        "ko": "「환락」 운명의 길 승격 시 펄의 [절묘한 솜씨는 함께 감상을] 보유 최대치가 #1[i]pt로 증가한다. 필살기가 제공하는 보너스 턴 시작 시 획득하는 [훌륭한 솜씨에는 보상을] 및 웃음 포인트는 보너스 턴 종료 시 각각 #2[i]%, #3[i]% 유지된다"
+      },
+      "params": [
+        [
+          75,
+          0.1,
+          0.1
+        ],
+        [
+          75,
+          0.2,
+          0.2
+        ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "rank": 1,
+      "name": {
+        "pt-BR": "Pérola, Oculta Entre as Ondas Inexploradas",
+        "en": "Nestle That Pearl in Uninked Tides",
+        "zh-CN": "珍珠，藏在海的留白处",
+        "ja": "{RUBY_B#しんじゅ}真珠{RUBY_E#}、{RUBY_B#うみ}海{RUBY_E#}の{RUBY_B#よはく}余白{RUBY_E#}に{RUBY_B#ひ}秘{RUBY_E#}め",
+        "ko": "바다의 여백에 숨은 진주"
+      },
+      "description": {
+        "pt-BR": "Quando o número de personagens do Caminho da Euforia na equipe for igual a 2/3/4 ou mais, aumenta a Euforia de todos os aliados em 10%/20%/60% respectivamente. Quando um aliado-alvo recebe Dano fatal, em vez de ser derrubado, os PV dele são restaurados imediatamente em um valor igual a 50% de seus PV máximos. Este efeito pode ser ativado 2 vez(es) por batalha.",
+        "en": "When the number of Elation Path characters on the team equals 2/3/(4 or more), increases Elation for all allies by 10%/20%/60% respectively. If an ally target takes fatal damage, they will not get knocked down. Instead, immediately restores their HP by an amount equal to 50% of their Max HP. This effect can trigger 2 time(s) per battle.",
+        "zh-CN": "队伍中「欢愉」命途角色数量等于2/3/4或以上时，使我方全体欢愉度提高10%/20%/60%。若我方目标受到致命伤害，不会陷入无法战斗状态，并立即回复等同于其生命上限50%的生命值。该效果单场战斗中可以触发2次。",
+        "ja": "パーティ内に「愉悦」の運命を歩むキャラが2/3/4名以上いる時、味方全体の愉悦度+10%/20%/60%。味方がHPが0になるダメージを受けた時、戦闘不能状態にならず、即座に最大HP50%分のHPを回復する。この効果は一度の戦闘で2回まで発動できる。",
+        "ko": "파티 내 「환락」 운명의 길 캐릭터가 2/3/4명 이상일 시, 모든 아군의 환락도가 10%/20%/60% 증가한다. 아군이 치명적인 피해를 받으면 전투 불능 상태에 빠지지 않고, 즉시 자신의 HP 최대치의 50%만큼 HP를 회복한다. 해당 효과는 단일 전투에서 2회 발동할 수 있다"
+      }
+    },
+    {
+      "rank": 2,
+      "name": {
+        "pt-BR": "Recorte Aquela Luz do Amanhecer",
+        "en": "Crop That Dappled Dawn",
+        "zh-CN": "截取，顷刻破晓的光斑",
+        "ja": "{RUBY_B#しゅんかん}瞬間{RUBY_E#}、{RUBY_B#あさひ}朝日{RUBY_E#}を{RUBY_B#き}切{RUBY_E#}り{RUBY_B#と}取{RUBY_E#}る",
+        "ko": "해 돋는 순간의 빛을 포착하고"
+      },
+      "description": {
+        "pt-BR": "Torna o Dano de Euforia de todos os aliados-alvo 15% mais galhofa. Ao usar a Perícia Suprema, faz com que os outros personagens aliados da Euforia (exceto Pearl e \"Arquétipo Estético\") também ativem o efeito de Avanço Adiante de ação e aumenta em 100% a quantidade de \"Mandou Bem\" e \"Piada\" obtida no início da rodada extra concedida pela Perícia Suprema.",
+        "en": "Merrymakes all ally targets' Elation DMG by 15%. When using Ultimate, causes other ally Elation characters (excluding Pearl and \"Aesthetic Archetype\") to also trigger the action advance effect. And the \"Certified Banger\" and Punchline gained at the start of the extra turn provided by the Ultimate increase by 100%.",
+        "zh-CN": "我方全体目标的欢愉伤害增笑15%。施放终结技时，使除真珠和【美学底本】外的其他我方「欢愉」命途角色也触发行动提前效果，并使终结技提供的额外回合开始时获得的【好活当赏】和笑点提高100%。",
+        "ja": "味方全体の愉悦ダメージが15%上笑する。必殺技を発動する時、パールおよび「美学の底本」以外の味方の「愉悦」運命を歩むキャラも行動順が早まり、必殺技による追加ターンが回ってきた時に獲得する「爆笑の褒美」と爆笑ネタ+100%。",
+        "ko": "모든 아군의 환락 피해가 15% 증소한다. 필살기 발동 시, 펄과 [미학의 저본]을 제외한 다른 아군 「환락」 운명의 길 캐릭터도 행동 게이지 증가 효과를 발동하며, 필살기가 제공하는 보너스 턴 시작 시 획득하는 [훌륭한 솜씨에는 보상을]과 웃음 포인트가 100% 증가한다"
+      }
+    },
+    {
+      "rank": 3,
+      "name": {
+        "pt-BR": "Esboce Aquela Onda Suspensa",
+        "en": "Sketch That Suspended Wave",
+        "zh-CN": "速写，惊涛悬停的刹那",
+        "ja": "{RUBY_B#そくしゃ}速写{RUBY_E#}、{RUBY_B#おおなみと}大波止{RUBY_E#}まる{RUBY_B#せつな}刹那{RUBY_E#}",
+        "ko": "거센 파도가 멈춘 순간을 스케치하며"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 4,
+      "name": {
+        "pt-BR": "Decifre Aquele Sorriso Velado",
+        "en": "Study That Veiled Smile",
+        "zh-CN": "解译，唇角模糊的笑意",
+        "ja": "{RUBY_B#かいせき}解析{RUBY_E#}、{RUBY_B#なぞ}謎{RUBY_E#}めいた{RUBY_B#ほほえ}微笑{RUBY_E#}み",
+        "ko": "입가의 흐릿한 미소를 해석하고"
+      },
+      "description": {
+        "pt-BR": "Aumenta o multiplicador de Dano de Euforia fornecido pela Perícia da Euforia para todos os aliados-alvo em 100% do multiplicador original.",
+        "en": "The Elation DMG provided by Elation Skill to all ally targets has its multiplier increased by 100% of its original multiplier.",
+        "zh-CN": "欢愉技为我方全体目标提供的欢愉伤害倍率提高原倍率的100%。",
+        "ja": "愉悦スキルによる味方全体の愉悦ダメージの倍率が、本来の倍率の100%分アップする。",
+        "ko": "환락 스킬이 모든 아군에게 제공하는 환락 피해 배율이 기존 배율의 100%만큼 증가한다"
+      }
+    },
+    {
+      "rank": 5,
+      "name": {
+        "pt-BR": "Retrate Aqueles Redemoinhos Estrelados",
+        "en": "Render Those Starlit Swirls",
+        "zh-CN": "透视，笔端星夜的肌理",
+        "ja": "{RUBY_B#どうさつ}洞察{RUBY_E#}、{RUBY_B#せいやかん}星夜感{RUBY_E#}ずる{RUBY_B#ふでさき}筆先{RUBY_E#}",
+        "ko": "붓끝으로 별밤의 결을 투시해"
+      },
+      "description": {
+        "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
+        "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。愉悦スキルのLv.+1、最大Lv.15まで。",
+        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 환락 스킬 레벨+1, 최대 Lv.15"
+      }
+    },
+    {
+      "rank": 6,
+      "name": {
+        "pt-BR": "Calcule a Vida em uma Única Concha",
+        "en": "Compute Life From One Shell",
+        "zh-CN": "用一副躯壳，演算生命",
+        "ja": "{RUBY_B#からだ}身体{RUBY_E#}を{RUBY_B#もっ}以{RUBY_E#}て{RUBY_B#いのち}命{RUBY_E#}を{RUBY_B#と}解{RUBY_E#}く",
+        "ko": "이 몸체로, 생명을 연산하리"
+      },
+      "description": {
+        "pt-BR": "Durante \"Aprendizagem Profunda\", a PEN de RES a Todos os Tipos de todos os aliados-alvo aumenta em 20%. O ATQ Básico Aprimorado de Pearl causa adicionalmente 240% de Dano de Euforia de Gelo. Esse Dano de Euforia é calculado usando os atributos do \"Arquétipo Estético\".",
+        "en": "While \"Deep Learning,\" all ally targets' All-Type RES PEN increases by 20%. Pearl's Enhanced Basic ATK additionally deals 240% Ice Elation DMG, which is calculated based on the stats of \"Aesthetic Archetype.\"",
+        "zh-CN": "【深度学习】时，我方全体目标的全属性抗性穿透提高20%。真珠的强化普攻额外造成240%的冰属性欢愉伤害，该次欢愉伤害使用【美学底本】的属性值计算。",
+        "ja": "「深層学習」中、味方全体の全属性耐性貫通+20%。パールの強化通常攻撃は追加で240%分の氷属性の愉悦ダメージを与える。この愉悦ダメージは「美学の底本」のステータスを基に計算される。",
+        "ko": "[심층 학습] 시 모든 아군의 모든 속성 저항 관통이 20% 증가한다. 펄의 강화된 일반 공격은 추가로 얼음 속성 환락 피해를 240% 가하며, 해당 환락 피해는 [미학의 저본]의 속성치를 사용해 계산한다"
+      }
+    }
+  ],
+  "materialIds": [],
+  "images": {
+    "icon": "icon/character/1503.png",
+    "preview": "image/character_preview/1503.png",
+    "portrait": "image/character_portrait/1503.png"
+  }
+}
