@@ -1,24 +1,36 @@
 {
   "20000": {
     "id": "20000",
-    "skill": "Pioneiro",
-    "desc": "Aumenta CRIT DMG em #1[i]%.",
+    "skill": "Crise",
+    "desc": "No início da batalha, aumenta em #1[i]% a Chance de CRIT do usuário por #2[i] rodada(s).",
     "params": [
       [
-        0.12
+        0.12,
+        3
       ],
       [
-        0.15
+        0.15,
+        3
       ],
       [
-        0.18
+        0.18,
+        3
       ],
       [
-        0.21
+        0.21,
+        3
       ],
       [
-        0.24
+        0.24,
+        3
       ]
+    ],
+    "properties": [
+      [],
+      [],
+      [],
+      [],
+      []
     ]
   }
 }

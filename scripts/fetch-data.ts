@@ -7,6 +7,10 @@
 //        registra em data/announcements.json, com essa data de anúncio, toda
 //        entidade que ainda não esteja no manifesto. Use UMA vez, para marcar o
 //        conteúdo que já é público; depois ajuste à mão o que ainda for embargado.
+//   pnpm data:fetch --baseline 2026-11-16 --only materials
+//        limita o baseline às coleções listadas (separadas por vírgula). Use ao
+//        começar a ingerir uma coleção nova, para não liberar, de carona, personagens
+//        novos que apareceram na fonte antes do anúncio.
 //
 // Variáveis: SRR_BASE_URL (URL ou pasta local do StarRailRes; padrão: jsDelivr).
 
@@ -16,6 +20,7 @@ import { collections } from '../schema'
 import { createStarRailResAdapter } from './adapters/starrailres'
 import type { Adapter, AdapterResult } from './adapters/types'
 import { loadManifest, saveManifest, withEmbargo, type Manifest } from './lib/announcements'
+import { stringifyData } from './lib/format'
 
 const dataDir = join(import.meta.dirname, '..', 'data')
 const manifestFile = join(dataDir, 'announcements.json')
@@ -28,6 +33,15 @@ if (baselineIdx >= 0 && !/^\d{4}-\d{2}-\d{2}$/.test(baseline ?? '')) {
   console.error('✗ --baseline exige uma data YYYY-MM-DD')
   process.exit(1)
 }
+const onlyIdx = args.indexOf('--only')
+const only = onlyIdx >= 0 ? (args[onlyIdx + 1] ?? '').split(',').filter(Boolean) : undefined
+if (onlyIdx >= 0 && (!only?.length || only.some((name) => !(name in collections)))) {
+  console.error(`✗ --only exige coleções válidas: ${Object.keys(collections).join(', ')}`)
+  process.exit(1)
+}
+
+/** Coleções com regra de embargo (têm announcedAt). As demais são vocabulário e não passam pelo manifesto. */
+const EMBARGOED = new Set(['characters', 'lightcones', 'materials'])
 
 /** slug já publicado por id: slugs não mudam, para não quebrar URLs. */
 function existingSlugs(collection: string): Map<number, string> {
@@ -43,14 +57,18 @@ function existingSlugs(collection: string): Map<number, string> {
 
 /** Grava só se mudou, para o diff do PR automático conter apenas o que mudou de fato. */
 function writeIfChanged(file: string, value: unknown): boolean {
-  const text = `${JSON.stringify(value, null, 2)}\n`
+  const text = stringifyData(value)
   if (existsSync(file) && readFileSync(file, 'utf8') === text) return false
   writeFileSync(file, text)
   return true
 }
 
 const adapters: Adapter[] = [
-  createStarRailResAdapter({ characters: existingSlugs('characters'), lightcones: existingSlugs('lightcones') }),
+  createStarRailResAdapter({
+    characters: existingSlugs('characters'),
+    lightcones: existingSlugs('lightcones'),
+    materials: existingSlugs('materials'),
+  }),
 ]
 
 const baseUrls: Record<string, string> = {
@@ -84,17 +102,22 @@ if (failures.length > 0) {
 const merged: Record<string, Map<number, { id: number } & Record<string, unknown>>> = {
   characters: new Map(),
   lightcones: new Map(),
+  materials: new Map(),
+  properties: new Map(),
 }
 const warnings: string[] = []
 for (const result of results) {
   warnings.push(...result.warnings)
   for (const item of result.characters) merged.characters.set(item.id, item as never)
   for (const item of result.lightcones) merged.lightcones.set(item.id, item as never)
+  for (const item of result.materials) merged.materials.set(item.id, item as never)
+  for (const item of result.properties) merged.properties.set(item.id, item as never)
 }
 
 const manifest: Manifest = loadManifest(manifestFile)
 if (baseline) {
   for (const [collection, items] of Object.entries(merged)) {
+    if (!EMBARGOED.has(collection) || (only && !only.includes(collection))) continue
     manifest[collection] ??= {}
     for (const id of items.keys()) {
       manifest[collection][String(id)] ??= { announcedAt: baseline, patchReleaseDate: null }
@@ -110,14 +133,19 @@ for (const [collection, items] of Object.entries(merged)) {
   const outDir = join(dataDir, 'generated', collection)
   mkdirSync(outDir, { recursive: true })
   for (const item of items.values()) {
-    const entity = withEmbargo(item as never, manifest[collection]) as { id: number; announcedAt: string | null; slug: string }
-    if (!entity.announcedAt) pending.push(`${collection}/${entity.slug}`)
+    const entity = (
+      EMBARGOED.has(collection) ? withEmbargo(item as never, manifest[collection]) : item
+    ) as { id: number; announcedAt?: string | null; slug?: string }
+    if (EMBARGOED.has(collection) && !entity.announcedAt) pending.push(`${collection}/${entity.slug}`)
     if (writeIfChanged(join(outDir, `${entity.id}.json`), entity)) changed++
   }
 }
 
 const total = Object.values(merged).reduce((n, m) => n + m.size, 0)
-console.log(`✓ ${total} entidade(s) processada(s), ${changed} arquivo(s) alterado(s).`)
+const perCollection = Object.entries(merged)
+  .map(([name, items]) => `${name}: ${items.size}`)
+  .join(', ')
+console.log(`✓ ${total} entidade(s) processada(s) (${perCollection}), ${changed} arquivo(s) alterado(s).`)
 if (pending.length > 0) {
   console.log(`⚠ ${pending.length} sem data de anúncio (não serão publicadas): ${pending.slice(0, 8).join(', ')}${pending.length > 8 ? ', ...' : ''}`)
   console.log('  Adicione-as em data/announcements.json ou rode uma vez com --baseline YYYY-MM-DD.')

@@ -13,6 +13,10 @@ on:
         description: 'Marcar entidades ainda não registradas como anunciadas nesta data (YYYY-MM-DD). Use só na primeira vez.'
         required: false
         default: ''
+      only:
+        description: 'Limita o baseline a estas coleções (ex.: materials). Use ao ingerir uma coleção nova, para não liberar personagens novos de carona.'
+        required: false
+        default: ''
   schedule:
     - cron: '0 8 * * *' # diário, 08:00 UTC
 
@@ -38,8 +42,11 @@ jobs:
       - name: Buscar e normalizar dados
         env:
           BASELINE: ${{ inputs.baseline }}
+          ONLY: ${{ inputs.only }}
         run: |
-          if [ -n "$BASELINE" ]; then
+          if [ -n "$BASELINE" ] && [ -n "$ONLY" ]; then
+            pnpm data:fetch --baseline "$BASELINE" --only "$ONLY"
+          elif [ -n "$BASELINE" ]; then
             pnpm data:fetch --baseline "$BASELINE"
           else
             pnpm data:fetch

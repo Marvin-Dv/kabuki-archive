@@ -4,13 +4,36 @@
     "name": "Lembrança",
     "rank": 1,
     "desc": "Ganha PE.",
-    "params": []
+    "params": [],
+    "icon": "icon/skill/1001_rank1.png",
+    "materials": [
+      {
+        "id": "11001",
+        "num": 1
+      }
+    ]
   },
   "100102": {
     "id": "100102",
     "name": "Gelo",
     "rank": 2,
     "desc": "Cura.",
-    "params": []
+    "params": [],
+    "materials": [
+      {
+        "id": "11001",
+        "num": 1
+      }
+    ],
+    "level_up_skills": [
+      {
+        "id": "100102",
+        "num": 2
+      },
+      {
+        "id": "100101",
+        "num": 1
+      }
+    ]
   }
 }

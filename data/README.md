@@ -31,10 +31,21 @@ A lógica fica em `utils/spoiler.ts` e é coberta por testes.
 pnpm data:fetch                         # baixa o StarRailRes e regenera data/generated
 pnpm data:fetch --offline               # usa só o cache de data/raw
 pnpm data:fetch --baseline 2026-11-16   # 1ª vez: marca o conteúdo atual como anunciado
+pnpm data:fetch --baseline 2026-11-16 --only materials   # idem, só para coleções novas
 pnpm validate                           # valida generated + overrides contra os schemas
 ```
 
-Coleções geradas: `characters/<id>.json` e `lightcones/<id>.json`.
+Coleções geradas (um arquivo por entidade, `<id>.json`):
+
+| Coleção | Conteúdo | Embargo |
+|---|---|---|
+| `characters` | kit, eidolons, **atributos por ascensão, traços** (árvore com custos) e `materialIds` | sim |
+| `lightcones` | habilidade com 5 sobreposições, **atributos por ascensão** e materiais | sim |
+| `materials` | só os itens que algum personagem ou cone usa (~230 dos 4 mil do jogo), com onde obter | sim |
+| `properties` | nome de cada atributo (HP, ATQ, "Bônus de Dano: Gelo"...) nos 5 idiomas | não (vocabulário) |
+
+Atributos: `valor = base + passo × (nível − 1)` dentro de cada ascensão (0 a 6); veja `utils/stats.ts`.
+Os arquivos são gravados em formato compacto (`scripts/lib/format.ts`) para o git não ficar enorme.
 
 - **Fonte atual:** StarRailRes (`index_new/<idioma>/`), nos 5 idiomas do site. Inglês é
   obrigatório; um idioma fora do ar só gera aviso. Se o inglês falhar, nada é gravado.

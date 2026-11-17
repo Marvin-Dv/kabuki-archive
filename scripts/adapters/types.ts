@@ -1,7 +1,7 @@
 // Contrato comum dos adaptadores de ingestão. Cada fonte expõe `run`, e o
 // orquestrador isola falhas: uma fonte quebrada não derruba as outras.
 
-import type { Character, LightCone } from '../../schema'
+import type { Character, LightCone, Material, Property } from '../../schema'
 
 export interface AdapterContext {
   /** URL (https://...) ou pasta local de onde ler os índices. */
@@ -15,6 +15,8 @@ export interface AdapterContext {
 export interface AdapterResult {
   characters: Character[]
   lightcones: LightCone[]
+  materials: Material[]
+  properties: Property[]
   /** Avisos não fatais (entidades ignoradas, campos ausentes...). */
   warnings: string[]
 }

@@ -33,3 +33,9 @@ export const PATHS = [
   'Elation',
 ] as const
 export type PathName = (typeof PATHS)[number]
+
+/** Valor que cresce por nível (ver `utils/stats.ts`). Mesma forma de `statScale` em schema/common.ts. */
+export interface StatScale {
+  base: number
+  step: number
+}

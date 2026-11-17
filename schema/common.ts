@@ -49,3 +49,32 @@ export const assetPath = z.string().min(1)
 
 /** Parâmetros numéricos por nível/rank usados nos templates de descrição. */
 export const paramTable = z.array(z.array(z.number()))
+
+/**
+ * Valor que cresce por nível dentro de uma ascensão:
+ * `valor(nível) = base + step × (nível − 1)`. Ver `utils/stats.ts`.
+ */
+export const statScale = z.object({ base: z.number(), step: z.number() })
+
+/** Quantidade de um item (material). `id` aponta para a coleção `materials`. */
+export const itemAmount = z.object({
+  id: z.number().int().positive(),
+  num: z.number().int().positive(),
+})
+export type ItemAmount = z.infer<typeof itemAmount>
+
+/** Bônus de atributo. `type` é a chave do jogo (ex.: "IceAddedRatio"), traduzida pela coleção `properties`. */
+export const propertyValue = z.object({ type: z.string().min(1), value: z.number() })
+export type PropertyValue = z.infer<typeof propertyValue>
+
+/** Lista de textos por idioma (ex.: onde farmar um material). Inglês obrigatório. */
+export const localizedList = z
+  .object({
+    en: z.array(z.string()),
+    'pt-BR': z.array(z.string()).optional(),
+    'zh-CN': z.array(z.string()).optional(),
+    ja: z.array(z.string()).optional(),
+    ko: z.array(z.string()).optional(),
+  })
+  .strict()
+export type LocalizedList = z.infer<typeof localizedList>

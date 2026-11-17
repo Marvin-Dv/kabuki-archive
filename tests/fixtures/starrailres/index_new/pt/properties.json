@@ -1,0 +1,62 @@
+{
+  "MaxHP": {
+    "type": "MaxHP",
+    "name": "PV",
+    "field": "",
+    "affix": false,
+    "ratio": false,
+    "percent": false,
+    "order": 1,
+    "icon": "icon/property/IconMaxHP.png"
+  },
+  "SpecialMaxSP": {
+    "type": "SpecialMaxSP",
+    "name": "",
+    "field": "",
+    "affix": false,
+    "ratio": false,
+    "percent": false,
+    "order": 11,
+    "icon": "icon/property/IconEnergy_1308.png"
+  },
+  "CriticalChanceBase": {
+    "type": "CriticalChanceBase",
+    "name": "Chance de CRIT",
+    "field": "crit_rate",
+    "affix": true,
+    "ratio": false,
+    "percent": true,
+    "order": 15,
+    "icon": "icon/property/IconCriticalChance.png"
+  },
+  "StatusResistanceBase": {
+    "type": "StatusResistanceBase",
+    "name": "RES a Efeito",
+    "field": "effect_res",
+    "affix": true,
+    "ratio": false,
+    "percent": true,
+    "order": 21,
+    "icon": "icon/property/IconStatusResistance.png"
+  },
+  "IceAddedRatio": {
+    "type": "IceAddedRatio",
+    "name": "Bônus de Dano de Gelo",
+    "field": "ice_dmg",
+    "affix": true,
+    "ratio": false,
+    "percent": true,
+    "order": 28,
+    "icon": "icon/property/IconIceAddedRatio.png"
+  },
+  "DefenceAddedRatio": {
+    "type": "DefenceAddedRatio",
+    "name": "DEF",
+    "field": "def",
+    "affix": true,
+    "ratio": true,
+    "percent": true,
+    "order": 46,
+    "icon": "icon/property/IconDefence.png"
+  }
+}

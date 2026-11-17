@@ -1,0 +1,195 @@
+{
+  "11001": {
+    "id": "11001",
+    "name": "Eidolon de 7 de Março: A Preservação",
+    "type": "Material",
+    "sub_type": "Eidolon",
+    "rarity": 4,
+    "icon": "icon/item/11001.png",
+    "come_from": []
+  },
+  "110121": {
+    "id": "110121",
+    "name": "Flecha de Caça-Feras",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 2,
+    "icon": "icon/item/110121.png",
+    "come_from": [
+      "Cálice (Planícies Nevadas Distantes)",
+      "Troca de Brasas",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "110122": {
+    "id": "110122",
+    "name": "Flecha de Caça-Demônio",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 3,
+    "icon": "icon/item/110122.png",
+    "come_from": [
+      "Cálice (Planícies Nevadas Distantes)",
+      "Sintetizador Omni — Síntese de Material",
+      "Troca de Brasas",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "110123": {
+    "id": "110123",
+    "name": "Flecha de Caça-Estrela",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 4,
+    "icon": "icon/item/110123.png",
+    "come_from": [
+      "Cálice (Planícies Nevadas Distantes)",
+      "Sintetizador Omni — Síntese de Material",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "110141": {
+    "id": "110141",
+    "name": "Resistência de Bronze",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 2,
+    "icon": "icon/item/110141.png",
+    "come_from": [
+      "Cálice (Zona de Abastecimento)",
+      "Troca de Brasas",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "110142": {
+    "id": "110142",
+    "name": "Juramento de Aço",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 3,
+    "icon": "icon/item/110142.png",
+    "come_from": [
+      "Cálice (Zona de Abastecimento)",
+      "Sintetizador Omni — Síntese de Material",
+      "Troca de Brasas",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "110143": {
+    "id": "110143",
+    "name": "Proteção de Âmbar",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 4,
+    "icon": "icon/item/110143.png",
+    "come_from": [
+      "Cálice (Zona de Abastecimento)",
+      "Sintetizador Omni — Síntese de Material",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "110403": {
+    "id": "110403",
+    "name": "Chifre de Neve",
+    "type": "Material",
+    "sub_type": "AvatarRank",
+    "rarity": 4,
+    "icon": "icon/item/110403.png",
+    "come_from": [
+      "Sombra Estagnada: Corredor de Ecos Atenuados",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "110501": {
+    "id": "110501",
+    "name": "Rota Final do Destruidor",
+    "type": "Material",
+    "sub_type": "WeeklyMonsterDrop",
+    "rarity": 4,
+    "icon": "icon/item/110501.png",
+    "come_from": [
+      "Eco da Guerra: Zona de Abastecimento"
+    ]
+  },
+  "111011": {
+    "id": "111011",
+    "name": "Instinto de Ladrão",
+    "type": "Material",
+    "sub_type": "CommonMonsterDrop",
+    "rarity": 2,
+    "icon": "icon/item/111011.png",
+    "come_from": [
+      "Legião Antimatéria",
+      "Espólio deixado por inimigos no Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Recompensas de Atribuição",
+      "Troca de Brasas",
+      "Sintetizador Omni — Troca de Material",
+      "Cálice (Dourado)"
+    ]
+  },
+  "111012": {
+    "id": "111012",
+    "name": "Esquema do Usurpador",
+    "type": "Material",
+    "sub_type": "CommonMonsterDrop",
+    "rarity": 3,
+    "icon": "icon/item/111012.png",
+    "come_from": [
+      "Legião Antimatéria no Nível de Equilíbrio 2 ou superior",
+      "Sintetizador Omni — Síntese de Material",
+      "Espólio deixado por inimigos no Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "111013": {
+    "id": "111013",
+    "name": "Vontade de Conquistador",
+    "type": "Material",
+    "sub_type": "CommonMonsterDrop",
+    "rarity": 4,
+    "icon": "icon/item/111013.png",
+    "come_from": [
+      "Legião Antimatéria no Nível de Equilíbrio 4 ou superior",
+      "Sintetizador Omni — Síntese de Material",
+      "Espólio deixado por inimigos no Universo Divergente",
+      "Inimigos do Universo Simulado",
+      "Sintetizador Omni — Troca de Material"
+    ]
+  },
+  "2": {
+    "id": "2",
+    "name": "Crédito",
+    "type": "Virtual",
+    "sub_type": "Virtual",
+    "rarity": 3,
+    "icon": "icon/item/2.png",
+    "come_from": [
+      "Cálice: Grande Mina",
+      "Cálice: Comissão de Artesanato",
+      "Cálice: Devaneio (Mundonírico)",
+      "Cálice: \"Floresta dos Murmúrios\" do Bosque da Epifania",
+      "Cálice: Distrito Solaranjas",
+      "Recompensas de Missão",
+      "Recompensas de Atribuição",
+      "Troca de Brasas"
+    ]
+  },
+  "241": {
+    "id": "241",
+    "name": "Rastros de Destino",
+    "type": "Material",
+    "sub_type": "WeeklyMonsterDrop",
+    "rarity": 5,
+    "icon": "icon/item/241.png",
+    "come_from": [
+      "Recompensas de Pontuação da Guerra Monetária",
+      "Recompensas de Pontuação do Universo Simulado",
+      "Honra dos Inominados",
+      "Troca de Brasas",
+      "Troca de Luz Estelar",
+      "Recompensas de Evento por Tempo Limitado"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "11001": {
+    "id": "11001",
+    "name": "March 7th: Preservation's Eidolon",
+    "type": "Material",
+    "sub_type": "Eidolon",
+    "rarity": 4,
+    "icon": "icon/item/11001.png",
+    "come_from": []
+  },
+  "110121": {
+    "id": "110121",
+    "name": "Arrow of the Beast Hunter",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 2,
+    "icon": "icon/item/110121.png",
+    "come_from": [
+      "Calyx (Outlying Snow Plains)",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "110122": {
+    "id": "110122",
+    "name": "Arrow of the Demon Slayer",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 3,
+    "icon": "icon/item/110122.png",
+    "come_from": [
+      "Calyx (Outlying Snow Plains)",
+      "Omni-Synthesizer — Material Synthesis",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "110123": {
+    "id": "110123",
+    "name": "Arrow of the Starchaser",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 4,
+    "icon": "icon/item/110123.png",
+    "come_from": [
+      "Calyx (Outlying Snow Plains)",
+      "Omni-Synthesizer — Material Synthesis",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "110141": {
+    "id": "110141",
+    "name": "Endurance of Bronze",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 2,
+    "icon": "icon/item/110141.png",
+    "come_from": [
+      "Calyx (Supply Zone)",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "110142": {
+    "id": "110142",
+    "name": "Oath of Steel",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 3,
+    "icon": "icon/item/110142.png",
+    "come_from": [
+      "Calyx (Supply Zone)",
+      "Omni-Synthesizer — Material Synthesis",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "110143": {
+    "id": "110143",
+    "name": "Safeguard of Amber",
+    "type": "Material",
+    "sub_type": "TracePath",
+    "rarity": 4,
+    "icon": "icon/item/110143.png",
+    "come_from": [
+      "Calyx (Supply Zone)",
+      "Omni-Synthesizer — Material Synthesis",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "110403": {
+    "id": "110403",
+    "name": "Horn of Snow",
+    "type": "Material",
+    "sub_type": "AvatarRank",
+    "rarity": 4,
+    "icon": "icon/item/110403.png",
+    "come_from": [
+      "Stagnant Shadow: Corridor of Fading Echoes",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "110501": {
+    "id": "110501",
+    "name": "Destroyer's Final Road",
+    "type": "Material",
+    "sub_type": "WeeklyMonsterDrop",
+    "rarity": 4,
+    "icon": "icon/item/110501.png",
+    "come_from": [
+      "Echo of War: Supply Zone"
+    ]
+  },
+  "111011": {
+    "id": "111011",
+    "name": "Thief's Instinct",
+    "type": "Material",
+    "sub_type": "CommonMonsterDrop",
+    "rarity": 2,
+    "icon": "icon/item/111011.png",
+    "come_from": [
+      "Antimatter Legion",
+      "Dropped by enemies in Divergent Universe",
+      "Simulated Universe enemies",
+      "Assignment rewards",
+      "Embers Exchange",
+      "Omni-Synthesizer — Material Exchange",
+      "Calyx (Golden)"
+    ]
+  },
+  "111012": {
+    "id": "111012",
+    "name": "Usurper's Scheme",
+    "type": "Material",
+    "sub_type": "CommonMonsterDrop",
+    "rarity": 3,
+    "icon": "icon/item/111012.png",
+    "come_from": [
+      "Antimatter Legion at Equilibrium Level 2 or higher",
+      "Omni-Synthesizer — Material Synthesis",
+      "Dropped by enemies in Divergent Universe",
+      "Simulated Universe enemies",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "111013": {
+    "id": "111013",
+    "name": "Conqueror's Will",
+    "type": "Material",
+    "sub_type": "CommonMonsterDrop",
+    "rarity": 4,
+    "icon": "icon/item/111013.png",
+    "come_from": [
+      "Antimatter Legion at Equilibrium Level 4 or higher",
+      "Omni-Synthesizer — Material Synthesis",
+      "Dropped by enemies in Divergent Universe",
+      "Simulated Universe enemies",
+      "Omni-Synthesizer — Material Exchange"
+    ]
+  },
+  "2": {
+    "id": "2",
+    "name": "Credit",
+    "type": "Virtual",
+    "sub_type": "Virtual",
+    "rarity": 3,
+    "icon": "icon/item/2.png",
+    "come_from": [
+      "Calyx: Great Mine",
+      "Calyx: Artisanship Commission",
+      "Calyx: The Reverie (Dreamscape)",
+      "Calyx: \"Murmuring Woods\" Grove of Epiphany",
+      "Calyx: \"Dovebrook District\"",
+      "Mission rewards",
+      "Assignment rewards",
+      "Embers Exchange"
+    ]
+  },
+  "241": {
+    "id": "241",
+    "name": "Tracks of Destiny",
+    "type": "Material",
+    "sub_type": "WeeklyMonsterDrop",
+    "rarity": 5,
+    "icon": "icon/item/241.png",
+    "come_from": [
+      "Currency Wars Point Rewards",
+      "Simulated Universe Point Rewards",
+      "Nameless Honor",
+      "Embers Exchange",
+      "Starlight Exchange",
+      "Limited-Time Event Rewards"
+    ]
+  }
+}
