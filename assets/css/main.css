@@ -15,6 +15,9 @@
   --k-accent: #9d8df1;
   --k-accent-2: #f2c86b; /* números e multiplicadores */
   --k-accent-ink: #0f0a1f;
+  --k-star-5: #f2c86b;
+  --k-star-4: #b9a8ff;
+  --k-version: #c9bfff; /* número da versão de lançamento */
   --k-glow: 157 141 241; /* usado com rgb(var(--k-glow) / alpha) */
   color-scheme: dark;
 }
@@ -30,6 +33,9 @@
   --k-accent: #5b46d6;
   --k-accent-2: #8a5a00;
   --k-accent-ink: #ffffff;
+  --k-star-5: #b07400;
+  --k-star-4: #6a55e0;
+  --k-version: #5b46d6;
   --k-glow: 91 70 214;
   color-scheme: light;
 }
@@ -146,6 +152,45 @@ a.k-card:hover,
   font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   font-variant-numeric: tabular-nums;
   color: var(--k-accent-2);
+}
+
+/* ---------- Card de personagem ---------- */
+
+.k-char-glow {
+  background: radial-gradient(
+    90% 60% at 50% 32%,
+    color-mix(in srgb, var(--el) 20%, transparent),
+    transparent 72%
+  );
+}
+.k-char-5 {
+  box-shadow: 0 14px 28px -18px rgb(242 200 107 / 0.55);
+}
+.k-char-info {
+  background: linear-gradient(to top, var(--k-surface) 58%, transparent);
+}
+.k-char-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.375rem;
+  height: 2.375rem;
+  box-sizing: border-box;
+  border-radius: 999px;
+  border: 1px solid var(--k-border);
+  /* Fundo escuro nos dois temas: os ícones de caminho são brancos. */
+  background: rgb(5 5 6 / 0.78);
+}
+.k-char-5 .k-char-star {
+  color: var(--k-star-5);
+}
+.k-char-4 .k-char-star {
+  color: var(--k-star-4);
+}
+.k-char-version {
+  color: var(--k-version);
+  letter-spacing: -0.04em;
+  text-shadow: 0 0 18px rgb(var(--k-glow) / 0.5);
 }
 
 /* ---------- Navegação ---------- */

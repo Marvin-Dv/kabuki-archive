@@ -65,7 +65,10 @@
     "count": "{n}명",
     "empty": "캐릭터를 찾을 수 없습니다",
     "emptyHint": "필터를 해제하거나 다른 이름으로 검색해 보세요.",
-    "trailblazer": "개척자"
+    "trailblazer": "개척자",
+    "rarityLabel": "레어도: {n}성",
+    "version": "버전",
+    "releasedIn": "{v} 버전에 출시"
   },
   "elements": {
     "Physical": "물리",
