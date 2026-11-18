@@ -1,5 +1,6 @@
 <script setup lang="ts">
 // Card de personagem da lista. Ainda não é um link: a página de detalhe vem na sequência.
+// Arte em proporção 4:5 (retrato; cai para o ícone quadrado se não houver retrato).
 import type { CharacterCard } from '../utils/catalog'
 import { assetUrl } from '../utils/assets'
 import { displayName } from '../utils/catalog'
@@ -8,32 +9,37 @@ const props = defineProps<{ card: CharacterCard }>()
 const { t, locale } = useI18n()
 
 const name = computed(() => displayName(props.card.name, locale.value, t('characters.trailblazer')))
-const icon = computed(() => assetUrl(props.card.icon))
+const art = computed(() => assetUrl(props.card.portrait ?? props.card.icon))
 const elementColor = computed(() => `var(--el-${props.card.element.toLowerCase()})`)
 </script>
 
 <template>
-  <article class="k-card relative flex items-center gap-4 overflow-hidden p-4">
-    <span aria-hidden="true" class="absolute inset-x-0 top-0 h-1" :style="{ background: elementColor }" />
-    <img
-      v-if="icon"
-      :src="icon"
-      alt=""
-      width="72"
-      height="72"
-      loading="lazy"
-      decoding="async"
-      class="h-[72px] w-[72px] shrink-0 rounded-xl bg-surface-2 object-cover"
-    />
-    <span v-else aria-hidden="true" class="h-[72px] w-[72px] shrink-0 rounded-xl bg-surface-2" />
-    <div class="min-w-0">
-      <h3 class="truncate text-base font-bold" :title="name">{{ name }}</h3>
-      <p class="mt-0.5 flex items-center gap-1.5 text-xs text-muted">
+  <article class="k-card overflow-hidden">
+    <div class="relative aspect-[4/5] bg-surface-2">
+      <img
+        v-if="art"
+        :src="art"
+        alt=""
+        width="400"
+        height="500"
+        loading="lazy"
+        decoding="async"
+        class="h-full w-full object-cover object-top"
+      />
+      <span
+        class="absolute left-2 top-2 inline-flex items-center gap-1.5 rounded-lg bg-bg/85 px-2 py-1 text-xs font-medium text-ink backdrop-blur"
+      >
         <span aria-hidden="true" class="k-chip-dot" :style="{ '--chip': elementColor }" />
-        {{ t(`elements.${card.element}`) }} · {{ t(`paths.${card.path}`) }}
-      </p>
-      <p class="mt-1 text-sm text-accent-2" :aria-label="`${card.rarity}★`">
-        <span aria-hidden="true">{{ '★'.repeat(card.rarity) }}</span>
+        {{ t(`elements.${card.element}`) }}
+      </span>
+    </div>
+    <div class="p-3">
+      <h3 class="truncate font-display text-sm font-semibold sm:text-base" :title="name">{{ name }}</h3>
+      <p class="mt-1 flex items-center justify-between gap-2 text-xs text-muted">
+        <span class="truncate">{{ t(`paths.${card.path}`) }}</span>
+        <span class="k-num shrink-0" :aria-label="`${card.rarity}★`">
+          <span aria-hidden="true">{{ card.rarity }}★</span>
+        </span>
       </p>
     </div>
   </article>

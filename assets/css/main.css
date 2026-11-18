@@ -1,58 +1,57 @@
 /* ==========================================================================
-   Kabuki Archive — tokens de tema e estilos base
+   Kabuki Archive — tokens de tema e estilos base (visual OLED)
    Escuro é o padrão (:root, .dark). O tema claro entra com .light no <html>.
    ========================================================================== */
 
 :root,
 .dark {
-  --k-bg: #0e0b16;
-  --k-bg-soft: #141022;
-  --k-surface: #1a1530;
-  --k-surface-2: #241d42;
-  --k-border: #2f2756;
-  --k-text: #f3eefb;
-  --k-muted: #a79fc4;
-  --k-accent: #ff4d85;
-  --k-accent-2: #f5c26b;
-  --k-accent-ink: #1a0b14;
-  --k-glow: 255 77 133; /* usado com rgb(var(--k-glow) / alpha) */
+  --k-bg: #050506;
+  --k-bg-soft: #0b0b0d;
+  --k-surface: #111113;
+  --k-surface-2: #1c1c20;
+  --k-border: #27272a;
+  --k-text: #e4e4e7;
+  --k-muted: #8e8e93;
+  --k-accent: #9d8df1;
+  --k-accent-2: #f2c86b; /* números e multiplicadores */
+  --k-accent-ink: #0f0a1f;
+  --k-glow: 157 141 241; /* usado com rgb(var(--k-glow) / alpha) */
   color-scheme: dark;
 }
 
 .light {
-  --k-bg: #fbf7f2;
-  --k-bg-soft: #f4ede4;
+  --k-bg: #fafafa;
+  --k-bg-soft: #f4f4f5;
   --k-surface: #ffffff;
-  --k-surface-2: #f1e9f3;
-  --k-border: #e3d7e6;
-  --k-text: #1d1626;
-  --k-muted: #6b5f7d;
-  --k-accent: #d6245f;
-  --k-accent-2: #a8680f;
+  --k-surface-2: #f1f1f4;
+  --k-border: #e0e0e6;
+  --k-text: #18181b;
+  --k-muted: #62626b;
+  --k-accent: #5b46d6;
+  --k-accent-2: #8a5a00;
   --k-accent-ink: #ffffff;
-  --k-glow: 214 36 95;
+  --k-glow: 91 70 214;
   color-scheme: light;
 }
 
-/* Elementos do jogo (acentos de cartas, filtros e gráficos) */
+/* Elementos do jogo (acentos de cards, filtros e gráficos) */
 :root {
-  --el-physical: #bdbdc7;
-  --el-fire: #f4634e;
-  --el-ice: #6fd0f2;
-  --el-lightning: #c27df2;
-  --el-wind: #4fd6a4;
-  --el-quantum: #7b6cf0;
-  --el-imaginary: #f2d35b;
+  --el-physical: #cfcfd6;
+  --el-fire: #ff7a59;
+  --el-ice: #7fd3ff;
+  --el-lightning: #c58bff;
+  --el-wind: #6fe3b0;
+  --el-quantum: #8b8cff;
+  --el-imaginary: #ffd95a;
 }
 
 html {
   background: var(--k-bg);
   color: var(--k-text);
-  font-family: 'Manrope', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', 'PingFang SC',
+  font-family: 'DM Sans', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', 'PingFang SC',
     'Hiragino Sans', 'Microsoft YaHei', 'Malgun Gothic', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 body {
@@ -63,9 +62,9 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Fraunces', 'Noto Serif JP', 'Noto Serif SC', 'Noto Serif KR', 'Songti SC',
-    'Hiragino Mincho ProN', serif;
-  letter-spacing: -0.01em;
+  font-family: 'Sora', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', 'PingFang SC',
+    'Hiragino Sans', 'Microsoft YaHei', 'Malgun Gothic', system-ui, sans-serif;
+  letter-spacing: -0.015em;
 }
 
 ::selection {
@@ -90,25 +89,27 @@ h3 {
 .k-card {
   background: var(--k-surface);
   border: 1px solid var(--k-border);
-  border-radius: 1rem;
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 0.875rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 
-a.k-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--k-accent);
-  box-shadow: 0 12px 32px -16px rgb(var(--k-glow) / 0.45);
+a.k-card:hover,
+.k-card:has(a:hover) {
+  background: var(--k-surface-2);
+  border-color: var(--k-muted);
 }
 
 .k-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
-  padding: 0.7rem 1.25rem;
-  border-radius: 999px;
-  font-weight: 700;
+  min-height: 2.75rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
   font-size: 0.95rem;
-  transition: transform 0.15s ease, background-color 0.2s ease, border-color 0.2s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 
 .k-btn-primary {
@@ -116,7 +117,7 @@ a.k-card:hover {
   color: var(--k-accent-ink);
 }
 .k-btn-primary:hover {
-  transform: translateY(-1px);
+  filter: brightness(1.08);
 }
 
 .k-btn-ghost {
@@ -124,15 +125,15 @@ a.k-card:hover {
   color: var(--k-text);
 }
 .k-btn-ghost:hover {
-  border-color: var(--k-accent);
+  background: var(--k-surface-2);
 }
 
 .k-badge {
   display: inline-block;
   padding: 0.15rem 0.6rem;
-  border-radius: 999px;
+  border-radius: 0.5rem;
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   background: var(--k-surface-2);
@@ -140,24 +141,55 @@ a.k-card:hover {
   border: 1px solid var(--k-border);
 }
 
+/* Valores numéricos (stats, multiplicadores): fonte mono + dourado */
+.k-num {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  color: var(--k-accent-2);
+}
+
+/* ---------- Navegação ---------- */
+
+.k-nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding-inline: 1rem;
+  border-radius: 0.75rem;
+  color: var(--k-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+.k-nav-link:hover {
+  color: var(--k-text);
+  background: var(--k-surface);
+}
+.k-nav-link.is-active {
+  color: var(--k-text);
+  background: var(--k-surface-2);
+}
+
 /* ---------- Filtros ---------- */
 
 .k-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.35rem 0.8rem;
-  border-radius: 999px;
+  gap: 0.45rem;
+  min-height: 2.75rem;
+  padding: 0.35rem 1rem;
+  border-radius: 0.75rem;
   border: 1px solid var(--k-border);
   background: var(--k-surface);
   color: var(--k-text);
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
   transition: border-color 0.15s ease, background-color 0.15s ease;
 }
 .k-chip:hover {
-  border-color: var(--chip, var(--k-accent));
+  background: var(--k-surface-2);
 }
 .k-chip[aria-pressed='true'] {
   background: var(--k-surface-2);
@@ -176,7 +208,8 @@ a.k-card:hover {
 
 .k-input {
   width: 100%;
-  padding: 0.6rem 0.9rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.9rem;
   border-radius: 0.75rem;
   border: 1px solid var(--k-border);
   background: var(--k-bg-soft);
@@ -190,68 +223,14 @@ a.k-card:hover {
   border-color: var(--k-accent);
 }
 
-/* ---------- Hero: palco, holofote e cortinas ---------- */
+/* ---------- Hero (início) ---------- */
 
 .k-hero {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  padding-block: clamp(4rem, 12vw, 8rem);
+  padding-block: clamp(3.5rem, 10vw, 7rem);
   text-align: center;
 }
 
-/* Holofote */
-.k-hero::before {
-  content: '';
-  position: absolute;
-  inset: -20% -10% auto;
-  height: 120%;
-  z-index: -2;
-  background: radial-gradient(
-    55% 55% at 50% 0%,
-    rgb(var(--k-glow) / 0.28),
-    transparent 70%
-  );
-  animation: k-sway 14s ease-in-out infinite alternate;
-}
-
-/* Cortinas nas laterais */
-.k-hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    repeating-linear-gradient(
-      90deg,
-      rgb(var(--k-glow) / 0.1) 0 14px,
-      transparent 14px 28px
-    )
-      left / min(18vw, 14rem) 100% no-repeat,
-    repeating-linear-gradient(
-      90deg,
-      rgb(var(--k-glow) / 0.1) 0 14px,
-      transparent 14px 28px
-    )
-      right / min(18vw, 14rem) 100% no-repeat;
-  -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
-  mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
-}
-
-@keyframes k-sway {
-  from {
-    transform: translateX(-4%);
-  }
-  to {
-    transform: translateX(4%);
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .k-hero::before {
-    animation: none;
-  }
   html,
   .k-card,
   .k-btn,

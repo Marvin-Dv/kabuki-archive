@@ -2,8 +2,6 @@
 
 Banco de dados e wiki **não oficial** de *Honkai: Star Rail*, feito com Nuxt 3 (Vue 3) e publicado no GitHub Pages.
 
-> Dedicado à Sparkle.
-
 ## Stack
 
 Nuxt 3 (SSG) · Vue 3 · TypeScript · Pinia · Tailwind CSS · `@nuxtjs/i18n` (pt-BR, en, zh-CN, ja, ko) · Zod · Vitest · pnpm

@@ -8,7 +8,8 @@
     "characters": "Personagens",
     "home": "Início",
     "about": "Sobre",
-    "menu": "Menu principal"
+    "menu": "Menu principal",
+    "skip": "Ir para o conteúdo"
   },
   "theme": {
     "toLight": "Mudar para o tema claro",
@@ -18,12 +19,12 @@
     "label": "Idioma"
   },
   "home": {
-    "eyebrow": "Cortina aberta",
+    "eyebrow": "Projeto de fã",
     "title": "O acervo completo da Ferrovia Estelar",
     "subtitle": "Dados de personagens, equipamentos e inimigos, organizados para consulta rápida e sem spoilers inesperados.",
     "ctaPrimary": "Explorar o acervo",
     "ctaSecondary": "Sobre o projeto",
-    "sectionTitle": "No palco",
+    "sectionTitle": "Coleções",
     "sectionSubtitle": "As coleções estão sendo montadas. Cada uma chega junto com a sua ferramenta.",
     "soon": "Em breve",
     "available": "Disponível"
@@ -44,12 +45,10 @@
     "title": "Sobre o Kabuki Archive",
     "p1": "O Kabuki Archive é um projeto de fã que reúne, em um só lugar, os dados de Honkai: Star Rail.",
     "p2": "Só publicamos conteúdo depois do anúncio oficial. Páginas de patches recentes exibem um aviso de spoiler, removido automaticamente 2 semanas após o lançamento do patch.",
-    "p3": "O código é aberto (licença MIT). Os dados, imagens e textos do jogo pertencem à HoYoverse.",
-    "dedication": "Dedicado à Sparkle."
+    "p3": "O código é aberto (licença MIT). Os dados, imagens e textos do jogo pertencem à HoYoverse."
   },
   "footer": {
-    "disclaimer": "Projeto de fã, não oficial. Honkai: Star Rail e todo o conteúdo relacionado pertencem à HoYoverse (Cognosphere PTE. LTD.).",
-    "dedication": "Feito com carinho para a Sparkle."
+    "disclaimer": "Projeto de fã, não oficial. Honkai: Star Rail e todo o conteúdo relacionado pertencem à HoYoverse (Cognosphere PTE. LTD.)."
   },
   "characters": {
     "title": "Personagens",

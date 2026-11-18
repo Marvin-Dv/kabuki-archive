@@ -8,7 +8,8 @@
     "characters": "角色",
     "home": "首页",
     "about": "关于",
-    "menu": "主导航"
+    "menu": "主导航",
+    "skip": "跳到内容"
   },
   "theme": {
     "toLight": "切换到浅色主题",
@@ -18,12 +19,12 @@
     "label": "语言"
   },
   "home": {
-    "eyebrow": "大幕拉开",
+    "eyebrow": "粉丝项目",
     "title": "星穹列车的完整档案",
     "subtitle": "角色、装备与敌人数据，便于快速查阅，并避免意外剧透。",
     "ctaPrimary": "浏览档案",
     "ctaSecondary": "关于本项目",
-    "sectionTitle": "登台",
+    "sectionTitle": "合集",
     "sectionSubtitle": "各个分类正在整理中，每个分类上线时都会附带对应的工具。",
     "soon": "即将上线",
     "available": "已上线"
@@ -44,12 +45,10 @@
     "title": "关于 Kabuki Archive",
     "p1": "Kabuki Archive 是一个粉丝项目，旨在把《崩坏：星穹铁道》的数据集中在一处。",
     "p2": "我们只在官方公布后才发布内容。近期版本的页面会显示剧透警告，并在版本上线 2 周后自动移除。",
-    "p3": "代码开源（MIT 许可证）。游戏数据、图片与文本归 HoYoverse 所有。",
-    "dedication": "献给花火。"
+    "p3": "代码开源（MIT 许可证）。游戏数据、图片与文本归 HoYoverse 所有。"
   },
   "footer": {
-    "disclaimer": "非官方粉丝项目。《崩坏：星穹铁道》及相关内容归 HoYoverse（Cognosphere PTE. LTD.）所有。",
-    "dedication": "为花火而作。"
+    "disclaimer": "非官方粉丝项目。《崩坏：星穹铁道》及相关内容归 HoYoverse（Cognosphere PTE. LTD.）所有。"
   },
   "characters": {
     "title": "角色",
