@@ -34,7 +34,7 @@ describe('buildCharacterIndex', () => {
   it('devolve só os campos do card, sem skills nem eidolons', () => {
     const [card] = buildCharacterIndex([make({})], now)
     expect(Object.keys(card).sort()).toEqual(
-      ['element', 'icon', 'id', 'name', 'patchReleaseDate', 'path', 'portrait', 'rarity', 'slug'].sort(),
+      ['element', 'icon', 'id', 'name', 'patchReleaseDate', 'path', 'preview', 'rarity', 'slug'].sort(),
     )
     expect(card.icon).toBe('icon/character/1.png')
   })
@@ -44,18 +44,26 @@ describe('buildCharacterIndex', () => {
     expect(index.map((c) => c.id)).toEqual([10, 30])
   })
 
-  it('usa null quando não há ícone nem retrato', () => {
+  it('usa null quando não há ícone nem recorte', () => {
     const [card] = buildCharacterIndex([make({ images: {} })], now)
     expect(card.icon).toBeNull()
-    expect(card.portrait).toBeNull()
+    expect(card.preview).toBeNull()
   })
 
-  it('leva o retrato para o card quando existe', () => {
+  it('leva o recorte (preview) para o card, nunca a splash (portrait)', () => {
     const [card] = buildCharacterIndex(
-      [make({ images: { icon: 'icon/character/1.png', portrait: 'image/character_portrait/1.png' } })],
+      [
+        make({
+          images: {
+            icon: 'icon/character/1.png',
+            preview: 'image/character_preview/1.png',
+            portrait: 'image/character_portrait/1.png',
+          },
+        }),
+      ],
       now,
     )
-    expect(card.portrait).toBe('image/character_portrait/1.png')
+    expect(card.preview).toBe('image/character_preview/1.png')
   })
 })
 
