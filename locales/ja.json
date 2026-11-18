@@ -65,7 +65,10 @@
     "count": "{n}人",
     "empty": "キャラクターが見つかりません",
     "emptyHint": "絞り込みを外すか、別の名前で試してください。",
-    "trailblazer": "開拓者"
+    "trailblazer": "開拓者",
+    "rarityLabel": "レアリティ：星{n}",
+    "version": "バージョン",
+    "releasedIn": "バージョン{v}で実装"
   },
   "elements": {
     "Physical": "物理",

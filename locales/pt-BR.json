@@ -65,7 +65,10 @@
     "count": "{n} personagem | {n} personagens",
     "empty": "Nenhum personagem encontrado",
     "emptyHint": "Tente remover algum filtro ou buscar por outro nome.",
-    "trailblazer": "Desbravador"
+    "trailblazer": "Desbravador",
+    "rarityLabel": "Raridade: {n} estrelas",
+    "version": "Versão",
+    "releasedIn": "Lançado na versão {v}"
   },
   "elements": {
     "Physical": "Físico",

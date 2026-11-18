@@ -65,7 +65,10 @@
     "count": "{n} 位角色",
     "empty": "未找到角色",
     "emptyHint": "试试移除某个筛选条件，或更换名称。",
-    "trailblazer": "开拓者"
+    "trailblazer": "开拓者",
+    "rarityLabel": "稀有度：{n} 星",
+    "version": "版本",
+    "releasedIn": "于 {v} 版本上线"
   },
   "elements": {
     "Physical": "物理",

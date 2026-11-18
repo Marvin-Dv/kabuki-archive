@@ -65,7 +65,10 @@
     "count": "{n} character | {n} characters",
     "empty": "No characters found",
     "emptyHint": "Try removing a filter or searching for another name.",
-    "trailblazer": "Trailblazer"
+    "trailblazer": "Trailblazer",
+    "rarityLabel": "Rarity: {n} stars",
+    "version": "Version",
+    "releasedIn": "Released in version {v}"
   },
   "elements": {
     "Physical": "Physical",

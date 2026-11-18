@@ -16,6 +16,13 @@ describe('locales', () => {
       for (const element of ELEMENTS) expect(typeof messages.elements?.[element]).toBe('string')
     })
 
+    it(`${locale}: textos do card de personagem têm os marcadores {n} e {v}`, () => {
+      const card = load(locale).characters
+      expect(card.rarityLabel).toContain('{n}')
+      expect(card.releasedIn).toContain('{v}')
+      expect(typeof card.version).toBe('string')
+    })
+
     it(`${locale}: os nomes de caminhos são todos diferentes entre si`, () => {
       const names = Object.values(load(locale).paths as Record<string, string>)
       expect(new Set(names).size).toBe(names.length)
