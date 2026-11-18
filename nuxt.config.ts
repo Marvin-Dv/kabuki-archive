@@ -13,6 +13,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
 
+  // Servidor de desenvolvimento no Windows: o Nuxt 3.15.3+ responde 403 ao carregar
+  // dependências (ex.: vue) pelo endpoint interno __nuxt_vite_node__, porque o caminho
+  // chega sem a letra do disco. Afrouxar o fs.strict resolve e só vale para `nuxt dev`
+  // (o build/generate ignora `vite.server`). Não use `nuxt dev --host` em rede aberta.
+  vite: { server: { fs: { strict: false } } },
+
   modules: ['@nuxtjs/i18n', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@pinia/nuxt'],
 
   css: ['~/assets/css/main.css'],

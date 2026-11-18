@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Card de personagem da lista. Ainda não é um link: a página de detalhe vem na sequência.
-// Arte em proporção 4:5 (retrato; cai para o ícone quadrado se não houver retrato).
+// Arte em proporção 4:5 (recorte `preview`; cai para o ícone quadrado se não houver).
 import type { CharacterCard } from '../utils/catalog'
 import { assetUrl } from '../utils/assets'
 import { displayName } from '../utils/catalog'
@@ -9,7 +9,7 @@ const props = defineProps<{ card: CharacterCard }>()
 const { t, locale } = useI18n()
 
 const name = computed(() => displayName(props.card.name, locale.value, t('characters.trailblazer')))
-const art = computed(() => assetUrl(props.card.portrait ?? props.card.icon))
+const art = computed(() => assetUrl(props.card.preview ?? props.card.icon))
 const elementColor = computed(() => `var(--el-${props.card.element.toLowerCase()})`)
 </script>
 

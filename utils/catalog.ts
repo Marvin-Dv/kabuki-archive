@@ -20,8 +20,8 @@ export interface CharacterCard {
   element: Character['element']
   /** Caminho relativo do ícone, quadrado (use `assetUrl`). */
   icon: string | null
-  /** Caminho relativo do retrato, usado na arte 4:5 do card. */
-  portrait: string | null
+  /** Recorte do personagem (376×512, ~300 KB) usado na arte do card. Não use `portrait`: é a splash de 2048×2048, ~3 MB. */
+  preview: string | null
   patchReleaseDate: string | null
   version?: string
 }
@@ -35,7 +35,7 @@ export function toCharacterCard(c: Character): CharacterCard {
     path: c.path,
     element: c.element,
     icon: c.images.icon ?? null,
-    portrait: c.images.portrait ?? null,
+    preview: c.images.preview ?? null,
     patchReleaseDate: c.patchReleaseDate,
     ...(c.version ? { version: c.version } : {}),
   }
