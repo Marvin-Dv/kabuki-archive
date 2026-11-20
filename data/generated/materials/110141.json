@@ -1,13 +1,7 @@
 {
   "id": 110141,
   "slug": "endurance-of-bronze",
-  "name": {
-    "pt-BR": "Resistência de Bronze",
-    "en": "Endurance of Bronze",
-    "zh-CN": "青铜的执着",
-    "ja": "青銅の執着",
-    "ko": "청동의 집념"
-  },
+  "name": { "pt-BR": "Resistência de Bronze", "en": "Endurance of Bronze", "zh-CN": "青铜的执着" },
   "rarity": 2,
   "type": "Material",
   "subType": "TracePath",
@@ -17,8 +11,6 @@
   "sources": {
     "en": ["Calyx (Supply Zone)", "Embers Exchange", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Cálice (Zona de Abastecimento)", "Troca de Brasas", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["拟造花萼【支援舱段】", "余烬兑换", "「万能合成机」- 材料置换"],
-    "ja": ["疑似花萼「サポート部分」", "エンバー交換", "「万能合成マシン」- 素材交換"],
-    "ko": ["모조 꽃받침 [서포트 캐빈]", "잔화 교환", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【支援舱段】", "余烬兑换", "「万能合成机」- 材料置换"]
   }
 }

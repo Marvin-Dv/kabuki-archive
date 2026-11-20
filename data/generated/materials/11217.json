@@ -1,13 +1,7 @@
 {
   "id": 11217,
   "slug": "huohuos-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Huohuo",
-    "en": "Huohuo's Eidolon",
-    "zh-CN": "【藿藿】的星魂",
-    "ja": "「フォフォ」の星魂",
-    "ko": "[곽향]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Huohuo", "en": "Huohuo's Eidolon", "zh-CN": "【藿藿】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

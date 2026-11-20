@@ -1,7 +1,7 @@
 {
   "id": 42,
   "type": "AttackDelta",
-  "name": { "pt-BR": "ATQ", "en": "ATK", "zh-CN": "攻击力", "ja": "攻撃力", "ko": "공격력" },
+  "name": { "pt-BR": "ATQ", "en": "ATK", "zh-CN": "攻击力" },
   "icon": "icon/property/IconAttack.png",
   "percent": false
 }

@@ -1,13 +1,7 @@
 {
   "id": 52,
   "type": "ThunderResistanceDelta",
-  "name": {
-    "pt-BR": "Bônus de RES a Raio",
-    "en": "Lightning RES Boost",
-    "zh-CN": "雷属性抗性提高",
-    "ja": "雷属性耐性",
-    "ko": "번개 속성 저항 증가"
-  },
+  "name": { "pt-BR": "Bônus de RES a Raio", "en": "Lightning RES Boost", "zh-CN": "雷属性抗性提高" },
   "icon": "icon/property/IconThunderResistanceDelta.png",
   "percent": true
 }

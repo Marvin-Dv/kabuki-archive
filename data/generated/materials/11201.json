@@ -1,13 +1,7 @@
 {
   "id": 11201,
   "slug": "qingques-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Qingque",
-    "en": "Qingque's Eidolon",
-    "zh-CN": "【青雀】的星魂",
-    "ja": "「青雀」の星魂",
-    "ko": "[청작]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Qingque", "en": "Qingque's Eidolon", "zh-CN": "【青雀】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

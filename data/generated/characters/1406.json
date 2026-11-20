@@ -1,7 +1,7 @@
 {
   "id": 1406,
   "slug": "cipher",
-  "name": { "pt-BR": "Cipher", "en": "Cipher", "zh-CN": "赛飞儿", "ja": "サフェル", "ko": "사이퍼" },
+  "name": { "pt-BR": "Cipher", "en": "Cipher", "zh-CN": "赛飞儿" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Quantum",
@@ -11,19 +11,11 @@
     {
       "id": 140601,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Eita, Quase Escapou",
-        "en": "Oops, a Missed Catch",
-        "zh-CN": "呀，漏网之鱼",
-        "ja": "おっと！魚は逃がさないよ",
-        "ko": "앗! 그물을 빠져나간 물고기"
-      },
+      "name": { "pt-BR": "Eita, Quase Escapou", "en": "Oops, a Missed Catch", "zh-CN": "呀，漏网之鱼" },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Cipher a um inimigo designado.",
         "en": "Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于赛飞儿#1[i]%攻击力的量子属性伤害。",
-        "ja": "指定した敵単体にサフェルの攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于赛飞儿#1[i]%攻击力的量子属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1406_basic_atk.png",
@@ -31,12 +23,10 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um inimigo.",
         "en": "Deals minor Quantum DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量量子属性伤害。",
-        "ja": "敵単体に少量の量子属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 140602,
@@ -44,16 +34,12 @@
       "name": {
         "pt-BR": "Opa, Um Tesouro Dando Sopa",
         "en": "Hey, Jackpot for the Taking",
-        "zh-CN": "嘿，空手套白银",
-        "ja": "へへっ！お宝いただき～！",
-        "ko": "헷, 공짜 보물"
+        "zh-CN": "嘿，空手套白银"
       },
       "description": {
         "pt-BR": "Tem #6[i]% de chance-base de aplicar \"Enfraquecimento\" a um inimigo designado e aos alvos adjacentes (reduzindo o Dano causado por eles em #3[i]%) e aumenta o ATQ de Cipher em #5[i]%, com duração de #4[i] rodada(s). Além disso, causa Dano Quântico igual a #1[i]% do ATQ de Cipher a um inimigo designado e Dano Quântico igual a #2[i]% do ATQ de Cipher aos alvos adjacentes.",
         "en": "Has a #6[i]% base chance to Weaken one designated enemy and its adjacent targets (decreasing their DMG dealt by #3[i]%) and increases Cipher's ATK by #5[i]%, lasting for #4[i] turn(s). Moreover, deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Cipher's ATK to the adjacent targets.",
-        "zh-CN": "有#6[i]%的基础概率使指定敌方单体及其相邻目标陷入虚弱状态，造成的伤害降低#3[i]%，使赛飞儿的攻击力提高#5[i]%，持续#4[i]回合，并对指定敌方单体造成等同于赛飞儿#1[i]%攻击力的量子属性伤害，对相邻目标造成等同于赛飞儿#2[i]%攻击力的量子属性伤害。",
-        "ja": "#6[i]%の基礎確率で指定した敵単体および隣接する敵を虚弱状態にする。虚弱状態の敵の与ダメージ-#3[i]%、#4[i]ターン継続。同時に、サフェルの攻撃力+#5[i]%、#4[i]ターン継続。\nさらに、指定した敵単体にサフェルの攻撃力#1[i]%分の量子属性ダメージを与え、隣接する敵にサフェルの攻撃力#2[i]%分の量子属性ダメージを与える。",
-        "ko": "#6[i]%의 기본 확률로 지정된 단일 적 및 인접한 목표를 허약 상태에 빠트려 가하는 피해를 #3[i]% 감소시키고, 사이퍼의 공격력을 #5[i]% 증가시킨다, 지속 시간: #4[i]턴. 또한 지정된 단일 적에게 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 인접한 목표에게 사이퍼 공격력의 #2[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "有#6[i]%的基础概率使指定敌方单体及其相邻目标陷入虚弱状态，造成的伤害降低#3[i]%，使赛飞儿的攻击力提高#5[i]%，持续#4[i]回合，并对指定敌方单体造成等同于赛飞儿#1[i]%攻击力的量子属性伤害，对相邻目标造成等同于赛飞儿#2[i]%攻击力的量子属性伤害。"
       },
       "params": [
         [1, 0.5, 0.1, 2, 0.3, 1.2],
@@ -77,12 +63,10 @@
       "summary": {
         "pt-BR": "Há uma alta chance de diminuir o Dano causado por um inimigo e por alvos adjacentes e aumenta o ATQ de Cipher. Causa Dano Quântico a um inimigo designado e Dano Quântico leve aos alvos adjacentes.",
         "en": "Has a high chance to decrease one enemy and adjacent targets' DMG dealt and increases Cipher's ATK. Deals Quantum DMG to one designated enemy and minor Quantum DMG to adjacent targets.",
-        "zh-CN": "大概率使敌方单体及相邻目标造成的伤害降低，使赛飞儿攻击力提高，并对指定敌方单体造成量子属性伤害，对相邻目标造成少量量子属性伤害。",
-        "ja": "高確率で敵単体および隣接する敵の与ダメージダウン、サフェルの攻撃力アップ、指定した敵単体に量子属性ダメージを与え、隣接する敵に少量の量子属性ダメージを与える。",
-        "ko": "높은 확률로 단일 적 및 인접한 목표가 가하는 피해를 감소시키고, 사이퍼의 공격력을 증가시킨다. 지정된 단일 적에게 양자 속성 피해를 가하고, 인접한 목표에게 소량의 양자 속성 피해를 가한다"
+        "zh-CN": "大概率使敌方单体及相邻目标造成的伤害降低，使赛飞儿攻击力提高，并对指定敌方单体造成量子属性伤害，对相邻目标造成少量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 140603,
@@ -90,16 +74,12 @@
       "name": {
         "pt-BR": "Com Carinho, Ladra Fantasma Gatinha!",
         "en": "Yours Truly, Kitty Phantom Thief!",
-        "zh-CN": "猫咪怪盗，敬上！",
-        "ja": "怪盗ニャンコ、参上！",
-        "ko": "고양이 괴도 드림!"
+        "zh-CN": "猫咪怪盗，敬上！"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Cipher a um inimigo designado. Em seguida, causa Dano Verdadeiro igual a #2[i]% da contagem atual mantida pelo Talento a um inimigo designado. Além disso, causa Dano Quântico igual a #4[i]% do ATQ de Cipher juntamente com Dano Verdadeiro igual a #3[i]% da contagem atual mantida pelo Talento para o inimigo designado e seus alvos adjacentes. E esse Dano Verdadeiro é distribuído igualmente entre todos os alvos dessa habilidade.",
         "en": "Deals Quantum DMG equal to #1[i]% of Cipher's ATK to one designated enemy. Then, deals True DMG equal to #2[i]% of the current tally kept by Talent to the one designated enemy. Moreover, deals Quantum DMG equal to #4[i]% of Cipher's ATK alongside True DMG equal to #3[i]% of the current tally kept by Talent to the one designated enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.",
-        "zh-CN": "对指定敌方单体造成等同于赛飞儿#1[i]%攻击力的量子属性伤害。之后，对指定敌方单体造成等同于当前天赋记录值#2[i]%的真实伤害，并对指定敌方单体及其相邻目标造成等同于赛飞儿#4[i]%攻击力的量子属性伤害和总计等同于当前天赋记录值#3[i]%的真实伤害，该真实伤害由所有技能目标均分。",
-        "ja": "指定した敵単体にサフェルの攻撃力#1[i]%分の量子属性ダメージを与える。その後、指定した敵単体に現在の天賦のダメージ記録値#2[i]%分の確定ダメージを与える。\nさらに、指定した敵単体および隣接する敵にサフェルの攻撃力#4[i]%分の量子属性ダメージと現在の天賦のダメージ記録値#3[i]%分の確定ダメージを与える（この確定ダメージはすべてのスキルターゲットに均等に分けられる）。",
-        "ko": "지정된 단일 적에게 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. 이후 지정된 단일 적에게 현재 특성 기록 수치의 #2[i]%만큼 확정 피해를 가한다. 또한, 지정된 단일 적 및 인접한 목표에게 사이퍼 공격력의 #4[i]%만큼 양자 속성 피해를 가하고, 현재 특성 기록 수치의 총 #3[i]%만큼 확정 피해를 가하며, 해당 확정 피해는 모든 스킬 목표가 균등 분담한다"
+        "zh-CN": "对指定敌方单体造成等同于赛飞儿#1[i]%攻击力的量子属性伤害。之后，对指定敌方单体造成等同于当前天赋记录值#2[i]%的真实伤害，并对指定敌方单体及其相邻目标造成等同于赛飞儿#4[i]%攻击力的量子属性伤害和总计等同于当前天赋记录值#3[i]%的真实伤害，该真实伤害由所有技能目标均分。"
       },
       "params": [
         [0.6, 0.25, 0.75, 0.2],
@@ -123,29 +103,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico e Dano Verdadeiro iguais a uma porcentagem da contagem atual mantida pelo Talento em um inimigo. Além disso, causa Dano Quântico leve e Dano Verdadeiro leve equivalentes a uma porcentagem da contagem atual mantida pelo Talento a um inimigo e a seus alvos adjacentes. E esse Dano Verdadeiro é distribuído igualmente entre todos os alvos dessa habilidade.",
         "en": "Deals Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to one enemy. Moreover, deals minor Quantum DMG and True DMG equal to a percentage of the current tally kept by Talent to the one enemy and its adjacent targets. And this True DMG is distributed evenly among all targets of this ability.",
-        "zh-CN": "对敌方单体造成量子属性伤害及天赋记录值一定比例的真实伤害，并对敌方单体及其相邻目标造成少量量子属性伤害及天赋记录值一定比例的真实伤害，该真实伤害由所有技能目标均分。",
-        "ja": "敵単体に量子属性ダメージおよび天賦のダメージ記録値の一定割合分の確定ダメージを与える。さらに、敵単体および隣接する敵に少量の量子属性ダメージと天賦のダメージ記録値の一定割合分の確定ダメージを与える（この確定ダメージはすべてのスキルターゲットに均等に分けられる）。",
-        "ko": "단일 적에게 양자 속성 피해와 특성 기록 수치의 일정 비율만큼 확정 피해를 가하고, 단일 적 및 인접한 목표에게 소량의 양자 속성 피해와 특성 기록 수치의 일정 비율만큼 확정 피해를 가한다. 해당 확정 피해는 모든 스킬 목표가 균등 분담한다"
+        "zh-CN": "对敌方单体造成量子属性伤害及天赋记录值一定比例的真实伤害，并对敌方单体及其相邻目标造成少量量子属性伤害及天赋记录值一定比例的真实伤害，该真实伤害由所有技能目标均分。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 140604,
       "type": "Talent",
-      "name": {
-        "pt-BR": "A Dolosiana Hospitaleira",
-        "en": "The Hospitable Dolosian",
-        "zh-CN": "热情好客的多洛斯人",
-        "ja": "親切なドロス人",
-        "ko": "열정적이고 친절한 도로스인"
-      },
+      "name": { "pt-BR": "A Dolosiana Hospitaleira", "en": "The Hospitable Dolosian", "zh-CN": "热情好客的多洛斯人" },
       "description": {
         "pt-BR": "Quando não houver inimigos-alvo no estado de \"Patrono\" no campo de batalha, Cipher faz com que um inimigo-alvo com os maiores PV máximos no campo de batalha se torne o \"Patrono\" imediatamente. Ao usar a Perícia e a Perícia Suprema, o alvo principal se torna o \"Patrono\". O estado de \"Patrono\" só tem efeito sobre o alvo mais recente.\nApós o \"Patrono\" ser atacado por outros aliados-alvo, Cipher realiza imediatamente um Ataque Extra contra o \"Patrono\", causando Dano Quântico igual a #1[i]% do ATK de Cipher. Esse efeito pode ser ativado até #3[i] vez(es) por rodada, e essa contagem de ativação é reiniciada no início da rodada de Cipher.\nCipher registrará #2[i]% do Dano que não for Dano Verdadeiro causado pelos aliados-alvo ao \"Patrono\". O Dano Sobressalente não será registrado. Depois de usar a Perícia Suprema, elimina essa contagem.",
         "en": "When there are no enemy targets in the \"Patron\" state on the battlefield, Cipher immediately causes one enemy target with the highest Max HP on the battlefield to become the \"Patron.\" When using Skill and Ultimate, the primary target becomes the \"Patron.\" The \"Patron\" state only takes effect on the most recent target.\nAfter the \"Patron\" gets attacked by other ally targets, Cipher immediately launches Follow-Up ATK against the \"Patron,\" dealing Quantum DMG equal to #1[i]% of Cipher's ATK. This effect can trigger up to #3[i] time(s) per turn, and this trigger count resets at the start of Cipher's turn.\nCipher will tally #2[i]% of the non-True DMG dealt by ally targets to the \"Patron.\" Overflow DMG will not be tallied. After using Ultimate, clears this tally.",
-        "zh-CN": "场上不存在陷入【老主顾】状态的敌方目标时，赛飞儿立即使当前场上生命上限最高的敌方单体目标成为【老主顾】。施放战技和终结技时，使主目标成为【老主顾】。【老主顾】状态仅对最新被施加的目标生效。\n【老主顾】受到我方其他目标攻击后，赛飞儿立即对【老主顾】发动追加攻击，造成等同于赛飞儿#1[i]%攻击力的量子属性伤害。该效果每回合最多触发#3[i]次，赛飞儿回合开始时重置可触发次数。\n赛飞儿会记录我方目标对【老主顾】造成的非真实伤害的#2[i]%，不记录溢出伤害，施放终结技后清空记录值。",
-        "ja": "フィールド上に「お得意様」状態の敵が存在しない時、サフェルはフィールド上にいる最大HPが最も高い敵単体を「お得意様」にする。戦闘スキルまたは必殺技を発動する時、メインターゲットを「お得意様」にする。「お得意様」状態は最後に付与したターゲットにのみ有効。\n「お得意様」が他の味方の攻撃を受けた後、サフェルは即座に「お得意様」に追加攻撃を行い、自身の攻撃力#1[i]%分の量子属性ダメージを与える。この効果はターンが回ってくるたびに#3[i]回まで発動でき、サフェルのターンが回ってきた時に発動可能回数がリセットされる。\nサフェルは味方が「お得意様」に与えた確定ダメージ以外のダメージの#2[i]%分を記録する。なお、その際超過ダメージは記録しない。必殺技を発動した後、ダメージ記録値がクリアされる。",
-        "ko": "필드 위에 [단골손님] 상태에 빠진 적이 없을 시 사이퍼는 즉시 현재 필드 위 HP 최대치가 가장 높은 단일 적을 [단골손님]으로 만든다. 전투 스킬과 필살기 발동 시 주목표를 [단골손님]으로 만든다. [단골손님] 상태는 가장 최근에 부여된 목표에게만 적용된다.\n[단골손님]이 다른 아군의 공격을 받으면 사이퍼는 즉시 [단골손님]에게 추가 공격을 발동하고, 사이퍼 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. 해당 효과는 턴마다 최대 #3[i]회 발동할 수 있으며, 사이퍼 턴 시작 시 발동 가능 횟수가 초기화된다.\n사이퍼는 아군이 [단골손님]에게 가한 피해(확정 피해 제외)의 #2[i]%를 기록한다. 초과 피해는 기록하지 않으며, 필살기 발동 후 기록 수치는 초기화된다"
+        "zh-CN": "场上不存在陷入【老主顾】状态的敌方目标时，赛飞儿立即使当前场上生命上限最高的敌方单体目标成为【老主顾】。施放战技和终结技时，使主目标成为【老主顾】。【老主顾】状态仅对最新被施加的目标生效。\n【老主顾】受到我方其他目标攻击后，赛飞儿立即对【老主顾】发动追加攻击，造成等同于赛飞儿#1[i]%攻击力的量子属性伤害。该效果每回合最多触发#3[i]次，赛飞儿回合开始时重置可触发次数。\n赛飞儿会记录我方目标对【老主顾】造成的非真实伤害的#2[i]%，不记录溢出伤害，施放终结技后清空记录值。"
       },
       "params": [
         [0.75, 0.12, 1, 5],
@@ -169,50 +139,36 @@
       "summary": {
         "pt-BR": "Cipher faz com que um inimigo-alvo entre no estado de \"Patrono\". Depois que o alvo nesse estado for atacado por companheiros de equipe, Cipher realiza um Ataque Extra, causando Dano Quântico ao alvo. Isso pode ser ativado 1 vez(es) por rodada.\nCipher manterá um registro do Dano causado pelos aliados ao alvo no estado \"Patrono\". Depois de usar a Perícia Suprema, redefine esse registro.",
         "en": "Cipher causes one enemy target to enter the \"Patron\" state. After the target in this state gets attacked by teammates, Cipher launches Follow-Up ATK, dealing Quantum DMG to the target. This can trigger 1 time(s) per turn.\nCipher will keep a tally of the DMG dealt by allies to the target in the \"Patron\" state. After using Ultimate, clears this tally.",
-        "zh-CN": "赛飞儿会使一个敌方目标陷入【老主顾】状态，队友攻击该状态的目标后，赛飞儿发动追加攻击，对该目标造成量子属性伤害，每回合可触发1次。\n赛飞儿会记录我方对【老主顾】状态的目标造成的伤害值，施放终结技后清空。",
-        "ja": "サフェルは敵1体を「お得意様」状態にする。サフェル以外の味方が「お得意様」状態の敵を攻撃した後、サフェルはそのターゲットに追加攻撃を行い、量子属性ダメージを与える。この効果はターンが回ってくるたびに1回まで発動できる。\nサフェルは味方が「お得意様」状態の敵に与えたダメージを記録し、必殺技を発動した後に記録値をクリアする。",
-        "ko": "사이퍼가 적 1기를 [단골손님] 상태에 빠트린다. 아군이 해당 상태의 목표를 공격하면 사이퍼가 추가 공격을 발동하여 해당 목표에게 양자 속성 피해를 가하며, 해당 효과는 턴마다 1회 발동할 수 있다.\n사이퍼는 아군이 [단골손님] 상태의 목표에게 가한 피해량을 기록하며, 피해량은 필살기 발동 후 초기화된다"
+        "zh-CN": "赛飞儿会使一个敌方目标陷入【老主顾】状态，队友攻击该状态的目标后，赛飞儿发动追加攻击，对该目标造成量子属性伤害，每回合可触发1次。\n赛飞儿会记录我方对【老主顾】状态的目标造成的伤害值，施放终结技后清空。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 140606,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a sua Tenacidade do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1406_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a sua Tenacidade do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 140607,
       "type": "Technique",
-      "name": {
-        "pt-BR": "A Gata de Botas",
-        "en": "Puss in Boots",
-        "zh-CN": "穿靴子的猫",
-        "ja": "長靴をはいた猫",
-        "ko": "장화 신은 고양이"
-      },
+      "name": { "pt-BR": "A Gata de Botas", "en": "Puss in Boots", "zh-CN": "穿靴子的猫" },
       "description": {
         "pt-BR": "Obtém a \"Bênção de Zagreus\" que dura por #1[i] segundo(s). Durante esse tempo, Cipher não pode ser detectada por inimigos e sua velocidade de movimento aumenta em 50%. Ao se aproximar de um inimigo no Mundo Aberto/Universo Simulado/Universo Divergente, pode ganhar imediatamente um Consumível aleatório. Os Consumíveis podem ser obtidos dessa forma por até #4[i] vez(es) em cada dia real.\nAo entrar em batalha com a \"Bênção de Zagreus\" ativa, causa Dano Quântico igual a #3[i]% do ATQ de Cipher a todos os inimigos. E a quantidade total que Cipher ganha com essa instância de Dano aumenta em #2[i]%.",
         "en": "Gains \"Zagreus's Blessing\" that lasts for #1[i] second(s). During this time, Cipher will be undetectable by enemies and her movement speed increases by 50%. When approaching an enemy in the overworld/Simulated Universe/Divergent Universe, can immediately gain a random Consumable. Consumables can be gained this way for up to #4[i] time(s) in each Earth day.\nWhen entering battle with \"Zagreus's Blessing\" active, deals Quantum DMG equal to #3[i]% of Cipher's ATK to all enemies. And the tallied amount Cipher gains from this instance of DMG increases by #2[i]%.",
-        "zh-CN": "获得【扎格列斯的祝福】，持续#1[i]秒，期间赛飞儿不会被敌人发现，移动速度提高50%，靠近大地图/模拟宇宙/差分宇宙中的敌人时，可以立即获取随机消耗品，每个地球日内最多获取#4[i]次。\n持有【扎格列斯的祝福】期间进入战斗时，对敌方全体造成等同于赛飞儿#3[i]%攻击力的量子属性伤害，赛飞儿因该次伤害获得的记录值提高#2[i]%。",
-        "ja": "秘技を使用した後、#1[i]秒間継続する「ザグレウスの祝福」を獲得する。「ザグレウスの祝福」が継続している間、サフェルは敵に発見されず、かつ移動速度+50%。マップ/模擬宇宙/階差宇宙内の敵に近づくと、ランダムな消耗品を獲得できるが、1日に最大#4[i]回までの制限がある。\n「ザグレウスの祝福」を持った状態で戦闘に入ると、敵全体にサフェルの攻撃力#3[i]%分の量子属性ダメージを与える。また、このダメージで獲得するダメージ記録値+#2[i]%。",
-        "ko": "[자그레우스의 축복]을 획득한다, 지속 시간: #1[i]초. 지속 시간 동안 사이퍼는 적에게 발각되지 않으며, 이동 속도가 50% 증가한다. 일반 맵/시뮬레이션 우주/차분화 우주의 적에게 다가갈 시 즉시 랜덤 소모품을 획득하며, 하루에 최대 #4[i]회 획득할 수 있다.\n[자그레우스의 축복]을 보유하는 동안 전투에 진입하면 모든 적에게 사이퍼 공격력의 #3[i]%만큼 양자 속성 피해를 가하고, 사이퍼가 해당 피해로 획득하는 기록 수치가 #2[i]% 증가한다"
+        "zh-CN": "获得【扎格列斯的祝福】，持续#1[i]秒，期间赛飞儿不会被敌人发现，移动速度提高50%，靠近大地图/模拟宇宙/差分宇宙中的敌人时，可以立即获取随机消耗品，每个地球日内最多获取#4[i]次。\n持有【扎格列斯的祝福】期间进入战斗时，对敌方全体造成等同于赛飞儿#3[i]%攻击力的量子属性伤害，赛飞儿因该次伤害获得的记录值提高#2[i]%。"
       },
       "params": [[15, 2, 1, 50]],
       "icon": "icon/skill/1406_technique.png",
@@ -220,12 +176,10 @@
       "summary": {
         "pt-BR": "Ganha a \"Bênção de Zagreus\". Enquanto ela estiver ativa, Cipher não pode ser detectada por inimigos e obtém Consumíveis aleatórios ao se aproximar deles. Ao entrar em batalha, Cipher causa Dano Quântico leve a todos os inimigos.",
         "en": "Gains \"Zagreus's Blessing.\" While it is active, Cipher cannot be detected by enemies, and gains random Consumables when approaching them. When entering battle, Cipher deals minor Quantum DMG to all enemies.",
-        "zh-CN": "获得【扎格列斯的祝福】，期间敌人无法发现赛飞儿，靠近敌人时获取随机消耗品，进入战斗时赛飞儿对敌方全体造成少量量子属性伤害。",
-        "ja": "「ザグレウスの祝福」を獲得する。「ザグレウスの祝福」が存在している間、サフェルは敵に発見されない。敵に近づくとランダムな消耗品を獲得する。戦闘に入った時、サフェルは敵全体に少量の量子属性ダメージを与える。",
-        "ko": "[자그레우스의 축복]을 획득한다. 지속 시간 동안 적은 사이퍼를 발견할 수 없으며, 적에게 다가갈 시 랜덤 소모품을 획득한다. 전투 진입 시 사이퍼가 모든 적에게 소량의 양자 속성 피해를 가한다"
+        "zh-CN": "获得【扎格列斯的祝福】，期间敌人无法发现赛飞儿，靠近敌人时获取随机消耗品，进入战斗时赛飞儿对敌方全体造成少量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     }
   ],
   "eidolons": [
@@ -234,16 +188,12 @@
       "name": {
         "pt-BR": "Perceba o Clima, Vá Atrás da Diversão",
         "en": "Read the Room, Seek the Glee",
-        "zh-CN": "察言观色看笑脸",
-        "ja": "{RUBY_B#かんさつ}観察{RUBY_E#}、\n{RUBY_B#きかい}機会{RUBY_E#}を{RUBY_B#うかが}伺{RUBY_E#}う",
-        "ko": "바쁘게 굴러가는 눈, 목표는 웃는 얼굴"
+        "zh-CN": "察言观色看笑脸"
       },
       "description": {
         "pt-BR": "O registro de Dano de Cipher é de 150% do seu valor original. Ao usar um Ataque Extra do Talento, aumenta o ATQ de Cipher em 80%, durando por 2 rodada(s).",
         "en": "Cipher's tally of DMG is 150% of its original value. When using the Talent's Follow-Up ATK, increases Cipher's ATK by 80%, lasting for 2 turn(s).",
-        "zh-CN": "赛飞儿记录的伤害值为原记录值的150%。施放天赋的追加攻击时，赛飞儿的攻击力提高80%，持续2回合。",
-        "ja": "サフェルが記録するダメージ記録値が本来の150%になる。天賦による追加攻撃を発動する時、サフェルの攻撃力+80%、2ターン継続。",
-        "ko": "사이퍼가 기록하는 피해량이 기존 기록 수치의 150%가 된다. 특성의 추가 공격 발동 시 사이퍼의 공격력이 80% 증가한다, 지속 시간: 2턴"
+        "zh-CN": "赛飞儿记录的伤害值为原记录值的150%。施放天赋的追加攻击时，赛飞儿的攻击力提高80%，持续2回合。"
       },
       "icon": "icon/skill/1406_rank1.png",
       "materials": [{ "id": 11406, "num": 1 }],
@@ -254,16 +204,12 @@
       "name": {
         "pt-BR": "Na Confusão, Pegue sem Perdão",
         "en": "In the Fray, Nab On a Spree",
-        "zh-CN": "焦头烂额顺手牵",
-        "ja": "{RUBY_B#しょうそう}焦燥{RUBY_E#}、\n{RUBY_B#あわ}慌{RUBY_E#}てる{RUBY_B#とうぞく}盗賊{RUBY_E#}の{RUBY_B#て}手{RUBY_E#}",
-        "ko": "주머니를 쓱, 곤경을 틈탄 소매치기"
+        "zh-CN": "焦头烂额顺手牵"
       },
       "description": {
         "pt-BR": "Quando a Cipher atinge um inimigo-alvo, há uma chance-base de 120% de aumentar o Dano que ele recebe em 30%, com duração de 2 rodada(s).",
         "en": "When Cipher hits an enemy target, there is a 120% base chance to increase the DMG it receives by 30%, lasting for 2 turn(s).",
-        "zh-CN": "赛飞儿击中敌方目标时，有120%的基础概率使其受到的伤害提高30%，持续2回合。",
-        "ja": "サフェルの攻撃が敵に命中する時、120%の基礎確率でその敵の受けるダメージ+30%、2ターン継続。",
-        "ko": "사이퍼가 적 명중 시 120%의 기본 확률로 대상이 받는 피해가 30% 증가한다, 지속 시간: 2턴"
+        "zh-CN": "赛飞儿击中敌方目标时，有120%的基础概率使其受到的伤害提高30%，持续2回合。"
       },
       "icon": "icon/skill/1406_rank2.png",
       "materials": [{ "id": 11406, "num": 1 }],
@@ -274,16 +220,12 @@
       "name": {
         "pt-BR": "O Que os Olhos Não Veem, o Bolso Não Sente",
         "en": "From Thin Air, Hard to Foresee",
-        "zh-CN": "无中生有难分辨",
-        "ja": "{RUBY_B#わいきょく}歪曲{RUBY_E#}、\n{RUBY_B#む}無{RUBY_E#}から{RUBY_B#ゆう}有{RUBY_E#}を{RUBY_B#う}生{RUBY_E#}む",
-        "ko": "뒤섞인 진실과 거짓, 구별 불가"
+        "zh-CN": "无中生有难分辨"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1406_ultimate.png",
       "materials": [{ "id": 11406, "num": 1 }],
@@ -294,16 +236,12 @@
       "name": {
         "pt-BR": "Agora Você me Vê, Agora Não Vê Mais",
         "en": "The Jig Is Up, Quick to Flee",
-        "zh-CN": "东窗事发一溜烟",
-        "ja": "{RUBY_B#ひみつ}秘密{RUBY_E#}、\n{RUBY_B#あら}露{RUBY_E#}わになれば{RUBY_B#けむり}煙{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く",
-        "ko": "발각된 악행, 걸음아 날 살려라"
+        "zh-CN": "东窗事发一溜烟"
       },
       "description": {
         "pt-BR": "Após o \"Patrono\" ser atacado por um aliado-alvo, Cipher causa Dano Quântico Adicional igual a 50% do ATQ de Cipher.",
         "en": "After the \"Patron\" gets attacked by an ally target, Cipher deals Quantum Additional DMG to it equal to 50% of Cipher's ATK.",
-        "zh-CN": "【老主顾】受到我方目标攻击后，赛飞儿对其造成等同于赛飞儿50%攻击力的量子属性附加伤害。",
-        "ja": "「お得意様」が味方の攻撃を受けた後、サフェルはその敵にサフェルの攻撃力50%分の量子属性付加ダメージを与える。",
-        "ko": "[단골손님]이 아군의 공격을 받은 후, 사이퍼는 대상에게 사이퍼 공격력의 50%만큼 양자 속성 추가 피해를 가한다"
+        "zh-CN": "【老主顾】受到我方目标攻击后，赛飞儿对其造成等同于赛飞儿50%攻击力的量子属性附加伤害。"
       },
       "icon": "icon/skill/1406_rank4.png",
       "materials": [{ "id": 11406, "num": 1 }],
@@ -314,16 +252,12 @@
       "name": {
         "pt-BR": "Como Uma Raposa, Rápida e Astuta",
         "en": "Safe in Numbers, Light as a Bee",
-        "zh-CN": "狡兔三窟轻如燕",
-        "ja": "{RUBY_B#こうち}狡知{RUBY_E#}、\n{RUBY_B#に}逃{RUBY_E#}げ{RUBY_B#あしかる}足軽{RUBY_E#}く{RUBY_B#と}飛{RUBY_E#}ぶように",
-        "ko": "파놓은 토끼굴, 쏜살같이 도망"
+        "zh-CN": "狡兔三窟轻如燕"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1406_skill.png",
       "materials": [{ "id": 11406, "num": 1 }],
@@ -334,16 +268,12 @@
       "name": {
         "pt-BR": "A Melhor das Ladras é Anônima e Livre",
         "en": "The Thief's Game, Unsung and Free",
-        "zh-CN": "大盗无名天地间",
-        "ja": "{RUBY_B#だいとう}大盗{RUBY_E#}、\n{RUBY_B#な}名{RUBY_E#}も{RUBY_B#な}無{RUBY_E#}き{RUBY_B#てんち}天地{RUBY_E#}の{RUBY_B#ま}間{RUBY_E#}",
-        "ko": "세상에 이름을 남기지 않은, 대도"
+        "zh-CN": "大盗无名天地间"
       },
       "description": {
         "pt-BR": "O Dano causado pelo Ataque Extra do Talento de Cipher aumenta em 350%. Durante a contagem, um adicional de 16% do Dano que não for Dano Sobressalente causado por esse ataque é registrado. Depois que a contagem é eliminada com o uso de Perícia Suprema, 20% da contagem eliminada é recuperada.",
         "en": "The DMG dealt by Follow-Up ATK from Cipher's Talent increases by 350%. During the tally, an additional 16% of non-Overflow DMG dealt by this attack is tallied. After the tally is cleared by using Ultimate, 20% of the cleared tally is returned.",
-        "zh-CN": "赛飞儿天赋的追加攻击造成的伤害提高350%，记录时额外记录该攻击造成的非溢出伤害的16%。施放终结技清空记录值后，返还本次清除记录值的20%。",
-        "ja": "サフェルの天賦による追加攻撃ダメージ+350%。なお、このダメージを記録する際、非超過ダメージの16%分を追加で記録する。必殺技を発動してダメージ記録値がクリアされた後、その回でクリアされたダメージ記録値の20%分が返還される。",
-        "ko": "사이퍼 특성의 추가 공격이 가하는 피해가 350% 증가하고, 기록 시 추가로 해당 공격이 가하는 비초과 피해의 16%를 기록한다. 필살기를 발동하여 기록 수치가 초기화되면 이번에 초기화된 기록 수치의 20%를 반환한다"
+        "zh-CN": "赛飞儿天赋的追加攻击造成的伤害提高350%，记录时额外记录该攻击造成的非溢出伤害的16%。施放终结技清空记录值后，返还本次清除记录值的20%。"
       },
       "icon": "icon/skill/1406_rank6.png",
       "materials": [{ "id": 11406, "num": 1 }],
@@ -718,19 +648,11 @@
     {
       "id": 1406101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Passos Empíreos",
-        "en": "Empyrean Strides",
-        "zh-CN": "神行宝鞋",
-        "ja": "{RUBY_B#きん}金{RUBY_E#}のボテス",
-        "ko": "신행의 신발"
-      },
+      "name": { "pt-BR": "Passos Empíreos", "en": "Empyrean Strides", "zh-CN": "神行宝鞋" },
       "description": {
         "pt-BR": "Quando a VEL de Cipher for maior ou igual a 140/170, aumenta a Chance de CRIT em #1[i]%/#2[i]%, e a contagem ganha aumenta em #3[i]%/#4[i]%.",
         "en": "When Cipher's SPD is higher than or equal to 140/170, CRIT Rate increases by #1[i]%/#2[i]%, and the gained tally increases by #3[i]%/#4[i]%.",
-        "zh-CN": "赛飞儿的速度大于等于140/170时，暴击率提高#1[i]%/#2[i]%，获得的记录值提高#3[i]%/#4[i]%。",
-        "ja": "サフェルの速度が140/170以上の時、会心率+#1[i]%/#2[i]%、獲得するダメージ記録値+#3[i]%/#4[i]%。",
-        "ko": "사이퍼의 속도가 140/170 이상일 시 치명타 확률이 #1[i]%/#2[i]% 증가하고, 획득하는 기록 수치가 #3[i]%/#4[i]% 증가한다"
+        "zh-CN": "赛飞儿的速度大于等于140/170时，暴击率提高#1[i]%/#2[i]%，获得的记录值提高#3[i]%/#4[i]%。"
       },
       "params": [[0.25, 0.5, 0.5, 1]],
       "icon": "icon/skill/1406_skilltree1.png",
@@ -749,19 +671,11 @@
     {
       "id": 1406102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "300 Renegados",
-        "en": "300 Rogues",
-        "zh-CN": "三百侠盗",
-        "ja": "{RUBY_B#さんびゃく}三百{RUBY_E#}の{RUBY_B#ぎぞく}義賊{RUBY_E#}",
-        "ko": "300 의적"
-      },
+      "name": { "pt-BR": "300 Renegados", "en": "300 Rogues", "zh-CN": "三百侠盗" },
       "description": {
         "pt-BR": "Cipher pode registrar #1[i]% do Dano que não for Dano Verdadeiro causado pelos aliados-alvo aos inimigos-alvo, exceto o \"Patrono\". O Dano Sobressalente não é registrado.",
         "en": "Cipher can tally #1[i]% of the non-True DMG dealt by ally targets to the enemy targets other than the \"Patron.\" Overflow DMG is not tallied.",
-        "zh-CN": "赛飞儿会记录我方目标对【老主顾】以外的敌方目标造成的非真实伤害的#1[i]%，不记录溢出伤害。",
-        "ja": "サフェルは味方が「お得意様」以外の敵に与えた確定ダメージ以外のダメージの#1[i]%分を記録する。超過ダメージは記録しない。",
-        "ko": "사이퍼는 아군이 [단골손님]을 제외한 적에게 가하는 피해(확정 피해 제외)의 #1[i]%를 기록한다. 초과 피해는 기록되지 않는다"
+        "zh-CN": "赛飞儿会记录我方目标对【老主顾】以外的敌方目标造成的非真实伤害的#1[i]%，不记录溢出伤害。"
       },
       "params": [[0.08]],
       "icon": "icon/skill/1406_skilltree2.png",
@@ -785,19 +699,11 @@
     {
       "id": 1406103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Destreza Celestial",
-        "en": "Sleight of Sky",
-        "zh-CN": "偷天换日",
-        "ja": "{RUBY_B#よ}世{RUBY_E#}を{RUBY_B#あざむ}欺{RUBY_E#}く{RUBY_B#うそ}嘘{RUBY_E#}",
-        "ko": "해를 바꿔치기한 대도"
-      },
+      "name": { "pt-BR": "Destreza Celestial", "en": "Sleight of Sky", "zh-CN": "偷天换日" },
       "description": {
         "pt-BR": "Aumenta em #2[i]% o Dano CRIT causado pelo Ataque Extra do Talento. Enquanto Cipher estiver no campo de batalha, o Dano recebido por todos os inimigos-alvo aumenta em #1[i]%.",
         "en": "Increases the CRIT DMG dealt by the Talent's Follow-Up ATK by #2[i]%. When Cipher is on the battlefield, DMG received by all enemy targets increases by #1[i]%.",
-        "zh-CN": "天赋的追加攻击造成的暴击伤害提高#2[i]%。赛飞儿在场时，敌方全体目标受到的伤害提高#1[i]%。",
-        "ja": "天賦による追加攻撃の会心ダメージ+#2[i]%。サフェルがフィールド上にいる場合、敵全体の受けるダメージ+#1[i]%。",
-        "ko": "특성의 추가 공격이 가하는 치명타 피해가 #2[i]% 증가한다. 사이퍼가 필드에 있을 시 모든 적이 받는 피해가 #1[i]% 증가한다"
+        "zh-CN": "天赋的追加攻击造成的暴击伤害提高#2[i]%。赛飞儿在场时，敌方全体目标受到的伤害提高#1[i]%。"
       },
       "params": [[0.4, 1]],
       "icon": "icon/skill/1406_skilltree3.png",
@@ -821,7 +727,7 @@
     {
       "id": 1406201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -838,13 +744,7 @@
     {
       "id": 1406202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano: Quântico",
-        "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
-        "ja": "ダメージ強化・量子",
-        "ko": "피해 강화•양자"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Quântico", "en": "DMG Boost: Quantum", "zh-CN": "伤害强化•量子" },
       "icon": "icon/property/IconQuantumAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1406101],
@@ -861,7 +761,7 @@
     {
       "id": 1406203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1406202],
@@ -881,9 +781,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -901,7 +799,7 @@
     {
       "id": 1406205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1406102],
@@ -918,13 +816,7 @@
     {
       "id": 1406206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano: Quântico",
-        "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
-        "ja": "ダメージ強化・量子",
-        "ko": "피해 강화•양자"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Quântico", "en": "DMG Boost: Quantum", "zh-CN": "伤害强化•量子" },
       "icon": "icon/property/IconQuantumAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1406205],
@@ -941,7 +833,7 @@
     {
       "id": 1406207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1406206],
@@ -961,9 +853,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -981,13 +871,7 @@
     {
       "id": 1406209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano: Quântico",
-        "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
-        "ja": "ダメージ強化・量子",
-        "ko": "피해 강화•양자"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Quântico", "en": "DMG Boost: Quantum", "zh-CN": "伤害强化•量子" },
       "icon": "icon/property/IconQuantumAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1406103],
@@ -1004,7 +888,7 @@
     {
       "id": 1406210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1406201],

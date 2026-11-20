@@ -1,7 +1,7 @@
 {
   "id": 44,
   "type": "BaseDefence",
-  "name": { "pt-BR": "DEF Base", "en": "Base DEF", "zh-CN": "基础防御力", "ja": "基礎防御力", "ko": "기초 방어력" },
+  "name": { "pt-BR": "DEF Base", "en": "Base DEF", "zh-CN": "基础防御力" },
   "icon": "icon/property/IconDefence.png",
   "percent": false
 }

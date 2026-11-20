@@ -1,13 +1,7 @@
 {
   "id": 23056,
   "slug": "the-finale-of-a-lie",
-  "name": {
-    "pt-BR": "O Fim de uma Mentira",
-    "en": "The Finale of a Lie",
-    "zh-CN": "一场谎言的终幕",
-    "ja": "或る嘘の終幕",
-    "ko": "거짓말의 종막"
-  },
+  "name": { "pt-BR": "O Fim de uma Mentira", "en": "The Finale of a Lie", "zh-CN": "一场谎言的终幕" },
   "rarity": 5,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "\"O que a \"Introdução à Dedução Investigativa' dizia mesmo? A menos que seja absolutamente necessário...\"\nPresas tecidas em vermelho e negro rastejaram, centímetro a centímetro, por seu ombro.\nOnde a noite se afoga mais fundo, nuvens de dúvida emergem. Na floresta envolta em sombras, feras cruéis espreitam.\n\"Este jogo de gato e rato... está na hora de acabar.\"\nO carmesim se dissipa. O luar ainda reluz prateado pelo céu, e as estrelas repousam em um sono sereno.\nEsta é mais uma de suas buscas pela verdade, mas as sombras do passado tocam seu ombro, e então, se desfazem no nada.\nAs manobras deste exato momento continuam, até que...\n\"Até que... o dia em que a retribuição recaia sobre os perversos.\"",
     "en": "\"What did Introduction to Detective Deduction say again? Unless absolutely necessary...\"\nFangs woven in red and black crept inch by inch up his shoulder.\nWhere the night drowns deepest, clouds of doubt emerge. In the shadowed forest, vicious beasts lurk.\n\"This game of cat and mouse... it's time to end it.\"\nThe crimson fades. Moonlight still gleams silver across the sky, and the stars rest in peaceful slumber.\nThis is yet another one of his searches for the truth, but the shadows of the past tap his shoulder, then dissipate into nothing.\nThe maneuvering of this very moment continues, until—\n\"Until... the day retribution falls upon the wicked.\"",
-    "zh-CN": "「《侦探推理入门》是怎么说的来着？非到不得已之时……」\n红与黑交织的獠牙，正一寸寸攀上肩头。\n夜色沉溺之处，疑云涌现。幽暗的森林中，恶兽藏匿。\n「你追我赶的游戏，该结束了。」\n血色褪去，天幕上月光依旧皎洁，星星安然沉睡。 \n这是他对真相的又一次寻索，但过去的影子拍拍他的肩膀，随之消散而去。\n今时此刻的周旋，直到——\n「直到…为罪恶降下惩罚的那天。」",
-    "ja": "「『探偵推理入門』の記述はどうだったかな？やむを得ない場合を除き……」\n赤と黒が混じり合う牙が、じりじりと肩へ這い上がる。\n夜闇に沈む場所で疑惑の雲が湧き上がり、薄暗い森には悪獣が潜む。\n「追いかけっこは、もうおしまいだ」\n血の色は薄れ、月光は相も変わらず夜空に輝き、星々は安らかに眠る。\nそれは、彼が再び真実へ辿り着くための旅路。しかし過去はその肩を叩いて消えていく。\n駆け引きの瞬間は続く、いつか——\n「罪に罰が下される…その日まで」",
-    "ko": "「≪탐정 추리 입문≫에서 뭐라고 했더라? 정말 부득이한 경우가 아니라면……」\n붉은색과 검은색이 뒤엉킨 송곳니가, 어깨 위로 조금씩 타고 오른다.\n밤빛이 깊게 잠긴 곳에 의구심이 피어오르고, 어둑한 숲속에는 사나운 짐승이 숨어 있다.\n「쫓고 쫓기는 이 게임, 이제 끝낼 때가 됐어」\n핏빛이 가시고, 하늘 위 달빛은 여전히 교결하며, 별들은 고이 잠들어 있다.\n이것은 진상을 향한 그의 또 한 번의 탐색이다. 하지만 과거의 그림자가 그의 어깨를 두드리더니, 이내 흩어져 사라졌다.\n지금 이 순간의 대치는, 계속 이어질 것이다——\n「……죄악에 징벌을 내리는, 그날까지」"
+    "zh-CN": "「《侦探推理入门》是怎么说的来着？非到不得已之时……」\n红与黑交织的獠牙，正一寸寸攀上肩头。\n夜色沉溺之处，疑云涌现。幽暗的森林中，恶兽藏匿。\n「你追我赶的游戏，该结束了。」\n血色褪去，天幕上月光依旧皎洁，星星安然沉睡。 \n这是他对真相的又一次寻索，但过去的影子拍拍他的肩膀，随之消散而去。\n今时此刻的周旋，直到——\n「直到…为罪恶降下惩罚的那天。」"
   },
   "skill": {
-    "name": { "pt-BR": "Subsumir", "en": "Subsume", "zh-CN": "吞没", "ja": "呑噬", "ko": "잠식" },
+    "name": { "pt-BR": "Subsumir", "en": "Subsume", "zh-CN": "吞没" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. No início da batalha ou a cada #2[i] Ataque(s) Extra usado(s) pelo usuário, o usuário ganha \"Devorador de Umbra\", que dura por #3[i] rodada(s). Enquanto o usuário possuir \"Devorador de Umbra\", aumenta o ATQ em #4[i]% e aumenta o Dano recebido por todos os inimigos em #5[i]%. Efeitos do mesmo tipo não podem acumular.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. At the start of battle or for every #2[i] instance(s) of Follow-Up ATK the wearer uses, the wearer gains \"Umbra Devourer,\" lasting for #3[i] turn(s). While the wearer holds \"Umbra Devourer,\" increases ATK by #4[i]% and increases the DMG taken by all enemies by #5[i]%. Effects of the same type cannot stack.",
-      "zh-CN": "使装备者的暴击率提高#1[i]%。战斗开始时或装备者每累计施放#2[i]次追加攻击，使装备者获得【影噬】，持续#3[i]回合。当装备者持有【影噬】时，攻击力提高#4[i]%，并使敌方全体受到的伤害提高#5[i]%，同类效果无法叠加。",
-      "ja": "装備キャラの会心率+#1[i]%。戦闘開始時、または装備キャラが追加攻撃を累計#2[i]回発動するたびに、装備キャラに「影喰い」を付与する、#3[i]ターン継続。装備キャラが「影喰い」を持つ時、攻撃力+#4[i]%、敵全体の受けるダメージ+#5[i]%。同系統のスキルは累積できない。",
-      "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 전투 시작 시 또는 장착한 캐릭터가 추가 공격을 누적 #2[i]회 발동할 때마다 장착한 캐릭터는 [그림자 포식]을 획득한다, 지속 시간: #3[i]턴. 장착한 캐릭터가 [그림자 포식] 보유 시, 공격력이 #4[i]% 증가하고, 모든 적이 받는 피해를 #5[i]% 증가시키며, 같은 유형의 효과는 중첩되지 않는다"
+      "zh-CN": "使装备者的暴击率提高#1[i]%。战斗开始时或装备者每累计施放#2[i]次追加攻击，使装备者获得【影噬】，持续#3[i]回合。当装备者持有【影噬】时，攻击力提高#4[i]%，并使敌方全体受到的伤害提高#5[i]%，同类效果无法叠加。"
     },
     "params": [
       [0.18, 4, 3, 0.4, 0.2],

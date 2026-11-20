@@ -1,7 +1,7 @@
 {
   "id": 20003,
   "slug": "amber",
-  "name": { "pt-BR": "Âmbar", "en": "Amber", "zh-CN": "琥珀", "ja": "琥珀", "ko": "앰버" },
+  "name": { "pt-BR": "Âmbar", "en": "Amber", "zh-CN": "琥珀" },
   "rarity": 3,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -9,18 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino.\n\"Só é capaz de sobreviver ao tempo quem não sofre o efeito do tempo.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"Only those who aren't affected by time can survive in time.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「只有不受时光局限的事物，才能在时光中长生久传。」",
-    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「時間に縛られないものだけが、時間を超えて存在し続けられる」",
-    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「시간에 속박되지 않은 것만이 세월의 흐름에서 영원하리」"
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「只有不受时光局限的事物，才能在时光中长生久传。」"
   },
   "skill": {
-    "name": { "pt-BR": "Estase", "en": "Stasis", "zh-CN": "静滞", "ja": "停滞", "ko": "정체" },
+    "name": { "pt-BR": "Estase", "en": "Stasis", "zh-CN": "静滞" },
     "description": {
       "pt-BR": "Aumenta a DEF do usuário em #1[i]%. Se a porcentagem dos PV atuais do usuário for inferior a #2[i]%, aumenta sua DEF em mais #3[i]%.",
       "en": "Increases the wearer's DEF by #1[i]%. If the wearer's current HP percentage is lower than #2[i]%, increases their DEF by a further #3[i]%.",
-      "zh-CN": "使装备者的防御力提高#1[i]%。当装备者当前生命值百分比小于#2[i]%时，其防御力额外提高#3[i]%。",
-      "ja": "装備キャラの防御力+#1[i]%。装備キャラの残りHPが#2[i]%未満の場合、さらに防御力+#3[i]%。",
-      "ko": "장착한 캐릭터의 방어력이 #1[i]% 증가한다. 장착한 캐릭터의 현재 HP 백분율이 #2[i]% 미만일 경우 방어력이 추가로 #3[i]% 증가한다"
+      "zh-CN": "使装备者的防御力提高#1[i]%。当装备者当前生命值百分比小于#2[i]%时，其防御力额外提高#3[i]%。"
     },
     "params": [[0.16, 0.5, 0.16], [0.2, 0.5, 0.2], [0.24, 0.5, 0.24], [0.28, 0.5, 0.28], [0.32, 0.5, 0.32]],
     "properties": [

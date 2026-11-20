@@ -1,13 +1,7 @@
 {
   "id": 21043,
   "slug": "concert-for-two",
-  "name": {
-    "pt-BR": "Concerto para Dois",
-    "en": "Concert for Two",
-    "zh-CN": "两个人的演唱会",
-    "ja": "二人だけのコンサート",
-    "ko": "두 사람의 콘서트"
-  },
+  "name": { "pt-BR": "Concerto para Dois", "en": "Concert for Two", "zh-CN": "两个人的演唱会" },
   "rarity": 4,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "\"Irmãozão, o quê é isso...?\"\n\"Já faz muito tempo desde que você cantou com alegria... Eu montei um palco para você. Só é... meio simples\".\n\"Mas a professora acha que eu não combino com...\"\n\"Não, eu acho que você soa muito bem! No futuro, seus sonhos com certeza vão se realizar, e você vai se apresentar num palco muito maior...\"\n...\nMuitos anos depois, ela subiu em um palco deslumbrante, olhando para a onda de fãs abaixo, mas se perdeu por um momento...\nNa longa jornada de perseguir seus sonhos, ela sempre se lembrava daquele olhar confiante e do seu primeiro \"show\".\nNenhuma luz glamourosa, nenhuma maquiagem elaborada, só uma criança construindo um palco para encorajar outra criança a perseguir seus sonhos.\n\"Agora, nossos sonhos se realizaram. Mas... eles ainda são 'nossos' sonhos?\"\nEla segurou o microfone. Antes da próxima canção começar, ela não teve sequer tempo de se sentir triste.",
     "en": "\"Big brother, what's this...\"\n\"It's been so long since you sang with joy... I've built a stage for you, though it's... a bit rudimentary.\"\n\"But the teacher thinks I'm not cut out for this...\"\n\"Nonsense, I think you sound amazing! And your dreams will definitely come true. You deserve to sing on a bigger stage...\"\n...\nMany years later, she stood on a dazzling stage, looking at the surging fans below, but lost herself for a moment...\nOn the long journey of chasing dreams, she would always remember that trusting gaze and her first \"concert.\"\nNo glamorous lights, no elaborate makeup, just a child building a stage to encourage another child to pursue their dreams.\n\"Now, our dreams have come true. But... are they still 'our' dreams?\"\nShe tightened her grip on the microphone. Before the next song began, she didn't even have time to feel sad.",
-    "zh-CN": "「哥哥，这是……」 \n「好久没有快乐地唱过歌了吧…我为你搭了一座舞台，就是…有点简陋。」 \n「可老师觉得我不适合……」 \n「不，我觉得很好听！以后你一定会实现自己的梦想，站在更大的舞台上歌唱……」 \n……\n许多年之后，她站在璀璨的舞台上，望着底下汹涌的粉丝，却失神了片刻——\n在漫长的追梦路上，她总会想起那道信任的目光，和自己的第一场「演唱会」。\n没有绚丽的灯光，没有华美的妆造，有的只是一个孩子为了鼓励另一个孩子追求梦想而搭建起的舞台。\n「如今，我们的梦都实现了。但…那还是属于『我们』的梦吗……」 \n她握紧了话筒。在下一首歌开始之前，她甚至来不及感到悲伤。",
-    "ja": "「お兄ちゃん、これは……」 \n「ここのところ、ずっと楽しく歌う機会がなかったよね…だから、ステージを用意したんだ。ちょっと…粗末だけど」 \n「でも、私には向いてないって先生が……」 \n「ううん、ボクはキミの歌が大好きだよ！ロビンの夢はきっと叶う。将来はもっと大きなステージで歌うんだ……」 \n……\n何年も経ち、彼女は輝く舞台の上に立った。大勢のファンを見下ろし、彼女は一瞬呆然としてしまう——\n夢を追う長い時間の中でも、彼女は一時も忘れたことがなかった。あの信頼に満ちた眼差しと、自分の初めての「コンサート」を。\n華やかな照明はなく、絢爛なステージメイクもしていない。あったのは、ただ1人の子供が、もう1人の子供の夢のために作ったステージだけ。\n「私たちの夢は叶った。だけど…それはまだ『私たち』の夢と言えるの…？」 \n彼女はマイクを握りしめる。次の歌が始まるまで、彼女には感傷に浸る時間さえなかった。",
-    "ko": "「오빠, 이건……」\n「요새 즐겁게 노래한 적이 없잖아. 널 위해 무대를 만들었어. 좀… 초라하지만」\n「하지만 선생님은 나와 안 맞는다고 하셨는걸……」\n「그렇지 않아, 난 네 노래가 좋거든! 언젠간 너의 꿈을 이루고, 더 큰 무대에서 노래하게 될 거야……」\n……\n수년이 흘러 반짝이는 무대 위에 선 그녀는 무대 아래 수많은 팬들을 내려다보던 중 잠시 다른 생각에 잠겼다——\n꿈을 좇는 기나긴 길에서 그녀는 그 믿음의 눈빛과 자신의 첫 번째 「콘서트」를 잊은 적이 없다.\n화려한 조명도 메이크업도 없이, 단지 한 아이가 꿈을 좇는 다른 아이를 위해 만들어 준 무대만이 있을 뿐이었다.\n「이제 우리의 꿈이 모두 이루어졌어. 하지만… 그걸 여전히 『우리』의 꿈이라고 할 수 있을까…?」\n그녀는 마이크를 꽉 쥐었다. 다음 노래를 시작하기 전, 그녀는 슬픔을 느낄 겨를조차 없었다"
+    "zh-CN": "「哥哥，这是……」 \n「好久没有快乐地唱过歌了吧…我为你搭了一座舞台，就是…有点简陋。」 \n「可老师觉得我不适合……」 \n「不，我觉得很好听！以后你一定会实现自己的梦想，站在更大的舞台上歌唱……」 \n……\n许多年之后，她站在璀璨的舞台上，望着底下汹涌的粉丝，却失神了片刻——\n在漫长的追梦路上，她总会想起那道信任的目光，和自己的第一场「演唱会」。\n没有绚丽的灯光，没有华美的妆造，有的只是一个孩子为了鼓励另一个孩子追求梦想而搭建起的舞台。\n「如今，我们的梦都实现了。但…那还是属于『我们』的梦吗……」 \n她握紧了话筒。在下一首歌开始之前，她甚至来不及感到悲伤。"
   },
   "skill": {
-    "name": { "pt-BR": "Inspirar", "en": "Inspire", "zh-CN": "鼓舞", "ja": "声援", "ko": "격려" },
+    "name": { "pt-BR": "Inspirar", "en": "Inspire", "zh-CN": "鼓舞" },
     "description": {
       "pt-BR": "Aumenta a DEF do usuário em #1[i]%. Para cada personagem com um Escudo em campo, o Dano causado pelo usuário aumenta em #2[i]%.",
       "en": "Increases the wearer's DEF by #1[i]%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by #2[i]%.",
-      "zh-CN": "使装备者的防御力提高#1[i]%。场上每有一名持有护盾的角色，装备者造成的伤害提高#2[i]%。",
-      "ja": "装備キャラの防御力+#1[i]%。フィールド上にいるバリアを持つ味方1名につき、装備キャラの与ダメージ+#2[i]%。",
-      "ko": "장착한 캐릭터의 방어력이 #1[i]% 증가한다. 필드 위에 실드를 보유한 캐릭터가 1명 있을 때마다 장착한 캐릭터가 가하는 피해가 #2[i]% 증가한다"
+      "zh-CN": "使装备者的防御力提高#1[i]%。场上每有一名持有护盾的角色，装备者造成的伤害提高#2[i]%。"
     },
     "params": [[0.16, 0.04], [0.2, 0.05], [0.24, 0.06], [0.28, 0.07], [0.32, 0.08]],
     "properties": [

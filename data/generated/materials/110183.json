@@ -1,13 +1,7 @@
 {
   "id": 110183,
   "slug": "moon-rage-fang",
-  "name": {
-    "pt-BR": "Canino de Loucura da Lua",
-    "en": "Moon Rage Fang",
-    "zh-CN": "月狂獠牙",
-    "ja": "月狂いの凶牙",
-    "ko": "달의 광기 이빨"
-  },
+  "name": { "pt-BR": "Canino de Loucura da Lua", "en": "Moon Rage Fang", "zh-CN": "月狂獠牙" },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -25,8 +19,6 @@
       "Sintetizador Omni — Síntese de Material",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["拟造花萼【鳞渊境】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
-    "ja": ["疑似花萼「鱗淵境」", "「万能合成マシン」- 素材合成", "「万能合成マシン」- 素材交換"],
-    "ko": ["모조 꽃받침 [인연경]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【鳞渊境】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"]
   }
 }

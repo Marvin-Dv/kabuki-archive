@@ -1,7 +1,7 @@
 {
   "id": 1405,
   "slug": "anaxa",
-  "name": { "pt-BR": "Anaxa", "en": "Anaxa", "zh-CN": "那刻夏", "ja": "アナイクス", "ko": "아낙사" },
+  "name": { "pt-BR": "Anaxa", "en": "Anaxa", "zh-CN": "那刻夏" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Wind",
@@ -11,19 +11,11 @@
     {
       "id": 140501,
       "type": "Basic",
-      "name": {
-        "pt-BR": "O Tormento Gera a Verdade",
-        "en": "Pain, Brews Truth",
-        "zh-CN": "楚痛，酿造实识",
-        "ja": "苦痛、認識の造成",
-        "ko": "참된 지식을 빚어내는 고통"
-      },
+      "name": { "pt-BR": "O Tormento Gera a Verdade", "en": "Pain, Brews Truth", "zh-CN": "楚痛，酿造实识" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Anaxa a um inimigo designado.",
         "en": "Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于那刻夏#1[i]%攻击力的风属性伤害。",
-        "ja": "指定した敵単体にアナイクスの攻撃力#1[i]%分の風属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 아낙사 공격력의 #1[i]%만큼 바람 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于那刻夏#1[i]%攻击力的风属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1405_basic_atk.png",
@@ -31,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
-        "ja": "敵単体に少量の風属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量风属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 140502,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Fractais Exilam a Falácia",
-        "en": "Fractal, Exiles Fallacy",
-        "zh-CN": "分形，驱逐虚知",
-        "ja": "分形、誤謬の駆逐",
-        "ko": "헛된 지식을 몰아내는 프랙털"
-      },
+      "name": { "pt-BR": "Fractais Exilam a Falácia", "en": "Fractal, Exiles Fallacy", "zh-CN": "分形，驱逐虚知" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Anaxa a um inimigo designado e causa adicionalmente #2[i] instância(s) de Dano. Cada instância causa Dano de Vento igual a #1[i]% da ATQ de Anaxa a um inimigo aleatório, priorizando Ricochetear para inimigos-alvo não atingidos por esta instância de Perícia.\nAo ser usada, para cada inimigo que pode ser atacado em Campo, esta Perícia tem seu Dano causado aumentado em #3[i]%.",
         "en": "Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy and additionally deals #2[i] instance(s) of DMG. Each instance of DMG deals Wind DMG equal to #1[i]% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.\nWhen used, for each attackable enemy on the field, this Skill has its DMG dealt increased by #3[i]%.",
-        "zh-CN": "对指定敌方单体造成等同于那刻夏#1[i]%攻击力的风属性伤害，并额外造成#2[i]次伤害。每次伤害对敌方随机单体造成等同于那刻夏#1[i]%攻击力的风属性伤害，优先弹射本次战技尚未击中过的敌方目标。\n施放时场上每有1个可攻击的敌方目标，本次战技造成的伤害提高#3[i]%。",
-        "ja": "指定した敵単体にアナイクスの攻撃力#1[i]%分の風属性ダメージを与え、さらに#2[i]ヒットする。1ヒットごとに、ランダムな敵単体にアナイクスの攻撃力#1[i]%分の風属性ダメージを与える。バウンドはその回の戦闘スキルの攻撃を受けていない敵が優先される。\n発動時、フィールド上に攻撃可能な敵が1体いるごとに、その回の戦闘スキルによるダメージ+#3[i]%。",
-        "ko": "지정된 단일 적에게 아낙사 공격력의 #1[i]%만큼 바람 속성 피해를 가하고, 추가로 피해를 #2[i]회 가한다. 피해를 가할 때마다 랜덤 단일 적에게 아낙사 공격력의 #1[i]%만큼 바람 속성 피해를 가하며, 이번 전투 스킬에 명중되지 않은 적에게 우선으로 바운스한다.\n발동 시 필드 위에 공격 가능한 적이 1기 있을 때마다 이번 전투 스킬로 가하는 피해가 #3[i]% 증가한다"
+        "zh-CN": "对指定敌方单体造成等同于那刻夏#1[i]%攻击力的风属性伤害，并额外造成#2[i]次伤害。每次伤害对敌方随机单体造成等同于那刻夏#1[i]%攻击力的风属性伤害，优先弹射本次战技尚未击中过的敌方目标。\n施放时场上每有1个可攻击的敌方目标，本次战技造成的伤害提高#3[i]%。"
       },
       "params": [
         [0.35, 4, 0.2],
@@ -77,12 +59,10 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um inimigo que é Rebatido 5 vezes no total, priorizando o Rebote para alvos que não tenham sido atingidos. Quanto mais inimigos-alvo estiverem no campo de batalha, maior será o Dano.",
         "en": "Deals minor Wind DMG to one enemy and Bounces 5 times in total, prioritizing Bouncing to targets that have not been hit. The more enemy targets on the battlefield, the higher the DMG.",
-        "zh-CN": "对敌方单体造成少量风属性伤害，共弹射5次，优先弹射未击中的目标。场上敌方目标越多造成的伤害越高。",
-        "ja": "敵単体に少量の風属性ダメージを与え、5回バウンドする。バウンドはその回の戦闘スキルの攻撃を受けていない敵が優先される。フィールドの敵が多いほど、与ダメージがアップする。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가하고, 총 5회 바운스한다. 명중하지 않은 목표에게 우선으로 바운스한다. 필드 위에 적이 많을수록 가하는 피해가 증가한다"
+        "zh-CN": "对敌方单体造成少量风属性伤害，共弹射5次，优先弹射未击中的目标。场上敌方目标越多造成的伤害越高。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射" }
     },
     {
       "id": 140503,
@@ -90,16 +70,12 @@
       "name": {
         "pt-BR": "O Surgimento da Vida Esculpe a Terra",
         "en": "Sprouting Life Sculpts Earth",
-        "zh-CN": "生息破土，世界塑造",
-        "ja": "化育、世界の創造",
-        "ko": "대지를 뚫고 나온 생명, 창조된 세계"
+        "zh-CN": "生息破土，世界塑造"
       },
       "description": {
         "pt-BR": "Inflige o estado de \"Sublimação\" a todos os inimigos e, em seguida, causa Dano de Vento igual a #1[i]% do ATQ de Anaxa a todos os inimigos.\nNo estado de \"Sublimação\", os alvos serão simultaneamente infligidos com Fraqueza contra Físico, Fogo, Gelo, Raio, Vento, Quântico e Imaginário, com duração até o início da rodada dos alvos. Se os alvos não tiverem RES a Controle, eles não poderão agir enquanto estiverem no estado de \"Sublimação\".",
         "en": "Inflicts the \"Sublimation\" state on all enemies, then deals Wind DMG equal to #1[i]% of Anaxa's ATK to all enemies.\nIn the \"Sublimation\" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the \"Sublimation\" state.",
-        "zh-CN": "使敌方全体陷入【升华】状态，随后对敌方全体造成等同于那刻夏#1[i]%攻击力的风属性伤害。\n【升华】状态下，目标同时被添加物理、火、冰、雷、风、量子、虚数属性弱点，持续至目标回合开始时。若目标不具有控制抵抗，则【升华】状态下无法行动。",
-        "ja": "敵全体を「昇華」状態にした後、アナイクスの攻撃力#1[i]%分の風属性ダメージを与える。\n「昇華」状態の敵は、物理、炎、氷、雷、風、量子、虚数属性を弱点として付与される。この効果はその敵のターンが回ってくるまで継続。敵が行動制限抵抗を持たない場合、「昇華」状態での行動はできない。",
-        "ko": "모든 적을 [승화] 상태에 빠트리고, 이후 모든 적에게 아낙사 공격력의 #1[i]%만큼 바람 속성 피해를 가한다.\n[승화] 상태에서 목표는 동시에 물리, 화염, 얼음, 번개, 바람, 양자, 허수 속성 약점이 부여되며, 목표의 턴이 시작될 때까지 지속된다. 목표가 제어 저항을 보유하지 않았을 경우 [승화] 상태에서는 행동할 수 없다"
+        "zh-CN": "使敌方全体陷入【升华】状态，随后对敌方全体造成等同于那刻夏#1[i]%攻击力的风属性伤害。\n【升华】状态下，目标同时被添加物理、火、冰、雷、风、量子、虚数属性弱点，持续至目标回合开始时。若目标不具有控制抵抗，则【升华】状态下无法行动。"
       },
       "params": [
         [0.8],
@@ -123,12 +99,10 @@
       "summary": {
         "pt-BR": "Inflige \"Sublimação\" a todos os inimigos e causa Dano de Vento. No estado de \"Sublimação\", os alvos serão simultaneamente infligidos com 7 tipos de Fraqueza e não poderão agir se não tiverem RES a Controle.",
         "en": "Inflicts \"Sublimation\" on all enemies and deals Wind DMG. In the \"Sublimation\" state, targets will be simultaneously inflicted with 7 types of Weaknesses, and can't take action if they do not have Control RES.",
-        "zh-CN": "对敌方全体施加【升华】并造成风属性伤害。【升华】状态下，目标同时被添加7种属性弱点，若不具有控制抵抗则无法行动。",
-        "ja": "敵全体に「昇華」状態を付与し、風属性ダメージを与える。「昇華」状態の敵は7つの弱点属性を付与され、行動制限抵抗がない場合は行動できなくなる。",
-        "ko": "모든 적에게 [승화]를 부여하고 바람 속성 피해를 가한다. [승화] 상태의 목표는 동시에 7가지 약점 속성이 부여되며, 제어 저항이 없으면 행동할 수 없다"
+        "zh-CN": "对敌方全体施加【升华】并造成风属性伤害。【升华】状态下，目标同时被添加7种属性弱点，若不具有控制抵抗则无法行动。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 140504,
@@ -136,16 +110,12 @@
       "name": {
         "pt-BR": "A Sabedoria Tétrade Reina Três Vezes",
         "en": "Tetrad Wisdom Reigns Thrice",
-        "zh-CN": "四分明哲，三重至高",
-        "ja": "四智、三重の無上",
-        "ko": "네 가지 명철함, 세 번의 위대함"
+        "zh-CN": "四分明哲，三重至高"
       },
       "description": {
         "pt-BR": "Sempre que Anaxa acerta 1 golpe em inimigos-alvo, inflige 1 Fraqueza de um Tipo aleatório aos alvos, com duração de #2[i] rodada(s), com prioridade para o Tipo de Fraqueza que o alvo ainda não possui.\nEnquanto Anaxa estiver em campo, inflige o estado de \"Revelação da Essência\" aos inimigos-alvo que possuírem pelo menos #3[i] Tipos de Fraqueza diferentes. Anaxa causa #1[i]% a mais de Dano contra alvos afetados pelo estado de \"Revelação da Essência\". Além disso, após usar o ATQ Básico ou a Perícia nesses alvos, executa 1 instância adicional da Perícia contra eles. Essa Perícia adicional não consome Pontos de Perícia e não pode ativar esse efeito novamente. Se o alvo for derrotado antes da Perícia adicional ser usada, ela será utilizada contra um inimigo aleatório.",
         "en": "Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for #2[i] turn(s), with priority to the Weakness Type that the target doesn't already possess.\nWhile Anaxa is on the field, inflicts the \"Qualitative Disclosure\" state on enemy targets that have at least #3[i] different Types of Weaknesses. Anaxa deals #1[i]% increased DMG to targets afflicted with the \"Qualitative Disclosure\" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.",
-        "zh-CN": "每当那刻夏击中1次敌方目标后，为目标添加1个随机属性弱点，持续#2[i]回合，优先添加目标尚未拥有的弱点。\n那刻夏在场时，使拥有至少#3[i]个不同属性弱点的敌方目标陷入【质性揭露】状态。那刻夏对处于【质性揭露】状态的目标造成的伤害提高#1[i]%，此外对其施放普攻或战技后，对该目标额外施放1次战技。额外战技不消耗战技点且不会再次触发此效果。若额外战技施放前目标被消灭则对敌方随机单体施放。",
-        "ja": "アナイクスの攻撃が敵に1回命中するたびに、ターゲットに弱点属性をランダムで1つ付与する。#2[i]ターン継続。この時ターゲットが持っていない弱点属性を優先的に付与する。\nアナイクスがフィールドにいる時、異なる弱点属性を#3[i]つ以上持つ敵は「本質暴露」状態になる。「本質暴露」状態の敵に対して、アナイクスの与ダメージ+#1[i]%。さらにアナイクスが「本質暴露」状態の敵に通常攻撃または戦闘スキルを発動した後、ターゲットに戦闘スキルを追加で1回発動する。なお、追加の戦闘スキルはSPが消費されず、この効果も再度発動されない。追加の戦闘スキルを発動する前にターゲットが倒された場合、ランダムな敵単体に対して発動する。",
-        "ko": "아낙사가 적을 1회 명중할 때마다 목표에게 랜덤 속성 약점을 1개 부여한다, 지속 시간: #2[i]턴. 목표가 보유하지 않은 약점을 우선으로 부여한다.\n아낙사가 필드에 있을 시, 최소 #3[i]가지 다른 속성 약점을 보유한 적을 [성질 발로] 상태에 빠트린다. 아낙사가 [성질 발로] 상태의 목표에게 가하는 피해가 #1[i]% 증가하고, 또한 대상에게 일반 공격 또는 전투 스킬을 발동하면 해당 목표에게 추가로 전투 스킬을 1회 발동한다. 추가 전투 스킬은 전투 스킬 포인트를 소모하지 않으며, 해당 효과를 다시 발동하지 않는다. 만약 추가 전투 스킬 발동 전에 목표가 처치되면 랜덤 단일 적에게 발동한다"
+        "zh-CN": "每当那刻夏击中1次敌方目标后，为目标添加1个随机属性弱点，持续#2[i]回合，优先添加目标尚未拥有的弱点。\n那刻夏在场时，使拥有至少#3[i]个不同属性弱点的敌方目标陷入【质性揭露】状态。那刻夏对处于【质性揭露】状态的目标造成的伤害提高#1[i]%，此外对其施放普攻或战技后，对该目标额外施放1次战技。额外战技不消耗战技点且不会再次触发此效果。若额外战技施放前目标被消灭则对敌方随机单体施放。"
       },
       "params": [
         [0.18, 3, 5],
@@ -169,50 +139,36 @@
       "summary": {
         "pt-BR": "Ao atingir inimigos-alvo, inflige 1 Fraqueza aleatória. Inimigos cujas Fraquezas chegam a 5, são infligidos com \"Revelação da Essência\". Anaxa causa Dano aumentado a alvos nesse estado. Após usar ATQ Básico ou Perícia neles, executa 1 instância adicional de Perícia sem custo.",
         "en": "After hitting enemy targets, inflicts 1 random Weakness. Enemies whose Weaknesses reach 5 get inflicted with \"Qualitative Disclosure.\" Anaxa deals increased DMG to targets in the \"Qualitative Disclosure\" state. After Anaxa uses Basic ATK or Skill on them, unleashes 1 additional instance of Skill without consumption.",
-        "zh-CN": "击中敌方目标后，添加1个随机弱点。弱点数量达到5的敌方目标陷入【质性揭露】。那刻夏对处于【质性揭露】状态的目标造成的伤害提高，对其施放普攻或战技后额外施放1次无消耗的战技。",
-        "ja": "攻撃が敵に命中した後、弱点属性をランダムに1つ付与する。弱点属性の数が5に達した時、敵は「本質暴露」状態になる。また、この状態の敵に対して、アナイクスの与ダメージがアップする。さらにこの状態の敵に通常攻撃または戦闘スキルを発動した後、追加で1回SPを消費しない戦闘スキルを発動する。",
-        "ko": "적 명중 후 랜덤 약점을 1개 부여한다. 약점이 5개가 된 적은 [성질 발로]에 빠진다. 아낙사는 [성질 발로] 상태의 목표에게 가하는 피해가 증가하며, 대상에게 일반 공격 또는 전투 스킬을 발동한 후 추가로 소모 없는 전투 스킬을 1회 발동한다"
+        "zh-CN": "击中敌方目标后，添加1个随机弱点。弱点数量达到5的敌方目标陷入【质性揭露】。那刻夏对处于【质性揭露】状态的目标造成的伤害提高，对其施放普攻或战技后额外施放1次无消耗的战技。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害" }
     },
     {
       "id": 140506,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo e, quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1405_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo e, quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 140507,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Pupila Prismática",
-        "en": "Prism of the Pupil",
-        "zh-CN": "瞳扉之彩",
-        "ja": "瞳の中の色彩",
-        "ko": "눈동자의 색채"
-      },
+      "name": { "pt-BR": "Pupila Prismática", "en": "Prism of the Pupil", "zh-CN": "瞳扉之彩" },
       "description": {
         "pt-BR": "Após usar a Técnica, inflige o estado \"Em Pânico\" aos inimigos em uma área determinada. Inimigos infligidos com \"Em Pânico\" fugirão em uma direção oposta à de Anaxa por #1[i] segundo(s). Quando aliados entrarem em batalha ao atacar ativamente um inimigo infligido com \"Em Pânico\", isso será sempre considerado como entrar em batalha por meio do ataque a uma Fraqueza. Após entrar em batalha, Anaxa aplica 1 Fraqueza do Tipo do atacante a cada inimigo-alvo, com duração de #2[i] rodada(s).",
         "en": "After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for #1[i] second(s). When allies enter combat via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for #2[i] turn(s).",
-        "zh-CN": "使用秘技后使一定区域内的敌人陷入恐惧状态。恐惧状态下的敌人会向远离那刻夏的方向逃跑，持续#1[i]秒。我方主动攻击陷入恐惧状态的敌人总会视为利用弱点进入战斗，进入战斗后那刻夏为敌方每个单体目标添加1个攻击者属性的弱点，持续#2[i]回合。",
-        "ja": "秘技を使用した後、一定範囲内の敵を恐怖状態にする。恐怖状態の敵はアナイクスから離れていく。#1[i]秒間継続。味方が恐怖状態の敵を攻撃した時、敵の弱点を攻撃して戦闘に入ったものと見なされる。戦闘に入った後、アナイクスは敵それぞれに攻撃者の属性を弱点属性として1つ付与する。#2[i]ターン継続。",
-        "ko": "비술 사용 후 일정 구역 내의 적을 공포 상태에 빠트린다. 공포 상태의 적은 아낙사에게서 도망친다, 지속 시간: #1[i]초. 아군이 공포 상태에 빠진 적을 선공하면 약점을 이용해 전투에 진입한 것으로 간주하며, 전투 진입 후 아낙사는 각 단일 적에게 공격자 속성의 약점을 1개 부여한다, 지속 시간: #2[i]턴"
+        "zh-CN": "使用秘技后使一定区域内的敌人陷入恐惧状态。恐惧状态下的敌人会向远离那刻夏的方向逃跑，持续#1[i]秒。我方主动攻击陷入恐惧状态的敌人总会视为利用弱点进入战斗，进入战斗后那刻夏为敌方每个单体目标添加1个攻击者属性的弱点，持续#2[i]回合。"
       },
       "params": [[10, 3]],
       "icon": "icon/skill/1405_technique.png",
@@ -220,12 +176,10 @@
       "summary": {
         "pt-BR": "Inflige o estado \"Em Pânico\" aos inimigos ao redor. Atacar um inimigo infligido com \"Em Pânico\", sempre será considerado como entrar em batalha por meio de um golpe que atinge a Fraqueza, aplicando 1 Fraqueza do Tipo do atacante a todos os inimigos.",
         "en": "Inflicts the Terrified state on the surrounding enemies. Attacking a Terrified enemy will always be considered as entering battle via Weakness, and applies 1 Weakness of the attacker's Type to all enemies.",
-        "zh-CN": "使周围的敌人陷入恐惧状态。攻击陷入恐惧状态的敌人总视为弱点进战，为敌方全体添加攻击者属性的弱点。",
-        "ja": "周囲の敵を恐怖状態にする。恐怖状態の敵を攻撃した場合、弱点を攻撃して戦闘に入ったものと見なされる。敵全体に攻撃者の属性を弱点属性として付与する。",
-        "ko": "주위의 적을 공포 상태에 빠트린다. 공포 상태에 빠진 적을 공격하면 약점 공격으로 전투에 진입한 것으로 간주하며, 모든 적에게 공격자 속성의 약점을 부여한다"
+        "zh-CN": "使周围的敌人陷入恐惧状态。攻击陷入恐惧状态的敌人总视为弱点进战，为敌方全体添加攻击者属性的弱点。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害" }
     }
   ],
   "eidolons": [
@@ -234,16 +188,12 @@
       "name": {
         "pt-BR": "Mago da Lua Oculta-Estrelas",
         "en": "Magician, Isolated by Stars",
-        "zh-CN": "月掩星夜的魔术师",
-        "ja": "{RUBY_B#えんぺい}掩蔽{RUBY_E#}の{RUBY_B#まじゅつし}魔術師{RUBY_E#}",
-        "ko": "달로 별밤을 가린 마술사"
+        "zh-CN": "月掩星夜的魔术师"
       },
       "description": {
         "pt-BR": "Após usar a Perícia pela primeira vez, recupera 1 Ponto(s) de Perícia. Ao usar a Perícia para atingir inimigos-alvo, reduz a DEF dos alvos em 16%, com duração de 2 rodada(s).",
         "en": "After using Skill for the first time, recovers 1 Skill Point(s). When using Skill to hit enemy targets, decreases the targets' DEF by 16%, lasting for 2 turn(s).",
-        "zh-CN": "首次施放战技后，恢复1个战技点。施放战技击中敌方目标时，使目标防御力降低16%，持续2回合。",
-        "ja": "戦闘スキルを初めて発動した後、SPを1回復する。戦闘スキルが敵に命中する時、敵の防御力-16%、2ターン継続。",
-        "ko": "처음 전투 스킬을 발동한 후 전투 스킬 포인트를 1pt 회복한다. 전투 스킬을 발동해 적 명중 시 목표의 방어력을 16% 감소시킨다, 지속 시간: 2턴"
+        "zh-CN": "首次施放战技后，恢复1个战技点。施放战技击中敌方目标时，使目标防御力降低16%，持续2回合。"
       },
       "icon": "icon/skill/1405_rank1.png",
       "materials": [{ "id": 11405, "num": 1 }],
@@ -254,16 +204,12 @@
       "name": {
         "pt-BR": "Humano da Verdadeira História",
         "en": "Soul, True to History",
-        "zh-CN": "真实历史的自然人",
-        "ja": "{RUBY_B#しじつ}史実{RUBY_E#}の{RUBY_B#しぜんじん}自然人{RUBY_E#}",
-        "ko": "진실된 역사의 자연인"
+        "zh-CN": "真实历史的自然人"
       },
       "description": {
         "pt-BR": "Quando inimigos-alvo entram no campo de batalha, ativa 1 vez o efeito \"Implante de Fraqueza\" do Talento e reduz a RES a Todos os Tipos em 20%.",
         "en": "When enemy targets enter the battlefield, triggers 1 instance of the Talent's Weakness Implant effect, and reduces their All-Type RES by 20%.",
-        "zh-CN": "敌方目标入场时，触发1次天赋的弱点添加效果，并使其全属性抗性降低20%。",
-        "ja": "敵が戦闘に入る時、天賦の弱点付与効果を1回発動し、その敵の全属性耐性を20%ダウンさせる。",
-        "ko": "적이 필드 진입 시 특성의 약점 부여 효과를 1회 발동하며, 대상의 모든 속성 저항을 20% 감소시킨다"
+        "zh-CN": "敌方目标入场时，触发1次天赋的弱点添加效果，并使其全属性抗性降低20%。"
       },
       "icon": "icon/skill/1405_rank2.png",
       "materials": [{ "id": 11405, "num": 1 }],
@@ -274,16 +220,12 @@
       "name": {
         "pt-BR": "Pupila Gravada no Cosmos",
         "en": "Pupil, Etched into Cosmos",
-        "zh-CN": "镌刻进深空的瞳孔",
-        "ja": "{RUBY_B#しんうちゅう}深宇宙{RUBY_E#}に{RUBY_B#きざ}刻{RUBY_E#}まれた{RUBY_B#ひとみ}瞳{RUBY_E#}",
-        "ko": "하늘 밖에 새겨진 눈동자"
+        "zh-CN": "镌刻进深空的瞳孔"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1405_ultimate.png",
       "materials": [{ "id": 11405, "num": 1 }],
@@ -294,16 +236,12 @@
       "name": {
         "pt-BR": "Chamas Arremessadas no Cânion",
         "en": "Blaze, Plunged to Canyon",
-        "zh-CN": "坠落在山谷的炽热",
-        "ja": "{RUBY_B#きょうこく}峡谷{RUBY_E#}に{RUBY_B#お}落{RUBY_E#}ちる{RUBY_B#しゃくねつ}灼熱{RUBY_E#}",
-        "ko": "산골짜기에 떨어진 열기"
+        "zh-CN": "坠落在山谷的炽热"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia, aumenta o ATQ em 30% por 2 rodada(s). Este efeito pode ser acumulado até 2 vez(es).",
         "en": "When using Skill, increases ATK by 30%, lasting for 2 turn(s). This effect can stack up to 2 time(s).",
-        "zh-CN": "施放战技时，攻击力提高30%，持续2回合。该效果最多叠加2层。",
-        "ja": "戦闘スキルを発動する時、攻撃力+30%、2ターン継続。この効果は最大で2層累積できる。",
-        "ko": "전투 스킬 발동 시 공격력이 30% 증가한다, 지속 시간: 2턴, 해당 효과 최대 중첩수: 2스택"
+        "zh-CN": "施放战技时，攻击力提高30%，持续2回合。该效果最多叠加2层。"
       },
       "icon": "icon/skill/1405_rank4.png",
       "materials": [{ "id": 11405, "num": 1 }],
@@ -314,16 +252,12 @@
       "name": {
         "pt-BR": "Embrião Definido Além do Vórtex",
         "en": "Embryo, Set Beyond Vortex",
-        "zh-CN": "离心漩涡外的胚种",
-        "ja": "{RUBY_B#かじょうわんがい}渦状腕外{RUBY_E#}の{RUBY_B#はいしゅ}胚種{RUBY_E#}",
-        "ko": "소용돌이의 원심을 벗어난 씨앗"
+        "zh-CN": "离心漩涡外的胚种"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1405_skill.png",
       "materials": [{ "id": 11405, "num": 1 }],
@@ -331,19 +265,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Tudo Pertence ao Todo",
-        "en": "Everything Is in Everything",
-        "zh-CN": "万物皆在万物之中",
-        "ja": "{RUBY_B#ばんぶつ}万物{RUBY_E#}は{RUBY_B#ばんぶつ}万物{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}",
-        "ko": "만물은 모두 만물 속에"
-      },
+      "name": { "pt-BR": "Tudo Pertence ao Todo", "en": "Everything Is in Everything", "zh-CN": "万物皆在万物之中" },
       "description": {
         "pt-BR": "O Dano causado por Anaxa é igual a 130% do Dano original. Os 2 efeitos do Rastro \"Hiato Imperativo\" serão ativados diretamente e não dependerão mais do número de personagens da Erudição na equipe.",
         "en": "The DMG dealt by Anaxa is 130% of the original DMG. The 2 effects in the Trace \"Imperative Hiatus\" will be triggered directly and will no longer depend on the number of \"Erudition\" characters in the team.",
-        "zh-CN": "那刻夏造成的伤害为原伤害的130%。行迹【必要的留白】的2种效果都会直接触发，不再依赖我方队伍中「智识」命途角色的数量。",
-        "ja": "アナイクスの与ダメージは本来の130%になる。軌跡「必要な空白」の2つの効果は同時に直接発動するようになり、パーティ内の「知恵」の運命を歩むキャラクターの数に依存しなくなる。",
-        "ko": "아낙사가 가하는 피해가 기존 피해의 130%가 된다. 행적 [필요한 공백]의 두 가지 효과가 바로 발동되며, 더 이상 아군 파티 내 「지식」 운명의 길 캐릭터 수에 의존하지 않는다"
+        "zh-CN": "那刻夏造成的伤害为原伤害的130%。行迹【必要的留白】的2种效果都会直接触发，不再依赖我方队伍中「智识」命途角色的数量。"
       },
       "icon": "icon/skill/1405_rank6.png",
       "materials": [{ "id": 11405, "num": 1 }],
@@ -718,19 +644,11 @@
     {
       "id": 1405101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Significante Errante",
-        "en": "Roaming Signifier",
-        "zh-CN": "流浪的能指",
-        "ja": "{RUBY_B#るろう}流浪{RUBY_E#}の{RUBY_B#きごう}記号{RUBY_E#}",
-        "ko": "유랑하는 시니피앙"
-      },
+      "name": { "pt-BR": "Significante Errante", "en": "Roaming Signifier", "zh-CN": "流浪的能指" },
       "description": {
         "pt-BR": "Ao usar o ATQ Básico, regenera adicionalmente #1[i] de Energia.\nNo início da rodada, se não houver inimigos-alvo no estado de \"Revelação da Essência\", regenera imediatamente #2[i] de Energia.",
         "en": "When using Basic ATK, additionally regenerates #1[i] Energy.\nAt the start of the turn, if there are no enemy targets in the \"Qualitative Disclosure\" state, immediately regenerates #2[i] Energy.",
-        "zh-CN": "施放普攻时，额外恢复#1[i]点能量。\n回合开始时，若场上不存在处于【质性揭露】状态的敌方目标，立即恢复#2[i]点能量。",
-        "ja": "通常攻撃を行う時、さらにEPを#1[i]回復する。\nターンが回ってきた時、フィールド上に「本質暴露」状態の敵が存在しない場合、EPを#2[i]回復する。",
-        "ko": "일반 공격 발동 시 추가로 에너지를 #1[i]pt 회복한다.\n턴 시작 시 필드 위에 [성질 발로] 상태인 적이 없을 경우 즉시 에너지를 #2[i]pt 회복한다"
+        "zh-CN": "施放普攻时，额外恢复#1[i]点能量。\n回合开始时，若场上不存在处于【质性揭露】状态的敌方目标，立即恢复#2[i]点能量。"
       },
       "params": [[10, 30]],
       "icon": "icon/skill/1405_skilltree1.png",
@@ -749,19 +667,11 @@
     {
       "id": 1405102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Hiato Imperativo",
-        "en": "Imperative Hiatus",
-        "zh-CN": "必要的留白",
-        "ja": "{RUBY_B#ひつよう}必要{RUBY_E#}な{RUBY_B#くうはく}空白{RUBY_E#}",
-        "ko": "필요한 공백"
-      },
+      "name": { "pt-BR": "Hiato Imperativo", "en": "Imperative Hiatus", "zh-CN": "必要的留白" },
       "description": {
         "pt-BR": "Com base no número de personagens da \"Erudição\" na equipe, um dos seguintes efeitos será ativado na batalha atual:\n1 personagem: aumenta o Dano CRIT de Anaxa em #1[i]%.\nPelo menos 2 personagens: aumenta o Dano causado por todos os aliados em #2[i]%.",
         "en": "Based on the number of \"Erudition\" characters in the team, one of the following effects will be triggered in the current battle:\n1 character: Increases Anaxa's CRIT DMG by #1[i]%.\nAt least 2 characters: Increases DMG dealt by all allies by #2[i]%.",
-        "zh-CN": "根据我方队伍中「智识」命途角色的数量，在本场战斗中触发其中1个效果：\n1名：那刻夏的暴击伤害提高#1[i]%。\n至少2名：我方全体造成的伤害提高#2[i]%。",
-        "ja": "パーティ内の「知恵」の運命を歩むキャラクターの数に応じて、今回の戦闘で以下どちらかの効果を発動する。\n1名の場合、アナイクスの会心ダメージ+#1[i]%。\n2名以上の場合、味方全体の与ダメージ+#2[i]%。",
-        "ko": "아군 파티 내 「지식」 운명의 길 캐릭터의 수에 따라 이번 전투에서 아래 중 하나의 효과를 발동한다.\n1명: 아낙사의 치명타 피해가 #1[i]% 증가한다\n최소 2명: 모든 아군이 가하는 피해가 #2[i]% 증가한다"
+        "zh-CN": "根据我方队伍中「智识」命途角色的数量，在本场战斗中触发其中1个效果：\n1名：那刻夏的暴击伤害提高#1[i]%。\n至少2名：我方全体造成的伤害提高#2[i]%。"
       },
       "params": [[1.4, 0.5]],
       "icon": "icon/skill/1405_skilltree2.png",
@@ -785,19 +695,11 @@
     {
       "id": 1405103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Transmutação da Essência",
-        "en": "Qualitative Shift",
-        "zh-CN": "质性的嬗变",
-        "ja": "{RUBY_B#ていせい}定性{RUBY_E#}の{RUBY_B#へんせん}変遷{RUBY_E#}",
-        "ko": "성질의 변환"
-      },
+      "name": { "pt-BR": "Transmutação da Essência", "en": "Qualitative Shift", "zh-CN": "质性的嬗变" },
       "description": {
         "pt-BR": "Para cada Tipo de Fraqueza diferente que um inimigo-alvo possuir, o Dano que Anaxa causa a esse alvo ignora #1[i]% da DEF dele. No máximo, 7 Tipos de Fraqueza podem ser considerados para este efeito.",
         "en": "For every 1 different Weakness Type an enemy target has, the DMG that Anaxa deals to that target ignores #1[i]% of their DEF. Up to a max of 7 Weakness Types can be taken into account for this effect.",
-        "zh-CN": "敌方目标每拥有1个不同属性的弱点，那刻夏对其造成的伤害无视#1[i]%的防御力，最多计入7个。",
-        "ja": "敵が持つ異なる弱点属性1つにつき、アナイクスが与えるダメージはその敵の防御力を#1[i]%無視する。弱点属性は最大7つまでカウントされる。",
-        "ko": "적이 서로 다른 속성의 약점을 1개 보유할 때마다 아낙사가 대상에게 가하는 피해는 방어력을 #1[i]% 무시하며, 최대 7개까지 계산한다"
+        "zh-CN": "敌方目标每拥有1个不同属性的弱点，那刻夏对其造成的伤害无视#1[i]%的防御力，最多计入7个。"
       },
       "params": [[0.04]],
       "icon": "icon/skill/1405_skilltree3.png",
@@ -821,13 +723,7 @@
     {
       "id": 1405201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Vento", "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -844,13 +740,7 @@
     {
       "id": 1405202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1405101],
@@ -867,13 +757,7 @@
     {
       "id": 1405203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Vento", "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1405202],
@@ -890,7 +774,7 @@
     {
       "id": 1405204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1405202],
@@ -907,13 +791,7 @@
     {
       "id": 1405205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Vento", "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1405102],
@@ -930,13 +808,7 @@
     {
       "id": 1405206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1405205],
@@ -953,13 +825,7 @@
     {
       "id": 1405207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Vento", "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1405205],
@@ -976,7 +842,7 @@
     {
       "id": 1405208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1405103],
@@ -993,13 +859,7 @@
     {
       "id": 1405209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1405103],
@@ -1016,13 +876,7 @@
     {
       "id": 1405210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Vento", "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],

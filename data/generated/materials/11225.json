@@ -1,13 +1,7 @@
 {
   "id": 11225,
   "slug": "fugues-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Fugue",
-    "en": "Fugue's Eidolon",
-    "zh-CN": "【忘归人】的星魂",
-    "ja": "「帰忘の流離人」の星魂",
-    "ko": "[망귀인]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Fugue", "en": "Fugue's Eidolon", "zh-CN": "【忘归人】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

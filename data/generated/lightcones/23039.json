@@ -4,9 +4,7 @@
   "name": {
     "pt-BR": "Chamas de Sangue, Incendeiem o Meu Caminho",
     "en": "Flame of Blood, Blaze My Path",
-    "zh-CN": "血火啊，燃烧前路",
-    "ja": "前途燃やす血の如き炎",
-    "ko": "피의 불꽃이여, 앞길을 태워라"
+    "zh-CN": "血火啊，燃烧前路"
   },
   "rarity": 5,
   "path": "Destruction",
@@ -15,18 +13,14 @@
   "description": {
     "pt-BR": "O orvalho frio congelado na lâmina, deslizando em listras vermelhas.\nA região selvagem manchada de ferrugem ainda brilhava com as brasas da batalha, chamas saltando sobre as cinzas.\n\"Mydeimos, aquela foi realmente uma luta divina!\"\nGritou em êxtase um guerreiro de peito nu que limpava sua arma.\n\"Mydei, um dia, serei tão imbatível quanto você!\"\nUma criança olhou para ele com reverência, segurando uma espada quebrada em suas pequenas mãos.\n\"Príncipe herdeiro, nosso retorno a Castrum Kremnos está à vista.\"\nUm homem idoso sorriu, erguendo sua xícara em um brinde a ele.\nEle assentiu silenciosamente e caminhou até a borda do acampamento.\nA dor do renascimento ainda percorria sua pele. Amanhã, ele lideraria o Destacamento Kremnoano mais uma vez, migrando para terras estrangeiras.\nOnde essa peregrinação terminaria, ele não sabia. A única certeza era esta: ele cumpriria o dever de um rei até que o sangue e as chamas o consumissem.\nÀ medida que a noite avançava, ele bebeu sozinho o vinho de sangue. Um bardo que passava tocava em suas cordas uma melodia errante que pairava no ar:\n\"O lar é a terra dos sonhos, não um lugar onde alguém possa alcançar.\"",
     "en": "Cold dew congealed on the blade, sliding down in crimson streaks.\nThe rust-tainted wilderness still flickered with embers of battle, flames leaping upon the ashes.\n\"Mydeimos, that was a godlike fight just now!\"\nA bare-chested warrior wiped his weapon clean, shouting in exhilaration.\n\"Mydei, one day, I'll be as invincible as you!\"\nA child gazed at him with reverence, clutching a broken sword in small hands.\n\"Crown Prince, our return to Castrum Kremnos is within sight.\"\nAn aged man smiled, raising his cup in a toast to him.\nHe nodded silently and walked to the edge of the camp.\nThe pain of rebirth still coursed across his skin. Tomorrow, he would lead the Kremnoan Detachment forth once again, migrating to foreign lands.\nWhere this wandering would end, he did not know. The only certainty was this — he would bear the duty of a king until the blood and flames consumed him.\nAs night deepened, he drank the bloodwine alone. A passing bard plucked at his strings, a wandering melody drifting through the air—\n\"Home is the land of dreams, not a place one can ever reach.\"",
-    "zh-CN": "冰冷的露水凝结在锋刃，滑落血色的痕迹。\n铁锈味的荒野，鏖战燃起的火焰仍在灰烬上跳跃。\n「迈德漠斯，刚才真是神一样的战斗啊！」\n赤裸上身的战士擦拭武器，兴奋地喊道。\n「万敌，以后我也要像你一样百战百胜！」\n孩子崇敬地看着他，手中捏着一把断剑。\n「王储，我们回到悬锋指日可待啊。」\n沧桑的老人笑着，举起酒杯向他致意。\n他点点头，兀自走到了营地边。\n重生的疼痛仍在皮肤上滚动，明日，他将带领悬锋孤军再次出发，迁往异乡。\n流离将停于何处，他不知道，他唯一能确定的是——他将背负王的职责，直至血火燃尽。\n夜色渐深，他独自痛饮血酿，过路的吟游诗人拉动琴弦，不着调的歌声在空中晃荡——\n「家乡是梦想之地呐，不是可以抵达的地方。」",
-    "ja": "冷たい露が刃に付着し、赤い線を描いて滑り落ちる。\n錆びた臭いが蔓延する荒野では、いまだ戦の余燼が灰の上で揺らめいていた。\n「メデイモス、さっきのはまるで神のような戦いぶりだったな！」\n上裸の戦士は武器を拭きながら、そう興奮気味に声をかけた。\n「モーディス様！僕もあなたのような、百戦百勝の戦士になりたいです！」\n折れた剣を握っている子供は、彼を尊敬の眼差しで見つめている。\n「殿下、どうやらクレムノスに戻れる日もそう遠くないようですね」\n老人は笑いながら杯を上げ、彼に敬意を表した。\n男は軽く頷き、1人野営地の隅へと移動する。\n再生の痛みが肌を覆うも、明日には再びクレムノスの孤軍を率い、異郷に向かうことになる。\nこの彷徨がいつ終わるのかは彼にもわからない。だが——その身が血と炎で焼き尽くされるまで、彼は王としての責務を背負い続けるのだろう。\n夜が更けた頃、彼は血のように赤いメーレをあおる。通りすがりの吟遊詩人が弦を爪弾き、不安定な旋律が空に揺蕩う——\n「故郷とは夢に見る地であり…辿り着けるものではない」",
-    "ko": "차가운 이슬이 칼끝에 맺히고, 칼을 타고 떨어지면서 핏빛 흔적을 남긴다.\n녹슨향이 나는 황야 속, 격전으로 불타오른 불길이 여전히 잿더미 위에서 춤을 추고 있다.\n「마이데이모스 님, 방금 그 전투는 마치 신과도 같았어요!」\n윗옷을 벗은 전사는 무기를 닦으며 흥분한 채 외쳤다.\n「마이데이 님, 앞으로 저도 마이데이 님처럼 백전백승할래요!」\n아이는 부러진 검을 쥔 채, 존경심에 찬 눈빛으로 그를 바라보았다.\n「왕세자님, 크렘노스로 돌아갈 날이 얼마 남지 않았습니다」\n오랜 세월을 겪은 노인이 웃으며 술잔을 들고 그에게 인사를 올렸다.\n그는 고개를 끄덕이고는, 계속 야영지 경계선으로 향했다.\n환생의 고통이 여전히 피부 위를 휘저었다. 내일, 그는 크렘노스 고군을 이끌고 다시 타지로 떠날 것이다.\n언제까지 정처 없이 떠돌아다닐지 알 수 없었으나, 그가 확신할 수 있는 건 피의 불꽃이 전부 타버릴 때까지 왕의 책임을 짊어지리라는 것이다.\n밤이 점점 더 깊어지자, 그는 홀로 피의 술을 들이켰고, 지나가는 음유시인이 현을 울리자 불안정한 노랫소리가 허공에 울려 퍼졌다——\n「고향은 꿈의 땅이지, 닿을 수 있는 곳이 아니야」"
+    "zh-CN": "冰冷的露水凝结在锋刃，滑落血色的痕迹。\n铁锈味的荒野，鏖战燃起的火焰仍在灰烬上跳跃。\n「迈德漠斯，刚才真是神一样的战斗啊！」\n赤裸上身的战士擦拭武器，兴奋地喊道。\n「万敌，以后我也要像你一样百战百胜！」\n孩子崇敬地看着他，手中捏着一把断剑。\n「王储，我们回到悬锋指日可待啊。」\n沧桑的老人笑着，举起酒杯向他致意。\n他点点头，兀自走到了营地边。\n重生的疼痛仍在皮肤上滚动，明日，他将带领悬锋孤军再次出发，迁往异乡。\n流离将停于何处，他不知道，他唯一能确定的是——他将背负王的职责，直至血火燃尽。\n夜色渐深，他独自痛饮血酿，过路的吟游诗人拉动琴弦，不着调的歌声在空中晃荡——\n「家乡是梦想之地呐，不是可以抵达的地方。」"
   },
   "skill": {
-    "name": { "pt-BR": "Vista", "en": "Vista", "zh-CN": "远望", "ja": "遠望", "ko": "조망" },
+    "name": { "pt-BR": "Vista", "en": "Vista", "zh-CN": "远望" },
     "description": {
       "pt-BR": "Aumenta os PV máximos do usuário em #1[i]% e a Cura Recebida em #6[i]%. Ao usar a Perícia ou a Perícia Suprema, consome PV em um valor igual a #2[f1]% dos PV máximos do usuário e aumenta o Dano causado por este ataque em #3[i]%. Se os PV consumidos deste efeito forem maiores que #4[i], o Dano aumenta adicionalmente em #5[i]%.\nSe os PV atuais não forem suficientes, este efeito reduz os PV atuais do usuário para 1.",
       "en": "Increases the wearer's Max HP by #1[i]% and Incoming Healing by #6[i]%. When using Skill or Ultimate, consumes HP equal to #2[f1]% of the wearer's Max HP and increases the DMG dealt by this attack by #3[i]%. If this effect's consumed HP is greater than #4[i], the DMG additionally increases by #5[i]%.\nIf the current HP is not sufficient, this effect reduces the wearer's current HP down to 1.",
-      "zh-CN": "使装备者的生命上限提高#1[i]%，受到的治疗量提高#6[i]%，施放战技或终结技时消耗等同于自身#2[f1]%生命上限的生命值，并使本次攻击造成的伤害提高#3[i]%，若该效果消耗的生命值高于#4[i]点，可使伤害额外提高#5[i]%。\n若当前生命值不足，该效果最多使装备者的当前生命值降低至1点。",
-      "ja": "装備キャラの最大HP+#1[i]%、受ける治癒量+#6[i]%。戦闘スキルまたは必殺技を発動する時、自身の最大HP#2[f1]%分のHPを消費し、その回の攻撃の与ダメージ+#3[i]%。この効果で消費したHPが#4[i]を超えると、さらに与ダメージ+#5[i]%。\n残りHPが足りない場合、この効果で装備キャラの残りHPが1になる。",
-      "ko": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가하고, 받는 치유량이 #6[i]% 증가한다. 전투 스킬 또는 필살기 발동 시 자신의 HP 최대치의 #2[f1]%만큼 HP를 소모해 이번 공격으로 가하는 피해를 #3[i]% 증가시킨다. 해당 효과로 소모된 HP가 #4[i]pt보다 높을 경우 피해가 추가로 #5[i]% 증가한다.\n현재 HP가 부족하면 해당 효과는 장착한 캐릭터의 현재 HP를 최대 1pt까지 감소시킨다"
+      "zh-CN": "使装备者的生命上限提高#1[i]%，受到的治疗量提高#6[i]%，施放战技或终结技时消耗等同于自身#2[f1]%生命上限的生命值，并使本次攻击造成的伤害提高#3[i]%，若该效果消耗的生命值高于#4[i]点，可使伤害额外提高#5[i]%。\n若当前生命值不足，该效果最多使装备者的当前生命值降低至1点。"
     },
     "params": [
       [0.18, 0.06, 0.3, 500, 0.3, 0.2],

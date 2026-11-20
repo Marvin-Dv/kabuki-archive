@@ -1,13 +1,7 @@
 {
   "id": 11408,
   "slug": "phainons-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Phainon",
-    "en": "Phainon's Eidolon",
-    "zh-CN": "【白厄】的星魂",
-    "ja": "「ファイノン」の星魂",
-    "ko": "[파이논]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Phainon", "en": "Phainon's Eidolon", "zh-CN": "【白厄】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

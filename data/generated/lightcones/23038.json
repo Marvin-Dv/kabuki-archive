@@ -1,13 +1,7 @@
 {
   "id": 23038,
   "slug": "if-time-were-a-flower",
-  "name": {
-    "pt-BR": "Se o Tempo Fosse Uma Flor",
-    "en": "If Time Were a Flower",
-    "zh-CN": "如果时间是一朵花",
-    "ja": "もしも時が花だったら",
-    "ko": "시간이 한 송이 꽃이라면"
-  },
+  "name": { "pt-BR": "Se o Tempo Fosse Uma Flor", "en": "If Time Were a Flower", "zh-CN": "如果时间是一朵花" },
   "rarity": 5,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "\"Mamãe, quero ouvir outra história!\"\n\"Minha querida, que tal conversarmos sobre o tempo hoje?\"\n\"Tempo... o que é isso?\"\n \"O tempo, minha querida, é como uma flor.\"\n\"Como os dentes-de-leão que florescem nos campos?\"\n\"Sim, assim como os dentes-de-leão. O tempo cresce, floresce e dá frutos. Chamamos suas pétalas de 'momentos'.\"\n\"E então o que acontece?\"\n\"Então, ela murcha em mil pedaços, deixando sementes que flutuam por toda parte...\"\n\"Mamãe, isso significa que ela se torna o 'futuro'?\"\n \"Adivinhe no que ela se transforma depois disso?\"\n\"Ele se transforma em várias flores, desabrochando em um mar vibrante de flores, certo?\"\nA mãe não teve tempo de responder, pois a luz do sol que entrava pela janela aquecia o rosto da garota. Aquela figura gentil desapareceu mais uma vez em seu sonho.\nEla abriu os olhos:\n\"Se o tempo fosse uma flor...\" ela murmurou.\n\"Certamente se tornaria um mar de flores\", disse a garota, com serenidade.\n\"Claro que sim!\" Exclamou a garota brincalhona, comemorando sua obra-prima.",
     "en": "\"Mama, I want to hear another story!\"\n\"My sweet girl, how about a story about time?\"\n\"Time... what is it?\"\n\"Time, my dear, is like a flower.\"\n\"Like the dandelions blooming in the fields?\"\n\"Yes, just like dandelions. Time grows, blossoms, and bears fruit. We call its petals 'moments.'\"\n\"And then what happens?\"\n\"Then, it withers into a thousand pieces, leaving seeds that drift everywhere...\"\n\"Mama, does that mean it becomes the 'future'?\"\n\"Guess what it turns into after that?\"\n\"It turns into so many flowers, blooming into a vibrant sea of blossoms, right?\"\nThe mother didn't have time to answer as the sunlight from the window warmed the girl's face. That gentle figure vanished once more into her dream.\nShe opened her eyes—\n\"If time were a flower...\" she murmured.\n\"It would surely become a sea of flowers,\" said the serene girl.\n\"Of course it would!\" Exclaimed the playful girl, cheering at her masterpiece.",
-    "zh-CN": "「妈妈，我还想听一个故事！」\n「我的好女孩，今天讲讲时间的故事怎么样？」\n「时间…是什么？」\n「时间啊，就像一朵花。」\n「是那种开在原野上的蒲公英花嘛！」\n「是啊，和蒲公英花一样，时间会成长，会盛放，会结实，我们把它的花瓣称为——『光阴』。」\n「之后呢？」\n「之后啊，它会凋零成千瓣，留下种子，飞向各地……」\n「妈妈，那是不是叫『未来』！」\n「猜猜再往后，它会变成什么？」\n「它会变成好多好多花，化成一片绚烂的花海吗？」\n母亲还未来得及回答，窗外的阳光落在女孩的脸上，那温柔的身影再度消失在梦中。\n她睁开眼——\n「如果时间是一朵花……」她喃喃道。\n「它一定会变成一片花海。」那沉静的女孩说。\n「当然啦！」那调皮的女孩完成了杰作，欢呼道。",
-    "ja": "「ママ、またお話を聞かせて！」\n「ええ、いいわよ、私の可愛いトリスビアス。なら、今日は時間の話をしましょう」\n「時間の話……？」\n「時間はね、花みたいなものよ」\n「野原に咲くタンポポの花みたいなもの？」\n「そうよ。タンポポの花のように、時間は成長し、咲き誇り、実を結ぶ。そして、人はその花びらを——『光陰』と呼ぶわ」\n「じゃあ、実を結んだ後は？」\n「その後は、千枚になって散りゆき、残された種が各地に飛んでいく……」\n「ママ、もしかしてそれが『未来』なの？」\n「ふふ、そうよ。未来はその後どうなってると思う？」\n「えっとね、お花がたーくさん咲いて、綺麗なお花の海ができてると思う！」\n母親が答えるや否や、窓から差し込む日差しが女の子の顔を照らし、優しい母の姿が夢の中へと消えた。\n彼女は目を開ける——\n「もちも時間が花だったら……」彼女はつぶやいた。\n「未来はきっと花の海になります」続けて物静かな女の子が言った。\n「へへっ、きっとそうだ！」2人の後、元気な女の子がそう告げ、目の前の傑作に歓声をあげた。",
-    "ko": "「엄마, 이야기 하나만 더 해줘!」\n「그래, 우리 아가. 오늘은 시간에 대한 이야기를 들려줄게」\n「시간이… 뭐야?」\n「시간은 꽃과 같단다」\n「들판에 피는 민들레 같은 거야?」\n「맞아, 민들레처럼 시간도 자라고, 피어나고, 열매를 맺지. 그 꽃잎을——우린 『세월』이라고 불러」\n「그다음엔 어떻게 되는데?」\n「그다음엔 수많은 꽃잎으로 시들어 씨앗을 남기고 각지로 날아간단다……」\n「엄마, 그런 걸 『미래』라고 하는 거지?」\n「그 뒤엔 또 뭐로 변할 것 같니?」\n「아주 아주 많은 꽃으로 변해서, 찬란한 꽃바다가 되려나?」\n어머니가 대답하기도 전에 창밖의 햇살이 아이의 얼굴을 비췄고, 부드러운 그림자가 다시 꿈속으로 사라졌다.\n그녀는 눈을 떴다——\n「만약 시간이 한 송이 꽃이라면……」그녀는 중얼거렸다.\n「분명 언젠간 꽃바다가 될 거야」조용한 아이가 말했다.\n「물론이지!」 걸작을 완성한 장난기 많은 아이가 기쁘게 외쳤다"
+    "zh-CN": "「妈妈，我还想听一个故事！」\n「我的好女孩，今天讲讲时间的故事怎么样？」\n「时间…是什么？」\n「时间啊，就像一朵花。」\n「是那种开在原野上的蒲公英花嘛！」\n「是啊，和蒲公英花一样，时间会成长，会盛放，会结实，我们把它的花瓣称为——『光阴』。」\n「之后呢？」\n「之后啊，它会凋零成千瓣，留下种子，飞向各地……」\n「妈妈，那是不是叫『未来』！」\n「猜猜再往后，它会变成什么？」\n「它会变成好多好多花，化成一片绚烂的花海吗？」\n母亲还未来得及回答，窗外的阳光落在女孩的脸上，那温柔的身影再度消失在梦中。\n她睁开眼——\n「如果时间是一朵花……」她喃喃道。\n「它一定会变成一片花海。」那沉静的女孩说。\n「当然啦！」那调皮的女孩完成了杰作，欢呼道。"
   },
   "skill": {
-    "name": { "pt-BR": "Aspiração", "en": "Aspiration", "zh-CN": "希冀", "ja": "希望", "ko": "희망" },
+    "name": { "pt-BR": "Aspiração", "en": "Aspiration", "zh-CN": "希冀" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Após o usuário realizar um Ataque Extra, regenera adicionalmente #2[i] de Energia e recebe \"Presságio\", que dura por #3[i] rodada(s). Enquanto o usuário estiver sob o efeito de \"Presságio\", o Dano CRIT de todos os aliados-alvo aumenta em #4[i]%. Ao entrar em combate, o usuário regenera #5[i] de Energia e recebe \"Presságio\", que dura por #6[i] rodada(s).",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. After the wearer launches Follow-Up ATK, additionally regenerates #2[i] Energy and gains \"Presage,\" lasting for #3[i] turn(s). While the wearer has \"Presage,\" all ally targets' CRIT DMG increases by #4[i]%. When entering battle, the wearer regenerates #5[i] Energy and gains \"Presage,\" lasting for #6[i] turn(s).",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者施放追加攻击后额外恢复#2[i]点能量，并获得【谕示】，持续#3[i]回合。当装备者持有【谕示】时，我方全体目标的暴击伤害提高#4[i]%。进入战斗时，装备者恢复#5[i]点能量，并获得【谕示】，持续#6[i]回合。",
-      "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラが追加攻撃を行った後、さらにEPを#2[i]回復し、「啓示」を獲得する、#3[i]ターン継続。装備キャラが「啓示」を所持している場合、味方全体の会心ダメージ+#4[i]%。戦闘に入る時、装備キャラのEPが#5[i]回復し、「啓示」を獲得する、#6[i]ターン継続。",
-      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터가 추가 공격 발동 후 추가로 에너지를 #2[i]pt 회복하고 [지시]를 획득한다, 지속 시간: #3[i]턴. 장착한 캐릭터가 [지시] 보유 시 모든 아군의 치명타 피해가 #4[i]% 증가한다. 전투 진입 시 장착한 캐릭터가 에너지를 #5[i]pt 회복하고 [지시]를 획득한다, 지속 시간: #6[i]턴"
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者施放追加攻击后额外恢复#2[i]点能量，并获得【谕示】，持续#3[i]回合。当装备者持有【谕示】时，我方全体目标的暴击伤害提高#4[i]%。进入战斗时，装备者恢复#5[i]点能量，并获得【谕示】，持续#6[i]回合。"
     },
     "params": [
       [0.36, 12, 2, 0.48, 21, 2],

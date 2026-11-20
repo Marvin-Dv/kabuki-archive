@@ -1,13 +1,7 @@
 {
   "id": 110161,
   "slug": "harmonic-tune",
-  "name": {
-    "pt-BR": "Melodia Harmônica",
-    "en": "Harmonic Tune",
-    "zh-CN": "谐乐小调",
-    "ja": "調和のハーモニー",
-    "ko": "조화의 가락"
-  },
+  "name": { "pt-BR": "Melodia Harmônica", "en": "Harmonic Tune", "zh-CN": "谐乐小调" },
   "rarity": 2,
   "type": "Material",
   "subType": "TracePath",
@@ -17,8 +11,6 @@
   "sources": {
     "en": ["Calyx (Robot Settlement)", "Embers Exchange", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Cálice (Assentamento de Robôs)", "Troca de Brasas", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["拟造花萼【机械聚落】", "余烬兑换", "「万能合成机」- 材料置换"],
-    "ja": ["疑似花萼「機械集落」", "エンバー交換", "「万能合成マシン」- 素材交換"],
-    "ko": ["모조 꽃받침 [기계 부락]", "잔화 교환", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【机械聚落】", "余烬兑换", "「万能合成机」- 材料置换"]
   }
 }

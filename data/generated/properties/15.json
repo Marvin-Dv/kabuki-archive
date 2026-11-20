@@ -1,7 +1,7 @@
 {
   "id": 15,
   "type": "CriticalChanceBase",
-  "name": { "pt-BR": "Chance de CRIT", "en": "CRIT Rate", "zh-CN": "暴击率", "ja": "会心率", "ko": "치명타 확률" },
+  "name": { "pt-BR": "Chance de CRIT", "en": "CRIT Rate", "zh-CN": "暴击率" },
   "icon": "icon/property/IconCriticalChance.png",
   "percent": true
 }

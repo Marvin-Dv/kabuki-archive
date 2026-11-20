@@ -4,9 +4,7 @@
   "name": {
     "pt-BR": "Um Instante Eternamente Adorado",
     "en": "An Instant Before A Gaze",
-    "zh-CN": "片刻，留在眼底",
-    "ja": "その一刻、目に焼き付けて",
-    "ko": "눈에 담긴 순간"
+    "zh-CN": "片刻，留在眼底"
   },
   "rarity": 5,
   "path": "Erudition",
@@ -15,24 +13,14 @@
   "description": {
     "pt-BR": "Certa vez ele ouviu uma balada, cantando em louvor daquele feixe de luz:\nRosas florescem para responder SEU sorriso.\nO crepúsculo brilha para iluminar SEU semblante.\nA melodia toca, para banir SEU cansaço.\nMas a luz, uma vez findada, nunca retorna. Entretanto, ele ainda galopa para longe.\nSó é preciso esperar, acreditar, e rezar para tudo que pertence à Beleza neste cosmos.\nMesmo que tudo não passe de um breve instante antes de um olhar, ele já encontrou a resposta que procurava.",
     "en": "He once heard a ballad, singing in praise of that sliver of light:\nRose blooms, to answer THEIR smile.\nDawn shines, to illuminate THEIR visage.\nMelody plays, to banish THEIR fatigue.\nBut, light, once gone, never returns. Yet, he still gallops to the far beyond.\nAll that is needed is to wait for, to believe in, and to preach about everything that is of the Beauty in this cosmos.\nEven if everything is but a fleeting instant before a gaze, he has already found the answer he sought.",
-    "zh-CN": "他曾听闻歌谣，传唱那道光芒：\n玫瑰盛放，定是为了回应祂的笑容；\n晨光烁耀，定是为了照亮祂的脸庞；\n音律奏鸣，定是为了唤醒祂的倦眸。\n但那光芒一去不复返，他仍奔向远方\n——只须等待，只须信仰，只须将纯美的一切播撒于寰宇。\n即使一切都只是留在眼底的片刻，他却已收获想要的答案。",
-    "ja": "かつて彼は歌を聴き、その光を歌い広めた。\nバラが咲き誇るのは、其の笑顔に応えるため。\n朝日が輝くのは、其の尊顔を照らすため。\n音楽が奏でられるのは、其の眠気を覚ますため。\nしかし、その光が帰ってくることはなかった。それでも、彼は彼方を求めて走る。\n——ただ待つのみ、ただ信じるのみ、ただ純美のすべてを宇宙に広めるのみ。\nたとえすべてが一瞬の出来事であろうとも、彼は己が求める答えをそこから得たのである。",
-    "ko": "그는 한때 빛을 칭송하는 노래를 들은 적 있다:\n장미가 활짝 피어난 건 그분의 미소에 보답하기 위함이라.\n아침 햇살이 눈 부신 건 그분의 얼굴을 비추기 위함이라.\n멜로디가 울려 퍼지는 건 그분의 지친 눈동자를 깨우기 위함이라.\n그러나 그 빛은 돌아오지 않았고, 그는 여전히 어딘가로 향하고 있다.\n——오직 기다리고 믿으며, 아름다운 모든 것들을 온 우주에 퍼트리기만 하면 되리라.\n모든 것이 눈에 잠시 머무는 한순간이라 해도, 그는 이미 원하는 대답을 얻었다"
+    "zh-CN": "他曾听闻歌谣，传唱那道光芒：\n玫瑰盛放，定是为了回应祂的笑容；\n晨光烁耀，定是为了照亮祂的脸庞；\n音律奏鸣，定是为了唤醒祂的倦眸。\n但那光芒一去不复返，他仍奔向远方\n——只须等待，只须信仰，只须将纯美的一切播撒于寰宇。\n即使一切都只是留在眼底的片刻，他却已收获想要的答案。"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Peregrinação de um Cavaleiro",
-      "en": "A Knight's Pilgrimage",
-      "zh-CN": "骑士巡礼",
-      "ja": "騎士の巡礼",
-      "ko": "기사의 순례"
-    },
+    "name": { "pt-BR": "Peregrinação de um Cavaleiro", "en": "A Knight's Pilgrimage", "zh-CN": "骑士巡礼" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando o usuário utiliza sua Perícia Suprema, aumenta o Dano causado pela Perícia Suprema do usuário com base na sua Energia máxima. Cada ponto de Energia aumenta o Dano causado pela Perícia Suprema em #2[f2]%. Um máximo de #3[i] pontos de Energia serão considerados para este efeito.",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. When the wearer uses Ultimate, increases DMG dealt by the wearer's Ultimate based on their Max Energy. Each point of Energy increases DMG dealt by Ultimate by #2[f2]%. A max of #3[i] points of Energy will be taken into account for this.",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高#2[f2]%，最多计入#3[i]点。",
-      "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラが必殺技を発動する時、装備キャラの最大EPに応じて装備キャラの必殺技によるダメージをアップする、1EPにつき+#2[f2]%、最大で#3[i]までカウントされる。",
-      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터가 필살기 발동 시 자신의 에너지 최대치에 따라 자신이 필살기로 가하는 피해가 증가한다. (에너지 1pt당 #2[f2]% 증가, 최대 #3[i]pt까지 계산)"
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高#2[f2]%，最多计入#3[i]点。"
     },
     "params": [
       [0.36, 0.0036, 180],

@@ -4,9 +4,7 @@
   "name": {
     "pt-BR": "Males Passados do Desastre do Planeta da Perfuração",
     "en": "Past Evils of the Borehole Planet Disaster",
-    "zh-CN": "蛀星孕灾的旧恶",
-    "ja": "星を蝕む古の悪",
-    "ko": "별을 갉아먹고 재앙을 낳는 구악"
+    "zh-CN": "蛀星孕灾的旧恶"
   },
   "rarity": 4,
   "type": "Material",
@@ -17,8 +15,6 @@
   "sources": {
     "en": ["Echo of War: Seclusion Zone"],
     "pt-BR": ["Eco da Guerra: Zona de Reclusão"],
-    "zh-CN": ["历战余响【禁闭舱段】"],
-    "ja": ["歴戦余韻「封鎖部分」"],
-    "ko": ["전쟁의 여운 [폐쇄된 캐빈]"]
+    "zh-CN": ["历战余响【禁闭舱段】"]
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": 1413,
   "slug": "evernight",
-  "name": { "pt-BR": "Noite Eterna", "en": "Evernight", "zh-CN": "长夜月", "ja": "長夜月", "ko": "에버나이트" },
+  "name": { "pt-BR": "Noite Eterna", "en": "Evernight", "zh-CN": "长夜月" },
   "rarity": 5,
   "path": "Remembrance",
   "element": "Ice",
@@ -11,19 +11,11 @@
     {
       "id": 141301,
       "type": "Basic",
-      "name": {
-        "pt-BR": "E o Tempo se Enevoou",
-        "en": "Time Thence Blurs",
-        "zh-CN": "从此岁月朦胧",
-        "ja": "歳月はここより霞む",
-        "ko": "이제부터 세월은 흐릿해지고"
-      },
+      "name": { "pt-BR": "E o Tempo se Enevoou", "en": "Time Thence Blurs", "zh-CN": "从此岁月朦胧" },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% dos PV máximos de Noite Eterna a um inimigo designado.",
         "en": "Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于长夜月#1[i]%生命上限的冰属性伤害。",
-        "ja": "指定した敵単体に長夜月の最大HP#1[i]%分の氷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 에버나이트 HP 최대치의 #1[i]%만큼 얼음 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于长夜月#1[i]%生命上限的冰属性伤害。"
       },
       "params": [[0.25], [0.3], [0.35], [0.4], [0.45], [0.5], [0.55], [0.6], [0.65], [0.7]],
       "icon": "icon/skill/1413_basic_atk.png",
@@ -31,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo leve a um inimigo-alvo designado.",
         "en": "Deals minor Ice DMG to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成少量冰属性伤害。",
-        "ja": "指定した敵単体に少量の氷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 소량의 얼음 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成少量冰属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 141302,
       "type": "Skill",
-      "name": {
-        "pt-BR": "O Dia Passa Gentilmente",
-        "en": "Day Gently Slips",
-        "zh-CN": "白昼悄然离去",
-        "ja": "白昼は静かに去る",
-        "ko": "조용히 떠나간 낮"
-      },
+      "name": { "pt-BR": "O Dia Passa Gentilmente", "en": "Day Gently Slips", "zh-CN": "白昼悄然离去" },
       "description": {
         "pt-BR": "Consome #6[i]% dos PV atuais de Noite Eterna para Invocar o Memoespírito \"Nox\" e aumenta o Dano CRIT de todos os Memoespíritos aliados em um valor igual a #1[i]% do Dano CRIT de Noite Eterna por #2[i] rodada(s). A duração diminui em 1 no início de cada rodada de Noite Eterna. Se \"Nox\" já estiver em campo, restaura #4[i]% dos seus PV máximos. Ao ser usada, concede #3[i] ponto(s) de \"Memória\". Se estiver no estado de \"Enigma Mais Sombrio\", concede #5[i] de \"Memória\" adicional.",
         "en": "Consumes #6[i]% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to #1[i]% of Evernight's CRIT DMG for #2[i] turn(s). This duration decreases by 1 at the start of Evernight's every turn. If Evey is already on the field, restores its HP by #4[i]% of its Max HP. When using this, gains #3[i] point(s) of \"Memoria.\" If in the \"Darkest Riddle\" state, gains #5[i] additional point(s) of \"Memoria.\"",
-        "zh-CN": "消耗长夜月当前#6[i]%的生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高，提高数值等同于长夜月暴击伤害的#1[i]%，持续#2[i]回合，长夜月每回合开始时持续回合数减1。若忆灵「长夜」已在场，为其回复等同于其生命上限#4[i]%的生命值。施放时，获得#3[i]点【忆质】，若处于【至暗之谜】状态，额外获得#5[i]点【忆质】。",
-        "ja": "長夜月の残りHP#6[i]%分のHPを消費して、記憶の精霊「長夜」を召喚する。味方の記憶の精霊全体の会心ダメージが長夜月の会心ダメージ#1[i]%分アップする、#2[i]ターン継続、長夜月のターンが回ってくるたびに継続時間-1ターン。長夜がすでにフィールド上にいる場合、長夜のHPをその最大HP#4[i]%分回復する。\nこのスキルを発動する時、「憶質」を#3[i]獲得する。「至暗の謎」状態の場合、追加で「憶質」を#5[i]獲得する。",
-        "ko": "에버나이트 현재 HP의 #6[i]%를 소모해 기억 정령 「긴 밤」을 소환하고, 모든 아군 기억 정령의 치명타 피해를 에버나이트 치명타 피해의 #1[i]%만큼 증가시킨다, 지속 시간: #2[i]턴, 에버나이트의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 기억 정령 「긴 밤」이 필드에 있을 시 대상의 HP를 대상 HP 최대치의 #4[i]%만큼 회복한다. 발동 시 [기억 물질]을 #3[i]pt 획득하며, [가장 어두운 수수께끼] 상태일 경우 추가로 [기억 물질]을 #5[i]pt 획득한다"
+        "zh-CN": "消耗长夜月当前#6[i]%的生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高，提高数值等同于长夜月暴击伤害的#1[i]%，持续#2[i]回合，长夜月每回合开始时持续回合数减1。若忆灵「长夜」已在场，为其回复等同于其生命上限#4[i]%的生命值。施放时，获得#3[i]点【忆质】，若处于【至暗之谜】状态，额外获得#5[i]点【忆质】。"
       },
       "params": [
         [0.12, 2, 2, 0.5, 12, 0.1],
@@ -77,12 +59,10 @@
       "summary": {
         "pt-BR": "Consome os PV desta unidade para invocar o Memoespírito \"Nox\" e aumenta o Dano CRIT de todos os Memoespíritos aliados. Se \"Nox\" já estiver em campo, restaura seus PV. Ao ser usada, concede 2 de \"Memória\". Se estiver no estado de \"Enigma Mais Sombrio\", concede 12 de \"Memória\" adicional.",
         "en": "Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 \"Memoria.\" If in the \"Darkest Riddle\" state, additionally gains 12 \"Memoria.\"",
-        "zh-CN": "消耗自身生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高。若忆灵「长夜」已在场，为其回复生命值。施放时，获得2点【忆质】，若处于【至暗之谜】状态，额外获得12点【忆质】。",
-        "ja": "自身のHPを消費して記憶の精霊「長夜」を召喚し、味方の記憶の精霊全体の会心ダメージをアップする。長夜がすでにフィールド上にいる場合、そのHPを回復する。発動する時、「憶質」を2獲得する。「至暗の謎」状態の場合、追加で「憶質」を12獲得する。",
-        "ko": "자신의 HP를 소모하여 기억 정령 「긴 밤」을 소환하고, 모든 아군 기억 정령의 치명타 피해를 증가시킨다. 기억 정령 「긴 밤」이 이미 필드에 있으면 대상의 HP를 회복한다. 발동 시 [기억 물질]을 2pt 획득하며, [가장 어두운 수수께끼] 상태일 경우 추가로 [기억 물질]을 12pt 획득한다"
+        "zh-CN": "消耗自身生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高。若忆灵「长夜」已在场，为其回复生命值。施放时，获得2点【忆质】，若处于【至暗之谜】状态，额外获得12点【忆质】。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Invocar", "en": "Summon", "zh-CN": "召唤", "ja": "召喚", "ko": "소환" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Invocar", "en": "Summon", "zh-CN": "召唤" }
     },
     {
       "id": 141303,
@@ -90,16 +70,12 @@
       "name": {
         "pt-BR": "Boa Noite, Insônia do Mundo",
         "en": "O Wakeful World, Goodnight",
-        "zh-CN": "晚安，全世界无眠",
-        "ja": "眠れぬ世界に永き眠りを",
-        "ko": "잘 자, 깨어있는 세상"
+        "zh-CN": "晚安，全世界无眠"
       },
       "description": {
         "pt-BR": "Invoca o Memoespírito \"Nox\", então o Memoespírito \"Nox\" causa Dano de Gelo igual a #1[i]% dos PV máximos de \"Nox\" a todos os inimigos e faz com que Noite Eterna entre no estado de \"Enigma Mais Sombrio\". Durante este estado, o Dano recebido por todos os inimigos aumenta em #4[i]%, o Dano causado por Noite Eterna e seu Memoespírito aumenta em #3[i]%, e tanto Noite Eterna quanto seu Memoespírito ficam imunes a penalidades de Controle Negativo. Obtém #2[i] Carga(s) de \"Enigma Mais Sombrio\". O Memoespírito \"Nox\" consome 1 Carga após usar \"Sonho, Dissolvendo-se, como Orvalho\". No início da rodada de Noite Eterna, se não houver Cargas restantes, sai do estado de \"Enigma Mais Sombrio\".",
         "en": "Summons memosprite Evey. Then Evey deals Ice DMG to all enemies equal to #1[i]% of Evey's Max HP and Evernight enters the \"Darkest Riddle\" state. During this state, all enemies take #4[i]% increased DMG while both Evernight and Evey deal #3[i]% increased DMG and are immune to Crowd Control debuffs. Gains #2[i] point(s) of Charge for \"Darkest Riddle.\" And Evey consumes 1 point after it uses \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charge remains, exits the \"Darkest Riddle\" state.",
-        "zh-CN": "召唤忆灵「长夜」，随后使忆灵「长夜」对敌方全体造成等同于「长夜」#1[i]%生命上限的冰属性伤害，并使长夜月进入【至暗之谜】状态，期间敌方全体受到的伤害提高#4[i]%，长夜月和忆灵「长夜」造成的伤害提高#3[i]%，且免疫控制类负面状态。获得#2[i]点【至暗之谜】的充能，忆灵「长夜」施放【迷梦，流失，如露】后消耗1点。长夜月回合开始时，若无剩余充能，退出【至暗之谜】状态。",
-        "ja": "記憶の精霊「長夜」を召喚する。その後、長夜は敵全体に自身の最大HP#1[i]%分の氷属性ダメージを与え、長夜月は「至暗の謎」状態に入る。「至暗の謎」状態中、敵全体の受けるダメージ+#4[i]%、長夜月と長夜の与ダメージ+#3[i]%、行動制限系デバフに抵抗できるようになる。また、「至暗の謎」のチャージを#2[i]獲得する。長夜が「露のように儚い夢」を発動した後、チャージを1消費する。長夜月のターンが回ってきた時、チャージがない場合、「至暗の謎」状態が解除される。",
-        "ko": "기억 정령 「긴 밤」을 소환하고, 이후 기억 정령 「긴 밤」이 모든 적에게 「긴 밤」 HP 최대치의 #1[i]%만큼 얼음 속성 피해를 가하며, 에버나이트가 [가장 어두운 수수께끼] 상태에 진입한다. 해당 상태 동안 모든 적이 받는 피해가 #4[i]% 증가하고, 에버나이트와 기억 정령 「긴 밤」이 가하는 피해가 #3[i]% 증가하며, 제어류 디버프 상태에 면역된다. [가장 어두운 수수께끼]의 충전을 #2[i]pt 획득하며, 기억 정령 「긴 밤」이 [이슬처럼 사라지는 미몽]을 발동하면 1pt 소모한다. 에버나이트의 턴 시작 시, 남은 충전이 없으면 [가장 어두운 수수께끼] 상태가 종료된다"
+        "zh-CN": "召唤忆灵「长夜」，随后使忆灵「长夜」对敌方全体造成等同于「长夜」#1[i]%生命上限的冰属性伤害，并使长夜月进入【至暗之谜】状态，期间敌方全体受到的伤害提高#4[i]%，长夜月和忆灵「长夜」造成的伤害提高#3[i]%，且免疫控制类负面状态。获得#2[i]点【至暗之谜】的充能，忆灵「长夜」施放【迷梦，流失，如露】后消耗1点。长夜月回合开始时，若无剩余充能，退出【至暗之谜】状态。"
       },
       "params": [
         [1, 2, 0.3, 0.15],
@@ -123,29 +99,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo a todos os inimigos, invoca o Memoespírito \"Nox\" e faz com que Noite Eterna entre no estado de \"Enigma Mais Sombrio\", durante o qual o Dano recebido pelos inimigos aumenta, o Dano causado por Noite Eterna e seu Memoespírito aumenta, e tanto Noite Eterna quanto seu Memoespírito ficam imunes a penalidades de Controle Negativo.",
         "en": "Deals Ice DMG to all enemies. Summons memosprite Evey and causes Evernight to enter the \"Darkest Riddle\" state, during which enemies take increased DMG and both Evernight and her memosprite deal increased DMG and are immune to Crowd Control debuffs.",
-        "zh-CN": "对敌方全体造成冰属性伤害，召唤忆灵「长夜」并使长夜月进入【至暗之谜】状态，期间敌方受到的伤害提高，长夜月和忆灵造成的伤害提高，免疫控制类负面状态。",
-        "ja": "敵全体に氷属性ダメージを与え、記憶の精霊「長夜」を召喚し、長夜月を「至暗の謎」状態にする。この状態の間、敵の受けるダメージがアップし、長夜月と記憶の精霊の与ダメージがアップする。さらに、行動制限系デバフに抵抗できるようになる。",
-        "ko": "모든 적에게 얼음 속성 피해를 가하며, 기억 정령 「긴 밤」을 소환하고 에버나이트가 [가장 어두운 수수께끼] 상태에 진입한다. 해당 상태 동안 적이 받는 피해가 증가하고, 에버나이트와 기억 정령이 가하는 피해가 증가하며, 제어류 디버프 상태에 면역된다"
+        "zh-CN": "对敌方全体造成冰属性伤害，召唤忆灵「长夜」并使长夜月进入【至暗之谜】状态，期间敌方受到的伤害提高，长夜月和忆灵造成的伤害提高，免疫控制类负面状态。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 141304,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Vem Comigo Nesta Noite",
-        "en": "With Me, This Night",
-        "zh-CN": "今夜与我同行",
-        "ja": "今夜、アタシと共に",
-        "ko": "오늘 밤, 나와 함께"
-      },
+      "name": { "pt-BR": "Vem Comigo Nesta Noite", "en": "With Me, This Night", "zh-CN": "今夜与我同行" },
       "description": {
         "pt-BR": "Ao entrar em combate, invoca o Memoespírito \"Nox\". O Memoespírito \"Nox\" possui #4[i] de VEL por padrão, e seus PV máximos equivalem a #5[i]% dos PV máximos de Noite Eterna. Sempre que Noite Eterna ou o Memoespírito \"Nox\" perdem PV, o Dano CRIT de ambas aumenta em #2[i]% por #3[i] rodada(s), e obtém #1[i] de \"Memória\". Este efeito pode ser ativado apenas uma vez por alvo por ataque.\nQuando Noite Eterna possuir #6[i] ou mais acúmulos de \"Memória\", dissipa e torna-se imune a penalidades de Controle Negativo. Se o Memoespírito \"Nox\" estiver em campo, ela age imediatamente. O efeito de ação imediata só pode ser ativado novamente após o Memoespírito \"Nox\" usar \"Sonho, Dissolvendo-se, como Orvalho\".",
         "en": "When entering combat, summons memosprite Evey. Evey has an initial SPD of #4[i] and its Max HP equals to #5[i]% of that of Evernight's. Each time Evernight or Evey loses HP, increases CRIT DMG for Evernight and Evey by #2[i]% for #3[i] turn(s), and gains #1[i] \"Memoria.\" This effect can trigger only once per target for each received attack.\nWhen Evernight has #6[i] or more points of \"Memoria,\" dispels Crowd Control debuffs and becomes immune to them. If Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after Evey uses \"Dream, Dissolving, as Dew.\"",
-        "zh-CN": "进入战斗时召唤忆灵「长夜」。忆灵「长夜」初始拥有#4[i]点速度，生命上限为长夜月的#5[i]%。长夜月或忆灵「长夜」每次生命降低时，使自身和忆灵「长夜」的暴击伤害提高#2[i]%，持续#3[i]回合，并获得#1[i]点【忆质】。该效果每个目标每次受到攻击最多触发1次。\n长夜月持有的【忆质】大于等于#6[i]点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。",
-        "ja": "戦闘に入る時、記憶の精霊「長夜」を召喚する。長夜の初期速度は#4[i]、初期最大HPは長夜月の最大HP#5[i]%分となる。長夜月または長夜のHPが減少するたびに、長夜月と長夜の会心ダメージ+#2[i]%、#3[i]ターン継続。同時に、「憶質」を#1[i]獲得する。この効果はそれぞれが攻撃を受けるたびに最大で1回発動できる。\n長夜月の「憶質」が#6[i]以上になった時、行動制限系デバフを解除し、抵抗できるようになる。その時、長夜がフィールド上にいる場合、長夜を即座に行動させる。なお、即座に行動させる効果は長夜が再び「露のように儚い夢」を発動するまで発動できない。",
-        "ko": "전투 진입 시 기억 정령 「긴 밤」을 소환한다. 기억 정령 「긴 밤」의 기본 속도는 #4[i]pt이며, HP 최대치는 에버나이트의 #5[i]%다. 에버나이트 또는 기억 정령 「긴 밤」의 HP가 감소할 때마다 자신과 기억 정령 「긴 밤」의 치명타 피해가 #3[i]턴 동안 #2[i]% 증가하고, [기억 물질]을 #1[i]pt 획득한다. 해당 효과는 각 목표가 피격될 때마다 최대 1회 발동한다.\n에버나이트가 보유한 [기억 물질]이 #6[i]pt 이상일 시 제어류 디버프 상태를 해제하고 이에 면역되며, 기억 정령 「긴 밤」이 필드에 있으면 즉시 대상을 행동하게 한다. 즉시 행동 효과는 기억 정령 「긴 밤」이 [이슬처럼 사라지는 미몽]을 발동한 후에 다시 발동할 수 있다"
+        "zh-CN": "进入战斗时召唤忆灵「长夜」。忆灵「长夜」初始拥有#4[i]点速度，生命上限为长夜月的#5[i]%。长夜月或忆灵「长夜」每次生命降低时，使自身和忆灵「长夜」的暴击伤害提高#2[i]%，持续#3[i]回合，并获得#1[i]点【忆质】。该效果每个目标每次受到攻击最多触发1次。\n长夜月持有的【忆质】大于等于#6[i]点时，解除并免疫控制类负面状态，若忆灵「长夜」在场，使其立即行动。立即行动效果在忆灵「长夜」施放【迷梦，流失，如露】后方可再次触发。"
       },
       "params": [
         [2, 0.3, 2, 160, 0.5, 16, 0.05],
@@ -169,50 +135,36 @@
       "summary": {
         "pt-BR": "Ao entrar em combate, invoca o Memoespírito \"Nox\". Sempre que esta unidade ou \"Nox\" perde PV, aumenta o Dano CRIT desta unidade e de \"Nox\" e ganha \"Memória\".\nQuando Noite Eterna possui 16 ou mais de \"Memória\", \"Nox\" age imediatamente.",
         "en": "When entering combat, summons memosprite Evey. Each time this unit or Evey loses HP, increases CRIT DMG for this unit and Evey, and gains \"Memoria.\"\nWhen Evernight has 16 or more \"Memoria,\" Evey immediately takes action.",
-        "zh-CN": "进入战斗时召唤忆灵「长夜」。自身或忆灵「长夜」每次生命降低时，使自身和忆灵「长夜」的暴击伤害提高，并获得【忆质】。\n当长夜月持有的【忆质】数量大于等于16点时，使忆灵「长夜」立即行动。",
-        "ja": "戦闘に入る時、記憶の精霊「長夜」を召喚する。自身または長夜のHPが減少するたびに、自身と長夜の会心ダメージがアップし、「憶質」を獲得する。\n長夜月が所持している「憶質」が16以上になった時、長夜を即座に行動させる。",
-        "ko": "전투 진입 시 기억 정령 「긴 밤」을 소환한다. 자신 또는 기억 정령 「긴 밤」의 HP가 감소할 때마다 자신과 기억 정령 「긴 밤」의 치명타 피해가 증가하고 [기억 물질]을 획득한다.\n에버나이트가 보유한 [기억 물질] 수량이 16pt 이상일 시 기억 정령 「긴 밤」이 즉시 행동하게 한다"
+        "zh-CN": "进入战斗时召唤忆灵「长夜」。自身或忆灵「长夜」每次生命降低时，使自身和忆灵「长夜」的暴击伤害提高，并获得【忆质】。\n当长夜月持有的【忆质】数量大于等于16点时，使忆灵「长夜」立即行动。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 141306,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, após o início da batalha, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1413_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, após o início da batalha, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 141307,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Que Caia a Chuva Fria",
-        "en": "Let it Rain Cold On Thee",
-        "zh-CN": "愿有冷雨落下",
-        "ja": "冷たい雨を願って",
-        "ko": "차가운 비가 내리기를"
-      },
+      "name": { "pt-BR": "Que Caia a Chuva Fria", "en": "Let it Rain Cold On Thee", "zh-CN": "愿有冷雨落下" },
       "description": {
         "pt-BR": "Após usar a Técnica, no início da próxima batalha, ganha um efeito idêntico ao da Perícia que aumenta o Dano CRIT dos Memoespíritos de todos os aliados, e ganha #1[i] ponto(s) de \"Memória\".",
         "en": "After using Technique, at the start of the next battle, obtains the same effect as the one from Skill that increases CRIT DMG for all ally memosprites, and gains #1[i] \"Memoria.\"",
-        "zh-CN": "使用秘技后，下一次战斗开始时，获得与战技相同的提高我方全体忆灵暴击伤害的效果，并获得#1[i]点【忆质】。",
-        "ja": "秘技を使用した後、次の戦闘開始時に戦闘スキルと同様の、味方の記憶の精霊全体の会心ダメージをアップする効果を獲得し、「憶質」を#1[i]獲得する。",
-        "ko": "비술을 사용하면 다음 전투 시작 시 전투 스킬과 동일한 모든 아군 기억 정령 치명타 피해 증가 효과를 획득하고, [기억 물질]을 #1[i]pt 획득한다"
+        "zh-CN": "使用秘技后，下一次战斗开始时，获得与战技相同的提高我方全体忆灵暴击伤害的效果，并获得#1[i]点【忆质】。"
       },
       "params": [[1, 1]],
       "icon": "icon/skill/1413_technique.png",
@@ -220,29 +172,19 @@
       "summary": {
         "pt-BR": "No início da próxima batalha, ganha um efeito idêntico ao da Perícia que aumenta o Dano CRIT do Memoespírito, e adicionalmente ganha \"Memória\".",
         "en": "At the start of the next battle, obtains the same effect as the one from Skill that increases memosprite CRIT DMG, and additionally gains \"Memoria.\"",
-        "zh-CN": "下一次战斗开始时，获得与战技相同的提高忆灵暴击伤害的效果，并额外获得【忆质】。",
-        "ja": "次の戦闘開始時、戦闘スキルと同様の、記憶の精霊の会心ダメージをアップする効果を獲得し、追加で「憶質」を獲得する。",
-        "ko": "다음 전투 시작 시 전투 스킬과 동일한 기억 정령 치명타 피해 증가 효과를 획득하고, 추가로 [기억 물질]을 획득한다"
+        "zh-CN": "下一次战斗开始时，获得与战技相同的提高忆灵暴击伤害的效果，并额外获得【忆质】。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 141309,
       "type": "Skill",
-      "name": {
-        "pt-BR": "O Dia Passa Gentilmente",
-        "en": "Day Gently Slips",
-        "zh-CN": "白昼悄然离去",
-        "ja": "白昼は静かに去る",
-        "ko": "조용히 떠나간 낮"
-      },
+      "name": { "pt-BR": "O Dia Passa Gentilmente", "en": "Day Gently Slips", "zh-CN": "白昼悄然离去" },
       "description": {
         "pt-BR": "Consome os PV desta unidade para invocar o Memoespírito \"Nox\" e aumenta o Dano CRIT de todos os Memoespíritos aliados. Se \"Nox\" já estiver em campo, restaura seus PV. Ao ser usada, concede #3[i] de \"Memória\". Se estiver no estado de \"Enigma Mais Sombrio\", concede #5[i] de \"Memória\" adicional.",
         "en": "Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains #3[i] \"Memoria.\" If in the \"Darkest Riddle\" state, additionally gains #5[i] \"Memoria.\"",
-        "zh-CN": "消耗自身生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高。若忆灵「长夜」已在场，为其回复生命值。施放时，获得#3[i]点【忆质】，若处于【至暗之谜】状态，额外获得#5[i]点【忆质】。",
-        "ja": "自身のHPを消費して記憶の精霊「長夜」を召喚し、味方の記憶の精霊全体の会心ダメージをアップする。長夜がすでにフィールド上にいる場合、そのHPを回復する。発動する時、「憶質」を#3[i]獲得する。「至暗の謎」状態の場合、追加で「憶質」を#5[i]獲得する。",
-        "ko": "자신의 HP를 소모하여 기억 정령 「긴 밤」을 소환하고, 모든 아군 기억 정령의 치명타 피해를 증가시킨다. 기억 정령 「긴 밤」이 이미 필드에 있으면 대상의 HP를 회복한다. 발동 시 [기억 물질]을 #3[i]pt 획득하며, [가장 어두운 수수께끼] 상태일 경우 추가로 [기억 물질]을 #5[i]pt 획득한다"
+        "zh-CN": "消耗自身生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高。若忆灵「长夜」已在场，为其回复生命值。施放时，获得#3[i]点【忆质】，若处于【至暗之谜】状态，额外获得#5[i]点【忆质】。"
       },
       "params": [
         [0.2, 2, 2, 0.5, 12, 0.1],
@@ -266,12 +208,10 @@
       "summary": {
         "pt-BR": "Consome os PV desta unidade para invocar o Memoespírito \"Nox\" e aumenta o Dano CRIT de todos os Memoespíritos aliados. Se \"Nox\" já estiver em campo, restaura seus PV. Ao ser usada, concede 2 de \"Memória\". Se estiver no estado de \"Enigma Mais Sombrio\", concede 12 de \"Memória\" adicional.",
         "en": "Consumes this unit's HP to summon memosprite Evey and increase CRIT DMG for all ally memosprites. If Evey is already on the field, restores its HP. When using this, gains 2 \"Memoria.\" If in the \"Darkest Riddle\" state, additionally gains 12 \"Memoria.\"",
-        "zh-CN": "消耗自身生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高。若忆灵「长夜」已在场，为其回复生命值。施放时，获得2点【忆质】，若处于【至暗之谜】状态，额外获得12点【忆质】。",
-        "ja": "自身のHPを消費して記憶の精霊「長夜」を召喚し、味方の記憶の精霊全体の会心ダメージをアップする。長夜がすでにフィールド上にいる場合、そのHPを回復する。発動する時、「憶質」を2獲得する。「至暗の謎」状態の場合、追加で「憶質」を12獲得する。",
-        "ko": "자신의 HP를 소모하여 기억 정령 「긴 밤」을 소환하고, 모든 아군 기억 정령의 치명타 피해를 증가시킨다. 기억 정령 「긴 밤」이 이미 필드에 있으면 대상의 HP를 회복한다. 발동 시 [기억 물질]을 2pt 획득하며, [가장 어두운 수수께끼] 상태일 경우 추가로 [기억 물질]을 12pt 획득한다"
+        "zh-CN": "消耗自身生命值召唤忆灵「长夜」，并使我方全体忆灵的暴击伤害提高。若忆灵「长夜」已在场，为其回复生命值。施放时，获得2点【忆质】，若处于【至暗之谜】状态，额外获得12点【忆质】。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 1141301,
@@ -279,16 +219,12 @@
       "name": {
         "pt-BR": "Recordação a Girar Feito Chuva",
         "en": "Remembrance, Whirling, Like Rain",
-        "zh-CN": "追忆，蹁跹，如雨",
-        "ja": "雨のように降る記憶",
-        "ko": "비처럼 살랑이는 추억"
+        "zh-CN": "追忆，蹁跹，如雨"
       },
       "description": {
         "pt-BR": "Esta habilidade seleciona automaticamente um alvo, priorizando o inimigo-alvo que Noite Eterna atacou por último. Causa Dano de Gelo igual a #1[i]% dos PV máximos de \"Nox\" a um inimigo. Para cada #3[i] ponto(s) de \"Memória\" que Noite Eterna possui atualmente, causa adicionalmente Dano de Gelo igual a #2[f1]% dos PV máximos de \"Nox\". Ganha #4[i] ponto(s) de \"Memória\" após o uso.",
         "en": "This ability automatically selects a target, prioritizing the enemy target that Evernight last attacked. Deals Ice DMG equal to #1[i]% of Evey's Max HP to one enemy. For every #3[i] point(s) of \"Memoria\" Evernight currently has, additionally deals Ice DMG equal to #2[f1]% of Evey's Max HP. Gains #4[i] point(s) of \"Memoria\" after use.",
-        "zh-CN": "该技能自动选择目标施放，优先攻击长夜月上次攻击的敌方目标。对敌方单体造成等同于「长夜」#1[i]%生命上限的冰属性伤害，长夜月当前每有#3[i]点【忆质】，则额外造成等同于「长夜」#2[f1]%生命上限的冰属性伤害。施放后获得#4[i]点【忆质】。",
-        "ja": "このスキルは自動でターゲットを選択して発動する。なお、長夜月が前回攻撃した敵を優先的にターゲットとして選択する。敵単体に「長夜」の最大HP#1[i]%分の氷属性ダメージを与える。長夜月が所持している「憶質」#3[i]につき、さらに長夜の最大HP#2[f1]%分の氷属性ダメージを与える。発動後、「憶質」を#4[i]獲得する。",
-        "ko": "해당 스킬은 자동으로 목표를 선택해 발동되며, 에버나이트가 이전에 공격한 적을 우선으로 공격한다. 단일 적에게 「긴 밤」 HP 최대치의 #1[i]%만큼 얼음 속성 피해를 가하며, 에버나이트가 현재 보유한 [기억 물질] #3[i]pt마다 추가로 「긴 밤」 HP 최대치의 #2[f1]%만큼 얼음 속성 피해를 가한다. 발동 후 [기억 물질]을 #4[i]pt 획득한다"
+        "zh-CN": "该技能自动选择目标施放，优先攻击长夜月上次攻击的敌方目标。对敌方单体造成等同于「长夜」#1[i]%生命上限的冰属性伤害，长夜月当前每有#3[i]点【忆质】，则额外造成等同于「长夜」#2[f1]%生命上限的冰属性伤害。施放后获得#4[i]点【忆质】。"
       },
       "params": [
         [0.25, 0.05, 4, 1],
@@ -307,18 +243,10 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo leve a um inimigo e causa Dano de Gelo leve adicional com base na quantidade de \"Memória\".",
         "en": "Deals minor Ice DMG to one enemy and further deals minor Ice DMG based on the amount of \"Memoria.\"",
-        "zh-CN": "对敌方单体造成少量冰属性伤害，并根据【忆质】数量额外造成少量冰属性伤害。",
-        "ja": "敵単体に少量の氷属性ダメージを与え、「憶質」の数に応じて追加で少量の氷属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 얼음 속성 피해를 가하고, [기억 물질] 수량에 따라 추가로 소량의 얼음 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量冰属性伤害，并根据【忆质】数量额外造成少量冰属性伤害。"
       },
-      "typeText": {
-        "pt-BR": "Perícia do Memoespírito",
-        "en": "Memosprite Skill",
-        "zh-CN": "忆灵技",
-        "ja": "精霊スキル",
-        "ko": "기억 정령 스킬"
-      },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia do Memoespírito", "en": "Memosprite Skill", "zh-CN": "忆灵技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 1141303,
@@ -326,16 +254,12 @@
       "name": {
         "pt-BR": "Solidão a Vagar na Escuridão",
         "en": "Solitude, Drifting, In Murk",
-        "zh-CN": "孤独，浮游，漆黑",
-        "ja": "暗闇に浮かぶ孤独",
-        "ko": "칠흑 속을 부유하는 고독"
+        "zh-CN": "孤独，浮游，漆黑"
       },
       "description": {
         "pt-BR": "Nox é imune a penalidades de Controle Negativo, mas tem uma chance maior de ser alvo. Enquanto \"Nox\" estiver no campo, aumenta o Dano causado por Noite Eterna e por \"Nox\" em #1[i]%.",
         "en": "Evey is immune to Crowd Control debuffs and has an increased chance of getting attacked. While Evey is on the field, Evernight and Evey deal #1[i]% increased DMG.",
-        "zh-CN": "「长夜」免疫控制类负面状态，被攻击的概率提高。「长夜」在场时，长夜月和「长夜」造成的伤害提高#1[i]%。",
-        "ja": "「長夜」は行動制限系デバフに抵抗でき、攻撃される確率がアップする。長夜がフィールド上にいる時、長夜月と長夜の与ダメージ+#1[i]%。",
-        "ko": "「긴 밤」은 제어류 디버프 상태에 면역되며, 피격 확률이 증가한다. 「긴 밤」이 필드에 있을 시 에버나이트와 「긴 밤」이 가하는 피해가 #1[i]% 증가한다"
+        "zh-CN": "「长夜」免疫控制类负面状态，被攻击的概率提高。「长夜」在场时，长夜月和「长夜」造成的伤害提高#1[i]%。"
       },
       "params": [
         [0.25, 3],
@@ -354,18 +278,10 @@
       "summary": {
         "pt-BR": "O Memoespírito \"Nox\" é imune a penalidades de Controle Negativo e aumenta sua chance de ser alvo. Quando ativo, aumenta o Dano causado por esta unidade e por Noite Eterna.",
         "en": "The memosprite Evey is immune to Crowd Control debuffs, and its chance of getting attacked increases. While it's on the field, increases its own and Evernight's DMG dealt.",
-        "zh-CN": "忆灵「长夜」免疫控制类负面状态，被攻击的概率提高。在场时，自身和长夜月造成的伤害提高。",
-        "ja": "記憶の精霊「長夜」は行動制限系デバフに抵抗でき、攻撃される確率がアップする。フィールド上にいる時、自身と長夜月の与ダメージがアップする。",
-        "ko": "기억 정령 「긴 밤」은 제어류 디버프 상태에 면역되며, 피격 확률이 증가한다. 필드에 있을 시 자신과 에버나이트가 가하는 피해가 증가한다"
+        "zh-CN": "忆灵「长夜」免疫控制类负面状态，被攻击的概率提高。在场时，自身和长夜月造成的伤害提高。"
       },
-      "typeText": {
-        "pt-BR": "Talento do Memoespírito",
-        "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
-        "ja": "精霊天賦",
-        "ko": "기억 정령 특성"
-      },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Talento do Memoespírito", "en": "Memosprite Talent", "zh-CN": "忆灵天赋" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 1141305,
@@ -373,34 +289,22 @@
       "name": {
         "pt-BR": "Noite a Seguir em Sintonia",
         "en": "Night, Trailing, In Step",
-        "zh-CN": "与夜，形影，不离",
-        "ja": "影のように夜に寄りそう",
-        "ko": "그림자처럼 따라붙는 밤"
+        "zh-CN": "与夜，形影，不离"
       },
       "description": {
         "pt-BR": "Ao ser conjurada, esta unidade age imediatamente.",
         "en": "When summoned, this unit immediately takes action.",
-        "zh-CN": "被召唤时，使自身立即行动。",
-        "ja": "召喚された時に即座に行動する。",
-        "ko": "소환될 시 자신이 즉시 행동한다"
+        "zh-CN": "被召唤时，使自身立即行动。"
       },
       "icon": "icon/skill/1413_memosprite_talent.png",
       "maxLevel": 10,
       "summary": {
         "pt-BR": "Ao ser conjurada, esta unidade age imediatamente.",
         "en": "When summoned, this unit immediately takes action.",
-        "zh-CN": "被召唤时，使自身立即行动。",
-        "ja": "召喚された時に即座に行動する。",
-        "ko": "소환될 시 자신이 즉시 행동한다"
+        "zh-CN": "被召唤时，使自身立即行动。"
       },
-      "typeText": {
-        "pt-BR": "Talento do Memoespírito",
-        "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
-        "ja": "精霊天賦",
-        "ko": "기억 정령 특성"
-      },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento do Memoespírito", "en": "Memosprite Talent", "zh-CN": "忆灵天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 1141306,
@@ -408,16 +312,12 @@
       "name": {
         "pt-BR": "Você a Partir Além do Alcance",
         "en": "You, Parting, Beyond Reach",
-        "zh-CN": "与你，再见，无期",
-        "ja": "さようなら、永遠に",
-        "ko": "기약 없는 너와의 만남"
+        "zh-CN": "与你，再见，无期"
       },
       "description": {
         "pt-BR": "Ao desaparecer, aumenta a VEL de Noite Eterna em #1[i]%. Se o desaparecimento ocorrer por conta da utilização de \"Sonho, Dissolvendo-se, como Orvalho\", para cada ponto de \"Memória\" usado neste ataque, aumenta adicionalmente a VEL de Noite Eterna em #2[i]%, contando até #3[i] ponto(s) de \"Memória\". O efeito de Bônus de VEL não pode ser acumulado e é removido no início da próxima rodada de Noite Eterna.",
         "en": "Upon disappearing, increases Evernight's SPD by #1[i]%. If the disappearance is due to using \"Dream, Dissolving, as Dew,\" then, for every 1 \"Memoria\" point consumed by the attack, additionally increases Evernight's SPD by #2[i]%. Up to #3[i] \"Memoria\" points can be taken into account for this. The SPD Boost effect cannot stack and is removed at the start of Evernight's next turn.",
-        "zh-CN": "消失时，使长夜月的速度提高#1[i]%，若因施放【迷梦，流失，如露】消失，本次攻击每消耗了1点【忆质】额外使长夜月的速度提高#2[i]%，最多计算#3[i]点【忆质】。加速效果无法叠加，长夜月下个回合开始时移除。",
-        "ja": "退場する時、長夜月の速度+#1[i]%。「露のように儚い夢」の発動で退場した場合、その回の攻撃で「憶質」を1消費するごとに、さらに長夜月の速度+#2[i]%、カウントされる「憶質」は最大#3[i]まで。速度アップの効果は累積できない。効果は長夜月の次のターンが回ってきた時に解除される。",
-        "ko": "사라질 시 에버나이트의 속도가 #1[i]% 증가하며, [이슬처럼 사라지는 미몽]을 발동해 사라질 경우 이번 공격이 소모한 [기억 물질] 1pt마다 추가로 에버나이트의 속도가 #2[i]% 증가하고, [기억 물질]은 최대 #3[i]pt까지 계산된다. 가속 효과는 중첩될 수 없으며, 에버나이트의 다음 턴 시작 시 해제된다"
+        "zh-CN": "消失时，使长夜月的速度提高#1[i]%，若因施放【迷梦，流失，如露】消失，本次攻击每消耗了1点【忆质】额外使长夜月的速度提高#2[i]%，最多计算#3[i]点【忆质】。加速效果无法叠加，长夜月下个回合开始时移除。"
       },
       "params": [
         [0.1, 0.01, 40],
@@ -436,18 +336,10 @@
       "summary": {
         "pt-BR": "Ao desaparecer, aumenta a VEL de Noite Eterna.",
         "en": "Upon disappearing, increases Evernight's SPD.",
-        "zh-CN": "消失时，使长夜月的速度提高。",
-        "ja": "退場すると、長夜月の速度がアップする。",
-        "ko": "사라질 시 에버나이트의 속도가 증가한다"
+        "zh-CN": "消失时，使长夜月的速度提高。"
       },
-      "typeText": {
-        "pt-BR": "Talento do Memoespírito",
-        "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
-        "ja": "精霊天賦",
-        "ko": "기억 정령 특성"
-      },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento do Memoespírito", "en": "Memosprite Talent", "zh-CN": "忆灵天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 1141307,
@@ -455,16 +347,12 @@
       "name": {
         "pt-BR": "Sonho, Dissolvendo-se, como Orvalho",
         "en": "Dream, Dissolving, as Dew",
-        "zh-CN": "迷梦，流失，如露",
-        "ja": "露のように儚い夢",
-        "ko": "이슬처럼 사라지는 미몽"
+        "zh-CN": "迷梦，流失，如露"
       },
       "description": {
         "pt-BR": "Quando a \"Memória\" de Noite Eterna for maior ou igual a #3[i] pontos, e ela não estiver sob efeito de Controle Negativo, essa habilidade pode ser usada. Para cada ponto de \"Memória\" atualmente em posse, causa Dano de Gelo igual a #1[f1]% dos PV máximos de \"Nox\" no alvo principal, e Dano de Gelo igual a #2[f1]% dos PV máximos de \"Nox\" nos demais inimigos-alvo. Após o uso, consome toda a \"Memória\" e PV, e \"Nox\" desaparece.",
         "en": "This ability is used when Evernight's \"Memoria\" is greater than or equal to #3[i] and she is not affected by Crowd Control. For every 1 \"Memoria\" point currently held, deals Ice DMG equal to #1[f1]% of Evey's Max HP to the primary target, and Ice DMG equal to #2[f1]% of Evey's Max HP to the other enemy targets. After use, consumes all \"Memoria\" and HP, and makes Evey disappear.",
-        "zh-CN": "长夜月的【忆质】大于等于#3[i]点，且长夜月不处于控制状态时施放，当前每持有1点【忆质】对主目标造成等同于「长夜」#1[f1]%生命上限的冰属性伤害，对其他敌方目标造成等同于「长夜」#2[f1]%生命上限的冰属性伤害，施放后，消耗全部【忆质】和生命值，并使「长夜」消失。",
-        "ja": "長夜月の「憶質」が#3[i]以上であり、かつ長夜月が行動制限状態でない時に発動できる。所持している「憶質」1につき、メインターゲットに「長夜」の最大HP#1[f1]%分の氷属性ダメージを与え、その他のターゲットに長夜の最大HP#2[f1]%分の氷属性ダメージを与える。発動後、「憶質」とHPをすべて消費し、長夜は退場する。",
-        "ko": "에버나이트의 [기억 물질]이 #3[i]pt 이상이고 에버나이트가 제어 상태가 아닐 시 발동하며, 현재 보유한 [기억 물질] 1pt마다 주목표에게 「긴 밤」 HP 최대치의 #1[f1]%만큼 얼음 속성 피해를 가하고, 다른 적에게 「긴 밤」 HP 최대치의 #2[f1]%만큼 얼음 속성 피해를 가한다. 발동 후 모든 [기억 물질]과 HP를 소모하고 「긴 밤」은 사라진다"
+        "zh-CN": "长夜月的【忆质】大于等于#3[i]点，且长夜月不处于控制状态时施放，当前每持有1点【忆质】对主目标造成等同于「长夜」#1[f1]%生命上限的冰属性伤害，对其他敌方目标造成等同于「长夜」#2[f1]%生命上限的冰属性伤害，施放后，消耗全部【忆质】和生命值，并使「长夜」消失。"
       },
       "params": [
         [0.06, 0.03, 16],
@@ -483,18 +371,10 @@
       "summary": {
         "pt-BR": "Com base na quantidade de \"Memória\", causa um Dano de Gelo massivo ao alvo principal e Dano de Gelo a outros inimigos-alvo. Depois do uso, consome toda a \"Memória\" e os PV, fazendo \"Nox\" desaparecer.",
         "en": "Based on the amount of \"Memoria\", deals massive Ice DMG to the primary target and Ice DMG to the other enemy targets. After use, consumes all \"Memoria\" and HP, and makes Evey disappear.",
-        "zh-CN": "根据【忆质】数量，对主目标造成大量冰属性伤害，对其他敌方目标造成冰属性伤害。施放后，消耗全部【忆质】和生命值，并使「长夜」消失。",
-        "ja": "「憶質」の数に応じて、メインターゲットに大量の氷属性ダメージを与え、その他のターゲットに氷属性ダメージを与える。発動後、「憶質」とHPをすべて消費し、「長夜」は退場する。",
-        "ko": "[기억 물질] 수량에 따라 주목표에게 대량의 얼음 속성 피해를 가하고, 다른 적에게 얼음 속성 피해를 가한다. 발동 후 모든 [기억 물질]과 HP를 소모하고 「긴 밤」은 사라진다"
+        "zh-CN": "根据【忆质】数量，对主目标造成大量冰属性伤害，对其他敌方目标造成冰属性伤害。施放后，消耗全部【忆质】和生命值，并使「长夜」消失。"
       },
-      "typeText": {
-        "pt-BR": "Perícia do Memoespírito",
-        "en": "Memosprite Skill",
-        "zh-CN": "忆灵技",
-        "ja": "精霊スキル",
-        "ko": "기억 정령 스킬"
-      },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia do Memoespírito", "en": "Memosprite Skill", "zh-CN": "忆灵技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     }
   ],
   "eidolons": [
@@ -503,16 +383,12 @@
       "name": {
         "pt-BR": "Durma Bem, Sonhos da Longa Noite",
         "en": "Sleep Tight, the Night Dreams Long",
-        "zh-CN": "睡吧，长夜有所梦",
-        "ja": "{RUBY_B#ねむ}眠{RUBY_E#}って、\n{RUBY_B#なが}長{RUBY_E#}い{RUBY_B#よる}夜{RUBY_E#}にはいい{RUBY_B#ゆめ}夢{RUBY_E#}を",
-        "ko": "잘 자, 긴 밤에 꿈이 있으니"
+        "zh-CN": "睡吧，长夜有所梦"
       },
       "description": {
         "pt-BR": "Quando Noite Eterna está em campo, se houver (4 ou mais)/3/2/1 inimigos-alvo em campo, os Memoespíritos aliados causam Dano igual a 120%/125%/130%/150% de seu Dano original, respectivamente.",
         "en": "When Evernight is on the field, if there are (≥4)/3/2/1 enemy targets on the field, ally memosprites deal DMG equal to 120%/125%/130%/150% of their original DMG respectively.",
-        "zh-CN": "长夜月在场时，场上敌方目标数量等于4或以上/3/2/1名时，我方忆灵造成的伤害为原伤害的120%/125%/130%/150%。",
-        "ja": "長夜月がフィールド上にいる時、フィールド上にいる敵の数が4体以上/3/2/1の場合、味方の記憶の精霊が与えるダメージは本来のダメージの120%/125%/130%/150%分になる。",
-        "ko": "에버나이트가 필드에 있을 시 필드 위 적의 수가 4 이상/3/2/1이면, 아군 기억 정령이 가하는 피해가 기존 피해의 120%/125%/130%/150%가 된다"
+        "zh-CN": "长夜月在场时，场上敌方目标数量等于4或以上/3/2/1名时，我方忆灵造成的伤害为原伤害的120%/125%/130%/150%。"
       },
       "icon": "icon/skill/1413_rank1.png",
       "materials": [{ "id": 11413, "num": 1 }],
@@ -523,16 +399,12 @@
       "name": {
         "pt-BR": "Escute, a Suave Fala do Sono",
         "en": "Listen Up, the Slumber Speaks Soft",
-        "zh-CN": "听，沉眠中的呓语",
-        "ja": "{RUBY_B#みみ}耳{RUBY_E#}を{RUBY_B#す}澄{RUBY_E#}まして、\n{RUBY_B#ねむ}眠{RUBY_E#}りの{RUBY_B#なか}中{RUBY_E#}のささやきに",
-        "ko": "들어봐, 깊은 잠의 잠꼬대를"
+        "zh-CN": "听，沉眠中的呓语"
       },
       "description": {
         "pt-BR": "Aumenta o Dano CRIT de Noite Eterna e de \"Nox\", o Memoespírito, em 40%. Sempre que Noite Eterna ganha \"Memória\", aumenta a quantidade de \"Memoria\" recebida em 2 ponto(s). Ao usar a Perícia Suprema, ganha adicionalmente 2 de Carga para \"Enigma Mais Sombrio\".",
         "en": "Increases Evernight's and the memosprite Evey's CRIT DMG by 40%. Each time Evernight gains \"Memoria,\" increases the amount of \"Memoria\" gain by 2 point(s). When using Ultimate, additionally gains 2 Charge for \"Darkest Riddle.\"",
-        "zh-CN": "长夜月和忆灵「长夜」的暴击伤害提高40%，每当长夜月获得【忆质】时，使获得的【忆质】数量提高2点。施放终结技时，额外获得2点【至暗之谜】的充能。",
-        "ja": "長夜月と記憶の精霊「長夜」の会心ダメージ+40%。長夜月が「憶質」を獲得するたびに、獲得する「憶質」の数+2。必殺技を発動する時、追加で「至暗の謎」のチャージを2獲得する。",
-        "ko": "에버나이트와 기억 정령 「긴 밤」의 치명타 피해가 40% 증가하며, 에버나이트가 [기억 물질]을 획득할 때마다 획득하는 [기억 물질] 수량이 2pt 증가한다. 필살기 발동 시 추가로 [가장 어두운 수수께끼]의 충전을 2pt 획득한다"
+        "zh-CN": "长夜月和忆灵「长夜」的暴击伤害提高40%，每当长夜月获得【忆质】时，使获得的【忆质】数量提高2点。施放终结技时，额外获得2点【至暗之谜】的充能。"
       },
       "icon": "icon/skill/1413_rank2.png",
       "materials": [{ "id": 11413, "num": 1 }],
@@ -543,16 +415,12 @@
       "name": {
         "pt-BR": "Não Tema, o Pesadelo Está no Passado",
         "en": "Fear Not, the Nightmare Lies Past",
-        "zh-CN": "别怕，噩梦已成过去",
-        "ja": "{RUBY_B#だいじょうぶ}大丈夫{RUBY_E#}、\n{RUBY_B#あくむ}悪夢{RUBY_E#}はもう{RUBY_B#す}過{RUBY_E#}ぎ{RUBY_B#さ}去{RUBY_E#}った",
-        "ko": "두려워 마, 악몽은 지나갔으니"
+        "zh-CN": "别怕，噩梦已成过去"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. do Talento do Memoespírito +1, até um máximo de Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊天賦のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 기억 정령 특성 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1413_skill.png",
       "materials": [{ "id": 11413, "num": 1 }],
@@ -570,16 +438,12 @@
       "name": {
         "pt-BR": "Acorde, o Amanhã é Seu",
         "en": "Wake Up, the Tomorrow is Yours",
-        "zh-CN": "醒来，便是你的明天",
-        "ja": "{RUBY_B#お}起{RUBY_E#}きて、\nアンタの{RUBY_B#あした}明日{RUBY_E#}が{RUBY_B#おとず}訪{RUBY_E#}れる",
-        "ko": "깨어나면, 너의 내일이 올 거야"
+        "zh-CN": "醒来，便是你的明天"
       },
       "description": {
         "pt-BR": "Enquanto Noite Eterna estiver em campo, a Eficiência de Quebra de Fraqueza dos Memoespíritos aliados aumenta em 25%, e o Memoespírito \"Nox\" recebe 25% de Eficiência de Quebra de Fraqueza adicional.",
         "en": "While Evernight is on the field, ally memosprites' Weakness Break Efficiency increases by 25%, and the memosprite Evey's Weakness Break Efficiency additionally increases by 25%.",
-        "zh-CN": "长夜月在场时，我方忆灵的弱点击破效率提高25%，忆灵「长夜」的弱点击破效率额外提高25%。",
-        "ja": "長夜月がフィールド上にいる時、味方の記憶の精霊の弱点撃破効率+25%、記憶の精霊「長夜」の弱点撃破効率はさらに+25%。",
-        "ko": "에버나이트가 필드에 있을 시 아군 기억 정령의 약점 격파 효율이 25% 증가하며, 기억 정령 「긴 밤」의 약점 격파 효율이 추가로 25% 증가한다"
+        "zh-CN": "长夜月在场时，我方忆灵的弱点击破效率提高25%，忆灵「长夜」的弱点击破效率额外提高25%。"
       },
       "icon": "icon/skill/1413_rank4.png",
       "materials": [{ "id": 11413, "num": 1 }],
@@ -590,16 +454,12 @@
       "name": {
         "pt-BR": "Desista, o \"Eu\" nas Memórias",
         "en": "Let Go, the \"Me\" in Memories",
-        "zh-CN": "忘却，记忆中的「我」",
-        "ja": "{RUBY_B#わす}忘{RUBY_E#}れて、\n{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}のアタシを",
-        "ko": "잊어, 기억 속의 「나」를"
+        "zh-CN": "忘却，记忆中的「我」"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia do Memoespírito +1, até um máximo de Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊スキルのLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 기억 정령 스킬 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1413_ultimate.png",
       "materials": [{ "id": 11413, "num": 1 }],
@@ -612,19 +472,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Dessa Forma, Sempre",
-        "en": "Like This, Always",
-        "zh-CN": "就这样，一直",
-        "ja": "このまま、ずっと",
-        "ko": "그냥 이대로, 계속"
-      },
+      "name": { "pt-BR": "Dessa Forma, Sempre", "en": "Like This, Always", "zh-CN": "就这样，一直" },
       "description": {
         "pt-BR": "Enquanto Noite Eterna estiver no campo, a PEN de RES a todos os Tipos de todos os aliados-alvo aumenta em 20%. Após o Memoespírito \"Nox\" usar \"Sonho, Dissolvendo-se, como Orvalho\", Noite Eterna ganha 30% da quantidade de \"Memória\" consumida neste ataque.",
         "en": "While Evernight is on the field, all ally targets' All-Type RES PEN increases by 20%. After the memosprite Evey uses \"Dream, Dissolving, as Dew,\" Evernight gains 30% of the amount of \"Memoria\" consumed in this attack.",
-        "zh-CN": "长夜月在场时，我方全体目标的全属性抗性穿透提高20%。忆灵「长夜」施放【迷梦，流失，如露】后，长夜月获得本次攻击消耗【忆质】数量的30%。",
-        "ja": "長夜月がフィールド上にいる時、味方全体の全属性耐性貫通+20%。記憶の精霊「長夜」が「露のように儚い夢」を発動した後、長夜月はその回の攻撃で消費された「憶質」の30%分を獲得する。",
-        "ko": "에버나이트가 필드에 있을 시 모든 아군의 모든 속성 저항 관통이 20% 증가한다. 기억 정령 「긴 밤」이 [이슬처럼 사라지는 미몽]을 발동하면 에버나이트는 이번 공격으로 소모한 [기억 물질] 수량의 30%를 획득한다"
+        "zh-CN": "长夜月在场时，我方全体目标的全属性抗性穿透提高20%。忆灵「长夜」施放【迷梦，流失，如露】后，长夜月获得本次攻击消耗【忆质】数量的30%。"
       },
       "icon": "icon/skill/1413_rank6.png",
       "materials": [{ "id": 11413, "num": 1 }],
@@ -1002,16 +854,12 @@
       "name": {
         "pt-BR": "Escura é a Noite, Calma é a Lua",
         "en": "Dark the Night, Still the Moon",
-        "zh-CN": "天黑黑，月寂寂",
-        "ja": "{RUBY_B#くら}暗{RUBY_E#}い{RUBY_B#よる}夜{RUBY_E#}の{RUBY_B#こどく}孤独{RUBY_E#}な{RUBY_B#つき}月{RUBY_E#}",
-        "ko": "어두운 하늘, 고요한 달"
+        "zh-CN": "天黑黑，月寂寂"
       },
       "description": {
         "pt-BR": "Aumenta a Chance de CRIT da Noite Eterna e do Memoespírito Nox em #1[i]%. Ao usar uma habilidade, consome #2[i]% dos PV atuais desta unidade para aumentar o Dano CRIT de ambos em #3[i]%, com duração de #4[i] rodada(s). Após Nox usar \"Sonho, Dissolvendo-se, como Orvalho\", recupera 1 Ponto de Perícia para os aliados.",
         "en": "Increases Evernight's and the memosprite Evey's CRIT Rate by #1[i]%. When using an ability, consumes #2[i]% of this unit's current HP to increase CRIT DMG for both of them by #3[i]%, lasting for #4[i] turn(s). After Evey uses \"Dream, Dissolving, as Dew,\" recovers 1 Skill Point for allies.",
-        "zh-CN": "长夜月和忆灵「长夜」的暴击率提高#1[i]%，施放技能时，消耗自身当前生命值的#2[i]%使双方的暴击伤害提高#3[i]%，持续#4[i]回合。忆灵「长夜」施放【迷梦，流失，如露】后，为我方恢复1个战技点。",
-        "ja": "長夜月と記憶の精霊「長夜」の会心率+#1[i]%。スキルを発動する時、自身の残りHPを#2[i]%分消費し、長夜月と長夜の会心ダメージ+#3[i]%、#4[i]ターン継続。長夜が「露のように儚い夢」を発動した後、味方のSPを1回復する。",
-        "ko": "에버나이트와 기억 정령 「긴 밤」의 치명타 확률이 #1[i]% 증가하고, 스킬 발동 시 자신의 현재 HP의 #2[i]%를 소모해 에버나이트와 기억 정령 「긴 밤」의 치명타 피해를 #3[i]% 증가시킨다, 지속 시간: #4[i]턴. 기억 정령 「긴 밤」이 [이슬처럼 사라지는 미몽] 발동 후 아군의 전투 스킬 포인트를 1pt 회복한다"
+        "zh-CN": "长夜月和忆灵「长夜」的暴击率提高#1[i]%，施放技能时，消耗自身当前生命值的#2[i]%使双方的暴击伤害提高#3[i]%，持续#4[i]回合。忆灵「长夜」施放【迷梦，流失，如露】后，为我方恢复1个战技点。"
       },
       "params": [[0.35, 0.05, 0.15, 2]],
       "icon": "icon/skill/1413_skilltree1.png",
@@ -1033,16 +881,12 @@
       "name": {
         "pt-BR": "Desperte a Chama, Acalme e Luz",
         "en": "Rouse the Flame, Lull the Light",
-        "zh-CN": "烛火起，烛火熄",
-        "ja": "{RUBY_B#ろうそく}蝋燭{RUBY_E#}は{RUBY_B#とも}灯{RUBY_E#}り、そして{RUBY_B#き}消{RUBY_E#}える",
-        "ko": "촛불이 켜지고, 꺼지네"
+        "zh-CN": "烛火起，烛火熄"
       },
       "description": {
         "pt-BR": "Quando o combate começa, Noite Eterna regenera #2[i] de Energia e ganha #3[i] de \"Memória\". Quando Noite Eterna ou um Memoespírito aliado usar uma habilidade, Noite Eterna regenera #4[i] de Energia e ganha #1[i] de \"Memória\".",
         "en": "When combat starts, Evernight regenerates #2[i] Energy and gains #3[i] \"Memoria.\" When Evernight or an ally memosprite uses an ability, Evernight regenerates #4[i] Energy and gains #1[i] \"Memoria.\"",
-        "zh-CN": "战斗开始时，长夜月恢复#2[i]点能量并获得#3[i]点【忆质】。长夜月或我方忆灵施放技能时，长夜月恢复#4[i]点能量并获得#1[i]点【忆质】。",
-        "ja": "戦闘開始時、長夜月はEPを#2[i]回復し、「憶質」を#3[i]獲得する。長夜月または味方の記憶の精霊がスキルを発動する時、長夜月はEPを#4[i]回復し、「憶質」を#1[i]獲得する。",
-        "ko": "전투 시작 시 에버나이트가 에너지를 #2[i]pt 회복하고 [기억 물질]을 #3[i]pt 획득한다. 에버나이트 또는 아군 기억 정령이 스킬 발동 시 에버나이트가 에너지를 #4[i]pt 회복하고 [기억 물질]을 #1[i]pt 획득한다"
+        "zh-CN": "战斗开始时，长夜月恢复#2[i]点能量并获得#3[i]点【忆质】。长夜月或我方忆灵施放技能时，长夜月恢复#4[i]点能量并获得#1[i]点【忆质】。"
       },
       "params": [[1, 70, 1, 5]],
       "icon": "icon/skill/1413_skilltree2.png",
@@ -1066,19 +910,11 @@
     {
       "id": 1413103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Amanhecer Chuvoso",
-        "en": "Kindle the Morn, Drop the Rain",
-        "zh-CN": "天亮了，雨落了",
-        "ja": "{RUBY_B#よあ}夜明{RUBY_E#}けに{RUBY_B#ふ}降{RUBY_E#}り{RUBY_B#だ}出{RUBY_E#}す{RUBY_B#あめ}雨{RUBY_E#}",
-        "ko": "날이 밝고, 비가 내리네"
-      },
+      "name": { "pt-BR": "Amanhecer Chuvoso", "en": "Kindle the Morn, Drop the Rain", "zh-CN": "天亮了，雨落了" },
       "description": {
         "pt-BR": "Quando houver 1/2/3/4 ou mais personagens da Recordação na equipe, enquanto a Perícia de Noite Eterna persistir, aumenta adicionalmente o Dano CRIT de todos os Memoespíritos em #1[i]%/#2[i]%/#3[i]%/#4[i]%.",
         "en": "When there are 1/2/3/≥4 Remembrance characters in the team, increases CRIT DMG for all ally memosprites by #1[i]%/#2[i]%/#3[i]%/#4[i]% respectively while Evernight's Skill lasts.",
-        "zh-CN": "队伍中「记忆」命途角色数量等于1/2/3/4或以上时，长夜月的战技持续期间额外使我方全体忆灵暴击伤害提高#1[i]%/#2[i]%/#3[i]%/#4[i]%。",
-        "ja": "パーティに「記憶」の運命を歩むキャラが1/2/3/4名またはそれ以上いる場合、長夜月の戦闘スキルの継続期間中、味方の記憶の精霊全体の会心ダメージをさらに#1[i]%/#2[i]%/#3[i]%/#4[i]%アップさせる。",
-        "ko": "파티에 「기억」 운명의 길 캐릭터 수가 1/2/3/4 이상일 시 에버나이트의 전투 스킬 지속 시간 동안 추가로 모든 아군 기억 정령의 치명타 피해가 #1[i]%/#2[i]%/#3[i]%/#4[i]% 증가한다"
+        "zh-CN": "队伍中「记忆」命途角色数量等于1/2/3/4或以上时，长夜月的战技持续期间额外使我方全体忆灵暴击伤害提高#1[i]%/#2[i]%/#3[i]%/#4[i]%。"
       },
       "params": [[0.05, 0.15, 0.5, 0.65]],
       "icon": "icon/skill/1413_skilltree3.png",
@@ -1102,13 +938,7 @@
     {
       "id": 1413201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1125,7 +955,7 @@
     {
       "id": 1413202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1413201],
@@ -1142,13 +972,7 @@
     {
       "id": 1413203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1413201],
@@ -1165,13 +989,7 @@
     {
       "id": 1413204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1413101],
@@ -1188,13 +1006,7 @@
     {
       "id": 1413205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1413101],
@@ -1211,7 +1023,7 @@
     {
       "id": 1413206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1413102],
@@ -1228,13 +1040,7 @@
     {
       "id": 1413207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1413102],
@@ -1251,13 +1057,7 @@
     {
       "id": 1413208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1413103],
@@ -1274,7 +1074,7 @@
     {
       "id": 1413209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1413208],
@@ -1291,13 +1091,7 @@
     {
       "id": 1413210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1413209],
@@ -1317,9 +1111,7 @@
       "name": {
         "pt-BR": "Recordação a Girar Feito Chuva",
         "en": "Remembrance, Whirling, Like Rain",
-        "zh-CN": "追忆，蹁跹，如雨",
-        "ja": "{RUBY_B#あめ}雨{RUBY_E#}のように{RUBY_B#ふ}降{RUBY_E#}る{RUBY_B#きおく}記憶{RUBY_E#}",
-        "ko": "비처럼 살랑이는 추억"
+        "zh-CN": "追忆，蹁跹，如雨"
       },
       "icon": "icon/skill/1413_memosprite_skill3.png",
       "maxLevel": 6,
@@ -1365,9 +1157,7 @@
       "name": {
         "pt-BR": "Solidão a Vagar na Escuridão",
         "en": "Solitude, Drifting, In Murk",
-        "zh-CN": "孤独，浮游，漆黑",
-        "ja": "{RUBY_B#くらやみ}暗闇{RUBY_E#}に{RUBY_B#う}浮{RUBY_E#}かぶ{RUBY_B#こどく}孤独{RUBY_E#}",
-        "ko": "칠흑 속을 부유하는 고독"
+        "zh-CN": "孤独，浮游，漆黑"
       },
       "icon": "icon/skill/1413_memosprite_talent.png",
       "maxLevel": 6,

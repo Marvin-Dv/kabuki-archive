@@ -1,13 +1,7 @@
 {
   "id": 21006,
   "slug": "the-birth-of-the-self",
-  "name": {
-    "pt-BR": "Meu Próprio Nascimento",
-    "en": "The Birth of the Self",
-    "zh-CN": "「我」的诞生",
-    "ja": "「私」の誕生",
-    "ko": "「나」의 탄생"
-  },
+  "name": { "pt-BR": "Meu Próprio Nascimento", "en": "The Birth of the Self", "zh-CN": "「我」的诞生" },
   "rarity": 4,
   "path": "Erudition",
   "announcedAt": "2026-11-16",
@@ -15,24 +9,14 @@
   "description": {
     "pt-BR": "A princípio, a pose era a mesma do retrato anterior.\nOlhando para aquele rosto idêntico ao seu, ela estava convencida de que não era ela.\n\"Impossível. Como podem dois retratos serem exatamente iguais?\"\nEla fez alguns ajustes nas articulações, abriu os olhos e tornou os dedos mais macios.\nParecia feliz depois de todas as mudanças.\n\"Completamente diferente de ontem, está mais parecida comigo hoje.\"",
     "en": "In the beginning, it had the exact same pose as the previous portrait.\nLooking at the face identical to hers, she was convinced that this was not her.\n\"Impossible. How can two portraits be exactly the same?\"\nShe tweaked its joints, opened its eyes, and made its fingers softer.\nShe looked happy when all the changes were done.\n\"Completely different from yesterday. This is more like who I am today.\"",
-    "zh-CN": "刚开始，它和上一幅画像中的姿势完全一致。\n她看着这张和自己一模一样的脸，认定这还不是她。\n「世上怎么可能会有两幅相同的画像呢？」\n她摆弄着它的关节，教它睁开眼，教它的手指变得更柔软。\n她满意地住了手。\n「和昨天截然不同，这才是今天的我。」",
-    "ja": "初めは、前の絵の姿勢と全く同じだった。\n自分とそっくりな顔を見つめながら、それはまだ自分ではないと、彼女は思った。\n「この世に全く同じ絵があるものか」\n彼女はそれの関節を弄り、目を開く方法と、指を柔らかくする方法を教えた。\nそして満足に手を止めた。\n「昨日と全く違う、これこそが今日の私」",
-    "ko": "처음에 그것은 이전 그림의 자세와 완전히 일치했다.\n그녀는 자신과 똑같은 얼굴을 보며 이건 아직 그녀가 아니라고 생각했다.\n「세상에 두 점의 똑같은 그림이 있을 리가 있겠어?」\n그녀는 관절을 만지작거리며 눈을 뜨는 법을 가르쳤고 손가락이 더 부드러워지도록 가르쳤다.\n그녀는 만족하며 손을 멈췄다.\n「어제와는 사뭇 다른 모습이 바로 오늘의 나야」"
+    "zh-CN": "刚开始，它和上一幅画像中的姿势完全一致。\n她看着这张和自己一模一样的脸，认定这还不是她。\n「世上怎么可能会有两幅相同的画像呢？」\n她摆弄着它的关节，教它睁开眼，教它的手指变得更柔软。\n她满意地住了手。\n「和昨天截然不同，这才是今天的我。」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "A Donzela no Retrato",
-      "en": "The Maiden in the Painting",
-      "zh-CN": "画像少女",
-      "ja": "画像少女",
-      "ko": "그림 속 소녀"
-    },
+    "name": { "pt-BR": "A Donzela no Retrato", "en": "The Maiden in the Painting", "zh-CN": "画像少女" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o Dano causado por Ataques Extras do usuário. Se a porcentagem dos PV atuais do inimigo-alvo estiver abaixo ou igual a #2[i]% dos PV máximos, aumenta em mais #3[i]% o Dano causado por Ataques Extras.",
       "en": "Increases DMG dealt by the wearer's Follow-Up ATKs by #1[i]%. If the current HP percentage of the enemy target is below or equal to #2[i]%, increases DMG dealt by Follow-Up ATKs by an extra #3[i]%.",
-      "zh-CN": "使装备者追加攻击造成的伤害提高#1[i]%。若该敌方目标当前生命值百分比小于等于#2[i]%，则追加攻击造成的伤害额外提高#3[i]%。",
-      "ja": "装備キャラの追加攻撃ダメージ+#1[i]%。敵の残りHPが#2[i]%以下の場合、さらに追加攻撃ダメージ+#3[i]%。",
-      "ko": "장착한 캐릭터의 추가 공격으로 가하는 피해가 #1[i]% 증가한다. 해당 적의 현재 HP 백분율이 #2[i]% 이하일 경우, 추가 공격으로 가하는 피해가 추가로 #3[i]% 증가한다"
+      "zh-CN": "使装备者追加攻击造成的伤害提高#1[i]%。若该敌方目标当前生命值百分比小于等于#2[i]%，则追加攻击造成的伤害额外提高#3[i]%。"
     },
     "params": [[0.24, 0.5, 0.24], [0.3, 0.5, 0.3], [0.36, 0.5, 0.36], [0.42, 0.5, 0.42], [0.48, 0.5, 0.48]],
     "properties": [[], [], [], [], []]

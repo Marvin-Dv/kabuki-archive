@@ -1,13 +1,7 @@
 {
   "id": 111013,
   "slug": "conquerors-will",
-  "name": {
-    "pt-BR": "Vontade de Conquistador",
-    "en": "Conqueror's Will",
-    "zh-CN": "践踏的意志",
-    "ja": "踏みにじる意志",
-    "ko": "짓밟힌 의지"
-  },
+  "name": { "pt-BR": "Vontade de Conquistador", "en": "Conqueror's Will", "zh-CN": "践踏的意志" },
   "rarity": 4,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -29,20 +23,6 @@
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["突破至均衡等级4后，反物质军团掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
-    "ja": [
-      "均衡Lv.4に達した後、反物質レギオンからドロップ",
-      "「万能合成マシン」- 素材合成",
-      "「階差宇宙」で敵からドロップ",
-      "「模擬宇宙」で敵からドロップ",
-      "「万能合成マシン」- 素材交換"
-    ],
-    "ko": [
-      "균형 레벨 Lv.4까지 돌파 후 반물질 군단 드랍",
-      "「만능 합성기」- 재료 합성",
-      "「차분화 우주」 적 드랍",
-      "「시뮬레이션 우주」 적 드랍",
-      "「만능 합성기」- 재료 치환"
-    ]
+    "zh-CN": ["突破至均衡等级4后，反物质军团掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"]
   }
 }

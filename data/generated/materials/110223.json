@@ -1,13 +1,7 @@
 {
   "id": 110223,
   "slug": "heaven-incinerator",
-  "name": {
-    "pt-BR": "Incinerador do Paraíso",
-    "en": "Heaven Incinerator",
-    "zh-CN": "焚天之魔",
-    "ja": "焼天の魔",
-    "ko": "천공을 불태우는 마귀"
-  },
+  "name": { "pt-BR": "Incinerador do Paraíso", "en": "Heaven Incinerator", "zh-CN": "焚天之魔" },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -25,8 +19,6 @@
       "Sintetizador Omni — Síntese de Material",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["拟造花萼【丹鼎司】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
-    "ja": ["疑似花萼「丹鼎司」", "「万能合成マシン」- 素材合成", "「万能合成マシン」- 素材交換"],
-    "ko": ["모조 꽃받침 [단정사]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【丹鼎司】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"]
   }
 }

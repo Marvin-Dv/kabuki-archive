@@ -1,13 +1,7 @@
 {
   "id": 110502,
   "slug": "guardians-lament",
-  "name": {
-    "pt-BR": "Lamento do Guardião",
-    "en": "Guardian's Lament",
-    "zh-CN": "守护者的悲愿",
-    "ja": "守護者の悲願",
-    "ko": "수호자의 비원(悲願)"
-  },
+  "name": { "pt-BR": "Lamento do Guardião", "en": "Guardian's Lament", "zh-CN": "守护者的悲愿" },
   "rarity": 4,
   "type": "Material",
   "subType": "WeeklyMonsterDrop",
@@ -17,8 +11,6 @@
   "sources": {
     "en": ["Echo of War: Everwinter Hill"],
     "pt-BR": ["Eco da Guerra: Colina do Inverno Eterno"],
-    "zh-CN": ["历战余响【永冬岭】"],
-    "ja": ["歴戦余韻「常冬峰」"],
-    "ko": ["전쟁의 여운 [영원한 겨울의 골짜기]"]
+    "zh-CN": ["历战余响【永冬岭】"]
   }
 }

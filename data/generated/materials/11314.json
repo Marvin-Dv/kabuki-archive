@@ -1,13 +1,7 @@
 {
   "id": 11314,
   "slug": "jades-eidolon",
-  "name": {
-    "pt-BR": "Eidolon da Jade",
-    "en": "Jade's Eidolon",
-    "zh-CN": "【翡翠】的星魂",
-    "ja": "「ジェイド」の星魂",
-    "ko": "[제이드]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon da Jade", "en": "Jade's Eidolon", "zh-CN": "【翡翠】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

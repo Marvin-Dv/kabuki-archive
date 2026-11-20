@@ -1,13 +1,7 @@
 {
   "id": 21036,
   "slug": "dreamville-adventure",
-  "name": {
-    "pt-BR": "Aventura de Sonhópolis",
-    "en": "Dreamville Adventure",
-    "zh-CN": "美梦小镇大冒险",
-    "ja": "ドリームタウンの大冒険",
-    "ko": "좋은꿈 마을 대모험"
-  },
+  "name": { "pt-BR": "Aventura de Sonhópolis", "en": "Dreamville Adventure", "zh-CN": "美梦小镇大冒险" },
   "rarity": 4,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "\"Olá, queridos telespectadores! O Relogin e seus amigos vieram ver vocês novamente!\"\n\"No episódio anterior, o Chefe Pedreira descobriu que Sonhópolis estava em cima de uma gama de recursos naturais, e seguiu adiante para tomar o controle da cidade. Em resposta, Relogin juntou suas forças com o Irmão Hanu e Pássaro de Origami, e juntos, colocaram o Chefe Pedreira e seus capangas para correr de Sonhópolis.\"\n\"Mas o Chefe Pedreira não vai ser derrotado assim tão fácil, e dessa vez, ele juntou uma legião de capangas para cumprir sua promessa de transformar Sonhópolis em uma cratera. Nesse episódio, Relogin pode estar diante da maior ameaça que ele já enfrentou!\"\n\"Quais esquemas Relogin usará para escapar dessa crise? E que novos amigos se juntarão à sua equipe? Fique ligado no último episódio da 'Aventura de Sonhópolis'!\"",
     "en": "\"Hello, dear viewers! Clockie and his pals have come to see you all again!\"\n\"In the previous episode, Boss Stone discovered that Dreamville was sitting on a wealth of natural resources, and moved to seize control over the city. In response, Clockie joined forces with Brother Hanu and Origami Bird, and together, they sent Boss Stone and his goons running from Dreamville.\"\n\"But Boss Stone isn't going to be defeated that easily, and this time, he's gathered a legion of thugs to fulfill his oath of turning Dreamville into a crater. In this episode, Clockie might just be standing against the greatest threat he ever faced!\"\n\"What scheme will Clockie employ to escape from this crisis? And what new friends will join his party? Stay tuned for the latest episode of 'Dreamville Adventure'!\"",
-    "zh-CN": "「亲爱的观众朋友们，钟表小子和他的伙伴们又要和大家见面啦！」\n「在上一集中，石头老板发现了美梦小镇藏有丰富的资源，开始抢夺美梦小镇的统治权。钟表小子联合哈努兄弟与折纸小鸟，将石头老板和他的可恶下属赶出了美梦小镇。」\n「石头老板心有不甘，聚集一帮打手誓要踏平美梦小镇。钟表小子将在这一集中面临史上最大危机！」\n「钟表小子会用怎样的计谋突出重围？又会有什么新伙伴加入他的队伍？敬请欣赏最新一集『美梦小镇历险记』！」",
-    "ja": "「親愛なる視聴者のみんな。クロックボーイと愉快な仲間たちの登場だよ！」\n「前回、ドリームタウンの豊かな資源に目をつけたボス・ストーンは、ドリームタウンを支配しようと企む。クロックボーイはブラザーハヌ、折り紙の小鳥と協力して、ボス・ストーンとその部下をドリームタウンから追い出すことに成功したけど…」\n「ボス・ストーンは諦めきれず、凶悪犯を集めてドリームタウンで破壊の限りを尽くそうとしていた！クロックボーイたちは史上最大の危機に直面する！」\n「果たしてクロックボーイはどんな戦略でこのピンチを乗り切るのだろうか？そして彼が次に出会う新たな仲間とは？次回『ドリームタウン冒険記』乞うご期待！」",
-    "ko": "「친애하는 관객 여러분, 시계 소년과 그의 친구들이 또다시 여러분들을 만나러 왔습니다!」\n「지난 에피소드에서, 스톤 보스는 좋은꿈 마을에 풍부한 자원이 있다는 사실을 알고, 좋은꿈 마을의 통치권을 빼앗기 시작했습니다. 시계 소년은 하누 형제, 종이새와 힘을 합쳐 스톤 보스와 그의 가증스러운 부하들을 좋은꿈 마을에서 쫓아냈죠」\n「스톤 보스는 복수하기 위해 악당들을 모아 좋은꿈 마을을 짓밟을 준비를 하는데… 이번 에피소드에서는 시계 소년에게 최대의 위기가 닥칩니다!」\n「시계 소년은 어떻게 위기를 헤쳐 나갈 것인가! 또 어떤 새로운 동료가 합류하게 될 것인가? 『좋은꿈 마을 어드벤처』 최신화를 기대해 주세요!」"
+    "zh-CN": "「亲爱的观众朋友们，钟表小子和他的伙伴们又要和大家见面啦！」\n「在上一集中，石头老板发现了美梦小镇藏有丰富的资源，开始抢夺美梦小镇的统治权。钟表小子联合哈努兄弟与折纸小鸟，将石头老板和他的可恶下属赶出了美梦小镇。」\n「石头老板心有不甘，聚集一帮打手誓要踏平美梦小镇。钟表小子将在这一集中面临史上最大危机！」\n「钟表小子会用怎样的计谋突出重围？又会有什么新伙伴加入他的队伍？敬请欣赏最新一集『美梦小镇历险记』！」"
   },
   "skill": {
-    "name": { "pt-BR": "Solidariedade", "en": "Solidarity", "zh-CN": "团结", "ja": "団結", "ko": "단결" },
+    "name": { "pt-BR": "Solidariedade", "en": "Solidarity", "zh-CN": "团结" },
     "description": {
       "pt-BR": "Depois que um usuário usa um certo tipo de habilidade, como ATQ Básico, Perícia, ou Perícia Suprema, todos os aliados ganham Infantilidade, que aumenta o Dano do tipo de habilidade usada pelo usuário em #1[i]%. Infantilidade só tem efeito com o tipo de habilidade mais recente usada pelo usuário e não pode ser acumulada.",
       "en": "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies' DMG for the same type of ability as used by the wearer by #1[i]%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
-      "zh-CN": "装备者施放普攻、战技、终结技中某一类型的技能后，为我方全体附加【童心】，【童心】可以使我方目标对应类型的技能所造成的伤害提高#1[i]%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。",
-      "ja": "装備キャラが通常攻撃、戦闘スキル、必殺技のうち、いずれかのタイプのスキルを発動した後、味方全体に「童心」を付与する。装備キャラが最後に発動したスキルに応じて、「童心」を持つ味方の同一タイプのスキルによるダメージ+#1[i]%。この効果は累積できない。",
-      "ko": "장착한 캐릭터가 일반 공격, 전투 스킬, 필살기 중 임의 유형의 스킬 발동 후 모든 아군에게 [동심]을 부여한다. [동심]은 아군의 상응하는 유형의 스킬이 가하는 피해를 #1[i]% 증가시킬 수 있다. [동심] 효과는 장착한 캐릭터가 가장 최근 사용한 스킬 유형에만 효과가 적용되며, 중첩할 수 없다"
+      "zh-CN": "装备者施放普攻、战技、终结技中某一类型的技能后，为我方全体附加【童心】，【童心】可以使我方目标对应类型的技能所造成的伤害提高#1[i]%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。"
     },
     "params": [[0.12], [0.14], [0.16], [0.18], [0.2]],
     "properties": [[], [], [], [], []]

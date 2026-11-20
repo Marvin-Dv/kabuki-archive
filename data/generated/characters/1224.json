@@ -1,7 +1,7 @@
 {
   "id": 1224,
   "slug": "march-7th-1224",
-  "name": { "pt-BR": "7 de Março", "en": "March 7th", "zh-CN": "三月七", "ja": "三月なのか", "ko": "Mar. 7th" },
+  "name": { "pt-BR": "7 de Março", "en": "March 7th", "zh-CN": "三月七" },
   "rarity": 4,
   "path": "Hunt",
   "element": "Imaginary",
@@ -14,16 +14,12 @@
       "name": {
         "pt-BR": "Minha Espada Eletrocuta Demônios",
         "en": "My Sword Zaps Demons",
-        "zh-CN": "荡涤妖邪琉璃剑",
-        "ja": "妖魔を祓う瑠璃剣",
-        "ko": "요사를 씻어내는 유리검"
+        "zh-CN": "荡涤妖邪琉璃剑"
       },
       "description": {
         "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março a um único inimigo-alvo e ganha #2[i] ponto(s) de Carga.",
         "en": "Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target and gains #2[i] point(s) of Charge.",
-        "zh-CN": "对指定敌方单体造成等同于三月七#1[i]%攻击力的虚数属性伤害，随后获得#2[i]点充能。",
-        "ja": "指定した敵単体に三月なのかの攻撃力#1[i]%分の虚数属性ダメージを与え、チャージを#2[i]獲得する。",
-        "ko": "지정된 단일 적에게 Mar. 7th 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, 충전을 #2[i]pt 획득한다"
+        "zh-CN": "对指定敌方单体造成等同于三月七#1[i]%攻击力的虚数属性伤害，随后获得#2[i]点充能。"
       },
       "params": [
         [0.5, 1],
@@ -42,29 +38,19 @@
       "summary": {
         "pt-BR": "Causa Dano Imaginário leve a um único inimigo e ganha 1 ponto(s) de Carga.",
         "en": "Deals minor Imaginary DMG to one enemy and gains 1 point(s) of Charge.",
-        "zh-CN": "对敌方单体造成少量虚数属性伤害，获得1点充能。",
-        "ja": "敵単体に少量の虚数属性ダメージを与え、チャージを1獲得する。",
-        "ko": "단일 적에게 소량의 허수 속성 피해를 가하고, 충전을 1pt 획득한다"
+        "zh-CN": "对敌方单体造成少量虚数属性伤害，获得1点充能。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122402,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Shifu, É Hora do Chá!",
-        "en": "Master, It's Tea Time!",
-        "zh-CN": "师父，请喝茶！",
-        "ja": "師匠、お茶をどうぞ！",
-        "ko": "사부, 차 마셔!"
-      },
+      "name": { "pt-BR": "Shifu, É Hora do Chá!", "en": "Master, It's Tea Time!", "zh-CN": "师父，请喝茶！" },
       "description": {
         "pt-BR": "Designa um único aliado (excluindo esta unidade) como \"Shifu\" e aumenta a VEL do \"Shifu\" em #1[f1]%. Apenas o alvo mais recente da Perícia de 7 de Março será considerado como \"Shifu\".\nSempre que usar um ATQ Básico ou realizar 1 golpe do Dano de ATQ Básico Aprimorado, ativa o efeito correspondente se um \"Shifu\" com o Caminho especificado estiver presente no campo:\nA Erudição, A Destruição, A Caça, A Recordação, A Euforia: causa Dano Adicional (Tipo de Dano baseado no Tipo de Combate do \"Shifu\") igual a #2[i]% do ATQ de 7 de Março.\nA Harmonia, A Inexistência, A Preservação, A Abundância: aumenta a Redução de Tenacidade dessa instância de Dano em #3[i]%.",
         "en": "Designates one ally (excluding this unit) as \"Shifu\" and increases \"Shifu\"'s SPD by #1[f1]%. Only the most recent target of March 7th's Skill is considered as \"Shifu.\"\nWhenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if \"Shifu\" with the specified Path is present on the field:\nErudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG (DMG Type based on \"Shifu\"'s Combat Type) equal to #2[i]% of March 7th's ATK.\nHarmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by #3[i]%.",
-        "zh-CN": "使除自身以外的我方指定单体成为【师父】，【师父】的速度提高#1[f1]%。仅战技最新的施放目标被视为三月七的【师父】。\n每当施放普攻或造成1段强化普攻的伤害时，若场上存在指定命途的【师父】，则触发对应效果：\n「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成等同于三月七#2[i]%攻击力的基于【师父】属性的附加伤害。\n「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高#3[i]%。",
-        "ja": "指定した自身以外の味方単体を「師匠」にする。「師匠」の速度+#1[f1]%。戦闘スキルで最後に指定したターゲットのみ、三月なのかの「師匠」と見なされる。\n通常攻撃を行う、または強化通常攻撃「一に眉間、二に心臓」によるダメージを1段与える時、フィールド上に特定の運命を歩む「師匠」が存在する場合、「師匠」の歩む運命に応じて特定の効果を発動する。\n「師匠」の歩む運命が「知恵」、「壊滅」、「巡狩」、「記憶」または「愉悦」の場合：三月なのかの攻撃力#2[i]%分の、「師匠」の属性に応じた付加ダメージを与える。\n「師匠」の歩む運命が「調和」、「虚無」、「存護」または「豊穣」の場合：その回の攻撃の削靭値+#3[i]%。",
-        "ko": "자신 이외의 지정된 단일 아군을 [사부]로 만들고, [사부]의 속도가 #1[f1]% 증가한다. 최근 전투 스킬의 대상이 된 아군만이 Mar. 7th의 [사부]로 간주된다.\n일반 공격을 발동하거나 강화된 일반 공격 피해를 1단 가할 시, 필드 위에 지정된 운명의 길의 [사부]가 존재하면 상응하는 효과를 발동한다.\n「지식」, 「파멸」, 「수렵」, 「기억」, 「환락」: [사부] 속성에 따른 추가 피해를 Mar. 7th 공격력의 #2[i]%만큼 추가로 가한다.\n「화합」, 「공허」, 「보존」, 「풍요」: 이번 피해의 강인성 감소 수치가 #3[i]% 증가한다"
+        "zh-CN": "使除自身以外的我方指定单体成为【师父】，【师父】的速度提高#1[f1]%。仅战技最新的施放目标被视为三月七的【师父】。\n每当施放普攻或造成1段强化普攻的伤害时，若场上存在指定命途的【师父】，则触发对应效果：\n「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成等同于三月七#2[i]%攻击力的基于【师父】属性的附加伤害。\n「同谐」、「虚无」、「存护」、「丰饶」：本次伤害的削韧值提高#3[i]%。"
       },
       "params": [
         [0.06, 0.1, 1],
@@ -88,12 +74,10 @@
       "summary": {
         "pt-BR": "Faz com que um único aliado se torne \"Shifu\". Ao utilizar ATQ Básico ou causar Dano de ATQ Básico Aprimorado, aciona o efeito correspondente ao Caminho do \"Shifu\":\nA Erudição, A Destruição, A Caça, A Recordação, A Euforia: causa Dano Adicional com base no Tipo do \"Shifu\".\nA Harmonia, A Inexistência, A Preservação, A Abundância: a Redução de Tenacidade aumenta.",
         "en": "Makes a single ally become \"Shifu.\" When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on the \"Shifu\"'s Path:\nErudition, Destruction, The Hunt, Remembrance, Elation: Deals Additional DMG based on Shifu's Type.\nHarmony, Nihility, Preservation, Abundance: Toughness Reduction increases.",
-        "zh-CN": "使我方单体成为【师父】。施放普攻或造成强化普攻的伤害时，根据【师父】命途触发对应效果：\n「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成基于【师父】属性的附加伤害。\n「同谐」、「虚无」、「存护」、「丰饶」：削韧值提高。",
-        "ja": "味方単体を「師匠」にする。通常攻撃、または強化通常攻撃を行ってダメージを与える時、「師匠」の運命に応じて以下の効果を発動する：\n「師匠」の運命が「知恵」、「壊滅」、「巡狩」、「記憶」、「愉悦」の場合：「師匠」の属性に応じた付加ダメージをさらに与える。\n「師匠」の運命が「調和」、「虚無」、「存護」、「豊穣」の場合：削靭値がアップする。",
-        "ko": "단일 아군을 [사부]로 만든다. 일반 공격을 발동하거나 강화된 일반 공격으로 피해를 가할 시 [사부]의 운명의 길에 따라 상응하는 효과를 발동한다.\n「지식」, 「파멸」, 「수렵」, 「기억」, 「환락」: [사부] 속성에 기반한 추가 피해를 추가로 가한다.\n「화합」, 「공허」, 「보존」, 「풍요」: 강인성 감소 수치가 증가한다"
+        "zh-CN": "使我方单体成为【师父】。施放普攻或造成强化普攻的伤害时，根据【师父】命途触发对应效果：\n「智识」、「毁灭」、「巡猎」、「记忆」、「欢愉」：额外造成基于【师父】属性的附加伤害。\n「同谐」、「虚无」、「存护」、「丰饶」：削韧值提高。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 122403,
@@ -101,16 +85,12 @@
       "name": {
         "pt-BR": "7 de Março, a Maior das Heroínas",
         "en": "March 7th, the Apex Heroine",
-        "zh-CN": "盖世女侠三月七",
-        "ja": "蓋世の傑物、三月なのか",
-        "ko": "절세의 여협, Mar. 7th"
+        "zh-CN": "盖世女侠三月七"
       },
       "description": {
         "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março a um único inimigo-alvo.\nAumenta os Golpes por Ação iniciais do próximo ATQ Básico Aprimorado em #2[i] golpes e aumenta a chance-fixa de causar Dano adicional em #3[i]%.",
         "en": "Deals Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target.\nIncreases the initial Hits Per Action of the next Enhanced Basic ATK by #2[i] hit(s) and increase the fixed chance of additionally dealing DMG by #3[i]%.",
-        "zh-CN": "对指定敌方单体造成等同于三月七#1[i]%攻击力的虚数属性伤害。\n使下一次强化普攻的初始段数增加#2[i]段，额外造成伤害的固定概率提高#3[i]%。",
-        "ja": "指定した敵単体に三月なのかの攻撃力#1[i]%分の虚数属性ダメージを与える。\n次の強化通常攻撃「一に眉間、二に心臓」の初期攻撃段数+#2[i]。また、攻撃段数が増加する固定確率+#3[i]%。",
-        "ko": "지정된 단일 적에게 Mar. 7th 공격력의 #1[i]%만큼 허수 속성 피해를 가한다.\n다음번 강화된 일반 공격의 기본 상태 단수가 #2[i]단 증가하고, 추가로 피해를 가할 고정 확률이 #3[i]% 증가한다"
+        "zh-CN": "对指定敌方单体造成等同于三月七#1[i]%攻击力的虚数属性伤害。\n使下一次强化普攻的初始段数增加#2[i]段，额外造成伤害的固定概率提高#3[i]%。"
       },
       "params": [
         [1.44, 2, 0.2],
@@ -134,29 +114,19 @@
       "summary": {
         "pt-BR": "Causa Dano Imaginário a um único inimigo e aumenta os Golpes por Ação e a chance de Dano do próximo ATQ Básico Aprimorado.",
         "en": "Deals Imaginary DMG to one enemy and increases the Hits Per Action and DMG chance of the next Enhanced Basic ATK.",
-        "zh-CN": "对敌方单体造成虚数属性伤害，并使下一次强化普攻的段数和造成伤害的概率提高。",
-        "ja": "敵単体に虚数属性ダメージを与え、次の強化通常攻撃の攻撃段数、および段数が増加する確率がアップする。",
-        "ko": "단일 적에게 허수 속성 피해를 가하고, 다음번 강화된 일반 공격의 단수와 피해를 가할 확률이 증가한다"
+        "zh-CN": "对敌方单体造成虚数属性伤害，并使下一次强化普攻的段数和造成伤害的概率提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122404,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Shifu, Eu Ascendi!",
-        "en": "Master, I've Ascended!",
-        "zh-CN": "师父，我悟了！",
-        "ja": "師匠、わかりました！",
-        "ko": "사부, 나 깨달았어!"
-      },
+      "name": { "pt-BR": "Shifu, Eu Ascendi!", "en": "Master, I've Ascended!", "zh-CN": "师父，我悟了！" },
       "description": {
         "pt-BR": "Depois que o Shifu usa um ataque ou Perícia Suprema, 7 de Março ganha até um ponto de Carga por vez.\nQuando a Carga chegar a #1[i] ou mais, 7 de Março age imediatamente e aumenta o Dano causado por ela em #2[i]%. O ATQ Básico dela é Aprimorado, e sua Perícia não pode ser utilizada. Após utilizar um ATQ Básico Aprimorado, consome #1[i] ponto(s) de Carga. O máximo de acúmulos possível de ponto(s) de Carga é #3[i].",
         "en": "After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.\nUpon reaching #1[i] or more points of Charge, March 7th immediately takes action and increases the DMG she deals by #2[i]%. Her Basic ATK gets Enhanced, and her Skill cannot be used. After using Enhanced Basic ATK, consumes #1[i] point(s) of Charge. Charge is capped at #3[i] points.",
-        "zh-CN": "【师父】施放攻击或终结技后，三月七每次获得最多1点充能。\n充能大于等于#1[i]点时，三月七立即行动，造成的伤害提高#2[i]%，普攻得到强化且无法施放战技。施放强化普攻后，消耗#1[i]点充能。充能上限#3[i]点。",
-        "ja": "「師匠」が攻撃を行う、または必殺技を発動した後、三月なのかは一度に最大でチャージを1獲得する。\nチャージが#1[i]以上の時、三月なのかは即座に行動し、与ダメージ+#2[i]%。通常攻撃が「一に眉間、二に心臓」に強化され、戦闘スキルが発動できなくなる。強化通常攻撃を行った後、チャージを#1[i]消費する。チャージの上限は#3[i]。",
-        "ko": "[사부]가 공격 또는 필살기 발동 후 Mar. 7th가 매번 충전을 최대 1pt 획득한다.\n충전이 #1[i]pt 이상일 시 Mar. 7th가 즉시 행동하고 가하는 피해가 #2[i]% 증가하며, 일반 공격이 강화되고 전투 스킬을 발동할 수 없다. 강화된 일반 공격 발동 후 충전을 #1[i]pt 소모한다. 충전 상한: #3[i]pt"
+        "zh-CN": "【师父】施放攻击或终结技后，三月七每次获得最多1点充能。\n充能大于等于#1[i]点时，三月七立即行动，造成的伤害提高#2[i]%，普攻得到强化且无法施放战技。施放强化普攻后，消耗#1[i]点充能。充能上限#3[i]点。"
       },
       "params": [
         [7, 0.4, 10],
@@ -180,50 +150,36 @@
       "summary": {
         "pt-BR": "Depois que o Shifu usa um ataque ou Perícia Suprema, 7 de Março ganha Carga. Quando os pontos de Carga atingem 7, 7 de Março age imediatamente e aumenta o Dano causado por ela. O ATQ Básico dela é Aprimorado.",
         "en": "After Shifu uses an attack or Ultimate, March 7th gains Charge. When reaching 7 points of Charge, March 7th immediately takes action and increases the DMG she deals. Basic ATK gets Enhanced.",
-        "zh-CN": "【师父】施放攻击或终结技后，三月七获得充能。充能达到7点时立即行动，造成的伤害提高，普攻获得强化。",
-        "ja": "「師匠」が攻撃を行う、または必殺技を発動した後、三月なのかはチャージを獲得する。チャージが7に達すると即座に行動して与ダメージをアップし、通常攻撃を強化する。",
-        "ko": "[사부]가 공격 또는 필살기 발동 후 Mar. 7th가 충전을 획득한다. 충전이 7pt에 도달하면 즉시 행동하고 가하는 피해가 증가하며, 일반 공격이 강화된다"
+        "zh-CN": "【师父】施放攻击或终结技后，三月七获得充能。充能达到7点时立即行动，造成的伤害提高，普攻获得强化。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 122406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1224_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 122407,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Banquete de Uma Só Vez",
-        "en": "Feast in One Go",
-        "zh-CN": "一气化三餐",
-        "ja": "一気に三食",
-        "ko": "일기화삼찬"
-      },
+      "name": { "pt-BR": "Banquete de Uma Só Vez", "en": "Feast in One Go", "zh-CN": "一气化三餐" },
       "description": {
         "pt-BR": "Se 7 de Março estiver na equipe, ela ganha 1 ponto de Carga no início da próxima batalha sempre que um aliado utiliza uma Técnica, até um máximo de #1[i] ponto(s).\nApós utilizar a Técnica, 7 de Março regenera #2[i] de Energia quando a próxima batalha começa.",
         "en": "If March 7th is on the team, she gains 1 point of Charge at the start of the next battle whenever a teammate uses Technique, up to a max of #1[i] point(s).\nAfter using Technique, March 7th regenerates #2[i] Energy when the next battle starts.",
-        "zh-CN": "若三月七在队伍中，每当队友施放1次秘技，下一次战斗开始时三月七获得1点充能，最多获得#1[i]点。\n使用秘技后，下一次战斗开始时三月七恢复#2[i]点能量。",
-        "ja": "三月なのかがパーティに編成されている場合、三月なのか以外の味方が秘技を使用した回数1回につき、次の戦闘開始時、三月なのかはチャージを1獲得する、最大で#1[i]獲得できる。\n三月なのかが秘技を使用した後、次の戦闘開始時、三月なのかはEPを#2[i]回復する。",
-        "ko": "Mar. 7th가 파티에 있으면 동료가 비술을 1회 발동할 때마다 다음 전투 시작 시 Mar. 7th가 충전을 1pt 획득하며, 최대 #1[i]pt 획득한다.\n비술 사용 후 다음 전투 시작 시 Mar. 7th가 에너지를 #2[i]pt 회복한다"
+        "zh-CN": "若三月七在队伍中，每当队友施放1次秘技，下一次战斗开始时三月七获得1点充能，最多获得#1[i]点。\n使用秘技后，下一次战斗开始时三月七恢复#2[i]点能量。"
       },
       "params": [[3, 30]],
       "icon": "icon/skill/1224_technique.png",
@@ -231,12 +187,10 @@
       "summary": {
         "pt-BR": "Sempre que um aliado usa uma Técnica, 7 de Março ganha uma Carga ao entrar na próxima batalha. Utilizar a Técnica regenera Energia ao entrar na próxima batalha.",
         "en": "Whenever a teammate uses Technique, March 7th gains Charge upon entering the next battle. Using Technique regenerates Energy upon entering the next battle.",
-        "zh-CN": "每当队友施放秘技，下一次进战后三月七获得充能。使用秘技，下一次进战后恢复能量。",
-        "ja": "自身以外の味方が秘技を使用するたびに、次の戦闘開始時、三月なのかはチャージを獲得する。秘技を使用すると、次の戦闘開始時にEPを回復する。",
-        "ko": "동료가 비술을 발동할 때마다 다음 전투 진입 후 Mar. 7th가 충전을 획득한다. 비술을 사용하면 다음 전투 진입 후 에너지를 회복한다"
+        "zh-CN": "每当队友施放秘技，下一次进战后三月七获得充能。使用秘技，下一次进战后恢复能量。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 122408,
@@ -244,16 +198,12 @@
       "name": {
         "pt-BR": "Rostos Feridos, Corações Mordidos",
         "en": "Brows Be Smitten, Heart Be Bitten",
-        "zh-CN": "一扎眉攒，二扎心",
-        "ja": "一に眉間、二に心臓",
-        "ko": "일격에 미간, 이격에 심장"
+        "zh-CN": "一扎眉攒，二扎心"
       },
       "description": {
         "pt-BR": "Este ataque causa Dano #4[i] vez(es) inicialmente. Cada golpe contra o inimigo-alvo causa Dano Imaginário igual a #1[i]% do ATQ de 7 de Março. Toda vez que realizar o golpe final, há uma chance fixa de #2[i]% de realizar 1 golpe extra, até um máximo de #3[i] golpe(s) extra(s). A Energia regenerada ao utilizar o ATQ Básico Aprimorado não aumenta com o número de Golpes por Ação.\nO ATQ Básico Aprimorado não pode recuperar Pontos de Perícia.",
         "en": "Initially, deals #4[i] hits, each causing Imaginary DMG equal to #1[i]% of March 7th's ATK to one designated enemy target. When dealing the final hit, there is a #2[i]% fixed chance to deal 1 additional hit of DMG, up to a max of #3[i] additional hit(s). Energy regenerated from using Enhanced Basic ATK does not increase with the number of hits.\nEnhanced Basic ATK cannot recover Skill Points.",
-        "zh-CN": "初始造成#4[i]段伤害，每段对指定敌方单体造成等同于三月七#1[i]%攻击力的虚数属性伤害。每当造成最后1段伤害后，有#2[i]%的固定概率再造成1段伤害，最多额外造成#3[i]段伤害。施放强化普攻恢复的能量不随段数提高而提高。\n强化普攻无法恢复战技点。",
-        "ja": "初期攻撃段数は#4[i]。1段の攻撃につき、指定した敵単体に三月なのかの攻撃力#1[i]%分の虚数属性ダメージを与える。最後の1段の攻撃を行うたびに、#2[i]%の固定確率でさらに1段の攻撃を行う、追加で行える攻撃は最大#3[i]段まで。攻撃段数の増加は、強化通常攻撃によるEP回復に影響しない。\nまた、強化通常攻撃はSPを回復できない。",
-        "ko": "기본 상태에서 #4[i]단 피해를 가한다. 단수마다 지정된 단일 적에게 Mar. 7th 공격력의 #1[i]%만큼 허수 속성 피해를 가한다. 마지막 1단 피해를 가할 때마다 #2[i]%의 고정 확률로 다시 1단 피해를 가하고, 추가로 최대 #3[i]단 피해를 가한다. 강화된 일반 공격을 발동해 회복하는 에너지는 단수에 따라 증가하지 않는다.\n강화된 일반 공격은 전투 스킬 포인트를 회복할 수 없다"
+        "zh-CN": "初始造成#4[i]段伤害，每段对指定敌方单体造成等同于三月七#1[i]%攻击力的虚数属性伤害。每当造成最后1段伤害后，有#2[i]%的固定概率再造成1段伤害，最多额外造成#3[i]段伤害。施放强化普攻恢复的能量不随段数提高而提高。\n强化普攻无法恢复战技点。"
       },
       "params": [
         [0.4, 0.6, 3, 3],
@@ -272,12 +222,10 @@
       "summary": {
         "pt-BR": "Causa Dano Imaginário a um único inimigo, realizando inicialmente 3 golpes. Há uma chance de causar até 3 golpe(s) adicionalmente.",
         "en": "Deals Imaginary DMG to one enemy, dealing 3 hits initially. There is a chance to additionally deal up to 3 hit(s).",
-        "zh-CN": "对敌方单体造成虚数属性伤害，初始造成3段伤害，有概率额外造成最多3段伤害。",
-        "ja": "敵単体に虚数属性ダメージを与える、初期攻撃段数は3。確率でさらに3段までの攻撃を行う。",
-        "ko": "단일 적에게 허수 속성 피해를 가하고, 기본 3단 피해를 가한다. 일정 확률로 최대 3단 피해를 추가로 가한다"
+        "zh-CN": "对敌方单体造成虚数属性伤害，初始造成3段伤害，有概率额外造成最多3段伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     }
   ],
   "eidolons": [
@@ -286,16 +234,12 @@
       "name": {
         "pt-BR": "Minha Espada Agita o Brilho Estelar",
         "en": "My Sword Stirs Starlight",
-        "zh-CN": "初花学剑动星芒",
-        "ja": "{RUBY_B#りゅうせい}流星{RUBY_E#}を{RUBY_B#ふ}振{RUBY_E#}るう{RUBY_B#しゅんか}春花{RUBY_E#}",
-        "ko": "별처럼 빛나는 초화의 검광"
+        "zh-CN": "初花学剑动星芒"
       },
       "description": {
         "pt-BR": "Quando o Shifu estiver em campo, aumenta a VEL de 7 de Março em 10%.",
         "en": "When Shifu is on the field, increases March 7th's SPD by 10%.",
-        "zh-CN": "场上存在【师父】时，三月七的速度提高10%。",
-        "ja": "フィールド上に「師匠」が存在する時、三月なのかの速度+10%。",
-        "ko": "필드 위에 [사부]가 있을 시 Mar. 7th의 속도가 10% 증가한다"
+        "zh-CN": "场上存在【师父】时，三月七的速度提高10%。"
       },
       "icon": "icon/skill/1224_rank1.png",
       "materials": [{ "id": 11224, "num": 1 }],
@@ -306,16 +250,12 @@
       "name": {
         "pt-BR": "Lâmina que Dança na Luta de Ondas",
         "en": "Blade Dances on Waves' Fight",
-        "zh-CN": "白刃耀雪舞骇浪",
-        "ja": "{RUBY_B#せっぱく}雪白{RUBY_E#}の{RUBY_B#やいば}刃{RUBY_E#}は{RUBY_B#どとう}怒涛{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く",
-        "ko": "파도처럼 춤추는 백설검"
+        "zh-CN": "白刃耀雪舞骇浪"
       },
       "description": {
         "pt-BR": "Depois que o Shifu usar ATQ Básico ou Perícia para atacar um inimigo-alvo, 7 de Março utiliza um Ataque Extra imediatamente e causa Dano Imaginário igual a 60% do ATQ de 7 de Março ao alvo principal deste ataque. Adicionalmente, ativa o efeito correspondente ao Caminho do Shifu e então ganha 1 ponto(s) de Carga. Se não houver nenhum alvo principal que possa ser atacado, então ataca um único inimigo aleatório em seu lugar. Esse efeito só pode ser ativado uma vez por rodada.",
         "en": "After \"Shifu\" uses Basic ATK or Skill to attack an enemy target, March 7th immediately launches a Follow-Up ATK and deals Imaginary DMG equal to 60% of March 7th's ATK to the primary target of this attack. Additionally, triggers the corresponding effect based on \"Shifu\"'s Path and then gains 1 point(s) of Charge. If there is no primary target available to attack, then she attacks a single random enemy instead. This effect can only trigger once per turn.",
-        "zh-CN": "每当【师父】施放普攻或战技攻击敌方目标后，三月七立即发动追加攻击，对本次攻击的主目标造成等同于三月七60%攻击力的虚数属性伤害，并根据【师父】的命途触发对应效果，随后获得1点充能。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次。",
-        "ja": "「師匠」が通常攻撃または戦闘スキルを発動して敵に攻撃を行った後、三月なのかは追加攻撃を行い、その回の攻撃のメインターゲットに三月なのかの攻撃力60%分の虚数属性ダメージを与え、「師匠」の運命に応じた戦闘スキル効果を発動し、チャージを1獲得する。攻撃できるメインターゲットが存在しない場合、ランダムな敵単体に攻撃を行う。この効果はターンが回ってくるたびに1回まで発動できる。",
-        "ko": "[사부]가 일반 공격 또는 전투 스킬을 발동해 적을 공격할 때마다 Mar. 7th가 즉시 추가 공격을 발동하고, 이번 공격의 주목표에게 Mar. 7th 공격력의 60%만큼 허수 속성 피해를 가하며, [사부]의 운명의 길에 따라 상응하는 효과를 발동한 후 충전을 1pt 획득한다. 공격 가능한 주목표가 없는 경우 랜덤 단일 적을 공격한다. 해당 효과는 턴마다 최대 1회 발동한다"
+        "zh-CN": "每当【师父】施放普攻或战技攻击敌方目标后，三月七立即发动追加攻击，对本次攻击的主目标造成等同于三月七60%攻击力的虚数属性伤害，并根据【师父】的命途触发对应效果，随后获得1点充能。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次。"
       },
       "icon": "icon/skill/1224_rank2.png",
       "materials": [{ "id": 11224, "num": 1 }],
@@ -326,16 +266,12 @@
       "name": {
         "pt-BR": "Astúcia Afiada na Valentia Marcial",
         "en": "Sharp Wit in Martial Might",
-        "zh-CN": "头脑机灵本领强",
-        "ja": "{RUBY_B#さ}冴{RUBY_E#}えた{RUBY_B#あたま}頭{RUBY_E#}と{RUBY_B#すぐ}優{RUBY_E#}れた{RUBY_B#うでまえ}腕前{RUBY_E#}",
-        "ko": "영리한 두뇌, 뛰어난 실력"
+        "zh-CN": "头脑机灵本领强"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1224_skill.png",
       "materials": [{ "id": 11224, "num": 1 }],
@@ -346,16 +282,12 @@
       "name": {
         "pt-BR": "Ser Fabulosa Nunca Assusta",
         "en": "Being Fabulous Never Frights",
-        "zh-CN": "龙飞凤舞不窝囊",
-        "ja": "{RUBY_B#りょうしょうほうし}竜章鳳姿{RUBY_E#}",
-        "ko": "물러서지 않는 용봉의 기세"
+        "zh-CN": "龙飞凤舞不窝囊"
       },
       "description": {
         "pt-BR": "No início da rodada, regenera 5 de Energia.",
         "en": "At the start of the turn, regenerates 5 Energy.",
-        "zh-CN": "回合开始时，恢复5点能量。",
-        "ja": "ターンが回ってきた時、EPを5回復する。",
-        "ko": "턴 시작 시 에너지를 5pt 회복한다"
+        "zh-CN": "回合开始时，恢复5点能量。"
       },
       "icon": "icon/skill/1224_rank4.png",
       "materials": [{ "id": 11224, "num": 1 }],
@@ -366,16 +298,12 @@
       "name": {
         "pt-BR": "Doçuras da Lâmina, Amargores do Açúcar",
         "en": "Sword Delights, Sugar Blights",
-        "zh-CN": "多练武术少吃糖",
-        "ja": "{RUBY_B#けいこ}稽古{RUBY_E#}を{RUBY_B#ふ}増{RUBY_E#}やして\n{RUBY_B#かんみ}甘味{RUBY_E#}は{RUBY_B#ひか}控{RUBY_E#}える",
-        "ko": "훈련은 많이, 단것은 조금"
+        "zh-CN": "多练武术少吃糖"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1224_ultimate.png",
       "materials": [{ "id": 11224, "num": 1 }],
@@ -383,19 +311,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Eu, a Maioral à Vista",
-        "en": "Me, the Best Girl in Sight",
-        "zh-CN": "天下第一本姑娘",
-        "ja": "ウチが{RUBY_B#せかいいち}世界一{RUBY_E#}！",
-        "ko": "천하제일은 바로 이 몸"
-      },
+      "name": { "pt-BR": "Eu, a Maioral à Vista", "en": "Me, the Best Girl in Sight", "zh-CN": "天下第一本姑娘" },
       "description": {
         "pt-BR": "Depois de usar a Perícia Suprema, aumenta o Dano CRIT causado pelo próximo ATQ Básico Aprimorado em 50%.",
         "en": "After using Ultimate, increases the CRIT DMG dealt by the next Enhanced Basic ATK by 50%.",
-        "zh-CN": "施放终结技后，下一次强化普攻造成的暴击伤害提高50%。",
-        "ja": "必殺技を発動した後、次の強化通常攻撃「一に眉間、二に心臓」によるダメージの会心ダメージ+50%。",
-        "ko": "필살기 발동 후 다음번 강화된 일반 공격이 가하는 치명타 피해가 50% 증가한다"
+        "zh-CN": "施放终结技后，下一次强化普攻造成的暴击伤害提高50%。"
       },
       "icon": "icon/skill/1224_rank6.png",
       "materials": [{ "id": 11224, "num": 1 }],
@@ -755,19 +675,11 @@
     {
       "id": 1224101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Vôo do Cisne",
-        "en": "Swan Soar",
-        "zh-CN": "惊鸿",
-        "ja": "{RUBY_B#きょうこう}驚鴻{RUBY_E#}",
-        "ko": "경홍"
-      },
+      "name": { "pt-BR": "Vôo do Cisne", "en": "Swan Soar", "zh-CN": "惊鸿" },
       "description": {
         "pt-BR": "No começo da batalha, a ação de 7 de Março é Avançada Adiante em #1[i]%.",
         "en": "When the battle starts, March 7th's action advances by #1[i]%.",
-        "zh-CN": "战斗开始时，三月七的行动提前#1[i]%。",
-        "ja": "戦闘開始時、三月なのかの行動順が#1[i]%早まる。",
-        "ko": "전투 시작 시 Mar. 7th의 행동 게이지가 #1[i]% 증가한다"
+        "zh-CN": "战斗开始时，三月七的行动提前#1[i]%。"
       },
       "params": [[0.25]],
       "icon": "icon/skill/1224_skilltree1.png",
@@ -786,19 +698,11 @@
     {
       "id": 1224102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Filigrana",
-        "en": "Filigree",
-        "zh-CN": "玲珑",
-        "ja": "{RUBY_B#れいろう}玲瓏{RUBY_E#}",
-        "ko": "영롱"
-      },
+      "name": { "pt-BR": "Filigrana", "en": "Filigree", "zh-CN": "玲珑" },
       "description": {
         "pt-BR": "7 de Março pode reduzir a Tenacidade de inimigos cujo Tipo de Fraqueza corresponda ao Tipo do Shifu. Ao infligir Quebra de Fraqueza, também ativa o efeito de Quebra de Fraqueza contra Imaginário.",
         "en": "March 7th can reduce the Toughness of enemies whose Weakness Type is the same as Shifu's Combat Type. When Breaking Weakness, triggers the Imaginary Weakness Break effect.",
-        "zh-CN": "三月七能够削减具有【师父】属性弱点的敌方目标的韧性。击破弱点时，触发虚数属性的弱点击破效果。",
-        "ja": "三月なのかは「師匠」の属性に応じる弱点属性を持つ敵の靭性を削れる。敵を弱点撃破する時、虚数属性の弱点撃破効果が触発される。",
-        "ko": "Mar. 7th가 [사부]와 같은 속성의 약점을 보유한 적의 강인성을 소모할 수 있다. 약점 격파 시 허수 속성의 약점 격파 효과를 발동한다"
+        "zh-CN": "三月七能够削减具有【师父】属性弱点的敌方目标的韧性。击破弱点时，触发虚数属性的弱点击破效果。"
       },
       "icon": "icon/skill/1224_skilltree2.png",
       "maxLevel": 1,
@@ -821,19 +725,11 @@
     {
       "id": 1224103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Domesticador de Marés",
-        "en": "Tide Tamer",
-        "zh-CN": "斡波",
-        "ja": "{RUBY_B#はろう}破浪{RUBY_E#}",
-        "ko": "파랑"
-      },
+      "name": { "pt-BR": "Domesticador de Marés", "en": "Tide Tamer", "zh-CN": "斡波" },
       "description": {
         "pt-BR": "Após usar o ATQ Básico Aprimorado, aumenta o Dano CRIT e o Efeito de Quebra do Shifu em #1[i]% e #2[i]% respectivamente, durando por #3[i] rodada(s).",
         "en": "After using Enhanced Basic ATK, increases Shifu's CRIT DMG by #1[i]% and Break Effect by #2[i]%, lasting for #3[i] turn(s).",
-        "zh-CN": "施放强化普攻后，使【师父】的暴击伤害提高#1[i]%，击破特攻提高#2[i]%，持续#3[i]回合。",
-        "ja": "強化通常攻撃を行った後、「師匠」の会心ダメージ+#1[i]%、撃破特効+#2[i]%、#3[i]ターン継続。",
-        "ko": "강화된 일반 공격 발동 후 [사부]의 치명타 피해가 #1[i]% 증가하고, 격파 특수효과가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
+        "zh-CN": "施放强化普攻后，使【师父】的暴击伤害提高#1[i]%，击破特攻提高#2[i]%，持续#3[i]回合。"
       },
       "params": [[0.6, 0.36, 2]],
       "icon": "icon/skill/1224_skilltree3.png",
@@ -857,7 +753,7 @@
     {
       "id": 1224201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -874,13 +770,7 @@
     {
       "id": 1224202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1224101],
@@ -897,7 +787,7 @@
     {
       "id": 1224203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1224202],
@@ -914,7 +804,7 @@
     {
       "id": 1224204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -931,7 +821,7 @@
     {
       "id": 1224205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1224102],
@@ -948,13 +838,7 @@
     {
       "id": 1224206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1224205],
@@ -971,7 +855,7 @@
     {
       "id": 1224207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -988,7 +872,7 @@
     {
       "id": 1224208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1224103],
@@ -1005,13 +889,7 @@
     {
       "id": 1224209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1224208],
@@ -1028,7 +906,7 @@
     {
       "id": 1224210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1224208],

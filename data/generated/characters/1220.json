@@ -1,7 +1,7 @@
 {
   "id": 1220,
   "slug": "feixiao",
-  "name": { "pt-BR": "Feixiao", "en": "Feixiao", "zh-CN": "飞霄", "ja": "飛霄", "ko": "비소" },
+  "name": { "pt-BR": "Feixiao", "en": "Feixiao", "zh-CN": "飞霄" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Wind",
@@ -11,13 +11,11 @@
     {
       "id": 122001,
       "type": "Basic",
-      "name": { "pt-BR": "Trovão Descendente", "en": "Boltsunder", "zh-CN": "闪裂", "ja": "閃裂", "ko": "섬렬" },
+      "name": { "pt-BR": "Trovão Descendente", "en": "Boltsunder", "zh-CN": "闪裂" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único inimigo-alvo.",
         "en": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于飞霄#1[i]%攻击力的风属性伤害。",
-        "ja": "指定した敵単体に飛霄の攻撃力#1[i]%分の風属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于飞霄#1[i]%攻击力的风属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1220_basic_atk.png",
@@ -25,23 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
-        "ja": "敵単体に少量の風属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量风属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122002,
       "type": "Skill",
-      "name": { "pt-BR": "Fissura do Machado", "en": "Waraxe", "zh-CN": "钺贯", "ja": "斧貫", "ko": "꿰뚫는 도끼" },
+      "name": { "pt-BR": "Fissura do Machado", "en": "Waraxe", "zh-CN": "钺贯" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único inimigo-alvo. Então, imediatamente desfere 1 instância adicional do Ataque Extra do Talento contra o alvo.",
         "en": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to one designated enemy target. Then, immediately launches 1 extra instance of Talent's Follow-Up ATK against the target.",
-        "zh-CN": "对指定敌方单体造成等同于飞霄#1[i]%攻击力的风属性伤害，随后立即对该目标额外发动1次天赋的追加攻击。",
-        "ja": "指定した敵単体に飛霄の攻撃力#1[i]%分の風属性ダメージを与え、その後、その敵に天賦による追加攻撃を即座に1回発動する。",
-        "ko": "지정된 단일 적에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가하고, 그 후 즉시 해당 목표에게 특성의 추가 공격을 1회 추가로 발동한다"
+        "zh-CN": "对指定敌方单体造成等同于飞霄#1[i]%攻击力的风属性伤害，随后立即对该目标额外发动1次天赋的追加攻击。"
       },
       "params": [
         [1],
@@ -65,23 +59,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento a um inimigo, e utiliza adicionalmente o Ataque Extra do Talento 1 vez.",
         "en": "Deals Wind DMG to an enemy, and additionally launches Talent's Follow-Up ATK 1 time.",
-        "zh-CN": "对敌方单体造成风属性伤害，随后额外发动1次天赋的追加攻击。",
-        "ja": "敵単体に風属性ダメージを与え、その後、天賦による追加攻撃を1回発動する。",
-        "ko": "단일 적에게 바람 속성 피해를 가하고, 그 후 특성의 추가 공격을 1회 추가로 발동한다"
+        "zh-CN": "对敌方单体造成风属性伤害，随后额外发动1次天赋的追加攻击。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122003,
       "type": "Ultimate",
-      "name": { "pt-BR": "Rompeterra", "en": "Terrasplit", "zh-CN": "凿破大荒", "ja": "大荒滅破砕", "ko": "천지 격쇄" },
+      "name": { "pt-BR": "Rompeterra", "en": "Terrasplit", "zh-CN": "凿破大荒" },
       "description": {
         "pt-BR": "Causa Dano de Vento em um único inimigo-alvo igual a #4[i]% do ATQ de Feixiao. Durante este período, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do alvo. Se o alvo não estiver afetado com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta em #2[i]%.\nDurante o ataque, Feixiao primeiro usa Trovão Descendente ou Fissura do Machado Celestial no alvo, por um total de #3[i] vez(es).\nFinalmente, causa Dano de Vento igual a #1[i]% do ATQ de Feixiao ao alvo.",
         "en": "Deals Wind DMG to one designated enemy target, up to #4[i]% of Feixiao's ATK. During this time, can ignore Weakness Type to reduce the target's Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases by #2[i]%.\nDuring the attack, Feixiao first launches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on the target, for a total of #3[i] time(s). At the end, deals Wind DMG equal to #1[i]% of Feixiao's ATK to the target.",
-        "zh-CN": "对指定敌方单体造成最多等同于飞霄#4[i]%攻击力的风属性伤害，期间可无视弱点属性削减目标韧性，目标未处于弱点击破状态时飞霄的弱点击破效率提高#2[i]%。\n其中，飞霄先对该目标发动【闪裂刃舞】或【钺贯天冲】，总计#3[i]次。最后对该目标造成等同于飞霄#1[i]%攻击力的风属性伤害。",
-        "ja": "指定した敵単体に最大で飛霄の攻撃力#4[i]%分の風属性ダメージを与える。必殺技発動中は弱点属性を無視して敵の靭性を削る。敵が弱点撃破状態にない時、飛霄の弱点撃破効率+#2[i]%。\n飛霄はターゲットの敵に「閃裂刃舞」または「斧貫衝天」を合計で#3[i]回発動し、最後に飛霄の攻撃力#1[i]%分の風属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 최대 비소 공격력의 #4[i]%만큼 바람 속성 피해를 가한다. 해당 공격 중에는 약점 속성을 무시하고 목표의 강인성을 감소시키며, 목표가 약점 격파 상태가 아닐 시 비소의 약점 격파 효율이 #2[i]% 증가한다.\n비소는 먼저 해당 목표에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 총 #3[i]회 발동하고, 마지막으로 해당 목표에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成最多等同于飞霄#4[i]%攻击力的风属性伤害，期间可无视弱点属性削减目标韧性，目标未处于弱点击破状态时飞霄的弱点击破效率提高#2[i]%。\n其中，飞霄先对该目标发动【闪裂刃舞】或【钺贯天冲】，总计#3[i]次。最后对该目标造成等同于飞霄#1[i]%攻击力的风属性伤害。"
       },
       "params": [
         [0.96, 1, 6, 4.02],
@@ -105,29 +95,19 @@
       "summary": {
         "pt-BR": "Durante a Perícia Suprema, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do inimigo. Quando o alvo não estiver infligido com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta.\nUtiliza Trovão Descendente ou Fissura do Machado Celestial em um único inimigo 6 vez(es). Causa Dano de Vento no final.",
         "en": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on one enemy 6 time(s). Deals Wind DMG at the end.",
-        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动6次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。",
-        "ja": "必殺技発動中、弱点属性を無視して敵の靭性を削る。敵が弱点撃破状態にない時、飛霄の弱点撃破効率がアップする。\n敵単体に「閃裂刃舞」または「斧貫衝天」を合計で6回発動し、最後に風属性ダメージを与える。",
-        "ko": "필살기 발동 중엔 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 목표가 격파되지 않았을 시 비소의 약점 격파 효율이 증가한다.\n단일 적에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 6회 발동하며, 마지막으로 바람 속성 피해를 가한다"
+        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动6次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122004,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Caça aos Trovões",
-        "en": "Thunderhunt",
-        "zh-CN": "雷狩",
-        "ja": "雷狩",
-        "ko": "뇌정의 수렵"
-      },
+      "name": { "pt-BR": "Caça aos Trovões", "en": "Thunderhunt", "zh-CN": "雷狩" },
       "description": {
         "pt-BR": "A Perícia Suprema pode ser ativada quando \"Aureus Voador\" chegar a #3[i] ponto(s), acumulando até um máximo de #4[i] ponto(s). Feixiao ganha 1 ponto de \"Aureus Voador\" para cada #2[i] ataques utilizados pelos aliados-alvo. Ataques da Perícia Suprema de Feixiao não são considerados nessa contagem.\nDepois que os companheiros de equipe de Feixiao atacam um inimigo-alvo, Feixiao desfere imediatamente um Ataque Extra contra o alvo principal, causando Dano de Vento igual a #1[i]% do ATQ de Feixiao. Se nenhum alvo principal estiver disponível para ser atacado, Feixiao ataca um único inimigo aleatório. Esse efeito só pode ser ativado uma vez por rodada e a contagem de ativação é reiniciada no início da rodada de Feixiao. Ao utilizar esse ataque, aumenta o Dano causado por esta unidade em #5[i]%, durando por #6[i] rodada(s).",
         "en": "Can activate Ultimate when \"Flying Aureus\" reaches #3[i] points, accumulating up to #4[i] points. Feixiao gains 1 point of \"Flying Aureus\" for every #2[i] attacks by ally targets. Feixiao's Ultimate attacks do not count towards this number.\nAfter Feixiao's teammates attack an Enemy target, Feixiao immediately launches Follow-Up ATK against the primary target, dealing Wind DMG equal to #1[i]% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by #5[i]%, lasting for #6[i] turn(s).",
-        "zh-CN": "【飞黄】达到#3[i]点时可激活终结技，最多累计#4[i]点。我方目标每施放#2[i]次攻击，飞霄获得1点【飞黄】，飞霄的终结技攻击不计入次数。\n当飞霄的队友对敌方目标施放攻击后，飞霄立即对主目标发动追加攻击，造成等同于飞霄#1[i]%攻击力的风属性伤害。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次，飞霄回合开始时重置可触发次数。发动此攻击时使自身造成的伤害提高#5[i]%，持续#6[i]回合。",
-        "ja": "「飛黄」が#3[i]層に達すると必殺技が発動可能になる。「飛黄」は最大で#4[i]層累積できる。味方が#2[i]回攻撃を行うたびに、飛霄は「飛黄」を1層獲得する。なお、飛霄の必殺技での攻撃は回数にカウントされない。\n飛霄以外の味方が敵に攻撃を行った後、味方のメインターゲットとなった敵に飛霄が追加攻撃を行い、飛霄の攻撃力#1[i]%分の風属性ダメージを与える。攻撃可能なメインターゲットがいない場合、ランダムな敵単体を攻撃する。この効果はターンが回ってくるたびに1回まで発動でき、飛霄のターンが回ってくるたびに発動可能回数がリセットされる。この攻撃を行う時、自身の与ダメージ+#5[i]%、#6[i]ターン継続。",
-        "ko": "[비황] #3[i]pt 도달 시 필살기를 활성화할 수 있으며, 최대 #4[i]pt 누적된다. 아군이 공격을 #2[i]회 발동할 때마다 비소가 [비황]을 1pt 획득하며, 비소의 필살기 공격은 횟수에 계산되지 않는다.\n비소의 동료가 적에게 공격 발동 후 비소가 즉시 주목표에게 추가 공격을 발동하고, 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다. 공격 가능한 주목표가 없을 시 랜덤 단일 적을 공격한다. 해당 효과는 턴마다 최대 1회 발동하며, 비소의 턴 시작 시 발동 횟수가 초기화된다. 해당 공격 발동 시 자신이 가하는 피해가 #5[i]% 증가한다, 지속 시간: #6[i]턴"
+        "zh-CN": "【飞黄】达到#3[i]点时可激活终结技，最多累计#4[i]点。我方目标每施放#2[i]次攻击，飞霄获得1点【飞黄】，飞霄的终结技攻击不计入次数。\n当飞霄的队友对敌方目标施放攻击后，飞霄立即对主目标发动追加攻击，造成等同于飞霄#1[i]%攻击力的风属性伤害。若不存在可攻击的主目标，则攻击敌方随机单体。该效果每回合最多触发1次，飞霄回合开始时重置可触发次数。发动此攻击时使自身造成的伤害提高#5[i]%，持续#6[i]回合。"
       },
       "params": [
         [0.55, 2, 6, 12, 0.3, 2],
@@ -151,50 +131,36 @@
       "summary": {
         "pt-BR": "A Perícia Suprema pode ser ativada quando \"Aureus Voador\" atingir 6 pontos, acumulando até um máximo de 12 pontos. Para cada 2 ataques utilizados considerando todos os aliados-alvo, Feixiao ganha \"Aureus Voador\".\nDepois que companheiros de equipe usarem um ataque, Feixiao desfere um Ataque Extra contra o alvo principal, causando Dano de Vento. Este efeito pode ser ativado 1 vez por rodada. Ao utilizar esse ataque, aumenta o Dano causado por esta unidade.",
         "en": "Can activate Ultimate when \"Flying Aureus\" reaches 6 points, accumulating up to 12 points. For every 2 attacks by ally targets, Feixiao gains \"Flying Aureus\".\nAfter teammates attack, Feixiao launches Follow-Up ATK against the primary target, dealing Wind DMG. This effect can only trigger once per turn. When using this attack, increases DMG dealt by this unit.",
-        "zh-CN": "【飞黄】达到6点时可激活终结技，最多累计12点。我方目标每施放2次攻击，飞霄获得【飞黄】。\n队友施放攻击后，飞霄对主目标发动追加攻击，造成风属性伤害。该效果每回合最多触发1次，发动此攻击时使自身造成的伤害提高。",
-        "ja": "「飛黄」が6層に達すると必殺技が発動可能になる。「飛黄」は最大で12層累積できる。味方が2回攻撃を行うたびに、飛霄は「飛黄」を獲得する。\n自身以外の味方が攻撃を行った後、味方のメインターゲットとなった敵に飛霄が追加攻撃を発動し、風属性ダメージを与える。この効果はターンが回ってくるたびに1回まで発動できる。また、この攻撃を発動する時、自身の与ダメージがアップする。",
-        "ko": "[비황] 6pt 도달 시 필살기를 활성화할 수 있으며, 최대 12pt 누적된다. 아군이 공격을 2회 발동할 때마다 비소가 [비황]을 획득한다.\n동료가 공격 발동 후 비소가 주목표에게 추가 공격을 발동하고 바람 속성 피해를 가한다. 해당 효과는 턴마다 최대 1회 발동하고, 해당 공격 발동 시 자신이 가하는 피해가 증가한다"
+        "zh-CN": "【飞黄】达到6点时可激活终结技，最多累计12点。我方目标每施放2次攻击，飞霄获得【飞黄】。\n队友施放攻击后，飞霄对主目标发动追加攻击，造成风属性伤害。该效果每回合最多触发1次，发动此攻击时使自身造成的伤害提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122006,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1220_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 122007,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Advinda da Tempestade",
-        "en": "Stormborn",
-        "zh-CN": "岚身",
-        "ja": "嵐身",
-        "ko": "폭풍의 몸"
-      },
+      "name": { "pt-BR": "Advinda da Tempestade", "en": "Stormborn", "zh-CN": "岚身" },
       "description": {
         "pt-BR": "Após usar a Técnica, entra no estado de \"Investida\", durando por #1[i] segundo(s). Enquanto estiver em \"Investida\", puxa os inimigos dentro de um certo alcance e aumenta a velocidade de movimento desta unidade em #2[i]%. Após entrar em batalha, ganha #4[i] ponto(s) de \"Aureus Voador\"\nEnquanto estiver em \"Investida\", realizar um ataque iniciará uma batalha contra todos os inimigos puxados. Após entrar em batalha, causa Dano de Vento igual a #3[i]% do ATQ de Feixiao a todos os inimigos no início de cada onda. O CRIT desse Dano é garantido. Se mais de 1 inimigo for puxado, aumenta o multiplicador desse Dano em #5[i]% para cada inimigo adicional puxado, até um máximo de #6[i]%.",
         "en": "After using Technique, enters the \"Onrush\" state, lasting for #1[i] seconds. While in \"Onrush,\" pulls in enemies within a certain range, and increases this unit's movement speed by #2[i]%. After entering battle, gains #4[i] point(s) of \"Flying Aureus.\"\nWhile in \"Onrush,\" actively attacking will start battle with all pulled enemies. After entering battle, deals Wind DMG equal to #3[i]% of Feixiao's ATK to all enemies at the start of each wave. This DMG is guaranteed to CRIT. If more than 1 enemy is pulled in, increases the multiplier of this DMG by #5[i]% for each additional enemy pulled in, up to a maximum of #6[i]%.",
-        "zh-CN": "使用秘技后进入持续#1[i]秒的【陷锋】状态。【陷锋】状态下会牵引一定范围内的敌人，并且自身移动速度提高#2[i]%，进入战斗后获得#4[i]点【飞黄】。\n【陷锋】状态下主动攻击会使所有牵引的敌人进入战斗。进入战斗后，每个波次开始时对敌方全体造成等同于飞霄#3[i]%攻击力的风属性伤害，该伤害必定造成暴击。若牵引了超过1个敌人，每超过1个敌人，该伤害的倍率提高#5[i]%，最多提高至#6[i]%。",
-        "ja": "秘技を使用した後、#1[i]秒間継続する「陥陣」状態に入る。「陥陣」状態の間は一定範囲内の敵を引き寄せられるほか、自身の移動速度+#2[i]%。戦闘に入った後、「飛黄」を#4[i]層獲得する。\n「陥陣」状態の時に敵を攻撃すると、引き寄せたすべての敵と戦闘に入る。戦闘開始後、各ウェーブ開始時に敵全体に飛霄の攻撃力#3[i]%分の風属性ダメージを与える。なお、このダメージは必ず会心が発生する。引き寄せた敵の数が1体以上の場合、超過分1体につき、このダメージの倍率+#5[i]%。このダメージ倍率の上限は#6[i]%。",
-        "ko": "비술 사용 후 #1[i]초 동안 지속되는 [적진 돌격] 상태에 진입한다. [적진 돌격] 상태에서는 일정 범위 내의 적을 끌어당기고 자신의 이동 속도가 #2[i]% 증가하며, 전투 진입 후 [비황]을 #4[i]pt 획득한다.\n[적진 돌격] 상태에서 선공하면 끌어당긴 모든 적을 전투에 진입시킨다. 전투 진입 후 웨이브가 시작될 때마다 모든 적에게 비소 공격력의 #3[i]%만큼 바람 속성 피해를 가하고, 해당 피해는 반드시 치명타를 가한다. 끌어당긴 적이 1기를 초과하면 1기를 초과할 때마다 해당 피해의 배율이 #5[i]% 증가하고, 최대 #6[i]%까지 증가한다"
+        "zh-CN": "使用秘技后进入持续#1[i]秒的【陷锋】状态。【陷锋】状态下会牵引一定范围内的敌人，并且自身移动速度提高#2[i]%，进入战斗后获得#4[i]点【飞黄】。\n【陷锋】状态下主动攻击会使所有牵引的敌人进入战斗。进入战斗后，每个波次开始时对敌方全体造成等同于飞霄#3[i]%攻击力的风属性伤害，该伤害必定造成暴击。若牵引了超过1个敌人，每超过1个敌人，该伤害的倍率提高#5[i]%，最多提高至#6[i]%。"
       },
       "params": [[20, 0.5, 2, 1, 1, 10]],
       "icon": "icon/skill/1220_technique.png",
@@ -202,29 +168,19 @@
       "summary": {
         "pt-BR": "Entra no estado de \"Investida\". Puxa continuamente inimigos e aumenta a velocidade de movimento. Ganha \"Aureus Voador\" depois de entrar em batalha.\nEnquanto estiver em \"Investida\", pode atacar ativamente todos os inimigos puxados. No início de cada onda, causa Dano de Vento a todos os inimigos. Este Dano tem CRIT garantido. Quanto mais inimigos forem puxados, maior será o Multiplicador de Dano.",
         "en": "Enters the \"Onrush\" state. Continuously pulls in enemies and increases movement speed. Gains \"Flying Aureus\" after entering battle.\nWhile in \"Onrush,\" can actively attack all pulled enemies. At the start of every wave, deals Wind DMG to all enemies. This DMG is guaranteed to CRIT. The more enemies are pulled in, the higher the DMG multiplier becomes.",
-        "zh-CN": "进入【陷锋】状态，持续牵引敌人且移动速度提高，进战后获得【飞黄】。\n【陷锋】状态下可主动攻击所有牵引的敌人，每个波次开始时对敌方全体造成风属性伤害，该伤害必定暴击。牵引敌人越多，伤害倍率越高。",
-        "ja": "「陥陣」状態に入り、一定範囲内の敵を継続的に引き寄せ、自身の移動速度をアップする。戦闘に入った後、「飛黄」を獲得する。\n「陥陣」状態では引き寄せたすべての敵を攻撃でき、各ウェーブ開始時、敵全体に風属性ダメージを与える。このダメージは必ず会心が発生する。なお、引き寄せた敵が多いほど、ダメージ倍率がアップする。",
-        "ko": "[적진 돌격] 상태에 진입한다. 지속적으로 적을 끌어당기고 이동 속도가 증가하며, 전투 진입 후 [비황]을 획득한다.\n[적진 돌격] 상태에서는 끌어당긴 모든 적을 선공할 수 있고, 웨이브가 시작될 때마다 모든 적에게 바람 속성 피해를 가하며, 해당 피해는 반드시 치명타이다. 끌어당긴 적이 많을수록 피해 배율이 증가한다"
+        "zh-CN": "进入【陷锋】状态，持续牵引敌人且移动速度提高，进战后获得【飞黄】。\n【陷锋】状态下可主动攻击所有牵引的敌人，每个波次开始时对敌方全体造成风属性伤害，该伤害必定暴击。牵引敌人越多，伤害倍率越高。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 122008,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Trovão Descendente",
-        "en": "Boltsunder Blitz",
-        "zh-CN": "闪裂刃舞",
-        "ja": "閃裂刃舞",
-        "ko": "섬렬의 검무"
-      },
+      "name": { "pt-BR": "Trovão Descendente", "en": "Boltsunder Blitz", "zh-CN": "闪裂刃舞" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único alvo. Se o alvo estiver com Quebra de Fraqueza, o Multiplicador de Dano aumenta em #2[i]%.",
         "en": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to the chosen target. If the target is Weakness Broken, the DMG multiplier increases by #2[i]%.",
-        "zh-CN": "对所选目标造成等同于飞霄#1[i]%攻击力的风属性伤害。若目标处于弱点击破状态，伤害倍率提高#2[i]%。",
-        "ja": "指定した敵単体に飛霄の攻撃力#1[i]%分の風属性ダメージを与える。敵が弱点撃破状態にある場合、ダメージ倍率+#2[i]%。",
-        "ko": "선택한 목표에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다. 목표가 약점 격파 상태일 경우 피해 배율이 #2[i]% 증가한다"
+        "zh-CN": "对所选目标造成等同于飞霄#1[i]%攻击力的风属性伤害。若目标处于弱点击破状态，伤害倍率提高#2[i]%。"
       },
       "params": [
         [0.36, 0.15],
@@ -248,29 +204,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo e aumenta o Multiplicador de Dano contra alvos afligidos com Quebra de Fraqueza.",
         "en": "Deals minor Wind DMG to one enemy and increases the DMG multiplier against targets that are Weakness Broken.",
-        "zh-CN": "对敌方单体造成少量风属性伤害，对被击破的目标伤害倍率提高。",
-        "ja": "敵単体に少量の風属性ダメージを与える。弱点撃破状態の敵に対するダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가하고, 격파된 목표에게 가하는 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量风属性伤害，对被击破的目标伤害倍率提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122009,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Fissura do Machado Celestial",
-        "en": "Waraxe Skyward",
-        "zh-CN": "钺贯天冲",
-        "ja": "斧貫衝天",
-        "ko": "하늘을 꿰뚫는 도끼"
-      },
+      "name": { "pt-BR": "Fissura do Machado Celestial", "en": "Waraxe Skyward", "zh-CN": "钺贯天冲" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Feixiao a um único inimigo. Se o inimigo-alvo não estiver afligida com Quebra de Fraqueza, o Multiplicador de Dano aumenta em #2[i]%.",
         "en": "Deals Wind DMG equal to #1[i]% of Feixiao's ATK to the chosen target. If the target is not Weakness Broken, the DMG multiplier increases by #2[i]%.",
-        "zh-CN": "对所选目标造成等同于飞霄#1[i]%攻击力的风属性伤害。若目标未处于弱点击破状态，伤害倍率提高#2[i]%。",
-        "ja": "指定した敵単体に飛霄の攻撃力#1[i]%分の風属性ダメージを与える。敵が弱点撃破状態でない場合、ダメージ倍率+#2[i]%。",
-        "ko": "선택한 목표에게 비소 공격력의 #1[i]%만큼 바람 속성 피해를 가한다. 목표가 약점 격파 상태가 아닐 경우 피해 배율이 #2[i]% 증가한다"
+        "zh-CN": "对所选目标造成等同于飞霄#1[i]%攻击力的风属性伤害。若目标未处于弱点击破状态，伤害倍率提高#2[i]%。"
       },
       "params": [
         [0.36, 0.15],
@@ -294,23 +240,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo e aumenta o Multiplicador de Dano de ataques contra inimigos que não estão afligidos com Quebra de Fraqueza.",
         "en": "Deals minor Wind DMG to one enemy and increases the DMG multiplier against targets that are not Weakness Broken.",
-        "zh-CN": "对敌方单体造成少量风属性伤害，对未被击破的目标伤害倍率提高。",
-        "ja": "敵単体に少量の風属性ダメージを与える。弱点撃破状態でない敵に対するダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가하고, 격파되지 않은 목표에게 가하는 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量风属性伤害，对未被击破的目标伤害倍率提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122014,
       "type": "Ultimate",
-      "name": { "pt-BR": "Rompeterra", "en": "Terrasplit", "zh-CN": "凿破大荒", "ja": "大荒滅破砕", "ko": "천지 격쇄" },
+      "name": { "pt-BR": "Rompeterra", "en": "Terrasplit", "zh-CN": "凿破大荒" },
       "description": {
         "pt-BR": "Durante a Perícia Suprema, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do inimigo. Quando o alvo não estiver infligido com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta.\nUtiliza Trovão Descendente ou Fissura do Machado Celestial em um único inimigo #3[i] vez(es). Causa Dano de Vento no final.",
         "en": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on one enemy #3[i] time(s). Deals Wind DMG at the end.",
-        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动#3[i]次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。",
-        "ja": "必殺技発動中、弱点属性を無視して敵の靭性を削る。敵が弱点撃破状態にない時、飛霄の弱点撃破効率がアップする。\n敵単体に「閃裂刃舞」または「斧貫衝天」を合計で#3[i]回発動し、最後に風属性ダメージを与える。",
-        "ko": "필살기 발동 중엔 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 목표가 격파되지 않았을 시 비소의 약점 격파 효율이 증가한다.\n단일 적에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 #3[i]회 발동하며, 마지막으로 바람 속성 피해를 가한다"
+        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动#3[i]次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。"
       },
       "params": [
         [0.96, 1, 6, 4.02],
@@ -334,30 +276,20 @@
       "summary": {
         "pt-BR": "Durante a Perícia Suprema, pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade do inimigo. Quando o alvo não estiver infligido com Quebra de Fraqueza, a Eficiência de Quebra de Fraqueza de Feixiao aumenta.\nUtiliza Trovão Descendente ou Fissura do Machado Celestial em um único inimigo 6 vez(es). Causa Dano de Vento no final.",
         "en": "During the Ultimate, can ignore Weakness Type to reduce enemy Toughness. When the target is not Weakness Broken, Feixiao's Weakness Break Efficiency increases.\nLaunches \"Boltsunder Blitz\" or \"Waraxe Skyward\" on one enemy 6 time(s). Deals Wind DMG at the end.",
-        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动6次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。",
-        "ja": "必殺技発動中、弱点属性を無視して敵の靭性を削る。敵が弱点撃破状態にない時、飛霄の弱点撃破効率がアップする。\n敵単体に「閃裂刃舞」または「斧貫衝天」を合計で6回発動し、最後に風属性ダメージを与える。",
-        "ko": "필살기 발동 중엔 약점 속성을 무시하고 적의 강인성을 감소시킬 수 있으며, 목표가 격파되지 않았을 시 비소의 약점 격파 효율이 증가한다.\n단일 적에게 [섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼]를 6회 발동하며, 마지막으로 바람 속성 피해를 가한다"
+        "zh-CN": "终结技期间可无视弱点属性削减敌方韧性，目标未被击破时飞霄弱点击破效率提高。\n对敌方单体发动6次【闪裂刃舞】或【钺贯天冲】，最后造成风属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Aos Céus eu Amaino",
-        "en": "Skyward I Quell",
-        "zh-CN": "镇绥天钧",
-        "ja": "{RUBY_B#きょくちちんてい}極地鎮定{RUBY_E#}",
-        "ko": "극지 평정"
-      },
+      "name": { "pt-BR": "Aos Céus eu Amaino", "en": "Skyward I Quell", "zh-CN": "镇绥天钧" },
       "description": {
         "pt-BR": "Após usar Trovão Descendente ou Fissura do Machado Celestial, o Dano de Perícia Suprema causado por Feixiao aumenta adicionalmente em uma quantidade igual a 10% do Dano original, acumulando até 5 vez(es) e durando até o final da ação da Perícia Suprema.",
         "en": "After launching \"Boltsunder Blitz\" or \"Waraxe Skyward,\" additionally increases the Ultimate DMG dealt by Feixiao by an amount equal to 10% of the original DMG, stacking up to 5 time(s) and lasting until the end of the Ultimate action.",
-        "zh-CN": "发动【闪裂刃舞】或【钺贯天冲】后，使飞霄造成的终结技伤害额外提高，提高数值等同于原伤害的10%，最多叠加5层，持续至终结技行动结束。",
-        "ja": "「閃裂刃舞」または「斧貫衝天」を発動した後、飛霄の与える必殺技ダメージがさらに本来のダメージの10%分アップする。最大5層累積でき、必殺技の行動終了まで継続する。",
-        "ko": "[섬렬의 검무] 또는 [하늘을 꿰뚫는 도끼] 발동 후 비소가 가하는 필살기 피해가 기존 피해의 10%만큼 추가로 증가한다. 최대 5스택 중첩되며, 필살기 행동이 종료될 때까지 지속된다"
+        "zh-CN": "发动【闪裂刃舞】或【钺贯天冲】后，使飞霄造成的终结技伤害额外提高，提高数值等同于原伤害的10%，最多叠加5层，持续至终结技行动结束。"
       },
       "icon": "icon/skill/1220_rank1.png",
       "materials": [{ "id": 11220, "num": 1 }],
@@ -365,19 +297,11 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "À Lua Eu Desejo",
-        "en": "Moonward I Wish",
-        "zh-CN": "礼辰祷月",
-        "ja": "{RUBY_B#げっけいらいさん}月桂礼賛{RUBY_E#}",
-        "ko": "별과 달에 올리는 예"
-      },
+      "name": { "pt-BR": "À Lua Eu Desejo", "en": "Moonward I Wish", "zh-CN": "礼辰祷月" },
       "description": {
         "pt-BR": "No efeito do Talento, cada vez que um aliado desfere 1 Ataque Extra, Feixiao ganha 1 ponto de \"Aureus Voador\". Esse efeito pode ser ativado até 6 vez(es) por rodada.",
         "en": "In the Talent's effect, for every 1 instance of Follow-Up ATK launched by ally targets, Feixiao gains 1 point of \"Flying Aureus.\" This effect can trigger up to 6 time(s) per turn.",
-        "zh-CN": "天赋效果中，我方目标每施放1次追加攻击即可使飞霄获得1点【飞黄】。该效果每回合最多触发6次。",
-        "ja": "天賦効果が強化される。味方の行った攻撃が追加攻撃だった場合、飛霄は直接「飛黄」を1層獲得する。この効果はターンが回ってくるたびに6回まで発動できる。",
-        "ko": "특성 효과에서 아군이 추가 공격을 1회 발동할 때마다 비소가 [비황]을 1pt 획득한다. 해당 효과는 턴마다 최대 6회 발동한다"
+        "zh-CN": "天赋效果中，我方目标每施放1次追加攻击即可使飞霄获得1点【飞黄】。该效果每回合最多触发6次。"
       },
       "icon": "icon/skill/1220_rank2.png",
       "materials": [{ "id": 11220, "num": 1 }],
@@ -385,19 +309,11 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Às Estrelas Eu Prevejo",
-        "en": "Starward I Bode",
-        "zh-CN": "景星出宿",
-        "ja": "{RUBY_B#うつ}移{RUBY_E#}ろいゆく{RUBY_B#けいせい}景星{RUBY_E#}",
-        "ko": "서성 출현"
-      },
+      "name": { "pt-BR": "Às Estrelas Eu Prevejo", "en": "Starward I Bode", "zh-CN": "景星出宿" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1220_ultimate.png",
       "materials": [{ "id": 11220, "num": 1 }],
@@ -411,19 +327,11 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "À Tempestade Eu Ouço",
-        "en": "Stormward I Hear",
-        "zh-CN": "驱飓听冰",
-        "ja": "{RUBY_B#たんだいしんしょう}胆大心小{RUBY_E#}",
-        "ko": "대담하고 신중하게"
-      },
+      "name": { "pt-BR": "À Tempestade Eu Ouço", "en": "Stormward I Hear", "zh-CN": "驱飓听冰" },
       "description": {
         "pt-BR": "A Redução de Tenacidade do Ataque Extra do Talento aumenta em 100% e, quando ativado, aumenta a VEL desta unidade em 8%, durando por 2 rodada(s).",
         "en": "The Toughness Reduction from the Talent's Follow-Up ATK increases by 100% and, when launched, increases this unit's SPD by 8%, lasting for 2 turn(s).",
-        "zh-CN": "天赋的追加攻击的削韧值提高100%，并且发动时使自身速度提高8%，持续2回合。",
-        "ja": "天賦による追加攻撃の削靭値+100%。天賦による追加攻撃を行う時、自身の速度+8%、2ターン継続。",
-        "ko": "특성 추가 공격의 강인성 감소 수치가 100% 증가하고, 발동 시 자신의 속도가 8% 증가한다, 지속 시간: 2턴"
+        "zh-CN": "天赋的追加攻击的削韧值提高100%，并且发动时使自身速度提高8%，持续2回合。"
       },
       "icon": "icon/skill/1220_rank4.png",
       "materials": [{ "id": 11220, "num": 1 }],
@@ -431,19 +339,11 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Ao Paraíso Eu Salto",
-        "en": "Heavenward I Leap",
-        "zh-CN": "擢登霄汉",
-        "ja": "{RUBY_B#せいてんとうは}星天踏破{RUBY_E#}",
-        "ko": "드높은 하늘에 올라"
-      },
+      "name": { "pt-BR": "Ao Paraíso Eu Salto", "en": "Heavenward I Leap", "zh-CN": "擢登霄汉" },
       "description": {
         "pt-BR": "Nv. da Perícia + 2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1220_skill.png",
       "materials": [{ "id": 11220, "num": 1 }],
@@ -451,19 +351,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Do Lar Me Aproximo",
-        "en": "Homeward I Near",
-        "zh-CN": "惟首正丘",
-        "ja": "{RUBY_B#こししゅきゅう}狐死首丘{RUBY_E#}",
-        "ko": "수구초심"
-      },
+      "name": { "pt-BR": "Do Lar Me Aproximo", "en": "Homeward I Near", "zh-CN": "惟首正丘" },
       "description": {
         "pt-BR": "Aumenta a PEN de RES a todos os Tipos do Dano de Perícia Suprema causado por Feixiao em 20%. O Dano do Ataque Extra do Talento é simultaneamente considerado como Dano de Perícia Suprema, e aumenta seu multiplicador de Dano em 140%.",
         "en": "Increases the All-Type RES PEN of Ultimate DMG dealt by Feixiao by 20%. Talent's Follow-Up ATK DMG is considered as Ultimate DMG at the same time, and its DMG multiplier increases by 140%.",
-        "zh-CN": "飞霄造成的终结技伤害的全属性抗性穿透提高20%。天赋的追加攻击伤害同时视为终结技伤害，并且伤害倍率提高140%。",
-        "ja": "飛霄が与える必殺技ダメージの全属性耐性貫通+20%。天賦による追加攻撃ダメージが同時に必殺技ダメージと見なされ、ダメージ倍率+140%。",
-        "ko": "비소가 가하는 필살기 피해의 모든 속성 저항 관통이 20% 증가한다. 특성의 추가 공격 피해는 동시에 필살기 피해로 간주되며, 피해 배율이 140% 증가한다"
+        "zh-CN": "飞霄造成的终结技伤害的全属性抗性穿透提高20%。天赋的追加攻击伤害同时视为终结技伤害，并且伤害倍率提高140%。"
       },
       "icon": "icon/skill/1220_rank6.png",
       "materials": [{ "id": 11220, "num": 1 }],
@@ -838,19 +730,11 @@
     {
       "id": 1220101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Caminho Celestial",
-        "en": "Heavenpath",
-        "zh-CN": "天通",
-        "ja": "{RUBY_B#つうてん}通天{RUBY_E#}",
-        "ko": "통천"
-      },
+      "name": { "pt-BR": "Caminho Celestial", "en": "Heavenpath", "zh-CN": "天通" },
       "description": {
         "pt-BR": "Quando a batalha começa, recebe #1[i] ponto(s) de \"Aureus Voador\".\nNo início da rodada, se nenhum Ataque Extra do Talento tiver sido utilizado na rodada anterior, isso conta como 1 em direção ao número de ataques necessários para ganhar \"Aureus Voador\".",
         "en": "When the battle starts, gains #1[i] point(s) of \"Flying Aureus.\"\nAt the start of a turn, if no Follow-Up ATK was launched via Talent in the previous turn, then this counts as 1 toward the number of attacks required to gain \"Flying Aureus.\"",
-        "zh-CN": "战斗开始时，获得#1[i]点【飞黄】。\n回合开始时，若上回合未通过天赋发动追加攻击，计入1次获得【飞黄】所需的攻击次数。",
-        "ja": "戦闘開始時に「飛黄」を#1[i]層獲得する。\nターンが回ってきた時、飛霄が1つ前の自身のターンから天賦による追加攻撃を発動していなかった場合、「飛黄」を獲得するのに必要な攻撃回数が1加算される。",
-        "ko": "전투 시작 시 [비황]을 #1[i]pt 획득한다.\n턴 시작 시, 이전 턴에서 특성으로 추가 공격을 발동하지 않은 경우 [비황] 획득에 필요한 공격 횟수가 1회 계산된다"
+        "zh-CN": "战斗开始时，获得#1[i]点【飞黄】。\n回合开始时，若上回合未通过天赋发动追加攻击，计入1次获得【飞黄】所需的攻击次数。"
       },
       "params": [[3]],
       "icon": "icon/skill/1220_skilltree1.png",
@@ -869,19 +753,11 @@
     {
       "id": 1220102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Mudar de Forma",
-        "en": "Formshift",
-        "zh-CN": "解形",
-        "ja": "{RUBY_B#かいけい}解形{RUBY_E#}",
-        "ko": "해형"
-      },
+      "name": { "pt-BR": "Mudar de Forma", "en": "Formshift", "zh-CN": "解形" },
       "description": {
         "pt-BR": "Ao causar Dano a um inimigo com a Perícia Suprema, este ataque é considerado como um Ataque Extra. O Dano CRIT dos Ataques Extras aumenta em #1[i]%.",
         "en": "When using Ultimate to deal DMG to an enemy target, it is considered as a Follow-Up ATK. Follow-Up ATKs' CRIT DMG increases by #1[i]%.",
-        "zh-CN": "施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。追加攻击的暴击伤害提高#1[i]%。",
-        "ja": "必殺技を発動して敵にダメージを与える時、追加攻撃を行うと見なされる。追加攻撃の会心ダメージ+#1[i]%。",
-        "ko": "필살기를 발동해 적에게 피해를 가하면 추가 공격을 발동한 것으로 간주한다. 추가 공격의 치명타 피해가 #1[i]% 증가한다"
+        "zh-CN": "施放终结技对敌方目标造成伤害时，被视为发动了追加攻击。追加攻击的暴击伤害提高#1[i]%。"
       },
       "params": [[0.36]],
       "icon": "icon/skill/1220_skilltree2.png",
@@ -905,19 +781,11 @@
     {
       "id": 1220103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Capturar Raios",
-        "en": "Boltcatch",
-        "zh-CN": "电举",
-        "ja": "{RUBY_B#しんそく}神速{RUBY_E#}",
-        "ko": "섬전"
-      },
+      "name": { "pt-BR": "Capturar Raios", "en": "Boltcatch", "zh-CN": "电举" },
       "description": {
         "pt-BR": "Ao usar a Perícia, o ATQ aumenta em #1[i]%, durando por #2[i] rodada(s).",
         "en": "When using Skill, increases ATK by #1[i]%, lasting for #2[i] turn(s).",
-        "zh-CN": "施放战技时，攻击力提高#1[i]%，持续#2[i]回合。",
-        "ja": "戦闘スキルを発動する時、攻撃力+#1[i]%、#2[i]ターン継続。",
-        "ko": "전투 스킬 발동 시 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+        "zh-CN": "施放战技时，攻击力提高#1[i]%，持续#2[i]回合。"
       },
       "params": [[0.48, 3]],
       "icon": "icon/skill/1220_skilltree3.png",
@@ -941,7 +809,7 @@
     {
       "id": 1220201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -958,13 +826,7 @@
     {
       "id": 1220202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1220101],
@@ -981,7 +843,7 @@
     {
       "id": 1220203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1220202],
@@ -998,7 +860,7 @@
     {
       "id": 1220204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1015,7 +877,7 @@
     {
       "id": 1220205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1220102],
@@ -1032,13 +894,7 @@
     {
       "id": 1220206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1220205],
@@ -1055,7 +911,7 @@
     {
       "id": 1220207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1072,7 +928,7 @@
     {
       "id": 1220208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1220103],
@@ -1089,13 +945,7 @@
     {
       "id": 1220209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "pt-BR": "Bônus de Chance de CRIT", "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1220208],
@@ -1112,7 +962,7 @@
     {
       "id": 1220210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1220208],

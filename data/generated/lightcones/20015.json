@@ -1,7 +1,7 @@
 {
   "id": 20015,
   "slug": "multiplication",
-  "name": { "pt-BR": "Multiplicação", "en": "Multiplication", "zh-CN": "蕃息", "ja": "蕃殖", "ko": "증식" },
+  "name": { "pt-BR": "Multiplicação", "en": "Multiplication", "zh-CN": "蕃息" },
   "rarity": 3,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
@@ -9,24 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"Quando a vida perder o sentido, por favor, continue mantendo-a viva.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"When life has lost its meaning, please continue to bestow life upon it.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「当生命失却意蕴时，请继续赐以生命。」",
-    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「生命が意味を失ったとしても、生命を与え続けよう」",
-    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「생명이 그 의미를 잃을 때, 계속 생명을 주시옵소서」"
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「当生命失却意蕴时，请继续赐以生命。」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Cidadãos da Abundância",
-      "en": "Denizens of Abundance",
-      "zh-CN": "丰饶民",
-      "ja": "豊穣の民",
-      "ko": "풍요의 백성"
-    },
+    "name": { "pt-BR": "Cidadãos da Abundância", "en": "Denizens of Abundance", "zh-CN": "丰饶民" },
     "description": {
       "pt-BR": "Após o usuário usar seu ATQ Básico, sua próxima ação será Avançada Adiante em #1[i]%.",
       "en": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by #1[i]%.",
-      "zh-CN": "当装备者施放普攻后，使下一次行动提前#1[i]%。",
-      "ja": "装備キャラが通常攻撃を行った後、次の行動順が#1[i]%早まる。",
-      "ko": "장착한 캐릭터가 일반 공격 발동 후 다음번 행동 게이지가 #1[i]% 증가한다"
+      "zh-CN": "当装备者施放普攻后，使下一次行动提前#1[i]%。"
     },
     "params": [[0.12], [0.14], [0.16], [0.18], [0.2]],
     "properties": [[], [], [], [], []]

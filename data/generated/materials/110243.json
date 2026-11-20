@@ -1,13 +1,7 @@
 {
   "id": 110243,
   "slug": "myriad-fruit",
-  "name": {
-    "pt-BR": "Fruta Inumerável",
-    "en": "Myriad Fruit",
-    "zh-CN": "万相果实",
-    "ja": "森羅の果実",
-    "ko": "만상의 과실"
-  },
+  "name": { "pt-BR": "Fruta Inumerável", "en": "Myriad Fruit", "zh-CN": "万相果实" },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -25,8 +19,6 @@
       "Sintetizador Omni - Síntese de Material",
       "Sintetizador Omni - Troca de Material"
     ],
-    "zh-CN": ["拟造花萼【绥园】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
-    "ja": ["疑似花萼「綏園」", "「万能合成マシン」- 素材合成", "「万能合成マシン」- 素材交換"],
-    "ko": ["모조 꽃받침 [유원]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【绥园】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"]
   }
 }

@@ -1,13 +1,7 @@
 {
   "id": 11413,
   "slug": "evernights-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Noite Eterna",
-    "en": "Evernight's Eidolon",
-    "zh-CN": "【长夜月】的星魂",
-    "ja": "「長夜月」の星魂",
-    "ko": "[에버나이트]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Noite Eterna", "en": "Evernight's Eidolon", "zh-CN": "【长夜月】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

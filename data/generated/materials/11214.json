@@ -1,13 +1,7 @@
 {
   "id": 11214,
   "slug": "xueyis-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Xueyi",
-    "en": "Xueyi's Eidolon",
-    "zh-CN": "【雪衣】的星魂",
-    "ja": "「雪衣」の星魂",
-    "ko": "[설의]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Xueyi", "en": "Xueyi's Eidolon", "zh-CN": "【雪衣】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",
