@@ -1,7 +1,7 @@
 {
   "id": 1102,
   "slug": "seele",
-  "name": { "pt-BR": "Seele", "en": "Seele", "zh-CN": "希儿", "ja": "ゼーレ", "ko": "제레" },
+  "name": { "pt-BR": "Seele", "en": "Seele", "zh-CN": "希儿" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Quantum",
@@ -11,13 +11,11 @@
     {
       "id": 110201,
       "type": "Basic",
-      "name": { "pt-BR": "Agressão", "en": "Thwack", "zh-CN": "强袭", "ja": "強襲", "ko": "강습" },
+      "name": { "pt-BR": "Agressão", "en": "Thwack", "zh-CN": "强袭" },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Seele a um único inimigo.",
         "en": "Deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。",
-        "ja": "指定した敵単体にゼーレの攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 제레 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1102_basic_atk.png",
@@ -25,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um único inimigo.",
         "en": "Deals minor Quantum DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量量子属性伤害。",
-        "ja": "敵単体に少量の量子属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 110202,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Lâmina Embainhada",
-        "en": "Sheathed Blade",
-        "zh-CN": "归刃",
-        "ja": "還刃",
-        "ko": "귀인(歸刃)"
-      },
+      "name": { "pt-BR": "Lâmina Embainhada", "en": "Sheathed Blade", "zh-CN": "归刃" },
       "description": {
         "pt-BR": "Aumenta a VEL de Seele em #2[i]% por #3[i] rodada(s) e causa Dano Quântico equivalente a #1[i]% do ATQ de Seele a um inimigo.",
         "en": "Increases Seele's SPD by #2[i]% for #3[i] turn(s) and deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.",
-        "zh-CN": "使希儿的速度提高#2[i]%，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害，速度提高效果持续#3[i]回合。",
-        "ja": "ゼーレの速度+#2[i]%、#3[i]ターン継続。指定した敵単体にゼーレの攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "제레의 속도를 #2[i]% 증가시키고, 지정된 단일 적에게 제레 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. 속도 증가 효과 지속 시간: #3[i]턴"
+        "zh-CN": "使希儿的速度提高#2[i]%，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害，速度提高效果持续#3[i]回合。"
       },
       "params": [
         [1.1, 0.25, 2],
@@ -71,29 +59,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico a um único inimigo e aumenta a VEL.",
         "en": "Deals Quantum DMG to one enemy and increases SPD.",
-        "zh-CN": "对敌方单体造成量子属性伤害，并使自身速度提高。",
-        "ja": "敵単体に量子属性ダメージを与え、自身の速度アップ。",
-        "ko": "단일 적에게 양자 속성 피해를 가하고, 자신의 속도를 증가시킨다"
+        "zh-CN": "对敌方单体造成量子属性伤害，并使自身速度提高。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 110203,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Enxurrada de Borboletas",
-        "en": "Butterfly Flurry",
-        "zh-CN": "乱蝶",
-        "ja": "乱れ蝶",
-        "ko": "혼란의 나비"
-      },
+      "name": { "pt-BR": "Enxurrada de Borboletas", "en": "Butterfly Flurry", "zh-CN": "乱蝶" },
       "description": {
         "pt-BR": "Seele entra no modo Amplificação e causa Dano Quântico igual a #1[i]% do ATQ dela a um único inimigo.",
         "en": "Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to one designated enemy.",
-        "zh-CN": "立即进入增幅状态，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。",
-        "ja": "増幅状態に入り、指定した敵単体にゼーレの攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "즉시 증폭 상태에 진입하며, 지정된 단일 적에게 제레 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "立即进入增幅状态，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。"
       },
       "params": [
         [2.55],
@@ -117,23 +95,19 @@
       "summary": {
         "pt-BR": "Entra no modo Amplificação e causa Dano Quântico massivo a um único inimigo.",
         "en": "Enters the Amplification state and deals massive Quantum DMG to one enemy.",
-        "zh-CN": "进入增幅状态，对敌方单体造成大量量子属性伤害。",
-        "ja": "増幅状態になり、敵単体に大量の量子属性ダメージを与える。",
-        "ko": "증폭 상태에 진입하고, 단일 적에게 대량의 양자 속성 피해를 가한다"
+        "zh-CN": "进入增幅状态，对敌方单体造成大量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 110204,
       "type": "Talent",
-      "name": { "pt-BR": "Ressurgimento", "en": "Resurgence", "zh-CN": "再现", "ja": "再現", "ko": "재현" },
+      "name": { "pt-BR": "Ressurgimento", "en": "Resurgence", "zh-CN": "再现" },
       "description": {
         "pt-BR": "Entra no modo Amplificação ao derrotar um inimigo com ATQ Básico, Perícia ou Perícia Suprema, e recebe uma rodada extra. Enquanto estiver nesse modo, o Dano dos ataques de Seele aumenta em #1[i]% por #2[i] rodada(s).\nInimigos derrotados durante a rodada extra concedida pelo efeito de \"Ressurgimento\" não ativarão outro \"Ressurgimento\".",
         "en": "Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG of Seele's attacks by #1[i]% for #2[i] turn(s).\nEnemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
-        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿施放攻击造成的伤害提高#1[i]%，持续#2[i]回合。\n若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。",
-        "ja": "通常攻撃、戦闘スキル、必殺技で敵を倒すと追加ターンを1獲得し、増幅状態に入る。増幅状態のゼーレの与ダメージ+#1[i]%、#2[i]ターン継続。\nゼーレの天賦「再現」で獲得した追加ターンの間に敵を倒した場合、この天賦は発動しない。",
-        "ko": "일반 공격, 전투 스킬, 필살기를 발동해 적을 처치한 후 즉시 보너스 턴을 1개 획득하고 증폭 상태에 진입한다. 증폭 상태의 제레는 공격 발동 시 가하는 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴\n제레가 특성 [재현]으로 획득한 보너스 턴에서 적 처치 시 해당 특성은 적용되지 않는다"
+        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿施放攻击造成的伤害提高#1[i]%，持续#2[i]回合。\n若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。"
       },
       "params": [
         [0.4, 1],
@@ -157,50 +131,36 @@
       "summary": {
         "pt-BR": "Ao derrotar inimigos-alvo com um ATQ Básico, Perícia ou Perícia Suprema, ganha uma rodada extra e entra no estado de Amplificação. Enquanto estiver em Amplificação, o Dano causado por esta unidade é aumentado.",
         "en": "When defeating enemy targets with Basic ATK, Skill, or Ultimate, gains an extra turn and enters the Amplification state. While in Amplification, increases the DMG dealt by this unit.",
-        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时获得额外回合并进入增幅状态，增幅状态下自身造成的伤害提高。",
-        "ja": "通常攻撃、戦闘スキル、必殺技で敵を倒した時、追加ターンを獲得し、かつ増幅状態になる。増幅状態では、自身の与ダメージがアップする。",
-        "ko": "일반 공격, 전투 스킬, 필살기를 발동해 적 처치 시, 보너스 턴을 획득하고 증폭 상태에 진입한다. 증폭 상태에서 자신이 가하는 피해가 증가한다"
+        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时获得额外回合并进入增幅状态，增幅状态下自身造成的伤害提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 110206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1102_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 110207,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Ilusão Factícia",
-        "en": "Phantom Illusion",
-        "zh-CN": "幻身",
-        "ja": "幻身",
-        "ko": "환신(幻身)"
-      },
+      "name": { "pt-BR": "Ilusão Factícia", "en": "Phantom Illusion", "zh-CN": "幻身" },
       "description": {
         "pt-BR": "Após usar a sua Técnica, Seele ganha Furtividade por #1[i]s. Enquanto o efeito de Furtividade estiver ativo, Seele não pode ser detectada por inimigos. Ao entrar em uma batalha atacando inimigos, Seele entrará no modo Amplificação imediatamente.",
         "en": "After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the Amplification state.",
-        "zh-CN": "使用秘技后进入持续#1[i]秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。",
-        "ja": "秘技を使用した後、#1[i]秒のステルス状態になる。ステルス状態になると敵に発見されず、敵を先制攻撃して戦闘に入る時、ゼーレが増幅状態になる。",
-        "ko": "비술 사용 후 #1[i]초 동안 은신 상태에 진입한다. 은신 상태에선 적에게 들키지 않으며, 선공을 가해 적과의 전투 진입 시 제레는 즉시 증폭 상태에 진입한다"
+        "zh-CN": "使用秘技后进入持续#1[i]秒的隐身状态。隐身状态下不会被敌人发现，且主动攻击敌人进入战斗时，希儿立即进入增幅状态。"
       },
       "params": [[20]],
       "icon": "icon/skill/1102_technique.png",
@@ -208,23 +168,19 @@
       "summary": {
         "pt-BR": "Entra no modo de Furtividade. Após atacar um inimigo e entrar em batalha, entra no modo Amplificação.",
         "en": "Enter Stealth mode. After attacking an enemy and entering battle, enters the Amplification state.",
-        "zh-CN": "进入隐身状态。攻击敌人进入战斗后立即进入增幅状态。",
-        "ja": "ステルス状態になる。敵を攻撃し戦闘に入ると、即座に増幅状態になる。",
-        "ko": "은신 상태에 진입한다. 적을 공격해 전투에 진입하면 즉시 증폭 상태에 진입한다"
+        "zh-CN": "进入隐身状态。攻击敌人进入战斗后立即进入增幅状态。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 1110201,
       "type": "Basic",
-      "name": { "pt-BR": "Agressão", "en": "Thwack", "zh-CN": "强袭", "ja": "強襲", "ko": "강습" },
+      "name": { "pt-BR": "Agressão", "en": "Thwack", "zh-CN": "强袭" },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Seele a um único inimigo.",
         "en": "Deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。",
-        "ja": "指定した敵単体にゼーレの攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 제레 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/11102_basic_atk.png",
@@ -232,29 +188,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um único inimigo.",
         "en": "Deals minor Quantum DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量量子属性伤害。",
-        "ja": "敵単体に少量の量子属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 1110202,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Lâmina Embainhada",
-        "en": "Sheathed Blade",
-        "zh-CN": "归刃",
-        "ja": "還刃",
-        "ko": "귀인(歸刃)"
-      },
+      "name": { "pt-BR": "Lâmina Embainhada", "en": "Sheathed Blade", "zh-CN": "归刃" },
       "description": {
         "pt-BR": "Aumenta a VEL de Seele em #2[i]% por #3[i] rodada(s) e causa Dano Quântico igual a #1[i]% do ATQ de Seele em um inimigo designado.\nDepois que um aliado-alvo ataca, se a porcentagem de PV atual do alvo do ataque for de #4[i]% ou menos, Seele automaticamente usará a Perícia dela nesse alvo 1 vez. Essa Perícia não consome Pontos de Perícia nem regenera Energia. Esse efeito só pode ser ativado 1 vez por rodada e é reiniciado no início da rodada de Seele. Se não houver alvos válidos para atacar, ela ataca o inimigo-alvo com a menor porcentagem de PV.",
         "en": "Increases Seele's SPD by #2[i]% for #3[i] turn(s) and deals Quantum DMG equal to #1[i]% of Seele's ATK to one designated enemy.\nAfter an ally target attacks, if the attack target's current HP percentage is #4[i]% or below, Seele will automatically use her Skill at that target 1 time. This Skill does not consume Skill Points or regenerate Energy. This effect can only be triggered 1 time per turn and resets at the start of Seele's turn. If there are no valid targets to attack, she attacks the enemy target with the lowest HP percentage instead.",
-        "zh-CN": "使希儿的速度提高#2[i]%，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害，速度提高效果持续#3[i]回合。\n我方目标攻击后，被攻击目标当前生命值百分比小于等于#4[i]%，则希儿自动对其施放1次战技，此次战技不消耗战技点且不恢复能量，该效果每个回合最多触发1次，希儿回合开始时重置可触发次数。若不存在可攻击的目标，则攻击生命值最低的敌方单体目标。",
-        "ja": "ゼーレの速度+#2[i]%、#3[i]ターン継続。指定した敵単体にゼーレの攻撃力#1[i]%分の量子属性ダメージを与える。\n味方が攻撃した後、攻撃を受けた敵の残りHPが#4[i]%以下の場合、ゼーレは自動的にその敵に戦闘スキルを1回発動する。この発動ではSPを消費せず、EPも回復しない。この効果は1ターンにつき1回のみ発動でき、ゼーレのターンが回ってくるたびに発動可能回数がリセットされる。攻撃できる敵が存在しない場合、残りHPが最も低い敵単体を攻撃する。",
-        "ko": "제레의 속도가 #2[i]% 증가하고, 지정된 단일 적에게 제레 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. 속도 증가 효과 지속 시간: #3[i]턴\n아군이 공격한 후, 피격된 목표의 현재 HP 백분율이 #4[i]% 이하일 경우, 제레가 자동으로 대상에게 전투 스킬을 1회 발동한다. 이번 전투 스킬은 전투 스킬 포인트를 소모하지 않고 에너지를 회복하지 않으며, 해당 효과는 턴마다 최대 1회 발동한다. 제레의 턴 시작 시 발동 가능 횟수가 초기화된다. 공격할 수 있는 목표가 존재하지 않을 경우, HP가 가장 낮은 단일 적을 공격한다"
+        "zh-CN": "使希儿的速度提高#2[i]%，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害，速度提高效果持续#3[i]回合。\n我方目标攻击后，被攻击目标当前生命值百分比小于等于#4[i]%，则希儿自动对其施放1次战技，此次战技不消耗战技点且不恢复能量，该效果每个回合最多触发1次，希儿回合开始时重置可触发次数。若不存在可攻击的目标，则攻击生命值最低的敌方单体目标。"
       },
       "params": [
         [1.8, 0.25, 3, 0.5],
@@ -278,29 +224,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico massivo a um inimigo e aumenta a VEL desta unidade. Após um aliado-alvo atacar, se a porcentagem de PV atual do alvo atacado for menor ou igual a 50%, Seele usa automaticamente sua Perícia contra ele 1 vez.",
         "en": "Deals massive Quantum DMG to one enemy and increases this unit's SPD. After an ally target attacks, if the attacked target's current HP percentage is less than or equal to 50%, Seele automatically uses her Skill against them 1 time.",
-        "zh-CN": "对敌方单体造成大量量子属性伤害，并使自身速度提高。我方目标攻击后，被攻击目标当前生命值百分比小于等于50%时，希儿自动对其施放1次战技。",
-        "ja": "敵単体に大量の量子属性ダメージを与え、自身の速度をアップする。味方が攻撃した後、ターゲットの残りHPが50%以下の場合、ゼーレは自動的にその敵に戦闘スキルを1回発動する。",
-        "ko": "단일 적에게 대량의 양자 속성 피해를 가하고, 자신의 속도를 증가시킨다. 아군 공격 후, 피격된 목표의 현재 HP 백분율이 50% 이하일 시 제레는 자동으로 대상에게 전투 스킬을 1회 발동한다"
+        "zh-CN": "对敌方单体造成大量量子属性伤害，并使自身速度提高。我方目标攻击后，被攻击目标当前生命值百分比小于等于50%时，希儿自动对其施放1次战技。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 1110203,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Enxurrada de Borboletas",
-        "en": "Butterfly Flurry",
-        "zh-CN": "乱蝶",
-        "ja": "乱れ蝶",
-        "ko": "혼란의 나비"
-      },
+      "name": { "pt-BR": "Enxurrada de Borboletas", "en": "Butterfly Flurry", "zh-CN": "乱蝶" },
       "description": {
         "pt-BR": "Seele entra no estado de \"Amplificação\" e causa Dano Quântico igual a #1[i]% do seu ATQ a um único inimigo.",
         "en": "Seele enters the Amplification state and deals Quantum DMG equal to #1[i]% of her ATK to one designated enemy.",
-        "zh-CN": "立即进入增幅状态，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。",
-        "ja": "増幅状態に入り、指定した敵単体にゼーレの攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "즉시 증폭 상태에 진입하며, 지정된 단일 적에게 제레 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "立即进入增幅状态，并对指定敌方单体造成等同于希儿#1[i]%攻击力的量子属性伤害。"
       },
       "params": [
         [3.6],
@@ -324,23 +260,19 @@
       "summary": {
         "pt-BR": "Entra no estado de \"Amplificação\" e causa Dano Quântico massivo a um único inimigo.",
         "en": "Enters the Amplification state and deals massive Quantum DMG to one enemy.",
-        "zh-CN": "进入增幅状态，对敌方单体造成大量量子属性伤害。",
-        "ja": "増幅状態になり、敵単体に大量の量子属性ダメージを与える。",
-        "ko": "증폭 상태에 진입하고, 단일 적에게 대량의 양자 속성 피해를 가한다"
+        "zh-CN": "进入增幅状态，对敌方单体造成大量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 1110204,
       "type": "Talent",
-      "name": { "pt-BR": "Ressurgimento", "en": "Resurgence", "zh-CN": "再现", "ja": "再現", "ko": "재현" },
+      "name": { "pt-BR": "Ressurgimento", "en": "Resurgence", "zh-CN": "再现" },
       "description": {
         "pt-BR": "Entra no estado de \"Amplificação\" ao derrotar um inimigo com ATQ Básico, Perícia ou Perícia Suprema, e recebe uma rodada extra. Enquanto estiver nesse estado, o Dano causado por Seele aumenta em #1[i]% por #2[i] rodada(s).\nInimigos derrotados durante a rodada extra concedida pelo efeito de \"Ressurgimento\" não ativarão outro \"Ressurgimento\".",
         "en": "Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the Amplification state, increases the DMG dealt by Seele increases by #1[i]% for #2[i] turn(s).\nEnemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
-        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿造成的伤害提高#1[i]%，持续#2[i]回合。\n若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。",
-        "ja": "通常攻撃、戦闘スキル、必殺技で敵を倒すと追加ターンを1獲得し、増幅状態に入る。増幅状態のゼーレの与ダメージ+#1[i]%、#2[i]ターン継続。\nゼーレの天賦「再現」で獲得した追加ターンの間に敵を倒した場合、この天賦は発動しない。",
-        "ko": "일반 공격, 전투 스킬, 필살기를 발동해 적을 처치한 후 즉시 보너스 턴을 1개 획득하고 증폭 상태에 진입한다. 증폭 상태의 제레는 가하는 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴\n제레가 특성 [재현]으로 획득한 보너스 턴에서 적 처치 시 해당 특성은 적용되지 않는다"
+        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿造成的伤害提高#1[i]%，持续#2[i]回合。\n若希儿在因天赋【再现】获得的额外回合中消灭敌方目标，此天赋不会生效。"
       },
       "params": [
         [0.4, 3],
@@ -364,50 +296,36 @@
       "summary": {
         "pt-BR": "Ao derrotar inimigos-alvo com um ATQ Básico, Perícia ou Perícia Suprema, ganha uma rodada extra e entra no estado de \"Amplificação\". Enquanto estiver em \"Amplificação\", o Dano causado por esta unidade é aumentado.",
         "en": "When defeating enemy targets with Basic ATK, Skill, or Ultimate, gains an extra turn and enters the Amplification state. While in Amplification, increases the DMG dealt by this unit.",
-        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时获得额外回合并进入增幅状态，增幅状态下自身造成的伤害提高。",
-        "ja": "通常攻撃、戦闘スキル、必殺技で敵を倒した時、追加ターンを獲得し、かつ増幅状態になる。増幅状態では、自身の与ダメージがアップする。",
-        "ko": "일반 공격, 전투 스킬, 필살기를 발동해 적 처치 시, 보너스 턴을 획득하고 증폭 상태에 진입한다. 증폭 상태에서 자신이 가하는 피해가 증가한다"
+        "zh-CN": "施放普攻、战技、终结技消灭敌方目标时获得额外回合并进入增幅状态，增幅状态下自身造成的伤害提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 1110206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/11102_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 1110207,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Ilusão Fantasmagórica",
-        "en": "Phantom Illusion",
-        "zh-CN": "幻身",
-        "ja": "幻身",
-        "ko": "환신"
-      },
+      "name": { "pt-BR": "Ilusão Fantasmagórica", "en": "Phantom Illusion", "zh-CN": "幻身" },
       "description": {
         "pt-BR": "Após usar a sua Técnica, Seele ganha \"Furtividade\" por #1[i] segundo(s). Enquanto o efeito de \"Furtividade\" estiver ativo, Seele não pode ser detectada por inimigos. Ao entrar em combate atacando inimigos, Seele entra no estado de \"Amplificação\" imediatamente e causa Dano Quântico igual ao multiplicador de Dano de Perícia de Seele em um inimigo-alvo aleatório 1 vez. Esse Dano é um Acerto CRIT garantido.",
         "en": "After using her Technique, Seele gains Stealth for #1[i] second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering combat by attacking enemies, Seele will immediately enter the Amplification state and deals Quantum DMG equal to Seele's Skill DMG multiplier to random enemy target 1 time. This DMG is a guaranteed CRIT Hit.",
-        "zh-CN": "使用秘技后进入持续#1[i]秒的隐身状态。隐身状态下不会被敌人发现，主动攻击敌人进入战斗时，希儿立即进入增幅状态且对随机敌方目标造成1次等同于希儿战技伤害倍率的量子属性伤害，该伤害必定暴击。",
-        "ja": "秘技を使用した後、#1[i]秒のステルス状態になる。ステルス状態になると敵に発見されない。この状態で敵を先制攻撃して戦闘に入る時、ゼーレは増幅状態になり、ランダムな敵単体にゼーレの戦闘スキルダメージ倍率と同等の量子属性ダメージを与える。この攻撃では必ず会心が発生する。",
-        "ko": "비술 사용 후 #1[i]초 동안 지속되는 은신 상태에 진입한다. 은신 상태에서는 적에게 발견되지 않으며, 적을 선공하여 전투 진입 시 제레는 즉시 증폭 상태에 진입하고, 랜덤 적에게 제레 전투 스킬 피해 배율만큼 양자 속성 피해를 1회 가한다. 해당 피해는 반드시 치명타이다"
+        "zh-CN": "使用秘技后进入持续#1[i]秒的隐身状态。隐身状态下不会被敌人发现，主动攻击敌人进入战斗时，希儿立即进入增幅状态且对随机敌方目标造成1次等同于希儿战技伤害倍率的量子属性伤害，该伤害必定暴击。"
       },
       "params": [[20]],
       "icon": "icon/skill/11102_technique.png",
@@ -415,30 +333,20 @@
       "summary": {
         "pt-BR": "Entra no estado de \"Furtividade\". Ao atacar um inimigo e entrar em combate, entra no estado de \"Amplificação\" e causa Dano Quântico massivo com Acerto CRIT garantido em um alvo aleatório.",
         "en": "Enters the Stealth state. After attacking an enemy and entering combat, enters the Amplification state and deals massive Quantum DMG with a guaranteed CRIT Hit to one random target.",
-        "zh-CN": "进入隐身状态。攻击敌人进入战斗后立即进入增幅状态且对随机目标造成必定暴击的大量量子属性伤害。",
-        "ja": "ステルス状態になる。敵を攻撃し戦闘に入ると、即座に増幅状態になり、ランダムなターゲットに必ず会心が発生する大量の量子属性ダメージを与える。",
-        "ko": "은신 상태에 진입한다. 적을 공격하여 전투에 진입하면 즉시 증폭 상태에 진입하며, 랜덤 목표에게 반드시 치명타인 대량의 양자 속성 피해를 가한다"
+        "zh-CN": "进入隐身状态。攻击敌人进入战斗后立即进入增幅状态且对随机目标造成必定暴击的大量量子属性伤害。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Golpe Extirpador",
-        "en": "Extirpating Slash",
-        "zh-CN": "斩尽",
-        "ja": "{RUBY_B#ざんじん}斬尽{RUBY_E#}",
-        "ko": "몰살"
-      },
+      "name": { "pt-BR": "Golpe Extirpador", "en": "Extirpating Slash", "zh-CN": "斩尽" },
       "description": {
         "pt-BR": "Ao causar Dano a um inimigo com 80% ou menos de PV, aumenta a Chance de CRIT em 15%.",
         "en": "When dealing DMG to an enemy whose HP percentage is 80% or lower, increases CRIT Rate by 15%.",
-        "zh-CN": "对当前生命值百分比小于等于80%的敌方目标造成伤害时，暴击率提高15%。",
-        "ja": "残りHPが80%以下の敵にダメージを与える時、会心率+15%。",
-        "ko": "현재 HP 백분율이 80% 이하인 적에게 피해를 가할 시 치명타 확률이 15% 증가한다"
+        "zh-CN": "对当前生命值百分比小于等于80%的敌方目标造成伤害时，暴击率提高15%。"
       },
       "icon": "icon/skill/1102_rank1.png",
       "materials": [{ "id": 11102, "num": 1 }],
@@ -446,19 +354,11 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Borboleta Dançarina",
-        "en": "Dancing Butterfly",
-        "zh-CN": "蝶舞",
-        "ja": "{RUBY_B#ちょうぶ}蝶舞{RUBY_E#}",
-        "ko": "나비춤"
-      },
+      "name": { "pt-BR": "Borboleta Dançarina", "en": "Dancing Butterfly", "zh-CN": "蝶舞" },
       "description": {
         "pt-BR": "O Bônus de VEL da Perícia de Seele pode acumular até 2 vez(es).",
         "en": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s).",
-        "zh-CN": "战技的加速效果可以叠加，最多叠加2层。",
-        "ja": "戦闘スキルの加速効果が累積できるようになる、最大で2層累積できる。",
-        "ko": "전투 스킬의 가속 효과가 최대 2스택 중첩된다"
+        "zh-CN": "战技的加速效果可以叠加，最多叠加2层。"
       },
       "icon": "icon/skill/1102_rank2.png",
       "materials": [{ "id": 11102, "num": 1 }],
@@ -466,19 +366,11 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Tumulto Deslumbrante",
-        "en": "Dazzling Tumult",
-        "zh-CN": "缭乱",
-        "ja": "{RUBY_B#りょうらん}繚乱{RUBY_E#}",
-        "ko": "요란"
-      },
+      "name": { "pt-BR": "Tumulto Deslumbrante", "en": "Dazzling Tumult", "zh-CN": "缭乱" },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1102_skill.png",
       "materials": [{ "id": 11102, "num": 1 }],
@@ -486,19 +378,11 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Fantasma Esvoaçante",
-        "en": "Flitting Phantasm",
-        "zh-CN": "掠影",
-        "ja": "{RUBY_B#りゃくえい}掠影{RUBY_E#}",
-        "ko": "스쳐가는 그림자"
-      },
+      "name": { "pt-BR": "Fantasma Esvoaçante", "en": "Flitting Phantasm", "zh-CN": "掠影" },
       "description": {
         "pt-BR": "Seele regenera 15 de Energia quando derrota um inimigo.",
         "en": "Seele regenerates 15 Energy when she defeats an enemy.",
-        "zh-CN": "希儿消灭敌方目标时，自身恢复15点能量。",
-        "ja": "ゼーレが敵を倒した時、EPを15回復する。",
-        "ko": "제레가 적을 처치할 경우 자신의 에너지를 15pt 회복한다"
+        "zh-CN": "希儿消灭敌方目标时，自身恢复15点能量。"
       },
       "icon": "icon/skill/1102_rank4.png",
       "materials": [{ "id": 11102, "num": 1 }],
@@ -506,19 +390,11 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Estilhaços Perfurantes",
-        "en": "Piercing Shards",
-        "zh-CN": "锋锐",
-        "ja": "{RUBY_B#ほうえい}鋒鋭{RUBY_E#}",
-        "ko": "예리"
-      },
+      "name": { "pt-BR": "Estilhaços Perfurantes", "en": "Piercing Shards", "zh-CN": "锋锐" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1102_ultimate.png",
       "materials": [{ "id": 11102, "num": 1 }],
@@ -526,19 +402,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Confusão Devastadora",
-        "en": "Shattering Shambles",
-        "zh-CN": "离析",
-        "ja": "{RUBY_B#りせき}離析{RUBY_E#}",
-        "ko": "분열"
-      },
+      "name": { "pt-BR": "Confusão Devastadora", "en": "Shattering Shambles", "zh-CN": "离析" },
       "description": {
         "pt-BR": "Após atacar com sua Perícia Suprema, Seele inflige \"Enxurrada de Borboletas\" no inimigo-alvo por 1 rodada(s). Inimigos no estado de \"Enxurrada de Borboletas\" recebem adicionalmente 1 instância de Dano Quântico Adicional igual a 15% do Dano da Perícia Suprema de Seele sempre que forem atacados. Se o inimigo-alvo for derrotado pelo Dano Adicional de \"Enxurrada de Borboletas\" ativado pelo ataque de outros aliados, o Talento de Seele não poderá ser ativado.\nQuando Seele é derrubada, a \"Enxurrada de Borboletas\" infligida aos inimigos é removida.",
         "en": "After attacking with Ultimate, Seele inflicts \"Butterfly Flurry\" on the attacked enemy target for 1 turn(s). Enemies in \"Butterfly Flurry\" will additionally take 1 instance of Quantum Additional DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target is defeated by the \"Butterfly Flurry\" state's Additional DMG triggered by other allies' attacks, Seele's Talent will not be triggered.\nWhen Seele is knocked down, the \"Butterfly Flurry\" inflicted on the enemies will be removed.",
-        "zh-CN": "施放终结技攻击后使受到攻击的敌方单体陷入【乱蝶】状态，持续1回合。【乱蝶】状态下的敌方目标受到攻击后，额外受到1次等同于希儿终结技伤害15%的量子属性附加伤害。若该目标被我方其他目标触发【乱蝶】状态的附加伤害消灭，将不会触发希儿的天赋。\n当希儿陷入无法战斗状态时，敌方目标的【乱蝶】状态被解除。",
-        "ja": "必殺技を発動した後、攻撃を受けた敵単体を「乱れ蝶」状態にする、1ターン継続。乱れ蝶状態の敵が攻撃を受けた後、ゼーレの必殺技ダメージ15%分の量子属性付加ダメージを1回受ける。その敵が、他の味方に「乱れ蝶」の付加ダメージを触発され倒された時、ゼーレの天賦は発動しない。\nゼーレが戦闘不能状態になった時、敵の「乱れ蝶」状態が解除される。",
-        "ko": "필살기 공격 발동 후 피격된 단일 적은 [혼란의 나비] 상태에 빠진다, 지속 시간: 1턴. [혼란의 나비] 상태의 적은 피격 후 추가로 제레 필살기 피해의 15%만큼 양자 속성 추가 피해를 1회 받는다. 다른 아군의 공격으로 [혼란의 나비] 상태의 추가 피해가 발동되어 해당 적이 처치되면 제레의 특성이 발동하지 않는다.\n제레가 전투 불능 상태에 빠지면 적의 [혼란의 나비] 상태는 해제된다"
+        "zh-CN": "施放终结技攻击后使受到攻击的敌方单体陷入【乱蝶】状态，持续1回合。【乱蝶】状态下的敌方目标受到攻击后，额外受到1次等同于希儿终结技伤害15%的量子属性附加伤害。若该目标被我方其他目标触发【乱蝶】状态的附加伤害消灭，将不会触发希儿的天赋。\n当希儿陷入无法战斗状态时，敌方目标的【乱蝶】状态被解除。"
       },
       "icon": "icon/skill/1102_rank6.png",
       "materials": [{ "id": 11102, "num": 1 }],
@@ -913,19 +781,11 @@
     {
       "id": 1102101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Sombra Noturna",
-        "en": "Nightshade",
-        "zh-CN": "夜行",
-        "ja": "{RUBY_B#やこう}夜行{RUBY_E#}",
-        "ko": "야행"
-      },
+      "name": { "pt-BR": "Sombra Noturna", "en": "Nightshade", "zh-CN": "夜行" },
       "description": {
         "pt-BR": "Quando os PV atuais forem iguais a #1[i]% ou inferiores, reduz a chance de ser atacada por inimigos.",
         "en": "When current HP percentage is #1[i]% or lower, reduces the chance of being attacked by enemies.",
-        "zh-CN": "若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。",
-        "ja": "残りHPが#1[i]%以下の場合、敵に攻撃される確率ダウン。",
-        "ko": "현재 HP 백분율이 #1[i]% 이하인 경우, 적에게 피격될 확률이 감소한다"
+        "zh-CN": "若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。"
       },
       "params": [[0.5, 0.5]],
       "icon": "icon/skill/1102_skilltree1.png",
@@ -944,19 +804,11 @@
     {
       "id": 1102102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Laceração",
-        "en": "Lacerate",
-        "zh-CN": "割裂",
-        "ja": "{RUBY_B#ざんれつ}斬裂{RUBY_E#}",
-        "ko": "절단"
-      },
+      "name": { "pt-BR": "Laceração", "en": "Lacerate", "zh-CN": "割裂" },
       "description": {
         "pt-BR": "Enquanto Seele estiver com \"Melhoria\", a PEN de RES a Quântico dela aumenta em #1[i]%.",
         "en": "While Seele is in the Amplification state, her Quantum RES PEN increases by #1[i]%.",
-        "zh-CN": "增幅状态下希儿的量子属性抗性穿透提高#1[i]%。",
-        "ja": "増幅状態の時、ゼーレの量子属性耐性貫通+#1[i]%。",
-        "ko": "증폭 상태일 때 제레의 양자 속성 저항 관통이 #1[i]% 증가한다"
+        "zh-CN": "增幅状态下希儿的量子属性抗性穿透提高#1[i]%。"
       },
       "params": [[0.2]],
       "icon": "icon/skill/1102_skilltree2.png",
@@ -980,19 +832,11 @@
     {
       "id": 1102103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Ondulação",
-        "en": "Rippling Waves",
-        "zh-CN": "涟漪",
-        "ja": "さざ{RUBY_B#なみ}波{RUBY_E#}",
-        "ko": "파문"
-      },
+      "name": { "pt-BR": "Ondulação", "en": "Rippling Waves", "zh-CN": "涟漪" },
       "description": {
         "pt-BR": "Após usar um ATQ Básico, Avança Adiante a próxima ação de Seele em #1[i]%.",
         "en": "After using a Basic ATK, advances Seele's next action  by #1[i]%.",
-        "zh-CN": "施放普攻后，希儿的下一次行动提前#1[i]%。",
-        "ja": "通常攻撃を行った後、ゼーレの次の行動順が#1[i]%早まる。",
-        "ko": "일반 공격 발동 후 제레의 다음 행동 게이지가 #1[i]% 증가한다"
+        "zh-CN": "施放普攻后，希儿的下一次行动提前#1[i]%。"
       },
       "params": [[0.2]],
       "icon": "icon/skill/1102_skilltree3.png",
@@ -1016,7 +860,7 @@
     {
       "id": 1102201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1033,13 +877,7 @@
     {
       "id": 1102202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1102101],
@@ -1056,7 +894,7 @@
     {
       "id": 1102203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1102202],
@@ -1073,7 +911,7 @@
     {
       "id": 1102204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1090,7 +928,7 @@
     {
       "id": 1102205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1102102],
@@ -1107,13 +945,7 @@
     {
       "id": 1102206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1102205],
@@ -1130,7 +962,7 @@
     {
       "id": 1102207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1147,7 +979,7 @@
     {
       "id": 1102208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1102103],
@@ -1164,13 +996,7 @@
     {
       "id": 1102209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1102208],
@@ -1187,7 +1013,7 @@
     {
       "id": 1102210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1102208],
@@ -1494,19 +1320,11 @@
     {
       "id": 11102101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Sombra Noturna",
-        "en": "Nightshade",
-        "zh-CN": "夜行",
-        "ja": "{RUBY_B#やこう}夜行{RUBY_E#}",
-        "ko": "야행"
-      },
+      "name": { "pt-BR": "Sombra Noturna", "en": "Nightshade", "zh-CN": "夜行" },
       "description": {
         "pt-BR": "Ao derrotar um inimigo-alvo, aumenta o Dano causado do usuário em #1[i]%. Esse efeito pode acumular até #2[i] vez(es) e dura #3[i] rodada(s).",
         "en": "When defeating an enemy target, increases this unit's DMG dealt by #1[i]%. This effect can stack up to #2[i] time(s) and lasts for #3[i] turn(s).",
-        "zh-CN": "消灭敌方目标时，使自身造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续#3[i]回合。",
-        "ja": "敵を倒した時、自身の与ダメージ+#1[i]%、この効果は最大で#2[i]層累積可能で、#3[i]ターン継続する。",
-        "ko": "적 처치 시 자신이 가하는 피해가 #1[i]% 증가한다, 해당 효과 최대 중첩수: #2[i]스택, 지속 시간: #3[i]턴"
+        "zh-CN": "消灭敌方目标时，使自身造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续#3[i]回合。"
       },
       "params": [[0.5, 3, 3]],
       "icon": "icon/skill/11102_skilltree1.png",
@@ -1525,19 +1343,11 @@
     {
       "id": 11102102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Laceração",
-        "en": "Lacerate",
-        "zh-CN": "割裂",
-        "ja": "{RUBY_B#ざんれつ}斬裂{RUBY_E#}",
-        "ko": "절단"
-      },
+      "name": { "pt-BR": "Laceração", "en": "Lacerate", "zh-CN": "割裂" },
       "description": {
         "pt-BR": "Enquanto Seele estiver no estado de \"Amplificação\", a PEN de RES a Quântico dela aumenta em #1[i]%.",
         "en": "While Seele is in the Amplification state, her Quantum RES PEN increases by #1[i]%.",
-        "zh-CN": "增幅状态下希儿的量子属性抗性穿透提高#1[i]%。",
-        "ja": "増幅状態の時、ゼーレの量子属性耐性貫通+#1[i]%。",
-        "ko": "증폭 상태일 때 제레의 양자 속성 저항 관통이 #1[i]% 증가한다"
+        "zh-CN": "增幅状态下希儿的量子属性抗性穿透提高#1[i]%。"
       },
       "params": [[0.25]],
       "icon": "icon/skill/11102_skilltree2.png",
@@ -1561,19 +1371,11 @@
     {
       "id": 11102103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Ondulação",
-        "en": "Rippling Waves",
-        "zh-CN": "涟漪",
-        "ja": "さざ{RUBY_B#なみ}波{RUBY_E#}",
-        "ko": "파문"
-      },
+      "name": { "pt-BR": "Ondulação", "en": "Rippling Waves", "zh-CN": "涟漪" },
       "description": {
         "pt-BR": "Após usar um ATQ Básico, a próxima ação de Seele é Avançada Adiante em #1[i]%.",
         "en": "After using a Basic ATK, advances Seele's next action  by #1[i]%.",
-        "zh-CN": "施放普攻后，希儿的下一次行动提前#1[i]%。",
-        "ja": "通常攻撃を行った後、ゼーレの次の行動順が#1[i]%早まる。",
-        "ko": "일반 공격 발동 후 제레의 다음 행동 게이지가 #1[i]% 증가한다"
+        "zh-CN": "施放普攻后，希儿的下一次行动提前#1[i]%。"
       },
       "params": [[0.2]],
       "icon": "icon/skill/11102_skilltree3.png",
@@ -1597,7 +1399,7 @@
     {
       "id": 11102201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1614,13 +1416,7 @@
     {
       "id": 11102202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11102101],
@@ -1637,7 +1433,7 @@
     {
       "id": 11102203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [11102202],
@@ -1654,7 +1450,7 @@
     {
       "id": 11102204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1671,7 +1467,7 @@
     {
       "id": 11102205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [11102102],
@@ -1688,13 +1484,7 @@
     {
       "id": 11102206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11102205],
@@ -1711,7 +1501,7 @@
     {
       "id": 11102207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1728,7 +1518,7 @@
     {
       "id": 11102208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [11102103],
@@ -1745,13 +1535,7 @@
     {
       "id": 11102209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11102208],
@@ -1768,7 +1552,7 @@
     {
       "id": 11102210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [11102208],

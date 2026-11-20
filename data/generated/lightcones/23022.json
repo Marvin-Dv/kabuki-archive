@@ -1,13 +1,7 @@
 {
   "id": 23022,
   "slug": "reforged-remembrance",
-  "name": {
-    "pt-BR": "Recordação Reforjada",
-    "en": "Reforged Remembrance",
-    "zh-CN": "重塑时光之忆",
-    "ja": "時間の記憶を再構築して",
-    "ko": "시간의 기억에 대한 재구성"
-  },
+  "name": { "pt-BR": "Recordação Reforjada", "en": "Reforged Remembrance", "zh-CN": "重塑时光之忆" },
   "rarity": 5,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "Acenda as velas, espalhe as cartas, respire a fragrância...\nEssas memórias quebradas se tornam rostos na luz dançante.\nAs aparições que emergem das chamas contam de passados recordados com carinho.\nO tempo é cisalhado. O momento é congelado. Ela torna esses instantes preciosos em cristalizações da eternidade.\n\"Muito foi perdido, e o pouco que resta... Nós nutrimos essas memórias contra a crueldade do tempo.\"",
     "en": "Light the candles, spread the cards, breathe in the fragrance...\nThese broken memories become faces in the dancing light.\nThe apparitions that emerge from flames tell her of pasts fondly recalled.\nTime is shorn. The moment is frozen. She turns these most precious instants into crystallizations of eternity.\n\"There is too much lost, and too little that remains... We nurture remembrance against the cruelties of time.\"",
-    "zh-CN": "点燃蜡烛，摊开纸牌，嗅闻芬芳——\n那些残破的回忆，化作摇荡光影中的面容。\n从火中钻出的幽灵，向她诉说着令人留恋的过去。\n剪切时光，凝固片刻，她将最为珍贵的瞬间化为一个个水晶般的永恒。\n「失去的太多，留下的太少…我们培育记忆，以对抗残酷的时间。」",
-    "ja": "ロウソクに火をつけてカードを広げ、かぐわしい香りに浸る——\n破れた記憶が光影にたゆたい顔となった。\n炎から這い出た亡霊が、彼女に思い出深い過去を語る。\n彼女は時間を切り取って一刻を凝固させ、最も貴重な瞬間をクリスタルの如き永遠に変えた。\n「失ったものはあまりにも多く、残ったものはあまりにも少ない…私たちは時の残酷さに抗うため、記憶を育んでいく」",
-    "ko": "촛불에 불을 붙이고, 카드를 펼친 후 향기에 몸을 맡긴다——\n불완전한 기억들이 일렁이는 빛과 그림자 속에서 얼굴로 변한다.\n불속에서 솟아 나온 유령이 그리웠던 자신의 과거 이야기를 속삭였다.\n그녀는 시간을 오려내고 찰나를 응고시켜 가장 소중한 순간을 영원으로 바꿨다.\n「잃은 것은 너무 많고, 남은 것은 너무 적어…. 우리는 잔인한 시간에 대항하기 위해 기억을 키우지」"
+    "zh-CN": "点燃蜡烛，摊开纸牌，嗅闻芬芳——\n那些残破的回忆，化作摇荡光影中的面容。\n从火中钻出的幽灵，向她诉说着令人留恋的过去。\n剪切时光，凝固片刻，她将最为珍贵的瞬间化为一个个水晶般的永恒。\n「失去的太多，留下的太少…我们培育记忆，以对抗残酷的时间。」"
   },
   "skill": {
-    "name": { "pt-BR": "Cristalização", "en": "Crystallize", "zh-CN": "结晶", "ja": "結晶", "ko": "결정" },
+    "name": { "pt-BR": "Cristalização", "en": "Crystallize", "zh-CN": "结晶" },
     "description": {
       "pt-BR": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Quando o usuário causa Dano a um inimigo afligido com Cisalhamento de Vento, Queimadura, Choque ou Sangramento, cada um concede respectivamente 1 acúmulo de Profeta, podendo acumular até #4[i] vezes. Em uma única batalha, apenas 1 acúmulo de Profeta pode ser concedido para cada tipo de Dano Contínuo. Cada acúmulo de Profeta aumenta o ATQ do usuário em #2[i]% e o Dano Contínuo causado ignorará #3[f1]% da DEF do alvo.",
       "en": "Increases the wearer's Effect Hit Rate by #1[i]%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to #4[i] time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by #2[i]% and enables the DoT dealt to ignore #3[f1]% of the target's DEF.",
-      "zh-CN": "使装备者的效果命中提高#1[i]%。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加#4[i]层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高#2[i]%，造成的持续伤害无视目标#3[f1]%的防御力。",
-      "ja": "装備キャラの効果命中+#1[i]%。装備キャラが風化、燃焼、感電、または裂創状態の敵にダメージを与える時、それぞれ「予見」を1層獲得する、最大で#4[i]層累積できる。一度の戦闘において、各種類の持続ダメージ系デバフがそれぞれ累積できる「予見」は1層のみ。「予見」1層につき、装備キャラの攻撃力+#2[i]%、与える持続ダメージが敵の防御力を#3[f1]%無視する。",
-      "ko": "장착한 캐릭터의 효과 명중이 #1[i]% 증가한다. 장착한 캐릭터가 풍화, 연소, 감전, 열상 상태에 빠진 적에게 피해를 가하면 각각 [예지]를 1스택 획득한다. 최대 중첩수: #4[i]스택. 단일 전투에서 지속 피해 상태 유형마다 [예지] 효과를 1회 중첩할 수 있다. [예지] 1스택당 장착한 캐릭터의 공격력이 #2[i]% 증가하고, 가하는 지속 피해가 목표의 방어력을 #3[f1]% 무시한다"
+      "zh-CN": "使装备者的效果命中提高#1[i]%。装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加#4[i]层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高#2[i]%，造成的持续伤害无视目标#3[f1]%的防御力。"
     },
     "params": [
       [0.4, 0.05, 0.072, 4],

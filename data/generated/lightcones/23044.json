@@ -1,13 +1,7 @@
 {
   "id": 23044,
   "slug": "thus-burns-the-dawn",
-  "name": {
-    "pt-BR": "Assim Arde a Alvorada",
-    "en": "Thus Burns the Dawn",
-    "zh-CN": "黎明恰如此燃烧",
-    "ja": "燃え盛る黎明のように",
-    "ko": "이와 같이 타오르는 여명"
-  },
+  "name": { "pt-BR": "Assim Arde a Alvorada", "en": "Thus Burns the Dawn", "zh-CN": "黎明恰如此燃烧" },
   "rarity": 5,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "Mais uma vez, no fim da jornada, a silhueta do homem foi engolida pelo sol dourado e abrasador.\n\"Então... aquele sangue dourado, a última esperança de salvação, era mesmo...\"\nSuas lágrimas não chegaram a cair: evaporaram em meio ao vapor.\n\"Floquinho de Neve, até amanhã!\"\n\"Portador, lembra de continuar vivo até o ato final!\"\n\"Vá... e seja a alvorada de Amphoreus...\"\n...\nOs desejos do povo ecoaram no vazio. O Herói Inominado ruiu, sua morte feroz e trágica exposta ao mundo.\n\"Se a raiva não puder reduzir este destino distorcido a cinzas...\"\nEle escalava até o cume, vezes sem conta, apenas para cair e se estilhaçar, outra e outra vez...\n\"Então que eu arda junto com ele!\"",
     "en": "Once again, at the journey's end, the man's silhouette was swallowed by the sweltering golden sun.\n\"So... that golden blood, the last hope of deliverance, was really...\"\nHis tears never had the chance to fall — they vanished into steam.\n\"Snowy, see you tomorrow!\"\n\"Deliverer, remember to stay alive till the final act!\"\n\"Go be the dawn of Amphoreus...\"\n...\nThe people's wishes echoed in the void. The Nameless Hero crumbled, his fierce and tragic death laid bare.\n\"If rage can't burn this twisted fate to ashes...\"\nHe climbed toward the peak, over and over, only to fall and be shattered, again and again—\n\"Then let me burn with it!\"",
-    "zh-CN": "又一次站在旅途的终点，男人的身影被金色的骄阳吞没。\n「那黄金的血液，救世的希望，原来……」\n他的眼泪还未落下，便蒸发不见。\n「小白，明天见！」\n「救世主，记得活到最后！」\n「去成为翁法罗斯的黎明吧……」\n……\n众人的愿望空余回响，无名的英雄破碎，露出那酷烈的死亡。\n「若怒火不足以焚灭悖谬的命运……」\n他一次又一次朝着那山顶攀升，一次又一次跌落粉碎——\n「那就让我与它一同燃尽！」",
-    "ja": "男が再び旅の終点に立つと、その姿は金色の陽光に呑み込まれていった。\n「黄金の血も…救世の希望も…本当は……」\n彼の頬に伝う前に、その涙は蒸発して消えた。\n「ファイちゃん、また明日！」\n「救世主よ、最後まで生きろ！」\n「オンパロスの新しい黎明になってください…」\n……\n仲間たちの願いが空しく響く中、無名の英雄は打ち砕かれ、無惨な死が露わになった。\n「怒りの炎が、この不条理な運命を焼き尽くせないのなら……」\n彼は幾度となく山頂を目指し、そして幾度となく転げ落ち、砕け散った——\n「せめて、その運命と共に燃え尽きよう！」",
-    "ko": "또다시 여정의 끝에 선 남자의 모습이 뜨거운 황금빛 태양에 삼켜진다.\n「황금색 피, 구세의 희망이… 사실은……」\n남자의 눈물은 떨어지기도 전에 증발했다.\n「내일 봐, 파이!」\n「끝까지 살아남으라고, 구세주!」\n「가서 앰포리어스의 여명이 되어줘……」\n……\n사람들의 염원은 텅 빈 메아리가 되었고, 이름 없는 영웅은 산산이 부서지며 그 격렬한 죽음을 드러냈다.\n「만약 분노의 불길이 이 황당한 운명을 불태울 수 없다면……」\n그는 몇 번이고 산꼭대기를 향해 올라갔고, 끊임없이 떨어져 산산조각이 났다——\n「내가 그 운명과 함께 불타주지!」"
+    "zh-CN": "又一次站在旅途的终点，男人的身影被金色的骄阳吞没。\n「那黄金的血液，救世的希望，原来……」\n他的眼泪还未落下，便蒸发不见。\n「小白，明天见！」\n「救世主，记得活到最后！」\n「去成为翁法罗斯的黎明吧……」\n……\n众人的愿望空余回响，无名的英雄破碎，露出那酷烈的死亡。\n「若怒火不足以焚灭悖谬的命运……」\n他一次又一次朝着那山顶攀升，一次又一次跌落粉碎——\n「那就让我与它一同燃尽！」"
   },
   "skill": {
-    "name": { "pt-BR": "Espoliação", "en": "Dispossession", "zh-CN": "失却", "ja": "喪失", "ko": "상실" },
+    "name": { "pt-BR": "Espoliação", "en": "Dispossession", "zh-CN": "失却" },
     "description": {
       "pt-BR": "A VEL base do usuário aumenta em #1[i]. Quando causa Dano, o usuário ignora #2[i]% da DEF do alvo. Após usar a Perícia Suprema, o usuário obtém \"Sol Escaldante\", que é removido no início da rodada. Enquanto \"Sol Escaldante\" estiver em posse, o Dano causado pelo usuário aumenta em #3[i]%.",
       "en": "The wearer's base SPD increases by #1[i]. When dealing DMG, ignores #2[i]% of the target's DEF. After the wearer uses Ultimate, gains \"Blazing Sun,\" which is removed at the start of the turn. While holding \"Blazing Sun,\" increases the wearer's DMG dealt by #3[i]%.",
-      "zh-CN": "使装备者的基础速度提高#1[i]，造成伤害时无视目标#2[i]%的防御力。装备者施放终结技后，获得【烈阳】，回合开始时移除。持有【烈阳】时，装备者造成的伤害提高#3[i]%。",
-      "ja": "装備キャラの基礎速度+#1[i]、ダメージを与える時、敵の防御力を#2[i]%無視する。装備キャラが必殺技を発動した後、「烈日」を獲得する。この効果はターンが回ってきた時に解除される。「烈日」を所持している場合、装備キャラの与ダメージ+#3[i]%。",
-      "ko": "장착한 캐릭터의 기본 속도가 #1[i] 증가하고, 피해를 가할 시 목표의 방어력을 #2[i]% 무시한다. 장착한 캐릭터가 필살기를 발동하면 [뜨거운 태양]을 획득하며, 턴 시작 시 해제된다. [뜨거운 태양] 보유 시 장착한 캐릭터가 가하는 피해가 #3[i]% 증가한다"
+      "zh-CN": "使装备者的基础速度提高#1[i]，造成伤害时无视目标#2[i]%的防御力。装备者施放终结技后，获得【烈阳】，回合开始时移除。持有【烈阳】时，装备者造成的伤害提高#3[i]%。"
     },
     "params": [[12, 0.18, 0.6], [14, 0.225, 0.78], [16, 0.27, 0.96], [18, 0.315, 1.14], [20, 0.36, 1.32]],
     "properties": [

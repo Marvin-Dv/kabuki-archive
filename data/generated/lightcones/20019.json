@@ -1,7 +1,7 @@
 {
   "id": 20019,
   "slug": "mediation",
-  "name": { "pt-BR": "Mediação", "en": "Mediation", "zh-CN": "调和", "ja": "同調", "ko": "어울림" },
+  "name": { "pt-BR": "Mediação", "en": "Mediation", "zh-CN": "调和" },
   "rarity": 3,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
@@ -9,18 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"O que pode ser mais feliz que expulsar a desarmonia?\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"What can be more joyous than purging disharmony?\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「还有什么比消除不谐音律更愉快的事么？」",
-    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「不協和音を排除することほど、愉快なことがあるのだろうか？」",
-    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「불협화음을 없애는 것보다 유쾌한 일이 또 있을까?」"
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「还有什么比消除不谐音律更愉快的事么？」"
   },
   "skill": {
-    "name": { "pt-BR": "Família", "en": "Family", "zh-CN": "家族", "ja": "ファミリー", "ko": "가족" },
+    "name": { "pt-BR": "Família", "en": "Family", "zh-CN": "家族" },
     "description": {
       "pt-BR": "Ao entrar em combate, aumenta a VEL de todos aliados em #1[i] pontos por #2[i] rodada(s).",
       "en": "Upon entering battle, increases SPD of all allies by #1[i] points for #2[i] turn(s).",
-      "zh-CN": "进入战斗时，我方全体速度提高#1[i]点，持续#2[i]回合。",
-      "ja": "戦闘に入る時、味方全体の速度+#1[i]、#2[i]ターン継続。",
-      "ko": "전투 진입 시, 모든 아군의 속도가 #1[i]pt 증가한다. 지속 시간: #2[i]턴"
+      "zh-CN": "进入战斗时，我方全体速度提高#1[i]点，持续#2[i]回合。"
     },
     "params": [[12, 1], [14, 1], [16, 1], [18, 1], [20, 1]],
     "properties": [[], [], [], [], []]

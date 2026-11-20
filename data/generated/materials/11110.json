@@ -1,13 +1,7 @@
 {
   "id": 11110,
   "slug": "lynxs-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Lynx",
-    "en": "Lynx's Eidolon",
-    "zh-CN": "【玲可】的星魂",
-    "ja": "「リンクス」の星魂",
-    "ko": "[링스]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Lynx", "en": "Lynx's Eidolon", "zh-CN": "【玲可】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

@@ -1,7 +1,7 @@
 {
   "id": 1108,
   "slug": "sampo",
-  "name": { "pt-BR": "Sampo", "en": "Sampo", "zh-CN": "桑博", "ja": "サンポ", "ko": "삼포" },
+  "name": { "pt-BR": "Sampo", "en": "Sampo", "zh-CN": "桑博" },
   "rarity": 4,
   "path": "Nihility",
   "element": "Wind",
@@ -11,19 +11,11 @@
     {
       "id": 110801,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Lâminas Ofuscantes",
-        "en": "Dazzling Blades",
-        "zh-CN": "酷炫的刀花",
-        "ja": "眩い刃紋",
-        "ko": "화려한 도흔"
-      },
+      "name": { "pt-BR": "Lâminas Ofuscantes", "en": "Dazzling Blades", "zh-CN": "酷炫的刀花" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Sampo a um único inimigo.",
         "en": "Deals Wind DMG equal to #1[i]% of Sampo's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于桑博#1[i]%攻击力的风属性伤害。",
-        "ja": "指定した敵単体にサンポの攻撃力#1[i]%分の風属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 삼포 공격력 #1[i]%만큼의 바람 속성 피해를 준다"
+        "zh-CN": "对指定敌方单体造成等同于桑博#1[i]%攻击力的风属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1108_basic_atk.png",
@@ -31,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
-        "ja": "敵単体に少量の風属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量风属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 110802,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Amor Ricochete",
-        "en": "Ricochet Love",
-        "zh-CN": "反复横跳的爱",
-        "ja": "反復横跳びの愛",
-        "ko": "변덕스러운 사랑"
-      },
+      "name": { "pt-BR": "Amor Ricochete", "en": "Ricochet Love", "zh-CN": "反复横跳的爱" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #2[i]% do ATQ de Sampo a um único inimigo, e causa Dano mais #1[i] vez(es) extra(s), com cada vez causando Dano de Vento igual a #2[i]% do ATQ de Sampo a um inimigo aleatório.",
         "en": "Deals Wind DMG equal to #2[i]% of Sampo's ATK to one designated enemy, and further deals DMG for #1[i] extra time(s), with each time dealing Wind DMG equal to #2[i]% of Sampo's ATK to a random enemy.",
-        "zh-CN": "对指定敌方单体造成等同于桑博#2[i]%攻击力的风属性伤害，并额外造成#1[i]次伤害，每次伤害对敌方随机单体造成等同于桑博#2[i]%攻击力的风属性伤害。",
-        "ja": "指定した敵単体にサンポの攻撃力#2[i]%分の風属性ダメージを与え、さらに#1[i]ヒットする。1ヒットごとにランダムな敵単体にサンポの攻撃力#2[i]%分の風属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 삼포 공격력의 #2[i]%만큼 바람 속성 피해를 가하고, 추가로 피해를 #1[i]회 가한다. 피해마다 랜덤 단일 적에게 삼포 공격력의 #2[i]%만큼 바람 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于桑博#2[i]%攻击力的风属性伤害，并额外造成#1[i]次伤害，每次伤害对敌方随机单体造成等同于桑博#2[i]%攻击力的风属性伤害。"
       },
       "params": [
         [4, 0.28],
@@ -77,29 +59,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a inimigos-alvo únicos e é Rebatido 5 vezes.",
         "en": "Deals minor Wind DMG to single enemy targets with 5 Bounces in total.",
-        "zh-CN": "对敌方单体造成少量风属性伤害，共弹射5次。",
-        "ja": "敵単体に少量の風属性ダメージを与える、5回バウンドする。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가하고, 총 5회 바운스한다"
+        "zh-CN": "对敌方单体造成少量风属性伤害，共弹射5次。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射" }
     },
     {
       "id": 110803,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Presente Surpresa",
-        "en": "Surprise Present",
-        "zh-CN": "惊喜礼盒",
-        "ja": "サプライズボックス",
-        "ko": "서프라이즈 선물 상자"
-      },
+      "name": { "pt-BR": "Presente Surpresa", "en": "Surprise Present", "zh-CN": "惊喜礼盒" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Sampo a todos os inimigos, com #4[i]% de chance-base de aumentar o Dano Contínuo recebido pelo alvo em #2[i]% por #3[i] rodada(s).",
         "en": "Deals Wind DMG equal to #1[i]% of Sampo's ATK to all enemies, with a #4[i]% base chance to increase the targets' DoT taken by #2[i]% for #3[i] turn(s).",
-        "zh-CN": "对敌方全体造成等同于桑博#1[i]%攻击力的风属性伤害，同时有#4[i]%的基础概率使被攻击的敌方目标受到的持续伤害提高#2[i]%，持续#3[i]回合。",
-        "ja": "敵全体にサンポの攻撃力#1[i]%分の風属性ダメージを与え、#4[i]%の基礎確率で攻撃を受けた敵の受ける持続ダメージ+#2[i]%、#3[i]ターン継続。",
-        "ko": "모든 적에게 삼포 공격력 #1[i]%만큼의 바람 속성 피해를 주고, #4[i]%의 기본 확률로 피격된 적이 받는 지속 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
+        "zh-CN": "对敌方全体造成等同于桑博#1[i]%攻击力的风属性伤害，同时有#4[i]%的基础概率使被攻击的敌方目标受到的持续伤害提高#2[i]%，持续#3[i]回合。"
       },
       "params": [
         [0.96, 0.2, 2, 1],
@@ -123,29 +95,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento a todos os inimigos, com altas chances de causar Dano Contínuo aumentado a eles.",
         "en": "Deals Wind DMG to all enemies, with a high chance to cause increased DoT taken to them.",
-        "zh-CN": "对敌方全体造成风属性伤害，大概率使其受到的持续伤害提高。",
-        "ja": "敵全体に風属性ダメージを与え、高確率で敵の受ける持続ダメージをアップする。",
-        "ko": "모든 적에게 바람 속성 피해를 가하고, 높은 확률로 받는 지속 피해가 증가한다"
+        "zh-CN": "对敌方全体造成风属性伤害，大概率使其受到的持续伤害提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 110804,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Adaga da Ventania",
-        "en": "Windtorn Dagger",
-        "zh-CN": "撕风的匕首",
-        "ja": "風を切り裂く匕首",
-        "ko": "바람을 찢는 비수"
-      },
+      "name": { "pt-BR": "Adaga da Ventania", "en": "Windtorn Dagger", "zh-CN": "撕风的匕首" },
       "description": {
         "pt-BR": "Os ataques de Sampo têm #1[i]% de chance-base de infligir Cisalhamento de Vento por #3[i] rodada(s).\nInimigos infligidos com Cisalhamento de Vento recebem Dano de Vento Contínuo igual a #2[i]% do ATQ de Sampo no início de cada rodada. Cisalhamento de Vento pode se acumular até #4[i] vez(es).",
         "en": "Sampo's attacks have a #1[i]% base chance to inflict Wind Shear for #3[i] turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to #2[i]% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to #4[i] time(s).",
-        "zh-CN": "桑博击中敌方目标后有#1[i]%的基础概率使目标陷入风化状态，持续#3[i]回合。\n风化状态下，敌方目标每回合开始时受到等同于桑博#2[i]%攻击力的风属性持续伤害。风化状态最多叠加#4[i]层。",
-        "ja": "サンポの攻撃が敵に命中した後、#1[i]%の基礎確率で敵を風化状態にする、#3[i]ターン継続。\n風化状態の敵はターンが回ってくるたびに、サンポの攻撃力#2[i]%分の風属性持続ダメージを受ける。風化状態は最大で#4[i]層累積できる。",
-        "ko": "삼포는 적 공격 후 #1[i]%의 기본 확률로 적을 풍화 상태에 빠트린다. 지속 시간: #3[i]턴\n풍화 상태의 적은 새로운 턴이 시작될 때마다 삼포 공격력 #2[i]%만큼의 바람 속성 지속 피해를 받는다. 풍화 상태 최대 중첩수: #4[i]스택"
+        "zh-CN": "桑博击中敌方目标后有#1[i]%的基础概率使目标陷入风化状态，持续#3[i]回合。\n风化状态下，敌方目标每回合开始时受到等同于桑博#2[i]%攻击力的风属性持续伤害。风化状态最多叠加#4[i]层。"
       },
       "params": [
         [0.65, 0.2, 3, 5],
@@ -169,50 +131,36 @@
       "summary": {
         "pt-BR": "Depois golpear um inimigo, existe uma chance de infligir Cisalhamento de Vento no alvo.",
         "en": "After hitting an enemy, there is a chance of inflicting Wind Shear on the target.",
-        "zh-CN": "自身击中敌方目标后有概率使目标陷入风化状态。",
-        "ja": "自身の攻撃が敵に命中した後、確率で敵を風化状態にする。",
-        "ko": "자신이 적을 명중하면 일정 확률로 적을 풍화 상태에 빠트린다"
+        "zh-CN": "自身击中敌方目标后有概率使目标陷入风化状态。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 110806,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1108_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 110807,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Brilho Ofuscante",
-        "en": "Shining Bright",
-        "zh-CN": "你最闪亮",
-        "ja": "一番の輝きをあなたへ",
-        "ko": "네가 가장 빛나"
-      },
+      "name": { "pt-BR": "Brilho Ofuscante", "en": "Shining Bright", "zh-CN": "你最闪亮" },
       "description": {
         "pt-BR": "Após usar a Técnica de Sampo, inflige \"Cegueira\" em inimigos em uma área definida por #1[i] segundos. Inimigos com \"Cegueira\" não conseguem detectar alvos aliados.\nAo iniciar o combate contra um inimigo com \"Cegueira\", há #2[i]% de chance fixa de atrasar as ações de todos os inimigos em #3[i]%.",
         "en": "After Sampo uses his Technique, enemies in a set area are afflicted with Blind for #1[i] second(s). Blinded enemies cannot detect ally targets.\nWhen initiating combat against a Blinded enemy, there is a #2[i]% fixed chance to delay all enemies' action by #3[i]%.",
-        "zh-CN": "使用秘技后使一定区域内的敌人陷入#1[i]秒的目盲状态，目盲状态下的敌人无法发现我方目标。\n若主动攻击陷入目盲状态的敌人，进入战斗时有#2[i]%固定概率使敌方每个单体目标行动延后#3[i]%。",
-        "ja": "秘技を使用した後、一定範囲内の敵を#1[i]秒間のブラインド状態にする。ブラインド状態の敵は味方を発見できない。\nブラインド状態の敵を先制攻撃して戦闘に入った時、#2[i]%の固定確率で、敵単体それぞれの行動順を#3[i]%遅延させる。",
-        "ko": "비술 사용 후 일정 영역 내의 적을 #1[i]초 동안 실명 상태에 빠트린다. 실명 상태에 진입한 적은 아군을 발견할 수 없다.\n실명 상태의 적을 선공하여 전투 진입 시 #2[i]%의 고정 확률로 각 단일 적의 행동 게이지가 #3[i]% 감소한다"
+        "zh-CN": "使用秘技后使一定区域内的敌人陷入#1[i]秒的目盲状态，目盲状态下的敌人无法发现我方目标。\n若主动攻击陷入目盲状态的敌人，进入战斗时有#2[i]%固定概率使敌方每个单体目标行动延后#3[i]%。"
       },
       "params": [[10, 1, 0.25]],
       "icon": "icon/skill/1108_technique.png",
@@ -220,30 +168,20 @@
       "summary": {
         "pt-BR": "Inimigos em uma determinada área recebem Cegueira. Ao iniciar uma batalha contra um inimigo com Cegueira, existe uma alta chance de atrasar todas as ações inimigas.",
         "en": "Enemies in a set area are Blinded. When initiating battle against a Blinded enemy, there is a high chance to delay all enemies' actions.",
-        "zh-CN": "使一定区域内敌人陷入目盲状态。攻击陷入目盲状态敌人，进战后大概率使敌方每个单体目标行动延后。",
-        "ja": "一定範囲内の敵をブラインド状態にする。ブラインド状態の敵を攻撃して戦闘に入った後、高確率で敵それぞれの行動順を遅らせる。",
-        "ko": "일정 구역 내의 적을 실명 상태에 빠트린다. 실명 상태에 빠진 적을 공격하면 전투 진입 후 높은 확률로 각 단일 적의 행동 게이지가 감소한다"
+        "zh-CN": "使一定区域内敌人陷入目盲状态。攻击陷入目盲状态敌人，进战后大概率使敌方每个单体目标行动延后。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Amor Crescente",
-        "en": "Rising Love",
-        "zh-CN": "加码的爱",
-        "ja": "{RUBY_B#ねあ}値上{RUBY_E#}げする{RUBY_B#あい}愛{RUBY_E#}",
-        "ko": "곱절의 사랑"
-      },
+      "name": { "pt-BR": "Amor Crescente", "en": "Rising Love", "zh-CN": "加码的爱" },
       "description": {
         "pt-BR": "Ao usar a Perícia, causa Dano 1 vez(es) a mais a um inimigo aleatório.",
         "en": "When using Skill, deals DMG for 1 extra time(s) to a random enemy.",
-        "zh-CN": "施放战技时，对敌方随机单体额外造成1次伤害。",
-        "ja": "戦闘スキルを発動した時、さらにランダムな敵単体にダメージを1回与える。",
-        "ko": "전투 스킬 발동 시 랜덤 단일 적에게 추가로 피해를 1회 가한다"
+        "zh-CN": "施放战技时，对敌方随机单体额外造成1次伤害。"
       },
       "icon": "icon/skill/1108_rank1.png",
       "materials": [{ "id": 11108, "num": 1 }],
@@ -251,19 +189,11 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Entusiasmo Infeccioso",
-        "en": "Infectious Enthusiasm",
-        "zh-CN": "热情会传染",
-        "ja": "{RUBY_B#ねつじょう}熱情{RUBY_E#}はうつる",
-        "ko": "전염되는 열정"
-      },
+      "name": { "pt-BR": "Entusiasmo Infeccioso", "en": "Infectious Enthusiasm", "zh-CN": "热情会传染" },
       "description": {
         "pt-BR": "Derrotar um inimigo infligido com \"Cisalhamento de Vento\" concede 100% de chance-base de infligir 1 acúmulo(s) de \"Cisalhamento de Vento\" a todos os inimigos, equivalente ao \"Cisalhamento de Vento\" da Perícia.",
         "en": "Defeating an enemy afflicted with Wind Shear has a 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to that of Skill.",
-        "zh-CN": "风化状态下的敌方目标被消灭时，使敌方全体有100%的基础概率叠加1层等同于天赋的风化状态。",
-        "ja": "風化状態の敵が倒された時、100%の基礎確率で敵全体に、天賦と同じ風化状態を1層付与する。",
-        "ko": "풍화 상태의 적 처치 시 모든 적은 100%의 기본 확률로 특성만큼의 풍화 상태를 1스택 중첩한다"
+        "zh-CN": "风化状态下的敌方目标被消灭时，使敌方全体有100%的基础概率叠加1层等同于天赋的风化状态。"
       },
       "icon": "icon/skill/1108_rank2.png",
       "materials": [{ "id": 11108, "num": 1 }],
@@ -271,19 +201,11 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Riquinho!",
-        "en": "Big Money!",
-        "zh-CN": "大数字！",
-        "ja": "{RUBY_B#おおもう}大儲{RUBY_E#}け！",
-        "ko": "큰 돈!"
-      },
+      "name": { "pt-BR": "Riquinho!", "en": "Big Money!", "zh-CN": "大数字！" },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1108_skill.png",
       "materials": [{ "id": 11108, "num": 1 }],
@@ -294,16 +216,12 @@
       "name": {
         "pt-BR": "Quanto Maior o Amor, Maior o Ódio",
         "en": "The Deeper the Love, the Stronger the Hate",
-        "zh-CN": "爱之深，恨之切",
-        "ja": "{RUBY_B#あい}愛{RUBY_E#}する{RUBY_B#ほど}程{RUBY_E#}{RUBY_B#うら}恨{RUBY_E#}む",
-        "ko": "사랑할수록 커지는 증오"
+        "zh-CN": "爱之深，恨之切"
       },
       "description": {
         "pt-BR": "Quando a Perícia atinge um inimigo com 5 ou mais acúmulo(s) de Cisalhamento de Vento, o inimigo imediatamente sofre 8% do Dano atual do Cisalhamento de Vento.",
         "en": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG.",
-        "zh-CN": "战技击中风化状态大于等于5层的敌方目标时，使其当前承受的风化状态立即产生相当于原伤害8%的伤害。",
-        "ja": "戦闘スキルが風化状態5層以上の敵に命中した時、その敵が受けている風化状態が本来のダメージ8%分のダメージを発生する。",
-        "ko": "전투 스킬이 풍화 상태를 5스택 이상 보유한 적을 명중할 시 보유한 풍화 상태는 즉시 기존 피해의 8%만큼 피해를 가한다"
+        "zh-CN": "战技击中风化状态大于等于5层的敌方目标时，使其当前承受的风化状态立即产生相当于原伤害8%的伤害。"
       },
       "icon": "icon/skill/1108_rank4.png",
       "materials": [{ "id": 11108, "num": 1 }],
@@ -311,19 +229,11 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Cheeeeio de Grana!",
-        "en": "Huuuuge Money!",
-        "zh-CN": "超大数字！",
-        "ja": "{RUBY_B#ちょうおおもう}超大儲{RUBY_E#}け！",
-        "ko": "엄청난 돈!"
-      },
+      "name": { "pt-BR": "Cheeeeio de Grana!", "en": "Huuuuge Money!", "zh-CN": "超大数字！" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1108_ultimate.png",
       "materials": [{ "id": 11108, "num": 1 }],
@@ -331,19 +241,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Aumento de Gasto",
-        "en": "Increased Spending",
-        "zh-CN": "消费升级",
-        "ja": "{RUBY_B#しょうひ}消費{RUBY_E#}のアップグレード",
-        "ko": "커진 씀씀이"
-      },
+      "name": { "pt-BR": "Aumento de Gasto", "en": "Increased Spending", "zh-CN": "消费升级" },
       "description": {
         "pt-BR": "O multiplicador de Dano do Talento para Cisalhamento de Vento aumenta em 15%.",
         "en": "Talent's Wind Shear DMG multiplier increases by 15%.",
-        "zh-CN": "天赋施加的风化状态的伤害倍率提高15%。",
-        "ja": "天賦が付与した風化状態のダメージ倍率+15%。",
-        "ko": "특성이 부여한 풍화 상태의 피해 배율이 15% 증가한다"
+        "zh-CN": "天赋施加的风化状态的伤害倍率提高15%。"
       },
       "icon": "icon/skill/1108_rank6.png",
       "materials": [{ "id": 11108, "num": 1 }],
@@ -703,13 +605,11 @@
     {
       "id": 1108101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Armadilha", "en": "Trap", "zh-CN": "圈套", "ja": "ワナ", "ko": "올가미" },
+      "name": { "pt-BR": "Armadilha", "en": "Trap", "zh-CN": "圈套" },
       "description": {
         "pt-BR": "Estende a duração do Cisalhamento de Vento causado pelo Talento por #1[i] rodada(s).",
         "en": "Extends the duration of Wind Shear caused by Talent by #1[i] turn(s).",
-        "zh-CN": "天赋使敌方陷入风化状态的持续时间延长#1[i]回合。",
-        "ja": "天賦による敵の風化状態の継続時間+#1[i]ターン。",
-        "ko": "특성으로 적이 풍화 상태에 빠지는 지속 시간이 #1[i]턴 증가한다"
+        "zh-CN": "天赋使敌方陷入风化状态的持续时间延长#1[i]回合。"
       },
       "params": [[1]],
       "icon": "icon/skill/1108_skilltree1.png",
@@ -728,19 +628,11 @@
     {
       "id": 1108102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Posição Defensiva",
-        "en": "Defensive Position",
-        "zh-CN": "后手",
-        "ja": "{RUBY_B#よび}予備{RUBY_E#}プラン",
-        "ko": "후공"
-      },
+      "name": { "pt-BR": "Posição Defensiva", "en": "Defensive Position", "zh-CN": "后手" },
       "description": {
         "pt-BR": "Usar a Perícia Suprema regenera um adicional de #1[i] de Energia.",
         "en": "Using Ultimate additionally regenerates #1[i] Energy.",
-        "zh-CN": "施放终结技时，额外恢复#1[i]点能量。",
-        "ja": "必殺技を発動した時、さらにEPを#1[i]回復する。",
-        "ko": "필살기 발동 시 추가로 에너지를 #1[i]pt 회복한다"
+        "zh-CN": "施放终结技时，额外恢复#1[i]点能量。"
       },
       "params": [[10]],
       "icon": "icon/skill/1108_skilltree2.png",
@@ -764,19 +656,11 @@
     {
       "id": 1108103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Incremento",
-        "en": "Spice Up",
-        "zh-CN": "加料",
-        "ja": "{RUBY_B#ひ}火{RUBY_E#}に{RUBY_B#あぶら}油{RUBY_E#}",
-        "ko": "첨가"
-      },
+      "name": { "pt-BR": "Incremento", "en": "Spice Up", "zh-CN": "加料" },
       "description": {
         "pt-BR": "Inimigos com efeito de Cisalhamento de Vento causam #1[i]% a menos de Dano a Sampo.",
         "en": "Enemies with Wind Shear effect deal #1[i]% less DMG to Sampo.",
-        "zh-CN": "风化状态下的敌方目标对桑博造成的伤害降低#1[i]%。",
-        "ja": "サンポに対する、風化状態の敵の与ダメージ-#1[i]%。",
-        "ko": "풍화 상태의 적이 삼포에게 가하는 피해가 #1[i]% 감소한다"
+        "zh-CN": "风化状态下的敌方目标对桑博造成的伤害降低#1[i]%。"
       },
       "params": [[0.15]],
       "icon": "icon/skill/1108_skilltree3.png",
@@ -800,7 +684,7 @@
     {
       "id": 1108201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -820,9 +704,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -840,7 +722,7 @@
     {
       "id": 1108203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1108202],
@@ -857,13 +739,7 @@
     {
       "id": 1108204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "pt-BR": "Bônus de RES a Efeito", "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1108203],
@@ -880,7 +756,7 @@
     {
       "id": 1108205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1108102],
@@ -900,9 +776,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -920,7 +794,7 @@
     {
       "id": 1108207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1108206],
@@ -937,13 +811,7 @@
     {
       "id": 1108208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "pt-BR": "Bônus de RES a Efeito", "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1108103],
@@ -963,9 +831,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -983,7 +849,7 @@
     {
       "id": 1108210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1108201],

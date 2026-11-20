@@ -1,13 +1,7 @@
 {
   "id": 21056,
   "slug": "in-pursuit-of-the-wind",
-  "name": {
-    "pt-BR": "Em Busca do Vento",
-    "en": "In Pursuit of the Wind",
-    "zh-CN": "追逐风的时候",
-    "ja": "風を追う時",
-    "ko": "바람을 쫓을 때"
-  },
+  "name": { "pt-BR": "Em Busca do Vento", "en": "In Pursuit of the Wind", "zh-CN": "追逐风的时候" },
   "rarity": 4,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "\"Heh. Essa aqui pode ir para aquela pirralha azarada. Vai calar a boca dos pais dela, que vivem devendo dinheiro, e talvez eles batam menos nela.\"\n\"Essa pode ir para a vovó que vende balas de conserva para se virar. Ela precisa muito ver um médico por causa das dores... Eu não quero viver num mundo onde eu não possa mais comprar essas balas deliciosas.\"\nCurvada sobre a mochila, a garota conta meticulosamente as joias lá dentro, e de repente espirra.\n\"Quem sentiu minha falta?\"\n\"Aí está você, Cífera.\"\nOs fios se entrelaçam em suas costas, como se hesitassem por onde começar.\n\"De agora em diante, quando estiver perseguindo o Vento...\"\nO fio dourado gelado se enrola em seus pulsos, prendendo-a no lugar.\n\"Não se esqueça de cuidar de si mesma também.\"\nEla corre, fugindo para bem longe. Só ao se virar é que percebe que a ponta de sua capa, antes começando a se desgastar, já havia sido costurada, como se fosse nova.",
     "en": "\"Heh. This one can go to that unlucky brat. It'll shut her money-owing parents up, and maybe they'll hit her less.\"\n\"This can go to the granny selling pickle candies to help her out in a pitch. She really needs to see a doctor for all her pains. I don't wanna see a day when I can't buy such tasty candies anymore...\"\nBent over the rucksack, the girl meticulously counts the jewels in there, and suddenly sneezes.\n\"Who's missed me?\"\n\"There you are, Cifera.\"\nThe threads wind around her back, as if hesitating where to start.\n\"From now on, when you're chasing the wind...\"\nThe icy golden thread wraps around her wrists, holding her in place.\n\"Don't forget to look after yourself as well.\"\nShe runs, escaping far away. It's only when she turns around that she discovers the corner of her cloak that's starting to fray had already been stitched up, as if it were new.",
-    "zh-CN": "「呵，这颗给小倒霉蛋，总能堵上她那欠债爸妈的嘴了吧，少打她几顿也好。\n「这颗给卖酸瓜糖的老奶奶救急，小病小痛都得治了，我可不想哪天吃不到那么好的糖……」\n女孩猫着腰一颗颗地细数布袋里的珠宝，忽然打了个喷嚏。\n「谁在想我？」\n「赛法利娅，你在这儿呐。」\n丝线盘绕在她的身后，似乎正犹豫着从哪儿开始。\n「以后，追逐风的时候……」\n冰冷的金丝缠绕在她的手腕，令她动弹不得。\n「也别忘了照顾好自己。」\n她逃向远方，回头才发现，那斗篷绽线的一角，已被缝补如新。",
-    "ja": "「あ、これはあのツイてない子にあげよっと。あの借金まみれの親もこれで少しは黙ってくれるでしょ。…そうじゃなくても、せめてあの子を殴る回数が減るといいな」\n「こっちはトゥルシアキャンディを売ってるおばあちゃんにあげちゃお。小さい病気でもちゃんと治さないとね。それに、こんな美味しいキャンディが食べられなくなったら困るし……」\nその場に座り、袋に入った宝石を一粒ずつ丁寧に数えていると、少女は突然くしゃみをした。\n「…誰か私の噂でもした？」\n「セファリア、ここにいたのですね」\n金の糸が彼女の背後で絡み合い、何かを迷うように漂っている。\n「今後、風を追う時は……」\n冷たい金糸がゆっくりと少女の手首に絡みつき、彼女の身動きを封じた。\n「自分を大切にすることも忘れないでください」\n彼女は逃げるように遠くへと駆けた。そして、振り返って初めて気づく——綻んでいたはずのマントの端が、いつの間にか新品のように縫い直されていたことに。",
-    "ko": "「훗, 이건 운이 나쁜 그 녀석에게 줘야겠어. 그럼 그 빚쟁이 부모의 입을 막을 수 있겠지? 적어도 좀 덜 때리길 바라야지」\n「이건 급한 대로 새콤 사탕 파는 할머니를 도울 수 있을 거야. 잔병치레를 다 고쳐야 나도 맛있는 사탕을 늘 먹을 수 있을 테니까……」\n소녀는 허리를 굽혀 주머니 속의 보석을 하나하나 세더니 갑자기 재채기를 했다.\n「누가 내 생각이라도 하나?」\n「사이퍼라, 여기 있었구나?」\n실이 어디서부터 시작할지 망설이듯 그녀의 뒤에 얽혀있었다.\n「앞으로 바람을 쫓을 땐……」\n차가운 금실이 그녀의 손목을 휘감아 움직일 수 없게 만들었다.\n「자기 자신을 잘 챙기는 것도 잊지 마」\n그녀는 멀리 도망쳤다. 뒤를 돌아보니 실밥이 터진 망토 끝이 새것처럼 수선되어 있었다"
+    "zh-CN": "「呵，这颗给小倒霉蛋，总能堵上她那欠债爸妈的嘴了吧，少打她几顿也好。\n「这颗给卖酸瓜糖的老奶奶救急，小病小痛都得治了，我可不想哪天吃不到那么好的糖……」\n女孩猫着腰一颗颗地细数布袋里的珠宝，忽然打了个喷嚏。\n「谁在想我？」\n「赛法利娅，你在这儿呐。」\n丝线盘绕在她的身后，似乎正犹豫着从哪儿开始。\n「以后，追逐风的时候……」\n冰冷的金丝缠绕在她的手腕，令她动弹不得。\n「也别忘了照顾好自己。」\n她逃向远方，回头才发现，那斗篷绽线的一角，已被缝补如新。"
   },
   "skill": {
-    "name": { "pt-BR": "Frustrado", "en": "Flustered", "zh-CN": "慌张", "ja": "あたふた", "ko": "허둥지둥" },
+    "name": { "pt-BR": "Frustrado", "en": "Flustered", "zh-CN": "慌张" },
     "description": {
       "pt-BR": "Após entrar em combate, aumenta o Dano de Quebra causado por todos os aliados em #1[i]%. Habilidades do mesmo tipo não se acumulam.",
       "en": "After entering combat, increases all allies' Break DMG dealt by #1[i]%. Abilities of the same type cannot stack.",
-      "zh-CN": "进入战斗后，使我方全体造成的击破伤害提高#1[i]%。同类技能无法重复生效。",
-      "ja": "戦闘に入った後、味方全体の弱点撃破ダメージ+#1[i]%。同系統のスキルは重ね掛け不可。",
-      "ko": "전투 진입 후 모든 아군이 가하는 격파 피해가 #1[i]% 증가한다. 같은 유형의 스킬 효과는 중복 적용되지 않는다"
+      "zh-CN": "进入战斗后，使我方全体造成的击破伤害提高#1[i]%。同类技能无法重复生效。"
     },
     "params": [[0.16], [0.18], [0.2], [0.22], [0.24]],
     "properties": [[], [], [], [], []]

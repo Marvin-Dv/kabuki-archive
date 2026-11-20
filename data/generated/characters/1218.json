@@ -1,7 +1,7 @@
 {
   "id": 1218,
   "slug": "jiaoqiu",
-  "name": { "pt-BR": "Jiaoqiu", "en": "Jiaoqiu", "zh-CN": "椒丘", "ja": "椒丘", "ko": "초구" },
+  "name": { "pt-BR": "Jiaoqiu", "en": "Jiaoqiu", "zh-CN": "椒丘" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Fire",
@@ -11,19 +11,11 @@
     {
       "id": 121801,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Coração em Chamas",
-        "en": "Heart Afire",
-        "zh-CN": "仁火攻心",
-        "ja": "心火計",
-        "ko": "인화공심"
-      },
+      "name": { "pt-BR": "Coração em Chamas", "en": "Heart Afire", "zh-CN": "仁火攻心" },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a um único inimigo-alvo.",
         "en": "Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于椒丘#1[i]%攻击力的火属性伤害。",
-        "ja": "指定した敵単体に椒丘の攻撃力#1[i]%分の炎属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 초구 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于椒丘#1[i]%攻击力的火属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1218_basic_atk.png",
@@ -31,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a um único inimigo.",
         "en": "Deals minor Fire DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量火属性伤害。",
-        "ja": "敵単体に少量の炎属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量火属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 121802,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Massacre em Brasas",
-        "en": "Scorch Onslaught",
-        "zh-CN": "燔燎急袭",
-        "ja": "燎原奔襲",
-        "ko": "번료급습"
-      },
+      "name": { "pt-BR": "Massacre em Brasas", "en": "Scorch Onslaught", "zh-CN": "燔燎急袭" },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a um único inimigo-alvo e Dano de Fogo igual a #2[i]% do ATQ de Jiaoqiu aos alvos adjacentes, com uma chance-base de #3[i]% de infligir 1 acúmulo de Assado Acinzentado no alvo principal.",
         "en": "Deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to one designated enemy target and Fire DMG equal to #2[i]% of Jiaoqiu's ATK to adjacent targets, with a #3[i]% base chance to inflict 1 stack of \"Ashen Roast\" on the primary target.",
-        "zh-CN": "对指定敌方单体造成等同于椒丘#1[i]%攻击力的火属性伤害，同时对其相邻目标造成等同于椒丘#2[i]%攻击力的火属性伤害，有#3[i]%的基础概率对主目标施加1层【烬煨】。",
-        "ja": "指定した敵単体に椒丘の攻撃力#1[i]%分の炎属性ダメージを与え、隣接する敵に椒丘の攻撃力#2[i]%分の炎属性ダメージを与える。#3[i]%の基礎確率で指定した敵単体に「焼尽」を1層付与する。",
-        "ko": "지정된 단일 적에게 초구 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, 동시에 인접한 목표에게 초구 공격력의 #2[i]%만큼 화염 속성 피해를 가한다. #3[i]%의 기본 확률로 주목표에게 [훈작]을 1스택 부여한다"
+        "zh-CN": "对指定敌方单体造成等同于椒丘#1[i]%攻击力的火属性伤害，同时对其相邻目标造成等同于椒丘#2[i]%攻击力的火属性伤害，有#3[i]%的基础概率对主目标施加1层【烬煨】。"
       },
       "params": [
         [0.75, 0.45, 1],
@@ -77,29 +59,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a um único inimigo e Dano de Fogo leve a alvos adjacentes, com altas chances de infligir 1 acúmulo de Assado Acinzentado ao alvo principal.",
         "en": "Deals Fire DMG to one enemy and minor Fire DMG to adjacent targets, with a high chance to inflict 1 stack of \"Ashen Roast\" on the primary target.",
-        "zh-CN": "对敌方单体造成火属性伤害，对相邻目标造成少量火属性伤害。有大概率对主目标施加1层【烬煨】。",
-        "ja": "敵単体に炎属性ダメージを与え、隣接する敵に少量の炎属性ダメージを与える。高確率でメインターゲットに「焼尽」を1層付与する。",
-        "ko": "단일 적에게 화염 속성 피해를 가하고, 인접한 목표에게 소량의 화염 속성 피해를 가하며, 높은 확률로 주목표에게 [훈작]을 1스택 부여한다"
+        "zh-CN": "对敌方单体造成火属性伤害，对相邻目标造成少量火属性伤害。有大概率对主目标施加1层【烬煨】。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 121803,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Arcano do Pirógrafo",
-        "en": "Pyrograph Arcanum",
-        "zh-CN": "鼎阵妙法，奇正相生",
-        "ja": "炊陣妙法、詭正相生",
-        "ko": "솥의 진법, 기정상생"
-      },
+      "name": { "pt-BR": "Arcano do Pirógrafo", "en": "Pyrograph Arcanum", "zh-CN": "鼎阵妙法，奇正相生" },
       "description": {
         "pt-BR": "Define o número de acúmulos de Assado Acinzentado nos inimigos-alvo para o maior número de acúmulos de Assado Acinzentado presente no campo de batalha no momento. Então, ativa um Campo e causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a todos os inimigos.\nEnquanto estiverem dentro do campo, inimigos-alvo recebem #3[f1]% a mais de Dano de Perícia Suprema, com uma chance-base de #2[i]% de serem infligidos com 1 acúmulo de Assado Acinzentado ao agir. Enquanto o Campo estiver ativo, este efeito pode acionar até #5[i] vez(es). E para cada inimigo-alvo, ele só pode ser acionado uma vez por rodada. Essa contagem de ativação reinicia toda vez que Jiaoqiu utiliza sua Perícia Suprema.\nO Campo dura por #4[i] rodada(s), e sua duração diminui em 1 no início de toda rodada desta unidade. Se Jiaoqiu for derrubado, o Campo também será desfeito.",
         "en": "Sets the number of \"Ashen Roast\" stacks on enemy targets to the highest number of \"Ashen Roast\" stacks present on the battlefield. Then, activates a Zone and deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies.\nWhile inside the Zone, enemy targets receive #3[f1]% increased Ultimate DMG, with a #2[i]% base chance of being inflicted with 1 stack of Ashen Roast when taking action. While the Zone exists, this effect can trigger up to #5[i] time(s). And for each enemy target, it can only trigger once per turn. This trigger count resets every time Jiaoqiu uses Ultimate.\nThe Zone lasts for #4[i] turn(s), and its duration decreases by 1 at the start of this unit's every turn. If Jiaoqiu gets knocked down, the Zone will also be dispelled.",
-        "zh-CN": "将敌方目标具有的【烬煨】层数统一设置为场上【烬煨】层数的最高值，随后开启结界并对敌方全体造成等同于椒丘#1[i]%攻击力的火属性伤害。\n处于结界中时，敌方目标受到的终结技伤害提高#3[f1]%，且行动时有#2[i]%的基础概率被施加1层【烬煨】，结界存在期间该效果最多触发#5[i]次，且每个敌方目标每回合只能触发1次。椒丘每次施放终结技时重置触发次数。\n结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。当椒丘陷入无法战斗状态时，结界也会被解除。",
-        "ja": "敵それぞれにある「焼尽」状態の層数を、フィールド上で最高層数の「焼尽」状態の層数と同じにする。その後、結界を展開し、敵全体に椒丘の攻撃力#1[i]%分の炎属性ダメージを与える。\n結界が展開されている間、敵の受ける必殺技ダメージ+#3[f1]%。敵が行動する時、#2[i]%の基礎確率で「焼尽」状態を1層付与される。この効果は結界が展開されている間、#5[i]回まで発動でき、敵それぞれにつき、その敵のターンが回ってくるたびに1回まで発動できる。椒丘が必殺技を発動するたびに、この効果の発動可能回数がリセットされる。\n結界は#4[i]ターン継続する。椒丘のターンが回ってくるたびに結界の継続時間-1ターン。椒丘が戦闘不能状態になった時、結界は解除される。",
-        "ko": "적이 보유한 [훈작] 스택 수를 필드 위 [훈작] 스택 최대치로 일괄 설정한 후, 결계를 펼치고 모든 적에게 초구 공격력의 #1[i]%만큼 화염 속성 피해를 가한다.\n결계 안에 있을 시 적이 받는 필살기 피해가 #3[f1]% 증가하고, 행동 시 #2[i]%의 기본 확률로 [훈작]이 1스택 부여된다. 결계가 존재하는 동안 해당 효과는 최대 #5[i]회 발동하며, 적 1기당 턴마다 1회만 발동한다. 초구가 필살기를 발동할 때마다 발동 횟수는 초기화된다.\n결계는 #4[i]턴 동안 지속되며, 자신의 턴이 시작될 때마다 결계의 지속 턴 수가 1 감소한다. 초구가 전투 불능 상태에 빠질 시 결계도 해제된다"
+        "zh-CN": "将敌方目标具有的【烬煨】层数统一设置为场上【烬煨】层数的最高值，随后开启结界并对敌方全体造成等同于椒丘#1[i]%攻击力的火属性伤害。\n处于结界中时，敌方目标受到的终结技伤害提高#3[f1]%，且行动时有#2[i]%的基础概率被施加1层【烬煨】，结界存在期间该效果最多触发#5[i]次，且每个敌方目标每回合只能触发1次。椒丘每次施放终结技时重置触发次数。\n结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。当椒丘陷入无法战斗状态时，结界也会被解除。"
       },
       "params": [
         [0.6, 0.5, 0.09, 3, 6],
@@ -123,12 +95,10 @@
       "summary": {
         "pt-BR": "Define o número de acúmulos de \"Assado Acinzentado\" nos inimigos-alvo para o maior número de acúmulos de \"Assado Acinzentado\" presente no campo de batalha no momento. Então, ativa um Campo e causa Dano de Fogo a todos os inimigos. Enquanto estiverem dentro do Campo, inimigos-alvo recebem mais Dano de Perícia Suprema, com uma chance de serem afligidos com 1 acúmulo de Assado Acinzentado ao agir.",
         "en": "Sets the number of \"Ashen Roast\" stacks on enemy targets to the highest number of \"Ashen Roast\" stacks present on the battlefield. Then, activates a Zone and deals Fire DMG to all enemies. While inside the Zone, enemy targets receive increased Ultimate DMG, with a chance of being inflicted with 1 stack of Ashen Roast when taking action.",
-        "zh-CN": "将敌方目标具有的【烬煨】层数统一设置为场上【烬煨】层数的最高值，随后开启结界并对敌方全体造成火属性伤害。处于结界中时，敌方目标受到的终结技伤害提高，且行动时有概率被施加1层【烬煨】。",
-        "ja": "敵それぞれにある「焼尽」状態の層数を、フィールド上で最高層数の「焼尽」状態の層数と同じにする。その後、結界を展開し、敵全体に炎属性ダメージを与える。結界が展開されている間、敵の受ける必殺技ダメージがアップする。敵が行動する時、確率で「焼尽」を1層付与される。",
-        "ko": "적이 보유한 [훈작] 스택 수를 필드 위 [훈작] 스택 수의 최대치로 일괄 설정한다. 이후 결계를 펼치고 모든 적에게 화염 속성 피해를 가한다. 결계 안에 있을 시 적이 받는 필살기 피해가 증가하고, 행동 시 일정 확률로 [훈작]을 1스택 부여받는다"
+        "zh-CN": "将敌方目标具有的【烬煨】层数统一设置为场上【烬煨】层数的最高值，随后开启结界并对敌方全体造成火属性伤害。处于结界中时，敌方目标受到的终结技伤害提高，且行动时有概率被施加1层【烬煨】。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 121804,
@@ -136,16 +106,12 @@
       "name": {
         "pt-BR": "Fineza de um Quarteto, Elegância de um Octeto",
         "en": "Quartet Finesse, Octave Finery",
-        "zh-CN": "四示八权，纤滋精味",
-        "ja": "詭正転変、至微精妙",
-        "ko": "기정지변, 절묘한 맛"
+        "zh-CN": "四示八权，纤滋精味"
       },
       "description": {
         "pt-BR": "Quando Jiaoqiu atinge um inimigo com um ATQ Básico, Perícia ou Perícia Suprema, há uma chance-base de #1[i]% de infligir 1 acúmulo de Assado Acinzentado a ele. Com 1 acúmulo, aumenta o Dano recebido pelo inimigo em #2[f1]%. Então, cada acúmulo subsequente aumenta esse Dano em #3[f1]%.\nAssado Acinzentado tem um limite de #4[i] acúmulo(s) e dura por #5[i] rodada(s).\nQuando o inimigo-alvo é afligido com Assado Acinzentado, ele também é considerado como se estivesse afligido com o efeito de Queimadura, recebendo Dano de Fogo Contínuo igual a #6[i]% do ATQ de Jiaoqiu no início de cada rodada.",
         "en": "When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a #1[i]% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by #2[f1]%. Then, each subsequent stack increases this by #3[f1]%.\nAshen Roast is capped at #4[i] stack(s) and lasts for #5[i] turn(s).\nWhen an enemy target is afflicted with Ashen Roast, they are also considered as being Burned at the same time, taking Fire DoT equal to #6[i]% of Jiaoqiu's ATK at the start of each turn.",
-        "zh-CN": "椒丘使用普攻、战技、终结技击中敌人时，有#1[i]%的基础概率对其施加1层【烬煨】，1层时使敌人受到的伤害提高#2[f1]%，此后每叠加1层提高#3[f1]%。\n【烬煨】最多叠加#4[i]层，持续#5[i]回合。\n当敌方目标处于【烬煨】状态时，也会被视为同时陷入了灼烧状态，每回合开始时受到等同于椒丘#6[i]%攻击力的火属性持续伤害。",
-        "ja": "椒丘の通常攻撃、戦闘スキルまたは必殺技が敵に命中した時、#1[i]%の基礎確率でその敵に「焼尽」状態を1層付与する。「焼尽」状態は最大で#4[i]層累積でき、#5[i]ターン継続する。\n「焼尽」状態が1層の時、敵の受けるダメージ+#2[f1]%。2層目から、「焼尽」状態1層につき、敵の受けるダメージ+#3[f1]%。\n「焼尽」状態にある敵は、燃焼状態と見なされ、ターンが回ってくるたびに、椒丘の攻撃力#6[i]%分の炎属性持続ダメージを受ける。",
-        "ko": "초구가 일반 공격, 전투 스킬, 필살기를 사용해 적 명중 시 #1[i]%의 기본 확률로 해당 적에게 [훈작]을 1스택 부여한다. 1스택일 시 적이 받는 피해가 #2[f1]% 증가하고, 이후 1스택 중첩될 때마다 #3[f1]% 증가한다.\n[훈작] 최대 중첩수: #4[i]스택, 지속 시간: #5[i]턴\n적이 [훈작] 상태일 시 동시에 연소 상태에 빠진 것으로 간주하며, 턴이 시작될 때마다 초구 공격력의 #6[i]%만큼 화염 속성 지속 피해를 받는다"
+        "zh-CN": "椒丘使用普攻、战技、终结技击中敌人时，有#1[i]%的基础概率对其施加1层【烬煨】，1层时使敌人受到的伤害提高#2[f1]%，此后每叠加1层提高#3[f1]%。\n【烬煨】最多叠加#4[i]层，持续#5[i]回合。\n当敌方目标处于【烬煨】状态时，也会被视为同时陷入了灼烧状态，每回合开始时受到等同于椒丘#6[i]%攻击力的火属性持续伤害。"
       },
       "params": [
         [1, 0.075, 0.025, 5, 2, 0.9],
@@ -169,50 +135,36 @@
       "summary": {
         "pt-BR": "Ao atacar com um ATQ Básico, Perícia ou Perícia Suprema, há uma chance alta de infligir 1 acúmulo de \"Assado Acinzentado\" no alvo, fazendo com que o inimigo receba Dano aumentado e também seja considerado com efeito de \"Queimadura\" ao mesmo tempo.",
         "en": "When attacking with Basic ATK, Skill, or Ultimate, there is a high chance to inflict 1 stack of \"Ashen Roast\" on the target, causing the enemy to take increased DMG and also be considered as Burned at the same time.",
-        "zh-CN": "施放普攻、战技、终结技击中敌人时有大概率对目标施加1层【烬煨】，使敌人受到的伤害提高，且会被视为同时陷入了灼烧状态。",
-        "ja": "通常攻撃、戦闘スキル、または必殺技を発動して敵に攻撃が命中する時、高確率で敵に「焼尽」を1層付与し、その敵の受けるダメージをアップし、同時に燃焼状態にあると見なされるようにする。",
-        "ko": "일반 공격, 전투 스킬, 필살기를 발동해 적 명중 시 높은 확률로 목표에게 [훈작]을 1스택 부여하고, 적이 받는 피해가 증가하며, 동시에 연소 상태에 빠진 것으로 간주한다"
+        "zh-CN": "施放普攻、战技、终结技击中敌人时有大概率对目标施加1层【烬煨】，使敌人受到的伤害提高，且会被视为同时陷入了灼烧状态。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害" }
     },
     {
       "id": 121806,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1218_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 121807,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Amainador de Chamas",
-        "en": "Fiery Queller",
-        "zh-CN": "旺火却乱",
-        "ja": "旺火却乱",
-        "ko": "혼란을 잠재우는 맹화"
-      },
+      "name": { "pt-BR": "Amainador de Chamas", "en": "Fiery Queller", "zh-CN": "旺火却乱" },
       "description": {
         "pt-BR": "Após usar a Técnica, cria uma dimensão especial que dura por #2[i] segundo(s). Depois de iniciar uma batalha contra inimigos nesta dimensão especial, causa Dano de Fogo igual a #1[i]% do ATQ de Jiaoqiu a todos os inimigos, com uma chance-base de #3[i]% de aplicar 1 acúmulo de \"Assado Acinzentado\". Apenas 1 dimensão criada por aliados pode existir ao mesmo tempo.",
         "en": "After using Technique, creates a Special Dimension that lasts for #2[i] second(s). After entering combat with enemies in this Special Dimension, deals Fire DMG equal to #1[i]% of Jiaoqiu's ATK to all enemies, with a #3[i]% base chance of applying 1 \"Ashen Roast\" stack. Only 1 dimension created by allies can exist at the same time.",
-        "zh-CN": "使用秘技后，制造1片持续#2[i]秒的特殊领域。与处于特殊领域内的敌人进入战斗后，对敌方全体造成等同于椒丘#1[i]%攻击力的火属性伤害，并有#3[i]%的基础概率施加1层【烬煨】。我方制造的领域效果最多存在1个。",
-        "ja": "秘技を使用した後、#2[i]秒間継続する特殊領域を作り出す。特殊領域内にいる敵と戦闘に入った後、敵全体に椒丘の攻撃力#1[i]%分の炎属性ダメージを与え、#3[i]%の基礎確率で「焼尽」を1層付与する。味方が作り出した領域は1つまで存在できる。",
-        "ko": "비술 사용 후 #2[i]초 동안 지속되는 특수 영역을 하나 만든다. 특수 영역 안에 있는 적과 전투 진입 후 모든 적에게 초구 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, #3[i]%의 기본 확률로 [훈작]을 1스택 부여한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
+        "zh-CN": "使用秘技后，制造1片持续#2[i]秒的特殊领域。与处于特殊领域内的敌人进入战斗后，对敌方全体造成等同于椒丘#1[i]%攻击力的火属性伤害，并有#3[i]%的基础概率施加1层【烬煨】。我方制造的领域效果最多存在1个。"
       },
       "params": [[1, 15, 1]],
       "icon": "icon/skill/1218_technique.png",
@@ -220,12 +172,10 @@
       "summary": {
         "pt-BR": "Cria uma dimensão especial. Depois de iniciar uma batalha contra inimigos nesta dimensão, causa Dano de Fogo leve a todos os inimigos, com uma alta chance de aplicar 1 acúmulo de \"Assado Acinzentado\".",
         "en": "Creates a Special Dimension. After entering combat with enemies in this dimension, deals minor Fire DMG to all enemies, with a high chance of applying 1 \"Ashen Roast\" stack.",
-        "zh-CN": "制造特殊领域。与领域内敌人进入战斗后，对敌方全体造成少量火属性伤害并大概率施加1层【烬煨】。",
-        "ja": "特殊領域を作り出す。領域内の敵と戦闘に入った後、敵全体に少量の炎属性ダメージを与え、高確率で「焼尽」を1層付与する。",
-        "ko": "특수 영역을 만든다. 영역 내의 적과 전투에 진입하면 모든 적에게 소량의 화염 속성 피해를 가하고, 높은 확률로 [훈작]을 1스택 부여한다"
+        "zh-CN": "制造特殊领域。与领域内敌人进入战斗后，对敌方全体造成少量火属性伤害并大概率施加1层【烬煨】。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害" }
     }
   ],
   "eidolons": [
@@ -234,16 +184,12 @@
       "name": {
         "pt-BR": "Transferência Pentapática",
         "en": "Pentapathic Transference",
-        "zh-CN": "五味五走，生熟有定",
-        "ja": "{RUBY_B#ごみごぞう}五味五臓{RUBY_E#}",
-        "ko": "장기에 작용하는 다섯 가지 맛"
+        "zh-CN": "五味五走，生熟有定"
       },
       "description": {
         "pt-BR": "Aliados causam 40% de Dano a mais aos inimigos-alvo afligidos com Assado Acinzentado. Sempre que infligir Assado Acinzentado em um inimigo-alvo através do acionamento do efeito do Talento, adicionalmente aumenta o número acúmulos de Assado Acinzentado aplicado desta vez em 1.",
         "en": "Allies deal 40% increased DMG to enemy targets afflicted with Ashen Roast. Whenever inflicting Ashen Roast on an enemy target via triggering the Talent's effect, additionally increases the number of \"Ashen Roast\" stacks applied this time by 1.",
-        "zh-CN": "我方目标对处于【烬煨】状态的敌方目标造成的伤害提高40%。每当触发天赋效果使敌方目标陷入【烬煨】状态时，使本次叠加的【烬煨】层数额外提高1层。",
-        "ja": "「焼尽」状態の敵に対する味方の与ダメージ+40%。天賦を発動して敵に「焼尽」状態を付与する時、さらにその回に付与する「焼尽」状態層数+1層。",
-        "ko": "아군이 [훈작] 상태의 적에게 가하는 피해가 40% 증가한다. 특성 효과를 발동해 적을 [훈작] 상태에 빠트릴 때마다 이번에 중첩되는 [훈작] 스택이 추가로 1스택 증가한다"
+        "zh-CN": "我方目标对处于【烬煨】状态的敌方目标造成的伤害提高40%。每当触发天赋效果使敌方目标陷入【烬煨】状态时，使本次叠加的【烬煨】层数额外提高1层。"
       },
       "icon": "icon/skill/1218_rank1.png",
       "materials": [{ "id": 11218, "num": 1 }],
@@ -254,16 +200,12 @@
       "name": {
         "pt-BR": "Do Sabor Vem o Sofrimento",
         "en": "From Savor Comes Suffer",
-        "zh-CN": "爽口作疾，厚味措毒",
-        "ja": "{RUBY_B#こうみ}厚味{RUBY_E#}、{RUBY_B#まんびょう}万病{RUBY_E#}の{RUBY_B#もと}元{RUBY_E#}",
-        "ko": "입에 단 것은 독이 되는 법"
+        "zh-CN": "爽口作疾，厚味措毒"
       },
       "description": {
         "pt-BR": "Quando um inimigo-alvo é infligido com Assado Acinzentado, aumenta o Multiplicador do Dano de Fogo Contínuo causado pelo Assado Acinzentado ao alvo em 300%.",
         "en": "When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to this target by 300%.",
-        "zh-CN": "敌方目标处于【烬煨】状态时，【烬煨】对其造成的火属性持续伤害倍率提高300%。",
-        "ja": "敵が「焼尽」状態にある時、「焼尽」状態による炎属性持続ダメージの倍率+300%。",
-        "ko": "적이 [훈작] 상태일 시 [훈작]이 해당 적에게 가하는 화염 속성 지속 피해 배율이 300% 증가한다"
+        "zh-CN": "敌方目标处于【烬煨】状态时，【烬煨】对其造成的火属性持续伤害倍率提高300%。"
       },
       "icon": "icon/skill/1218_rank2.png",
       "materials": [{ "id": 11218, "num": 1 }],
@@ -274,16 +216,12 @@
       "name": {
         "pt-BR": "Eufonia Saborosa Reina Soberana",
         "en": "Flavored Euphony Reigns Supreme",
-        "zh-CN": "和合之妙，敌不及拒",
-        "ja": "{RUBY_B#わごう}和合{RUBY_E#}の{RUBY_B#しんずい}神髄{RUBY_E#}",
-        "ko": "거부할 수 없는 향료의 배합"
+        "zh-CN": "和合之妙，敌不及拒"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1218_skill.png",
       "materials": [{ "id": 11218, "num": 1 }],
@@ -294,16 +232,12 @@
       "name": {
         "pt-BR": "Tranquilo por Dentro, Brilhante por Fora",
         "en": "Leisure In, Luster Out",
-        "zh-CN": "藏腑和平，血气资荣",
-        "ja": "{RUBY_B#きけつじゅういつ}気血充溢{RUBY_E#}",
-        "ko": "오장의 균형, 왕성한 혈기"
+        "zh-CN": "藏腑和平，血气资荣"
       },
       "description": {
         "pt-BR": "Enquanto o Campo estiver ativo, reduz o ATQ do inimigo-alvo em 15%.",
         "en": "When the Zone exists, reduces enemy target's ATK by 15%.",
-        "zh-CN": "结界存在时，敌方目标的攻击力降低15%。",
-        "ja": "結界が展開されている間、敵の攻撃力-15%。",
-        "ko": "결계가 있을 시 적의 공격력이 15% 감소한다"
+        "zh-CN": "结界存在时，敌方目标的攻击力降低15%。"
       },
       "icon": "icon/skill/1218_rank4.png",
       "materials": [{ "id": 11218, "num": 1 }],
@@ -314,16 +248,12 @@
       "name": {
         "pt-BR": "Duelo ao Amanhecer, Fuga ao Entardecer",
         "en": "Duel in Dawn, Dash in Dusk",
-        "zh-CN": "明争天地，暗斗变击",
-        "ja": "{RUBY_B#めぐ}巡{RUBY_E#}らせる{RUBY_B#きさく}奇策{RUBY_E#}",
-        "ko": "대낮의 전투, 심야의 암투"
+        "zh-CN": "明争天地，暗斗变击"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1218_ultimate.png",
       "materials": [{ "id": 11218, "num": 1 }],
@@ -331,19 +261,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Enlace de Fogo Nonamórfico",
-        "en": "Nonamorphic Pyrobind",
-        "zh-CN": "九沸九变，火为之纪",
-        "ja": "{RUBY_B#きゅうふつきゅうへん}九沸九変{RUBY_E#}",
-        "ko": "화력으로 결정되는 맛"
-      },
+      "name": { "pt-BR": "Enlace de Fogo Nonamórfico", "en": "Nonamorphic Pyrobind", "zh-CN": "九沸九变，火为之纪" },
       "description": {
         "pt-BR": "Quando um inimigo-alvo é derrotado, os acúmulos de \"Assado Acinzentado\" dele serão transferidos ao inimigo com o menor número de acúmulos de \"Assado Acinzentado\" no campo de batalha. O limite máximo de acúmulos de Assado Acinzentado aumenta para 9, e cada acúmulo de \"Assado Acinzentado\" reduz a RES a Todos os Tipos do alvo em 3%.",
         "en": "When an enemy target gets defeated, their accumulated \"Ashen Roast\" stacks will transfer to the enemy with the lowest number of \"Ashen Roast\" stacks on the battlefield. The maximum stack limit of Ashen Roast increases to 9, and each \"Ashen Roast\" stack reduces the target's All-Type RES by 3%.",
-        "zh-CN": "敌方目标被消灭时，其持有的【烬煨】会叠加给场上存活的【烬煨】层数最低的敌人。【烬煨】的层数上限提升至9，每层【烬煨】会使目标的全属性抗性降低3%。",
-        "ja": "敵が倒される時、その敵にある「焼尽」状態の層数が、フィールド上の「焼尽」状態層数が最も低い敵に移る。「焼尽」状態の累積上限が9層にアップする。「焼尽」1層につき、敵の全属性耐性-3%。",
-        "ko": "적이 처치될 때 해당 적이 보유한 [훈작]은 필드 위 [훈작] 스택이 가장 낮은 적에게 중첩된다. [훈작]의 스택 수 상한이 9까지 증가하고, [훈작] 1스택마다 목표의 모든 속성 저항이 3% 감소한다"
+        "zh-CN": "敌方目标被消灭时，其持有的【烬煨】会叠加给场上存活的【烬煨】层数最低的敌人。【烬煨】的层数上限提升至9，每层【烬煨】会使目标的全属性抗性降低3%。"
       },
       "icon": "icon/skill/1218_rank6.png",
       "materials": [{ "id": 11218, "num": 1 }],
@@ -718,19 +640,11 @@
     {
       "id": 1218101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Limpeza Pelo Fogo",
-        "en": "Pyre Cleanse",
-        "zh-CN": "爟火",
-        "ja": "{RUBY_B#ひばら}火祓{RUBY_E#}い",
-        "ko": "관화"
-      },
+      "name": { "pt-BR": "Limpeza Pelo Fogo", "en": "Pyre Cleanse", "zh-CN": "爟火" },
       "description": {
         "pt-BR": "No início da batalha, regenera #1[i] de Energia imediatamente.",
         "en": "When battle starts, immediately regenerates #1[i] Energy.",
-        "zh-CN": "战斗开始时，立即恢复#1[i]点能量。",
-        "ja": "戦闘開始時、EPを#1[i]回復する。",
-        "ko": "전투 시작 시 즉시 에너지를 #1[i]pt 회복한다"
+        "zh-CN": "战斗开始时，立即恢复#1[i]点能量。"
       },
       "params": [[15]],
       "icon": "icon/skill/1218_skilltree1.png",
@@ -749,19 +663,11 @@
     {
       "id": 1218102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Brasa da Lareira",
-        "en": "Hearth Kindle",
-        "zh-CN": "举炊",
-        "ja": "{RUBY_B#すいじ}炊事{RUBY_E#}",
-        "ko": "취사"
-      },
+      "name": { "pt-BR": "Brasa da Lareira", "en": "Hearth Kindle", "zh-CN": "举炊" },
       "description": {
         "pt-BR": "Para cada #2[i]% da Taxa de Acerto de Efeito de Jiaoqiu que exceda #1[i]%, aumenta adicionalmente o ATQ em #3[i]%, até um máximo de #4[i]%.",
         "en": "For every #2[i]% of Jiaoqiu's Effect Hit Rate that exceeds #1[i]%, additionally increases ATK by #3[i]%, up to #4[i]%.",
-        "zh-CN": "椒丘效果命中大于#1[i]%时，每超过#2[i]%，则额外提高#3[i]%攻击力，最高不超过#4[i]%。",
-        "ja": "椒丘の効果命中が#1[i]%を超えた時、超過した効果命中#2[i]%につき、攻撃力+#3[i]%、最大で+#4[i]%。",
-        "ko": "초구의 효과 명중이 #1[i]%를 초과할 시 #2[i]%를 초과할 때마다 추가로 공격력이 #3[i]% 증가한다. (최대 #4[i]%까지 증가)"
+        "zh-CN": "椒丘效果命中大于#1[i]%时，每超过#2[i]%，则额外提高#3[i]%攻击力，最高不超过#4[i]%。"
       },
       "params": [[0.8, 0.15, 0.6, 2.4]],
       "icon": "icon/skill/1218_skilltree2.png",
@@ -785,19 +691,11 @@
     {
       "id": 1218103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Aroma Defumado",
-        "en": "Seared Scent",
-        "zh-CN": "炙香",
-        "ja": "{RUBY_B#しゃこう}炙香{RUBY_E#}",
-        "ko": "훈향"
-      },
+      "name": { "pt-BR": "Aroma Defumado", "en": "Seared Scent", "zh-CN": "炙香" },
       "description": {
         "pt-BR": "Enquanto o Campo estiver ativo, inimigos entrando em combate serão infligidos com Assado Acinzentado. O número de acúmulos aplicados corresponderá ao número mais alto de acúmulos de \"Assado Acinzentado\" possuído por qualquer unidade enquanto o Campo estiver ativo, com um mínimo de #1[i] acúmulo(s).",
         "en": "While the Zone exists, enemies entering combat will be inflicted with Ashen Roast. The number of stacks applied will match the highest number of \"Ashen Roast\" stacks possessed by any unit while the Zone is active, with a minimum of #1[i] stack(s).",
-        "zh-CN": "结界存在时，敌方目标进入战斗时，会被施加【烬煨】，层数与结界展开期间【烬煨】层数最高者相同，最低为#1[i]层。",
-        "ja": "結界が展開されている間、敵が戦闘に入る際に「焼尽」状態が付与される。付与される「焼尽」状態の層数は、結界展開中に最高層数の「焼尽」状態の敵の層数と同じ。最低で#1[i]層付与される。",
-        "ko": "결계가 있을 시 적이 전투에 진입하면 [훈작]을 부여받고, 스택 수는 결계가 펼쳐진 동안 [훈작] 스택 수가 가장 높은 유닛과 동일하며, 최저치는 #1[i]스택이다"
+        "zh-CN": "结界存在时，敌方目标进入战斗时，会被施加【烬煨】，层数与结界展开期间【烬煨】层数最高者相同，最低为#1[i]层。"
       },
       "params": [[1]],
       "icon": "icon/skill/1218_skilltree3.png",
@@ -824,9 +722,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -844,13 +740,7 @@
     {
       "id": 1218202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1218101],
@@ -870,9 +760,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -890,7 +778,7 @@
     {
       "id": 1218204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1218203],
@@ -910,9 +798,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -930,13 +816,7 @@
     {
       "id": 1218206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1218205],
@@ -956,9 +836,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -976,7 +854,7 @@
     {
       "id": 1218208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1218103],
@@ -993,13 +871,7 @@
     {
       "id": 1218209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1218103],
@@ -1019,9 +891,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,

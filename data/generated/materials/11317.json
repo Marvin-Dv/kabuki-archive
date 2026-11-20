@@ -1,13 +1,7 @@
 {
   "id": 11317,
   "slug": "rappas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Rappa",
-    "en": "Rappa's Eidolon",
-    "zh-CN": "【乱破】的星魂",
-    "ja": "「乱破」の星魂",
-    "ko": "[라파]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Rappa", "en": "Rappa's Eidolon", "zh-CN": "【乱破】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

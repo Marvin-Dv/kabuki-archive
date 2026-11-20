@@ -1,13 +1,7 @@
 {
   "id": 18003,
   "slug": "shadow-of-preservation",
-  "name": {
-    "pt-BR": "Sombra de Preservação",
-    "en": "Shadow of Preservation",
-    "zh-CN": "「存护」之影",
-    "ja": "「存護」の影",
-    "ko": "「보존」의 그림자"
-  },
+  "name": { "pt-BR": "Sombra de Preservação", "en": "Shadow of Preservation", "zh-CN": "「存护」之影" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",
@@ -17,8 +11,6 @@
   "sources": {
     "en": ["Trailblaze Mission Rewards", "Jeweler's Pagoda"],
     "pt-BR": ["Recompensas de Missão de Desbravamento", "Pagode do Joalheiro"],
-    "zh-CN": ["开拓任务奖励", "赎珠阁"],
-    "ja": ["開拓クエスト報酬", "請珠閣"],
-    "ko": ["개척 임무 보상", "속주각"]
+    "zh-CN": ["开拓任务奖励", "赎珠阁"]
   }
 }

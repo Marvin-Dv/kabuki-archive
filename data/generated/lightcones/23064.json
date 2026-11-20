@@ -1,13 +1,7 @@
 {
   "id": 23064,
   "slug": "summer-rides-the-surf",
-  "name": {
-    "pt-BR": "Surfando a Onda do Verão",
-    "en": "Summer Rides the Surf",
-    "zh-CN": "向浪花掷下盛夏",
-    "ja": "波しぶきが躍る夏へ",
-    "ko": "파도에 내던진 한여름"
-  },
+  "name": { "pt-BR": "Surfando a Onda do Verão", "en": "Summer Rides the Surf", "zh-CN": "向浪花掷下盛夏" },
   "rarity": 5,
   "path": "Elation",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "A água do mar cobre a prancha, enquanto a crista da onda rasga um turbilhão e despedaça a luz do sol em incontáveis fragmentos dourados. Ele sobe na prancha de surfe e deixa que a onda rugindo o lance aos céus.\n\"Um mar agitado traz grandes riscos, e grandes riscos trazem retornos ainda maiores.\"\nEle desafia as ondas repetidas vezes, colocando-se bem no olho da tempestade. O auge do verão, o sol escaldante, a brisa fresca do mar... A vertiginosa profusão de nomes, as margens de lucro e prejuízo em constante oscilação, as mentiras e conspirações ocultas nos olhos das pessoas... Tudo se dissolve em manchas indistintas de cor, deixando de exigir seu escrutínio.\n\"A maré chegou. Agora... o que ela deixará em seu caminho?\"\nO oceano é ilimitado, assim como a prosperidade sem fim de Astrópolis. Antes de lançar sua próxima ficha, ele surfa pela crista da onda e aposta o próprio ser, mantendo o olhar fixo naquele único instante enquanto contempla a maré revolta lá embaixo.",
     "en": "Seawater washes over the board, the wave's crest tearing open a churning rift and shattering the sunlight into a million golden shards. He steps onto his surfboard, letting the roaring wave launch him into the air.\n\"High seas mean high risks, and high risks mean massive returns.\"\nHe challenges the waves time and time again, placing himself right at the eye of the storm. The height of summer, the blazing sun, the crisp sea breeze... The dizzying array of names, the fluctuating margins of profit and loss, the lies and schemes lurking in people's eyes... It all melts into blurry patches of color, no longer demanding his scrutiny.\n\"The tide has arrived. Now... just what will it leave in its wake?\"\nThe ocean is boundless, much like the endless prosperity of Astropolis. Before tossing down his next chip, he rides the ridge of the wave and wagers his very being, fixing his gaze on that singular moment as he looks down upon the surging tide.",
-    "zh-CN": "海水涌上板顶，浪尖撕开一道翻涌的豁口，阳光粉碎成千万片金箔。他踏上冲浪板，令浪峰将他抛向高处。\n「惊涛骇浪意味着风险重重，风险重重更意味着回报颇丰。」\n他与浪潮博弈，一次又一次，置身于风口浪尖。盛夏、阳光、海风的清冽，那些纷繁的名姓、盈亏的数字、众人眼底的谎言与算计都仿佛化为模糊的色块，再不必辨认。\n「既然浪潮已至，何不看看它究竟能掀起什么？」\n大海无限，千星城的繁华无限。在掷下下一枚筹码之前，他踏上浪脊，以身作押，将目光指向俯瞰浪涛的那一瞬间。",
-    "ja": "海水がボードに押し寄せ、波の頂を裂くたびに散る飛沫が、陽の光を浴びて無数の金箔のようにきらめく。彼はサーフボードを踏みしめ、波のうねりに乗り上げ、高々と宙を舞った。\n「荒波はリスクの象徴だ。大きなリスクほど大きなリターンがある」\n彼は幾度も繰り返される波との駆け引きを楽しみ、荒れ狂う風と波の只中へ身を置き続けた。照りつける真夏の日差しと清々しい海風が、雑多ないくつもの名前や損益を示す数字、そして人々の目の奥に潜む嘘や打算を…何もかもを曖昧な色の塊へ変えていく。もはや、それらを見分ける必要も感じない。\n「せっかくの大波だ。どんな波乱が起きるか、見ものだね」\nどこまでも広がる大海原のように、千星シティの繁栄にも終わりなどない。次のチップを賭ける前、波の背に乗った彼はその身を賭して、波濤を見下ろすその一瞬を見据えた。",
-    "ko": "바닷물이 보드 위로 솟구치고, 파도 끝이 일렁이는 틈을 갈라내자 햇빛이 수많은 조각의 금박으로 부서진다. 그는 서핑보드에 올라타 파도마루에 몸을 싣고 높이 날아오른다.\n「거센 파도는 숱한 위험을 의미하고, 위험은 곧 두둑한 보상을 뜻하지」\n그는 물결과 도박을 하듯, 몇 번이고 거센 바람과 파도의 정점에 몸을 내던진다. 한여름, 햇빛, 시원한 바닷바람, 그리고 수많은 이름과 손익의 숫자, 사람들의 눈에 서린 거짓과 속셈은 모두 흐릿한 색채로 번져 더는 구분할 필요가 없다.\n「파도가 밀려온 이상, 뭘 몰고 올지 한번 지켜볼까?」\n바다는 무한하고, 아스트로폴리스의 번영 역시 무한하다. 다음 칩을 던지기 전, 그는 파도마루에 올라 자신의 몸을 판돈으로 삼아, 파도를 내려다보는 그 순간으로 시선을 고정한다"
+    "zh-CN": "海水涌上板顶，浪尖撕开一道翻涌的豁口，阳光粉碎成千万片金箔。他踏上冲浪板，令浪峰将他抛向高处。\n「惊涛骇浪意味着风险重重，风险重重更意味着回报颇丰。」\n他与浪潮博弈，一次又一次，置身于风口浪尖。盛夏、阳光、海风的清冽，那些纷繁的名姓、盈亏的数字、众人眼底的谎言与算计都仿佛化为模糊的色块，再不必辨认。\n「既然浪潮已至，何不看看它究竟能掀起什么？」\n大海无限，千星城的繁华无限。在掷下下一枚筹码之前，他踏上浪脊，以身作押，将目光指向俯瞰浪涛的那一瞬间。"
   },
   "skill": {
-    "name": { "pt-BR": "Deslize nas Ondas", "en": "Waveriding", "zh-CN": "浪行", "ja": "波乗り", "ko": "파도타기" },
+    "name": { "pt-BR": "Deslize nas Ondas", "en": "Waveriding", "zh-CN": "浪行" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, ganha \"Ventania Ascendente\", que aumenta a VEL do usuário em #2[i]%. Se a Perícia da Euforia usada for diferente da última Perícia da Euforia usada, ganha adicionalmente \"Tendência\", que aumenta a Euforia do usuário em #3[i]%.\nNo início de cada onda ou após o usuário usar sua Perícia da Euforia #4[i] vez(es), recupera 1 Ponto de Perícia.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by #2[i]%. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by #3[i]%.\nWhen every wave starts or after the wearer uses Elation Skill #4[i] time(s), recovers 1 Skill Point.",
-      "zh-CN": "使装备者的暴击率提高#1[i]%。装备者施放欢愉技时，获得【风口】，【风口】使装备者的速度提高#2[i]%。若施放的欢愉技与上一次施放的欢愉技不同，则额外获得【潮流】，【潮流】使装备者的欢愉度提高#3[i]%。\n每个波次开始时或装备者每施放#4[i]次欢愉技后，恢复1个战技点。",
-      "ja": "装備キャラの会心率+#1[i]%。装備キャラが愉悦スキルを発動する時、「追い風」を獲得する。「追い風」を所持している間、装備キャラの速度+#2[i]%。発動した愉悦スキルが前回発動した愉悦スキルと異なる場合、追加で「潮流」を獲得する。「潮流」を所持している間、装備キャラの愉悦度+#3[i]%。\n各ウェーブ開始時、または装備キャラが愉悦スキルを#4[i]回発動するたびに、SPを1回復する。",
-      "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬 발동 시 [바람길]을 획득하며, [바람길]은 장착한 캐릭터의 속도를 #2[i]% 증가시킨다. 발동한 환락 스킬이 이전에 발동한 환락 스킬과 다를 경우 추가로 [물결]을 획득하며, [물결]은 장착한 캐릭터의 환락도를 #3[i]% 증가시킨다.\n각 웨이브 시작 시 또는 장착한 캐릭터가 환락 스킬을 #4[i]회 발동할 때마다 전투 스킬 포인트를 1pt 회복한다"
+      "zh-CN": "使装备者的暴击率提高#1[i]%。装备者施放欢愉技时，获得【风口】，【风口】使装备者的速度提高#2[i]%。若施放的欢愉技与上一次施放的欢愉技不同，则额外获得【潮流】，【潮流】使装备者的欢愉度提高#3[i]%。\n每个波次开始时或装备者每施放#4[i]次欢愉技后，恢复1个战技点。"
     },
     "params": [
       [0.18, 0.24, 0.4, 3],

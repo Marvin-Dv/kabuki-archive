@@ -1,13 +1,7 @@
 {
   "id": 23020,
   "slug": "baptism-of-pure-thought",
-  "name": {
-    "pt-BR": "O Batismo de Pensamento Puro",
-    "en": "Baptism of Pure Thought",
-    "zh-CN": "纯粹思维的洗礼",
-    "ja": "純粋なる思惟の洗礼",
-    "ko": "순수 사유의 세례"
-  },
+  "name": { "pt-BR": "O Batismo de Pensamento Puro", "en": "Baptism of Pure Thought", "zh-CN": "纯粹思维的洗礼" },
   "rarity": 5,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -15,24 +9,14 @@
   "description": {
     "pt-BR": "A luz vespertina brilha na medida certa, e a fragrância das flores enche o ar.\nAinda que ele tente manter seus pensamentos puros, a exaustão cognitiva inevitavelmente atrai partículas da mente, reunidas como grãos de poeira.\n\"Curar os pensamentos de alguém é tão importante quanto preservar a saúde de alguém.\"\nO clamor dos tolos desaparece junto com o cansaço enquanto ele afunda na água, permitindo que todos os pensamentos flutuem, deixando sua mente elucidada e organizada.\n\"A verdade escapa a todos os imundos, e apenas os de pensamento puro poderão se aproximar.\"",
     "en": "The afternoon sunshine is just right, and the floral scents fill the air.\nThough he tries to keep his thoughts pure, cognitive stagnancy inevitably attracts particulates of mind like gathered dust.\n\"Healing one's thoughts is just as vital as the maintenance of one's health.\"\nThe fools' clamoring fades alongside fatigue as he sinks into the water, letting all thoughts loose, his mind elucidated and ordered.\n\"Truth eludes all filths, accepting only those of pure thoughts.\"",
-    "zh-CN": "午后阳光恰好，花叶芬芳。\n他虽已时时注意洁净，思维难免会因滞涩而生尘。\n「疗愈思想与保持健康同样重要。」\n愚人的喧嚣随疲惫一同远去，他沉入水中，任思绪漂浮，心神循序澄明。\n「真理会躲开不洁，唯有纯粹方可接近。」",
-    "ja": "午後の日差しは心地よく、辺りには花の香りが満ちている。\n彼は常に清潔であるよう気を配っているが、思考が滞ると必ず「汚れ」が発生してしまう。\n「思想の治癒は健康の維持と同じくらい大切だ」\n愚か者の喧騒が疲労と共に遠ざかっていく。彼は水の中に身を沈め、思考を浮かせ、心を澄ませた。\n「真理は不浄を避ける。純粋な者だけが近づくことができるんだ」",
-    "ko": "오후의 햇살이 기분 좋게 내리쬐고, 향긋한 꽃향기가 퍼져 나온다.\n그는 항상 청결에 신경을 썼지만, 생각은 둔해지면 먼지가 쌓이기 마련이다.\n「생각의 힐링은 건강을 유지하는 것만큼 중요하다」\n어리석은 자의 소란은 피곤과 함께 멀어졌고, 물에 잠겨 생각이 흐르도록 놔두자 마음이 점점 맑아졌다.\n「진리는 불결을 멀리하며, 순수한 자만이 진리에 다가갈 수 있다」"
+    "zh-CN": "午后阳光恰好，花叶芬芳。\n他虽已时时注意洁净，思维难免会因滞涩而生尘。\n「疗愈思想与保持健康同样重要。」\n愚人的喧嚣随疲惫一同远去，他沉入水中，任思绪漂浮，心神循序澄明。\n「真理会躲开不洁，唯有纯粹方可接近。」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Treinamento Mental",
-      "en": "Mental Training",
-      "zh-CN": "思想训练",
-      "ja": "思想訓練",
-      "ko": "사고력 훈련"
-    },
+    "name": { "pt-BR": "Treinamento Mental", "en": "Mental Training", "zh-CN": "思想训练" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Para cada penalidade no inimigo-alvo, o Dano CRIT causado pelo usuário ao alvo aumenta adicionalmente em #2[i]%, acumulando até um máximo de #3[i] vezes. Quando o usuário ataca o inimigo-alvo com sua Perícia Suprema, ele recebe o efeito Disputa, que aumenta o Dano causado em #4[i]% e permite que seus Ataques Extras ignorem #5[i]% da DEF do alvo. Este efeito dura #6[i] rodadas.",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target additionally increases by #2[i]%, stacking up to #3[i] times. When using Ultimate to attack the enemy target, the wearer receives the \"Disputation\" effect, which increases DMG dealt by #4[i]% and enables their Follow-Up ATKs to ignore #5[i]% of the target's DEF. This effect lasts for #6[i] turns.",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高#2[i]%，最多叠加#3[i]层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高#4[i]%，追加攻击无视目标#5[i]%的防御力，该效果持续#6[i]回合。",
-      "ja": "装備キャラの会心ダメージ+#1[i]%。敵にあるデバフ1つにつき、その敵に対する装備キャラの会心ダメージ+#2[i]%、最大で#3[i]層累積できる。必殺技で敵を攻撃する時、装備キャラは「論弁」効果を獲得し、与ダメージ+#4[i]%、追加攻撃が敵の防御力を#5[i]%無視する、この効果は#6[i]ターン継続する。",
-      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 적이 보유한 디버프 효과 1개당 장착한 캐릭터가 해당 적에게 가하는 치명타 피해가 추가로 #2[i]% 증가한다, 해당 효과 최대 중첩수: #3[i]스택. 필살기로 적 공격 시 장착한 캐릭터는 [변론] 효과를 획득해 가하는 피해가 #4[i]% 증가하고, 추가 공격은 목표의 방어력을 #5[i]% 무시한다, 해당 효과 지속 시간: #6[i]턴"
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高#2[i]%，最多叠加#3[i]层。施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高#4[i]%，追加攻击无视目标#5[i]%的防御力，该效果持续#6[i]回合。"
     },
     "params": [
       [0.2, 0.08, 3, 0.36, 0.24, 2],

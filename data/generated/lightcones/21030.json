@@ -1,13 +1,7 @@
 {
   "id": 21030,
   "slug": "this-is-me",
-  "name": {
-    "pt-BR": "Essa Sou Eu!",
-    "en": "This Is Me!",
-    "zh-CN": "这就是我啦！",
-    "ja": "これがウチだよ！",
-    "ko": "이게 바로 나야!"
-  },
+  "name": { "pt-BR": "Essa Sou Eu!", "en": "This Is Me!", "zh-CN": "这就是我啦！" },
   "rarity": 4,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "A garota ficaria bem em qualquer visual, mas ela não estava satisfeita, a julgar pelas dúzias de pilhas de roupas atrás dela.\n\"Será que essa vai ser a última roupa de hoje?\"\nEla pensou em silêncio para si mesma. Olhando para a garota no espelho, ela parecia estar muito feliz naquele dia.\n\"Certo! Essa sou eu!\"",
     "en": "The girl could rock any outfit she chooses, but she was unsatisfied, judging by the dozen sets of clothing piled up behind her.\n\"Will this be the last outfit for today?\"\nShe thought silently to herself and looked at the girl in the mirror. She looked extra happy on this day.\n\"Okay! This is me!\"",
-    "zh-CN": "少女穿什么都很可人，但她似乎仍不满意，身后堆叠的衣服不下十几套。\n「今天会是最后一次么？」\n她默默地想着，抬头看向镜中的少女，今天的她好像格外开心。\n「好啦！这就是我啦！」",
-    "ja": "少女は何を着ても可愛いが、満足できていないようだ。その背後には十数着はあるだろう服が積み上げられている。\n「今日が最後だったりするのかな？」\nそう静かに考えながら、少女は鏡の中の自分を見る。今日の少女は一際嬉しそうにしている。\n「よし！これがウチだよ！」",
-    "ko": "소녀는 뭘 입어도 잘 어울리지만, 소녀는 만족스럽지 않은 모양이다. 등 뒤에 열 벌도 넘는 옷이 쌓여있다.\n「오늘이 마지막이려나?」\n그녀는 조용히 생각했다. 올려다보니 거울 속의 소녀는 오늘 특별히 기뻐 보인다.\n「됐어! 이게 바로 나야!」"
+    "zh-CN": "少女穿什么都很可人，但她似乎仍不满意，身后堆叠的衣服不下十几套。\n「今天会是最后一次么？」\n她默默地想着，抬头看向镜中的少女，今天的她好像格外开心。\n「好啦！这就是我啦！」"
   },
   "skill": {
-    "name": { "pt-BR": "Capítulo Novo", "en": "New Chapter", "zh-CN": "新篇章", "ja": "新たな章", "ko": "지평" },
+    "name": { "pt-BR": "Capítulo Novo", "en": "New Chapter", "zh-CN": "新篇章" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% a DEF do usuário. Aumenta o Dano causado pelo usuário ao desferir a sua Perícia Suprema em #2[i]% da DEF do usuário. Este efeito se aplica apenas 1 vez por inimigo-alvo a cada uso da Perícia Suprema do usuário.",
       "en": "Increases the wearer's DEF by #1[i]%. Increases the DMG of the wearer when they use their Ultimate by #2[i]% of the wearer's DEF. This effect only applies 1 time per enemy target during each use of the wearer's Ultimate.",
-      "zh-CN": "使装备者防御力提高#1[i]%。使装备者施放终结技时造成的伤害值提高，提高数值等同于装备者防御力的#2[i]%，该效果每次施放终结技时对每个敌方目标仅生效1次。",
-      "ja": "装備キャラの防御力+#1[i]%。装備キャラの必殺技のダメージ基礎値が、装備キャラの防御力#2[i]%分アップする。この効果は必殺技を発動するたび、1体の敵に対して1回まで発動できる。",
-      "ko": "장착한 캐릭터의 방어력이 #1[i]% 증가한다. 장착한 캐릭터는 필살기 발동 시 가하는 피해량이 증가하고, 증가 수치는 자신 방어력의 #2[i]%만큼이다. 해당 효과는 필살기를 발동할 때마다 적 1기당 1회만 적용된다"
+      "zh-CN": "使装备者防御力提高#1[i]%。使装备者施放终结技时造成的伤害值提高，提高数值等同于装备者防御力的#2[i]%，该效果每次施放终结技时对每个敌方目标仅生效1次。"
     },
     "params": [[0.16, 0.6], [0.2, 0.75], [0.24, 0.9], [0.28, 1.05], [0.32, 1.2]],
     "properties": [

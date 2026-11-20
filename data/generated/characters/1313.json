@@ -1,7 +1,7 @@
 {
   "id": 1313,
   "slug": "sunday",
-  "name": { "pt-BR": "Sunday", "en": "Sunday", "zh-CN": "星期日", "ja": "サンデー", "ko": "선데이" },
+  "name": { "pt-BR": "Sunday", "en": "Sunday", "zh-CN": "星期日" },
   "rarity": 5,
   "path": "Harmony",
   "element": "Imaginary",
@@ -11,19 +11,11 @@
     {
       "id": 131301,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Admoestação Brilhante",
-        "en": "Gleaming Admonition",
-        "zh-CN": "闪烁的劝诫",
-        "ja": "光を纏う告諭",
-        "ko": "번쩍이는 권계"
-      },
+      "name": { "pt-BR": "Admoestação Brilhante", "en": "Gleaming Admonition", "zh-CN": "闪烁的劝诫" },
       "description": {
         "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Sunday a uma unidade inimiga designada.",
         "en": "Deals Imaginary DMG equal to #1[i]% of Sunday's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于星期日#1[i]%攻击力的虚数属性伤害。",
-        "ja": "指定した敵単体にサンデーの攻撃力#1[i]%分の虚数属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 선데이 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于星期日#1[i]%攻击力的虚数属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1313_basic_atk.png",
@@ -31,12 +23,10 @@
       "summary": {
         "pt-BR": "Causa Dano Imaginário leve a uma unidade inimiga designada.",
         "en": "Deals minor Imaginary DMG to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成少量虚数属性伤害。",
-        "ja": "指定した敵単体に少量の虚数属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 소량의 허수 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成少量虚数属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 131302,
@@ -44,16 +34,12 @@
       "name": {
         "pt-BR": "Bênção de Papéis e Ritos",
         "en": "Benison of Paper and Rites",
-        "zh-CN": "纸与仪典的恩赐",
-        "ja": "紙と式典の賜物",
-        "ko": "종이와 의전의 은혜"
+        "zh-CN": "纸与仪典的恩赐"
       },
       "description": {
         "pt-BR": "Permite que um personagem aliado designado e sua invocação atuem imediatamente, aumentando o Dano causado por eles em #2[i]%. Se o alvo tiver uma invocação, o efeito de Bônus de Dano aumenta em um valor adicional de #4[i]%, durando por #3[i] rodada(s).\nApós usar a Perícia em O Beatificado, ele recupera 1 Ponto de Perícia.\nQuando Sunday utiliza essa habilidade em personagens que seguem o Caminho da Harmonia, o efeito de \"ação imediata\" não pode ser ativado.",
         "en": "Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt by #2[i]%. If the target has a summon, then the DMG Boost effect is further boosted by an additional #4[i]%, lasting for #3[i] turn(s).\nAfter using Skill on The Beatified, recovers 1 Skill Point.\nWhen Sunday uses this ability on characters following the Path of Harmony, cannot trigger the \"immediate action\" effect.",
-        "zh-CN": "使指定我方单体角色及其召唤物立即行动，并使其造成的伤害提高#2[i]%，若目标拥有召唤物，则造成的伤害提高效果额外提高#4[i]%，持续#3[i]回合。\n对【蒙福者】施放战技后恢复1个战技点。\n当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。",
-        "ja": "指定した味方キャラ単体とその召喚物を即座に行動させ、与ダメージ+#2[i]%。ターゲットが召喚物をすでに召喚していた場合、与ダメージアップ効果がさらに+#4[i]%、#3[i]ターン継続。\n「祝福されし者」状態の味方に戦闘スキルを発動した後、SPを1回復する。\nなお、「調和」の運命を歩むキャラをターゲットにした場合、即座に行動させる効果は発動しない。",
-        "ko": "지정된 단일 아군 캐릭터 및 해당 캐릭터의 소환물을 즉시 행동하게 하고, 대상이 가하는 피해를 #2[i]% 증가시키며, 목표가 소환물을 보유하면 가하는 피해 증가 효과가 추가로 #4[i]% 증가한다, 지속 시간: #3[i]턴\n[은혜 입은 자]에게 전투 스킬 발동 후 전투 스킬 포인트를 1pt 회복한다.\n선데이가 「화합」 운명의 길 캐릭터에게 해당 스킬을 발동하면 즉시 행동 효과는 발동되지 않는다"
+        "zh-CN": "使指定我方单体角色及其召唤物立即行动，并使其造成的伤害提高#2[i]%，若目标拥有召唤物，则造成的伤害提高效果额外提高#4[i]%，持续#3[i]回合。\n对【蒙福者】施放战技后恢复1个战技点。\n当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。"
       },
       "params": [
         [1, 0.15, 2, 0.25],
@@ -77,12 +63,10 @@
       "summary": {
         "pt-BR": "Faz com que um personagem aliado designado e sua invocação ajam imediatamente, e aumenta o Dano causado por eles. Se o alvo tiver uma invocação, o aumento de Dano causado recebe um bônus adicional.\nApós usar a Perícia O Beatificado, recupera 1 Ponto de Perícia.\nQuando Sunday usa essa habilidade em personagens que seguem o Caminho da Harmonia, o efeito de \"ação imediata\" não pode ser ativado.",
         "en": "Enables one designated ally character and their summon to immediately take action, and increases their DMG dealt. If the target has a summon, then the DMG dealt increase is further boosted.\nAfter using Skill on The Beatified, recovers 1 Skill Point.\nWhen Sunday uses this ability on characters following the Path of Harmony, cannot trigger the \"immediate action\" effect.",
-        "zh-CN": "使指定我方单体角色及其召唤物立即行动，并使其造成的伤害提高，若目标拥有召唤物，则造成的伤害提高效果额外提高。\n对【蒙福者】施放战技后恢复1个战技点。\n当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。",
-        "ja": "指定した味方キャラ単体およびその召喚物を即座に行動させ、与ダメージをアップする。その味方キャラが召喚物をすでに召喚していた場合、与ダメージをアップする効果がさらにアップする。\n「祝福されし者」が付与されている味方に戦闘スキルを発動した後、SPを1回復する。\nなお、「調和」の運命を歩むキャラをターゲットにした場合、即座に行動させる効果は発動しない。",
-        "ko": "지정된 단일 아군 캐릭터 및 해당 캐릭터의 소환물을 즉시 행동하게 하고, 대상이 가하는 피해를 증가시키며, 목표가 소환물을 보유하면 가하는 피해 증가 효과가 추가로 증가한다.\n[은혜 입은 자]에게 전투 스킬 발동 후 전투 스킬 포인트를 1pt 회복한다.\n선데이가 「화합」 운명의 길 캐릭터에게 해당 스킬을 발동하면 즉시 행동 효과는 발동되지 않는다"
+        "zh-CN": "使指定我方单体角色及其召唤物立即行动，并使其造成的伤害提高，若目标拥有召唤物，则造成的伤害提高效果额外提高。\n对【蒙福者】施放战技后恢复1个战技点。\n当星期日对「同谐」命途的角色施放该技能时，无法触发立即行动效果。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 131303,
@@ -90,16 +74,12 @@
       "name": {
         "pt-BR": "Ode ao Afago e à Cicatrix",
         "en": "Ode to Caress and Cicatrix",
-        "zh-CN": "轻与伤痕的赞颂",
-        "ja": "抱擁と傷痕の賛歌",
-        "ko": "깃과 상흔의 찬송"
+        "zh-CN": "轻与伤痕的赞颂"
       },
       "description": {
         "pt-BR": "Regenera Energia em #1[f1]% da Energia máxima de um personagem aliado designado e transforma o alvo e sua invocação em \"O Beatificado\". \"O Beatificado\" recebe aumento de Dano CRIT em uma quantidade igual a #2[f1]% do Dano CRIT de Sunday + #4[f1]%.\nNo início de cada rodada de Sunday, a duração do estado \"O Beatificado\" é reduzida em 1 rodada, durando por um total de #3[i] rodada(s). E ela só entra em efeito no alvo mais recente da Perícia Suprema (exceto pelo próprio Sunday). Quando Sunday é derrubado, \"O Beatificado\" também será dissipado.",
         "en": "Regenerates Energy by #1[f1]% of Max Energy for one designated ally character, and turns the target and their summon into \"The Beatified.\" \"The Beatified\" have their CRIT DMG increased by an amount equal to #2[f1]% of Sunday's CRIT DMG plus #4[f1]%.\nAt the start of Sunday's every turn, the duration of \"The Beatified\" decreases by 1 turn, lasting for a total of #3[i] turn(s). And it only takes effect on the most recent target of the Ultimate (excluding Sunday himself). When Sunday is knocked down, \"The Beatified\" will also be dispelled.",
-        "zh-CN": "为指定我方单体角色恢复等同于#1[f1]%能量上限的能量，并使目标及其召唤物成为【蒙福者】，【蒙福者】的暴击伤害提高，提高数值等同于星期日#2[f1]%暴击伤害+#4[f1]%。\n星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续#3[i]回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。",
-        "ja": "指定した味方キャラ単体の最大EP#1[f1]%分のEPを回復させ、ターゲットとその召喚物に「祝福されし者」状態を付与する。「祝福されし者」状態の味方の会心ダメージが、サンデーの会心ダメージ#2[f1]%分+#4[f1]%アップする。\n「祝福されし者」状態は#3[i]ターン継続。サンデー自身のターンが回ってくるたびに「祝福されし者」状態の継続時間-1ターン。\nまた、スキルの効果は必殺技で最後に指定したサンデー以外のターゲットにのみ発揮される。サンデーが戦闘不能状態になる時、「祝福されし者」状態も解除される。",
-        "ko": "지정된 단일 아군 캐릭터의 에너지를 에너지 최대치의 #1[f1]%만큼 회복하고, 목표 및 목표의 소환물을 [은혜 입은 자]로 만든다. [은혜 입은 자]의 치명타 피해는 선데이 치명타 피해의 #2[f1]%에 #4[f1]%를 더한 값만큼 증가한다.\n선데이 자신의 턴이 시작될 때마다 [은혜 입은 자] 상태의 지속 턴 수가 1 감소하고, 총 #3[i]턴 지속되며, 선데이를 제외한 최근 필살기의 대상이 된 목표에게만 적용된다. 선데이가 전투 불능 상태에 빠질 시 [은혜 입은 자] 효과도 해제된다"
+        "zh-CN": "为指定我方单体角色恢复等同于#1[f1]%能量上限的能量，并使目标及其召唤物成为【蒙福者】，【蒙福者】的暴击伤害提高，提高数值等同于星期日#2[f1]%暴击伤害+#4[f1]%。\n星期日自身每回合开始时【蒙福者】状态持续回合减1，共持续#3[i]回合。且仅对除星期日自身外终结技最新的施放目标生效。当星期日陷入无法战斗状态时，【蒙福者】效果也会被解除。"
       },
       "params": [
         [0.2, 0.12, 3, 0.08],
@@ -123,29 +103,19 @@
       "summary": {
         "pt-BR": "Regenera Energia para um personagem aliado designado e transforma o alvo e sua invocação em \"O Beatificado\". \"O Beatificado\" aumenta o Dano CRIT.",
         "en": "Regenerates Energy for one designated ally character and turns the target and their summon into \"The Beatified.\" \"The Beatified\" increases their CRIT DMG.",
-        "zh-CN": "为指定我方单体角色恢复能量，并使目标及其召唤物成为【蒙福者】，【蒙福者】的暴击伤害提高。",
-        "ja": "味方キャラ単体のEPを回復し、ターゲットおよびその召喚物を「祝福されし者」にする。「祝福されし者」は会心ダメージアップ。",
-        "ko": "지정된 단일 아군 캐릭터의 에너지를 회복하고, 목표 및 목표의 소환물을 [은혜 입은 자]로 만들며, [은혜 입은 자]의 치명타 피해를 증가시킨다"
+        "zh-CN": "为指定我方单体角色恢复能量，并使目标及其召唤物成为【蒙福者】，【蒙福者】的暴击伤害提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 131304,
       "type": "Talent",
-      "name": {
-        "pt-BR": "O Corpo em Sofrimento",
-        "en": "The Sorrowing Body",
-        "zh-CN": "倾诉之肉身",
-        "ja": "肉体の告解",
-        "ko": "고해의 육신"
-      },
+      "name": { "pt-BR": "O Corpo em Sofrimento", "en": "The Sorrowing Body", "zh-CN": "倾诉之肉身" },
       "description": {
         "pt-BR": "Ao utilizar a Perícia, aumenta a Chance de CRIT do alvo em #1[f1]%, durando por #2[i] rodada(s).",
         "en": "When using Skill, increases the target's CRIT Rate by #1[f1]%, lasting for #2[i] turn(s).",
-        "zh-CN": "施放战技时，使目标的暴击率提高#1[f1]%，持续#2[i]回合。",
-        "ja": "戦闘スキルを発動する時、ターゲットの会心率+#1[f1]%、#2[i]ターン継続。",
-        "ko": "전투 스킬 발동 시 목표의 치명타 확률이 #1[f1]% 증가한다, 지속 시간: #2[i]턴"
+        "zh-CN": "施放战技时，使目标的暴击率提高#1[f1]%，持续#2[i]回合。"
       },
       "params": [
         [0.1, 3],
@@ -169,50 +139,36 @@
       "summary": {
         "pt-BR": "Ao utilizar a Perícia, aumenta a Chance de CRIT do alvo.",
         "en": "When using Skill, increases the target's CRIT Rate.",
-        "zh-CN": "施放战技时，使目标暴击率提高。",
-        "ja": "戦闘スキルを発動する時、ターゲットの会心率アップ。",
-        "ko": "전투 스킬 발동 시 목표의 치명타 확률이 증가한다"
+        "zh-CN": "施放战技时，使目标暴击率提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 131306,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1313_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 131307,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Os Mistérios Gloriosos",
-        "en": "The Glorious Mysteries",
-        "zh-CN": "荣光之秘",
-        "ja": "栄光の秘儀",
-        "ko": "영광의 신비"
-      },
+      "name": { "pt-BR": "Os Mistérios Gloriosos", "en": "The Glorious Mysteries", "zh-CN": "荣光之秘" },
       "description": {
         "pt-BR": "Da primeira vez que Sunday usar uma habilidade em um aliado-alvo na próxima batalha, o Dano causado aumenta em #1[i]%, com duração de #2[i] rodada(s).",
         "en": "After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).",
-        "zh-CN": "使用秘技后，下一次战斗星期日首次对我方目标施放技能时，使目标造成的伤害提高#1[i]%，持续#2[i]回合。",
-        "ja": "秘技を使用した後、次の戦闘でサンデーが初めて味方にスキルを発動する時、ターゲットの与ダメージ+#1[i]%、#2[i]ターン継続。",
-        "ko": "비술 사용 후 다음 전투에서 선데이가 처음으로 아군에게 스킬을 발동하면 목표가 가하는 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴"
+        "zh-CN": "使用秘技后，下一次战斗星期日首次对我方目标施放技能时，使目标造成的伤害提高#1[i]%，持续#2[i]回合。"
       },
       "params": [[0.5, 2]],
       "icon": "icon/skill/1313_technique.png",
@@ -220,30 +176,20 @@
       "summary": {
         "pt-BR": "Após esta Técnica ser usada, da primeira vez que Sunday usar uma habilidade em um aliado-alvo na próxima batalha, o Dano causado pelo alvo aumenta.",
         "en": "After this Technique is used, the first time Sunday uses an ability on an ally target in the next battle, the target's DMG dealt increases.",
-        "zh-CN": "使用秘技后，下一次战斗星期日首次对我方目标施放技能时，使目标造成的伤害提高。",
-        "ja": "秘技を使用した後、次の戦闘でサンデーが初めて味方にスキルを発動する時、ターゲットの与ダメージがアップする。",
-        "ko": "비술 사용 후 다음 전투에서 선데이가 처음으로 아군에게 스킬을 발동하면 목표가 가하는 피해가 증가한다"
+        "zh-CN": "使用秘技后，下一次战斗星期日首次对我方目标施放技能时，使目标造成的伤害提高。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Quietude Milenar",
-        "en": "Millennium's Quietus",
-        "zh-CN": "千纪沉寂之末",
-        "ja": "{RUBY_B#せんねん}千年{RUBY_E#}の{RUBY_B#せいじゃく}静寂{RUBY_E#}の{RUBY_B#は}果{RUBY_E#}て",
-        "ko": "천년의 고요한 끝"
-      },
+      "name": { "pt-BR": "Quietude Milenar", "en": "Millennium's Quietus", "zh-CN": "千纪沉寂之末" },
       "description": {
         "pt-BR": "Quando Sunday usa uma Perícia, o personagem-alvo pode ignorar 16% da DEF do inimigo-alvo para causar Dano, e sua invocação pode ignorar 40% da DEF do inimigo-alvo para causar Dano, com duração de 2 rodada(s).",
         "en": "When Sunday uses Skill, the target character can ignore 16% of enemy target's DEF to deal DMG and their summon can ignore 40% of enemy target's DEF to deal DMG, lasting for 2 turn(s).",
-        "zh-CN": "星期日施放战技时，使目标角色造成伤害时无视目标16%的防御力，召唤物造成伤害时无视目标40%的防御力，持续2回合。",
-        "ja": "サンデーが戦闘スキルを発動する時、スキルターゲットに以下の効果を付与する。\nキャラがダメージを与える時、敵の防御力を16%無視する。召喚物がダメージを与える時、敵の防御力を40%無視する。2ターン継続。",
-        "ko": "선데이가 전투 스킬 발동 시 목표 캐릭터가 피해를 가하면 목표의 방어력을 16% 무시하고, 소환물이 피해를 가하면 목표의 방어력을 40% 무시한다, 지속 시간: 2턴"
+        "zh-CN": "星期日施放战技时，使目标角色造成伤害时无视目标16%的防御力，召唤物造成伤害时无视目标40%的防御力，持续2回合。"
       },
       "icon": "icon/skill/1313_rank1.png",
       "materials": [{ "id": 11313, "num": 1 }],
@@ -251,19 +197,11 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "A Fé Supera a Fragilidade",
-        "en": "Faith Outstrips Frailty",
-        "zh-CN": "笃信补完微缺",
-        "ja": "{RUBY_B#かきん}瑕瑾{RUBY_E#}を{RUBY_B#おぎな}補{RUBY_E#}う{RUBY_B#しんこう}信仰{RUBY_E#}",
-        "ko": "부족함을 메우는 믿음"
-      },
+      "name": { "pt-BR": "A Fé Supera a Fragilidade", "en": "Faith Outstrips Frailty", "zh-CN": "笃信补完微缺" },
       "description": {
         "pt-BR": "Após o primeiro uso da Perícia Suprema, recupera 2 ponto(s) de Perícia. O Dano causado por \"O Beatificado\" aumenta em 30%.",
         "en": "After the first use of Ultimate, recovers 2 Skill Point(s). The DMG dealt by \"The Beatified\" increases by 30%.",
-        "zh-CN": "首次施放终结技后恢复2个战技点。【蒙福者】造成的伤害提高30%。",
-        "ja": "初めて必殺技を発動した後、SPを2回復する。「祝福されし者」状態の味方の与ダメージ+30%。",
-        "ko": "처음 필살기 발동 후 전투 스킬 포인트를 2pt 회복한다. [은혜 입은 자]가 가하는 피해가 30% 증가한다"
+        "zh-CN": "首次施放终结技后恢复2个战技点。【蒙福者】造成的伤害提高30%。"
       },
       "icon": "icon/skill/1313_rank2.png",
       "materials": [{ "id": 11313, "num": 1 }],
@@ -271,19 +209,11 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Eremitério de Espinhos",
-        "en": "Hermitage of Thorns",
-        "zh-CN": "荆棘的静修所",
-        "ja": "{RUBY_B#せいひつ}静謐{RUBY_E#}な{RUBY_B#いばら}茨{RUBY_E#}の{RUBY_B#かく}隠{RUBY_E#}れ{RUBY_B#が}家{RUBY_E#}",
-        "ko": "가시의 은둔처"
-      },
+      "name": { "pt-BR": "Eremitério de Espinhos", "en": "Hermitage of Thorns", "zh-CN": "荆棘的静修所" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1313_ultimate.png",
       "materials": [{ "id": 11313, "num": 1 }],
@@ -291,19 +221,11 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Preâmbulo da Escultura",
-        "en": "Sculpture's Preamble",
-        "zh-CN": "雕塑的卷首语",
-        "ja": "{RUBY_B#ちょうぞう}彫像{RUBY_E#}の{RUBY_B#じょげん}序言{RUBY_E#}",
-        "ko": "조각의 머리말"
-      },
+      "name": { "pt-BR": "Preâmbulo da Escultura", "en": "Sculpture's Preamble", "zh-CN": "雕塑的卷首语" },
       "description": {
         "pt-BR": "No início da rodada, regenera 8 de Energia.",
         "en": "When the turn starts, regenerates 8 Energy.",
-        "zh-CN": "回合开始时，恢复8点能量。",
-        "ja": "ターンが回ってきた時、EPを8回復する。",
-        "ko": "턴 시작 시 에너지를 8pt 회복한다"
+        "zh-CN": "回合开始时，恢复8点能量。"
       },
       "icon": "icon/skill/1313_rank4.png",
       "materials": [{ "id": 11313, "num": 1 }],
@@ -314,16 +236,12 @@
       "name": {
         "pt-BR": "Navio de Papel na Baía Prateada",
         "en": "Paper Raft in Silver Bay",
-        "zh-CN": "纸筏漂流银湾",
-        "ja": "{RUBY_B#ぎんわん}銀湾{RUBY_E#}に{RUBY_B#ただよ}漂{RUBY_E#}う{RUBY_B#かみ}紙{RUBY_E#}の{RUBY_B#ふね}船{RUBY_E#}",
-        "ko": "은하를 표류하는 종이배"
+        "zh-CN": "纸筏漂流银湾"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1313_skill.png",
       "materials": [{ "id": 11313, "num": 1 }],
@@ -334,16 +252,12 @@
       "name": {
         "pt-BR": "Amanhecer da Cacofonia Sideral",
         "en": "Dawn of Sidereal Cacophony",
-        "zh-CN": "群星喧哗之始",
-        "ja": "{RUBY_B#ぐんせいけんそう}群星喧騒{RUBY_E#}の{RUBY_B#れいめい}黎明{RUBY_E#}",
-        "ko": "뭇별의 떠들썩한 첫걸음"
+        "zh-CN": "群星喧哗之始"
       },
       "description": {
         "pt-BR": "O efeito de Bônus de Chance de CRIT do Talento se torna acumulável em até 3 vez(es) e a duração do Talento aumenta em 1 rodada(s). Quando Sunday utiliza sua Perícia Suprema, ele também aplica o efeito de Bônus de Chance de CRIT do Talento ao alvo. Quando o efeito de Bônus de Chance de CRIT do Talento entra em efeito e a Chance de CRIT do alvo exceder os 100%, cada 1% da Chance de CRIT excedente aumenta em 2% o Dano CRIT.",
         "en": "The Talent's CRIT Rate boost effect becomes stackable up to 3 time(s), and the Talent's duration increases by 1 turn(s). When Sunday uses Ultimate, can also apply the Talent's CRIT Rate boost effect to the target. When the Talent's CRIT Rate boost takes effect and the target's CRIT Rate exceeds 100%, every 1% of excess CRIT Rate increases CRIT DMG by 2%.",
-        "zh-CN": "天赋的暴击率提高效果可以叠加，最多叠加3层，并使天赋的持续时间增加1回合。星期日施放终结技时，也可以为目标添加天赋的暴击率提高效果。天赋的暴击率提高效果生效时，当目标的暴击率超过100%，每溢出1%暴击率提高2%暴击伤害。",
-        "ja": "天賦の会心率アップ効果が累積可能になる。最大で3層。また、天賦効果の継続時間+1ターン。サンデーが必殺技を発動する時、ターゲットに天賦による会心率アップ効果を付与する。また、天賦による会心率アップ効果が発動する時、ターゲットの会心率が100%を超えている場合、1%超過するごとに会心ダメージが2%アップする。",
-        "ko": "특성의 치명타 확률 증가 효과가 최대 3스택 중첩되며, 특성의 지속 시간이 1턴 증가한다. 선데이가 필살기 발동 시 목표에게 특성의 치명타 확률 증가 효과를 부여할 수 있다. 특성의 치명타 확률 증가 효과 발동 시 목표의 치명타 확률이 100%를 초과하면, 1%를 초과할 때마다 치명타 피해가 2% 증가한다"
+        "zh-CN": "天赋的暴击率提高效果可以叠加，最多叠加3层，并使天赋的持续时间增加1回合。星期日施放终结技时，也可以为目标添加天赋的暴击率提高效果。天赋的暴击率提高效果生效时，当目标的暴击率超过100%，每溢出1%暴击率提高2%暴击伤害。"
       },
       "icon": "icon/skill/1313_rank6.png",
       "materials": [{ "id": 11313, "num": 1 }],
@@ -718,19 +632,11 @@
     {
       "id": 1313101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Desejo pelo Dia de Descanso",
-        "en": "Rest Day's Longing",
-        "zh-CN": "主日渴慕",
-        "ja": "{RUBY_B#しゅじつ}主日{RUBY_E#}の{RUBY_B#かつぼう}渇望{RUBY_E#}",
-        "ko": "주일을 향한 갈망"
-      },
+      "name": { "pt-BR": "Desejo pelo Dia de Descanso", "en": "Rest Day's Longing", "zh-CN": "主日渴慕" },
       "description": {
         "pt-BR": "Se a Perícia Suprema regenerar menos que #1[i] de Energia para o alvo, aumenta a Energia regenerada para #1[i].",
         "en": "When using Ultimate, if the Energy regenerated for the target is less than #1[i], increases the regenerated Energy to #1[i].",
-        "zh-CN": "施放终结技时，若为目标恢复的能量不足#1[i]点，恢复的能量提高至#1[i]点。",
-        "ja": "必殺技を発動する時、ターゲットが回復するEPが#1[i]未満の場合、回復するEPを#1[i]までアップさせる。",
-        "ko": "필살기 발동 시 목표에게 회복한 에너지가 #1[i]pt 미만일 시, 회복하는 에너지가 #1[i]pt까지 증가한다"
+        "zh-CN": "施放终结技时，若为目标恢复的能量不足#1[i]点，恢复的能量提高至#1[i]点。"
       },
       "params": [[40]],
       "icon": "icon/skill/1313_skilltree1.png",
@@ -749,19 +655,11 @@
     {
       "id": 1313102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Varredura Exaltada",
-        "en": "Exalted Sweep",
-        "zh-CN": "崇高拂尘",
-        "ja": "{RUBY_B#すうこう}崇高{RUBY_E#}なる{RUBY_B#じょうか}浄化{RUBY_E#}",
-        "ko": "먼지를 털어내는 숭고함"
-      },
+      "name": { "pt-BR": "Varredura Exaltada", "en": "Exalted Sweep", "zh-CN": "崇高拂尘" },
       "description": {
         "pt-BR": "No início da batalha, Sunday regenera #1[i] de Energia.",
         "en": "When battle starts, Sunday regenerates #1[i] Energy.",
-        "zh-CN": "战斗开始时，星期日恢复#1[i]点能量。",
-        "ja": "戦闘開始時、サンデーのEPを#1[i]回復する。",
-        "ko": "전투 시작 시 선데이의 에너지를 #1[i]pt 회복한다"
+        "zh-CN": "战斗开始时，星期日恢复#1[i]点能量。"
       },
       "params": [[25]],
       "icon": "icon/skill/1313_skilltree2.png",
@@ -785,19 +683,11 @@
     {
       "id": 1313103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Paraíso nas Mãos",
-        "en": "Haven in Palm",
-        "zh-CN": "掌中安港",
-        "ja": "{RUBY_B#しょうじょう}掌上{RUBY_E#}の{RUBY_B#あんそく}安息{RUBY_E#}",
-        "ko": "손바닥 위 안식처"
-      },
+      "name": { "pt-BR": "Paraíso nas Mãos", "en": "Haven in Palm", "zh-CN": "掌中安港" },
       "description": {
         "pt-BR": "Ao usar a Perícia, remove #1[i] penalidade(s) do alvo.",
         "en": "When using Skill, dispels #1[i] debuff(s) from the target.",
-        "zh-CN": "施放战技时，解除目标的#1[i]个负面效果。",
-        "ja": "戦闘スキルを発動した時、ターゲットのデバフを#1[i]つ解除する。",
-        "ko": "전투 스킬 발동 시 목표의 디버프 효과를 #1[i]개 해제한다"
+        "zh-CN": "施放战技时，解除目标的#1[i]个负面效果。"
       },
       "params": [[1]],
       "icon": "icon/skill/1313_skilltree3.png",
@@ -821,13 +711,7 @@
     {
       "id": 1313201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -844,13 +728,7 @@
     {
       "id": 1313202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "pt-BR": "Bônus de RES a Efeito", "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1313101],
@@ -867,13 +745,7 @@
     {
       "id": 1313203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1313202],
@@ -890,7 +762,7 @@
     {
       "id": 1313204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1313201],
@@ -907,13 +779,7 @@
     {
       "id": 1313205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1313102],
@@ -930,13 +796,7 @@
     {
       "id": 1313206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "pt-BR": "Bônus de RES a Efeito", "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1313205],
@@ -953,13 +813,7 @@
     {
       "id": 1313207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1313201],
@@ -976,7 +830,7 @@
     {
       "id": 1313208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1313103],
@@ -993,13 +847,7 @@
     {
       "id": 1313209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "pt-BR": "Bônus de RES a Efeito", "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1313208],
@@ -1016,13 +864,7 @@
     {
       "id": 1313210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1313208],

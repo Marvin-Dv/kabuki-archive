@@ -1,13 +1,7 @@
 {
   "id": 23026,
   "slug": "flowing-nightglow",
-  "name": {
-    "pt-BR": "Luzes Noturnas",
-    "en": "Flowing Nightglow",
-    "zh-CN": "夜色流光溢彩",
-    "ja": "光あふれる夜",
-    "ko": "찬란하게 빛나는 밤"
-  },
+  "name": { "pt-BR": "Luzes Noturnas", "en": "Flowing Nightglow", "zh-CN": "夜色流光溢彩" },
   "rarity": 5,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "O tempo flui através do espelho, metamorfoseando a outrora inexperiente garotinha numa experiente cantora.\nEla observa seu reflexo no espelho. O tempo alterou tudo, exceto seus olhos verdes, que permanecem tão serenos quanto um lago, como se narrassem uma fé inabalável.\n\"Você parece estar bem animada hoje.\"\n\"Sim... afinal, há uma 'apresentação' muito importante.\"\n\"Com certeza. O ensaio do Festival Carismonia está prestes a começar. Por favor, dirija-se à sala de preparação.\"\n...\nEla sai do camarim, deixando para trás as luzes brilhantes do teatro, desvanecendo-se ao longe.\n\"Meu palco não é aqui.\"\nEla fecha os olhos, permitindo que a noite engula sua silhueta.\n\"Desde o passado até o presente, minha canção sempre foi para...\"\n\"Para aqueles que perderam a esperança.\"",
     "en": "Time flows through the mirror, metamorphosing the once inexperienced little girl into a seasoned songstress.\nShe studies her reflection in the mirror. Time has altered all but her green eyes, which still remain as serene as a lake, as if recounting an unshakable faith.\n\"You seem in high spirits today.\"\n\"Yes... after all, there's a very important 'performance'.\"\n\"Indeed. The Charmony Festival's rehearsal is about to start. Please head to the preparation room.\"\n...\nShe steps out from the dressing room, leaving behind the brilliant lights of the theater, fading into the distance.\n\"My stage lies not here.\"\nShe closes her eyes, letting the night swallow her silhouette.\n\"From the past to the present, my song has always been for...\"\n\"For those who have lost hope.\"",
-    "zh-CN": "岁月从镜中流过，青涩的少女已蜕变为游刃有余的歌者。\n她打量着镜中的自己，时间改变了一切，唯有那绿色的眼睛依然如同湖泊般宁静，仿佛在诉说着不渝的信念。\n 「今天看起来兴致很高呢。」\n「是啊…毕竟有很重要的『演出』。」\n「嗯，谐乐大典的彩排就要开始了，请您移步准备室。」\n……\n她走出化妆室，和身后灯火辉煌的剧院渐行渐远。\n「我的舞台不在此处。」\n她闭上双眼，任凭夜色吞没她的影子。\n「从过去，到现在，我的歌声都只是为了……」\n「为了那些失去希望的人们。」",
-    "ja": "鏡の中で歳月が流れ、未熟だった少女は余裕の感じられる歌手へと成長した。\n彼女は鏡の中の自分を見つめる。時間はすべてを変えてしまったが、その緑色の両目だけは、依然として湖のように穏やかで、揺るぎない信念を語っているかのようだ。\n「何だか機嫌がよさそうですね」\n「ええ…今日は大事な『公演』があるから」\n「そうですね。さあ、もうすぐ調和セレモニーのリハーサルが始まりますので、そろそろ準備室に移動しましょう」\n……\n彼女は楽屋を出て、光り輝く劇場から離れていく。\n「私の舞台はここではないわ」\nそう言った彼女は、目を閉じて夜の闇の中に溶けていった。\n「今までも、これからも、私の歌は……」\n「希望を失った人々のためにある」",
-    "ko": "거울 속에서 세월이 흘러, 풋풋한 소녀는 여유를 지닌 가수로 변모했다.\n그녀는 거울 속의 자신을 들여다봤다. 시간이 모든 것을 바꿔놓았지만, 그 초록빛 눈은 변치 않는 신념을 말해주듯 여전히 호수처럼 고요했다.\n「오늘은 기분이 좋아 보이시네요」\n「맞아… 아주 중요한 『공연』이 있잖아」\n「그렇죠, 조화의 축제 리허설이 곧 시작되니 준비실로 이동해주세요」\n……\n그녀는 분장실을 나와 등불이 찬란하게 빛나는 극장과 멀어졌다.\n「내 무대는 여기에 있지 않아」\n그녀는 두 눈을 감고 밤이 그녀의 그림자를 집어삼키도록 두었다.\n「과거부터 지금까지, 내 노랫소리는 오직……」\n「희망을 잃은 사람들을 위한 거야」"
+    "zh-CN": "岁月从镜中流过，青涩的少女已蜕变为游刃有余的歌者。\n她打量着镜中的自己，时间改变了一切，唯有那绿色的眼睛依然如同湖泊般宁静，仿佛在诉说着不渝的信念。\n 「今天看起来兴致很高呢。」\n「是啊…毕竟有很重要的『演出』。」\n「嗯，谐乐大典的彩排就要开始了，请您移步准备室。」\n……\n她走出化妆室，和身后灯火辉煌的剧院渐行渐远。\n「我的舞台不在此处。」\n她闭上双眼，任凭夜色吞没她的影子。\n「从过去，到现在，我的歌声都只是为了……」\n「为了那些失去希望的人们。」"
   },
   "skill": {
-    "name": { "pt-BR": "Pacificar", "en": "Pacify", "zh-CN": "抚慰", "ja": "慰め", "ko": "위로" },
+    "name": { "pt-BR": "Pacificar", "en": "Pacify", "zh-CN": "抚慰" },
     "description": {
       "pt-BR": "O usuário ganha 1 acúmulo de Canção sempre que um aliado ataca. Cada acúmulo de Canção aumenta a Taxa de Regeneração de Energia do usuário em #1[f1]%, até #2[i] acúmulo(s). Quando o usuário utiliza sua Perícia Suprema, remove Canção e ganha Cadência. Cadência aumenta o ATQ do usuário em #4[i]% e o Dano causado pela equipe em #3[i]%, durando por #5[i] rodada(s).",
       "en": "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer's Energy Regeneration Rate by #1[f1]%, stacking up to #2[i] time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer's ATK by #4[i]% and increases all allies' DMG dealt by #3[i]%, lasting for #5[i] turn(s).",
-      "zh-CN": "我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高#1[f1]%，最多叠加#2[i]层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高#4[i]%，使我方全体造成的伤害提高#3[i]%，持续#5[i]回合。",
-      "ja": "味方が攻撃を行うたび、装備キャラは「朗唱」を1層獲得する。「朗唱」1層につき、装備キャラのEP回復効率+#1[f1]%、最大で#2[i]層累積できる。装備キャラが必殺技を発動する時、「朗唱」を解除し「華彩」を獲得する。「華彩」がある時、装備キャラの攻撃力+#4[i]%、味方全体の与ダメージ+#3[i]%、#5[i]ターン継続。",
-      "ko": "아군 캐릭터가 공격할 때마다 장착한 캐릭터가 [노래]를 1스택 획득한다. [노래] 스택마다 장착한 캐릭터의 에너지 회복효율이 #1[f1]% 증가한다. 최대 중첩수: #2[i]스택. 장착한 캐릭터가 필살기를 발동하면 [노래]가 해제되고 [카덴차]를 획득한다. [카덴차]는 장착한 캐릭터의 공격력을 #4[i]% 증가시키고, 모든 아군이 가하는 피해를 #3[i]% 증가시킨다, 지속 시간: #5[i]턴"
+      "zh-CN": "我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高#1[f1]%，最多叠加#2[i]层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高#4[i]%，使我方全体造成的伤害提高#3[i]%，持续#5[i]回合。"
     },
     "params": [
       [0.03, 5, 0.24, 0.48, 1],

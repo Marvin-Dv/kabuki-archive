@@ -1,7 +1,7 @@
 {
   "id": 1308,
   "slug": "acheron",
-  "name": { "pt-BR": "Acheron", "en": "Acheron", "zh-CN": "黄泉", "ja": "黄泉", "ko": "아케론" },
+  "name": { "pt-BR": "Acheron", "en": "Acheron", "zh-CN": "黄泉" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Lightning",
@@ -11,19 +11,11 @@
     {
       "id": 130801,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Caminhos Definhados Trilaterais",
-        "en": "Trilateral Wiltcross",
-        "zh-CN": "三途枯榷",
-        "ja": "三途の枯木",
-        "ko": "삼도의 횡목"
-      },
+      "name": { "pt-BR": "Caminhos Definhados Trilaterais", "en": "Trilateral Wiltcross", "zh-CN": "三途枯榷" },
       "description": {
         "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Acheron a um único inimigo-alvo.",
         "en": "Deals Lightning DMG equal to #1[i]% of Acheron's ATK to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于黄泉#1[i]%攻击力的雷属性伤害。",
-        "ja": "指定した敵単体に黄泉の攻撃力#1[i]%分の雷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 아케론 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于黄泉#1[i]%攻击力的雷属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1308_basic_atk.png",
@@ -31,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
         "en": "Deals minor Lightning DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害。",
-        "ja": "敵単体に少量の雷属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量雷属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 130802,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Brilho de Oito Trovões",
-        "en": "Octobolt Flash",
-        "zh-CN": "八雷飞渡",
-        "ja": "八雷渡り",
-        "ko": "팔뢰비도"
-      },
+      "name": { "pt-BR": "Brilho de Oito Trovões", "en": "Octobolt Flash", "zh-CN": "八雷飞渡" },
       "description": {
         "pt-BR": "Ganha #3[i] ponto(s) de Sonho Retalhado. Inflige #3[i] acúmulo(s) de Nó Rubro a um único inimigo-alvo e causa Dano de Raio igual #1[i]% do ATQ de Acheron a este alvo, assim como Dano de Raio igual a #2[i]% do ATQ de Acheron a alvos adjacentes.",
         "en": "Gains #3[i] point(s) of \"Slashed Dream.\" Inflicts #3[i] stack(s) of \"Crimson Knot\" on one designated enemy target, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to this target, as well as Lightning DMG equal to #2[i]% of Acheron's ATK to adjacent targets.",
-        "zh-CN": "获得#3[i]点【残梦】，为指定敌方单体附上#3[i]层【集真赤】，对其造成等同于黄泉#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于黄泉#2[i]%攻击力的雷属性伤害。",
-        "ja": "「残夢」を#3[i]層獲得する。指定した敵単体に「集真赤」を#3[i]層付与し、黄泉の攻撃力#1[i]%分の雷属性ダメージを与え、隣接する敵に黄泉の攻撃力#2[i]%分の雷属性ダメージを与える。",
-        "ko": "[꿈 조각]을 #3[i]pt 획득한다. 지정된 단일 적에게 [아즈사카]를 #3[i]스택 부여하고, 아케론 공격력의 #1[i]%만큼 번개 속성 피해를 가한다. 동시에 인접한 목표에게 아케론 공격력의 #2[i]%만큼 번개 속성 피해를 가한다"
+        "zh-CN": "获得#3[i]点【残梦】，为指定敌方单体附上#3[i]层【集真赤】，对其造成等同于黄泉#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于黄泉#2[i]%攻击力的雷属性伤害。"
       },
       "params": [
         [0.8, 0.3, 1],
@@ -77,12 +59,10 @@
       "summary": {
         "pt-BR": "Ganha 1 ponto(s) de Sonho Retalhado. Inflige 1 acúmulo(s) de Nó Rubro a um único inimigo e causa Dano de Raio a ele, assim como Dano de Raio leve a alvos adjacentes.",
         "en": "Gains 1 point(s) of Slashed Dream. Inflicts 1 stack(s) of Crimson Knot on one enemy, dealing Lightning DMG to this target, as well as minor Lightning DMG to adjacent targets.",
-        "zh-CN": "获得1点【残梦】，为敌方单体附上1层【集真赤】，对其造成雷属性伤害，对相邻目标造成少量雷属性伤害。",
-        "ja": "「残夢」を1層獲得する。敵単体に「集真赤」を1層付与し、雷属性ダメージを与え、隣接する敵に少量の雷属性ダメージを与える。",
-        "ko": "[꿈 조각]을 1pt 획득한다. 단일 적에게 [아즈사카]를 1스택 부여하고, 번개 속성 피해를 가하며, 인접한 목표에게 소량의 번개 속성 피해를 가한다"
+        "zh-CN": "获得1点【残梦】，为敌方单体附上1层【集真赤】，对其造成雷属性伤害，对相邻目标造成少量雷属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 130803,
@@ -90,16 +70,12 @@
       "name": {
         "pt-BR": "Lágrimas Vermelhas do Sonho Retalhado",
         "en": "Slashed Dream Cries in Red",
-        "zh-CN": "残梦尽染，一刀缭断",
-        "ja": "残夢染める繚乱の一太刀",
-        "ko": "단칼에 끊어낸 붉은 꿈 조각"
+        "zh-CN": "残梦尽染，一刀缭断"
       },
       "description": {
         "pt-BR": "Utiliza sequencialmente Lâmina Pluvial 3 vezes e Ressurreição Estígia 1 vez, causando Dano de Raio até #6[i]% do ATQ de Acheron a um único inimigo-alvo, e causa Dano de Raio até de #7[i]% do ATQ de Acheron a todos os outros inimigos.\nLâmina Pluvial: Causa Dano de Raio igual a #1[f1]% do ATQ de Acheron a um único inimigo-alvo e remove até 3 acúmulos de Nó Rubro do alvo. Quando o Nó Rubro é removido, imediatamente causa Dano de Raio igual a #2[f1]% do ATQ de Acheron a todos os inimigos. Para cada acúmulo de Nó Rubro removido, o Multiplicador de Dano desta aplicação de Dano é adicionalmente aumentado, até um aumento de #5[f1]%.\nRessurreição Estígia: Causa Dano de Raio igual a #3[i]% do ATQ de Acheron a todos os inimigos e remove todos os Nós Rubros.\nNós Rubros não podem ser aplicados a inimigos durante a Perícia Suprema.",
         "en": "Sequentially unleash \"Rainblade\" 3 times and \"Stygian Resurge\" 1 time, dealing Lightning DMG up to #6[i]% of Acheron's ATK to one designated enemy target, as well as Lightning DMG up to #7[i]% of Acheron's ATK to other targets.\n\"Rainblade\": Deals Lightning DMG equal to #1[f1]% of Acheron's ATK to one designated enemy target and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, immediately deals Lightning DMG equal to #2[f1]% of Acheron's ATK to all enemies. For every stack of \"Crimson Knot\" removed, this DMG Multiplier is additionally increased, up to a maximum of #5[f1]%.\n\"Stygian Resurge\": Deals Lightning DMG equal to #3[i]% of Acheron's ATK to all enemies and remove all \"Crimson Knots.\"\n\"Crimson Knot\" cannot be applied to enemies during the Ultimate.",
-        "zh-CN": "依次发动3次【啼泽雨斩】和1次【黄泉返渡】，对指定敌方单体最多造成等同于黄泉#6[i]%攻击力的雷属性伤害，对其他目标最多造成等同于黄泉#7[i]%攻击力的雷属性伤害。\n【啼泽雨斩】：对指定敌方单体造成等同于黄泉攻击力#1[f1]%的雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，立即对敌方全体造成等同于黄泉#2[f1]%攻击力的雷属性伤害，每消去1层【集真赤】本次伤害倍率额外提高，最多提高至#5[f1]%。\n【黄泉返渡】：对敌方全体造成等同于黄泉#3[i]%攻击力的雷属性伤害并移除所有【集真赤】。\n终结技期间无法为敌方附上【集真赤】。",
-        "ja": "「啼沢斬り」を3回、「黄泉返り」を1回の順で発動し、指定した敵単体に最大で黄泉の攻撃力#6[i]%分の雷属性ダメージを与え、その他の敵に最大で黄泉の攻撃力#7[i]%分の雷属性ダメージを与える。\n「啼沢斬り」：指定した敵単体に黄泉の攻撃力#1[f1]%分の雷属性ダメージを与え、その敵にある「集真赤」を最大で3層消去する。「集真赤」が消去された時、敵全体に黄泉の攻撃力#2[f1]%分の雷属性ダメージを与える。消去した「集真赤」1層につき、ダメージ倍率がさらにアップする、最大で+#5[f1]%。\n「黄泉返り」：敵全体に黄泉の攻撃力#3[i]%分の雷属性ダメージを与え、すべての「集真赤」をクリアする。\n必殺技の間、敵に「集真赤」を付与することはできない。",
-        "ko": "차례대로 [눈물 베기] 3회, [황천의 귀환] 1회를 발동하여 지정된 단일 적에게 최대 아케론 공격력의 #6[i]%만큼 번개 속성 피해를 가하고, 다른 목표에게 최대 아케론 공격력의 #7[i]%만큼 번개 속성 피해를 가한다.\n[눈물 베기]: 지정된 단일 적에게 아케론 공격력의 #1[f1]%만큼 번개 속성 피해를 가하고, 목표의 [아즈사카]를 최대 3스택 소거한다. [아즈사카] 소거 시 즉시 모든 적에게 아케론 공격력의 #2[f1]%만큼 번개 속성 피해를 가하고, [아즈사카]를 1스택 소거할 때마다 이번 피해 배율이 추가로 증가하고, 최대 #5[f1]%까지 증가한다.\n[황천의 귀환]: 모든 적에게 아케론 공격력의 #3[i]%만큼 번개 속성 피해를 가하고 모든 [아즈사카]를 해제한다.\n필살기 발동 중에는 적에게 [아즈사카]를 부여할 수 없다"
+        "zh-CN": "依次发动3次【啼泽雨斩】和1次【黄泉返渡】，对指定敌方单体最多造成等同于黄泉#6[i]%攻击力的雷属性伤害，对其他目标最多造成等同于黄泉#7[i]%攻击力的雷属性伤害。\n【啼泽雨斩】：对指定敌方单体造成等同于黄泉攻击力#1[f1]%的雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，立即对敌方全体造成等同于黄泉#2[f1]%攻击力的雷属性伤害，每消去1层【集真赤】本次伤害倍率额外提高，最多提高至#5[f1]%。\n【黄泉返渡】：对敌方全体造成等同于黄泉#3[i]%攻击力的雷属性伤害并移除所有【集真赤】。\n终结技期间无法为敌方附上【集真赤】。"
       },
       "params": [
         [0.144, 0.09, 0.72, 9, 0.36, 2.232, 1.8],
@@ -123,12 +99,10 @@
       "summary": {
         "pt-BR": "Causa 3 golpes de Dano de Raio Leve a um único inimigo. Se Nó Rubro for removido do alvo, então causa Dano de Raio leve a todos os inimigos. Finalmente, causa 1 golpe de Dano de Raio a todos os inimigos e remove Nó Rubro.",
         "en": "Deals 3 hits of minor Lightning DMG to one enemy. If \"Crimson Knot\" is removed from the target, then deals minor Lightning DMG to all enemies. Finally, deals 1 hit of Lightning DMG to all enemies and removes all \"Crimson Knots.\"",
-        "zh-CN": "对敌方单体造成3段少量雷属性伤害，若消去目标【集真赤】则对敌方全体造成少量雷属性伤害。最后对敌方全体造成1段雷属性伤害并移除所有【集真赤】。",
-        "ja": "敵単体に3段の攻撃を行い、それぞれ少量の雷属性ダメージを与える。敵にある「集真赤」を消去した場合、敵全体に少量の雷属性ダメージを与える。最後に敵全体に1段の攻撃を行い、雷属性ダメージを与え、すべての「集真赤」をクリアする。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 3회 가하고 목표의 [아즈사카]를 소거할 경우 모든 적에게 소량의 번개 속성 피해를 가한다. 이후 모든 적에게 번개 속성 피해를 1회 가한 후 모든 [아즈사카]를 해제한다"
+        "zh-CN": "对敌方单体造成3段少量雷属性伤害，若消去目标【集真赤】则对敌方全体造成少量雷属性伤害。最后对敌方全体造成1段雷属性伤害并移除所有【集真赤】。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 130804,
@@ -136,16 +110,12 @@
       "name": {
         "pt-BR": "As Folhas de Outono Carregam Singularidades",
         "en": "Atop Rainleaf Hangs Oneness",
-        "zh-CN": "红叶时雨，万倾一空",
-        "ja": "紅葉に時雨、万里の空",
-        "ko": "비에 젖은 단풍, 끝없는 하늘"
+        "zh-CN": "红叶时雨，万倾一空"
       },
       "description": {
         "pt-BR": "Quando Sonho Retalhado chega a #1[i] ponto(s), a Perícia Suprema pode ser utilizada. Durante a Perícia Suprema, reduz a Tenacidade dos inimigos independentemente dos Tipos de Fraquezas e reduz a RES a Todos os Tipos de todos os inimigos em #2[i]%, durando até o final da Perícia Suprema.\nQuando qualquer unidade inflige penalidades a um inimigo-alvo enquanto usa sua habilidade, Acheron ganha 1 ponto de Sonho Retalhado e inflige 1 acúmulo de Nó Rubro no alvo. Se a habilidade utilizada infligir penalidade a múltiplos inimigos, então um acúmulo de Nó Rubro será infligido no inimigo-alvo com o maior número de acúmulos de Nó Rubro. Este efeito pode ser acionado até 1 vez por uso da habilidade.\nQuando Acheron está no campo de batalha e após um inimigo-alvo sair do campo de batalha ou ser derrotado por qualquer unidade, seus acúmulos de Nó Rubro serão redirecionados ao inimigo-alvo com o maior número de acúmulos de Nó Rubro em campo.",
         "en": "When Slashed Dream reaches #1[i] point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by #2[i]%, lasting until the end of the Ultimate.\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on a target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once for every ability use.\nAfter an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.",
-        "zh-CN": "【残梦】达到#1[i]点时可激活终结技。终结技期间可无视弱点属性削减敌方韧性，并使敌方全体全属性抗性降低#2[i]%，持续至终结技结束。\n任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得1点【残梦】并为目标附上1层【集真赤】，若使多个目标陷入负面效果，则为其中【集真赤】最多的敌方目标附上1层【集真赤】。该效果每次施放技能最多触发1次。\n黄泉在场时，敌方目标离场或被任意单位消灭后，其持有的【集真赤】会转移至全场【集真赤】最多的敌方目标。",
-        "ja": "「残夢」が#1[i]層に達すると必殺技を発動できる。必殺技の発動中は弱点属性を無視して敵の靭性を削ることができ、敵全体の全属性耐性-#2[i]%、必殺技が終了するまで継続。\n任意のユニットがスキルを発動した際に敵にデバフを付与すると、黄泉は「残夢」を1層獲得し、敵に「集真赤」を1層付与する。複数の敵にデバフを与えた場合、そのうちの「集真赤」が最も多い敵に「集真赤」を1層付与する。この効果はスキルを発動するたびに1回まで発動できる。\n黄泉がフィールド上にいる時、敵が退場するか、または任意のユニットに倒されると、その敵が持つ「集真赤」はフィールド上にいる「集真赤」の最も多い敵に引き継がれる。",
-        "ko": "[꿈 조각]이 #1[i]pt에 도달하면 필살기를 활성화할 수 있다. 필살기 발동 중에는 약점 속성을 무시하고 적의 강인성을 소모할 수 있으며, 모든 적의 모든 속성 저항을 #2[i]% 감소시킨다. 해당 효과는 필살기가 종료될 때까지 지속된다.\n임의의 유닛이 스킬을 발동하는 동안 적을 디버프 효과에 빠트리면 아케론은 [꿈 조각]을 1pt 획득하고 목표에게 [아즈사카]를 1스택 부여한다. 만약 여러 목표를 디버프 효과에 빠트리면, 그중 [아즈사카]가 가장 많은 적에게 [아즈사카]를 1스택 부여한다. 해당 효과는 스킬을 발동할 때마다 최대 1회 발동한다.\n아케론이 필드에 있을 시 적이 퇴장 혹은 임의의 유닛에게 처치되면 보유한 [아즈사카]는 필드 내 [아즈사카]가 가장 많은 적에게 이전된다"
+        "zh-CN": "【残梦】达到#1[i]点时可激活终结技。终结技期间可无视弱点属性削减敌方韧性，并使敌方全体全属性抗性降低#2[i]%，持续至终结技结束。\n任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得1点【残梦】并为目标附上1层【集真赤】，若使多个目标陷入负面效果，则为其中【集真赤】最多的敌方目标附上1层【集真赤】。该效果每次施放技能最多触发1次。\n黄泉在场时，敌方目标离场或被任意单位消灭后，其持有的【集真赤】会转移至全场【集真赤】最多的敌方目标。"
       },
       "params": [
         [9, 0.1],
@@ -169,50 +139,36 @@
       "summary": {
         "pt-BR": "Quando Sonho Retalhado chega ao seu máximo, a Perícia Suprema pode ser utilizada. Durante a Perícia Suprema, exaure a Tenacidade dos inimigos independentemente dos Tipos de Fraqueza e reduz a RES a Todos os Tipos de todos os inimigos.\nQuando qualquer unidade inflige penalidades em um inimigo-alvo enquanto usa uma habilidade, Acheron ganha Sonho Retalhado e inflige Nó Rubro no inimigo-alvo.",
         "en": "When Slashed Dream reaches its upper limit, the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES.\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains Slashed Dream and inflicts Crimson Knot on an enemy target.",
-        "zh-CN": "【残梦】达到上限时可激活终结技。终结技期间可无视弱点属性削减敌方韧性，并使敌方全体全属性抗性降低。\n任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得【残梦】并为敌方目标附上【集真赤】。",
-        "ja": "「残夢」が上限に達すると必殺技を発動できる。必殺技の発動中は弱点属性を無視して敵の靭性を削ることができ、敵全体の全属性耐性をダウンさせる。\n任意のユニットがスキル発動期間中に敵にデバフを付与すると、黄泉は「残夢」を獲得し、敵に「集真赤」を付与する。",
-        "ko": "[꿈 조각]이 최대치에 도달하면 필살기를 활성화할 수 있다. 필살기 발동 중에는 약점 속성을 무시하고 적의 강인성을 소모할 수 있으며, 모든 적의 모든 속성 저항을 감소시킨다.\n임의의 유닛이 스킬을 발동하는 동안 적을 디버프 효과에 빠트리면 아케론은 [꿈 조각]을 획득하며, 적에게 [아즈사카]를 부여한다"
+        "zh-CN": "【残梦】达到上限时可激活终结技。终结技期间可无视弱点属性削减敌方韧性，并使敌方全体全属性抗性降低。\n任意单位施放技能期间使敌方目标陷入负面效果，黄泉获得【残梦】并为敌方目标附上【集真赤】。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 130806,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1308_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 130807,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Ascendência Quadrivalente",
-        "en": "Quadrivalent Ascendance",
-        "zh-CN": "四相断我",
-        "ja": "四相断我",
-        "ko": "피상을 절단한 자아"
-      },
+      "name": { "pt-BR": "Ascendência Quadrivalente", "en": "Quadrivalent Ascendance", "zh-CN": "四相断我" },
       "description": {
         "pt-BR": "Imediatamente ataca o inimigo. No início de cada onda, ganha Ascendência Quadrivalente, causando Dano de Raio igual a #1[i]% do ATQ de Acheron a todos os inimigos e reduzindo a Tenacidade te todos os inimigos independentemente dos Tipos de Fraqueza. Ao infligir Quebra de Fraqueza, aciona o efeito de Quebra de Fraqueza de Raio.\nAscendência Quadrivalente: depois de usar sua Perícia Suprema, Acheron ganha #2[i] ponto(s) de Sonho Retalhado e inflige #2[i] acúmulo(s) de Nó Rubro em um único inimigo aleatório.\nSe o ataque for realizado contra um inimigo normal, ele é derrotado imediatamente sem entrar em combate. Nenhum Ponto de Técnica será consumido caso nenhum inimigo seja atingido.",
         "en": "Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to #1[i]% of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.\nQuadrivalent Ascendance: After using the Ultimate, Acheron gains #2[i] point(s) of Slashed Dream and inflicts #2[i] stack(s) of Crimson Knot on a single random enemy.\nIf attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
-        "zh-CN": "立即攻击敌人，每个波次开始时获得【四相断我】，对敌方全体造成等同于黄泉#1[i]%攻击力的雷属性伤害，且无视弱点属性削减敌方全体的韧性，击破弱点时，触发雷属性的弱点击破效果。\n【四相断我】：施放终结技后黄泉获得#2[i]点【残梦】，并为敌方随机单体附上#2[i]层【集真赤】。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。",
-        "ja": "敵を攻撃。各ウェーブ開始時、「四相断我」を獲得し、敵全体に黄泉の攻撃力#1[i]%分の雷属性ダメージを与え、弱点属性を無視して靭性を削る。敵を弱点撃破した時、雷属性の弱点撃破効果を触発する。\n「四相断我」：黄泉が必殺技を発動した後、「残夢」を#2[i]層獲得し、同時にランダムな敵単体に「集真赤」を#2[i]層付与する。\n通常エネミーを攻撃した場合、戦闘には入らず即座にターゲットを撃破する。敵に命中しなかった場合、秘技ポイントは消費されない。",
-        "ko": "즉시 적을 공격한다. 웨이브가 시작될 때마다 [피상을 절단한 자아]를 획득한다. 모든 적에게 아케론 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, 약점 속성을 무시하고 모든 적의 강인성을 소모한다. 약점 격파 시 번개 속성 약점 격파 효과를 발동한다.\n[피상을 절단한 자아]: 필살기 발동 후 아케론은 [꿈 조각]을 #2[i]pt 획득하고, 랜덤 단일 적에게 [아즈사카]를 #2[i]스택 부여한다.\n일반 적을 공격하면 해당 적을 즉시 처치하고 전투에 진입하지 않는다. 적을 명중하지 못하면 비술 포인트를 소모하지 않는다"
+        "zh-CN": "立即攻击敌人，每个波次开始时获得【四相断我】，对敌方全体造成等同于黄泉#1[i]%攻击力的雷属性伤害，且无视弱点属性削减敌方全体的韧性，击破弱点时，触发雷属性的弱点击破效果。\n【四相断我】：施放终结技后黄泉获得#2[i]点【残梦】，并为敌方随机单体附上#2[i]层【集真赤】。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。"
       },
       "params": [[2, 1]],
       "icon": "icon/skill/1308_technique.png",
@@ -220,22 +176,18 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Recebe Ascendência Quadrivalente no início de cada onda, causando Dano de Raio a todos os inimigos e reduzindo sua Tenacidade independentemente dos Tipos de Fraqueza.\nSe estiver atacando um inimigo comum, imediatamente o derrota sem entrar em combate. O Ponto de Técnica não é gasto se o ataque não atingir um inimigo.",
         "en": "Attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG to all enemies and reducing Toughness regardless of Weakness Types.\nIf attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
-        "zh-CN": "攻击敌人，每个波次开始时获得【四相断我】，对敌方全体造成雷属性伤害，并无视弱点属性削减韧性。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。",
-        "ja": "敵を攻撃。各ウェーブ開始時、「四相断我」を獲得する。敵全体に雷属性ダメージを与え、弱点属性を無視して靭性を削る。\n通常エネミーを攻撃する時ターゲットはその場で倒され、戦闘に入らない。敵に命中しなかった場合、秘技PTは消費されない。",
-        "ko": "적을 공격한다. 웨이브가 시작될 때마다 [피상을 절단한 자아]를 획득한다. 모든 적에게 번개 속성 피해를 가하며 약점 속성을 무시하고 적의 강인성을 소모한다.\n일반 적을 공격하면 해당 적을 즉시 처치하고 전투에 진입하지 않는다. 적을 명중하지 못하면 비술 포인트를 소모하지 않는다"
+        "zh-CN": "攻击敌人，每个波次开始时获得【四相断我】，对敌方全体造成雷属性伤害，并无视弱点属性削减韧性。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" }
     },
     {
       "id": 130814,
       "type": "Ultimate",
-      "name": { "pt-BR": "Lâmina Pluvial", "en": "Rainblade", "zh-CN": "啼泽雨斩", "ja": "啼沢斬り", "ko": "눈물 베기" },
+      "name": { "pt-BR": "Lâmina Pluvial", "en": "Rainblade", "zh-CN": "啼泽雨斩" },
       "description": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo e remove até 3 acúmulos de Nó Rubro do alvo. Quando Nó Rubro é removido, causa Dano de Raio leve a todos os inimigos 1 vez, com o multiplicador de Dano para este ataque sendo aumentado para cada acúmulo de Nó Rubro removido.",
         "en": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。",
-        "ja": "敵単体に少量の雷属性ダメージを与え、その敵にある「集真赤」を最大で3層消去する。「集真赤」を消去した時、敵全体に少量の雷属性ダメージを1回与える。消去した「集真赤」1層につき、ダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가하고, 목표의 [아즈사카]를 최대 3스택 소거한다. [아즈사카] 소거 시 모든 적에게 소량의 번개 속성 피해를 1회 가한다. [아즈사카]를 1스택 소거할 때마다 이번 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。"
       },
       "params": [
         [0.144, 0.09, 0.72],
@@ -259,23 +211,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo e remove até 3 acúmulos de Nó Rubro do alvo. Quando Nó Rubro é removido, causa Dano de Raio leve a todos os inimigos 1 vez, com o multiplicador de Dano para este ataque sendo aumentado para cada acúmulo de Nó Rubro removido.",
         "en": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。",
-        "ja": "敵単体に少量の雷属性ダメージを与え、その敵にある「集真赤」を最大で3層消去する。「集真赤」を消去した時、敵全体に少量の雷属性ダメージを1回与える。消去した「集真赤」1層につき、ダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가하고, 목표의 [아즈사카]를 최대 3스택 소거한다. [아즈사카] 소거 시 모든 적에게 소량의 번개 속성 피해를 1회 가한다. [아즈사카]를 1스택 소거할 때마다 이번 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 130815,
       "type": "Ultimate",
-      "name": { "pt-BR": "Lâmina Pluvial", "en": "Rainblade", "zh-CN": "啼泽雨斩", "ja": "啼沢斬り", "ko": "눈물 베기" },
+      "name": { "pt-BR": "Lâmina Pluvial", "en": "Rainblade", "zh-CN": "啼泽雨斩" },
       "description": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo e remove até 3 acúmulos de Nó Rubro do alvo. Quando Nó Rubro é removido, causa Dano de Raio leve a todos os inimigos 1 vez, com o multiplicador de Dano para este ataque sendo aumentado para cada acúmulo de Nó Rubro removido.",
         "en": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。",
-        "ja": "敵単体に少量の雷属性ダメージを与え、その敵にある「集真赤」を最大で3層消去する。「集真赤」を消去した時、敵全体に少量の雷属性ダメージを1回与える。消去した「集真赤」1層につき、ダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가하고, 목표의 [아즈사카]를 최대 3스택 소거한다. [아즈사카] 소거 시 모든 적에게 소량의 번개 속성 피해를 1회 가한다. [아즈사카]를 1스택 소거할 때마다 이번 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。"
       },
       "params": [
         [0.144, 0.09, 0.72],
@@ -299,23 +247,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo e remove até 3 acúmulos de Nó Rubro do alvo. Quando Nó Rubro é removido, causa Dano de Raio leve a todos os inimigos 1 vez, com o multiplicador de Dano para este ataque sendo aumentado para cada acúmulo de Nó Rubro removido.",
         "en": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。",
-        "ja": "敵単体に少量の雷属性ダメージを与え、その敵にある「集真赤」を最大で3層消去する。「集真赤」を消去した時、敵全体に少量の雷属性ダメージを1回与える。消去した「集真赤」1層につき、ダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가하고, 목표의 [아즈사카]를 최대 3스택 소거한다. [아즈사카] 소거 시 모든 적에게 소량의 번개 속성 피해를 1회 가한다. [아즈사카]를 1스택 소거할 때마다 이번 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 130816,
       "type": "Ultimate",
-      "name": { "pt-BR": "Lâmina Pluvial", "en": "Rainblade", "zh-CN": "啼泽雨斩", "ja": "啼沢斬り", "ko": "눈물 베기" },
+      "name": { "pt-BR": "Lâmina Pluvial", "en": "Rainblade", "zh-CN": "啼泽雨斩" },
       "description": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo e remove até 3 acúmulos de Nó Rubro do alvo. Quando Nó Rubro é removido, causa Dano de Raio leve a todos os inimigos 1 vez, com o multiplicador de Dano para este ataque sendo aumentado para cada acúmulo de Nó Rubro removido.",
         "en": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。",
-        "ja": "敵単体に少量の雷属性ダメージを与え、その敵にある「集真赤」を最大で3層消去する。「集真赤」を消去した時、敵全体に少量の雷属性ダメージを1回与える。消去した「集真赤」1層につき、ダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가하고, 목표의 [아즈사카]를 최대 3스택 소거한다. [아즈사카] 소거 시 모든 적에게 소량의 번개 속성 피해를 1회 가한다. [아즈사카]를 1스택 소거할 때마다 이번 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。"
       },
       "params": [
         [0.144, 0.09, 0.72],
@@ -339,29 +283,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo e remove até 3 acúmulos de Nó Rubro do alvo. Quando Nó Rubro é removido, causa Dano de Raio leve a todos os inimigos 1 vez, com o multiplicador de Dano para este ataque sendo aumentado para cada acúmulo de Nó Rubro removido.",
         "en": "Deals minor Lightning DMG to one enemy, and removes up to 3 stacks of \"Crimson Knot\" from the target. When \"Crimson Knot\" is removed, deals minor Lightning DMG to all enemies 1 time, with this DMG multiplier increased for every stack of \"Crimson Knot\" removed.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。",
-        "ja": "敵単体に少量の雷属性ダメージを与え、その敵にある「集真赤」を最大で3層消去する。「集真赤」を消去した時、敵全体に少量の雷属性ダメージを1回与える。消去した「集真赤」1層につき、ダメージ倍率がアップする。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가하고, 목표의 [아즈사카]를 최대 3스택 소거한다. [아즈사카] 소거 시 모든 적에게 소량의 번개 속성 피해를 1회 가한다. [아즈사카]를 1스택 소거할 때마다 이번 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成少量雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，对敌方全体造成1次少量雷属性伤害，每消去1层【集真赤】本次伤害倍率提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 130817,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Ressurreição Estígia",
-        "en": "Stygian Resurge",
-        "zh-CN": "黄泉返渡",
-        "ja": "黄泉返り",
-        "ko": "황천의 귀환"
-      },
+      "name": { "pt-BR": "Ressurreição Estígia", "en": "Stygian Resurge", "zh-CN": "黄泉返渡" },
       "description": {
         "pt-BR": "Causa Dano de Raio a todos os inimigos e remove todos os acúmulos de Nó Rubro.",
         "en": "Deals Lightning DMG to all enemies and removes all Crimson Knots.",
-        "zh-CN": "对敌方全体造成雷属性伤害并移除所有【集真赤】。",
-        "ja": "敵全体に雷属性ダメージを与え、すべての「集真赤」をクリアする。",
-        "ko": "모든 적에게 번개 속성 피해를 가하고 모든 [아즈사카]를 해제한다"
+        "zh-CN": "对敌方全体造成雷属性伤害并移除所有【集真赤】。"
       },
       "params": [
         [0.72],
@@ -385,12 +319,10 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio a todos os inimigos e remove todos os acúmulos de Nó Rubro.",
         "en": "Deals Lightning DMG to all enemies and removes all Crimson Knots.",
-        "zh-CN": "对敌方全体造成雷属性伤害并移除所有【集真赤】。",
-        "ja": "敵全体に雷属性ダメージを与え、すべての「集真赤」をクリアする。",
-        "ko": "모든 적에게 번개 속성 피해를 가하고 모든 [아즈사카]를 해제한다"
+        "zh-CN": "对敌方全体造成雷属性伤害并移除所有【集真赤】。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     }
   ],
   "eidolons": [
@@ -399,16 +331,12 @@
       "name": {
         "pt-BR": "Verdadeiras Palavras do Céu",
         "en": "Silenced Sky Spake Sooth",
-        "zh-CN": "高天寥落真言始",
-        "ja": "{RUBY_B#こうてんりょうらく}高天寥落{RUBY_E#}、\n{RUBY_B#しんごん}真言{RUBY_E#}{RUBY_B#はじ}始{RUBY_E#}まる",
-        "ko": "적막의 하늘, 진언의 시작"
+        "zh-CN": "高天寥落真言始"
       },
       "description": {
         "pt-BR": "Ao causar Dano a inimigos com penalidade, aumenta a Chance de CRIT em 18%.",
         "en": "When dealing DMG to debuffed enemies, increases CRIT Rate by 18%.",
-        "zh-CN": "对处于负面效果的敌方目标造成伤害时暴击率提高18%。",
-        "ja": "デバフ状態の敵にダメージを与える時、会心率+18%。",
-        "ko": "디버프 효과를 보유한 적에게 피해를 가할 시 치명타 확률이 18% 증가한다"
+        "zh-CN": "对处于负面效果的敌方目标造成伤害时暴击率提高18%。"
       },
       "icon": "icon/skill/1308_rank1.png",
       "materials": [{ "id": 11308, "num": 1 }],
@@ -419,16 +347,12 @@
       "name": {
         "pt-BR": "Trovões Mudos na Tempestade Amainada",
         "en": "Mute Thunder in Still Tempest",
-        "zh-CN": "霆鼓俱寂，瑟风亦止",
-        "ja": "{RUBY_B#らいてい}雷霆{RUBY_E#}{RUBY_B#しず}静{RUBY_E#}まり、{RUBY_B#あきかぜ}秋風{RUBY_E#}{RUBY_B#や}止む{RUBY_E#}",
-        "ko": "고요한 뇌명, 잠잠해진 폭풍"
+        "zh-CN": "霆鼓俱寂，瑟风亦止"
       },
       "description": {
         "pt-BR": "O número de personagens no Caminho da Inexistência necessário para alcançar o maior efeito possível do Rastro \"O Abismo\" é reduzido por 1. No início da rodada desta unidade, ganha 1 ponto de Sonho Retalhado e inflige 1 acúmulo de Nó Rubro a um inimigo com mais acúmulos de Nó Rubro.",
         "en": "The number of Nihility characters required for the Trace \"The Abyss\" to achieve its highest possible effect is reduced by 1. When this unit's turn starts, gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the enemy with the most Crimson Knot stacks.",
-        "zh-CN": "行迹【奈落】最高数值所需求「虚无」命途角色的数量减少1名，自身回合开始时获得1点【残梦】，同时为【集真赤】最多的敌方附上1层【集真赤】。",
-        "ja": "軌跡「奈落」の効果の最大値に達するために必要な「虚無」の運命を歩むキャラクターの数-1名。自身のターンが回ってきた時、「残夢」を1層獲得し、「集真赤」が最も多い敵に「集真赤」を1層付与する。",
-        "ko": "행적 [나락] 최대치 도달에 필요한 「공허」 운명의 길 캐릭터의 수가 1명 감소한다. 자신의 턴이 시작되면 [꿈 조각]을 1pt 획득하고, 동시에 [아즈사카]가 가장 많은 적에게 [아즈사카]를 1스택 부여한다"
+        "zh-CN": "行迹【奈落】最高数值所需求「虚无」命途角色的数量减少1名，自身回合开始时获得1点【残梦】，同时为【集真赤】最多的敌方附上1层【集真赤】。"
       },
       "icon": "icon/skill/1308_rank2.png",
       "materials": [{ "id": 11308, "num": 1 }],
@@ -436,19 +360,11 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Mordidas Gélidas na Morte",
-        "en": "Frost Bites in Death",
-        "zh-CN": "寒肃惊永蛰",
-        "ja": "{RUBY_B#えいちつ}永蟄{RUBY_E#}を{RUBY_B#おびや}脅{RUBY_E#}かす{RUBY_B#かんぷう}寒風{RUBY_E#}",
-        "ko": "영면을 깨운 추위"
-      },
+      "name": { "pt-BR": "Mordidas Gélidas na Morte", "en": "Frost Bites in Death", "zh-CN": "寒肃惊永蛰" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1308_ultimate.png",
       "materials": [{ "id": 11308, "num": 1 }],
@@ -466,16 +382,12 @@
       "name": {
         "pt-BR": "Fogo Sagrado da Alma Refletida",
         "en": "Shrined Fire for Mirrored Soul",
-        "zh-CN": "亘焰燎照镜中人",
-        "ja": "{RUBY_B#きょうちゅう}鏡中{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#えいえん}永焔{RUBY_E#}",
-        "ko": "거울 속 존재를 비추는 불길"
+        "zh-CN": "亘焰燎照镜中人"
       },
       "description": {
         "pt-BR": "Quando o inimigo-alvo entra em combate, inflige a ele Vulnerabilidade a Dano da Perícia Suprema, aumentando a quantidade de Dano da Perícia Suprema recebido em 8%.",
         "en": "When enemy targets enter combat, inflicts them with the Ultimate DMG Vulnerability, increasing the amount of Ultimate DMG they take by 8%.",
-        "zh-CN": "在敌方目标进入战斗时，使其陷入终结技伤害易伤状态，受到的终结技伤害提高8%。",
-        "ja": "戦闘に入った敵は、必殺技被ダメージアップ状態になり、受ける必殺技ダメージ+8%。",
-        "ko": "적이 전투 진입 시 해당 적을 필살기 피해 취약 상태에 빠트려 받는 필살기 피해를 8% 증가시킨다"
+        "zh-CN": "在敌方目标进入战斗时，使其陷入终结技伤害易伤状态，受到的终结技伤害提高8%。"
       },
       "icon": "icon/skill/1308_rank4.png",
       "materials": [{ "id": 11308, "num": 1 }],
@@ -486,16 +398,12 @@
       "name": {
         "pt-BR": "Almas Espalhadas em Terras Apagadas",
         "en": "Strewn Souls on Erased Earths",
-        "zh-CN": "崇岩支离，千身飘零",
-        "ja": "{RUBY_B#ばんじゃくほうらく}盤石崩落{RUBY_E#}、{RUBY_B#せんしんひょうらく}千身漂落{RUBY_E#}",
-        "ko": "부서진 땅, 떠도는 영혼"
+        "zh-CN": "崇岩支离，千身飘零"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1308_skill.png",
       "materials": [{ "id": 11308, "num": 1 }],
@@ -506,16 +414,12 @@
       "name": {
         "pt-BR": "Apocalipse, o Emancipador",
         "en": "Apocalypse, the Emancipator",
-        "zh-CN": "灾咎解桎梏",
-        "ja": "{RUBY_B#そくばく}束縛{RUBY_E#}を{RUBY_B#と}解{RUBY_E#}く{RUBY_B#わざわ}災{RUBY_E#}い",
-        "ko": "속박을 푼 재앙"
+        "zh-CN": "灾咎解桎梏"
       },
       "description": {
         "pt-BR": "Aumenta a PEN de RES a Todos os Tipos do Dano de Perícia Suprema causado por Acheron em 20%. O Dano causado pelo ATQ Básico e pela Perícia também será considerado Dano de Perícia Suprema e pode reduzir a Tenacidade do inimigo independentemente dos Tipos de Fraqueza. Ao aplicar Quebra de Fraqueza, ativa o efeito de Quebra de Fraqueza contra Raio.",
         "en": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can Reduce enemy Toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.",
-        "zh-CN": "黄泉造成的终结技伤害全属性抗性穿透提高20%，施放普攻、战技造成的伤害同时视为终结技伤害，并无视弱点属性削减敌方韧性。击破弱点时，触发雷属性的弱点击破效果。",
-        "ja": "黄泉が与える必殺技ダメージの全属性耐性貫通+20%。通常攻撃ダメージ、戦闘スキルダメージが同時に必殺技ダメージと見なされ、弱点属性を無視して敵の靭性を削る。敵を弱点撃破した時、雷属性の弱点撃破効果を触発する。",
-        "ko": "아케론이 가하는 필살기 피해의 모든 속성 저항 관통이 20% 증가한다. 일반 공격과 전투 스킬을 발동하여 가하는 피해는 동시에 필살기 피해로 간주되며, 약점 속성을 무시하고 적의 강인성을 소모한다. 약점 격파 시 번개 속성의 약점 격파 효과를 발동한다"
+        "zh-CN": "黄泉造成的终结技伤害全属性抗性穿透提高20%，施放普攻、战技造成的伤害同时视为终结技伤害，并无视弱点属性削减敌方韧性。击破弱点时，触发雷属性的弱点击破效果。"
       },
       "icon": "icon/skill/1308_rank6.png",
       "materials": [{ "id": 11308, "num": 1 }],
@@ -890,19 +794,11 @@
     {
       "id": 1308101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Oni Vermelho",
-        "en": "Red Oni",
-        "zh-CN": "赤鬼",
-        "ja": "{RUBY_B#あかおに}赤鬼{RUBY_E#}",
-        "ko": "적귀"
-      },
+      "name": { "pt-BR": "Oni Vermelho", "en": "Red Oni", "zh-CN": "赤鬼" },
       "description": {
         "pt-BR": "No início da batalha, ganha imediatamente #1[i] ponto(s) de Sonho Retalhado e aplica #1[i] acúmulo(s) de Nó Rubro em um inimigo aleatório. Quando Sonho Retalhado alcançar seu limite máximo, para cada ponto de Sonho Retalhado que exceder o limite, ganha 1 acúmulo de Ascendência Quadrivalente. Permite que Ascendência Quadrivalente acumule até #2[i] vez(es).",
         "en": "When battle starts, immediately gains #1[i] point(s) of Slashed Dream and applies #1[i] stack(s) of Crimson Knot to a random enemy. When Slashed Dream reaches its upper limit, for every point of Slashed Dream that exceeds the limit, gains 1 stack of Quadrivalent Ascendance. Enables Quadrivalent Ascendance to stack up to #2[i] time(s).",
-        "zh-CN": "战斗开始时，立即获得#1[i]点【残梦】，并为随机1名敌方附上#1[i]层【集真赤】。当【残梦】达到上限时，每溢出1点【残梦】获得1层【四相断我】，使【四相断我】最多可以叠加至#2[i]层。",
-        "ja": "戦闘開始時、「残夢」を#1[i]層獲得し、ランダムな敵1体に「集真赤」を#1[i]層付与する。「残夢」が上限値まで蓄積された後、「残夢」を1層獲得するごとに「四相断我」を1層獲得する。「四相断我」は#2[i]層まで蓄積できるようになる。",
-        "ko": "전투 시작 시, 즉시 [꿈 조각]을 #1[i]pt 획득하고 임의의 적 1기에게 [아즈사카]를 #1[i]스택 부여한다. [꿈 조각]이 최대치에 도달하면 [꿈 조각]이 1pt 초과될 때마다 [피상을 절단한 자아]를 1스택 획득하고, [피상을 절단한 자아]는 최대 #2[i]스택까지 중첩된다"
+        "zh-CN": "战斗开始时，立即获得#1[i]点【残梦】，并为随机1名敌方附上#1[i]层【集真赤】。当【残梦】达到上限时，每溢出1点【残梦】获得1层【四相断我】，使【四相断我】最多可以叠加至#2[i]层。"
       },
       "params": [[5, 3]],
       "icon": "icon/skill/1308_skilltree1.png",
@@ -921,19 +817,11 @@
     {
       "id": 1308102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "O Abismo",
-        "en": "The Abyss",
-        "zh-CN": "奈落",
-        "ja": "{RUBY_B#ならく}奈落{RUBY_E#}",
-        "ko": "나락"
-      },
+      "name": { "pt-BR": "O Abismo", "en": "The Abyss", "zh-CN": "奈落" },
       "description": {
         "pt-BR": "Quando existirem 1 ou 2 personagens seguindo o Caminho da Inexistência na equipe além de Acheron, aumenta o Dano causado pelo ATQ Básico, pela Perícia e pela Perícia Suprema de Acheron em #1[i]% ou #2[i]% do Dano original respectivamente.",
         "en": "When there are 1 or 2 Nihility characters other than Acheron in the team, the DMG dealt by Acheron's Basic ATK, Skill, and Ultimate increases to #1[i]% or #2[i]% of the original DMG respectively.",
-        "zh-CN": "我方队伍中存在1名/2名除黄泉之外的「虚无」命途角色时，使黄泉普攻、战技、终结技造成的伤害为原伤害的#1[i]%/#2[i]%。",
-        "ja": "パーティ内に黄泉以外の「虚無」の運命を歩むキャラクターが1名/2名存在する場合、黄泉の通常攻撃、戦闘スキル、および必殺技によるダメージが本来の#1[i]%/#2[i]%になる。",
-        "ko": "아군 파티에 아케론을 제외한 「공허」 운명의 길 캐릭터가 1명/2명 존재 시, 아케론의 일반 공격, 전투 스킬, 필살기로 가하는 피해가 기존 피해의 #1[i]%/#2[i]%가 된다"
+        "zh-CN": "我方队伍中存在1名/2名除黄泉之外的「虚无」命途角色时，使黄泉普攻、战技、终结技造成的伤害为原伤害的#1[i]%/#2[i]%。"
       },
       "params": [[1.15, 1.6]],
       "icon": "icon/skill/1308_skilltree2.png",
@@ -957,19 +845,11 @@
     {
       "id": 1308103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Núcleo Trovejante",
-        "en": "Thunder Core",
-        "zh-CN": "雷心",
-        "ja": "{RUBY_B#らいしん}雷心{RUBY_E#}",
-        "ko": "뇌심"
-      },
+      "name": { "pt-BR": "Núcleo Trovejante", "en": "Thunder Core", "zh-CN": "雷心" },
       "description": {
         "pt-BR": "Quando a Lâmina Pluvial da Perícia Suprema atinge os inimigos-alvo com Nó Rubro, o Dano causado por Acheron aumenta em #1[i]%, acumulando até um máximo de #2[i] acúmulo(s) e durando por #3[i] rodada(s). Também causa Dano adicionalmente #4[i] vez(es) quando a Ressurreição Estígia é acionada. Cada golpe causa Dano de Raio igual a #5[i]% do ATQ de Acheron a um único inimigo-alvo aleatório e é considerado como Dano de Perícia Suprema.",
         "en": "When the Ultimate's Rainblade hits enemy targets that have Crimson Knot, the DMG dealt by Acheron increases by #1[i]%, stacking up to #2[i] time(s) and lasting for #3[i] turn(s). And when Stygian Resurge triggers, additionally deals DMG for #4[i] times. Each time deals Lightning DMG equal to #5[i]% of Acheron's ATK to a single random enemy and is considered as Ultimate DMG.",
-        "zh-CN": "终结技的【啼泽雨斩】击中持有【集真赤】的敌方目标时，使黄泉造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续#3[i]回合，并在发动【黄泉返渡】时额外造成#4[i]次伤害，每次伤害对敌方随机单体造成等同于黄泉#5[i]%攻击力的雷属性伤害，该伤害视为终结技伤害。",
-        "ja": "必殺技の「啼沢斬り」が「集真赤」を持つ敵に命中する時、黄泉の与ダメージ+#1[i]%、この効果は最大で#2[i]層累積でき、#3[i]ターン継続。また、「黄泉返り」を発動する時、さらに#4[i]ヒットする。1ヒットごとにランダムな敵単体に黄泉の攻撃力#5[i]%分の雷属性ダメージを与える、このダメージは必殺技ダメージと見なされる。",
-        "ko": "필살기의 [눈물 베기]로 [아즈사카]를 보유한 적 명중 시 아케론이 가하는 피해가 #1[i]% 증가한다. 해당 효과 최대 중첩수: #2[i]스택, 지속 시간: #3[i]턴. 또한, [황천의 귀환] 발동 시 추가로 피해를 #4[i]회 가하고, 피해를 가할 때마다 랜덤 단일 적에게 아케론 공격력의 #5[i]%만큼 번개 속성 피해를 가하며, 해당 피해는 필살기 피해로 간주한다"
+        "zh-CN": "终结技的【啼泽雨斩】击中持有【集真赤】的敌方目标时，使黄泉造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续#3[i]回合，并在发动【黄泉返渡】时额外造成#4[i]次伤害，每次伤害对敌方随机单体造成等同于黄泉#5[i]%攻击力的雷属性伤害，该伤害视为终结技伤害。"
       },
       "params": [[0.3, 3, 3, 6, 0.25]],
       "icon": "icon/skill/1308_skilltree3.png",
@@ -993,7 +873,7 @@
     {
       "id": 1308201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1010,13 +890,7 @@
     {
       "id": 1308202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1308101],
@@ -1033,7 +907,7 @@
     {
       "id": 1308203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1308202],
@@ -1050,13 +924,7 @@
     {
       "id": 1308204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de Dano: Raio",
-        "en": "DMG Boost: Lightning",
-        "zh-CN": "伤害强化•雷",
-        "ja": "ダメージ強化・雷",
-        "ko": "피해 강화•번개"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Raio", "en": "DMG Boost: Lightning", "zh-CN": "伤害强化•雷" },
       "icon": "icon/property/IconThunderAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1308203],
@@ -1073,7 +941,7 @@
     {
       "id": 1308205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1308102],
@@ -1090,13 +958,7 @@
     {
       "id": 1308206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1308205],
@@ -1113,7 +975,7 @@
     {
       "id": 1308207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1308206],
@@ -1130,13 +992,7 @@
     {
       "id": 1308208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de Dano: Raio",
-        "en": "DMG Boost: Lightning",
-        "zh-CN": "伤害强化•雷",
-        "ja": "ダメージ強化・雷",
-        "ko": "피해 강화•번개"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Raio", "en": "DMG Boost: Lightning", "zh-CN": "伤害强化•雷" },
       "icon": "icon/property/IconThunderAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1308103],
@@ -1153,13 +1009,7 @@
     {
       "id": 1308209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1308103],
@@ -1176,7 +1026,7 @@
     {
       "id": 1308210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1308201],

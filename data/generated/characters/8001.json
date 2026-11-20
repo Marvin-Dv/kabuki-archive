@@ -1,13 +1,7 @@
 {
   "id": 8001,
   "slug": "trailblazer-8001",
-  "name": {
-    "pt-BR": "{NICKNAME}",
-    "en": "{NICKNAME}",
-    "zh-CN": "{NICKNAME}",
-    "ja": "{NICKNAME}",
-    "ko": "{NICKNAME}"
-  },
+  "name": { "pt-BR": "{NICKNAME}", "en": "{NICKNAME}", "zh-CN": "{NICKNAME}" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Physical",
@@ -17,19 +11,11 @@
     {
       "id": 800101,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Golpe de Despedida",
-        "en": "Farewell Hit",
-        "zh-CN": "再见安打",
-        "ja": "サヨナラ安打",
-        "ko": "끝내기 안타"
-      },
+      "name": { "pt-BR": "Golpe de Despedida", "en": "Farewell Hit", "zh-CN": "再见安打" },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo.",
         "en": "Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害。",
-        "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の物理属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
+        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/8001_basic_atk.png",
@@ -37,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano Físico leve a um único inimigo.",
         "en": "Deals minor Physical DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量物理属性伤害。",
-        "ja": "敵単体に少量の物理属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量物理属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 800102,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Home Run Fatal",
-        "en": "RIP Home Run",
-        "zh-CN": "安息全垒打",
-        "ja": "安息ホームラン",
-        "ko": "안식 홈런"
-      },
+      "name": { "pt-BR": "Home Run Fatal", "en": "RIP Home Run", "zh-CN": "安息全垒打" },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo e inimigos adjacentes.",
         "en": "Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and enemies adjacent to it.",
-        "zh-CN": "对指定敌方单体及其相邻目标造成等同于开拓者#1[i]%攻击力的物理属性伤害。",
-        "ja": "指定した敵単体および隣接する敵に開拓者の攻撃力#1[i]%分の物理属性ダメージを与える。",
-        "ko": "지정된 단일 적과 인접한 목표에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
+        "zh-CN": "对指定敌方单体及其相邻目标造成等同于开拓者#1[i]%攻击力的物理属性伤害。"
       },
       "params": [
         [0.625],
@@ -83,29 +59,19 @@
       "summary": {
         "pt-BR": "Causa Dano Físico a um único inimigo e aos inimigos adjacentes a ele.",
         "en": "Deals Physical DMG to one enemy and enemies adjacent to it.",
-        "zh-CN": "对敌方单体以及相邻目标造成物理属性伤害。",
-        "ja": "敵単体および隣接する敵に物理属性ダメージを与える。",
-        "ko": "단일 적 및 인접한 목표에게 물리 속성 피해를 준다"
+        "zh-CN": "对敌方单体以及相邻目标造成物理属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 800103,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Ás de Poeira Estelar",
-        "en": "Stardust Ace",
-        "zh-CN": "星尘王牌",
-        "ja": "スターダストエース",
-        "ko": "스타더스트의 에이스"
-      },
+      "name": { "pt-BR": "Ás de Poeira Estelar", "en": "Stardust Ace", "zh-CN": "星尘王牌" },
       "description": {
         "pt-BR": "Escolha entre dois modos de ataque para desferir um golpe completo.\nRuptura: Golpe de Despedida causa Dano Físico igual a #1[i]% do ATQ {F#da}{M#do} Desbrava{M#dor}{F#dora} a um único inimigo.\nRuptura: Home Run Fatal causa Dano Físico igual a #2[i]% do ATQ {F#da}{M#do} Desbrava{M#dor}{F#dora} a um único inimigo, e Dano Físico igual a #3[i]% do ATQ {F#da}{M#do} Desbrava{M#dor}{F#dora} aos inimigos adjacentes a ele",
         "en": "Choose between two attack modes to deliver a full strike.\n\"Blowout: Farewell Hit\" deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.\n\"Blowout: RIP Home Run\" deals Physical DMG equal to #2[i]% of the Trailblazer's ATK to one designated enemy, and Physical DMG equal to #3[i]% of the Trailblazer's ATK to enemies adjacent to it.",
-        "zh-CN": "在两种攻击模式中选择其一挥出全力一击。\n【全胜•再见安打】：对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害。\n【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者#2[i]%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者#3[i]%攻击力的物理属性伤害。",
-        "ja": "2つの攻撃モードの内の1つを選択し全力のバッティングをお見舞いする。\n「全勝・サヨナラ安打」：指定した敵単体に開拓者の攻撃力#1[i]%分の物理属性ダメージを与える。\n「全勝・安息ホームラン」：指定した敵単体に開拓者の攻撃力#2[i]%分の物理属性ダメージを与え、隣接する敵に開拓者の攻撃力#3[i]%分の物理属性ダメージを与える。",
-        "ko": "두 가지 모드 중 하나를 선택해 전력의 일격을 가한다.\n[압승•끝내기 안타]: 지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다.\n[압승•안식 홈런]: 지정된 단일 적에게 개척자 공격력 #2[i]%만큼의 물리 속성 피해를 주고, 인접한 목표에게도 개척자 공격력 #3[i]%만큼의 물리 속성 피해를 준다"
+        "zh-CN": "在两种攻击模式中选择其一挥出全力一击。\n【全胜•再见安打】：对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害。\n【全胜•安息全垒打】：对指定敌方单体造成等同于开拓者#2[i]%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者#3[i]%攻击力的物理属性伤害。"
       },
       "params": [
         [3, 1.8, 1.08],
@@ -129,29 +95,19 @@
       "summary": {
         "pt-BR": "Usa ATQ de alvo único ou uma Explosão para realizar um golpe com força máxima.",
         "en": "Uses Single Target ATK or Blast to strike with full force.",
-        "zh-CN": "选择单攻或扩散的攻击方式，挥出全力一击。",
-        "ja": "単体攻撃または拡散攻撃を選択し、全力のバッティングを振り出す。",
-        "ko": "단일 공격 또는 확산 공격으로 전력의 일격을 가한다"
+        "zh-CN": "选择单攻或扩散的攻击方式，挥出全力一击。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 800104,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Arremesso Perfeito",
-        "en": "Perfect Pickoff",
-        "zh-CN": "牵制盗垒",
-        "ja": "盗塁牽制",
-        "ko": "도루 견제"
-      },
+      "name": { "pt-BR": "Arremesso Perfeito", "en": "Perfect Pickoff", "zh-CN": "牵制盗垒" },
       "description": {
         "pt-BR": "Sempre depois que este personagem inflige uma Quebra de Fraqueza a um inimigo, o ATQ aumenta em #1[i]%. Este efeito pode acumular até #2[i] vez(es).",
         "en": "Each time after this character inflicts Weakness Break on an enemy, ATK increases by #1[i]%. This effect stacks up to #2[i] time(s).",
-        "zh-CN": "每次击破敌方目标的弱点后，攻击力提高#1[i]%，该效果最多叠加#2[i]层。",
-        "ja": "敵を弱点撃破した後、攻撃力+#1[i]%、最大で#2[i]回累積できる。",
-        "ko": "적의 약점을 격파할 때마다 개척자의 공격력이 #1[i]% 증가한다. 해당 효과 최대 중첩수: #2[i]스택"
+        "zh-CN": "每次击破敌方目标的弱点后，攻击力提高#1[i]%，该效果最多叠加#2[i]层。"
       },
       "params": [
         [0.1, 2],
@@ -175,50 +131,36 @@
       "summary": {
         "pt-BR": "Toda vez que essa unidade causa Quebra de Fraqueza a um inimigo-alvo, o ATQ aumenta.",
         "en": "Every time this unit breaks an enemy target's Weakness, ATK increases.",
-        "zh-CN": "每次击破敌方目标的弱点后，攻击力提高。",
-        "ja": "敵を弱点撃破した後、攻撃力がアップする。",
-        "ko": "적의 약점을 격파할 때마다 공격력이 증가한다"
+        "zh-CN": "每次击破敌方目标的弱点后，攻击力提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 800106,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/8001_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 800107,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Terceiro Golpe Imortal",
-        "en": "Immortal Third Strike",
-        "zh-CN": "不灭三振",
-        "ja": "不滅三振",
-        "ko": "불멸의 삼진"
-      },
+      "name": { "pt-BR": "Terceiro Golpe Imortal", "en": "Immortal Third Strike", "zh-CN": "不灭三振" },
       "description": {
         "pt-BR": "Imediatamente cura todos os aliados em #1[i]% de seus PV máximos depois de usar esta Técnica.",
         "en": "Immediately heals all allies for #1[i]% of their respective Max HP after using this Technique.",
-        "zh-CN": "使用秘技后立即为我方全体回复等同于各自生命上限#1[i]%的生命值。",
-        "ja": "秘技を使用した後、味方全体のHPをそれぞれの最大HP#1[i]%分回復する。",
-        "ko": "비술 발동 후 즉시 모든 아군은 자신의 HP 최대치 #1[i]%만큼의 HP를 회복한다"
+        "zh-CN": "使用秘技后立即为我方全体回复等同于各自生命上限#1[i]%的生命值。"
       },
       "params": [[0.15]],
       "icon": "icon/skill/8001_technique.png",
@@ -226,29 +168,19 @@
       "summary": {
         "pt-BR": "Após usar a Técnica, imediatamente restaura PV para a equipe.",
         "en": "After using Technique, immediately restores HP for team.",
-        "zh-CN": "使用秘技后立即为我方全体回复生命值。",
-        "ja": "秘技を使用した後、味方全体のHPを回復する。",
-        "ko": "비술 사용 후 즉시 모든 아군의 HP를 회복한다"
+        "zh-CN": "使用秘技后立即为我方全体回复生命值。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复" }
     },
     {
       "id": 800108,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Ruptura: Golpe de Despedida",
-        "en": "Blowout: Farewell Hit",
-        "zh-CN": "全胜•再见安打",
-        "ja": "全勝・サヨナラ安打",
-        "ko": "압승•끝내기 안타"
-      },
+      "name": { "pt-BR": "Ruptura: Golpe de Despedida", "en": "Blowout: Farewell Hit", "zh-CN": "全胜•再见安打" },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo.",
         "en": "Deals Physical DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害。",
-        "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の物理属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
+        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害。"
       },
       "params": [
         [3],
@@ -272,29 +204,19 @@
       "summary": {
         "pt-BR": "Causa Dano Físico massivo a um único inimigo.",
         "en": "Deals massive Physical DMG to one enemy.",
-        "zh-CN": "对敌方单体造成大量物理属性伤害。",
-        "ja": "敵単体に大量の物理属性ダメージを与える。",
-        "ko": "단일 적에게 대량의 물리 속성 피해를 준다"
+        "zh-CN": "对敌方单体造成大量物理属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 800109,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Ruptura: Home Run Fatal",
-        "en": "Blowout: RIP Home Run",
-        "zh-CN": "全胜•安息全垒打",
-        "ja": "全勝・安息ホームラン",
-        "ko": "압승•안식 홈런"
-      },
+      "name": { "pt-BR": "Ruptura: Home Run Fatal", "en": "Blowout: RIP Home Run", "zh-CN": "全胜•安息全垒打" },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo e Dano Físico igual a #2[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a quaisquer inimigos adjacentes a ele.",
         "en": "Deals Physical DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy and Physical DMG equal to #2[i]% of Trailblazer's ATK to enemies adjacent to it.",
-        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害，同时对其相邻目标造成等同于开拓者#2[i]%攻击力的物理属性伤害。",
-        "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の物理属性ダメージを与え、隣接する敵に開拓者の攻撃力#2[i]%分の物理属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 개척자 공격력의 #1[i]%만큼 물리 속성 피해를 가하며, 인접한 목표에게 개척자 공격력의 #2[i]%만큼 물리 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的物理属性伤害，同时对其相邻目标造成等同于开拓者#2[i]%攻击力的物理属性伤害。"
       },
       "params": [
         [1.8, 1.08],
@@ -318,30 +240,20 @@
       "summary": {
         "pt-BR": "Causa Dano Físico a um único inimigo e aos inimigos adjacentes a ele.",
         "en": "Deals Physical DMG to one enemy and enemies adjacent to it.",
-        "zh-CN": "对敌方单体及其相邻目标造成物理属性伤害。",
-        "ja": "敵単体および隣接する敵に物理属性ダメージを与える。",
-        "ko": "단일 적 및 대상의 인접한 목표에게 물리 속성 피해를 가한다"
+        "zh-CN": "对敌方单体及其相邻目标造成物理属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Uma Estrela Cadente",
-        "en": "A Falling Star",
-        "zh-CN": "坠临万界的星芒",
-        "ja": "{RUBY_B#まんかい}万界{RUBY_E#}に{RUBY_B#ついりん}墜臨{RUBY_E#}した{RUBY_B#せいぼう}星芒{RUBY_E#}",
-        "ko": "만계에 떨어진 별빛"
-      },
+      "name": { "pt-BR": "Uma Estrela Cadente", "en": "A Falling Star", "zh-CN": "坠临万界的星芒" },
       "description": {
         "pt-BR": "Quando inimigos são derrotados pela Perícia Suprema d{M#o}{F#a} Desbrava{M#dor}{F#dora}, {M#o}{F#a} Desbrava{M#dor}{F#dora} regenera 10 de Energia extra. Esse efeito só pode ser ativado uma vez por ataque.",
         "en": "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack.",
-        "zh-CN": "施放终结技消灭敌方目标时，开拓者额外恢复10点能量，该效果每次攻击只能触发1次。",
-        "ja": "必殺技で敵を倒した時、さらに開拓者のEPを10回復する。この効果は1回の攻撃で1回まで発動できる。",
-        "ko": "필살기를 발동하여 적 처치 시 개척자는 에너지를 추가로 10pt 회복한다. 해당 효과는 공격할 때마다 1회만 발동할 수 있다"
+        "zh-CN": "施放终结技消灭敌方目标时，开拓者额外恢复10点能量，该效果每次攻击只能触发1次。"
       },
       "icon": "icon/skill/8001_rank1.png",
       "materials": [{ "id": 18001, "num": 1 }],
@@ -349,19 +261,11 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Um Anfitrião Indisposto",
-        "en": "An Unwilling Host",
-        "zh-CN": "因缘假合的人身",
-        "ja": "{RUBY_B#えん}縁{RUBY_E#}の{RUBY_B#もと}下{RUBY_E#}{RUBY_B#かごう}假合{RUBY_E#}した{RUBY_B#じんしん}人身{RUBY_E#}",
-        "ko": "가합의 인연"
-      },
+      "name": { "pt-BR": "Um Anfitrião Indisposto", "en": "An Unwilling Host", "zh-CN": "因缘假合的人身" },
       "description": {
         "pt-BR": "Atacar inimigos com Fraqueza contra Físico restaura uma quantidade de PV igual a 5% do ATQ {F#da Desbravadora}{M#do Desbravador}.",
         "en": "Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK.",
-        "zh-CN": "施放攻击后，若击中的敌方目标弱点为物理属性，则回复等同于开拓者5%攻击力的生命值。",
-        "ja": "攻撃を行った後、攻撃が命中した敵の弱点が物理属性の場合、開拓者の攻撃力5%分のHPを回復する。",
-        "ko": "공격 발동 후 명중한 적의 약점이 물리 속성이면 개척자 공격력 5%만큼의 HP를 회복한다"
+        "zh-CN": "施放攻击后，若击中的敌方目标弱点为物理属性，则回复等同于开拓者5%攻击力的生命值。"
       },
       "icon": "icon/skill/8001_rank2.png",
       "materials": [{ "id": 18001, "num": 1 }],
@@ -369,19 +273,11 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Um Sussurro Condutor",
-        "en": "A Leading Whisper",
-        "zh-CN": "揭示前路的言灵",
-        "ja": "{RUBY_B#ぜんろ}前路{RUBY_E#}を{RUBY_B#しめ}示{RUBY_E#}す{RUBY_B#ことだま}言霊{RUBY_E#}",
-        "ko": "앞길을 제시하는 언령"
-      },
+      "name": { "pt-BR": "Um Sussurro Condutor", "en": "A Leading Whisper", "zh-CN": "揭示前路的言灵" },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/8001_skill.png",
       "materials": [{ "id": 18001, "num": 1 }],
@@ -389,19 +285,11 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Um Olhar Destruidor",
-        "en": "A Destructing Glance",
-        "zh-CN": "凝眸毁灭的瞬间",
-        "ja": "{RUBY_B#きめつ}毀滅{RUBY_E#}の{RUBY_B#しゅんかん}瞬間{RUBY_E#}を{RUBY_B#ぎょうし}凝視{RUBY_E#}する{RUBY_B#ひとみ}瞳{RUBY_E#}",
-        "ko": "파멸의 순간을 응시하는 눈"
-      },
+      "name": { "pt-BR": "Um Olhar Destruidor", "en": "A Destructing Glance", "zh-CN": "凝眸毁灭的瞬间" },
       "description": {
         "pt-BR": "Ao atacar um inimigo com Quebra de Fraqueza, a Chance de CRIT aumenta em 25%.",
         "en": "When attacking an enemy that is Weakness Broken, increases CRIT Rate by 25%.",
-        "zh-CN": "击中处于弱点击破状态的敌方目标时，暴击率提高25%。",
-        "ja": "弱点撃破状態の敵に攻撃が命中した時、会心率+25%。",
-        "ko": "약점 격파 상태의 적 공격 시 치명타 확률이 25% 증가한다"
+        "zh-CN": "击中处于弱点击破状态的敌方目标时，暴击率提高25%。"
       },
       "icon": "icon/skill/8001_rank4.png",
       "materials": [{ "id": 18001, "num": 1 }],
@@ -409,19 +297,11 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Uma Esperança Sobrevivente",
-        "en": "A Surviving Hope",
-        "zh-CN": "劫余重生的希望",
-        "ja": "{RUBY_B#さいごう}災劫{RUBY_E#}に{RUBY_B#も}燃{RUBY_E#}える{RUBY_B#さいせい}再生{RUBY_E#}の{RUBY_B#きぼう}希望{RUBY_E#}",
-        "ko": "남겨진 부활의 희망"
-      },
+      "name": { "pt-BR": "Uma Esperança Sobrevivente", "en": "A Surviving Hope", "zh-CN": "劫余重生的希望" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/8001_ultimate.png",
       "materials": [{ "id": 18001, "num": 1 }],
@@ -434,19 +314,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Um Desejo de Exploração",
-        "en": "A Trailblazing Will",
-        "zh-CN": "拓宇行天的意志",
-        "ja": "{RUBY_B#たくうぎょうてん}拓宇行天{RUBY_E#}の{RUBY_B#いし}意志{RUBY_E#}",
-        "ko": "우주 개척의 의지"
-      },
+      "name": { "pt-BR": "Um Desejo de Exploração", "en": "A Trailblazing Will", "zh-CN": "拓宇行天的意志" },
       "description": {
         "pt-BR": "O Talento {F#da Desbravadora}{M#do Desbravador} também é ativado quando {M#ele}{F#ela} derrota um inimigo.",
         "en": "The Trailblazer's Talent is also triggered when they defeat an enemy.",
-        "zh-CN": "开拓者消灭敌方目标时，也会触发天赋。",
-        "ja": "開拓者が敵を倒した時も、天賦が発動する。",
-        "ko": "개척자가 적 처치 시에도 특성을 발동한다"
+        "zh-CN": "开拓者消灭敌方目标时，也会触发天赋。"
       },
       "icon": "icon/skill/8001_rank6.png",
       "materials": [{ "id": 18001, "num": 1 }],
@@ -806,19 +678,11 @@
     {
       "id": 8001101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Pront{M#o}{F#a} para a Batalha",
-        "en": "Ready for Battle",
-        "zh-CN": "蓄势",
-        "ja": "{RUBY_B#ちからた}力溜{RUBY_E#}め",
-        "ko": "전투 준비"
-      },
+      "name": { "pt-BR": "Pront{M#o}{F#a} para a Batalha", "en": "Ready for Battle", "zh-CN": "蓄势" },
       "description": {
         "pt-BR": "No início da batalha, regenera #1[i] de Energia imediatamente.",
         "en": "At the start of the battle, immediately regenerates #1[i] Energy.",
-        "zh-CN": "战斗开始时，立即恢复#1[i]点能量。",
-        "ja": "戦闘開始時、EPを#1[i]回復する。",
-        "ko": "전투 시작 시 즉시 에너지를 #1[i]pt 회복한다"
+        "zh-CN": "战斗开始时，立即恢复#1[i]点能量。"
       },
       "params": [[15]],
       "icon": "icon/skill/8001_skilltree1.png",
@@ -837,19 +701,11 @@
     {
       "id": 8001102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Tenacidade",
-        "en": "Tenacity",
-        "zh-CN": "坚韧",
-        "ja": "{RUBY_B#けんじん}堅靭{RUBY_E#}",
-        "ko": "강인"
-      },
+      "name": { "pt-BR": "Tenacidade", "en": "Tenacity", "zh-CN": "坚韧" },
       "description": {
         "pt-BR": "Cada acúmulo de Talento aumenta a DEF {F#da}{M#do} Desbravador{F#a} em #1[i]%.",
         "en": "Each Talent stack increases the Trailblazer's DEF by #1[i]%.",
-        "zh-CN": "天赋的效果每层同时使开拓者的防御力提高#1[i]%。",
-        "ja": "天賦効果1層につき、開拓者の防御力+#1[i]%。",
-        "ko": "특성의 효과는 스택마다 동시에 개척자의 방어력을 #1[i]% 증가시킨다"
+        "zh-CN": "天赋的效果每层同时使开拓者的防御力提高#1[i]%。"
       },
       "params": [[0.1]],
       "icon": "icon/skill/8001_skilltree2.png",
@@ -873,19 +729,11 @@
     {
       "id": 8001103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Desejo de Lutar",
-        "en": "Fighting Will",
-        "zh-CN": "斗志",
-        "ja": "{RUBY_B#とうし}闘志{RUBY_E#}",
-        "ko": "투지"
-      },
+      "name": { "pt-BR": "Desejo de Lutar", "en": "Fighting Will", "zh-CN": "斗志" },
       "description": {
         "pt-BR": "Ao usar a Perícia ou a Perícia Suprema \"Ruptura: Home Run Fatal\", o Dano causado ao inimigo-alvo é aumentado em #1[i]%.",
         "en": "When using Skill or Ultimate \"Blowout: RIP Home Run,\" DMG dealt to the target enemy is increased by #1[i]%.",
-        "zh-CN": "施放战技或终结技【全胜•安息全垒打】时，对指定敌方目标造成的伤害提高#1[i]%。",
-        "ja": "戦闘スキルまたは必殺技「全勝・安息ホームラン」を発動した時、指定した敵に対して与ダメージ+#1[i]%。",
-        "ko": "전투 스킬 또는 필살기 [압승•안식 홈런] 발동 시 지정된 적에게 가하는 피해가 #1[i]% 증가한다"
+        "zh-CN": "施放战技或终结技【全胜•安息全垒打】时，对指定敌方目标造成的伤害提高#1[i]%。"
       },
       "params": [[0.25]],
       "icon": "icon/skill/8001_skilltree3.png",
@@ -909,7 +757,7 @@
     {
       "id": 8001201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -926,7 +774,7 @@
     {
       "id": 8001202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [8001101],
@@ -943,7 +791,7 @@
     {
       "id": 8001203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8001202],
@@ -960,7 +808,7 @@
     {
       "id": 8001204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [8001203],
@@ -977,7 +825,7 @@
     {
       "id": 8001205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8001102],
@@ -994,7 +842,7 @@
     {
       "id": 8001206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [8001205],
@@ -1011,7 +859,7 @@
     {
       "id": 8001207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8001206],
@@ -1028,7 +876,7 @@
     {
       "id": 8001208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [8001103],
@@ -1045,7 +893,7 @@
     {
       "id": 8001209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [8001208],
@@ -1062,7 +910,7 @@
     {
       "id": 8001210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8001208],

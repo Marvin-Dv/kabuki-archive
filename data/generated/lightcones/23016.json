@@ -1,13 +1,7 @@
 {
   "id": 23016,
   "slug": "worrisome-blissful",
-  "name": {
-    "pt-BR": "Inquietante, Extasiante",
-    "en": "Worrisome, Blissful",
-    "zh-CN": "烦恼着，幸福着",
-    "ja": "悩んで笑って",
-    "ko": "고민, 그리고 행복"
-  },
+  "name": { "pt-BR": "Inquietante, Extasiante", "en": "Worrisome, Blissful", "zh-CN": "烦恼着，幸福着" },
   "rarity": 5,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -15,24 +9,14 @@
   "description": {
     "pt-BR": "Para uma profissional competente da CPI, se sentir \"sobrecarregada\" é absolutamente proibido.\nPermaneça firme e enfrente tudo o que surgir no seu caminho, seja cansaço ou excesso de trabalho!\nA menos que... ela fique sobrecarregada por \"eles\".\n\"Ah, não sejam tão impacientes! Eu só tenho duas mãos!\"\nUma garota que acabou de voltar para casa depois de fazer hora extra é encurralada por um grupo de criaturas fofinhas.\nElas podem não entender completamente as palavras da garota, simplesmente aninhando suas cabeças redondas perto das mãos dela.\nPouco a pouco, a sensação de exaustão desaparece de seu corpo, sendo substituída pelo calor e conforto trazidos ao acariciar os pelos dessas criaturinhas.",
     "en": "For a competent IPC professional, \"feeling overwhelmed\" is absolutely not allowed.\nStand tall and take on whatever comes your way, be it burnout or overwork! \nUnless... it's being overwhelmed by \"them.\"\n\"Oh, don't get so antsy! I only have two hands!\"\nA girl who just returned home from working overtime is pinned down by a group of fluffy creatures.\nThey may not fully understand her words, simply nuzzling their round heads closer to her palm.\nThe feeling of exhaustion gradually fades from her body, replaced by the warmth and comfort brought by stroking their fur.",
-    "zh-CN": "对于一名合格的公司职场人来说，「被压垮」是绝对不容许发生的事情。\n无论是面对压力还是疲劳，都应该挺直腰杆，迎难而上！\n除非…是被「它们」压倒在地。\n「哎呀，不要着急！我只有两只手嘛！」\n刚结束加班回到家中的少女，被一众毛茸茸的生物压倒在地。\n它们或许并不能完全听懂她的话语，只顾着将圆圆的脑袋凑近她的手掌。\n疲惫感从身体中逐渐消失，取而代之的是抚顺毛发带来的温暖舒展。",
-    "ja": "一人前のカンパニーの社員として、「押し潰される」ことなんて許されざる失態。\nプレッシャーだろうと疲労だろうと、立ち上がって真正面から向き合うべき！\nただ、「彼ら」に「押し潰される」ことは論外。\n「もう、そんなに慌てないの！私の手は2つしかないんだから！」\n残業を終えて家に帰った少女はモフモフの生き物たちに押し倒される。\n彼らは彼女の言葉を理解できず、ただまん丸の頭を彼女の手にこすりつける。\n疲労感が徐々に消え、モフモフを撫でる時の温かさが体中に染みていく。",
-    "ko": "적격한 컴퍼니 직원이라면 「압박에 무너지는」 것은 절대 용납할 수 없는 일이다.\n스트레스나 피로에도 가슴을 펴고 맞서야 한다!\n물론… 「그들」에게 무너지는 건 어쩔 수 없지만.\n「아이참, 재촉하지 마! 내 손은 두 개뿐이라고!」\n야근을 마치고 귀가한 소녀는 털이 보송보송한 생명체들에 눌려 바닥에 쓰러진다.\n그들은 그녀의 말을 알아듣지 못했는지 동그란 머리를 그녀의 손에 대기 바쁘다.\n피로가 점차 사라지면서 부드러운 털의 온기가 온몸으로 퍼진다"
+    "zh-CN": "对于一名合格的公司职场人来说，「被压垮」是绝对不容许发生的事情。\n无论是面对压力还是疲劳，都应该挺直腰杆，迎难而上！\n除非…是被「它们」压倒在地。\n「哎呀，不要着急！我只有两只手嘛！」\n刚结束加班回到家中的少女，被一众毛茸茸的生物压倒在地。\n它们或许并不能完全听懂她的话语，只顾着将圆圆的脑袋凑近她的手掌。\n疲惫感从身体中逐渐消失，取而代之的是抚顺毛发带来的温暖舒展。"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Um De Cada Vez",
-      "en": "One At A Time",
-      "zh-CN": "一个一个来",
-      "ja": "順番にね！",
-      "ko": "한 번에 하나씩"
-    },
+    "name": { "pt-BR": "Um De Cada Vez", "en": "One At A Time", "zh-CN": "一个一个来" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]% e aumenta o Dano causado pelo Ataque Extra em #2[i]%. Após o usuário utilizar um Ataque Extra, aplica o estado de Domesticação ao alvo, acumulando até #4[i] vez(es). Quando os aliados atingem inimigos-alvo sob o estado de Domesticação, cada acúmulo de Domesticação aumenta o Dano CRIT causado em #3[i]%.",
       "en": "Increase the wearer's CRIT Rate by #1[i]% and increases DMG dealt by Follow-Up ATK by #2[i]%. After the wearer uses a Follow-Up ATK, inflicts the target with the \"Tame\" state, stacking up to #4[i] time(s). When allies hit enemy targets under the \"Tame\" state, each \"Tame\" stack increases the CRIT DMG dealt by #3[i]%.",
-      "zh-CN": "使装备者暴击率提高#1[i]%，追加攻击造成的伤害提高#2[i]%。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加#4[i]层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高#3[i]%。",
-      "ja": "装備キャラの会心率+#1[i]%、追加攻撃ダメージ+#2[i]%。装備キャラが追加攻撃を行った後、敵を「従順」状態にする。この効果は最大で#4[i]層累積できる。味方の攻撃が「従順」状態の敵に命中する時、「従順」1層につき会心ダメージ+#3[i]%。",
-      "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가하고, 추가 공격으로 가하는 피해가 #2[i]% 증가한다. 장착한 캐릭터가 추가 공격을 발동하면 목표가 [온순] 상태에 빠진다. 해당 효과 최대 중첩수: #4[i]스택. 아군이 [온순] 상태의 적을 명중하면 [온순] 스택마다 가하는 치명타 피해가 #3[i]% 증가한다"
+      "zh-CN": "使装备者暴击率提高#1[i]%，追加攻击造成的伤害提高#2[i]%。装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加#4[i]层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高#3[i]%。"
     },
     "params": [
       [0.18, 0.3, 0.12, 2],

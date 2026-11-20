@@ -4,9 +4,7 @@
   "name": {
     "pt-BR": "A Solenidade do Café da Manhã",
     "en": "The Seriousness of Breakfast",
-    "zh-CN": "早餐的仪式感",
-    "ja": "朝食の儀式感",
-    "ko": "느낌 있는 아침 식사 루틴"
+    "zh-CN": "早餐的仪式感"
   },
   "rarity": 4,
   "path": "Erudition",
@@ -15,18 +13,14 @@
   "description": {
     "pt-BR": "Embora a mesa esteja posta...\nAlguns querem uma xícara de chá.\nAlguns querem tirar uma foto.\nAlguns querem ler o jornal.\nAlguns querem fazer algumas anotações em seu bloco de notas.\nAlguns querem jogar alguma coisa no celular.\n\"Ouçam todos, comam enquanto a comida ainda está quente!\"",
     "en": "Though the table is set...\nSome people want a cup of tea first.\nSome people want to take a picture first.\nSome people want to read the newspaper first.\nSome people want to write a page in their notebook first.\nSome people want to play on their phone first.\n\"All of you, eat while the food is hot!\"",
-    "zh-CN": "虽然餐桌已经摆好…\n有人要先喝一杯红茶；\n有人要先拍一张照片；\n有人要先读一份报纸；\n有人要先记一页笔记；\n有人要先玩一会手机。\n「都给我趁热吃帕！」",
-    "ja": "朝食の準備はすでにできているが…\nある者は先に紅茶を一杯。\nある者はまず写真を撮る。\nある者は先に新聞を読む。\nある者はまずノートを取る。\nある者はとりあえずスマホを弄る。パムの一言\n「冷めないうちに食べるんじゃ！」",
-    "ko": "아침 식사는 이미 준비되었지만…\n누군가는 먼저 홍차를 마셨고\n누군가는 먼저 사진을 찍었고\n누군가는 먼저 신문을 읽었고\n누군가는 먼저 무언가를 노트에 적었고\n누군가는 먼저 휴대폰을 만지작거렸다.\n「얼른 식기 전에 먹어!」"
+    "zh-CN": "虽然餐桌已经摆好…\n有人要先喝一杯红茶；\n有人要先拍一张照片；\n有人要先读一份报纸；\n有人要先记一页笔记；\n有人要先玩一会手机。\n「都给我趁热吃帕！」"
   },
   "skill": {
-    "name": { "pt-BR": "Prepare-se", "en": "Get Ready", "zh-CN": "各就其位", "ja": "持ち場に着く", "ko": "각자 위치로" },
+    "name": { "pt-BR": "Prepare-se", "en": "Get Ready", "zh-CN": "各就其位" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o Dano do usuário. Para cada inimigo derrotado pelo usuário, aumenta em #2[i]% o ATQ do usuário, podendo acumular até #3[i] vez(es).",
       "en": "Increases the wearer's DMG by #1[i]%. For every enemy defeated by the wearer, the wearer's ATK increases by #2[i]%, stacking up to #3[i] time(s).",
-      "zh-CN": "使装备者造成伤害提高#1[i]%。每消灭1个敌方目标，装备者的攻击力提高#2[i]%，该效果最多叠加#3[i]层。",
-      "ja": "装備キャラの与ダメージ+#1[i]%。敵を1体倒すごとに、装備キャラの攻撃力+#2[i]%、この効果は最大で#3[i]層累積できる。",
-      "ko": "장착한 캐릭터가 가하는 피해가 #1[i]% 증가한다. 적 1기를 처치할 때마다, 장착한 캐릭터의 공격력이 #2[i]% 증가한다. 해당 효과 최대 중첩수: #3[i]스택"
+      "zh-CN": "使装备者造成伤害提高#1[i]%。每消灭1个敌方目标，装备者的攻击力提高#2[i]%，该效果最多叠加#3[i]层。"
     },
     "params": [[0.12, 0.04, 3], [0.15, 0.05, 3], [0.18, 0.06, 3], [0.21, 0.07, 3], [0.24, 0.08, 3]],
     "properties": [

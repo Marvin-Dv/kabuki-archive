@@ -1,13 +1,7 @@
 {
   "id": 110417,
   "slug": "suppressing-edict",
-  "name": {
-    "pt-BR": "Decreto de Supressão",
-    "en": "Suppressing Edict",
-    "zh-CN": "镇灵敕符",
-    "ja": "霊鎮めの勅符",
-    "ko": "진령칙부"
-  },
+  "name": { "pt-BR": "Decreto de Supressão", "en": "Suppressing Edict", "zh-CN": "镇灵敕符" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -17,8 +11,6 @@
   "sources": {
     "en": ["Stagnant Shadow: Artisanship Commission", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Comissão de Artesanato", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【工造司】", "「万能合成机」- 材料置换"],
-    "ja": ["凝結虚影「工造司」", "「万能合成マシン」- 素材交換"],
-    "ko": ["정체된 허영 [공조사]", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["凝滞虚影【工造司】", "「万能合成机」- 材料置换"]
   }
 }

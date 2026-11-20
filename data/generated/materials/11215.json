@@ -1,13 +1,7 @@
 {
   "id": 11215,
   "slug": "hanyas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Hanya",
-    "en": "Hanya's Eidolon",
-    "zh-CN": "【寒鸦】的星魂",
-    "ja": "「寒鴉」の星魂",
-    "ko": "[한아]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Hanya", "en": "Hanya's Eidolon", "zh-CN": "【寒鸦】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

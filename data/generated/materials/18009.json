@@ -1,13 +1,7 @@
 {
   "id": 18009,
   "slug": "shadow-of-elation",
-  "name": {
-    "pt-BR": "Sombra da Euforia",
-    "en": "Shadow of Elation",
-    "zh-CN": "「欢愉」之影",
-    "ja": "「愉悦」の影",
-    "ko": "「환락」의 그림자"
-  },
+  "name": { "pt-BR": "Sombra da Euforia", "en": "Shadow of Elation", "zh-CN": "「欢愉」之影" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",
@@ -20,8 +14,6 @@
       "Recompensa de Nível de Bem-estar da \"Pelônline\" Obtida",
       "Recompensas de Missão de Desbravamento"
     ],
-    "zh-CN": ["「狸狸通信」福利等级奖励获得", "开拓任务奖励"],
-    "ja": ["「ぽんぽこ通信」のサービスレベル報酬で獲得できる", "開拓クエスト報酬"],
-    "ko": ["「너굴 통신」 혜택 레벨 보상으로 획득", "개척 임무 보상"]
+    "zh-CN": ["「狸狸通信」福利等级奖励获得", "开拓任务奖励"]
   }
 }

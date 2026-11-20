@@ -1,13 +1,7 @@
 {
   "id": 11312,
   "slug": "mishas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Misha",
-    "en": "Misha's Eidolon",
-    "zh-CN": "【米沙】的星魂",
-    "ja": "「ミーシャ」の星魂",
-    "ko": "[미샤]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Misha", "en": "Misha's Eidolon", "zh-CN": "【米沙】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

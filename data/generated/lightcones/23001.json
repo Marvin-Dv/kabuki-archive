@@ -1,7 +1,7 @@
 {
   "id": 23001,
   "slug": "in-the-night",
-  "name": { "pt-BR": "Na Noite", "en": "In the Night", "zh-CN": "于夜色中", "ja": "夜の帳の中で", "ko": "야경 속에서" },
+  "name": { "pt-BR": "Na Noite", "en": "In the Night", "zh-CN": "于夜色中" },
   "rarity": 5,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -9,24 +9,14 @@
   "description": {
     "pt-BR": "A menina sorri sutilmente.\n\"Como?\"\n\"Aqui e agora, eu estou sozinha...\"\n\"Mas me sinto... rodeada de vida.\"",
     "en": "A young girl smiles subtly.\n\"How?\"\n\"Right here, right now, I am alone...\"\n\"But it feels... very lively.\"",
-    "zh-CN": "少女露出一丝不易察觉的微笑。\n「为什么呢？」\n「此时此刻此地，明明只有我一个人……」\n「却感觉…很热闹呢。」",
-    "ja": "少女は気づかれないように小さく微笑んだ。\n「どうして？」\n「今、ここにいるのはワタシだけなのに……」\n「なぜか…凄く賑やかな気がする」",
-    "ko": "소녀가 희미한 미소를 짓는다.\n「왜?」\n「난 지금 분명 혼자인데…」\n「왜… 혼자가 아닌 기분이 들까」"
+    "zh-CN": "少女露出一丝不易察觉的微笑。\n「为什么呢？」\n「此时此刻此地，明明只有我一个人……」\n「却感觉…很热闹呢。」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Flores e Borboletas",
-      "en": "Flowers and Butterflies",
-      "zh-CN": "花与蝶",
-      "ja": "花と蝶",
-      "ko": "꽃과 나비"
-    },
+    "name": { "pt-BR": "Flores e Borboletas", "en": "Flowers and Butterflies", "zh-CN": "花与蝶" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% a Chance de CRIT do usuário. Enquanto o usuário estiver em batalha, para cada #2[i] de VEL acima de 100, aumenta em #3[i]% o Dano do ATQ Básico e da Perícia do usuário, e o Dano CRIT da sua Perícia Suprema aumenta em #4[i]%. Este efeito acumula até #5[i] vez(es).",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. While the wearer is in battle, for every #2[i] SPD that exceeds 100, increases DMG dealt by Basic ATK and Skill by #3[i]%. At the same time, increases the CRIT DMG of Ultimate by #4[i]%. This effect can stack up to #5[i] time(s).",
-      "zh-CN": "使装备者的暴击率提高#1[i]%。当装备者在战斗中速度大于100时，每超过#2[i]点，普攻和战技造成的伤害提高#3[i]%，同时终结技的暴击伤害提高#4[i]%，该效果可叠加#5[i]层。",
-      "ja": "装備キャラの会心率+#1[i]%。戦闘中に装備キャラの速度が100を超えた時、超過した速度#2[i]につき、通常攻撃と戦闘スキルによるダメージ+#3[i]%、必殺技ダメージの会心ダメージ+#4[i]%、最大で#5[i]層累積できる。",
-      "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터의 전투 중 속도가 100보다 높을 경우, #2[i]pt 초과할 때마다 일반 공격 및 전투 스킬이 가하는 피해가 #3[i]% 증가하고, 필살기의 치명타 피해가 #4[i]% 증가한다. 최대 중첩수: #5[i]스택"
+      "zh-CN": "使装备者的暴击率提高#1[i]%。当装备者在战斗中速度大于100时，每超过#2[i]点，普攻和战技造成的伤害提高#3[i]%，同时终结技的暴击伤害提高#4[i]%，该效果可叠加#5[i]层。"
     },
     "params": [
       [0.18, 10, 0.06, 0.12, 6],

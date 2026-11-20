@@ -1,13 +1,7 @@
 {
   "id": 110423,
   "slug": "dream-fridge",
-  "name": {
-    "pt-BR": "Geladeira de Sonho",
-    "en": "Dream Fridge",
-    "zh-CN": "冷藏梦箱",
-    "ja": "夢の冷蔵庫",
-    "ko": "꿈 아이스박스"
-  },
+  "name": { "pt-BR": "Geladeira de Sonho", "en": "Dream Fridge", "zh-CN": "冷藏梦箱" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -17,8 +11,6 @@
   "sources": {
     "en": ["Stagnant Shadow: The Reverie (Dreamscape)", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Devaneio (Mundonírico)", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【「白日梦」酒店-梦境】", "「万能合成机」- 材料置换"],
-    "ja": ["凝結虚影「ホテル・『レバリー』-夢境」", "「万能合成マシン」- 素材交換"],
-    "ko": ["정체된 허영 [「레버리」 호텔-꿈세계]", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["凝滞虚影【「白日梦」酒店-梦境】", "「万能合成机」- 材料置换"]
   }
 }

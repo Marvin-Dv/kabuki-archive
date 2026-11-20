@@ -1,13 +1,7 @@
 {
   "id": 21062,
   "slug": "see-you-at-the-end",
-  "name": {
-    "pt-BR": "Te Vejo no Fim",
-    "en": "See You at the End",
-    "zh-CN": "于那终点再见",
-    "ja": "終点でまた会おう",
-    "ko": "그 종착지에서 다시 만나자"
-  },
+  "name": { "pt-BR": "Te Vejo no Fim", "en": "See You at the End", "zh-CN": "于那终点再见" },
   "rarity": 4,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "Lágrimas involuntárias escorriam pelo seu rosto. No centro do arranjo ritual destruído, pairava não apenas a sombra da morte, mas um abismo de silêncio e vazio.\nEntão, um suspiro tremulou através da escuridão. Uma ondulação das profundezas mais íntimas da \"alma\".\n\"É você... Irmã...?\"\nO garoto ergueu sua mão, uma luz fraca cintilando em seus olhos. A silhueta de sua amada permaneceu por apenas um suspiro, mas sua marca gravou-se por milênios em seu coração.\n\"Entendo... Obrigado... por esta última despedida.\"\nEle se levantou lentamente. Os primeiros raios da aurora acariciavam seu rosto resoluto, ainda marcado por lágrimas.\n\"O caminho da busca é solitário... Nos encontraremos novamente no fim da jornada.\"",
     "en": "Unwilling tears trailed down his cheeks. At the heart of the shattered ritual array lingered not just death's shadow, but an abyss of silence and emptiness.\nThen, a sigh trembled through the darkness — a ripple from the \"soul's\" deepest recesses.\n\"Is that you... Sister...\"\nThe boy lifted his hand, a weak light flickering in his eyes. The silhouette of his loved one lingered but a breath, yet its imprint etched a millennium into his heart.\n\"I see... Thank you... for this final farewell.\"\nHe rose slowly. Dawn's first rays caressed his resolute face, still streaked with tears.\n\"The path of seeking is a solitary one... Let us meet again at the journey's end.\"",
-    "zh-CN": "不甘的泪水从面颊滑落，损毁法阵中央留下的除却死亡的阴影，还有无尽的寂静与空洞。\n恍然间，黑暗中传来一声叹息，那是属于「灵魂」的震颤。\n「是你吗？姐姐…」\n男孩抬起手，眼中闪过一丝光亮。那至亲身影只停留片刻，却仿佛在他心间停滞千年。\n「我明白了…谢谢你来与我作最后的道别。」\n他缓缓起身，第一缕清晨的朝阳映照着倔强的脸庞与未干的泪痕。\n「求索定是孤独的长路，让我们于终点再见吧……」",
-    "ja": "悔し涙が頬を伝う中、魔法陣の中央には死の影と、果てしない静寂だけが残された。\nふとした時、暗闇の中からため息が聞こえた。それは、「魂」の振動が生んだ、微かな囁きだった。\n「お姉ちゃん…？」\n男の子は手を伸ばし、その瞳を揺らした。最愛の人の姿がそこにあったのはほんの一瞬だったが、彼にとっては千年を越える時が流れたようにさえ思えた。\n「分かったよ…最後に別れを告げに来てくれて、ありがとう」\n彼はゆっくりと立ち上がった。朝の陽光が差し込み、その屹然とした表情と乾ききっていない涙を照らし出す。\n「探求とは孤独に満ちた長い道のりだ。終点でまた会おう……」",
-    "ko": "분노의 눈물이 뺨을 타고 흘러내렸다. 파괴된 법진 중앙에 남은 것은 죽음의 그림자, 그리고 끝없는 고요함과 공허함이었다.\n그때, 어둠 속에서 탄식이 들려왔다. 그것은 「영혼」의 떨림이었다.\n「…누나?」\n소년은 손을 들어 올렸고, 그 눈동자에는 한 줄기 빛이 스쳤다. 가족의 모습은 아주 잠시 머물렀지만, 그 순간은 그의 마음속에서 천년 동안 멈춰 있는 듯했다.\n「알겠어…. 마지막으로 작별 인사를 하러 와줘서 고마워」\n그는 천천히 몸을 일으켰고, 첫 번째 아침 햇살이 단호한 얼굴과 마르지 않은 눈물 자국을 비췄다.\n「탐구는 길고 고독한 여정이 될 테니, 우린 종착지에서 다시 만나자……」"
+    "zh-CN": "不甘的泪水从面颊滑落，损毁法阵中央留下的除却死亡的阴影，还有无尽的寂静与空洞。\n恍然间，黑暗中传来一声叹息，那是属于「灵魂」的震颤。\n「是你吗？姐姐…」\n男孩抬起手，眼中闪过一丝光亮。那至亲身影只停留片刻，却仿佛在他心间停滞千年。\n「我明白了…谢谢你来与我作最后的道别。」\n他缓缓起身，第一缕清晨的朝阳映照着倔强的脸庞与未干的泪痕。\n「求索定是孤独的长路，让我们于终点再见吧……」"
   },
   "skill": {
-    "name": { "pt-BR": "Persistência", "en": "Persistence", "zh-CN": "执着", "ja": "執着", "ko": "집착" },
+    "name": { "pt-BR": "Persistência", "en": "Persistence", "zh-CN": "执着" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. O Dano da Perícia e o Dano do Ataque Extra causados pelo usuário aumentam em #2[i]%.",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. The Skill DMG and Follow-Up ATK DMG dealt by the wearer increase by #2[i]%.",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者造成的战技和追加攻击伤害提高#2[i]%。",
-      "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラの戦闘スキルダメージと追加攻撃ダメージ+#2[i]%。",
-      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터가 가하는 전투 스킬과 추가 공격 피해가 #2[i]% 증가한다"
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者造成的战技和追加攻击伤害提高#2[i]%。"
     },
     "params": [[0.24, 0.24], [0.28, 0.28], [0.32, 0.32], [0.36, 0.36], [0.4, 0.4]],
     "properties": [

@@ -1,7 +1,7 @@
 {
   "id": 1210,
   "slug": "guinaifen",
-  "name": { "pt-BR": "Guinaifen", "en": "Guinaifen", "zh-CN": "桂乃芬", "ja": "桂乃芬", "ko": "계네빈" },
+  "name": { "pt-BR": "Guinaifen", "en": "Guinaifen", "zh-CN": "桂乃芬" },
   "rarity": 4,
   "path": "Nihility",
   "element": "Fire",
@@ -11,19 +11,11 @@
     {
       "id": 121001,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Chuva de Aplausos",
-        "en": "Standing Ovation",
-        "zh-CN": "劈头满堂彩",
-        "ja": "喝采満場",
-        "ko": "박수갈채"
-      },
+      "name": { "pt-BR": "Chuva de Aplausos", "en": "Standing Ovation", "zh-CN": "劈头满堂彩" },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Guinaifen a um único inimigo.",
         "en": "Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于桂乃芬#1[i]%攻击力的火属性伤害。",
-        "ja": "指定した敵単体に桂乃芬の攻撃力#1[i]%分の炎属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 계네빈 공격력 #1[i]%만큼의 화염 속성 피해를 준다"
+        "zh-CN": "对指定敌方单体造成等同于桂乃芬#1[i]%攻击力的火属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1210_basic_atk.png",
@@ -31,29 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a um único inimigo.",
         "en": "Deals minor Fire DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量火属性伤害。",
-        "ja": "敵単体に少量の炎属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量火属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 121002,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Recepção Escaldante",
-        "en": "Blazing Welcome",
-        "zh-CN": "迎面开门红",
-        "ja": "出だし好調",
-        "ko": "좋은 출발"
-      },
+      "name": { "pt-BR": "Recepção Escaldante", "en": "Blazing Welcome", "zh-CN": "迎面开门红" },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Guinaifen como Dano de Fogo a um único inimigo, além de #2[i]% do ATQ de Guinaifen como Dano de Fogo a inimigos adjacentes, com #3[i]% de chance-base de infligir Queimadura no alvo e alvos adjacentes. Enquanto estiverem afligidos com Queimadura, inimigos recebem #4[i]% do ATQ de Guinaifen como um Dano de Fogo Contínuo no início de cada rodada, com duração de #5[i] rodada(s).",
         "en": "Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to one designated enemy and Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies, with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).",
-        "zh-CN": "对指定敌方单体造成等同于桂乃芬#1[i]%攻击力的火属性伤害，并对相邻目标造成等同于桂乃芬#2[i]%攻击力的火属性伤害，有#3[i]%的基础概率使目标与相邻目标陷入灼烧状态。灼烧状态下，敌方目标每回合开始时受到等同于桂乃芬#4[i]%攻击力的火属性持续伤害，持续#5[i]回合。",
-        "ja": "指定した敵単体に桂乃芬の攻撃力#1[i]%分の炎属性ダメージを与え、隣接する敵に桂乃芬の攻撃力#2[i]%分の炎属性ダメージを与える。#3[i]%の基礎確率で指定した敵とその隣接する敵に燃焼状態を付与する。燃焼状態の敵は、ターンが回ってくるたびに桂乃芬の攻撃力#4[i]%分の炎属性持続ダメージを受ける、#5[i]ターン継続。",
-        "ko": "지정된 단일 적에게 계네빈 공격력 #1[i]%만큼의 화염 속성 피해를 주고, 인접한 목표에게 계네빈 공격력 #2[i]%만큼의 화염 속성 피해를 주며, #3[i]%의 기본 확률로 목표 및 인접한 목표를 연소 상태에 빠트린다. 연소 상태의 적은 턴이 시작될 때마다 계네빈 공격력 #4[i]%만큼의 화염 속성 지속 피해를 받는다. 지속 시간: #5[i]턴"
+        "zh-CN": "对指定敌方单体造成等同于桂乃芬#1[i]%攻击力的火属性伤害，并对相邻目标造成等同于桂乃芬#2[i]%攻击力的火属性伤害，有#3[i]%的基础概率使目标与相邻目标陷入灼烧状态。灼烧状态下，敌方目标每回合开始时受到等同于桂乃芬#4[i]%攻击力的火属性持续伤害，持续#5[i]回合。"
       },
       "params": [
         [0.6, 0.2, 1, 0.839, 2],
@@ -77,29 +59,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a um único inimigo e Dano de Fogo leve a inimigos adjacentes, com altas chances de causar Queimadura a eles.",
         "en": "Deals Fire DMG to one enemy and minor Fire DMG to adjacent enemies, with a high chance of Burning them.",
-        "zh-CN": "对敌方单体造成火属性伤害，对相邻目标造成少量火属性伤害，大概率施加灼烧状态。",
-        "ja": "敵単体に炎属性ダメージを与え、隣接する敵に少量の炎属性ダメージを与え、高確率で燃焼状態を付与する。",
-        "ko": "단일 적에게 화염 속성 피해를 주고 인접한 적에게 소량의 화염 속성 피해를 주며, 높은 확률로 연소 상태를 부여한다"
+        "zh-CN": "对敌方单体造成火属性伤害，对相邻目标造成少量火属性伤害，大概率施加灼烧状态。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 121003,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Se Liga Nisso",
-        "en": "Watch This Showstopper",
-        "zh-CN": "给您来段看家戏",
-        "ja": "十八番を披露するね",
-        "ko": "주특기 나갑니다!"
-      },
+      "name": { "pt-BR": "Se Liga Nisso", "en": "Watch This Showstopper", "zh-CN": "给您来段看家戏" },
       "description": {
         "pt-BR": "Causa #1[f1]% do ATQ de Guinaifen como Dano de Fogo a todos os inimigos. Se o inimigo-alvo já estiver com Queimadura no momento, o estado de Queimadura produz imediatamente #2[i]% do seu Dano original.",
         "en": "Deals Fire DMG equal to #1[f1]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to #2[i]% of their original DMG.",
-        "zh-CN": "对敌方全体造成等同于桂乃芬#1[f1]%攻击力的火属性伤害，若目标处于灼烧状态，使其当前承受的灼烧状态立即产生相当于原伤害#2[i]%的伤害。",
-        "ja": "敵全体に桂乃芬の攻撃力#1[f1]%分の炎属性ダメージを与える。敵が燃焼状態の場合、付与された燃焼状態が本来のダメージ#2[i]%分のダメージを発生する。",
-        "ko": "모든 적에게 계네빈 공격력 #1[f1]%만큼의 화염 속성 피해를 주고, 목표가 연소 상태인 경우 해당 연소 상태는 즉시 기존 피해 #2[i]%만큼의 피해를 생성한다"
+        "zh-CN": "对敌方全体造成等同于桂乃芬#1[f1]%攻击力的火属性伤害，若目标处于灼烧状态，使其当前承受的灼烧状态立即产生相当于原伤害#2[i]%的伤害。"
       },
       "params": [
         [0.72, 0.72],
@@ -123,29 +95,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a todos os inimigos. Se os inimigos já estiverem com Queimadura, o estado de Queimadura causa Dano 1 vez extra.",
         "en": "Deals Fire DMG to all enemies. If the enemies are inflicted with Burn, the Burn status deals DMG 1 extra time.",
-        "zh-CN": "对敌方全体造成火属性伤害，若敌方目标处于灼烧状态，则使灼烧状态额外产生1次伤害。",
-        "ja": "敵全体に炎属性ダメージを与え、敵が燃焼状態の場合、燃焼状態がさらにダメージを1回発生する。",
-        "ko": "모든 적에게 화염 속성 피해를 주고, 적이 연소 상태인 경우 연소 상태는 피해를 1회 추가로 생성한다"
+        "zh-CN": "对敌方全体造成火属性伤害，若敌方目标处于灼烧状态，则使灼烧状态额外产生1次伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 121004,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Benefícios do PatrAeon",
-        "en": "PatrAeon Benefits",
-        "zh-CN": "古来君子养艺人",
-        "ja": "古来、芸人は君子に頼る",
-        "ko": "관중 없이는 예술가도 없는 법"
-      },
+      "name": { "pt-BR": "Benefícios do PatrAeon", "en": "PatrAeon Benefits", "zh-CN": "古来君子养艺人" },
       "description": {
         "pt-BR": "Quando Guinaifen estiver em campo, há #1[i]% de chance-base de aplicar Beijo de Fogo em um inimigo após seu estado de Queimadura causar Dano. Enquanto estiver afligido com Beijo de Fogo, o inimigo recebe #4[f1]% a mais de Dano por #5[i] rodada(s), podendo acumular até #6[i] vez(es).",
         "en": "When Guinaifen is on the field, there is a #1[i]% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[f1]% increased DMG, which lasts for #5[i] turn(s) and can stack up to #6[i] time(s).",
-        "zh-CN": "桂乃芬在场时，敌方受到的灼烧状态触发伤害后，有#1[i]%的基础概率陷入【吞火】状态，【吞火】状态下敌方目标受到的伤害提高#4[f1]%，持续#5[i]回合，最多叠加#6[i]层。",
-        "ja": "桂乃芬がフィールド上にいる時、敵が燃焼状態によるダメージを受けた後、#1[i]%の基礎確率で「火喰い」状態になる。「火喰い」状態の敵の受けるダメージ+#4[f1]%、#5[i]ターン継続。最大で#6[i]層累積できる。",
-        "ko": "계네빈이 필드에 있을 때 적에게 부여된 연소 상태가 피해를 발동하면 #1[i]%의 기본 확률로 적을 [불쇼] 상태에 빠트리고 [불쇼] 상태의 적이 받는 피해가 #4[f1]% 증가한다. 지속 시간: #5[i]턴. 최대 중첩수: #6[i]스택"
+        "zh-CN": "桂乃芬在场时，敌方受到的灼烧状态触发伤害后，有#1[i]%的基础概率陷入【吞火】状态，【吞火】状态下敌方目标受到的伤害提高#4[f1]%，持续#5[i]回合，最多叠加#6[i]层。"
       },
       "params": [
         [1, 0, 0, 0.04, 3, 3],
@@ -169,50 +131,36 @@
       "summary": {
         "pt-BR": "Após o estado de Queimadura causar Dano no inimigo, há altas chances de aplicar Beijo de Fogo no inimigo.",
         "en": "After the Burn status causes DMG on the enemy, there is a high chance of applying Firekiss to the enemy.",
-        "zh-CN": "敌方受到的灼烧状态触发伤害后，大概率施加【吞火】状态。",
-        "ja": "敵に付与された燃焼状態がダメージを発生すると、高確率で「火喰い」状態を付与する。",
-        "ko": "적에게 부여된 연소 상태가 피해를 발동하면, 높은 확률로 적에게 [불쇼] 상태를 부여한다"
+        "zh-CN": "敌方受到的灼烧状态触发伤害后，大概率施加【吞火】状态。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害" }
     },
     {
       "id": 121006,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1210_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 121007,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Demonstração de Habilidades",
-        "en": "Skill Showcase",
-        "zh-CN": "耍耍把式卖卖艺",
-        "ja": "大道芸",
-        "ko": "길거리 공연"
-      },
+      "name": { "pt-BR": "Demonstração de Habilidades", "en": "Skill Showcase", "zh-CN": "耍耍把式卖卖艺" },
       "description": {
         "pt-BR": "Ataca o inimigo imediatamente. Depois de entrar na batalha, causa Dano #2[i] vez(es), causando #1[i]% do ATQ de Guinaifen como Dano de Fogo a um único inimigo-alvo aleatório a cada vez, com uma chance-base de #3[i]% de infligir Beijo de Fogo a ele.",
         "en": "Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.",
-        "zh-CN": "立即攻击敌人，进入战斗后造成#2[i]次伤害，每次伤害对敌方随机单体造成等同于桂乃芬#1[i]%攻击力的火属性伤害并有#3[i]%的基础概率使目标陷入【吞火】状态。",
-        "ja": "敵を攻撃。戦闘に入った後、敵にダメージを#2[i]回与える。1ヒットごとにランダムな敵単体に桂乃芬の攻撃力#1[i]%分の炎属性ダメージを与え、#3[i]%の基礎確率でその敵を「火喰い」状態にする。",
-        "ko": "적을 바로 공격하며, 전투 진입 후 피해를 #2[i]회 준다. 피해를 가할 때마다 임의의 단일 적에게 계네빈 공격력 #1[i]%만큼의 화염 속성 피해를 주고 #3[i]%의 기본 확률로 목표를 [불쇼] 상태에 빠트린다"
+        "zh-CN": "立即攻击敌人，进入战斗后造成#2[i]次伤害，每次伤害对敌方随机单体造成等同于桂乃芬#1[i]%攻击力的火属性伤害并有#3[i]%的基础概率使目标陷入【吞火】状态。"
       },
       "params": [[0.5, 4, 1]],
       "icon": "icon/skill/1210_technique.png",
@@ -220,11 +168,9 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Depois de entrar em batalha, causa Dano de Fogo leve a um inimigo-alvo com altas chances de aplicar \"Beijo de Fogo\", com um total de 4 Rebotes.",
         "en": "Attacks the enemy. After entering battle, deals minor Fire DMG to one enemy target with a high chance of applying Firekiss, with a total of 4 Bounces.",
-        "zh-CN": "攻击敌人，进战后对敌方单体造成少量火属性伤害并大概率施加【吞火】状态，共弹射4次。",
-        "ja": "敵を攻撃。戦闘に入った後、敵単体に少量の炎属性ダメージを与え、高確率で「火喰い」状態を付与する。4回バウンドする。",
-        "ko": "적을 공격하며, 전투 진입 후 단일 적에게 소량의 화염 속성 피해를 가하고 높은 확률로 [불쇼]  상태를 부여한다. 총 4회 바운스한다"
+        "zh-CN": "攻击敌人，进战后对敌方单体造成少量火属性伤害并大概率施加【吞火】状态，共弹射4次。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" }
     }
   ],
   "eidolons": [
@@ -233,16 +179,12 @@
       "name": {
         "pt-BR": "Comendo Macarrão Plantando Bananeira",
         "en": "Slurping Noodles During Handstand",
-        "zh-CN": "倒立吃面条",
-        "ja": "{RUBY_B#さかだ}逆立{RUBY_E#}ち{RUBY_B#めんく}麺食{RUBY_E#}い",
-        "ko": "거꾸로 서서 국수 먹기"
+        "zh-CN": "倒立吃面条"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia, há 100% de chance-base de reduzir a RES a Efeito do inimigo-alvo atacado em 10% por 2 rodada(s).",
         "en": "When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s).",
-        "zh-CN": "施放战技时，有100%的基础概率使受到攻击的敌方目标效果抵抗降低10%，持续2回合。",
-        "ja": "戦闘スキルを発動した時、100%の基礎確率で攻撃を受けた敵の効果抵抗-10%、2ターン継続。",
-        "ko": "전투 스킬 발동 시 100%의 기본 확률로 피격된 적의 효과 저항이 10% 감소한다. 지속 시간: 2턴"
+        "zh-CN": "施放战技时，有100%的基础概率使受到攻击的敌方目标效果抵抗降低10%，持续2回合。"
       },
       "icon": "icon/skill/1210_rank1.png",
       "materials": [{ "id": 11210, "num": 1 }],
@@ -253,16 +195,12 @@
       "name": {
         "pt-BR": "Escovando os Dentes Enquanto Assovia",
         "en": "Brushing Teeth While Whistling",
-        "zh-CN": "刷牙吹口哨",
-        "ja": "{RUBY_B#は}歯{RUBY_E#}を{RUBY_B#みが}磨{RUBY_E#}きながら{RUBY_B#くちぶえ}口笛{RUBY_E#}を{RUBY_B#ふ}吹{RUBY_E#}く",
-        "ko": "양치질하면서 휘파람 불기"
+        "zh-CN": "刷牙吹口哨"
       },
       "description": {
         "pt-BR": "Quando um inimigo-alvo estiver com Queimadura, o multiplicador de Dano do estado de Queimadura aplicado pelo ATQ Básico ou Perícia de Guinaifen aumenta em 40%.",
         "en": "When an enemy target is being Burned, the DMG multiplier of the Burn status applied by her Basic ATK or Skill increases by 40%.",
-        "zh-CN": "当敌方目标处于灼烧状态时，桂乃芬的普攻与战技对其施加的灼烧状态的伤害倍率提升40%。",
-        "ja": "敵が燃焼状態の時、桂乃芬の通常攻撃と戦闘スキルがその敵に付与する燃焼状態のダメージ倍率+40%。",
-        "ko": "적이 연소 상태면 계네빈의 일반 공격과 전투 스킬이 해당 적에게 부여하는 연소 상태의 피해 배율이 40% 증가한다"
+        "zh-CN": "当敌方目标处于灼烧状态时，桂乃芬的普攻与战技对其施加的灼烧状态的伤害倍率提升40%。"
       },
       "icon": "icon/skill/1210_rank2.png",
       "materials": [{ "id": 11210, "num": 1 }],
@@ -273,16 +211,12 @@
       "name": {
         "pt-BR": "Destruindo Pedras com o Peito",
         "en": "Smashing Boulder on Chest",
-        "zh-CN": "胸口碎大石",
-        "ja": "{RUBY_B#むなもと}胸元{RUBY_E#}で{RUBY_B#いわくだ}岩砕{RUBY_E#}き",
-        "ko": "가슴에 얹은 바위 깨기"
+        "zh-CN": "胸口碎大石"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1210_skill.png",
       "materials": [{ "id": 11210, "num": 1 }],
@@ -293,16 +227,12 @@
       "name": {
         "pt-BR": "Bloqueando Lanças com o Pescoço",
         "en": "Blocking Pike with Neck",
-        "zh-CN": "金枪锁咽喉",
-        "ja": "{RUBY_B#のどもと}喉元{RUBY_E#}で{RUBY_B#やりさきう}槍先受{RUBY_E#}け{RUBY_B#と}止{RUBY_E#}め",
-        "ko": "창으로 목 찌르기"
+        "zh-CN": "金枪锁咽喉"
       },
       "description": {
         "pt-BR": "Toda vez que o estado de Queimadura infligido por Guinaifen causar Dano, Guinaifen regenera 2 de Energia.",
         "en": "Every time the Burn status inflicted by Guinaifen causes DMG, Guinaifen regenerates 2 Energy.",
-        "zh-CN": "桂乃芬施加的灼烧状态每触发一次伤害，使自身恢复2点能量。",
-        "ja": "桂乃芬が付与した燃焼状態がダメージを与えるたびに、桂乃芬のEPを2回復する。",
-        "ko": "계네빈이 부여한 연소 상태 피해가 발동할 때마다 자신의 에너지를 2pt 회복한다"
+        "zh-CN": "桂乃芬施加的灼烧状态每触发一次伤害，使自身恢复2点能量。"
       },
       "icon": "icon/skill/1210_rank4.png",
       "materials": [{ "id": 11210, "num": 1 }],
@@ -310,19 +240,11 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Engolindo Espadas",
-        "en": "Swallowing Sword to Stomach",
-        "zh-CN": "吞剑通脊背",
-        "ja": "{RUBY_B#けんの}剣呑{RUBY_E#}み",
-        "ko": "허리까지 검 삼키기"
-      },
+      "name": { "pt-BR": "Engolindo Espadas", "en": "Swallowing Sword to Stomach", "zh-CN": "吞剑通脊背" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1210_ultimate.png",
       "materials": [{ "id": 11210, "num": 1 }],
@@ -333,16 +255,12 @@
       "name": {
         "pt-BR": "Pegando Projéteis com as Mãos",
         "en": "Catching Bullet with Hands",
-        "zh-CN": "徒手接子弹",
-        "ja": "{RUBY_B#すで}素手{RUBY_E#}で{RUBY_B#じゅうだん}銃弾{RUBY_E#}つかみ",
-        "ko": "맨손으로 총알 받기"
+        "zh-CN": "徒手接子弹"
       },
       "description": {
         "pt-BR": "Aumenta o acúmulo máximo de Beijo de Fogo em 1.",
         "en": "Increases the stackable Firekiss count by 1.",
-        "zh-CN": "使【吞火】的可叠加层数增加1层。",
-        "ja": "「火喰い」の累積可能層数+1。",
-        "ko": "[불쇼]의 중첩 가능 스택 수가 1스택 증가한다"
+        "zh-CN": "使【吞火】的可叠加层数增加1层。"
       },
       "icon": "icon/skill/1210_rank6.png",
       "materials": [{ "id": 11210, "num": 1 }],
@@ -702,19 +620,11 @@
     {
       "id": 1210101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Mastros Altos",
-        "en": "High Poles",
-        "zh-CN": "缘竿",
-        "ja": "{RUBY_B#えんかん}縁竿{RUBY_E#}",
-        "ko": "장대 타기"
-      },
+      "name": { "pt-BR": "Mastros Altos", "en": "High Poles", "zh-CN": "缘竿" },
       "description": {
         "pt-BR": "O ATQ Básico tem #1[i]% de chance-base de infligir \"Queimadura\" em um inimigo, equivalente à da Perícia.",
         "en": "Basic ATK has a #1[i]% base chance of inflicting an enemy with a Burn equivalent to that of Skill.",
-        "zh-CN": "普攻有#1[i]%的基础概率使敌方目标陷入与战技相同的灼烧状态。",
-        "ja": "通常攻撃は#1[i]%の基礎確率で敵を戦闘スキルが与えるものと同じ燃焼状態にする。",
-        "ko": "일반 공격이 #1[i]%의 기본 확률로 적을 전투 스킬과 동일한 연소 상태에 빠트린다"
+        "zh-CN": "普攻有#1[i]%的基础概率使敌方目标陷入与战技相同的灼烧状态。"
       },
       "params": [[0.8]],
       "icon": "icon/skill/1210_skilltree1.png",
@@ -733,19 +643,11 @@
     {
       "id": 1210102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Aros com Lâminas",
-        "en": "Bladed Hoop",
-        "zh-CN": "投狭",
-        "ja": "{RUBY_B#やいば}刃{RUBY_E#}の{RUBY_B#わ}輪{RUBY_E#}くぐり",
-        "ko": "장애물 통과"
-      },
+      "name": { "pt-BR": "Aros com Lâminas", "en": "Bladed Hoop", "zh-CN": "投狭" },
       "description": {
         "pt-BR": "No começo da batalha, a ação de Guinaifen é Avançada Adiante em #1[i]%.",
         "en": "When the battle begins, Guinaifen's action advances by #1[i]%.",
-        "zh-CN": "战斗开始时，桂乃芬的行动提前#1[i]%。",
-        "ja": "戦闘開始時、桂乃芬の行動順が#1[i]%早まる。",
-        "ko": "전투 시작 시 계네빈의 행동 게이지가 #1[i]% 증가한다"
+        "zh-CN": "战斗开始时，桂乃芬的行动提前#1[i]%。"
       },
       "params": [[0.25]],
       "icon": "icon/skill/1210_skilltree2.png",
@@ -769,19 +671,11 @@
     {
       "id": 1210103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Caminhando em Facas",
-        "en": "Walking on Knives",
-        "zh-CN": "逾锋",
-        "ja": "{RUBY_B#はだしとうとう}裸足踏刀{RUBY_E#}",
-        "ko": "칼날 위 걷기"
-      },
+      "name": { "pt-BR": "Caminhando em Facas", "en": "Walking on Knives", "zh-CN": "逾锋" },
       "description": {
         "pt-BR": "Causa #1[i]% a mais de Dano a inimigos com Queimadura.",
         "en": "Deals #1[i]% more DMG to Burned enemies.",
-        "zh-CN": "对陷入灼烧状态的敌方目标造成的伤害提高#1[i]%。",
-        "ja": "燃焼状態の敵に対する与ダメージ+#1[i]%。",
-        "ko": "연소 상태에 빠진 적에게 가하는 피해가 #1[i]% 증가한다"
+        "zh-CN": "对陷入灼烧状态的敌方目标造成的伤害提高#1[i]%。"
       },
       "params": [[0.2]],
       "icon": "icon/skill/1210_skilltree3.png",
@@ -805,13 +699,7 @@
     {
       "id": 1210201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -828,13 +716,7 @@
     {
       "id": 1210202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "zh-CN": "击破强化" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1210101],
@@ -851,13 +733,7 @@
     {
       "id": 1210203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1210202],
@@ -877,9 +753,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -897,13 +771,7 @@
     {
       "id": 1210205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1210102],
@@ -920,13 +788,7 @@
     {
       "id": 1210206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "zh-CN": "击破强化" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1210205],
@@ -943,13 +805,7 @@
     {
       "id": 1210207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1210206],
@@ -969,9 +825,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -989,13 +843,7 @@
     {
       "id": 1210209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "zh-CN": "击破强化" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1210103],
@@ -1012,13 +860,7 @@
     {
       "id": 1210210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano: Fogo",
-        "en": "DMG Boost: Fire",
-        "zh-CN": "伤害强化•火",
-        "ja": "ダメージ強化・炎",
-        "ko": "피해 강화•화염"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Fogo", "en": "DMG Boost: Fire", "zh-CN": "伤害强化•火" },
       "icon": "icon/property/IconFireAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1210201],

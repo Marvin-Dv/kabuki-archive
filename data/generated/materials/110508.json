@@ -4,9 +4,7 @@
   "name": {
     "pt-BR": "Silêncio do Fluxo Derrotado",
     "en": "Vanquished Flow's Reticence",
-    "zh-CN": "灭流绝溢的缄默",
-    "ja": "滅流の沈黙",
-    "ko": "범람을 끊는 침묵"
+    "zh-CN": "灭流绝溢的缄默"
   },
   "rarity": 4,
   "type": "Material",
@@ -17,10 +15,6 @@
   "sources": {
     "en": ["Echo of War: \"Memortis Shore\" Ruins of Time"],
     "pt-BR": ["Eco da Guerra: Túmulo da Memória, Ruínas do Tempo"],
-    "zh-CN": ["历战余响【「葬忆彼岸」时光归墟】"],
-    "ja": [
-      "歴戦余韻「「{RUBY_B#ほうむ}葬{RUBY_E#}られし{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#ひがん}彼岸{RUBY_E#}」{RUBY_B#とき}時{RUBY_E#}の{RUBY_B#は}果{RUBY_E#}て」"
-    ],
-    "ko": ["전쟁의 여운 [「기억이 묻힌 저편」 시간의 귀허]"]
+    "zh-CN": ["历战余响【「葬忆彼岸」时光归墟】"]
   }
 }

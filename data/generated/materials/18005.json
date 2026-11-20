@@ -1,13 +1,7 @@
 {
   "id": 18005,
   "slug": "shadow-of-harmony",
-  "name": {
-    "pt-BR": "Sombra da Harmonia",
-    "en": "Shadow of Harmony",
-    "zh-CN": "「同谐」之影",
-    "ja": "「調和」の影",
-    "ko": "「화합」의 그림자"
-  },
+  "name": { "pt-BR": "Sombra da Harmonia", "en": "Shadow of Harmony", "zh-CN": "「同谐」之影" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",
@@ -17,8 +11,6 @@
   "sources": {
     "en": ["Trailblaze Mission Rewards", "Obtained by upgrading the Clockie Statue"],
     "pt-BR": ["Recompensas de Missão de Desbravamento", "Obtido ao melhorar a Estátua do Relogin"],
-    "zh-CN": ["开拓任务奖励", "「钟表小子雕像」等级奖励获得"],
-    "ja": ["開拓クエスト報酬", "「クロックボーイの像」レベルアップ報酬で獲得"],
-    "ko": ["개척 임무 보상", "「시계 소년 조각상」 레벨 보상 획득"]
+    "zh-CN": ["开拓任务奖励", "「钟表小子雕像」等级奖励获得"]
   }
 }

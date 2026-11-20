@@ -1,13 +1,7 @@
 {
   "id": 23024,
   "slug": "along-the-passing-shore",
-  "name": {
-    "pt-BR": "Ao Longo da Margem Transitória",
-    "en": "Along the Passing Shore",
-    "zh-CN": "行于流逝的岸",
-    "ja": "流れ逝く岸を歩いて",
-    "ko": "흘러가는 강가를 따라"
-  },
+  "name": { "pt-BR": "Ao Longo da Margem Transitória", "en": "Along the Passing Shore", "zh-CN": "行于流逝的岸" },
   "rarity": 5,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
@@ -15,18 +9,14 @@
   "description": {
     "pt-BR": "Fluindo na fronteira estreita entra a \"existência\" e o \"nada\", as marés congelantes batem eternamente contra as margens e trazem todas as coisas ao seu fim.\nNeste lugar, os afogados pedem ajuda, lamentam com músicas, encontram suas felicidades, aproveitam doces momentos e sofrem uma grande agonia... Tudo isso está refletido na água. Ela não pode vivenciar essas coisas, mas ela pode senti-las.\nAinda existem muitos caminhos a caminhar, muitos sons a ouvir e muitas coisas para mudar antes dela chegar ao final.\nEla estende sua mão e salva aqueles que estão se afogando das tentações da Inexistência, e uma miragem após a outra explode atrás da imagem dela.\nEla continua caminhando neste mundo infinito, tudo por um final que não existe.\nE está sempre chovendo aqui.",
     "en": "Flowing in the narrow border between \"existence\" and \"nothingness,\" the ice-cold tides eternally lap against the shores and bring all things to their final end.\nIn this place, the drowned ask for help, lament with songs, find their happiness, enjoy sweet moments, and suffer great agony... All these are reflected in the water. She cannot experience these, but she can feel them —\nThere are still many roads to walk, many sounds to listen to, and many things to change before she arrives at the end.\nShe reaches out and saves the drowning from the temptations of Nihility, and one mirage after another bursts apart behind her figure.\nShe keeps walking in this boundless world, all for an end that does not exist.\n— And it's always raining here.",
-    "zh-CN": "流淌于「有」与「无」的狭间，冰冷的潮水永世冲刷着两岸，将一切带向最终的归宿。\n溺水者于此间呼救，哀歌、欢乐、甜蜜、痛苦倒影其中…她无法经受，却可体会——\n在抵达尽头之前，仍有许多路要走，许多声音要倾听，许多事情可去改变。\n她伸出手，将溺水者从虚无的诱惑中救出，一个又一个幻影在她身后破碎。\n她继续行着，在这无垠的世间，为了一个不存在的终点。\n——而这里永远下着雨。",
-    "ja": "「有」と「無」の狭間を流れ、その両岸を永久に洗う冷たき潮水はすべてを終着点に連れゆく。\n溺水した者はここで助けを求めた。悲しみ、喜び、幸せ、そして苦痛がその中に映る…彼女は、そのすべてを身をもって経験することはできないが、そのすべてを心の底から感じられる。\n最果てにたどり着くまで、歩むべき道はまだ長く、聞くべき声もまだ多い。そして、変えるべきこともたくさん残っている。\n彼女は手を差し伸べ、溺水者を虚無の誘惑から救い出す。すると、一つ一つの幻影が、彼女の背後で次々と砕け散った。\n彼女は歩き続ける。この夢幻なる世界の、存在しない終点を目指して。\n——そして、ここではいつも雨が降っている。",
-    "ko": "「유」와 「무」 사이에 흐르고 있는 얼음같이 차가운 조수는 영원히 양쪽 물가에 부딪히며 모든 것을 최종의 귀착점으로 이끌었다.\n물에 빠진 자는 살려달라고 소리쳤다. 슬픔, 즐거움, 달콤함, 고통 모두 이곳에 비쳤다…. 그녀는 그것들을 직접 경험할 수는 없으나, 느낄 수는 있었다——\n끝에 다다르기까지 여전히 가야 할 길은 멀고, 들어야 할 소리는 많으며, 바꿀 수 있는 일도 많다.\n그녀가 손을 뻗어 물에 빠진 자들을 공허의 유혹에서 구해내자, 환영들이 하나씩 그녀의 뒤에서 부서졌다.\n그녀는 이 끝없는 세상에서 존재하지 않는 종점을 향해 계속해서 나아가고 있다.\n——그리고 이곳에선 영원히 비가 내린다"
+    "zh-CN": "流淌于「有」与「无」的狭间，冰冷的潮水永世冲刷着两岸，将一切带向最终的归宿。\n溺水者于此间呼救，哀歌、欢乐、甜蜜、痛苦倒影其中…她无法经受，却可体会——\n在抵达尽头之前，仍有许多路要走，许多声音要倾听，许多事情可去改变。\n她伸出手，将溺水者从虚无的诱惑中救出，一个又一个幻影在她身后破碎。\n她继续行着，在这无垠的世间，为了一个不存在的终点。\n——而这里永远下着雨。"
   },
   "skill": {
-    "name": { "pt-BR": "Navegante", "en": "Steerer", "zh-CN": "司渡", "ja": "渡し守", "ko": "뱃사공" },
+    "name": { "pt-BR": "Navegante", "en": "Steerer", "zh-CN": "司渡" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando o usuário atinge um inimigo-alvo, inflige Miragem Fracassada ao inimigo, durando por 1 rodada. Cada vez que o usuário ataca, este efeito pode ser acionado 1 vez contra cada alvo. O usuário causa #2[i]% a mais de Dano aos alvos afligidos por Miragem Fracassada, e o Dano causado pela Perícia Suprema é aumentado adicionalmente em #3[i]%.",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals #2[i]% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by #3[i]%.",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高#2[i]%，终结技造成的伤害额外提高#3[i]%。",
-      "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラの攻撃が敵に命中する時、敵を「泡影」状態にする、1ターン継続。この効果は装備キャラが攻撃を行うたびに、敵それぞれに1回まで発動できる。「泡影」状態の敵に対する装備キャラの与ダメージ+#2[i]%、さらに必殺技によるダメージ+#3[i]%。",
-      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터가 적 명중 시 적을 [포영] 상태에 빠트린다. 지속 시간: 1턴. 장착한 캐릭터가 공격할 때마다 적 1기당 1회만 발동한다. 장착한 캐릭터가 [포영] 상태에 빠진 적에게 가하는 피해가 #2[i]% 증가하고, 필살기로 가하는 피해가 추가로 #3[i]% 증가한다"
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高#2[i]%，终结技造成的伤害额外提高#3[i]%。"
     },
     "params": [
       [0.36, 0.24, 0.24],

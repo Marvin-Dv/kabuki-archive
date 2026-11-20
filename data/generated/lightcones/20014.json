@@ -1,7 +1,7 @@
 {
   "id": 20014,
   "slug": "adversarial",
-  "name": { "pt-BR": "Antagonista", "en": "Adversarial", "zh-CN": "相抗", "ja": "相抗", "ko": "대립" },
+  "name": { "pt-BR": "Antagonista", "en": "Adversarial", "zh-CN": "相抗" },
   "rarity": 3,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -9,18 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"Quem luta pela liberdade nunca morre, pois suas histórias são contadas para sempre.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"Freedom fighters will never die, as their stories will forever be told.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「为自由而战的人不会死，他的故事将被永远传唱。」",
-    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「自由のために戦った人は死なない、その物語は永遠に歌い継がれる」",
-    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「자유를 위해 싸우는 사람은 죽지 않는다. 그의 이야기는 영원히 노래로 불릴 것이다」"
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「为自由而战的人不会死，他的故事将被永远传唱。」"
   },
   "skill": {
-    "name": { "pt-BR": "Aliança", "en": "Alliance", "zh-CN": "联盟", "ja": "同盟", "ko": "연맹" },
+    "name": { "pt-BR": "Aliança", "en": "Alliance", "zh-CN": "联盟" },
     "description": {
       "pt-BR": "Quando o usuário derrota um inimigo, aumenta a VEL em #1[i]% por #2[i] rodada(s).",
       "en": "When the wearer defeats an enemy, increases SPD by #1[i]% for #2[i] turn(s).",
-      "zh-CN": "使装备者在消灭敌方目标后，速度提高#1[i]%，持续#2[i]回合。",
-      "ja": "装備キャラが敵を倒した後、速度+#1[i]%、#2[i]ターン継続。",
-      "ko": "장착한 캐릭터는 적을 처치한 후 속도가 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+      "zh-CN": "使装备者在消灭敌方目标后，速度提高#1[i]%，持续#2[i]回合。"
     },
     "params": [[0.1, 2], [0.12, 2], [0.14, 2], [0.16, 2], [0.18, 2]],
     "properties": [[], [], [], [], []]

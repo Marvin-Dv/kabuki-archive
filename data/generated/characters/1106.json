@@ -1,7 +1,7 @@
 {
   "id": 1106,
   "slug": "pela",
-  "name": { "pt-BR": "Pela", "en": "Pela", "zh-CN": "佩拉", "ja": "ペラ", "ko": "페라" },
+  "name": { "pt-BR": "Pela", "en": "Pela", "zh-CN": "佩拉" },
   "rarity": 4,
   "path": "Nihility",
   "element": "Ice",
@@ -11,13 +11,11 @@
     {
       "id": 110601,
       "type": "Basic",
-      "name": { "pt-BR": "Tiro Gélido", "en": "Frost Shot", "zh-CN": "冰点射击", "ja": "氷点狙撃", "ko": "빙점 사격" },
+      "name": { "pt-BR": "Tiro Gélido", "en": "Frost Shot", "zh-CN": "冰点射击" },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Pela a um único inimigo-alvo.",
         "en": "Deals Ice DMG equal to #1[i]% of Pela's ATK to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于佩拉#1[i]%攻击力的冰属性伤害。",
-        "ja": "指定した敵単体にペラの攻撃力#1[i]%分の氷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 페라 공격력 #1[i]%만큼의 얼음 속성 피해를 준다"
+        "zh-CN": "对指定敌方单体造成等同于佩拉#1[i]%攻击力的冰属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1106_basic_atk.png",
@@ -25,23 +23,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo leve a um único inimigo.",
         "en": "Deals minor Ice DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量冰属性伤害。",
-        "ja": "敵単体に少量の氷属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 얼음 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量冰属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 110602,
       "type": "Skill",
-      "name": { "pt-BR": "Geladura", "en": "Frostbite", "zh-CN": "低温妨害", "ja": "低温妨害", "ko": "저온 방해" },
+      "name": { "pt-BR": "Geladura", "en": "Frostbite", "zh-CN": "低温妨害" },
       "description": {
         "pt-BR": "Remove #2[i] melhoria(s) e causa Dano de Gelo equivalente a #1[i]% do ATQ de Pela a um inimigo-alvo designado.",
         "en": "Removes #2[i] buff(s) and deals Ice DMG equal to #1[i]% of Pela's ATK to one designated target enemy.",
-        "zh-CN": "解除指定敌方单体的#2[i]个增益效果，同时造成等同于佩拉#1[i]%攻击力的冰属性伤害。",
-        "ja": "指定した敵単体のバフを#2[i]つ解除し、ペラの攻撃力#1[i]%分の氷属性ダメージを与える。",
-        "ko": "지정된 단일 적의 버프 효과 #2[i]개를 해제하고, 페라 공격력 #1[i]%만큼의 얼음 속성 피해를 준다"
+        "zh-CN": "解除指定敌方单体的#2[i]个增益效果，同时造成等同于佩拉#1[i]%攻击力的冰属性伤害。"
       },
       "params": [
         [1.05, 1],
@@ -65,29 +59,19 @@
       "summary": {
         "pt-BR": "Remove 1 melhoria de um único inimigo-alvo e causa Dano de Gelo ao inimigo-alvo.",
         "en": "Dispels 1 buff from one enemy target, and deals Ice DMG to the target enemy.",
-        "zh-CN": "解除敌方单体1个增益效果，对敌方单体造成冰属性伤害。",
-        "ja": "敵単体のバフを1つ解除し、敵単体に氷属性ダメージを与える。",
-        "ko": "단일 적의 버프 효과를 1개 해제하고, 단일 적에게 얼음 속성 피해를 가한다"
+        "zh-CN": "解除敌方单体1个增益效果，对敌方单体造成冰属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 110603,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Supressão de Zona",
-        "en": "Zone Suppression",
-        "zh-CN": "领域压制",
-        "ja": "領域制圧",
-        "ko": "영역 제압"
-      },
+      "name": { "pt-BR": "Supressão de Zona", "en": "Zone Suppression", "zh-CN": "领域压制" },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #4[i]% do ATQ de Pela a todos os inimigos, com uma chance-base de #1[i]% de infligir a condição Exposto em todos os inimigos.\nInimigos Expostos têm a DEF reduzida em #2[i]% por #3[i] rodada(s).",
         "en": "Deals Ice DMG equal to #4[i]% of Pela's ATK to all enemies, with a #1[i]% base chance to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by #2[i]% for #3[i] turn(s).",
-        "zh-CN": "有#1[i]%的基础概率使敌方每个单体目标陷入【通解】状态，同时对敌方全体造成等同于佩拉#4[i]%攻击力的冰属性伤害。\n【通解】状态下，敌方目标防御力降低#2[i]%，持续#3[i]回合。",
-        "ja": "#1[i]%の基礎確率で敵単体それぞれを「一般解」状態にし、敵全体にペラの攻撃力#4[i]%分の氷属性ダメージを与える。\n「一般解」状態の敵の防御力-#2[i]%、#3[i]ターン継続。",
-        "ko": "#1[i]%의 기본 확률로 각 단일 적을 [분석] 상태에 빠트리는 동시에 모든 적에게 페라 공격력 #4[i]%만큼의 얼음 속성 피해를 가한다.\n[분석] 상태의 적은 방어력이 #2[i]% 감소한다. 지속 시간: #3[i]턴"
+        "zh-CN": "有#1[i]%的基础概率使敌方每个单体目标陷入【通解】状态，同时对敌方全体造成等同于佩拉#4[i]%攻击力的冰属性伤害。\n【通解】状态下，敌方目标防御力降低#2[i]%，持续#3[i]回合。"
       },
       "params": [
         [1, 0.3, 2, 0.6],
@@ -111,29 +95,19 @@
       "summary": {
         "pt-BR": "Tem altas chances de reduzir a DEF dos inimigos, além de causar Dano de Gelo leve a todos os inimigos.",
         "en": "Has a high chance of lowering enemies' DEF and deals minor Ice DMG to all enemies.",
-        "zh-CN": "大概率使敌方目标防御力降低，并对敌方全体造成少量冰属性伤害。",
-        "ja": "高確率で敵の防御力をダウンし、敵全体に少量の氷属性ダメージを与える。",
-        "ko": "높은 확률로 적의 방어력을 감소시키고 모든 적에게 소량의 얼음 속성 피해를 가한다"
+        "zh-CN": "大概率使敌方目标防御力降低，并对敌方全体造成少量冰属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 110604,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Coleta de Dados",
-        "en": "Data Collecting",
-        "zh-CN": "数据采集",
-        "ja": "データ採取",
-        "ko": "데이터 수집"
-      },
+      "name": { "pt-BR": "Coleta de Dados", "en": "Data Collecting", "zh-CN": "数据采集" },
       "description": {
         "pt-BR": "Se o inimigo estiver sofrendo uma penalidade depois do ataque de Pela, ela recuperará #1[f1] de Energia adicional. Esse efeito só pode ser acionado uma vez por ataque.",
         "en": "If the enemy is debuffed after Pela's attack, Pela will restore #1[f1] additional Energy. This effect can only be triggered 1 time per attack.",
-        "zh-CN": "施放攻击后若敌方目标处于负面效果状态，则佩拉额外恢复#1[f1]点能量。该效果每次攻击只能触发1次。",
-        "ja": "攻撃を行った後、敵にデバフがある場合、ペラはさらにEPを#1[f1]回復する。この効果は1回の攻撃で1回まで発動できる。",
-        "ko": "공격 발동 후 적이 디버프 효과 상태를 보유하면, 페라는 에너지 #1[f1]pt를 추가로 회복한다. 해당 효과는 공격마다 1회만 발동할 수 있다"
+        "zh-CN": "施放攻击后若敌方目标处于负面效果状态，则佩拉额外恢复#1[f1]点能量。该效果每次攻击只能触发1次。"
       },
       "params": [
         [5],
@@ -157,50 +131,36 @@
       "summary": {
         "pt-BR": "Após usar um ataque, se o inimigo-alvo estiver com alguma penalidade, Pela regenera Energia.",
         "en": "After using an attack, if the enemy target is currently inflicted with debuff(s), Pela regenerates Energy.",
-        "zh-CN": "施放攻击后，若敌方目标处于负面效果状态，则佩拉恢复能量。",
-        "ja": "攻撃後、敵にデバフがある場合、ペラはEPを回復する。",
-        "ko": "공격 발동 후 적이 디버프 효과상태에 빠지면, 페라는 에너지를 회복한다"
+        "zh-CN": "施放攻击后，若敌方目标处于负面效果状态，则佩拉恢复能量。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 110606,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1106_basic_atk.png",
       "maxLevel": 1,
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 110607,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Ataque Premeditado",
-        "en": "Preemptive Strike",
-        "zh-CN": "先发制人",
-        "ja": "先手必勝",
-        "ko": "기선 제압"
-      },
+      "name": { "pt-BR": "Ataque Premeditado", "en": "Preemptive Strike", "zh-CN": "先发制人" },
       "description": {
         "pt-BR": "Ataca o inimigo imediatamente. Ao entrar na batalha, Pela causa Dano de Gelo igual a #4[i]% do seu ATQ a um inimigo aleatório, com #1[i]% de chance-base de reduzir a DEF de todos os inimigos em #2[i]% por #3[i] rodada(s).",
         "en": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to #4[i]% of her ATK to a random enemy, with a #1[i]% base chance of lowering the DEF of all enemies by #2[i]% for #3[i] turn(s).",
-        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于佩拉#4[i]%攻击力的冰属性伤害，同时有#1[i]%的基础概率使敌方每个单体目标防御力降低#2[i]%，持续#3[i]回合。",
-        "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体にペラの攻撃力#4[i]%分の氷属性ダメージを与え、#1[i]%の基礎確率で敵単体それぞれの防御力-#2[i]%、#3[i]ターン継続。",
-        "ko": "적을 바로 공격하며, 전투 진입 후 임의의 단일 적에게 페라 공격력 #4[i]%만큼의 얼음 속성 피해를 준다. 동시에 #1[i]%의 기본 확률로 각 단일 적의 방어력이 #2[i]% 감소한다. 지속 시간: #3[i]턴"
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于佩拉#4[i]%攻击力的冰属性伤害，同时有#1[i]%的基础概率使敌方每个单体目标防御力降低#2[i]%，持续#3[i]回合。"
       },
       "params": [[1, 0.2, 2, 0.8]],
       "icon": "icon/skill/1106_technique.png",
@@ -208,29 +168,19 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Após entrar na batalha, causa uma pequena quantidade de Dano a um inimigo aleatório, com alta chance de diminuir a DEF de todos os inimigos-alvo.",
         "en": "Attacks the enemy. After entering battle, deals minor DMG to a random single enemy, with a high chance of lowering the DEF of all enemy targets.",
-        "zh-CN": "攻击敌人，进战后对敌方随机单体造成少量伤害，并有大概率使敌方每个单体目标防御力降低。",
-        "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体に少量のダメージを与え、高確率で敵それぞれの防御力ダウン。",
-        "ko": "적을 공격하며, 전투 진입 후 임의의 단일 적에게 소량의 피해를 가하고, 높은 확률로 각 단일 적의 방어력이 감소한다"
+        "zh-CN": "攻击敌人，进战后对敌方随机单体造成少量伤害，并有大概率使敌方每个单体目标防御力降低。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Relatório de Vitória",
-        "en": "Victory Report",
-        "zh-CN": "胜利反馈",
-        "ja": "{RUBY_B#しょうり}勝利{RUBY_E#}のフィードバック",
-        "ko": "승리의 피드백"
-      },
+      "name": { "pt-BR": "Relatório de Vitória", "en": "Victory Report", "zh-CN": "胜利反馈" },
       "description": {
         "pt-BR": "Quando um inimigo é derrotado, Pela regenera 5 de Energia.",
         "en": "When an enemy is defeated, Pela regenerates 5 Energy.",
-        "zh-CN": "敌方目标被消灭时，佩拉恢复5点能量。",
-        "ja": "敵が倒された時、ペラはEPを5回復する。",
-        "ko": "적이 처치될 경우 페라는 에너지를 5pt 회복한다"
+        "zh-CN": "敌方目标被消灭时，佩拉恢复5点能量。"
       },
       "icon": "icon/skill/1106_rank1.png",
       "materials": [{ "id": 11106, "num": 1 }],
@@ -238,19 +188,11 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Carregamento Rígido",
-        "en": "Adamant Charge",
-        "zh-CN": "疾进不止",
-        "ja": "{RUBY_B#や}止{RUBY_E#}まぬ{RUBY_B#こうしん}行進{RUBY_E#}",
-        "ko": "무한 질주"
-      },
+      "name": { "pt-BR": "Carregamento Rígido", "en": "Adamant Charge", "zh-CN": "疾进不止" },
       "description": {
         "pt-BR": "Usar a Perícia para remover melhoria(s) aumenta a VEL em 10% por 2 rodada(s).",
         "en": "Using Skill to dispel buff(s) increases SPD by 10% for 2 turn(s).",
-        "zh-CN": "施放战技解除增益效果时，速度提高10%，持续2回合。",
-        "ja": "戦闘スキルを発動してバフを解除する時、速度+10%、2ターン継続。",
-        "ko": "전투 스킬을 발동해 버프 효과를 해제하면 속도가 10% 증가한다. 지속 시간: 2턴"
+        "zh-CN": "施放战技解除增益效果时，速度提高10%，持续2回合。"
       },
       "icon": "icon/skill/1106_rank2.png",
       "materials": [{ "id": 11106, "num": 1 }],
@@ -258,19 +200,11 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Força Supressiva",
-        "en": "Suppressive Force",
-        "zh-CN": "压制升级",
-        "ja": "{RUBY_B#せいあつ}制圧{RUBY_E#}エスカレート",
-        "ko": "성장 억제"
-      },
+      "name": { "pt-BR": "Força Supressiva", "en": "Suppressive Force", "zh-CN": "压制升级" },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1106_skill.png",
       "materials": [{ "id": 11106, "num": 1 }],
@@ -278,19 +212,11 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Análise Completa",
-        "en": "Full Analysis",
-        "zh-CN": "完全剖析",
-        "ja": "{RUBY_B#かんぜんかいせき}完全解析{RUBY_E#}",
-        "ko": "완벽 해부"
-      },
+      "name": { "pt-BR": "Análise Completa", "en": "Full Analysis", "zh-CN": "完全剖析" },
       "description": {
         "pt-BR": "Ao usar a Perícia, há 100% de chance-base de reduzir a RES a Gelo do inimigo-alvo em 12% por 2 rodada(s).",
         "en": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s).",
-        "zh-CN": "施放战技时，有100%的基础概率使敌方目标冰属性抗性降低12%，持续2回合。",
-        "ja": "戦闘スキルを発動した時、100%の基礎確率で敵の氷属性耐性-12%、2ターン継続。",
-        "ko": "전투 스킬 발동 시 100%의 기본 확률로 적의 얼음 속성 저항이 12% 감소한다. 지속 시간: 2턴"
+        "zh-CN": "施放战技时，有100%的基础概率使敌方目标冰属性抗性降低12%，持续2回合。"
       },
       "icon": "icon/skill/1106_rank4.png",
       "materials": [{ "id": 11106, "num": 1 }],
@@ -298,19 +224,11 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Perigo Total",
-        "en": "Absolute Jeopardy",
-        "zh-CN": "零度妨害",
-        "ja": "{RUBY_B#れいどぼうがい}零度妨害{RUBY_E#}",
-        "ko": "빙점 방해"
-      },
+      "name": { "pt-BR": "Perigo Total", "en": "Absolute Jeopardy", "zh-CN": "零度妨害" },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1106_ultimate.png",
       "materials": [{ "id": 11106, "num": 1 }],
@@ -318,19 +236,11 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Busca Fraca",
-        "en": "Feeble Pursuit",
-        "zh-CN": "疲弱追击",
-        "ja": "{RUBY_B#ひじゃくついげき}疲弱追撃{RUBY_E#}",
-        "ko": "힘 없는 추격"
-      },
+      "name": { "pt-BR": "Busca Fraca", "en": "Feeble Pursuit", "zh-CN": "疲弱追击" },
       "description": {
         "pt-BR": "Após Pela atacar, se o inimigo-alvo estiver afligido com alguma penalidade, ela causa Dano de Gelo Adicional igual a 40% do ATQ dela ao inimigo.",
         "en": "After Pela attacks, if the enemy target is debuffed, deals Ice Additional DMG equal to 40% of Pela's ATK to the enemy.",
-        "zh-CN": "施放攻击后，若敌方目标处于负面效果，则对其造成等同于佩拉40%攻击力的冰属性附加伤害。",
-        "ja": "攻撃を行った後、敵がデバフ状態の場合、ペラの攻撃力40%分の氷属性付加ダメージを与える。",
-        "ko": "공격 발동 후 적이 디버프 효과를 보유한 경우, 페라 공격력의 40%만큼 얼음 속성 추가 피해를 가한다"
+        "zh-CN": "施放攻击后，若敌方目标处于负面效果，则对其造成等同于佩拉40%攻击力的冰属性附加伤害。"
       },
       "icon": "icon/skill/1106_rank6.png",
       "materials": [{ "id": 11106, "num": 1 }],
@@ -690,19 +600,11 @@
     {
       "id": 1106101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Pancada",
-        "en": "Bash",
-        "zh-CN": "痛击",
-        "ja": "{RUBY_B#つうげき}痛撃{RUBY_E#}",
-        "ko": "통격"
-      },
+      "name": { "pt-BR": "Pancada", "en": "Bash", "zh-CN": "痛击" },
       "description": {
         "pt-BR": "Causa #1[i]% a mais de Dano a inimigos com penalidades.",
         "en": "Deals #1[i]% more DMG to debuffed enemy targets.",
-        "zh-CN": "对处于负面效果的敌方目标造成的伤害提高#1[i]%。",
-        "ja": "デバフ状態の敵に対して与ダメージ+#1[i]%。",
-        "ko": "디버프 효과를 보유한 적에게 가하는 피해가 #1[i]% 증가한다"
+        "zh-CN": "对处于负面效果的敌方目标造成的伤害提高#1[i]%。"
       },
       "params": [[0.2]],
       "icon": "icon/skill/1106_skilltree1.png",
@@ -721,19 +623,11 @@
     {
       "id": 1106102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "A Estratégia Secreta",
-        "en": "The Secret Strategy",
-        "zh-CN": "秘策",
-        "ja": "{RUBY_B#ひさく}秘策{RUBY_E#}",
-        "ko": "비책"
-      },
+      "name": { "pt-BR": "A Estratégia Secreta", "en": "The Secret Strategy", "zh-CN": "秘策" },
       "description": {
         "pt-BR": "Quando Pela está no campo, a Taxa de Acerto de Efeito de todos os aliados aumenta em #1[i]%.",
         "en": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by #1[i]%.",
-        "zh-CN": "佩拉在场时，我方全体的效果命中提高#1[i]%。",
-        "ja": "ペラがフィールド上にいる時、味方全体の効果命中+#1[i]%。",
-        "ko": "페라가 필드에 있으면 모든 아군의 효과 명중이 #1[i]% 증가한다"
+        "zh-CN": "佩拉在场时，我方全体的效果命中提高#1[i]%。"
       },
       "params": [[0.1]],
       "icon": "icon/skill/1106_skilltree2.png",
@@ -757,19 +651,11 @@
     {
       "id": 1106103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Exterminar",
-        "en": "Wipe Out",
-        "zh-CN": "追歼",
-        "ja": "{RUBY_B#ついげきせんめつ}追撃殲滅{RUBY_E#}",
-        "ko": "추격 토벌"
-      },
+      "name": { "pt-BR": "Exterminar", "en": "Wipe Out", "zh-CN": "追歼" },
       "description": {
         "pt-BR": "Ao usar a Perícia para remover melhoria(s), aumenta em #1[i]% o Dano do próximo ataque.",
         "en": "When using Skill to dispel buff(s), increases the DMG dealt by the next attack by #1[i]%.",
-        "zh-CN": "施放战技解除增益效果时，下一次攻击造成的伤害提高#1[i]%。",
-        "ja": "戦闘スキルを発動してバフを解除した時、次の攻撃の与ダメージ+#1[i]%。",
-        "ko": "전투 스킬 발동으로 버프 효과를 해제할 시 다음 공격으로 가하는 피해가 #1[i]% 증가한다"
+        "zh-CN": "施放战技解除增益效果时，下一次攻击造成的伤害提高#1[i]%。"
       },
       "params": [[0.2]],
       "icon": "icon/skill/1106_skilltree3.png",
@@ -793,13 +679,7 @@
     {
       "id": 1106201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -816,7 +696,7 @@
     {
       "id": 1106202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1106101],
@@ -833,13 +713,7 @@
     {
       "id": 1106203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1106202],
@@ -859,9 +733,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -879,13 +751,7 @@
     {
       "id": 1106205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1106102],
@@ -902,7 +768,7 @@
     {
       "id": 1106206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1106205],
@@ -919,13 +785,7 @@
     {
       "id": 1106207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1106206],
@@ -945,9 +805,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
-        "zh-CN": "效果命中强化",
-        "ja": "効果命中強化",
-        "ko": "효과 명중 강화"
+        "zh-CN": "效果命中强化"
       },
       "icon": "icon/property/IconStatusProbability.png",
       "maxLevel": 1,
@@ -965,7 +823,7 @@
     {
       "id": 1106209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1106103],
@@ -982,13 +840,7 @@
     {
       "id": 1106210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1106201],
