@@ -1,32 +1,20 @@
 {
   "id": 21054,
   "slug": "the-storys-next-page",
-  "name": {
-    "pt-BR": "A Próxima Página da História",
-    "en": "The Story's Next Page",
-    "zh-CN": "故事的下一页",
-    "ja": "物語をめくって",
-    "ko": "이야기의 다음 페이지"
-  },
+  "name": { "en": "The Story's Next Page", "zh-CN": "故事的下一页" },
   "rarity": 4,
   "path": "Remembrance",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "A brisa agita os campos de trigo enquanto a garota, segurando um diário em branco, passeia pelas ondas douradas.\nAlém de Aedes Elysiae, em uma pólis tanto desconhecida quanto estranhamente familiar, companheiros de todos os tipos irão cruzar os caminhos, e uma jornada como uma canção, como um sonho, está prestes a começar...\n\"Dessa vez, junto comigo...\"\nNa borda do campo, a garota que esperou tanto tempo fecha seu livro e estende uma mão em direção ao \"futuro\"...\n\"Vamos escrever um novo capítulo da história ♪\"",
     "en": "The breeze stirs the wheat fields as the girl, clutching a blank journal, strolls through the golden waves.\nBeyond Aedes Elysiae, in a city both unfamiliar and eerily familiar, companions of all kinds will cross paths, and a journey like a song, like a dream, is about to begin...\n\"This time, together with me...\"\nAt the edge of the field, the girl who has waited so long closes her book and extends a hand toward the \"future\"—\n\"Let's write a new chapter of the story ♪\"",
-    "zh-CN": "微风吹起麦浪，女孩抱着空白的手记，漫步其中。\n在哀丽秘榭之外，在陌生又似曾相识的城邦，形形色色的伙伴将彼此结识，如歌如梦的旅途将要开始……\n「这次，与我一起……」\n麦田的尽头，等待已久的女孩合上书页，向「未来」伸出邀请的手——\n「为故事写下新的篇章吧♪」",
-    "ja": "そよ風が揺らす麦の波の中を、少女は空白の手記を抱えながら歩く。\nエリュシオンの外にある、見知らぬはずだがどこか懐かしい町で、様々な仲間たちと出会い、歌のような夢のような旅が始まる……\n「今度こそ、一緒に……」\n麦畑の果てで、長く待ち続けていた少女は本を閉じ、「未来」へと誘うように手を差し伸べた——\n「さあ、物語の新たなページをめくりましょう♪」",
-    "ko": "산들바람에 물결치는 밀밭 속에서 소녀는 아무것도 적히지 않은 수기를 들고 그 사이를 거닌다.\n엘리사이 에데스 밖, 낯설고도 익숙한 도시 국가에서, 각양각색의 동료들이 서로를 만나고 꿈 같은 여정이 시작될 것이다…….\n「이번엔 나와 함께……」\n밀밭의 끝에서 오랫동안 기다려온 소녀가 책장을 덮고 「미래」를 향해 손을 내민다——\n「이야기의 새로운 장을 써 보자♪」"
+    "zh-CN": "微风吹起麦浪，女孩抱着空白的手记，漫步其中。\n在哀丽秘榭之外，在陌生又似曾相识的城邦，形形色色的伙伴将彼此结识，如歌如梦的旅途将要开始……\n「这次，与我一起……」\n麦田的尽头，等待已久的女孩合上书页，向「未来」伸出邀请的手——\n「为故事写下新的篇章吧♪」"
   },
   "skill": {
-    "name": { "pt-BR": "Está Escrito", "en": "Written Down", "zh-CN": "书写", "ja": "綴る", "ko": "작성" },
+    "name": { "en": "Written Down", "zh-CN": "书写" },
     "description": {
-      "pt-BR": "Aumenta os PV máximos do usuário em #1[i]%. Após o ataque do Memoespírito do usuário, a Cura Realizada do usuário e do seu Memoespírito aumenta em #2[i]%, durando por #3[i] rodada(s).",
       "en": "Increases the wearer's Max HP by #1[i]%. After the wearer's memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by #2[i]%, lasting for #3[i] turn(s).",
-      "zh-CN": "使装备者的生命上限提高#1[i]%。装备者的忆灵攻击后，使装备者与忆灵的治疗量提高#2[i]%，持续#3[i]回合。",
-      "ja": "装備キャラの最大HP+#1[i]%。装備キャラの記憶の精霊が攻撃した後、装備キャラおよびその記憶の精霊の治癒量+#2[i]%、#3[i]ターン継続。",
-      "ko": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가한다. 장착한 캐릭터의 기억 정령이 공격하면 장착한 캐릭터와 기억 정령의 치유량이 #2[i]% 증가한다, 지속 시간: #3[i]턴"
+      "zh-CN": "使装备者的生命上限提高#1[i]%。装备者的忆灵攻击后，使装备者与忆灵的治疗量提高#2[i]%，持续#3[i]回合。"
     },
     "params": [[0.16, 0.12, 1], [0.2, 0.15, 1], [0.24, 0.18, 1], [0.28, 0.21, 1], [0.32, 0.24, 1]],
     "properties": [

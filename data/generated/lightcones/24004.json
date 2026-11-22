@@ -1,38 +1,20 @@
 {
   "id": 24004,
   "slug": "eternal-calculus",
-  "name": {
-    "pt-BR": "Cálculo Ininterrupto",
-    "en": "Eternal Calculus",
-    "zh-CN": "不息的演算",
-    "ja": "絶え間ない演算",
-    "ko": "멈추지 않는 연산"
-  },
+  "name": { "en": "Eternal Calculus", "zh-CN": "不息的演算" },
   "rarity": 5,
   "path": "Erudition",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Eternamente suspenso no vazio,\nFluxos de dados brilhantes invadem SUA mente.\nTransformando todo o passado e futuro em símbolos,\na Divindade deduzirá o fim através do começo.\nConhecimento, respostas, verdades...\nEm meio à informação, uma luz brilhante surge,\nE tudo fica claro para a Divindade.",
     "en": "Eternally suspended in the void,\nStreams of shimmering data flood into THEIR mind.\nTurning all things past and future into symbols,\nTHEY deduce the end from the beginning.\nKnowledge, answers, truths...\nIn the mist of information, a brilliant light arises,\nAnd everything becomes clear to THEM.",
-    "zh-CN": "永恒地悬停于虚空之中，\n闪耀的数据如洪流般涌入祂的脑海。\n将过去未来的万物化作符号，\n祂于初始之刻推演终末之时。\n知识，答案，真相……\n信息的迷雾中升腾起璀璨的光，\n于是一切对祂都已澄明。",
-    "ja": "輝くデータが洪水のように、\n永遠に虚空を漂う其の頭の中に流れ込む。\n其は過去と未来の万物を記号に変え、\n始まりの瞬間に終わり時を推測する。\n知識、答え、真実……\n情報の迷霧の中から眩い光が立ち昇り、\n其の前ではすべてが明らかになった。",
-    "ko": "영원히 허공에 멈춰 있는 채로,\n빛나는 데이터가 홍수처럼 그의 머릿속으로 밀려 들어왔다.\n과거와 미래의 만물은 부호가 되었고,\n그는 시작의 순간에 종말의 때를 연역했다.\n지식, 답, 진실……\n정보의 안갯속에 찬란한 빛이 떠올랐고,\n모든 것이 그에게 뚜렷해졌다"
+    "zh-CN": "永恒地悬停于虚空之中，\n闪耀的数据如洪流般涌入祂的脑海。\n将过去未来的万物化作符号，\n祂于初始之刻推演终末之时。\n知识，答案，真相……\n信息的迷雾中升腾起璀璨的光，\n于是一切对祂都已澄明。"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Pensamento Irrefreável",
-      "en": "Boundless Thought",
-      "zh-CN": "无界之思",
-      "ja": "境界なき思考",
-      "ko": "끝없는 생각"
-    },
+    "name": { "en": "Boundless Thought", "zh-CN": "无界之思" },
     "description": {
-      "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Após utilizar um ataque, para cada inimigo-alvo atingido, adicionalmente aumenta o ATQ em #2[i]%. Este efeito pode acumular até 5 vezes e dura até o próximo ataque. Se houver #3[i] ou mais inimigos-alvo atingidos, a VEL desta unidade aumenta em #4[i]%, durando por #5[i] rodada(s).",
       "en": "Increases the wearer's ATK by #1[i]%. After using an attack, for each enemy target hit, additionally increases ATK by #2[i]%. This effect can stack up to 5 times and last until the next attack. If there are #3[i] or more enemy targets hit, this unit's SPD increases by #4[i]%, lasting for #5[i] turn(s).",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。施放攻击后，每击中一名敌方目标，使攻击力额外提高#2[i]%，该效果最多叠加5次，持续至下次攻击后，若击中大于等于#3[i]名敌方目标，使自身速度提高#4[i]%，持续#5[i]回合。",
-      "ja": "装備キャラの攻撃力+#1[i]%。攻撃を行った後、命中した敵1体につき、さらに攻撃力+#2[i]%。この効果は最大で5回累積でき、次の攻撃を行った後まで継続。攻撃が#3[i]体以上の敵に命中した場合、自身の速度+#4[i]%、#5[i]ターン継続。",
-      "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 공격 발동 후 적을 1기 명중할 때마다 공격력이 추가로 #2[i]% 증가하며(최대 중첩수: 5회), 다음 공격 후까지 지속된다. #3[i]기 이상의 적을 명중하면 자신의 속도가 #4[i]% 증가한다, 지속 시간: #5[i]턴"
+      "zh-CN": "使装备者的攻击力提高#1[i]%。施放攻击后，每击中一名敌方目标，使攻击力额外提高#2[i]%，该效果最多叠加5次，持续至下次攻击后，若击中大于等于#3[i]名敌方目标，使自身速度提高#4[i]%，持续#5[i]回合。"
     },
     "params": [
       [0.08, 0.04, 3, 0.08, 1],

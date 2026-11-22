@@ -1,13 +1,7 @@
 {
   "id": 111003,
   "slug": "squirming-core",
-  "name": {
-    "pt-BR": "Núcleo Contorcido",
-    "en": "Squirming Core",
-    "zh-CN": "蠢动原核",
-    "ja": "脈動する原核",
-    "ko": "꿈틀대는 코어"
-  },
+  "name": { "en": "Squirming Core", "zh-CN": "蠢动原核" },
   "rarity": 4,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -22,27 +16,6 @@
       "Simulated Universe enemies",
       "Omni-Synthesizer — Material Exchange"
     ],
-    "pt-BR": [
-      "Certos Monstros do Fragmentum no Nível de Equilíbrio 4 ou superior",
-      "Sintetizador Omni — Síntese de Material",
-      "Espólio deixado por inimigos no Universo Divergente",
-      "Inimigos do Universo Simulado",
-      "Sintetizador Omni — Troca de Material"
-    ],
-    "zh-CN": ["突破至均衡等级4后，部分裂界造物掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
-    "ja": [
-      "均衡Lv.4に達した後、一部の裂界造物からドロップ",
-      "「万能合成マシン」- 素材合成",
-      "「階差宇宙」で敵からドロップ",
-      "「模擬宇宙」で敵からドロップ",
-      "「万能合成マシン」- 素材交換"
-    ],
-    "ko": [
-      "균형 레벨 Lv.4까지 돌파 후 일부 열계 창조물 드랍",
-      "「만능 합성기」- 재료 합성",
-      "「차분화 우주」 적 드랍",
-      "「시뮬레이션 우주」 적 드랍",
-      "「만능 합성기」- 재료 치환"
-    ]
+    "zh-CN": ["突破至均衡等级4后，部分裂界造物掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"]
   }
 }

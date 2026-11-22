@@ -1,13 +1,7 @@
 {
   "id": 11222,
   "slug": "lingshas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Lingsha",
-    "en": "Lingsha's Eidolon",
-    "zh-CN": "【灵砂】的星魂",
-    "ja": "「霊砂」の星魂",
-    "ko": "[영사]의 성혼"
-  },
+  "name": { "en": "Lingsha's Eidolon", "zh-CN": "【灵砂】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

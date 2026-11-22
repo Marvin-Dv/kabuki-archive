@@ -1,13 +1,7 @@
 {
   "id": 32,
   "type": "WindAddedRatio",
-  "name": {
-    "pt-BR": "Bônus de Dano de Vento",
-    "en": "Wind DMG Boost",
-    "zh-CN": "风属性伤害提高",
-    "ja": "風属性ダメージ",
-    "ko": "바람 속성 피해 증가"
-  },
+  "name": { "en": "Wind DMG Boost", "zh-CN": "风属性伤害提高" },
   "icon": "icon/property/IconWindAddedRatio.png",
   "percent": true
 }

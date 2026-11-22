@@ -1,38 +1,20 @@
 {
   "id": 21048,
   "slug": "dreams-montage",
-  "name": {
-    "pt-BR": "Montagem do Sonho",
-    "en": "Dream's Montage",
-    "zh-CN": "梦的蒙太奇",
-    "ja": "夢のモンタージュ",
-    "ko": "꿈의 몽타주"
-  },
+  "name": { "en": "Dream's Montage", "zh-CN": "梦的蒙太奇" },
   "rarity": 4,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"A Cidade dos Sonhos, o Criadouro do Pecado, ou a Terra Prometida...\"\nExtraindo as memórias de muitos, ele examina os momentos espetaculares, interrompendo, reorganizando e juntando-os.\n\"A maioria das memórias das pessoas não passa de uma coleção de fragmentos triviais e monótonos, onde apenas um punhado de momentos preciosos se destaca, enquanto as existências do resto são totalmente desnecessárias.\"\nQuadro a quadro, as imagens escapam de suas mãos, sendo tecidas gradualmente numa tapeçaria de brilhantismo.\n\"Nós não transportamos memórias. Nós só criamos o passado.\"",
     "en": "\"The City of Dreams, the Breeding Ground of Sin, or the Promised Land...\"\nExtracting the memories of many, he scrutinizes the spectacular moments, disrupting, reorganizing, and splicing them together.\n\"Most people's memories are but a collection of trivial and monotonous fragments, where only a handful of precious moments stand out, while the existences of the rest are utterly unnecessary.\"\nFrame by frame, the images flow through his grasp, gradually woven into a tapestry of brilliance.\n\"We don't transport memories. We only create the past.\"",
-    "zh-CN": "「美梦之都，罪恶温床，抑或应许之地……」\n撷取众人的记忆，他窥探那些震撼人心的片段，将之打乱，重组，拼接。\n「大多数人的记忆都琐碎无聊，一生也不过寥寥几个珍贵的瞬间，其他的全无存在的必要。」\n画面一帧帧在他手中流过，逐渐化为精彩的影像——\n「我们不搬运回忆，我们只创造过去。」",
-    "ja": "「美しき夢の都、罪悪の温床、あるいは約束の地……」\n彼は人々の記憶を摘み取り、心震わせる瞬間を覗き見て、それをかき乱し、再構築して繋ぎ合わせる。\n「大抵の人の記憶は取るに足らないものだ。一生の中で貴重な瞬間はほぼ僅か、それ以外はどれも存在する価値などない」\n彼の手の中で画面が1コマずつ流れ、次第に見事な映像へと姿を変えていく――\n「我々は記憶を運んでいるのではない、過去を創造しているだけだ」",
-    "ko": "「좋은꿈의 도시, 죄악의 온상, 혹은 약속의 땅……」\n사람들의 기억을 취한 그는 전율을 일으키는 순간을 엿보곤 이를 휘저어 재구성하고 이어 붙인다.\n「대부분 사람들의 기억은 보잘것없고 무료하지. 일생을 통틀어 소중한 순간은 얼마 되지 않아. 다른 건 존재할 필요도 없어」\n프레임 한 컷 한 컷이 그의 손길을 거쳐 화려한 영상이 되어간다——\n「우리는 추억을 옮기는 게 아니라 과거를 창조할 뿐이야」"
+    "zh-CN": "「美梦之都，罪恶温床，抑或应许之地……」\n撷取众人的记忆，他窥探那些震撼人心的片段，将之打乱，重组，拼接。\n「大多数人的记忆都琐碎无聊，一生也不过寥寥几个珍贵的瞬间，其他的全无存在的必要。」\n画面一帧帧在他手中流过，逐渐化为精彩的影像——\n「我们不搬运回忆，我们只创造过去。」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Edição Acadêmica",
-      "en": "Academy-Style Edit",
-      "zh-CN": "学院式剪接",
-      "ja": "アカデミズム編集",
-      "ko": "아카데믹 편집"
-    },
+    "name": { "en": "Academy-Style Edit", "zh-CN": "学院式剪接" },
     "description": {
-      "pt-BR": "Aumenta a VEL do usuário em #1[i]%. Após atacar inimigos-alvo afligidos com Quebra de Fraqueza, regenera #2[f1] de Energia. Este efeito pode ser ativado até #3[i] vez(es) por rodada.",
       "en": "Increases the wearer's SPD by #1[i]%. After attacking enemy targets that are Weakness Broken, regenerates #2[f1] Energy. This effect can trigger up to #3[i] time(s) per turn.",
-      "zh-CN": "使装备者的速度提高#1[i]%，攻击处于弱点击破状态下的敌方目标后，恢复#2[f1]点能量，该效果每回合最多触发#3[i]次。",
-      "ja": "装備キャラの速度+#1[i]%、弱点撃破状態の敵を攻撃した後、EPを#2[f1]回復する。この効果はターンが回ってくるたびに#3[i]回まで発動できる。",
-      "ko": "장착한 캐릭터의 속도가 #1[i]% 증가하고, 약점 격파 상태의 적을 공격하면 에너지를 #2[f1]pt 회복하며, 해당 효과는 턴마다 최대 #3[i]회 발동한다"
+      "zh-CN": "使装备者的速度提高#1[i]%，攻击处于弱点击破状态下的敌方目标后，恢复#2[f1]点能量，该效果每回合最多触发#3[i]次。"
     },
     "params": [[0.08, 3, 2], [0.09, 3.5, 2], [0.1, 4, 2], [0.11, 4.5, 2], [0.12, 5, 2]],
     "properties": [

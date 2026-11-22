@@ -1,13 +1,7 @@
 {
   "id": 114001,
   "slug": "dream-collection-component",
-  "name": {
-    "pt-BR": "Componente da Coleção de Sonhos",
-    "en": "Dream Collection Component",
-    "zh-CN": "蓄梦元件",
-    "ja": "ドリームコレクションパーツ",
-    "ko": "꿈 저장 부품"
-  },
+  "name": { "en": "Dream Collection Component", "zh-CN": "蓄梦元件" },
   "rarity": 2,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -24,33 +18,6 @@
       "Omni-Synthesizer — Material Exchange",
       "Calyx (Golden)"
     ],
-    "pt-BR": [
-      "Trupe dos Pesadelos Amargos",
-      "Espólio deixado por inimigos no Universo Divergente",
-      "Inimigos do Universo Simulado",
-      "Recompensas de Atribuição",
-      "Troca de Brasas",
-      "Sintetizador Omni — Troca de Material",
-      "Cálice (Dourado)"
-    ],
-    "zh-CN": ["惊梦剧团掉落", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "委托奖励", "余烬兑换", "「万能合成机」- 材料置换", "拟造花萼（金）"],
-    "ja": [
-      "ナイトメア劇団からドロップ",
-      "「階差宇宙」で敵からドロップ",
-      "「模擬宇宙」で敵からドロップ",
-      "依頼報酬",
-      "エンバー交換",
-      "「万能合成マシン」- 素材交換",
-      "疑似花萼（金）"
-    ],
-    "ko": [
-      "나쁜꿈 극단 드랍",
-      "「차분화 우주」 적 드랍",
-      "「시뮬레이션 우주」 적 드랍",
-      "의뢰 보상",
-      "잔화 교환",
-      "「만능 합성기」- 재료 치환",
-      "모조 꽃받침(금)"
-    ]
+    "zh-CN": ["惊梦剧团掉落", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "委托奖励", "余烬兑换", "「万能合成机」- 材料置换", "拟造花萼（金）"]
   }
 }

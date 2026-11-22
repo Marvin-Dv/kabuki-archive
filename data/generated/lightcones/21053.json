@@ -1,32 +1,20 @@
 {
   "id": 21053,
   "slug": "journey-forever-peaceful",
-  "name": {
-    "pt-BR": "Jornada, Eternamente Pacífica",
-    "en": "Journey, Forever Peaceful",
-    "zh-CN": "愿旅途永远坦然",
-    "ja": "旅が平穏であるように",
-    "ko": "언제나 여정이 평탄하기를"
-  },
+  "name": { "en": "Journey, Forever Peaceful", "zh-CN": "愿旅途永远坦然" },
   "rarity": 4,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "O menino correu entre as gotas de chuva cintilantes como estrelas, celebrando a chuva abençoada que chegou após uma longa seca.\nA chuva caiu por um tempo muito, muito longo, e a carroça coberta parou sobre a terra coberta pelo verde que brotava.\n\"Mamãe! Mana! Nunca mais vamos passar frio ou fome!\"\nA fogueira dos Avginianos aqueceu a longa noite, enquanto o menino ouvia as histórias de sua irmã mais velha e aguardava o amanhecer.\n\"Akavasha... Você também seguirá adiante, com a boa sorte abençoada pela Deusa-Mãe, e conquistará aquilo que nós não conseguimos... Que sua jornada seja eternamente pacífica, e seus planos, eternamente ocultos...\"\nO dourado da luz do sol refletia de seus sonhos para seu lar na vida real, e transações e números voltavam a se espelhar em seus olhos.\nEle soltou a mão que antes mantinha cerrada em punho.\nEra como se ele não tivesse conseguido agarrar em nada... e ainda assim, havia um calor pulsante que insistia em permanecer.",
     "en": "The boy ran amongst the star-like raindrops and cheered for the blissful rain that arrived after a long drought.\nThe rain fell for a long, long time, and the covered wagon stopped on the land covered by budding green.\n\"Mom! Big sis! We'll never go cold or hungry again!\"\nThe Avgins' campfire warmed the long night, as the boy listened to his big sister's stories and waited for the dawn.\n\"Kakavasha... You, too, will go forth with your good luck blessed by the Mother Goddess, and achieve what we could not achieve... May your journey be forever peaceful, and your schemes forever concealed...\"\nGolden sunlight reflects from his dreams into his real-life abode, and transactions and numbers are once again mirrored in his eyes.\nHe lets go of the hand that was clutched into a fist —\nIt's as if he did not manage to grab onto anything... yet there's still a throbbing, lingering warmth.",
-    "zh-CN": "男孩在如星的雨滴中奔跑，为那久旱之后的甘霖欢呼。\n那一场雨下了很久很久，大篷车停驻在遍布绿意的土地。\n「母亲，姐姐，我们不会再挨饿受冻了！」\n埃维金人的篝火温暖了漫长的夜，男孩听着姐姐的故事，等待着晨曦。\n「卡卡瓦夏，你也会带着母神恩赐的幸运，去做到我们做不到的事…愿你的旅途永远坦然，诡计永不败露……」\n金色的阳光从梦中倒映在现实的居所，交易与数字再次映入眼帘。\n他松开紧握的手——\n仿佛什么也没能抓住，又仿佛还有余温跳动。",
-    "ja": "長い干ばつの後、星のような雨が降り注ぎ、少年は走りながら恵みの雨に歓声を上げた。\n雨は長い間降り続け、キャラバンは緑に覆われた大地にしばし腰を下ろす。\n「お母さん、お姉ちゃん、これでもうお腹が減ったり、寒くなったりしないね！」\nエヴィキン人の焚火が長い夜を温める中、少年は姉の物語を聞きながら夜明けを待っていた。\n「カカワーシャ、あなたは地母神から授かった幸運をもって、私たちにできなかったことを成し遂げて…あなたの旅がいつまでも平穏で、その計略が決して露見しませんように……」\n金色の陽光が夢の中から現実の住まいへと差し込み、再び取引と数字が目に飛び込んでくる。\n彼は握りしめていた手を静かに緩めた——\n何も掴めなかったように開かれたそこには、まだ微かなぬくもりが残っていた。",
-    "ko": "소년은 별처럼 쏟아지는 빗속을 달리며, 오랜 가뭄 끝에 내린 단비에 환호했다.\n그 비는 아주 오랫동안 내렸고, 수레는 초록빛으로 뒤덮인 땅에 멈춰 섰다.\n「엄마, 누나, 이제 더 이상 굶거나 추위에 떨지 않아도 돼!」\n에브긴인들의 모닥불은 긴 밤을 따뜻하게 밝혔고, 소년은 누나의 이야기를 들으며 아침을 기다렸다.\n「카카바샤, 너도 지모신께서 주신 행운으로 우리가 할 수 없는 일을 해낼 거야…. 너의 여정이 언제나 평탄하며, 영원히 계략을 들키는 일이 없기를……」\n황금빛 햇살이 꿈에서 새어나와 현실의 거처를 비추자, 거래와 숫자가 또다시 시야에 들어왔다.\n그는 움켜쥐었던 손을 풀었다——\n마치 아무것도 잡지 못한 것처럼, 마치 온기가 아직 남아 있는 것처럼"
+    "zh-CN": "男孩在如星的雨滴中奔跑，为那久旱之后的甘霖欢呼。\n那一场雨下了很久很久，大篷车停驻在遍布绿意的土地。\n「母亲，姐姐，我们不会再挨饿受冻了！」\n埃维金人的篝火温暖了漫长的夜，男孩听着姐姐的故事，等待着晨曦。\n「卡卡瓦夏，你也会带着母神恩赐的幸运，去做到我们做不到的事…愿你的旅途永远坦然，诡计永不败露……」\n金色的阳光从梦中倒映在现实的居所，交易与数字再次映入眼帘。\n他松开紧握的手——\n仿佛什么也没能抓住，又仿佛还有余温跳动。"
   },
   "skill": {
-    "name": { "pt-BR": "Doce Sonho", "en": "Sweet Dream", "zh-CN": "甜梦", "ja": "甘い夢", "ko": "달콤한 꿈" },
+    "name": { "en": "Sweet Dream", "zh-CN": "甜梦" },
     "description": {
-      "pt-BR": "Aumenta o Efeito de Escudo fornecido pelo usuário em #1[i]%. Enquanto um aliado-alvo possuir um Escudo, o Dano causado por ele aumenta em #2[i]%.",
       "en": "Increases the wearer's provided Shield Effect by #1[i]%. While an ally target has a Shield, their DMG dealt increases by #2[i]%.",
-      "zh-CN": "使装备者提供的护盾量提高#1[i]%，我方目标持有护盾时，造成的伤害提高#2[i]%。",
-      "ja": "装備キャラが付与するバリアの耐久値+#1[i]%。味方がバリアを持つ時、与ダメージ+#2[i]%。",
-      "ko": "장착한 캐릭터가 제공하는 실드량이 #1[i]% 증가한다. 아군이 실드를 보유할 시 가하는 피해가 #2[i]% 증가한다"
+      "zh-CN": "使装备者提供的护盾量提高#1[i]%，我方目标持有护盾时，造成的伤害提高#2[i]%。"
     },
     "params": [[0.12, 0.12], [0.15, 0.14], [0.18, 0.16], [0.21, 0.18], [0.24, 0.2]],
     "properties": [[], [], [], [], []]

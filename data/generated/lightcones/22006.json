@@ -1,32 +1,20 @@
 {
   "id": 22006,
   "slug": "fly-into-a-pink-tomorrow",
-  "name": {
-    "pt-BR": "Rumo ao Amanhã Cor-de-Rosa",
-    "en": "Fly Into a Pink Tomorrow",
-    "zh-CN": "飞向粉色的明天",
-    "ja": "ピンク色の明日へ",
-    "ko": "핑크빛 내일을 향해"
-  },
+  "name": { "en": "Fly Into a Pink Tomorrow", "zh-CN": "飞向粉色的明天" },
   "rarity": 4,
   "path": "Remembrance",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Uma brisa suave dissipa as nuvens, revelando o rosto do cosmos.\nO brilho dourado cintila, enquanto epopeias ecoam pelo céu estrelado.\n\"Estrelas cadentes, encontros, promessas!\"\nA pequena fada ergue o olhar ao céu, como no primeiro encontro, como numa reunião.\n\"Mem, esperando. Desbrave, o mundo!\"\nOs olhos da pequena fada se iluminam com o brilho estelar, cintilando como aquele amanhã rosado.",
     "en": "A gentle breeze scatters the clouds, revealing the face of the cosmos.\nThe golden glow shimmers, as epics echo through the starry sky.\n\"Shooting stars, encounters, promises!\"\nThe little fairy gazes at the sky, like their first meeting, like a reunion.\n\"Mem, waiting. Trailblaze, the world!\"\nThe little fairy's eyes are illuminated by starlight, twinkling like that pink tomorrow.",
-    "zh-CN": "轻风吹散了云朵，露出银河的模样。\n黄金的光辉闪耀，史诗将于星空传颂。\n「流星，相逢，约定！」\n小妖精望着天空，一如初见，一如重逢。\n「迷迷，等待。开拓，世界！」\n小妖精的眼眸被星光照亮——闪烁着，恰如那粉色的明天。",
-    "ja": "そよ風が優しく雲を吹き払い、銀河が顔をのぞかせる。\n黄金の輝きが煌めいて、叙事詩はやがて星空に歌い継がれることになる。\n「流れ星、出会い、約束！」\n小さな妖精は空を見上げる。まるで初めて出会った時のように…そして再会を果たした時のように。\n「ミュリオン、待つ。世界、開拓！」\n星の光が映った妖精の瞳は——キラキラと輝いて、ピンク色の明日のようだった。",
-    "ko": "산들바람이 구름을 흩뜨리자, 은하의 모습이 드러났다.\n황금빛이 반짝이고, 서사시는 별하늘에서 울려 퍼질 것이다.\n「유성, 만남, 약속!」\n작은 요정은 마치 처음 만난 것처럼, 또 다시 만난 것처럼 하늘을 바라본다.\n「미미는, 기다릴게. 개척, 세상!」\n별빛이 작은 요정의 눈동자를 비췄고——마치 분홍빛 내일처럼 반짝였다"
+    "zh-CN": "轻风吹散了云朵，露出银河的模样。\n黄金的光辉闪耀，史诗将于星空传颂。\n「流星，相逢，约定！」\n小妖精望着天空，一如初见，一如重逢。\n「迷迷，等待。开拓，世界！」\n小妖精的眼眸被星光照亮——闪烁着，恰如那粉色的明天。"
   },
   "skill": {
-    "name": { "pt-BR": "Contemplar", "en": "Gaze", "zh-CN": "凝望", "ja": "視線", "ko": "주시" },
+    "name": { "en": "Gaze", "zh-CN": "凝望" },
     "description": {
-      "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando equipado {F#pela Desbravadora}{M#pelo Desbravador} (A Recordação), aumenta o Dano causado por todos os aliados-alvo em #2[i]% e aumenta o Dano causado pelo ATQ Básico Aprimorado \"Vamos Escrever o Amanhã!\" em #3[i]%.",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. When equipped by Trailblazer (Remembrance), increases all ally targets' DMG dealt by #2[i]% and increases the DMG dealt by the Enhanced Basic ATK \"Together, We Script Tomorrow!\" by #3[i]%.",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。开拓者•记忆装备时，使我方全体目标造成的伤害提高#2[i]%，强化普攻【明天，一同写下！】造成的伤害提高#3[i]%。",
-      "ja": "装備キャラの会心ダメージ+#1[i]%。開拓者・記憶が装備した場合、味方全体の与ダメージ+#2[i]%、強化通常攻撃「明日を一緒に紡ごう！」の与ダメージ+#3[i]%。",
-      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 개척자•기억이 장착할 시 모든 아군이 가하는 피해가 #2[i]% 증가하고, 강화된 일반 공격 [내일을, 함께 써내려 가자!]가 가하는 피해가 #3[i]% 증가한다"
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。开拓者•记忆装备时，使我方全体目标造成的伤害提高#2[i]%，强化普攻【明天，一同写下！】造成的伤害提高#3[i]%。"
     },
     "params": [[0.12, 0.08, 0.6], [0.15, 0.1, 0.7], [0.18, 0.12, 0.8], [0.21, 0.14, 0.9], [0.24, 0.16, 1]],
     "properties": [

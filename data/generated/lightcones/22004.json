@@ -1,38 +1,20 @@
 {
   "id": 22004,
   "slug": "the-great-cosmic-enterprise",
-  "name": {
-    "pt-BR": "O Grande Empreendimento Cósmico",
-    "en": "The Great Cosmic Enterprise",
-    "zh-CN": "宇宙大生意",
-    "ja": "宇宙一の大商い！",
-    "ko": "우주 대사업"
-  },
+  "name": { "en": "The Great Cosmic Enterprise", "zh-CN": "宇宙大生意" },
   "rarity": 4,
   "path": "Erudition",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Em um salão de exposições virtual feito de dados, representantes trocavam opiniões.\nDuas figuras circulavam entre as barraquinhas, entregando tudo o que era necessário.\n\"Hmm, será que você é...?\"\n\"Eu te vi na TV.\"\nConversaram sobre jogos, comida, suas aparências e todas as belezas do universo.\nApesar dos encontros raros, eram próximos como velhos amigos.\n\"Então, pensou sobre minha proposta...\"\n\"O Expresso não está à venda!\"",
     "en": "In a virtual exhibition hall sculpted from data, the exhibition representatives exchanged opinions.\nTwo figures moved between the booths, delivering everything needed by each party.\n\"Hmm, are you...?\"\n\"I've seen you on TV.\"\nThey talked about games, food, each other's morphologies, and all the beautiful things in the universe.\nThough their meetings were few and far between, they were as close as old friends—\n\"By the way, have you thought about my proposal...\"\n\"The Express is not for sale!\"",
-    "zh-CN": "数据构成的虚拟会场中，参展代表们交换着意见。\n两个身影穿行于展台之间，派送各方所需的一切。\n「咦，莫非您是…」\n「我在电视上见过你帕。」\n它们谈论起游戏、美食、彼此的身材，以及宇宙中的一切美好之物。\n它们明明鲜少见面，却亲密得如一对老友——\n「对了，要不要再考虑一下我的提议……」\n「列车是非卖品帕！」",
-    "ja": "データで構築されたバーチャル会場で、展示会の代表たちは意見を交わし合っていた。\n2人の姿が各方面の需要を満たすべく、ブースの間を行き来している。\n「おや？もしかしてあなたは…」\n「んん？オレもオマエをテレビで見たことがあるぞ」\n——彼らはたくさん話をした。ゲームやグルメ、お互いのスタイル、そして宇宙にあるすべての美しいものの話を。\n2人は初対面だったにもかかわらず、まるで昔からの友であったかのように話が弾んだ——\n「そうだ、私の提案をもう一度考えてみないか……？」\n「列車は非売品じゃ！」",
-    "ko": "데이터로 구성된 가상 전시장에서 전시회에 참가한 대표들이 의견을 나눈다.\n두 실루엣이 부스 사이를 오가며 각자에게 필요한 모든 것을 배달한다.\n「어, 당신은 혹시…」\n「방송에 나오신 거 봤어요」\n그들은 게임, 미식, 서로의 체형, 그리고 우주의 아름다운 모든 것들에 대해 이야기를 나눈다.\n자주 만날 일이 드문데도, 그들은 오랜 친구처럼 친밀하게 대화한다——\n「참, 제 제안을 다시 생각해 보시는 건……」\n「열차는 비매품입니다!」"
+    "zh-CN": "数据构成的虚拟会场中，参展代表们交换着意见。\n两个身影穿行于展台之间，派送各方所需的一切。\n「咦，莫非您是…」\n「我在电视上见过你帕。」\n它们谈论起游戏、美食、彼此的身材，以及宇宙中的一切美好之物。\n它们明明鲜少见面，却亲密得如一对老友——\n「对了，要不要再考虑一下我的提议……」\n「列车是非卖品帕！」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Benefício Mútuo",
-      "en": "Mutual Benefit",
-      "zh-CN": "互惠",
-      "ja": "互恵関係",
-      "ko": "상호 이익"
-    },
+    "name": { "en": "Mutual Benefit", "zh-CN": "互惠" },
     "description": {
-      "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Para cada Tipo de Fraqueza diferente que um inimigo-alvo possui, aumenta o Dano causado a ele pelo usuário em #2[i]%. Até no máximo 7 Tipos de Fraqueza podem ser considerados para esse efeito.",
       "en": "Increases the wearer's ATK by #1[i]%. For every 1 different Weakness Type an enemy target has, increases the DMG dealt to it by the wearer by #2[i]%. Up to a max of 7 Weakness Types can be taken into account for this effect.",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。敌方目标每拥有1个不同属性的弱点，装备者对其造成的伤害提高#2[i]%，最多计入7个。",
-      "ja": "装備キャラの攻撃力+#1[i]%。敵が持つ異なる弱点属性1つにつき、装備キャラがその敵に与えるダメージ+#2[i]%。弱点属性は最大7つまでカウントされる。",
-      "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 적이 서로 다른 속성의 약점을 1개 보유할 때마다 장착한 캐릭터가 대상에게 가하는 피해가 #2[i]% 증가하며, 최대 7개까지 계산한다"
+      "zh-CN": "使装备者的攻击力提高#1[i]%。敌方目标每拥有1个不同属性的弱点，装备者对其造成的伤害提高#2[i]%，最多计入7个。"
     },
     "params": [[0.08, 0.04], [0.1, 0.05], [0.12, 0.06], [0.14, 0.07], [0.16, 0.08]],
     "properties": [

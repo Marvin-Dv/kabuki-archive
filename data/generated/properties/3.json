@@ -1,7 +1,7 @@
 {
   "id": 3,
   "type": "Defence",
-  "name": { "pt-BR": "DEF", "en": "DEF", "zh-CN": "防御力", "ja": "防御力", "ko": "방어력" },
+  "name": { "en": "DEF", "zh-CN": "防御力" },
   "icon": "icon/property/IconDefence.png",
   "percent": false
 }

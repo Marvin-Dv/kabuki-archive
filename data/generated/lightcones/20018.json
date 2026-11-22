@@ -1,26 +1,20 @@
 {
   "id": 20018,
   "slug": "hidden-shadow",
-  "name": { "pt-BR": "Sombra Oculta", "en": "Hidden Shadow", "zh-CN": "匿影", "ja": "匿影", "ko": "숨은 그림자" },
+  "name": { "en": "Hidden Shadow", "zh-CN": "匿影" },
   "rarity": 3,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"A Inexistência pode nos alcançar, mas ainda há uma chance de que isso não aconteça.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"The Nihility might find us, but there is a non-zero chance that they might not.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「虚无也许会找到我们，但它很可能不会。」",
-    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「虚無は私たちを見つけるかもしれないけど、見つけられない可能性の方が高い」",
-    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「공허가 우리를 찾아낼 수도 있지만, 못 찾아낼 가능성이 높습니다」"
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「虚无也许会找到我们，但它很可能不会。」"
   },
   "skill": {
-    "name": { "pt-BR": "Mecanismo", "en": "Mechanism", "zh-CN": "机关", "ja": "機関", "ko": "장치" },
+    "name": { "en": "Mechanism", "zh-CN": "机关" },
     "description": {
-      "pt-BR": "Após usar a Perícia, o próximo ATQ Básico do usuário causa #1[i]% do ATQ como Dano Adicional ao inimigo-alvo.",
       "en": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to #1[i]% of ATK to the target enemy.",
-      "zh-CN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身#1[i]%攻击力的附加伤害。",
-      "ja": "戦闘スキルを発動した後、装備キャラの次の通常攻撃が、敵に自身の攻撃力#1[i]%分の付加ダメージを与える。",
-      "ko": "전투 스킬 발동 후, 장착한 캐릭터의 다음 일반 공격 1회는 적에게 자신 공격력 #1[i]%만큼의 추가 피해를 가한다"
+      "zh-CN": "施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身#1[i]%攻击力的附加伤害。"
     },
     "params": [[0.6], [0.75], [0.9], [1.05], [1.2]],
     "properties": [[], [], [], [], []]

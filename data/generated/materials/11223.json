@@ -1,13 +1,7 @@
 {
   "id": 11223,
   "slug": "mozes-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Moze",
-    "en": "Moze's Eidolon",
-    "zh-CN": "【貊泽】的星魂",
-    "ja": "「モゼ」の星魂",
-    "ko": "[맥택]의 성혼"
-  },
+  "name": { "en": "Moze's Eidolon", "zh-CN": "【貊泽】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

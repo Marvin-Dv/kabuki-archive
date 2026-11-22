@@ -1,7 +1,7 @@
 {
   "id": 1223,
   "slug": "moze",
-  "name": { "pt-BR": "Moze", "en": "Moze", "zh-CN": "貊泽", "ja": "モゼ", "ko": "맥택" },
+  "name": { "en": "Moze", "zh-CN": "貊泽" },
   "rarity": 4,
   "path": "Hunt",
   "element": "Lightning",
@@ -11,43 +11,25 @@
     {
       "id": 122301,
       "type": "Basic",
-      "name": { "pt-BR": "Atirar Espinhos", "en": "Hurlthorn", "zh-CN": "飞铙", "ja": "暗器", "ko": "암기 투척" },
+      "name": { "en": "Hurlthorn", "zh-CN": "飞铙" },
       "description": {
-        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Moze a um único inimigo-alvo.",
         "en": "Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于貊泽#1[i]%攻击力的雷属性伤害。",
-        "ja": "指定した敵単体にモゼの攻撃力#1[i]%分の雷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 맥택 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于貊泽#1[i]%攻击力的雷属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1223_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
-        "en": "Deals minor Lightning DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害。",
-        "ja": "敵単体に少量の雷属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Lightning DMG to one enemy.", "zh-CN": "对敌方单体造成少量雷属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122302,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Invasão Alada Veloz",
-        "en": "Fleetwinged Raid",
-        "zh-CN": "迅羽掠袭",
-        "ja": "急襲する迅羽",
-        "ko": "맹속 기습"
-      },
+      "name": { "en": "Fleetwinged Raid", "zh-CN": "迅羽掠袭" },
       "description": {
-        "pt-BR": "Marca um único inimigo-alvo como Presa e causa Dano de Raio a ele igual a #1[i]% do ATQ de Moze, e ganha #2[i] pontos de Carga.\nQuando não houver mais personagens no campo de batalha capazes de lutar, Moze não pode usar sua Perícia e o estado de Presa do inimigo é removido.",
         "en": "Marks a designated single enemy target as \"Prey\" and deals to it Lightning DMG equal to #1[i]% of Moze's ATK, and gains #2[i] points of Charge.\nWhen there are no other characters on the field that are capable of combat, Moze cannot use his Skill and dispels the enemy's \"Prey\" state.",
-        "zh-CN": "使指定敌方单体目标成为【猎物】，并对其造成等同于貊泽#1[i]%攻击力的雷属性伤害，并获得#2[i]点充能。\n当场上没有可以战斗的其他角色时，貊泽无法使用战技，并解除敌人的【猎物】状态。",
-        "ja": "指定した敵単体を「獲物」状態にし、モゼの攻撃力#1[i]%分の雷属性ダメージを与え、チャージを#2[i]獲得する。\nフィールド上に戦闘可能な他の味方キャラがいない時、モゼは戦闘スキルを発動できず、敵の「獲物」状態も解除される。",
-        "ko": "지정된 단일 적을 [사냥감]으로 만들고 해당 목표에게 맥택 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, 충전을 #2[i]pt 획득한다.\n필드 위에 전투 가능한 다른 캐릭터가 없을 시 맥택은 전투 스킬을 사용할 수 없으며, 적의 [사냥감] 상태는 해제된다"
+        "zh-CN": "使指定敌方单体目标成为【猎物】，并对其造成等同于貊泽#1[i]%攻击力的雷属性伤害，并获得#2[i]点充能。\n当场上没有可以战斗的其他角色时，貊泽无法使用战技，并解除敌人的【猎物】状态。"
       },
       "params": [
         [0.75, 9],
@@ -69,31 +51,19 @@
       "icon": "icon/skill/1223_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Marca um único inimigo como \"Presa\" e causa Dano de Raio a ele. Ganha 9 ponto(s) de Carga.",
         "en": "Marks one enemy as \"Prey\" and deals Lightning DMG to it. Gains 9 points of Charge.",
-        "zh-CN": "使敌方单体成为【猎物】，对其造成雷属性伤害，并获得9点充能。",
-        "ja": "敵単体を「獲物」状態にし、雷属性ダメージを与え、チャージを9獲得する。",
-        "ko": "단일 적을 [사냥감]으로 만들고, 해당 적에게 번개 속성 피해를 가하며, 충전을 9pt 획득한다"
+        "zh-CN": "使敌方单体成为【猎物】，对其造成雷属性伤害，并获得9点充能。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122303,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Invadir, Fugir",
-        "en": "Dash In, Gash Out",
-        "zh-CN": "锋入幽渺，影出凌厉",
-        "ja": "潜む刃、鋭い影",
-        "ko": "날렵한 예기, 맹렬한 그림자"
-      },
+      "name": { "en": "Dash In, Gash Out", "zh-CN": "锋入幽渺，影出凌厉" },
       "description": {
-        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Moze a um único inimigo-alvo e utiliza o Ataque Extra do Talento contra esse alvo. Se o alvo for derrotado antes deste Ataque Extra ser utilizado, então desfere o Ataque Extra contra um único inimigo aleatório ao invés disso.",
         "en": "Deals Lightning DMG equal to #1[i]% of Moze's ATK to one designated enemy target, and launches the Talent's Follow-Up ATK against this target. If the target is defeated before this Follow-Up ATK is used, then launches the Follow-Up ATK against a random single enemy instead.",
-        "zh-CN": "对指定敌方单体造成等同于貊泽#1[i]%攻击力的雷属性伤害，并对该目标发动天赋的追加攻击。若本次追加攻击施放前目标被消灭则对敌方随机单体发动追加攻击。",
-        "ja": "指定した敵単体にモゼの攻撃力#1[i]%分の雷属性ダメージを与え、天賦による追加攻撃を行う。この回の追加攻撃を行う前にターゲットが倒された場合、ランダムな敵単体に追加攻撃を行う。",
-        "ko": "지정된 단일 적에게 맥택 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 해당 목표에게 특성의 추가 공격을 발동한다. 이번 추가 공격 발동 전에 목표가 처치됐을 경우 랜덤 단일 적에게 추가 공격을 발동한다"
+        "zh-CN": "对指定敌方单体造成等同于貊泽#1[i]%攻击力的雷属性伤害，并对该目标发动天赋的追加攻击。若本次追加攻击施放前目标被消灭则对敌方随机单体发动追加攻击。"
       },
       "params": [
         [1.62],
@@ -115,31 +85,19 @@
       "icon": "icon/skill/1223_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Causa Dano de Raio a um único inimigo e utiliza o Ataque Extra do Talento.",
         "en": "Deals Lightning DMG to one enemy, and launches Talent's Follow-Up ATK.",
-        "zh-CN": "对敌方单体造成雷属性伤害，并发动天赋的追加攻击。",
-        "ja": "敵単体に雷属性ダメージを与え、天賦による追加攻撃を発動する。",
-        "ko": "단일 적에게 번개 속성 피해를 가하고, 특성의 추가 공격을 발동한다"
+        "zh-CN": "对敌方单体造成雷属性伤害，并发动天赋的追加攻击。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122304,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Cascata de Lâminas Emplumadas",
-        "en": "Cascading Featherblade",
-        "zh-CN": "伸天卑飞，折翅为芒",
-        "ja": "翼を折りて鋒鋩とす",
-        "ko": "깃을 꺾어 완성한 칼날"
-      },
+      "name": { "en": "Cascading Featherblade", "zh-CN": "伸天卑飞，折翅为芒" },
       "description": {
-        "pt-BR": "Enquanto houver uma \"Presa\" no campo, Moze entrará no estado de Partida.\nApós os aliados atacarem a \"Presa\", Moze causa adicionalmente 1 instância de Dano de Raio Adicional igual a #1[i]% do seu ATQ e consome 1 ponto de Carga. Para cada #2[i] ponto(s) de Carga consumido(s), Moze utiliza 1 Ataque Extra contra a \"Presa\", causando Dano de Raio igual a #3[i]% do ATQ de Moze. Quando a Carga chega a 0, remove o estado de \"Presa\" do alvo e reinicia a contagem de pontos de Carga necessários para utilizar o Ataque Extra. O Ataque Extra do Talento não consome Carga.",
         "en": "When \"Prey\" exists on the field, Moze will enter the Departed state.\nAfter ally targets attack \"Prey,\" Moze will additionally deal 1 instance of Lightning Additional DMG equal to #1[i]% of his ATK and consumes 1 point of Charge. For every #2[i] point(s) of Charge consumed, Moze launches 1 Follow-Up ATK to \"Prey,\" dealing Lightning DMG equal to #3[i]% of his ATK. When Charge reaches 0, dispels the target's \"Prey\" state and resets the tally of Charge points required to launch Follow-Up ATK. Talent's Follow-Up ATK does not consume Charge.",
-        "zh-CN": "场上存在【猎物】时，貊泽会进入离场状态。\n我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身#1[i]%攻击力的雷属性附加伤害，并消耗1点充能。每消耗#2[i]点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身#3[i]%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。天赋的追加攻击不会消耗充能。",
-        "ja": "フィールド上に「獲物」状態の敵がいる時、モゼは一時離脱状態に入る。\n味方が「獲物」状態の敵を攻撃した後、モゼはその敵に自身の攻撃力#1[i]%分の雷属性付加ダメージを与え、チャージを1消費する。チャージを#2[i]消費するたびに、モゼは「獲物」状態の敵に対して追加攻撃を1回行い、自身の攻撃力#3[i]%分の雷属性ダメージを与える。チャージが0になると敵の「獲物」状態が解除され、追加攻撃発動に必要なチャージ数がリセットされる。なお、天賦による追加攻撃はチャージを消費しない。",
-        "ko": "필드 위에 [사냥감]이 있을 시 맥택이 퇴장 상태에 진입한다.\n아군이 [사냥감]을 공격하면 맥택은 추가로 자신의 공격력의 #1[i]%만큼 번개 속성 추가 피해를 1회 가하고, 충전을 1pt 소모한다. 충전을 #2[i]pt 소모할 때마다 맥택이 [사냥감]에게 추가 공격을 1회 발동하며, 자신의 공격력의 #3[i]%만큼 번개 속성 피해를 가한다. 충전이 0일 시 목표의 [사냥감] 상태를 해제하고, 추가 공격 발동에 필요한 충전 포인트 계산을 초기화한다. 특성의 추가 공격은 충전을 소모하지 않는다"
+        "zh-CN": "场上存在【猎物】时，貊泽会进入离场状态。\n我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身#1[i]%攻击力的雷属性附加伤害，并消耗1点充能。每消耗#2[i]点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身#3[i]%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。天赋的追加攻击不会消耗充能。"
       },
       "params": [
         [0.15, 3, 0.8],
@@ -161,83 +119,53 @@
       "icon": "icon/skill/1223_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Enquanto houver uma \"Presa\" no campo, Moze entrará no estado de Partida.\nDepois que aliados atacam a \"Presa\", Moze causa Dano Adicional de Raio e consome 1 ponto de Carga. Para cada 3 ponto(s) de Carga consumido(s), Moze utiliza Ataque Extra conta a \"Presa\", causando Dano de Raio. Quando a Carga está em 0, remove o estado de \"Presa\" do alvo.",
         "en": "When \"Prey\" exists on the field, Moze will enter the Departed state.\nAfter allies attack \"Prey,\" Moze deals Lightning Additional DMG and consumes 1 Charge point. For every 3 point(s) of Charge consumed, Moze launches Follow-Up ATK on \"Prey,\" dealing Lightning DMG. When Charge is 0, dispels the target's \"Prey\" state.",
-        "zh-CN": "场上存在【猎物】时，貊泽会进入离场状态。\n我方目标攻击【猎物】后，貊泽造成雷属性附加伤害，并消耗1点充能。每消耗3点充能，貊泽会对【猎物】发动追加攻击，造成雷属性伤害，当充能为0时，解除目标【猎物】状态。",
-        "ja": "フィールド上に「獲物」状態の敵がいる時、モゼは一時離脱状態に入る。\n味方が「獲物」状態の敵を攻撃した後、モゼはその敵に雷属性付加ダメージを与え、チャージを1消費する。チャージを3消費するたびに、モゼは「獲物」状態の敵に追加攻撃を行い、雷属性ダメージを与える。チャージが0になると、敵の「獲物」状態が解除される。",
-        "ko": "필드 위에 [사냥감]이 있을 시 맥택이 퇴장 상태에 진입한다.\n아군이 [사냥감] 공격 후 맥택이 번개 속성 추가 피해를 가하고, 충전을 1pt 소모한다. 충전을 3pt 소모할 때마다 맥택이 [사냥감]에게 추가 공격을 발동하고 번개 속성 피해를 가하며, 충전이 0일 시 목표의 [사냥감] 상태를 해제한다"
+        "zh-CN": "场上存在【猎物】时，貊泽会进入离场状态。\n我方目标攻击【猎物】后，貊泽造成雷属性附加伤害，并消耗1点充能。每消耗3点充能，貊泽会对【猎物】发动追加攻击，造成雷属性伤害，当充能为0时，解除目标【猎物】状态。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 122306,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1223_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 122307,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Asas Abatidas",
-        "en": "Bated Wings",
-        "zh-CN": "胁翼匿迹",
-        "ja": "見えざる脅威",
-        "ko": "은닉한 날개"
-      },
+      "name": { "en": "Bated Wings", "zh-CN": "胁翼匿迹" },
       "description": {
-        "pt-BR": "Após usar a Técnica, entra no estado de Furtividade por #1[i] segundo(s). Enquanto estiver em Furtividade, Moze é indetectável pelos inimigos. Se Moze atacar inimigos para entrar em combate enquanto no estado de Furtividade, aumenta o Dano em #2[i]%, durando por #3[i] rodada(s).",
         "en": "After using Technique, enters the Stealth state for #1[i] second(s). While in Stealth, Moze is undetectable by enemies. If Moze attacks enemies to enter combat while in Stealth, increases DMG by #2[i]%, lasting for #3[i] turn(s).",
-        "zh-CN": "使用秘技后进入持续#1[i]秒的隐身状态。隐身状态下不会被敌人发现，貊泽在隐身状态下攻击敌人进入战斗时伤害提高#2[i]%，持续#3[i]回合。",
-        "ja": "秘技を使用した後、#1[i]秒間継続するステルス状態に入る。ステルス状態の間は敵に発見されない。ステルス状態のモゼが敵を先制攻撃して戦闘に入った時、与ダメージ+#2[i]%、#3[i]ターン継続。",
-        "ko": "비술 사용 후 #1[i]초 동안 지속되는 은신 상태에 진입한다. 은신 상태에선 적에게 들키지 않으며, 맥택이 은신 상태에서 적을 공격해 전투에 진입할 시 피해가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
+        "zh-CN": "使用秘技后进入持续#1[i]秒的隐身状态。隐身状态下不会被敌人发现，貊泽在隐身状态下攻击敌人进入战斗时伤害提高#2[i]%，持续#3[i]回合。"
       },
       "params": [[20, 0.3, 2]],
       "icon": "icon/skill/1223_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Entra no estado de Furtividade. Atacar inimigos para iniciar o combate enquanto no modo de Furtividade aumenta o Dano.",
         "en": "Enters the Stealth state. Attacking enemies to enter combat while in Stealth increases DMG.",
-        "zh-CN": "进入隐身状态。隐身状态攻击敌人进入战斗时提高伤害。",
-        "ja": "ステルス状態に入る。ステルス状態で敵を先制攻撃して戦闘に入った時、与ダメージがアップする。",
-        "ko": "은신 상태에 진입한다. 은신 상태에서 적을 공격해 전투 진입 시 피해가 증가한다"
+        "zh-CN": "进入隐身状态。隐身状态攻击敌人进入战斗时提高伤害。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Mantenedor de Promessas",
-        "en": "Oathkeeper",
-        "zh-CN": "矢志",
-        "ja": "{RUBY_B#りっし}立志{RUBY_E#}",
-        "ko": "다짐"
-      },
+      "name": { "en": "Oathkeeper", "zh-CN": "矢志" },
       "description": {
-        "pt-BR": "Após entrar em batalha, Moze restaura 20 de Energia. Cada vez que o Dano Adicional de seu Talento for ativado, Moze restaura 2 de Energia.",
         "en": "After entering battle, Moze regenerates 20 Energy. Each time the Additional DMG from his Talent is triggered, Moze regenerates 2 Energy.",
-        "zh-CN": "进入战斗后，貊泽恢复20点能量。每触发1次天赋的附加伤害，貊泽恢复2点能量。",
-        "ja": "戦闘に入った後、モゼはEPを20回復する。天賦による付加ダメージを1回発動するたびに、EPを2回復する。",
-        "ko": "전투 진입 후 맥택은 에너지를 20pt 회복한다. 특성의 추가 피해를 1회 발동할 때마다 맥택은 에너지를 2pt 회복한다"
+        "zh-CN": "进入战斗后，貊泽恢复20点能量。每触发1次天赋的附加伤害，貊泽恢复2点能量。"
       },
       "icon": "icon/skill/1223_rank1.png",
       "materials": [{ "id": 11223, "num": 1 }],
@@ -245,19 +173,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Sustento da Ira",
-        "en": "Wrathbearer",
-        "zh-CN": "惩膺",
-        "ja": "{RUBY_B#ちょうばつ}懲罰{RUBY_E#}",
-        "ko": "정벌"
-      },
+      "name": { "en": "Wrathbearer", "zh-CN": "惩膺" },
       "description": {
-        "pt-BR": "Quando aliados causam Dano ao inimigo-alvo marcado como \"Presa\", aumenta o Dano CRIT em 40%.",
         "en": "When all allies deal DMG to the enemy target marked as \"Prey,\" increases CRIT DMG by 40%.",
-        "zh-CN": "我方全体目标对成为【猎物】的敌方目标造成伤害时，暴击伤害提高40%。",
-        "ja": "味方が「獲物」状態の敵にダメージを与える時、会心ダメージ+40%。",
-        "ko": "모든 아군이 [사냥감]이 된 적에게 피해를 가할 시 치명타 피해가 40% 증가한다"
+        "zh-CN": "我方全体目标对成为【猎物】的敌方目标造成伤害时，暴击伤害提高40%。"
       },
       "icon": "icon/skill/1223_rank2.png",
       "materials": [{ "id": 11223, "num": 1 }],
@@ -265,19 +184,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Perseguidor da Morte",
-        "en": "Deathchaser",
-        "zh-CN": "追奔",
-        "ja": "{RUBY_B#ついげき}追撃{RUBY_E#}",
-        "ko": "추격"
-      },
+      "name": { "en": "Deathchaser", "zh-CN": "追奔" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1223_ultimate.png",
       "materials": [{ "id": 11223, "num": 1 }],
@@ -285,19 +195,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Predador Selvagem",
-        "en": "Heathprowler",
-        "zh-CN": "逐薮",
-        "ja": "{RUBY_B#おんみつ}隠密{RUBY_E#}",
-        "ko": "은폐"
-      },
+      "name": { "en": "Heathprowler", "zh-CN": "逐薮" },
       "description": {
-        "pt-BR": "Ao usar a Perícia Suprema, aumenta o Dano causado por Moze em 30.0%, durando por 2 rodada(s).",
         "en": "When using Ultimate, increases the DMG dealt by Moze by 30.0%, lasting for 2 turn(s).",
-        "zh-CN": "施放终结技时，貊泽造成的伤害提高30.0%，持续2回合。",
-        "ja": "必殺技を発動する時、モゼの与ダメージ+30.0%、2ターン継続。",
-        "ko": "필살기 발동 시 맥택이 가하는 피해가 30.0% 증가한다. 지속 시간: 2턴"
+        "zh-CN": "施放终结技时，貊泽造成的伤害提高30.0%，持续2回合。"
       },
       "icon": "icon/skill/1223_rank4.png",
       "materials": [{ "id": 11223, "num": 1 }],
@@ -305,19 +206,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Dobrador de Verdades",
-        "en": "Truthbender",
-        "zh-CN": "闪诳",
-        "ja": "{RUBY_B#ぎまん}欺瞞{RUBY_E#}",
-        "ko": "기만"
-      },
+      "name": { "en": "Truthbender", "zh-CN": "闪诳" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1223_skill.png",
       "materials": [{ "id": 11223, "num": 1 }],
@@ -325,19 +217,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Vinculador de Fé",
-        "en": "Faithbinder",
-        "zh-CN": "丹心",
-        "ja": "{RUBY_B#ちゅうせい}忠誠{RUBY_E#}",
-        "ko": "단심"
-      },
+      "name": { "en": "Faithbinder", "zh-CN": "丹心" },
       "description": {
-        "pt-BR": "Aumenta em 25% o multiplicador de Dano causado pelo Ataque Extra do Talento.",
         "en": "Increases the DMG multiplier of the Talent's Follow-Up ATK by 25%.",
-        "zh-CN": "天赋的追加攻击的伤害倍率提高25%。",
-        "ja": "天賦による追加攻撃のダメージ倍率+25%。",
-        "ko": "특성의 추가 공격 피해 배율이 25% 증가한다"
+        "zh-CN": "天赋的追加攻击的伤害倍率提高25%。"
       },
       "icon": "icon/skill/1223_rank6.png",
       "materials": [{ "id": 11223, "num": 1 }],
@@ -697,19 +580,10 @@
     {
       "id": 1223101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Pena Noturna",
-        "en": "Nightfeather",
-        "zh-CN": "墨毫绣衣",
-        "ja": "{RUBY_B#からすば}烏羽{RUBY_E#}の{RUBY_B#ころも}衣{RUBY_E#}",
-        "ko": "수묵자객"
-      },
+      "name": { "en": "Nightfeather", "zh-CN": "墨毫绣衣" },
       "description": {
-        "pt-BR": "Depois de usar o Ataque Extra do Talento, recupera #1[i] Ponto(s) de Perícia. Este efeito pode ser ativado novamente após #2[i] rodada(s).",
         "en": "After using Talent's Follow-Up ATK, recovers #1[i] Skill Point(s). This effect can trigger again after #2[i] turn(s).",
-        "zh-CN": "施放天赋的追加攻击后，恢复#1[i]个战技点，该效果在#2[i]回合后可再次触发。",
-        "ja": "天賦による追加攻撃を行った後、SPを#1[i]回復する。この効果は#2[i]ターン後に再度発動できる。",
-        "ko": "특성의 추가 공격 발동 후 전투 스킬 포인트를 #1[i]pt 회복한다. 해당 효과는 #2[i]턴 후 다시 발동할 수 있다"
+        "zh-CN": "施放天赋的追加攻击后，恢复#1[i]个战技点，该效果在#2[i]回合后可再次触发。"
       },
       "params": [[1, 1]],
       "icon": "icon/skill/1223_skilltree1.png",
@@ -728,19 +602,10 @@
     {
       "id": 1223102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Empunhar Adagas",
-        "en": "Daggerhold",
-        "zh-CN": "手奋匕尺",
-        "ja": "{RUBY_B#しの}忍{RUBY_E#}び{RUBY_B#よ}寄{RUBY_E#}る{RUBY_B#あいくち}匕首{RUBY_E#}",
-        "ko": "비수를 쥔 손"
-      },
+      "name": { "en": "Daggerhold", "zh-CN": "手奋匕尺" },
       "description": {
-        "pt-BR": "Quando Moze remove seu estado de \"Partida\", sua ação é Avançada Adiante em #1[i]%. No início de cada onda, a ação de Moze é Avançada Adiante em #2[i]%.",
         "en": "When Moze dispels his Departed state, his action advances by #1[i]%. At the start of each wave, Moze's action advances by #2[i]%.",
-        "zh-CN": "貊泽解除离场状态时，行动提前#1[i]%。每个波次开始时，貊泽行动提前#2[i]%。",
-        "ja": "モゼの一時離脱状態が解除される時、行動順+#1[i]%。各ウェーブ開始時、モゼの行動順+#2[i]%。",
-        "ko": "맥택이 퇴장 상태 해제 시 행동 게이지가 #1[i]% 증가한다. 웨이브가 시작될 때마다 맥택의 행동 게이지가 #2[i]% 증가한다"
+        "zh-CN": "貊泽解除离场状态时，行动提前#1[i]%。每个波次开始时，貊泽行动提前#2[i]%。"
       },
       "params": [[0.2, 0.3]],
       "icon": "icon/skill/1223_skilltree2.png",
@@ -764,19 +629,10 @@
     {
       "id": 1223103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Vingança",
-        "en": "Vengewise",
-        "zh-CN": "不折镆干",
-        "ja": "その{RUBY_B#かげ}影{RUBY_E#}、{RUBY_B#ほうけん}宝剣{RUBY_E#}と{RUBY_B#とも}共{RUBY_E#}に{RUBY_B#あ}在{RUBY_E#}り",
-        "ko": "올곧은 복수심"
-      },
+      "name": { "en": "Vengewise", "zh-CN": "不折镆干" },
       "description": {
-        "pt-BR": "Ao causar Dano utilizando a Perícia Suprema, esse Dano será considerado um Ataque Extra. O Dano de Ataque Extra recebido pela \"Presa\" aumenta em #1[i]%.",
         "en": "When dealing DMG by using Ultimate, it is considered as having launched a Follow-Up ATK. The Follow-Up ATK DMG taken by the \"Prey\" increases by #1[i]%.",
-        "zh-CN": "施放终结技造成伤害时，被视为发动了追加攻击。【猎物】受到的追加攻击伤害提高#1[i]%。",
-        "ja": "必殺技を発動してダメージを与える時、追加攻撃を行うと見なされる。「獲物」状態の敵が受ける追加攻撃ダメージ+#1[i]%。",
-        "ko": "필살기를 발동해 피해를 가할 시 추가 공격을 발동한 것으로 간주한다. [사냥감]이 받는 추가 공격 피해가 #1[i]% 증가한다"
+        "zh-CN": "施放终结技造成伤害时，被视为发动了追加攻击。【猎物】受到的追加攻击伤害提高#1[i]%。"
       },
       "params": [[0.25]],
       "icon": "icon/skill/1223_skilltree3.png",
@@ -800,13 +656,7 @@
     {
       "id": 1223201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -823,7 +673,7 @@
     {
       "id": 1223202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1223101],
@@ -840,13 +690,7 @@
     {
       "id": 1223203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1223202],
@@ -863,7 +707,7 @@
     {
       "id": 1223204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -880,13 +724,7 @@
     {
       "id": 1223205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1223102],
@@ -903,7 +741,7 @@
     {
       "id": 1223206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1223205],
@@ -920,13 +758,7 @@
     {
       "id": 1223207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -943,7 +775,7 @@
     {
       "id": 1223208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1223103],
@@ -960,7 +792,7 @@
     {
       "id": 1223209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1223208],
@@ -977,13 +809,7 @@
     {
       "id": 1223210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1223208],

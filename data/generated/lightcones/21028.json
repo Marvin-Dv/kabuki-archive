@@ -1,32 +1,20 @@
 {
   "id": 21028,
   "slug": "warmth-shortens-cold-nights",
-  "name": {
-    "pt-BR": "O Calor Encurta as Noites Geladas",
-    "en": "Warmth Shortens Cold Nights",
-    "zh-CN": "暖夜不会漫长",
-    "ja": "暖かい夜は長くない",
-    "ko": "따듯한 밤은 길지 않고"
-  },
+  "name": { "en": "Warmth Shortens Cold Nights", "zh-CN": "暖夜不会漫长" },
   "rarity": 4,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Acendendo uma luz, ela olhou para a amiga ao seu lado enquanto segurava uma caneca de chocolate quente.\nObservou-a ler os livros e bilhetes que ela deu de presente.\nObservou-a dando um raro sorriso.\nEm noites geladas como essa, até as pequenas coisas afastam o frio.",
     "en": "Lighting a light, she glanced at her friend beside her while holding a mug of warm chocolate.\nWatching her read the books and notes she gifted her.\nWatching her expressing a rare smile.\nIn cold nights like this, even the tiniest bit of bliss can chase away the chills.",
-    "zh-CN": "点一盏灯，捧一杯暖呼呼的巧克力，看着身旁的朋友。\n看着她阅读自己送的书和笔记。\n看着她露出平时见不到的笑容。\n在寒冷的夜晚，一点小小的幸福便能驱散寒意。",
-    "ja": "明かりを灯し、ホットチョコレートが入ったカップを持って、隣にいる友人を見る。\n自分が贈った本とノートを読む彼女を見る。\n普段は滅多に目にすることができない、彼女の笑顔を見る。\n冷える夜でも、少しの幸せさえあれば、寒さを吹き飛ばしてくれるのだ。",
-    "ko": "불을 켜고 핫초코 한 잔을 들고 옆에 있는 친구를 바라본다.\n그녀가 자신이 보낸 책과 노트를 읽는 모습을 바라본다.\n그녀가 평소에 좀처럼 내비치지 않는 웃음을 짓는 걸 바라본다.\n추운 밤, 아주 작은 행복만으로도 한기를 날려버릴 수 있다."
+    "zh-CN": "点一盏灯，捧一杯暖呼呼的巧克力，看着身旁的朋友。\n看着她阅读自己送的书和笔记。\n看着她露出平时见不到的笑容。\n在寒冷的夜晚，一点小小的幸福便能驱散寒意。"
   },
   "skill": {
-    "name": { "pt-BR": "Luz Minúscula", "en": "Tiny Light", "zh-CN": "小小灯火", "ja": "小さな灯火", "ko": "작은 등불" },
+    "name": { "en": "Tiny Light", "zh-CN": "小小灯火" },
     "description": {
-      "pt-BR": "Aumenta em #1[i]% os PV máximos do usuário. Ao usar um ATQ Básico ou Perícia, restaura os PV de todos os aliados em valor igual a #2[f1]% de seus respectivos PV máximos.",
       "en": "Increases the wearer's Max HP by #1[i]%. When using Basic ATK or Skill, restores all allies' HP by an amount equal to #2[f1]% of their respective Max HP.",
-      "zh-CN": "使装备者的生命上限提高#1[i]%。施放普攻或战技后，为我方全体回复等同于各自生命上限#2[f1]%的生命值。",
-      "ja": "装備キャラの最大HP+#1[i]%。通常攻撃または戦闘スキルを発動した後、味方全体のHPをそれぞれの最大HP#2[f1]%分回復する。",
-      "ko": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가하고, 일반 공격 혹은 전투 스킬 발동 후 HP를 각자 HP 최대치 #2[f1]% 만큼 회복시킨다"
+      "zh-CN": "使装备者的生命上限提高#1[i]%。施放普攻或战技后，为我方全体回复等同于各自生命上限#2[f1]%的生命值。"
     },
     "params": [[0.16, 0.02], [0.2, 0.025], [0.24, 0.03], [0.28, 0.035], [0.32, 0.04]],
     "properties": [

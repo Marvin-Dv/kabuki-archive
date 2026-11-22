@@ -1,13 +1,7 @@
 {
   "id": 11109,
   "slug": "hooks-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Hook",
-    "en": "Hook's Eidolon",
-    "zh-CN": "【虎克】的星魂",
-    "ja": "「フック」の星魂",
-    "ko": "[후크]의 성혼"
-  },
+  "name": { "en": "Hook's Eidolon", "zh-CN": "【虎克】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

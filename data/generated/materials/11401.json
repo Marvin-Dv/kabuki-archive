@@ -1,13 +1,7 @@
 {
   "id": 11401,
   "slug": "the-herta-s-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de \"A Herta\"",
-    "en": "\"The Herta\"'s Eidolon",
-    "zh-CN": "【大黑塔】的星魂",
-    "ja": "「マダム・ヘルタ」の星魂",
-    "ko": "[더 헤르타]의 성혼"
-  },
+  "name": { "en": "\"The Herta\"'s Eidolon", "zh-CN": "【大黑塔】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

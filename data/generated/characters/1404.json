@@ -1,7 +1,7 @@
 {
   "id": 1404,
   "slug": "mydei",
-  "name": { "pt-BR": "Mydei", "en": "Mydei", "zh-CN": "万敌", "ja": "モーディス", "ko": "마이데이" },
+  "name": { "en": "Mydei", "zh-CN": "万敌" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Imaginary",
@@ -11,49 +11,25 @@
     {
       "id": 140401,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Promessa da Viagem",
-        "en": "Vow of Voyage",
-        "zh-CN": "踏破征途的誓言",
-        "ja": "征途踏破の誓い",
-        "ko": "여정을 답파하는 맹세"
-      },
+      "name": { "en": "Vow of Voyage", "zh-CN": "踏破征途的誓言" },
       "description": {
-        "pt-BR": "Causa Dano Imaginário em um valor igual a #1[i]% dos PV máximos de Mydei a um inimigo-alvo.",
         "en": "Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害。",
-        "ja": "指定した敵単体にモーディスの最大HP#1[i]%分の虚数属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害。"
       },
       "params": [[0.25], [0.3], [0.35], [0.4], [0.45], [0.5], [0.55], [0.6], [0.65], [0.7]],
       "icon": "icon/skill/1404_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano Imaginário leve a um inimigo.",
-        "en": "Deals minor Imaginary DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量虚数属性伤害。",
-        "ja": "敵単体に少量の虚数属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 허수 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Imaginary DMG to one enemy.", "zh-CN": "对敌方单体造成少量虚数属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 140402,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Morrer Mil Vezes Sem Arrependimentos",
-        "en": "Deaths are Legion, Regrets are None",
-        "zh-CN": "万死无悔",
-        "ja": "万死に悔いなし",
-        "ko": "후회 없는 수많은 죽음"
-      },
+      "name": { "en": "Deaths are Legion, Regrets are None", "zh-CN": "万死无悔" },
       "description": {
-        "pt-BR": "Consome PV em um valor igual a #3[i]% dos PV atuais de Mydei. Causa Dano Imaginário igual a #1[i]% dos PV máximos de Mydei a um inimigo designado e Dano Imaginário igual a #2[i]% dos PV máximos de Mydei aos alvos adjacentes.\nSe os PV atuais não forem suficientes, o uso da Perícia reduz os PV atuais de Mydei para 1.",
         "en": "Consumes HP by an amount equal to #3[i]% of Mydei's current HP. Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets.\nIf the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.",
-        "zh-CN": "消耗等同于万敌当前生命值#3[i]%的生命值，对指定敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害。\n若当前生命值不足，施放战技时万敌的当前生命值降低至1点。",
-        "ja": "モーディスの残りHP#3[i]%分のHPを消費し、指定した敵単体にモーディスの最大HP#1[i]%分の虚数属性ダメージを与え、隣接する敵にモーディスの最大HP#2[i]%分の虚数属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、モーディスの残りHPが1になる。",
-        "ko": "마이데이 현재 HP의 #3[i]%만큼 HP를 소모해 지정된 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가한다.\n현재 HP가 부족하면 전투 스킬 발동 시 마이데이의 현재 HP가 1pt까지 감소한다"
+        "zh-CN": "消耗等同于万敌当前生命值#3[i]%的生命值，对指定敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害。\n若当前生命值不足，施放战技时万敌的当前生命值降低至1点。"
       },
       "params": [
         [0.45, 0.25, 0.5],
@@ -75,31 +51,19 @@
       "icon": "icon/skill/1404_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Consome PV e causa Dano Imaginário a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes.",
         "en": "Consumes HP and deals Imaginary DMG to one designated enemy unit and minor Imaginary DMG to adjacent targets.",
-        "zh-CN": "消耗生命值，对指定敌方单体造成虚数属性伤害，对相邻目标造成少量虚数属性伤害。",
-        "ja": "HPを消費し、指定した敵単体に虚数属性ダメージを与え、隣接する敵に少量の虚数属性ダメージを与える。",
-        "ko": "HP를 소모해 지정된 단일 적에게 허수 속성 피해를 가하고, 인접한 목표에게 소량의 허수 속성 피해를 가한다"
+        "zh-CN": "消耗生命值，对指定敌方单体造成虚数属性伤害，对相邻目标造成少量虚数属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 140403,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Trono de Ossos",
-        "en": "Throne of Bones",
-        "zh-CN": "诛天焚骨的王座",
-        "ja": "天を滅す炎骨の王座",
-        "ko": "세상을 불태우는 왕좌"
-      },
+      "name": { "en": "Throne of Bones", "zh-CN": "诛天焚骨的王座" },
       "description": {
-        "pt-BR": "Restaura PV em um valor igual a #3[f1]% dos PV máximos de Mydei e acumula #5[i] ponto(s) de Carga do Talento. Causa Dano Imaginário em um valor igual a #1[i]% dos PV máximos de Mydei a um inimigo designado e Dano Imaginário em um valor igual a #2[i]% dos PV máximos de Mydei aos alvos adjacentes. Adicionalmente, aplica \"Provocação\" ao alvo e aos alvos adjacentes, durando por #4[i] rodada(s). O próximo uso de \"Deicida, Torne-se Uma Divindade\" prioriza atacar um inimigo designado, e esse efeito só funciona no alvo mais recente.",
         "en": "Restores HP by #3[f1]% of Mydei's Max HP and accumulates #5[i] Talent's Charge point(s). Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for #4[i] turn(s). The next use of \"Godslayer Be God\" prioritizes attacking one designated enemy, and this effect only works on the latest target.",
-        "zh-CN": "回复等同于万敌#3[f1]%生命上限的生命值并积攒#5[i]点天赋充能。对指定敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害，并使目标与相邻目标陷入嘲讽状态，持续#4[i]回合。下一次【弑神登神】优先攻击指定敌方单体，该效果仅对最新目标生效。",
-        "ja": "モーディスの最大HP#3[f1]%分のHPを回復し、天賦のチャージを#5[i]獲得する。指定した敵単体にモーディスの最大HP#1[i]%分の虚数属性ダメージを与え、隣接する敵にモーディスの最大HP#2[i]%分の虚数属性ダメージを与える。さらに、ターゲットおよび隣接する敵を挑発状態にする、#4[i]ターン継続。なお、次の「神を殺め神となる」はこの攻撃で指定した敵単体を優先的に攻撃する。この効果は最後のターゲットにのみ有効。",
-        "ko": "마이데이 HP 최대치의 #3[f1]%만큼 HP를 회복하고, 특성 충전을 #5[i]pt 누적한다. 지정된 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 동시에 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가하며, 목표 및 인접한 목표를 도발 상태에 빠트린다, 지속 시간: #4[i]턴. 다음번 [신을 죽여 신이 된 자]는 지정된 단일 적을 우선 공격하며, 해당 효과는 가장 최근의 목표에게만 적용된다"
+        "zh-CN": "回复等同于万敌#3[f1]%生命上限的生命值并积攒#5[i]点天赋充能。对指定敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害，并使目标与相邻目标陷入嘲讽状态，持续#4[i]回合。下一次【弑神登神】优先攻击指定敌方单体，该效果仅对最新目标生效。"
       },
       "params": [
         [0.96, 0.6, 0.15, 2, 20],
@@ -121,31 +85,19 @@
       "icon": "icon/skill/1404_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Restaura PV e acumula Carga do Talento. Causa Dano Imaginário massivo a um inimigo designado e Dano Imaginário a alvos adjacentes, então, aplica \"Provocação\" ao alvo e seus alvos adjacentes.",
         "en": "Restores HP and accumulates Talent's Charge. Deals massive Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets, then Taunts the target and their adjacent targets.",
-        "zh-CN": "回复生命值并积攒天赋充能，对指定敌方单体造成大量虚数属性伤害，对相邻目标造成虚数属性伤害，并使目标与相邻目标陷入嘲讽状态。",
-        "ja": "HPを回復し、天賦のチャージを獲得する。指定した敵単体に大量の虚数属性ダメージを与え、隣接する敵にも虚数属性ダメージを与える。さらに、ターゲットおよび隣接する敵を挑発状態にする。",
-        "ko": "HP를 회복하고 특성 충전을 누적한다. 지정된 단일 적에게 대량의 허수 속성 피해를 가하고, 인접한 목표에게 허수 속성 피해를 가하며, 목표 및 인접한 목표를 도발 상태에 빠트린다"
+        "zh-CN": "回复生命值并积攒天赋充能，对指定敌方单体造成大量虚数属性伤害，对相邻目标造成虚数属性伤害，并使目标与相邻目标陷入嘲讽状态。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 140404,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Sangue por Sangue",
-        "en": "Blood for Blood",
-        "zh-CN": "以血还血",
-        "ja": "血を以って血を制す",
-        "ko": "피에는 피로"
-      },
+      "name": { "en": "Blood for Blood", "zh-CN": "以血还血" },
       "description": {
-        "pt-BR": "Para cada 1% de PV perdidos, acumula 1 ponto de Carga (até um máximo de 200 pontos). Quando a Carga chega a 100, consome 100 pontos de Carga para entrar no estado de \"Vingança\", restaura PV em um valor igual a #1[i]% dos PV máximos de Mydei e Avança Adiante a ação em 100%. Enquanto o estado de \"Vingança\" estiver ativo, os PV máximos aumentam em um valor igual a #5[i]% dos PV máximos atuais e a DEF se mantém em 0. No início da rodada desta unidade, usa automaticamente \"Regicida, Torne-se Rei\".\nQuando a Carga atinge #3[i] pontos durante o estado de \"Vingança\", Mydei ganha imediatamente 1 rodada extra e usa automaticamente \"Deicida, Torne-se Uma Divindade\".\nAo receber um golpe fatal durante o estado de \"Vingança\", Mydei não será derrubado, mas sua Carga será zerada, saíra do estado de \"Vingança\" e seus PV serão restaurados em um valor igual a #4[i]% dos seus PV máximos.",
         "en": "For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the \"Vendetta\" state, restores HP equal to #1[i]% of Mydei's Max HP, and advances action by 100%. While the \"Vendetta\" state is active, Max HP increases by #5[i]% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses \"Kingslayer Be King.\"\nWhen Charge reaches #3[i] points during the \"Vendetta\" state, Mydei immediately gains 1 extra turn and automatically uses \"Godslayer Be God.\"\nWhen receiving a killing blow during the \"Vendetta\" state, Mydei will not be knocked down, but will clear his Charge, exits the \"Vendetta\" state, and restores HP by #4[i]% of his Max HP.",
-        "zh-CN": "每损失1%生命值积攒1点充能，最多积攒200点。充能达到100时消耗100点充能进入【血仇】状态并回复等同于万敌#1[i]%生命上限的生命值，同时行动提前100%。【血仇】状态下生命上限提高，数值等同于当前生命上限的#5[i]%，防御力保持为0。自身回合开始时自动施放【弑王成王】。\n【血仇】状态期间充能达到#3[i]点时，万敌立即获得1个额外回合并自动施放【弑神登神】。\n【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身#4[i]%生命上限的生命值。",
-        "ja": "HPを1%失うごとにチャージを1獲得する、最大200までチャージ可能。チャージが100になると、チャージを100消費して「血の報復」状態に入り、モーディスの最大HP#1[i]%分のHPを回復し、行動順が100%早まる。「血の報復」状態の間、最大HPが現在の最大HPの#5[i]%分アップし、防御力が0に固定される。自身のターンが回ってきた時、自動で「王を殺め王となる」を発動する。\n「血の報復」状態の間、チャージが#3[i]に達した時、モーディスは追加ターンを1獲得し、「神を殺め神となる」を発動する。\n「血の報復」状態の間、HPが0になる攻撃を受けた時、戦闘不能状態にならない代わりにチャージをクリアし、「血の報復」状態を解除、最大HPの#4[i]%分を回復する。",
-        "ko": "HP를 1% 잃을 때마다 충전을 1pt 누적하고, 최대 200pt까지 누적할 수 있다. 충전이 100에 도달하면 충전을 100pt 소모해 [피의 원한] 상태에 진입하며, 마이데이 HP 최대치의 #1[i]%만큼 HP를 회복하고 행동 게이지가 100% 증가한다. [피의 원한] 상태에서는 HP 최대치가 현재 HP 최대치의 #5[i]%만큼 증가하고 방어력이 0으로 유지된다. 자신의 턴이 시작되면 [왕을 죽여 왕이 된 자]가 자동으로 발동된다.\n[피의 원한] 상태 동안 충전이 #3[i]pt에 도달하면 마이데이가 즉시 보너스 턴을 1개 획득하며, [신을 죽여 신이 된 자]가 자동으로 발동된다.\n[피의 원한] 상태 동안 마이데이가 치명적인 공격을 받을 시 전투 불능 상태에 빠지지 않는 대신 충전이 초기화되고 [피의 원한] 상태가 해제되며, 자신 HP 최대치의 #4[i]%만큼 HP를 회복한다"
+        "zh-CN": "每损失1%生命值积攒1点充能，最多积攒200点。充能达到100时消耗100点充能进入【血仇】状态并回复等同于万敌#1[i]%生命上限的生命值，同时行动提前100%。【血仇】状态下生命上限提高，数值等同于当前生命上限的#5[i]%，防御力保持为0。自身回合开始时自动施放【弑王成王】。\n【血仇】状态期间充能达到#3[i]点时，万敌立即获得1个额外回合并自动施放【弑神登神】。\n【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身#4[i]%生命上限的生命值。"
       },
       "params": [
         [0.15, 0, 150, 0.5, 0.5],
@@ -167,82 +119,52 @@
       "icon": "icon/skill/1404_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Ao perder PV, acumula Carga. Quando a Carga está em 100, entra no estado de \"Vingança\", restaura PV e Avança Adiante a ação. Durante \"Vingança\", os PV máximos aumentam e a DEF permanece em 0. No início da rodada desta unidade, usa automaticamente \"Regicida, Torne-se Rei\".\nQuando a Carga atinge 150 durante \"Vingança\", Mydei ganha imediatamente 1 rodada extra e usa automaticamente \"Deicida, Torne-se Uma Divindade\".\nQuando Mydei recebe um golpe fatal, sai do estado de \"Vingança\".",
         "en": "When losing HP, accumulates Charge. When Charge is at 100, enters the \"Vendetta\" state, restores HP and advances action. During \"Vendetta,\" Max HP increases and DEF remains at 0. At the start of this unit's turn, automatically uses \"Kingslayer Be King.\"\nWhen Charge reaches 150 during \"Vendetta,\" Mydei immediately gains 1 extra turn and automatically uses \"Godslayer Be God.\"\nWhen Mydei receives a killing blow, he exits the \"Vendetta\" state.",
-        "zh-CN": "损失生命值时积攒充能，充能达到100时进入【血仇】状态，回复生命值且行动提前。【血仇】状态下当前生命上限提高，防御力保持为0。自身回合开始时自动施放【弑王成王】。\n【血仇】状态期间充能达到150时，万敌立即获得1个额外回合并自动施放【弑神登神】。\n万敌受到致命攻击时退出【血仇】状态。",
-        "ja": "HPを失う時にチャージを獲得する。チャージが100になると「血の報復」状態に入り、HPを回復して行動順が早まる。「血の報復」状態の間、現在の最大HPがアップし、防御力が0に固定される。自身のターンが回ってきた時に「王を殺め王となる」を自動で発動する。\n「血の報復」状態の間、チャージが150になると、モーディスが追加ターンを1獲得し、「神を殺め神となる」を自動で発動する。\nモーディスがHPが0になる攻撃を受けた時、「血の報復」状態を解除する。",
-        "ko": "HP를 잃을 시 충전을 누적한다. 충전이 100에 도달하면 [피의 원한] 상태에 진입하며, HP가 회복되고 행동 게이지가 증가한다. [피의 원한] 상태에서는 현재 HP 최대치가 증가하고 방어력이 0으로 유지된다. 자신의 턴 시작 시 [왕을 죽여 왕이 된 자]가 자동으로 발동된다.\n[피의 원한] 상태 동안 충전이 150에 도달하면 마이데이가 즉시 보너스 턴을 1개 획득하고, [신을 죽여 신이 된 자]가 자동으로 발동된다.\n마이데이가 치명적인 공격을 받으면 [피의 원한] 상태가 해제된다"
+        "zh-CN": "损失生命值时积攒充能，充能达到100时进入【血仇】状态，回复生命值且行动提前。【血仇】状态下当前生命上限提高，防御力保持为0。自身回合开始时自动施放【弑王成王】。\n【血仇】状态期间充能达到150时，万敌立即获得1个额外回合并自动施放【弑神登神】。\n万敌受到致命攻击时退出【血仇】状态。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 140406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1404_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 140407,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Jaula da Lança Estilhaçada",
-        "en": "Cage of Broken Lance",
-        "zh-CN": "折戟臣服的监牢",
-        "ja": "砕折の矛、臣服の牢獄",
-        "ko": "부러진 창의 감옥"
-      },
+      "name": { "en": "Cage of Broken Lance", "zh-CN": "折戟臣服的监牢" },
       "description": {
-        "pt-BR": "Após usar a Técnica, puxa os inimigos dentro de uma certa área e inflige \"Confusão\" neles por #1[i] segundo(s). Inimigos em estado de \"Confusão\" não atacarão ativamente os aliados-alvo.\nAtacar ativamente inimigos em estado de \"Confusão\" para entrar em batalha, causa Dano Imaginário igual a #2[i]% dos PV máximos de Mydei a todos os inimigos, e aplica \"Provocação\" aos alvos, durando por #4[i] rodada(s). Esta unidade acumula #5[i] ponto(s) de Carga do Talento.",
         "en": "After using Technique, pulls in enemies within a certain area and inflicts Daze on them for #1[i] second(s). Dazed enemies will not actively attack ally targets.\nIf actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to #2[i]% of Mydei's Max HP to all enemies, and Taunts the targets, lasting for #4[i] turn(s). This unit accumulates #5[i] point(s) of Talent's Charge.",
-        "zh-CN": "使用秘技后牵引一定区域内的敌人并使其陷入#1[i]秒的晕眩状态，晕眩状态下敌人不会主动攻击我方目标。\n若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌#2[i]%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续#4[i]回合。自身积攒#5[i]点天赋充能。",
-        "ja": "秘技を使用した後、一定範囲内の敵を引き寄せ、#1[i]秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った後、敵全体にモーディスの最大HP#2[i]%分の虚数属性ダメージを与え、敵を挑発状態にする。#4[i]ターン継続。また、自身は天賦のチャージを#5[i]獲得する。",
-        "ko": "비술을 사용하면 일정 구역 내의 적을 끌어당기고 #1[i]초 동안 현기증 상태에 빠트린다. 현기증 상태인 적은 아군을 선공할 수 없다.\n현기증 상태에 빠진 적을 선공해 전투 진입 시, 모든 적에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: #4[i]턴. 자신은 특성 충전을 #5[i]pt 누적한다"
+        "zh-CN": "使用秘技后牵引一定区域内的敌人并使其陷入#1[i]秒的晕眩状态，晕眩状态下敌人不会主动攻击我方目标。\n若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌#2[i]%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续#4[i]回合。自身积攒#5[i]点天赋充能。"
       },
       "params": [[10, 0.8, 1, 1, 50]],
       "icon": "icon/skill/1404_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Puxa inimigos dentro de uma certa área e inflige \"Confusão\" neles. Após atacar inimigos em estado de \"Confusão\" e entrar em batalha, causa Dano Imaginário leve a todos os inimigos e aplica \"Provocação\" aos alvos. Esta unidade acumula a Carga de Talento.",
         "en": "Pulls in enemies within a certain area and inflicts Daze on them. After attacking Dazed enemies and entering battle, deals minor Imaginary DMG to all enemies and Taunts the targets. This unit accumulates Talent's Charge.",
-        "zh-CN": "牵引一定区域内的敌人并使其陷入晕眩状态。攻击陷入晕眩状态的敌人，进战后对敌方全体造成少量虚数属性伤害，并使目标陷入嘲讽状态。自身积攒天赋充能。",
-        "ja": "一定範囲内の敵を引き寄せ、目眩状態にする。目眩状態の敵を攻撃して戦闘に入った後、敵全体に少量の虚数属性ダメージを与え、敵を挑発状態にする。自身は天賦によるチャージを獲得する。",
-        "ko": "일정 구역 내의 적을 끌어당기고 현기증 상태에 빠트린다. 현기증 상태인 적을 공격하면 전투 진입 시 모든 적에게 소량의 허수 속성 피해를 가하고, 목표를 도발 상태에 빠트린다. 자신은 특성 충전을 누적한다"
+        "zh-CN": "牵引一定区域内的敌人并使其陷入晕眩状态。攻击陷入晕眩状态的敌人，进战后对敌方全体造成少量虚数属性伤害，并使目标陷入嘲讽状态。自身积攒天赋充能。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Impair", "zh-CN": "妨害" }
     },
     {
       "id": 140409,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Regicida, Torne-se Rei",
-        "en": "Kingslayer Be King",
-        "zh-CN": "弑王成王",
-        "ja": "王を殺め王となる",
-        "ko": "왕을 죽여 왕이 된 자"
-      },
+      "name": { "en": "Kingslayer Be King", "zh-CN": "弑王成王" },
       "description": {
-        "pt-BR": "Consome PV em um valor igual a #3[i]% dos PV atuais de Mydei. Causa Dano Imaginário em um valor igual a #1[i]% dos PV máximos de Mydei a um inimigo e Dano Imaginário em um valor igual a #2[i]% dos PV máximos de Mydei a alvos adjacentes.\nSe os PV atuais não forem suficientes, usar a Perícia reduz os PV atuais de Mydei para 1.\nEsta habilidade será usada automaticamente.",
         "en": "Consumes HP by an amount equal to #3[i]% of Mydei's current HP. Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one enemy and Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets.\nIf the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.\nThis ability will be automatically used.",
-        "zh-CN": "消耗等同于万敌当前生命值#3[i]%的生命值，对敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害。\n若当前生命值不足，施放战技时万敌的当前生命值降低至1点。\n该技能会自动施放。",
-        "ja": "モーディスの残りHP#3[i]%分のHPを消費する。敵単体にモーディスの最大HP#1[i]%分の虚数属性ダメージを与え、隣接する敵にモーディスの最大HP#2[i]%分の虚数属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、モーディスの残りHPが1になる。\nこのスキルは自動で発動する。",
-        "ko": "마이데이 현재 HP의 #3[i]%만큼 HP를 소모해 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가한다.\n현재 HP가 부족하면 전투 스킬 발동 시 마이데이의 현재 HP가 1pt까지 감소한다.\n해당 스킬은 자동으로 발동된다"
+        "zh-CN": "消耗等同于万敌当前生命值#3[i]%的生命值，对敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害。\n若当前生命值不足，施放战技时万敌的当前生命值降低至1点。\n该技能会自动施放。"
       },
       "params": [
         [0.55, 0.33, 0.35],
@@ -264,31 +186,19 @@
       "icon": "icon/skill/1404_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Consome PV. Causa Dano Imaginário a um inimigo designado e Dano Imaginário aos alvos adjacentes.\nEsta habilidade será usada automaticamente.",
         "en": "Consumes HP. Deals Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets.\nThis ability will be automatically used.",
-        "zh-CN": "消耗生命值，对指定敌方单体造成虚数属性伤害，对相邻目标造成虚数属性伤害。\n该技能会自动施放。",
-        "ja": "HPを消費し、指定した敵単体に虚数属性ダメージを与え、隣接する敵に虚数属性ダメージを与える。\nこのスキルは自動で発動する。",
-        "ko": "HP를 소모해 지정된 단일 적에게 허수 속성 피해를 가하고, 인접한 목표에게 허수 속성 피해를 가한다.\n해당 스킬은 자동으로 발동된다"
+        "zh-CN": "消耗生命值，对指定敌方单体造成虚数属性伤害，对相邻目标造成虚数属性伤害。\n该技能会自动施放。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 140411,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Deicida, Torne-se Uma Divindade",
-        "en": "Godslayer Be God",
-        "zh-CN": "弑神登神",
-        "ja": "神を殺め神となる",
-        "ko": "신을 죽여 신이 된 자"
-      },
+      "name": { "en": "Godslayer Be God", "zh-CN": "弑神登神" },
       "description": {
-        "pt-BR": "Consome #3[i] ponto(s) de Carga. Causa Dano Imaginário em um valor igual a #1[i]% dos PV máximos de Mydei a um inimigo e Dano Imaginário em um valor igual a #2[i]% dos PV máximos de Mydei a alvos adjacentes.\nEsta habilidade será usada automaticamente. Enquanto esta habilidade estiver em uso, Carga não pode ser acumulada.",
         "en": "Consumes #3[i] point(s) of Charge. Deals Imaginary DMG equal to #1[i]% of Mydei's Max HP to one enemy and Imaginary DMG equal to #2[i]% of Mydei's Max HP to adjacent targets.\nThis ability will be automatically used. While this ability is in use, Charge cannot be accumulated.",
-        "zh-CN": "消耗#3[i]点充能，对敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害。\n该技能会自动施放。此技能期间无法积攒充能。",
-        "ja": "チャージを#3[i]消費して、敵単体にモーディスの最大HP#1[i]%分の虚数属性ダメージを与え、隣接する敵にモーディスの最大HP#2[i]%分の虚数属性ダメージを与える。\nこのスキルは自動で発動し、発動している間はチャージを獲得できなくなる。",
-        "ko": "충전을 #3[i]pt 소모해 단일 적에게 마이데이 HP 최대치의 #1[i]%만큼 허수 속성 피해를 가하고, 인접한 목표에게 마이데이 HP 최대치의 #2[i]%만큼 허수 속성 피해를 가한다.\n해당 스킬은 자동으로 발동된다. 이 스킬을 발동하는 동안 충전이 누적되지 않는다"
+        "zh-CN": "消耗#3[i]点充能，对敌方单体造成等同于万敌#1[i]%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌#2[i]%生命上限的虚数属性伤害。\n该技能会自动施放。此技能期间无法积攒充能。"
       },
       "params": [
         [1.4, 0.84, 150],
@@ -310,32 +220,20 @@
       "icon": "icon/skill/1404_skill2.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Consome Carga. Causa Dano Imaginário massivo a um inimigo designado e Dano Imaginário massivo aos alvos adjacentes.\nEsta habilidade será usada automaticamente.",
         "en": "Consumes Charge. Deals massive Imaginary DMG to one designated enemy and massive Imaginary DMG to adjacent targets.\nThis ability will be automatically used.",
-        "zh-CN": "消耗充能，对指定敌方单体造成大量虚数属性伤害，对相邻目标造成大量虚数属性伤害。\n该技能会自动施放。",
-        "ja": "チャージを消費し、指定した敵単体に大量の虚数属性ダメージを与え、隣接する敵に大量の虚数属性ダメージを与える。\nこのスキルは自動で発動する。",
-        "ko": "충전을 소모하고, 지정된 단일 적에게 대량의 허수 속성 피해를 가하며, 인접한 목표에게 대량의 허수 속성 피해를 가한다.\n해당 스킬은 자동으로 발동된다"
+        "zh-CN": "消耗充能，对指定敌方单体造成大量虚数属性伤害，对相邻目标造成大量虚数属性伤害。\n该技能会自动施放。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "O Frio Afia a Espinha de Aço",
-        "en": "Frost Hones Spine of Steel",
-        "zh-CN": "寒风雕琢不屈的脊梁",
-        "ja": "{RUBY_B#かんぷう}寒風{RUBY_E#}に{RUBY_B#みが}磨{RUBY_E#}かれし\n{RUBY_B#ふくつ}不屈{RUBY_E#}の{RUBY_B#せきちゅう}脊柱{RUBY_E#}",
-        "ko": "한풍이 조각한 불굴의 의지"
-      },
+      "name": { "en": "Frost Hones Spine of Steel", "zh-CN": "寒风雕琢不屈的脊梁" },
       "description": {
-        "pt-BR": "Aumenta o multiplicador de Dano causado por \"Deicida, Torne-se Uma Divindade\" ao alvo principal em 30%. Esta habilidade agora causa a todos os inimigos Dano Imaginário igual ao multiplicador de Dano causado ao alvo principal.",
         "en": "Increases the DMG multiplier dealt by \"Godslayer Be God\" to the primary target by 30%. This ability now deals to all enemies Imaginary DMG equal to the DMG multiplier dealt to the primary target.",
-        "zh-CN": "【弑神登神】对主目标造成的伤害倍率提高30%，且变成对敌方全体造成等同于主目标伤害倍率的虚数属性伤害。",
-        "ja": "「神を殺め神となる」のメインターゲットに対するダメージ倍率+30%、また、「神を殺め神となる」はメインターゲットに対するダメージ倍率で敵全体に虚数属性ダメージを与えるようになる。",
-        "ko": "[신을 죽여 신이 된 자]가 주목표에게 가하는 피해 배율이 30% 증가하고, 모든 적에게 주목표 피해 배율만큼 허수 속성 피해를 가하는 것으로 변경된다"
+        "zh-CN": "【弑神登神】对主目标造成的伤害倍率提高30%，且变成对敌方全体造成等同于主目标伤害倍率的虚数属性伤害。"
       },
       "icon": "icon/skill/1404_rank1.png",
       "materials": [{ "id": 11404, "num": 1 }],
@@ -343,19 +241,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "O Conflito Observa o Lamurio dos Mortos",
-        "en": "Strife Beholds Cry of Dead",
-        "zh-CN": "纷争见证尸骸的喉鸣",
-        "ja": "{RUBY_B#ふんそう}紛争{RUBY_E#}が{RUBY_B#みとど}見届{RUBY_E#}けし\n{RUBY_B#しかばね}屍{RUBY_E#}の{RUBY_B#きょき}歔欷{RUBY_E#}",
-        "ko": "유해의 울부짖음을 목격한 분쟁"
-      },
+      "name": { "en": "Strife Beholds Cry of Dead", "zh-CN": "纷争见证尸骸的喉鸣" },
       "description": {
-        "pt-BR": "Durante \"Vingança\", o Dano causado por Mydei ignora 15% da DEF dos inimigos-alvo. Depois de receber cura, converte 40% do valor curado em Carga. O total de Carga convertida não pode exceder 40 ponto(s). A contagem total de Carga do efeito é reiniciada após qualquer unidade agir.",
         "en": "During \"Vendetta,\" the DMG dealt by Mydei ignores 15% of enemy targets' DEF. After he receives healing, converts 40% of the healed amount to Charge. The tally of the converted Charge cannot exceed 40 point(s). Resets this tally of Charge after any unit takes action.",
-        "zh-CN": "【血仇】状态期间，万敌造成的伤害无视敌方目标15%的防御力，且接受治疗后会将40%的治疗数值转化为充能，累计转化的充能不超过40点。任意单位行动后重置可累计的充能。",
-        "ja": "「血の報復」状態の間、モーディスが与えるダメージは敵の防御力を15%無視する。治癒を受けた後、治癒量の40%分がチャージに変換され、累計で40まで変換できる。任意のユニットが行動した後、変換できるチャージのカウントはリセットされる。",
-        "ko": "[피의 원한] 상태 동안, 마이데이가 가하는 피해는 적의 방어력을 15% 무시하며, 치유를 받으면 치유량의 40%가 충전으로 전환된다. 누적 전환되는 충전은 40pt를 초과하지 않는다. 임의 유닛 행동 후 누적 가능한 충전이 초기화된다"
+        "zh-CN": "【血仇】状态期间，万敌造成的伤害无视敌方目标15%的防御力，且接受治疗后会将40%的治疗数值转化为充能，累计转化的充能不超过40点。任意单位行动后重置可累计的充能。"
       },
       "icon": "icon/skill/1404_rank2.png",
       "materials": [{ "id": 11404, "num": 1 }],
@@ -363,19 +252,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "A Honra Exalta o Festejo da Fé",
-        "en": "Honor Exalts Feast of Faith",
-        "zh-CN": "荣耀辉映不渝的筵宴",
-        "ja": "{RUBY_B#えいこう}栄光{RUBY_E#}を{RUBY_B#たた}称{RUBY_E#}えし\n{RUBY_B#ばんごう}万劫{RUBY_E#}の{RUBY_B#きょうえん}饗宴{RUBY_E#}",
-        "ko": "불변의 연회를 비추는 영광"
-      },
+      "name": { "en": "Honor Exalts Feast of Faith", "zh-CN": "荣耀辉映不渝的筵宴" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1404_skill.png",
       "materials": [{ "id": 11404, "num": 1 }],
@@ -388,19 +268,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "O Alarme Desperta o Leão Lacônico",
-        "en": "Siren Jolts the Laconic Lion",
-        "zh-CN": "号角惊觉缄默的狂狮",
-        "ja": "{RUBY_B#つのぶえ}角笛{RUBY_E#}で{RUBY_B#めざ}目覚{RUBY_E#}めし\n{RUBY_B#ちんもく}沈黙{RUBY_E#}の{RUBY_B#しし}獅子{RUBY_E#}",
-        "ko": "침묵하는 사자를 깨우는 호각"
-      },
+      "name": { "en": "Siren Jolts the Laconic Lion", "zh-CN": "号角惊觉缄默的狂狮" },
       "description": {
-        "pt-BR": "Enquanto estiver em \"Vingança\", aumenta o Dano CRIT em 30% e restaura PV em 10% dos PV máximos desta unidade após receber ataques de inimigos-alvo.",
         "en": "While in \"Vendetta,\" increases CRIT DMG by 30% and restores HP by 10% of this unit's Max HP after receiving attacks from enemy targets.",
-        "zh-CN": "【血仇】状态期间暴击伤害提高30%，且受到来自敌方目标的攻击后回复等同于自身10%生命上限的生命值。",
-        "ja": "「血の報復」状態の間、会心ダメージ+30%。敵から攻撃を受けた後、自身の最大HP10%分のHPを回復する。",
-        "ko": "[피의 원한] 상태 동안 치명타 피해가 30% 증가하며, 적의 공격을 받으면 자신의 HP 최대치의 10%만큼 HP를 회복한다"
+        "zh-CN": "【血仇】状态期间暴击伤害提高30%，且受到来自敌方目标的攻击后回复等同于自身10%生命上限的生命值。"
       },
       "icon": "icon/skill/1404_rank4.png",
       "materials": [{ "id": 11404, "num": 1 }],
@@ -408,19 +279,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Os Cinzéis da Guerra Moldam a Carne Ardente",
-        "en": "War Chisels Flesh of Flame",
-        "zh-CN": "兵戈雕刻躯身的烈焰",
-        "ja": "{RUBY_B#へいか}兵戈{RUBY_E#}で{RUBY_B#きざ}刻{RUBY_E#}まれし\n{RUBY_B#しんく}身躯{RUBY_E#}の{RUBY_B#れつえん}烈炎{RUBY_E#}",
-        "ko": "육체의 화염을 조각하는 병기"
-      },
+      "name": { "en": "War Chisels Flesh of Flame", "zh-CN": "兵戈雕刻躯身的烈焰" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1404_ultimate.png",
       "materials": [{ "id": 11404, "num": 1 }],
@@ -428,19 +290,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "O Legado Escala a Montanha de Sangue",
-        "en": "Legacy Scales Mound of Blood",
-        "zh-CN": "往日攀陟沉积的血山",
-        "ja": "{RUBY_B#おうじつ}往日{RUBY_E#}に{RUBY_B#とうはん}登攀{RUBY_E#}せし\n{RUBY_B#こうけつ}紅血{RUBY_E#}の{RUBY_B#やま}山{RUBY_E#}",
-        "ko": "침적된 혈산을 오르는 과거"
-      },
+      "name": { "en": "Legacy Scales Mound of Blood", "zh-CN": "往日攀陟沉积的血山" },
       "description": {
-        "pt-BR": "Ao entrar na batalha, entra imediatamente no estado de \"Vingança\" e reduz a Carga necessária de \"Deicida, Torne-se Uma Divindade\" para 100 ponto(s).",
         "en": "When entering battle, immediately enters the \"Vendetta\" state, and lowers the Charge required for \"Godslayer Be God\" to 100 point(s).",
-        "zh-CN": "进入战斗时立刻进入【血仇】状态且【弑神登神】所需的充能值降低至100点。",
-        "ja": "戦闘に入る時、「血の報復」状態に入り、「神を殺め神となる」に必要なチャージが100になる。",
-        "ko": "전투 진입 시 즉시 [피의 원한] 상태에 진입하고, [신을 죽여 신이 된 자]에 필요한 충전치가 100pt로 감소한다"
+        "zh-CN": "进入战斗时立刻进入【血仇】状态且【弑神登神】所需的充能值降低至100点。"
       },
       "icon": "icon/skill/1404_rank6.png",
       "materials": [{ "id": 11404, "num": 1 }],
@@ -815,19 +668,10 @@
     {
       "id": 1404101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Terra e Água",
-        "en": "Earth and Water",
-        "zh-CN": "水与泥土",
-        "ja": "{RUBY_B#つち}土{RUBY_E#}と{RUBY_B#みず}水{RUBY_E#}",
-        "ko": "물과 흙"
-      },
+      "name": { "en": "Earth and Water", "zh-CN": "水与泥土" },
       "description": {
-        "pt-BR": "Enquanto estiver no estado de \"Vingança\", Mydei não sairá do estado de \"Vingança\" ao receber um Golpe Fatal. Este efeito pode ser ativado #1[i] vez(es) por batalha.",
         "en": "During the \"Vendetta\" state, Mydei will not exit the \"Vendetta\" state when receiving a killing blow. This effect can trigger #1[i] time(s) per battle.",
-        "zh-CN": "【血仇】状态下万敌受到致命攻击时不会退出【血仇】状态。该效果单场战斗中可以触发#1[i]次。",
-        "ja": "「血の報復」状態のモーディスがHPが0になる攻撃を受けても、「血の報復」状態を解除しない。この効果は一度の戦闘で#1[i]回まで発動できる。",
-        "ko": "[피의 원한] 상태에서 마이데이가 치명적인 공격을 받을 시 [피의 원한] 상태가 해제되지 않는다. 해당 효과는 단일 전투 중 #1[i]회 발동할 수 있다"
+        "zh-CN": "【血仇】状态下万敌受到致命攻击时不会退出【血仇】状态。该效果单场战斗中可以触发#1[i]次。"
       },
       "params": [[3]],
       "icon": "icon/skill/1404_skilltree1.png",
@@ -846,19 +690,10 @@
     {
       "id": 1404102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Trinta Tiranos",
-        "en": "Thirty Tyrants",
-        "zh-CN": "三十僭主",
-        "ja": "{RUBY_B#さんじゅう}三十{RUBY_E#}の{RUBY_B#せんしゅ}僭主{RUBY_E#}",
-        "ko": "30인 참주"
-      },
+      "name": { "en": "Thirty Tyrants", "zh-CN": "三十僭主" },
       "description": {
-        "pt-BR": "Enquanto estiver no estado de \"Vingança\", Mydei é imune a Penalidades de Controle Negativo.",
         "en": "While in the \"Vendetta\" state, Mydei is immune to Crowd Control debuffs.",
-        "zh-CN": "【血仇】状态下万敌免疫控制类负面状态。",
-        "ja": "「血の報復」状態のモーディスは行動制限系デバフに抵抗できる。",
-        "ko": "[피의 원한] 상태에서 마이데이가 제어류 디버프 상태에 면역된다"
+        "zh-CN": "【血仇】状态下万敌免疫控制类负面状态。"
       },
       "icon": "icon/skill/1404_skilltree2.png",
       "maxLevel": 1,
@@ -881,19 +716,10 @@
     {
       "id": 1404103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Quíton Ensanguentado",
-        "en": "Bloodied Chiton",
-        "zh-CN": "血祥罩衫",
-        "ja": "{RUBY_B#ちぞ}血染{RUBY_E#}めの{RUBY_B#ころも}衣{RUBY_E#}",
-        "ko": "혈조의 의복"
-      },
+      "name": { "en": "Bloodied Chiton", "zh-CN": "血祥罩衫" },
       "description": {
-        "pt-BR": "No início da batalha, se os PV máximos de Mydei excederem #1[i], para cada 100 PV excedentes, sua Chance de CRIT aumenta em #3[f1]%, sua taxa de Carga gerada pelo Dano dos inimigos-alvo aumenta em #4[f1]% e sua Cura Recebida aumenta em #5[f2]%. Até #2[i] PV excedentes podem ser considerados para este efeito.",
         "en": "When battle starts, if Mydei's Max HP exceeds #1[i], for every 100 excess HP, Mydei's CRIT Rate increases by #3[f1]%, his Charge ratio from enemy targets' DMG increases by #4[f1]%, and his HP restored when receiving healing increases by #5[f2]%. Up to #2[i] excess HP can be taken into account for this effect.",
-        "zh-CN": "战斗开始时，若万敌的生命上限高于#1[i]点，每超过100点生命值可使自身暴击率提高#3[f1]%，万敌受到来自敌方目标伤害造成的充能比例提高#4[f1]%，受到治疗时的回复量提高#5[f2]%，超出部分最多计入#2[i]点生命值。",
-        "ja": "戦闘開始時、モーディスの最大HPが#1[i]を超えた場合、超過したHP100につき、自身の会心率+#3[f1]%。モーディスが敵からの攻撃でダメージを受けた際に得られるチャージ割合+#4[f1]%、治癒を受けた時の回復量+#5[f2]%。超過したHPは最大で#2[i]までカウントされる。",
-        "ko": "전투 시작 시 마이데이의 HP 최대치가 #1[i]pt보다 높으면 100pt 초과할 때마다 자신의 치명타 확률이 #3[f1]% 증가하고, 마이데이가 적으로부터 받은 피해로 인한 충전 비율이 #4[f1]% 증가하며, 치유를 받을 시의 회복량이 #5[f2]% 증가한다. 초과한 HP는 최대 #2[i]pt까지 계산된다"
+        "zh-CN": "战斗开始时，若万敌的生命上限高于#1[i]点，每超过100点生命值可使自身暴击率提高#3[f1]%，万敌受到来自敌方目标伤害造成的充能比例提高#4[f1]%，受到治疗时的回复量提高#5[f2]%，超出部分最多计入#2[i]点生命值。"
       },
       "params": [[4000, 4000, 0.012, 0.025, 0.0075]],
       "icon": "icon/skill/1404_skilltree3.png",
@@ -917,13 +743,7 @@
     {
       "id": 1404201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -940,7 +760,7 @@
     {
       "id": 1404202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1404101],
@@ -957,13 +777,7 @@
     {
       "id": 1404203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1404202],
@@ -980,7 +794,7 @@
     {
       "id": 1404204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1404203],
@@ -997,13 +811,7 @@
     {
       "id": 1404205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1404102],
@@ -1020,7 +828,7 @@
     {
       "id": 1404206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1404205],
@@ -1037,13 +845,7 @@
     {
       "id": 1404207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1404206],
@@ -1060,7 +862,7 @@
     {
       "id": 1404208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1404103],
@@ -1077,7 +879,7 @@
     {
       "id": 1404209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1404208],
@@ -1094,13 +896,7 @@
     {
       "id": 1404210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1404208],

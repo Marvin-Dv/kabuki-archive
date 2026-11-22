@@ -1,13 +1,7 @@
 {
   "id": 11106,
   "slug": "pelas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Pela",
-    "en": "Pela's Eidolon",
-    "zh-CN": "【佩拉】的星魂",
-    "ja": "「ペラ」の星魂",
-    "ko": "[페라]의 성혼"
-  },
+  "name": { "en": "Pela's Eidolon", "zh-CN": "【佩拉】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

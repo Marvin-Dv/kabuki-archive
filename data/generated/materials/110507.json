@@ -1,24 +1,12 @@
 {
   "id": 110507,
   "slug": "daythunder-anamnesis",
-  "name": {
-    "pt-BR": "Anamnese do Trovão Diurno",
-    "en": "Daythunder Anamnesis",
-    "zh-CN": "阳雷的遥想",
-    "ja": "遥かなる陽雷の想い",
-    "ko": "태양과 번개의 회상"
-  },
+  "name": { "en": "Daythunder Anamnesis", "zh-CN": "阳雷的遥想" },
   "rarity": 4,
   "type": "Material",
   "subType": "WeeklyMonsterDrop",
   "announcedAt": "2026-11-17",
   "patchReleaseDate": null,
   "icon": "icon/item/110507.png",
-  "sources": {
-    "en": ["Echo of War: \"Fortress of Dome\" Eye of Twilight"],
-    "pt-BR": ["Eco da Guerra: Fortaleza do Domo, Olho Crepuscular"],
-    "zh-CN": ["历战余响【「穹顶关塞」晨昏之眼】"],
-    "ja": ["歴戦余韻「『天穹要塞』晨昏の目」"],
-    "ko": ["전쟁의 여운 [「천궁 요새」 조석의 눈]"]
-  }
+  "sources": { "en": ["Echo of War: \"Fortress of Dome\" Eye of Twilight"], "zh-CN": ["历战余响【「穹顶关塞」晨昏之眼】"] }
 }

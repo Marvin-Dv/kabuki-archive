@@ -1,7 +1,7 @@
 {
   "id": 14,
   "type": "StatusResistance",
-  "name": { "pt-BR": "RES a Efeito", "en": "Effect RES", "zh-CN": "效果抵抗", "ja": "効果抵抗", "ko": "효과 저항" },
+  "name": { "en": "Effect RES", "zh-CN": "效果抵抗" },
   "icon": "icon/property/IconStatusResistance.png",
   "percent": true
 }

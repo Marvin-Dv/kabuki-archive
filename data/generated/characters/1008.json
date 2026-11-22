@@ -1,7 +1,7 @@
 {
   "id": 1008,
   "slug": "arlan",
-  "name": { "pt-BR": "Arlan", "en": "Arlan", "zh-CN": "阿兰", "ja": "アーラン", "ko": "아를란" },
+  "name": { "en": "Arlan", "zh-CN": "阿兰" },
   "rarity": 4,
   "path": "Destruction",
   "element": "Lightning",
@@ -11,49 +11,25 @@
     {
       "id": 100801,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Descarga de Raio",
-        "en": "Lightning Rush",
-        "zh-CN": "如雷疾行",
-        "ja": "疾行する雷の如し",
-        "ko": "번개 같은 질주"
-      },
+      "name": { "en": "Lightning Rush", "zh-CN": "如雷疾行" },
       "description": {
-        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Arlan a um único inimigo.",
         "en": "Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于阿兰#1[i]%攻击力的雷属性伤害。",
-        "ja": "指定した敵単体にアーランの攻撃力#1[i]%分の雷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于阿兰#1[i]%攻击力的雷属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1008_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
-        "en": "Deals minor Lightning DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害。",
-        "ja": "敵単体に少量の雷属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Lightning DMG to one enemy.", "zh-CN": "对敌方单体造成少量雷属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 100802,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Quebra-Grilhões",
-        "en": "Shackle Breaker",
-        "zh-CN": "禁锢解除",
-        "ja": "禁錮解除",
-        "ko": "속박 해제"
-      },
+      "name": { "en": "Shackle Breaker", "zh-CN": "禁锢解除" },
       "description": {
-        "pt-BR": "Consome os PV de Arlan, com valor equivalente a #1[i]% de seus PV máximos, para causar #2[i]% do ATQ de Arlan como Dano de Raio a um único inimigo. Se os PV de Arlan forem insuficientes, os seus PV serão reduzidos a 1 depois de usar a Perícia.",
         "en": "Consumes Arlan's HP equal to #1[i]% of his Max HP to deal Lightning DMG equal to #2[i]% of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "zh-CN": "消耗等同于阿兰生命上限#1[i]%的生命值对指定敌方单体造成等同于阿兰#2[i]%攻击力的雷属性伤害。若当前生命值不足，施放战技时阿兰的当前生命值降至1点。",
-        "ja": "アーランのHPを最大HP#1[i]%分消費して、指定した敵単体にアーランの攻撃力#2[i]%分の雷属性ダメージを与える。残りHPが足りない場合、戦闘スキルを発動する時、アーランの残りHPが1になる。",
-        "ko": "아를란 HP 최대치 #1[i]%만큼의 HP를 소모해 지정된 단일 적에게 아를란 공격력 #2[i]%만큼의 번개 속성 피해를 가한다. 현재 HP가 부족할 때 전투 스킬 발동 시 아를란의 HP가 1pt까지 하락한다"
+        "zh-CN": "消耗等同于阿兰生命上限#1[i]%的生命值对指定敌方单体造成等同于阿兰#2[i]%攻击力的雷属性伤害。若当前生命值不足，施放战技时阿兰的当前生命值降至1点。"
       },
       "params": [
         [0.15, 1.2],
@@ -75,31 +51,19 @@
       "icon": "icon/skill/1008_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Consome uma porção dos PV para causar Dano de Raio a um único inimigo.",
         "en": "Consumes a portion of HP to deal Lightning DMG to one enemy.",
-        "zh-CN": "消耗自身部分生命值，对敌方单体造成雷属性伤害。",
-        "ja": "自身のHPを消費し、敵単体に雷属性ダメージを与える。",
-        "ko": "자신의 일부 HP를 소모하고 단일 적에게 번개 속성 피해를 가한다"
+        "zh-CN": "消耗自身部分生命值，对敌方单体造成雷属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 100803,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Punição Frenética",
-        "en": "Frenzied Punishment",
-        "zh-CN": "狂者制裁",
-        "ja": "狂者の制裁",
-        "ko": "광자의 제재"
-      },
+      "name": { "en": "Frenzied Punishment", "zh-CN": "狂者制裁" },
       "description": {
-        "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Arlan a um único inimigo e #2[i]% do ATQ de Arlan como Dano de Raio aos inimigos adjacentes a ele.",
         "en": "Deals Lightning DMG equal to #1[i]% of Arlan's ATK to one designated enemy and Lightning DMG equal to #2[i]% of Arlan's ATK to enemies adjacent to it.",
-        "zh-CN": "对指定敌方单体造成等同于阿兰#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于阿兰#2[i]%攻击力的雷属性伤害。",
-        "ja": "指定した敵単体にアーランの攻撃力#1[i]%分の雷属性ダメージを与え、隣接する敵にアーランの攻撃力#2[i]%分の雷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가하고, 인접한 목표에게 아를란 공격력 #2[i]%만큼의 번개 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于阿兰#1[i]%攻击力的雷属性伤害，同时对其相邻目标造成等同于阿兰#2[i]%攻击力的雷属性伤害。"
       },
       "params": [
         [1.92, 0.96],
@@ -121,31 +85,19 @@
       "icon": "icon/skill/1008_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Causa Dano de Raio massivo a um único inimigo e Dano de Raio pequeno a inimigos adjacentes a ele.",
         "en": "Deals massive Lightning DMG to one enemy and Lightning DMG to enemies adjacent to it.",
-        "zh-CN": "对敌方单体造成大量雷属性伤害，对相邻目标造成雷属性伤害。",
-        "ja": "敵単体に大量の雷属性ダメージを与え、隣接する敵に雷属性ダメージを与える。",
-        "ko": "단일 적에게 대량의 번개 속성 피해를 가하고, 인접한 목표에게 번개 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成大量雷属性伤害，对相邻目标造成雷属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 100804,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Dor e Raiva",
-        "en": "Pain and Anger",
-        "zh-CN": "至痛至怒",
-        "ja": "痛みと怒りの極み",
-        "ko": "고통과 분노"
-      },
+      "name": { "en": "Pain and Anger", "zh-CN": "至痛至怒" },
       "description": {
-        "pt-BR": "Com base na porcentagem atual de PV perdidos de Arlan, ganha um bônus de Dano, até um aumento máximo de #1[i]% no Dano causado por Arlan.",
         "en": "Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of #1[i]% DMG dealt by Arlan.",
-        "zh-CN": "根据阿兰当前损失的生命值百分比获得伤害加成，最多使阿兰造成的伤害提高#1[i]%。",
-        "ja": "アーランの失ったHPの割合に応じて与ダメージアップ、最大でアーランの与ダメージ+#1[i]%",
-        "ko": "아를란이 현재 잃은 HP 백분율에 따라 피해 보너스를 획득하며, 아를란이 가하는 피해가 최대 #1[i]% 증가한다"
+        "zh-CN": "根据阿兰当前损失的生命值百分比获得伤害加成，最多使阿兰造成的伤害提高#1[i]%。"
       },
       "params": [
         [0.36],
@@ -167,82 +119,52 @@
       "icon": "icon/skill/1008_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Ganha bônus de Dano baseado na porcentagem atual de PV perdidos.",
         "en": "Gain DMG bonus based on currently missing HP percentage.",
-        "zh-CN": "根据自身当前已损失的生命值百分比提高伤害。",
-        "ja": "自身の失ったHPの割合に応じて与ダメージをアップする。",
-        "ko": "자신의 현재 잃은 HP 백분율에 따라 피해가 증가한다"
+        "zh-CN": "根据自身当前已损失的生命值百分比提高伤害。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 100806,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1008_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 100807,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Colheita Rápida",
-        "en": "Swift Harvest",
-        "zh-CN": "极速收割",
-        "ja": "特急ハーベスト",
-        "ko": "신속한 수확"
-      },
+      "name": { "en": "Swift Harvest", "zh-CN": "极速收割" },
       "description": {
-        "pt-BR": "Ataca o inimigo imediatamente. Depois de entrar na batalha, causa #1[i]% do ATQ de Arlan como Dano de Raio a todos os inimigos.",
         "en": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #1[i]% of Arlan's ATK to all enemies.",
-        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于阿兰#1[i]%攻击力的雷属性伤害。",
-        "ja": "敵を攻撃。戦闘に入った後、敵全体にアーランの攻撃力#1[i]%分の雷属性ダメージを与える。",
-        "ko": "적을 바로 공격하며, 전투 진입 후 모든 적에게 아를란 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于阿兰#1[i]%攻击力的雷属性伤害。"
       },
       "params": [[0.8]],
       "icon": "icon/skill/1008_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca o inimigo. Após entrar na batalha, causa Dano de Raio leve a todos os inimigos.",
         "en": "Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.",
-        "zh-CN": "攻击敌人，进战后对敌方全体造成少量雷属性伤害。",
-        "ja": "敵を攻撃。戦闘に入った後、敵全体に少量の雷属性ダメージを与える。",
-        "ko": "적을 공격하며, 전투 진입 후 모든 적에게 소량의 번개 속성 피해를 가한다"
+        "zh-CN": "攻击敌人，进战后对敌方全体造成少量雷属性伤害。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Até o Amargo Fim",
-        "en": "To the Bitter End",
-        "zh-CN": "万死不辞",
-        "ja": "{RUBY_B#ばんし}万死{RUBY_E#}も{RUBY_B#じ}辞{RUBY_E#}さぬ{RUBY_B#けつい}決意{RUBY_E#}",
-        "ko": "필사즉생"
-      },
+      "name": { "en": "To the Bitter End", "zh-CN": "万死不辞" },
       "description": {
-        "pt-BR": "Quando a porcentagem dos PV estiverem abaixo ou iguais a 50% dos PV máximos, o Dano da Perícia aumenta em 10%.",
         "en": "When HP percentage is lower than or equal to 50% of Max HP, increases DMG dealt by Skill by 10%.",
-        "zh-CN": "当前生命值百分比小于等于50%时，战技造成的伤害提高10%。",
-        "ja": "残りHPが50%以下の時、戦闘スキルによるダメージ+10%。",
-        "ko": "현재 HP 백분율이 50% 이하일 경우 전투 스킬이 가하는 피해가 10% 증가한다"
+        "zh-CN": "当前生命值百分比小于等于50%时，战技造成的伤害提高10%。"
       },
       "icon": "icon/skill/1008_rank1.png",
       "materials": [{ "id": 11008, "num": 1 }],
@@ -250,19 +172,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Libertação",
-        "en": "Breaking Free",
-        "zh-CN": "除制去缚",
-        "ja": "{RUBY_B#しば}縛{RUBY_E#}りより{RUBY_B#はな}放{RUBY_E#}たれし{RUBY_B#こころ}心{RUBY_E#}",
-        "ko": "구속 해제"
-      },
+      "name": { "en": "Breaking Free", "zh-CN": "除制去缚" },
       "description": {
-        "pt-BR": "Usar a Perícia ou a Perícia Suprema remove 1 penalidade desta unidade.",
         "en": "Using Skill or Ultimate removes 1 debuff from this unit.",
-        "zh-CN": "施放战技、终结技时，解除自身的1个负面效果。",
-        "ja": "戦闘スキルまたは必殺技を発動した時、自身のデバフを1つ解除する。",
-        "ko": "전투 스킬, 필살기 발동 시 자신의 디버프 효과를 1개 해제한다"
+        "zh-CN": "施放战技、终结技时，解除自身的1个负面效果。"
       },
       "icon": "icon/skill/1008_rank2.png",
       "materials": [{ "id": 11008, "num": 1 }],
@@ -270,19 +183,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Superação",
-        "en": "Power Through",
-        "zh-CN": "重剑强攻",
-        "ja": "{RUBY_B#じゅうけんきょうこう}重剣強攻{RUBY_E#}",
-        "ko": "강검 공격"
-      },
+      "name": { "en": "Power Through", "zh-CN": "重剑强攻" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1008_skill.png",
       "materials": [{ "id": 11008, "num": 1 }],
@@ -290,19 +194,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Virando o Jogo",
-        "en": "Turn the Tables",
-        "zh-CN": "绝处反击",
-        "ja": "{RUBY_B#ぜっきょう}絶境{RUBY_E#}の{RUBY_B#はんげき}反撃{RUBY_E#}",
-        "ko": "절체절명의 반격"
-      },
+      "name": { "en": "Turn the Tables", "zh-CN": "绝处反击" },
       "description": {
-        "pt-BR": "Ao ser atingido por um golpe fatal depois de entrar em batalha, Arlan restaura seus PV igual a 25% de seus PV máximos ao invés de ser derrubado. Esse efeito é removido automaticamente após ser ativado uma vez ou depois que 2 rodada(s) tiverem passado.",
         "en": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed.",
-        "zh-CN": "进入战斗后，受到致命攻击时阿兰不会陷入无法战斗状态，并立即回复至自身生命上限的25%。该效果在触发1次后或持续2回合后自动解除。",
-        "ja": "戦闘に入った後、アーランはHPが0になる攻撃を受けても戦闘不能状態にならず、HPを25%まで回復する。この効果は1回発動した後、または2ターン以降に自動解除される。",
-        "ko": "전투 진입 후 치명적인 공격을 받아도 아를란은 전투 불능 상태에 빠지지 않으며, 즉시 자신 HP 최대치의 25%까지 회복한다. 해당 효과는 1회 발동 후 또는 2턴 지속 후 자동으로 해제된다"
+        "zh-CN": "进入战斗后，受到致命攻击时阿兰不会陷入无法战斗状态，并立即回复至自身生命上限的25%。该效果在触发1次后或持续2回合后自动解除。"
       },
       "icon": "icon/skill/1008_rank4.png",
       "materials": [{ "id": 11008, "num": 1 }],
@@ -310,19 +205,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Fogo da Forja",
-        "en": "Hammer and Tongs",
-        "zh-CN": "全力倾注",
-        "ja": "{RUBY_B#ぜんりょくけいちゅう}全力傾注{RUBY_E#}",
-        "ko": "전력투구"
-      },
+      "name": { "en": "Hammer and Tongs", "zh-CN": "全力倾注" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1008_ultimate.png",
       "materials": [{ "id": 11008, "num": 1 }],
@@ -330,19 +216,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Autossacrifício",
-        "en": "Self-Sacrifice",
-        "zh-CN": "以身作引",
-        "ja": "{RUBY_B#けんしんてき}献身的{RUBY_E#}な{RUBY_B#せんどう}先導{RUBY_E#}",
-        "ko": "솔선수범"
-      },
+      "name": { "en": "Self-Sacrifice", "zh-CN": "以身作引" },
       "description": {
-        "pt-BR": "Quando a porcentagem atual de PV cai para 50% ou menos, a Perícia Suprema causa 20% a mais de Dano e o multiplicador de Dano para alvos adjacentes é elevado ao mesmo nível que o do alvo principal.",
         "en": "When the current HP percentage drops to 50% or below, Ultimate deals 20% more DMG, and the DMG multiplier for adjacent targets is raised to the same level as that for the primary target.",
-        "zh-CN": "当前生命值百分比小于等于50%时，终结技造成的伤害提高20%，且对相邻目标的伤害倍率提高到与主目标相同的伤害倍率。",
-        "ja": "残りHPが50%以下の時、必殺技によるダメージ+20%、隣接する敵に対するダメージ倍率がメインターゲットと同じになる。",
-        "ko": "현재 HP 백분율이 50% 이하일 경우 필살기가 가하는 피해가 20% 증가하며, 인접한 목표에 대한 피해 배율이 주목표와 같은 피해 배율로 증가한다"
+        "zh-CN": "当前生命值百分比小于等于50%时，终结技造成的伤害提高20%，且对相邻目标的伤害倍率提高到与主目标相同的伤害倍率。"
       },
       "icon": "icon/skill/1008_rank6.png",
       "materials": [{ "id": 11008, "num": 1 }],
@@ -702,19 +579,10 @@
     {
       "id": 1008101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Ressurgimento",
-        "en": "Revival",
-        "zh-CN": "苏生",
-        "ja": "{RUBY_B#そせい}蘇生{RUBY_E#}",
-        "ko": "소생"
-      },
+      "name": { "en": "Revival", "zh-CN": "苏生" },
       "description": {
-        "pt-BR": "Se a porcentagem atual dos PV for igual ou inferior a #1[i]% ao derrotar um inimigo, recupera imediatamente PV igual a #2[i]% dos PV máximos.",
         "en": "If the current HP percentage is #1[i]% or lower when defeating an enemy, immediately restores HP equal to #2[i]% of Max HP.",
-        "zh-CN": "消灭敌方目标时，若当前生命值百分比小于等于#1[i]%，则立即回复等同于自身生命上限#2[i]%的生命值。",
-        "ja": "敵を倒した時、残りHPが#1[i]%以下の場合、自身の最大HP#2[i]%分のHPを回復する。",
-        "ko": "적 처치 시 현재 HP 백분율이 #1[i]% 이하일 경우, 자신 HP 최대치 #2[i]%만큼의 HP를 즉시 회복한다"
+        "zh-CN": "消灭敌方目标时，若当前生命值百分比小于等于#1[i]%，则立即回复等同于自身生命上限#2[i]%的生命值。"
       },
       "params": [[0.3, 0.2]],
       "icon": "icon/skill/1008_skilltree1.png",
@@ -733,19 +601,10 @@
     {
       "id": 1008102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Resistência",
-        "en": "Endurance",
-        "zh-CN": "坚忍",
-        "ja": "{RUBY_B#けんにん}堅忍{RUBY_E#}",
-        "ko": "인내"
-      },
+      "name": { "en": "Endurance", "zh-CN": "坚忍" },
       "description": {
-        "pt-BR": "A chance de resistir a penalidades de Dano Contínuo aumenta em #1[i]%.",
         "en": "The chance to resist DoT Debuffs increases by #1[i]%.",
-        "zh-CN": "抵抗持续伤害类负面状态的概率提高#1[i]%。",
-        "ja": "持続ダメージ系デバフに抵抗する確率+#1[i]%。",
-        "ko": "지속 피해류 디버프 상태 저항 확률이 #1[i]% 증가한다"
+        "zh-CN": "抵抗持续伤害类负面状态的概率提高#1[i]%。"
       },
       "params": [[0.5]],
       "icon": "icon/skill/1008_skilltree2.png",
@@ -769,19 +628,10 @@
     {
       "id": 1008103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Repulsa",
-        "en": "Repel",
-        "zh-CN": "抗御",
-        "ja": "{RUBY_B#こうきょ}抗拒{RUBY_E#}",
-        "ko": "방어 저항"
-      },
+      "name": { "en": "Repel", "zh-CN": "抗御" },
       "description": {
-        "pt-BR": "Ao entrar na batalha, se a porcentagem dos PV de Arlan forem iguais ou inferiores a #1[i]%, ele pode anular todo o Dano recebido até ser atacado, exceto por fontes de Dano Contínuo.",
         "en": "Upon entering battle, if Arlan's HP percentage is less than or equal to #1[i]%, he can nullify all DMG received except for DoTs until he is attacked.",
-        "zh-CN": "进入战斗时，若当前生命值百分比小于等于#1[i]%，阿兰可以抵抗除持续伤害外的所有伤害。当阿兰受到攻击后，该效果解除。",
-        "ja": "戦闘に入る時、残りHPが#1[i]%以下の場合、アーランは持続ダメージ以外のすべてのダメージを防ぐ。アーランが攻撃を受けた後、この効果は解除される。",
-        "ko": "전투 진입 시 현재 HP 백분율이 #1[i]% 이하일 경우, 아를란은 지속 피해를 제외한 모든 피해에 저항한다. 해당 효과는 아를란이 피격된 후 해제된다"
+        "zh-CN": "进入战斗时，若当前生命值百分比小于等于#1[i]%，阿兰可以抵抗除持续伤害外的所有伤害。当阿兰受到攻击后，该效果解除。"
       },
       "params": [[0.5]],
       "icon": "icon/skill/1008_skilltree3.png",
@@ -805,7 +655,7 @@
     {
       "id": 1008201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -822,13 +672,7 @@
     {
       "id": 1008202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1008101],
@@ -845,7 +689,7 @@
     {
       "id": 1008203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1008202],
@@ -862,7 +706,7 @@
     {
       "id": 1008204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1008203],
@@ -879,7 +723,7 @@
     {
       "id": 1008205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1008102],
@@ -896,13 +740,7 @@
     {
       "id": 1008206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1008205],
@@ -919,7 +757,7 @@
     {
       "id": 1008207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1008206],
@@ -936,7 +774,7 @@
     {
       "id": 1008208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1008103],
@@ -953,13 +791,7 @@
     {
       "id": 1008209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1008208],
@@ -976,7 +808,7 @@
     {
       "id": 1008210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1008208],

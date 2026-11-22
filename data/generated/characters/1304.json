@@ -1,7 +1,7 @@
 {
   "id": 1304,
   "slug": "aventurine",
-  "name": { "pt-BR": "Aventurine", "en": "Aventurine", "zh-CN": "砂金", "ja": "アベンチュリン", "ko": "어벤츄린" },
+  "name": { "en": "Aventurine", "zh-CN": "砂金" },
   "rarity": 5,
   "path": "Preservation",
   "element": "Imaginary",
@@ -11,49 +11,28 @@
     {
       "id": 130401,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Aposta Direta",
-        "en": "Straight Bet",
-        "zh-CN": "直观投注",
-        "ja": "ストレートべット",
-        "ko": "직관적 베팅"
-      },
+      "name": { "en": "Straight Bet", "zh-CN": "直观投注" },
       "description": {
-        "pt-BR": "Causa Dano Imaginário igual a #1[i]% da DEF de Aventurine a um único inimigo-alvo.",
         "en": "Deals Imaginary DMG equal to #1[i]% of Aventurine's DEF to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于砂金#1[i]%防御力的虚数属性伤害。",
-        "ja": "指定した敵単体にアベンチュリンの防御力#1[i]%分の虚数属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 어벤츄린 방어력의 #1[i]%만큼 허수 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于砂金#1[i]%防御力的虚数属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1304_basic_atk.png",
       "maxLevel": 10,
       "summary": {
-        "pt-BR": "Causa Dano Imaginário leve a um único inimigo-alvo.",
         "en": "Deals minor Imaginary DMG to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成少量虚数属性伤害。",
-        "ja": "指定した敵単体に少量の虚数属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 소량의 허수 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成少量虚数属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 130402,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Alicerce de Luxo",
-        "en": "Cornerstone Deluxe",
-        "zh-CN": "繁荣基石",
-        "ja": "繁栄の基石",
-        "ko": "번영의 초석"
-      },
+      "name": { "en": "Cornerstone Deluxe", "zh-CN": "繁荣基石" },
       "description": {
-        "pt-BR": "Fornece um Escudo de Aposta Fortificada que pode bloquear Dano igual a #1[f1]% da DEF de Aventurine + #2[i] para todos os aliados por #3[i] rodada(s). Ao ganhar Aposta Fortificada repetidamente, o efeito de Escudo pode se acumular, até #4[i]% do efeito de Escudo atual fornecido pela Perícia.",
         "en": "Provides all allies with a Fortified Wager shield that can block DMG equal to #1[f1]% of Aventurine's DEF plus #2[i], lasting for #3[i] turn(s). When Fortified Wager is gained repeatedly, the Shield Effect can stack, up to #4[i]% of the current Shield Effect provided by the Skill.",
-        "zh-CN": "为我方全体提供能够抵消等同于砂金#1[f1]%防御力+#2[i]伤害的护盾【坚垣筹码】，持续#3[i]回合。重复获得【坚垣筹码】时，护盾量可以叠加，最高不超过当前战技提供的护盾量的#4[i]%。",
-        "ja": "味方全体にアベンチュリンの防御力#1[f1]%+#2[i]の耐久値を持つ「堅固なチップ」バリアを付与する、#3[i]ターン継続。「堅固なチップ」を重複して獲得する時、バリア耐久値は累積される。「堅固なチップ」の耐久値は、戦闘スキルが付与できるバリア耐久値の#4[i]%を超えない。",
-        "ko": "모든 아군에게 어벤츄린 방어력의 #1[f1]%+#2[i]만큼 피해를 상쇄할 수 있는 실드 [견고한 칩]을 제공한다. 지속 시간: #3[i]턴. [견고한 칩]을 중복 획득 시 실드량은 중첩되며, 현재 전투 스킬이 제공하는 실드량의 #4[i]%를 초과하지 않는다"
+        "zh-CN": "为我方全体提供能够抵消等同于砂金#1[f1]%防御力+#2[i]伤害的护盾【坚垣筹码】，持续#3[i]回合。重复获得【坚垣筹码】时，护盾量可以叠加，最高不超过当前战技提供的护盾量的#4[i]%。"
       },
       "params": [
         [0.16, 80, 3, 2],
@@ -75,31 +54,19 @@
       "icon": "icon/skill/1304_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Fornece um escudo de Aposta Fortificada para todos os aliados, cujo efeito de Escudo é acumulável.",
         "en": "Provides all allies with a Fortified Wager shield, whose Shield Effect is stackable.",
-        "zh-CN": "为我方全体提供可叠加护盾量的护盾【坚垣筹码】。",
-        "ja": "味方全体に耐久値を累積できる「堅固なチップ」バリアを付与する。",
-        "ko": "모든 아군에게 실드량이 중첩 가능한 실드 [견고한 칩]을 제공한다"
+        "zh-CN": "为我方全体提供可叠加护盾量的护盾【坚垣筹码】。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Defense", "zh-CN": "防御" }
     },
     {
       "id": 130403,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Tubarão das Apostas",
-        "en": "Roulette Shark",
-        "zh-CN": "轮盘勋爵",
-        "ja": "ロード・オブ・ルーレット",
-        "ko": "룰렛 샤크"
-      },
+      "name": { "en": "Roulette Shark", "zh-CN": "轮盘勋爵" },
       "description": {
-        "pt-BR": "Recebe aleatoriamente de 1 a #1[i] pontos de Aposta Cega e inflige Perturbação a um único inimigo, durando por #4[i] rodada(s). Causa Dano Imaginário igual a #2[i]% da DEF de Aventurine a um único inimigo-alvo. Quando um aliado atinge um inimigo-alvo com Perturbação, o Dano CRIT causado aumenta em #3[f1]%.",
         "en": "Randomly gains 1 to #1[i] points of \"Blind Bet.\" Then, inflicts \"Unnerved\" on one designated enemy target for #4[i] turn(s) and deals Imaginary DMG equal to #2[i]% of Aventurine's DEF to that enemy target. When an ally hits an \"Unnerved\" enemy target, the CRIT DMG dealt increases by #3[f1]%.",
-        "zh-CN": "随机获得1到#1[i]点【盲注】，随后使指定敌方单体陷入【惊惶】状态，持续#4[i]回合，并对指定敌方单体造成等同于砂金#2[i]%防御力的虚数属性伤害。我方目标击中【惊惶】状态下的敌方目标时，造成的暴击伤害提高#3[f1]%。",
-        "ja": "ランダムで「ブラインドベット」を1～#1[i]獲得し、指定した敵単体を「動揺」状態にする、#4[i]ターン継続。指定した敵単体にアベンチュリンの防御力#2[i]%分の虚数属性ダメージを与える。味方の攻撃が「動揺」状態の敵に命中する時、会心ダメージ+#3[f1]%。",
-        "ko": "랜덤으로 [블라인드 베팅] 1~#1[i]pt를 획득하고, 지정된 단일 적을 [당황] 상태에 빠트린다. 지속 시간: #4[i]턴. 또한, 지정된 단일 적에게 어벤츄린 방어력의 #2[i]%만큼 허수 속성 피해를 가한다. 아군이 [당황] 상태의 적 명중 시 가하는 치명타 피해가 #3[f1]% 증가한다"
+        "zh-CN": "随机获得1到#1[i]点【盲注】，随后使指定敌方单体陷入【惊惶】状态，持续#4[i]回合，并对指定敌方单体造成等同于砂金#2[i]%防御力的虚数属性伤害。我方目标击中【惊惶】状态下的敌方目标时，造成的暴击伤害提高#3[f1]%。"
       },
       "params": [
         [7, 1.62, 0.09, 3],
@@ -121,31 +88,19 @@
       "icon": "icon/skill/1304_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Ganha um número aleatório de pontos na Aposta Cega e inflige Perturbação em um único inimigo, causando Dano Imaginário. Quando um aliado golpeia um inimigo com Perturbação, aumenta o Dano CRIT causado.",
         "en": "Gains a random amount of \"Blind Bet\" points and inflicts \"Unnerved \"on one enemy, dealing Imaginary DMG. When an ally target hits an \"Unnerved\" enemy, the CRIT DMG dealt increases.",
-        "zh-CN": "随机获得【盲注】，使敌方单体陷入【惊惶】状态，并对目标造成虚数属性伤害，我方目标击中【惊惶】状态下的敌方目标时，造成的暴击伤害提高。",
-        "ja": "ランダムで「ブラインドベット」を獲得し、敵単体を「動揺」状態にして、その敵に虚数属性ダメージを与える。味方が「動揺」状態の敵を攻撃した時、与える会心ダメージがアップする。",
-        "ko": "랜덤으로 [블라인드 베팅]을 획득하고 단일 적을 [당황] 상태에 빠트리며, 목표에게 허수 속성 피해를 가한다. 아군이 [당황] 상태의 적을 명중하면 가하는 치명타 피해가 증가한다"
+        "zh-CN": "随机获得【盲注】，使敌方单体陷入【惊惶】状态，并对目标造成虚数属性伤害，我方目标击中【惊惶】状态下的敌方目标时，造成的暴击伤害提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 130404,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Bem na Mira",
-        "en": "Shot Loaded Right",
-        "zh-CN": "枪口以右",
-        "ja": "銃口の右には…",
-        "ko": "우측에 장전된 총알"
-      },
+      "name": { "en": "Shot Loaded Right", "zh-CN": "枪口以右" },
       "description": {
-        "pt-BR": "Para qualquer único aliado com Aposta Fortificada, sua RES a Efeito aumenta em #4[f1]%, e quando eles são atacados, Aventurine ganha 1 ponto de Aposta Cega. Quando Aventurine tem Aposta Fortificada, ele pode resistir a penalidades de Controle Negativo. Esse efeito pode ser ativado novamente após #5[i] rodada(s). Aventurine adicionalmente ganha #1[i] ponto(s) de Aposta Cega após ser atacado. Ao alcançar 7 pontos de Aposta Cega, Aventurine consome os 7 pontos para lançar um Ataque Extra de #2[i] golpes, com cada golpe causando Dano Imaginário equivalente a #3[i]% da DEF de Aventurine a um único inimigo aleatório. Aposta Cega tem um limite máximo de 10 pontos.",
         "en": "For any single ally with \"Fortified Wager,\" their Effect RES increases by #4[f1]%, and when they get attacked, Aventurine gains 1 point of \"Blind Bet.\" When Aventurine has \"Fortified Wager,\" he can resist Crowd Control debuffs. This effect can trigger again after #5[i] turn(s). Aventurine additionally gains #1[i] point(s) of \"Blind Bet\" after getting attacked. Upon reaching 7 points of \"Blind Bet,\" Aventurine consumes the 7 points to launch a #2[i]-hit Follow-Up ATK, with each hit dealing Imaginary DMG equal to #3[i]% of Aventurine's DEF to one random enemy. \"Blind Bet\" is capped at 10 points.",
-        "zh-CN": "持有【坚垣筹码】的我方单体效果抵抗提高#4[f1]%，并在受到攻击后，使砂金获得1点【盲注】，砂金持有【坚垣筹码】时能抵抗控制类负面状态，该效果在#5[i]回合后可再次触发，并在受到攻击后额外获得#1[i]点【盲注】。【盲注】达到7点后，砂金消耗7点充能发动#2[i]段追加攻击，每段攻击对随机敌方单体造成等同于砂金#3[i]%防御力的虚数属性伤害，【盲注】上限10点。",
-        "ja": "「堅固なチップ」を持つ味方単体の効果抵抗+#4[f1]%、攻撃を受けた後にアベンチュリンの「ブラインドベット」+1。\nアベンチュリンに「堅固なチップ」がある時、行動制限系デバフに1回抵抗できる。この効果は#5[i]ターン後に再度発動できる。また、アベンチュリンが攻撃を受けた後、さらに「ブラインドベット」+#1[i]。\n「ブラインドベット」が7に到達した後、アベンチュリンは「ブラインドベット」を7消費して#2[i]段の追加攻撃を行い、1段の攻撃につき、ランダムな敵単体にアベンチュリンの防御力#3[i]%分の虚数属性ダメージを与える。「ブラインドベット」の上限は10。",
-        "ko": "[견고한 칩]을 보유한 단일 아군의 효과 저항이 #4[f1]% 증가한다. 해당 아군이 피격되면 어벤츄린은 [블라인드 베팅]을 1pt 획득한다. 어벤츄린은 [견고한 칩] 보유 시 제어류 디버프 상태에 저항할 수 있다. 해당 효과는 #5[i]턴 후 다시 발동할 수 있으며, 피격 후 추가로 [블라인드 베팅]을 #1[i]pt 획득한다. [블라인드 베팅]이 7pt를 도달하면 어벤츄린은 충전 포인트를 7pt 소모하여 #2[i]단 추가 공격을 발동하고, 공격 단수마다 랜덤 단일 적에게 어벤츄린 방어력의 #3[i]%만큼 허수 속성 피해를 가한다. [블라인드 베팅] 최대치: 10pt"
+        "zh-CN": "持有【坚垣筹码】的我方单体效果抵抗提高#4[f1]%，并在受到攻击后，使砂金获得1点【盲注】，砂金持有【坚垣筹码】时能抵抗控制类负面状态，该效果在#5[i]回合后可再次触发，并在受到攻击后额外获得#1[i]点【盲注】。【盲注】达到7点后，砂金消耗7点充能发动#2[i]段追加攻击，每段攻击对随机敌方单体造成等同于砂金#3[i]%防御力的虚数属性伤害，【盲注】上限10点。"
       },
       "params": [
         [1, 7, 0.125, 0.25, 2],
@@ -167,83 +122,53 @@
       "icon": "icon/skill/1304_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Para qualquer único aliado com Aposta Fortificada, sua RES a Efeito aumenta e, quando ele é atacado, Aventurine acumula Aposta Cega. Quando Aventurine possui Aposta Fortificada, ele pode resistir a penalidades de Controle Negativo. Ao alcançar 7 pontos de Aposta Cega, Aventurine consome os 7 pontos para realizar um Ataque Extra que causa Dano Imaginário leve a inimigos aleatórios, ricocheteando um total de 7 vezes.",
         "en": "For any single ally with \"Fortified Wager,\" their Effect RES increases, and when they get attacked, Aventurine accumulates \"Blind Bet.\" When Aventurine has \"Fortified Wager,\" he can resist Crowd Control debuffs. Upon reaching 7 points of \"Blind Bet,\" Aventurine consumes the 7 points to launch a Follow-Up ATK that deals minor Imaginary DMG to random single enemy targets, bouncing a total of 7 times.",
-        "zh-CN": "持有【坚垣筹码】的我方单体效果抵抗提高，并在受到攻击时，为砂金积攒【盲注】，砂金持有【坚垣筹码】时能抵抗控制类负面状态。【盲注】达到7点后，砂金会消耗7点【盲注】发动追加攻击，对随机敌方单体造成少量虚数属性伤害，共弹射7次。",
-        "ja": "「堅固なチップ」を持つ味方単体の効果抵抗がアップし、攻撃を受けた後にアベンチュリンの「ブラインドベット」がアップする。アベンチュリンに「堅固なチップ」がある時、行動制限系デバフに抵抗できる。「ブラインドベット」が7に到達した後、アベンチュリンは「ブラインドベット」を7消費して追加攻撃を行い、ランダムな敵単体に少量の虚数属性ダメージを与える、7回バウンドする。",
-        "ko": "[견고한 칩]을 보유한 단일 아군의 효과 저항이 증가하고, 피격 시 어벤츄린에게 [블라인드 베팅]을 쌓는다. 어벤츄린은 [견고한 칩] 보유 시 제어류 디버프 상태에 저항할 수 있다. [블라인드 베팅]이 7pt를 도달하면 어벤츄린은 [블라인드 베팅] 7pt를 소모하여 추가 공격을 발동해 랜덤 단일 적에게 소량의 허수 속성 피해를 가하고, 총 7회 바운스한다"
+        "zh-CN": "持有【坚垣筹码】的我方单体效果抵抗提高，并在受到攻击时，为砂金积攒【盲注】，砂金持有【坚垣筹码】时能抵抗控制类负面状态。【盲注】达到7点后，砂金会消耗7点【盲注】发动追加攻击，对随机敌方单体造成少量虚数属性伤害，共弹射7次。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Bounce", "zh-CN": "弹射" }
     },
     {
       "id": 130406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1304_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 130407,
       "type": "Technique",
-      "name": {
-        "pt-BR": "O Vermelho ou o Preto",
-        "en": "The Red or the Black",
-        "zh-CN": "红黑之间",
-        "ja": "赤と黒の狭間で",
-        "ko": "빨강과 검정 사이"
-      },
+      "name": { "en": "The Red or the Black", "zh-CN": "红黑之间" },
       "description": {
-        "pt-BR": "Depois de usar a Técnica, 1 dos seguintes efeitos será concedido:\nExiste uma chance de aumentar a DEF em #1[i]%.\nExiste uma chance alta de aumentar a DEF em #2[i]%.\nExiste uma chance pequena de aumentar a DEF em #3[i]%.\nQuando essa Técnica for usada várias vezes, só o último efeito adquirido com o maior valor de melhoria será mantido.\nQuando a próxima batalha começar, aumenta a DEF de todos os aliados pelo valor correspondente, durando por #4[i] rodada(s).",
         "en": "After using the Technique, 1 of the following effects will be granted:\nThere is a chance for DEF to increase by #1[i]%.\nThere is a high chance for DEF to increase by #2[i]%.\nThere is a small chance for DEF to increase by #3[i]%.\nWhen this Technique is used repeatedly, the acquired effect with the highest buff value is retained.\nWhen the next battle starts, increases all allies' DEF by the corresponding value, lasting for #4[i] turn(s).",
-        "zh-CN": "使用秘技后获得以下1种效果：\n一定概率获得防御力提高#1[i]%；\n大概率获得防御力提高#2[i]%；\n小概率获得防御力提高#3[i]%。\n重复使用时保留数值最高的效果。\n下一次战斗开始时，使我方全体提高对应数值的防御力，持续#4[i]回合。",
-        "ja": "秘技を使用すると以下の効果の中からランダムで1つ獲得する：\n確率で防御力+#1[i]%。\n高確率で防御力+#2[i]%。\n低確率で防御力+#3[i]%。\n繰り返し使用した時、獲得した最高数値の効果のみ保留される。\n次の戦闘開始時、味方全体の防御力を対応する数値分アップさせる、#4[i]ターン継続。",
-        "ko": "비술 발동 후 다음 효과 중 1개를 획득한다. \n일정 확률로 방어력 #1[i]% 증가\n높은 확률로 방어력 #2[i]% 증가\n낮은 확률로 방어력 #3[i]% 증가\n중복 사용 시 수치가 가장 높은 효과가 유지된다.\n다음 전투 시작 시 모든 아군의 방어력이 대응하는 수치만큼 증가한다. 지속 시간: #4[i]턴"
+        "zh-CN": "使用秘技后获得以下1种效果：\n一定概率获得防御力提高#1[i]%；\n大概率获得防御力提高#2[i]%；\n小概率获得防御力提高#3[i]%。\n重复使用时保留数值最高的效果。\n下一次战斗开始时，使我方全体提高对应数值的防御力，持续#4[i]回合。"
       },
       "params": [[0.24, 0.36, 0.6, 3]],
       "icon": "icon/skill/1304_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Usar a Técnica concederá 1 de 3 tipos de efeitos de Bônus de DEF de diferentes valores de melhoria aleatoriamente. Depois de entrar na próxima batalha, a DEF de todos os aliados aumenta pelo valor correspondente.",
         "en": "Using the Technique randomly grants one out of the three DEF Boost effects with different buff values. After entering the next battle, increases all allies' DEF by the corresponding value.",
-        "zh-CN": "使用秘技，随机获得3种防御力提高效果中的1种，下一次进战后使我方全体提高对应数值的防御力。",
-        "ja": "秘技を使用すると、3種類の防御力アップ効果の中からランダムで1つ獲得する。次の戦闘開始時、味方全体の防御力を対応する数値分アップさせる。",
-        "ko": "비술을 발동하면 3가지 방어력 증가 효과 중 랜덤으로 1개를 획득한다. 다음 전투 진입 후 모든 아군의 방어력이 대응하는 수치만큼 증가한다"
+        "zh-CN": "使用秘技，随机获得3种防御力提高效果中的1种，下一次进战后使我方全体提高对应数值的防御力。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Defense", "zh-CN": "防御" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Dilema do Prisioneiro",
-        "en": "Prisoner's Dilemma",
-        "zh-CN": "囚徒博弈",
-        "ja": "{RUBY_B#しゅうじん}囚人{RUBY_E#}のジレンマ",
-        "ko": "죄수의 딜레마"
-      },
+      "name": { "en": "Prisoner's Dilemma", "zh-CN": "囚徒博弈" },
       "description": {
-        "pt-BR": "Aumenta o Dano CRIT dos aliados com Aposta Fortificada em 20%. Após utilizar a Perícia Suprema, fornece um Escudo de Aposta Fortificada para a equipe inteira, cujo efeito de Escudo é igual a 100% ao daquele fornecido pela Perícia, durando por 3 rodada(s).",
         "en": "Increases CRIT DMG by 20% for ally targets with Fortified Wager. After using the Ultimate, provides all allies with a Fortified Wager shield, whose Shield Effect is equal to 100% of the one provided by the Skill, lasting for 3 turn(s).",
-        "zh-CN": "持有【坚垣筹码】的我方目标暴击伤害提高20%。施放终结技后，为我方全体提供护盾【坚垣筹码】，护盾量等同于战技提供的护盾量的100%，持续3回合。",
-        "ja": "「堅固なチップ」を持つ味方の会心ダメージ+20%。必殺技を発動した後、味方全体に「堅固なチップ」バリアを付与する、3ターン継続。バリア耐久値は戦闘スキルで付与できるバリア耐久値の100%。",
-        "ko": "[견고한 칩]을 보유한 아군의 치명타 피해가 20% 증가한다. 필살기 발동 후 모든 아군에게 실드 [견고한 칩]을 제공한다. 실드량은 전투 스킬이 제공하는 실드량의 100%다. 지속 시간: 3턴"
+        "zh-CN": "持有【坚垣筹码】的我方目标暴击伤害提高20%。施放终结技后，为我方全体提供护盾【坚垣筹码】，护盾量等同于战技提供的护盾量的100%，持续3回合。"
       },
       "icon": "icon/skill/1304_rank1.png",
       "materials": [{ "id": 11304, "num": 1 }],
@@ -251,19 +176,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Racionalidade Limitada",
-        "en": "Bounded Rationality",
-        "zh-CN": "有限理性",
-        "ja": "{RUBY_B#げんていごうりせい}限定合理性{RUBY_E#}",
-        "ko": "제한된 합리성"
-      },
+      "name": { "en": "Bounded Rationality", "zh-CN": "有限理性" },
       "description": {
-        "pt-BR": "Ao usar o ATQ Básico, reduz a RES a Todos os Tipos do alvo em 12% por 3 rodada(s).",
         "en": "When using the Basic ATK, reduces the target's All-Type RES by 12% for 3 turn(s).",
-        "zh-CN": "施放普攻时使目标的全属性抗性降低12%，持续3回合。",
-        "ja": "通常攻撃を行う時、ターゲットの全属性耐性-12%、3ターン継続。",
-        "ko": "일반 공격 발동 시 목표의 모든 속성 저항이 12% 감소한다. 지속 시간: 3턴"
+        "zh-CN": "施放普攻时使目标的全属性抗性降低12%，持续3回合。"
       },
       "icon": "icon/skill/1304_rank2.png",
       "materials": [{ "id": 11304, "num": 1 }],
@@ -271,19 +187,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Taxa Máxima",
-        "en": "Droprate Maxing",
-        "zh-CN": "最高倍率",
-        "ja": "{RUBY_B#さいこうばいりつ}最高倍率{RUBY_E#}",
-        "ko": "최고 배당"
-      },
+      "name": { "en": "Droprate Maxing", "zh-CN": "最高倍率" },
       "description": {
-        "pt-BR": "Nv. de Perícia Suprema +2, até no máximo Nv. 15.\nNv. de ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1304_ultimate.png",
       "materials": [{ "id": 11304, "num": 1 }],
@@ -291,19 +198,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Paradoxo Suspenso Inesperado",
-        "en": "Unexpected Hanging Paradox",
-        "zh-CN": "意外绞刑",
-        "ja": "{RUBY_B#よき}予期{RUBY_E#}せぬ{RUBY_B#こうしゅけい}絞首刑{RUBY_E#}",
-        "ko": "사형수의 역설"
-      },
+      "name": { "en": "Unexpected Hanging Paradox", "zh-CN": "意外绞刑" },
       "description": {
-        "pt-BR": "Ao ativar os Ataques Extras do Talento dele, primeiro, a DEF de Aventurine aumenta em 40% por 2 rodada(s), e aumenta adicionalmente os Golpes por Ação do Ataque Extra ativados pelo seu Talento em 3.",
         "en": "When triggering his Talent's Follow-Up ATK, first increases Aventurine's DEF by 40% for 2 turn(s), and additionally increases the Hits Per Action for his talent's Follow-Up ATK by 3.",
-        "zh-CN": "触发天赋的追加攻击时，会先使砂金防御力提高40%，持续2回合，并使天赋的追加攻击额外增加3段攻击段数。",
-        "ja": "天賦の追加攻撃を発動する前にアベンチュリンの防御力+40%、2ターン継続。さらに天賦の追加攻撃の攻撃段数+3。",
-        "ko": "특성의 추가 공격 발동 시, 우선 어벤츄린의 방어력이 40% 증가한다, 지속 시간: 2턴. 또한, 특성 추가 공격의 공격 단수가 추가로 3단 증가한다"
+        "zh-CN": "触发天赋的追加攻击时，会先使砂金防御力提高40%，持续2回合，并使天赋的追加攻击额外增加3段攻击段数。"
       },
       "icon": "icon/skill/1304_rank4.png",
       "materials": [{ "id": 11304, "num": 1 }],
@@ -311,19 +209,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Aversão Ambígua",
-        "en": "Ambiguity Aversion",
-        "zh-CN": "模糊厌恶",
-        "ja": "{RUBY_B#あいまいせいきひ}曖昧性忌避{RUBY_E#}",
-        "ko": "모호성 회피"
-      },
+      "name": { "en": "Ambiguity Aversion", "zh-CN": "模糊厌恶" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1304_skill.png",
       "materials": [{ "id": 11304, "num": 1 }],
@@ -331,19 +220,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Caça ao Cervo",
-        "en": "Stag Hunt Game",
-        "zh-CN": "猎鹿游戏",
-        "ja": "スタグハントゲーム",
-        "ko": "사슴 사냥 게임"
-      },
+      "name": { "en": "Stag Hunt Game", "zh-CN": "猎鹿游戏" },
       "description": {
-        "pt-BR": "Para cada aliado com um Escudo, o Dano causado por Aventurine aumenta em 50%, até um máximo de 150%.",
         "en": "For every teammate that holds a Shield, the DMG dealt by Aventurine increases by 50%, up to a maximum of 150%.",
-        "zh-CN": "每有1个队友持有护盾，砂金造成的伤害提高50%，最高不超过150%。",
-        "ja": "バリアを持つ自身以外の味方1名につき、アベンチュリンの与ダメージ+50%、最大で+150%。",
-        "ko": "실드를 보유한 동료 1명마다 어벤츄린이 가하는 피해가 50% 증가하며, 최대 150%를 초과하지 않는다"
+        "zh-CN": "每有1个队友持有护盾，砂金造成的伤害提高50%，最高不超过150%。"
       },
       "icon": "icon/skill/1304_rank6.png",
       "materials": [{ "id": 11304, "num": 1 }],
@@ -718,13 +598,10 @@
     {
       "id": 1304101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Alavancamento", "en": "Leverage", "zh-CN": "杠杆", "ja": "レバレッジ", "ko": "레버리지" },
+      "name": { "en": "Leverage", "zh-CN": "杠杆" },
       "description": {
-        "pt-BR": "Para cada 100 de DEF de Aventurine que exceder #3[i], aumenta sua própria Chance de CRIT em #1[i]%, até um aumento máximo de #2[i]%.",
         "en": "For every 100 of Aventurine's DEF that exceeds #3[i], increases his own CRIT Rate by #1[i]%, up to a maximum increase of #2[i]%.",
-        "zh-CN": "若砂金的防御力高于#3[i]点，每超过100点防御力可使自身暴击率提高#1[i]%，最多提高#2[i]%。",
-        "ja": "アベンチュリンの防御力が#3[i]を超えた場合、超過した防御力100につき、自身の会心率+#1[i]%、最大で+#2[i]%。",
-        "ko": "어벤츄린의 방어력이 #3[i]pt보다 높으면 방어력이 100pt 초과할 때마다 자신의 치명타 확률이 #1[i]% 증가하며, 최대 #2[i]% 증가한다"
+        "zh-CN": "若砂金的防御力高于#3[i]点，每超过100点防御力可使自身暴击率提高#1[i]%，最多提高#2[i]%。"
       },
       "params": [[0.02, 0.48, 1600]],
       "icon": "icon/skill/1304_skilltree1.png",
@@ -743,13 +620,10 @@
     {
       "id": 1304102,
       "anchor": "Point07",
-      "name": { "pt-BR": "Mão Quente", "en": "Hot Hand", "zh-CN": "热手", "ja": "ホットハンド", "ko": "핫 핸드" },
+      "name": { "en": "Hot Hand", "zh-CN": "热手" },
       "description": {
-        "pt-BR": "Quando a batalha começa, concede um Escudo de Aposta Fortificada para todos os aliados, cujo efeito de Escudo é igual a #2[i]% do Escudo concedido pela Perícia, durando por #1[i] rodada(s).",
         "en": "When battle starts, grants all allies a Fortified Wager shield, whose Shield Effect is equal to #2[i]% of the one provided by the Skill, lasting for #1[i] turn(s).",
-        "zh-CN": "战斗开始时，为我方全体提供护盾【坚垣筹码】，护盾量等同于战技提供的护盾量的#2[i]%，持续#1[i]回合。",
-        "ja": "戦闘開始時、味方全体に「堅固なチップ」バリアを付与する、#1[i]ターン継続。バリア耐久値は戦闘スキルで付与できるバリア耐久値の#2[i]%。",
-        "ko": "전투 시작 시 모든 아군에게 실드 [견고한 칩]을 제공한다. 실드량은 전투 스킬이 제공하는 실드량의 #2[i]%다. 지속 시간: #1[i]턴"
+        "zh-CN": "战斗开始时，为我方全体提供护盾【坚垣筹码】，护盾量等同于战技提供的护盾量的#2[i]%，持续#1[i]回合。"
       },
       "params": [[3, 1]],
       "icon": "icon/skill/1304_skilltree2.png",
@@ -773,13 +647,10 @@
     {
       "id": 1304103,
       "anchor": "Point08",
-      "name": { "pt-BR": "Bingo!", "en": "Bingo!", "zh-CN": "宾果！", "ja": "ビンゴ！", "ko": "빙고!" },
+      "name": { "en": "Bingo!", "zh-CN": "宾果！" },
       "description": {
-        "pt-BR": "Aventurine acumula 1 ponto de \"Aposta Cega\" depois que um aliado com \"Aposta Fortificada\" realiza um Ataque Extra. Este efeito pode ser ativado um máximo de #3[i] vez(es). A contagem de ativação deste efeito é reiniciada no início da rodada de Aventurine. Depois que Aventurine realiza um Ataque Extra do seu Talento, fornece \"Aposta Fortificada\" para todos os aliados, que pode bloquear Dano igual a #1[i]% da DEF de Aventurine + #2[i], e fornece adicionalmente \"Aposta Fortificada\" que pode bloquear Dano igual a #4[i]% da DEF de Aventurine + #5[i] ao aliado com o efeito de Escudo mais baixo no momento, durando por 3 rodadas.",
         "en": "After a teammate with \"Fortified Wager\" launches Follow-Up ATK, Aventurine accumulates 1 \"Blind Bet\" point. This effect can trigger up to #3[i] time(s). Its trigger count resets at the start of Aventurine's turn. After Aventurine launches his Talent's Follow-Up ATK, provides all ally targets with a \"Fortified Wager\" that can offset DMG equal to #1[i]% of Aventurine's DEF plus #2[i], and additionally grants a \"Fortified Wager\" that can block DMG equal to #4[i]% of Aventurine's DEF plus #5[i] to the ally with the lowest Shield Effect, lasting for 3 turns.",
-        "zh-CN": "持有【坚垣筹码】的队友发动追加攻击后，为砂金积攒1点【盲注】，该效果最多触发#3[i]次，当砂金回合开始时，重置该效果触发次数。砂金在发动天赋的追加攻击后，为我方全体提供能够抵消等同于砂金#1[i]%防御力+#2[i]伤害的【坚垣筹码】，并为护盾值最低的我方目标额外提供能够抵消等同于砂金#4[i]%防御力+#5[i]伤害的【坚垣筹码】，持续3回合。",
-        "ja": "「堅固なチップ」を持つ自身以外の味方が追加攻撃を行った後、アベンチュリンは「ブラインドベット」を1獲得する。この効果は最大で#3[i]回発動できる。アベンチュリンのターンが回ってきた時に、この効果の発動可能回数がリセットされる。\nアベンチュリンが天賦の追加攻撃を行った後、味方全体にアベンチュリンの防御力#1[i]%+#2[i]の耐久値を持つ「堅固なチップ」を付与し、さらにバリア耐久値が最も低い味方にアベンチュリンの防御力#4[i]%+#5[i]の耐久値を持つ「堅固なチップ」を付与する、3ターン継続。",
-        "ko": "[견고한 칩]을 보유한 동료가 추가 공격을 발동하면 어벤츄린은 [블라인드 베팅]을 1pt 누적한다. 해당 효과 최대 발동수: #3[i]회. 어벤츄린의 턴이 시작될 때, 해당 효과 발동 횟수는 초기화된다. 어벤츄린은 특성의 추가 공격 발동 후, 모든 아군에게 어벤츄린 방어력의 #1[i]%+#2[i]만큼 피해를 상쇄할 수 있는 [견고한 칩]을 제공하고, 실드량이 가장 낮은 아군에게 추가로 어벤츄린 방어력의 #4[i]%+#5[i]만큼 피해를 상쇄할 수 있는 [견고한 칩]을 제공한다. 지속 시간: 3턴"
+        "zh-CN": "持有【坚垣筹码】的队友发动追加攻击后，为砂金积攒1点【盲注】，该效果最多触发#3[i]次，当砂金回合开始时，重置该效果触发次数。砂金在发动天赋的追加攻击后，为我方全体提供能够抵消等同于砂金#1[i]%防御力+#2[i]伤害的【坚垣筹码】，并为护盾值最低的我方目标额外提供能够抵消等同于砂金#4[i]%防御力+#5[i]伤害的【坚垣筹码】，持续3回合。"
       },
       "params": [[0.072, 96, 3, 0.072, 96]],
       "icon": "icon/skill/1304_skilltree3.png",
@@ -803,7 +674,7 @@
     {
       "id": 1304201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -820,13 +691,7 @@
     {
       "id": 1304202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano: Imaginário",
-        "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
-        "ja": "ダメージ強化・虚数",
-        "ko": "피해 강화•허수"
-      },
+      "name": { "en": "DMG Boost: Imaginary", "zh-CN": "伤害强化•虚数" },
       "icon": "icon/property/IconImaginaryAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1304101],
@@ -843,7 +708,7 @@
     {
       "id": 1304203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1304202],
@@ -860,13 +725,7 @@
     {
       "id": 1304204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -883,7 +742,7 @@
     {
       "id": 1304205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1304102],
@@ -900,13 +759,7 @@
     {
       "id": 1304206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano: Imaginário",
-        "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
-        "ja": "ダメージ強化・虚数",
-        "ko": "피해 강화•허수"
-      },
+      "name": { "en": "DMG Boost: Imaginary", "zh-CN": "伤害强化•虚数" },
       "icon": "icon/property/IconImaginaryAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1304205],
@@ -923,7 +776,7 @@
     {
       "id": 1304207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -940,13 +793,7 @@
     {
       "id": 1304208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1304103],
@@ -963,13 +810,7 @@
     {
       "id": 1304209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano: Imaginário",
-        "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
-        "ja": "ダメージ強化・虚数",
-        "ko": "피해 강화•허수"
-      },
+      "name": { "en": "DMG Boost: Imaginary", "zh-CN": "伤害强化•虚数" },
       "icon": "icon/property/IconImaginaryAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1304208],
@@ -986,7 +827,7 @@
     {
       "id": 1304210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1304208],

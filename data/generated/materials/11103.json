@@ -1,13 +1,7 @@
 {
   "id": 11103,
   "slug": "servals-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Serval",
-    "en": "Serval's Eidolon",
-    "zh-CN": "【希露瓦】的星魂",
-    "ja": "「セーバル」の星魂",
-    "ko": "[서벌]의 성혼"
-  },
+  "name": { "en": "Serval's Eidolon", "zh-CN": "【希露瓦】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

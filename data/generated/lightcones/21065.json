@@ -1,32 +1,20 @@
 {
   "id": 21065,
   "slug": "todays-good-luck",
-  "name": {
-    "pt-BR": "Boa Sorte de Hoje",
-    "en": "Today's Good Luck",
-    "zh-CN": "今日好手气",
-    "ja": "今日は好運",
-    "ko": "오늘의 행운"
-  },
+  "name": { "en": "Today's Good Luck", "zh-CN": "今日好手气" },
   "rarity": 4,
   "path": "Elation",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"Minha querida caloura, você tem certeza absoluta?\"\n\"Hunf, sem dúvida!\"\n\"Dessa vez, a aposta é mais do que apenas um frasco de creme para as mãos.\"\n\"Um jogo tão fácil... o que poderia dar errado?\"\nA garota de cabelo rosa se afastou, recusando-se a se incomodar mais.\n\"Pela maneira como as folhas de chá flutuam, você deveria jogar essa carta.\"\nA garota comprou muitas cartas e as virou.\n\"Ah, minha sorte está mudando.\"\n\"Mais uma vez... isso não pode estar acontecendo...\"\n...\nA garota perdeu a conta de quantos jogos de adivinhação jogou com sua veterana, lembrando-se apenas de como a sua veterana sempre estava disposta a jogar de novo e de novo com ela.\nMais tarde, a garota quis fugir do destino profetizado e, apesar da oposição, dirigiu-se à Comissão de Divinação do Luofu.\nAo chegar no Luofu, ela, de maneira inesperada, encontrou um delicado marcador de divinação entre as páginas de uma folha de divinação. A caligrafia familiar fez a garota estrangeira derramar lágrimas:\n\"Quem disse que o destino não tem uma segunda chance? Aqui está meu amuleto da sorte para você!\"",
     "en": "\"My dear junior soror, are you absolutely certain?\"\n\"Hmph, without a doubt!\"\n\"The stakes are higher than just a bottle of hand cream this time.\"\n\"Such an easy game... what could possibly go wrong?\"\nThe pink-haired girl turned away, refusing to be bothered further.\n\"Judging by the way the tea leaves float, you should play that card.\"\nThe girl drew a lot and turned it over.\n\"Ah, my luck is turning around.\"\n\"One more time, this can't be possible...\"\n...\nThe girl forgot how many divination games she played with her senior soror, only remembering how her senior was always willing to play again and again with her.\nLater, the girl wanted to escape from the prophesied fate, and despite opposition, she went to the Luofu Divination Commission.\nUpon arriving at the Luofu, she suddenly discovered an exquisite divination bookmark between the pages of a divination folio. The familiar handwriting made the outland girl tear up:\n\"Who says destiny doesn't have a second chance? Here's my lucky charm for you~\"",
-    "zh-CN": "「师妹，你确信无疑？」\n「哼，绝无错漏！」\n「这次的赌注可不止一瓶护手霜哦。」\n「如此简单的游戏…岂会有变数？」\n粉发女孩转过身，拒绝再受其扰。\n「以茶叶浮沉的迹象来看，师妹你该出那张才是。」\n少女抽签，反转出示——\n「呀，我的好手气来了。」\n「再来再来，这绝对不可能……」\n……\n女孩忘了和师姐玩过多少占卜游戏，只记得师姐总愿意陪她重来。\n后来，女孩想要逃离命定的预言，不顾阻挠，去往了罗浮太卜司。\n初到罗浮，她忽然从卜书的夹缝中发现一枚精致的符签，熟悉的笔迹让在异乡的女孩红了眼眶：\n「谁说命运没有第二种可能？我的转运符，送给你咯~」",
-    "ja": "「へえ、本当にそれでいいの？」\n「フン、絶対に間違いないわ！」\n「今回の賭けは、手用軟膏1本だけじゃないからね」\n「こんな単純な遊びに…変数があるわけないもの」\n桃色の髪の少女は顔を背け、それ以上惑わされないようにした。\n「茶柱の立ち具合から察するに、君はあれを出すべきだと思うけど」\n女性は札を引き、裏返した——\n「あら、ツキが回ってきたみたい」\n「もう1回！こんなのあり得ない……」\n……\n少女は姉弟子とどれほどの回数、占い遊びをしたか忘れてしまった。ただ覚えているのは、姉弟子がいつも「もう1回」に付き合ってくれたことだけ。\nその後、定められた予言から逃れようと、少女は反対を押し切って羅浮の太卜司に入った。\n羅浮に着いたばかりの頃、彼女は本に1枚の綺麗なくじ札が挟まっているのを見つけた。異郷の地で目にしたよく知る筆跡に、少女の目元がじわりと熱くなった。\n「運命に別の可能性がないなんて誰が決めたの？私の幸運のくじを、君にあげる」",
-    "ko": "「사매, 정말 확신해?」\n「흥, 틀림없어요!」\n「이번 내기는 핸드크림 한 병 정도로 안 끝날 거야」\n「이렇게 간단한 게임에… 변수가 있을 리가요?」\n분홍 머리의 소녀는 몸을 돌려 더 이상 방해받지 않으려 했다.\n「찻잎이 뜨고 가라앉는 걸로 보아, 사매는 그 패를 내야 해」\n소녀는 카드를 뽑아 뒤집었다——\n「오, 내 운이 좋았네」\n「다시, 다시요! 이럴 리가 없는데……」\n……\n소녀는 사저와 얼마나 많은 점괘 놀이를 했는지 잊었지만, 사저가 늘 다시 놀아주려 했다는 것만은 기억한다.\n훗날, 소녀는 정해진 예언에서 벗어나고 싶어 반대를 무릅쓰고 나부의 태복사로 향했다.\n나부에 막 도착했을 때, 그녀는 점술서 책장 사이에서 정교한 부적을 하나 발견했다. 낯익은 글씨체에, 타지에 있던 소녀의 눈시울이 붉어졌다.\n「누가 운명에 두 번째 가능성이 없대? 내 행운 부적을 너한테 줄게~」"
+    "zh-CN": "「师妹，你确信无疑？」\n「哼，绝无错漏！」\n「这次的赌注可不止一瓶护手霜哦。」\n「如此简单的游戏…岂会有变数？」\n粉发女孩转过身，拒绝再受其扰。\n「以茶叶浮沉的迹象来看，师妹你该出那张才是。」\n少女抽签，反转出示——\n「呀，我的好手气来了。」\n「再来再来，这绝对不可能……」\n……\n女孩忘了和师姐玩过多少占卜游戏，只记得师姐总愿意陪她重来。\n后来，女孩想要逃离命定的预言，不顾阻挠，去往了罗浮太卜司。\n初到罗浮，她忽然从卜书的夹缝中发现一枚精致的符签，熟悉的笔迹让在异乡的女孩红了眼眶：\n「谁说命运没有第二种可能？我的转运符，送给你咯~」"
   },
   "skill": {
-    "name": { "pt-BR": "Decisão", "en": "Decision", "zh-CN": "抉择", "ja": "選択", "ko": "선택" },
+    "name": { "en": "Decision", "zh-CN": "抉择" },
     "description": {
-      "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, aumenta a Euforia em #2[i]%, acumulando até #3[i] vezes.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. When the wearer uses an Elation Skill, increases Elation by #2[i]%, stacking up to #3[i] times.",
-      "zh-CN": "使装备者的暴击率提高#1[i]%。装备者施放欢愉技时，欢愉度提高#2[i]%，该效果最多叠加#3[i]次。",
-      "ja": "装備キャラの会心率+#1[i]%。装備キャラが愉悦スキルを発動する時、愉悦度+#2[i]%、この効果は最大で#3[i]回累積できる。",
-      "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬 발동 시 환락도가 #2[i]% 증가한다, 해당 효과 최대 중첩수: #3[i]회"
+      "zh-CN": "使装备者的暴击率提高#1[i]%。装备者施放欢愉技时，欢愉度提高#2[i]%，该效果最多叠加#3[i]次。"
     },
     "params": [[0.12, 0.12, 2], [0.14, 0.14, 2], [0.16, 0.16, 2], [0.18, 0.18, 2], [0.2, 0.2, 2]],
     "properties": [

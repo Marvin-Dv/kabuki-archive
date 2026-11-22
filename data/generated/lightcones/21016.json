@@ -1,38 +1,20 @@
 {
   "id": 21016,
   "slug": "trend-of-the-universal-market",
-  "name": {
-    "pt-BR": "Tendência do Mercado Universal",
-    "en": "Trend of the Universal Market",
-    "zh-CN": "宇宙市场趋势",
-    "ja": "星間市場のトレンド",
-    "ko": "우주 시장 동향"
-  },
+  "name": { "en": "Trend of the Universal Market", "zh-CN": "宇宙市场趋势" },
   "rarity": 4,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "O planeta está passando por uma reavaliação...\n\"Será que este projeto vai provar que cobrar dívidas pendentes é bom para os dois lados?\"\n\"Mas só precisamos transmitir uma mensagem: a nossa existência.\"\n\"Se fosse para ter um valor próprio, então isto deveria criar valor para a corporação.\"",
     "en": "The planet is receiving a revaluation...\n\"Will this project show that it's mutually beneficial to collect any outstanding debts?\"\n\"But we only need to convey one message — our existence.\"\n\"If it were to have a value of its own, then it must create value for the corporation.\"",
-    "zh-CN": "星球的价值正在被重新计算……\n「这个项目是否会说明，追回债务的益处是相互的？」\n「但我们只需传达一个信息，就是宣告我们的存在。」\n「它若是要有自己的价值，就得为公司增添价值。」",
-    "ja": "星の価値が再計算されている……\n「このプロジェクトは、債権回収のメリットは相互的だ、ということを証明できるのかな？」\n「だが、伝えるべきメッセージは一つだけ、私たちの存在を宣告することだ」\n「それに価値があると言うのであれば、カンパニーのために価値を生み出すべき」",
-    "ko": "행성의 가치는 다시 계산되고 있다……\n「채권 회수가 상호 이익이 된다는 점을 이 프로젝트로 설명할 수 있나요?」\n「우리가 전해야 할 메시지는 단 하나, 바로 우리의 존재를 알리는 겁니다」\n「이 행성에 가치가 있다면 컴퍼니를 위해 가치를 창출해 줘야죠」"
+    "zh-CN": "星球的价值正在被重新计算……\n「这个项目是否会说明，追回债务的益处是相互的？」\n「但我们只需传达一个信息，就是宣告我们的存在。」\n「它若是要有自己的价值，就得为公司增添价值。」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Um Novo Embaralhamento",
-      "en": "A New Round of Shuffling",
-      "zh-CN": "新一轮洗牌",
-      "ja": "また一巡の入れ替え",
-      "ko": "새로운 개편"
-    },
+    "name": { "en": "A New Round of Shuffling", "zh-CN": "新一轮洗牌" },
     "description": {
-      "pt-BR": "Aumenta em #1[i]% a DEF do usuário. Ao ser atacado, o usuário tem #2[i]% de chance-base de causar Queimadura ao inimigo. A cada rodada, o usuário causa Dano Contínuo igual a #3[i]% da DEF do usuário por #4[i] rodada(s).",
       "en": "Increases the wearer's DEF by #1[i]%. When the wearer is attacked, there is a #2[i]% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to #3[i]% of the wearer's DEF for #4[i] turn(s).",
-      "zh-CN": "使装备者的防御力提高#1[i]%。当装备者受到攻击后，有#2[i]%的基础概率使敌方目标陷入灼烧状态，每回合造成等同于装备者#3[i]%防御力的持续伤害，持续#4[i]回合。",
-      "ja": "装備キャラの防御力+#1[i]%。装備キャラが攻撃を受けた後、#2[i]%の基礎確率で攻撃した敵を燃焼状態にする。燃焼状態の敵はターンが回ってくるたびに、装備キャラの防御力#3[i]%分の持続ダメージを受ける、#4[i]ターン継続。",
-      "ko": "장착한 캐릭터의 방어력이 #1[i]% 증가한다. 장착한 캐릭터가 피격된 후 #2[i]%의 기본 확률로 적이 연소 상태에 빠진다. 턴마다 장착한 캐릭터 방어력 #3[i]%만큼의 지속 피해를 준다. 지속 시간: #4[i]턴"
+      "zh-CN": "使装备者的防御力提高#1[i]%。当装备者受到攻击后，有#2[i]%的基础概率使敌方目标陷入灼烧状态，每回合造成等同于装备者#3[i]%防御力的持续伤害，持续#4[i]回合。"
     },
     "params": [
       [0.16, 1, 0.4, 2],

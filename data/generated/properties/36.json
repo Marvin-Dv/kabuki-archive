@@ -1,13 +1,7 @@
 {
   "id": 36,
   "type": "ImaginaryAddedRatio",
-  "name": {
-    "pt-BR": "Bônus de Dano Imaginário",
-    "en": "Imaginary DMG Boost",
-    "zh-CN": "虚数属性伤害提高",
-    "ja": "虚数属性ダメージ",
-    "ko": "허수 속성 피해 증가"
-  },
+  "name": { "en": "Imaginary DMG Boost", "zh-CN": "虚数属性伤害提高" },
   "icon": "icon/property/IconImaginaryAddedRatio.png",
   "percent": true
 }

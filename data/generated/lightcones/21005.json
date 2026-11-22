@@ -1,38 +1,20 @@
 {
   "id": 21005,
   "slug": "the-moles-welcome-you",
-  "name": {
-    "pt-BR": "As Toupeiras Te Dão Boas-vindas",
-    "en": "The Moles Welcome You",
-    "zh-CN": "鼹鼠党欢迎你",
-    "ja": "モグラ党へようこそ",
-    "ko": "두더지파가 환영해"
-  },
+  "name": { "en": "The Moles Welcome You", "zh-CN": "鼹鼠党欢迎你" },
   "rarity": 4,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"Toupeiras, toupeiras!\" \n\"Saindo das trincheiras.\" \n\"Toupeiras arteiras não temem pedreiras.\" \n\"Toupeiras, toupeiras!\" \n\"Mordem suas perneiras!\"",
     "en": "\"Moles, moles,\"\n\"Leaving our holes,\"\n\"Smart moles fear naught foes,\"\n\"Moles, moles,\"\n\"Bite your toes!\"",
-    "zh-CN": "「鼹鼠党，鼹鼠党」\n「我们马上出发」\n「机智鼹鼠不怕不怕」\n「鼹鼠党，鼹鼠党」\n「鼹鼠党开始冒险！」",
-    "ja": "「モグラ党、モグラ党」\n「いざ出発」\n「かしこいモグラは怖くない」\n「モグラ党、モグラ党」\n「モグラ党は冒険する！」",
-    "ko": "「두더지파, 두더지파」\n「우린 지금 출발해」\n「똑똑한 두더지는 두려워 하지 않아」\n「두더지파, 두더지파」\n「두더지파는 모험을 시작한다!」"
+    "zh-CN": "「鼹鼠党，鼹鼠党」\n「我们马上出发」\n「机智鼹鼠不怕不怕」\n「鼹鼠党，鼹鼠党」\n「鼹鼠党开始冒险！」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Aventura Fantástica",
-      "en": "Fantastic Adventure",
-      "zh-CN": "奇妙冒险",
-      "ja": "奇妙な冒険",
-      "ko": "기묘한 모험"
-    },
+    "name": { "en": "Fantastic Adventure", "zh-CN": "奇妙冒险" },
     "description": {
-      "pt-BR": "Quando o usuário usa o ATQ Básico, a Perícia, ou a Perícia Suprema para atacar inimigos, o usuário ganha um acúmulo de Mordaz. Cada acúmulo aumenta o ATQ do usuário em #1[i]%.",
       "en": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by #1[i]%.",
-      "zh-CN": "装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高#1[i]%。",
-      "ja": "装備キャラが通常攻撃、戦闘スキルまたは必殺技で敵に攻撃を行った後、それぞれ「わんぱく値」を1層まで獲得できる。1層につき、装備キャラの攻撃力+#1[i]%。",
-      "ko": "장착한 캐릭터가 일반 공격, 전투 스킬 혹은 필살기를 발동하여 적을 공격하면 각 1스택의 「장난기」를 획득하며 스택마다 장착한 캐릭터의 공격력이 #1[i]% 증가한다"
+      "zh-CN": "装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高#1[i]%。"
     },
     "params": [[0.12], [0.15], [0.18], [0.21], [0.24]],
     "properties": [[], [], [], [], []]

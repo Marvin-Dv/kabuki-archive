@@ -1,32 +1,20 @@
 {
   "id": 23048,
   "slug": "epoch-etched-in-golden-blood",
-  "name": {
-    "pt-BR": "Era Gravada pelo Sangue Dourado",
-    "en": "Epoch Etched in Golden Blood",
-    "zh-CN": "金血铭刻的时代",
-    "ja": "黄金の血で刻む時代",
-    "ko": "황금 피가 새긴 시대"
-  },
+  "name": { "en": "Epoch Etched in Golden Blood", "zh-CN": "金血铭刻的时代" },
   "rarity": 5,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"Como a história lembrará de Cerydra daqui a mil anos?\"\nFoi o que lhe perguntaram uma vez.\nPara alguns, ela foi a eminente \"Imperatriz\".\nA tirana fria e cruel, a ambiciosa \"Portadora das Chamas\", a governante que incendiou a Antiga Era com sangue e fogo...\nOutros afirmavam que ela era apenas uma \"peça\" lamentável.\nEssa soberana abandonada era nada mais que uma prisioneira da ambição, destinada a perder tudo naquele jogo de xadrez contra as divindades.\nE havia quem dissesse que, nas profundezas de seu coração, mais escuras que o abismo do oceano, ela era apenas uma mortal chamada \"Cerydra\"...\nAlguém que chorava pelos companheiros caídos, que hesitava e temia diante de seu destino pesado, incapaz de seguir adiante...\n\"Heh, não há necessidade de a história se lembrar de mim...\"\nEngolindo a amargura em seu peito, ela prosseguiu pelo Caminho da Perseguição às Chamas, pavimentado com sacrifícios...\n\"É o nosso sangue dourado em chamas que há de gravá-la!\"",
     "en": "\"How will history remember Cerydra a thousand years from now?\"\nShe was once asked.\nTo some, she was the eminent \"Imperator.\"\nThat cold and cruel tyrant, that ambitious \"Flamecrowned,\" that empress who burned the Old Era with blood and fire...\nOthers argued she was merely a pitiful \"pawn.\"\nThis forsaken ruler was but a prisoner of ambition, destined to lose everything in that game of chess against the gods.\nAnd some said that in the depths of her heart, darker than the ocean's abyss, she was just a mortal named \"Cerydra.\"\nOne who mourned for fallen comrades, who hesitated and feared before her heavy fate, unable to move forward...\n\"Heh. There is no need for history to remember me...\"\nSwallowing the bitterness in her heart, she continued down that path of Flame-Chase paved with sacrifice.\n\"It is our burning golden blood that shall engrave it!\"",
-    "zh-CN": "「千年后，历史将如何铭记刻律德菈？」\n她曾如此被人问道。\n有人心中，她是赫赫威名的「凯撒」。\n那冰冷残酷的暴君，那野心勃勃的「燃冕者」，那以血与火烧尽旧时代的女皇……\n有人反驳，她只是一枚可怜的「棋子」。\n这众叛亲离的君王不过是野心的囚徒，在那场与神明对决的棋局中，她注定只能满盘皆输。\n也有人说，在那比海更幽暗的内心深处，她只是一个名为「刻律德菈」的凡人——\n她也会为死难的同伴哀悼，也会在沉重的使命前犹疑畏惧，止步不前……\n「呵，无需历史将我铭记……」\n她咽下心头苦涩，继续行在那由牺牲铺就的逐火之路——\n「是吾等燃烧的金血，铭刻了它！」",
-    "ja": "「千年後、ケリュドラはどのような姿で歴史に刻まれるのか？」\n誰かが彼女にそう問いかけた。\nある者にとって彼女は誰もが知る「カイザー」——\n冷酷な暴君にして野心に満ちた「炎冠」、血と炎で旧き時代を焼き払った女帝である……\n一方で、別の者は異を唱える。彼女は哀れな「駒」にすぎないと。\n裏切られた王は所詮、野望の囚人。神との対局において、敗北は初めから決まっていたのだと。\nまた、こう語る者もいた。海よりもなお深く暗いその心の奥底では、彼女はただ「ケリュドラ」という名の凡庸な人にすぎないと——\n犠牲になった仲間を悼み、重すぎる使命の前で怯え、迷い、そして立ちすくむ……\n「ふっ、歴史に刻まれるだと？」\n彼女は苦しみを飲み込みながら、仲間たちの犠牲によって敷かれた火を追う旅路を歩み続ける——\n「逆だ。僕たちの燃える黄金の血が、歴史を刻むのだ！」",
-    "ko": "「천 년 후, 역사는 케리드라를 어떻게 기억할까?」\n누군가 그녀에게 이렇게 물은 적이 있다.\n어떤 이들의 마음속에서 그녀는 위명을 떨친 「카이사르」였다.\n차갑고 잔혹한 폭군, 야망을 품은 「화염의 왕관」, 그리고 피와 불로 구시대를 태운 여황……\n어떤 이들은 그녀가 한낱 가여운 「체스 말」에 불과하다고 반박했다.\n모두에게 버림받은 군왕은 그저 야망의 포로였으며, 신과의 대국에서 그녀는 모든 것을 잃을 수밖에 없는 운명이었다고.\n또 어떤 이들은 말했다. 바다보다 어두운 마음 깊은 곳에서, 그녀는 단지 「케리드라」라는 이름의 평범한 인간이었노라고——\n그녀 역시 희생된 동료를 애도했고, 무거운 사명 앞에서 두려움에 떨며 망설였다고……\n「훗, 역사가 나를 기억할 필요 없다……」\n그녀는 가슴 속의 쓰라림을 삼키고, 희생으로 포장된 불을 쫓는 길을 계속 걸어갔다——\n「우리의 타오르는 황금 피가 그것을 새겼노라!」"
+    "zh-CN": "「千年后，历史将如何铭记刻律德菈？」\n她曾如此被人问道。\n有人心中，她是赫赫威名的「凯撒」。\n那冰冷残酷的暴君，那野心勃勃的「燃冕者」，那以血与火烧尽旧时代的女皇……\n有人反驳，她只是一枚可怜的「棋子」。\n这众叛亲离的君王不过是野心的囚徒，在那场与神明对决的棋局中，她注定只能满盘皆输。\n也有人说，在那比海更幽暗的内心深处，她只是一个名为「刻律德菈」的凡人——\n她也会为死难的同伴哀悼，也会在沉重的使命前犹疑畏惧，止步不前……\n「呵，无需历史将我铭记……」\n她咽下心头苦涩，继续行在那由牺牲铺就的逐火之路——\n「是吾等燃烧的金血，铭刻了它！」"
   },
   "skill": {
-    "name": { "pt-BR": "Conquistar", "en": "Conquer", "zh-CN": "征服", "ja": "征服", "ko": "정복" },
+    "name": { "en": "Conquer", "zh-CN": "征服" },
     "description": {
-      "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Após usar a Perícia Suprema para atacar, recupera #3[i] Ponto(s) de Perícia. Depois que o usuário usa a Perícia em um personagem aliado, aumenta o Dano da Perícia causado pelo alvo em #4[f1]%, por #5[i] rodadas.",
       "en": "Increases the wearer's ATK by #1[i]%. After using Ultimate to attack, recovers #3[i] Skill Point(s). After the wearer uses their Skill on one ally character, increases the Skill DMG dealt by the target by #4[f1]% for #5[i] turn(s).",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。施放终结技攻击后恢复#3[i]个战技点，装备者对我方单体角色施放战技后，使目标造成的战技伤害提高#4[f1]%，持续#5[i]回合。",
-      "ja": "装備キャラの攻撃力+#1[i]%。必殺技で攻撃を行った後、SPを#3[i]回復する。装備キャラが味方単体キャラに戦闘スキルを発動した後、その味方の戦闘スキルダメージ+#4[f1]%、#5[i]ターン継続。",
-      "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 필살기를 발동해 공격하면 전투 스킬 포인트를 #3[i]pt 회복하며, 장착한 캐릭터가 단일 아군 캐릭터에게 전투 스킬 발동 후 목표가 가하는 전투 스킬 피해가 #4[f1]% 증가한다, 지속 시간: #5[i]턴"
+      "zh-CN": "使装备者的攻击力提高#1[i]%。施放终结技攻击后恢复#3[i]个战技点，装备者对我方单体角色施放战技后，使目标造成的战技伤害提高#4[f1]%，持续#5[i]回合。"
     },
     "params": [
       [0.64, 1, 1, 0.54, 3],

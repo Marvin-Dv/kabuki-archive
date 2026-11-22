@@ -1,32 +1,20 @@
 {
   "id": 21038,
   "slug": "flames-afar",
-  "name": {
-    "pt-BR": "Chamas Distantes",
-    "en": "Flames Afar",
-    "zh-CN": "在火的远处",
-    "ja": "烈火の彼方",
-    "ko": "불의 먼 곳에서"
-  },
+  "name": { "en": "Flames Afar", "zh-CN": "在火的远处" },
   "rarity": 4,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"Pacote seguro. Confio em você para cobrir nossa retirada.\"\nA voz do companheiro dele soou pelo comunicador.\nEle olha em volta, assistindo conforme os restos devastados de seus inimigos continuam a passar pela arquitetura complexa dentro da vasta estrutura abandonada. Eles estão se aproximando cada vez mais.\n\"Por favor, espere.\"\nDepois de uma pausa de quietude, uma série de explosões apocalípticas soaram aos céus. Ondas de ar deslocado criaram nuvens de poeira através do campo de batalha, e a fumaça se espalha em todas as direções, com a luz branca se estendendo até onde a vista alcança, dividindo a escuridão da noite.\n\"Você sabe que eles colocaram toda aquela pólvora ali de propósito, certo?\"\nCom um movimento brusco, ele abriu a capa como se tivesse acabado de dar um passeio.\n\"Mas é claro.\"\n\"Então, vamos acendê-la. Tudo o que eu preciso fazer é cumprir o meu papel na partida.\"",
     "en": "\"Package secured. I'll leave covering our retreat to you.\"\nTheir comrade's voice comes through the communicator.\nThey glance around the surroundings, watching as the savaged remnants of their enemies continue to pass through the complex architecture inside the vast and abandoned structure. They are drawing ever closer.\n\"Please hold.\"\nAfter a beat of quietude, a series of apocalyptic explosions rocket up into the sky. Waves of displaced air cast clouds of dust high across the battlefield, and smoke scatter in all directions, the blinding white cleaving light into the night.\n\"You know they purposely planted loads of gunpowder in there, right?\"\nWith a rustle, they flung open the cape as if they just finished a leisurely stroll.\n\"Of course.\"\n\"So, let's light it up. All I need to do is play the part of the match.\"",
-    "zh-CN": "「东西到手了，交给你断后咯。」\n通讯器里传来同伴的声音。\n他看向周围，废弃的巨型建筑内，残存的敌人仍在复杂的结构中穿行，向他逼近。\n「稍等片刻。」\n一瞬寂静之后，宛如末日灾难的剧烈爆炸冲天而起。气浪吹起尘埃，烟云四散，致人目盲的强光令夜空亮如白昼。\n「你知道那里面都是他们故意设置的火药吧？」\n斗篷猎猎张开，他如同完成了一场悠闲散步。\n「当然。」\n「所以点燃他们，我只需当那根火柴就好。」",
-    "ja": "「目的の物を手に入れた。撤退するから援護を頼む」\n通信機から仲間の声が聞こえた。\n彼は周囲を観察する。残党が廃棄された大型建築物の複雑な構造を進み、彼に近づいてきた。\n「少し時間が必要です」\n一瞬の静寂の後、大災害のような激しい爆発が起こった。衝撃波で砂塵が舞い煙が立ち込め、眩い光が夜空を昼と同じくらいに明るくした。\n「そこらじゅう、あいつらの仕掛けた爆薬まみれだとわかっていたよな？」\nマントを風になびかせる姿は、散歩でもしてきたかのようだった。\n「当然」\n「ですから、私が火をつけるマッチになればよいと」",
-    "ko": "「물건은 확보했어. 후방 엄호는 너한테 부탁할게」\n통신기에서 동료의 목소리가 들려왔다.\n주위를 둘러보니 잔당들이 폐허가 된 대형 건축물의 복잡한 구조물 사이를 지나 그에게 접근하고 있었다.\n「잠깐 기다려」\n한순간의 정적 후, 종말의 재앙 같은 격렬한 폭발이 일어났다. 먼지 폭풍이 일고 구름이 사방으로 흩어지며, 눈 부신 빛이 밤하늘을 낮으로 만들었다.\n「적이 폭약을 가득 설치해 둔 걸 알고 있었지?」\n망토는 가벼운 산책이라도 마친 듯 바람에 펄럭였다.\n「물론」\n「그래서 내가 도화선에 불을 붙이는 성냥이 되어줬지」"
+    "zh-CN": "「东西到手了，交给你断后咯。」\n通讯器里传来同伴的声音。\n他看向周围，废弃的巨型建筑内，残存的敌人仍在复杂的结构中穿行，向他逼近。\n「稍等片刻。」\n一瞬寂静之后，宛如末日灾难的剧烈爆炸冲天而起。气浪吹起尘埃，烟云四散，致人目盲的强光令夜空亮如白昼。\n「你知道那里面都是他们故意设置的火药吧？」\n斗篷猎猎张开，他如同完成了一场悠闲散步。\n「当然。」\n「所以点燃他们，我只需当那根火柴就好。」"
   },
   "skill": {
-    "name": { "pt-BR": "Deflagração", "en": "Deflagration", "zh-CN": "爆燃", "ja": "爆燃", "ko": "폭연" },
+    "name": { "en": "Deflagration", "zh-CN": "爆燃" },
     "description": {
-      "pt-BR": "Quando a perda cumulativa de PV do usuário durante um ataque ultrapassar #1[i]% de seus PV máximos, ou se a quantidade de PV consumido for maior do que #1[i]% de seus PV máximos, cura imediatamente o usuário em #3[i]% de seus PV máximos. Ao mesmo tempo, aumenta o Dano causado por ele em #2[i]% por #4[i] rodada(s). Esse efeito só pode ser ativado uma vez a cada #5[i] rodada(s).",
       "en": "When the wearer's cumulative HP loss during one attack exceeds #1[i]% of their Max HP, or if the amount of their own HP consumed at one time is greater than #1[i]% of their Max HP, immediately heals the wearer for #3[i]% of their Max HP, and at the same time, increases the DMG they deal by #2[i]% for #4[i] turn(s). This effect can only be triggered once every #5[i] turn(s).",
-      "zh-CN": "当装备者在单次受到攻击中累计损失的生命值超过最大生命值的#1[i]%，或单次消耗自身生命值超过最大生命值的#1[i]%，则立即回复等同于装备者生命上限#3[i]%的生命值，同时使装备者造成的伤害提高#2[i]%，持续#4[i]回合。该效果每#5[i]回合只能触发1次。",
-      "ja": "装備キャラが1回の攻撃で最大HP#1[i]%分を超えるHPを失う、または1回で最大HP#1[i]%分を超えるHPを消費した後、装備キャラの最大HP#3[i]%分のHPを回復し、与ダメージ+#2[i]%、#4[i]ターン継続。この効果は#5[i]ターンごとに1回発動できる。",
-      "ko": "장착한 캐릭터가 단일 공격에서 누적으로 잃은 HP가 최대 HP의 #1[i]%를 초과하거나, 자신이 단일 소모한 HP가 최대 HP의 #1[i]%를 초과할 시, 즉시 장착한 캐릭터 HP 최대치의 #3[i]%만큼 HP를 회복하고, 동시에 장착한 캐릭터가 가하는 피해가 #2[i]% 증가한다. 지속 시간: #4[i]턴. 해당 효과는 #5[i]턴마다 최대 1회 발동한다"
+      "zh-CN": "当装备者在单次受到攻击中累计损失的生命值超过最大生命值的#1[i]%，或单次消耗自身生命值超过最大生命值的#1[i]%，则立即回复等同于装备者生命上限#3[i]%的生命值，同时使装备者造成的伤害提高#2[i]%，持续#4[i]回合。该效果每#5[i]回合只能触发1次。"
     },
     "params": [
       [0.25, 0.25, 0.15, 2, 3],

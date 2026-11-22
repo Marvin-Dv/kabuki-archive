@@ -1,7 +1,7 @@
 {
   "id": 1408,
   "slug": "phainon",
-  "name": { "pt-BR": "Phainon", "en": "Phainon", "zh-CN": "白厄", "ja": "ファイノン", "ko": "파이논" },
+  "name": { "en": "Phainon", "zh-CN": "白厄" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Physical",
@@ -11,49 +11,25 @@
     {
       "id": 140801,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Marcha para a Redenção",
-        "en": "Stride to Deliverance",
-        "zh-CN": "逐火救世，行则将至",
-        "ja": "火追いの救世、必ずや果たさん",
-        "ko": "불을 쫓는 구세의 길, 끝내 닿으리"
-      },
+      "name": { "en": "Stride to Deliverance", "zh-CN": "逐火救世，行则将至" },
       "description": {
-        "pt-BR": "Causa Dano Físico equivalente a #1[i]% do ATQ do Phainon a um inimigo designado.",
         "en": "Deals Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于白厄#1[i]%攻击力的物理属性伤害。",
-        "ja": "指定した敵単体にファイノンの攻撃力#1[i]%分の物理属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 파이논 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于白厄#1[i]%攻击力的物理属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1408_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano Físico leve a um único inimigo.",
-        "en": "Deals minor Physical DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量物理属性伤害。",
-        "ja": "敵単体に少量の物理属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Physical DMG to one enemy.", "zh-CN": "对敌方单体造成少量物理属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 140802,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Que Haja Luz",
-        "en": "Let There Be Light",
-        "zh-CN": "黎明创世，地辟天开",
-        "ja": "黎明の創世、天地を開闢す",
-        "ko": "여명의 창세, 천지를 개벽할지니"
-      },
+      "name": { "en": "Let There Be Light", "zh-CN": "黎明创世，地辟天开" },
       "description": {
-        "pt-BR": "Obtém #3[i] ponto(s) de \"Chama Primordial\", causando Dano Físico igual a #1[i]% do ATQ de Phainon a um inimigo designado e Dano Físico igual a #2[i]% de ATQ de Phainon aos alvos adjacentes.",
         "en": "Gains #3[i] point(s) of \"Coreflame,\" dealing Physical DMG equal to #1[i]% of Phainon's ATK to one designated enemy and Physical DMG equal to #2[i]% of Phainon's ATK to adjacent targets.",
-        "zh-CN": "获得#3[i]点【火种】，对指定敌方单体造成等同于白厄#1[i]%攻击力的物理属性伤害，对相邻目标造成等同于白厄#2[i]%攻击力的物理属性伤害。",
-        "ja": "「火種」を#3[i]個獲得し、指定した敵単体にファイノンの攻撃力#1[i]%分の物理属性ダメージを与え、隣接する敵にファイノンの攻撃力#2[i]%分の物理属性ダメージを与える。",
-        "ko": "[불씨]를 #3[i]pt 획득하고 지정된 단일 적에게 파이논 공격력의 #1[i]%만큼 물리 속성 피해를 가하며, 인접한 목표에게 파이논 공격력의 #2[i]%만큼 물리 속성 피해를 가한다"
+        "zh-CN": "获得#3[i]点【火种】，对指定敌方单体造成等同于白厄#1[i]%攻击力的物理属性伤害，对相邻目标造成等同于白厄#2[i]%攻击力的物理属性伤害。"
       },
       "params": [
         [1.5, 0.6, 2],
@@ -75,31 +51,19 @@
       "icon": "icon/skill/1408_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Ganha 2 ponto(s) de \"Chama Primordial\", causando Dano Físico massivo a um inimigo e Dano Físico aos alvos adjacentes.",
         "en": "Gains 2 point(s) of \"Coreflame\", dealing massive Physical DMG to one enemy and Physical DMG to adjacent targets.",
-        "zh-CN": "获得2点【火种】，对敌方单体造成大量物理属性伤害，对相邻目标造成物理属性伤害。",
-        "ja": "「火種」を2個獲得する。敵単体に大量の物理属性ダメージを与え、隣接する敵に物理属性ダメージを与える。",
-        "ko": "[불씨]를 2pt 획득하고, 단일 적에게 대량의 물리 속성 피해를 가하며, 인접한 목표에게 물리 속성 피해를 가한다"
+        "zh-CN": "获得2点【火种】，对敌方单体造成大量物理属性伤害，对相邻目标造成物理属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 140803,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Aquele que Carrega o Mundo Deve Arder",
-        "en": "He Who Bears the World Must Burn",
-        "zh-CN": "永劫燔世，其将背负",
-        "ja": "永劫の焼世、背負うべき未来",
-        "ko": "영원히 타오르는 세상, 그가 짊어지리라"
-      },
+      "name": { "en": "He Who Bears the World Must Burn", "zh-CN": "永劫燔世，其将背负" },
       "description": {
-        "pt-BR": "Transforma-se em Khaslana. Durante a transformação, implanta o Território \"Túmulo de Ferro em Ruínas\". Dentro do Território, outros aliados partem e não podem agir, enquanto todos os inimigos recebem Fraquezas contra Físico.\nKhaslana não possui rodada própria, mas ganha #4[i] rodada(s) extra(s) de Khaslana, com VEL definida em #3[i]% da VEL base de Khaslana. Quando a última das rodadas extras de Khaslana começa, ele desfere imediatamente um golpe final e causa Dano Físico da Perícia Suprema igual a #1[i]% do ATQ de Khaslana, distribuído igualmente entre todos os inimigos.",
         "en": "Transforms into Khaslana. During the transformation, deploys the Territory \"Ruinous Irontomb.\" Within the Territory, other teammates depart and cannot take action, and all enemies have Physical Weaknesses.\nKhaslana does not enter his own turn, but has #4[i] Khaslana's extra turn(s), with a SPD set at #3[i]% of Khaslana's base SPD. When the last of Khaslana's extra turns starts, immediately launches a final hit and deals Physical Ultimate DMG equal to #1[i]% of Khaslana's ATK that is distributed evenly across all enemies.",
-        "zh-CN": "变身为卡厄斯兰那，变身期间展开境界【时墟铁墓】。境界内的其他队友离场且无法行动，敌方全体始终拥有物理属性弱点。\n卡厄斯兰那不会进入自己的回合，但拥有#4[i]个卡厄斯兰那的额外回合，速度固定为卡厄斯兰那基础速度的#3[i]%。最后的卡厄斯兰那的额外回合开始时立即发动最后一击，造成等同于卡厄斯兰那#1[i]%攻击力的物理属性终结技伤害，由敌方全体均分。",
-        "ja": "カスライナに変身する。変身している間、境界「時墟鉄墓」を展開する。境界内では、自身以外の味方が一時離脱となり、行動できなくなる。境界継続中、敵全体は物理属性弱点を持つ。\nカスライナは自身のターンには入らず、その代わりにカスライナの追加ターンを#4[i]ターン持つ。速度はカスライナの基礎速度の#3[i]%に固定される。最後のカスライナの追加ターンが回ってきた時、即座にラストアタックを発動し、カスライナの攻撃力#1[i]%分の物理属性必殺技ダメージを与える。なお、このダメージは敵全体で均等に分担される。",
-        "ko": "카오스라나로 변신하며, 변신 중에는 경계 [귀허의 아이언툼]을 펼친다. 경계 내 다른 동료는 퇴장하고 행동할 수 없으며, 모든 적은 항상 물리 속성 약점을 보유한다.\n카오스라나는 자신의 턴에 진입하지 않는 대신 카오스라나의 보너스 턴을 #4[i]개 보유하고, 속도는 카오스라나 기본 속도의 #3[i]%로 고정된다. 마지막 카오스라나의 보너스 턴 시작 시 즉시 마지막 일격을 발동하여 모든 적이 균등 분담하는 물리 속성 필살기 피해를 카오스라나 공격력의 #1[i]%만큼 가한다"
+        "zh-CN": "变身为卡厄斯兰那，变身期间展开境界【时墟铁墓】。境界内的其他队友离场且无法行动，敌方全体始终拥有物理属性弱点。\n卡厄斯兰那不会进入自己的回合，但拥有#4[i]个卡厄斯兰那的额外回合，速度固定为卡厄斯兰那基础速度的#3[i]%。最后的卡厄斯兰那的额外回合开始时立即发动最后一击，造成等同于卡厄斯兰那#1[i]%攻击力的物理属性终结技伤害，由敌方全体均分。"
       },
       "params": [
         [4.8, 12, 0.6, 8],
@@ -121,31 +85,19 @@
       "icon": "icon/skill/1408_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Transforma-se em Khaslana e implanta um Território: aliados partem e não podem agir, e todos os inimigos ganham Fraquezas contra Físico.\nKhaslana não entra em sua própria rodada, mas possui 8 rodada(s) extra(s) de Khaslana. Na rodada final, desfere um golpe final e causa Dano Físico massivo distribuído igualmente entre todos os inimigos.",
         "en": "Transforms into Khaslana and deploys a Territory: Teammates depart and cannot take action, and all enemies have Physical Weaknesses.\nKhaslana does not enter his own turn, but has 8 Khaslana's extra turn(s). In the final turn, launches a final hit and deals massive Physical DMG that is distributed evenly across all enemies.",
-        "zh-CN": "变身为卡厄斯兰那并展开境界：使队友离场且无法行动，敌方全体拥有物理属性弱点。\n卡厄斯兰那不会进入自己的回合但拥有8个卡厄斯兰那的额外回合，最后的回合内发动最后一击，造成由敌方全体均分的大量物理属性伤害。",
-        "ja": "カスライナに変身し、境界を展開する。境界は自身以外の味方を一時離脱状態にして行動できなくし、敵全体に物理属性弱点を付与する。\nカスライナは自身のターンに入らず、その代わりカスライナの追加ターンを8ターン持つ。最後のターンでラストアタックを発動し、敵全体に大量の物理属性ダメージを与える。このダメージは敵全体で均等に分担される。",
-        "ko": "카오스라나로 변신하고 경계를 펼친다. 해당 경계에서는 동료가 퇴장하고 행동할 수 없으며, 모든 적은 물리 속성 약점을 보유한다.\n카오스라나는 자신의 턴에 진입하지 않는 대신 카오스라나의 보너스 턴을 8개 보유하며, 마지막 턴에 마지막 일격을 발동해 모든 적이 균등 분담하는 대량의 물리 속성 피해를 가한다"
+        "zh-CN": "变身为卡厄斯兰那并展开境界：使队友离场且无法行动，敌方全体拥有物理属性弱点。\n卡厄斯兰那不会进入自己的回合但拥有8个卡厄斯兰那的额外回合，最后的回合内发动最后一击，造成由敌方全体均分的大量物理属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 140804,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Corpo Ígneo",
-        "en": "Pyric Corpus",
-        "zh-CN": "此身为炬",
-        "ja": "この身を炬火とす",
-        "ko": "이 몸을 횃불 삼아"
-      },
+      "name": { "en": "Pyric Corpus", "zh-CN": "此身为炬" },
       "description": {
-        "pt-BR": "Talento de Phainon. Quando a \"Chama Primordial\" atinge #4[i] ponto(s), a Perícia Suprema pode ser ativada. Após atingir o limite máximo, até #3[i] ponto(s) excedente(s) podem ser acumulados. Ao final da Transformação, ganha \"Chamas Primordiais\" com base nos pontos excedentes.\nQuando Phainon é o alvo da habilidade de qualquer personagem, ele ganha 1 ponto de \"Chama Primordial\". Se o usuário da habilidade for um companheiro de equipe de Phainon, aumenta adicionalmente o Dano CRIT de Phainon em #1[i]% por #2[i] rodada(s).",
         "en": "Phainon's Talent. When \"Coreflame\" reaches #4[i] point(s), can activate Ultimate. Even after reaching the limit, can still hold up to #3[i] overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by #1[i]% for #2[i] turn(s).",
-        "zh-CN": "白厄的天赋。【火种】达到#4[i]点时可激活终结技，达到上限后还可最多溢出#3[i]点，变身结束时会基于溢出点数获得【火种】。\n当白厄成为其他任意目标的技能目标时，获得1点【火种】。若施放者为白厄的队友，还会使白厄的暴击伤害提高#1[i]%，持续#2[i]回合。",
-        "ja": "ファイノンの天賦。「火種」が#4[i]個に達すると必殺技を発動できる。「火種」の数が上限を超えた時、最大#3[i]個まで保存でき、変身終了時に保存された数を基に「火種」を獲得できる。\nファイノンが自身以外の任意のユニットのスキルターゲットになった時、「火種」を1個獲得する。さらに、味方のスキルターゲットになった場合、会心ダメージ+#1[i]%、#2[i]ターン継続。",
-        "ko": "파이논의 특성. [불씨]가 #4[i]pt에 도달하면 필살기를 활성화할 수 있고, 최대치 도달 후 최대 #3[i]pt 초과할 수 있다. 변신 종료 시 초과한 포인트에 기반해 [불씨]를 획득한다.\n파이논이 임의의 다른 목표의 스킬 목표가 될 시 [불씨]를 1pt 획득한다. 스킬 발동자가 파이논 동료일 시 추가로 파이논의 치명타 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴"
+        "zh-CN": "白厄的天赋。【火种】达到#4[i]点时可激活终结技，达到上限后还可最多溢出#3[i]点，变身结束时会基于溢出点数获得【火种】。\n当白厄成为其他任意目标的技能目标时，获得1点【火种】。若施放者为白厄的队友，还会使白厄的暴击伤害提高#1[i]%，持续#2[i]回合。"
       },
       "params": [
         [0.15, 3, 3, 12],
@@ -167,31 +119,19 @@
       "icon": "icon/skill/1408_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Talento de Phainon. Quando \"Chama Primordial\" atinge 12 ponto(s), pode ativar a Perícia Suprema.\nQuando Phainon é alvo de habilidades de outros alvos, ganha \"Chama Primordial\". Quando é alvo de uma habilidade de um aliado, aumenta o Dano CRIT.",
         "en": "Phainon's Talent. When \"Coreflame\" reaches 12, can activate Ultimate.\nWhen Phainon is targeted by abilities from other targets, gains \"Coreflame\". When targeted by a teammate's ability, increases CRIT DMG.",
-        "zh-CN": "白厄的天赋。【火种】达到12点时可激活终结技。\n当白厄成为其他目标的技能目标时，获得【火种】。成为队友的技能目标时，暴击伤害提高。",
-        "ja": "ファイノンの天賦。「火種」が12個に達すると必殺技を発動できる。\nファイノンが自身以外のユニットのスキルターゲットになった時、「火種」を獲得する。さらに、味方のスキルターゲットになった場合、会心ダメージがアップする。",
-        "ko": "파이논의 특성. [불씨]가 12pt에 도달하면 필살기를 활성화할 수 있다.\n파이논이 다른 목표의 스킬 목표가 될 시 [불씨]를 획득한다. 파티원의 스킬 목표가 될 시 치명타 피해가 증가한다"
+        "zh-CN": "白厄的天赋。【火种】达到12点时可激活终结技。\n当白厄成为其他目标的技能目标时，获得【火种】。成为队友的技能目标时，暴击伤害提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 140805,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Destino: Receptáculo Divino",
-        "en": "Fate: Divine Vessel",
-        "zh-CN": "命运•此躯即神",
-        "ja": "運命・この身は神なり",
-        "ko": "운명•이 몸이 곧 신이로다"
-      },
+      "name": { "en": "Fate: Divine Vessel", "zh-CN": "命运•此躯即神" },
       "description": {
-        "pt-BR": "Talento de Khaslana. Ao se transformar, obtém #1[i] ponto(s) de \"Flagelo\". Se isso ocorrer durante a rodada de um aliado-alvo, a duração de todas as melhorias nesse alvo será estendida em 1 rodada e a rodada atual terminará.\nKhaslana é imune a penalidades de Controle Negativo, possui 1 ATQ Básico Aprimorado e 2 Perícias Aprimoradas, mas não pode usar a Perícia Suprema. Durante a transformação, aumenta o ATQ em #4[i]% e os PV máximos em #5[i]%. Após usar um ataque, restaura PV em um valor igual a #7[i]% de seus PV máximos. Quando Khaslana sofre um golpe fatal, ele não será derrubado. Em vez disso, restaurará PV em um valor igual a #2[i]% dos PV máximos e lançará imediatamente um golpe final. Para cada rodada extra restante de Khaslana, o multiplicador de Dano do golpe final diminui em #3[f1]% de seu valor original.\nAo fim da transformação, aumenta a VEL de todos os aliados em #6[i]% por 1 rodada.",
         "en": "Khaslana's Talent. Upon transformation, gains #1[i] point(s) of \"Scourge\". If this happens during an ally target's turn, then the duration of all buffs on that target is extended by 1 turn and the current turn ends.\nKhaslana is immune to Crowd Control debuffs, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by #4[i]% and Max HP by #5[i]%. After using an attack, restores HP equal to #7[i]% of his Max HP. When Khaslana takes a killing blow, he will not get knocked down. Instead, he will restore HP equal to #2[i]% of Max HP and immediately launch a final hit. For every 1 remaining Khaslana's extra turn, the final hit's DMG multiplier decreases by #3[f1]% of its original multiplier value.\nWhen the transformation ends, increases all allies' SPD by #6[i]% for 1 turn.",
-        "zh-CN": "卡厄斯兰那的天赋。变身时获得#1[i]点【毁伤】。若此时处于我方目标的回合，则使该目标的所有增益效果延长1回合并结束本回合。\n卡厄斯兰那免疫控制类负面状态，拥有1个强化普攻和2个强化战技，无法施放终结技。变身期间攻击力提高#4[i]%，生命上限提高#5[i]%，施放攻击后回复等同于自身生命上限#7[i]%的生命值。卡厄斯兰那受到致命攻击时不会陷入无法战斗状态，而是回复等同于自身生命上限#2[i]%的生命值并立即发动最后一击。每剩余1个卡厄斯兰那的额外回合，最后一击的伤害倍率减少原倍率的#3[f1]%。\n变身结束时，使我方全体速度提高#6[i]%，持续1回合。",
-        "ja": "カスライナの天賦。変身する時、「壊傷」を#1[i]層獲得する。味方のターンで変身した場合、その味方が所持しているすべてのバフの継続時間を1ターン延長して、そのターンを終了させる。\nカスライナは行動制限系デバフを無効化し、強化通常攻撃を1つ、強化戦闘スキルを2つ持つ。必殺技を発動することはできない。変身している間、攻撃力+#4[i]%、最大HP+#5[i]%。攻撃を行った後、自身の最大HP#7[i]%分のHPを回復する。カスライナはHPが0になる攻撃を受けた時、戦闘不能状態にはならず、自身の最大HP#2[i]%分のHPを回復し、即座にラストアタックを発動する。その際、残っているカスライナの追加ターン1ターンにつき、ラストアタックのダメージ倍率が本来の倍率の#3[f1]%分ダウンする。\n変身終了時、味方全体の速度+#6[i]%、1ターン継続。",
-        "ko": "카오스라나의 특성. 변신 시 [훼멸]을 #1[i]pt 획득한다. 이때 아군의 턴일 경우 해당 아군의 모든 버프 효과 지속 시간이 1턴 연장되며, 이번 턴은 종료된다.\n카오스라나는 제어류 디버프 상태에 면역되고, 강화된 일반 공격 1개와 강화된 전투 스킬 2개를 보유하며 필살기를 발동할 수 없다. 변신 중에는 공격력이 #4[i]% 증가하고 HP 최대치가 #5[i]% 증가하며, 공격을 발동하면 자신의 HP 최대치의 #7[i]%만큼 HP를 회복한다. 카오스라나가 치명적인 공격을 받을 시 전투 불능 상태에 빠지지 않는 대신 자신의 HP 최대치의 #2[i]%만큼 HP를 회복하고 즉시 마지막 일격을 발동한다. 남은 카오스라나의 보너스 턴 1개당 마지막 일격의 피해 배율이 기존 배율의 #3[f1]%만큼 감소한다.\n변신 종료 시 모든 아군의 속도가 #6[i]% 증가한다, 지속 시간: 1턴"
+        "zh-CN": "卡厄斯兰那的天赋。变身时获得#1[i]点【毁伤】。若此时处于我方目标的回合，则使该目标的所有增益效果延长1回合并结束本回合。\n卡厄斯兰那免疫控制类负面状态，拥有1个强化普攻和2个强化战技，无法施放终结技。变身期间攻击力提高#4[i]%，生命上限提高#5[i]%，施放攻击后回复等同于自身生命上限#7[i]%的生命值。卡厄斯兰那受到致命攻击时不会陷入无法战斗状态，而是回复等同于自身生命上限#2[i]%的生命值并立即发动最后一击。每剩余1个卡厄斯兰那的额外回合，最后一击的伤害倍率减少原倍率的#3[f1]%。\n变身结束时，使我方全体速度提高#6[i]%，持续1回合。"
       },
       "params": [
         [4, 0.25, 0.125, 0.4, 1.35, 0.15, 0.2],
@@ -213,81 +153,51 @@
       "icon": "icon/skill/1408_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Talento de Khaslana. Ao se transformar, obtém \"Flagelo\".\nKhaslana é imune a penalidades de Controle Negativo e possui 3 novas habilidades. Durante a transformação, aumenta o ATQ e os PV máximos. Usar ataques restaura PV. Ao receber um golpe fatal, restaura PV e usa imediatamente um golpe final. Quanto mais ações restantes ele tiver, menor o multiplicador de Dano.\nQuando a transformação termina, aumenta a VEL de todos os aliados.",
         "en": "Khaslana's Talent. Upon transformation, gains \"Scourge\".\nKhaslana is immune to Crowd Control debuffs and has 3 new abilities. During the transformation, increases ATK and Max HP. Using attacks restores HP. When taking a killing blow, restores HP and immediately uses a final hit. The more remaining actions he has, the lower the DMG multiplier.\nWhen the transformation ends, increases all allies' SPD.",
-        "zh-CN": "卡厄斯兰那的天赋。变身时获得【毁伤】。\n卡厄斯兰那免疫控制类负面状态并拥有3个新技能。变身期间攻击力和生命上限提高，施放攻击回复生命值，受到致命攻击时回复生命值并立即施放最后一击，剩余可行动次数越多伤害倍率越低。\n结束变身时，使我方全体速度提高。",
-        "ja": "カスライナの天賦。変身する時、「壊傷」を獲得する。\nカスライナは行動制限系デバフに抵抗し、3つの新しいスキルを持つ。変身している間、攻撃力と最大HPがアップし、攻撃を行うとHPを回復する。また、HPが0になる攻撃を受けた時、HPを回復して即座にラストアタックを発動する。その際、残りの行動回数が多いほどダメージ倍率が低くなる。\n変身を解除する時、味方全体の速度がアップする。",
-        "ko": "카오스라나의 특성. 변신 시 [훼멸]을 획득한다.\n카오스라나는 제어류 디버프 상태에 면역되고 새로운 스킬 3개를 보유한다. 변신 중에는 공격력과 HP 최대치가 증가하고 공격을 발동하면 HP를 회복하며, 치명적인 공격을 받을 시 HP를 회복하고 즉시 마지막 일격을 발동한다. 남은 행동 가능 횟수가 많을수록 피해 배율이 감소한다.\n변신 종료 시 모든 아군의 속도가 증가한다"
+        "zh-CN": "卡厄斯兰那的天赋。变身时获得【毁伤】。\n卡厄斯兰那免疫控制类负面状态并拥有3个新技能。变身期间攻击力和生命上限提高，施放攻击回复生命值，受到致命攻击时回复生命值并立即施放最后一击，剩余可行动次数越多伤害倍率越低。\n结束变身时，使我方全体速度提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 140806,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1408_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 140807,
       "type": "Technique",
-      "name": {
-        "pt-BR": "O Começo do Fim",
-        "en": "Beginning of the End",
-        "zh-CN": "终结之始",
-        "ja": "終わりの始まり",
-        "ko": "종결의 시작"
-      },
+      "name": { "en": "Beginning of the End", "zh-CN": "终结之始" },
       "description": {
-        "pt-BR": "Quando Phainon está na equipe, aumenta os Pontos de Técnica Máximos em 3.\nAo usar ativamente esta Técnica, consome 2 Pontos de Técnica e ataca imediatamente todos os inimigos dentro de um certo alcance. Ao entrar em combate, regenera #3[i] de Energia para os aliados e obtém #2[i] ponto(s) de \"Flagelo\" e #4[i] Ponto(s) de Perícia. Causa Dano Físico igual a #1[i]% do ATQ de Phainon a todos os inimigos no início de cada onda.\nAo atacar um inimigo normal, derrota-o imediatamente sem iniciar o combate. Nenhum Ponto de Técnica é consumido se nenhum inimigo for atingido.",
         "en": "While Phainon is in the team, increases Max Technique Points by 3.\nWhen actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates #3[i] Energy for allies and gains #2[i] \"Scourge\" and #4[i] Skill Point(s). Deals Physical DMG equal to #1[i]% of Phainon's ATK to all enemies at the start of each wave.\nIf attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
-        "zh-CN": "白厄在队伍中时，使秘技点上限提高3点。\n主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，为我方队友恢复#3[i]点能量，获得#2[i]点【毁伤】和#4[i]个战技点，并且每个波次开始时对敌方全体造成等同于白厄#1[i]%攻击力的物理属性伤害。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。",
-        "ja": "ファイノンがパーティにいる時、秘技PT上限+3。\n秘技を使用すると、秘技PTを2消費し、即座に一定範囲内にいるすべての敵を攻撃する。戦闘に入った後、自身以外の味方のEPを#3[i]回復し、「壊傷」を#2[i]層、SPを#4[i]獲得する。さらに各ウェーブ開始時、敵全体にファイノンの攻撃力#1[i]%分の物理属性ダメージを与える。\n通常エネミーを攻撃するとターゲットはその場で倒され、戦闘に入らない。敵に命中しなかった場合、秘技PTは消費されない。",
-        "ko": "파이논이 파티에 있을 시 비술 포인트 최대치가 3pt 증가한다.\n비술을 직접 발동하면 비술 포인트를 2pt 소모하고 즉시 일정 범위 내의 모든 적을 공격한다. 전투 진입 후 아군의 에너지를 #3[i]pt 회복하고, [훼멸] #2[i]pt와 전투 스킬 포인트 #4[i]pt를 획득하며, 웨이브가 시작될 때마다 모든 적에게 파이논 공격력의 #1[i]%만큼 물리 속성 피해를 가한다.\n일반 적을 공격하면 대상을 즉시 처치하며 전투에 진입하지 않는다. 적을 명중하지 못하면 비술 포인트를 소모하지 않는다"
+        "zh-CN": "白厄在队伍中时，使秘技点上限提高3点。\n主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，为我方队友恢复#3[i]点能量，获得#2[i]点【毁伤】和#4[i]个战技点，并且每个波次开始时对敌方全体造成等同于白厄#1[i]%攻击力的物理属性伤害。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。"
       },
       "params": [[2, 2, 25, 1]],
       "icon": "icon/skill/1408_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Aumenta os Pontos de Técnica máximos em 3. Quando usar ativamente esta Técnica, consome 2 Pontos de Técnica para atacar todos os inimigos dentro de um certo alcance. Ao entrar em combate, regenera Energia para os aliados, recupera Pontos de Perícia e concede \"Flagelo.\" Causa Dano Físico a todos os inimigos no início de cada onda.\nAo atacar um inimigo normal, derrota-o imediatamente sem iniciar um combate. Caso nenhum inimigo seja atingido, nenhum Ponto de Técnica é consumido.",
         "en": "Increases Max Technique Points by 3. When actively using this Technique, consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, regenerates Energy for allies and gains Skill Points and \"Scourge.\" Deals Physical DMG to all enemies at the start of each wave.\nIf attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
-        "zh-CN": "秘技点上限提高3点。主动施放消耗2点秘技点攻击一定范围内的所有敌人。进入战斗后为我方恢复能量、战技点和【毁伤】，每个波次开始时对敌方全体造成物理属性伤害。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。",
-        "ja": "秘技PT上限+3。発動すると秘技PTを2消費し、一定範囲内のすべての敵を攻撃する。戦闘に入った後、味方のEP、SPを回復し、「壊傷」を獲得する。各ウェーブ開始時に敵全体に物理属性ダメージを与える。\n通常エネミーを攻撃するとターゲットはその場で倒され、戦闘に入らない。敵に命中しなかった場合、秘技PTは消費されない。",
-        "ko": "비술 포인트 최대치가 3pt 증가한다. 직접 발동 시 비술 포인트를 2pt 소모하고 일정 범위 내의 모든 적을 공격한다. 전투 진입 후 아군의 에너지, 전투 스킬 포인트, [훼멸]을 회복하고 웨이브가 시작될 때마다 모든 적에게 물리 속성 피해를 가한다.\n일반 적을 공격하면 대상을 즉시 처치하며 전투에 진입하지 않는다. 적을 명중하지 못하면 비술 포인트를 소모하지 않는다"
+        "zh-CN": "秘技点上限提高3点。主动施放消耗2点秘技点攻击一定范围内的所有敌人。进入战斗后为我方恢复能量、战技点和【毁伤】，每个波次开始时对敌方全体造成物理属性伤害。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" }
     },
     {
       "id": 140808,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Criação: A Balsa dos Espinhos de Sangue",
-        "en": "Creation: Bloodthorn Ferry",
-        "zh-CN": "创生•血棘渡亡",
-        "ja": "創生・血荊の葬送",
-        "ko": "창생•피 묻은 가시의 장송"
-      },
+      "name": { "en": "Creation: Bloodthorn Ferry", "zh-CN": "创生•血棘渡亡" },
       "description": {
-        "pt-BR": "Obtém #3[i] ponto(s) de \"Flagelo\", causando Dano Físico igual a #1[i]% do ATQ de Khaslana a um inimigo designado e Dano Físico igual a #2[i]% do ATQ de Khaslana aos alvos adjacentes.",
         "en": "Gains #3[i] point(s) of \"Scourge\", dealing Physical DMG equal to #1[i]% of Khaslana's ATK to one designated enemy and Physical DMG equal to #2[i]% of Khaslana's ATK to adjacent targets.",
-        "zh-CN": "获得#3[i]点【毁伤】，对指定敌方单体造成等同于卡厄斯兰那#1[i]%攻击力的物理属性伤害，对相邻目标造成等同于卡厄斯兰那#2[i]%攻击力的物理属性伤害。",
-        "ja": "「壊傷」を#3[i]層獲得し、指定した敵単体にカスライナの攻撃力#1[i]%分の物理属性ダメージを与え、隣接する敵にカスライナの攻撃力#2[i]%分の物理属性ダメージを与える。",
-        "ko": "[훼멸]을 #3[i]pt 획득하고 지정된 단일 적에게 카오스라나 공격력의 #1[i]%만큼 물리 속성 피해를 가하며, 인접한 목표에게 카오스라나 공격력의 #2[i]%만큼 물리 속성 피해를 가한다"
+        "zh-CN": "获得#3[i]点【毁伤】，对指定敌方单体造成等同于卡厄斯兰那#1[i]%攻击力的物理属性伤害，对相邻目标造成等同于卡厄斯兰那#2[i]%攻击力的物理属性伤害。"
       },
       "params": [
         [1.25, 0.375, 2],
@@ -304,31 +214,19 @@
       "icon": "icon/skill/1408_basic_atk2.png",
       "maxLevel": 10,
       "summary": {
-        "pt-BR": "Ganha 2 ponto(s) de \"Flagelo\", causando Dano Físico massivo a um inimigo e Dano Físico aos alvos adjacentes.",
         "en": "Gains 2 point(s) of \"Scourge\", dealing massive Physical DMG to one designated enemy and Physical DMG to adjacent targets.",
-        "zh-CN": "获得2点【毁伤】，对指定敌方单体造成大量物理属性伤害，对相邻目标造成物理属性伤害。",
-        "ja": "「壊傷」を2層獲得する。指定した敵単体に大量の物理属性ダメージを与え、隣接する敵に物理属性ダメージを与える。",
-        "ko": "[훼멸]을 2pt 획득하고, 지정된 단일 적에게 대량의 물리 속성 피해를 가하며, 인접한 목표에게 물리 속성 피해를 가한다"
+        "zh-CN": "获得2点【毁伤】，对指定敌方单体造成大量物理属性伤害，对相邻目标造成物理属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 140809,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Calamidade: Decreto da Alma Ardente",
-        "en": "Calamity: Soulscorch Edict",
-        "zh-CN": "灾厄•弑魂焚诏",
-        "ja": "災厄・魂命の滅却",
-        "ko": "재앙•영혼과 천명의 소멸"
-      },
+      "name": { "en": "Calamity: Soulscorch Edict", "zh-CN": "灾厄•弑魂焚诏" },
       "description": {
-        "pt-BR": "Ganha \"Flagelo\" em um valor igual ao número de inimigos-alvo presentes e 1 acúmulo de \"Alma Ardente\", então faz com que todos os inimigos-alvo ajam imediatamente.\nQuando estiver no estado de \"Alma Ardente\", reduz o Dano recebido por Khaslana em #2[i]% e ganha 1 acúmulo adicional de \"Alma Ardente\" depois que os inimigos-alvo mencionados anteriormente agirem, causando Dano Físico a todos os inimigos igual a #1[i]% do ATQ de Khaslana, além de causar adicionalmente #3[i] instância(s) de Dano, com cada instância sendo de Dano Físico igual a #4[i]% do ATQ de Khaslana a um inimigo aleatório. Então, \"Alma Ardente\" é removida. Cada acúmulo de \"Alma Ardente\" aumenta o multiplicador de Dano deste \"Contra-Ataque\" em #5[i]% do multiplicador original.\nO Dano causado através desta habilidade é considerado como Dano de Perícia. Se \"Alma Ardente\" ainda estiver ativa no início da rodada extra de Khaslana, desfere um \"Contra-Ataque\" imediatamente.",
         "en": "Gains \"Scourge\" by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\nWhile in the \"Soulscorch\" state, Khaslana takes #2[i]% reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches Counter, deals Physical DMG to all enemies equal to #1[i]% of Khaslana's ATK, and additionally deals #3[i] instance(s) of DMG, with each instance being Physical DMG equal to #4[i]% of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said Counter by #5[i]% of its original multiplier value.\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of Khaslana's extra turn, immediately launches Counter.",
-        "zh-CN": "获得等同于敌方全体数量的【毁伤】和1层【弑魂之炽】，随后使敌方全体立即行动。\n【弑魂之炽】状态下，卡厄斯兰那受到的伤害降低#2[i]%，敌方目标攻击或行动后叠加1层【弑魂之炽】。上述敌方目标行动完毕后，立即发动反击，对敌方全体造成等同于卡厄斯兰那#1[i]%攻击力的物理属性伤害，并额外造成#3[i]次伤害，每次对敌方随机单体造成等同于卡厄斯兰那#4[i]%攻击力的物理属性伤害，随后解除【弑魂之炽】。每层【弑魂之炽】使本次反击的伤害倍率提高原倍率的#5[i]%。\n通过此技能造成伤害时，被视为造成了战技伤害。若卡厄斯兰那的额外回合开始时仍持有【弑魂之炽】，立即发动反击。",
-        "ja": "敵の数と同数の「壊傷」と、「魂を殺す熾炎」を1層獲得し、その後敵全体を即座に行動させる。\n「魂を殺す熾炎」状態中、カスライナの受けるダメージ-#2[i]%、敵が攻撃または行動すると、「魂を殺す熾炎」を1層獲得する。敵が全員行動した後、即座にカウンターを発動し、敵全体にカスライナの攻撃力#1[i]%分の物理属性ダメージを与え、さらに#3[i]ヒットする。1ヒットごとにランダムな敵単体にカスライナの攻撃力#4[i]%分の物理属性ダメージを与える。その後「魂を殺す熾炎」状態を解除する。「魂を殺す熾炎」1層につき、その回のカウンターのダメージ倍率が本来の倍率の#5[i]%分アップする。\nこのスキルでダメージを与える時、戦闘スキルダメージを与えると見なされる。カスライナの追加ターンが回ってきた時、「魂を殺す熾炎」を所持している場合、即座にカウンターを発動する。",
-        "ko": "모든 적의 수만큼 [훼멸]을 획득하고, [영혼을 파쇄하는 불길]을 1스택 획득한다. 이후 모든 적을 즉시 행동하게 한다. \n[영혼을 파쇄하는 불길] 상태에서 카오스라나는 받는 피해가 #2[i]% 감소하고, 적이 공격 또는 행동 후 [영혼을 파쇄하는 불길]을 1스택 중첩한다. 해당 적 행동이 종료되면 즉시 반격을 발동하며, 모든 적에게 카오스라나 공격력의 #1[i]%만큼 물리 속성 피해를 가하고 추가로 피해를 #3[i]회 가하며, 회마다 랜덤 단일 적에게 카오스라나 공격력의 #4[i]%만큼 물리 속성 피해를 가하고, 이후 [영혼을 파쇄하는 불길]을 해제한다. [영혼을 파쇄하는 불길] 스택마다 이번 반격의 피해 배율을 기존 배율의 #5[i]%만큼 증가시킨다.\n해당 스킬을 통해 피해를 가할 시 전투 스킬 피해를 가한 것으로 간주한다. 카오스라나의 보너스 턴 시작 시 [영혼을 파쇄하는 불길]을 보유할 경우 즉시 반격을 발동한다"
+        "zh-CN": "获得等同于敌方全体数量的【毁伤】和1层【弑魂之炽】，随后使敌方全体立即行动。\n【弑魂之炽】状态下，卡厄斯兰那受到的伤害降低#2[i]%，敌方目标攻击或行动后叠加1层【弑魂之炽】。上述敌方目标行动完毕后，立即发动反击，对敌方全体造成等同于卡厄斯兰那#1[i]%攻击力的物理属性伤害，并额外造成#3[i]次伤害，每次对敌方随机单体造成等同于卡厄斯兰那#4[i]%攻击力的物理属性伤害，随后解除【弑魂之炽】。每层【弑魂之炽】使本次反击的伤害倍率提高原倍率的#5[i]%。\n通过此技能造成伤害时，被视为造成了战技伤害。若卡厄斯兰那的额外回合开始时仍持有【弑魂之炽】，立即发动反击。"
       },
       "params": [
         [0.2, 0.75, 4, 0.15, 0.2],
@@ -350,31 +248,19 @@
       "icon": "icon/skill/1408_skill2.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Obtém uma quantidade igual de \"Flagelo\" com base no número de inimigos e faz com que ajam imediatamente. Ganha \"Alma Ardente\": reduz o Dano recebido. Após todos os inimigos-alvo agirem, lança Contra-Ataque, causando Dano Físico leve a todos os inimigos, que ricocheteia 4 vez(es), e com cada ricochete causaa Dano Físico leve a um inimigo aleatório. Quanto mais ações os inimigos realizarem, maior será o Dano.",
         "en": "Gains an equal amount of \"Scourge\" based on the number of enemies, and causes them to immediately take action. Gains \"Soulscorch\": Reduces DMG taken. After all enemy targets have taken action, launches Counter, and deals minor Physical DMG to all enemies that bounces 4 time(s), with each time dealing minor Physical DMG to one random enemy. The more actions enemies take, the higher the DMG.",
-        "zh-CN": "基于敌人数量获得等量【毁伤】，使其立即行动。获得【弑魂之炽】：受到的伤害降低，敌方目标都行动过后发动反击，对敌方全体造成少量物理属性伤害并弹射4次，每次对敌方随机单体造成少量物理属性伤害。敌方行动次数越多伤害越高。",
-        "ja": "敵の数と同等の「壊傷」を獲得し、敵全体を即座に行動させる。「魂を殺す熾炎」を獲得する。「魂を殺す熾炎」の効果：受けるダメージがダウン、敵が全員行動した後カウンターを発動し、敵全体に少量の物理属性ダメージを与え、さらに4回バウンドする。1ヒットごとにランダムな敵単体に少量の物理属性ダメージを与える。敵が行動した回数が多いほどダメージが高くなる。",
-        "ko": "적의 수에 기반하여 같은 양의 [훼멸]을 획득하고, 즉시 대상을 행동하게 한다. [영혼을 파쇄하는 불길]을 획득한다. [영혼을 파쇄하는 불길]: 받는 피해가 감소하고, 적이 모두 행동한 후 반격을 발동하여 모든 적에게 소량의 물리 속성 피해를 가하고 4회 바운스하며, 회마다 랜덤 단일 적에게 소량의 물리 속성 피해를 가한다. 적의 행동 횟수가 많을수록 피해가 증가한다"
+        "zh-CN": "基于敌人数量获得等量【毁伤】，使其立即行动。获得【弑魂之炽】：受到的伤害降低，敌方目标都行动过后发动反击，对敌方全体造成少量物理属性伤害并弹射4次，每次对敌方随机单体造成少量物理属性伤害。敌方行动次数越多伤害越高。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 140811,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Fundação: Julgamento Estelar",
-        "en": "Foundation: Stardeath Verdict",
-        "zh-CN": "支柱•死星天裁",
-        "ja": "支柱・死星の天裁",
-        "ko": "기둥•죽음의 별의 심판"
-      },
+      "name": { "en": "Foundation: Stardeath Verdict", "zh-CN": "支柱•死星天裁" },
       "description": {
-        "pt-BR": "Remove todas as penalidades desta unidade, depois causa Dano Físico igual a um máximo de #5[i]% do ATQ de Khaslana.\nPara cada ponto de \"Flagelo\" consumido, causa #3[i] instância(s) de Dano, com cada instância sendo Dano Físico igual a #2[f1]% do ATQ de Khaslana aplicado a um inimigo aleatório. Ao consumir #4[i] ponto(s) de \"Flagelo\", causa adicionalmente Dano Físico igual a #1[i]% do ATQ de Khaslana, que é distribuído igualmente entre todos os inimigos.",
         "en": "Dispels all debuffs on this unit, then deals Physical DMG equal to a max of #5[i]% of Khaslana's ATK.\nFor every 1 point of \"Scourge\" consumed, deals #3[i] instance(s) of DMG, with each instance being Physical DMG equal to #2[f1]% of Khaslana's ATK dealt to one random enemy. When consuming #4[i] point(s) of \"Scourge\", additionally deals Physical DMG equal to #1[i]% of Khaslana's ATK, which is evenly distributed across all enemies.",
-        "zh-CN": "解除自身所有负面效果，随后造成最多等同于卡厄斯兰那#5[i]%攻击力的物理属性伤害。\n其中，每消耗1点【毁伤】造成#3[i]次伤害，每次对敌方随机单体造成等同于卡厄斯兰那#2[f1]%攻击力的物理属性伤害。消耗#4[i]点【毁伤】时，额外造成等同于卡厄斯兰那#1[i]%攻击力的物理属性伤害，由敌方全体均分。",
-        "ja": "自身のすべてのデバフを解除し、所持している「壊傷」を消費して、最大でカスライナの攻撃力#5[i]%分の物理属性ダメージを与える。\n「壊傷」を1層消費するたびに#3[i]ヒットし、1ヒットごとにランダムな敵単体にカスライナの攻撃力#2[f1]%分の物理属性ダメージを与える。\n・所持している「壊傷」が4層未満の場合、すべての「壊傷」を消費する。\n・所持している「壊傷」が4層以上の場合、「壊傷」を4層消費し、さらに追加でカスライナの攻撃力#1[i]%分の物理属性ダメージを与える。追加のダメージは敵全体で均等に分担される。",
-        "ko": "자신의 모든 디버프 효과를 해제하고, 이후 최대 카오스라나 공격력의 #5[i]%만큼 물리 속성 피해를 가한다.\n그중 [훼멸]을 1pt 소모할 때마다 피해를 #3[i]회 가하며, 회마다 랜덤 단일 적에게 카오스라나 공격력의 #2[f1]%만큼 물리 속성 피해를 가한다. [훼멸] #4[i]pt 소모 시 추가로 카오스라나 공격력의 #1[i]%만큼 물리 속성 피해를 가하며, 해당 피해는 모든 적이 균등 분담한다"
+        "zh-CN": "解除自身所有负面效果，随后造成最多等同于卡厄斯兰那#5[i]%攻击力的物理属性伤害。\n其中，每消耗1点【毁伤】造成#3[i]次伤害，每次对敌方随机单体造成等同于卡厄斯兰那#2[f1]%攻击力的物理属性伤害。消耗#4[i]点【毁伤】时，额外造成等同于卡厄斯兰那#1[i]%攻击力的物理属性伤害，由敌方全体均分。"
       },
       "params": [
         [2.25, 0.225, 4, 4, 5.85],
@@ -396,32 +282,20 @@
       "icon": "icon/skill/1408_skill3.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Remove todas as penalidades desta unidade. Para cada 1 ponto de \"Flagelo\" consumido, Ricocheteia 4 vez(es), causando Dano Físico leve a um inimigo aleatório a cada vez.\nSe 4 ponto(s) de \"Flagelo\" forem consumidos, causa adicionalmente Dano Físico massivo que é distribuído igualmente por todos os inimigos.",
         "en": "Dispels all debuffs on this unit. For every 1 \"Scourge\" consumed, bounces 4 time(s), with each time dealing minor Physical DMG to one random enemy.\nIf 4 \"Scourge\" are consumed, additionally deals massive Physical DMG that is evenly taken by all enemies.",
-        "zh-CN": "解除自身所有负面效果。每消耗1点【毁伤】弹射4次，每次对敌方随机单体造成少量物理属性伤害。\n若消耗了4点【毁伤】，额外造成由敌方全体均分的大量物理属性伤害。",
-        "ja": "自身のすべてのデバフを解除し、所持している「壊傷」を消費して、ダメージを与える。「壊傷」を1層消費するたびに、4ヒットし、1ヒットごとにランダムな敵単体に少量の物理属性ダメージを与える。\n「壊傷」を4層消費した場合、敵全体で均等に分担される大量の物理属性ダメージを追加で与える。",
-        "ko": "자신의 모든 디버프 효과를 해제한다. [훼멸]을 1pt 소모할 때마다 4회 바운스하며, 회마다 랜덤 단일 적에게 소량의 물리 속성 피해를 가한다.\n[훼멸]을 4pt 소모할 경우 추가로 모든 적이 균등 분담하는 대량의 물리 속성 피해를 가한다"
+        "zh-CN": "解除自身所有负面效果。每消耗1点【毁伤】弹射4次，每次对敌方随机单体造成少量物理属性伤害。\n若消耗了4点【毁伤】，额外造成由敌方全体均分的大量物理属性伤害。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Bounce", "zh-CN": "弹射" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Fogo e Luz Atam a Virtude e o Vício",
-        "en": "Fire and Light Bind Virtue and Vice",
-        "zh-CN": "火与光，善恶的化身",
-        "ja": "{RUBY_B#ほのお}炎{RUBY_E#}と{RUBY_B#ひかり}光{RUBY_E#}、{RUBY_B#ぜん}善{RUBY_E#}と{RUBY_B#あく}悪{RUBY_E#}の{RUBY_B#けしん}化身{RUBY_E#}",
-        "ko": "불과 빛, 선악의 화신"
-      },
+      "name": { "en": "Fire and Light Bind Virtue and Vice", "zh-CN": "火与光，善恶的化身" },
       "description": {
-        "pt-BR": "A taxa-base de herança de VEL da rodada extra de Khaslana aumenta para 66%. Para cada inimigo-alvo derrotado em uma batalha, aumenta em mais 1.5%, até 84%.\nAo usar a Perícia Suprema, o Dano CRIT aumenta em 50%, durando por 3 rodada(s).",
         "en": "The base SPD inheritance ratio for Khaslana's extra turn increases to 66%. For every enemy target defeated in one battle, additionally increases this ratio by 1.5%, up to a max of 84%.\nWhen using Ultimate, increases CRIT DMG by 50%, lasting for 3 turn(s).",
-        "zh-CN": "卡厄斯兰那的额外回合的基础速度继承比例提高至66%。单场战斗中每有1个敌方目标被消灭，使其额外提高1.5%，最多提高至84%。\n施放终结技时，暴击伤害提高50%，持续3回合。",
-        "ja": "カスライナの追加ターンの基礎速度継承率が66%まで上がる。一度の戦闘で、敵が1体倒されるたびに、さらに+1.5%、最大84%まで。\n必殺技を発動する時、会心ダメージ+50%、3ターン継続。",
-        "ko": "카오스라나의 보너스 턴의 기본 속도 계승 비율이 66%로 증가한다. 단일 전투에서 적이 1기 처치될 때마다 추가로 1.5% 증가하고, 최대 84%까지 증가한다.\n필살기 발동 시 치명타 피해가 50% 증가한다, 지속 시간: 3턴"
+        "zh-CN": "卡厄斯兰那的额外回合的基础速度继承比例提高至66%。单场战斗中每有1个敌方目标被消灭，使其额外提高1.5%，最多提高至84%。\n施放终结技时，暴击伤害提高50%，持续3回合。"
       },
       "icon": "icon/skill/1408_rank1.png",
       "materials": [{ "id": 11408, "num": 1 }],
@@ -429,19 +303,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Céu e Terra Remexem a Espuma Mortal",
-        "en": "Sky and Earth Churn Mortal Froth",
-        "zh-CN": "天与地，世间的泡沫",
-        "ja": "{RUBY_B#てん}天{RUBY_E#}と{RUBY_B#ち}地{RUBY_E#}、すべては{RUBY_B#ほうえい}泡影{RUBY_E#}",
-        "ko": "하늘과 땅, 세상의 포영"
-      },
+      "name": { "en": "Sky and Earth Churn Mortal Froth", "zh-CN": "天与地，世间的泡沫" },
       "description": {
-        "pt-BR": "A PEN de RES a Físico de Khaslana aumenta em 20%. Ao consumir 4 ponto(s) de \"Flagelo\" em um uso de \"Fundação: Julgamento Estelar\", ganha 1 rodada extra.",
         "en": "Khaslana's Physical RES PEN increases by 20%. When one use of \"Foundation: Stardeath Verdict\" consumes 4 \"Scourge\" point(s), gains 1 extra turn.",
-        "zh-CN": "卡厄斯兰那的物理属性抗性穿透提高20%。单次施放【支柱•死星天裁】消耗【毁伤】点数达到4点时，获得1个额外回合。",
-        "ja": "カスライナの物理属性耐性貫通+20%。1回の「支柱・死星の天裁」の発動で、消費した「壊傷」が4層に達した場合、追加ターンを1獲得する。",
-        "ko": "카오스라나의 물리 속성 저항 관통이 20% 증가한다. [기둥•죽음의 별의 심판] 1회 발동으로 소모하는 [훼멸] 포인트가 4pt 도달 시 보너스 턴을 1개 획득한다"
+        "zh-CN": "卡厄斯兰那的物理属性抗性穿透提高20%。单次施放【支柱•死星天裁】消耗【毁伤】点数达到4点时，获得1个额外回合。"
       },
       "icon": "icon/skill/1408_rank2.png",
       "materials": [{ "id": 11408, "num": 1 }],
@@ -449,19 +314,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Nas Profundezas do Silêncio, Sepultado na Ruína",
-        "en": "Depths of Quiet, Entombed in Ruin",
-        "zh-CN": "几重寂静深埋归墟",
-        "ja": "{RUBY_B#しんえん}深淵{RUBY_E#}に{RUBY_B#う}埋{RUBY_E#}もれし\n{RUBY_B#いくえ}幾重{RUBY_E#}もの{RUBY_B#せいじゃく}静寂{RUBY_E#}",
-        "ko": "무수한 고요함은 귀허에 묻혔고"
-      },
+      "name": { "en": "Depths of Quiet, Entombed in Ruin", "zh-CN": "几重寂静深埋归墟" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1408_ultimate.png",
       "materials": [{ "id": 11408, "num": 1 }],
@@ -469,19 +325,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Rostos dos Titãs, Ofuscados pelo Tempo",
-        "en": "Faces of Titans, Blurred by Time",
-        "zh-CN": "多少泰坦面目模糊",
-        "ja": "{RUBY_B#かす}霞{RUBY_E#}みゆくタイタンたちの{RUBY_B#おもかげ}面影{RUBY_E#}",
-        "ko": "수없는 티탄의 얼굴이 흐릿해졌네"
-      },
+      "name": { "en": "Faces of Titans, Blurred by Time", "zh-CN": "多少泰坦面目模糊" },
       "description": {
-        "pt-BR": "Ao utilizar \"Calamidade: Decreto da Alma Ardente\", ganha adicionalmente 4 acúmulo(s) de \"Alma Ardente\".",
         "en": "When using \"Calamity: Soulscorch Edict,\" additionally gains 4 stack(s) of \"Soulscorch.\"",
-        "zh-CN": "施放【灾厄•弑魂焚诏】时，额外获得4层【弑魂之炽】。",
-        "ja": "「災厄・魂命の滅却」を発動する時、追加で「魂を殺す熾炎」を4層獲得する。",
-        "ko": "[재앙•영혼과 천명의 소멸] 발동 시 [영혼을 파쇄하는 불길]을 추가로 4스택 획득한다"
+        "zh-CN": "施放【灾厄•弑魂焚诏】时，额外获得4层【弑魂之炽】。"
       },
       "icon": "icon/skill/1408_rank4.png",
       "materials": [{ "id": 11408, "num": 1 }],
@@ -489,19 +336,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "A Roda Gira Eternamente",
-        "en": "The Wheel Spins Forevermore",
-        "zh-CN": "永劫时针，三千万转",
-        "ja": "{RUBY_B#さんぜんまん}三千万{RUBY_E#}の{RUBY_B#かいき}回帰{RUBY_E#}と\n{RUBY_B#えいごう}永劫{RUBY_E#}の{RUBY_B#じしん}時針{RUBY_E#}",
-        "ko": "영겁의 시곗바늘, 삼천만 번의 회전"
-      },
+      "name": { "en": "The Wheel Spins Forevermore", "zh-CN": "永劫时针，三千万转" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1408_skill.png",
       "materials": [{ "id": 11408, "num": 1 }],
@@ -515,19 +353,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "As Chamas do Passado Ainda Queimam",
-        "en": "Embers of Old Rise Still",
-        "zh-CN": "亘古长升，蚀火残阳",
-        "ja": "{RUBY_B#えいえん}永遠{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす\n{RUBY_B#ふめつ}不滅{RUBY_E#}の{RUBY_B#ざんしょう}残照{RUBY_E#}",
-        "ko": "이지러진 석양, 영원토록 떠오르리"
-      },
+      "name": { "en": "Embers of Old Rise Still", "zh-CN": "亘古长升，蚀火残阳" },
       "description": {
-        "pt-BR": "O número de pontos excedentes da \"Chama Primordial\" não possui mais um limite máximo. No início do combate, obtém 6 \"Chama(s) Primordial(is)\".\nApós usar o ataque de \"Fundação: Julgamento Estelar\", causa adicionalmente Dano Verdadeiro igual a 36% do Dano total causado nesse ataque ao inimigo com maior quantidade de PV.",
         "en": "The number of overflow points allowed for \"Coreflame\" no longer has an upper limit. When the battle starts, gains 6 point(s) of \"Coreflame.\"\nAfter using the attack from \"Foundation: Stardeath Verdict,\" additionally deals True DMG equal to 36% of the total DMG dealt in this attack to the enemy target with the highest HP.",
-        "zh-CN": "【火种】的可溢出点数不再拥有上限。战斗开始时，获得6点【火种】。\n施放【支柱•死星天裁】的攻击后，对生命值最高的敌方目标额外造成等同于本次攻击总伤害值36%的真实伤害。",
-        "ja": "保存できる超過分の「火種」の上限がなくなる。戦闘開始時、「火種」を6個獲得する。\n「支柱・死星の天裁」を発動後、残りHPが最も高い敵に、その回の攻撃の合計ダメージ36%分の確定ダメージを与える。",
-        "ko": "[불씨]의 초과 가능 포인트에 상한이 없어진다. 전투 시작 시 [불씨]를 6pt 획득한다.\n[기둥•죽음의 별의 심판]의 공격 발동 후 HP가 가장 높은 적에게 추가로 이번 공격 총 피해량의 36%만큼 확정 피해를 가한다"
+        "zh-CN": "【火种】的可溢出点数不再拥有上限。战斗开始时，获得6点【火种】。\n施放【支柱•死星天裁】的攻击后，对生命值最高的敌方目标额外造成等同于本次攻击总伤害值36%的真实伤害。"
       },
       "icon": "icon/skill/1408_rank6.png",
       "materials": [{ "id": 11408, "num": 1 }],
@@ -902,19 +731,10 @@
     {
       "id": 1408101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Marcha para o Esquecimento",
-        "en": "March to Oblivion",
-        "zh-CN": "行向世界终点",
-        "ja": "{RUBY_B#せかい}世界{RUBY_E#}の{RUBY_B#しゅうてん}終点{RUBY_E#}へ{RUBY_B#おもむ}赴{RUBY_E#}く",
-        "ko": "세계의 종점을 향해"
-      },
+      "name": { "en": "March to Oblivion", "zh-CN": "行向世界终点" },
       "description": {
-        "pt-BR": "Quando a batalha começa, ganha #2[i] ponto(s) de \"Chama Primordial\". Quando a transformação acaba, ganha #1[i] ponto(s) de \"Chama Primordial\".",
         "en": "When the battle starts, gains #2[i] point(s) of \"Coreflame.\" When the transformation ends, gains #1[i] point(s) of \"Coreflame.\"",
-        "zh-CN": "战斗开始时，获得#2[i]点【火种】。变身结束时，获得#1[i]点【火种】。",
-        "ja": "戦闘開始時、「火種」を#2[i]個獲得する。変身終了時、「火種」を#1[i]個獲得する。",
-        "ko": "전투 시작 시 [불씨]를 #2[i]pt 획득한다. 변신 종료 시 [불씨]를 #1[i]pt 획득한다"
+        "zh-CN": "战斗开始时，获得#2[i]点【火种】。变身结束时，获得#1[i]点【火种】。"
       },
       "params": [[3, 1]],
       "icon": "icon/skill/1408_skilltree1.png",
@@ -933,19 +753,10 @@
     {
       "id": 1408102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Encarnação em Chamas",
-        "en": "Bide in Flames",
-        "zh-CN": "身承炎炬万千",
-        "ja": "{RUBY_B#いくせんまん}幾千万{RUBY_E#}の{RUBY_B#ほのお}炎{RUBY_E#}を{RUBY_B#たずさ}携{RUBY_E#}えて",
-        "ko": "수많은 횃불을 짊어진 몸"
-      },
+      "name": { "en": "Bide in Flames", "zh-CN": "身承炎炬万千" },
       "description": {
-        "pt-BR": "Ao receber efeitos de Cura ou Escudos de um aliado, o Dano causado aumenta em #1[i]% por #2[i] rodada(s). Este efeito não pode ser ativado repetidamente dentro da mesma rodada.\nAo receber efeitos de regeneração de Energia fornecidos por aliados, obtém #3[i] ponto(s) de \"Chama Primordial\".",
         "en": "When receiving healing or a Shield from a teammate, deals #1[i]% increased DMG for #2[i] turn(s). This effect cannot trigger repeatedly within one turn.\nWhen receiving an Energy Regeneration effect from a teammate's ability, gains #3[i] point(s) of \"Coreflame.\"",
-        "zh-CN": "受到队友提供的治疗效果或护盾时，造成的伤害提高#1[i]%，持续#2[i]回合。该效果单个回合内不可重复触发。\n受到队友提供的能量恢复的技能效果时，获得#3[i]点【火种】。",
-        "ja": "自身以外の味方による治癒効果またはバリアを得た時、与ダメージ+#1[i]%、#2[i]ターン継続。この効果は1ターンに1回まで発動できる。\n自身以外の味方のスキルによるEP回復効果を受けた時、「火種」を#3[i]個獲得する。",
-        "ko": "동료가 제공하는 치유 효과 또는 실드를 받을 시 가하는 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴. 해당 효과는 단일 턴 내에 중복 발동하지 않는다.\n동료가 제공하는 에너지 회복 스킬 효과를 받을 시 [불씨]를 #3[i]pt 획득한다"
+        "zh-CN": "受到队友提供的治疗效果或护盾时，造成的伤害提高#1[i]%，持续#2[i]回合。该效果单个回合内不可重复触发。\n受到队友提供的能量恢复的技能效果时，获得#3[i]点【火种】。"
       },
       "params": [[0.45, 4, 1]],
       "icon": "icon/skill/1408_skilltree2.png",
@@ -969,19 +780,10 @@
     {
       "id": 1408103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Aura Heroica",
-        "en": "Shine with Valor",
-        "zh-CN": "照见英雄本色",
-        "ja": "{RUBY_B#うつ}映{RUBY_E#}し{RUBY_B#だ}出{RUBY_E#}されし{RUBY_B#えいゆう}英雄{RUBY_E#}の{RUBY_B#ほんしつ}本質{RUBY_E#}",
-        "ko": "투영된 영웅의 본색"
-      },
+      "name": { "en": "Shine with Valor", "zh-CN": "照见英雄本色" },
       "description": {
-        "pt-BR": "Ao entrar em batalha ou quando a transformação acaba, aumenta o ATQ em #1[i]%. Este efeito pode acumular até #2[i] vez(es).",
         "en": "When entering combat or ending transformation, increases ATK by #1[i]%. This effect can stack up to #2[i] time(s).",
-        "zh-CN": "进入战斗或变身结束时，攻击力提高#1[i]%。该效果最多叠加#2[i]层。",
-        "ja": "戦闘に入る、または変身終了時に、攻撃力+#1[i]%。この効果は最大で#2[i]層まで累積できる。",
-        "ko": "전투 진입 또는 변신 종료 시 공격력이 #1[i]% 증가한다. 해당 효과 최대 중첩수: #2[i]스택"
+        "zh-CN": "进入战斗或变身结束时，攻击力提高#1[i]%。该效果最多叠加#2[i]层。"
       },
       "params": [[0.5, 2]],
       "icon": "icon/skill/1408_skilltree3.png",
@@ -1005,13 +807,7 @@
     {
       "id": 1408201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1028,13 +824,7 @@
     {
       "id": 1408202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1408101],
@@ -1051,13 +841,7 @@
     {
       "id": 1408203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1408202],
@@ -1074,7 +858,7 @@
     {
       "id": 1408204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1408203],
@@ -1091,13 +875,7 @@
     {
       "id": 1408205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1408102],
@@ -1114,13 +892,7 @@
     {
       "id": 1408206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1408205],
@@ -1137,13 +909,7 @@
     {
       "id": 1408207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1408206],
@@ -1160,7 +926,7 @@
     {
       "id": 1408208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1408103],
@@ -1177,13 +943,7 @@
     {
       "id": 1408209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1408208],
@@ -1200,13 +960,7 @@
     {
       "id": 1408210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1408208],

@@ -1,7 +1,7 @@
 {
   "id": 1306,
   "slug": "sparkle",
-  "name": { "pt-BR": "Sparkle", "en": "Sparkle", "zh-CN": "花火", "ja": "花火", "ko": "스파클" },
+  "name": { "en": "Sparkle", "zh-CN": "花火" },
   "rarity": 5,
   "path": "Harmony",
   "element": "Quantum",
@@ -11,43 +11,25 @@
     {
       "id": 130601,
       "type": "Basic",
-      "name": { "pt-BR": "Monodrama", "en": "Monodrama", "zh-CN": "独角戏", "ja": "独り芝居", "ko": "모노드라마" },
+      "name": { "en": "Monodrama", "zh-CN": "独角戏" },
       "description": {
-        "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Sparkle a um único inimigo-alvo.",
         "en": "Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于花火#1[i]%攻击力的量子属性伤害。",
-        "ja": "指定した敵単体に花火の攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 스파클 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于花火#1[i]%攻击力的量子属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1306_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano Quântico leve a um único inimigo.",
-        "en": "Deals minor Quantum DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量量子属性伤害。",
-        "ja": "敵単体に少量の量子属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Quantum DMG to one enemy.", "zh-CN": "对敌方单体造成少量量子属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 130602,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Mergulhadora de Sonhos",
-        "en": "Dreamdiver",
-        "zh-CN": "梦游鱼",
-        "ja": "夢を泳ぐ魚",
-        "ko": "꿈을 헤엄치는 물고기"
-      },
+      "name": { "en": "Dreamdiver", "zh-CN": "梦游鱼" },
       "description": {
-        "pt-BR": "Aumenta o Dano CRIT de um único aliado-alvo em #1[f1]% do Dano CRIT de Sparkle + #2[f1]%, durando por #3[i] rodada(s). E ao mesmo tempo, Avança Adiante a ação deste aliado em #4[i]%.\nQuando Sparkle usa essa habilidade em si, sua ação não será Avançada Adiante.",
         "en": "Increases the CRIT DMG of a single target ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for #3[i] turn(s). And at the same time, Advances Forward this ally's action by #4[i]%.\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
-        "zh-CN": "使指定我方单体的暴击伤害提高，提高数值等同于花火#1[f1]%暴击伤害+#2[f1]%，持续#3[i]回合，并使该目标行动提前#4[i]%。\n当花火对自身施放该技能时，无法触发行动提前效果。",
-        "ja": "指定した味方単体の会心ダメージを、花火の会心ダメージ#1[f1]%分+#2[f1]%アップする、#3[i]ターン継続。その味方の行動順を#4[i]%早める。\n自身に対してこのスキルを発動した時、行動順を早める効果は発動しない。",
-        "ko": "지정된 단일 아군의 치명타 피해가 스파클 치명타 피해의 #1[f1]%에 #2[f1]%를 더한 값만큼 증가한다. 지속 시간: #3[i]턴. 또한, 해당 목표의 행동 게이지가 #4[i]% 증가한다.\n스파클이 자신에게 해당 스킬을 발동하면 행동 게이지 증가 효과가 발동하지 않는다"
+        "zh-CN": "使指定我方单体的暴击伤害提高，提高数值等同于花火#1[f1]%暴击伤害+#2[f1]%，持续#3[i]回合，并使该目标行动提前#4[i]%。\n当花火对自身施放该技能时，无法触发行动提前效果。"
       },
       "params": [
         [0.12, 0.27, 1, 0.5],
@@ -69,31 +51,19 @@
       "icon": "icon/skill/1306_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Aumenta o Dano CRIT de um aliado e sua ação é Avançada Adiante.",
         "en": "Increases an ally's CRIT DMG and Advances Forward their action.",
-        "zh-CN": "使我方单体暴击伤害提高，并使该目标行动提前。",
-        "ja": "味方単体の会心ダメージをアップし、その味方の行動順を早める。",
-        "ko": "단일 아군의 치명타 피해가 증가하고, 해당 목표의 행동 게이지가 증가한다"
+        "zh-CN": "使我方单体暴击伤害提高，并使该目标行动提前。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 130603,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "A Heroína de Mil Faces",
-        "en": "The Hero with a Thousand Faces",
-        "zh-CN": "一人千役",
-        "ja": "一人千役",
-        "ko": "천의 얼굴"
-      },
+      "name": { "en": "The Hero with a Thousand Faces", "zh-CN": "一人千役" },
       "description": {
-        "pt-BR": "Recupera #2[i] Pontos de Perícia para a equipe e concede Criptografia a todos os aliados. Para aliados com Criptografia, cada acúmulo do efeito de Bônus de Dano concedido pelo Talento de Sparkle aumenta adicionalmente em #3[f1]%, durando por #4[i] rodada(s).",
         "en": "Recovers #2[i] Skill Points for the team and grants all allies Cipher. For allies with Cipher, each stack of the DMG Boost effect provided by Sparkle's Talent additionally increases by #3[f1]%, lasting for #4[i] turns.",
-        "zh-CN": "为我方恢复#2[i]个战技点，并使我方全体获得【谜诡】。持有【谜诡】的我方目标触发花火天赋造成的伤害提高效果每层额外提高#3[f1]%，持续#4[i]回合。",
-        "ja": "SPを#2[i]回復し、味方全体に「奇怪な謎」を付与する。「奇怪な謎」が付与されている味方は、花火の天賦の与ダメージアップ効果がさらに各層#3[f1]%アップする、#4[i]ターン継続。",
-        "ko": "아군의 전투 스킬 포인트를 #2[i]pt 회복하고 모든 아군이 [기이한 수수께끼] 효과를 획득한다. [기이한 수수께끼]를 보유한 아군은 스파클 특성으로 발동되는 피해 증가 효과가 스택당 추가로 #3[f1]% 증가한다. 지속 시간: #4[i]턴"
+        "zh-CN": "为我方恢复#2[i]个战技点，并使我方全体获得【谜诡】。持有【谜诡】的我方目标触发花火天赋造成的伤害提高效果每层额外提高#3[f1]%，持续#4[i]回合。"
       },
       "params": [
         [2, 4, 0.06, 2],
@@ -115,31 +85,19 @@
       "icon": "icon/skill/1306_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Recupera Pontos de Perícia para a equipe e habilita que o Bônus de Dano provido pelo Talento de Sparkle seja adicionalmente aprimorado.",
         "en": "Recovers Skill Points for the team, and enables the DMG Boost provided by Sparkle's Talent to be additionally enhanced.",
-        "zh-CN": "为我方恢复战技点，使触发花火天赋的伤害提高效果额外提高。",
-        "ja": "SPを回復し、花火の天賦による与ダメージアップ効果を強化する。",
-        "ko": "아군의 전투 스킬 포인트를 회복하고, 스파클 특성으로 발동하는 피해 증가 효과가 추가로 증가한다"
+        "zh-CN": "为我方恢复战技点，使触发花火天赋的伤害提高效果额外提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 130604,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Pista Falsa",
-        "en": "Red Herring",
-        "zh-CN": "叙述性诡计",
-        "ja": "叙述トリック",
-        "ko": "서술 트릭"
-      },
+      "name": { "en": "Red Herring", "zh-CN": "叙述性诡计" },
       "description": {
-        "pt-BR": "Enquanto Sparkle estiver no campo de batalha, aumenta adicionalmente o número máximo de Pontos de Perícia em #3[i]. Sempre que um aliado consome 1 Ponto de Perícia, o Dano causado por todos os aliados será aumentado em #2[f1]%. Este efeito dura por #1[i] rodada(s) e pode ser acumulado até #4[i] veze(s).",
         "en": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally consumes 1 Skill Point, all allies' DMG dealt increases by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).",
-        "zh-CN": "花火在场时，战技点上限额外增加#3[i]点。当我方目标每消耗1点战技点，则使我方全体造成的伤害提高#2[f1]%，该效果持续#1[i]回合，最多可叠加#4[i]层。",
-        "ja": "花火がフィールド上にいる時、最大SP+#3[i]。味方がSPを1消費するたびに、味方全体の与ダメージ+#2[f1]%、#1[i]ターン継続、最大で#4[i]層累積できる。",
-        "ko": "스파클이 필드에 있을 시 전투 스킬 포인트 최대치가 추가로 #3[i]pt 증가한다. 아군이 전투 스킬 포인트를 1pt 소모할 때마다 모든 아군이 가하는 피해가 #2[f1]% 증가한다, 해당 효과 지속 시간: #1[i]턴, 최대 중첩수: #4[i]스택"
+        "zh-CN": "花火在场时，战技点上限额外增加#3[i]点。当我方目标每消耗1点战技点，则使我方全体造成的伤害提高#2[f1]%，该效果持续#1[i]回合，最多可叠加#4[i]层。"
       },
       "params": [
         [2, 0.03, 2, 3],
@@ -161,106 +119,67 @@
       "icon": "icon/skill/1306_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Aumenta o máximo de Pontos de Perícia da equipe. Sempre que um aliado consome Pontos de Perícia, permite que todos os aliados causem mais Dano.",
         "en": "Increases the team's Max Skill Points. Whenever an ally consumes Skill Points, enables all allies to deal more damage.",
-        "zh-CN": "我方的战技点上限提高，我方目标消耗战技点时，使我方全体造成的伤害提高。",
-        "ja": "最大SPがアップする。味方がSPを消費する時、味方全体の与ダメージをアップする。",
-        "ko": "아군의 전투 스킬 포인트 최대치가 증가하고, 아군이 전투 스킬 포인트 소모 시 모든 아군이 가하는 피해가 증가한다"
+        "zh-CN": "我方的战技点上限提高，我方目标消耗战技点时，使我方全体造成的伤害提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 130606,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1306_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 130607,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Narradora Nada Confiável",
-        "en": "Unreliable Narrator",
-        "zh-CN": "不可靠叙事者",
-        "ja": "信用できない語り手",
-        "ko": "믿을 수 없는 화자"
-      },
+      "name": { "en": "Unreliable Narrator", "zh-CN": "不可靠叙事者" },
       "description": {
-        "pt-BR": "Usar a Técnica oferece a todos os aliados Desorientação por #2[i] segundos. Personagens em Desorientação não serão detectados por inimigos, e entrar em batalha enquanto estão no estado de Desorientação recupera #1[i] Ponto(s) de Perícia para a equipe.",
         "en": "After using Technique, grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers #1[i] Skill Point(s) for the team.",
-        "zh-CN": "使用秘技后，我方全体进入持续#2[i]秒的【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复#1[i]个战技点。",
-        "ja": "秘技を使用した後、味方全体は#2[i]秒の「ミスリード」状態になる。「ミスリード」状態になると敵に発見されなくなり、敵を先制攻撃して戦闘に入る時、SPを#1[i]回復する。",
-        "ko": "비술 사용 후 모든 아군이 #2[i]초 동안 [미혹] 상태에 진입한다. [미혹] 상태에선 적에게 들키지 않으며, [미혹] 중에 전투 진입 시 아군이 전투 스킬 포인트를 #1[i]pt 회복한다"
+        "zh-CN": "使用秘技后，我方全体进入持续#2[i]秒的【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复#1[i]个战技点。"
       },
       "params": [[3, 20]],
       "icon": "icon/skill/1306_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Usar a Técnica oferece a todos os aliados Desorientação. Personagens com Desorientação não serão detectados pelos inimigos, e entrar em batalha enquanto em Desorientação recupera Pontos de Perícia para os aliados.",
         "en": "After using Technique, grants all allies Misdirect. Characters with Misdirect will not be detected by enemies, and entering combat while in Misdirect recovers Skill Points for allies.",
-        "zh-CN": "使用秘技后，我方全体进入【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复战技点。",
-        "ja": "秘技を使用した後、味方全体は「ミスリード」状態になる。「ミスリード」状態になると敵に発見されなくなり、敵を先制攻撃して戦闘に入る時、SPを回復する。",
-        "ko": "비술 사용 후 모든 아군이 [미혹] 상태에 진입한다. [미혹] 상태에선 적에게 들키지 않으며, [미혹] 중에 전투 진입 시 아군이 전투 스킬 포인트를 회복한다"
+        "zh-CN": "使用秘技后，我方全体进入【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复战技点。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 1130601,
       "type": "Basic",
-      "name": { "pt-BR": "Monodrama", "en": "Monodrama", "zh-CN": "独角戏", "ja": "独り芝居", "ko": "모노드라마" },
+      "name": { "en": "Monodrama", "zh-CN": "独角戏" },
       "description": {
-        "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Sparkle a um único inimigo designado.",
         "en": "Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于花火#1[i]%攻击力的量子属性伤害。",
-        "ja": "指定した敵単体に花火の攻撃力#1[i]%分の量子属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 스파클 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于花火#1[i]%攻击力的量子属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/11306_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano Quântico leve a um único inimigo.",
-        "en": "Deals minor Quantum DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量量子属性伤害。",
-        "ja": "敵単体に少量の量子属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Quantum DMG to one enemy.", "zh-CN": "对敌方单体造成少量量子属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 1130602,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Mergulhadora de Sonhos",
-        "en": "Dreamdiver",
-        "zh-CN": "梦游鱼",
-        "ja": "夢を泳ぐ魚",
-        "ko": "꿈을 헤엄치는 물고기"
-      },
+      "name": { "en": "Dreamdiver", "zh-CN": "梦游鱼" },
       "description": {
-        "pt-BR": "Aumenta o Dano CRIT de um aliado designado em #1[f1]% do Dano CRIT de Sparkle + #2[f1]%, durando por #3[i] rodada(s). E, ao mesmo tempo, Avança Adiante a ação deste aliado em #4[i]%.\nQuando Sparkle usa essa habilidade em si, sua ação não será Avançada Adiante.",
         "en": "Increases the CRIT DMG of a designated ally by #1[f1]% of Sparkle's CRIT DMG plus #2[f1]%, lasting for #3[i] turn(s). And at the same time, advances this ally's action by #4[i]%.\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
-        "zh-CN": "使指定我方单体的暴击伤害提高，提高数值等同于花火#1[f1]%暴击伤害+#2[f1]%，持续#3[i]回合，并使该目标行动提前#4[i]%。\n当花火对自身施放该技能时，无法触发行动提前效果。",
-        "ja": "指定した味方単体の会心ダメージを、花火の会心ダメージ#1[f1]%分+#2[f1]%アップする、#3[i]ターン継続。その味方の行動順を#4[i]%早める。\n自身に対してこのスキルを発動した時、行動順を早める効果は発動しない。",
-        "ko": "지정된 단일 아군의 치명타 피해가 스파클 치명타 피해의 #1[f1]%에 #2[f1]%를 더한 값만큼 증가한다, 지속 시간: #3[i]턴. 또한, 해당 목표의 행동 게이지가 #4[i]% 증가한다.\n스파클이 자신에게 해당 스킬을 발동하면 행동 게이지 증가 효과가 발동하지 않는다"
+        "zh-CN": "使指定我方单体的暴击伤害提高，提高数值等同于花火#1[f1]%暴击伤害+#2[f1]%，持续#3[i]回合，并使该目标行动提前#4[i]%。\n当花火对自身施放该技能时，无法触发行动提前效果。"
       },
       "params": [
         [0.12, 0.27, 2, 0.5],
@@ -282,31 +201,19 @@
       "icon": "icon/skill/11306_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Aumenta o Dano CRIT de um aliado e Avança Adiante sua ação.",
         "en": "Increases an ally's CRIT DMG and advances their action.",
-        "zh-CN": "使我方单体暴击伤害提高，并使该目标行动提前。",
-        "ja": "味方単体の会心ダメージをアップし、その味方の行動順を早める。",
-        "ko": "단일 아군의 치명타 피해가 증가하고, 해당 목표의 행동 게이지가 증가한다"
+        "zh-CN": "使我方单体暴击伤害提高，并使该目标行动提前。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 1130603,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "A Heroína de Mil Faces",
-        "en": "The Hero with a Thousand Faces",
-        "zh-CN": "一人千役",
-        "ja": "一人千役",
-        "ko": "천의 얼굴"
-      },
+      "name": { "en": "The Hero with a Thousand Faces", "zh-CN": "一人千役" },
       "description": {
-        "pt-BR": "Recupera #2[i] Pontos de Perícia para todos os aliados. Se os Pontos de Perícia transbordarem durante a restauração, os pontos excedentes serão registrados, até um máximo de #5[i] pontos. Quando a rodada de um personagem aliado termina, se os Pontos de Perícia estiverem abaixo do máximo, Sparkle consome o valor registrado para recuperar Pontos de Perícia até que o limite superior seja atingido. Então, ela concede \"Criptografia\" a todos os aliados. Para aliados-alvo com \"Criptografia\", cada acúmulo de bônus de Dano recebido por inimigos fornecido pelo Talento da Sparkle aumenta adicionalmente em #3[f2]%, durando por #4[i] rodada(s).",
         "en": "Recovers #2[i] Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of #5[i] points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies \"Cipher.\" For ally targets with \"Cipher,\" each stack of Boost of DMG taken by enemies provided by Sparkle's Talent additionally increases by #3[f2]%, lasting for #4[i] turn(s).",
-        "zh-CN": "为我方恢复#2[i]个战技点，若恢复时战技点溢出，则记录溢出的战技点数，最多记录#5[i]点。我方角色回合结束后若战技点小于上限，花火消耗记录值为我方恢复战技点，直至恢复至上限。随后使我方全体获得【谜诡】。持有【谜诡】的我方目标触发花火天赋造成的敌方受到伤害提高效果每层额外提高#3[f2]%，持续#4[i]回合。",
-        "ja": "SPを#2[i]回復し、回復時にSPが上限を超えた場合、超過分のSPを記録し、最大で#5[i]まで記録できる。味方キャラのターン終了後、SPが上限未満の場合、花火は記録値を消費してSPを回復する。なお、この効果はSPが上限に回復するまで繰り返される。\n味方全体に「奇怪な謎」を付与する。「奇怪な謎」を持つ味方が触発する花火の天賦による敵の受けるダメージアップ効果は、さらに各層#3[f2]%アップする。#4[i]ターン継続。",
-        "ko": "아군의 전투 스킬 포인트를 #2[i]pt 회복한다. 회복 시 전투 스킬 포인트가 최대치를 초과하면 초과한 전투 스킬 포인트 수를 기록한다(최대 #5[i]pt). 아군 캐릭터 턴 종료 후 전투 스킬 포인트가 최대치보다 낮으면 스파클이 기록 수치를 소모해 아군의 전투 스킬 포인트를 회복하고, 해당 효과는 최대치에 도달할 때까지 반복한다. 이후 모든 아군이 [기이한 수수께끼]를 획득한다. [기이한 수수께끼]를 보유한 아군은 스파클 특성이 발동하는 적이 받는 피해 증가 효과가 스택마다 추가로 #3[f2]% 증가한다, 지속 시간: #4[i]턴"
+        "zh-CN": "为我方恢复#2[i]个战技点，若恢复时战技点溢出，则记录溢出的战技点数，最多记录#5[i]点。我方角色回合结束后若战技点小于上限，花火消耗记录值为我方恢复战技点，直至恢复至上限。随后使我方全体获得【谜诡】。持有【谜诡】的我方目标触发花火天赋造成的敌方受到伤害提高效果每层额外提高#3[f2]%，持续#4[i]回合。"
       },
       "params": [
         [2, 6, 0.036, 3, 10],
@@ -328,31 +235,19 @@
       "icon": "icon/skill/11306_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Recupera Pontos de Perícia para aliados e aumenta adicionalmente o efeito de Vulnerabilidade fornecido pelo Talento de Sparkle.",
         "en": "Recovers Skill Points for allies and additionally increases the Vulnerability effect provided by Sparkle's Talent.",
-        "zh-CN": "为我方恢复战技点，使触发花火天赋的易伤效果额外提高。",
-        "ja": "SPを回復し、花火の天賦による敵の被ダメージアップ効果を強化する。",
-        "ko": "아군의 전투 스킬 포인트를 회복하고, 스파클 특성으로 발동하는 취약 효과가 추가로 증가한다"
+        "zh-CN": "为我方恢复战技点，使触发花火天赋的易伤效果额外提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 1130604,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Pista Falsa",
-        "en": "Red Herring",
-        "zh-CN": "叙述性诡计",
-        "ja": "叙述トリック",
-        "ko": "서술 트릭"
-      },
+      "name": { "en": "Red Herring", "zh-CN": "叙述性诡计" },
       "description": {
-        "pt-BR": "Enquanto Sparkle estiver no campo de batalha, aumenta adicionalmente o número máximo de Pontos de Perícia em #3[i]. Sempre que um aliado-alvo consome 1 Ponto de Perícia, Sparkle ganha 1 acúmulo de \"Ficção\", e cada acúmulo aumenta o Dano recebido por todos os inimigos em #2[f1]%. Este efeito dura por #1[i] rodada(s) e pode ser acumulado até #4[i] vez(es).",
         "en": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by #3[i]. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of \"Figment,\" with each stack increasing the DMG taken by all enemies by #2[f1]%. This effect lasts for #1[i] turn(s) and can stack up to #4[i] time(s).",
-        "zh-CN": "花火在场时，战技点上限额外增加#3[i]点。当我方目标每消耗1点战技点，花火获得1层【幻相】，每层【幻相】使敌方全体受到的伤害提高#2[f1]%，该效果持续#1[i]回合，最多可叠加#4[i]层。",
-        "ja": "花火がフィールド上にいる時、最大SP+#3[i]。味方がSPを1消費するたびに、花火は「幻相」を1層獲得する。「幻相」1層につき敵全体の受けるダメージ+#2[f1]%、#1[i]ターン継続、最大で#4[i]層累積できる。",
-        "ko": "스파클이 필드에 있을 시 전투 스킬 포인트 최대치가 추가로 #3[i]pt 증가한다. 아군이 전투 스킬 포인트를 1pt 소모할 때마다 스파클이 [환상]을 1스택 획득하며, [환상] 스택당 모든 적이 받는 피해가 #2[f1]% 증가한다, 해당 효과 지속 시간: #1[i]턴, 최대 중첩수: #4[i]스택"
+        "zh-CN": "花火在场时，战技点上限额外增加#3[i]点。当我方目标每消耗1点战技点，花火获得1层【幻相】，每层【幻相】使敌方全体受到的伤害提高#2[f1]%，该效果持续#1[i]回合，最多可叠加#4[i]层。"
       },
       "params": [
         [2, 0.02, 2, 3],
@@ -374,83 +269,53 @@
       "icon": "icon/skill/11306_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Aumenta os Pontos de Perícia máximos da equipe. Sempre que um aliado-alvo consome Pontos de Perícia, Sparkle ganha 1 acúmulo de \"Ficção\". Cada acúmulo de \"Ficção\" aumenta o Dano recebido por todos os inimigos.",
         "en": "Increases the team's Max Skill Points. Whenever an ally target consumes Skill Points, Sparkle gains 1 stack of \"Figment.\" Each stack of \"Figment\" increases the DMG taken by all enemies.",
-        "zh-CN": "我方的战技点上限提高，我方目标消耗战技点时，花火获得1层【幻相】，每层【幻相】使敌方全体受到的伤害提高。",
-        "ja": "最大SPがアップする。味方がSPを消費する時、花火は「幻相」を1層獲得し、「幻相」1層につき敵全体の受けるダメージがアップする。",
-        "ko": "아군의 전투 스킬 포인트 최대치가 증가하고, 아군이 전투 스킬 포인트 소모 시 스파클이 [환상]을 1스택 획득하며, [환상] 스택마다 모든 적이 받는 피해가 증가한다"
+        "zh-CN": "我方的战技点上限提高，我方目标消耗战技点时，花火获得1层【幻相】，每层【幻相】使敌方全体受到的伤害提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 1130606,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/11306_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 1130607,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Narradora Nada Confiável",
-        "en": "Unreliable Narrator",
-        "zh-CN": "不可靠叙事者",
-        "ja": "信用できない語り手",
-        "ko": "믿을 수 없는 화자"
-      },
+      "name": { "en": "Unreliable Narrator", "zh-CN": "不可靠叙事者" },
       "description": {
-        "pt-BR": "Após usar a Técnica, concede \"Desorientação\" a todos os aliados por #2[i] segundos. Personagens afetados com \"Desorientação\" não serão detectados por inimigos, e entrar em batalha enquanto estão no estado de \"Desorientação\" recupera #1[i] Ponto(s) de Perícia para a equipe e regenera #2[i] de Energia para Sparkle.",
         "en": "After using Technique, grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering combat in the Misdirect state recovers #1[i] Skill Point(s) for the team and regenerates #2[i] Energy for Sparkle.",
-        "zh-CN": "使用秘技后，我方全体进入持续#2[i]秒的【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复#1[i]个战技点，并使花火恢复#2[i]点能量。",
-        "ja": "秘技を使用した後、味方全体は#2[i]秒の「ミスリード」状態になる。「ミスリード」状態になると敵に発見されなくなり、敵を先制攻撃して戦闘に入る時、味方のSPを#1[i]回復し、花火のEPを#2[i]回復する。",
-        "ko": "비술 사용 후 모든 아군이 #2[i]초 동안 [미혹] 상태에 진입한다. [미혹] 상태에선 적에게 들키지 않으며, [미혹] 중에 전투 진입 시 아군이 전투 스킬 포인트를 #1[i]pt 회복하고, 스파클이 에너지를 #2[i]pt 회복한다"
+        "zh-CN": "使用秘技后，我方全体进入持续#2[i]秒的【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复#1[i]个战技点，并使花火恢复#2[i]点能量。"
       },
       "params": [[3, 20]],
       "icon": "icon/skill/11306_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Após usar a Técnica, fornece \"Desorientação\" a todos os aliados. Personagens com \"Desorientação\" não serão detectados pelos inimigos, e entrar em batalha enquanto em \"Desorientação\" recupera Pontos de Perícia para os aliados e regenera Energia para Sparkle.",
         "en": "After using Technique, grants all allies Misdirect. Characters with Misdirect will not be detected by enemies, and entering combat while in Misdirect recovers Skill Points for allies and regenerates Energy for Sparkle.",
-        "zh-CN": "使用秘技后，我方全体进入【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复战技点并使花火恢复能量。",
-        "ja": "秘技を使用した後、味方全体は「ミスリード」状態になる。「ミスリード」状態になると敵に発見されなくなり、敵を先制攻撃して戦闘に入る時、味方のSPと花火のEPを回復する。",
-        "ko": "비술 사용 후 모든 아군이 [미혹] 상태에 진입한다. [미혹] 상태에선 적에게 들키지 않으며, [미혹] 중에 전투 진입 시 아군이 전투 스킬 포인트를 회복하고, 스파클이 에너지를 회복한다"
+        "zh-CN": "使用秘技后，我方全体进入【迷误】状态。【迷误】状态下不会被敌人发现。【迷误】状态期间进入战斗时为我方恢复战技点并使花火恢复能量。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Suspensão de Descrença",
-        "en": "Suspension of Disbelief",
-        "zh-CN": "悬置怀疑",
-        "ja": "{RUBY_B#す}捨{RUBY_E#}て{RUBY_B#お}置{RUBY_E#}かれた{RUBY_B#ぎねん}疑念{RUBY_E#}",
-        "ko": "불신의 정지"
-      },
+      "name": { "en": "Suspension of Disbelief", "zh-CN": "悬置怀疑" },
       "description": {
-        "pt-BR": "O efeito de Criptografia concedido pela Perícia Suprema dura por 1 rodada extra. Todos os aliados com Criptografia têm seu ATQ aumentado em 40%.",
         "en": "The Cipher effect granted by the Ultimate lasts for 1 extra turn. All allies with Cipher have their ATK increased by 40%.",
-        "zh-CN": "终结技施加的【谜诡】的持续时间额外增加1回合，持有【谜诡】的我方目标攻击力提高40%。",
-        "ja": "必殺技が付与する「奇怪な謎」の継続時間+1ターン。「奇怪な謎」を持つ味方の攻撃力+40%。",
-        "ko": "필살기가 부여하는 [기이한 수수께끼]의 지속 시간이 추가로 1턴 증가하며, [기이한 수수께끼]를 보유한 아군의 공격력이 40% 증가한다"
+        "zh-CN": "终结技施加的【谜诡】的持续时间额外增加1回合，持有【谜诡】的我方目标攻击力提高40%。"
       },
       "icon": "icon/skill/1306_rank1.png",
       "materials": [{ "id": 11306, "num": 1 }],
@@ -458,19 +323,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Puramente Fictício",
-        "en": "Purely Fictitious",
-        "zh-CN": "虚构无端",
-        "ja": "{RUBY_B#いわ}謂{RUBY_E#}れなき{RUBY_B#きょこう}虚構{RUBY_E#}",
-        "ko": "실없는 허구"
-      },
+      "name": { "en": "Purely Fictitious", "zh-CN": "虚构无端" },
       "description": {
-        "pt-BR": "Cada acúmulo do efeito do Talento permite que os aliados ignorem adicionalmente 8% da DEF do alvo ao causar Dano.",
         "en": "Every stack of the Talent's effect allows allies to additionally ignore 8% of the target's DEF when dealing DMG.",
-        "zh-CN": "天赋每层效果额外使我方目标造成伤害时无视目标8%的防御力。",
-        "ja": "天賦の効果1層につき、味方がダメージを与える時、さらに敵の防御力を8%無視する。",
-        "ko": "특성의 각 스택 효과는 추가로 아군이 피해를 가할 시 목표의 방어력을 8% 무시하게 한다"
+        "zh-CN": "天赋每层效果额外使我方目标造成伤害时无视目标8%的防御力。"
       },
       "icon": "icon/skill/1306_rank2.png",
       "materials": [{ "id": 11306, "num": 1 }],
@@ -478,19 +334,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Sonho Impossível",
-        "en": "Pipedream",
-        "zh-CN": "梦幻泡影",
-        "ja": "{RUBY_B#むげんほうよう}夢幻泡影{RUBY_E#}",
-        "ko": "몽환의 포영"
-      },
+      "name": { "en": "Pipedream", "zh-CN": "梦幻泡影" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1306_skill.png",
       "materials": [{ "id": 11306, "num": 1 }],
@@ -498,19 +345,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "A Vida É uma Aposta",
-        "en": "Life Is a Gamble",
-        "zh-CN": "游戏人间",
-        "ja": "{RUBY_B#ぞくせゆうきょう}俗世遊興{RUBY_E#}",
-        "ko": "유희적 인간"
-      },
+      "name": { "en": "Life Is a Gamble", "zh-CN": "游戏人间" },
       "description": {
-        "pt-BR": "A Perícia Suprema recupera mais 1 de Ponto de Perícia. O Talento ainda aumenta adicionalmente o máximo de Pontos de Perícia em 1.",
         "en": "The Ultimate recovers 1 more Skill Point. The Talent additionally increases the Max Skill Points by 1.",
-        "zh-CN": "终结技可以额外恢复1点战技点，天赋的战技点上限增加效果额外增加1点。",
-        "ja": "必殺技がさらにSPを1回復する。天賦の最大SPアップ効果がさらに1アップする。",
-        "ko": "필살기가 전투 스킬 포인트를 추가로 1pt 회복시키고, 특성의 전투 스킬 포인트 최대치 증가 효과가 추가로 1pt 증가한다"
+        "zh-CN": "终结技可以额外恢复1点战技点，天赋的战技点上限增加效果额外增加1点。"
       },
       "icon": "icon/skill/1306_rank4.png",
       "materials": [{ "id": 11306, "num": 1 }],
@@ -518,19 +356,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Verdade Paraláctica",
-        "en": "Parallax Truth",
-        "zh-CN": "双面真相",
-        "ja": "{RUBY_B#うらおもて}裏表{RUBY_E#}の{RUBY_B#しんそう}真相{RUBY_E#}",
-        "ko": "양면의 진실"
-      },
+      "name": { "en": "Parallax Truth", "zh-CN": "双面真相" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1306_ultimate.png",
       "materials": [{ "id": 11306, "num": 1 }],
@@ -538,19 +367,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Narrativa Polissêmica",
-        "en": "Narrative Polysemy",
-        "zh-CN": "多重解答",
-        "ja": "{RUBY_B#かさ}重{RUBY_E#}なる{RUBY_B#かいとう}解答{RUBY_E#}",
-        "ko": "다중 해답"
-      },
+      "name": { "en": "Narrative Polysemy", "zh-CN": "多重解答" },
       "description": {
-        "pt-BR": "O efeito de Bônus de Dano CRIT fornecido pela Perícia aumenta adicionalmente em uma quantidade igual a 30% do Dano CRIT de Sparkle. Quando Sparkle usa sua Perícia, o efeito de Bônus de Dano CRIT da Perícia dela será aplicado a todos os aliados com Criptografia. Quando Sparkle usa sua Perícia Suprema, qualquer aliado único que se beneficie do Bônus de Dano CRIT da Perícia dela espalhará esse efeito para aliados com Criptografia.",
         "en": "The CRIT DMG Boost effect provided by the Skill additionally increases by an amount equal to 30% of Sparkle's CRIT DMG. When Sparkle uses Skill, her Skill's CRIT DMG Boost effect will apply to all teammates with Cipher. When Sparkle uses her Ultimate, any single ally who benefits from her Skill's CRIT DMG Boost will spread that effect to teammates with Cipher.",
-        "zh-CN": "战技的暴击伤害提高效果额外提高，提高数值等同于花火暴击伤害的30%，花火施放战技时，使战技的暴击伤害提高效果对持有【谜诡】的队友都会生效，花火施放终结技时，若我方单体中有目标持有战技的暴击伤害提高效果，使该效果扩散至持有【谜诡】的队友。",
-        "ja": "戦闘スキルの会心ダメージアップ効果が、さらに花火の会心ダメージ30%分アップする。花火が戦闘スキルを発動する時、戦闘スキルの会心ダメージアップ効果が、「奇怪な謎」を持つすべての味方に対して有効になる。花火が必殺技を発動する時、花火の戦闘スキルによる会心ダメージアップ効果を持つ味方が存在する場合、「奇怪な謎」を持つ味方にその効果を拡散する。",
-        "ko": "전투 스킬의 치명타 피해 증가 효과가 스파클 치명타 피해의 30%만큼 추가로 증가한다. 스파클이 전투 스킬을 발동하면, 전투 스킬의 치명타 피해 증가 효과는 [기이한 수수께끼]를 보유한 모든 동료에게 적용된다. 스파클이 필살기 발동 시 단일 아군 중 전투 스킬의 치명타 피해 증가 효과를 보유한 목표가 있으면, 해당 효과는 [기이한 수수께끼]를 보유한 동료에게까지 확산된다"
+        "zh-CN": "战技的暴击伤害提高效果额外提高，提高数值等同于花火暴击伤害的30%，花火施放战技时，使战技的暴击伤害提高效果对持有【谜诡】的队友都会生效，花火施放终结技时，若我方单体中有目标持有战技的暴击伤害提高效果，使该效果扩散至持有【谜诡】的队友。"
       },
       "icon": "icon/skill/1306_rank6.png",
       "materials": [{ "id": 11306, "num": 1 }],
@@ -925,19 +745,10 @@
     {
       "id": 1306101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Almanaque",
-        "en": "Almanac",
-        "zh-CN": "岁时记",
-        "ja": "{RUBY_B#さいじき}歳時記{RUBY_E#}",
-        "ko": "세시기"
-      },
+      "name": { "en": "Almanac", "zh-CN": "岁时记" },
       "description": {
-        "pt-BR": "Ao usar o ATQ Básico, regenera adicionalmente #1[i] de Energia.",
         "en": "When using Basic ATK, additionally regenerates #1[i] Energy.",
-        "zh-CN": "施放普攻时额外恢复#1[i]点能量。",
-        "ja": "通常攻撃を行う時、EPを#1[i]回復する。",
-        "ko": "일반 공격 발동 시 추가로 에너지를 #1[i]pt 회복한다"
+        "zh-CN": "施放普攻时额外恢复#1[i]点能量。"
       },
       "params": [[10]],
       "icon": "icon/skill/1306_skilltree1.png",
@@ -956,19 +767,10 @@
     {
       "id": 1306102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Flor Artificial",
-        "en": "Artificial Flower",
-        "zh-CN": "人造花",
-        "ja": "{RUBY_B#じんぞう}人造{RUBY_E#}の{RUBY_B#はな}花{RUBY_E#}",
-        "ko": "인조화"
-      },
+      "name": { "en": "Artificial Flower", "zh-CN": "人造花" },
       "description": {
-        "pt-BR": "O efeito de Bônus de Dano CRIT fornecido pela Perícia será estendido para durar até o início da próxima rodada do alvo.",
         "en": "The CRIT DMG Boost effect provided by the Skill will be extended until the start of the target's next turn.",
-        "zh-CN": "战技提供的暴击伤害提高效果会延长到目标下一个回合开始。",
-        "ja": "戦闘スキルの会心ダメージアップ効果の継続時間が、ターゲットの次のターンが回ってくるまで延長される。",
-        "ko": "전투 스킬이 제공하는 치명타 피해 증가 효과가 목표의 다음 턴 시작까지 연장된다"
+        "zh-CN": "战技提供的暴击伤害提高效果会延长到目标下一个回合开始。"
       },
       "icon": "icon/skill/1306_skilltree2.png",
       "maxLevel": 1,
@@ -991,19 +793,10 @@
     {
       "id": 1306103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Noturna",
-        "en": "Nocturne",
-        "zh-CN": "夜想曲",
-        "ja": "{RUBY_B#やそうきょく}夜想曲{RUBY_E#}",
-        "ko": "야상곡"
-      },
+      "name": { "en": "Nocturne", "zh-CN": "夜想曲" },
       "description": {
-        "pt-BR": "Aumenta o ATQ de todos os aliados em #4[i]%. Quando há 1/2/3 aliado(s) do Tipo Quânticos na equipe, adicionalmente, o ATQ dos aliados é aumentado em #1[i]%/#2[i]%/#3[i]%.",
         "en": "Increases all allies' ATK by #4[i]%. When there are 1/2/3 Quantum-Type allies in the team, additionally increases Quantum-Type allies' ATK by #1[i]%/#2[i]%/#3[i]%.",
-        "zh-CN": "我方全体的攻击力提高#4[i]%。当我方队伍中存在1名/2名/3名量子属性的角色时，我方量子属性的角色的攻击力额外提高#1[i]%/#2[i]%/#3[i]%。",
-        "ja": "味方全体の攻撃力+#4[i]%。パーティに量子属性キャラが1名/2名/3名いる時、さらに味方量子属性キャラの攻撃力+#1[i]%/#2[i]%/#3[i]%。",
-        "ko": "모든 아군의 공격력이 #4[i]% 증가한다. 아군 파티 중 양자 속성 캐릭터가 1명/2명/3명 존재 시 아군 양자 속성 캐릭터의 공격력이 추가로 #1[i]%/#2[i]%/#3[i]% 증가한다"
+        "zh-CN": "我方全体的攻击力提高#4[i]%。当我方队伍中存在1名/2名/3名量子属性的角色时，我方量子属性的角色的攻击力额外提高#1[i]%/#2[i]%/#3[i]%。"
       },
       "params": [[0.05, 0.15, 0.3, 0.15]],
       "icon": "icon/skill/1306_skilltree3.png",
@@ -1027,7 +820,7 @@
     {
       "id": 1306201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1044,13 +837,7 @@
     {
       "id": 1306202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1306101],
@@ -1067,7 +854,7 @@
     {
       "id": 1306203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1306202],
@@ -1084,13 +871,7 @@
     {
       "id": 1306204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1306201],
@@ -1107,7 +888,7 @@
     {
       "id": 1306205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1306102],
@@ -1124,13 +905,7 @@
     {
       "id": 1306206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1306205],
@@ -1147,7 +922,7 @@
     {
       "id": 1306207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1306201],
@@ -1164,13 +939,7 @@
     {
       "id": 1306208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [1306103],
@@ -1187,13 +956,7 @@
     {
       "id": 1306209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1306208],
@@ -1210,7 +973,7 @@
     {
       "id": 1306210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1306208],
@@ -1517,19 +1280,10 @@
     {
       "id": 11306101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Almanaque",
-        "en": "Almanac",
-        "zh-CN": "岁时记",
-        "ja": "{RUBY_B#さいじき}歳時記{RUBY_E#}",
-        "ko": "세시기"
-      },
+      "name": { "en": "Almanac", "zh-CN": "岁时记" },
       "description": {
-        "pt-BR": "Ao usar o ATQ Básico, regenera adicionalmente #1[i] de Energia. Quando um personagem aliado com o efeito de Bônus de Dano CRIT concedido pela Perícia consome Pontos de Perícia, Sparkle regenera adicionalmente #2[i] de Energia.",
         "en": "Using Basic ATK additionally regenerates #1[i] Energy. When an ally character who holds the CRIT DMG Boost effect provided by the Skill consumes Skill Points, Sparkle additionally regenerates #2[i] Energy.",
-        "zh-CN": "施放普攻时额外恢复#1[i]点能量。持有战技的暴击伤害提高效果的我方角色在消耗战技点时，花火额外恢复#2[i]点能量。",
-        "ja": "通常攻撃を行う時、さらにEPを#1[i]回復する。戦闘スキルの会心ダメージアップ効果を持つ味方キャラがSPを消費する時、花火がさらにEPを#2[i]回復する。",
-        "ko": "일반 공격 발동 시 추가로 에너지를 #1[i]pt 회복한다. 전투 스킬의 치명타 피해 증가 효과를 보유한 아군 캐릭터가 전투 스킬 포인트 소모 시, 스파클이 추가로 에너지를 #2[i]pt 회복한다"
+        "zh-CN": "施放普攻时额外恢复#1[i]点能量。持有战技的暴击伤害提高效果的我方角色在消耗战技点时，花火额外恢复#2[i]点能量。"
       },
       "params": [[10, 1]],
       "icon": "icon/skill/11306_skilltree1.png",
@@ -1548,19 +1302,10 @@
     {
       "id": 11306102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Flor Artificial",
-        "en": "Artificial Flower",
-        "zh-CN": "人造花",
-        "ja": "{RUBY_B#じんぞう}人造{RUBY_E#}の{RUBY_B#はな}花{RUBY_E#}",
-        "ko": "인조화"
-      },
+      "name": { "en": "Artificial Flower", "zh-CN": "人造花" },
       "description": {
-        "pt-BR": "Se um personagem aliado consumir #1[i] ou mais Pontos de Perícia em uma única rodada, o próximo uso da Perícia não consumirá Pontos de Perícia.",
         "en": "If an ally character consumes #1[i] or more Skill Points in a single turn, Sparkle's next use of Skill will not consume Skill Points.",
-        "zh-CN": "若我方角色单回合内消耗的战技点大于等于#1[i]，则花火下一次施放战技时不会消耗战技点。",
-        "ja": "味方キャラが1ターンの行動でSPを#1[i]以上消費した場合、花火が次に戦闘スキルを発動する時、SPを消費しない。",
-        "ko": "아군 캐릭터가 단일 턴 동안 소모한 전투 스킬 포인트가 #1[i]pt 이상일 시, 스파클이 다음에 전투 스킬 발동 시 전투 스킬 포인트를 소모하지 않는다"
+        "zh-CN": "若我方角色单回合内消耗的战技点大于等于#1[i]，则花火下一次施放战技时不会消耗战技点。"
       },
       "params": [[3]],
       "icon": "icon/skill/11306_skilltree2.png",
@@ -1584,19 +1329,10 @@
     {
       "id": 11306103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Noturna",
-        "en": "Nocturne",
-        "zh-CN": "夜想曲",
-        "ja": "{RUBY_B#やそうきょく}夜想曲{RUBY_E#}",
-        "ko": "야상곡"
-      },
+      "name": { "en": "Nocturne", "zh-CN": "夜想曲" },
       "description": {
-        "pt-BR": "Aumenta o ATQ de todos os aliados em #1[i]%. Quando um personagem aliado possui o efeito de Bônus de Dano CRIT concedido pela Perícia, sua PEN de RES a Todos os Tipos aumenta em #2[i]%.",
         "en": "Increases all allies's ATK by #1[i]%. When an ally character holds the CRIT DMG Boost effect provided by the Skill, All-Type RES PEN increases by #2[i]%.",
-        "zh-CN": "我方全体的攻击力提高#1[i]%。我方角色持有战技的暴击伤害提高效果时，全属性抗性穿透提高#2[i]%。",
-        "ja": "味方全体の攻撃力+#1[i]%。味方キャラが戦闘スキルの会心ダメージアップ効果を持つ時、全属性耐性貫通+#2[i]%。",
-        "ko": "모든 아군의 공격력이 #1[i]% 증가한다. 아군 캐릭터가 전투 스킬의 치명타 피해 증가 효과 보유 시, 모든 속성 저항 관통이 #2[i]% 증가한다"
+        "zh-CN": "我方全体的攻击力提高#1[i]%。我方角色持有战技的暴击伤害提高效果时，全属性抗性穿透提高#2[i]%。"
       },
       "params": [[0.45, 0.1]],
       "icon": "icon/skill/11306_skilltree3.png",
@@ -1620,7 +1356,7 @@
     {
       "id": 11306201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1637,13 +1373,7 @@
     {
       "id": 11306202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11306101],
@@ -1660,7 +1390,7 @@
     {
       "id": 11306203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11306202],
@@ -1677,13 +1407,7 @@
     {
       "id": 11306204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [11306201],
@@ -1700,7 +1424,7 @@
     {
       "id": 11306205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11306102],
@@ -1717,13 +1441,7 @@
     {
       "id": 11306206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11306205],
@@ -1740,7 +1458,7 @@
     {
       "id": 11306207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11306201],
@@ -1757,13 +1475,7 @@
     {
       "id": 11306208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de RES a Efeito",
-        "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
-        "ja": "効果抵抗強化",
-        "ko": "효과 저항 강화"
-      },
+      "name": { "en": "Effect RES Boost", "zh-CN": "效果抵抗强化" },
       "icon": "icon/property/IconStatusResistance.png",
       "maxLevel": 1,
       "prerequisites": [11306103],
@@ -1780,13 +1492,7 @@
     {
       "id": 11306209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "en": "CRIT DMG Boost", "zh-CN": "暴击伤害强化" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11306208],
@@ -1803,7 +1509,7 @@
     {
       "id": 11306210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11306208],

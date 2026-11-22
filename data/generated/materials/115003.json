@@ -1,13 +1,7 @@
 {
   "id": 115003,
   "slug": "glory-aspersed-torso",
-  "name": {
-    "pt-BR": "Torso Batizado de Glória",
-    "en": "Glory-Aspersed Torso",
-    "zh-CN": "荣耀洗礼身躯",
-    "ja": "栄光は身体を洗礼する",
-    "ko": "영광의 세례를 받은 육신"
-  },
+  "name": { "en": "Glory-Aspersed Torso", "zh-CN": "荣耀洗礼身躯" },
   "rarity": 4,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -23,14 +17,6 @@
       "Simulated Universe enemies",
       "Omni-Synthesizer — Material Exchange"
     ],
-    "pt-BR": [
-      "Titâneo em Nível de Equilíbrio 4 ou maior",
-      "Bestas Crepusculares no Nível de Equilíbrio 4 ou maior",
-      "Sintetizador Omni - Síntese de Material",
-      "Inimigos do Universo Divergente",
-      "Inimigos do Universo Simulado",
-      "Sintetizador Omni - Troca de Material"
-    ],
     "zh-CN": [
       "突破至均衡等级4后，泰坦眷属掉落",
       "突破至均衡等级4后，晨昏奇兽掉落",
@@ -38,22 +24,6 @@
       "「差分宇宙」中敌方掉落",
       "「模拟宇宙」中敌方掉落",
       "「万能合成机」- 材料置换"
-    ],
-    "ja": [
-      "均衡Lv.4に達した後、タイタンの眷属からドロップ",
-      "均衡Lv.4に達した後、晨昏の奇獣からドロップ",
-      "「万能合成マシン」- 素材合成",
-      "「階差宇宙」で敵からドロップ",
-      "「模擬宇宙」で敵からドロップ",
-      "「万能合成マシン」- 素材交換"
-    ],
-    "ko": [
-      "균형 레벨 Lv.4까지 돌파 후 티탄 권속 드랍",
-      "균형 레벨 Lv.4까지 돌파 후 조석의 환수 드랍",
-      "「만능 합성기」- 재료 합성",
-      "「차분화 우주」 적 드랍",
-      "「시뮬레이션 우주」 적 드랍",
-      "「만능 합성기」- 재료 치환"
     ]
   }
 }

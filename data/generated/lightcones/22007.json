@@ -1,32 +1,20 @@
 {
   "id": 22007,
   "slug": "tomorrow-together",
-  "name": {
-    "pt-BR": "Juntos no Futuro",
-    "en": "Tomorrow, Together",
-    "zh-CN": "未来，有我们一起",
-    "ja": "みんなで一緒に未来へ",
-    "ko": "미래엔 우리가 함께할 거야"
-  },
+  "name": { "en": "Tomorrow, Together", "zh-CN": "未来，有我们一起" },
   "rarity": 4,
   "path": "Elation",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Um grande presente aparece na stream.\n\"É um bolo de terceiro aniversário feito especialmente pelos fãs para todo mundo!\"\nCada memória preciosa se torna uma força motriz nesse momento, unindo todos rumo ao futuro.\n\"Que todo mundo siga em frente com alegria e segurança nesse novo ano!\"\n\"Não esquenta, condutor! A Coelhinha Março vai registrar esse momento!\"\nNesse clima acolhedor, todos erguem as taças juntos, e o riso e a alegria enchem cada canto.\n\"Nesse dia que vale a pena celebrar, vamos erguer nossas taças.\"\n\"Para um amanhã cheio de estrelas...\"\n\"Saúde!\"",
     "en": "A grand gift swoops down into the livestream.\n\"It's a specially customized third anniversary cake from the fans for everyone!\"\nEvery cherished memory becomes a driving force in this moment, pulling everyone together toward the future.\n\"May everyone move forward happily and safely in the new year!\"\n\"Don't worry, conductor! March Bunny will capture this moment~\"\nIn the heartwarming atmosphere, everyone raises their glasses together, laughter and joy filling every corner.\n\"On this day worth celebrating, let us raise our glasses.\"\n\"To the star-filled tomorrow—\"\n\"Cheers!\"",
-    "zh-CN": "一份大礼唰地降落在直播间。\n「是粉丝们给大家特别定制的三周年蛋糕！」\n过往点滴都在此刻化为动力，牵引着所有人一同行向未来。\n「愿新的一年，大家能快快乐乐，平平安安地前进帕！」\n「放心吧列车长，三月兔会把这一刻都记录下来~」\n温馨的氛围下，众人一齐举杯，欢声笑语充斥着每一处角落。\n「在这个值得庆祝的日子里，让我们举杯。」\n「为星月满天的明日——」\n「干杯！」",
-    "ja": "心のこもったプレゼントが、配信ルームへと届けられる。\n「ファンのみんなが特別に用意してくれた、3周年のお祝いケーキ！」\nこれまでの思い出が力となって、みんなを未来へ導いていく。\n「新しい一年も、みんなが楽しく、健やかに歩んでいけるよう願っておるぞ！」\n「任せて、車掌さん！ウチがこの瞬間をちゃんと記録しておくから！」\n温かな雰囲気の中、みんながグラスを掲げ、あたりは笑い声で包まれる。\n「この祝福すべき日に、乾杯しよう」\n「星が煌めく明日に——」\n「乾杯！」",
-    "ko": "큰 선물이 방송에 짠하고 떨어졌다.\n「팬 여러분이 특별히 주문 제작해 주신 3주년 케이크야!」\n과거의 모든 순간이 지금 이 순간 원동력이 되어, 모든 사람을 미래로 이끈다.\n「다음 한 해도 모두 즐겁고 평안하게 나아갔으면 좋겠어!」\n「걱정 마, 차장님. 마치 버니가 이 순간을 모두 기록해 둘게~」\n따뜻한 분위기 속에서 사람들은 다 함께 잔을 들었고, 곳곳에 웃음소리가 가득했다.\n「이 축하할 만한 날을 위해, 모두 잔을 들자」\n「별과 달이 가득한 내일을 위하여——」\n「건배!」"
+    "zh-CN": "一份大礼唰地降落在直播间。\n「是粉丝们给大家特别定制的三周年蛋糕！」\n过往点滴都在此刻化为动力，牵引着所有人一同行向未来。\n「愿新的一年，大家能快快乐乐，平平安安地前进帕！」\n「放心吧列车长，三月兔会把这一刻都记录下来~」\n温馨的氛围下，众人一齐举杯，欢声笑语充斥着每一处角落。\n「在这个值得庆祝的日子里，让我们举杯。」\n「为星月满天的明日——」\n「干杯！」"
   },
   "skill": {
-    "name": { "pt-BR": "Companheiro", "en": "Companion", "zh-CN": "同行", "ja": "連れ立つ", "ko": "동행" },
+    "name": { "en": "Companion", "zh-CN": "同行" },
     "description": {
-      "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Depois que o usuário usa sua Perícia Suprema, aumenta a Euforia de todos os aliados em #2[i]%, durando por #3[i] rodada(s).",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. After the wearer uses their Ultimate, increases all allies' Elation by #2[i]%, lasting for #3[i] turn(s).",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者施放终结技后，使我方全体欢愉度提高#2[i]%，持续#3[i]回合。",
-      "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラが必殺技を発動した後、味方全体の愉悦度+#2[i]%、#3[i]ターン継続。",
-      "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터가 필살기 발동 후, 모든 아군의 환락도가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%。装备者施放终结技后，使我方全体欢愉度提高#2[i]%，持续#3[i]回合。"
     },
     "params": [[0.12, 0.08, 1], [0.15, 0.09, 1], [0.18, 0.1, 1], [0.21, 0.11, 1], [0.24, 0.12, 1]],
     "properties": [

@@ -1,13 +1,7 @@
 {
   "id": 11202,
   "slug": "tingyuns-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Tingyun",
-    "en": "Tingyun's Eidolon",
-    "zh-CN": "【停云】的星魂",
-    "ja": "「停雲」の星魂",
-    "ko": "[정운]의 성혼"
-  },
+  "name": { "en": "Tingyun's Eidolon", "zh-CN": "【停云】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

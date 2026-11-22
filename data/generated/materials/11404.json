@@ -1,13 +1,7 @@
 {
   "id": 11404,
   "slug": "mydeis-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Mydei",
-    "en": "Mydei's Eidolon",
-    "zh-CN": "【万敌】的星魂",
-    "ja": "「モーディス」の星魂",
-    "ko": "[마이데이]의 성혼"
-  },
+  "name": { "en": "Mydei's Eidolon", "zh-CN": "【万敌】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

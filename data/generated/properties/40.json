@@ -1,7 +1,7 @@
 {
   "id": 40,
   "type": "HPAddedRatio",
-  "name": { "pt-BR": "PV", "en": "HP", "zh-CN": "生命值", "ja": "HP", "ko": "HP" },
+  "name": { "en": "HP", "zh-CN": "生命值" },
   "icon": "icon/property/IconMaxHP.png",
   "percent": true
 }

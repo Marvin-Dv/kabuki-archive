@@ -1,7 +1,7 @@
 {
   "id": 1002,
   "slug": "dan-heng",
-  "name": { "pt-BR": "Dan Heng", "en": "Dan Heng", "zh-CN": "丹恒", "ja": "丹恒", "ko": "단항" },
+  "name": { "en": "Dan Heng", "zh-CN": "丹恒" },
   "rarity": 4,
   "path": "Hunt",
   "element": "Wind",
@@ -11,49 +11,25 @@
     {
       "id": 100201,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Arte de Lanceiro das Nuvens: Ventos do Norte",
-        "en": "Cloudlancer Art: North Wind",
-        "zh-CN": "云骑枪术•朔风",
-        "ja": "雲騎槍術・朔風",
-        "ko": "운기 창술•삭풍"
-      },
+      "name": { "en": "Cloudlancer Art: North Wind", "zh-CN": "云骑枪术•朔风" },
       "description": {
-        "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Dan Heng a um único inimigo.",
         "en": "Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one enemy.",
-        "zh-CN": "对指定敌方单体造成等同于丹恒#1[i]%攻击力的风属性伤害。",
-        "ja": "指定した敵単体に丹恒の攻撃力#1[i]%分の風属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 단항 공격력 #1[i]%만큼의 바람 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于丹恒#1[i]%攻击力的风属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1002_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
-        "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
-        "ja": "敵単体に少量の風属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Wind DMG to one enemy.", "zh-CN": "对敌方单体造成少量风属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 100202,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Arte de Lanceiro das Nuvens: Enxurrada",
-        "en": "Cloudlancer Art: Torrent",
-        "zh-CN": "云骑枪术•疾雨",
-        "ja": "雲騎槍術・疾雨",
-        "ko": "운기 창술•질우"
-      },
+      "name": { "en": "Cloudlancer Art: Torrent", "zh-CN": "云骑枪术•疾雨" },
       "description": {
-        "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Dan Heng a um único inimigo.\nQuando o Dano causado pela Perícia ativa um Acerto CRIT, há uma chance-base de #4[i]% de reduzir a VEL do alvo em #2[i]%, durando por #3[i] rodada(s).",
         "en": "Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy.\nWhen DMG dealt by Skill triggers CRIT Hit, there is a #4[i]% base chance to reduce the target's SPD by #2[i]%, lasting for #3[i] turn(s).",
-        "zh-CN": "对指定敌方单体造成等同于丹恒#1[i]%攻击力的风属性伤害。\n战技造成的伤害触发暴击时，有#4[i]%的基础概率使受到攻击的敌方目标速度降低#2[i]%，持续#3[i]回合。",
-        "ja": "指定した敵単体に丹恒の攻撃力#1[i]%分の風属性ダメージを与える。\n戦闘スキルによるダメージで会心が発生した時、#4[i]%の基礎確率で攻撃を受けた敵の速度-#2[i]%、#3[i]ターン継続。",
-        "ko": "지정된 단일 적에게 단항 공격력 #1[i]%만큼의 바람 속성 피해를 가한다.\n전투 스킬로 가하는 피해가 치명타 발동 시 #4[i]%의 기본 확률로 피격된 적의 속도를 #2[i]% 감소시킨다. 지속 시간: #3[i]턴"
+        "zh-CN": "对指定敌方单体造成等同于丹恒#1[i]%攻击力的风属性伤害。\n战技造成的伤害触发暴击时，有#4[i]%的基础概率使受到攻击的敌方目标速度降低#2[i]%，持续#3[i]回合。"
       },
       "params": [
         [1.3, 0.12, 2, 1],
@@ -75,31 +51,19 @@
       "icon": "icon/skill/1002_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Causa Dano de Vento a um único inimigo. Ao realizar um Acerto CRIT, há altas chances de causar Lentidão no inimigo.",
         "en": "Deals Wind DMG to one enemy. Upon a CRIT Hit, there is a high chance of Slowing the enemy.",
-        "zh-CN": "对敌方单体造成风属性伤害，暴击时大概率施加减速状态。",
-        "ja": "敵単体に風属性ダメージを与え、会心時に高確率で減速状態を付与。",
-        "ko": "단일 적에게 바람 속성 피해를 주고, 치명타 발생 시 높은 확률로 감속 상태를 부여한다"
+        "zh-CN": "对敌方单体造成风属性伤害，暴击时大概率施加减速状态。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 100203,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Sonho Etéreo",
-        "en": "Ethereal Dream",
-        "zh-CN": "洞天幻化，长梦一觉",
-        "ja": "洞天幻化、長夢一覚",
-        "ko": "동천환화, 기나긴 꿈"
-      },
+      "name": { "en": "Ethereal Dream", "zh-CN": "洞天幻化，长梦一觉" },
       "description": {
-        "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Dan Heng a um único inimigo-alvo. Se o inimigo atacado estiver com Lentidão, o multiplicador do Dano causado pela Perícia Suprema aumenta em #2[i]%.",
         "en": "Deals Wind DMG equal to #1[i]% of Dan Heng's ATK to one designated enemy target. If the attacked enemy is Slowed, the multiplier for the DMG dealt by Ultimate increases by #2[i]%.",
-        "zh-CN": "对指定敌方单体造成等同于丹恒#1[i]%攻击力的风属性伤害。当受到攻击的敌方目标处于减速状态时，终结技造成的伤害倍率提高#2[i]%。",
-        "ja": "指定した敵単体に丹恒の攻撃力#1[i]%分の風属性ダメージを与える。攻撃を受けた敵が減速状態の場合、必殺技によるダメージのダメージ倍率+#2[i]%。",
-        "ko": "지정된 단일 적에게 단항 공격력 #1[i]%만큼의 바람 속성 피해를 가한다. 피격된 적이 감속 상태인 경우 필살기로 가하는 피해 배율이 #2[i]% 증가한다"
+        "zh-CN": "对指定敌方单体造成等同于丹恒#1[i]%攻击力的风属性伤害。当受到攻击的敌方目标处于减速状态时，终结技造成的伤害倍率提高#2[i]%。"
       },
       "params": [
         [2.4, 0.72],
@@ -121,31 +85,19 @@
       "icon": "icon/skill/1002_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Causa Dano de Vento massivo a um inimigo. Se o inimigo estiver sofrendo de Lentidão, o multiplicador de Dano causado será maior.",
         "en": "Deals massive Wind DMG to one enemy. If the enemy is Slowed, DMG multiplier dealt will be increased.",
-        "zh-CN": "对敌方单体造成大量风属性伤害，对减速状态的目标伤害倍率提高。",
-        "ja": "敵単体に大量の風属性ダメージを与える、減速状態の敵に対してダメージ倍率アップ。",
-        "ko": "단일 적에게 대량의 바람 속성 피해를 주고, 감속 상태의 적에게 가하는 피해 배율이 증가한다"
+        "zh-CN": "对敌方单体造成大量风属性伤害，对减速状态的目标伤害倍率提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 100204,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Superioridade de Alcance",
-        "en": "Superiority of Reach",
-        "zh-CN": "寸长寸强",
-        "ja": "寸長寸強",
-        "ko": "각자의 장점"
-      },
+      "name": { "en": "Superiority of Reach", "zh-CN": "寸长寸强" },
       "description": {
-        "pt-BR": "Quando Dan Heng é alvo da habilidade de um aliado, a PEN de RES a Vento de seu próximo ataque recebe um aumento de #1[i]%. Este efeito pode ser ativado novamente depois de #2[i] rodada(s).",
         "en": "When Dan Heng becomes the target of an ally's ability, his next attack's Wind RES PEN increases by #1[i]%. This effect can be triggered again after #2[i] turn(s).",
-        "zh-CN": "当丹恒成为我方技能的施放目标时，下一次攻击的风属性抗性穿透提高#1[i]%。该效果在#2[i]回合后可再次触发。",
-        "ja": "丹恒が味方スキルのターゲットになった時、次の攻撃の風属性耐性貫通+#1[i]%。この効果は#2[i]ターン後に再度発動できる。",
-        "ko": "단항이 아군 스킬의 발동 목표가 되면, 다음 공격의 바람 속성 저항 관통이 #1[i]% 증가한다. 해당 효과는 #2[i]턴 후 다시 발동할 수 있다"
+        "zh-CN": "当丹恒成为我方技能的施放目标时，下一次攻击的风属性抗性穿透提高#1[i]%。该效果在#2[i]回合后可再次触发。"
       },
       "params": [
         [0.18, 2],
@@ -167,83 +119,53 @@
       "icon": "icon/skill/1002_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Quando esta unidade se torna o alvo de uma habilidade de um aliado, a PEN de RES a Vento do próximo ataque dessa unidade aumenta. Este efeito pode ser ativado novamente depois de 2 rodadas.",
         "en": "When this unit becomes the target of an ally's ability, this unit's next attack's Wind RES PEN increases. This effect can be triggered again after 2 turns.",
-        "zh-CN": "成为我方技能施放目标时，下一次攻击风属性抗性穿透提高。该效果2回合后可再次触发。",
-        "ja": "味方スキルのターゲットになった時、次の攻撃の風属性耐性貫通をアップする。この効果は2ターン後に再度発動できる。",
-        "ko": "아군 스킬의 발동 목표가 되면, 다음 공격의 바람 속성 저항 관통이 증가한다. 해당 효과는 2턴 후 다시 발동할 수 있다"
+        "zh-CN": "成为我方技能施放目标时，下一次攻击风属性抗性穿透提高。该效果2回合后可再次触发。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 100206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1002_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 100207,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Ponta de Lança Divisora",
-        "en": "Splitting Spearhead",
-        "zh-CN": "破敌锋芒",
-        "ja": "破敵の矛先",
-        "ko": "섬멸의 칼날"
-      },
+      "name": { "en": "Splitting Spearhead", "zh-CN": "破敌锋芒" },
       "description": {
-        "pt-BR": "Após Dan Heng usar a sua Técnica, seu ATQ aumenta em #1[i]% no início da próxima batalha por #2[i] rodada(s).",
         "en": "After Dan Heng uses his Technique, his ATK increases by #1[i]% at the start of the next battle for #2[i] turn(s).",
-        "zh-CN": "使用秘技后，下一次战斗开始时丹恒攻击力提高#1[i]%，持续#2[i]回合。",
-        "ja": "秘技を使用した後、次の戦闘開始時、丹恒の攻撃力+#1[i]%、#2[i]ターン継続。",
-        "ko": "비술 발동 후 다음 전투 시작 시 단항의 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+        "zh-CN": "使用秘技后，下一次战斗开始时丹恒攻击力提高#1[i]%，持续#2[i]回合。"
       },
       "params": [[0.4, 3]],
       "icon": "icon/skill/1002_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Após usar a sua Técnica, seu ATQ é aumentado no início da próxima batalha.",
         "en": "After they use their Technique, their ATK is increased at the start of the next battle.",
-        "zh-CN": "使用秘技，下一次进战后攻击力提高。",
-        "ja": "秘技を使用、次の戦闘に入った後に攻撃力アップ。",
-        "ko": "비술을 발동하며, 다음 전투 진입 후 공격력이 증가한다"
+        "zh-CN": "使用秘技，下一次进战后攻击力提高。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Quanto Mais Alto Você Voa, De Mais Alto Você Cai",
-        "en": "The Higher You Fly, the Harder You Fall",
-        "zh-CN": "穷高极天，亢盈难久",
-        "ja": "{RUBY_B#きょくてんきゅうじん}極天窮尽{RUBY_E#}するも\n{RUBY_B#たかぶ}昂{RUBY_E#}り{RUBY_B#たも}保{RUBY_E#}てず",
-        "ko": "높이 오르면 추락하기 마련"
-      },
+      "name": { "en": "The Higher You Fly, the Harder You Fall", "zh-CN": "穷高极天，亢盈难久" },
       "description": {
-        "pt-BR": "Quando o inimigo-alvo atacado tem 50% ou mais de PV, a Chance de CRIT aumenta em 12%.",
         "en": "When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%.",
-        "zh-CN": "当击中的敌方目标当前生命值百分比大于等于50%时，暴击率提高12%。",
-        "ja": "攻撃が命中した敵の残りHPが50%以上の場合、会心率+12%。",
-        "ko": "피격된 적의 현재 HP 백분율이 50% 이상이면, 치명타 확률이 12% 증가한다"
+        "zh-CN": "当击中的敌方目标当前生命值百分比大于等于50%时，暴击率提高12%。"
       },
       "icon": "icon/skill/1002_rank1.png",
       "materials": [{ "id": 11002, "num": 1 }],
@@ -251,39 +173,18 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Amainar o Octeto Venenoso, Saciar o Vício das Chamas",
-        "en": "Quell the Venom Octet, Quench the Vice O'Flame",
-        "zh-CN": "威制八毒，灭却炎烟",
-        "ja": "{RUBY_B#はちどくあっとう}八毒圧倒{RUBY_E#}\n{RUBY_B#えんえんめっきゃく}炎煙滅却{RUBY_E#}",
-        "ko": "악을 제압하고 화염을 멸하라"
-      },
-      "description": {
-        "pt-BR": "Reduz a recarga do Talento em 1 rodada.",
-        "en": "Reduces Talent cooldown by 1 turn.",
-        "zh-CN": "天赋的冷却时间减少1回合。",
-        "ja": "天賦のクールタイム-1ターン。",
-        "ko": "특성의 재사용 대기시간이 1턴 감소한다"
-      },
+      "name": { "en": "Quell the Venom Octet, Quench the Vice O'Flame", "zh-CN": "威制八毒，灭却炎烟" },
+      "description": { "en": "Reduces Talent cooldown by 1 turn.", "zh-CN": "天赋的冷却时间减少1回合。" },
       "icon": "icon/skill/1002_rank2.png",
       "materials": [{ "id": 11002, "num": 1 }],
       "levelUpSkills": []
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Visível e Despercebido",
-        "en": "Seen and Unseen",
-        "zh-CN": "幽明变化，自在蟠跃",
-        "ja": "{RUBY_B#ゆうめい}幽明{RUBY_E#}の{RUBY_B#へんげ}変化{RUBY_E#}\n{RUBY_B#ゆうりゅう}遊龍{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く{RUBY_B#じざい}自在{RUBY_E#}にあり",
-        "ko": "자유자재로 변하는 낮과 밤"
-      },
+      "name": { "en": "Seen and Unseen", "zh-CN": "幽明变化，自在蟠跃" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1002_skill.png",
       "materials": [{ "id": 11002, "num": 1 }],
@@ -291,19 +192,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Dragão Rugindo e Sol Crescente",
-        "en": "Roaring Dragon and Soaring Sun",
-        "zh-CN": "奋迅三昧，如日空居",
-        "ja": "{RUBY_B#ふんじんざんまい}奮迅三昧{RUBY_E#}\n{RUBY_B#にちりん}日輪{RUBY_E#}が{RUBY_B#ごと}如{RUBY_E#}く",
-        "ko": "공거천 같이 분주한 오의"
-      },
+      "name": { "en": "Roaring Dragon and Soaring Sun", "zh-CN": "奋迅三昧，如日空居" },
       "description": {
-        "pt-BR": "Quando Dan Heng usa sua Perícia Suprema para derrotar um inimigo, ele agirá novamente imediatamente.",
         "en": "When Dan Heng uses his Ultimate to defeat an enemy, he will immediately take action again.",
-        "zh-CN": "施放终结技消灭敌方目标时，丹恒立即行动。",
-        "ja": "必殺技で敵を倒した時、丹恒が即座に行動する。",
-        "ko": "필살기를 발동하여 적을 처치할 시 단항은 즉시 행동한다"
+        "zh-CN": "施放终结技消灭敌方目标时，丹恒立即行动。"
       },
       "icon": "icon/skill/1002_rank4.png",
       "materials": [{ "id": 11002, "num": 1 }],
@@ -311,19 +203,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Uma Gota de Chuva Alimenta Uma Torrente",
-        "en": "A Drop of Rain Feeds a Torrent",
-        "zh-CN": "一渧天水，六虚洪流",
-        "ja": "{RUBY_B#てんすい}天水{RUBY_E#}{RUBY_B#わ}分{RUBY_E#}かつ{RUBY_B#いっそう}一槍{RUBY_E#}\n{RUBY_B#ろっきょ}六虚{RUBY_E#}の{RUBY_B#こうりゅうふ}洪流{RUBY_E#}振り{RUBY_B#お}起{RUBY_E#}こす",
-        "ko": "사방으로 흐르는 한 방울의 빗물"
-      },
+      "name": { "en": "A Drop of Rain Feeds a Torrent", "zh-CN": "一渧天水，六虚洪流" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1002_ultimate.png",
       "materials": [{ "id": 11002, "num": 1 }],
@@ -331,19 +214,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "A Alma Inquieta Aguarda",
-        "en": "The Troubled Soul Lies in Wait",
-        "zh-CN": "须绳缚身，沉潜勿用",
-        "ja": "{RUBY_B#こんじょうじょうばく}今生縄縛{RUBY_E#}\n{RUBY_B#と}解{RUBY_E#}く{RUBY_B#とき}時{RUBY_E#}{RUBY_B#せ}急{RUBY_E#}く{RUBY_B#なか}勿{RUBY_E#}れ",
-        "ko": "때를 기다리는 준비된 자"
-      },
+      "name": { "en": "The Troubled Soul Lies in Wait", "zh-CN": "须绳缚身，沉潜勿用" },
       "description": {
-        "pt-BR": "O estado de Lentidão ativado pela Perícia reduz a VEL do inimigo em mais 8%.",
         "en": "The Slow state triggered by Skill reduces the enemy's SPD by an extra 8%.",
-        "zh-CN": "战技触发的减速状态使目标的速度额外降低8%。",
-        "ja": "戦闘スキルによって減速状態を付与された敵は、さらに速度-8%。",
-        "ko": "전투 스킬로 발동한 감속 상태는 목표의 속도를 추가로 8% 감소시킨다"
+        "zh-CN": "战技触发的减速状态使目标的速度额外降低8%。"
       },
       "icon": "icon/skill/1002_rank6.png",
       "materials": [{ "id": 11002, "num": 1 }],
@@ -703,19 +577,10 @@
     {
       "id": 1002101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Dragão Escondido",
-        "en": "Hidden Dragon",
-        "zh-CN": "潜龙",
-        "ja": "{RUBY_B#せんりゅう}潜龍{RUBY_E#}",
-        "ko": "잠룡"
-      },
+      "name": { "en": "Hidden Dragon", "zh-CN": "潜龙" },
       "description": {
-        "pt-BR": "Quando os PV atuais forem iguais a #1[i]% ou inferiores, reduz a chance de ser atacado por inimigos.",
         "en": "When current HP percentage is #1[i]% or lower, reduces the chance of being attacked by enemies.",
-        "zh-CN": "若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。",
-        "ja": "残りHPが#1[i]%以下の場合、敵に攻撃される確率ダウン。",
-        "ko": "현재 HP 백분율이 #1[i]% 이하인 경우, 적에게 피격될 확률이 감소한다"
+        "zh-CN": "若当前生命值百分比小于等于#1[i]%，则被敌方目标攻击的概率降低。"
       },
       "params": [[0.5, 0.5]],
       "icon": "icon/skill/1002_skilltree1.png",
@@ -734,19 +599,10 @@
     {
       "id": 1002102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Mais Rápido que a Luz",
-        "en": "Faster Than Light",
-        "zh-CN": "绝影",
-        "ja": "{RUBY_B#ぜつえい}絶影{RUBY_E#}",
-        "ko": "절영"
-      },
+      "name": { "en": "Faster Than Light", "zh-CN": "绝影" },
       "description": {
-        "pt-BR": "Depois de desferir um ataque, há uma chance fixa de #1[i]% de aumentar a VEL desta unidade em #2[i]% por #3[i] rodada(s).",
         "en": "After launching an attack, there is a #1[i]% fixed chance to increase this unit's SPD by #2[i]% for #3[i] turn(s).",
-        "zh-CN": "施放攻击后有#1[i]%的固定概率使自身速度提高#2[i]%，持续#3[i]回合。",
-        "ja": "攻撃を行った後、#1[i]%の固定確率で自身の速度+#2[i]%、#3[i]ターン継続。",
-        "ko": "공격 발동 후 #1[i]%의 고정 확률로 자신의 속도가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
+        "zh-CN": "施放攻击后有#1[i]%的固定概率使自身速度提高#2[i]%，持续#3[i]回合。"
       },
       "params": [[0.5, 0.2, 2]],
       "icon": "icon/skill/1002_skilltree2.png",
@@ -770,19 +626,10 @@
     {
       "id": 1002103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Forte Ventania",
-        "en": "High Gale",
-        "zh-CN": "罡风",
-        "ja": "{RUBY_B#ごうふう}剛風{RUBY_E#}",
-        "ko": "세찬 바람"
-      },
+      "name": { "en": "High Gale", "zh-CN": "罡风" },
       "description": {
-        "pt-BR": "ATQ Básico causa #1[i]% a mais de Dano a inimigos com Lentidão.",
         "en": "Basic ATK deals #1[i]% more DMG to Slowed enemies.",
-        "zh-CN": "普攻对减速状态下的敌方目标造成的伤害提高#1[i]%。",
-        "ja": "減速状態の敵に対する、通常攻撃によるダメージ+#1[i]%。",
-        "ko": "일반 공격이 감속 상태의 적에게 가하는 피해가 #1[i]% 증가한다"
+        "zh-CN": "普攻对减速状态下的敌方目标造成的伤害提高#1[i]%。"
       },
       "params": [[0.4]],
       "icon": "icon/skill/1002_skilltree3.png",
@@ -806,13 +653,7 @@
     {
       "id": 1002201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -829,7 +670,7 @@
     {
       "id": 1002202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1002101],
@@ -846,13 +687,7 @@
     {
       "id": 1002203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1002202],
@@ -869,7 +704,7 @@
     {
       "id": 1002204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -886,13 +721,7 @@
     {
       "id": 1002205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1002102],
@@ -909,7 +738,7 @@
     {
       "id": 1002206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1002205],
@@ -926,13 +755,7 @@
     {
       "id": 1002207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -949,7 +772,7 @@
     {
       "id": 1002208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1002103],
@@ -966,7 +789,7 @@
     {
       "id": 1002209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1002208],
@@ -983,13 +806,7 @@
     {
       "id": 1002210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano: Vento",
-        "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
-        "ja": "ダメージ強化・風",
-        "ko": "피해 강화•바람"
-      },
+      "name": { "en": "DMG Boost: Wind", "zh-CN": "伤害强化•风" },
       "icon": "icon/property/IconWindAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1002208],

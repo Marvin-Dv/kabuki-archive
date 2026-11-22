@@ -1,7 +1,7 @@
 {
   "id": 1317,
   "slug": "rappa",
-  "name": { "pt-BR": "Rappa", "en": "Rappa", "zh-CN": "乱破", "ja": "乱破", "ko": "라파" },
+  "name": { "en": "Rappa", "zh-CN": "乱破" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Imaginary",
@@ -11,49 +11,25 @@
     {
       "id": 131701,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Ninjutsu: Eleve-se Sobre o Conflito",
-        "en": "Ninjutsu: Rise Above Tumbles",
-        "zh-CN": "忍术•七转八起",
-        "ja": "忍法・七転八起",
-        "ko": "인술•칠전팔기"
-      },
+      "name": { "en": "Ninjutsu: Rise Above Tumbles", "zh-CN": "忍术•七转八起" },
       "description": {
-        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Rappa a uma unidade inimiga designada.",
         "en": "Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于乱破#1[i]%攻击力的虚数属性伤害。",
-        "ja": "指定した敵単体に乱破の攻撃力#1[i]%分の虚数属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 라파 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于乱破#1[i]%攻击力的虚数属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1317_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano Imaginário leve a uma unidade inimiga designada.",
-        "en": "Deals minor Imaginary DMG to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成少量虚数属性伤害。",
-        "ja": "指定した敵単体に少量の虚数属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 소량의 허수 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Imaginary DMG to one designated enemy.", "zh-CN": "对指定敌方单体造成少量虚数属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 131702,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Golpe Ninja: Firmeza Enraizada",
-        "en": "Ninja Strike: Rooted Resolute",
-        "zh-CN": "忍切•初志贯彻",
-        "ja": "忍切・初志貫徹",
-        "ko": "인절•초지일관"
-      },
+      "name": { "en": "Ninja Strike: Rooted Resolute", "zh-CN": "忍切•初志贯彻" },
       "description": {
-        "pt-BR": "Causa Dano Imaginário igual a #1[i]% do ATQ de Rappa a todas as unidades inimigas.",
         "en": "Deals Imaginary DMG equal to #1[i]% of Rappa's ATK to all enemies.",
-        "zh-CN": "对敌方全体造成等同于乱破#1[i]%攻击力的虚数属性伤害。",
-        "ja": "敵全体に乱破の攻撃力#1[i]%分の虚数属性ダメージを与える。",
-        "ko": "모든 적에게 라파 공격력의 #1[i]%만큼 허수 속성 피해를 가한다"
+        "zh-CN": "对敌方全体造成等同于乱破#1[i]%攻击力的虚数属性伤害。"
       },
       "params": [
         [0.6],
@@ -74,32 +50,17 @@
       ],
       "icon": "icon/skill/1317_skill.png",
       "maxLevel": 15,
-      "summary": {
-        "pt-BR": "Causa Dano Imaginário a todas as unidades inimigas.",
-        "en": "Deals Imaginary DMG to all enemies.",
-        "zh-CN": "对敌方全体造成虚数属性伤害。",
-        "ja": "敵全体に虚数属性ダメージを与える。",
-        "ko": "모든 적에게 허수 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "summary": { "en": "Deals Imaginary DMG to all enemies.", "zh-CN": "对敌方全体造成虚数属性伤害。" },
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 131703,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Nindô Supremo: Aishiteru",
-        "en": "Nindō Supreme: Aishiteru",
-        "zh-CN": "忍道•极•爱死天流",
-        "ja": "忍道・極・愛死天流",
-        "ko": "인도•극•애사천류"
-      },
+      "name": { "en": "Nindō Supreme: Aishiteru", "zh-CN": "忍道•极•爱死天流" },
       "description": {
-        "pt-BR": "Entra no estado \"Selaforma\", ganha imediatamente 1 rodada extra, obtém #3[i] pontos de \"Tinta Cromática\" e aumenta a Eficiência de Quebra de Fraqueza em #1[i]% e o Efeito de Quebra em #2[i]%.\nEnquanto estiver no estado de \"Selaforma\", o ATQ Básico é aprimorado, e a Perícia e Perícia Suprema não podem ser usadas. Após usar o ATQ Básico Aprimorado, consome 1 ponto de \"Tinta Cromática\". Quando a \"Tinta Cromática\" for exaurida, o estado \"Selaforma\" termina.",
         "en": "Enters the \"Sealform\" state, immediately gains 1 extra turn, obtains #3[i] points of \"Chroma Ink,\" and increases Weakness Break Efficiency by #1[i]% and Break Effect by #2[i]%.\nWhile in the \"Sealform\" state, Basic ATK is enhanced, and Skill and Ultimate cannot be used. After using Enhanced Basic ATK, consumes 1 point of \"Chroma Ink.\" When \"Chroma Ink\" is depleted, exits the \"Sealform\" state.",
-        "zh-CN": "进入【结印】状态，立即获得1个额外回合并获得#3[i]点【彩墨】，同时弱点击破效率提高#1[i]%，击破特攻提高#2[i]%。\n【结印】状态下普攻获得强化且无法施放战技和终结技，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。",
-        "ja": "「結印」状態に入り、即座に追加ターンを1ターン、「彩墨」を#3[i]獲得する。同時に弱点撃破効率+#1[i]%、撃破特効+#2[i]%。\n「結印」状態の間、通常攻撃が強化されるが、戦闘スキルおよび必殺技は発動できない。強化通常攻撃を行うと「彩墨」が1消費され、0になると「結印」状態が終了する。",
-        "ko": "[결인] 상태에 진입하고 즉시 보너스 턴 1개 및 [채묵]을 #3[i]pt 획득한다. 동시에 약점 격파 효율이 #1[i]% 증가하고 격파 특수효과가 #2[i]% 증가한다.\n[결인] 상태에서 일반 공격은 강화되며, 전투 스킬과 필살기를 발동할 수 없다. 강화된 일반 공격을 발동하면 [채묵]을 1pt 소모하며, 소진 시 [결인] 상태가 종료된다"
+        "zh-CN": "进入【结印】状态，立即获得1个额外回合并获得#3[i]点【彩墨】，同时弱点击破效率提高#1[i]%，击破特攻提高#2[i]%。\n【结印】状态下普攻获得强化且无法施放战技和终结技，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。"
       },
       "params": [
         [0.5, 0.1, 3],
@@ -121,31 +82,19 @@
       "icon": "icon/skill/1317_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Entra no estado \"Selaforma\", ganha uma rodada extra, obtém 3 pontos de \"Tinta Cromática\" e aumenta a Eficiência de Quebra de Fraqueza e o Efeito de Quebra.\nEnquanto estiver no estado de \"Selaforma\", ganha ATQ Básico Aprimorado. Após usar o ATQ Básico Aprimorado, consome 1 ponto de \"Tinta Cromática\". Quando a \"Tinta Cromática\" for exaurida, o estado \"Selaforma\" termina.",
         "en": "Enters the \"Sealform\" state, gains an extra turn, obtains 3 points of \"Chroma Ink,\" and increases Weakness Break Efficiency and Break Effect.\nWhile in the \"Sealform\" state, gains Enhanced Basic ATK. After using Enhanced Basic ATK, consumes 1 point of \"Chroma Ink.\" When \"Chroma Ink\" is depleted, exits the \"Sealform\" state.",
-        "zh-CN": "进入【结印】状态，获得额外回合并获得3点【彩墨】，且弱点击破效率提高，击破特攻提高。\n【结印】状态下获得强化普攻，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。",
-        "ja": "「結印」状態に入り、追加ターンと「彩墨」を3層獲得し、弱点撃破効率および撃破特効がアップする。\n「結印」状態では、通常攻撃が強化される。強化通常攻撃を行うと「彩墨」が1層消費され、層数が0になると「結印」状態が終了する。",
-        "ko": "[결인] 상태에 진입하고 보너스 턴 및 [채묵]을 3pt 획득하며, 약점 격파 효율과 격파 특수효과가 증가한다.\n[결인] 상태에서 일반 공격 강화를 획득하며, 강화된 일반 공격을 발동하면 [채묵]을 1pt 소모하고 소진 시 [결인] 상태가 종료된다"
+        "zh-CN": "进入【结印】状态，获得额外回合并获得3点【彩墨】，且弱点击破效率提高，击破特攻提高。\n【结印】状态下获得强化普攻，施放强化普攻后会消耗1点【彩墨】，耗尽时退出【结印】状态。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 131704,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Tecnologia Ninja: Medidor de Resistência",
-        "en": "Ninja Tech: Endurance Gauge",
-        "zh-CN": "忍•科学•堪忍袋",
-        "ja": "シノビ・サイエンス・堪忍袋",
-        "ko": "닌자•과학•감인 주머니"
-      },
+      "name": { "en": "Ninja Tech: Endurance Gauge", "zh-CN": "忍•科学•堪忍袋" },
       "description": {
-        "pt-BR": "Cada vez que o inimigo-alvo sofre uma Quebra de Fraqueza, Rappa ganha 1 Carga até um máximo de #1[i] ponto(s) de Carga. Quando Rappa lançar o terceiro golpe de \"Ningu: Florilâmina Exorcista\", causa adicionalmente Dano de Quebra equivalente a #3[i]% do Dano de Quebra Imaginário de Rappa a todos os inimigos. Esse Dano pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade em #4[i] e consumir todos os pontos de Carga. Cada ponto de Carga aumentará o multiplicador de Dano de Quebra em #5[i]% e aumentará a Redução de Tenacidade que pode ignorar o Tipo de Fraqueza em #6[i].\nAo aplicar Quebra de Fraqueza em um inimigo, o efeito de Quebra de Fraqueza contra Imaginário será ativado.",
         "en": "Each time the enemy target is Weakness Broken, Rappa gains 1 point of Charge, up to a max of #1[i] points of Charge. When Rappa next launches the third hit of \"Ningu: Demonbane Petalblade,\" additionally deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce #4[i] Toughness, consuming all Charge. Each point of Charge increases the Break DMG multiplier by #5[i]% and increases the Toughness Reduction that can ignore Weakness Type by #6[i].\nWhen Breaking Weakness, triggers the Imaginary Weakness Break effect.",
-        "zh-CN": "每当敌方目标的弱点被击破时，乱破获得1点充能，最多拥有#1[i]点充能。乱破下一次发动【忍具•降魔花弁】的第3段攻击时，额外对敌方全体造成等同于乱破#3[i]%虚数属性击破伤害的击破伤害，该伤害可无视弱点属性削减#4[i]点韧性，并消耗所有充能，每点充能使本次击破伤害倍率提高#5[i]%，并使无视弱点属性的削韧值提高#6[i]点。\n击破弱点时，触发虚数属性的弱点击破效果。",
-        "ja": "敵が弱点撃破される時、乱破はチャージを1獲得する。最大で#1[i]まで獲得可能。\n乱破が次の「忍具・降魔の花弁」による3段目の攻撃を行う時、すべてのチャージを消費し、敵全体に乱破の虚数属性弱点撃破ダメージ#3[i]%分の弱点撃破ダメージを与え、弱点属性を無視して靭性を#4[i]削る。この3段目の攻撃は消費したチャージ1につき、弱点撃破ダメージの倍率+#5[i]%、削靭値+#6[i]。\n敵を弱点撃破する時、虚数属性の弱点撃破効果を発動する。",
-        "ko": "적의 약점이 격파될 때마다 라파가 충전을 1pt 획득하고, 최대 #1[i]pt의 충전을 보유한다. 라파가 다음번에 [인구•항마의 꽃잎]의 3번째 공격 발동 시 추가로 모든 적에게 라파 허수 속성 격파 피해의 #3[i]%만큼 격파 피해를 가한다. 해당 피해는 약점 속성을 무시하고 강인성을 #4[i]pt 감소시키며, 충전을 모두 소모한다. 충전 1pt당 이번 격파 피해 배율이 #5[i]% 증가하고, 약점 속성을 무시하는 강인성 감소 수치가 #6[i]pt 증가한다.\n약점 격파 시 허수 속성의 약점 격파 효과를 발동한다"
+        "zh-CN": "每当敌方目标的弱点被击破时，乱破获得1点充能，最多拥有#1[i]点充能。乱破下一次发动【忍具•降魔花弁】的第3段攻击时，额外对敌方全体造成等同于乱破#3[i]%虚数属性击破伤害的击破伤害，该伤害可无视弱点属性削减#4[i]点韧性，并消耗所有充能，每点充能使本次击破伤害倍率提高#5[i]%，并使无视弱点属性的削韧值提高#6[i]点。\n击破弱点时，触发虚数属性的弱点击破效果。"
       },
       "params": [
         [10, 0, 0.3, 2, 0.25, 1],
@@ -167,82 +116,52 @@
       "icon": "icon/skill/1317_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Quando o inimigo-alvo sofre uma Quebra de Fraqueza, Rappa ganha 1 ponto de Carga. Ao lançar o terceiro golpe de \"Ningu: Florilâmina Exorcista\", causa adicionalmente Dano de Quebra ImaginárioO em todos os inimigos. Esse Dano pode ignorar o Tipo de Fraqueza para reduzir a Tenacidade e consumir todas as Cargas, aumentando o multiplicador de Dano de Quebra e a Redução de Tenacidade do ataque.",
         "en": "When the enemy target is Weakness Broken, Rappa gains 1 point of Charge. When launching the third hit of \"Ningu: Demonbane Petalblade,\" additionally deals Imaginary Break DMG to all enemies. This DMG can ignore Weakness Type to reduce Toughness and consume all Charge, increasing the Break DMG multiplier and Toughness Reduction.",
-        "zh-CN": "当敌方目标的弱点被击破时，乱破获得1点充能。发动【忍具•降魔花弁】的第3段攻击时，额外对敌方全体造成虚数属性击破伤害，该伤害可无视弱点属性削韧，并消耗所有充能，使本次击破伤害倍率和削韧值提高。",
-        "ja": "敵が弱点撃破される時、乱破はチャージを1獲得する。\n「忍具・降魔の花弁」の3段目の攻撃を行う時、すべてのチャージを消費し、敵全体に虚数属性弱点撃破ダメージを与え、弱点属性を無視して靭性を削る。消費したチャージに応じて、この3段目の攻撃の弱点撃破ダメージの倍率と削靭値がアップする。",
-        "ko": "적의 약점이 격파될 시 라파가 충전을 1pt 획득한다. [인구•항마의 꽃잎]의 3번째 공격 발동 시 추가로 모든 적에게 허수 속성 격파 피해를 가한다. 해당 피해는 약점 속성을 무시하고 강인성을 감소시키며, 충전을 모두 소모하여 이번 격파 피해 배율과 강인성 감소 수치를 증가시킨다"
+        "zh-CN": "当敌方目标的弱点被击破时，乱破获得1点充能。发动【忍具•降魔花弁】的第3段攻击时，额外对敌方全体造成虚数属性击破伤害，该伤害可无视弱点属性削韧，并消耗所有充能，使本次击破伤害倍率和削韧值提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 131706,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1317_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 131707,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Corrida Ninja: Indo Com Tudo",
-        "en": "Ninja Dash: By Leaps and Bounds",
-        "zh-CN": "忍步•血义理",
-        "ja": "シノビ・歩血義理",
-        "ko": "인보•혈의리"
-      },
+      "name": { "en": "Ninja Dash: By Leaps and Bounds", "zh-CN": "忍步•血义理" },
       "description": {
-        "pt-BR": "Após usar a Técnica, entra no estado \"Grafite\" por #1[i] segundos. Enquanto estiver no estado de \"Grafite\", avança rapidamente por uma distância definida e ataca quaisquer inimigos tocados. Durante o movimento rápido, pode bloquear todos os ataques inimigos. Usar um ataque no estado \"Grafite\" pode encerrar a duração do estado antecipadamente. Ao entrar em combate atacando inimigos, causa #5[i] de Redução de Tenacidade independentemente do Tipo de Fraqueza e causa Dano de Quebra igual a #2[i]% do Dano de Quebra Imaginário de Rappa a cada inimigo-alvo, e causa Dano de Quebra igual a #3[i]% do Dano de Quebra Imaginário de Rappa aos alvos adjacentes. Ao mesmo tempo, esta unidade regenera #4[i] de Energia.",
         "en": "After using Technique, enters the \"Graffiti\" state for #1[i] seconds. While in the \"Graffiti\" state, moves forward rapidly for a set distance and attacks any enemies touched. During the rapid movement, can block all enemies' attacks. Using an attack in the \"Graffiti\" state can end the state's duration early. After entering combat via attacking enemies, deals #5[i] Toughness Reduction regardless of Weakness Type and Break DMG equal to #2[i]% of Rappa's Imaginary Break DMG to each enemy target, and deals Break DMG equal to #3[i]% of Rappa's Imaginary Break DMG to adjacent targets. At the same time, this unit regenerates #4[i] Energy.",
-        "zh-CN": "使用秘技后进入持续#1[i]秒的【涂鸦】状态。【涂鸦】状态下会快速向前移动一段距离并攻击接触到的敌人，在快速移动的过程中可抵挡敌人的所有攻击。【涂鸦】状态下施放攻击可以提前结束持续时间，主动攻击敌人进入战斗后，对每个敌方目标造成#5[i]点无视弱点属性的削韧，以及等同于乱破#2[i]%虚数属性击破伤害的击破伤害，并对其相邻目标造成等同于乱破#3[i]%虚数属性击破伤害的击破伤害，同时使自身获得#4[i]点能量。",
-        "ja": "秘技を使用した後、#1[i]秒間継続する「スプラッシュ」状態に入る。「スプラッシュ」状態の間、前方に素早く一定距離移動し、触れた敵を攻撃する。移動中は敵からの攻撃をすべて防ぐことができるが、この状態で攻撃を行うと「スプラッシュ」状態は終了する。敵を先制攻撃して戦闘に入った後、弱点属性を無視して敵それぞれの靭性を#5[i]削り、乱破の虚数属性弱点撃破ダメージ#2[i]%分の弱点撃破ダメージを与え、敵それぞれと隣接する敵に乱破の虚数属性弱点撃破ダメージ#3[i]%分の弱点撃破ダメージを与え、自身のEPを#4[i]回復する。",
-        "ko": "비술을 사용하면 #1[i]초 동안 [그래피티] 상태에 진입한다. [그래피티] 상태에서는 빠른 속도로 전방을 향해 일정 거리 이동하고 접촉한 적을 공격한다. 빠른 이동 중에는 적의 모든 공격을 막을 수 있다. [그래피티] 상태에서 공격 발동 시 지속 시간을 조기 종료할 수 있으며, 적을 선공해 전투에 진입하면 각각의 적에게 약점 속성을 무시하는 강인성 감소를 #5[i]pt 가하고, 라파 허수 속성 격파 피해의 #2[i]%만큼 격파 피해를 가하며, 대상의 인접한 목표에게 라파 허수 속성 격파 피해의 #3[i]%만큼 격파 피해를 가한다. 동시에 자신은 에너지를 #4[i]pt 획득한다"
+        "zh-CN": "使用秘技后进入持续#1[i]秒的【涂鸦】状态。【涂鸦】状态下会快速向前移动一段距离并攻击接触到的敌人，在快速移动的过程中可抵挡敌人的所有攻击。【涂鸦】状态下施放攻击可以提前结束持续时间，主动攻击敌人进入战斗后，对每个敌方目标造成#5[i]点无视弱点属性的削韧，以及等同于乱破#2[i]%虚数属性击破伤害的击破伤害，并对其相邻目标造成等同于乱破#3[i]%虚数属性击破伤害的击破伤害，同时使自身获得#4[i]点能量。"
       },
       "params": [[20, 2, 1.8, 10, 30]],
       "icon": "icon/skill/1317_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Entra no estado de \"Grafite\". Avança rapidamente por uma distância determinada e ataca quaisquer inimigos tocados. Ao entrar em combate atacando inimigos, causa Redução de Tenacidade independentemente do Tipo de Fraqueza e Dano de Quebra Imaginário a cada inimigo-alvo e causa Dano de Quebra Imaginário aos alvos adjacentes. Ao mesmo tempo, esta unidade regenera Energia.",
         "en": "Enters the \"Graffiti\" state. Moves forward rapidly for a set distance and attacks any enemies touched. After entering combat via attacking enemies, deals Toughness Reduction regardless of Weakness Type and Imaginary Break DMG to each enemy target and deals Imaginary Break DMG to their adjacent targets. At the same time, this unit regenerates Energy.",
-        "zh-CN": "进入【涂鸦】状态，快速向前移动一段距离并攻击接触到的敌人。攻击敌人进战后，对每个敌方目标造成无视弱点属性的削韧及虚数属性击破伤害，并对其相邻目标造成虚数属性击破伤害，同时使自身获得能量。",
-        "ja": "「スプラッシュ」状態に入り、素早く前方に一定距離移動し、触れた敵を攻撃する。敵を先制攻撃して戦闘に入った後、弱点属性を無視して敵それぞれの靭性を削る。さらに、すべての敵および隣接する敵に虚数属性弱点撃破ダメージを与え、自身のEPを回復する。",
-        "ko": "[그래피티] 상태에 진입하며, 빠른 속도로 전방을 향해 일정 거리 이동하고 접촉한 적을 공격한다. 적을 공격하여 전투에 진입하면 각각의 적에게 약점 속성을 무시하는 강인성 감소 효과와 허수 속성 격파 피해를 가하고, 대상의 인접한 목표에게 허수 속성 격파 피해를 가한다. 동시에 자신은 에너지를 획득한다"
+        "zh-CN": "进入【涂鸦】状态，快速向前移动一段距离并攻击接触到的敌人。攻击敌人进战后，对每个敌方目标造成无视弱点属性的削韧及虚数属性击破伤害，并对其相邻目标造成虚数属性击破伤害，同时使自身获得能量。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 131708,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Ningu: Florilâmina Exorcista",
-        "en": "Ningu: Demonbane Petalblade",
-        "zh-CN": "忍具•降魔花弁",
-        "ja": "忍具・降魔の花弁",
-        "ko": "인구•항마의 꽃잎"
-      },
+      "name": { "en": "Ningu: Demonbane Petalblade", "zh-CN": "忍具•降魔花弁" },
       "description": {
-        "pt-BR": "Causa Dano Imaginário leve a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",
         "en": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
-        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。",
-        "ja": "指定した敵単体および隣接する敵に少量の虚数属性ダメージを与える。この攻撃は虚数属性弱点を持たない敵の靱性も削ることができる。",
-        "ko": "지정된 단일 적에게 소량의 허수 속성 피해를 가하고, 인접한 목표에게 소량의 허수 속성 피해를 가한다. 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다"
+        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。"
       },
       "params": [
         [0.6, 0.3, 0.6, 0.5],
@@ -259,31 +178,19 @@
       "icon": "icon/skill/1317_basic_atk2.png",
       "maxLevel": 10,
       "summary": {
-        "pt-BR": "Causa Dano Imaginário leve a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",
         "en": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
-        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。",
-        "ja": "指定した敵単体および隣接する敵に少量の虚数属性ダメージを与える。この攻撃は虚数属性弱点を持たない敵の靱性も削ることができる。",
-        "ko": "지정된 단일 적에게 소량의 허수 속성 피해를 가하고, 인접한 목표에게 소량의 허수 속성 피해를 가한다. 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다"
+        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 131710,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Ningu: Florilâmina Exorcista",
-        "en": "Ningu: Demonbane Petalblade",
-        "zh-CN": "忍具•降魔花弁",
-        "ja": "忍具・降魔の花弁",
-        "ko": "인구•항마의 꽃잎"
-      },
+      "name": { "en": "Ningu: Demonbane Petalblade", "zh-CN": "忍具•降魔花弁" },
       "description": {
-        "pt-BR": "Causa Dano Imaginário leve a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",
         "en": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
-        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。",
-        "ja": "指定した敵単体および隣接する敵に少量の虚数属性ダメージを与える。この攻撃は虚数属性弱点を持たない敵の靱性も削ることができる。",
-        "ko": "지정된 단일 적에게 소량의 허수 속성 피해를 가하고, 인접한 목표에게 소량의 허수 속성 피해를 가한다. 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다"
+        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。"
       },
       "params": [
         [0.6, 0.3],
@@ -300,61 +207,37 @@
       "icon": "icon/skill/1317_basic_atk2.png",
       "maxLevel": 10,
       "summary": {
-        "pt-BR": "Causa Dano Imaginário leve a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",
         "en": "Deals minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
-        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。",
-        "ja": "指定した敵単体および隣接する敵に少量の虚数属性ダメージを与える。この攻撃は虚数属性弱点を持たない敵の靱性も削ることができる。",
-        "ko": "지정된 단일 적에게 소량의 허수 속성 피해를 가하고, 인접한 목표에게 소량의 허수 속성 피해를 가한다. 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다"
+        "zh-CN": "对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 131712,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Ningu: Florilâmina Exorcista",
-        "en": "Ningu: Demonbane Petalblade",
-        "zh-CN": "忍具•降魔花弁",
-        "ja": "忍具・降魔の花弁",
-        "ko": "인구•항마의 꽃잎"
-      },
+      "name": { "en": "Ningu: Demonbane Petalblade", "zh-CN": "忍具•降魔花弁" },
       "description": {
-        "pt-BR": "Causa Dano Imaginário leve a todas as unidades inimigas. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",
         "en": "Deals minor Imaginary DMG to all enemies. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
-        "zh-CN": "对敌方全体造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。",
-        "ja": "敵全体に少量の虚数属性ダメージを与える。この攻撃は虚数属性弱点を持たない敵の靱性も削ることができる。",
-        "ko": "모든 적에게 소량의 허수 속성 피해를 가한다. 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다"
+        "zh-CN": "对敌方全体造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。"
       },
       "params": [[0.6], [0.68], [0.76], [0.84], [0.92], [1], [1.08], [1.16], [1.24], [1.32]],
       "icon": "icon/skill/1317_basic_atk2.png",
       "maxLevel": 10,
       "summary": {
-        "pt-BR": "Causa Dano Imaginário leve a todas as unidades inimigas. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",
         "en": "Deals minor Imaginary DMG to all enemies. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
-        "zh-CN": "对敌方全体造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。",
-        "ja": "敵全体に少量の虚数属性ダメージを与える。この攻撃は虚数属性弱点を持たない敵の靱性も削ることができる。",
-        "ko": "모든 적에게 소량의 허수 속성 피해를 가한다. 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다"
+        "zh-CN": "对敌方全体造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 131718,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Ningu: Florilâmina Exorcista",
-        "en": "Ningu: Demonbane Petalblade",
-        "zh-CN": "忍具•降魔花弁",
-        "ja": "忍具・降魔の花弁",
-        "ko": "인구•항마의 꽃잎"
-      },
+      "name": { "en": "Ningu: Demonbane Petalblade", "zh-CN": "忍具•降魔花弁" },
       "description": {
-        "pt-BR": "Lança \"Ningu: Florilâmina Exorcista\". Os primeiros 2 golpes causam Dano Imaginário igual a #1[i]% do ATQ de Rappa a uma unidade inimiga designada e Dano Imaginário igual a #2[i]% do ATQ de Rappa aos alvos adjacentes, e o 3º golpe causa Dano Imaginário igual a #3[i]% do ATQ de Rappa a todas as unidades inimigas.\nO ATQ Básico Aprimorado não recupera Pontos de Perícia. Ao atacar inimigos que não têm Fraqueza contra Imaginário, o ATQ Básico Aprimorado ainda pode causar Redução de Tenacidade igual a #4[i]% do valor original de Redução de Tenacidade. Ao aplicar Quebra de Fraqueza, desencadeia o efeito de Quebra de Fraqueza contra Imaginário.",
         "en": "Launches \"Ningu: Demonbane Petalblade.\" The first 2 hits deal Imaginary DMG equal to #1[i]% of Rappa's ATK to one designated enemy and Imaginary DMG equal to #2[i]% of Rappa's ATK to adjacent targets, and the 3rd hit deals Imaginary DMG equal to #3[i]% of Rappa's ATK to all enemies.\nEnhanced Basic ATK will not recover Skill Points. Attacking enemies that don't have Imaginary Weakness can also reduce Toughness, whose effect is equal to #4[i]% of the original Toughness Reduction. When Breaking Weakness, triggers the Imaginary Weakness Break effect.",
-        "zh-CN": "发动【忍具•降魔花弁】，前2段攻击对指定敌方单体造成等同于乱破#1[i]%攻击力的虚数属性伤害，并对其相邻目标造成等同于乱破#2[i]%攻击力的虚数属性伤害，第3段对敌方全体造成等同于乱破#3[i]%攻击力的虚数属性伤害。\n强化普攻无法恢复战技点，攻击没有虚数弱点的敌人也可以削减韧性，效果等同于原削韧值的#4[i]%。击破弱点时，触发虚数属性的弱点击破效果。",
-        "ja": "「忍具・降魔の花弁」を発動する。1、2段目の攻撃は指定した敵単体に乱破の攻撃力#1[i]%分の虚数属性ダメージを与え、隣接する敵に乱破の攻撃力#2[i]%分の虚数属性ダメージを与える。3段目の攻撃は敵全体に乱破の攻撃力#3[i]%分の虚数属性ダメージを与える。\n強化通常攻撃はSPを回復できないが、虚数属性弱点を持たない敵に対しても本来の削靭値#4[i]%分の靭性を削ることができる。乱破が敵を弱点撃破する時、虚数属性の弱点撃破効果が発動する。",
-        "ko": "[인구•항마의 꽃잎]을 발동한다. 처음 2단 공격은 지정된 단일 적에게 라파 공격력의 #1[i]%만큼 허수 속성 피해를 가하고, 인접한 목표에게 라파 공격력의 #2[i]%만큼 허수 속성 피해를 가한다. 3번째 공격은 모든 적에게 라파 공격력의 #3[i]%만큼 허수 속성 피해를 가한다.\n강화된 일반 공격은 전투 스킬 포인트를 회복할 수 없고, 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있으며, 효과는 기존 강인성 감소 수치의 #4[i]%다. 약점 격파 시 허수 속성의 약점 격파 효과를 발동한다"
+        "zh-CN": "发动【忍具•降魔花弁】，前2段攻击对指定敌方单体造成等同于乱破#1[i]%攻击力的虚数属性伤害，并对其相邻目标造成等同于乱破#2[i]%攻击力的虚数属性伤害，第3段对敌方全体造成等同于乱破#3[i]%攻击力的虚数属性伤害。\n强化普攻无法恢复战技点，攻击没有虚数弱点的敌人也可以削减韧性，效果等同于原削韧值的#4[i]%。击破弱点时，触发虚数属性的弱点击破效果。"
       },
       "params": [
         [0.6, 0.3, 0.6, 0.5],
@@ -371,32 +254,20 @@
       "icon": "icon/skill/1317_basic_atk2.png",
       "maxLevel": 10,
       "summary": {
-        "pt-BR": "Os primeiros 2 golpes causam Dano Imaginário leve a uma unidade inimiga designada e Dano Imaginário leve aos alvos adjacentes. O terceiro golpe causa Dano Imaginário leve a todos os inimigos. Atacar inimigos sem Fraqueza contra Imaginário ainda pode reduzir a Tenacidade deles.",
         "en": "The first 2 hits deal minor Imaginary DMG to one designated enemy and minor Imaginary DMG to adjacent targets. The third hit deals minor Imaginary DMG to all enemies. Attacking enemies without Imaginary Weakness can also reduce their Toughness.",
-        "zh-CN": "前2段攻击对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。第3段对敌方全体造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。",
-        "ja": "1、2段目の攻撃は指定した敵単体および隣接する敵に少量の虚数属性ダメージを与え、3段目の攻撃は敵全体に少量の虚数属性ダメージを与える。この攻撃は虚数属性弱点を持たない敵の靱性も削ることができる。",
-        "ko": "처음 2단 공격은 지정된 단일 적에게 소량의 허수 속성 피해를 가하고, 인접한 목표에게 소량의 허수 속성 피해를 가한다. 3번째 공격은 모든 적에게 소량의 허수 속성 피해를 가한다. 허수 약점이 없는 적을 공격해도 강인성을 감소시킬 수 있다"
+        "zh-CN": "前2段攻击对指定敌方单体造成少量虚数属性伤害，并对其相邻目标造成少量虚数属性伤害。第3段对敌方全体造成少量虚数属性伤害。攻击没有虚数弱点的敌人也可以削减韧性。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "O Fantasma Está de Volta Sem o Tíquete",
-        "en": "Returned Is the Revenant With No Ferry Toll",
-        "zh-CN": "常世道返三途无六钱",
-        "ja": "{RUBY_B#トコヨ}常世{RUBY_E#}ノ{RUBY_B#ミチ}道{RUBY_E#}、\n{RUBY_B#サンズ}三途{RUBY_E#}ニ{RUBY_B#ロクモンセンナ}六文銭無{RUBY_E#}シ",
-        "ko": "삼도천을 건너려나 육도전 없네"
-      },
+      "name": { "en": "Returned Is the Revenant With No Ferry Toll", "zh-CN": "常世道返三途无六钱" },
       "description": {
-        "pt-BR": "Durante o estado de \"Selaforma\" ativado ao usar a Perícia Suprema, o Dano causado por Rappa ignora 15% da DEF dos alvos. Após sair do estado de \"Selaforma\", regenera 20 de Energia.",
         "en": "During the \"Sealform\" state entered by using Ultimate, DMG dealt by Rappa ignores 15% of the targets' DEF. After exiting the \"Sealform\" state, regenerates 20 Energy.",
-        "zh-CN": "施放终结技进入【结印】状态期间，乱破造成的伤害无视目标15%的防御，退出【结印】状态后恢复20点能量。",
-        "ja": "必殺技を発動し「結印」状態となっている間、乱破が与えるダメージは敵の防御力を15%無視する。また、「結印」状態が終了した後、EPを20回復する。",
-        "ko": "필살기를 발동하여 [결인] 상태에 진입하는 동안 라파가 가하는 피해가 목표의 방어력을 15% 무시하고, [결인] 상태 해제 후 에너지를 20pt 회복한다"
+        "zh-CN": "施放终结技进入【结印】状态期间，乱破造成的伤害无视目标15%的防御，退出【结印】状态后恢复20点能量。"
       },
       "icon": "icon/skill/1317_rank1.png",
       "materials": [{ "id": 11317, "num": 1 }],
@@ -404,19 +275,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Livre É a Mente Iluminada por Haikus",
-        "en": "Free Is the Mind Enlightened by Haikus",
-        "zh-CN": "俳句暗记有识无挂碍",
-        "ja": "{RUBY_B#ハイク}俳句{RUBY_E#}ノ{RUBY_B#アンキ}暗記{RUBY_E#}、\n{RUBY_B#ユウシキ}有識{RUBY_E#}ニ{RUBY_B#ケイゲナ}罣礙無{RUBY_E#}シ",
-        "ko": "하이쿠를 외우니 근심 걱정 없네"
-      },
+      "name": { "en": "Free Is the Mind Enlightened by Haikus", "zh-CN": "俳句暗记有识无挂碍" },
       "description": {
-        "pt-BR": "Os 2 primeiros golpes do ATQ Básico Aprimorado têm sua Redução de Tenacidade contra o inimigo designado aumentada em 50%.",
         "en": "The Enhanced Basic ATK's first 2 hits have their Toughness Reduction against the one designated enemy increased by 50%.",
-        "zh-CN": "强化普攻的前2段攻击对指定敌方单体的削韧值提高50%。",
-        "ja": "指定した敵単体に対する、強化通常攻撃の1、2段目の削靭値+50%。",
-        "ko": "강화된 일반 공격의 처음 2단 공격이 지정된 단일 적에게 가하는 강인성 감소 수치가 50% 증가한다"
+        "zh-CN": "强化普攻的前2段攻击对指定敌方单体的削韧值提高50%。"
       },
       "icon": "icon/skill/1317_rank2.png",
       "materials": [{ "id": 11317, "num": 1 }],
@@ -424,19 +286,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Muitos São os Templos Que Não Protegem",
-        "en": "Many Are the Shrines That Repel No Hell",
-        "zh-CN": "堂塔伽蓝末法无间狱",
-        "ja": "{RUBY_B#ガラン}伽藍{RUBY_E#}ノ{RUBY_B#ドウ}堂{RUBY_E#}、\n{RUBY_B#ムゲンゴク}無間獄{RUBY_E#}ニ{RUBY_B#ショウホウナ}正法無{RUBY_E#}シ",
-        "ko": "사찰 즐비해도 말법의 무간옥이라네"
-      },
+      "name": { "en": "Many Are the Shrines That Repel No Hell", "zh-CN": "堂塔伽蓝末法无间狱" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1317_skill.png",
       "materials": [{ "id": 11317, "num": 1 }],
@@ -444,19 +297,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Perdida no Nindô Devorado pelo Tempo",
-        "en": "Lost Is the Nindō Devoured by Time",
-        "zh-CN": "经年劣化任侠无忍义",
-        "ja": "{RUBY_B#ケイネンレッカ}経年劣化{RUBY_E#}、\n{RUBY_B#ニンキョウ}任侠{RUBY_E#}ニ{RUBY_B#ニンギナ}忍義無{RUBY_E#}シ",
-        "ko": "시간이 흘러 임협마저 인의를 잃었네"
-      },
+      "name": { "en": "Lost Is the Nindō Devoured by Time", "zh-CN": "经年劣化任侠无忍义" },
       "description": {
-        "pt-BR": "Enquanto está no estado de \"Selaforma\", aumenta a VEL de todas as unidades aliadas em 12%.",
         "en": "While in the \"Sealform\" state, increases all allies' SPD by 12%.",
-        "zh-CN": "【结印】状态期间，我方全体速度提高12%。",
-        "ja": "「結印」状態の間、味方全体の速度+12%。",
-        "ko": "[결인] 상태 동안 모든 아군의 속도가 12% 증가한다"
+        "zh-CN": "【结印】状态期间，我方全体速度提高12%。"
       },
       "icon": "icon/skill/1317_rank4.png",
       "materials": [{ "id": 11317, "num": 1 }],
@@ -464,19 +308,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Firme É a Vigia Com Flechas Sem Fim",
-        "en": "Steady Is The Ranger With Unerring Arrows",
-        "zh-CN": "一心不乱鸣弦无徒矢",
-        "ja": "{RUBY_B#イッシンフラン}一心不乱{RUBY_E#}、\n{RUBY_B#メイゲン}鳴弦{RUBY_E#}ニ{RUBY_B#アダヤナ}徒矢無{RUBY_E#}シ",
-        "ko": "일심불란의 화살은 빗나가지 않네"
-      },
+      "name": { "en": "Steady Is The Ranger With Unerring Arrows", "zh-CN": "一心不乱鸣弦无徒矢" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1317_ultimate.png",
       "materials": [{ "id": 11317, "num": 1 }],
@@ -491,19 +326,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Justa É a Ira Que Não Poupa Nenhum Mal",
-        "en": "Righteous Is the Wrath That Spares No Evil",
-        "zh-CN": "破邪显正应报无慈悲",
-        "ja": "{RUBY_B#ハジャケンショウ}破邪顕正{RUBY_E#}、\n{RUBY_B#アクト}悪徒{RUBY_E#}ニ{RUBY_B#ジヒナ}慈悲無{RUBY_E#}シ",
-        "ko": "파사현정의 응보는 자비가 없네"
-      },
+      "name": { "en": "Righteous Is the Wrath That Spares No Evil", "zh-CN": "破邪显正应报无慈悲" },
       "description": {
-        "pt-BR": "Quando a batalha começa, Rappa ganha 5 ponto(s) de Carga de seu Talento, e seu limite máximo aumenta em 5 ponto(s). Após lançar o terceiro golpe de \"Ningu: Florilâmina Exorcista\", ganha 5 ponto(s) de Carga.",
         "en": "When battle starts, Rappa gains 5 point(s) of her Talent's Charge, and its upper limit increases by 5 point(s). After launching the third hit of \"Ningu: Demonbane Petalblade,\" gains 5 point(s) of Charge.",
-        "zh-CN": "战斗开始时乱破获得5点天赋效果的充能，且充能上限增加5点。发动【忍具•降魔花弁】第3段攻击后获得5点充能。",
-        "ja": "天賦の効果で獲得できるチャージを戦闘開始時に5獲得し、さらに上限を+5する。また、「忍具・降魔の花弁」の3段目の攻撃を行った後、チャージ+5。",
-        "ko": "전투 시작 시 라파가 특성 효과의 충전을 5pt 획득하고, 충전 상한이 5pt 증가한다. [인구•항마의 꽃잎]의 3번째 공격 발동 후 충전을 5pt 획득한다"
+        "zh-CN": "战斗开始时乱破获得5点天赋效果的充能，且充能上限增加5点。发动【忍具•降魔花弁】第3段攻击后获得5点充能。"
       },
       "icon": "icon/skill/1317_rank6.png",
       "materials": [{ "id": 11317, "num": 1 }],
@@ -878,19 +704,10 @@
     {
       "id": 1317101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Inscrição do Ninjutsu: Subida Aos Céus",
-        "en": "Ninjutsu Inscription: Sky High",
-        "zh-CN": "忍法帖•魔天",
-        "ja": "{RUBY_B#にんぽうちょう}忍法帖{RUBY_E#}・{RUBY_B#まてん}魔天{RUBY_E#}",
-        "ko": "인법첩•마천"
-      },
+      "name": { "en": "Ninjutsu Inscription: Sky High", "zh-CN": "忍法帖•魔天" },
       "description": {
-        "pt-BR": "Quando inimigos de Elite ou superiores são afligidos com Quebra de Fraqueza, Rappa ganha adicionalmente #2[i] Carga(s) e regenera #1[i] de Energia.",
         "en": "When the Weakness of an elite-level or higher enemy is broken, Rappa additionally gains #2[i] point(s) of Charge and regenerates #1[i] Energy.",
-        "zh-CN": "精英级别及以上的敌方目标的弱点被击破时，乱破额外获得#2[i]点充能，并恢复#1[i]点能量。",
-        "ja": "精鋭エネミー以上の敵が弱点撃破される時、乱破はさらにチャージを#2[i]獲得し、EPを#1[i]回復する。",
-        "ko": "정예급 이상 적의 약점이 격파될 시 라파는 추가로 충전을 #2[i]pt 획득하고 에너지를 #1[i]pt 회복한다"
+        "zh-CN": "精英级别及以上的敌方目标的弱点被击破时，乱破额外获得#2[i]点充能，并恢复#1[i]点能量。"
       },
       "params": [[10, 1]],
       "icon": "icon/skill/1317_skilltree1.png",
@@ -909,19 +726,10 @@
     {
       "id": 1317102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Inscrição do Ninjutsu: Eco Marinho",
-        "en": "Ninjutsu Inscription: Sea Echo",
-        "zh-CN": "忍法帖•海鸣",
-        "ja": "{RUBY_B#にんぽうちょう}忍法帖{RUBY_E#}・{RUBY_B#かいめい}海鳴{RUBY_E#}",
-        "ko": "인법첩•해명"
-      },
+      "name": { "en": "Ninjutsu Inscription: Sea Echo", "zh-CN": "忍法帖•海鸣" },
       "description": {
-        "pt-BR": "Enquanto estiver no estado de \"Selaforma\", após Rappa usar o ATQ Básico Aprimorado para causar Dano a um inimigo-alvo afligido com Quebra de Fraqueza, converte a Redução de Tenacidade desta instância de Dano em 1 instância de Super Dano de Quebra de #1[i]%.",
         "en": "While in the \"Sealform\" state, after Rappa uses Enhanced Basic ATK to deal DMG to a Weakness Broken enemy target, converts the Toughness Reduction from this instance of DMG to 1 instance of #1[i]% Super Break DMG.",
-        "zh-CN": "【结印】状态期间，乱破施放强化普攻对处于弱点击破状态下的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次#1[i]%的超击破伤害。",
-        "ja": "「結印」状態の間、乱破が強化通常攻撃を発動し、弱点撃破状態の敵にダメージを与えた後、その回のダメージの削靭値を#1[i]%分の超撃破ダメージに転換する。",
-        "ko": "[결인] 상태 동안 라파가 약점 격파 상태인 적에게 강화된 일반 공격을 발동해 피해를 가하면, 이번 피해의 강인성 감소 수치가 #1[i]%의 슈퍼 격파 피해 1회로 전환된다"
+        "zh-CN": "【结印】状态期间，乱破施放强化普攻对处于弱点击破状态下的敌方目标造成伤害后，会将本次伤害的削韧值转化为1次#1[i]%的超击破伤害。"
       },
       "params": [[0.6]],
       "icon": "icon/skill/1317_skilltree2.png",
@@ -945,19 +753,10 @@
     {
       "id": 1317103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Inscrição do Ninjutsu: Folha Murcha",
-        "en": "Ninjutsu Inscription: Withered Leaf",
-        "zh-CN": "忍法帖•枯叶",
-        "ja": "{RUBY_B#にんぽうちょう}忍法帖{RUBY_E#}・{RUBY_B#かれは}枯葉{RUBY_E#}",
-        "ko": "인법첩•고엽"
-      },
+      "name": { "en": "Ninjutsu Inscription: Withered Leaf", "zh-CN": "忍法帖•枯叶" },
       "description": {
-        "pt-BR": "Quando o inimigo-alvo sofre Quebra de Fraqueza, o Dano de Quebra recebido aumenta em #1[i]%. Se o ATQ atual de Rappa for maior que #2[i], para cada 100 de ATQ excedente, aumenta esse bônus em #3[i]%, até um aumento adicional máximo de #4[i]%. Esse efeito dura por #5[i] rodada(s).",
         "en": "When an enemy target becomes Weakness Broken, increases the Break DMG taken by #1[i]%. If Rappa's current ATK is higher than #2[i], for every 100 excess ATK, additionally increases this value by #3[i]%, up to a max additional increase of #4[i]%. This effect lasts for #5[i] turn(s).",
-        "zh-CN": "敌方目标的弱点被击破时，受到的击破伤害提高#1[i]%，若乱破当前攻击力高于#2[i]点，每超过100点攻击力可使该数值额外提高#3[i]%，最多额外提高#4[i]%。效果持续#5[i]回合。",
-        "ja": "敵が弱点撃破される時に受ける弱点撃破ダメージ+#1[i]%。その際、乱破の攻撃力が#2[i]を超えている場合、超過した攻撃力100につき、敵が受ける弱点撃破ダメージが+#3[i]%、最大で+#4[i]%まで。この効果は#5[i]ターン継続する。",
-        "ko": "적의 약점이 격파될 시 받는 격파 피해가 #1[i]% 증가한다. 만약 라파의 현재 공격력이 #2[i]pt보다 높을 경우, 공격력이 100pt 초과할 때마다 해당 수치가 추가로 #3[i]% 증가한다(최대 추가로 #4[i]% 증가), 효과 지속 시간: #5[i]턴"
+        "zh-CN": "敌方目标的弱点被击破时，受到的击破伤害提高#1[i]%，若乱破当前攻击力高于#2[i]点，每超过100点攻击力可使该数值额外提高#3[i]%，最多额外提高#4[i]%。效果持续#5[i]回合。"
       },
       "params": [[0.02, 2400, 0.01, 0.08, 2]],
       "icon": "icon/skill/1317_skilltree3.png",
@@ -981,7 +780,7 @@
     {
       "id": 1317201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -998,7 +797,7 @@
     {
       "id": 1317202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1317101],
@@ -1015,7 +814,7 @@
     {
       "id": 1317203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1317202],
@@ -1032,13 +831,7 @@
     {
       "id": 1317204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "en": "Break Boost", "zh-CN": "击破强化" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1317202],
@@ -1055,7 +848,7 @@
     {
       "id": 1317205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1317102],
@@ -1072,7 +865,7 @@
     {
       "id": 1317206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1317205],
@@ -1089,7 +882,7 @@
     {
       "id": 1317207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1317205],
@@ -1106,13 +899,7 @@
     {
       "id": 1317208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "en": "Break Boost", "zh-CN": "击破强化" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1317103],
@@ -1129,7 +916,7 @@
     {
       "id": 1317209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1317103],
@@ -1146,7 +933,7 @@
     {
       "id": 1317210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],

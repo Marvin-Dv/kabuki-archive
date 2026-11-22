@@ -1,13 +1,7 @@
 {
   "id": 110404,
   "slug": "lightning-crown-of-the-past-shadow",
-  "name": {
-    "pt-BR": "Coroa de Raios de uma Sombra do Passado",
-    "en": "Lightning Crown of the Past Shadow",
-    "zh-CN": "往日之影的雷冠",
-    "ja": "過去の影の雷冠",
-    "ko": "과거 그림자의 번개 왕관"
-  },
+  "name": { "en": "Lightning Crown of the Past Shadow", "zh-CN": "往日之影的雷冠" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -16,9 +10,6 @@
   "icon": "icon/item/110404.png",
   "sources": {
     "en": ["Stagnant Shadow: Corridor of Fading Echoes", "Omni-Synthesizer — Material Exchange"],
-    "pt-BR": ["Sombra Estagnada: Corredor de Ecos Atenuados", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【残响回廊】", "「万能合成机」- 材料置换"],
-    "ja": ["凝結虚影「残響回廊」", "「万能合成マシン」- 素材交換"],
-    "ko": ["정체된 허영 [잔향의 회랑]", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["凝滞虚影【残响回廊】", "「万能合成机」- 材料置换"]
   }
 }

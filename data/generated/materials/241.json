@@ -1,13 +1,7 @@
 {
   "id": 241,
   "slug": "tracks-of-destiny",
-  "name": {
-    "pt-BR": "Rastros de Destino",
-    "en": "Tracks of Destiny",
-    "zh-CN": "命运的足迹",
-    "ja": "運命の足跡",
-    "ko": "운명의 발자취"
-  },
+  "name": { "en": "Tracks of Destiny", "zh-CN": "命运的足迹" },
   "rarity": 5,
   "type": "Material",
   "subType": "WeeklyMonsterDrop",
@@ -23,16 +17,6 @@
       "Starlight Exchange",
       "Limited-Time Event Rewards"
     ],
-    "pt-BR": [
-      "Recompensas de Pontuação da Guerra Monetária",
-      "Recompensas de Pontuação do Universo Simulado",
-      "Honra dos Inominados",
-      "Troca de Brasas",
-      "Troca de Luz Estelar",
-      "Recompensas de Evento por Tempo Limitado"
-    ],
-    "zh-CN": ["「货币战争」积分奖励", "「模拟宇宙」积分奖励", "无名勋礼", "余烬兑换", "星芒兑换", "限时活动奖励"],
-    "ja": ["「マネーウォーズ」ポイント報酬", "「模擬宇宙」ポイント報酬", "ナナシの勲功", "エンバー交換", "星芒交換", "期間限定イベント報酬"],
-    "ko": ["「화폐 전쟁」 점수 보상", "시뮬레이션 우주 점수 보상", "무명의 공훈", "잔화 교환", "스타라이트 교환", "한정 이벤트 보상"]
+    "zh-CN": ["「货币战争」积分奖励", "「模拟宇宙」积分奖励", "无名勋礼", "余烬兑换", "星芒兑换", "限时活动奖励"]
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": 1502,
   "slug": "yao-guang",
-  "name": { "pt-BR": "Yao Guang", "en": "Yao Guang", "zh-CN": "爻光", "ja": "爻光", "ko": "효광" },
+  "name": { "en": "Yao Guang", "zh-CN": "爻光" },
   "rarity": 5,
   "path": "Elation",
   "element": "Physical",
@@ -11,19 +11,10 @@
     {
       "id": 150201,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Alegria dos Dardos Emplumados",
-        "en": "Whistlebolt Sings Joy",
-        "zh-CN": "雀翎鸣镝，过招有喜",
-        "ja": "孔雀の矢羽根、幸いを招く嚆矢",
-        "ko": "공작의 명적, 대결의 기쁨"
-      },
+      "name": { "en": "Whistlebolt Sings Joy", "zh-CN": "雀翎鸣镝，过招有喜" },
       "description": {
-        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Yao Guang a um inimigo designado e Dano Físico igual a #2[i]% do ATQ de Yao Guang aos inimigos adjacentes. Aumenta a Energia regenerada pelo ATQ Básico em 30.",
         "en": "Deals Physical DMG equal to #1[i]% of Yao Guang's ATK to one designated enemy and Physical DMG equal to #2[i]% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.",
-        "zh-CN": "对指定敌方单体造成等同于爻光#1[i]%攻击力的物理属性伤害，同时对其相邻目标造成等同于爻光#2[i]%攻击力的物理属性伤害。普攻恢复的能量提高至30点。",
-        "ja": "指定した敵単体に爻光の攻撃力#1[i]%分の物理属性ダメージを与え、隣接する敵に爻光の攻撃力#2[i]%分の物理属性ダメージを与える。通常攻撃のEPの回復量が30までアップする。",
-        "ko": "지정된 단일 적에게 효광 공격력의 #1[i]%만큼 물리 속성 피해를 가하고, 동시에 인접한 목표에게 효광 공격력의 #2[i]%만큼 물리 속성 피해를 가한다. 일반 공격이 회복하는 에너지가 30pt로 증가한다"
+        "zh-CN": "对指定敌方单体造成等同于爻光#1[i]%攻击力的物理属性伤害，同时对其相邻目标造成等同于爻光#2[i]%攻击力的物理属性伤害。普攻恢复的能量提高至30点。"
       },
       "params": [
         [0.45, 0.15],
@@ -40,31 +31,19 @@
       "icon": "icon/skill/1502_basic_atk.png",
       "maxLevel": 10,
       "summary": {
-        "pt-BR": "Causa Dano Físico leve a um inimigo-alvo e Dano Físico leve a alvos adjacentes.",
         "en": "Deals minor Physical DMG to one enemy target and minor Physical DMG to adjacent targets.",
-        "zh-CN": "对敌方单体造成少量物理属性伤害，对相邻目标造成少量物理属性伤害。",
-        "ja": "敵単体に少量の物理属性のダメージを与え、隣接する敵に少量の物理属性のダメージを与える。",
-        "ko": "단일 적에게 소량의 물리 속성 피해를 가하고, 인접한 목표에게 소량의 물리 속성 피해를 가한다"
+        "zh-CN": "对敌方单体造成少量物理属性伤害，对相邻目标造成少量物理属性伤害。"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 150202,
       "type": "Skill",
-      "name": {
-        "pt-BR": "A Decaluz Ilumina Tudo",
-        "en": "Decalight Unveils All",
-        "zh-CN": "十方光映，万法皆明",
-        "ja": "十方に光映ゆ、万法を明かさん",
-        "ko": "십방광영, 만법개명"
-      },
+      "name": { "en": "Decalight Unveils All", "zh-CN": "十方光映，万法皆明" },
       "description": {
-        "pt-BR": "Implanta um Campo por #1[i] rodada(s). Essa duração é reduzida em 1 no início de toda rodada desta unidade. Enquanto o Campo estiver ativo, aumenta a Euforia de todos os aliados em um valor igual a #2[f1]% da Euforia de Yao Guang. Após Yao Guang usar o ATQ Básico ou a Perícia, ganha #3[i] ponto(s) de \"Piada\".",
         "en": "Deploys a Zone for #1[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #2[f1]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains #3[i] Punchline.",
-        "zh-CN": "展开结界，持续#1[i]回合，自身每回合开始时结界持续回合数减1。结界持续期间，我方全体目标欢愉度提高，提高数值等同于爻光欢愉度的#2[f1]%，且爻光施放普攻、战技后获得#3[i]个笑点。",
-        "ja": "#1[i]ターン継続する結界を展開する。爻光のターンが回ってくるたびに結界の継続時間-1ターン。結界が展開されている間、味方全体の愉悦度を、爻光の愉悦度の#2[f1]%分アップさせる。爻光が通常攻撃、戦闘スキルを発動した後、爆笑ネタを#3[i]個獲得する。",
-        "ko": "결계를 펼친다, 지속 시간: #1[i]턴, 자신의 턴이 시작될 때마다 결계 지속 턴 수가 1 감소한다. 결계 지속 시간 동안 모든 아군의 환락도가 효광 환락도의 #2[f1]%만큼 증가하며, 효광이 일반 공격, 전투 스킬 발동 후 웃음 포인트를 #3[i]pt 획득한다"
+        "zh-CN": "展开结界，持续#1[i]回合，自身每回合开始时结界持续回合数减1。结界持续期间，我方全体目标欢愉度提高，提高数值等同于爻光欢愉度的#2[f1]%，且爻光施放普攻、战技后获得#3[i]个笑点。"
       },
       "params": [
         [3, 0.1, 3],
@@ -86,31 +65,19 @@
       "icon": "icon/skill/1502_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Implanta um Campo que aumenta a Euforia de todos os aliados-alvo. Após Yao Guang usar o ATQ Básico ou a Perícia, ganha \"Piada\".",
         "en": "Deploys a Zone that increases Elation for all ally targets. After Yao Guang uses Basic ATK or Skill, gains Punchline.",
-        "zh-CN": "展开结界，使我方全体目标欢愉度提高，且爻光施放普攻、战技后获得笑点。",
-        "ja": "結界を展開し、味方全体の愉悦度をアップさせる。爻光が通常攻撃または戦闘スキルを発動した後、爆笑ネタを獲得する。",
-        "ko": "결계를 펼쳐 모든 아군의 환락도를 증가시키고, 효광이 일반 공격, 전투 스킬 발동 후 웃음 포인트를 획득한다"
+        "zh-CN": "展开结界，使我方全体目标欢愉度提高，且爻光施放普攻、战技后获得笑点。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 150203,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Hexagrama da Fortuna Emplumada",
-        "en": "Hexagram of Feathered Fortune",
-        "zh-CN": "霓裳铁羽，六爻皆吉",
-        "ja": "霓裳に鉄の羽、六爻はすべて吉",
-        "ko": "무지개를 두른 강철 깃, 육효의 길조"
-      },
+      "name": { "en": "Hexagram of Feathered Fortune", "zh-CN": "霓裳铁羽，六爻皆吉" },
       "description": {
-        "pt-BR": "Ganha #1[i] ponto(s) de \"Piada\". Aha ganha imediatamente 1 rodada extra onde uma quantidade fixa de ponto(s) de #4[i] \"Piada\" é levada em consideração. Essa rodada não consome ponto(s) de \"Piada\" e aumenta a PEN de RES a Todos os Tipos de todos os aliados em #2[f1]% por #3[i] rodada(s).",
         "en": "Gains #1[i] Punchline. Aha immediately gains 1 extra turn where a fixed amount of #4[i] Punchline is taken into account. This turn does not consume Punchline, and increases all allies' All-Type RES PEN by #2[f1]% for #3[i] turn(s).",
-        "zh-CN": "获得#1[i]个笑点。使阿哈立即获得1个固定计入#4[i]笑点的额外回合，该回合不消耗笑点，并使我方全体目标全属性抗性穿透提高#2[f1]%，持续#3[i]回合。",
-        "ja": "爆笑ネタを#1[i]個獲得する。アッハは爆笑ネタが固定で#4[i]個カウントされる追加ターンを即座に1ターン獲得する。なお、このターンでは爆笑ネタが消費されない。また、味方全体の全属性耐性貫通+#2[f1]%、#3[i]ターン継続。",
-        "ko": "웃음 포인트를 #1[i]pt 획득한다. 아하가 즉시 웃음 포인트 #4[i]pt로 고정 집계되는 보너스 턴을 1개 획득하고, 해당 턴은 웃음 포인트를 소모하지 않으며, 모든 아군의 모든 속성 저항 관통을 #2[f1]% 증가시킨다, 지속 시간: #3[i]턴"
+        "zh-CN": "获得#1[i]个笑点。使阿哈立即获得1个固定计入#4[i]笑点的额外回合，该回合不消耗笑点，并使我方全体目标全属性抗性穿透提高#2[f1]%，持续#3[i]回合。"
       },
       "params": [
         [5, 0.1, 3, 20, 1],
@@ -132,31 +99,19 @@
       "icon": "icon/skill/1502_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Ganha \"Piada\". Concede imediatamente 1 rodada extra a Aha, na qual uma quantidade fixa de pontos de \"Piada\" é levada em consideração e aumenta a PEN de RES a Todos os Tipos de todos os aliados.",
         "en": "Gains Punchline. Immediately grants Aha 1 extra turn where a fixed amount of Punchline is taken into account, and increases all allies' All-Type RES PEN.",
-        "zh-CN": "获得笑点。使阿哈立即获得1个固定计入笑点的额外回合，并使我方全体目标全属性抗性穿透提高。",
-        "ja": "爆笑ネタを獲得する。アッハが即座に、一定数の爆笑ネタがカウントされる追加ターンを1ターン獲得し、味方全体の全属性耐性貫通をアップさせる。",
-        "ko": "웃음 포인트를 획득한다. 아하가 즉시 웃음 포인트가 고정으로 집계되는 보너스 턴을 1개 획득하고, 모든 아군의 모든 속성 저항 관통을 증가시킨다"
+        "zh-CN": "获得笑点。使阿哈立即获得1个固定计入笑点的额外回合，并使我方全体目标全属性抗性穿透提高。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 150204,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Contemple o Desdobrar da Luz",
-        "en": "Behold Wherever Light Unfolds",
-        "zh-CN": "屏开千光，遍观自在",
-        "ja": "千の光を開き、遍く観自在なり",
-        "ko": "세상을 관통하는 천 개의 눈"
-      },
+      "name": { "en": "Behold Wherever Light Unfolds", "zh-CN": "屏开千光，遍观自在" },
       "description": {
-        "pt-BR": "Enquanto Yao Guang possui \"Mandou Bem\":\nDepois que um aliado-alvo usa um ataque, ativa o efeito \"Grande Dádiva\", causando 1 instância adicional de #1[f1]% de Dano de Euforia do Tipo correspondente 1 vez a 1 alvo aleatório atingido. Se este ataque consumir Pontos de Perícia, então ativa adicionalmente o efeito \"Grande Dádiva\" 1 vez.\nAo ativar o efeito \"Grande Dádiva\", se o valor de Euforia do atacante for inferior ao de Yao Guang, esta instância de Dano de Euforia utilizará a Euforia de Yao Guang para o cálculo.\nAtivar o efeito \"Grande Dádiva\" não é considerado como usar um ataque.",
         "en": "While Yao Guang holds \"Certified Banger\":\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of #1[f1]% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
-        "zh-CN": "爻光持有【好活当赏】时：\n使我方目标施放攻击后触发【大吉大利】效果，对随机1个击中的目标额外造成1次#1[f1]%的对应属性欢愉伤害，本次攻击若消耗战技点，则额外触发1次【大吉大利】效果。\n触发【大吉大利】效果时若攻击者欢愉度低于爻光，则该次欢愉伤害使用爻光欢愉度来计算。\n触发【大吉大利】效果不视为1次攻击。",
-        "ja": "爻光が「爆笑の褒美」を持つ時、以下の効果を獲得する。\n味方が攻撃を行った後「大吉大利」効果を発動する。\n「大吉大利」：攻撃が命中したランダムな敵単体に追加で#1[f1]%分の対応する属性の愉悦ダメージを1回与える。また、その回の攻撃でSPを消費した場合、さらに「大吉大利」の効果を1回発動する。\n「大吉大利」の効果を発動する時、攻撃者の愉悦度が爻光より低い場合、その回の愉悦ダメージは爻光の愉悦度で計算される。\n「大吉大利」の効果は攻撃を1回発動したと見なされない。",
-        "ko": "효광이 [훌륭한 솜씨에는 보상을] 보유 시:\n아군이 공격을 발동하면 [만사형통] 효과를 발동하여, 명중한 랜덤 목표 1기에게 추가로 대응하는 속성의 환락 피해를 #1[f1]% 가하고, 이번 공격에서 전투 스킬 포인트를 소모하면 추가로 [만사형통] 효과를 1회 발동한다.\n[만사형통] 효과 발동 시 공격자의 환락도가 효광보다 낮을 경우 해당 환락 피해는 효광의 환락도를 사용하여 계산한다.\n[만사형통] 효과 발동은 공격으로 간주하지 않는다"
+        "zh-CN": "爻光持有【好活当赏】时：\n使我方目标施放攻击后触发【大吉大利】效果，对随机1个击中的目标额外造成1次#1[f1]%的对应属性欢愉伤害，本次攻击若消耗战技点，则额外触发1次【大吉大利】效果。\n触发【大吉大利】效果时若攻击者欢愉度低于爻光，则该次欢愉伤害使用爻光欢愉度来计算。\n触发【大吉大利】效果不视为1次攻击。"
       },
       "params": [
         [0.1],
@@ -178,88 +133,52 @@
       "icon": "icon/skill/1502_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Enquanto Yao Guang estiver em posse de \"Mandou Bem\", após um aliado-alvo usar um ataque, ativa \"Grande Dádiva\": causa adicionalmente 1 instância de Dano de Euforia leve do Tipo correspondente a 1 alvo atingido aleatório. Se esse ataque consumir Pontos de Perícia, esse efeito é ativado 1 vez adicional. Esse efeito não é considerado como um ataque.",
         "en": "While Yao Guang is in possession of \"Certified Banger,\" after an ally target uses an attack, triggers \"Great Boon\": Additionally deals 1 instance of minor Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, this effect triggers 1 extra time. This effect is not considered as using 1 instance of attack.",
-        "zh-CN": "爻光持有【好活当赏】时，我方目标施放攻击后触发【大吉大利】：对随机1个击中目标额外造成1次少量对应属性欢愉伤害。本次攻击若消耗战技点，该效果额外触发1次。本效果不视为1次攻击。",
-        "ja": "爻光が「爆笑の褒美」を持つ時、味方が攻撃を行った後「大吉大利」効果を発動する。\n「大吉大利」：攻撃が命中したランダムな敵単体にさらに1回対応する属性の少量の愉悦ダメージを与える。その回の攻撃でSPを消費した場合、さらにこの効果を1回発動する。この効果は攻撃を1回発動したと見なされない。",
-        "ko": "효광이 [훌륭한 솜씨에는 보상을] 보유 시, 아군이 공격을 발동하면 [만사형통] 효과를 발동한다. [만사형통]: 명중한 랜덤 목표 1기에게 추가로 소량의 대응하는 속성의 환락 피해를 1회 가한다. 이번 공격에서 전투 스킬 포인트를 소모하면 해당 효과를 추가로 1회 발동한다. 해당 효과는 공격으로 간주하지 않는다"
+        "zh-CN": "爻光持有【好活当赏】时，我方目标施放攻击后触发【大吉大利】：对随机1个击中目标额外造成1次少量对应属性欢愉伤害。本次攻击若消耗战技点，该效果额外触发1次。本效果不视为1次攻击。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 150206,
       "type": "Other",
-      "name": {
-        "pt-BR": "Alegria dos Dardos Emplumados",
-        "en": "Whistlebolt Sings Joy",
-        "zh-CN": "雀翎鸣镝，过招有喜",
-        "ja": "孔雀の矢羽根、幸いを招く嚆矢",
-        "ko": "공작의 명적, 대결의 기쁨"
-      },
+      "name": { "en": "Whistlebolt Sings Joy", "zh-CN": "雀翎鸣镝，过招有喜" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1502_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 150207,
       "type": "Technique",
-      "name": {
-        "pt-BR": "O Brilho Liberto Veleja para Longe",
-        "en": "Untethered Glimmer Sails Far",
-        "zh-CN": "浮光过隙，百无禁忌",
-        "ja": "移りゆく時光、何をか忌むべき",
-        "ko": "찰나의 빛, 사라진 금기"
-      },
+      "name": { "en": "Untethered Glimmer Sails Far", "zh-CN": "浮光过隙，百无禁忌" },
       "description": {
-        "pt-BR": "Após usar a Técnica, ativa automaticamente a Perícia 1 vez no início da próxima batalha sem consumir nenhum Ponto de Perícia. Quando Yao Guang está na equipe, quebrar Objetos Destrutíveis concede imediatamente Envelope da Sorte, até um máximo de #1[i] para cada Semana Terrestre.",
         "en": "After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to #1[i] within every Earth Week.",
-        "zh-CN": "使用秘技后，使下一次战斗开始时自动触发1次战技，此次触发不消耗战技点。爻光在队伍中时，击碎可破坏物时立刻获得「红包」，每个地球周内最多获得#1[i]个。",
-        "ja": "秘技を使用した後、次の戦闘開始時に戦闘スキルを自動で1回発動する。この発動ではSPを消費しない。爻光がパーティにいる場合、オブジェクトを破壊すると即座に「吉運一封」を獲得する。1週間ごとに最大で#1[i]個獲得できる。",
-        "ko": "비술 사용 후, 다음 전투 시작 시 자동으로 전투 스킬을 1회 발동하며, 이번 발동은 전투 스킬 포인트를 소모하지 않는다. 효광이 파티에 있을 시, 파괴 가능한 물체를 파괴하면 즉시 「행운의 봉투」를 획득하며, 지구주마다 최대 #1[i]개 획득할 수 있다"
+        "zh-CN": "使用秘技后，使下一次战斗开始时自动触发1次战技，此次触发不消耗战技点。爻光在队伍中时，击碎可破坏物时立刻获得「红包」，每个地球周内最多获得#1[i]个。"
       },
       "params": [[8]],
       "icon": "icon/skill/1502_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ao entrar em batalha, ativa automaticamente a Perícia 1 vez. Quando Yao Guang está na equipe, recebe imediatamente um Envelope da Sorte ao quebrar Objetos Destrutíveis.",
         "en": "Upon entering combat, automatically triggers Skill 1 time. When Yao Guang is in the team, immediately gains Fortune Pouch when breaking destructible objects.",
-        "zh-CN": "进战自动触发1次战技。爻光在队伍中时，击碎可破坏物时立刻获得「红包」。",
-        "ja": "戦闘に入る時、戦闘スキルを自動で1回発動する。爻光がパーティにいる時、オブジェクトを破壊すると即座に「吉運一封」を獲得する。",
-        "ko": "전투 진입 시 자동으로 전투 스킬을 1회 발동한다. 효광이 파티에 있을 시, 파괴 가능한 물체를 파괴하면 즉시 「행운의 봉투」를 획득한다"
+        "zh-CN": "进战自动触发1次战技。爻光在队伍中时，击碎可破坏物时立刻获得「红包」。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 150220,
       "type": "Other",
-      "name": {
-        "pt-BR": "Que Vossa Fortuna Exploda em Chamas",
-        "en": "Let Thy Fortune Burst in Flames",
-        "zh-CN": "赠君一卦，火树银花",
-        "ja": "君に卦を贈る、天を染める銀花",
-        "ko": "그대에게 주는 점괘, 찬란한 광경"
-      },
+      "name": { "en": "Let Thy Fortune Burst in Flames", "zh-CN": "赠君一卦，火树银花" },
       "description": {
-        "pt-BR": "Inflige \"Sussurro do Infortúnio\" a todos os inimigos, durando #4[i] rodada(s). Inimigos-alvo sob o estado de \"Sussurro do Infortúnio\" sofrem Dano aumentado de #3[f1]%. Causa Dano de Euforia Físico igual a #2[i]% a todos os inimigos. Depois, causa #5[i] instância(s) de Dano de Euforia Físico igual a #6[i]% a um inimigo aleatório.",
         "en": "Inflicts \"Woe's Whisper\" on all enemies, lasting for #4[i] turn(s). Enemy targets under the \"Woe's Whisper\" state take #3[f1]% increased DMG. Deals #2[i]% Physical Elation DMG to all enemies. Then, deals #5[i] instance(s) of #6[i]% Physical Elation DMG to one random enemy.",
-        "zh-CN": "使敌方全体陷入【凶星低语】状态，持续#4[i]回合。【凶星低语】状态下的敌方目标受到的伤害提高#3[f1]%。对敌方全体造成#2[i]%的物理属性欢愉伤害，随后对敌方随机单体造成#5[i]次#6[i]%的物理属性欢愉伤害。",
-        "ja": "敵全体に「凶星の囁き」状態を付与し、#4[i]ターン継続。「凶星の囁き」状態の敵の受けるダメージ+#3[f1]%。敵全体に#2[i]%分の物理属性の愉悦ダメージを与えた後、ランダムな敵単体に#6[i]%分の物理属性の愉悦ダメージを#5[i]回与える。",
-        "ko": "모든 적을 [흉성의 속삭임] 상태에 빠트린다, 지속 시간: #4[i]턴. [흉성의 속삭임] 상태의 적은 받는 피해가 #3[f1]% 증가한다. 모든 적에게 물리 속성 환락 피해를 #2[i]% 가하고, 이후 랜덤 단일 적에게 물리 속성 환락 피해를 #6[i]% #5[i]회 가한다"
+        "zh-CN": "使敌方全体陷入【凶星低语】状态，持续#4[i]回合。【凶星低语】状态下的敌方目标受到的伤害提高#3[f1]%。对敌方全体造成#2[i]%的物理属性欢愉伤害，随后对敌方随机单体造成#5[i]次#6[i]%的物理属性欢愉伤害。"
       },
       "params": [
         [1, 0.5, 0.16, 3, 5, 0.1],
@@ -281,74 +200,38 @@
       "icon": "icon/skill/1502_elation.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Aumenta o Dano recebido por todos os inimigos. Causa Dano de Euforia Físico a todos os inimigos. Depois, causa Dano de Euforia Físico leve a um inimigo aleatório.",
         "en": "Increases DMG received by all enemies. Deals Physical Elation DMG to all enemies. Then, deals minor Physical Elation DMG to one random enemy.",
-        "zh-CN": "使敌方全体受到的伤害提高。对敌方全体造成物理属性欢愉伤害，随后对敌方随机单体造成少量物理属性欢愉伤害。",
-        "ja": "敵全体の受けるダメージをアップさせる。敵全体に物理属性の愉悦ダメージを与える。その後、ランダムな敵単体に少量の物理属性の愉悦ダメージを与える。",
-        "ko": "모든 적이 받는 피해를 증가시킨다. 모든 적에게 물리 속성 환락 피해를 가하고, 이후 랜덤 단일 적에게 소량의 물리 속성 환락 피해를 가한다"
+        "zh-CN": "使敌方全体受到的伤害提高。对敌方全体造成物理属性欢愉伤害，随后对敌方随机单体造成少量物理属性欢愉伤害。"
       },
-      "typeText": {
-        "pt-BR": "Perícia da Euforia",
-        "en": "Elation Skill",
-        "zh-CN": "欢愉技",
-        "ja": "愉悦スキル",
-        "ko": "환락 스킬"
-      },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "en": "Elation Skill", "zh-CN": "欢愉技" },
+      "targetText": { "en": "AoE", "zh-CN": "群攻" }
     },
     {
       "id": 150229,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Faces da Euforia ★ Leitura de Mentes",
-        "en": "Faces of Elation ★ Mind Reading",
-        "zh-CN": "欢愉万相★心灵感应",
-        "ja": "愉悦の万象★以心伝心",
-        "ko": "환락만상★마음 읽기"
-      },
+      "name": { "en": "Faces of Elation ★ Mind Reading", "zh-CN": "欢愉万相★心灵感应" },
       "description": {
-        "pt-BR": "Quando o Caminho da Euforia ascende, o multiplicador de Dano do efeito \"Grande Dádiva\" aumenta em um valor igual a #1[i]% do seu valor original. Após usar a Perícia Suprema, Yao Guang regenera uma quantidade fixa de #2[i] Energia e ganha #4[i] ponto(s) de \"Êxtase\".",
         "en": "When the Path of Elation ascends, the DMG multiplier of the \"Great Boon\" effect increases by an amount equal to #1[i]% of its original value. After using Ultimate, Yao Guang regenerates a fixed amount of #2[i] Energy and gains #4[i] Bliss.",
-        "zh-CN": "当「欢愉」命途升格时，【大吉大利】效果的伤害倍率提高，提高数值等同于原伤害倍率的#1[i]%。爻光施放终结技后固定恢复#2[i]点能量并获得#4[i]爽点。",
-        "ja": "「愉悦」の運命が昇格すると、「大吉大利」効果のダメージ倍率が本来のダメージ倍率の#1[i]%分アップする。爻光が必殺技を発動した後、EPを固定で#2[i]回復し、爽快ネタを#4[i]個獲得する。",
-        "ko": "「환락」 운명의 길 승격 시 [만사형통] 효과의 피해 배율이 기존 피해 배율의 #1[i]%만큼 증가한다. 효광이 필살기 발동 후 고정으로 에너지를 #2[i]pt 회복하고 쾌감 포인트를 #4[i]pt 획득한다"
+        "zh-CN": "当「欢愉」命途升格时，【大吉大利】效果的伤害倍率提高，提高数值等同于原伤害倍率的#1[i]%。爻光施放终结技后固定恢复#2[i]点能量并获得#4[i]爽点。"
       },
       "params": [[0.2, 12, 0, 10], [0.4, 30, 0, 10]],
       "icon": "icon/skill/1502_aha.png",
       "maxLevel": 2,
       "summary": {
-        "pt-BR": "Quando o Caminho da Euforia ascende, o multiplicador de Dano do efeito \"Grande Dádiva\" aumenta. Após usar a Perícia Suprema, Yao Guang regenera uma quantidade fixa de Energia e ganha \"Êxtase\".",
         "en": "When the Path of Elation ascends, the DMG multiplier of the \"Great Boon\" effect increases. After using Ultimate, Yao Guang regenerates a fixed amount of Energy and gains Bliss.",
-        "zh-CN": "当「欢愉」命途升格时，【大吉大利】效果的伤害倍率提高，爻光施放终结技后固定恢复能量并获得爽点。",
-        "ja": "「愉悦」の運命が昇格すると、「大吉大利」効果のダメージ倍率がアップする。爻光が必殺技を発動した後、EPを固定で回復し、爽快ネタを獲得する。",
-        "ko": "「환락」 운명의 길 승격 시 [만사형통] 효과의 피해 배율이 증가하며, 효광이 필살기를 발동하면 고정으로 에너지를 회복하고 쾌감 포인트를 획득한다"
+        "zh-CN": "当「欢愉」命途升格时，【大吉大利】效果的伤害倍率提高，爻光施放终结技后固定恢复能量并获得爽点。"
       },
-      "typeText": {
-        "pt-BR": "Rastro Inato",
-        "en": "Innate Trace",
-        "zh-CN": "固有行迹",
-        "ja": "固有軌跡",
-        "ko": "고유 행적"
-      },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Innate Trace", "zh-CN": "固有行迹" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "O Riso Ecoa Onde o Jade Cai",
-        "en": "Chuckle Chimes Where Jade Falls",
-        "zh-CN": "何处落玉，盈盈笑语",
-        "ja": "{RUBY_B#ぎょくお}玉落{RUBY_E#}つる{RUBY_B#ところ}処{RUBY_E#}、\n{RUBY_B#み}満{RUBY_E#}ち{RUBY_B#み}満{RUBY_E#}ちる{RUBY_B#え}笑{RUBY_E#}み",
-        "ko": "옥이 떨어지는 곳에 가득한 웃음소리"
-      },
+      "name": { "en": "Chuckle Chimes Where Jade Falls", "zh-CN": "何处落玉，盈盈笑语" },
       "description": {
-        "pt-BR": "Na rodada extra de Aha ativada pela Perícia Suprema, a quantidade fixa de \"Piada\" levada em consideração aumenta para 40. Ao causar Dano de Euforia, todos os aliados-alvo ignoram 20% da DEF do alvo.",
         "en": "In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40. When dealing Elation DMG, all ally targets ignore 20% of the target's DEF.",
-        "zh-CN": "终结技触发的阿哈的额外回合固定计入笑点数提高至40个。我方全体目标造成欢愉伤害时无视目标20%防御力。",
-        "ja": "必殺技で発動するアッハの追加ターンに固定でカウントされる爆笑ネタの数が40個までアップする。味方が愉悦ダメージを与える時、敵の防御力を20%無視する。",
-        "ko": "필살기로 발동하는 아하의 보너스 턴이 고정으로 집계하는 웃음 포인트가 40pt로 증가한다. 모든 아군이 환락 피해를 가할 시 목표의 방어력을 20% 무시한다"
+        "zh-CN": "终结技触发的阿哈的额外回合固定计入笑点数提高至40个。我方全体目标造成欢愉伤害时无视目标20%防御力。"
       },
       "icon": "icon/skill/1502_rank1.png",
       "materials": [{ "id": 11502, "num": 1 }],
@@ -356,19 +239,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Flechas Cegas Guiadas por Penas",
-        "en": "Blind Arrows Guided by Feathers",
-        "zh-CN": "飞箭无目，青翎为瞳",
-        "ja": "{RUBY_B#めな}目無{RUBY_E#}き{RUBY_B#ひせん}飛箭{RUBY_E#}、\n{RUBY_B#あお}青{RUBY_E#}き{RUBY_B#はね}羽{RUBY_E#}を{RUBY_B#ひとみ}瞳{RUBY_E#}とす",
-        "ko": "화살의 눈이 된 푸른 깃"
-      },
+      "name": { "en": "Blind Arrows Guided by Feathers", "zh-CN": "飞箭无目，青翎为瞳" },
       "description": {
-        "pt-BR": "Enquanto o Campo estiver ativo, aumenta a VEL de todos os aliados-alvo em 12% e, adicionalmente, aumenta a Euforia em 16%.",
         "en": "While the Zone is active, increases all ally targets' SPD by 12%, and additionally increases Elation by 16%.",
-        "zh-CN": "结界持续期间，我方全体目标速度提高12%，欢愉度额外提高16%。",
-        "ja": "結界が展開されている間、味方全体の速度+12%、愉悦度がさらに+16%。",
-        "ko": "결계 지속 시간 동안 모든 아군의 속도가 12% 증가하고, 환락도가 추가로 16% 증가한다"
+        "zh-CN": "结界持续期间，我方全体目标速度提高12%，欢愉度额外提高16%。"
       },
       "icon": "icon/skill/1502_rank2.png",
       "materials": [{ "id": 11502, "num": 1 }],
@@ -376,19 +250,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Auspícios Espelhados na Decaluz",
-        "en": "Auspices Mirrored In Decalight",
-        "zh-CN": "十方世界，光映符中",
-        "ja": "{RUBY_B#じっぽう}十方{RUBY_E#}の{RUBY_B#せかい}世界{RUBY_E#}、\n{RUBY_B#ひかり}光{RUBY_E#}は{RUBY_B#ふちゅう}符中{RUBY_E#}に{RUBY_B#は}映{RUBY_E#}ゆ",
-        "ko": "십방세계, 부적에 비치는 빛"
-      },
+      "name": { "en": "Auspices Mirrored In Decalight", "zh-CN": "十方世界，光映符中" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。愉悦スキルのLv.+1、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 환락 스킬 레벨+1, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。"
       },
       "icon": "icon/skill/1502_skill.png",
       "materials": [{ "id": 11502, "num": 1 }],
@@ -396,19 +261,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Fios do Destino Coloridos por Penachos",
-        "en": "Threads of Fate Colored by Plumes",
-        "zh-CN": "命若素绡，拈羽点彩",
-        "ja": "{RUBY_B#きぬいと}絹糸{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}き{RUBY_B#めいすう}命数{RUBY_E#}、\n{RUBY_B#つま}拈{RUBY_E#}みて{RUBY_B#はね}羽{RUBY_E#}で{RUBY_B#いろど}彩{RUBY_E#}る",
-        "ko": "비단 같은 운명, 깃으로 찍어낸 색채"
-      },
+      "name": { "en": "Threads of Fate Colored by Plumes", "zh-CN": "命若素绡，拈羽点彩" },
       "description": {
-        "pt-BR": "Na rodada extra de Aha ativada pela Perícia Suprema de Yao Guang, o Dano causado pela Perícia da Euforia de todos os aliados-alvo se torna 150% do Dano original.",
         "en": "In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG.",
-        "zh-CN": "爻光终结技触发的阿哈的额外回合中，我方全体角色欢愉技造成的伤害为原伤害的150%。",
-        "ja": "爻光の必殺技で発動するアッハの追加ターンで、味方が与える愉悦スキルダメージは本来のダメージの150%分になる。",
-        "ko": "효광의 필살기로 발동한 아하의 보너스 턴 동안, 모든 아군 캐릭터의 환락 스킬이 가하는 피해가 기존 피해의 150%가 된다"
+        "zh-CN": "爻光终结技触发的阿哈的额外回合中，我方全体角色欢愉技造成的伤害为原伤害的150%。"
       },
       "icon": "icon/skill/1502_rank4.png",
       "materials": [{ "id": 11502, "num": 1 }],
@@ -416,19 +272,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Adornado em Graça Radiante",
-        "en": "Bejeweled in Radiant Grace",
-        "zh-CN": "璎珞严饰，身如琉璃",
-        "ja": "{RUBY_B#ようらく}瓔珞{RUBY_E#}で{RUBY_B#かざる}飾{RUBY_E#}る、\n{RUBY_B#るり}琉璃{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}き{RUBY_B#み}身{RUBY_E#}",
-        "ko": "화려한 장신구, 티 없는 마음"
-      },
+      "name": { "en": "Bejeweled in Radiant Grace", "zh-CN": "璎珞严饰，身如琉璃" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。愉悦スキルのLv.+1、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 환락 스킬 레벨+1, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。"
       },
       "icon": "icon/skill/1502_ultimate.png",
       "materials": [{ "id": 11502, "num": 1 }],
@@ -436,19 +283,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Levado ao Longo do Arco Astral",
-        "en": "Ferried Along the Astral Arc",
-        "zh-CN": "牵丝渡引，天星垂虹",
-        "ja": "{RUBY_B#たぐ}手繰{RUBY_E#}り{RUBY_B#よ}寄{RUBY_E#}せる{RUBY_B#いと}糸{RUBY_E#}、\n{RUBY_B#てんせい}天星{RUBY_E#}が{RUBY_B#か}架{RUBY_E#}くる{RUBY_B#にじ}虹{RUBY_E#}",
-        "ko": "실의 인도로 드리운 천성의 무지개"
-      },
+      "name": { "en": "Ferried Along the Astral Arc", "zh-CN": "牵丝渡引，天星垂虹" },
       "description": {
-        "pt-BR": "O Dano de Euforia de todos os aliados fica mais \"galhofa\" em 25%. Aumenta o Multiplicador de Dano da Perícia da Euforia de Yao Guang em 100% do multiplicador original.",
         "en": "All ally targets' Elation DMG merrymakes by 25%. Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier.",
-        "zh-CN": "我方全体目标的欢愉伤害增笑25%。爻光欢愉技的伤害倍率提高原倍率的100%。",
-        "ja": "味方全体の愉悦ダメージが25%上笑する。爻光の愉悦スキルのダメージ倍率が本来の100%分アップする。",
-        "ko": "모든 아군의 환락 피해가 25% 증소한다. 효광 환락 스킬의 피해 배율이 기존 배율의 100%만큼 증가한다"
+        "zh-CN": "我方全体目标的欢愉伤害增笑25%。爻光欢愉技的伤害倍率提高原倍率的100%。"
       },
       "icon": "icon/skill/1502_rank6.png",
       "materials": [{ "id": 11502, "num": 1 }],
@@ -823,19 +661,10 @@
     {
       "id": 1502101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Graça Labirín-Tástica",
-        "en": "Amaze-In Grace",
-        "zh-CN": "开屏有礼",
-        "ja": "{RUBY_B#はねひら}羽開{RUBY_E#}きの{RUBY_B#れい}礼{RUBY_E#}",
-        "ko": "펼쳐서 선물 증정"
-      },
+      "name": { "en": "Amaze-In Grace", "zh-CN": "开屏有礼" },
       "description": {
-        "pt-BR": "Quando a VEL de Yao Guang for #1[i] ou superior, aumenta a Euforia desta unidade em #2[i]%. Para cada #3[i] de VEL excedente(s), aumenta a Euforia desta unidade em #4[i]%. Até um máximo de #5[i] pontos de VEL excedentes podem ser levados em consideração para esse efeito.",
         "en": "When Yao Guang's SPD is #1[i] or higher, increases this unit's Elation by #2[i]%. For every #3[i] SPD exceeded, increases this unit's Elation by #4[i]%. Up to a max of #5[i] excess SPD can be taken into account for this effect.",
-        "zh-CN": "爻光的速度大于等于#1[i]时，使自身欢愉度提高#2[i]%，之后每超过#3[i]点速度使自身欢愉度提高#4[i]%，最多计入#5[i]点超出的速度。",
-        "ja": "爻光の速度が#1[i]以上の時、自身の愉悦度+#2[i]%。なお、超過した速度#3[i]につき、さらに自身の愉悦度+#4[i]%。超過した速度は最大#5[i]までカウントされる。",
-        "ko": "효광의 속도가 #1[i] 이상일 시, 자신의 환락도가 #2[i]% 증가하고, 이후 속도가 #3[i]pt 초과할 때마다 자신의 환락도가 #4[i]% 증가한다(초과한 속도는 최대 #5[i]pt까지 계산)"
+        "zh-CN": "爻光的速度大于等于#1[i]时，使自身欢愉度提高#2[i]%，之后每超过#3[i]点速度使自身欢愉度提高#4[i]%，最多计入#5[i]点超出的速度。"
       },
       "params": [[120, 0.3, 1, 0.01, 200]],
       "icon": "icon/skill/1502_skilltree1.png",
@@ -854,19 +683,10 @@
     {
       "id": 1502102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Elegante e Satisfeita",
-        "en": "Poised and Sated",
-        "zh-CN": "神闲意满",
-        "ja": "{RUBY_B#み}満{RUBY_E#}ち{RUBY_B#た}足{RUBY_E#}りたひと{RUBY_B#とき}時{RUBY_E#}",
-        "ko": "여유로운 자태, 흡족한 마음"
-      },
+      "name": { "en": "Poised and Sated", "zh-CN": "神闲意满" },
       "description": {
-        "pt-BR": "Aumenta o Dano CRIT desta unidade em #4[i]%. Após usar a Perícia da Euforia, recupera #1[i] Ponto(s) de Perícia para a equipe.",
         "en": "Increases this unit's CRIT DMG by #4[i]%. After using Elation Skill, recovers #1[i] Skill Point(s) for the team.",
-        "zh-CN": "自身暴击伤害提高#4[i]%，施放欢愉技后，为我方恢复#1[i]个战技点。",
-        "ja": "自身の会心ダメージ+#4[i]%。愉悦スキルを発動した後、SPを#1[i]回復する。",
-        "ko": "자신의 치명타 피해가 #4[i]% 증가하고, 환락 스킬 발동 후 아군의 전투 스킬 포인트를 #1[i]pt 회복한다"
+        "zh-CN": "自身暴击伤害提高#4[i]%，施放欢愉技后，为我方恢复#1[i]个战技点。"
       },
       "params": [[1, 0.25, 0.4, 0.6]],
       "icon": "icon/skill/1502_skilltree2.png",
@@ -890,19 +710,10 @@
     {
       "id": 1502103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Conjunto da Felicidade",
-        "en": "Felicity Ensemble",
-        "zh-CN": "鸿运鳞集",
-        "ja": "{RUBY_B#つど}集{RUBY_E#}う{RUBY_B#こううん}好運{RUBY_E#}",
-        "ko": "행운 집결"
-      },
+      "name": { "en": "Felicity Ensemble", "zh-CN": "鸿运鳞集" },
       "description": {
-        "pt-BR": "Quando Yao Guang obtém \"Mandou Bem\", aumenta sua duração em #2[i] rodada(s).",
         "en": "When Yao Guang gains \"Certified Banger,\" its duration increases by #2[i] turn(s).",
-        "zh-CN": "爻光获得【好活当赏】时，使其持续时间增加#2[i]回合。",
-        "ja": "爻光が「爆笑の褒美」を獲得する時、その継続時間+#2[i]ターン。",
-        "ko": "효광이 [훌륭한 솜씨에는 보상을] 획득 시, 지속 시간이 #2[i]턴 증가한다"
+        "zh-CN": "爻光获得【好活当赏】时，使其持续时间增加#2[i]回合。"
       },
       "params": [[20, 1]],
       "icon": "icon/skill/1502_skilltree3.png",
@@ -926,13 +737,7 @@
     {
       "id": 1502201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -949,7 +754,7 @@
     {
       "id": 1502202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -966,13 +771,7 @@
     {
       "id": 1502203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1502101],
@@ -989,13 +788,7 @@
     {
       "id": 1502204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de Euforia",
-        "en": "Elation Boost",
-        "zh-CN": "欢愉度强化",
-        "ja": "愉悦度強化",
-        "ko": "환락도 강화"
-      },
+      "name": { "en": "Elation Boost", "zh-CN": "欢愉度强化" },
       "icon": "icon/property/IconJoy.png",
       "maxLevel": 1,
       "prerequisites": [1502101],
@@ -1012,13 +805,7 @@
     {
       "id": 1502205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1502102],
@@ -1035,7 +822,7 @@
     {
       "id": 1502206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1502205],
@@ -1052,13 +839,7 @@
     {
       "id": 1502207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1502206],
@@ -1075,13 +856,7 @@
     {
       "id": 1502208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de Euforia",
-        "en": "Elation Boost",
-        "zh-CN": "欢愉度强化",
-        "ja": "愉悦度強化",
-        "ko": "환락도 강화"
-      },
+      "name": { "en": "Elation Boost", "zh-CN": "欢愉度强化" },
       "icon": "icon/property/IconJoy.png",
       "maxLevel": 1,
       "prerequisites": [1502103],
@@ -1098,7 +873,7 @@
     {
       "id": 1502209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1502208],
@@ -1115,13 +890,7 @@
     {
       "id": 1502210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1502209],
@@ -1138,13 +907,7 @@
     {
       "id": 1502420,
       "anchor": "Point22",
-      "name": {
-        "pt-BR": "Perícia da Euforia",
-        "en": "Elation Skill",
-        "zh-CN": "欢愉技",
-        "ja": "愉悦スキル",
-        "ko": "환락 스킬"
-      },
+      "name": { "en": "Elation Skill", "zh-CN": "欢愉技" },
       "icon": "icon/skill/1502_elation.png",
       "maxLevel": 10,
       "prerequisites": [],

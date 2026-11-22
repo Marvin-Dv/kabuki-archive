@@ -1,32 +1,20 @@
 {
   "id": 23035,
   "slug": "long-road-leads-home",
-  "name": {
-    "pt-BR": "A Longa Estrada Leva para Casa",
-    "en": "Long Road Leads Home",
-    "zh-CN": "长路终有归途",
-    "ja": "長途はやがて帰途へと続く",
-    "ko": "먼 길 끝의 귀로"
-  },
+  "name": { "en": "Long Road Leads Home", "zh-CN": "长路终有归途" },
   "rarity": 5,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"Quem... é ela?\"\nA garota acaricia a \"eu\" desconhecida.\nEla se lembra de como o fogo naquele dia a engoliu por inteiro, e como seu leque enfeitado com joias se transformou em cinzas.\nEla certa vez caminhou por uma estrada sem fim, procurando pela luz à frente.\nOs sons lá fora a chamavam, levando-a adiante, guiando-a através das camadas da noite.\nOs sons lá dentro a lembravam daquelas promessas não cumpridas, planos não executados e desejos não realizados... Todos eles ainda estavam esperando por ela.\nEles nunca se dissiparam no fogo, mas, em vez disso, brilharam cada vez mais nas chamas.\n\"Sou eu...\"\nEla fica no fim da estrada e não olha mais para trás em suas memórias:\n\"Sou a \"eu\" original, e também a \"eu\" totalmente nova.\"",
     "en": "\"Who... Is she?\" The girl caresses the unfamiliar self.\nShe recalls how the fire that day had swallowed her whole, and how her bejeweled fan turned into ash.\nShe had once walked on a never-ending road, looking for the light ahead.\nThe sounds outside were calling for her, leading her forward, guiding her through the layers of night.\nThe sounds within reminded her of those unfulfilled promises, unexecuted plans, and unrealized wishes... They were all still waiting for her.\nThey never dissipated in the fire, but instead, glowed ever brighter in the flames.\n\"That is me...\"\nShe stands at the end of the road and no longer looks back in reminiscence —\n\"It's the original me, and also the brand-new me.\"",
-    "zh-CN": "「她…是谁？」少女轻抚着陌生的自己。\n她想起了那日的火如何将她吞噬，珠宝折扇化作飞灰。\n自己曾走在漫长的道路上，寻找前方的光。\n外面的声音在呼唤她，领她前行，带着她穿越重重黑暗。\n内心的声音在提醒她，那些未完成的誓言，要赴的约定，未实现的梦，还在等着她——\n它们未曾消弭于火中，反而于火中愈发闪耀生辉。\n「那就是我……」\n她站在终点，不再回头留恋——\n「原来的我，亦是全新的我。」",
-    "ja": "「あなたは…誰？」少女は見慣れない自分にそっと触れた。\nあの日の炎が、どのように自分を焼き尽くし、宝石と扇子を灰に変えたのかを思い出す。\n以前、長い道のりを歩き、光を探していた時。\n外からの声が彼女に呼びかけ、前へ前へと導き、重く暗い闇を進ませた。\n内なる声が告げる——果たされていない誓い、守るべき約束、そしてまだ叶えられていない夢が、今もなお彼女を待っていると——\nそれらは炎の中で消えるどころか、むしろさらに輝きを増している。\n「それが私……」\n彼女は終着点に立ち、もう振り返ることはない——\n「かつての私であり、新しい私でもある」",
-    "ko": "「이 사람은… 누구지?」 소녀는 낯선 자신을 어루만졌다.\n그녀는 그날의 불길이 자신을 집어삼켜 보석과 부채를 잿더미로 만든 과정을 떠올렸다.\n소녀는 한때 기나긴 길을 걸으며 전방의 빛을 찾았다.\n밖에서 들려오는 소리가 그녀를 불렀고, 깊은 어둠을 헤쳐 나갈 수 있도록 그녀를 이끌었다.\n마음속의 소리는 아직 이루지 못한 맹세와 약속, 그리고 꿈이 그녀를 기다리고 있다고 상기시켰다——\n그것들은 불길 속에서 사라지지 않고 오히려 더욱 빛을 발했다.\n「이건 바로 나야……」\n소녀는 종착점에 서서 더 이상 미련을 갖고 뒤돌아보지 않았다——\n「본래의 나이자 새로운 나」"
+    "zh-CN": "「她…是谁？」少女轻抚着陌生的自己。\n她想起了那日的火如何将她吞噬，珠宝折扇化作飞灰。\n自己曾走在漫长的道路上，寻找前方的光。\n外面的声音在呼唤她，领她前行，带着她穿越重重黑暗。\n内心的声音在提醒她，那些未完成的誓言，要赴的约定，未实现的梦，还在等着她——\n它们未曾消弭于火中，反而于火中愈发闪耀生辉。\n「那就是我……」\n她站在终点，不再回头留恋——\n「原来的我，亦是全新的我。」"
   },
   "skill": {
-    "name": { "pt-BR": "Renascimento", "en": "Rebirth", "zh-CN": "新生", "ja": "新生", "ko": "신생" },
+    "name": { "en": "Rebirth", "zh-CN": "新生" },
     "description": {
-      "pt-BR": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando um inimigo-alvo sofre Quebra de Fraqueza, há uma chance-base de #2[i]% de infligir o estado de \"Carbonização\" a ele, que aumenta o Dano de Quebra recebido em #3[i]%, durando por #4[i] rodada(s). Este efeito pode acumular até #5[i] vez(es).",
       "en": "Increases the wearer's Break Effect by #1[i]%. When an enemy target's Weakness gets broken, there is a #2[i]% base chance to inflict the \"Charring\" state on it, which increases its Break DMG taken by #3[i]%, lasting for #4[i] turn(s). This effect can stack #5[i] time(s).",
-      "zh-CN": "使装备者的击破特攻提高#1[i]%。当有敌方目标的弱点被击破时，有#2[i]%的基础概率使其陷入【焚灼】状态，受到的击破伤害提高#3[i]%，持续#4[i]回合，此效果可叠加#5[i]层。",
-      "ja": "装備キャラの撃破特効+#1[i]%。敵が弱点撃破される時、#2[i]%の基礎確率で「着火」状態を付与し、敵が受ける弱点撃破ダメージ+#3[i]%。#4[i]ターン継続、最大#5[i]層累積できる。",
-      "ko": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가한다. 적의 약점이 격파될 시 #2[i]%의 기본 확률로 대상을 [타오름] 상태에 빠트리고 받는 격파 피해를 #3[i]% 증가시킨다, 지속 시간: #4[i]턴. 해당 효과는 #5[i]스택 중첩 가능하다"
+      "zh-CN": "使装备者的击破特攻提高#1[i]%。当有敌方目标的弱点被击破时，有#2[i]%的基础概率使其陷入【焚灼】状态，受到的击破伤害提高#3[i]%，持续#4[i]回合，此效果可叠加#5[i]层。"
     },
     "params": [
       [0.6, 1, 0.18, 2, 2],

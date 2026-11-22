@@ -1,13 +1,7 @@
 {
   "id": 113013,
   "slug": "artifexs-gyreheart",
-  "name": {
-    "pt-BR": "Coração de Giro de Artífices",
-    "en": "Artifex's Gyreheart",
-    "zh-CN": "工造浑心",
-    "ja": "工造渾心",
-    "ko": "공조 환류 심장"
-  },
+  "name": { "en": "Artifex's Gyreheart", "zh-CN": "工造浑心" },
   "rarity": 4,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -22,27 +16,6 @@
       "Simulated Universe enemies",
       "Omni-Synthesizer — Material Exchange"
     ],
-    "pt-BR": [
-      "Magi-Engenhos no Nível de Equilíbrio 4 ou superior",
-      "Sintetizador Omni — Síntese de Material",
-      "Espólio deixado por inimigos no Universo Divergente",
-      "Inimigos do Universo Simulado",
-      "Sintetizador Omni — Troca de Material"
-    ],
-    "zh-CN": ["突破至均衡等级4后，入魔机巧掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
-    "ja": [
-      "均衡Lv.4に達した後、入魔機巧からドロップ",
-      "「万能合成マシン」- 素材合成",
-      "「階差宇宙」で敵からドロップ",
-      "「模擬宇宙」で敵からドロップ",
-      "「万能合成マシン」- 素材交換"
-    ],
-    "ko": [
-      "균형 레벨 Lv.4까지 돌파 후 신들린 기교 드랍",
-      "「만능 합성기」- 재료 합성",
-      "「차분화 우주」 적 드랍",
-      "「시뮬레이션 우주」 적 드랍",
-      "「만능 합성기」- 재료 치환"
-    ]
+    "zh-CN": ["突破至均衡等级4后，入魔机巧掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"]
   }
 }

@@ -1,13 +1,7 @@
 {
   "id": 18001,
   "slug": "shadow-of-destruction",
-  "name": {
-    "pt-BR": "Sombra de Destruição",
-    "en": "Shadow of Destruction",
-    "zh-CN": "「毁灭」之影",
-    "ja": "「壊滅」の影",
-    "ko": "「파멸」의 그림자"
-  },
+  "name": { "en": "Shadow of Destruction", "zh-CN": "「毁灭」之影" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",
@@ -21,14 +15,6 @@
       "Internal Procurement Specialist",
       "Underground Shop"
     ],
-    "pt-BR": [
-      "Recompensas de Missão de Desbravamento",
-      "Recompensas de Nível",
-      "Oficial de Compra Interna",
-      "Loja do Subsolo"
-    ],
-    "zh-CN": ["开拓任务奖励", "等级奖励", "内购专员", "地底商店"],
-    "ja": ["開拓クエスト報酬", "レベルボーナス", "社販担当", "地下ショップ"],
-    "ko": ["개척 임무 보상", "레벨 보상", "내부 구매 담당", "지하 상점"]
+    "zh-CN": ["开拓任务奖励", "等级奖励", "内购专员", "地底商店"]
   }
 }

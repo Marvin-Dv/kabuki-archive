@@ -1,38 +1,20 @@
 {
   "id": 21041,
   "slug": "its-showtime",
-  "name": {
-    "pt-BR": "É Hora do Show",
-    "en": "It's Showtime",
-    "zh-CN": "好戏开演",
-    "ja": "ショーの始まり",
-    "ko": "쇼타임"
-  },
+  "name": { "en": "It's Showtime", "zh-CN": "好戏开演" },
   "rarity": 4,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "— Quem presenciou a sua morte?\n— Eu! Eu vi com meus dois olhinhos!\n— Quem pegou o sangue dele?\n— Eu! Eu usei o meu pires pequenininho!\n— Quem cavou a cova dele?\n— Eu! Usando meu cinzel e pá!\nOs inteligentes usam todas as técnicas em seu arsenal, os soberanos acalmam seu coração com poder, o herói se vê como justo, e o Tolo ri sem parar...\n\"Agora, vamos dar as boas-vindas à Srta. Sparkle que nos traz a apresentação do ano: Noite Aterrorizante de Penacony!\"",
     "en": "—Who witnessed his death?\n—Me! I spied it with my little eyes!\n—Who took his blood?\n—Me! I seized it with my little saucer!\n—Who dug his grave?\n—Me! I did it with my chisel and shovel!\nThe sage schemes exhaustedly, the king lusts insatiably, the hero prides falsely — only the Fool laughs perpetually\n\"Now, let us welcome Ms. Sparkle to bring us the performance of the year — Penacony's Night of Fright!\"",
-    "zh-CN": "——是谁看见他死去？\n——是我，用我的小眼睛！\n——是谁取走他的血？\n——是我，用我的小碟子！\n——是谁为他挖坟墓？\n——是我，用我的凿子和铲子！\n看智者机关算尽，王者权欲熏心，英雄自以为是，而愚者欢笑不止——\n「现在，有请花火小姐给我们带来年度大戏——『匹诺康尼惊魂夜』！」",
-    "ja": "——彼の死を見届けたのは誰？\n——花火だよ、この小さな目で見たんだ！\n——彼の血を持ち去ったのは誰？\n——花火だよ、このお皿を使ったんだ！\n——彼のためにお墓を掘ったのは誰？\n——花火だよ、このノミとスコップで！\n賢者は狡猾に、王は権力に貪欲に、英雄は独善的に、愚者はただ笑っている——\n「では、花火さんの今年一番の大舞台——『ピノコニー混乱の夜』を御覧ください！」",
-    "ko": "——그의 죽음을 목격한 자는 누구일까?\n——나야, 내 작은 눈으로 봤어!\n——그의 피를 가져간 사람은 누구지?\n——나야, 내 접시를 썼지!\n——그의 무덤을 판 사람은 누구지?\n——나야, 내 끌과 삽으로 무덤을 팠어!\n현인(賢人)은 온갖 계책을 쓰고, 왕은 권세욕에 빠지고, 영웅은 독선적이나 우인은 웃음을 멈추지 않네——\n「이제 올해 최고의 쇼 『페나코니의 섬뜩한 밤』을 선사해 주실 스파클 씨를 소개합니다!」"
+    "zh-CN": "——是谁看见他死去？\n——是我，用我的小眼睛！\n——是谁取走他的血？\n——是我，用我的小碟子！\n——是谁为他挖坟墓？\n——是我，用我的凿子和铲子！\n看智者机关算尽，王者权欲熏心，英雄自以为是，而愚者欢笑不止——\n「现在，有请花火小姐给我们带来年度大戏——『匹诺康尼惊魂夜』！」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Auto-entretenimento",
-      "en": "Self-Amusement",
-      "zh-CN": "自娱自乐",
-      "ja": "独りの娯楽",
-      "ko": "스스로 찾는 즐거움"
-    },
+    "name": { "en": "Self-Amusement", "zh-CN": "自娱自乐" },
     "description": {
-      "pt-BR": "Quando o usuário inflige uma penalidade em um inimigo, ganha um acúmulo de Truque. Cada acúmulo de Truque aumenta o Dano causado pelo usuário em #1[i]% por um máximo de #2[i] acúmulo(s). Esse efeito dura por #3[i] rodada(s). Quando a Taxa de Acerto de Efeito do usuário é maior ou igual a #4[i]%, aumenta o ATQ em #5[i]%.",
       "en": "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by #1[i]%, stacking up to #2[i] time(s). This effect lasts for #3[i] turn(s). When the wearer's Effect Hit Rate is #4[i]% or higher, increases ATK by #5[i]%.",
-      "zh-CN": "装备者对敌方目标施加负面状态后，获得一层【戏法】，每层【戏法】使装备者造成的伤害提高#1[i]%，最多叠加#2[i]层，持续#3[i]回合。当装备者的效果命中大于等于#4[i]%时，攻击力提高#5[i]%。",
-      "ja": "装備キャラが敵にデバフを付与した後、「トリック」を1層獲得する。「トリック」1層につき、装備キャラの与ダメージ+#1[i]%、#3[i]ターン継続、最大で#2[i]層累積できる。装備キャラの効果命中が#4[i]%以上の時、攻撃力+#5[i]%。",
-      "ko": "장착한 캐릭터가 적에게 디버프 상태를 부여한 후 [트릭]을 1스택 획득한다. [트릭] 스택당 장착한 캐릭터가 가하는 피해가 #1[i]% 증가한다. 최대 중첩수: #2[i]스택, 지속 시간: #3[i]턴. 장착한 캐릭터의 효과 명중이 #4[i]% 이상일 시, 공격력이 #5[i]% 증가한다"
+      "zh-CN": "装备者对敌方目标施加负面状态后，获得一层【戏法】，每层【戏法】使装备者造成的伤害提高#1[i]%，最多叠加#2[i]层，持续#3[i]回合。当装备者的效果命中大于等于#4[i]%时，攻击力提高#5[i]%。"
     },
     "params": [
       [0.06, 3, 1, 0.8, 0.2],

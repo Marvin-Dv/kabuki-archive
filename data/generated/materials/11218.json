@@ -1,13 +1,7 @@
 {
   "id": 11218,
   "slug": "jiaoqius-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Jiaoqiu",
-    "en": "Jiaoqiu's Eidolon",
-    "zh-CN": "【椒丘】的星魂",
-    "ja": "「椒丘」の星魂",
-    "ko": "[초구]의 성혼"
-  },
+  "name": { "en": "Jiaoqiu's Eidolon", "zh-CN": "【椒丘】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

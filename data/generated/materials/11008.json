@@ -1,13 +1,7 @@
 {
   "id": 11008,
   "slug": "arlans-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Arlan",
-    "en": "Arlan's Eidolon",
-    "zh-CN": "【阿兰】的星魂",
-    "ja": "「アーラン」の星魂",
-    "ko": "[아를란]의 성혼"
-  },
+  "name": { "en": "Arlan's Eidolon", "zh-CN": "【阿兰】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

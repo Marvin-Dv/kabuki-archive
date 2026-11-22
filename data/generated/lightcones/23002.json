@@ -1,32 +1,20 @@
 {
   "id": 23002,
   "slug": "something-irreplaceable",
-  "name": {
-    "pt-BR": "Algo Insubstituível",
-    "en": "Something Irreplaceable",
-    "zh-CN": "无可取代的东西",
-    "ja": "かけがえのないもの",
-    "ko": "대체할 수 없는 것"
-  },
+  "name": { "en": "Something Irreplaceable", "zh-CN": "无可取代的东西" },
   "rarity": 5,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"Se chegar o dia em que eu não estarei mais aqui, cuide deste banco de dados, Svarog.\"\n(Quem é essa... Por que essa mensagem está nos meus registros?)\n\"Você tem algo insubstituível, Svarog?\"\n(Insubstituível... peças quebradas... podem ser recuperadas facilmente...)\n\"Um dia, você certamente encontrará, Svarog.\"\n(Essas coisas... só causarão problemas...)\n\"Quando a hora chegar... você precisará deixar este lugar para trás.\"",
     "en": "\"Should a day come when even I'm not here anymore, please look after this database, Svarog.\"\n(Who is this... Why is this message in my records...)\n\"Do you have something that's irreplaceable, Svarog?\"\n(Irreplaceable... broken parts... can simply be replaced...)\n\"You'll definitely find it one day, Svarog.\"\n(Such things... will only cause trouble...)\n\"When that time comes... You should leave this place behind.\"",
-    "zh-CN": "「史瓦罗，如果有一天我也不在了，这个数据库就拜托你了。」\n（是谁…为什么我的记录里会有这样的留声……）\n「史瓦罗，你有什么觉得无可取代的东西么？」\n（无可取代…坏掉的零件…只要替换掉就好……）\n「史瓦罗，总有一天你会找到的。」\n（那种东西…只会是个麻烦……）\n「到了那个时候…你就离开这里吧。」",
-    "ja": "「スヴァローグ、もし私がいなくなったら、このデータベースは君に任せよう」\n（誰だ……なぜ私の記録にこのようなボイスメッセージが……）\n「スヴァローグ、君にとって、かけがえのないものは何だい？」\n（かけがえのない……破損したパーツは……取り替えればいい……）\n「スヴァローグ、いつか君にも見つかる……」\n（そういうものは……面倒なだけだ……）\n「その時は、ここを離れるといい」",
-    "ko": "「스바로그, 만약 어느 날 나도 없어진다면, 데이터베이스를 부탁할게」\n(누구지… 왜 내 기록에 이런 녹음이 있지…)\n「스바로그, 네게 대체할 수 없는 게 있을까?」\n(대체 불가한… 고장 난 부속품은… 교체하면 된다…)\n「스바로그, 너도 언젠가는 찾게 될 거야」\n(그런 건… 귀찮을 뿐…)\n「그때가 되면… 여길 떠나」"
+    "zh-CN": "「史瓦罗，如果有一天我也不在了，这个数据库就拜托你了。」\n（是谁…为什么我的记录里会有这样的留声……）\n「史瓦罗，你有什么觉得无可取代的东西么？」\n（无可取代…坏掉的零件…只要替换掉就好……）\n「史瓦罗，总有一天你会找到的。」\n（那种东西…只会是个麻烦……）\n「到了那个时候…你就离开这里吧。」"
   },
   "skill": {
-    "name": { "pt-BR": "Afinidade", "en": "Kinship", "zh-CN": "家人", "ja": "家族", "ko": "가족" },
+    "name": { "en": "Kinship", "zh-CN": "家人" },
     "description": {
-      "pt-BR": "Aumenta em #1[i]% o ATQ do usuário. Quando o usuário derrota um inimigo ou é atingido, recupera imediatamente PV equivalentes a #2[i]% do próprio ATQ. Ao mesmo tempo, o Dano do usuário aumenta em #3[i]% até o fim da sua próxima rodada. Este efeito não se acumula e só pode ser ativado 1 vez por rodada.",
       "en": "Increases the wearer's ATK by #1[i]%. When the wearer defeats an enemy or is hit, immediately restores HP equal to #2[i]% of the wearer's ATK. At the same time, the wearer's DMG is increased by #3[i]% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力#2[i]%的生命值，同时造成的伤害提高#3[i]%，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。",
-      "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが敵を倒す、または攻撃を受けた後、装備キャラの攻撃力#2[i]%分のHPを回復し、与ダメージ+#3[i]%、効果は自身の次のターンが終了するまで継続。この効果は累積できず、ターンが回ってくるたびに1回まで発動できる。",
-      "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터는 적을 처치하거나 피격된 후 즉시 공격력 #2[i]%만큼의 HP를 회복하고, 가하는 피해가 #3[i]% 증가하며, 자신의 다음 턴이 끝날 때까지 지속된다. 해당 효과는 중첩될 수 없으며 턴마다 1회만 발동할 수 있다"
+      "zh-CN": "使装备者的攻击力提高#1[i]%。当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力#2[i]%的生命值，同时造成的伤害提高#3[i]%，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。"
     },
     "params": [
       [0.24, 0.08, 0.24],

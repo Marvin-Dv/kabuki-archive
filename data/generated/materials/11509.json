@@ -1,13 +1,7 @@
 {
   "id": 11509,
   "slug": "gilgameshs-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Gilgamesh",
-    "en": "Gilgamesh's Eidolon",
-    "zh-CN": "【吉尔伽美什】的星魂",
-    "ja": "「ギルガメッシュ」の星魂",
-    "ko": "[길가메시]의 성혼"
-  },
+  "name": { "en": "Gilgamesh's Eidolon", "zh-CN": "【吉尔伽美什】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

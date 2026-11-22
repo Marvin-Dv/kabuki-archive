@@ -1,32 +1,20 @@
 {
   "id": 23040,
   "slug": "make-farewells-more-beautiful",
-  "name": {
-    "pt-BR": "O Adeus Mais Belo",
-    "en": "Make Farewells More Beautiful",
-    "zh-CN": "让告别，更美一些",
-    "ja": "永訣よ美しくあれ",
-    "ko": "이별이 더 아름답도록"
-  },
+  "name": { "en": "Make Farewells More Beautiful", "zh-CN": "让告别，更美一些" },
   "rarity": 5,
   "path": "Remembrance",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Mais uma cerimônia de Partida acontecia.\nÀ beira do rio, uma jovem pisava no luar fragmentado enquanto tecia uma coroa de flores de despedida.\nAntigos lamentos cristalizavam no ar frio, enquanto o rio silencioso fluía para uma terra distante repleta de flores.\nPergaminhos manchados de sangue, espadas enferrujadas, lenços bordados com poesias... Ela recebeu seus pertences junto com as histórias de suas vidas.\n\"Meus olhos são como lentes, eternamente ansiando pelo céu estrelado.\"\nEm memória do erudito que partiu cedo demais.\n\"Para a vida e para a morte, o cavaleiro oferece apenas um olhar frio.\"\nAs palavras que o guerreiro inominado manteve por toda a vida.\n\"A vida é apenas morte brilhando em uma luz cintilante.\"\nO último verso da poetisa que buscava a eternidade, escrito com sua própria vida.\n...\n\"Todas as flores já brilharam com orgulho...\"\nAo som do suave lamento do rio, ela ofereceu poemas aos que partiram, coroas de flores e recordações.\n\"Se o murchar é inevitável, que nossa despedida seja... ao menos um pouco mais bela.\"",
     "en": "Another farewell ceremony was underway.\nA young girl, stepping on broken moonlight, wove a garland of parting by the riverbank.\nAncient laments crystallized in the cold air, while the quiet river flowed into a distant land of blossoms.\nBlood-stained scrolls, rusted long swords, handkerchiefs embroidered with poetry... She accepted their remains, along with the tales of their lives.\n\"My eyes are like lenses, forever longing for the starry sky.\"\n—An epitaph dedicated to the departed scholar.\n\"For life and for death, the knight grants only a cold glance.\"\n—The maxim that the nameless warrior upheld all his life.\n\"Life is nothing but death, aglow with shimmering light.\"\n—The final verse penned by the eternal-seeking poet with his life.\n...\n\"Every flower once bloomed with pride...\"\nAccompanied by the river's soft lament, she offered the departed poems, garlands, and remembrances—\n\"If withering is inevitable, at least let our farewell be... a little more beautiful.\"",
-    "zh-CN": "又是一场离别的仪式。\n少女踏着破碎的月光，于河畔编织告别的花环。\n古老的哀歌凝冻于寒冷的空气，静谧的河流注入遥远彼方的花乡。\n染血的书卷，生锈的长剑，绣着诗文的手帕…她接过他们的遗物，和他们一生的故事。\n「我的眼睛如同透镜，永远思念着星空。」\n那是献给早逝学者的墓志铭。\n「对人生，对死亡，骑士只给予冷然的一瞥。」\n那是无名战士坚持了一生的箴言。\n「生命只是闪烁着光芒的死亡。」\n那是追求永恒的诗人，以生命写就的最后一句。\n……\n「每一朵花，都曾骄傲地盛放过……」\n伴着河流的呜咽，她向逝者献上诗篇、花环与纪念——\n「如果枯萎不可避免，至少让我们的告别…更美一些。」",
-    "ja": "それは幾度目かの別れの儀式だった。\n少女は零れ落ちる月光を踏みしめ、川辺で別れの花冠を編んだ。\n古の哀歌は冷たい空気の中で凍りつき、静かな川は遥か彼方の花畑へと流れ込む。\n血に染まった巻物、錆びた長剣、詩が刺繍されたハンカチ…彼女は彼らの生涯の物語と共に、遺品を受け取った。\n「私の目はレンズのように、いつまでも星空を想っている」\nこれは早逝した学者に捧げる墓碑銘。\n「戦士たる者、人生も死も、冷静に見つめなければならない」\nこれは無名の戦士が一生涯貫いた言葉。\n「命とは光を放つ死にすぎない」\nこれは永遠を追い求めた詩人が命で綴った最後の一文。\n……\n「どの花も、誇らしげに咲いていた……」\n川が静かに奏でる嘆きの中、彼女は亡き者に詩篇と花冠、そして思い出を捧げた——\n「枯れゆくことが避けられないのなら、少なくとも…私たちの別れは、より美しいものであってほしい……」",
-    "ko": "또 한 번의 이별식이다.\n소녀는 부서진 달빛을 밟으며, 강가에서 이별의 화환을 엮었다.\n오래된 애가는 차가운 공기 속에서 얼어붙었고, 고요한 강은 머나먼 저편의 꽃밭으로 흘러들었다.\n피로 물든 서적, 녹슨 장검, 시문이 수놓인 손수건… 그녀는 그들의 유물과, 그들의 평생의 이야기를 건네받는다.\n「내 눈은 렌즈처럼, 별하늘을 영원히 그리워한다」\n그건 일찍이 세상을 떠난 학자에게 바치는 묘비명이었다.\n「인생에, 죽음에, 기사는 차가운 눈길만을 줄 뿐이다」\n그건 무명의 전사가 평생 지켜온 잠언이었다.\n「생명은 반짝이는 빛의 죽음에 불과하다」\n그건 영원을 추구하는 시인이 생명으로 쓴 마지막 문장이었다.\n……\n「모든 꽃은 한때 긍지를 가진 채 피어났다……」\n강의 구슬픈 소리에 따라, 그녀는 세상을 떠난 자에게 시편과 화환을 바치고 기념했다——\n「만약 시드는 걸 피할 수 없다면, 적어도 우리들의 이별이… 더 아름다웠으면 해」"
+    "zh-CN": "又是一场离别的仪式。\n少女踏着破碎的月光，于河畔编织告别的花环。\n古老的哀歌凝冻于寒冷的空气，静谧的河流注入遥远彼方的花乡。\n染血的书卷，生锈的长剑，绣着诗文的手帕…她接过他们的遗物，和他们一生的故事。\n「我的眼睛如同透镜，永远思念着星空。」\n那是献给早逝学者的墓志铭。\n「对人生，对死亡，骑士只给予冷然的一瞥。」\n那是无名战士坚持了一生的箴言。\n「生命只是闪烁着光芒的死亡。」\n那是追求永恒的诗人，以生命写就的最后一句。\n……\n「每一朵花，都曾骄傲地盛放过……」\n伴着河流的呜咽，她向逝者献上诗篇、花环与纪念——\n「如果枯萎不可避免，至少让我们的告别…更美一些。」"
   },
   "skill": {
-    "name": { "pt-BR": "Gravar", "en": "Engrave", "zh-CN": "铭刻", "ja": "銘刻", "ko": "각명" },
+    "name": { "en": "Engrave", "zh-CN": "铭刻" },
     "description": {
-      "pt-BR": "Aumenta os PV máximos do usuário em #1[i]%. Quando o usuário ou seu Memoespírito perde PV durante sua própria rodada, o usuário ganha \"Flor da Morte\", que permite que o usuário e seu Memoespírito ignorem #2[i]% da DEF do alvo ao causar Dano, durando por #3[i] rodada(s).\nQuando o Memoespírito do usuário desaparece, Avança Adiante a ação do usuário em #4[i]%. Este efeito pode ser ativado no máximo 1 vez, e a contagem de ativação é reiniciada sempre que o usuário usa sua Perícia Suprema.",
       "en": "Increases the wearer's Max HP by #1[i]%. When the wearer or their memosprite loses HP during their own turn, the wearer gains \"Death Flower.\" \"Death Flower\" allows the wearer and their memosprite to ignore #2[i]% of the target's DEF when dealing DMG, lasting for #3[i] turn(s).\nWhen the wearer's memosprite disappears, advances the wearer's action by #4[i]%. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.",
-      "zh-CN": "使装备者的生命上限提高#1[i]%，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标#2[i]%的防御力，持续#3[i]回合。\n当装备者的忆灵消失时，使装备者行动提前#4[i]%。该效果最多触发1次，装备者每次施放终结技时重置触发次数。",
-      "ja": "装備キャラの最大HP+#1[i]%。装備キャラまたは装備キャラの記憶の精霊が自身のターンでHPを失った時、装備キャラは「冥花」を獲得する。「冥花」を持つ場合、装備キャラおよびその記憶の精霊によるダメージは、ターゲットの防御力を#2[i]%無視する。#3[i]ターン継続。\nまた、装備キャラの記憶の精霊が消えた時、装備キャラの行動順が#4[i]%早まる。この効果は1回まで発動でき、装備キャラが必殺技を発動するたびに、発動可能回数がリセットされる。",
-      "ko": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가하고, 장착한 캐릭터 또는 장착한 캐릭터의 기억 정령이 자신의 턴 동안 HP를 잃을 시, 장착한 캐릭터가 [저승의 꽃]을 획득한다. [저승의 꽃]은 장착한 캐릭터와 장착한 캐릭터의 기억 정령이 피해를 가할 시 목표의 방어력을 #2[i]% 무시하게 한다, 지속 시간: #3[i]턴\n장착한 캐릭터의 기억 정령이 사라질 시, 장착한 캐릭터의 행동 게이지가 #4[i]% 증가한다. 해당 효과는 최대 1회 발동하며, 장착한 캐릭터가 필살기를 발동할 때마다 발동 횟수가 초기화된다"
+      "zh-CN": "使装备者的生命上限提高#1[i]%，装备者或装备者的忆灵在自身回合内损失生命值时，装备者获得【冥花】，【冥花】可以使装备者和装备者的忆灵造成伤害时，无视目标#2[i]%的防御力，持续#3[i]回合。\n当装备者的忆灵消失时，使装备者行动提前#4[i]%。该效果最多触发1次，装备者每次施放终结技时重置触发次数。"
     },
     "params": [
       [0.3, 0.3, 2, 0.12],

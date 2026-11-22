@@ -1,26 +1,20 @@
 {
   "id": 20023,
   "slug": "sneering",
-  "name": { "pt-BR": "Zombaria", "en": "Sneering", "zh-CN": "嗤笑", "ja": "嗤笑", "ko": "비웃음" },
+  "name": { "en": "Sneering", "zh-CN": "嗤笑" },
   "rarity": 3,
   "path": "Elation",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Uma gota de força condensada do próprio tempo. Todos os momentos que pareciam insignificantes se entrelaçam para tecer um destino magnífico.\n\"A origem do riso é uma careta nascida do medo e da intimidação.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments weave together into a magnificent destiny.\n\"The origin of laughter is a grimace born of fear and intimidation.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「笑的起源，是一种出于恐惧和威吓的咧嘴。」",
-    "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「笑顔の起源は、恐怖と威嚇から生まれる歯を見せる行為だった」",
-    "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「웃음의 기원은 공포와 위협을 느꼈을 때 입을 벌리는 행동에서 비롯되었다」"
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「笑的起源，是一种出于恐惧和威吓的咧嘴。」"
   },
   "skill": {
-    "name": { "pt-BR": "Indulgência", "en": "Indulgence", "zh-CN": "纵欢", "ja": "享楽", "ko": "자유로운 환락" },
+    "name": { "en": "Indulgence", "zh-CN": "纵欢" },
     "description": {
-      "pt-BR": "Quando o \"Instante de Aha\" é ativado, a Euforia do usuário aumenta em #1[i]%, durando até o fim do \"Instante Aha\".",
       "en": "When Aha Instant is activated, the wearer's Elation increases by #1[i]%, lasting until Aha Instant ends.",
-      "zh-CN": "阿哈时刻发动时，使装备者的欢愉度提高#1[i]%，持续到阿哈时刻结束。",
-      "ja": "アッハタイムが発動時、装備キャラの愉悦度+#1[i]%、アッハタイムが終了するまで継続。",
-      "ko": "아하 타임 발동 시 장착한 캐릭터의 환락도가 #1[i]% 증가하며, 아하 타임이 종료될 때까지 지속된다"
+      "zh-CN": "阿哈时刻发动时，使装备者的欢愉度提高#1[i]%，持续到阿哈时刻结束。"
     },
     "params": [[0.16], [0.2], [0.24], [0.28], [0.32]],
     "properties": [[], [], [], [], []]

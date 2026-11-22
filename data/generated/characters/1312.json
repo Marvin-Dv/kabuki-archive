@@ -1,7 +1,7 @@
 {
   "id": 1312,
   "slug": "misha",
-  "name": { "pt-BR": "Misha", "en": "Misha", "zh-CN": "米沙", "ja": "ミーシャ", "ko": "미샤" },
+  "name": { "en": "Misha", "zh-CN": "米沙" },
   "rarity": 4,
   "path": "Destruction",
   "element": "Ice",
@@ -11,49 +11,25 @@
     {
       "id": 131201,
       "type": "Basic",
-      "name": {
-        "pt-BR": "C-Com Licença, Por Favor!",
-        "en": "E—Excuse Me, Please!",
-        "zh-CN": "请…请让一下！",
-        "ja": "ど…退いてくださーい！",
-        "ko": "지… 지나갈게요!"
-      },
+      "name": { "en": "E—Excuse Me, Please!", "zh-CN": "请…请让一下！" },
       "description": {
-        "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Misha a um único inimigo-alvo.",
         "en": "Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于米沙#1[i]%攻击力的冰属性伤害。",
-        "ja": "指定した敵単体にミーシャの攻撃力#1[i]%分の氷属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 미샤 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다"
+        "zh-CN": "对指定敌方单体造成等同于米沙#1[i]%攻击力的冰属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1312_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano de Gelo leve a um único inimigo.",
-        "en": "Deals minor Ice DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量冰属性伤害。",
-        "ja": "敵単体に少量の氷属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 얼음 속성 피해를 가한다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Ice DMG to one enemy.", "zh-CN": "对敌方单体造成少量冰属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 131202,
       "type": "Skill",
-      "name": {
-        "pt-BR": "S-Serviço de Quarto!",
-        "en": "R—Room Service!",
-        "zh-CN": "客…客房服务！",
-        "ja": "ル…ルームサービスです！",
-        "ko": "룸… 룸서비스입니다!"
-      },
+      "name": { "en": "R—Room Service!", "zh-CN": "客…客房服务！" },
       "description": {
-        "pt-BR": "Aumenta os Golpes por Ação da próxima Perícia Suprema de Misha em #3[i] golpe(s). Causa Dano de Gelo igual a #1[i]% do ATQ de Misha a um inimigo, e Dano de Gelo igual a #2[i]% do ATQ de Misha a inimigos adjacentes a ele.",
         "en": "Increases the Hits Per Action for Misha's next Ultimate by #3[i] hit(s). Deals Ice DMG equal to #1[i]% of Misha's ATK to one designated enemy target, and Ice DMG equal to #2[i]% of Misha's ATK to adjacent targets.",
-        "zh-CN": "增加#3[i]段米沙下一次终结技的攻击段数。对指定敌方单体造成等同于米沙#1[i]%攻击力的冰属性伤害，并对其相邻目标造成等同于米沙#2[i]%攻击力的冰属性伤害。",
-        "ja": "ミーシャの次の必殺技の攻撃段数+#3[i]。指定した敵単体にミーシャの攻撃力#1[i]%分の氷属性ダメージを与え、隣接する敵にミーシャの攻撃力#2[i]%分の氷属性ダメージを与える。",
-        "ko": "미샤의 다음 필살기 공격 단수가 #3[i]단 증가한다. 지정된 단일 적에게 미샤 공격력의 #1[i]%만큼 얼음 속성 피해를 가하고 인접한 목표에게 미샤 공격력의 #2[i]%만큼 얼음 속성 피해를 가한다"
+        "zh-CN": "增加#3[i]段米沙下一次终结技的攻击段数。对指定敌方单体造成等同于米沙#1[i]%攻击力的冰属性伤害，并对其相邻目标造成等同于米沙#2[i]%攻击力的冰属性伤害。"
       },
       "params": [
         [1, 0.4, 1],
@@ -75,31 +51,19 @@
       "icon": "icon/skill/1312_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Causa Dano de Gelo a um inimigo e Dano de Gelo leve a inimigos adjacentes a ele. Além disso, aumenta os Golpes por Ação da próxima Perícia Suprema de Misha.",
         "en": "Deals Ice DMG to an enemy and minor Ice DMG to enemies adjacent to them. In addition, increases Misha's next Ultimate's Hits Per Action.",
-        "zh-CN": "对敌方单体造成冰属性伤害，对相邻目标造成少量冰属性伤害，增加米沙下一次终结技的攻击段数。",
-        "ja": "敵単体に氷属性ダメージを与える。隣接する敵に少量の氷属性ダメージを与え、ミーシャの次の必殺技の攻撃段数をアップする。",
-        "ko": "단일 적에게 얼음 속성 피해를 가하고, 인접한 목표에게 소량의 얼음 속성 피해를 가한다. 미샤의 다음 필살기 공격 단수가 증가한다"
+        "zh-CN": "对敌方单体造成冰属性伤害，对相邻目标造成少量冰属性伤害，增加米沙下一次终结技的攻击段数。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Blast", "zh-CN": "扩散" }
     },
     {
       "id": 131203,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "V-Vou me Atrasar!",
-        "en": "G—Gonna Be Late!",
-        "zh-CN": "要…要迟到了！",
-        "ja": "ち…遅刻する！",
-        "ko": "지… 지각하겠어!"
-      },
+      "name": { "en": "G—Gonna Be Late!", "zh-CN": "要…要迟到了！" },
       "description": {
-        "pt-BR": "Possui #1[i] Golpes por Ação por padrão. Primeiro, usa 1 golpe para causar Dano de Gelo igual a #2[i]% do ATQ de Misha a um único inimigo-alvo. Então, cada um dos golpes restantes causa Dano de Gelo igual a #2[i]% do ATQ de Misha a um único inimigo aleatório. Logo antes do acerto de cada golpe, existe uma chance-base de #3[f1]% de causar Congelamento ao alvo, durando por 1 rodada.\nEnquanto no estado de Congelamento, inimigos-alvo não podem agir, e no início de suas rodadas, eles recebem Dano de Gelo Adicional igual a #4[i]% do ATQ de Misha.\nEssa Perícia Suprema pode possuir até #5[i] Golpes por Ação. Depois que a Perícia Suprema é utilizada, seus Golpes por Ação serão redefinidos ao nível padrão.",
         "en": "Has #1[i] Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to #2[i]% of Misha's ATK to one designated enemy target. Then, the rest of the hits each deals Ice DMG equal to #2[i]% of Misha's ATK to one random enemy. Just before each hit lands, there is a #3[f1]% base chance to Freeze the target, lasting for 1 turn.\nWhile Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive Ice Additional DMG equal to #4[i]% of Misha's ATK.\nThis Ultimate can possess up to #5[i] Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.",
-        "zh-CN": "初始拥有#1[i]段攻击段数。首先施放1段攻击对指定敌方单体造成等同于米沙#2[i]%攻击力的冰属性伤害，其余每段攻击对敌方随机单体造成等同于米沙#2[i]%攻击力的冰属性伤害。每段攻击前有#3[f1]%的基础概率使目标陷入冻结状态，持续1回合。\n冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于米沙#4[i]%攻击力的冰属性附加伤害。\n终结技最多累计#5[i]段攻击段数，施放终结技后攻击段数恢复至初始状态。",
-        "ja": "初期状態の攻撃段数は#1[i]。最初に1段の攻撃を行い、指定した敵単体にミーシャの攻撃力#2[i]%分の氷属性ダメージを与え、以降の各段攻撃は、ランダムな敵単体にミーシャの攻撃力#2[i]%分の氷属性ダメージを与える。各段攻撃の前に、#3[f1]%の基礎確率で敵を凍結状態にする、1ターン継続。\n凍結状態の敵は行動できず、ターンが回ってくるたびにミーシャの攻撃力#4[i]%分の氷属性付加ダメージを受ける。\n必殺技の最大攻撃段数は#5[i]。必殺技を発動した後、攻撃段数が初期状態にリセットされる。",
-        "ko": "기본 상태에서 공격 단수를 #1[i]단 보유한다. 우선 1단 공격을 발동하여 지정된 단일 적에게 미샤 공격력의 #2[i]%만큼 얼음 속성 피해를 가하고 나머지 단수별 공격은 랜덤 단일 적에게 미샤 공격력의 #2[i]%만큼 얼음 속성 피해를 가한다. 단수별 공격 전 #3[f1]%의 기본 확률로 목표를 빙결 상태에 빠뜨린다. 지속 시간: 1턴\n빙결 상태에서 적은 행동할 수 없으며, 턴이 시작될 때마다 미샤 공격력의 #4[i]%만큼 얼음 속성 추가 피해를 받는다.\n필살기 공격 단수는 최대 #5[i]단까지 누적되며, 필살기 발동 후 공격 단수는 기본 상태로 복구된다"
+        "zh-CN": "初始拥有#1[i]段攻击段数。首先施放1段攻击对指定敌方单体造成等同于米沙#2[i]%攻击力的冰属性伤害，其余每段攻击对敌方随机单体造成等同于米沙#2[i]%攻击力的冰属性伤害。每段攻击前有#3[f1]%的基础概率使目标陷入冻结状态，持续1回合。\n冻结状态下，敌方目标不能行动，同时每回合开始时受到等同于米沙#4[i]%攻击力的冰属性附加伤害。\n终结技最多累计#5[i]段攻击段数，施放终结技后攻击段数恢复至初始状态。"
       },
       "params": [
         [3, 0.36, 0.12, 0.18, 10],
@@ -121,31 +85,19 @@
       "icon": "icon/skill/1312_ultimate.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Causa Dano de Gelo leve a inimigos únicos. O ataque ricocheteia 3 vezes por padrão, até um máximo de 10 vezes. Antes que cada golpe acerte, há uma pequena chance de infligir Congelamento no alvo.",
         "en": "Deals minor Ice DMG to single enemies. The attack bounces 3 times by default and up to a maximum of 10 times. Before each hit lands, there is a minor chance to Freeze the target.",
-        "zh-CN": "对敌方单体造成少量冰属性伤害，初始共弹射3次，最多共弹射10次。每段攻击前小概率使目标冻结。",
-        "ja": "敵単体に少量の氷属性ダメージを与える。初期状態では3回バウンドする。最大で10回バウンドできる。各段攻撃の前に、低確率で敵を凍結状態にする。",
-        "ko": "단일 적에게 소량의 얼음 속성 피해를 가하고 기본 상태에서 총 3회 바운스하며, 최대 총 10회 바운스한다. 단수별 공격 전 낮은 확률로 목표를 빙결시킨다"
+        "zh-CN": "对敌方单体造成少量冰属性伤害，初始共弹射3次，最多共弹射10次。每段攻击前小概率使目标冻结。"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Bounce", "zh-CN": "弹射" }
     },
     {
       "id": 131204,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Escapada Horológica",
-        "en": "Horological Escapement",
-        "zh-CN": "擒纵机构",
-        "ja": "脱進機",
-        "ko": "탈진기"
-      },
+      "name": { "en": "Horological Escapement", "zh-CN": "擒纵机构" },
       "description": {
-        "pt-BR": "Para cada 1 Ponto de Perícia consumido por um aliado, a próxima Perícia Suprema de Misha desfere #2[i] Golpe(s) por Ação a mais e Misha regenera #1[f1] de Energia.",
         "en": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers #2[i] more Hit(s) Per Action, and Misha regenerates #1[f1] Energy.",
-        "zh-CN": "我方全体每消耗1个战技点，增加#2[i]段米沙下一次终结技的攻击段数，同时米沙恢复#1[f1]点能量。",
-        "ja": "味方がSPを1消費するたびに、ミーシャの次の必殺技の攻撃段数+#2[i]、ミーシャのEPを#1[f1]回復する。",
-        "ko": "모든 아군이 전투 스킬 포인트를 1pt 소모할 때마다 미샤의 다음 필살기 공격 단수가 #2[i]단 증가하고, 미샤의 에너지가 #1[f1]pt 회복된다"
+        "zh-CN": "我方全体每消耗1个战技点，增加#2[i]段米沙下一次终结技的攻击段数，同时米沙恢复#1[f1]点能量。"
       },
       "params": [
         [1, 1],
@@ -167,83 +119,53 @@
       "icon": "icon/skill/1312_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Para cada 1 Ponto de Perícia consumido por aliados, a próxima Perícia Suprema de Misha realiza mais Golpes por Ação, e Misha regenera sua Energia.",
         "en": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers more Hits Per Action, and Misha regenerates his Energy.",
-        "zh-CN": "我方全体每消耗1个战技点，增加米沙下一次终结技的攻击段数，同时米沙恢复能量。",
-        "ja": "味方がSPを1消費するたびに、ミーシャの次の必殺技の攻撃段数がアップし、ミーシャのEPを回復する。",
-        "ko": "모든 아군이 전투 스킬 포인트를 1pt 소모할 때마다 미샤의 다음 필살기 공격 단수가 증가하며, 미샤의 에너지가 회복된다"
+        "zh-CN": "我方全体每消耗1个战技点，增加米沙下一次终结技的攻击段数，同时米沙恢复能量。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 131206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1312_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 131207,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Espere, Você É Tão Linda!",
-        "en": "Wait, You Are So Beautiful!",
-        "zh-CN": "停一停吧，你真美丽！",
-        "ja": "時よ止まれ、アナタは美しい",
-        "ko": "멈추어라, 너 정말 아름답구나!"
-      },
+      "name": { "en": "Wait, You Are So Beautiful!", "zh-CN": "停一停吧，你真美丽！" },
       "description": {
-        "pt-BR": "Usar a Técnica cria uma Dimensão Especial que dura por #1[i] segundos. Inimigos pegos na Dimensão Especial são afetados pela Prisão Onírica e todas as suas ações são interrompidas. Ao entrar em batalha contra inimigos afetados pela Prisão Onírica, a próxima Perícia Suprema de Misha causa #2[i] Golpe(s) por Ação a mais. Só 1 Efeito de Dimensão criado por aliados pode existir ao mesmo tempo.",
         "en": "After using the Technique, creates a Special Dimension that lasts for #1[i] seconds. Enemies caught in the Special Dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by #2[i] hit(s). Only 1 Dimension Effect created by allies can exist at the same time.",
-        "zh-CN": "使用秘技后，制造1片持续#1[i]秒的特殊领域。处于特殊领域内的敌人陷入【梦境监牢】状态。【梦境监牢】状态下的敌人会停止所有行动。与处于【梦境监牢】状态下的敌人进入战斗后，增加#2[i]段米沙下一次终结技的攻击段数。我方制造的领域效果最多存在1个。",
-        "ja": "秘技を使用した後、#1[i]秒間継続する特殊領域を作り出す。特殊領域内にいる敵は「夢の牢屋」を付与される。「夢の牢屋」状態の敵は行動を停止する。「夢の牢屋」状態の敵と戦闘に入った後、ミーシャの次の必殺技の攻撃段数+#2[i]。味方が作り出した領域は1つまで存在できる。",
-        "ko": "비술 사용 후 #1[i]초 동안 지속되는 특수 영역을 만든다. 특수 영역 내에 있는 적은 [꿈세계 감옥] 상태에 빠진다. [꿈세계 감옥] 상태에 빠진 적은 모든 행동을 중지한다. [꿈세계 감옥] 상태의 적과 전투 진입 후 미샤의 다음 필살기 공격 단수는 #2[i]단 증가한다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
+        "zh-CN": "使用秘技后，制造1片持续#1[i]秒的特殊领域。处于特殊领域内的敌人陷入【梦境监牢】状态。【梦境监牢】状态下的敌人会停止所有行动。与处于【梦境监牢】状态下的敌人进入战斗后，增加#2[i]段米沙下一次终结技的攻击段数。我方制造的领域效果最多存在1个。"
       },
       "params": [[15, 2]],
       "icon": "icon/skill/1312_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Cria uma dimensão especial que para todos os inimigos que estiverem dentro dela. Ao entrar em batalha contra inimigos na dimensão, a próxima Perícia Suprema de Misha causa mais Golpes por Ação.",
         "en": "Creates a Special Dimension that stops all enemies within. Upon entering battle against enemies within the dimension, Misha's next Ultimate deals more Hits Per Action.",
-        "zh-CN": "制造特殊领域。领域内敌人行动停止。与领域内敌人进入战斗后，增加米沙下一次终结技的攻击段数。",
-        "ja": "特殊領域を作り出す。領域内の敵は行動を停止する。領域内の敵と戦闘に入った後、ミーシャの次の必殺技の攻撃段数がアップする。",
-        "ko": "특수 영역을 만들어 영역 내 적의 행동을 중지한다. 영역 내 적과 전투에 진입하면 미샤의 다음 필살기 공격 단수가 증가한다"
+        "zh-CN": "制造特殊领域。领域内敌人行动停止。与领域内敌人进入战斗后，增加米沙下一次终结技的攻击段数。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" },
+      "targetText": { "en": "Impair", "zh-CN": "妨害" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Capricho Extravagante",
-        "en": "Whimsicality of Fancy",
-        "zh-CN": "飘忽的幻影",
-        "ja": "{RUBY_B#ゆ}揺{RUBY_E#}らめく{RUBY_B#げんえい}幻影{RUBY_E#}",
-        "ko": "흔들리는 환영"
-      },
+      "name": { "en": "Whimsicality of Fancy", "zh-CN": "飘忽的幻影" },
       "description": {
-        "pt-BR": "Ao usar a Perícia Suprema, para cada inimigo no campo, aumenta adicionalmente os Golpes por Ação da Perícia Suprema atual em 1 golpe(s), até um aumento máximo de 5 golpe(s).",
         "en": "When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the current Ultimate by 1 hit(s), up to a maximum increase of 5 hit(s).",
-        "zh-CN": "施放终结技时，场上每有1个敌方目标，本次终结技的攻击段数额外增加1段，最多额外增加5段。",
-        "ja": "必殺技を発動する時、フィールド上にいる敵1体につき、この回の必殺技の攻撃段数+1、最大で+5。",
-        "ko": "필살기 발동 시 필드 위 적 1명당 해당 필살기 공격 단수가 추가로 1단 증가하며, 최대 추가로 5단까지 증가한다"
+        "zh-CN": "施放终结技时，场上每有1个敌方目标，本次终结技的攻击段数额外增加1段，最多额外增加5段。"
       },
       "icon": "icon/skill/1312_rank1.png",
       "materials": [{ "id": 11312, "num": 1 }],
@@ -251,19 +173,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Anseio da Juventude",
-        "en": "Yearning of Youth",
-        "zh-CN": "青春的怅望",
-        "ja": "{RUBY_B#せいしゅん}青春{RUBY_E#}の{RUBY_B#かな}悲{RUBY_E#}しい{RUBY_B#ちょうぼう}眺望{RUBY_E#}",
-        "ko": "청춘의 창연한 눈빛"
-      },
+      "name": { "en": "Yearning of Youth", "zh-CN": "青春的怅望" },
       "description": {
-        "pt-BR": "Antes do acerto de cada golpe da Perícia Suprema, existe uma chance-base de 24% de reduzir a DEF do alvo em 16% por 3 rodada(s).",
         "en": "Before each hit of the Ultimate lands, there is a 24% base chance of reducing the target's DEF by 16% for 3 turn(s).",
-        "zh-CN": "终结技每段攻击前，有24%的基础概率使目标防御力降低16%，持续3回合。",
-        "ja": "必殺技の各段攻撃の前に、24%の基礎確率で敵の防御力-16%、3ターン継続。",
-        "ko": "필살기의 단수별 공격 전 24%의 기본 확률로 목표의 방어력을 16% 감소시킨다. 지속 시간: 3턴"
+        "zh-CN": "终结技每段攻击前，有24%的基础概率使目标防御力降低16%，持续3回合。"
       },
       "icon": "icon/skill/1312_rank2.png",
       "materials": [{ "id": 11312, "num": 1 }],
@@ -271,19 +184,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Vestígio de Felicidade",
-        "en": "Vestige of Happiness",
-        "zh-CN": "欢乐年光的影子",
-        "ja": "{RUBY_B#わす}忘{RUBY_E#}れられない{RUBY_B#じだい}時代{RUBY_E#}の{RUBY_B#なごり}名残{RUBY_E#}",
-        "ko": "행복한 세월의 그림자"
-      },
+      "name": { "en": "Vestige of Happiness", "zh-CN": "欢乐年光的影子" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1312_ultimate.png",
       "materials": [{ "id": 11312, "num": 1 }],
@@ -291,19 +195,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Visão de Afinidade",
-        "en": "Visage of Kinship",
-        "zh-CN": "亲挚的音容",
-        "ja": "よく{RUBY_B#し}知{RUBY_E#}る{RUBY_B#おもかげ}面影{RUBY_E#}",
-        "ko": "다정한 모습"
-      },
+      "name": { "en": "Visage of Kinship", "zh-CN": "亲挚的音容" },
       "description": {
-        "pt-BR": "Aumenta o Multiplicador de Dano de cada golpe da Perícia Suprema em 6%.",
         "en": "Increases the DMG multiplier for each hit of the Ultimate by 6%.",
-        "zh-CN": "终结技每段攻击的伤害倍率提高6%。",
-        "ja": "必殺技の各段攻撃のダメージ倍率+6%。",
-        "ko": "필살기의 단수별 공격 피해 배율이 6% 증가한다"
+        "zh-CN": "终结技每段攻击的伤害倍率提高6%。"
       },
       "icon": "icon/skill/1312_rank4.png",
       "materials": [{ "id": 11312, "num": 1 }],
@@ -311,19 +206,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Gênesis do Primeiro Amor",
-        "en": "Genesis of First Love",
-        "zh-CN": "最初的爱与友谊",
-        "ja": "{RUBY_B#はじ}初{RUBY_E#}めての{RUBY_B#あいじょう}愛情{RUBY_E#}と{RUBY_B#ゆうじょう}友情{RUBY_E#}",
-        "ko": "최초의 사랑과 우정"
-      },
+      "name": { "en": "Genesis of First Love", "zh-CN": "最初的爱与友谊" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1312_skill.png",
       "materials": [{ "id": 11312, "num": 1 }],
@@ -331,19 +217,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Alienação do Sonho",
-        "en": "Estrangement of Dream",
-        "zh-CN": "久已生疏的憧憬",
-        "ja": "{RUBY_B#ひさ}久{RUBY_E#}しく{RUBY_B#わす}忘{RUBY_E#}れていた{RUBY_B#あこが}憧{RUBY_E#}れ",
-        "ko": "오랫동안 잊고 있던 동경"
-      },
+      "name": { "en": "Estrangement of Dream", "zh-CN": "久已生疏的憧憬" },
       "description": {
-        "pt-BR": "Ao usar a Perícia Suprema, aumenta o próprio Dano em 30%, durando até o final da rodada. Além disso, da próxima vez que a Perícia for utilizada, recupera 1 Ponto(s) de Perícia para a equipe.",
         "en": "When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn. In addition, the next time the Skill is used, recovers 1 Skill Point(s) for the team.",
-        "zh-CN": "施放终结技时，使自身造成的伤害提高30%，持续至自身回合结束，且下一次施放战技后为我方恢复1个战技点。",
-        "ja": "必殺技を発動する時、自身の与ダメージ+30%、自身の次のターンが終了するまで継続。次の戦闘スキルを発動した後、SPを1回復する。",
-        "ko": "필살기 발동 시, 자신이 가하는 피해가 자신의 턴이 종료될 때까지 30% 증가하며, 다음 전투 스킬 발동 후 아군이 전투 스킬 포인트를 1pt 회복한다"
+        "zh-CN": "施放终结技时，使自身造成的伤害提高30%，持续至自身回合结束，且下一次施放战技后为我方恢复1个战技点。"
       },
       "icon": "icon/skill/1312_rank6.png",
       "materials": [{ "id": 11312, "num": 1 }],
@@ -703,13 +580,10 @@
     {
       "id": 1312101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Liberação", "en": "Release", "zh-CN": "释放", "ja": "リリース", "ko": "릴리즈" },
+      "name": { "en": "Release", "zh-CN": "释放" },
       "description": {
-        "pt-BR": "Antes do acerto do primeiro golpe da Perícia Suprema, aumenta em #1[i]% a chance-base de causar \"Congelamento\" ao alvo.",
         "en": "Before the Ultimate's first hit, increases the base chance of Freezing the target by #1[i]%.",
-        "zh-CN": "终结技首段攻击前，使目标陷入冻结状态的基础概率提高#1[i]%。",
-        "ja": "必殺技の1段目の攻撃の前に、敵を凍結状態にする基礎確率+#1[i]%。",
-        "ko": "필살기의 첫 1단 공격 전 목표가 빙결 상태에 빠질 기본 확률이 #1[i]% 증가한다"
+        "zh-CN": "终结技首段攻击前，使目标陷入冻结状态的基础概率提高#1[i]%。"
       },
       "params": [[0.8]],
       "icon": "icon/skill/1312_skilltree1.png",
@@ -728,13 +602,10 @@
     {
       "id": 1312102,
       "anchor": "Point07",
-      "name": { "pt-BR": "Interligação", "en": "Interlock", "zh-CN": "锁接", "ja": "インターロック", "ko": "인터로크" },
+      "name": { "en": "Interlock", "zh-CN": "锁接" },
       "description": {
-        "pt-BR": "Ao usar a Perícia Suprema, aumenta a Taxa de Acerto de Efeito em #1[i]%, durando até o final da ação da Perícia Suprema atual.",
         "en": "When using the Ultimate, increases the Effect Hit Rate by #1[i]%, lasting until the end of the current Ultimate's action.",
-        "zh-CN": "施放终结技时，效果命中提高#1[i]%，持续至本次终结技行动结束。",
-        "ja": "必殺技を発動する時、効果命中+#1[i]%、その回の必殺技が終了するまで継続。",
-        "ko": "필살기 발동 시 해당 필살기 행동이 종료될 때까지 효과 명중이 #1[i]% 증가한다"
+        "zh-CN": "施放终结技时，效果命中提高#1[i]%，持续至本次终结技行动结束。"
       },
       "params": [[0.6]],
       "icon": "icon/skill/1312_skilltree2.png",
@@ -758,19 +629,10 @@
     {
       "id": 1312103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Transmissão",
-        "en": "Transmission",
-        "zh-CN": "传冲",
-        "ja": "トランスミッション",
-        "ko": "트랜스미션"
-      },
+      "name": { "en": "Transmission", "zh-CN": "传冲" },
       "description": {
-        "pt-BR": "Ao causar Dano a inimigos com Congelamento, aumenta o Dano CRIT em #1[i]%.",
         "en": "When dealing DMG to Frozen enemies, increases CRIT DMG by #1[i]%.",
-        "zh-CN": "对陷入冻结状态的敌方目标造成伤害时，暴击伤害提升#1[i]%。",
-        "ja": "凍結状態の敵にダメージを与える時、会心ダメージ+#1[i]%。",
-        "ko": "빙결 상태에 빠진 적에게 피해를 가할 시 치명타 피해가 #1[i]% 증가한다"
+        "zh-CN": "对陷入冻结状态的敌方目标造成伤害时，暴击伤害提升#1[i]%。"
       },
       "params": [[0.3]],
       "icon": "icon/skill/1312_skilltree3.png",
@@ -794,13 +656,7 @@
     {
       "id": 1312201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -817,7 +673,7 @@
     {
       "id": 1312202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1312101],
@@ -834,13 +690,7 @@
     {
       "id": 1312203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1312202],
@@ -857,13 +707,7 @@
     {
       "id": 1312204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1312203],
@@ -880,13 +724,7 @@
     {
       "id": 1312205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1312102],
@@ -903,7 +741,7 @@
     {
       "id": 1312206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1312205],
@@ -920,13 +758,7 @@
     {
       "id": 1312207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1312206],
@@ -943,13 +775,7 @@
     {
       "id": 1312208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de Chance de CRIT",
-        "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
-        "ja": "会心率強化",
-        "ko": "치명타 확률 강화"
-      },
+      "name": { "en": "CRIT Rate Boost", "zh-CN": "暴击率强化" },
       "icon": "icon/property/IconCriticalChance.png",
       "maxLevel": 1,
       "prerequisites": [1312103],
@@ -966,7 +792,7 @@
     {
       "id": 1312209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "en": "DEF Boost", "zh-CN": "防御强化" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1312208],
@@ -983,13 +809,7 @@
     {
       "id": 1312210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "en": "DMG Boost: Ice", "zh-CN": "伤害强化•冰" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1312208],

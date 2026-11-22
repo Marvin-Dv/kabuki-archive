@@ -1,13 +1,7 @@
 {
   "id": 110406,
   "slug": "void-cast-iron",
-  "name": {
-    "pt-BR": "Ferro Fundido Vazio",
-    "en": "Void Cast Iron",
-    "zh-CN": "虚幻铸铁",
-    "ja": "虚幻鋳鉄",
-    "ko": "환영의 무쇠"
-  },
+  "name": { "en": "Void Cast Iron", "zh-CN": "虚幻铸铁" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -16,9 +10,6 @@
   "icon": "icon/item/110406.png",
   "sources": {
     "en": ["Stagnant Shadow: Base Zone", "Omni-Synthesizer — Material Exchange"],
-    "pt-BR": ["Sombra Estagnada: Zona Base", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【基座舱段】", "「万能合成机」- 材料置换"],
-    "ja": ["凝結虚影「ベース部分」", "「万能合成マシン」- 素材交換"],
-    "ko": ["정체된 허영 [베이스 캐빈]", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["凝滞虚影【基座舱段】", "「万能合成机」- 材料置换"]
   }
 }

@@ -1,38 +1,20 @@
 {
   "id": 23057,
   "slug": "welcome-to-the-cosmic-city",
-  "name": {
-    "pt-BR": "Bem-vindo à Cidade Cósmica",
-    "en": "Welcome to the Cosmic City",
-    "zh-CN": "欢迎来到银河城",
-    "ja": "銀河シティへようこそ",
-    "ko": "갤럭시 시티에 오신 것을 환영합니다"
-  },
+  "name": { "en": "Welcome to the Cosmic City", "zh-CN": "欢迎来到银河城" },
   "rarity": 5,
   "path": "Elation",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Acima da cidade, a figura extravagante de uma garota se liberta do teletransportador.\nFluxos intermináveis de trânsito, incontáveis silhuetas de pessoas... a agitação continua a mesma de sempre.\n\"Até parece animado, mas...\"\nA tela diante dela se acende enquanto as alegrias e tristezas das pessoas se transformam em pontos de luz, fluindo para dentro dela.\n\"Até as barras de fadiga dos NPCs estão quase no máximo...\"\n\"De jeito nenhum que eu vou jogar uma raid tão chata assim.\"\nAcompanhando o deslizar do seu dedo, as luzes da cidade se acendem e apagam.\nDe um canto imperceptível, surge um grito assustado, seguido por comemorações estrondosas ecoando pelo céu.\n\"Sorte de todos os jogadores dobrada, talentos especiais aleatorizados, recompensas no máximo...\"\n\"Jogo carregado com sucesso! Hora de comandar o show!\"\nA garota salta enquanto sons familiares de notificação tocam em seus ouvidos.\nSeu tempo de jogo começou.",
     "en": "Above the city, a girl's flamboyant figure bursts free from the teleporter.\nEndless streams of traffic, countless silhouettes of people... the bustle carries on as always.\n\"Sure looks lively, but...\"\nThe screen before her lights up as people's joys and sorrows transform into specks of light, flowing into it.\n\"Even the NPCs' fatigue gauges are about to max out...\"\n\"No way I'm playing a raid this boring.\"\nFollowing the swipe of her finger, the city lights flicker on and off.\nFrom an unnoticed corner comes a startled cry, followed by thunderous cheers echoing through the sky.\n\"All players' Luck doubled, randomized special talents, rewards maxed out...\"\n\"Game loaded successfully! Time to run the show!\"\nThe girl leaps down as familiar notification sounds ring in her ears.\nHer game time has begun.",
-    "zh-CN": "城市上空，少女张扬的身影自传送门中脱出。\n车马洪流，人影绰绰，喧闹一如既往。\n「看着确实热闹，不过——」\n面前的屏幕亮起，人们的喜怒哀乐化成星星点点流向其中。\n「连NPC的疲惫值都快登顶了…」\n「无聊到爆的副本，我可不玩。」\n跟随手指划动，城市灯光忽明忽灭。\n不为人知的角落中传出一声惊呼，而后，呼声震震，响彻天际。\n「所有玩家幸运值翻倍，特别天赋随机，奖励拉满…」\n「载入游戏成功！就现在，玩转全场！」\n少女纵身跃下，熟悉的提示音环绕在耳畔。\n属于她的游戏时刻，已然开启。",
-    "ja": "街の上空——転送ゲートから少女の影が鮮やかに躍り出た。\n絶え間なく行き交う車と人の波、その喧騒は相変わらずだ。\n「たしかに賑やかだけど——」\n目の前のスクリーンが輝き、人々の喜怒哀楽が光の粒となって流れ込んでいく。\n「あーあ、NPCまで疲労値がカンスト寸前じゃん……」\n「こんな退屈なステージ、パスしたいんだけど」\n指先の動きに合わせて、街の灯りがちらちらと瞬く。\n誰も知らない街の片隅から驚きの声が上がり、やがて歓声が空を震わせた。\n「全プレイヤーの運のステータスを2倍にして、特別天賦はランダム、報酬はマックスっと…」\n「ロード完了！さあ、ゲームに飛び込もう！」\n少女が飛び降りると、その耳元に聞き慣れた通知音が響き渡る。\n彼女だけのゲームが、いま始まった。",
-    "ko": "도시 상공, 소녀의 당당한 그림자가 포털에서 튀어나왔다.\n끝없이 이어지는 자동차의 행렬, 어른거리는 사람 그림자, 여느 때처럼 떠들썩하다.\n「확실히 붐비는 것 같긴 하지만——」\n눈앞의 화면이 켜지고, 사람들의 희로애락이 작은 별빛으로 변해 화면 속으로 흘러 들어간다.\n「NPC의 피로도까지 정점을 찍을 기세네…」\n「이렇게 재미없는 던전이라니, 안 해」\n손가락의 움직임에 따라 도시의 조명이 깜빡인다.\n인적 드문 구석에서 터져 나온 탄성은 이내 뇌성처럼 울려 퍼지며 하늘에 메아리친다.\n「모든 플레이어 행운 수치 2배, 랜덤 특별 특성, 보상을 꽉꽉 채워서…」\n「게임 로딩 성공! 자, 지금부터 판을 뒤집어보자!」\n소녀가 훌쩍 뛰어내리자, 귓가에 익숙한 알림음이 맴돈다.\n그녀만의 게임 시간이 드디어 시작되었다."
+    "zh-CN": "城市上空，少女张扬的身影自传送门中脱出。\n车马洪流，人影绰绰，喧闹一如既往。\n「看着确实热闹，不过——」\n面前的屏幕亮起，人们的喜怒哀乐化成星星点点流向其中。\n「连NPC的疲惫值都快登顶了…」\n「无聊到爆的副本，我可不玩。」\n跟随手指划动，城市灯光忽明忽灭。\n不为人知的角落中传出一声惊呼，而后，呼声震震，响彻天际。\n「所有玩家幸运值翻倍，特别天赋随机，奖励拉满…」\n「载入游戏成功！就现在，玩转全场！」\n少女纵身跃下，熟悉的提示音环绕在耳畔。\n属于她的游戏时刻，已然开启。"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Vitória Garantida",
-      "en": "Guaranteed Victory",
-      "zh-CN": "稳赢",
-      "ja": "必勝",
-      "ko": "확실한 승리"
-    },
+    "name": { "en": "Guaranteed Victory", "zh-CN": "稳赢" },
     "description": {
-      "pt-BR": "Aumenta a VEL do usuário em #1[i]%. O Dano de Euforia causado ignora #2[i]% da DEF do alvo. Quando o usuário usa a Perícia Suprema em si mesmo, ganha #3[i] ponto(s) de \"Piada\". Esse efeito pode ser ativado até 1 vez. E reinicia essa contagem de ativação após usar o ATQ Básico #4[i] vez(es).",
       "en": "Increases the wearer's SPD by #1[i]%. The Elation DMG dealt ignores #2[i]% of the target's DEF. When the wearer uses Ultimate on themselves, gains #3[i] point(s) of \"Punchline.\" This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK #4[i] time(s).",
-      "zh-CN": "使装备者的速度提高#1[i]%，造成的欢愉伤害无视目标#2[i]%的防御力。当装备者对自身单体施放终结技时，获得#3[i]点【笑点】。该效果最多触发1次，施放#4[i]次普攻后重置可触发次数。",
-      "ja": "装備キャラの速度+#1[i]%。装備キャラが与える愉悦ダメージはターゲットの防御力を#2[i]%無視する。装備キャラが自身単体に必殺技を発動する時、「爆笑ネタ」を#3[i]個獲得する。この効果は最大1回発動でき、通常攻撃を#4[i]回発動した後に発動可能回数がリセットされる。",
-      "ko": "장착한 캐릭터의 속도가 #1[i]% 증가하고, 가하는 환락 피해가 목표의 방어력을 #2[i]% 무시한다. 장착한 캐릭터가 자신에게 단일 필살기 발동 시, [웃음 포인트]를 #3[i]pt 획득한다. 해당 효과는 최대 1회 발동하며, 일반 공격을 #4[i]회 발동하면 발동 횟수가 초기화된다"
+      "zh-CN": "使装备者的速度提高#1[i]%，造成的欢愉伤害无视目标#2[i]%的防御力。当装备者对自身单体施放终结技时，获得#3[i]点【笑点】。该效果最多触发1次，施放#4[i]次普攻后重置可触发次数。"
     },
     "params": [
       [0.18, 0.2, 20, 3],

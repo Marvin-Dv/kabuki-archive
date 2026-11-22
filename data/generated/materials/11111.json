@@ -1,13 +1,7 @@
 {
   "id": 11111,
   "slug": "lukas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Luka",
-    "en": "Luka's Eidolon",
-    "zh-CN": "【卢卡】的星魂",
-    "ja": "「ルカ」の星魂",
-    "ko": "[루카]의 성혼"
-  },
+  "name": { "en": "Luka's Eidolon", "zh-CN": "【卢卡】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

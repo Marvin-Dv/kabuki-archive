@@ -1,13 +1,7 @@
 {
   "id": 112003,
   "slug": "silvermane-medal",
-  "name": {
-    "pt-BR": "Medalha Crinalva",
-    "en": "Silvermane Medal",
-    "zh-CN": "铁卫勋章",
-    "ja": "シルバーメインの勲章",
-    "ko": "철위대 훈장"
-  },
+  "name": { "en": "Silvermane Medal", "zh-CN": "铁卫勋章" },
   "rarity": 4,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -23,14 +17,6 @@
       "Simulated Universe enemies",
       "Omni-Synthesizer — Material Exchange"
     ],
-    "pt-BR": [
-      "Sombrio do Inverno Eterno e Sombra de Incineração no Nível de Equilíbrio 4 ou superior",
-      "Guardas Crinalva e Andarilhos no Nível de Equilíbrio 4 ou superior",
-      "Sintetizador Omni — Síntese de Material",
-      "Espólio deixado por inimigos no Universo Divergente",
-      "Inimigos do Universo Simulado",
-      "Sintetizador Omni — Troca de Material"
-    ],
     "zh-CN": [
       "突破至均衡等级4后，永冬灾影、火焚灾影掉落",
       "突破至均衡等级4后，银鬃铁卫、流浪者掉落",
@@ -38,22 +24,6 @@
       "「差分宇宙」中敌方掉落",
       "「模拟宇宙」中敌方掉落",
       "「万能合成机」- 材料置换"
-    ],
-    "ja": [
-      "均衡Lv.4に達した後、永冬の災影、焚火の災影からドロップ",
-      "均衡Lv.4に達した後、シルバーメイン、流浪者からドロップ",
-      "「万能合成マシン」- 素材合成",
-      "「階差宇宙」で敵からドロップ",
-      "「模擬宇宙」で敵からドロップ",
-      "「万能合成マシン」- 素材交換"
-    ],
-    "ko": [
-      "균형 레벨 Lv.4까지 돌파 후 영원한 겨울 재난, 불의 재난 드랍",
-      "균형 레벨 Lv.4까지 돌파 후 실버메인 철위대, 방랑자 드랍",
-      "「만능 합성기」- 재료 합성",
-      "「차분화 우주」 적 드랍",
-      "「시뮬레이션 우주」 적 드랍",
-      "「만능 합성기」- 재료 치환"
     ]
   }
 }

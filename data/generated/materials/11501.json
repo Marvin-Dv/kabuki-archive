@@ -1,13 +1,7 @@
 {
   "id": 11501,
   "slug": "sparxies-eidolon",
-  "name": {
-    "pt-BR": "Eidolon da Sparxie",
-    "en": "Sparxie's Eidolon",
-    "zh-CN": "【火花】的星魂",
-    "ja": "「火花」の星魂",
-    "ko": "[스파키]의 성혼"
-  },
+  "name": { "en": "Sparxie's Eidolon", "zh-CN": "【火花】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

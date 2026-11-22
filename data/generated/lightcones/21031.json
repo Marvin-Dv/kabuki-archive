@@ -1,32 +1,20 @@
 {
   "id": 21031,
   "slug": "return-to-darkness",
-  "name": {
-    "pt-BR": "Retorno à Escuridão",
-    "en": "Return to Darkness",
-    "zh-CN": "重返幽冥",
-    "ja": "幽冥に帰す",
-    "ko": "또다시 저승으로"
-  },
+  "name": { "en": "Return to Darkness", "zh-CN": "重返幽冥" },
   "rarity": 4,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "Embora sua irmã estivesse ao seu lado, ela não conseguia ouvir nada.\nA única coisa que ouvia era a voz no fundo de seu coração, que se tornava mais alta a cada minuto.\n\"O corpo da Irmãzona está frio.\"\n\"O corpo da Irmãzona não está se mexendo.\"\nUma violenta onda de fúria a dominou tanto que não encontrou tempo para clarear sua mente, ou para se lembrar desse fato negligenciado, mas crucial...\n\"O corpo da Irmãzona está frio assim há muito tempo.\"",
     "en": "Even though her sister was close by her side, she could hear nothing.\nThe only thing audible was the voice in the depths of her heart, which only grew louder by the minute.\n\"Big sis's body is cold.\"\n\"Big sis's body is not moving.\"\nA violent surge of fury irrevocably overwhelmed her so much that she didn't even find the time to clear her mind, or to remember this crucial yet neglected fact...\n\"Big sis's body has been cold like this for a very long time.\"",
-    "zh-CN": "虽然在姐姐身边，她却什么都听不见。\n只有心底的声音越来越响。\n「姐姐的身体冷冷的。」\n「姐姐的身体不会动。」\n愤怒的潮水将她淹没，义无反顾。她已来不及想起——\n「姐姐的身体，很早以前就是冷的了。」",
-    "ja": "姉の隣にいるけど、彼女は何も聞こえない。\n心の底の音が大きくなっていくだけ。\n「お姉ちゃんの身体、冷たい」\n「お姉ちゃんの身体、動かない」\n怒りの渦潮が彼女を呑み込む、でも彼女は何も顧みない。彼女は思い出す暇さえなかった——\n「お姉ちゃんの身体、ずっと前から冷たかった」",
-    "ko": "언니의 곁에 있지만 그녀는 아무것도 들을 수 없었다.\n마음속의 소리만이 점점 더 커져 갔다.\n「언니의 몸이 차가워」\n「언니의 몸이 안 움직여」\n분노가 파도처럼 밀려와 그녀를 잠기게 했다. 그녀는 이미 생각할 겨를이 없었다——\n「언니의 몸은, 이미 오래전에 차가워졌어」"
+    "zh-CN": "虽然在姐姐身边，她却什么都听不见。\n只有心底的声音越来越响。\n「姐姐的身体冷冷的。」\n「姐姐的身体不会动。」\n愤怒的潮水将她淹没，义无反顾。她已来不及想起——\n「姐姐的身体，很早以前就是冷的了。」"
   },
   "skill": {
-    "name": { "pt-BR": "Ondas Furiosas", "en": "Raging Waves", "zh-CN": "汹涌", "ja": "洶湧", "ko": "용솟음" },
+    "name": { "en": "Raging Waves", "zh-CN": "汹涌" },
     "description": {
-      "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. Após um Acerto CRIT, tem #2[i]% de chance fixa de remover 1 melhoria do inimigo-alvo. Esse efeito pode ser acionado apenas 1 vez por ataque.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. After a CRIT Hit, there is a #2[i]% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
-      "zh-CN": "使装备者暴击率提高#1[i]%。暴击后有#2[i]%的固定概率解除被攻击敌方目标所持有的1个增益效果，该效果每次攻击只可触发1次。",
-      "ja": "装備キャラの会心率+#1[i]%。会心が発生した後、#2[i]%の固定確率で攻撃を受けた敵のバフを1つ解除する、この効果は1回の攻撃で1回まで発動できる。",
-      "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 치명타 발동 후 #2[i]%의 고정 확률로 피격된 적이 보유한 버프 효과를 1개 해제한다. 해당 효과는 턴마다 1회만 발동할 수 있다"
+      "zh-CN": "使装备者暴击率提高#1[i]%。暴击后有#2[i]%的固定概率解除被攻击敌方目标所持有的1个增益效果，该效果每次攻击只可触发1次。"
     },
     "params": [[0.12, 0.16], [0.15, 0.2], [0.18, 0.24], [0.21, 0.28], [0.24, 0.32]],
     "properties": [

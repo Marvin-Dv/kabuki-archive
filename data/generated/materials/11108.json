@@ -1,13 +1,7 @@
 {
   "id": 11108,
   "slug": "sampos-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Sampo",
-    "en": "Sampo's Eidolon",
-    "zh-CN": "【桑博】的星魂",
-    "ja": "「サンポ」の星魂",
-    "ko": "[삼포]의 성혼"
-  },
+  "name": { "en": "Sampo's Eidolon", "zh-CN": "【桑博】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

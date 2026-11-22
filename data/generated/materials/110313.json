@@ -1,13 +1,7 @@
 {
   "id": 110313,
   "slug": "heart-of-phagousa",
-  "name": {
-    "pt-BR": "Coração de Phagousa",
-    "en": "Heart of Phagousa",
-    "zh-CN": "法吉娜之心",
-    "ja": "ファジェイナの心",
-    "ko": "파구사의 심장"
-  },
+  "name": { "en": "Heart of Phagousa", "zh-CN": "法吉娜之心" },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -20,17 +14,6 @@
       "Omni-Synthesizer — Material Synthesis",
       "Omni-Synthesizer — Material Exchange"
     ],
-    "pt-BR": [
-      "Cálice \"Bosque da Epifania, Floresta dos Vestígios Luminosos\"",
-      "Sintetizador Omni — Síntese de Material",
-      "Sintetizador Omni — Troca de Material"
-    ],
-    "zh-CN": ["拟造花萼【「辉痕圣林」神悟树庭】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
-    "ja": [
-      "疑似花萼「「{RUBY_B#あとかがや}痕輝{RUBY_E#}ける{RUBY_B#せいりん}聖林{RUBY_E#}」{RUBY_B#しんご}神悟{RUBY_E#}の{RUBY_B#じゅてい}樹庭{RUBY_E#}」",
-      "「万能合成マシン」- 素材合成",
-      "「万能合成マシン」- 素材交換"
-    ],
-    "ko": ["모조 꽃받침 [「빛이 흔적을 남긴 신성한 숲」 깨달음의 나무 정원]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【「辉痕圣林」神悟树庭】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"]
   }
 }

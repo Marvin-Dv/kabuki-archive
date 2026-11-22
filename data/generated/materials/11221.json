@@ -1,13 +1,7 @@
 {
   "id": 11221,
   "slug": "yunlis-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Yunli",
-    "en": "Yunli's Eidolon",
-    "zh-CN": "【云璃】的星魂",
-    "ja": "「雲璃」の星魂",
-    "ko": "[운리]의 성혼"
-  },
+  "name": { "en": "Yunli's Eidolon", "zh-CN": "【云璃】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

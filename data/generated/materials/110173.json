@@ -1,13 +1,7 @@
 {
   "id": 110173,
   "slug": "flower-of-eternity",
-  "name": {
-    "pt-BR": "Flor da Eternidade",
-    "en": "Flower of Eternity",
-    "zh-CN": "永恒之花",
-    "ja": "永久の花",
-    "ko": "영원의 꽃"
-  },
+  "name": { "en": "Flower of Eternity", "zh-CN": "永恒之花" },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -20,13 +14,6 @@
       "Omni-Synthesizer — Material Synthesis",
       "Omni-Synthesizer — Material Exchange"
     ],
-    "pt-BR": [
-      "Cálice (Passagem do Remanso)",
-      "Sintetizador Omni — Síntese de Material",
-      "Sintetizador Omni — Troca de Material"
-    ],
-    "zh-CN": ["拟造花萼【边缘通路】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
-    "ja": ["疑似花萼「外縁通路」", "「万能合成マシン」- 素材合成", "「万能合成マシン」- 素材交換"],
-    "ko": ["모조 꽃받침 [변방 통로]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【边缘通路】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"]
   }
 }

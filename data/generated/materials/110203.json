@@ -1,13 +1,7 @@
 {
   "id": 110203,
   "slug": "exquisite-colored-draft",
-  "name": {
-    "pt-BR": "Esboço Colorido Primoroso",
-    "en": "Exquisite Colored Draft",
-    "zh-CN": "精致色稿",
-    "ja": "見事なカラー原画",
-    "ko": "정교한 컬러 원고"
-  },
+  "name": { "en": "Exquisite Colored Draft", "zh-CN": "精致色稿" },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -20,13 +14,6 @@
       "Omni-Synthesizer — Material Synthesis",
       "Omni-Synthesizer — Material Exchange"
     ],
-    "pt-BR": [
-      "Cálice: Grande Teatro de Penacony",
-      "Sintetizador Omni — Síntese de Material",
-      "Sintetizador Omni — Troca de Material"
-    ],
-    "zh-CN": ["拟造花萼【匹诺康尼大剧院】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
-    "ja": ["疑似花萼「ピノコニー大劇場」", "「万能合成マシン」- 素材合成", "「万能合成マシン」- 素材交換"],
-    "ko": ["모조 꽃받침 [페나코니 극장]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
+    "zh-CN": ["拟造花萼【匹诺康尼大剧院】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"]
   }
 }

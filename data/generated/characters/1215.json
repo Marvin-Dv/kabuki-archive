@@ -1,7 +1,7 @@
 {
   "id": 1215,
   "slug": "hanya",
-  "name": { "pt-BR": "Hanya", "en": "Hanya", "zh-CN": "寒鸦", "ja": "寒鴉", "ko": "한아" },
+  "name": { "en": "Hanya", "zh-CN": "寒鸦" },
   "rarity": 4,
   "path": "Harmony",
   "element": "Physical",
@@ -11,49 +11,25 @@
     {
       "id": 121501,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Pincel do Oráculo",
-        "en": "Oracle Brush",
-        "zh-CN": "冥谶天笔",
-        "ja": "冥兆天筆",
-        "ko": "명참천필(冥讖天筆)"
-      },
+      "name": { "en": "Oracle Brush", "zh-CN": "冥谶天笔" },
       "description": {
-        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Hanya a um único inimigo.",
         "en": "Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于寒鸦#1[i]%攻击力的物理属性伤害。",
-        "ja": "指定した敵単体に寒鴉の攻撃力#1[i]%分の物理属性ダメージを与える。",
-        "ko": "지정된 단일 적에게 한아 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
+        "zh-CN": "对指定敌方单体造成等同于寒鸦#1[i]%攻击力的物理属性伤害。"
       },
       "params": [[0.5], [0.6], [0.7], [0.8], [0.9], [1], [1.1], [1.2], [1.3], [1.4]],
       "icon": "icon/skill/1215_basic_atk.png",
       "maxLevel": 10,
-      "summary": {
-        "pt-BR": "Causa Dano Físico leve a um único inimigo.",
-        "en": "Deals minor Physical DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量物理属性伤害。",
-        "ja": "敵単体に少量の物理属性ダメージを与える。",
-        "ko": "단일 적에게 소량의 물리 속성 피해를 준다"
-      },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "summary": { "en": "Deals minor Physical DMG to one enemy.", "zh-CN": "对敌方单体造成少量物理属性伤害。" },
+      "typeText": { "en": "Basic ATK", "zh-CN": "普攻" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 121502,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Samsara, Bloqueada",
-        "en": "Samsara, Locked",
-        "zh-CN": "生灭系缚",
-        "ja": "生滅捕縛",
-        "ko": "생멸속박"
-      },
+      "name": { "en": "Samsara, Locked", "zh-CN": "生灭系缚" },
       "description": {
-        "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Hanya a um único inimigo-alvo, então aplica Fardo a ele.\nA cada 2 ATQs Básicos, Perícias ou Perícias Supremas utilizados por aliados em um inimigo com Fardo, aliados recuperam imediatamente 1 Ponto de Perícia. Fardo só fica ativo no último alvo em que foi aplicado, e será removido automaticamente depois que o efeito de recuperação de Ponto de Perícia for ativado #2[i] vezes.",
         "en": "Deals Physical DMG equal to #1[i]% of Hanya's ATK to one designated enemy target, then applies \"Burden\" to them.\nFor every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with \"Burden,\" allies will immediately recover 1 Skill Point. \"Burden\" is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered #2[i] times.",
-        "zh-CN": "对指定敌方单体造成等同于寒鸦#1[i]%攻击力的物理属性伤害，并使其陷入【承负】状态。\n每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发#2[i]次战技点恢复效果后自动解除。",
-        "ja": "敵単体に「承負」状態を付与して、寒鴉の攻撃力#1[i]%分の物理属性ダメージを与える。\n味方が「承負」状態の敵に通常攻撃、戦闘スキル、または必殺技のうち任意のスキルを合わせて2回発動するたびに、SPを1回復する。「承負」は最後に付与されたターゲットにのみ効果を発揮し、SP回復効果が#2[i]回発動した後に自動で解除される。",
-        "ko": "지정된 단일 적에게 한아 공격력의 #1[i]%만큼 물리 속성 피해를 주고, [부담] 상태에 빠트린다.\n아군이 [부담] 상태의 적에게 일반 공격, 전투 스킬, 필살기를 2회 발동할 때마다 즉시 아군의 전투 스킬 포인트를 1pt 회복한다. [부담]은 가장 최근에 부여된 목표에게만 적용되고, 전투 스킬 포인트 회복 효과를 #2[i]회 발동하면 자동으로 해제된다"
+        "zh-CN": "对指定敌方单体造成等同于寒鸦#1[i]%攻击力的物理属性伤害，并使其陷入【承负】状态。\n每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，立即为我方恢复1个战技点。【承负】仅对最新被施加的目标生效，并会在触发#2[i]次战技点恢复效果后自动解除。"
       },
       "params": [
         [1.2, 2],
@@ -75,31 +51,19 @@
       "icon": "icon/skill/1215_skill.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Causa Dano Físico a um único inimigo e aplica Fardo a ele. Para cada 2 ATQs Básicos, Perícias ou Perícias Supremas que aliados utilizarem contra um inimigo com Fardo, os aliados recuperarão 1 Ponto de Perícia.",
         "en": "Deals Physical DMG to one enemy and applies \"Burden\" to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies recover 1 Skill Point.",
-        "zh-CN": "对敌方单体造成物理属性伤害，并使其陷入【承负】状态。每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，恢复1个战技点。",
-        "ja": "敵単体に「承負」状態を付与して、物理属性ダメージを与える。味方が「承負」状態の敵に通常攻撃、戦闘スキルまたは必殺技のうち任意のスキルを合わせて2回発動した後、SPを1回復する。",
-        "ko": "단일 적에게 물리 속성 피해를 주고 [부담] 상태에 빠트린다. 아군이 [부담] 상태의 적에게 일반 공격, 전투 스킬, 필살기를 2회 발동할 때마다 전투 스킬 포인트를 1pt 회복한다"
+        "zh-CN": "对敌方单体造成物理属性伤害，并使其陷入【承负】状态。每当我方目标对【承负】状态下的敌方目标施放2次普攻、战技、终结技后，恢复1个战技点。"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "en": "Skill", "zh-CN": "战技" },
+      "targetText": { "en": "Single Target", "zh-CN": "单攻" }
     },
     {
       "id": 121503,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Decreto dos Três Senhores, Todos Devem Obedecer",
-        "en": "Ten-Lords' Decree, All Shall Obey",
-        "zh-CN": "十王敕令，遍土遵行",
-        "ja": "十王の勅令、遍く遵行せよ",
-        "ko": "시왕의 칙령, 모두 복종하라"
-      },
+      "name": { "en": "Ten-Lords' Decree, All Shall Obey", "zh-CN": "十王敕令，遍土遵行" },
       "description": {
-        "pt-BR": "Aumenta a VEL de um aliado-alvo em #3[f1]% da VEL de Hanya e aumenta o ATQ do mesmo aliado-alvo em #1[i]% por #2[i] rodada(s).",
         "en": "Increases the SPD of a target ally by #3[f1]% of Hanya's SPD and increases the same target ally's ATK by #1[i]%, lasting for #2[i] turn(s).",
-        "zh-CN": "使指定我方单体速度提高，提高数值等同于寒鸦速度的#3[f1]%，并使该目标攻击力提高#1[i]%，持续#2[i]回合。",
-        "ja": "指定した味方の速度を、寒鴉の速度の#3[f1]%分アップし、その味方の攻撃力+#1[i]%、#2[i]ターン継続。",
-        "ko": "지정된 단일 아군의 속도를 한아 속도의 #3[f1]%만큼 증가시키고, 해당 목표의 공격력을 #1[i]% 증가시킨다. 지속 시간: #2[i]턴"
+        "zh-CN": "使指定我方单体速度提高，提高数值等同于寒鸦速度的#3[f1]%，并使该目标攻击力提高#1[i]%，持续#2[i]回合。"
       },
       "params": [
         [0.36, 2, 0.15],
@@ -120,26 +84,17 @@
       ],
       "icon": "icon/skill/1215_ultimate.png",
       "maxLevel": 15,
-      "summary": {
-        "pt-BR": "Aumenta a VEL e o ATQ de um aliado.",
-        "en": "Increases an ally's SPD and ATK.",
-        "zh-CN": "使我方单体速度提高，攻击力提高。",
-        "ja": "味方単体の速度と攻撃力をアップする。",
-        "ko": "단일 아군의 속도와 공격력을 증가시킨다"
-      },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "summary": { "en": "Increases an ally's SPD and ATK.", "zh-CN": "使我方单体速度提高，攻击力提高。" },
+      "typeText": { "en": "Ultimate", "zh-CN": "终结技" },
+      "targetText": { "en": "Enhance", "zh-CN": "强化" }
     },
     {
       "id": 121504,
       "type": "Talent",
-      "name": { "pt-BR": "Sanção", "en": "Sanction", "zh-CN": "罚恶", "ja": "懲悪", "ko": "벌악" },
+      "name": { "en": "Sanction", "zh-CN": "罚恶" },
       "description": {
-        "pt-BR": "Quando um aliado usa um ATQ Básico, uma Perícia ou uma Perícia Suprema em um inimigo afligido com Fardo, o Dano causado aumenta em #1[i]% durando por #2[i] rodada(s).",
         "en": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by #1[i]%, lasting for #2[i] turn(s).",
-        "zh-CN": "我方目标对陷入【承负】状态下的敌方目标施放普攻、战技、终结技时，造成的伤害提高#1[i]%，持续#2[i]回合。",
-        "ja": "味方が「承負」状態の敵に通常攻撃、戦闘スキル、または必殺技を発動した時、与ダメージ+#1[i]%、#2[i]ターン継続。",
-        "ko": "아군이 [부담] 상태에 빠진 적에게 일반 공격, 전투 스킬, 필살기 발동 시, 가하는 피해가 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+        "zh-CN": "我方目标对陷入【承负】状态下的敌方目标施放普攻、战技、终结技时，造成的伤害提高#1[i]%，持续#2[i]回合。"
       },
       "params": [
         [0.15, 2],
@@ -161,81 +116,51 @@
       "icon": "icon/skill/1215_talent.png",
       "maxLevel": 15,
       "summary": {
-        "pt-BR": "Quando um aliado alvo usa um ATQ Básico, uma Perícia ou uma Perícia Suprema em um inimigo-alvo afligido com \"Fardo\", o Dano causado aumenta.",
         "en": "When an ally target uses a Basic ATK, Skill, or Ultimate on an enemy target inflicted with \"Burden,\" the DMG dealt increases.",
-        "zh-CN": "我方目标对陷入【承负】状态下的敌方目标施放普攻、战技、终结技时，造成的伤害提高。",
-        "ja": "味方が「承負」状態の敵に通常攻撃、戦闘スキル、または必殺技を発動する時、与ダメージがアップする",
-        "ko": "아군이 [부담] 상태에 빠진 적에게 일반 공격, 전투 스킬, 필살기 발동 시 가하는 피해가 증가한다"
+        "zh-CN": "我方目标对陷入【承负】状态下的敌方目标施放普攻、战技、终结技时，造成的伤害提高。"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "en": "Talent", "zh-CN": "天赋" },
+      "targetText": { "en": "Support", "zh-CN": "辅助" }
     },
     {
       "id": 121506,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "en": "Attack", "zh-CN": "攻击" },
       "description": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       },
       "icon": "icon/skill/1215_basic_atk.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
-        "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
-        "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。"
       }
     },
     {
       "id": 121507,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Julgamento do Submundo",
-        "en": "Netherworld Judgment",
-        "zh-CN": "判冥",
-        "ja": "判冥",
-        "ko": "판명(判冥)"
-      },
+      "name": { "en": "Netherworld Judgment", "zh-CN": "判冥" },
       "description": {
-        "pt-BR": "Ataca o inimigo imediatamente. Ao entrar na batalha, aplica Fardo equivalente ao aplicado pela Perícia a um inimigo aleatório.",
         "en": "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.",
-        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体附上等同于战技效果的【承负】。",
-        "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体に戦闘スキルが与えるものと同じ「承負」状態を付与する。",
-        "ko": "적을 바로 공격하며, 전투 진입 후 랜덤 단일 적에게 전투 스킬 효과와 동일한 [부담]을 부여한다"
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体附上等同于战技效果的【承负】。"
       },
       "icon": "icon/skill/1215_technique.png",
       "maxLevel": 1,
       "summary": {
-        "pt-BR": "Ataca o inimigo. Ao entrar na batalha, aplica Fardo equivalente ao aplicado pela Perícia a um inimigo aleatório.",
         "en": "Attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.",
-        "zh-CN": "攻击敌人，进战后对敌方随机单体附上等同于战技效果的【承负】。",
-        "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体に戦闘スキルが与えるものと同じ「承負」を付与する。",
-        "ko": "적을 공격하고, 전투 진입 후 랜덤 단일 적에게 전투 스킬 효과와 동일한 [부담]을 부여한다"
+        "zh-CN": "攻击敌人，进战后对敌方随机单体附上等同于战技效果的【承负】。"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "en": "Technique", "zh-CN": "秘技" }
     }
   ],
   "eidolons": [
     {
       "rank": 1,
-      "name": {
-        "pt-BR": "Um Coração",
-        "en": "One Heart",
-        "zh-CN": "一心",
-        "ja": "{RUBY_B#いっしん}一心{RUBY_E#}",
-        "ko": "일심(一心)"
-      },
+      "name": { "en": "One Heart", "zh-CN": "一心" },
       "description": {
-        "pt-BR": "Quando um aliado-alvo com o efeito da Perícia Suprema de Hanya derrotar um inimigo, a ação de Hanya é Avançada Adiante em 15%. Este efeito só pode ser ativado 1 vez(es) por rodada.",
         "en": "When an ally target with Hanya's Ultimate effect defeats an enemy, Hanya's action advances by 15%. This effect can only be triggered 1 time(s) per turn.",
-        "zh-CN": "持有终结技效果的我方目标消灭敌方目标时，寒鸦行动提前15%，该效果每回合只能触发1次。",
-        "ja": "寒鴉の必殺技のバフを持つ味方が敵を倒した時、寒鴉の行動順が15%早まる。この効果はターンが回ってくるたびに1回まで発動できる。",
-        "ko": "필살기 효과를 보유한 아군이 적 처치 시, 한아의 행동 게이지가 15% 증가한다. 해당 효과는 턴마다 1회만 발동한다"
+        "zh-CN": "持有终结技效果的我方目标消灭敌方目标时，寒鸦行动提前15%，该效果每回合只能触发1次。"
       },
       "icon": "icon/skill/1215_rank1.png",
       "materials": [{ "id": 11215, "num": 1 }],
@@ -243,19 +168,10 @@
     },
     {
       "rank": 2,
-      "name": {
-        "pt-BR": "Duas Visualizações",
-        "en": "Two Views",
-        "zh-CN": "二观",
-        "ja": "{RUBY_B#にかん}二観{RUBY_E#}",
-        "ko": "이관(二觀)"
-      },
+      "name": { "en": "Two Views", "zh-CN": "二观" },
       "description": {
-        "pt-BR": "Após usar a Perícia, a VEL deste personagem aumenta em 20% por 1 rodada(s).",
         "en": "After using the Skill, this character's SPD increases by 20% for 1 turn(s).",
-        "zh-CN": "施放战技后，速度提高20%，持续1回合。",
-        "ja": "戦闘スキルを発動した後、速度+20%、1ターン継続。",
-        "ko": "전투 스킬 발동 후 속도가 20% 증가한다. 지속 시간: 1턴"
+        "zh-CN": "施放战技后，速度提高20%，持续1回合。"
       },
       "icon": "icon/skill/1215_rank2.png",
       "materials": [{ "id": 11215, "num": 1 }],
@@ -263,19 +179,10 @@
     },
     {
       "rank": 3,
-      "name": {
-        "pt-BR": "Três Tentações",
-        "en": "Three Temptations",
-        "zh-CN": "三尘",
-        "ja": "{RUBY_B#さんじん}三塵{RUBY_E#}",
-        "ko": "삼진(三塵)"
-      },
+      "name": { "en": "Three Temptations", "zh-CN": "三尘" },
       "description": {
-        "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
-        "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
-        "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。"
       },
       "icon": "icon/skill/1215_skill.png",
       "materials": [{ "id": 11215, "num": 1 }],
@@ -283,19 +190,10 @@
     },
     {
       "rank": 4,
-      "name": {
-        "pt-BR": "Quatro Verdades",
-        "en": "Four Truths",
-        "zh-CN": "四谛",
-        "ja": "{RUBY_B#したい}四諦{RUBY_E#}",
-        "ko": "사제(四諦)"
-      },
+      "name": { "en": "Four Truths", "zh-CN": "四谛" },
       "description": {
-        "pt-BR": "A duração da Perícia Suprema é estendida por mais 1 rodada(s).",
         "en": "The Ultimate's duration is additionally extended for 1 turn(s).",
-        "zh-CN": "终结技的持续时间额外增加1回合。",
-        "ja": "必殺技の継続時間+1ターン。",
-        "ko": "필살기 지속 시간이 추가로 1턴 증가한다"
+        "zh-CN": "终结技的持续时间额外增加1回合。"
       },
       "icon": "icon/skill/1215_rank4.png",
       "materials": [{ "id": 11215, "num": 1 }],
@@ -303,19 +201,10 @@
     },
     {
       "rank": 5,
-      "name": {
-        "pt-BR": "Cinco Skandhas",
-        "en": "Five Skandhas",
-        "zh-CN": "五阴",
-        "ja": "{RUBY_B#ごおん}五陰{RUBY_E#}",
-        "ko": "오음(五陰)"
-      },
+      "name": { "en": "Five Skandhas", "zh-CN": "五阴" },
       "description": {
-        "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
-        "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
-        "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。"
       },
       "icon": "icon/skill/1215_ultimate.png",
       "materials": [{ "id": 11215, "num": 1 }],
@@ -323,19 +212,10 @@
     },
     {
       "rank": 6,
-      "name": {
-        "pt-BR": "Seis Reverências",
-        "en": "Six Reverences",
-        "zh-CN": "六正",
-        "ja": "{RUBY_B#ろくしょう}六正{RUBY_E#}",
-        "ko": "육정(六正)"
-      },
+      "name": { "en": "Six Reverences", "zh-CN": "六正" },
       "description": {
-        "pt-BR": "Aumenta o efeito de Bônus de Dano do Talento em um adicional de 10%.",
         "en": "Increase the DMG Boost effect of the Talent by an additional 10%.",
-        "zh-CN": "天赋的伤害提高效果额外提高10%。",
-        "ja": "天賦のダメージアップ効果がさらに10%アップ。",
-        "ko": "특성의 피해 증가 효과가 추가로 10% 증가한다"
+        "zh-CN": "天赋的伤害提高效果额外提高10%。"
       },
       "icon": "icon/skill/1215_rank6.png",
       "materials": [{ "id": 11215, "num": 1 }],
@@ -695,19 +575,10 @@
     {
       "id": 1215101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Consignação",
-        "en": "Scrivener",
-        "zh-CN": "录事",
-        "ja": "{RUBY_B#ろくじ}録事{RUBY_E#}",
-        "ko": "서기"
-      },
+      "name": { "en": "Scrivener", "zh-CN": "录事" },
       "description": {
-        "pt-BR": "Aliados que ativarem o efeito de recuperação de Pontos de Perícia de Fardo têm o ATQ aumentado em #1[i]% por #2[i] rodada(s).",
         "en": "Allies triggering Burden's Skill Point recovery effect have their ATK increased by #1[i]% for #2[i] turn(s).",
-        "zh-CN": "触发【承负】战技点回复效果的我方单位攻击力提高#1[i]%，持续#2[i]回合。",
-        "ja": "「承負」によるSP回復効果を発動させた味方の攻撃力+#1[i]%、#2[i]ターン継続。",
-        "ko": "[부담]의 전투 스킬 포인트 회복 효과를 발동하는 단일 아군의 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
+        "zh-CN": "触发【承负】战技点回复效果的我方单位攻击力提高#1[i]%，持续#2[i]回合。"
       },
       "params": [[0.1, 1]],
       "icon": "icon/skill/1215_skilltree1.png",
@@ -726,19 +597,10 @@
     {
       "id": 1215102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Submundo",
-        "en": "Netherworld",
-        "zh-CN": "幽府",
-        "ja": "{RUBY_B#ゆうふ}幽府{RUBY_E#}",
-        "ko": "명부"
-      },
+      "name": { "en": "Netherworld", "zh-CN": "幽府" },
       "description": {
-        "pt-BR": "Se a contagem de ativação do efeito de recuperação de Pontos de Perícia de Fardo for #1[i] ou inferior quando um inimigo com Fardo for derrotado, recupera adicionalmente #2[i] Ponto(s) de Perícia.",
         "en": "If the trigger count for the Burden's Skill Point recovery effect is #1[i] or lower when an enemy with Burden is defeated, then additionally recovers #2[i] Skill Point(s).",
-        "zh-CN": "持有【承负】的敌方目标被消灭时，如果【承负】为全队回复战技点的触发次数小于等于#1[i]，则额外回复#2[i]点战技点。",
-        "ja": "「承負」を持つ敵が倒された時、その敵が持つ「承負」によるSP回復効果の発動回数が#1[i]回以下の場合、さらにSPを#2[i]回復する。",
-        "ko": "[부담]을 보유한 적이 처치될 때, [부담] 효과로 모든 파티원의 전투 스킬 포인트 회복을 발동한 횟수가 #1[i]회 이하이면, 추가로 전투 스킬 포인트를 #2[i]pt 회복한다"
+        "zh-CN": "持有【承负】的敌方目标被消灭时，如果【承负】为全队回复战技点的触发次数小于等于#1[i]，则额外回复#2[i]点战技点。"
       },
       "params": [[1, 1]],
       "icon": "icon/skill/1215_skilltree2.png",
@@ -762,19 +624,10 @@
     {
       "id": 1215103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Reanimada",
-        "en": "Reanimated",
-        "zh-CN": "还阳",
-        "ja": "{RUBY_B#かんよう}還陽{RUBY_E#}",
-        "ko": "환생"
-      },
+      "name": { "en": "Reanimated", "zh-CN": "还阳" },
       "description": {
-        "pt-BR": "Quando o efeito de recuperação de Pontos de Perícia de Fardo é ativado, este personagem regenera #1[i] de Energia.",
         "en": "When Burden's Skill Point recovery effect is triggered, this character regenerates #1[i] Energy.",
-        "zh-CN": "当【承负】战技点恢复效果被触发时，自身恢复#1[i]点能量。",
-        "ja": "「承負」によるSP回復効果が発動された時、自身のEPを#1[i]回復する。",
-        "ko": "[부담]의 전투 스킬 포인트 회복 효과가 발동되면 자신의 에너지가 #1[i]pt 회복된다"
+        "zh-CN": "当【承负】战技点恢复效果被触发时，自身恢复#1[i]点能量。"
       },
       "params": [[2]],
       "icon": "icon/skill/1215_skilltree3.png",
@@ -798,7 +651,7 @@
     {
       "id": 1215201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -815,7 +668,7 @@
     {
       "id": 1215202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1215101],
@@ -832,7 +685,7 @@
     {
       "id": 1215203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1215202],
@@ -849,7 +702,7 @@
     {
       "id": 1215204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1215201],
@@ -866,7 +719,7 @@
     {
       "id": 1215205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1215102],
@@ -883,7 +736,7 @@
     {
       "id": 1215206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1215205],
@@ -900,7 +753,7 @@
     {
       "id": 1215207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1215201],
@@ -917,7 +770,7 @@
     {
       "id": 1215208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "en": "HP Boost", "zh-CN": "生命强化" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1215103],
@@ -934,7 +787,7 @@
     {
       "id": 1215209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "en": "SPD Boost", "zh-CN": "速度强化" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1215208],
@@ -951,7 +804,7 @@
     {
       "id": 1215210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "en": "ATK Boost", "zh-CN": "攻击强化" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1215208],

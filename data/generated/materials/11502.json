@@ -1,13 +1,7 @@
 {
   "id": 11502,
   "slug": "yao-guangs-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Yao Guang",
-    "en": "Yao Guang's Eidolon",
-    "zh-CN": "【爻光】的星魂",
-    "ja": "「爻光」の星魂",
-    "ko": "[효광]의 성혼"
-  },
+  "name": { "en": "Yao Guang's Eidolon", "zh-CN": "【爻光】的星魂" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

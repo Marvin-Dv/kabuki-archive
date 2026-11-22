@@ -1,32 +1,20 @@
 {
   "id": 23006,
   "slug": "patience-is-all-you-need",
-  "name": {
-    "pt-BR": "Você Só Precisa de Paciência",
-    "en": "Patience Is All You Need",
-    "zh-CN": "只需等待",
-    "ja": "待つのみ",
-    "ko": "필요한 건 기다림뿐"
-  },
+  "name": { "en": "Patience Is All You Need", "zh-CN": "只需等待" },
   "rarity": 5,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
   "patchReleaseDate": null,
   "description": {
-    "pt-BR": "\"Será que você ainda está escondendo algo de mim?\"\nEla observa os pescoços travados, como se eles tivessem um caroço na garganta.\nEla sabe que é temida, que não é necessário mais nada.\nA essa altura, as palavras não importam.\nQualquer coisa dita por ela causa temor...\nEles não têm a menor chance contra ela, não têm escolha a não ser revelar o que ela quer ouvir.\nComo uma aranha esperando na teia, ela só precisa de paciência.",
     "en": "\"Could it be that there's something you haven't told me?\"\nShe watches as their neck stiffens, as if a lump is blocking their throat.\nShe knows she is feared, and that no further step is needed.\nAt this point, it no longer mattered what she said.\nAny word she utters radiates horror...\nThey stand no chance against her, and have no choice but to blurt out what she wants to hear.\nLike a spider waiting in its web, patience is all she needs.",
-    "zh-CN": "「莫非你还有事没告诉我？」\n她看到对方僵着脖子，喉咙响起口水的吞咽声。\n这个人怕她，所以她根本不需要使用能力。\n事实上，她说什么都无所谓。\n只要任由话语出口，带来的惧意自由发酵……\n对方马上就会慌不择路，说出她想听的一切。\n而她只需等待，就像早已布下网的蜘蛛。",
-    "ja": "「まさかまだ教えてないことでもあるの？」\n相手の表情がこわばり、彼女は唾をのむ音を聞いた。\nこの人は自分を恐れている、だから能力を使うまでもない。\n実際、何を言っても構わない。\n言葉が口から出た瞬間、恐怖は自由に増長する…\nすぐにでも慌てて彼女が聞きたいことをペラペラと喋るだろう。\n彼女は待つのみ、早々に網を張ったクモのように。",
-    "ko": "「혹시 나한테 숨기는 게 더 있는 거야?」\n상대방의 잔뜩 움츠린 목과, 침을 삼키는 소리에 그녀가 물어본다.\n두려움에 떠는 사람에게 그녀는 능력을 사용하지 않아도 된다.\n사실 그녀가 무엇을 말하든 결과는 변함없다.\n입밖으로 나온 그녀의 말로 인해 공포심은 점점 더 부풀어 오르게 되고…….\n상대방은 당황해서 그녀가 듣고 싶어 하는 모든 걸 털어놓게 될 것이다.\n그녀에게 필요한 건 기다림뿐이다. 그물을 치고 사냥감을 기다리는 거미처럼"
+    "zh-CN": "「莫非你还有事没告诉我？」\n她看到对方僵着脖子，喉咙响起口水的吞咽声。\n这个人怕她，所以她根本不需要使用能力。\n事实上，她说什么都无所谓。\n只要任由话语出口，带来的惧意自由发酵……\n对方马上就会慌不择路，说出她想听的一切。\n而她只需等待，就像早已布下网的蜘蛛。"
   },
   "skill": {
-    "name": { "pt-BR": "Teia de Aranha", "en": "Spider Web", "zh-CN": "蜘蛛的网", "ja": "蜘蛛の巣", "ko": "거미줄" },
+    "name": { "en": "Spider Web", "zh-CN": "蜘蛛的网" },
     "description": {
-      "pt-BR": "Aumenta o Dano causado pelo usuário em #2[i]%. Após cada ataque desferido pelo usuário, sua VEL aumenta em #3[f1]%, acumulando até #4[i] vezes.\nSe o usuário atingir um inimigo-alvo que não esteja afetado por Erosão, há uma chance-base de 100% de infligir Erosão ao alvo. Inimigos afetados por Erosão também são considerados como se estivessem em estado de Choque e receberão Dano de Raio Contínuo no início de cada rodada igual a #1[i]% do ATQ do usuário, durando por #5[i] rodada(s).",
       "en": "Increases DMG dealt by the wearer by #2[i]%. After every attack launched by wearer, their SPD increases by #3[f1]%, stacking up to #4[i] times.\nIf the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to #1[i]% of the wearer's ATK, lasting for #5[i] turn(s).",
-      "zh-CN": "使装备者造成的伤害提高#2[i]%。装备者每次施放攻击后，速度提高#3[f1]%，最多叠加#4[i]层。\n当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者#1[i]%攻击力的雷属性持续伤害，持续#5[i]回合。",
-      "ja": "装備キャラの与ダメージ+#2[i]%。装備キャラが攻撃を行った後、速度+#3[f1]%、最大で#4[i]層累積できる。\n装備キャラの攻撃が敵に命中する時、その敵が「遊糸」状態でない場合、100%の基礎確率で敵を「遊糸」状態にする。敵が「遊糸」状態の時、感電状態と見なされる。「遊糸」状態の敵はターンが回ってくるたびに、装備キャラの攻撃力#1[i]%分の雷属性持続ダメージを受ける、#5[i]ターン継続。",
-      "ko": "장착한 캐릭터가 가하는 피해가 #2[i]% 증가한다. 장착한 캐릭터가 공격을 발동할 때마다 속도가 #3[f1]% 증가한다. 최대 중첩수: #4[i]스택\n장착한 캐릭터가 적 명중 시, 해당 목표가 [흐름] 상태가 아니면 해당 목표는 100%의 기본 확률로 [흐름] 상태에 빠진다. [흐름] 상태는 감전과 동일한 상태로 간주한다. [흐름] 상태에서 적은 턴이 시작될 때마다 장착한 캐릭터 공격력의 #1[i]%만큼 번개 속성 지속 피해를 받는다. 지속 시간: #5[i]턴"
+      "zh-CN": "使装备者造成的伤害提高#2[i]%。装备者每次施放攻击后，速度提高#3[f1]%，最多叠加#4[i]层。\n当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有100%的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者#1[i]%攻击力的雷属性持续伤害，持续#5[i]回合。"
     },
     "params": [
       [0.6, 0.24, 0.048, 3, 1],

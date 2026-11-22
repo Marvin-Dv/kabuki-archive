@@ -1,13 +1,7 @@
 {
   "id": 33,
   "type": "WindResistance",
-  "name": {
-    "pt-BR": "Bônus de RES a Vento",
-    "en": "Wind RES Boost",
-    "zh-CN": "风属性抗性提高",
-    "ja": "風属性耐性",
-    "ko": "바람 속성 저항 증가"
-  },
+  "name": { "en": "Wind RES Boost", "zh-CN": "风属性抗性提高" },
   "icon": "icon/property/IconWindResistanceDelta.png",
   "percent": true
 }

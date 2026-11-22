@@ -1,13 +1,7 @@
 {
   "id": 11105,
   "slug": "natashas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Natasha",
-    "en": "Natasha's Eidolon",
-    "zh-CN": "【娜塔莎】的星魂",
-    "ja": "「ナターシャ」の星魂",
-    "ko": "[나타샤]의 성혼"
-  },
+  "name": { "en": "Natasha's Eidolon", "zh-CN": "【娜塔莎】的星魂" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",
