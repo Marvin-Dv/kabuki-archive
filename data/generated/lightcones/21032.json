@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Esculpindo a Lua, Tecendo as Nuvens",
     "en": "Carve the Moon, Weave the Clouds",
-    "zh-CN": "镂月裁云之意",
     "ja": "彫月裁雲の意",
     "ko": "누월재운의 뜻"
   },
@@ -15,16 +14,14 @@
   "description": {
     "pt-BR": "Ele se apaixona imediatamente pelo recipiente dourado e está prestes a comprá-lo, mas a garota Vulpe o puxa de lado e sussurra:\n\"Volte à noite, Sr. Benfeitor. Assim tomará a decisão de cabeça fria.\"\nComo prometido, ele volta à noite.\nA mesma garota Vulpe abre a porta e sorri.\n\"Por favor, siga-me, Sr. Benfeitor.\"\nUm raio do luar brilha na base da placa gravada.\nO artesão traçou as pétalas com linhas de várias profundidades, e ele não conseguiria ver esses detalhes sem o luar.\nEle então finalmente se lembra por que este item é chamado de \"Esculpindo a Lua, Tecendo as Nuvens\".",
     "en": "He immediately falls in love with the golden vessel and is about to buy it,\nbut the foxian girl drags him aside and whispers:\n\"Please return at night, Mr. Benefactor, and make up your mind then.\"\nAs promised, he returns at night.\nThe same foxian girl opens the door and smiles at him.\n\"Please follow me, Mr. Benefactor.\"\nA ray of moonlight shines onto the base of the etched plate.\nThe artisan had traced the petals with lines of various depths, and he would not be able to see such details without the moonlight.\nHe finally recalls why this item is called \"Carve the Moon, Weave the Clouds.\"",
-    "zh-CN": "他一眼便相中了那件金器，正要买下，\n狐人少女却将他拉入一隅，悄声说道：\n「请恩公晚上再光临本铺，到时再做决定不迟。」\n夜晚，他如约而至。\n开门的又是那狐人少女，盈盈一笑。\n「请恩公随我来。」\n只见一线月光刻入錾花盘底。\n工匠以线条之深浅勾勒花瓣的深浅，若非在月光之下，便看不真切这一毫一厘。\n他这才想起，这件器物为何名为「镂月裁云」。",
     "ja": "彼は一目でその金器を気に入った、それを買い取ろうとしたその時、\n狐族の少女が彼を店の隅に引きずり、呟いた。\n「お客さん、夜になったらまた弊店にいらっしゃってください、その時に決めても遅くありませんよ」\nその夜、彼は約束通り店に来た。\n門を開けたのはあの狐族の少女、彼女は微笑みながら案内する。\n「お客さん、こちらです」\n一縷の月光が、皿の底に彫りつけられた花模様に刻み込む。\n職人は線の深さで花弁の深浅を引いたのだ、月明かりの下でなければ、この一毫一厘は見出せない。\nこれを見て、彼は思い出す、この器物が「彫月裁雲」と呼ばれる所以を。",
     "ko": "그 황금 식기를 보자마자 마음에 들었던 그는 바로 그것을 사려고 했다.\n그런데 어떤 여우족 소녀가 나타나더니 그를 가게 구석으로 끌고 가서 속삭였다.\n「손님, 밤이 되면 다시 가게로 찾아오세요. 그때 결정하셔도 늦지 않답니다」\n그날 밤, 그는 약속대로 다시 가게를 찾았다.\n문을 연 것은 그 여우족 소녀였다. 그녀는 미소를 지으며 그를 맞이했다.\n「손님, 이쪽으로 오세요」\n한 줄기 달빛이 꽃무늬가 새겨진 그릇의 바닥을 비추었다.\n장인은 세밀한 솜씨로 선의 깊이를 조절하며 꽃잎을 조각했던 것이었다. 만약 달빛이 아니었다면 그것을 눈치챌 수 없었을 것이 분명했다.\n그제야 그는 깨달았다. 그것이 왜 「누월재운(鏤月裁雲)」이라 불리는지를 말이다"
   },
   "skill": {
-    "name": { "pt-BR": "Segredo", "en": "Secret", "zh-CN": "秘密", "ja": "秘密", "ko": "비밀" },
+    "name": { "pt-BR": "Segredo", "en": "Secret", "ja": "秘密", "ko": "비밀" },
     "description": {
       "pt-BR": "No início da batalha, sempre que a rodada do usuário se inicia, um dos seguintes efeitos é aplicado aleatoriamente: aumenta o ATQ de todos os aliados em #1[i]%, aumenta o Dano CRIT de todos os aliados em #2[i]% ou aumenta a Taxa de Regeneração de Energia de todos os aliados em #3[i]%. O efeito aplicado não pode ser idêntico ao último efeito aplicado e substituirá o efeito anterior. O efeito aplicado será removido quando o usuário for derrotado. Efeitos de tipos iguais não podem ser acumulados.",
       "en": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by #1[i]%, all allies' CRIT DMG increases by #2[i]%, or all allies' Energy Regeneration Rate increases by #3[i]%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the same type cannot be stacked.",
-      "zh-CN": "在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：使我方全体攻击力提高#1[i]%；使我方全体暴击伤害提高#2[i]%；使我方全体能量恢复效率提高#3[i]%。同类效果无法叠加，在装备者陷入无法战斗状态时解除。",
       "ja": "戦闘開始時、および装備キャラのターンが回ってきた時、ランダムで効果を1つ発動する。この効果が発動されるたび、前回の効果を上書きする。同じ効果は連続で発動されない。効果は以下を含む：味方全体の攻撃力+#1[i]%、味方全体の会心ダメージ+#2[i]%、味方全体のEP回復効率+#3[i]%。同系統のスキルは累積できず、装備キャラが戦闘不能状態になると効果は解除される。",
       "ko": "전투 시작 시 및 장착한 캐릭터 턴 시작 시 랜덤으로 1개의 효과가 적용된다. 해당 효과 적용 시 이전 효과를 대체하며 이전과 중복되지 않는다. 효과 종류: 모든 아군의 공격력 #1[i]% 증가/모든 아군의 치명타 피해 #2[i]% 증가/모든 아군의 에너지 회복효율 #3[i]% 증가. 같은 유형의 효과는 중첩되지 않으며 장착한 캐릭터가 전투 불능 상태에 빠지면 해제된다"
     },

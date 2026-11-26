@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Velejando em Direção a uma Segunda Vida",
     "en": "Sailing Towards a Second Life",
-    "zh-CN": "驶向第二次生命",
     "ja": "二度目の生に向かって",
     "ko": "두 번째 생명을 향해"
   },
@@ -15,16 +14,14 @@
   "description": {
     "pt-BR": "Ele sentiu como se tivesse caído em um mar profundo. Tudo o havia abandonado, deixando apenas seus pensamentos vazios se contorcendo e lutando sozinhos.\nTerror, ansiedade, solidão, escuridão, raiva, esses sentimentos não se dissiparam com seu corpo físico, mas permaneceram na concha mecânica de uma maneira diferente, e eles se tornaram ainda mais pesados do que antes.\nEle ouviu o chamado dos mortos, sentiu o cheiro de algo sendo carbonizado, o turbilhão das máquinas zumbia em seus ouvidos, e o novo sangue azul voou em direção ao seu coração sedento... Algumas memórias cruéis ressurgiram conforme o ódio inesquecível se transformou em uma luz fraca na escuridão. Ele seguiu a luz para caminhar em direção ao fim de tudo, utilizando cada grama de sua força para se levantar uma vez mais na superfície.\nEle abriu seus olhos e um clarão de fogos de artifício passou voando antes que ele pudesse ouvir os parabéns da médica.\n\"Bem-vindo ao mundo, novamente.\"\nEle cerrou seus punhos com suas mãos que agora eram feitas de ferro frio...\nEle não viveria mais para si.",
     "en": "He felt as if he had fallen into a deep sea. Everything was departing from him, leaving only his hollow thoughts writhing and struggling all alone.\nTerror, anxiety, loneliness, darkness, rage — these feelings didn't dissipate with his physical body, but remained within the mechanical shell in a different manner — and they were even heavier than before.\nHe heard the call of the dead, smelled the scent of something being charred, the whirl of machinery buzzed around his ears, and the new blue blood flew towards his thirsty heart... Some cruel memories resurfaced as the unforgettable hatred turned into a weak light in the darkness. He followed the light to walk toward the end of it all, exerting every ounce of his strength to rise once again to the surface.\nHe opened his eyes and a flash of fireworks darted past before hearing the doctor's congratulations — \n\"Welcome to this world, once again.\"\nHe balled his hands into fists — hands that were now made of cold iron...\nHe would no longer live for himself.",
-    "zh-CN": "他仿佛落入深海，一切都离他而去，只余空洞的思维在跳跃与挣扎。\n恐惧、不安、孤独、黑暗、愤怒…那些感受没有随着肉身消散，反而以另一种方式保留在机械的躯壳之中，愈发沉重。\n他听到逝者的呼唤，闻到烧焦的气味，电机的嗡鸣在他的耳边盘旋，蓝色的血液流向他饥渴的心脏…一些残忍的记忆再次浮现，刻骨的仇恨化作黑暗中的微光，他循着光亮朝尽头走去，用尽力气浮出了水面。\n他睁开眼，一簇火花闪过，他听到来自医者的祝贺——\n「欢迎再次来到这个世界。」 \n他握紧双手，如今它们是钢铁的，冰冷的……\n他将不再为自己而活。",
     "ja": "彼は深海に落ちたような感覚に陥った。何もかもが自分から離れていく中、空虚な思考だけが藻掻き、苦しんでいる。\n恐怖、不安、孤独、暗闇、怒り…それらの感情は肉体と共に消え去るのではなく、別の形で機械の体に収められ、ますます重くなっていった。\n亡者の叫びが聞こえた。モーターが唸る音が聞こえた。そして青い血が飢えた心臓に流れていき…いくつかの残酷な記憶が蘇る。深く刻み込まれた憎しみは、暗闇の中で朧げな光となり、その光に導かれ、彼はようやく水面に浮かび上がった。\n重い瞼を開けると、目の前で火花が散った。次いで聞こえてきたのは、医者からの祝福の言葉だ——\n「改めて、この世界へようこそ」\n彼は両手を握り締めた——その手は今、冷たい鉄でできている……\n彼はもう、自分のためには生きられないだろう。",
     "ko": "그는 깊은 바다에 떨어진 것 같았다. 모든 것이 그를 떠났고, 텅 빈 사고만이 날뛰며 몸부림쳤다.\n공포, 불안, 고독, 어둠, 분노… 그 감정들은 육신과 함께 사라지지 않았고, 오히려 또 다른 방식으로 기계의 껍데기에 남아 점점 무거워졌다.\n그는 죽은 자의 부름을 듣고, 타는 냄새를 맡았다. 기계의 윙윙 소리가 그의 귓가에 맴돌았고, 푸른 피가 그의 굶주린 심장으로 흘러들었다…. 몇몇 잔인한 기억들이 다시 떠올랐고, 뼈에 새긴 원한이 어둠 속에서 희미한 빛으로 변했다. 그는 빛을 따라 끝으로 걸어갔고, 온 힘을 다해 수면 위로 떠올랐다.\n그는 눈을 떴다. 불꽃이 번쩍이며 지나갔고, 그는 의사의 축하 인사를 들었다——\n「이 세상에 다시 오신 걸 환영합니다」\n그는 두 손을 꼭 쥐었다. 지금은 강철로 만들어진, 차가운 두 손을…\n그는 더 이상 자신을 위해 살지 않을 것이다"
   },
   "skill": {
-    "name": { "pt-BR": "Mar Bravo", "en": "Rough Water", "zh-CN": "苦航", "ja": "苦難の航行", "ko": "고된 항해" },
+    "name": { "pt-BR": "Mar Bravo", "en": "Rough Water", "ja": "苦難の航行", "ko": "고된 항해" },
     "description": {
       "pt-BR": "Aumenta o Efeito de Quebra do usuário em #1[i]%. O Dano de Quebra causado pelo usuário ignora #3[i]% da DEF do alvo. Quando o Efeito de Quebra do usuário em batalha está em #2[i]% ou maior, aumenta sua VEL em #4[i]%.",
       "en": "Increases the wearer's Break Effect by #1[i]%. The Break DMG dealt by the wearer ignores #3[i]% of the target's DEF. When the wearer's Break Effect in battle is at #2[i]% or greater, increases their SPD by #4[i]%.",
-      "zh-CN": "使装备者的击破特攻提高#1[i]%，造成的击破伤害无视目标#3[i]%的防御力。当装备者在战斗中击破特攻大于等于#2[i]%时，速度提高#4[i]%。",
       "ja": "装備キャラの撃破特効+#1[i]%、与える弱点撃破ダメージが敵の防御力を#3[i]%無視する。戦闘中、装備キャラの撃破特効が#2[i]%以上の場合、速度+#4[i]%。",
       "ko": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가하고, 가하는 격파 피해는 목표의 방어력을 #3[i]% 무시한다. 전투 중 장착한 캐릭터의 격파 특수효과가 #2[i]% 이상일 경우 속도가 #4[i]% 증가한다"
     },

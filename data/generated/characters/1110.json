@@ -1,7 +1,7 @@
 {
   "id": 1110,
   "slug": "lynx",
-  "name": { "pt-BR": "Lynx", "en": "Lynx", "zh-CN": "玲可", "ja": "リンクス", "ko": "링스" },
+  "name": { "pt-BR": "Lynx", "en": "Lynx", "ja": "リンクス", "ko": "링스" },
   "rarity": 4,
   "path": "Abundance",
   "element": "Quantum",
@@ -14,14 +14,12 @@
       "name": {
         "pt-BR": "Técnica de Grampos de Neve",
         "en": "Ice Crampon Technique",
-        "zh-CN": "冰攀前齿技术",
         "ja": "アイスクライミングテクニック",
         "ko": "얼음 등반 갈고리 기술"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% dos PV máximos deste personagem a um único inimigo.",
         "en": "Deals Quantum DMG equal to #1[i]% of this character's Max HP to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于自身#1[i]%生命上限的量子属性伤害。",
         "ja": "指定した敵単体に自身の最大HP#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 자신의 HP 최대치의 #1[i]%만큼 양자 속성 피해를 준다"
       },
@@ -31,12 +29,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um único inimigo.",
         "en": "Deals minor Quantum DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量量子属性伤害。",
         "ja": "敵単体に少量の量子属性ダメージを与える。",
         "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 111002,
@@ -44,14 +41,12 @@
       "name": {
         "pt-BR": "Latas de Acampamento Salgadas",
         "en": "Salted Camping Cans",
-        "zh-CN": "盐渍野营罐头",
         "ja": "塩漬け野営缶詰",
         "ko": "캠핑용 절임 통조림"
       },
       "description": {
         "pt-BR": "Aplica \"Resposta de Sobrevivência\" em um único aliado-alvo e aumenta seus PV máximos em #1[f1]% dos PV máximos de Lynx + #2[i]. Se o alvo for um personagem do Caminho da Destruição ou da Preservação, a chance de que ele seja atacado pelos inimigos aumentará drasticamente. A \"Resposta de Sobrevivência\" dura por #3[i] rodada(s).\nRestaura os PV do alvo em #4[f1]% dos PV máximos de Lynx + #5[i].",
         "en": "Applies \"Survival Response\" to a single target ally and increases their Max HP by #1[f1]% of Lynx's Max HP plus #2[i]. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for #3[i] turn(s).\nRestores the target's HP by #4[f1]% of Lynx's Max HP plus #5[i].",
-        "zh-CN": "为指定我方单体附上【求生反应】，提高等同于玲可#1[f1]%生命上限+#2[i]的生命上限，若该目标为「毁灭」或「存护」命途，被敌方攻击的概率大幅提高，【求生反应】持续#3[i]回合。\n使该目标回复等同于玲可#4[f1]%生命上限+#5[i]的生命值。",
         "ja": "指定した味方単体に「サバイバル反応」を付与し、最大HPをリンクスの最大HP#1[f1]%+#2[i]分アップさせる。その味方が「壊滅」または「存護」の運命にある場合、敵に攻撃される確率が大アップする。「サバイバル反応」は#3[i]ターン継続。\n「サバイバル反応」を付与された味方は、HPをリンクスの最大HP#4[f1]%+#5[i]回復する。",
         "ko": "지정된 단일 아군에게 [생존 반응]을 부여하며, HP 최대치가 링스 HP 최대치의 #1[f1]%+#2[i]만큼 증가하고, 해당 목표가 「파멸」 혹은 「보존」 운명의 길이면 적에게 피격될 확률이 대폭 증가한다. [생존 반응]은 #3[i]턴간 지속된다.\n해당 목표의 HP를 링스 HP 최대치의 #4[f1]%+#5[i]만큼 회복시킨다"
       },
@@ -77,12 +72,11 @@
       "summary": {
         "pt-BR": "Aplica \"Resposta de Sobrevivência\" a um único aliado, aumentando os PV máximos, e restaurando os PV dele.",
         "en": "Applies \"Survival Response\" to a single ally, increases their Max HP, and restores their HP.",
-        "zh-CN": "使我方单体获得【求生反应】，使其生命上限提高，同时为其回复生命值。",
         "ja": "味方単体に「サバイバル反応」を与え、最大HPをアップし、HPを回復する。",
         "ko": "단일 아군에게 [생존 반응]을 부여하고, 대상의 HP 최대치를 증가시키며 동시에 HP를 회복시킨다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 111003,
@@ -90,14 +84,12 @@
       "name": {
         "pt-BR": "Primeiros Socorros do Campo de Neve",
         "en": "Snowfield First Aid",
-        "zh-CN": "雪原急救方案",
         "ja": "雪原救急処置",
         "ko": "설원 구급 방침"
       },
       "description": {
         "pt-BR": "Remove #1[i] penalidade(s) de todos os aliados e imediatamente restaura seus respectivos PV em uma quantidade igual a #2[f1]% dos PV máximos de Lynx + #3[i].",
         "en": "Dispels #1[i] debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i].",
-        "zh-CN": "解除我方全体的#1[i]个负面效果，立即为我方全体回复等同于玲可#2[f1]%生命上限+#3[i]的生命值。",
         "ja": "味方全体のデバフを#1[i]つ解除し、味方全体のHPをリンクスの最大HP#2[f1]%+#3[i]回復する。",
         "ko": "모든 아군의 디버프 효과를 #1[i]개 해제하고, 모든 아군의 HP를 즉시 링스 HP 최대치의 #2[f1]%+#3[i]만큼 회복시킨다"
       },
@@ -123,12 +115,11 @@
       "summary": {
         "pt-BR": "Remove 1 penalidade de todos os aliados e restaura seus PV.",
         "en": "Dispels 1 debuff from all allies and restores their HP.",
-        "zh-CN": "解除我方全体1个负面效果，为我方全体回复生命值。",
         "ja": "味方全体のデバフを1つ解除し、味方全体のHPを回復する。",
         "ko": "모든 아군의 디버프 효과를 1개 해제하고, 모든 아군의 HP를 회복시킨다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 111004,
@@ -136,14 +127,12 @@
       "name": {
         "pt-BR": "Experiência de Sobrevivência na Neve",
         "en": "Outdoor Survival Experience",
-        "zh-CN": "户外生存经验",
         "ja": "野外サバイバル経験",
         "ko": "야외 생존 경험"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia ou a Perícia Suprema de Lynx, aplica cura contínua ao aliado-alvo por #1[i] rodada(s), restaurando uma quantidade de PV do aliado-alvo igual a #2[f1]% dos PV máximos de Lynx + #3[i] no início de cada rodada do aliado. Se o alvo tiver \"Resposta de Sobrevivência\", o efeito da cura contínua restaura adicionalmente uma quantidade de PV igual a #4[f1]% dos PV máximos de Lynx + #5[i].",
         "en": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[f1]% of Lynx's Max HP plus #3[i] at the start of each turn. If the target has \"Survival Response,\" the continuous healing effect additionally restores HP by an amount equal to #4[f1]% of Lynx's Max HP plus #5[i].",
-        "zh-CN": "施放战技或终结技时，使我方目标获得#1[i]回合的持续治疗效果，目标每回合开始时回复等同于玲可#2[f1]%生命上限+#3[i]的生命值。若该目标持有【求生反应】，则持续治疗效果额外回复等同于玲可#4[f1]%生命上限+#5[i]的生命值。",
         "ja": "戦闘スキルまたは必殺技を発動した時、ターゲットに#1[i]ターン継続する持続治癒効果を付与する。その味方のターンが回ってくるたびに、リンクスの最大HP#2[f1]%+#3[i]のHPを回復する。味方が「サバイバル反応」を持つ場合、持続治癒効果がさらにリンクスの最大HP#4[f1]%+#5[i]アップする。",
         "ko": "전투 스킬 혹은 필살기 발동 시 아군은 #1[i]턴의 지속 치유 효과를 획득하고, 해당 목표는 턴이 시작될 때마다 HP를 링스 HP 최대치의 #2[f1]%+#3[i]만큼 회복한다. 해당 목표가 [생존 반응]을 보유하고 있으면 지속 치유되는 HP가 추가로 링스 HP 최대치의 #4[f1]%+#5[i]만큼 증가한다"
       },
@@ -169,21 +158,19 @@
       "summary": {
         "pt-BR": "Ao usar a Perícia ou a Perícia Suprema, aplica cura contínua ao aliado-alvo. Se o alvo tiver uma \"Resposta de Sobrevivência\" ativa, então o efeito da cura contínua aumenta adicionalmente.",
         "en": "When using Skill or Ultimate, applies continuous healing on the target ally. If the target has \"Survival Response,\" the continuous healing effect additionally increases.",
-        "zh-CN": "施放战技或终结技时，使我方目标获得持续回复生命值效果，若目标持有【求生反应】持续回复生命值效果额外提高。",
         "ja": "戦闘スキルまたは必殺技を発動した時、味方に持続HP回復効果を付与し、その味方が「サバイバル反応」を有している場合、持続回復効果がアップする。",
         "ko": "전투 스킬 혹은 필살기 발동 시 아군은 HP 지속 회복 효과를 획득하고, 해당 목표가 [생존 반응]을 보유하고 있으면 HP 지속 회복 효과가 추가로 증가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 111006,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,11 +179,10 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 111007,
@@ -204,14 +190,12 @@
       "name": {
         "pt-BR": "Barra de Chocolate Energética",
         "en": "Chocolate Energy Bar",
-        "zh-CN": "巧克力能量棒",
         "ja": "チョコエネルギーバー",
         "ko": "초콜릿 에너지바"
       },
       "description": {
         "pt-BR": "Depois que Lynx usa sua Técnica, no início da próxima batalha, todos os aliados recebem o efeito de cura contínua do Talento dela, durando por #1[i] rodada(s).",
         "en": "After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).",
-        "zh-CN": "使用秘技后，下一次战斗开始时为我方全体附加玲可天赋的持续治疗效果，持续#1[i]回合。",
         "ja": "秘技を使用した後、次の戦闘開始時、味方全体にリンクスの天賦による持続治癒効果を付与する、#1[i]ターン継続。",
         "ko": "비술 발동 후 다음 전투 시작 시 모든 아군에게 링스 특성과 동일한 지속 치유 효과를 부여한다. 지속 시간: #1[i]턴"
       },
@@ -221,12 +205,11 @@
       "summary": {
         "pt-BR": "Depois que esta personagem usa sua Técnica, no início da próxima batalha, todos os aliados recebem um efeito de cura contínua.",
         "en": "After this character uses her Technique, at the start of the next battle, all allies are granted a continuous healing effect.",
-        "zh-CN": "使用秘技，下一次战斗开始时为我方全体附上持续治疗效果。",
         "ja": "秘技を使用、次の戦闘開始時、味方全体に持続治癒効果を付与する。",
         "ko": "비술을 발동하면 다음 전투 시작 시 모든 아군에게 지속 치유 효과를 부여한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     }
   ],
   "eidolons": [
@@ -235,14 +218,12 @@
       "name": {
         "pt-BR": "Madrugada da Caminhada na Neve",
         "en": "Morning of Snow Hike",
-        "zh-CN": "远行雪杖的清晨",
         "ja": "{RUBY_B#つえ}杖{RUBY_E#}を{RUBY_B#て}手{RUBY_E#}に{RUBY_B#ゆきみち}雪道{RUBY_E#}を{RUBY_B#い}行{RUBY_E#}く{RUBY_B#そうちょう}早朝{RUBY_E#}",
         "ko": "스키 스틱의 아침"
       },
       "description": {
         "pt-BR": "Ao curar aliados com porcentagem de PV igual ou menor que 50%, a Cura Realizada de Lynx aumenta em 20%. Este efeito também funciona em curas contínuas.",
         "en": "When healing allies with HP percentage equal to or lower than 50%, Lynx's Outgoing Healing increases by 20%. This effect also works on continuous healing.",
-        "zh-CN": "为当前生命值百分比小于等于50%的我方目标提供治疗时，玲可的治疗量提高20%，该效果对持续治疗效果也会生效。",
         "ja": "残りHPが50%以下の味方に治癒を行う時、リンクスの治癒量+20%。この効果は持続治癒効果にも有効。",
         "ko": "현재 HP 백분율이 50% 이하인 아군에게 치유 제공 시 링스의 치유량이 20% 증가한다. 해당 효과는 지속 치유 효과에도 적용된다"
       },
@@ -255,14 +236,12 @@
       "name": {
         "pt-BR": "Manhã da Fornalha Portátil",
         "en": "Noon of Portable Furnace",
-        "zh-CN": "便携炉具的正午",
         "ja": "ストーブの{RUBY_B#そば}傍{RUBY_E#}で{RUBY_B#す}過{RUBY_E#}ごす{RUBY_B#しょうご}正午{RUBY_E#}",
         "ko": "휴대용 버너의 정오"
       },
       "description": {
         "pt-BR": "Um alvo com \"Resposta de Sobrevivência\" pode resistir à aplicação de penalidade por 1 vez(es).",
         "en": "A target with \"Survival Response\" can resist debuff application for 1 time(s).",
-        "zh-CN": "持有【求生反应】的目标被施加负面效果时可抵抗1次负面效果。",
         "ja": "「サバイバル反応」を持つターゲットはデバフを付与された時、それを1回抵抗できる。",
         "ko": "[생존 반응]을 보유한 목표에게 디버프 효과가 부여될 시 디버프 효과에 1회 저항할 수 있다"
       },
@@ -275,14 +254,12 @@
       "name": {
         "pt-BR": "Tarde do Sinalizador de Avalanche",
         "en": "Afternoon of Avalanche Beacon",
-        "zh-CN": "雪崩信标的午后",
         "ja": "{RUBY_B#なだれ}雪崩{RUBY_E#}ビーコンの{RUBY_B#な}鳴{RUBY_E#}る{RUBY_B#ごご}午後{RUBY_E#}",
         "ko": "눈사태 비콘의 오후"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -295,14 +272,12 @@
       "name": {
         "pt-BR": "Crepúsculo da Fogueira Acolhedora",
         "en": "Dusk of Warm Campfire",
-        "zh-CN": "露营篝火的薄暮",
         "ja": "{RUBY_B#やがい}野外{RUBY_E#}で{RUBY_B#かがりび}篝火{RUBY_E#}を{RUBY_B#た}焚{RUBY_E#}く{RUBY_B#ゆうぐ}夕暮{RUBY_E#}れ",
         "ko": "캠핑 모닥불의 저녁"
       },
       "description": {
         "pt-BR": "Quando a \"Resposta de Sobrevivência\" é recebida, aumenta o ATQ do alvo em uma quantidade igual a 3.0% dos PV máximos de Lynx por 1 rodada(s).",
         "en": "When \"Survival Response\" is gained, increases the target's ATK by an amount equal to 3.0% of Lynx's Max HP for 1 turn(s).",
-        "zh-CN": "获得【求生反应】时，使该目标攻击力提高，提高数值等同于玲可3.0%生命上限的攻击力，持续1回合。",
         "ja": "「サバイバル反応」を獲得した時、ターゲットの攻撃力がリンクスの最大HPの3.0%分アップする。1ターン継続。",
         "ko": "[생존 반응] 획득 시 해당 목표의 공격력이 링스 HP 최대치의 3.0%만큼 증가한다. 지속 시간: 1턴"
       },
@@ -315,14 +290,12 @@
       "name": {
         "pt-BR": "Noite do Chá de Aurora",
         "en": "Night of Aurora Tea",
-        "zh-CN": "极光红茶的新夜",
         "ja": "{RUBY_B#こうちゃ}紅茶{RUBY_E#}とオーロラを{RUBY_B#たの}楽{RUBY_E#}しむ{RUBY_B#よる}夜{RUBY_E#}",
         "ko": "오로라 홍차의 밤"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -335,14 +308,12 @@
       "name": {
         "pt-BR": "Amanhecer do Mapa dos Exploradores",
         "en": "Dawn of Explorers' Chart",
-        "zh-CN": "测绘图纸的黎明",
         "ja": "{RUBY_B#せいずちゅう}製図中{RUBY_E#}に{RUBY_B#むか}迎{RUBY_E#}える{RUBY_B#よあ}夜明{RUBY_E#}け",
         "ko": "설계도의 새벽"
       },
       "description": {
         "pt-BR": "Melhora adicionalmente o efeito de aumento de PV máximos da \"Resposta de Sobrevivência\" em uma quantidade igual a 6.0% dos PV máximos de Lynx e aumenta a RES a Efeito em 30%.",
         "en": "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6.0% of Lynx's Max HP and increases Effect RES by 30%.",
-        "zh-CN": "【求生反应】的生命上限提高效果额外提高，提高数值等同于玲可6.0%的生命上限，并使其效果抵抗提高30%。",
         "ja": "「サバイバル反応」の最大HPアップ効果が、さらにリンクスの最大HPの6.0%分アップする。「サバイバル反応」を持つ味方の効果抵抗+30%。",
         "ko": "[생존 반응]의 HP 최대치 증가 효과가 링스 HP 최대치의 6.0%만큼 증가하고, 효과 저항이 30% 증가한다"
       },
@@ -707,14 +678,12 @@
       "name": {
         "pt-BR": "Pesquisa de Avanço",
         "en": "Advance Surveying",
-        "zh-CN": "提前勘测",
         "ja": "{RUBY_B#じぜんちょうさ}事前調査{RUBY_E#}",
         "ko": "사전 탐측"
       },
       "description": {
         "pt-BR": "Após um alvo com \"Resposta de Sobrevivência\" ser atingido, Lynx regenera #1[i] de Energia imediatamente.",
         "en": "After a target with \"Survival Response\" is hit, Lynx regenerates #1[i] Energy immediately.",
-        "zh-CN": "当持有【求生反应】的目标受到攻击后，玲可立即恢复#1[i]点能量。",
         "ja": "「サバイバル反応」を持つターゲットが攻撃を受けた後、リンクスはEPを#1[i]回復する。",
         "ko": "[생존 반응]을 보유한 목표가 피격되면 링스는 즉시 에너지를 #1[i]pt 회복한다"
       },
@@ -738,14 +707,12 @@
       "name": {
         "pt-BR": "Técnicas de Exploração",
         "en": "Exploration Techniques",
-        "zh-CN": "探险技术",
         "ja": "{RUBY_B#たんけん}探検{RUBY_E#}テクニック",
         "ko": "탐험 스킬"
       },
       "description": {
         "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
         "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
-        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
         "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
         "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
       },
@@ -774,14 +741,12 @@
       "name": {
         "pt-BR": "Sobrevivência ao Extremo",
         "en": "Survival in the Extreme",
-        "zh-CN": "极境求生",
         "ja": "エクストリームサバイバル",
         "ko": "극지 생존"
       },
       "description": {
         "pt-BR": "Estende a duração do efeito de cura contínua concedido pelo Talento por #1[i] rodada(s).",
         "en": "Extends the duration of the continuous healing effect granted by Talent for #1[i] turn(s).",
-        "zh-CN": "天赋产生的持续回复效果延长#1[i]回合。",
         "ja": "天賦による持続治癒効果の継続時間+#1[i]ターン。",
         "ko": "특성으로 발동한 지속 회복 효과를 #1[i]턴 연장한다"
       },
@@ -807,7 +772,7 @@
     {
       "id": 1110201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -824,7 +789,7 @@
     {
       "id": 1110202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1110101],
@@ -841,7 +806,7 @@
     {
       "id": 1110203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1110202],
@@ -861,7 +826,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -881,7 +845,7 @@
     {
       "id": 1110205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1110102],
@@ -898,7 +862,7 @@
     {
       "id": 1110206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1110205],
@@ -915,7 +879,7 @@
     {
       "id": 1110207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1110206],
@@ -935,7 +899,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -955,7 +918,7 @@
     {
       "id": 1110209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1110103],
@@ -972,7 +935,7 @@
     {
       "id": 1110210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],

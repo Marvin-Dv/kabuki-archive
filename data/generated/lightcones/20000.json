@@ -1,7 +1,7 @@
 {
   "id": 20000,
   "slug": "arrows",
-  "name": { "pt-BR": "Flechas", "en": "Arrows", "zh-CN": "锋镝", "ja": "矢じり", "ko": "화살촉" },
+  "name": { "pt-BR": "Flechas", "en": "Arrows", "ja": "矢じり", "ko": "화살촉" },
   "rarity": 3,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -9,16 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino.\n\"Os olhos do caçador ficam mais apurados no instante em que ele puxa a flecha na corda do arco.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"The hunter's eyes are the clearest when they pull back the bowstring with the arrow nocked.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「飞矢在弦、挽弓逐鹿的那一刻，猎人的双眸最为清澈。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「狩人の目が最も澄んでいるのは、矢が弦にかかり、鹿を仕留めるために弦を引く瞬間」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「당겨진 화살과 활을 들고 사슴을 쫓을 때, 사냥꾼의 두 눈이 가장 맑다」"
   },
   "skill": {
-    "name": { "pt-BR": "Crise", "en": "Crisis", "zh-CN": "危机", "ja": "危機", "ko": "위기" },
+    "name": { "pt-BR": "Crise", "en": "Crisis", "ja": "危機", "ko": "위기" },
     "description": {
       "pt-BR": "No início da batalha, aumenta em #1[i]% a Chance de CRIT do usuário por #2[i] rodada(s).",
       "en": "At the start of the battle, the wearer's CRIT Rate increases by #1[i]% for #2[i] turn(s).",
-      "zh-CN": "战斗开始时，使装备者的暴击率提高#1[i]%，持续#2[i]回合。",
       "ja": "戦闘開始時、装備キャラの会心率+#1[i]%、#2[i]ターン継続。",
       "ko": "전투 시작 시 장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
     },

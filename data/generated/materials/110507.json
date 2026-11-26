@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Anamnese do Trovão Diurno",
     "en": "Daythunder Anamnesis",
-    "zh-CN": "阳雷的遥想",
     "ja": "遥かなる陽雷の想い",
     "ko": "태양과 번개의 회상"
   },
@@ -17,7 +16,6 @@
   "sources": {
     "en": ["Echo of War: \"Fortress of Dome\" Eye of Twilight"],
     "pt-BR": ["Eco da Guerra: Fortaleza do Domo, Olho Crepuscular"],
-    "zh-CN": ["历战余响【「穹顶关塞」晨昏之眼】"],
     "ja": ["歴戦余韻「『天穹要塞』晨昏の目」"],
     "ko": ["전쟁의 여운 [「천궁 요새」 조석의 눈]"]
   }

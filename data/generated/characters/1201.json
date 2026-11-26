@@ -1,7 +1,7 @@
 {
   "id": 1201,
   "slug": "qingque",
-  "name": { "pt-BR": "Qingque", "en": "Qingque", "zh-CN": "青雀", "ja": "青雀", "ko": "청작" },
+  "name": { "pt-BR": "Qingque", "en": "Qingque", "ja": "青雀", "ko": "청작" },
   "rarity": 4,
   "path": "Erudition",
   "element": "Quantum",
@@ -11,11 +11,10 @@
     {
       "id": 120101,
       "type": "Basic",
-      "name": { "pt-BR": "Colher Flores", "en": "Flower Pick", "zh-CN": "门前清", "ja": "門前清", "ko": "판쓸이" },
+      "name": { "pt-BR": "Colher Flores", "en": "Flower Pick", "ja": "門前清", "ko": "판쓸이" },
       "description": {
         "pt-BR": "Lança 1 peça de jade do naipe com o menor número de peças nas mãos para causar Dano Quântico igual a #1[i]% do ATQ de Qingque a um único inimigo.",
         "en": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to #1[i]% of Qingque's ATK to one designated enemy.",
-        "zh-CN": "使用1张当前花色最少的琼玉牌，对指定敌方单体造成等同于青雀#1[i]%攻击力的量子属性伤害。",
         "ja": "数が一番少ない絵柄の美玉牌を1枚使用し、指定した敵単体に青雀の攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "가장 적은 문양의 경옥패 1장을 사용해 지정된 단일 적에게 청작 공격력 #1[i]%만큼의 양자 속성 피해를 가한다"
       },
@@ -25,27 +24,19 @@
       "summary": {
         "pt-BR": "Lança uma peça que causa Dano Quântico leve a um único inimigo.",
         "en": "Tosses a tile to deal minor Quantum DMG to one enemy.",
-        "zh-CN": "使用1张牌，对敌方单体造成少量量子属性伤害。",
         "ja": "牌を1枚使用し、敵単体に少量の量子属性ダメージを与える。",
         "ko": "패 1장을 사용해 단일 적에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120102,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Uma Colherada da Lua",
-        "en": "A Scoop of Moon",
-        "zh-CN": "海底捞月",
-        "ja": "海底撈月",
-        "ko": "끝내기 조합"
-      },
+      "name": { "pt-BR": "Uma Colherada da Lua", "en": "A Scoop of Moon", "ja": "海底撈月", "ko": "끝내기 조합" },
       "description": {
         "pt-BR": "Pega #1[i] peça(s) de jade imediatamente e aumenta o Dano em #2[i]% até o fim da rodada atual. Esse efeito pode acumular até #3[i] vez(es). A rodada não acaba após a utilização dessa Perícia.",
         "en": "Immediately draws #1[i] jade tile(s) and increases DMG by #2[i]% until the end of the current turn. This effect can stack up to #3[i] time(s). The turn will not end after this Skill is used.",
-        "zh-CN": "立即抽取#1[i]张琼玉牌，使自身造成的伤害提高#2[i]%，持续至本回合结束。该效果可以叠加#3[i]层。施放该战技后，本回合不会结束。",
         "ja": "牌を#1[i]枚取り、自身の与ダメージ+#2[i]%、このターンが終了するまで継続。この効果は最大で#3[i]層累積できる。この戦闘スキルを発動した後、ターンは終了しない。",
         "ko": "즉시 경옥패를 #1[i]장 뽑는다. 자신이 가하는 피해가 #2[i]% 증가하며, 이번 턴이 끝날 때까지 지속된다. 최대 중첩수: #3[i]스택. 해당 전투 스킬 발동 후 그 턴은 종료되지 않는다"
       },
@@ -71,12 +62,11 @@
       "summary": {
         "pt-BR": "Pega peças e aumenta o Dano causado. Esta rodada não termina após esta ação.",
         "en": "Draws tiles and increases DMG dealt. This turn does not end after this action.",
-        "zh-CN": "抽牌，使自身造成的伤害提高，且本回合不会结束。",
         "ja": "牌を取り、自身の与ダメージをアップする。ターンは終了しない。",
         "ko": "패를 뽑고 자신이 가하는 피해가 증가하며, 이번 턴이 종료되지 않는다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 120103,
@@ -84,14 +74,12 @@
       "name": {
         "pt-BR": "Um Quarteto? Uhul!",
         "en": "A Quartet? Woo-hoo!",
-        "zh-CN": "四幺暗刻？和！",
         "ja": "幺魚暗カン？アガリ！",
         "ko": "물고기 4장? 났다!"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Qingque a todos os inimigos e obtém 4 peças de jade do mesmo naipe.",
         "en": "Deals Quantum DMG equal to #1[i]% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.",
-        "zh-CN": "对敌方全体造成等同于青雀#1[i]%攻击力的量子属性伤害，并获得4张相同花色的琼玉牌。",
         "ja": "敵全体に青雀の攻撃力#1[i]%分の量子属性ダメージを与え、同じ絵柄の美玉牌を4枚獲得する。",
         "ko": "모든 적에게 청작 공격력 #1[i]%만큼의 양자 속성 피해를 가하며, 같은 문양의 경옥패를 4장 획득한다"
       },
@@ -117,27 +105,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico a todos os inimigos, depois obtêm 4 peças do mesmo naipe.",
         "en": "Deals Quantum DMG to all enemies, then obtains 4 tiles of the same suit.",
-        "zh-CN": "对敌方全体造成量子属性伤害，获得4张相同花色的牌。",
         "ja": "敵全体に量子属性ダメージを与え、同じ絵柄の牌を4枚獲得する。",
         "ko": "모든 적에게 양자 속성 피해를 가하며, 같은 문양의 패를 4장 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 120104,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Jade Celestial",
-        "en": "Celestial Jade",
-        "zh-CN": "帝垣琼玉",
-        "ja": "帝垣美玉",
-        "ko": "제원 경옥"
-      },
+      "name": { "pt-BR": "Jade Celestial", "en": "Celestial Jade", "ja": "帝垣美玉", "ko": "제원 경옥" },
       "description": {
         "pt-BR": "Quando a rodada de um aliado começa, Qingque pega aleatoriamente 1 peça de 3 naipes diferentes. Até 4 peças podem ser seguradas por vez.\nSe Qingque começar sua rodada com 4 peças de um mesmo naipe, ela consumirá todas as peças para entrar no estado \"Mão Oculta\". Enquanto estiver neste estado, Qingque não pode usar sua Perícia novamente. Ao mesmo tempo, o ATQ de Qingque aumenta em #1[i]%, e o seu ATQ Básico \"Colher Flores\" é aprimorado, tornando-se \"Cereja do Bolo!\". O estado \"Mão Oculta\" acabará ao usar \"Cereja do Bolo!\".",
         "en": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by #1[i]%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "zh-CN": "我方目标回合开始时，青雀会从3种不同花色的琼玉牌中随机抽取1张，最多持有4张琼玉牌。\n青雀回合开始时，若持有的琼玉牌数为4且花色相同，青雀消耗所有琼玉牌进入【暗杠】状态。\n处于【暗杠】状态时无法再次施放战技，同时使自身攻击力提高#1[i]%，普攻【门前清】强化为【杠上开花！】，【暗杠】状态会在施放【杠上开花！】后结束。",
         "ja": "味方のターンが回ってきた時、青雀は3つの絵柄の美玉牌の中からランダムに1枚取る、手持ちの美玉牌は最大で4枚まで。\n青雀のターンが回ってきた時、手持ちに同じ絵柄の美玉牌が4枚ある場合、青雀はすべての美玉牌を消費して「暗カン」状態に入る。\n「暗カン」状態の時は戦闘スキルを発動できず、自身の攻撃力+#1[i]%、通常攻撃「門前清」が「嶺上開花！」に強化される。「暗カン」状態は「嶺上開花！」を発動した後に終了する。",
         "ko": "아군 턴 시작 시 청작은 3가지 각각 다른 문양의 경옥패에서 랜덤으로 1장을 뽑는다. 경옥패는 최대 4장까지 보유할 수 있다.\n청작의 턴이 시작될 때 보유 중인 경옥패의 수가 4개고 문양이 모두 동일할 경우 경옥패를 전부 소모해서 [꿀조합]에 진입한다.\n[꿀조합] 상태일 때는 전투 스킬을 다시 발동할 수 없으며 자신의 공격력이 #1[i]% 증가하고, 일반 공격 [판쓸이]가 [아싸~ 가오리!]로 강화되며 [아싸~ 가오리!] 발동 후 [꿀조합] 상태는 종료된다"
       },
@@ -163,21 +143,19 @@
       "summary": {
         "pt-BR": "Pega uma peça no início da rodada de qualquer aliado. No início da rodada deste personagem, se este personagem possuir 4 peças de um mesmo naipe, remove todas as peças em posse e Aprimora o ATQ Básico enquanto aumenta o ATQ deste personagem.",
         "en": "At the start of any ally's turn, draws a tile. At the start of this character's turn, if this character holds 4 tiles from the same suit, remove all tiles in possession and Enhance this Basic ATK while increasing this character's ATK.",
-        "zh-CN": "我方目标回合开始时，抽牌。自身回合开始时，若持有4张同花色牌，则清空已有牌并强化本次普攻，同时使自身攻击力提高。",
         "ja": "味方のターンが回ってきた時、牌を取る。自身のターンが回ってきた時、同じ絵柄の牌が4つある場合、牌を全部消費してその回の通常攻撃を強化し、自身の攻撃力をアップする。",
         "ko": "아군의 턴이 시작되면 패를 뽑는다. 자신의 턴이 시작될 때 같은 문양의 패를 4장 보유하고 있으면 가진 패를 모두 소진하여 이번 일반 공격을 강화하고 공격력이 증가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 120106,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -186,7 +164,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -194,17 +171,10 @@
     {
       "id": 120107,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Jogo de Paciência",
-        "en": "Game Solitaire",
-        "zh-CN": "独弈之乐",
-        "ja": "独奕の楽しみ",
-        "ko": "나 홀로 대결의 즐거움"
-      },
+      "name": { "pt-BR": "Jogo de Paciência", "en": "Game Solitaire", "ja": "独奕の楽しみ", "ko": "나 홀로 대결의 즐거움" },
       "description": {
         "pt-BR": "Após usar sua Técnica, Qingque pega #1[i] peça(s) de jade quando a batalha começa.",
         "en": "After using Technique, Qingque draws #1[i] jade tile(s) when the battle starts.",
-        "zh-CN": "使用秘技后，进入战斗时青雀会抽取#1[i]张琼玉牌。",
         "ja": "秘技を使用した後、戦闘に入る時、青雀は美玉牌を#1[i]枚取る。",
         "ko": "비술을 사용한 이후에 전투에 진입할 경우 청작이 경옥패를 #1[i]장 뽑는다"
       },
@@ -214,27 +184,19 @@
       "summary": {
         "pt-BR": "Após usar sua Técnica, pega peça(s) no início da próxima batalha.",
         "en": "After they use their Technique, draw tile(s) at the start of the next battle.",
-        "zh-CN": "使用秘技，下一次进战时抽牌。",
         "ja": "秘技を使用、次の戦闘に入った時に牌を取る。",
         "ko": "비술을 발동하며, 다음 전투 진입 시 패를 뽑는다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 120108,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Cereja do Bolo!",
-        "en": "Cherry on Top!",
-        "zh-CN": "杠上开花！",
-        "ja": "嶺上開花！",
-        "ko": "아싸~ 가오리!"
-      },
+      "name": { "pt-BR": "Cereja do Bolo!", "en": "Cherry on Top!", "ja": "嶺上開花！", "ko": "아싸~ 가오리!" },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Qingque a um único inimigo e Dano Quântico igual a #2[i]% do ATQ de Qingque aos inimigos adjacentes a ele.\n\"Cereja do Bolo!\" não pode recuperar Pontos de Perícia.",
         "en": "Deals Quantum DMG equal to #1[i]% of Qingque's ATK to one designated enemy, and deals Quantum DMG equal to #2[i]% of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "zh-CN": "对指定敌方单体造成等同于青雀#1[i]%攻击力的量子属性伤害，并对其相邻目标造成等同于青雀#2[i]%攻击力的量子属性伤害。\n【杠上开花！】无法恢复战技点。",
         "ja": "指定した敵単体に青雀の攻撃力#1[i]%分の量子属性ダメージを与え、隣接する敵に青雀の攻撃力#2[i]%分の量子属性ダメージを与える。\n「嶺上開花！」はSPを回復できない。",
         "ko": "지정된 단일 적에게 청작 공격력 #1[i]%만큼의 양자 속성 피해를 가하고, 인접한 목표에게 청작 공격력 #2[i]%만큼의 양자 속성 피해를 준다.\n[아싸~ 가오리!]는 전투 스킬 포인트를 회복할 수 없다"
       },
@@ -255,12 +217,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico a um único inimigo e Dano Quântico leve a inimigos adjacentes a ele.",
         "en": "Deals Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.",
-        "zh-CN": "对敌方单体造成量子属性伤害，并对相邻目标造成少量量子属性伤害。",
         "ja": "敵単体に量子属性ダメージを与え、隣接する敵に少量の量子属性ダメージを与える。",
         "ko": "단일 적에게 양자 속성 피해를 가하고, 인접한 목표에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -269,14 +230,12 @@
       "name": {
         "pt-BR": "Surgir Pelas Peças",
         "en": "Rise Through the Tiles",
-        "zh-CN": "散勇化骁摸幺鱼",
         "ja": "{RUBY_B#ヤオユイ}幺魚{RUBY_E#}と{RUBY_B#たわむ}戯{RUBY_E#}れる{RUBY_B#こへい}孤兵{RUBY_E#}",
         "ko": "용감무쌍 물고기"
       },
       "description": {
         "pt-BR": "A Perícia Suprema causa 10% a mais de Dano.",
         "en": "Ultimate deals 10% more DMG.",
-        "zh-CN": "施放终结技造成的伤害提高10%。",
         "ja": "必殺技によるダメージ+10%。",
         "ko": "필살기가 가하는 피해가 10% 증가한다"
       },
@@ -289,14 +248,12 @@
       "name": {
         "pt-BR": "Dormir nas Peças",
         "en": "Sleep on the Tiles",
-        "zh-CN": "棋枰作枕好入眠",
         "ja": "{RUBY_B#ごばん}碁盤{RUBY_E#}は{RUBY_B#まくら}枕{RUBY_E#}、{RUBY_B#かいみん}快眠{RUBY_E#}の{RUBY_B#たす}助{RUBY_E#}け",
         "ko": "놀이판은 숙면 도우미"
       },
       "description": {
         "pt-BR": "Sempre que Pegar Peça é ativado, Qingque imediatamente regenera 1 de Energia.",
         "en": "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy.",
-        "zh-CN": "青雀每次触发抽牌时，立即恢复1点能量。",
         "ja": "青雀は牌を取るたびにEPを1回復する。",
         "ko": "청작이 패 뽑기를 발동할 때마다 즉각 에너지를 1pt 회복한다"
       },
@@ -309,14 +266,12 @@
       "name": {
         "pt-BR": "Ler Entre as Peças",
         "en": "Read Between the Tiles",
-        "zh-CN": "观琼视茕门前清",
         "ja": "{RUBY_B#むがむちゅう}無我夢中{RUBY_E#}に{RUBY_B#メンゼンチン}門前清{RUBY_E#}",
         "ko": "무아지경 판쓸이"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -329,14 +284,12 @@
       "name": {
         "pt-BR": "Bem nas Peças",
         "en": "Right on the Tiles",
-        "zh-CN": "帝垣翔鳞和绝张",
         "ja": "{RUBY_B#じごく}地獄{RUBY_E#}{RUBY_B#ま}待{RUBY_E#}ちも{RUBY_B#おだ}穏{RUBY_E#}やかに",
         "ko": "운명을 건 마지막 패"
       },
       "description": {
         "pt-BR": "Depois que a Perícia deste personagem é usada, tem 24% de chance fixa de ganhar \"Autarquia\", que dura até o fim da rodada.\nEnquanto a \"Autarquia\" está ativa, usar o ATQ Básico ou o ATQ Básico Aprimorado ativa imediatamente 1 Ataque Extra no mesmo alvo, causando Dano Quântico igual a 100% do Dano do ATQ Básico ou do ATQ Básico Aprimorado.",
         "en": "After using Skill, there is a 24% fixed chance to gain \"Self-Sufficer,\" lasting until the end of the current turn. \nWhile \"Self-Sufficer\" is active, using Basic ATK or Enhanced Basic ATK immediately launches 1 Follow-Up ATK on the same target, dealing Quantum DMG equal to 100% of Basic ATK DMG or Enhanced Basic ATK DMG.",
-        "zh-CN": "施放战技后，有24%的固定概率获得【不求人】状态，持续至本回合结束。\n【不求人】状态下，施放普攻或施放强化普攻后立即进行1次追加攻击，对该目标造成等同于普攻或强化普攻伤害100%的量子属性伤害。",
         "ja": "戦闘スキルを発動した後、24%の固定確率で「門前ツモ」状態に入る、このターンが終了するまで継続。\n「門前ツモ」状態では、通常攻撃または強化通常攻撃を行った後に追加攻撃を1回行い、敵にその通常攻撃または強化通常攻撃ダメージ100%分の量子属性ダメージを与える。",
         "ko": "전투 스킬 발동 후 24%의 고정 확률로 [불구인] 상태를 획득하며, 이번 턴이 종료될 때까지 지속된다.\n[불구인] 상태에서 일반 공격이나 강화된 일반 공격 발동 후 즉시 추가 공격을 1회 진행하고, 해당 목표에게 일반 공격이나 강화된 일반 공격 피해의 100%만큼 양자 속성 피해를 가한다"
       },
@@ -349,14 +302,12 @@
       "name": {
         "pt-BR": "Estratégia para as Peças",
         "en": "Gambit for the Tiles",
-        "zh-CN": "七星流离全不靠",
         "ja": "{RUBY_B#よわた}世渡{RUBY_E#}りは{RUBY_B#ごううん}豪運{RUBY_E#}{RUBY_B#まか}任{RUBY_E#}せ",
         "ko": "운발에 맡긴 승부"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -369,14 +320,12 @@
       "name": {
         "pt-BR": "Prevalecer Além das Peças",
         "en": "Prevail Beyond the Tiles",
-        "zh-CN": "虚心平意候枭卢",
         "ja": "{RUBY_B#ゆうちょう}悠長{RUBY_E#}に{RUBY_B#かま}構{RUBY_E#}えて{RUBY_B#なが}流{RUBY_E#}れを{RUBY_B#ま}待{RUBY_E#}つ",
         "ko": "승리를 위한 기다림"
       },
       "description": {
         "pt-BR": "Recupera 1 Ponto de Perícia após usar um ATQ Básico Aprimorado.",
         "en": "Recovers 1 Skill Point after using Enhanced Basic ATK.",
-        "zh-CN": "施放强化普攻后，恢复1个战技点。",
         "ja": "強化通常攻撃を行った後、SPを1回復する。",
         "ko": "일반 공격 강화 발동 후 전투 스킬 포인트를 1pt 회복한다"
       },
@@ -741,14 +690,12 @@
       "name": {
         "pt-BR": "Batalha de Peças",
         "en": "Tile Battle",
-        "zh-CN": "争番",
         "ja": "{RUBY_B#そうはん}争番{RUBY_E#}",
         "ko": "순위 경쟁"
       },
       "description": {
         "pt-BR": "Restaura 1 Ponto de Perícia ao usar a Perícia. Este efeito só pode ser ativado 1 vez por batalha.",
         "en": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
-        "zh-CN": "施放战技时，恢复1个战技点。该效果单场战斗中只能触发1次。",
         "ja": "戦闘スキルを発動した時、SPを1回復する。この効果は一度の戦闘で1回まで発動できる。",
         "ko": "전투 스킬 발동 시 전투 스킬 포인트를 1pt 회복한다. 해당 효과는 단일 전투에서 1회만 발동한다"
       },
@@ -768,17 +715,10 @@
     {
       "id": 1201102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Enrolar",
-        "en": "Bide Time",
-        "zh-CN": "听牌",
-        "ja": "{RUBY_B#テンパイ}聴牌{RUBY_E#}",
-        "ko": "한 끗 차"
-      },
+      "name": { "pt-BR": "Enrolar", "en": "Bide Time", "ja": "{RUBY_B#テンパイ}聴牌{RUBY_E#}", "ko": "한 끗 차" },
       "description": {
         "pt-BR": "Usar a Perícia aumenta o efeito do bônus de Dano dos ataques em #1[i]% extra.",
         "en": "Using the Skill increases DMG Boost effect of attacks by an extra #1[i]%.",
-        "zh-CN": "战技使自身造成的伤害提高效果额外提高#1[i]%。",
         "ja": "戦闘スキルによる、自身の与ダメージアップ効果がさらに#1[i]%アップする。",
         "ko": "전투 스킬로 자신이 가하는 피해 증가 효과가 추가로 #1[i]% 증가한다"
       },
@@ -804,11 +744,10 @@
     {
       "id": 1201103,
       "anchor": "Point08",
-      "name": { "pt-BR": "Mão Vitoriosa", "en": "Winning Hand", "zh-CN": "抢杠", "ja": "チャンカン", "ko": "맞불" },
+      "name": { "pt-BR": "Mão Vitoriosa", "en": "Winning Hand", "ja": "チャンカン", "ko": "맞불" },
       "description": {
         "pt-BR": "Aumenta em #1[i]% a VEL de Qingque por 1 rodada após usar o ATQ Básico Aprimorado.",
         "en": "Qingque's SPD increases by #1[i]% for 1 turn after using the Enhanced Basic ATK.",
-        "zh-CN": "施放强化普攻后，青雀的速度提高#1[i]%，持续1回合。",
         "ja": "強化通常攻撃を行った後、青雀の速度+#1[i]%、1ターン継続。",
         "ko": "일반 공격 강화 발동 후 청작의 속도가 #1[i]% 증가한다. 지속 시간: 1턴"
       },
@@ -834,7 +773,7 @@
     {
       "id": 1201201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -854,7 +793,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -874,7 +812,7 @@
     {
       "id": 1201203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1201202],
@@ -891,7 +829,7 @@
     {
       "id": 1201204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1201202],
@@ -908,7 +846,7 @@
     {
       "id": 1201205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1201102],
@@ -928,7 +866,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -948,7 +885,7 @@
     {
       "id": 1201207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1201205],
@@ -965,7 +902,7 @@
     {
       "id": 1201208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1201103],
@@ -985,7 +922,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -1005,7 +941,7 @@
     {
       "id": 1201210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],

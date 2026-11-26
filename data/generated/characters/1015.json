@@ -1,7 +1,7 @@
 {
   "id": 1015,
   "slug": "archer",
-  "name": { "pt-BR": "Archer", "en": "Archer", "zh-CN": "Archer", "ja": "アーチャー", "ko": "아처" },
+  "name": { "pt-BR": "Archer", "en": "Archer", "ja": "アーチャー", "ko": "아처" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Quantum",
@@ -11,17 +11,10 @@
     {
       "id": 101501,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Kanshou e Bakuya",
-        "en": "Kanshou and Bakuya",
-        "zh-CN": "干将•莫邪",
-        "ja": "干将・莫耶",
-        "ko": "간장•막야"
-      },
+      "name": { "pt-BR": "Kanshou e Bakuya", "en": "Kanshou and Bakuya", "ja": "干将・莫耶", "ko": "간장•막야" },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Archer a um inimigo-alvo designado.",
         "en": "Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于Archer#1[i]%攻击力的量子属性伤害。",
         "ja": "指定した敵単体にアーチャーの攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 아처 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
       },
@@ -31,12 +24,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um inimigo designado.",
         "en": "Deals minor Quantum DMG to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成少量量子属性伤害。",
         "ja": "指定した敵単体に少量の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 101502,
@@ -44,14 +36,12 @@
       "name": {
         "pt-BR": "Caladbolg II: Espada Espiral Falsa",
         "en": "Caladbolg II: Fake Spiral Sword",
-        "zh-CN": "伪•螺旋剑",
         "ja": "偽・螺旋剣",
         "ko": "거짓•나선검"
       },
       "description": {
         "pt-BR": "Entra no estado de \"Conexão de Circuito\". Causa Dano Quântico equivalente a #1[i]% do ATQ de Archer a um inimigo designado. Após usar sua Perícia no estado de \"Conexão de Circuito\", a rodada atual não termina, e o Dano causado pela Perícia de Archer aumenta em #2[i]%. Este efeito pode acumular até #3[i] vez(es), permanecendo ativo até que ele saia do estado de \"Conexão de Circuito\". Após usar ativamente sua Perícia #5[i] vez(es) ou quando não houver Pontos de Perícia suficientes para usar a Perícia novamente, ele sairá do estado de \"Conexão de Circuito\". Após todos os inimigos-alvo de uma onda serem derrotados, ele sai do estado de \"Conexão de Circuito\".",
         "en": "Enters the \"Circuit Connection\" state. Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy. After using Skill in the \"Circuit Connection\" state, the current turn does not end, and the DMG dealt by Archer's Skill increases by #2[i]%. This effect can stack up to #3[i] time(s), lasting until he exits the \"Circuit Connection\" state. After actively using Skill #5[i] time(s) or when Skill Points are insufficient to use Skill again, exits the \"Circuit Connection\" state. After all enemy targets have been defeated in each wave, exits the \"Circuit Connection\" state.",
-        "zh-CN": "进入【回路连接】状态。对指定敌方单体造成等同于Archer#1[i]%攻击力的量子属性伤害。【回路连接】状态下施放战技后，本回合不会结束，并使Archer战技造成的伤害提高#2[i]%，该效果可以叠加#3[i]层，持续至退出【回路连接】状态。主动施放#5[i]次战技后或战技点不足以再次施放战技则退出【回路连接】状态。每个波次中的所有敌方目标被消灭后会退出【回路连接】状态。",
         "ja": "「回路接続」状態に入る。指定した敵単体にアーチャーの攻撃力#1[i]%分の量子属性ダメージを与える。「回路接続」状態の時、戦闘スキルを発動してもターンは終了しない。また、アーチャーの戦闘スキルによるダメージ+#2[i]%、この効果は「回路接続」状態が解除されるまで最大で#3[i]層累積できる。戦闘スキルを#5[i]回発動した後、またはSPが不足し、再度戦闘スキルを発動できなくなった時、「回路接続」状態は解除される。また、各ウェーブの敵がすべて倒された後も、「回路接続」状態は解除される。",
         "ko": "[회로접속] 상태에 진입한다. 지정된 단일 적에게 아처 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. [회로접속] 상태에서 전투 스킬 발동 시 이번 턴이 종료되지 않으며, 아처의 전투 스킬이 가하는 피해가 [회로접속] 상태가 종료될 때까지 #2[i]% 증가한다, 최대 중첩수: #3[i]스택. 전투 스킬을 #5[i]회 직접 발동하거나 전투 스킬 포인트가 부족해 전투 스킬을 다시 발동할 수 없을 경우 [회로접속] 상태가 종료된다. 각 웨이브의 모든 적이 처치되면 [회로접속] 상태가 종료된다"
       },
@@ -77,12 +67,11 @@
       "summary": {
         "pt-BR": "Entra no estado de \"Conexão de Circuito\". Causa um Dano Quântico massivo a um inimigo designado. Enquanto estiver em \"Conexão de Circuito\", a rodada atual não termina após usar sua Perícia e o Dano causado pela Perícia de Archer é aumentado. Ao ficar sem Pontos de Perícia suficientes para usar a Perícia novamente, sai do estado de \"Conexão de Circuito\".",
         "en": "Enters the \"Circuit Connection\" state. Deals massive Quantum DMG to one designated enemy. During the \"Circuit Connection\" state, the current turn does not end after using his Skill, and the DMG dealt by Archer's Skill increases. When Skill Points are insufficient to use Skill again, exits the \"Circuit Connection\" state.",
-        "zh-CN": "进入【回路连接】状态。对指定敌方单体造成大量量子属性伤害。【回路连接】状态下施放战技后，本回合不会结束，并使Archer战技造成的伤害提高。战技点不足以再次施放战技则退出【回路连接】状态。",
         "ja": "「回路接続」状態に入る。指定した敵単体に大量の量子属性ダメージを与える。「回路接続」状態の時、戦闘スキルを発動してもターンは終了しない。また、アーチャーの戦闘スキルによるダメージがアップする。SPがなくなり、再度戦闘スキルを発動できなくなった時、「回路接続」状態が解除される。",
         "ko": "[회로접속] 상태에 진입한다. 지정된 단일 적에게 대량의 양자 속성 피해를 가한다. [회로접속] 상태에서 전투 스킬 발동 후 이번 턴이 종료되지 않으며, 아처의 전투 스킬이 가하는 피해가 증가한다. 전투 스킬 포인트가 부족하여 전투 스킬을 다시 발동할 수 없을 경우 [회로접속] 상태가 종료된다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 101503,
@@ -90,14 +79,12 @@
       "name": {
         "pt-BR": "Unlimited Blade Works",
         "en": "Unlimited Blade Works",
-        "zh-CN": "无限剑制",
         "ja": "無限の剣製",
         "ko": "무한의 검제"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Archer a um inimigo-alvo designado e ganha #2[i] de Carga, até um máximo de #3[i] de Carga.",
         "en": "Deals Quantum DMG equal to #1[i]% of Archer's ATK to one designated enemy and gains #2[i] point(s) of Charge, up to a maximum of #3[i].",
-        "zh-CN": "对指定敌方单体造成等同于Archer#1[i]%攻击力的量子属性伤害，并获得#2[i]点充能，最多可拥有#3[i]点充能。",
         "ja": "指定した敵単体にアーチャーの攻撃力#1[i]%分の量子属性ダメージを与え、チャージを#2[i]獲得する。チャージは最大で#3[i]累積できる。",
         "ko": "지정된 단일 적에게 아처 공격력의 #1[i]%만큼 양자 속성 피해를 가하고 충전을 #2[i]pt 획득하며, 충전은 최대 #3[i]pt 보유할 수 있다"
       },
@@ -123,12 +110,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico massivo a um inimigo designado e ganha Carga.",
         "en": "Deals massive Quantum DMG to one designated enemy and gains Charge.",
-        "zh-CN": "对指定敌方单体造成大量量子属性伤害，并获得充能。",
         "ja": "指定した敵単体に大量の量子属性ダメージを与え、チャージを獲得する。",
         "ko": "지정된 단일 적에게 대량의 양자 속성 피해를 가하고 충전을 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 101504,
@@ -136,14 +122,12 @@
       "name": {
         "pt-BR": "Olho da Mente (Verdadeiro)",
         "en": "Mind's Eye (True)",
-        "zh-CN": "心眼（真）",
         "ja": "心眼（真）",
         "ko": "심안(진)"
       },
       "description": {
         "pt-BR": "Depois que um companheiro de equipe do Archer ataca um inimigo-alvo, Archer consome 1 Carga e realiza imediatamente um Ataque Extra no alvo principal, causando Dano Quântico igual a #1[i]% do ATQ de Archer e recuperando 1 Ponto de Perícia. Se o alvo for derrotado antes que este Ataque Extra seja lançado, o Ataque Extra será direcionado a um inimigo aleatório.",
         "en": "After Archer's teammates attack enemy targets, Archer consumes 1 Charge and immediately launches Follow-Up ATK on the primary target, dealing Quantum DMG equal to #1[i]% of Archer's ATK and recovering 1 Skill Point. If the target is defeated before this Follow-Up ATK is launched, the Follow-Up ATK will be directed at one random enemy instead.",
-        "zh-CN": "当Archer的队友对敌方目标施放攻击后，Archer消耗1点充能，立即对主目标发动追加攻击，造成等同于Archer#1[i]%攻击力的量子属性伤害，并恢复1个战技点。若本次追加攻击施放前目标被消灭则对敌方随机单体发动追加攻击。",
         "ja": "アーチャー以外の味方が敵に攻撃を行った後、アーチャーは即座にチャージを1消費してメインターゲットに追加攻撃を行い、アーチャーの攻撃力#1[i]%分の量子属性ダメージを与える。この時SPを1回復する。この追加攻撃を行う前にターゲットが倒された場合、ランダムな敵単体に追加攻撃を行う。",
         "ko": "아처의 동료가 적에게 공격을 발동하면 아처는 충전을 1pt 소모하고, 즉시 주목표에게 추가 공격을 발동하여 아처 공격력의 #1[i]%만큼 양자 속성 피해를 가하며, 전투 스킬 포인트를 1pt 회복한다. 이번 추가 공격 발동 전에 목표가 처치된 경우 랜덤 단일 적에게 추가 공격을 발동한다"
       },
@@ -169,21 +153,19 @@
       "summary": {
         "pt-BR": "Após um aliado usar um ataque, Archer consome 1 Carga e realiza um Ataque Extra no alvo principal, causando Dano Quântico e recuperando 1 Ponto de Perícia.",
         "en": "After a teammate uses an attack, Archer consumes 1 Charge and launches Follow-Up ATK on the primary target, dealing Quantum DMG and recovering 1 Skill Point.",
-        "zh-CN": "队友施放攻击后，Archer消耗1点充能，对主目标发动追加攻击，造成量子属性伤害，并恢复1个战技点。",
         "ja": "自身以外の味方が攻撃を行った後、アーチャーはチャージを1消費してメインターゲットに追加攻撃を行い、量子属性ダメージを与える。さらにSPを1回復する。",
         "ko": "동료가 공격을 발동하면 아처는 충전을 1pt 소모하고 주목표에게 추가 공격을 발동하여 양자 속성 피해를 가하며, 전투 스킬 포인트를 1pt 회복한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 101506,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +174,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e quando a batalha começa, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -200,11 +181,10 @@
     {
       "id": 101507,
       "type": "Technique",
-      "name": { "pt-BR": "Olho Milenar", "en": "Clairvoyance", "zh-CN": "千里眼", "ja": "千里眼", "ko": "천리안" },
+      "name": { "pt-BR": "Olho Milenar", "en": "Clairvoyance", "ja": "千里眼", "ko": "천리안" },
       "description": {
         "pt-BR": "Ataca o inimigo imediatamente. Depois de entrar em combate, causa Dano Quântico igual a #1[i]% do ATQ de Archer a todos os inimigos e ganha #2[i] pontos de Carga.",
         "en": "Immediately attacks enemies. After entering combat, deals Quantum DMG equal to #1[i]% of Archer's ATK to all enemies and gains #2[i] point(s) of Charge.",
-        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于Archer#1[i]%攻击力的量子属性伤害，并获得#2[i]点充能。",
         "ja": "敵を攻撃。戦闘に入った後、敵全体にアーチャーの攻撃力#1[i]%分の量子属性ダメージを与える、チャージを#2[i]獲得する。",
         "ko": "즉시 적을 공격하며, 전투 진입 후 모든 적에게 아처 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 충전을 #2[i]pt 획득한다"
       },
@@ -214,20 +194,18 @@
       "summary": {
         "pt-BR": "Ataca imediatamente o inimigo. Após entrar em batalha, causa Dano Quântico a todos os inimigos e ganha Carga.",
         "en": "Immediately attacks enemies. After entering combat, deals Quantum DMG to all enemies and gains Charge.",
-        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成量子属性伤害，并获得充能。",
         "ja": "敵を攻撃。戦闘に入った後、敵全体に量子属性ダメージを与え、チャージを獲得する。",
         "ko": "즉시 적을 공격하며, 전투 진입 후 모든 적에게 양자 속성 피해를 가하고 충전을 획득한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 101509,
       "type": "Skill",
-      "name": { "pt-BR": "Terminar", "en": "End", "zh-CN": "结束", "ja": "終了", "ko": "종료" },
+      "name": { "pt-BR": "Terminar", "en": "End", "ja": "終了", "ko": "종료" },
       "description": {
         "pt-BR": "Sai do estado de \"Conexão de Circuito\" e encerra a rodada.",
         "en": "Exits \"Circuit Connection\" state and ends the turn.",
-        "zh-CN": "退出【回路连接】状态，并结束回合。",
         "ja": "「回路接続」状態を解除し、ターンが終了する。",
         "ko": "[회로접속] 상태에서 벗어나고 턴을 종료한다."
       },
@@ -236,12 +214,11 @@
       "summary": {
         "pt-BR": "Sai do estado de \"Conexão de Circuito\" e encerra a rodada.",
         "en": "Exits \"Circuit Connection\" state and ends the turn.",
-        "zh-CN": "退出【回路连接】状态，并结束回合。",
         "ja": "「回路接続」状態を解除し、ターンが終了する。",
         "ko": "[회로접속] 상태에서 벗어나고 턴을 종료한다."
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Terminar", "en": "End", "zh-CN": "结束", "ja": "終了", "ko": "종료" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Terminar", "en": "End", "ja": "終了", "ko": "종료" }
     }
   ],
   "eidolons": [
@@ -250,14 +227,12 @@
       "name": {
         "pt-BR": "O Sonho Inalcançado",
         "en": "The Unreached Dream",
-        "zh-CN": "未曾触及的理想",
         "ja": "{RUBY_B#ふ}触{RUBY_E#}れられなかった{RUBY_B#りそう}理想{RUBY_E#}",
         "ko": "닿지 못한 이상"
       },
       "description": {
         "pt-BR": "Após usar a Perícia 3 vez(es) dentro de uma rodada, recupera 2 Ponto(s) de Perícia para os aliados.",
         "en": "After using Skill 3 time(s) within one turn, recovers 2 Skill Point(s) for allies.",
-        "zh-CN": "单个回合内施放3次战技后，为我方恢复2个战技点。",
         "ja": "戦闘スキルを1ターンに3回発動した後、SPを2回復する。",
         "ko": "단일 턴 내에 전투 스킬을 3회 발동하면 아군의 전투 스킬 포인트를 2pt 회복한다"
       },
@@ -270,14 +245,12 @@
       "name": {
         "pt-BR": "A Felicidade Não Realizada",
         "en": "The Unfulfilled Happiness",
-        "zh-CN": "未能实现的幸福",
         "ja": "{RUBY_B#かな}叶{RUBY_E#}えられなかった{RUBY_B#こうふく}幸福{RUBY_E#}",
         "ko": "이루지 못한 행복"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia Suprema, reduz a RES a Quântico do inimigo-alvo em 20% e implanta Fraqueza contra Quântico, com duração de 2 rodada(s).",
         "en": "When using Ultimate, reduces the enemy target's Quantum RES by 20%, and applies Quantum Weakness to it, lasting for 2 turn(s).",
-        "zh-CN": "施放终结技时，使敌方目标的量子属性的抗性降低20%，并为其添加量子属性弱点，持续2回合。",
         "ja": "必殺技を発動する時、ターゲットの量子属性耐性-20%、さらに量子属性弱点を付与する、2ターン継続。",
         "ko": "필살기 발동 시 적의 양자 속성 저항을 20% 감소시키며, 대상에게 양자 속성 약점을 부여한다, 지속 시간: 2턴"
       },
@@ -290,14 +263,12 @@
       "name": {
         "pt-BR": "A Vontade Indomável",
         "en": "The Untamed Will",
-        "zh-CN": "难为凡庸的意气",
         "ja": "{RUBY_B#ぼんよう}凡庸{RUBY_E#}に{RUBY_B#あま}甘{RUBY_E#}んじない{RUBY_B#きがい}気概{RUBY_E#}",
         "ko": "평범함을 거부하는 기개"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -310,14 +281,12 @@
       "name": {
         "pt-BR": "A Vida Não Cantada",
         "en": "The Unsung Life",
-        "zh-CN": "难称英雄的一生",
         "ja": "{RUBY_B#えいゆう}英雄{RUBY_E#}とは{RUBY_B#ほどとお}程遠{RUBY_E#}い{RUBY_B#しょうがい}生涯{RUBY_E#}",
         "ko": "영웅이라 불릴 수 없는 삶"
       },
       "description": {
         "pt-BR": "Aumenta o Dano de Perícia Suprema em 150%.",
         "en": "Increases the Ultimate DMG dealt by 150%.",
-        "zh-CN": "造成的终结技伤害提高150%。",
         "ja": "必殺技ダメージ+150%。",
         "ko": "가하는 필살기 피해가 150% 증가한다"
       },
@@ -330,14 +299,12 @@
       "name": {
         "pt-BR": "A Vigília dos Inominados",
         "en": "The Nameless Watch",
-        "zh-CN": "无铭孤影的守望",
         "ja": "{RUBY_B#むめい}無銘{RUBY_E#}なる{RUBY_B#こえい}孤影{RUBY_E#}の{RUBY_B#しゅご}守護{RUBY_E#}",
         "ko": "고독한 무명의 수호"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -350,14 +317,12 @@
       "name": {
         "pt-BR": "A Peregrinação Interminável",
         "en": "The Endless Pilgrimage",
-        "zh-CN": "无尽徘徊的巡礼",
         "ja": "{RUBY_B#は}果{RUBY_E#}てなきを{RUBY_B#さまよ}彷徨{RUBY_E#}う{RUBY_B#じゅんれい}巡礼{RUBY_E#}",
         "ko": "끝없는 배회의 순례"
       },
       "description": {
         "pt-BR": "Quando a rodada começa, recupera 1 Ponto de Perícia para os aliados. O número máximo de acúmulos permitidos para o efeito de Bônus de Dano concedido pela Perícia desta unidade aumenta em 1. O Dano causado pela Perícia ignora 20% da DEF.",
         "en": "When the turn starts, recovers 1 Skill Point for allies. The maximum number of stacks allowed for the DMG boost effect provided by this unit's Skill increases by 1. The Skill DMG dealt ignores 20% of DEF.",
-        "zh-CN": "回合开始时为我方恢复1个战技点。自身战技提供的伤害提高效果可以叠加的上限层数提高1层。造成的战技伤害无视20%的防御力。",
         "ja": "ターンが回ってきた時、SPを1回復する。自身の戦闘スキルで累積できるダメージアップ効果+1層。戦闘スキルダメージは防御力を20%無視する。",
         "ko": "턴 시작 시 아군의 전투 스킬 포인트를 1pt 회복한다. 자신의 전투 스킬이 제공하는 피해 증가 효과의 중첩 가능 스택 최대치가 1스택 증가한다. 가하는 전투 스킬 피해가 방어력을 20% 무시한다"
       },
@@ -737,14 +702,12 @@
       "name": {
         "pt-BR": "Taumaturgia de Projeção",
         "en": "Projection Magecraft",
-        "zh-CN": "投影魔术",
         "ja": "{RUBY_B#とうえいまじゅつ}投影魔術{RUBY_E#}",
         "ko": "투영 마술"
       },
       "description": {
         "pt-BR": "Quando Archer está em campo, aumenta o limite máximo de Pontos de Perícia em #1[i].",
         "en": "When Archer is on the field, increases the maximum Skill Point limit by #1[i].",
-        "zh-CN": "Archer在场时，战技点上限额外增加#1[i]点。",
         "ja": "アーチャーがフィールド上にいる時、最大SP+#1[i]。",
         "ko": "아처가 필드에 있을 시 전투 스킬 포인트 최대치가 추가로 #1[i]pt 증가한다"
       },
@@ -768,14 +731,12 @@
       "name": {
         "pt-BR": "Herói da Justiça",
         "en": "Hero of Justice",
-        "zh-CN": "正义伙伴",
         "ja": "{RUBY_B#せいぎ}正義{RUBY_E#}の{RUBY_B#みかた}味方{RUBY_E#}",
         "ko": "정의의 사자"
       },
       "description": {
         "pt-BR": "Quando Archer entra em batalha, ganha #1[i] ponto(s) de Carga.",
         "en": "When Archer enters combat, gains #1[i] point(s) of Charge.",
-        "zh-CN": "Archer进入战斗时获得#1[i]点充能。",
         "ja": "アーチャーは戦闘に入る時、チャージを#1[i]獲得する。",
         "ko": "아처가 전투 진입 시 충전을 #1[i]pt 획득한다"
       },
@@ -801,17 +762,10 @@
     {
       "id": 1015103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Guardião",
-        "en": "Guardian",
-        "zh-CN": "守护者",
-        "ja": "{RUBY_B#しゅごしゃ}守護者{RUBY_E#}",
-        "ko": "수호자"
-      },
+      "name": { "pt-BR": "Guardião", "en": "Guardian", "ja": "{RUBY_B#しゅごしゃ}守護者{RUBY_E#}", "ko": "수호자" },
       "description": {
         "pt-BR": "Depois que os aliados ganham um Ponto de Perícia, se houver #3[i] Pontos de Perícia ou mais, aumenta o Dano CRIT de Archer em #1[i]% por #2[i] rodadas.",
         "en": "After allies gain a Skill Point, if there are #3[i] Skill Points or more, increases Archer's CRIT DMG by #1[i]% for #2[i] turn(s).",
-        "zh-CN": "我方获得战技点后，若战技点大于等于#3[i]点，Archer的暴击伤害提高#1[i]%，持续#2[i]回合。",
         "ja": "味方がSPを獲得した後、SPが#3[i]以上の場合、アーチャーの会心ダメージ+#1[i]%、#2[i]ターン継続。",
         "ko": "아군이 전투 스킬 포인트 획득 후 전투 스킬 포인트가 #3[i]pt 이상일 경우 아처의 치명타 피해가 #1[i]% 증가한다, 지속 시간: #2[i]턴"
       },
@@ -840,7 +794,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -860,7 +813,7 @@
     {
       "id": 1015202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1015101],
@@ -880,7 +833,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -903,7 +855,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -926,7 +877,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -946,7 +896,7 @@
     {
       "id": 1015206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1015205],
@@ -966,7 +916,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -989,7 +938,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1009,7 +957,7 @@
     {
       "id": 1015209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1015208],
@@ -1029,7 +977,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },

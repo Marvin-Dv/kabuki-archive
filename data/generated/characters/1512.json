@@ -1,13 +1,7 @@
 {
   "id": 1512,
   "slug": "robin-summeretto",
-  "name": {
-    "pt-BR": "Robin - Summeretto",
-    "en": "Robin • Summeretto",
-    "zh-CN": "知更鸟•晴歌",
-    "ja": "ロビン・夏空の歌",
-    "ko": "로빈•서머레토"
-  },
+  "name": { "pt-BR": "Robin - Summeretto", "en": "Robin • Summeretto", "ja": "ロビン・夏空の歌", "ko": "로빈•서머레토" },
   "rarity": 5,
   "path": "Remembrance",
   "element": "Wind",
@@ -20,14 +14,12 @@
       "name": {
         "pt-BR": "O Mar Canta no Meu Tom",
         "en": "The Sea Sings in My Key",
-        "zh-CN": "音浪，为海风定调",
         "ja": "海風のトーンを決める波",
         "ko": "바닷바람을 이끄는 음파"
       },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% dos PV máximos de Robin - Summeretto a um inimigo.",
         "en": "Deals Wind DMG equal to #1[i]% of Robin • Summeretto's Max HP to one enemy.",
-        "zh-CN": "对敌方单体造成等同于知更鸟•晴歌#1[i]%生命上限的风属性伤害。",
         "ja": "敵単体にロビン・夏空の歌の最大HP#1[i]%分の風属性ダメージを与える。",
         "ko": "단일 적에게 로빈•서머레토 HP 최대치의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
@@ -37,12 +29,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
         "ja": "敵単体に少量の風属性ダメージを与える。",
         "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 151202,
@@ -50,14 +41,12 @@
       "name": {
         "pt-BR": "O Verão Toca a Alma",
         "en": "Summer Strums the Soul",
-        "zh-CN": "盛夏是灵魂的乐手",
         "ja": "真夏の魂の演奏者",
         "ko": "한여름은 영혼의 연주자"
       },
       "description": {
         "pt-BR": "Invoca o Memoespírito Gravi dos \"Pássaros de Verão\". Se algum dos \"Pássaros de Verão\" já estiver no campo, restaura seus PV em um valor igual a #1[i]% dos PV máximos dos \"Pássaros de Verão\" e ganha #2[i] ponto(s) de \"Vibrações\".",
         "en": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to #1[i]% of \"Summer Songbirds'\" Max HP, and gains #2[i] Vibes.",
-        "zh-CN": "召唤忆灵「晴空乐手」贝茜。若任意「晴空乐手」已在场，为其回复等同于「晴空乐手」生命上限#1[i]%的生命值，并获得#2[i]点气氛值。",
         "ja": "記憶の精霊「夏空フライト」ベーシーを召喚する。すでにいずれかの「夏空フライト」がフィールド上にいる場合、「夏空フライト」のHPを最大HPの#1[i]%分回復し、ムードを#2[i]獲得する。",
         "ko": "기억 정령 「맑은하늘 세션」 베시를 소환한다. 임의의 「맑은하늘 세션」이 이미 필드에 있을 경우, 대상의 HP를 「맑은하늘 세션」 HP 최대치의 #1[i]%만큼 회복하고, 무대 열기를 #2[i]pt 획득한다"
       },
@@ -83,12 +72,11 @@
       "summary": {
         "pt-BR": "Invoca o Memoespírito Gravi dos \"Pássaros de Verão\". Se \"Pássaros de Verão\" já estiverem em campo, restaura os PV de \"Pássaros de Verão\" e obtém ponto(s) de \"Vibrações\".",
         "en": "Summons memosprite \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores HP for \"Summer Songbirds\" and gains Vibes.",
-        "zh-CN": "召唤忆灵「晴空乐手」贝茜。若「晴空乐手」已在场，为「晴空乐手」回复生命值，并获得气氛值。",
         "ja": "記憶の精霊「夏空フライト」ベーシーを召喚する。すでに「夏空フライト」がフィールド上にいる場合は「夏空フライト」のHPを回復し、ムードを獲得する。",
         "ko": "기억 정령 「맑은하늘 세션」 베시를 소환한다. 「맑은하늘 세션」이 이미 필드에 있을 경우, 「맑은하늘 세션」의 HP를 회복하고, 무대 열기를 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Invocar", "en": "Summon", "zh-CN": "召唤", "ja": "召喚", "ko": "소환" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Invocar", "en": "Summon", "ja": "召喚", "ko": "소환" }
     },
     {
       "id": 151203,
@@ -96,14 +84,12 @@
       "name": {
         "pt-BR": "Imersão na Rapsódia Azul",
         "en": "Ascend That Rhapsody in Blue",
-        "zh-CN": "跃入这片蔚蓝狂想",
         "ja": "青き狂想へダイブして",
         "ko": "푸른빛 랩소디에 뛰어들어"
       },
       "description": {
         "pt-BR": "Avança Adiante a ação de um personagem aliado designado (exceto Robin - Summeretto) em #1[i]% e regenera uma quantidade fixa de Energia igual a #3[f1]% da Energia Máxima desse personagem. Em seguida, concede a ele o efeito de \"Convidado Especial\". Quando o personagem com \"Convidado Especial\" ou sua invocação atacar, eles concedem adicionalmente #2[i] ponto(s) de \"Vibrações\" a Robin - Summeretto, mas não podem fazer com que outros aliados-alvo recebam o efeito de Avançar Adiante a ação. Isso dura 2 rodada(s), e sua duração é reduzida em 1 no início da rodada desse personagem.",
         "en": "Advances the action of one designated ally character (excluding Robin • Summeretto) by #1[i]% and regenerates a fixed amount of Energy equal to #3[f1]% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin • Summeretto #2[i] Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
-        "zh-CN": "使除知更鸟•晴歌外的指定我方单体角色行动提前#1[i]%并固定恢复等同于#3[f1]%能量上限的能量。随后使其获得【特邀嘉宾】效果，持有【特邀嘉宾】的角色及其召唤物攻击时额外使知更鸟•晴歌获得#2[i]点气氛值，且无法使其他友方目标获得行动提前效果，持续2回合。该角色每回合开始时持续回合数减1。",
         "ja": "ロビン・夏空の歌以外の指定した味方キャラ単体の行動順を#1[i]%早め、最大EP#3[f1]%分のEPを固定で回復する。その後、そのキャラは「スペシャルゲスト」効果を獲得する。「スペシャルゲスト」効果を持つキャラおよびその召喚物が攻撃する時、ロビン・夏空の歌は追加でムードを#2[i]獲得する。また、「スペシャルゲスト」効果を持つキャラおよびその召喚物は、他の味方に行動順を早める効果を付与できない。「スペシャルゲスト」効果は2ターン継続する。そのキャラのターンが回ってきた時、継続ターン数-1。",
         "ko": "로빈•서머레토를 제외한 지정된 단일 아군 캐릭터의 행동 게이지를 #1[i]% 증가시키고, 에너지 최대치의 #3[f1]%만큼 에너지를 고정으로 회복한다. 이후 대상은 [특별 게스트] 효과를 획득하며, [특별 게스트]를 보유한 캐릭터 및 해당 캐릭터의 소환물이 공격 시 로빈•서머레토는 추가로 무대 열기를 #2[i]pt 획득하고, 해당 캐릭터 및 해당 캐릭터의 소환물은 다른 아군이 행동 게이지 증가 효과를 획득하게 할 수 없다, 지속 시간: 2턴. 해당 캐릭터의 턴이 시작될 때마다 지속 턴 수가 1 감소한다"
       },
@@ -129,12 +115,11 @@
       "summary": {
         "pt-BR": "Avança Adiante a ação de um aliado designado (excluindo Robin - Summeretto) e regenera Energia. Em seguida, concede a ele o efeito \"Convidado Especial\". Quando esse personagem ou sua invocação ataca, eles também concedem \"Vibrações\" à Robin - Summeretto, mas não podem conceder o efeito de Avanço Adiante a outros aliados.",
         "en": "Advances the action of one designated ally character (excluding Robin • Summeretto) and regenerates Energy. Then, grants them the \"Special Guest\" effect. When this character or their summon attacks, they additionally grant Robin • Summeretto Vibes, but cannot make other friendly targets gain the action advance effect.",
-        "zh-CN": "使除知更鸟•晴歌外的指定我方单体角色行动提前并恢复能量，随后使其获得【特邀嘉宾】效果，该角色及其召唤物攻击时额外使知更鸟•晴歌获得气氛值，且无法使其他友方目标获得行动提前效果。",
         "ja": "ロビン・夏空の歌以外の指定した味方キャラ単体の行動順を早め、EPを回復させる。その後、指定されたキャラに「スペシャルゲスト」効果を付与する。「スペシャルゲスト」効果を持つキャラおよびその召喚物が攻撃する時、ロビン・夏空の歌は追加でムードを獲得する。また、「スペシャルゲスト」効果を持つキャラおよびその召喚物は、他の味方に行動順を早める効果を付与できない。",
         "ko": "로빈•서머레토를 제외한 지정된 단일 아군 캐릭터의 행동 게이지를 증가시키고 에너지를 회복하며, 이후 대상은 [특별 게스트] 효과를 획득하고, 해당 캐릭터 및 해당 캐릭터의 소환물이 공격 시 로빈•서머레토는 추가로 무대 열기를 획득하며, 해당 캐릭터 및 해당 캐릭터의 소환물은 다른 아군 목표가 행동 게이지 증가 효과를 획득하게 할 수 없다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 151204,
@@ -142,14 +127,12 @@
       "name": {
         "pt-BR": "Asas Irrefreáveis",
         "en": "Wings Heed No Borders",
-        "zh-CN": "巡游在无界的天空",
         "ja": "果てなき大空を舞う",
         "ko": "끝없는 하늘을 누비며"
       },
       "description": {
         "pt-BR": "O Memoespírito \"Pássaros de Verão\" tem PV máximos iniciais iguais a #1[i]% dos PV máximos de Robin - Summeretto e VEL inicial igual a #2[i]% da VEL de Robin - Summeretto. Quando um aliado-alvo ataca ou, pela primeira vez durante a rodada de qualquer alvo, fornece Cura ou fornece um Escudo, Robin - Summeretto ganha 1 ponto de \"Vibrações\", até um máximo de #5[i]. Enquanto Gravi dos \"Pássaros de Verão\" estiver em campo, se os pontos de \"Vibrações\" de Robin - Summeretto forem iguais a #6[i] ou mais, invoca imediatamente Batera dos \"Pássaros de Verão\", e se os pontos de \"Vibrações\" forem iguais #7[i] ou mais, invoca imediatamente Midi dos \"Pássaros de Verão\". Quando todos os \"Pássaros de Verão\" tiverem subido ao palco, dissipa todas as penalidades de Controle Negativo infligidas sobre Robin - Summeretto e sobre os \"Pássaros de Verão\", entra no estado de \"Agitação\" e cria um Campo. Quando aliados-alvo causam Dano dentro do Campo, eles ignoram uma porcentagem da DEF dos inimigos-alvo igual a (#8[f1]% + \"Vibrações\" × #9[f1]%).\nEnquanto estiverem no estado de \"Agitação\", Robin - Summeretto e os \"Pássaros de Verão\" são imunes a penalidades de Controle Negativo. Robin - Summeretto não iniciará sua rodada até que o estado de \"Agitação\" termine.",
         "en": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to #1[i]% of Robin • Summeretto's Max HP and an initial SPD equal to #2[i]% of Robin • Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin • Summeretto gains Vibes by 1 point, capped at #5[i]. While \"Summer Songbirds\" Bessie is on the field, if Robin • Summeretto's Vibes is #6[i] or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is #7[i] or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin • Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (#8[f1]% + Vibes × #9[f1]%).\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin • Summeretto will not enter her turn until the \"Fever\" state ends.",
-        "zh-CN": "忆灵「晴空乐手」初始拥有等同于知更鸟•晴歌#1[i]%生命上限的生命上限和等同于知更鸟•晴歌#2[i]%速度的速度。我方目标施放攻击时，或在任意目标回合第一次提供治疗效果或护盾时，知更鸟•晴歌获得1点气氛值，上限#5[i]点。「晴空乐手」贝茜在场时，若知更鸟•晴歌的气氛值大于等于#6[i]点，立即召唤「晴空乐手」啾米，若气氛值大于等于#7[i]点，立即召唤「晴空乐手」派丁。当「晴空乐手」全员登台后，解除知更鸟•晴歌与「晴空乐手」陷入的所有控制类负面状态、进入【Fever】状态并展开结界，结界内我方目标造成伤害时无视敌方目标（#8[f1]%+气氛值*#9[f1]%）防御力。\n处于【Fever】状态时，知更鸟•晴歌与「晴空乐手」免疫控制类负面状态，【Fever】状态结束前知更鸟•晴歌不会进入自己的回合。",
         "ja": "記憶の精霊「夏空フライト」の初期最大HPはロビン・夏空の歌の最大HPの#1[i]%分となり、初期速度はロビン・夏空の歌の速度の#2[i]%分となる。味方が攻撃を行う時、任意のユニットのターンで初めて治癒を行う時、または任意のユニットのターンで初めてバリアを付与する時、ロビン・夏空の歌はムードを1獲得する。ムードの上限は#5[i]。「夏空フライト」ベーシーがフィールド上に存在する時、ロビン・夏空の歌のムードが#6[i]以上になると「夏空フライト」ドラミーを、ムードが#7[i]以上になると「夏空フライト」パディーをそれぞれ即座に召喚する。「夏空フライト」が全員登場した後、ロビン・夏空の歌と「夏空フライト」に付与されているすべての行動制限系デバフを解除し、「フィーバー」状態に入って結界を展開する。結界内の味方がダメージを与える時、敵の防御力を（#8[f1]%+ムード×#9[f1]%）無視する。\n「フィーバー」状態の時、ロビン・夏空の歌と「夏空フライト」は行動制限系デバフに抵抗できる。「フィーバー」状態が終了するまで、ロビン・夏空の歌は自身のターンに入らない。",
         "ko": "기억 정령 「맑은하늘 세션」은 초기에 로빈•서머레토 HP 최대치의 #1[i]%만큼 HP 최대치를 보유하고, 로빈•서머레토 속도의 #2[i]%만큼 속도를 보유한다. 아군이 공격 발동 시 또는 임의의 목표 턴에 처음으로 치유 효과 또는 실드 제공 시, 로빈•서머레토는 무대 열기를 1pt 획득한다(최대: #5[i]pt). 「맑은하늘 세션」 베시가 필드에 있을 시, 로빈•서머레토의 무대 열기가 #6[i]pt 이상이면 즉시 「맑은하늘 세션」 드러미를 소환하고, 무대 열기가 #7[i]pt 이상이면 즉시 「맑은하늘 세션」 패디를 소환한다. 「맑은하늘 세션」 전원이 무대에 오르면 로빈•서머레토와 「맑은하늘 세션」이 빠진 모든 제어류 디버프 상태를 해제하고, [Fever] 상태에 진입해 결계를 펼친다. 결계 내 아군이 피해를 가할 시 적의 방어력을 (#8[f1]%+무대 열기x#9[f1]%)만큼 무시한다.\n[Fever] 상태일 시, 로빈•서머레토와 「맑은하늘 세션」은 제어류 디버프 상태에 면역되며, [Fever] 상태가 종료되기 전까지 로빈•서머레토는 자신의 턴에 진입하지 않는다"
       },
@@ -175,21 +158,19 @@
       "summary": {
         "pt-BR": "Quando um aliado-alvo usa um ataque, fornece Cura ou fornece um Escudo, Robin - Summeretto ganha \"Vibrações\". Quando os pontos de \"Vibrações\" atingem um determinado valor, invoca respectivamente Batera e Midi dos \"Pássaros de Verão\". Após todos os \"Pássaros de Verão\" subirem ao palco, Robin - Summeretto e os \"Pássaros de Verão\" entram no estado de \"Agitação\" e implantam um Campo. Dentro do Campo, quando aliados-alvo causam Dano, eles ignoram uma parte da DEF dos inimigos-alvo.\nEnquanto estiverem no estado de \"Agitação\", Robin - Summeretto e os \"Pássaros de Verão\" são imunes às penalidades de Controle Negativo. Robin - Summeretto não iniciará sua rodada até que o estado de \"Agitação\" termine.",
         "en": "When an ally target uses an attack, or provides healing or Shield, Robin • Summeretto gains Vibes. Once Vibes reaches a certain value, summons \"Summer Songbirds\" Drummie and \"Summer Songbirds\" Paddie respectively. After all \"Summer Songbirds\" take the stage, Robin • Summeretto and the \"Summer Songbirds\" enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore a portion of enemy targets' DEF.\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin • Summeretto will not enter her turn until the \"Fever\" state ends.",
-        "zh-CN": "我方目标施放攻击时、提供治疗效果或护盾时，知更鸟•晴歌获得气氛值。气氛值到达一定点数后，分别召唤「晴空乐手」啾米与「晴空乐手」派丁。当「晴空乐手」全员登台后，知更鸟•晴歌与「晴空乐手」进入【Fever】状态并展开结界，结界内我方目标造成伤害时无视敌方目标部分防御力。\n处于【Fever】状态时，知更鸟•晴歌与「晴空乐手」免疫控制类负面状态，【Fever】状态结束前知更鸟•晴歌不会进入自己的回合。",
         "ja": "味方が攻撃、治癒またはバリアの付与を行う時、ロビン・夏空の歌はムードを獲得する。ムードが一定値に達した後、「夏空フライト」ドラミー、「夏空フライト」パディーをそれぞれ召喚する。「夏空フライト」全員が登場した後、ロビン・夏空の歌と「夏空フライト」は「フィーバー」状態に入り、結界を展開する。結界内で味方がダメージを与える時、敵の防御力の一部を無視する。\n「フィーバー」状態の時、ロビン・夏空の歌と「夏空フライト」は行動制限系デバフに抵抗できる。「フィーバー」状態が終了するまで、ロビン・夏空の歌は自身のターンに入らない。",
         "ko": "아군이 공격을 발동하거나 치유 효과 또는 실드 제공 시, 로빈•서머레토는 무대 열기를 획득한다. 무대 열기가 일정 포인트에 도달하면 각각 「맑은하늘 세션」 드러미와 「맑은하늘 세션」 패디를 소환한다. 「맑은하늘 세션」 전원이 무대에 오르면, 로빈•서머레토와 「맑은하늘 세션」은 [Fever] 상태에 진입하고 결계를 펼치며, 결계 내 아군이 피해를 가할 시 적의 방어력을 일부 무시한다.\n[Fever] 상태일 시 로빈•서머레토와 「맑은하늘 세션」은 제어류 디버프 상태에 면역되며, [Fever] 상태가 종료되기 전까지 로빈•서머레토는 자신의 턴에 진입하지 않는다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 151206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -198,7 +179,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -209,14 +189,12 @@
       "name": {
         "pt-BR": "Nós Somos a Melodia",
         "en": "We Are the Melody",
-        "zh-CN": "我们自成旋律",
         "ja": "私たちがメロディーに",
         "ko": "우리가 선율이 되어"
       },
       "description": {
         "pt-BR": "Após usar a Técnica, no início do próximo combate, Avança Adiante a ação em #3[i]%, ganha imediatamente #1[i] ponto(s) de \"Vibrações\" e concede a todos os aliados um Bônus de Dano causado de #2[i]% por 2 rodada(s).",
         "en": "After using Technique, advances action by #3[i]% at the start of the next battle, immediately gains #1[i] Vibes, and increases all allies' DMG dealt by #2[i]%, lasting for 2 turn(s).",
-        "zh-CN": "使用秘技后，使下一次战斗开始时行动提前#3[i]%，立即获得#1[i]点气氛值，并使我方全体造成的伤害提高#2[i]%，持续2回合。",
         "ja": "秘技を使用した後、次の戦闘開始時に行動順が#3[i]%早まり、即座にムードを#1[i]獲得する。なお、味方全体の与ダメージ+#2[i]%、2ターン継続。",
         "ko": "비술 사용 후 다음 전투 시작 시 행동 게이지가 #3[i]% 증가하고, 즉시 무대 열기를 #1[i]pt 획득하며, 모든 아군이 가하는 피해를 #2[i]% 증가시킨다, 지속 시간: 2턴"
       },
@@ -226,12 +204,11 @@
       "summary": {
         "pt-BR": "Ao entrar em combate, Avança Adiante a ação, ganha \"Vibrações\" imediatamente e aumenta o Dano causado por todos os aliados.",
         "en": "Upon entering combat, advances action, immediately gains Vibes, and increases all allies' DMG dealt.",
-        "zh-CN": "进战行动提前，立即获得气氛值，并使我方全体造成的伤害提高。",
         "ja": "戦闘開始時、行動順を早め、即座にムードを獲得する。なお、味方全体の与ダメージをアップする。",
         "ko": "전투 진입 시 행동 게이지가 증가하고, 즉시 무대 열기를 획득하며, 모든 아군이 가하는 피해를 증가시킨다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1151201,
@@ -239,14 +216,12 @@
       "name": {
         "pt-BR": "Quarteto Chilreante",
         "en": "Chirrup Quartet",
-        "zh-CN": "叽叽啾啾四重奏",
         "ja": "チュンチュン・カルテット",
         "ko": "짹짹 사중주"
       },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #2[f1]% dos PV máximos dos \"Pássaros de Verão\" a todos os inimigos.",
         "en": "Deals Wind DMG equal to #2[f1]% of \"Summer Songbirds'\" Max HP to all enemies.",
-        "zh-CN": "对敌方全体造成等同于「晴空乐手」#2[f1]%生命上限的风属性伤害。",
         "ja": "敵全体に「夏空フライト」の最大HP#2[f1]%分の風属性ダメージを与える。",
         "ko": "모든 적에게 「맑은하늘 세션」 HP 최대치의 #2[f1]%만큼 바람 속성 피해를 가한다"
       },
@@ -267,18 +242,16 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento massivo a todos os inimigos.",
         "en": "Deals massive Wind DMG to all enemies.",
-        "zh-CN": "对敌方全体造成大量风属性伤害。",
         "ja": "敵全体に大量の風属性ダメージを与える。",
         "ko": "모든 적에게 대량의 바람 속성 피해를 가한다"
       },
       "typeText": {
         "pt-BR": "Perícia do Memoespírito",
         "en": "Memosprite Skill",
-        "zh-CN": "忆灵技",
         "ja": "精霊スキル",
         "ko": "기억 정령 스킬"
       },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1151203,
@@ -286,14 +259,12 @@
       "name": {
         "pt-BR": "Um Gorjeio de Asas",
         "en": "A Warble of Wings",
-        "zh-CN": "扑翅雀跃的和声",
         "ja": "羽ばたくハーモニー",
         "ko": "날갯짓으로 어우러진 화음"
       },
       "description": {
         "pt-BR": "Enquanto estiver no estado de \"Agitação\", os \"Pássaros de Verão\" e uma contagem regressiva aparecerão na Ordem de Ação, aumentando o Dano causado por Robin - Summeretto e por eles mesmos em uma quantidade igual a (#1[i]% + \"Vibrações\" × #2[f1]%). Quando a rodada dos \"Pássaros de Verão\" começa, eles usam a Perícia de Memoespírito. A contagem regressiva tem VEL inicial de #9[i]. Quando a rodada deles começa, #10[i]% dos pontos de \"Vibrações\" atuais (no mínimo #6[i] pontos) serão deduzidos. Quando os pontos de \"Vibrações\" chegarem a 0, os \"Pássaros de Verão\" desaparecem e Robin - Summeretto sai do estado de \"Agitação\". Enquanto os \"Pássaros de Verão\" estiverem em campo, aumenta o Dano recebido por todos os inimigos em #3[f1]%/#4[f1]%/#5[f1]% respectivamente, com base no número de membros presentes.",
         "en": "While in the \"Fever\" state, the \"Summer Songbirds\" and a countdown will appear on the Action Order. And the DMG dealt by Robin • Summeretto and \"Summer Songbirds\" increases by an amount equal to (#1[i]% + Vibes × #2[f1]%). When \"Summer Songbirds'\" turn starts, uses the Memosprite Skill. The countdown has an initial SPD of #9[i]. And when its turn starts, deducts #10[i]% of the current Vibes (minimum #6[i] points). When the Vibes reaches 0, the \"Summer Songbirds\" disappears and Robin • Summeretto exits the \"Fever\" state. While the \"Summer Songbirds\" is on the field, based on the number of its members present, increases the DMG taken by all enemies by #3[f1]%/#4[f1]%/#5[f1]% respectively.",
-        "zh-CN": "处于【Fever】状态时，「晴空乐手」和倒计时将出现在行动序列上，并使知更鸟•晴歌与自身造成的伤害提高（#1[i]%+气氛值*#2[f1]%）。「晴空乐手」回合开始时施放忆灵技。倒计时初始速度#9[i]点，回合开始时扣除#10[i]%的当前气氛值，至少扣除#6[i]点，当气氛值为零时，「晴空乐手」消失并使知更鸟•晴歌退出【Fever】状态。「晴空乐手」在场时，根据成员数量使敌方全体受到的伤害分别提高#3[f1]%/#4[f1]%/#5[f1]%。",
         "ja": "「フィーバー」状態の時、「夏空フライト」とカウントダウンがアクションバーに出現し、ロビン・夏空の歌と自身の与ダメージ+（#1[i]%+ムード×#2[f1]%）。「夏空フライト」は、自身のターンが回ってくると精霊スキルを発動する。カウントダウンの初期速度は#9[i]、ターンが回ってきた時に現在のムードの#10[i]%（最低#6[i]）を消費する。ムードが0になると「夏空フライト」は退場し、ロビン・夏空の歌の「フィーバー」状態が解除される。「夏空フライト」がフィールド上に存在する時、メンバーの数に応じて敵全体の受けるダメージがそれぞれ#3[f1]%/#4[f1]%/#5[f1]%アップする。",
         "ko": "[Fever] 상태일 시 「맑은하늘 세션」과 카운트다운이 행동 서열에 나타나며, 로빈•서머레토와 자신이 가하는 피해가 (#1[i]%+무대 열기x#2[f1]%) 증가한다. 「맑은하늘 세션」의 턴 시작 시 기억 정령 스킬을 발동한다. 카운트다운의 초기 속도는 #9[i]pt이고, 턴 시작 시 현재 무대 열기의 #10[i]%를 차감하며(최소 #6[i]pt 차감), 무대 열기가 0이 되면 「맑은하늘 세션」이 사라지고 로빈•서머레토의 [Fever] 상태가 종료된다. 「맑은하늘 세션」이 필드에 있을 시 멤버 수에 따라 모든 적이 받는 피해가 각각 #3[f1]%/#4[f1]%/#5[f1]% 증가한다"
       },
@@ -314,18 +285,16 @@
       "summary": {
         "pt-BR": "Enquanto estiver no estado de \"Agitação\", o Dano causado por Robin - Summeretto e pelos \"Pássaros de Verão\" aumenta. Os \"Pássaros de Verão\" usam a Perícia de Memoespírito no início de sua rodada. Quando as \"Vibrações\" chegam a 0, os \"Pássaros de Verão\" desaparecem, fazendo Robin - Summeretto sair do estado de \"Agitação\". Enquanto os \"Pássaros de Verão\" estiverem em campo, aumenta o Dano recebido por todos os inimigos com base no número de membros.",
         "en": "While in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" increase their DMG dealt. When the \"Summer Songbirds'\" turn starts, uses Memosprite Skill. When Vibes reaches 0, \"Summer Songbirds\" disappears, and Robin • Summeretto exits the \"Fever\" state. While the \"Summer Songbirds\" is on the field, increases the DMG taken by all enemies based on the number of its members present.",
-        "zh-CN": "处于【Fever】状态时，知更鸟•晴歌与自身造成的伤害提高。「晴空乐手」回合开始时施放忆灵技。当气氛值为零时，「晴空乐手」消失并使知更鸟•晴歌退出【Fever】状态。「晴空乐手」在场时，根据成员数量使敌方全体受到的伤害提高。",
         "ja": "「フィーバー」状態の時、ロビン・夏空の歌と自身の与ダメージがアップする。「夏空フライト」のターンが回ってきた時、精霊スキルを発動する。ムードが0になると「夏空フライト」は退場し、ロビン・夏空の歌の「フィーバー」状態が解除される。「夏空フライト」がフィールド上にいる時、メンバーの数に応じて敵全体の受けるダメージがアップする。",
         "ko": "[Fever] 상태일 시 로빈•서머레토 및 자신이 가하는 피해가 증가한다. 「맑은하늘 세션」 턴 시작 시 기억 정령 스킬을 발동한다. 무대 열기가 0일 시 「맑은하늘 세션」은 사라지고 로빈•서머레토가 [Fever] 상태를 종료한다. 「맑은하늘 세션」이 필드에 있을 시 멤버 수에 따라 모든 적이 받는 피해가 증가한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 1151205,
@@ -333,14 +302,12 @@
       "name": {
         "pt-BR": "Perto do Batimento do Mar",
         "en": "Near the Sea's Heartbeat",
-        "zh-CN": "贴近海的心跳",
         "ja": "海の鼓動に寄り添って",
         "ko": "바다의 심장소리와 맞닿아"
       },
       "description": {
         "pt-BR": "Quando os \"Pássaros de Verão\" são invocados, regenera #1[i] de Energia para Robin - Summeretto.",
         "en": "When the \"Summer Songbirds\" gets summoned, regenerates #1[i] Energy for Robin • Summeretto.",
-        "zh-CN": "「晴空乐手」被召唤时，为知更鸟•晴歌恢复#1[i]点能量。",
         "ja": "「夏空フライト」が召喚された時、ロビン・夏空の歌のEPを#1[i]回復する。",
         "ko": "「맑은하늘 세션」이 소환될 시, 로빈•서머레토의 에너지를 #1[i]pt 회복한다"
       },
@@ -350,18 +317,16 @@
       "summary": {
         "pt-BR": "Ao ser invocado, regenera Energia para Robin - Summeretto.",
         "en": "When summoned, regenerates Energy for Robin • Summeretto.",
-        "zh-CN": "被召唤时，为知更鸟•晴歌恢复能量。",
         "ja": "召喚された時、ロビン・夏空の歌のEPを回復する。",
         "ko": "소환될 시 로빈•서머레토의 에너지를 회복한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 1151206,
@@ -369,14 +334,12 @@
       "name": {
         "pt-BR": "Cavalgando o Vento Noturno do Verão",
         "en": "Astride Summer's Nightwind",
-        "zh-CN": "乘上夏夜晚风",
         "ja": "夏の夜風に乗って",
         "ko": "여름밤의 바람을 타고"
       },
       "description": {
         "pt-BR": "Quando \"Pássaros de Verão\" desaparecem, Avança Adiante a ação de Robin - Summeretto em #1[i]%.",
         "en": "When the \"Summer Songbirds\" disappears, Robin • Summeretto's action advances by #1[i]%.",
-        "zh-CN": "「晴空乐手」消失时，使知更鸟•晴歌行动提前#1[i]%。",
         "ja": "「夏空フライト」が退場する時、ロビン・夏空の歌の行動順を#1[i]%早める。",
         "ko": "「맑은하늘 세션」이 사라질 시, 로빈•서머레토의 행동 게이지가 #1[i]% 증가한다"
       },
@@ -386,18 +349,16 @@
       "summary": {
         "pt-BR": "Ao desaparecer, Avança Adiante a ação de Robin - Summeretto.",
         "en": "When disappearing, causes Robin • Summeretto to advance action.",
-        "zh-CN": "消失时，使知更鸟•晴歌行动提前。",
         "ja": "退場する時、ロビン・夏空の歌の行動順を早める。",
         "ko": "사라질 시 로빈•서머레토의 행동 게이지가 증가한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     }
   ],
   "eidolons": [
@@ -406,14 +367,12 @@
       "name": {
         "pt-BR": "Pássaro Veranil Errante",
         "en": "Stray Bird of Summer",
-        "zh-CN": "夏日离群飞鸟",
         "ja": "{RUBY_B#む}群{RUBY_E#}れを{RUBY_B#はな}離{RUBY_E#}れた{RUBY_B#なつ}夏{RUBY_E#}の{RUBY_B#とり}鳥{RUBY_E#}",
         "ko": "여름날 무리를 떠난 새"
       },
       "description": {
         "pt-BR": "Os \"Pássaros de Verão\" manterão uma contagem de 100% do Dano que não seja Dano Verdadeiro causado pelos aliados-alvo. Ao usar a Perícia do Memoespírito, causa adicionalmente Dano Verdadeiro ao inimigo-alvo com os PV mais altos, igual a (11% + os pontos atuais de \"Vibrações\" × 0.1%) do total da contagem. Em seguida, redefine 50% da contagem.",
         "en": "\"Summer Songbirds\" will keep a tally of 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, additionally deals True DMG to the enemy target with the highest HP, equal to (11% + current Vibes × 0.1%) of the total tally. Then, clears 50% of the tally.",
-        "zh-CN": "「晴空乐手」会记录我方目标造成的非真实伤害的100%，施放忆灵技时对生命值最高的敌方目标额外造成记录伤害总额（11%+当前气氛值点数*0.1%）的真实伤害，随后清空记录值的50%。",
         "ja": "「夏空フライト」は味方が与えた確定ダメージ以外のダメージの100%を記録する。精霊スキルを発動する時、残りHPが最も高い敵に追加でダメージ記録値（11%+現在のムード×0.1%）分の確定ダメージを与える。その後、記録値の50%をクリアする。",
         "ko": "「맑은하늘 세션」은 아군이 가한 확정 피해를 제외한 피해의 100%를 기록하고, 기억 정령 스킬 발동 시 HP가 가장 높은 적에게 추가로 기록된 총 피해량의 (11%+현재 무대 열기 포인트 수x0.1%)만큼 확정 피해를 가하며, 이후 기록 수치의 50%를 초기화한다"
       },
@@ -426,14 +385,12 @@
       "name": {
         "pt-BR": "Um Coração de Águas Calmas",
         "en": "A Heart of Still Water",
-        "zh-CN": "心似一片湖水",
         "ja": "その{RUBY_B#こころ}心{RUBY_E#}は{RUBY_B#みずうみ}湖{RUBY_E#}のよう",
         "ko": "호수 같은 마음"
       },
       "description": {
         "pt-BR": "Aumenta a PEN de RES a Todos os Tipos dos aliados-alvo em 18%. O limite máximo de \"Vibrações\" de Robin - Summeretto aumenta em 20. A primeira vez que um aliado-alvo usa uma habilidade durante a rodada de qualquer alvo que faça com que Robin - Summeretto ganhe \"Vibrações\", ela ganha 2 pontos adicionais.",
         "en": "Ally targets' All-Type RES PEN increases by 18%. The upper limit of Robin • Summeretto's Vibes increases by 20. The first time an ally target uses an ability during any target's turn to cause Robin • Summeretto to gain Vibes, she gains an additional 2 points.",
-        "zh-CN": "我方目标的全属性抗性穿透提高18%。知更鸟•晴歌的气氛值上限提高20点，我方目标在任意目标回合内第一次施放技能使知更鸟•晴歌获得气氛值时额外获得2点。",
         "ja": "味方の全属性耐性貫通+18%。ロビン・夏空の歌のムード上限+20、味方が任意のユニットのターンで初めてスキルを発動してロビン・夏空の歌にムードを獲得させた時、ロビン・夏空の歌は追加でムードを2獲得する。",
         "ko": "아군의 모든 속성 저항 관통이 18% 증가한다. 로빈•서머레토의 무대 열기 최대치가 20pt 증가하고, 아군이 임의의 목표 턴 동안 처음으로 스킬을 발동해 로빈•서머레토가 무대 열기 획득 시 추가로 2pt 획득한다"
       },
@@ -446,14 +403,12 @@
       "name": {
         "pt-BR": "Ecos Deixados pelo Caminho",
         "en": "Echoes Left Along the Way",
-        "zh-CN": "拾取沿途遗音",
         "ja": "{RUBY_B#どうちゅう}道中{RUBY_E#}の{RUBY_B#いおん}遺音{RUBY_E#}を{RUBY_B#ひろ}拾{RUBY_E#}って",
         "ko": "길 따라 남겨진 유음을 줍고"
       },
       "description": {
         "pt-BR": "Nv. de Perícia +2, até no máximo Nv. 15.\nNv. de Talento +2, até no máximo Nv. 15.\nNv. de Talento do Memoespírito +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵天赋等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊天賦のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 기억 정령 특성 레벨+1, 최대 Lv.10"
       },
@@ -472,14 +427,12 @@
       "name": {
         "pt-BR": "Variações de Melodia",
         "en": "Her Variation on the Theme",
-        "zh-CN": "聆听众弦的变奏",
         "ja": "{RUBY_B#しゅうげん}衆弦{RUBY_E#}の{RUBY_B#へんそう}変奏{RUBY_E#}を{RUBY_B#き}聴{RUBY_E#}く",
         "ko": "현들의 변주에 귀를 기울이며"
       },
       "description": {
         "pt-BR": "Ao entrar no estado de \"Agitação\", ganha imediatamente 12 ponto(s) de \"Vibrações\", e a VEL de \"Pássaros de Verão\" aumenta em (20% + \"Vibrações\" atuais × 0.5%).",
         "en": "Upon entering the \"Fever\" state, immediately gains 12 Vibes, and increases the SPD of \"Summer Songbirds\" by an amount equal to (20% + current Vibes × 0.5%).",
-        "zh-CN": "进入【Fever】状态时，立即获得12点气氛值，「晴空乐手」的速度提高（20%+当前气氛值*0.5%）。",
         "ja": "「フィーバー」状態に入る時、即座にムードを12獲得し、「夏空フライト」の速度+（20%+現在のムード×0.5%）。",
         "ko": "[Fever] 상태 진입 시, 즉시 무대 열기를 12pt 획득하고, 「맑은하늘 세션」의 속도가 (20%+현재 무대 열기x0.5%) 증가한다"
       },
@@ -492,14 +445,12 @@
       "name": {
         "pt-BR": "Novamente, Em Direção ao Amanhecer",
         "en": "To Chase the Dawn Anew",
-        "zh-CN": "然后再次共逐新晨",
         "ja": "また{RUBY_B#あら}新{RUBY_E#}たな{RUBY_B#あさひ}朝日{RUBY_E#}を{RUBY_B#お}追{RUBY_E#}う",
         "ko": "다시 함께, 새로운 아침을 향해"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.\nNv. da Perícia do Memoespírito +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵技等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊スキルのLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 기억 정령 스킬 레벨+1, 최대 Lv.10"
       },
@@ -512,14 +463,12 @@
       "name": {
         "pt-BR": "Uma Canção Sem Nome",
         "en": "A Song Yet Unnamed",
-        "zh-CN": "唱一首未命名的歌",
         "ja": "{RUBY_B#な}名{RUBY_E#}のない{RUBY_B#うた}歌{RUBY_E#}を{RUBY_B#うた}歌{RUBY_E#}おう",
         "ko": "이름 없는 노래를 부르자"
       },
       "description": {
         "pt-BR": "Aumenta o multiplicador de Dano da Perícia do Memoespírito em 100% do valor original. No estado de \"Agitação\", a Perícia Suprema de Robin - Summeretto pode ser armazenada até 2 vezes. Ao entrar no estado de \"Agitação\" pela primeira vez ou no início de uma rodada de contagem regressiva de \"Agitação\" nesta batalha, regenera uma quantidade fixa de 140 de Energia.",
         "en": "Increases the Memosprite Skill's DMG multiplier by 100% of its original value. While in the \"Fever\" state, Robin • Summeretto can store her Ultimate up to 2 times. After entering the \"Fever\" state for the first time in this battle or when the \"Fever\" countdown's turn starts, regenerates a fixed 140 Energy.",
-        "zh-CN": "忆灵技的伤害倍率提高原倍率的100%。处于【Fever】状态时，知更鸟•晴歌的终结技可以最多储存2次，本场战斗中第一次进入【Fever】状态后或【Fever】倒计时回合开始时，固定恢复140点能量。",
         "ja": "精霊スキルのダメージ倍率が元の倍率の100%アップする。「フィーバー」状態の時、ロビン・夏空の歌は必殺技を最大2回までストックできる。戦闘中、「フィーバー」状態に入った時、または「フィーバー」状態のカウントダウンのターンが回ってきた時、EPを固定で140回復する。",
         "ko": "기억 정령 스킬의 피해 배율이 기존 배율의 100%만큼 증가한다. [Fever] 상태일 시, 로빈•서머레토의 필살기는 최대 2회 저장할 수 있으며, 이번 전투에서 처음으로 [Fever] 상태에 진입한 후 또는 [Fever] 카운트다운 턴 시작 시 에너지를 고정으로 140pt 회복한다"
       },
@@ -899,14 +848,12 @@
       "name": {
         "pt-BR": "Acordes Dissonantes",
         "en": "Deviated Chords",
-        "zh-CN": "偏离和弦",
         "ja": "ハーモニーを{RUBY_B#はな}離{RUBY_E#}れて",
         "ko": "벗어난 화음"
       },
       "description": {
         "pt-BR": "Quando um aliado-alvo faz Robin - Summeretto ganhar pontos de \"Vibrações\", se o ATQ desse aliado-alvo for maior que o ATQ de Robin - Summeretto, aumenta o ATQ desse aliado-alvo em um valor igual a (#1[i]% + \"Vibrações\" × #2[f1]%) dos PV máximos de Robin - Summeretto. Caso contrário, aumenta o Dano CRIT desse aliado-alvo em uma quantidade igual a (#3[i]% + \"Vibrações\" × #4[f1]%). Dura #5[i] rodada(s).",
         "en": "When an ally target causes Robin • Summeretto to gain Vibes, if their ATK is higher than Robin • Summeretto's, increases that target's ATK by an amount equal to (#1[i]% + Vibes × #2[f1]%) of Robin • Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by an amount equal to (#3[i]% + Vibes × #4[f1]%). Lasts for #5[i] turn(s).",
-        "zh-CN": "我方目标使知更鸟•晴歌获得气氛值时，若攻击力大于知更鸟•晴歌，则使该目标的攻击力提高等同于知更鸟•晴歌的生命上限的(#1[i]%+气氛值*#2[f1]%)，否则使该目标的暴击伤害提高（#3[i]%+气氛值*#4[f1]%），持续#5[i]回合。",
         "ja": "味方の行動でロビン・夏空の歌がムードを獲得した時、その味方の攻撃力がロビン・夏空の歌よりも高い場合、その味方の攻撃力をロビン・夏空の歌の最大HPの（#1[i]%+ムード×#2[f1]%）分アップさせる。そうでない場合、その味方の会心ダメージ+（#3[i]%+ムード×#4[f1]%）、#5[i]ターン継続。",
         "ko": "아군이 로빈•서머레토가 무대 열기를 획득하게 할 시, 공격력이 로빈•서머레토보다 높을 경우 해당 목표의 공격력이 로빈•서머레토 HP 최대치의 (#1[i]%+무대 열기x#2[f1]%)만큼 증가하고, 그렇지 않을 경우 해당 목표의 치명타 피해가 (#3[i]%+무대 열기x#4[f1]%) 증가한다, 지속 시간: #5[i]턴"
       },
@@ -927,17 +874,10 @@
     {
       "id": 1512102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Blues Improvisado",
-        "en": "Improvised Blues",
-        "zh-CN": "即兴蓝调",
-        "ja": "アドリブのブルース",
-        "ko": "즉흥 블루스"
-      },
+      "name": { "pt-BR": "Blues Improvisado", "en": "Improvised Blues", "ja": "アドリブのブルース", "ko": "즉흥 블루스" },
       "description": {
         "pt-BR": "Quando Robin - Summeretto ou \"Pássaros de Verão\" recebem Cura ou um Escudo concedido por um personagem aliado, obtêm #1[i] acúmulo(s) de \"Groove\", com um limite de #3[i] acúmulo(s). Na primeira vez que Robin - Summeretto obtém \"Vibrações\" na rodada de qualquer unidade, caso possua \"Groove\", consome 1 acúmulo de \"Groove\" e regenera #2[i] de Energia.",
         "en": "When Robin • Summeretto or the \"Summer Songbirds\" receive healing or Shield provided by teammates, causes Robin • Summeretto to gain #1[i] stack(s) of \"Groove,\" capped at #3[i]. The first time Robin • Summeretto gains Vibes during any target's turn, if she has \"Groove,\" consumes 1 stack of \"Groove\" and regenerates a fixed #2[i] Energy.",
-        "zh-CN": "知更鸟•晴歌或「晴空乐手」受到队友提供的治疗效果或护盾时，使知更鸟•晴歌获得#1[i]层【律动】，上限#3[i]层。知更鸟•晴歌在任意目标回合内第一次获得气氛值时若持有【律动】，则消耗1层【律动】并固定恢复#2[i]点能量。",
         "ja": "ロビン・夏空の歌、または「夏空フライト」が自身以外の味方から治癒効果またはバリアの付与を受けた時、ロビン・夏空の歌は「グルーヴ」を#1[i]層獲得する。「グルーヴ」は最大で#3[i]層まで累積できる。ロビン・夏空の歌が任意のユニットのターンで初めてムードを獲得した時、「グルーヴ」を所持している場合、「グルーヴ」を1層消費して固定でEPを#2[i]回復する。",
         "ko": "로빈•서머레토 또는 「맑은하늘 세션」이 동료가 제공하는 치유 효과 또는 실드를 받을 시, 로빈•서머레토가 [비트]를 #1[i]스택 획득한다(최대 #3[i]스택). 로빈•서머레토가 임의 목표의 턴 동안 처음으로 무대 열기 획득 시 [비트]를 보유하고 있을 경우, [비트]를 1스택 소모하고 에너지를 #2[i]pt 고정으로 회복한다"
       },
@@ -966,14 +906,12 @@
       "name": {
         "pt-BR": "Harmonia Reconstruída",
         "en": "Rebuilt Harmony",
-        "zh-CN": "重构谐乐",
         "ja": "{RUBY_B#ちょうわ}調和{RUBY_E#}の{RUBY_B#さいこうちく}再構築{RUBY_E#}",
         "ko": "조화 재구성"
       },
       "description": {
         "pt-BR": "Aumenta a Chance de CRIT de Robin - Summeretto e dos \"Pássaros de Verão\" em #1[i]%.",
         "en": "Increases the CRIT Rate of Robin • Summeretto and \"Summer Songbirds\" by #1[i]%.",
-        "zh-CN": "知更鸟•晴歌与「晴空乐手」的暴击率提高#1[i]%。",
         "ja": "ロビン・夏空の歌と「夏空フライト」の会心率+#1[i]%。",
         "ko": "로빈•서머레토와 「맑은하늘 세션」의 치명타 확률이 #1[i]% 증가한다"
       },
@@ -999,7 +937,7 @@
     {
       "id": 1512201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1016,7 +954,7 @@
     {
       "id": 1512202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1512201],
@@ -1033,7 +971,7 @@
     {
       "id": 1512203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1512201],
@@ -1053,7 +991,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1073,7 +1010,7 @@
     {
       "id": 1512205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1512101],
@@ -1090,7 +1027,7 @@
     {
       "id": 1512206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1512102],
@@ -1107,7 +1044,7 @@
     {
       "id": 1512207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1512102],
@@ -1127,7 +1064,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1147,7 +1083,7 @@
     {
       "id": 1512209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1512208],
@@ -1164,7 +1100,7 @@
     {
       "id": 1512210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1512209],
@@ -1184,7 +1120,6 @@
       "name": {
         "pt-BR": "Quarteto Chilreante",
         "en": "Chirrup Quartet",
-        "zh-CN": "叽叽啾啾四重奏",
         "ja": "チュンチュン・カルテット",
         "ko": "짹짹 사중주"
       },
@@ -1232,7 +1167,6 @@
       "name": {
         "pt-BR": "Um Gorjeio de Asas",
         "en": "A Warble of Wings",
-        "zh-CN": "扑翅雀跃的和声",
         "ja": "{RUBY_B#は}羽{RUBY_E#}ばたくハーモニー",
         "ko": "날갯짓으로 어우러진 화음"
       },

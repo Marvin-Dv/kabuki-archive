@@ -1,13 +1,7 @@
 {
   "id": 23005,
   "slug": "moment-of-victory",
-  "name": {
-    "pt-BR": "Momento de Vitória",
-    "en": "Moment of Victory",
-    "zh-CN": "制胜的瞬间",
-    "ja": "勝利の刹那",
-    "ko": "승리의 순간"
-  },
+  "name": { "pt-BR": "Momento de Vitória", "en": "Moment of Victory", "ja": "勝利の刹那", "ko": "승리의 순간" },
   "rarity": 5,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -15,16 +9,14 @@
   "description": {
     "pt-BR": "\"Se quiser chorar quando perder, Gepard, pode chorar.\"\n\"Mas você vai ter que se levantar de novo, mesmo chorando, até me derrotar... nem que leve anos.\"\nAlguns anos depois, o menino não perdia mais para a irmã, tampouco chorava.\nHoje, o destemido Capitão da Guarda Crinalva permanece firme até o fim no campo de batalha...\nTudo isso só esperando o momento certo de esmagar seus inimigos.",
     "en": "\"If you want to cry after your loss, Gepard, then cry.\"\n\"But you need to stand back up even when you are crying, until you can defeat me... Even if it takes years.\"\nA few years later, the boy no longer cried or lost to his sister.\nNow on the battle field, the courageous Silvermane Guard captain will defend till the end no matter what\n— all to find the moment to completely destroy the enemy.",
-    "zh-CN": "「输了想哭就哭吧，杰帕德。」\n「但哭着也要站起来，直到你能赢过我…无论需要五年还是十年。」\n几年后，小男孩不再哭鼻子，也不再输给姐姐。\n如今在战场上，无论以何种姿态，骁勇无畏的银鬃铁卫戍卫官总会坚守至最后\n——只为找到彻底摧毁敌人的一瞬。",
     "ja": "「負けて泣きたい時は泣いてもいいよ、ジェパード」\n「でも立ったまま泣くんだよ、私に勝てる日までね…5年かかろうとも、10年かかろうとも」\nそして時が経ち、男の子は泣かなくなり、姉に負けなくなった。\n今、戦場に立つのは勇猛果敢なシルバーメインの戍衛官、どんな戦場であろうと彼は最後まで守り抜く\n——敵を徹底的に潰す瞬間を狙うために。",
     "ko": "「져서 울고 싶으면 울어도 돼, 게파드」\n「하지만 울고 있어도 일어나야만 해. 날 이길 수 있을 때까지… 5년이 걸리든, 10년이 걸리든 말이야」\n몇 년이 지나자 남자아이는 울지 않게 되었고, 누나에게도 더 이상 지지 않았다.\n이제 그 어떤 것도 두려워하지 않게 된 실버메인 철위대의 방위관은 전장에서 언제나 마지막까지 굳건히 버틴다.\n——적을 철저히 무너뜨릴 수 있는 순간을 노리기 위해서"
   },
   "skill": {
-    "name": { "pt-BR": "Veredito", "en": "Verdict", "zh-CN": "决断", "ja": "決断", "ko": "결단" },
+    "name": { "pt-BR": "Veredito", "en": "Verdict", "ja": "決断", "ko": "결단" },
     "description": {
       "pt-BR": "Aumenta em #2[i]% a DEF e em #4[i]% a Taxa de Acerto de Efeito do usuário. Também aumenta a chance de o usuário sofrer ataques inimigos. Quando o usuário é atacado, aumenta sua DEF em #3[i]% extra até o fim da rodada do usuário.",
       "en": "Increases the wearer's DEF by #2[i]% and Effect Hit Rate by #4[i]%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra #3[i]% until the end of the wearer's turn.",
-      "zh-CN": "使装备者的防御力提高#2[i]%，效果命中提高#4[i]%，同时使自身受到攻击的概率提高。当装备者受到攻击后，防御力额外提高#3[i]%，持续到自身回合结束。",
       "ja": "装備キャラの防御力+#2[i]%、効果命中+#4[i]%。自身が攻撃を受ける確率がアップする。装備キャラが攻撃を受けた後、さらに防御力+#3[i]%、効果は自身のターンが終了するまで継続。",
       "ko": "장착한 캐릭터의 방어력이 #2[i]% 증가하고, 효과 명중이 #4[i]% 증가하며, 자신이 피격될 확률이 증가한다. 장착한 캐릭터는 피격 후 자신의 턴이 끝날 때까지 방어력이 추가로 #3[i]% 증가한다"
     },

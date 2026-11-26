@@ -1,13 +1,7 @@
 {
   "id": 110416,
   "slug": "nail-of-the-ape",
-  "name": {
-    "pt-BR": "Prego do Macaco",
-    "en": "Nail of the Ape",
-    "zh-CN": "苍猿之钉",
-    "ja": "蒼猿の釘",
-    "ko": "괴수의 못"
-  },
+  "name": { "pt-BR": "Prego do Macaco", "en": "Nail of the Ape", "ja": "蒼猿の釘", "ko": "괴수의 못" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -17,7 +11,6 @@
   "sources": {
     "en": ["Stagnant Shadow: Scalegorge Waterscape", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Desfiladeiro Escamado Aquático", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【鳞渊境】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「鱗淵境」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [인연경]", "「만능 합성기」- 재료 치환"]
   }

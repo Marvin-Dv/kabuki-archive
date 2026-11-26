@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Corrida ao Horizonte",
     "en": "Race to the Horizon",
-    "zh-CN": "向着地平线的终点",
     "ja": "地平線のゴールへ",
     "ko": "지평선의 끝을 향해"
   },
@@ -15,16 +14,14 @@
   "description": {
     "pt-BR": "\"A Equipe do Desbravamento assume a liderança! A linha de chegada está ao alcance. Será que a Equipe do Desbravamento vai conquistar a vitória final?\"\nNa pista tão esperada, o rugido dos motores e os gritos da torcida se entrelaçam.\n\"Mantenha essa velocidade e avance em linha reta! Guaxinim do Beisebol, você consegue!\"\nUma voz interior os incentiva, firme e resoluta.\nNo instante antes de cruzar a linha de chegada, os batimentos do coração, o vento, as vozes ensurdecedoras e o som da aceleração atingem uma frequência sincronizada, desvanecendo em silêncio.\nE nos olhos do piloto, tudo o que resta é uma grande pista que leva até o céu.\nDe repente, aplausos ensurdecedores e canhões de comemoração explodem.\n\"Eu... venci! A Equipe do Desbravamento venceu!\"\nEnquanto a luz do pôr do sol se derrama sobre a borda do horizonte, a euforia da vitória chegou.",
     "en": "\"Team Trailblazer takes the lead! The finish line is within reach. Can Team Trailblazer clinch the final victory?\"\nOn the highly anticipated track, the roar of engines and the cheers of the crowd intertwine.\n\"Keep up this speed and charge straight ahead! Baseball Raccoon, you can do this!\"\nAn inner voice cheers them on, firm and resolute.\nIn the instant before breaking through the finish line, the heartbeat, the wind, the deafening voices, and the sound of the acceleration reach a synchronized frequency, fading into silence.\nAnd in the racer's eyes, all that remains is a vast track leading to the sky.\nSuddenly, thunderous applause and celebratory cannons erupt.\n\"I... won! Team Trailblazer won!\"\nAs the afterglow of the setting sun spills across the edge of the horizon, the euphoria of victory has arrived.",
-    "zh-CN": "「开拓者车队领先！终点近在咫尺，开拓者车队能拿下最后的胜利吗？」\n万众瞩目的赛道上，引擎的轰鸣和人群的欢呼尽数交织。\n「保持速度一路向前，球棒浣熊，你一定可以！」\n一个心声鼓励着自己，坚定而有力。\n突破冲线前的瞬间，心跳、风、呐喊、加速冲刺的声响合拍同频，趋于寂静。\n而竞逐者的眼中仅剩一条广阔赛道通向天际。\n恍然，掌声雷动，礼炮齐响。\n「我…赢了！开拓者车队，赢了！」\n落日余晖洒向地平线尽头，一场属于胜利的狂欢已然来临。",
     "ja": "「先頭は開拓者チーム、ゴールはもう目前です！彼らはこのレースを、有終の美で飾ることができるでしょうか！？」\n大勢の視線が集中するコースの上で、エンジンの唸る音と人々の歓声が混ざり合う。\n「スピードはそのままで突っ込めばいい。大丈夫、{F#私}{M#俺}はバットラクーン、絶対できる！」\n心の中で、自分自身に向けて力強くエールを送る。\nゴールラインを越えるその瞬間、鼓動が、風の音が、観衆の叫びが、加速するマシンの音が共鳴し、やがて静寂に沈んでいく。\nそしてレーサーの前に残されたのは、天まで続く広大なコースだけ。\n次の瞬間、割れんばかりの拍手と歓声に包まれ、祝砲が一斉に鳴り響いた。\n「勝った…{F#私}{M#俺}、勝ったんだ！開拓者チームの勝利だ！」\n沈みゆく夕陽が地平線の果てを照らし、勝利の祝宴が始まろうとしていた。",
     "ko": "「개척자 팀, 선두를 달리고 있습니다! 결승선이 코앞인데, 과연 개척자 팀이 최후의 승리를 차지할 수 있을까요?」\n수많은 사람의 이목이 집중된 코스 위, 엔진의 굉음과 환호성이 한데 얽힌다.\n「속도를 유지하면서 계속 가는 거야, 야구 방망이 라쿤! 넌 할 수 있어!」\n단호하고 힘찬 마음의 소리가 스스로를 다독인다.\n결승선을 돌파하기 직전의 순간, 심장 박동, 바람, 외침, 가속하며 질주하는 소리가 하나로 공명하며 정적에 빠져든다.\n레이서의 눈에는 하늘 끝까지 이어진 넓은 코스만이 남아 있다.\n문득, 번개 같은 박수갈채가 쏟아지며 축포가 일제히 울린다.\n「내가… 이겼어! 개척자 팀이, 이겼다고!」\n지평선 끝으로 석양빛이 쏟아지고, 승리의 광연이 마침내 찾아왔다"
   },
   "skill": {
-    "name": { "pt-BR": "Ultrapassagem", "en": "Overtake", "zh-CN": "超越", "ja": "超越", "ko": "초월" },
+    "name": { "pt-BR": "Ultrapassagem", "en": "Overtake", "ja": "超越", "ko": "초월" },
     "description": {
       "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Após o usuário usar um Ataque Extra, aumenta seu Dano CRIT em #2[f1]% por #3[i] rodada(s). Esse efeito pode acumular até #4[i] vezes.",
       "en": "Increases the wearer's ATK by #1[i]%. After the wearer uses Follow-Up ATK, increases their CRIT DMG by #2[f1]% for #3[i] turn(s). This effect can stack up to #4[i] times.",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。装备者施放追加攻击后，使装备者的暴击伤害提高#2[f1]%，持续#3[i]回合，该效果最多叠加#4[i]层。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが追加攻撃を発動した後、装備キャラの会心ダメージ+#2[f1]%、#3[i]ターン継続。この効果は最大で#4[i]層累積できる。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 추가 공격 발동 후 장착한 캐릭터의 치명타 피해가 #2[f1]% 증가한다, 지속 시간: #3[i]턴, 해당 효과 최대 중첩수: #4[i]스택"
     },

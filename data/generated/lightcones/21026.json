@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Au! Hora de Passear!",
     "en": "Woof! Walk Time!",
-    "zh-CN": "汪！散步时间！",
     "ja": "ワン！散歩の時間！",
     "ko": "멍! 산책 시간!"
   },
@@ -15,16 +14,14 @@
   "description": {
     "pt-BR": "Pena que ninguém o viu...\nUsando o focinho para farejar tudo que é canto e mergulhando num caminho vazio.\nPena que ninguém o viu...\nRetraindo suas garras para colocar a senha e saltar nos braços da liberdade.\nÉ sério que ninguém o viu...?\nUm cão crescido agora consegue passear sozinho pelo espaço!",
     "en": "Pity that no one has seen it...\nSeen it screw up its nose and sniff around and dive into an empty path.\nPity that no one has seen it...\nSeen it retract its claws, enter the password, and leap into the embraces of freedom.\nHas nobody seen it still...?\nA grown dog can now walk itself in space!",
-    "zh-CN": "可惜还没人看到…\n看到它抽抽鼻子，四处嗅嗅，钻入无人的小路。\n可惜还没人看到…\n看到它收起爪子，按下密码，投入自由的怀抱。\n还没有人看到么…\n一只成熟的小狗，早就学会自己去太空散步了！",
     "ja": "残念ながら、まだ誰も気づいていない…\n彼が鼻を鳴らしながらあちこちを嗅ぎまわり、人のいない路地に入り込んでいったのを。\n残念ながら、まだ誰も気づいていない…\n彼が爪を収めパスワードを入力し、自由を抱くところを。\nまだ誰も気づいていないのだろうか…\n成長した子犬は宇宙を散歩できるのだ！",
     "ko": "아직 아무도 눈치채지 못한 것이 아쉬울 뿐이다….\n그것이 코를 이리저리 킁킁거리며 인적 없는 골목으로 들어가는 것을.\n아직 아무도 눈치채지 못한 것이 아쉬울 뿐이다….\n그것이 발톱을 집어넣은 채 비밀번호를 입력하고는 자유의 품 속으로 뛰어드는 것을.\n아직도 눈치챈 사람이 없는가….\n성장한 강아지는 스스로 우주를 산책하는 법을 터득했다!"
   },
   "skill": {
-    "name": { "pt-BR": "Corra!", "en": "Run!", "zh-CN": "快溜", "ja": "さっさと逃げる", "ko": "튀어!" },
+    "name": { "pt-BR": "Corra!", "en": "Run!", "ja": "さっさと逃げる", "ko": "튀어!" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o ATQ do usuário e aumenta o Dano que ele causa a inimigos sob o status de Queimadura ou Sangramento em #2[i]%. Também se aplica a Dano Contínuo.",
       "en": "Increases the wearer's ATK by #1[i]%, and increases their DMG to enemies afflicted with Burn or Bleed by #2[i]%. This also applies to DoT.",
-      "zh-CN": "使装备者的攻击力提高#1[i]%，对处于灼烧或裂伤状态的敌方目标造成的伤害提高#2[i]%，该效果对持续伤害也会生效。",
       "ja": "装備キャラの攻撃力+#1[i]%、燃焼状態または裂創状態の敵に対する与ダメージ+#2[i]%、この効果は持続ダメージにも有効。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가하고, 연소나 열상 상태의 적에게 가하는 피해가 #2[i]% 증가한다. 해당 효과는 지속 피해에도 적용된다"
     },

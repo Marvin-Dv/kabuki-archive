@@ -1,13 +1,7 @@
 {
   "id": 111002,
   "slug": "glimmering-core",
-  "name": {
-    "pt-BR": "Núcleo Cintilante",
-    "en": "Glimmering Core",
-    "zh-CN": "微光原核",
-    "ja": "微かに光る原核",
-    "ko": "희미한 빛의 코어"
-  },
+  "name": { "pt-BR": "Núcleo Cintilante", "en": "Glimmering Core", "ja": "微かに光る原核", "ko": "희미한 빛의 코어" },
   "rarity": 3,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -29,7 +23,6 @@
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["突破至均衡等级2后，部分裂界造物掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
     "ja": [
       "均衡Lv.2に達した後、一部の裂界造物からドロップ",
       "「万能合成マシン」- 素材合成",

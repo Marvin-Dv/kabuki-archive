@@ -1,13 +1,7 @@
 {
   "id": 11203,
   "slug": "luochas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Luocha",
-    "en": "Luocha's Eidolon",
-    "zh-CN": "【罗刹】的星魂",
-    "ja": "「羅刹」の星魂",
-    "ko": "[나찰]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Luocha", "en": "Luocha's Eidolon", "ja": "「羅刹」の星魂", "ko": "[나찰]의 성혼" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

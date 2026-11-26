@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Dan Heng - Embebidor Lunae",
     "en": "Dan Heng • Imbibitor Lunae",
-    "zh-CN": "丹恒•饮月",
     "ja": "丹恒・飲月",
     "ko": "단항•음월"
   },
@@ -17,17 +16,10 @@
     {
       "id": 121301,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Lótus Beneficente",
-        "en": "Beneficent Lotus",
-        "zh-CN": "泽芝",
-        "ja": "水華",
-        "ko": "연화"
-      },
+      "name": { "pt-BR": "Lótus Beneficente", "en": "Beneficent Lotus", "ja": "水華", "ko": "연화" },
       "description": {
         "pt-BR": "Realiza um ataque de 2 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo.",
         "en": "Uses a 2-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.",
-        "zh-CN": "施放2段攻击对指定敌方单体造成等同于丹恒•饮月#1[i]%攻击力的虚数属性伤害。",
         "ja": "2段の攻撃を行い、指定した敵単体に丹恒・飲月の攻撃力#1[i]%分の虚数属性ダメージを与える。",
         "ko": "지정된 단일 적에게 2단 공격을 발동하여 단항•음월 공격력의 #1[i]%만큼 허수 속성 피해를 준다"
       },
@@ -37,27 +29,19 @@
       "summary": {
         "pt-BR": "Causa Dano Imaginário leve a um único inimigo.",
         "en": "Deals minor Imaginary DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量虚数属性伤害。",
         "ja": "敵単体に少量の虚数属性ダメージを与える。",
         "ko": "단일 적에게 소량의 허수 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121302,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Dracore Libre",
-        "en": "Dracore Libre",
-        "zh-CN": "龙力自在",
-        "ja": "龍力自在",
-        "ko": "자유로운 용의 힘"
-      },
+      "name": { "pt-BR": "Dracore Libre", "en": "Dracore Libre", "ja": "龍力自在", "ko": "자유로운 용의 힘" },
       "description": {
         "pt-BR": "Aprimora o ATQ Básico. Aprimoramentos podem ser aplicados até 3 vezes consecutivas. Usar esta habilidade não consome Pontos de Perícia e não é considerado como utilização de uma Perícia.\nAprimorado uma vez, Lótus Beneficente se torna Transcendência.\nAprimorado duas vezes, Lótus Beneficente se torna Lança Divina.\nAprimorado três vezes, Lótus Beneficente se torna Salto Fulgurante.\nAo utilizar Lança Divina ou Salto Fulgurante, começando do quarto golpe, 1 acúmulo de \"Rugido Soberano\" é concedido antes de cada golpe. Cada acúmulo de \"Rugido Soberano\" aumenta o Dano CRIT de Dan Heng - Embebidor Lunae em #1[f1]%, até um máximo de #2[i] acúmulos. Estes acúmulos duram até o final da rodada dele.",
         "en": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.\nEnhanced once, Beneficent Lotus becomes Transcendence.\nEnhanced twice, Beneficent Lotus becomes Divine Spear.\nEnhanced thrice, Beneficent Lotus becomes Fulgurant Leap.\nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by #1[f1]%, for a max of #2[i] stacks. These stacks last until the end of his turn.",
-        "zh-CN": "使普攻的效果得到强化，最多可连续强化3次，施放本技能不消耗战技点且不视为使用战技。\n强化1次，【泽芝】变为【瞬华】。\n强化2次，【泽芝】变为【天矢阴】。\n强化3次，【泽芝】变为【盘拏耀跃】。\n施放【天矢阴】或【盘拏耀跃】时，从第4段攻击开始每段攻击前获得1层【叱咤】，使丹恒•饮月的暴击伤害提高#1[f1]%，该效果最多叠加#2[i]层，持续至自身回合结束。",
         "ja": "このスキルは通常攻撃を強化できる。このスキルを使用してもSPは消費されず、戦闘スキルを発動したとも見なされない。強化通常攻撃を行った後に、SPが消費される。通常攻撃は最大で3回まで強化できる。\n1回強化、「水華」が「瞬華」に強化される。\n2回強化、「水華」が「天矢陰」に強化される。\n3回強化、「水華」が「躍動せし耀鱗」に強化される。\n「天矢陰」または「躍動せし耀鱗」を発動した時、4段目以降の攻撃の前に、それぞれ「叱咤」を1層獲得し、丹恒・飲月の会心ダメージ+#1[f1]%。この効果は最大で#2[i]層累積でき、自身のターンが終了するまで継続。",
         "ko": "일반 공격의 효과가 강화되며, 최대 3회 연속 강화할 수 있다. 해당 스킬 발동 시 전투 스킬 포인트가 소모되지 않으며, 전투 스킬을 사용하지 않은 것으로 간주한다.\n강화 1회: [연화]에서 [순간]으로 전환\n강화 2회: [연화]에서 [신성의 창]으로 전환\n강화 3회: [연화]에서 [빛나는 도약]으로 전환\n[신성의 창] 또는 [빛나는 도약] 발동 시, 4단 공격부터 공격 단수마다 공격하기 전에 [노호]를 1스택 획득한다. [노호] 1스택마다 단항•음월의 치명타 피해가 #1[f1]% 증가한다. 해당 효과는 최대 #2[i]스택 중첩 가능하며, 자신의 턴이 종료될 때까지 지속된다"
       },
@@ -83,12 +67,11 @@
       "summary": {
         "pt-BR": "Aprimora o ATQ Básico Lótus Beneficente para Transcendência, Lança Divina ou Salto Fulgurante.",
         "en": "Enhances the Basic ATK Beneficent Lotus to Transcendence, Divine Spear, or Fulgurant Leap.",
-        "zh-CN": "使普攻【泽芝】分别强化为【瞬华】、【天矢阴】或【盘拏耀跃】。",
         "ja": "通常攻撃「水華」をそれぞれ「瞬華」、「天矢陰」または「躍動せし耀鱗」に強化する。",
         "ko": "일반 공격 [연화]를 각각 [순간], [신성의 창] 또는 [빛나는 도약]으로 강화한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 121303,
@@ -96,14 +79,12 @@
       "name": {
         "pt-BR": "A Água Celeste Ablui Tudo",
         "en": "Azure's Aqua Ablutes All",
-        "zh-CN": "苍龙傲睨，劫水濯世",
         "ja": "傲睨せし蒼龍、世を濯ぐ劫水",
         "ko": "창룡의 굽어살핌, 정화된 세상"
       },
       "description": {
         "pt-BR": "Realiza um ataque de 3 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Ao mesmo tempo, causa Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes. Então, obtém #3[i] Squama Sacrosancta.\nÉ possível possuir até #4[i] Squama Sacrosancta, que podem ser usados para anular o consumo de Pontos de Perícia de Dan Heng - Embebidor Lunae. Consumir Squama Sacrosancta é considerado o equivalente a consumir Pontos de Perícia.",
         "en": "Uses a 3-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target. At the same time, deals Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains #3[i] \"Squama Sacrosancta.\"\nIt's possible to hold up to #4[i] \"Squama Sacrosancta,\" which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming \"Squama Sacrosancta\" is considered equivalent to consuming skill points.",
-        "zh-CN": "施放3段攻击对指定敌方单体造成等同于丹恒•饮月#1[i]%攻击力的虚数属性伤害，同时对其相邻目标造成等同于丹恒•饮月#2[i]%攻击力的虚数属性伤害。并使自身获得#3[i]个【逆鳞】。\n【逆鳞】最多持有#4[i]个，可用来抵扣丹恒•饮月的战技点消耗。消耗【逆鳞】视为消耗战技点。",
         "ja": "3段の攻撃を行い、指定した敵単体に丹恒・飲月の攻撃力#1[i]%分の虚数属性ダメージを与え、隣接する敵に丹恒・飲月の攻撃力#2[i]%分の虚数属性ダメージを与える。自身は「逆鱗」を#3[i]獲得する。\n「逆鱗」は最大で#4[i]まで所持でき、丹恒・飲月のSPの代わりとして消費できる。また、「逆鱗」の消費はSP消費と見なされる。",
         "ko": "지정된 단일 적에게 3단 공격을 발동하여 단항•음월 공격력의 #1[i]%만큼 허수 속성 피해를 주고, 인접한 목표에게 단항•음월 공격력의 #2[i]%만큼 허수 속성 피해를 주며 동시에 [역린]을 #3[i]개 획득한다.\n[역린]은 최대 #4[i]개 보유할 수 있으며, 단항•음월의 전투 스킬 포인트를 대체하여 소모할 수 있다. [역린] 소모는 전투 스킬 포인트 소모로 간주한다"
       },
@@ -129,21 +110,19 @@
       "summary": {
         "pt-BR": "Causa Dano Imaginário massivo a um único inimigo, causa Dano Imaginário a alvos adjacentes, e ganha 2 Squama Sacrosancta, que podem anular o consumo de Pontos de Perícia de Dan Heng - Embebidor Lunae. Consumir Squama Sacrosancta é considerado o equivalente a consumir pontos de Perícia.",
         "en": "Deals massive Imaginary DMG to one enemy, deals Imaginary DMG to adjacent targets, and gains 2 \"Squama Sacrosancta,\" which can offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
-        "zh-CN": "对敌方单体造成大量虚数属性伤害，对相邻目标造成虚数属性伤害。获得2个【逆鳞】：可抵扣丹恒•饮月的战技点消耗且视为消耗战技点。",
         "ja": "敵単体に大量の虚数属性ダメージを与え、隣接する敵に虚数属性ダメージを与える。「逆鱗」を2獲得する。「逆鱗」は丹恒・飲月のSP消費の代わりとして消費できる。「逆鱗」消費はSP消費と見なされる。",
         "ko": "단일 적에게 대량의 허수 속성 피해를 주고, 인접한 목표에게 허수 속성 피해를 준다. [역린] 2개를 획득한다: 단항•음월의 전투 스킬 포인트를 대체하여 소모되며, 전투 스킬 포인트 소모로 간주한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 121304,
       "type": "Talent",
-      "name": { "pt-BR": "Coração Íntegro", "en": "Righteous Heart", "zh-CN": "亢心", "ja": "亢心", "ko": "긍지" },
+      "name": { "pt-BR": "Coração Íntegro", "en": "Righteous Heart", "ja": "亢心", "ko": "긍지" },
       "description": {
         "pt-BR": "Depois de cada golpe realizado durante um ataque, Dan Heng - Embebidor Lunae ganha 1 acúmulo de Coração Íntegro, aumentando seu Dano em #1[f1]%. Este efeito pode acumular até #2[i] vez(es), durando até o final da rodada dele.",
         "en": "After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by #1[f1]%. This effect can stack up to #2[i] time(s), lasting until the end of his turn.",
-        "zh-CN": "丹恒•饮月施放每段攻击后获得1层【亢心】，使自身造成的伤害提高#1[f1]%，该效果可以叠加#2[i]层，持续至自身回合结束。",
         "ja": "丹恒・飲月は1段の攻撃を行うたびに「亢心」を1層獲得する。「亢心」1層につき自身の与ダメージ+#1[f1]%、この効果は最大で#2[i]層獲得できる。「亢心」の効果は自身のターンが終了するまで継続。",
         "ko": "단항•음월의 공격 단수마다 [긍지] 효과를 1스택 획득하고, 스택당 자신이 가하는 피해가 #1[f1]% 증가한다. 해당 효과는 #2[i]스택 중첩 가능하며, 자신의 턴이 종료될 때까지 지속된다"
       },
@@ -169,21 +148,19 @@
       "summary": {
         "pt-BR": "Aumenta o Dano para cada golpe realizado. Este efeito é acumulável e dura até o fim da rodada deste personagem.",
         "en": "Increases DMG for every hit dealt. This effect is stackable and lasts until the end of this character's turn.",
-        "zh-CN": "施放每段攻击后，使自身造成的伤害提高，该效果可以叠加并持续至自身回合结束。",
         "ja": "1段の攻撃を行うたびに、自身の与ダメージアップ。この効果は累積でき、自身のターンが終了するまで継続。",
         "ko": "공격 단수를 발동할 때마다 자신이 가하는 피해가 증가한다. 해당 효과는 자신의 턴이 종료될 때까지 중첩 및 지속된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 121306,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +169,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -203,14 +179,12 @@
       "name": {
         "pt-BR": "Prismadracônico Amaina-Céus",
         "en": "Heaven-Quelling Prismadrakon",
-        "zh-CN": "掣空如虹",
         "ja": "掣空、虹の如し",
         "ko": "천공을 가르는 용오름"
       },
       "description": {
         "pt-BR": "Após usar sua Técnica, Dan Heng - Embebidor Lunae entra no estado de Dragão Saltitante por #2[i] segundos. Enquanto está no estado de Dragão Saltitante, usar o seu ataque permite que ele se mova para frente rapidamente por uma certa distância, atacando todos os inimigos nos quais ele tocar e bloqueando todos os ataques direcionados a ele. Após entrar no combate ao atacar inimigos no estado de Dragão Saltitante, Dan Heng - Embebidor Lunae causa Dano Imaginário igual a #3[i]% do seu ATQ a todos os inimigos, e ganha #1[i] Squama Sacrosancta.",
         "en": "After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for #2[i] seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to #3[i]% of his ATK to all enemies, and gains #1[i] Squama Sacrosancta.",
-        "zh-CN": "使用秘技后进入持续#2[i]秒的【蟠跃】状态。【蟠跃】状态下使用攻击会快速向前移动一段距离并攻击接触到的敌人，在快速移动的过程中可抵挡敌人的所有攻击。【蟠跃】状态下主动攻击敌人进入战斗后，对敌方全体造成等同于丹恒•饮月#3[i]%攻击力的虚数属性伤害，并使自身获得#1[i]个【逆鳞】。",
         "ja": "秘技を使用した後、#2[i]秒間継続する「遊龍」状態に入る。「遊龍」状態で攻撃すると、素早く前方に一定距離移動し、触れた敵を攻撃する。その間、敵のすべての攻撃を防げる。「遊龍」状態で敵を先制攻撃して戦闘に入った後、敵全体に丹恒・飲月の攻撃力#3[i]%分の虚数属性ダメージを与え、自身は「逆鱗」を#1[i]獲得する。",
         "ko": "비술을 사용하면 #2[i]초 동안 [용의 도약] 상태에 진입한다. [용의 도약] 상태에서 공격을 사용하면 빠른 속도로 전방을 향해 일정 거리 이동하고 접촉한 적을 공격한다. 빠른 이동 중에는 적의 모든 공격을 막을 수 있다. [용의 도약] 상태에서 적을 공격해 전투에 진입하면 모든 적에게 단항•음월 공격력의 #3[i]%만큼 허수 속성 피해를 주고, [역린]을 #1[i]개 획득한다"
       },
@@ -220,21 +194,19 @@
       "summary": {
         "pt-BR": "Entra no estado de Dragão Saltitante. Atacar fará com que esse personagem se mova para frente rapidamente uma certa distância e ataque todos os inimigos tocados. Após entrar em combate ao atacar inimigos, causa Dano Imaginário a todos os inimigos, e ganha 1 Squama Sacrosancta.",
         "en": "Enters the Leaping Dragon state. Attacking will cause this character to move forward rapidly for a set distance and attack all enemies touched. After entering combat via attacking enemies, deals Imaginary DMG to all enemies, and gains 1 Squama Sacrosancta.",
-        "zh-CN": "进入【蟠跃】状态，使用攻击会快速向前移动一段距离并攻击接触到的敌人。攻击敌人进战后，对敌方全体造成虚数属性伤害，并获得1个【逆鳞】。",
         "ja": "「遊龍」状態に入り、攻撃すると素早く前方に一定距離移動し、触れた敵を攻撃する。敵を先制攻撃して戦闘に入った後、敵全体に虚数属性ダメージを与え、「逆鱗」を1獲得する。",
         "ko": "[용의 도약] 상태 진입 후, 공격을 사용하면 빠른 속도로 전방을 향해 일정 거리 이동하고 접촉한 적을 공격한다. 적을 공격하여 전투에 진입하면 모든 적에게 허수 속성 피해를 주고 [역린]을 1개 획득한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 121308,
       "type": "Basic",
-      "name": { "pt-BR": "Transcendência", "en": "Transcendence", "zh-CN": "瞬华", "ja": "瞬華", "ko": "순간" },
+      "name": { "pt-BR": "Transcendência", "en": "Transcendence", "ja": "瞬華", "ko": "순간" },
       "description": {
         "pt-BR": "Realiza um ataque de 3 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo.",
         "en": "Uses a 3-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target.",
-        "zh-CN": "施放3段攻击对指定敌方单体造成等同于丹恒•饮月#1[i]%攻击力的虚数属性伤害。",
         "ja": "3段の攻撃を行い、指定した敵単体に丹恒・飲月の攻撃力#1[i]%分の虚数属性ダメージを与える。",
         "ko": "지정된 단일 적에게 3단 공격을 발동하여 단항•음월 공격력의 #1[i]%만큼 허수 속성 피해를 준다"
       },
@@ -244,21 +216,19 @@
       "summary": {
         "pt-BR": "Realiza 3 golpes neste ataque e causa Dano Imaginário a um único inimigo-alvo.",
         "en": "Unleashes 3 hits in this attack and deals Imaginary DMG to one enemy target.",
-        "zh-CN": "施放3段攻击对敌方单体造成虚数属性伤害。",
         "ja": "3段の攻撃を行い、敵単体に虚数属性ダメージを与える。",
         "ko": "단일 적에게 3단 공격을 발동해 허수 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121309,
       "type": "Skill",
-      "name": { "pt-BR": "Cancelar", "en": "Cancel", "zh-CN": "取消", "ja": "キャンセル", "ko": "취소" },
+      "name": { "pt-BR": "Cancelar", "en": "Cancel", "ja": "キャンセル", "ko": "취소" },
       "description": {
         "pt-BR": "Cancelar Aprimoramento",
         "en": "Cancel Enhancement",
-        "zh-CN": "取消强化。",
         "ja": "強化をキャンセルする。",
         "ko": "강화를 취소한다"
       },
@@ -267,21 +237,19 @@
       "summary": {
         "pt-BR": "Cancelar Aprimoramento",
         "en": "Cancel Enhancement",
-        "zh-CN": "取消强化。",
         "ja": "強化をキャンセルする。",
         "ko": "강화를 취소한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Cancelar", "en": "Cancel", "zh-CN": "取消", "ja": "キャンセル", "ko": "취소" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Cancelar", "en": "Cancel", "ja": "キャンセル", "ko": "취소" }
     },
     {
       "id": 121310,
       "type": "Basic",
-      "name": { "pt-BR": "Lança Divina", "en": "Divine Spear", "zh-CN": "天矢阴", "ja": "天矢陰", "ko": "신성의 창" },
+      "name": { "pt-BR": "Lança Divina", "en": "Divine Spear", "ja": "天矢陰", "ko": "신성의 창" },
       "description": {
         "pt-BR": "Realiza um ataque de 5 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Do quarto golpe em diante, causa simultaneamente Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes.",
         "en": "Uses a 5-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
-        "zh-CN": "施放5段攻击对指定敌方单体造成等同于丹恒•饮月#1[i]%攻击力的虚数属性伤害。从第4段攻击开始同时对其相邻目标造成等同于丹恒•饮月#2[i]%攻击力的虚数属性伤害。",
         "ja": "5段の攻撃を行い、指定した敵単体に丹恒・飲月の攻撃力#1[i]%分の虚数属性ダメージを与える。4段目以降の攻撃は隣接する敵にも丹恒・飲月の攻撃力#2[i]%分の虚数属性ダメージを与える。",
         "ko": "지정된 단일 적에게 5단 공격을 발동해 단항•음월 공격력의 #1[i]%만큼 허수 속성 피해를 준다. 4번째 공격부터 인접한 목표에게 단항•음월 공격력의 #2[i]%만큼 허수 속성 피해를 준다"
       },
@@ -302,27 +270,19 @@
       "summary": {
         "pt-BR": "Realiza 5 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário leve a alvos adjacentes. Para cada um dos últimos 2 golpes, obtém 1 acúmulo de Rugido Soberano logo antes do golpe, aumentando o Dano CRIT.",
         "en": "Unleashes 5 hits in this attack to deal massive Imaginary DMG to one enemy and minor Imaginary DMG to adjacent targets. For each of the last 2 hits, obtains 1 stack of \"Outroar\" just before the hit, increasing CRIT DMG.",
-        "zh-CN": "施放5段攻击对敌方单体造成大量虚数属性伤害，对相邻目标造成少量虚数属性伤害。后2段每段攻击前获得1层【叱咤】：提高暴击伤害。",
         "ja": "5段の攻撃を行い、敵単体に大量の虚数属性ダメージを与え、隣接する敵に少量の虚数属性ダメージを与える。4段目以降の攻撃の前に、それぞれ「叱咤」を1層獲得する。「叱咤」は会心ダメージをアップする。",
         "ko": "단일 적에게 5단 공격을 발동해 대량의 허수 속성 피해를 주고, 인접한 목표에게 소량의 허수 속성 피해를 준다. 마지막 2단 공격부터 공격하기 전에 공격 단수마다 [노호]를 1스택 획득한다. [노호]: 치명타 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 121312,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Salto Fulgurante",
-        "en": "Fulgurant Leap",
-        "zh-CN": "盘拏耀跃",
-        "ja": "躍動せし耀鱗",
-        "ko": "빛나는 도약"
-      },
+      "name": { "pt-BR": "Salto Fulgurante", "en": "Fulgurant Leap", "ja": "躍動せし耀鱗", "ko": "빛나는 도약" },
       "description": {
         "pt-BR": "Realiza um ataque de 7 golpes e causa Dano Imaginário igual a #1[i]% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Do quarto golpe em diante, causa simultaneamente Dano Imaginário igual a #2[i]% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes.",
         "en": "Uses a 7-hit attack and deals Imaginary DMG equal to #1[i]% of Dan Heng • Imbibitor Lunae's ATK to one designated enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to #2[i]% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
-        "zh-CN": "施放7段攻击对指定敌方单体造成等同于丹恒•饮月#1[i]%攻击力的虚数属性伤害。从第4段攻击开始同时对其相邻目标造成等同于丹恒•饮月#2[i]%攻击力的虚数属性伤害。",
         "ja": "7段の攻撃を行い、指定した敵単体に丹恒・飲月の攻撃力#1[i]%分の虚数属性ダメージを与える。4段目以降の攻撃は隣接する敵にも丹恒・飲月の攻撃力#2[i]%分の虚数属性ダメージを与える。",
         "ko": "지정된 단일 적에게 7단 공격을 발동해 단항•음월 공격력의 #1[i]%만큼 허수 속성 피해를 준다. 4번째 공격부터 인접한 목표에게 단항•음월 공격력의 #2[i]%만큼 허수 속성 피해를 준다"
       },
@@ -343,12 +303,11 @@
       "summary": {
         "pt-BR": "Realiza 7 golpes neste ataque para causar Dano Imaginário massivo a um único inimigo e Dano Imaginário a alvos adjacentes. Para cada um dos últimos 4 golpes, obtém 1 acúmulo de Rugido Soberano logo antes do golpe, aumentando o Dano CRIT.",
         "en": "Unleashes 7 hits in this attack to deal massive Imaginary DMG to one enemy and Imaginary DMG to adjacent targets. For each of the last 4 hits, obtains 1 stack of \"Outroar\" just before the hit, increasing CRIT DMG.",
-        "zh-CN": "施放7段攻击对敌方单体造成大量虚数属性伤害，对相邻目标造成虚数属性伤害。后4段每段攻击前获得1层【叱咤】：提高暴击伤害。",
         "ja": "7段の攻撃を行い、敵単体に大量の虚数属性ダメージを与え、隣接する敵に虚数属性ダメージを与える。4段目以降の攻撃の前に、それぞれ「叱咤」を1層獲得する。「叱咤」は会心ダメージをアップする。",
         "ko": "단일 적에게 7단 공격을 발동해 대량의 허수 속성 피해를 주고, 인접한 목표에게 허수 속성 피해를 준다. 마지막 4단 공격부터 공격하기 전에 공격 단수마다 [노호]를 1스택 획득한다. [노호]: 치명타 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -357,14 +316,12 @@
       "name": {
         "pt-BR": "Conectado ao Céu",
         "en": "Tethered to Sky",
-        "zh-CN": "萦天",
         "ja": "{RUBY_B#きゅうてん}九天{RUBY_E#}",
         "ko": "휘감긴 하늘"
       },
       "description": {
         "pt-BR": "Aumenta a contagem acumulável de Coração Íntegro em 4, e ganha 1 acúmulo extra de Coração Íntegro por cada golpe durante o ataque.",
         "en": "Increases the stackable Righteous Heart count by 4, and gains 1 extra stack of Righteous Heart for each hit during an attack.",
-        "zh-CN": "使【亢心】的可叠加层数增加4层。且每段攻击额外获得1层【亢心】。",
         "ja": "「亢心」の累積可能層数+4。1段の攻撃を行うたび、さらに「亢心」を1層獲得する。",
         "ko": "[긍지]의 중첩 가능 스택 수가 4스택 증가하며, 공격 단수마다 [긍지]를 1스택 추가로 획득한다"
       },
@@ -377,14 +334,12 @@
       "name": {
         "pt-BR": "Império nas Nuvens",
         "en": "Imperium On Cloud Nine",
-        "zh-CN": "九斿",
         "ja": "{RUBY_B#きゅうりゅう}九旒{RUBY_E#}",
         "ko": "구유(九斿)"
       },
       "description": {
         "pt-BR": "Depois de usar sua Perícia Suprema, a ação de Dan Heng - Embebidor Lunae é Avançada Adiante em 100% e ganha 1 \"Squama Sacrosancta\" extra.",
         "en": "After using his Ultimate, Dan Heng • Imbibitor Lunae's action advances by 100% and gains 1 extra \"Squama Sacrosancta.\"",
-        "zh-CN": "施放终结技后丹恒•饮月行动提前100%，并且会额外获得1个【逆鳞】。",
         "ja": "必殺技を発動した後、丹恒・飲月の行動順が100%早まり、さらに「逆鱗」を1獲得する。",
         "ko": "필살기 발동 후 단항•음월의 행동 게이지가 100% 증가하고 추가로 [역린] 1개를 획득한다"
       },
@@ -397,14 +352,12 @@
       "name": {
         "pt-BR": "Trajado com Nuvens",
         "en": "Clothed in Clouds",
-        "zh-CN": "云旂",
         "ja": "{RUBY_B#うんき}雲旗{RUBY_E#}",
         "ko": "구름 깃발"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -423,14 +376,12 @@
       "name": {
         "pt-BR": "Bênção Zefirina",
         "en": "Zephyr's Bliss",
-        "zh-CN": "嘲风",
         "ja": "{RUBY_B#ちょうふう}嘲風{RUBY_E#}",
         "ko": "조풍(嘲風)"
       },
       "description": {
         "pt-BR": "O efeito de melhoria concedido por \"Rugido Soberano\" dura até o final da próxima rodada desta unidade.",
         "en": "The buff effect granted by \"Outroar\" lasts until the end of this unit's next turn.",
-        "zh-CN": "【叱咤】的增益效果会持续到下一个自身回合结束。",
         "ja": "「叱咤」のバフ効果が、自身の次のターンが終了するまで継続するようになる。",
         "ko": "[노호]의 버프 효과가 자신의 다음 턴이 종료될 때까지 지속된다"
       },
@@ -443,14 +394,12 @@
       "name": {
         "pt-BR": "A Queda é o Orgulho",
         "en": "Fall is the Pride",
-        "zh-CN": "偃蹇",
         "ja": "{RUBY_B#りょううん}凌雲{RUBY_E#}",
         "ko": "오만한 기세"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -463,14 +412,12 @@
       "name": {
         "pt-BR": "Reinado, Retornado",
         "en": "Reign, Returned",
-        "zh-CN": "见谯",
         "ja": "{RUBY_B#こうりゅう}黄龍{RUBY_E#}",
         "ko": "용의 강림"
       },
       "description": {
         "pt-BR": "Depois que qualquer outro personagem aliado usa sua Perícia Suprema, a PEN de RES a Imaginário do próximo \"Salto Fulgurante\" de Dan Heng - Embebidor Lunae aumenta em 20%. Este efeito pode acumular até 3 vez(es).",
         "en": "After another ally character uses their Ultimate, the Imaginary RES PEN of Dan Heng • Imbibitor Lunae's next \"Fulgurant Leap\" attack increases by 20%. This effect can stack up to 3 time(s).",
-        "zh-CN": "我方其他角色施放终结技后，丹恒•饮月下一次施放【盘拏耀跃】时虚数属性抗性穿透提高20%，该效果最多叠加3层。",
         "ja": "丹恒・飲月以外の味方が必殺技を発動した後、丹恒・飲月が発動する次の「躍動せし耀鱗」の虚数属性耐性貫通+20%。この効果は最大で3層累積できる。",
         "ko": "다른 아군 캐릭터가 필살기를 발동하면 단항•음월이 다음 번에 [빛나는 도약] 발동 시 허수 속성 저항 관통이 20% 증가한다. 해당 효과 최대 중첩수: 3스택"
       },
@@ -850,14 +797,12 @@
       "name": {
         "pt-BR": "Véu Estelar",
         "en": "Star Veil",
-        "zh-CN": "伏辰",
         "ja": "{RUBY_B#ふくしん}伏辰{RUBY_E#}",
         "ko": "자취를 감춘 성신"
       },
       "description": {
         "pt-BR": "No início da batalha, regenera #1[i] de Energia imediatamente.",
         "en": "At the start of the battle, immediately regenerates #1[i] Energy.",
-        "zh-CN": "战斗开始时，立即恢复#1[i]点能量。",
         "ja": "戦闘開始時、EPを#1[i]回復する。",
         "ko": "전투 시작 시 즉시 에너지를 #1[i]pt 회복한다"
       },
@@ -881,14 +826,12 @@
       "name": {
         "pt-BR": "Reinado Aquático",
         "en": "Aqua Reign",
-        "zh-CN": "修禹",
         "ja": "{RUBY_B#しゅうう}修禹{RUBY_E#}",
         "ko": "치수"
       },
       "description": {
         "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
         "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
-        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
         "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
         "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
       },
@@ -917,14 +860,12 @@
       "name": {
         "pt-BR": "Nova Descarga",
         "en": "Jolt Anew",
-        "zh-CN": "起蛰",
         "ja": "{RUBY_B#けいちつ}啓蟄{RUBY_E#}",
         "ko": "계칩(啓蟄)"
       },
       "description": {
         "pt-BR": "Ao causar Dano a inimigos com Fraqueza contra Imaginário, aumenta o Dano CRIT em #1[i]%.",
         "en": "When dealing DMG to enemy targets with Imaginary Weakness, CRIT DMG increases by #1[i]%.",
-        "zh-CN": "对拥有虚数属性弱点的敌方目标造成伤害时，暴击伤害提高#1[i]%。",
         "ja": "虚数属性が弱点の敵にダメージを与える時、会心ダメージ+#1[i]%。",
         "ko": "허수 속성 약점을 보유한 적에게 피해를 가할 시 치명타 피해가 #1[i]% 증가한다"
       },
@@ -953,7 +894,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Imaginário",
         "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
         "ja": "ダメージ強化・虚数",
         "ko": "피해 강화•허수"
       },
@@ -976,7 +916,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -999,7 +938,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Imaginário",
         "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
         "ja": "ダメージ強化・虚数",
         "ko": "피해 강화•허수"
       },
@@ -1019,7 +957,7 @@
     {
       "id": 1213204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1213203],
@@ -1039,7 +977,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Imaginário",
         "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
         "ja": "ダメージ強化・虚数",
         "ko": "피해 강화•허수"
       },
@@ -1062,7 +999,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1085,7 +1021,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Imaginário",
         "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
         "ja": "ダメージ強化・虚数",
         "ko": "피해 강화•허수"
       },
@@ -1105,7 +1040,7 @@
     {
       "id": 1213208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1213103],
@@ -1125,7 +1060,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1148,7 +1082,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Imaginário",
         "en": "DMG Boost: Imaginary",
-        "zh-CN": "伤害强化•虚数",
         "ja": "ダメージ強化・虚数",
         "ko": "피해 강화•허수"
       },

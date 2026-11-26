@@ -1,13 +1,7 @@
 {
   "id": 11206,
   "slug": "sushangs-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Sushang",
-    "en": "Sushang's Eidolon",
-    "zh-CN": "【素裳】的星魂",
-    "ja": "「素裳」の星魂",
-    "ko": "[소상]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Sushang", "en": "Sushang's Eidolon", "ja": "「素裳」の星魂", "ko": "[소상]의 성혼" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

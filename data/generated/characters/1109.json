@@ -1,7 +1,7 @@
 {
   "id": 1109,
   "slug": "hook",
-  "name": { "pt-BR": "Hook", "en": "Hook", "zh-CN": "虎克", "ja": "フック", "ko": "후크" },
+  "name": { "pt-BR": "Hook", "en": "Hook", "ja": "フック", "ko": "후크" },
   "rarity": 4,
   "path": "Destruction",
   "element": "Fire",
@@ -14,14 +14,12 @@
       "name": {
         "pt-BR": "Hehe! Não Vai se Queimar!",
         "en": "Hehe! Don't Get Burned!",
-        "zh-CN": "喂！小心火烛",
         "ja": "おい！火の元に気をつけな",
         "ko": "이봐! 불조심!"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Hook a um único inimigo.",
         "en": "Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于虎克#1[i]%攻击力的火属性伤害。",
         "ja": "指定した敵単体にフックの攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 후크 공격력 #1[i]%만큼의 화염 속성 피해를 준다"
       },
@@ -31,12 +29,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a um único inimigo.",
         "en": "Deals minor Fire DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量火属性伤害。",
         "ja": "敵単体に少量の炎属性ダメージを与える。",
         "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110902,
@@ -44,14 +41,12 @@
       "name": {
         "pt-BR": "Ei! Lembra da Hook?",
         "en": "Hey! Remember Hook?",
-        "zh-CN": "嘿！记得虎克吗",
         "ja": "おい！フックを覚えてるか？",
         "ko": "헤이! 후크 기억해?"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Hook a um inimigo-alvo. Além disso, há #2[i]% de chance-base de infligir Queimadura por #3[i] rodada(s).\nEnquanto tiverem Queimadura, inimigos recebem Dano de Fogo Contínuo igual a #4[i]% do ATQ de Hook no início de cada rodada.",
         "en": "Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy. In addition, there is a #2[i]% base chance to inflict Burn for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.",
-        "zh-CN": "对指定敌方单体造成等同于虎克#1[i]%攻击力的火属性伤害，同时有#2[i]%的基础概率使其陷入灼烧状态，持续#3[i]回合。\n灼烧状态下，敌方目标每回合开始时受到等同于虎克#4[i]%攻击力的火属性持续伤害。",
         "ja": "指定した敵単体にフックの攻撃力#1[i]%分の炎属性ダメージを与え、#2[i]%の基礎確率で敵を燃焼状態にする、#3[i]ターン継続。\n燃焼状態の敵はターンが回ってくるたびに、フックの攻撃力#4[i]%分の炎属性持続ダメージを受ける。",
         "ko": "지정된 단일 적에게 후크 공격력 #1[i]%만큼의 화염 속성 피해를 주고, 피격된 적은 #2[i]%의 기본 확률로 연소 상태에 빠진다. 지속 시간: #3[i]턴\n연소 상태의 적은 새로운 턴이 시작될 때마다 후크 공격력 #4[i]%만큼의 화염 속성 지속 피해를 받는다"
       },
@@ -77,12 +72,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a um único inimigo, com altas chances de infligir Queimadura nele.",
         "en": "Deals Fire DMG to one enemy, with a high chance to inflict Burn on the enemy.",
-        "zh-CN": "对敌方单体造成火属性伤害，大概率对目标施加灼烧状态。",
         "ja": "敵単体に炎属性ダメージを与え、高確率で燃焼状態を付与。",
         "ko": "단일 적에게 화염 속성 피해를 가하고, 높은 확률로 연소 상태를 부여한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110903,
@@ -90,14 +84,12 @@
       "name": {
         "pt-BR": "Bum! Lá Vem Fogo!",
         "en": "Boom! Here Comes the Fire!",
-        "zh-CN": "轰！飞来焰火",
         "ja": "ドカン！飛んでけ花火！",
         "ko": "펑! 날아드는 불꽃"
       },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Hook como Dano de Fogo a um inimigo-alvo.\nApós usar a Perícia Suprema, a próxima Perícia usada é Aprimorada, causando Dano a um único inimigo e aos inimigos adjacentes a ele.",
         "en": "Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to one designated enemy and enemies adjacent to it.",
-        "zh-CN": "对指定敌方单体造成等同于虎克#1[i]%攻击力的火属性伤害。\n施放终结技后，下一次施放的战技得到强化，强化后的战技能够同时对指定敌方单体及其相邻目标造成伤害。",
         "ja": "指定した敵単体にフックの攻撃力#1[i]%分の炎属性ダメージを与える。\n必殺技を発動した後、次に発動する戦闘スキルを強化、強化後の戦闘スキルは指定した敵単体および隣接する敵にダメージを与える。",
         "ko": "지정된 단일 적에게 후크 공격력 #1[i]%만큼의 화염 속성 피해를 준다.\n필살기 발동 후 다음 발동 전투 스킬이 강화된다. 강화 후의 전투 스킬은 지정된 단일 적과 인접한 목표에게 동시에 피해를 준다"
       },
@@ -123,12 +115,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo massivo a um único inimigo e Aprimora a próxima Perícia dessa unidade.",
         "en": "Deals massive Fire DMG to one enemy and Enhances this unit's next Skill.",
-        "zh-CN": "对敌方单体造成大量火属性伤害，并强化自身下一次的战技。",
         "ja": "敵単体に大量の炎属性ダメージを与え、次に発動する戦闘スキルを強化する。",
         "ko": "단일 적에게 대량의 화염 속성 피해를 가하고, 자신의 다음번 전투 스킬을 강화한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110904,
@@ -136,14 +127,12 @@
       "name": {
         "pt-BR": "Ha! Óleo nas Chamas!",
         "en": "Ha! Oil to the Flames!",
-        "zh-CN": "哈！火上浇油",
         "ja": "はっ！火に油を注ぐ",
         "ko": "하! 불난 집에 부채질"
       },
       "description": {
         "pt-BR": "Ao atacar um alvo afetado com Queimadura, causa Dano de Fogo Adicional igual a #1[i]% do ATQ de Hook e regenera #2[i] de Energia extra.",
         "en": "When attacking a target afflicted with Burn, deals Fire Additional DMG equal to #1[i]% of Hook's ATK and regenerates #2[i] extra Energy.",
-        "zh-CN": "攻击处于灼烧状态的敌方目标时，追加1次等同于虎克#1[i]%攻击力的火属性附加伤害，并额外恢复#2[i]点能量。",
         "ja": "燃焼状態の敵を攻撃する時、さらにフックの攻撃力#1[i]%分の炎属性付加ダメージを1回与え、さらにEPを#2[i]回復する。",
         "ko": "연소 상태의 적 공격 시, 추가로 후크 공격력 #1[i]%만큼의 화염 속성 추가 피해를 주고, 에너지를 추가로 #2[i]pt 회복한다"
       },
@@ -169,21 +158,19 @@
       "summary": {
         "pt-BR": "Ao atacar um inimigo com Queimadura, causa uma quantidade moderada de Dano de Fogo Adicional, e adicionalmente regenera Energia.",
         "en": "When attacking a Burned enemy, deals Fire Additional DMG for a moderate amount, and additionally regenerates energy.",
-        "zh-CN": "攻击处于灼烧状态的敌方目标时，造成少量火属性附加伤害并额外恢复能量。",
         "ja": "燃焼状態の敵を攻撃する時、少量の炎属性付加ダメージを与え、さらにEPを回復する。",
         "ko": "연소 상태의 적 공격 시 소량의 화염 속성 추가 피해를 가하고 에너지를 추가로 회복한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 110906,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +179,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -203,14 +189,12 @@
       "name": {
         "pt-BR": "Argh! Olha Essa Bagunça!",
         "en": "Ack! Look at This Mess!",
-        "zh-CN": "哎！瞧这一团糟",
         "ja": "ほら！滅茶苦茶になってる",
         "ko": "윽! 완전 난장판"
       },
       "description": {
         "pt-BR": "Ataca imediatamente o inimigo. Ao entrar em batalha, Hook causa Dano de Fogo igual a #4[i]% de seu ATQ a um inimigo aleatório. Além disso, há #1[i]% de chance-base de infligir Queimadura em todos os inimigos por #3[i] rodada(s).\nEnquanto tiverem Queimadura, inimigos recebem #2[i]% do ATQ de Hook como Dano de Fogo Contínuo no início de cada rodada.",
         "en": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to #4[i]% of her ATK to a random enemy. In addition, there is a #1[i]% base chance to inflict Burn on every enemy for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's ATK at the beginning of each turn.",
-        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于虎克#4[i]%攻击力的火属性伤害，同时有#1[i]%的基础概率使敌方每个单体目标陷入灼烧状态，持续#3[i]回合。\n灼烧状态下，敌方目标每回合开始时受到等同于虎克#2[i]%攻击力的火属性持续伤害。",
         "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体にフックの攻撃力#4[i]%分の炎属性ダメージを与え、#1[i]%の基礎確率で敵単体それぞれに燃焼状態を付与する、#3[i]ターン継続。\n燃焼状態の敵はターンが回ってくるたびに、フックの攻撃力#2[i]%分の炎属性持続ダメージを受ける。",
         "ko": "적을 바로 공격하며, 전투 진입 후 랜덤 단일 적에게 후크 공격력의 #4[i]%만큼 화염 속성 피해를 가하고, 각 단일 적을 #1[i]%의 기본 확률로 연소 상태에 빠트린다. 지속 시간: #3[i]턴\n연소 상태의 적은 새로운 턴이 시작될 때마다 후크 공격력 #2[i]%만큼의 화염 속성 지속 피해를 받는다"
       },
@@ -220,11 +204,10 @@
       "summary": {
         "pt-BR": "Ataca os inimigos. Após entrar em batalha, causa Dano de Fogo leve a uma unidade inimiga aleatória, com alta chance de infligir Queimadura em cada unidade inimiga.",
         "en": "Attacks enemies. After entering battle, deals minor Fire DMG to one random enemy, with a high chance to inflict Burn on each enemy.",
-        "zh-CN": "攻击敌人，进战后对敌方随机单体造成少量火属性伤害，大概率使敌方每个单体陷入灼烧状态。",
         "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体に少量の炎ダメージを与え、敵それぞれを高確率で燃焼状態にする。",
         "ko": "적을 공격하며, 전투 진입 후 랜덤 단일 적에게 소량의 화염 속성 피해를 가하고, 높은 확률로 각 단일 적을 연소 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 110909,
@@ -232,14 +215,12 @@
       "name": {
         "pt-BR": "Ei! Lembra da Hook?",
         "en": "Hey! Remember Hook?",
-        "zh-CN": "嘿！记得虎克吗",
         "ja": "おい！フックを覚えてるか？",
         "ko": "헤이! 후크 기억해?"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Hook a um único inimigo, com #2[i]% de chance-base de infligir Queimadura nele por #3[i] rodada(s). Adicionalmente, causa Dano de Fogo igual a #5[i]% do ATQ de Hook a qualquer inimigo adjacente a ele.\nEnquanto tiverem Queimadura, inimigos recebem Dano de Fogo Contínuo igual a #4[i]% do ATQ de Hook no início de cada rodada.",
         "en": "Deals Fire DMG equal to #1[i]% of Hook's ATK to one designated enemy, with a #2[i]% base chance to Burn them for #3[i] turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.",
-        "zh-CN": "对指定敌方单体造成等同于虎克#1[i]%攻击力的火属性伤害，同时有#2[i]%的基础概率使其陷入灼烧状态，持续#3[i]回合。此外对其相邻目标造成等同于虎克#5[i]%攻击力的火属性伤害。\n灼烧状态下，敌方目标每回合开始时受到等同于虎克#4[i]%攻击力的火属性持续伤害。",
         "ja": "指定した敵単体にフックの攻撃力#1[i]%分の炎属性ダメージを与え、#2[i]%の基礎確率で敵を燃焼状態にする、#3[i]ターン継続。さらに、その敵に隣接する敵にフックの攻撃力#5[i]%分の炎属性ダメージを与える。\n燃焼状態の敵はターンが回ってくるたびに、フックの攻撃力#4[i]%分の炎属性持続ダメージを受ける。",
         "ko": "지정된 단일 적에게 후크 공격력 #1[i]%만큼의 화염 속성 피해를 주고, 피격된 적은 #2[i]%의 기본 확률로 연소 상태에 빠진다. 지속 시간: #3[i]턴. 또한, 인접한 목표에게 후크 공격력 #5[i]%만큼의 화염 속성 피해를 준다.\n연소 상태의 적은 새로운 턴이 시작될 때마다 후크 공격력 #4[i]%만큼의 화염 속성 지속 피해를 받는다"
       },
@@ -265,12 +246,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a um único inimigo, com altas chances de infligir Queimadura, e Dano de Fogo leve a inimigos adjacentes a ele.",
         "en": "Deals Fire DMG to one enemy with a high chance of inflicting Burn, also deals minor Fire DMG to enemies adjacent to it.",
-        "zh-CN": "对敌方单体造成火属性伤害，大概率对目标施加灼烧状态，对相邻目标造成少量火属性伤害。",
         "ja": "敵単体に炎属性ダメージを与え、高確率で燃焼状態にする、隣接する敵に少量の炎属性ダメージを与える。",
         "ko": "단일 적에게 화염 속성 피해를 가하고, 높은 확률로 연소 상태를 부여한다. 인접한 목표에게 소량의 화염 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -279,14 +259,12 @@
       "name": {
         "pt-BR": "Deus Ajuda Quem Cedo Madruga",
         "en": "Early to Bed, Early to Rise",
-        "zh-CN": "早睡早起很健康",
         "ja": "{RUBY_B#はやねはやお}早寝早起{RUBY_E#}きは{RUBY_B#けんこうてき}健康的{RUBY_E#}",
         "ko": "건강한 수면 사이클"
       },
       "description": {
         "pt-BR": "A Perícia Aprimorada causa 20% a mais de Dano.",
         "en": "Enhanced Skill deals 20% increased DMG.",
-        "zh-CN": "战技强化后造成的伤害提高20%。",
         "ja": "強化戦闘スキルによるダメージ+20%。",
         "ko": "전투 스킬 강화 후 가하는 피해가 20% 증가한다"
       },
@@ -299,14 +277,12 @@
       "name": {
         "pt-BR": "Barriga Sã, Corpo São",
         "en": "Happy Tummy, Happy Body",
-        "zh-CN": "吃好喝好长身体",
         "ja": "よく{RUBY_B#た}食{RUBY_E#}べて{RUBY_B#せいちょう}成長{RUBY_E#}する",
         "ko": "건강한 식습관"
       },
       "description": {
         "pt-BR": "Estende a duração de Queimadura causada pela Perícia em 1 rodada(s).",
         "en": "Extends the duration of Burn caused by Skill by 1 turn(s).",
-        "zh-CN": "战技使敌方目标陷入的灼烧状态持续时间增加1回合。",
         "ja": "戦闘スキルが付与する燃焼状態の継続時間+1ターン。",
         "ko": "전투 스킬은 적의 연소 상태 지속 시간을 1턴 증가시킨다"
       },
@@ -319,14 +295,12 @@
       "name": {
         "pt-BR": "Não Seja Implicante, Nada É Deselegante",
         "en": "Don't Be Picky, Nothing's Icky",
-        "zh-CN": "不挑不选全都要",
         "ja": "{RUBY_B#す}好{RUBY_E#}き{RUBY_B#きら}嫌{RUBY_E#}いはしない",
         "ko": "가리지 않고 전부"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -339,14 +313,12 @@
       "name": {
         "pt-BR": "Tudo Bem Não Saber",
         "en": "It's Okay to Not Know",
-        "zh-CN": "稀里糊涂没关系",
         "ja": "うっかりしても{RUBY_B#だいじょうぶ}大丈夫{RUBY_E#}",
         "ko": "얼렁뚱땅해도 이상 무"
       },
       "description": {
         "pt-BR": "Quando o Talento é ativado, há uma chance-base de 100% de infligir \"Queimadura\" equivalente à da Perícia aos inimigos adjacentes ao inimigo-alvo.",
         "en": "When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the designated enemy target, equivalent to that of Skill.",
-        "zh-CN": "触发天赋时，有100%基础概率使指定敌方目标的相邻目标也陷入等同于战技的灼烧状态。",
         "ja": "天賦発動時、100%の基礎確率で指定した敵に隣接する敵を、戦闘スキルが与えるものと同じ燃焼状態にする。",
         "ko": "특성 발동 시 100%의 기본 확률로 지정된 적의 인접한 목표를 전투 스킬과 같은 연소 상태에 빠트린다"
       },
@@ -359,14 +331,12 @@
       "name": {
         "pt-BR": "Conheçam os Feitos das Toupeiras",
         "en": "Let the Moles' Deeds Be Known",
-        "zh-CN": "好事留名鼹鼠党",
         "ja": "モグラ{RUBY_B#とう}党{RUBY_E#}は{RUBY_B#な}名{RUBY_E#}を{RUBY_B#のこ}遺{RUBY_E#}す",
         "ko": "이름 날린 두더지파"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -379,14 +349,12 @@
       "name": {
         "pt-BR": "Sempre a Postos Para Atacar",
         "en": "Always Ready to Punch and Kick",
-        "zh-CN": "随时准备打坏人",
         "ja": "{RUBY_B#わる}悪{RUBY_E#}い{RUBY_B#やつ}奴{RUBY_E#}らはお{RUBY_B#しお}仕置{RUBY_E#}きだ",
         "ko": "항시 악에 맞설 준비"
       },
       "description": {
         "pt-BR": "Hook causa 20% a mais de Dano a inimigos atingidos por Queimadura.",
         "en": "Hook deals 20% more DMG to enemies afflicted with Burn.",
-        "zh-CN": "虎克对灼烧状态下的敌方目标造成的伤害提高20%。",
         "ja": "燃焼状態の敵に対するフックの与ダメージ+20%。",
         "ko": "후크가 연소 상태를 보유한 적에게 가하는 피해가 20% 증가한다"
       },
@@ -748,17 +716,10 @@
     {
       "id": 1109101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Inocência",
-        "en": "Innocence",
-        "zh-CN": "童真",
-        "ja": "{RUBY_B#こどもごころ}子供心{RUBY_E#}",
-        "ko": "천진"
-      },
+      "name": { "pt-BR": "Inocência", "en": "Innocence", "ja": "{RUBY_B#こどもごころ}子供心{RUBY_E#}", "ko": "천진" },
       "description": {
         "pt-BR": "Hook restaura #1[i]% de seus PV máximos sempre que utilizar seu Talento.",
         "en": "Hook restores HP equal to #1[i]% of her Max HP whenever her Talent is triggered.",
-        "zh-CN": "触发天赋时，回复等同于虎克生命上限#1[i]%的生命值。",
         "ja": "天賦発動時、フックの最大HP#1[i]%分のHPを回復する。",
         "ko": "특성 발동 시 후크 HP 최대치 #1[i]%만큼의 HP를 회복한다"
       },
@@ -779,17 +740,10 @@
     {
       "id": 1109102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Ingenuidade",
-        "en": "Naivete",
-        "zh-CN": "无邪",
-        "ja": "{RUBY_B#むじゃき}無邪気{RUBY_E#}",
-        "ko": "난만"
-      },
+      "name": { "pt-BR": "Ingenuidade", "en": "Naivete", "ja": "{RUBY_B#むじゃき}無邪気{RUBY_E#}", "ko": "난만" },
       "description": {
         "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
         "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
-        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
         "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
         "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
       },
@@ -818,14 +772,12 @@
       "name": {
         "pt-BR": "Brincando com Fogo",
         "en": "Playing With Fire",
-        "zh-CN": "玩火",
         "ja": "{RUBY_B#ひあそ}火遊{RUBY_E#}び",
         "ko": "불장난"
       },
       "description": {
         "pt-BR": "Após usar a Perícia Suprema, Hook tem sua ação Avançada Adiante em #2[i]% e regenera mais #1[i] de Energia.",
         "en": "After using her Ultimate, Hook has her action advanced by #2[i]% and additionally regenerates #1[i] Energy.",
-        "zh-CN": "施放终结技后，虎克的行动提前#2[i]%并额外恢复#1[i]点能量。",
         "ja": "必殺技を発動した後、フックの行動順が#2[i]%早まり、さらにEPを#1[i]回復する。",
         "ko": "필살기 발동 후 후크의 행동 게이지가 #2[i]% 증가하고, 추가로 에너지를 #1[i]pt 회복한다"
       },
@@ -851,7 +803,7 @@
     {
       "id": 1109201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -868,7 +820,7 @@
     {
       "id": 1109202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1109101],
@@ -885,7 +837,7 @@
     {
       "id": 1109203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1109202],
@@ -902,13 +854,7 @@
     {
       "id": 1109204,
       "anchor": "Point12",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1109203],
@@ -925,7 +871,7 @@
     {
       "id": 1109205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1109102],
@@ -942,7 +888,7 @@
     {
       "id": 1109206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1109205],
@@ -959,7 +905,7 @@
     {
       "id": 1109207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1109206],
@@ -976,13 +922,7 @@
     {
       "id": 1109208,
       "anchor": "Point16",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1109103],
@@ -999,7 +939,7 @@
     {
       "id": 1109209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1109208],
@@ -1016,7 +956,7 @@
     {
       "id": 1109210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1109208],

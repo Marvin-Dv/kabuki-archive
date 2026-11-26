@@ -1,13 +1,7 @@
 {
   "id": 112002,
   "slug": "silvermane-insignia",
-  "name": {
-    "pt-BR": "Insígnia Crinalva",
-    "en": "Silvermane Insignia",
-    "zh-CN": "铁卫军徽",
-    "ja": "シルバーメインの記章",
-    "ko": "철위대 표식"
-  },
+  "name": { "pt-BR": "Insígnia Crinalva", "en": "Silvermane Insignia", "ja": "シルバーメインの記章", "ko": "철위대 표식" },
   "rarity": 3,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -30,14 +24,6 @@
       "Espólio deixado por inimigos no Universo Divergente",
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
-    ],
-    "zh-CN": [
-      "突破至均衡等级2后，永冬灾影、火焚灾影掉落",
-      "突破至均衡等级2后，银鬃铁卫、流浪者掉落",
-      "「万能合成机」- 材料合成",
-      "「差分宇宙」中敌方掉落",
-      "「模拟宇宙」中敌方掉落",
-      "「万能合成机」- 材料置换"
     ],
     "ja": [
       "均衡Lv.2に達した後、永冬の災影、焚火の災影からドロップ",

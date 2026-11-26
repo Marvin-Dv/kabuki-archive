@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Uma Ascensão Aterrada",
     "en": "A Grounded Ascent",
-    "zh-CN": "回到大地的飞行",
     "ja": "大地より天を目指して",
     "ko": "대지로 돌아온 비행"
   },
@@ -15,22 +14,14 @@
   "description": {
     "pt-BR": "Essas ilusões e falácias foram destruídas. Ele queria ser o sol do mundo inteiro, mas caiu do céu.\n\"Agora, você sente o que é dor?\"\nOutra voz em seu coração falou assim.\n\"Sim. E é isso que eu mereço sentir.\"\nEle caiu no pó e respondeu a si mesmo com seus passos pesados.\nEle andou na terra e mais uma vez contemplou a agonia que cobre o reino mortal como uma fonte sem fim.\nEle pisou nos espinhos que bloqueavam a estrada e ouviu os chamados da humanidade. Ele experimentou angústia, através da qual obteve tranquilidade.\n\"Cair era originalmente apenas outro nome para voar.\"\nE no oitavo dia, ele concedeu a si mesmo sua \"partida\".",
     "en": "Those delusions and fallacies have been shattered. He wanted to be the sun of the whole world, yet he fell from the sky.\n\"Now, do you feel what pain is?\"\nAnother voice in his heart spoke thus.\n\"Yes. And that is what I deserve to feel.\"\nHe fell into dust and answered himself with his heavy footsteps.\nHe walked on the earth and once again beheld the agony that covers the mortal realm like a never-ending font.\nHe stepped over the thorns that blocked the road and listened to the calls of humanity. He experienced anguish, through which he obtained tranquility.\n\"Falling was originally just another name for flying.\"\nAnd on this eighth day, he granted himself \"departure.\"",
-    "zh-CN": "虚妄迷想业已碎裂，他要做万物的太阳，却从天空坠落。\n「感受到了何为痛苦吗？」\n他心中另一道声音如是说道。\n「那正是我应感受的。」\n他落入尘埃，用沉重的脚步回答。\n他行走于大地，再次看到遍布人世的苦楚，如同源源不断的水泉。\n他跨越拦路的荆棘，他听闻凡人的呼喊，他经受苦惘，他获得宁静。\n「坠落，本是飞翔的别名。」\n在这第八日，他赐予自身「启程」。",
     "ja": "虚妄はすでに打ち砕かれた——彼は万物の太陽になろうとしたが、空から大地へと落ちたのだ。\n「今、アナタは痛みを感じていますか？」\n心の中のもう一つの声が語りかける。\n「ええ。それこそが、ワタシが感じるべきものです」\n土埃の中に落ちた彼は、揺るぎない歩みを以って答えとした。\nやがて、大地を渡り歩きながら、絶え間なく湧き出る泉のような人々の苦しみを、再び目の当たりにすることになる。\n道を阻む茨を乗り越えて、人々の声に耳を傾け——そうして彼は苦悩を経て、ようやく平穏を手に入れられたのだった。\n「墜落とは飛翔の別名」\nそして八日目、彼は自らの「旅立ち」を赦した。",
     "ko": "허망한 망상은 산산이 부서졌다. 그는 만물의 태양이 되려고 했지만, 하늘에서 추락했다.\n「고통이 무엇인지 느껴지나?」\n그의 마음속에서 또 다른 목소리가 말했다.\n「그게 바로 내가 느껴야 하는 것이야」\n먼지 속으로 떨어진 그는 무거운 발걸음으로 대답했다.\n그는 대지를 걸으며 인간 세상을 뒤덮은 괴로움을 또다시 보았다. 그것은 끊임없이 샘솟는 샘물 같았다.\n그는 길을 막는 가시를 넘고, 평범한 사람들의 부르짖음을 들었다. 그는 고통을 견디고 고요를 얻었다.\n「추락은, 비상의 또 다른 이름이지」\n여덟째 날, 그는 자신에게 「시작」을 주었다"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Partindo Outra Vez",
-      "en": "Departing Anew",
-      "zh-CN": "再启程",
-      "ja": "新たなる旅立ち",
-      "ko": "재출발"
-    },
+    "name": { "pt-BR": "Partindo Outra Vez", "en": "Departing Anew", "ja": "新たなる旅立ち", "ko": "재출발" },
     "description": {
       "pt-BR": "Após o usuário utilizar sua Perícia ou Perícia Suprema em um personagem aliado, o usuário regenera #1[f1] de Energia e o alvo da habilidade recebe um acúmulo de \"Hino\" por #4[i] rodada(s), acumulando até um máximo de #3[i] vez(es). Cada acúmulo de \"Hino\" aumenta o Dano causado por seu portador em #2[i]%. Após cada #5[i] instância(s) de Perícia ou Perícia Suprema utilizada(s) pelo usuário em um personagem aliado, recupera 1 Ponto de Perícia.",
       "en": "After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates #1[f1] Energy and the ability's target receives 1 stack of \"Hymn\" for #4[i] turn(s), stacking up to #3[i] time(s). Each stack of \"Hymn\" increases its holder's DMG dealt by #2[i]%. After every #5[i] instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.",
-      "zh-CN": "当装备者对我方单体角色施放战技或终结技后，装备者恢复#1[f1]点能量，同时使技能目标获得1层【圣咏】，持续#4[i]回合，最多叠加#3[i]层，每层【圣咏】使持有者造成的伤害提高#2[i]%。装备者每对我方单体角色施放#5[i]次战技或终结技后，恢复1个战技点。",
       "ja": "装備キャラが味方キャラ単体に戦闘スキル、または必殺技を発動すると、装備キャラはEPを#1[f1]回復し、スキルターゲットは「聖なる詠唱」を1層獲得する、#4[i]ターン継続。最大で#3[i]層累積できる。「聖なる詠唱」1層につき、所持者の与ダメージ+#2[i]%。装備キャラが味方キャラ単体に戦闘スキル、または必殺技を#5[i]回発動するたびに、SPを1回復する。",
       "ko": "장착한 캐릭터가 단일 아군 캐릭터에게 전투 스킬 또는 필살기를 발동하면 장착한 캐릭터는 에너지를 #1[f1]pt 회복하고, 스킬 목표는 [신성한 영창]을 1스택 획득한다, 지속 시간: #4[i]턴, 최대 중첩수: #3[i]스택. [신성한 영창] 1스택마다 보유자가 가하는 피해가 #2[i]% 증가한다. 장착한 캐릭터가 단일 아군 캐릭터에게 전투 스킬 또는 필살기를 #5[i]회 발동할 때마다 전투 스킬 포인트를 1pt 회복한다"
     },

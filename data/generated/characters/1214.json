@@ -1,7 +1,7 @@
 {
   "id": 1214,
   "slug": "xueyi",
-  "name": { "pt-BR": "Xueyi", "en": "Xueyi", "zh-CN": "雪衣", "ja": "雪衣", "ko": "설의" },
+  "name": { "pt-BR": "Xueyi", "en": "Xueyi", "ja": "雪衣", "ko": "설의" },
   "rarity": 4,
   "path": "Destruction",
   "element": "Quantum",
@@ -11,17 +11,10 @@
     {
       "id": 121401,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Sovela Quebra-mara",
-        "en": "Mara-Sunder Awl",
-        "zh-CN": "破魔锥",
-        "ja": "破魔錐",
-        "ko": "파마추"
-      },
+      "name": { "pt-BR": "Sovela Quebra-mara", "en": "Mara-Sunder Awl", "ja": "破魔錐", "ko": "파마추" },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Xueyi como Dano Quântico a um único inimigo-alvo.",
         "en": "Deals #1[i]% of Xueyi's ATK as Quantum DMG to one designated enemy target.",
-        "zh-CN": "对指定敌方单体造成等同于雪衣#1[i]%攻击力的量子属性伤害。",
         "ja": "指定した敵単体に雪衣の攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 설의 공격력의 #1[i]%만큼 양자 속성 피해를 준다"
       },
@@ -31,12 +24,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um único inimigo.",
         "en": "Deals minor Quantum DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量量子属性伤害。",
         "ja": "敵単体に少量の量子属性ダメージを与える。",
         "ko": "단일 적에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121402,
@@ -44,14 +36,12 @@
       "name": {
         "pt-BR": "Obliteração de Iniquidade",
         "en": "Iniquity Obliteration",
-        "zh-CN": "摄伏诸恶",
         "ja": "諸悪摂伏",
         "ko": "죄악 진압"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Xueyi a um único inimigo e #2[i]% do ATQ de Xueyi como Dano Quântico aos inimigos adjacentes.",
         "en": "Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Xueyi's ATK to any adjacent enemies.",
-        "zh-CN": "对指定敌方单体造成等同于雪衣#1[i]%攻击力的量子属性伤害，同时对其相邻目标造成等同于雪衣#2[i]%攻击力的量子属性伤害。",
         "ja": "指定した敵単体に雪衣の攻撃力#1[i]%分の量子属性ダメージを与え、隣接する敵に雪衣の攻撃力#2[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 설의 공격력의 #1[i]%만큼 양자 속성 피해를 주고, 동시에 인접한 목표에게 설의 공격력의 #2[i]%만큼 양자 속성 피해를 준다"
       },
@@ -77,27 +67,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico a um único inimigo e Dano Quântico leve a inimigos adjacentes a ele.",
         "en": "Deals Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.",
-        "zh-CN": "对敌方单体造成量子属性伤害，对相邻目标造成少量量子属性伤害。",
         "ja": "敵単体に量子属性ダメージを与え、隣接する敵に少量の量子属性ダメージを与える。",
         "ko": "단일 적에게 양자 속성 피해를 가하고, 인접한 목표에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 121403,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Castigo Divino",
-        "en": "Divine Castigation",
-        "zh-CN": "天罚贯身",
-        "ja": "身を貫く天罰",
-        "ko": "관통하는 천벌"
-      },
+      "name": { "pt-BR": "Castigo Divino", "en": "Divine Castigation", "ja": "身を貫く天罰", "ko": "관통하는 천벌" },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Xueyi a um único inimigo-alvo. Este ataque ignora os Tipos de Fraqueza e reduz a Tenacidade do inimigo. Quando o inimigo sofrer a Quebra de Fraqueza, o efeito Quebra de Fraqueza contra Quântico é ativado.\nNeste ataque, quanto mais Tenacidade for reduzida, maior será o Dano causado, até um máximo de #3[f1]% de aumento.",
         "en": "Deals Quantum DMG equal to #1[i]% of Xueyi's ATK to one designated enemy target. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.\nIn this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of #3[f1]% increase.",
-        "zh-CN": "对指定敌方单体造成等同于雪衣#1[i]%攻击力的量子属性伤害，本次攻击无视弱点属性削减敌方单体的韧性。击破弱点时，触发量子属性的弱点击破效果。\n在本次攻击中，削减的韧性越多，造成的伤害越高，最多提高#3[f1]%。",
         "ja": "指定した敵単体に雪衣の攻撃力#1[i]%分の量子属性ダメージを与え、弱点属性を無視して敵の靭性を削る。敵を弱点撃破した時、量子属性の弱点撃破効果を触発する。\n削った靭性が多いほど、その回の攻撃の与ダメージがアップする、最大で与ダメージ+#3[f1]%。",
         "ko": "지정된 단일 적에게 설의 공격력의 #1[i]%만큼 양자 속성 피해를 준다. 이번 공격은 약점 속성을 무시하고 단일 적의 강인성을 소모시킨다. 약점 격파 시 양자 속성의 약점 격파 효과가 발동된다.\n이번 공격에서 소모된 강인성이 많을수록 가하는 피해가 증가하며, 최대 #3[f1]% 증가한다"
       },
@@ -123,12 +105,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico massivo a um único inimigo. Este ataque ignora Tipos de Fraqueza e reduz a Tenacidade do alvo. Quanto mais Tenacidade é reduzida, mais alto é o Dano causado.",
         "en": "Deals massive Quantum DMG to one enemy. This attack ignores Weakness Types and reduces the target's Toughness. The more Toughness is reduced, the higher the DMG will be dealt.",
-        "zh-CN": "对敌方单体造成大量量子属性伤害，本次攻击无视弱点属性削减敌方单体的韧性，削减的韧性越多造成的伤害越高。",
         "ja": "敵単体に大量の量子属性ダメージを与える。その回の攻撃は弱点属性を無視して敵単体の靭性を削る。削った靭性が多いほど、与ダメージがアップする。",
         "ko": "단일 적에게 대량의 양자 속성 피해를 가한다. 이번 공격은 약점 속성을 무시하고 단일 적의 강인성을 소모시킨다. 소모된 강인성이 많을수록 가하는 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121404,
@@ -136,14 +117,12 @@
       "name": {
         "pt-BR": "Perpetuação Cármica",
         "en": "Karmic Perpetuation",
-        "zh-CN": "十王圣断，业报恒常",
         "ja": "十王の聖裁、業報は常に在り",
         "ko": "시왕의 심판, 업보 불변"
       },
       "description": {
         "pt-BR": "Quando Xueyi reduz a Tenacidade do inimigo com seus ataques, ela acumula Carma. Quando mais a Tenacidade é reduzida, mais acúmulos de Carma são adicionados, até #1[i] acúmulos.\nQuando os aliados de Xueyi reduzem a Tenacidade do inimigo com seus ataques, Xueyi ganha #3[i] acúmulo(s) de Carma.\nQuando o Carma atingir o número máximo de acúmulos e consumir todos os acúmulos de Carma atuais, realiza imediatamente um Ataque Extra contra um inimigo-alvo, causando Dano por 3 vezes, com cada vez causando Dano Quântico igual a #2[i]% do ATQ de Xueyi a um único inimigo aleatório. Este Ataque Extra não pode adicionar acúmulos de Carma.",
         "en": "When Xueyi reduces enemy Toughness with attacks, \"Karma\" will be stacked. The more Toughness is reduced, the more stacks of \"Karma\" are added, up to #1[i] stacks.\nWhen Xueyi's teammates reduce enemy Toughness with attacks, Xueyi gains #3[i] stack(s) of \"Karma.\"\nWhen \"Karma\" reaches the max number of stacks, consumes all current \"Karma\" stacks and immediately launches Follow-Up ATK against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to #2[i]% of Xueyi's ATK to a single random enemy. This Follow-Up ATK will not add \"Karma\" stacks.",
-        "zh-CN": "雪衣施放攻击削减敌方韧性时，会叠加【恶报】层数，削减的韧性越多叠加【恶报】层数越多，可以叠加#1[i]层。\n当雪衣的队友施放攻击削减敌方韧性后，雪衣叠加#3[i]层【恶报】。\n当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣#2[i]%攻击力的量子属性伤害。本次追加攻击无法叠加【恶报】。",
         "ja": "雪衣が攻撃を行って敵の靭性を削った時、「悪業」を獲得する。削った靭性が多いほど、獲得する「悪業」層数がアップする、最大で#1[i]層獲得できる。\n雪衣以外の味方が攻撃を行って敵の靭性を削った後、雪衣は「悪業」を#3[i]層獲得する。\n「悪業」が上限に達した時、すべての「悪業」を消費して敵に追加攻撃を行い、3ヒットする。1ヒットごとにランダムな敵単体に雪衣の攻撃力#2[i]%分の量子属性ダメージを与える。この追加攻撃で「悪業」を獲得することはできない。",
         "ko": "설의의 공격으로 적의 강인성을 소모하면, [업보] 스택 수를 중첩한다. 소모된 강인성이 많을수록 중첩되는 [업보] 스택 수가 증가한다. 최대 중첩수: #1[i]스택\n설의 동료의 공격으로 적의 강인성을 소모하면, 설의는 [업보]를 #3[i]스택 중첩한다.\n[업보]를 최대치까지 중첩하면 현재 모든 [업보]를 소모하고 즉시 적에게 추가 공격을 발동해 피해를 3회 주고, 피해를 줄 때마다 랜덤 단일 적에게 설의 공격력의 #2[i]%만큼 양자 속성 피해를 준다. 해당 추가 공격은 [업보]를 중첩할 수 없다"
       },
@@ -169,21 +148,19 @@
       "summary": {
         "pt-BR": "Quando Xueyi ou seus aliados reduzem a Tenacidade do inimigo, ela ganha acúmulos de Carma. Quando Carma atingir o número máximo de acúmulos, ativa imediatamente um Ataque Extra causando Dano Quântico leve a um único inimigo-alvo, saltando por 3 vezes e consumindo todo o Carma.",
         "en": "When Xueyi or her teammates reduce enemy Toughness with attacks, she gains stacks of \"Karma.\" When \"Karma\" reaches the max number of stacks, immediately launches Follow-Up ATK, dealing minor Quantum DMG to one enemy target, bouncing for 3 times and consuming all \"Karma.\"",
-        "zh-CN": "雪衣施放攻击时或雪衣的队友施放攻击后削减敌方韧性，雪衣会叠加【恶报】。当【恶报】叠加至上限时，立即发动追加攻击，对敌方单体造成少量量子属性伤害，共弹射3次，并消耗全部【恶报】。",
         "ja": "雪衣または雪衣以外の味方が攻撃を行って敵の靭性を削ると、雪衣は「悪業」を獲得する。「悪業」が上限に達した時、即座に追加攻撃を行い、敵単体に少量の量子属性ダメージを与える、3回バウンドし、すべての「悪業」を消費する。",
         "ko": "설의 또는 설의의 동료가 공격을 발동하여 적의 강인성을 소모하면 설의의 [업보]가 중첩된다. [업보]가 최대치까지 중첩되면 즉시 추가 공격을 발동해 단일 적에게 소량의 양자 속성 피해를 가한다. 총 3회 바운스하고 모든 [업보]를 소모한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "ja": "バウンド", "ko": "바운스" }
     },
     {
       "id": 121406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +169,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -200,17 +176,10 @@
     {
       "id": 121407,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Execução Sumária",
-        "en": "Summary Execution",
-        "zh-CN": "斩立决",
-        "ja": "斬、即決",
-        "ko": "즉참"
-      },
+      "name": { "pt-BR": "Execução Sumária", "en": "Summary Execution", "ja": "斬、即決", "ko": "즉참" },
       "description": {
         "pt-BR": "Ataca o inimigo imediatamente. Depois de entrar no combate, causa #1[i]% do ATQ de Xueyi como Dano Quântico a todos os inimigos.",
         "en": "Immediately attacks the enemy. After entering combat, deals #1[i]% of Xueyi's ATK as Quantum DMG to all enemies.",
-        "zh-CN": "立即攻击敌人，进入战斗后对敌方全体造成等同于雪衣#1[i]%攻击力的量子属性伤害。",
         "ja": "敵を攻撃。戦闘開始後、敵全体に雪衣の攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "적을 바로 공격하며, 전투 진입 후 모든 적에게 설의 공격력의 #1[i]%만큼 양자 속성 피해를 준다"
       },
@@ -220,11 +189,10 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Depois de entrar em batalha, causa Dano Quântico leve a todos os inimigos.",
         "en": "Attacks the enemy. After entering battle, deals minor Quantum DMG to all enemies.",
-        "zh-CN": "攻击敌人，进战后对敌方全体造成少量量子属性伤害。",
         "ja": "敵を攻撃。戦闘に入った後、敵全体に少量の量子属性ダメージを与える。",
         "ko": "적을 공격하며, 전투 진입 후 모든 적에게 소량의 양자 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
     }
   ],
   "eidolons": [
@@ -233,14 +201,12 @@
       "name": {
         "pt-BR": "Dvesha, Inibida",
         "en": "Dvesha, Inhibited",
-        "zh-CN": "缚心魔",
         "ja": "{RUBY_B#しんましば}心魔縛{RUBY_E#}り",
         "ko": "심마 속박"
       },
       "description": {
         "pt-BR": "Aumenta em 40% o Dano causado pelo Ataque Extra do Talento.",
         "en": "Increases the DMG dealt by the Talent's Follow-Up ATK by 40%.",
-        "zh-CN": "天赋的追加攻击造成的伤害提高40%。",
         "ja": "天賦による追加攻撃ダメージ+40%。",
         "ko": "특성의 추가 공격으로 가하는 피해가 40% 증가한다"
       },
@@ -253,14 +219,12 @@
       "name": {
         "pt-BR": "Klesha, Rompida",
         "en": "Klesha, Breached",
-        "zh-CN": "破五尘",
         "ja": "{RUBY_B#ごじんやぶ}五塵破{RUBY_E#}り",
         "ko": "오진(五塵) 극복"
       },
       "description": {
         "pt-BR": "O Ataque Extra do Talento reduz a Tenacidade inimiga independente dos Tipos de Fraqueza. Ao mesmo tempo, recupera os PV de Xueyi em uma quantidade igual a 5% dos PV máximos dela. Ao aplicar Quebra de Fraqueza, ativa o Efeito de Quebra Quântico.",
         "en": "Talent's Follow-Up ATK Reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to 5% of her Max HP. When breaking Weakness, triggers the Quantum Break Effect.",
-        "zh-CN": "天赋的追加攻击无视弱点属性削减敌方的韧性，同时为自身恢复等同于雪衣5%生命上限的生命值。击破弱点时，触发量子属性的弱点击破效果。",
         "ja": "天賦の追加攻撃は敵の弱点属性を無視して靭性を削り、自身の最大HP5%分のHPを回復する。敵を弱点撃破した時、量子属性の弱点撃破効果を発動する。",
         "ko": "특성의 추가 공격이 약점 속성을 무시하고 적의 강인성을 소모시키며, 동시에 설의 HP 최대치의 5%만큼 HP를 회복한다. 약점 격파 시 양자 속성의 약점 격파 효과가 발동된다"
       },
@@ -273,14 +237,12 @@
       "name": {
         "pt-BR": "Duhkha, Cessada",
         "en": "Duḥkha, Ceased",
-        "zh-CN": "止苦谛",
         "ja": "{RUBY_B#くたい}苦諦{RUBY_E#}{RUBY_B#とど}止{RUBY_E#}め",
         "ko": "고제(苦諦) 알절"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -293,14 +255,12 @@
       "name": {
         "pt-BR": "Carma, Partido",
         "en": "Karma, Severed",
-        "zh-CN": "断业根",
         "ja": "{RUBY_B#ごうこんた}業根断{RUBY_E#}ち",
         "ko": "악업 단절"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia Suprema, o Efeito de Quebra aumenta em 40% por 2 rodada(s).",
         "en": "When using Ultimate, increases Break Effect by 40% for 2 turn(s).",
-        "zh-CN": "施放终结技时，击破特攻提高40%，持续2回合。",
         "ja": "必殺技を発動した時、撃破特効+40%、2ターン継続。",
         "ko": "필살기 발동 시 격파 특수효과가 40% 증가한다. 지속 시간: 2턴"
       },
@@ -313,14 +273,12 @@
       "name": {
         "pt-BR": "Deva, Encantada",
         "en": "Deva, Enthralled",
-        "zh-CN": "勾灵神",
         "ja": "{RUBY_B#れいじんとら}霊神囚{RUBY_E#}え",
         "ko": "영신(靈神) 인도"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -333,14 +291,12 @@
       "name": {
         "pt-BR": "Samsara, Dominada",
         "en": "Saṃsāra, Mastered",
-        "zh-CN": "司死生",
         "ja": "{RUBY_B#せいしつかさど}生死司{RUBY_E#}る",
         "ko": "생사 주관"
       },
       "description": {
         "pt-BR": "O limite de acúmulo máximo para Carma reduzido para 6.",
         "en": "The max stack limit for Karma decreases to 6.",
-        "zh-CN": "【恶报】的层数上限降低至6层。",
         "ja": "「悪業」の累積上限が6層になる。",
         "ko": "[업보]의 스택 수 상한이 6스택으로 감소한다"
       },
@@ -705,14 +661,12 @@
       "name": {
         "pt-BR": "Tear Clarividente",
         "en": "Clairvoyant Loom",
-        "zh-CN": "预兆机杼",
         "ja": "{RUBY_B#よちょう}予兆{RUBY_E#}の{RUBY_B#からく}絡繰{RUBY_E#}り",
         "ko": "예지 장치"
       },
       "description": {
         "pt-BR": "Aumenta o Dano causado por esta unidade em uma quantidade igual a #1[i]% do Efeito de Quebra, até um máximo de #2[i]% de aumento de Dano.",
         "en": "Increases DMG dealt by this unit by an amount equal to #1[i]% of Break Effect, up to a maximum DMG increase of #2[i]%.",
-        "zh-CN": "使自身造成的伤害提高，提高数值等同于击破特攻的#1[i]%，最多使造成的伤害提高#2[i]%。",
         "ja": "自身の与ダメージを、撃破特効の#1[i]%分アップする、最大で与ダメージ+#2[i]%。",
         "ko": "자신이 가하는 피해를 격파 특수효과의 #1[i]%만큼 증가시킨다. 최대 #2[i]% 증가한다"
       },
@@ -736,14 +690,12 @@
       "name": {
         "pt-BR": "Rolamentos Intrépidos",
         "en": "Intrepid Rollerbearings",
-        "zh-CN": "摧锋轴承",
         "ja": "{RUBY_B#さいほう}砕鋒{RUBY_E#}の{RUBY_B#じくうけ}軸受{RUBY_E#}",
         "ko": "서슬 축수"
       },
       "description": {
         "pt-BR": "Se a Tenacidade do inimigo-alvo for igual ou maior que #1[i]% da sua Tenacidade máxima, causa #2[i]% a mais de Dano ao usar a Perícia Suprema.",
         "en": "If the enemy target's Toughness is equal to or higher than #1[i]% of their Max Toughness, deals #2[i]% more DMG when using Ultimate.",
-        "zh-CN": "如果敌方目标当前韧性大于等于其自身韧性上限的#1[i]%，施放终结技时造成的伤害提高#2[i]%。",
         "ja": "必殺技を発動した時、残り靭性が最大靭性#1[i]%以上の敵への与ダメージ+#2[i]%。",
         "ko": "적의 현재 강인성이 본인 강인성 최대치의 #1[i]% 이상일 경우, 필살기로 가하는 피해가 #2[i]% 증가한다"
       },
@@ -772,14 +724,12 @@
       "name": {
         "pt-BR": "Mainframe Perspicaz",
         "en": "Perspicacious Mainframe",
-        "zh-CN": "伺观中枢",
         "ja": "{RUBY_B#きかい}機会{RUBY_E#}を{RUBY_B#うかが}伺{RUBY_E#}う{RUBY_B#ちゅうすう}中枢{RUBY_E#}",
         "ko": "분석 중추"
       },
       "description": {
         "pt-BR": "Xueyi irá manter os registros do número de acúmulos de Carma que excederem o limite máximo de acúmulos, até #1[i] acúmulos na contagem. Após o Talento de Xueyi ser acionado, ela ganhará um número de acúmulos de Carma correspondente ao número de acúmulos registrados.",
         "en": "Xueyi will keep a tally of the number of Karma stacks that exceed the max stack limit, up to #1[i] stacks in the tally. After Xueyi's Talent is triggered, she will gain a corresponding number of tallied Karma stacks.",
-        "zh-CN": "雪衣会累计溢出的【恶报】层数，最多累计#1[i]层。雪衣触发天赋后，获得相应溢出层数的【恶报】。",
         "ja": "雪衣は累積上限を超えた「悪業」層数をカウントする、最大で#1[i]層カウントできる。雪衣が天賦を発動した後、超過分の「悪業」層数を獲得する。",
         "ko": "설의는 초과한 [업보] 스택을 누적한다. 최대 누적수: #1[i]스택. 설의는 특성 발동 후 초과한 스택의 [업보]를 획득한다"
       },
@@ -805,13 +755,7 @@
     {
       "id": 1214201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -828,7 +772,7 @@
     {
       "id": 1214202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1214101],
@@ -845,13 +789,7 @@
     {
       "id": 1214203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1214202],
@@ -871,7 +809,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -891,13 +828,7 @@
     {
       "id": 1214205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1214102],
@@ -914,7 +845,7 @@
     {
       "id": 1214206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1214205],
@@ -931,13 +862,7 @@
     {
       "id": 1214207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1214206],
@@ -957,7 +882,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -977,7 +901,7 @@
     {
       "id": 1214209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1214208],
@@ -994,13 +918,7 @@
     {
       "id": 1214210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Quebra",
-        "en": "Break Boost",
-        "zh-CN": "击破强化",
-        "ja": "撃破強化",
-        "ko": "격파 강화"
-      },
+      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1214208],

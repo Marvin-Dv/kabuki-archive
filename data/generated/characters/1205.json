@@ -1,7 +1,7 @@
 {
   "id": 1205,
   "slug": "blade",
-  "name": { "pt-BR": "Blade", "en": "Blade", "zh-CN": "刃", "ja": "刃", "ko": "블레이드" },
+  "name": { "pt-BR": "Blade", "en": "Blade", "ja": "刃", "ko": "블레이드" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Wind",
@@ -11,17 +11,10 @@
     {
       "id": 120501,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Espada Fragmentada",
-        "en": "Shard Sword",
-        "zh-CN": "支离剑",
-        "ja": "支離剣",
-        "ko": "지리검(支離劍)"
-      },
+      "name": { "pt-BR": "Espada Fragmentada", "en": "Shard Sword", "ja": "支離剣", "ko": "지리검(支離劍)" },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Blade como Dano de Vento a um inimigo-alvo.",
         "en": "Deals #1[i]% of Blade's ATK as Wind DMG to a target enemy.",
-        "zh-CN": "对指定敌方单体造成等同于刃#1[i]%攻击力的风属性伤害。",
         "ja": "指定した敵単体に刃の攻撃力#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 블레이드 공격력의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
@@ -31,27 +24,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um inimigo.",
         "en": "Deals minor Wind DMG to an enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
         "ja": "敵単体に少量の風属性ダメージを与える。",
         "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120502,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Paisagem Infernal",
-        "en": "Hellscape",
-        "zh-CN": "地狱变",
-        "ja": "地獄変",
-        "ko": "지옥변(地獄變)"
-      },
+      "name": { "pt-BR": "Paisagem Infernal", "en": "Hellscape", "ja": "地獄変", "ko": "지옥변(地獄變)" },
       "description": {
         "pt-BR": "Consome PV igual a #1[i]% dos PV máximos de Blade para entrar no estado de Paisagem Infernal.\nEnquanto a Paisagem Infernal estiver ativa, a Perícia dele não pode ser usada, seu Dano causado aumenta em #4[i]% e aprimora o seu ATQ Básico Espada Fragmentada para Floresta de Espadas por #2[i] rodada(s).\nSe os PV atuais de Blade não forem suficientes, seus PV serão reduzidos para 1 quando usar esta Perícia.\nEsta Perícia não regenera Energia. Usar esta Perícia não encerra a rodada atual.",
         "en": "Consumes HP equal to #1[i]% of Blade's Max HP to enter the Hellscape state.\nWhen Hellscape is active, his Skill cannot be used, his DMG dealt increases by #4[i]%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for #2[i] turn(s).\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill.\nThis Skill does not regenerate Energy. Using this Skill does not end the current turn.",
-        "zh-CN": "消耗等同于刃生命上限#1[i]%的生命值，进入【地狱变】状态。\n处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高#4[i]%，普攻【支离剑】强化为【无间剑树】，持续#2[i]回合。\n若当前生命值不足，施放战技时刃的当前生命值降低至1点。\n该战技无法恢复能量。施放该战技后，本回合不会结束。",
         "ja": "刃のHPを最大HP#1[i]%分消費して「地獄変」状態に入る。\n「地獄変」状態では戦闘スキルを発動できず、自身の与ダメージ+#4[i]%、通常攻撃「支離剣」が「無間剣樹」に強化される、#2[i]ターン継続。\n残りHPが足りない場合、戦闘スキルを発動した時、刃の残りHPが1になる。\nこの戦闘スキルはEPを回復できない。この戦闘スキルを発動した後、ターンは終了しない。",
         "ko": "블레이드가 HP를 자신 HP 최대치의 #1[i]%만큼 소모해 [지옥변(地獄變)] 상태에 진입한다.\n[지옥변] 상태에서는 전투 스킬을 발동할 수 없으며, 자신이 가하는 피해가 #4[i]% 증가하고, 일반 공격 [지리검(支離劍)]이 [무간검수(無間劍樹)]로 강화된다, 지속 시간: #2[i]턴\n블레이드의 현재 HP가 부족하면 전투 스킬 발동 시 HP가 1pt까지 감소한다.\n해당 전투 스킬로 에너지를 회복할 수 없으며, 발동 후 이번 턴은 종료되지 않는다"
       },
@@ -77,27 +62,19 @@
       "summary": {
         "pt-BR": "Consome PV para aprimorar o ATQ Básico, e a rodada atual não termina ao usar essa Perícia.",
         "en": "Consumes HP to Enhance Basic ATK, and this turn does not end after this Skill is used.",
-        "zh-CN": "消耗自身生命值，获得强化普攻，且本回合不会结束。",
         "ja": "自身のHPを消費し、通常攻撃を強化する。ターンは終了しない。",
         "ko": "자신의 HP를 소모하여 일반 공격을 강화하고, 이번 턴이 종료되지 않는다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 120503,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Sentença de Morte",
-        "en": "Death Sentence",
-        "zh-CN": "大辟万死",
-        "ja": "大辟万死",
-        "ko": "사형선고"
-      },
+      "name": { "pt-BR": "Sentença de Morte", "en": "Death Sentence", "ja": "大辟万死", "ko": "사형선고" },
       "description": {
         "pt-BR": "Define os PV atuais de Blade em 50% de seus PV máximos e causa Dano de Vento a um único inimigo igual à somatória de #1[i]% de seu ATQ, #2[i]% de seus PV máximos e #5[i]% do total de PV que ele perdeu na batalha atual. Ao mesmo tempo, causa Dano de Vento aos alvos adjacentes igual à somatória de #3[f1]% de seu ATQ, #4[i]% de seus PV máximos e #6[i]% do total de PV que ele perdeu na batalha atual.\nO total de PV que Blade perdeu na batalha atual tem um limite de #7[i]% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
         "en": "Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to the sum of #1[i]% of his ATK, #2[i]% of his Max HP, and #5[i]% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of #3[f1]% of his ATK, #4[i]% of his Max HP, and #6[i]% of the tally of his HP loss in the current battle.\nThe tally of Blade's HP loss in the current battle is capped at #7[i]% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
-        "zh-CN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃#1[i]%攻击力+#2[i]%生命上限+#5[i]%本场战斗中累计已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃#3[f1]%攻击力+#4[i]%生命上限+#6[i]%本场战斗中累计已损失生命值的风属性伤害。\n本场战斗中累计已损失生命值最高不超过刃生命上限的#7[i]%，施放终结技后会清空并进行重新累计。",
         "ja": "刃の残りHPを最大HPの50%にし、敵単体に刃の攻撃力#1[i]%+最大HP#2[i]%+戦闘中失ったHPの累計#5[i]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力#3[f1]%+最大HP#4[i]%+戦闘中失ったHPの累計#6[i]%分の風属性ダメージを与える。\n戦闘中失ったHPの累計のカウントは、刃の最大HPの#7[i]%を超えず、必殺技を発動した後にクリアされる。",
         "ko": "블레이드의 현재 HP가 최대치의 50%로 전환되고 단일 적에게 블레이드 공격력의 #1[i]%+HP 최대치의 #2[i]%+이번 전투에서 누적 손실한 HP의 #5[i]%만큼 바람 속성 피해를 가한다. 또한 인접한 목표에 블레이드 공격력의 #3[f1]%+HP 최대치의 #4[i]%+이번 전투에서 누적 손실한 HP의 #6[i]%만큼 바람 속성 피해를 가한다.\n이번 전투에서 누적 손실한 HP는 블레이드 HP 최대치의 #7[i]%를 넘을 수 없다. 필살기 발동 후 리셋하고 다시 누적된다"
       },
@@ -123,27 +100,19 @@
       "summary": {
         "pt-BR": "Faz com que os PV atuais fiquem em 50% dos PV máximos, causa Dano de Vento massivo a um único inimigo e Dano de Vento aos alvos adjacentes.",
         "en": "Sets current HP to 50% of Max HP, and deals massive Wind DMG to one enemy and Wind DMG to adjacent targets.",
-        "zh-CN": "将当前生命值转化为生命上限的50%，并对敌方单体造成大量风属性伤害，对相邻目标造成风属性伤害。",
         "ja": "残りHPを最大HPの50%にし、敵単体に大量の風属性ダメージを与え、隣接する敵に風属性ダメージを与える。",
         "ko": "현재 HP가 HP 최대치의 50%로 전환되고, 단일 적에게 대량의 바람 속성 피해를 가하며, 인접한 목표에게 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 120504,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Presente de Shuhu",
-        "en": "Shuhu's Gift",
-        "zh-CN": "倏忽恩赐",
-        "ja": "倏忽の恩賜",
-        "ko": "찰나의 선물"
-      },
+      "name": { "pt-BR": "Presente de Shuhu", "en": "Shuhu's Gift", "ja": "倏忽の恩賜", "ko": "찰나의 선물" },
       "description": {
         "pt-BR": "Quando Blade toma Dano ou consome seus próprios PV, ele ganha 1 acúmulo de Carga, acumulando até 5 vezes. Um máximo de 1 Carga pode ser ganho cada vez que ele for atacado.\nQuando os acúmulos de Carga chegarem ao máximo, desfere imediatamente um Ataque Extra contra todos os inimigos, causando Dano de Vento igual a #2[i]% do ATQ de Blade + #4[i]% dos seus PV máximos, enquanto também restaura os PV de Blade em #3[i]% de seus PV máximos. Todas as Cargas são consumidas após realizar o Ataque Extra.",
         "en": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.\nWhen Charge stack reaches maximum, immediately launches a Follow-Up ATK on all enemies, dealing Wind DMG equal to #2[i]% of Blade's ATK plus #4[i]% of his Max HP. At the same time, restores Blade's HP by #3[i]% of his Max HP. After the Follow-Up ATK, all Charges are consumed.",
-        "zh-CN": "刃受到伤害或消耗生命值时，获得1层充能，最多叠加5层。该效果每次受到攻击最多叠加1层。\n当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃#2[i]%攻击力+#4[i]%生命上限的风属性伤害并回复等同于刃生命上限#3[i]%的生命值，施放追加攻击后，消耗所有充能。",
         "ja": "刃がダメージを受ける、またはHPを消費した時、チャージを1層獲得する。チャージは最大で5層累積できる。この効果は攻撃を1回受けるたびに1層まで累積できる。\nチャージが上限に達した時、敵全体に追加攻撃を1回行い、刃の攻撃力#2[i]%+最大HP#4[i]%分の風属性ダメージを与え、刃の最大HP#3[i]%分のHPを回復する。追加攻撃を行った後、すべてのチャージを消費する。",
         "ko": "블레이드가 피해를 받거나 HP를 소모하면 충전을 1스택 획득한다. 최대 중첩수: 5스택. 해당 효과는 피격될 때마다 최대 1스택 중첩된다.\n최대치까지 중첩되면 즉시 모든 적에게 추가 공격을 1회 발동한다. 블레이드 공격력의 #2[i]%+HP 최대치의 #4[i]%만큼 바람 속성 피해를 가하고 블레이드 HP 최대치의 #3[i]%만큼 HP를 회복한다. 추가 공격 발동 후 모든 충전을 소모한다"
       },
@@ -169,21 +138,19 @@
       "summary": {
         "pt-BR": "Quando os PV de Blade diminuem, ele ganha 1 acúmulo de Carga. Ao atingir a Carga máxima, realiza um Ataque Extra, causando Dano de Vento a todas as unidades inimigas, restaurando PV e consumindo todas as Cargas.",
         "en": "When Blade's HP decreases, gains 1 stack of Charge. Upon reaching maximum Charge, launches Follow-Up ATK, dealing Wind DMG to all enemies, restoring HP, and consuming all Charges.",
-        "zh-CN": "刃的生命值降低时，获得1层充能。充能达到上限时发动追加攻击，对敌方全体造成风属性伤害并回复生命值，消耗所有充能。",
         "ja": "刃のHPが減った時、チャージを1層獲得する。チャージが上限に達した時、追加攻撃を行い、敵全体に風属性ダメージを与え、HPを回復する。その後、チャージをすべて消費する。",
         "ko": "블레이드의 HP가 감소하면 충전을 1스택 획득한다. 충전이 최대치에 도달하면 추가 공격을 발동하며, 모든 적에게 바람 속성 피해를 가하고 HP를 회복한 후 모든 충전을 소모한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 120506,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃、戦闘突入後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +159,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃、戦闘突入後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -200,17 +166,10 @@
     {
       "id": 120507,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Vento do Carma",
-        "en": "Karma Wind",
-        "zh-CN": "业途风",
-        "ja": "業途風",
-        "ko": "업도(業道)의 바람"
-      },
+      "name": { "pt-BR": "Vento do Carma", "en": "Karma Wind", "ja": "業途風", "ko": "업도(業道)의 바람" },
       "description": {
         "pt-BR": "Imediatamente ataca o inimigo. Após entrar em combate, consome #2[i]% dos PV máximos de Blade enquanto causa Dano de Vento igual a #1[i]% dos seus PV máximos a todos os inimigos.\nSe os PV atuais de Blade forem insuficientes, seus PV serão reduzidos a 1 quando a Técnica é usada.",
         "en": "Immediately attacks the enemy. After entering combat, consumes #2[i]% of Blade's Max HP while dealing Wind DMG equal to #1[i]% of his Max HP to all enemies.\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.",
-        "zh-CN": "立即攻击敌人，进入战斗后消耗等同于刃生命上限#2[i]%的生命值，同时对敌方全体造成等同于刃生命上限#1[i]%的风属性伤害。\n若当前生命值不足，施放秘技时刃的当前生命值降低至1点。",
         "ja": "敵を攻撃。戦闘に入った後、刃の最大HP#2[i]%分のHPを消費し、敵全体に刃の最大HP#1[i]%分の風属性ダメージを与える。\n残りHPが足りない場合、秘技を発動した時、刃の残りHPが1になる。",
         "ko": "적을 바로 공격하며, 전투 진입 후 블레이드 HP 최대치의 #2[i]%만큼 HP를 소모하고, 모든 적에게 블레이드 HP 최대치의 #1[i]%만큼 바람 속성 피해를 가한다.\n현재 HP가 부족할 때 비술을 발동하면 블레이드의 현재 HP가 1pt까지 감소한다"
       },
@@ -220,26 +179,18 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Após entrar em combate, consome seus próprios PV para causar Dano de Vento a todos os inimigos.",
         "en": "Attacks the enemy. After entering combat, consumes own HP and deals Wind DMG to all enemies.",
-        "zh-CN": "攻击敌人，进战后消耗自身生命值，并对敌方全体造成风属性伤害。",
         "ja": "敵を攻撃。戦闘に入った後、自身のHPを消費し、敵全体に風属性ダメージを与える。",
         "ko": "적을 공격하며, 전투 진입 후 자신의 HP를 소모하고 모든 적에게 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 120508,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Floresta de Espadas",
-        "en": "Forest of Swords",
-        "zh-CN": "无间剑树",
-        "ja": "無間剣樹",
-        "ko": "무간검수(無間劍樹)"
-      },
+      "name": { "pt-BR": "Floresta de Espadas", "en": "Forest of Swords", "ja": "無間剣樹", "ko": "무간검수(無間劍樹)" },
       "description": {
         "pt-BR": "Consome PV igual a #1[i]% dos PV máximos de Blade e causa Dano de Vento igual a soma de #2[i]% do seu ATQ + #4[i]% dos seus PV máximos a um único inimigo. Além disso, causa Dano de Vento igual a soma de #3[i]% do ATQ de Blade + #5[i]% dos seus PV máximos a alvos adjacentes.\nSe os PV atuais de Blade forem insuficientes, seus PV serão reduzidos a 1 ao usar Floresta de Espadas.\nFloresta de Espadas não pode regenerar Pontos de Perícia.",
         "en": "Consumes HP equal to #1[i]% of Blade's Max HP and deals Wind DMG equal to the sum of #2[i]% of his ATK and #4[i]% of his Max HP to one designated enemy. In addition, deals Wind DMG equal to the sum of #3[i]% of Blade's ATK and #5[i]% of his Max HP to adjacent targets.\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when using \"Forest of Swords.\"\n\"Forest of Swords\" cannot regenerate Skill Points.",
-        "zh-CN": "消耗等同于刃生命上限#1[i]%的生命值，对指定敌方单体造成等同于刃#2[i]%攻击力+#4[i]%生命上限的风属性伤害，同时对其相邻目标造成等同于刃#3[i]%攻击力+#5[i]%生命上限的风属性伤害。\n若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。\n【无间剑树】无法恢复战技点。",
         "ja": "刃のHPを最大HP#1[i]%分消費し、指定した敵単体に刃の攻撃力#2[i]%+最大HP#4[i]%分の風属性ダメージを与え、隣接する敵に刃の攻撃力#3[i]%+最大HP#5[i]%分の風属性ダメージを与える。\n残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。\n「無間剣樹」はSPを回復できない。",
         "ko": "블레이드 HP 최대치의 #1[i]%만큼 HP를 소모해 지정된 단일 적에게 블레이드 공격력의 #2[i]%+HP 최대치의 #4[i]%만큼 바람 속성 피해를 가한다. 동시에 인접한 목표에 블레이드 공격력의 #3[i]%+HP 최대치의 #5[i]%만큼 바람 속성 피해를 가한다.\n현재 HP가 부족할 때 [무간검수(無間劍樹)]를 발동하면 블레이드의 현재 HP가 1pt까지 감소한다.\n[무간검수]로 전투 스킬 포인트를 회복할 수 없다"
       },
@@ -260,27 +211,19 @@
       "summary": {
         "pt-BR": "Consome PV, causa Dano de Vento a um inimigo e Dano de Vento leve a alvos adjacentes.",
         "en": "Consumes HP and deals Wind DMG to an enemy, as well as minor Wind DMG to adjacent targets.",
-        "zh-CN": "消耗自身生命值，对敌方单体造成风属性伤害的同时对相邻目标造成少量风属性伤害。",
         "ja": "自身のHPを消費し、敵単体に風属性ダメージを与え、隣接する敵に少量の風属性ダメージを与える。",
         "ko": "자신의 HP를 소모해 단일 적에게 바람 속성 피해를 가하고, 인접한 적에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 1120501,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Espada Fragmentada",
-        "en": "Shard Sword",
-        "zh-CN": "支离剑",
-        "ja": "支離剣",
-        "ko": "지리검(支離劍)"
-      },
+      "name": { "pt-BR": "Espada Fragmentada", "en": "Shard Sword", "ja": "支離剣", "ko": "지리검(支離劍)" },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% dos PV máximos de Blade a um inimigo designado.",
         "en": "Deals Wind DMG equal to #1[i]% of Blade's Max HP to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于刃#1[i]%生命上限的风属性伤害。",
         "ja": "指定した敵単体に刃の最大HP#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 블레이드 HP 최대치의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
@@ -290,27 +233,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
         "ja": "敵単体に少量の風属性ダメージを与える。",
         "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1120502,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Paisagem Infernal",
-        "en": "Hellscape",
-        "zh-CN": "地狱变",
-        "ja": "地獄変",
-        "ko": "지옥변(地獄變)"
-      },
+      "name": { "pt-BR": "Paisagem Infernal", "en": "Hellscape", "ja": "地獄変", "ko": "지옥변(地獄變)" },
       "description": {
         "pt-BR": "Consome PV em um valor igual a #1[i]% dos PV máximos de Blade para entrar no estado de \"Paisagem Infernal\".\nEnquanto a \"Paisagem Infernal\" estiver ativa, a Perícia dele não pode ser usada, seu Dano causado aumenta em #4[i]%, as chances de ser atacado por inimigos-alvo aumenta consideravelmente, e aprimora o seu ATQ Básico \"Espada Fragmentada\" para \"Floresta de Espadas\" por #2[i] rodada(s).\nSe os PV atuais de Blade não forem suficientes, seus PV serão reduzidos para 1 quando usar esta Perícia.\nEsta Perícia não regenera Energia. Usar esta Perícia não encerra a rodada atual.",
         "en": "Consumes HP equal to #1[i]% of Blade's Max HP to enter the \"Hellscape\" state.\nWhile \"Hellscape\" is active, his Skill cannot be used, his DMG dealt increases by #4[i]%, his chance of getting attacked by enemy targets greatly increases, and his Basic ATK \"Shard Sword\" is enhanced to \"Forest of Swords\" for #2[i] turn(s).\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill.\nThis Skill does not regenerate Energy. Using this Skill does not end the current turn.",
-        "zh-CN": "消耗等同于刃生命上限#1[i]%的生命值，进入【地狱变】状态。\n处于【地狱变】状态时无法施放战技，同时使自身造成的伤害提高#4[i]%，被敌方目标攻击的概率大幅提高，普攻【支离剑】强化为【无间剑树】，持续#2[i]回合。\n若当前生命值不足，施放战技时刃的当前生命值降低至1点。\n该战技无法恢复能量。施放该战技后，本回合不会结束。",
         "ja": "刃のHPを最大HP#1[i]%分消費して「地獄変」状態に入る。\n「地獄変」状態では戦闘スキルを発動できず、自身の与ダメージ+#4[i]%。敵に攻撃される確率が大幅に上がり、通常攻撃「支離剣」が「無間剣樹」に強化される、#2[i]ターン継続。\n残りHPが足りない場合、戦闘スキルを発動した時、刃の残りHPが1になる。\nこの戦闘スキルはEPを回復できない。この戦闘スキルを発動した後、ターンは終了しない。",
         "ko": "블레이드가 HP를 자신의 HP 최대치의 #1[i]%만큼 소모해 [지옥변(地獄變)] 상태에 진입한다.\n[지옥변] 상태에서는 전투 스킬을 발동할 수 없으며, 자신이 가하는 피해가 #4[i]% 증가하고, 적에게 피격될 확률이 대폭 증가하며 일반 공격 [지리검(支離劍)]이 [무간검수(無間劍樹)]로 강화된다, 지속 시간: #2[i]턴\n블레이드의 현재 HP가 부족하면 전투 스킬 발동 시 HP가 1pt까지 감소한다.\n해당 전투 스킬로 에너지를 회복할 수 없으며, 발동 후 이번 턴은 종료되지 않는다"
       },
@@ -336,27 +271,19 @@
       "summary": {
         "pt-BR": "Consome PV para aprimorar o ATQ Básico. Aumenta as chances de ser atacado. E esta rodada não termina após o uso desta Perícia.",
         "en": "Consumes HP to enhance Basic ATK. Increases the chance of getting attacked. And this turn does not end after this Skill is used.",
-        "zh-CN": "消耗自身生命值，获得强化普攻，被攻击的概率提高，且本回合不会结束。",
         "ja": "自身のHPを消費し、通常攻撃を強化する。攻撃される確率がアップし、ターンは終了しない。",
         "ko": "자신의 HP를 소모하여 일반 공격을 강화하고 피격될 확률이 증가하며, 이번 턴이 종료되지 않는다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1120503,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Sentença de Morte",
-        "en": "Death Sentence",
-        "zh-CN": "大辟万死",
-        "ja": "大辟万死",
-        "ko": "사형선고"
-      },
+      "name": { "pt-BR": "Sentença de Morte", "en": "Death Sentence", "ja": "大辟万死", "ko": "사형선고" },
       "description": {
         "pt-BR": "Define os PV atuais de Blade em 50% de seus PV máximos e causa Dano de Vento a um inimigo igual a #1[i]% de seus PV máximos + #5[i]% do total de PV que ele perdeu na batalha atual. Ao mesmo tempo, causa Dano de Vento aos alvos adjacentes igual a #3[f1]% de seus PV máximos + #6[i]% do total de PV que ele perdeu na batalha atual.\nO total de PV que Blade perdeu na batalha atual tem um limite de #7[i]% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
         "en": "Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to one enemy equal to #1[i]% of his Max HP plus #5[i]% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to #3[f1]% of his Max HP plus #6[i]% of the tally of his HP loss in the current battle.\nThe tally of Blade's HP loss in the current battle is capped at #7[i]% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
-        "zh-CN": "将刃的当前生命值转化为生命上限的50%，并对敌方单体造成等同于刃#1[i]%生命上限+#5[i]%本场战斗中累计已损失生命值的风属性伤害，同时对其相邻目标造成等同于刃#3[f1]%生命上限+#6[i]%本场战斗中累计已损失生命值的风属性伤害。\n本场战斗中累计已损失生命值最高不超过刃生命上限的#7[i]%，施放终结技后会清空并进行重新累计。",
         "ja": "刃の残りHPを最大HPの50%にし、敵単体に刃の最大HP#1[i]%+戦闘中失ったHPの累計値#5[i]%分の風属性ダメージを与え、隣接する敵に刃の最大HP#3[f1]%+戦闘中失ったHPの累計値#6[i]%分の風属性ダメージを与える。\n戦闘中失ったHPの累計値は、刃の最大HPの#7[i]%を超えず、必殺技を発動した後にクリアされる。",
         "ko": "블레이드의 현재 HP가 HP 최대치의 50%로 전환되고 단일 적에게 블레이드 HP 최대치의 #1[i]%+이번 전투에서 누적 손실한 HP의 #5[i]%만큼 바람 속성 피해를 가한다. 또한 인접한 목표에게 블레이드 HP 최대치의 #3[f1]%+이번 전투에서 누적 손실한 HP의 #6[i]%만큼 바람 속성 피해를 가한다.\n이번 전투에서 누적 손실한 HP는 블레이드 HP 최대치의 #7[i]%를 넘을 수 없으며, 필살기 발동 후 리셋하고 다시 누적된다"
       },
@@ -382,27 +309,19 @@
       "summary": {
         "pt-BR": "Faz com que os PV atuais fiquem em 50% dos PV máximos. Causa Dano de Vento massivo a um inimigo e Dano de Vento aos alvos adjacentes.",
         "en": "Sets current HP to 50% of Max HP. Deals massive Wind DMG to one enemy and Wind DMG to adjacent targets.",
-        "zh-CN": "将当前生命值转化为生命上限的50%，并对敌方单体造成大量风属性伤害，对相邻目标造成风属性伤害。",
         "ja": "残りHPを最大HPの50%にし、敵単体に大量の風属性ダメージを与え、隣接する敵に風属性ダメージを与える。",
         "ko": "현재 HP가 HP 최대치의 50%로 전환되고, 단일 적에게 대량의 바람 속성 피해를 가하며, 인접한 목표에게 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 1120504,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Presente de Shuhu",
-        "en": "Shuhu's Gift",
-        "zh-CN": "倏忽恩赐",
-        "ja": "倏忽の恩賜",
-        "ko": "찰나의 선물"
-      },
+      "name": { "pt-BR": "Presente de Shuhu", "en": "Shuhu's Gift", "ja": "倏忽の恩賜", "ko": "찰나의 선물" },
       "description": {
         "pt-BR": "Quando Blade recebe Dano ou consome seus próprios PV, ele ganha 1 acúmulo de Carga, acumulando até um máximo de 5 vezes. Um máximo de 1 Carga pode ser ganho cada vez que ele for atacado.\nQuando os acúmulos de Carga chegarem ao máximo, realiza imediatamente 1 instância de Ataque Extra contra todos os inimigos, causando Dano de Vento igual a #2[i]% dos PV máximos de Blade, enquanto também restaura os PV de Blade em #3[i]% de seus PV máximos. Todas as Cargas são consumidas após realizar o Ataque Extra.",
         "en": "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked.\nWhen Charge stack reaches maximum, immediately launches 1 instance of Follow-Up ATK on all enemies, dealing Wind DMG equal to #2[i]% of Blade's Max HP. At the same time, restores Blade's HP by #3[i]% of his Max HP. After the Follow-Up ATK, all Charges are consumed.",
-        "zh-CN": "刃受到伤害或消耗生命值时，获得1层充能，最多叠加5层。该效果每次受到攻击最多叠加1层。\n当充能叠加至上限时，立即对敌方全体施放1次追加攻击，造成等同于刃#2[i]%生命上限的风属性伤害并回复等同于刃生命上限#3[i]%的生命值，施放追加攻击后，消耗所有充能。",
         "ja": "刃がダメージを受ける、またはHPを消費した時、チャージを1層獲得する。チャージは最大で5層まで累積できる。この効果は攻撃を1回受けるたびに1層まで累積できる。\nチャージが上限に達した時、敵全体に追加攻撃を1回行い、刃の最大HP#2[i]%分の風属性ダメージを与え、刃の最大HP#3[i]%分のHPを回復する。追加攻撃を行った後、すべてのチャージを消費する。",
         "ko": "블레이드가 피해를 받거나 HP를 소모하면 충전을 1스택 획득한다, 최대 중첩수: 5스택. 해당 효과는 피격될 때마다 최대 1스택 중첩된다.\n최대치까지 중첩되면 즉시 모든 적에게 추가 공격을 1회 발동한다. 블레이드 HP 최대치의 #2[i]%만큼 바람 속성 피해를 가하고 블레이드 HP 최대치의 #3[i]%만큼 HP를 회복한다. 추가 공격 발동 후 모든 충전을 소모한다"
       },
@@ -428,21 +347,19 @@
       "summary": {
         "pt-BR": "Quando os PV de Blade diminuem, ele ganha 1 acúmulo de Carga. Ao atingir a Carga máxima, realiza um Ataque Extra, causando Dano de Vento a todas as unidades inimigas, restaurando PV e consumindo todas as Cargas.",
         "en": "When Blade's HP decreases, gains 1 stack of Charge. Upon reaching maximum Charge, launches Follow-Up ATK, dealing Wind DMG to all enemies, restoring HP, and consuming all Charges.",
-        "zh-CN": "刃的生命值降低时，获得1层充能。充能达到上限时发动追加攻击，对敌方全体造成风属性伤害并回复生命值，消耗所有充能。",
         "ja": "刃のHPが減った時、チャージを1層獲得する。チャージが上限に達した時、追加攻撃を行い、敵全体に風属性ダメージを与え、HPを回復する。その後、チャージをすべて消費する。",
         "ko": "블레이드의 HP가 감소하면 충전을 1스택 획득한다. 충전이 최대치에 도달하면 추가 공격을 발동하며, 모든 적에게 바람 속성 피해를 가하고 HP를 회복한 후 모든 충전을 소모한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1120506,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -451,7 +368,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -459,17 +375,10 @@
     {
       "id": 1120507,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Vento do Carma",
-        "en": "Karma Wind",
-        "zh-CN": "业途风",
-        "ja": "業途風",
-        "ko": "업도(業道)의 바람"
-      },
+      "name": { "pt-BR": "Vento do Carma", "en": "Karma Wind", "ja": "業途風", "ko": "업도(業道)의 바람" },
       "description": {
         "pt-BR": "Ataca o inimigo imediatamente. Após entrar em combate, consome #2[i]% dos PV máximos de Blade enquanto causa Dano de Vento igual a #1[i]% dos seus PV máximos a todos os inimigos.\nSe os PV atuais de Blade forem insuficientes, seus PV serão reduzidos a 1 quando a Técnica é usada.",
         "en": "Immediately attacks the enemy. After entering combat, consumes #2[i]% of Blade's Max HP while dealing Wind DMG equal to #1[i]% of his Max HP to all enemies.\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used.",
-        "zh-CN": "立即攻击敌人，进入战斗后消耗等同于刃生命上限#2[i]%的生命值，同时对敌方全体造成等同于刃生命上限#1[i]%的风属性伤害。\n若当前生命值不足，施放秘技时刃的当前生命值降低至1点。",
         "ja": "敵を攻撃。戦闘に入った後、刃の最大HP#2[i]%分のHPを消費し、敵全体に刃の最大HP#1[i]%分の風属性ダメージを与える。\n残りHPが足りない場合、秘技を発動した時、刃の残りHPが1になる。",
         "ko": "적을 즉시 공격하며, 전투 진입 후 블레이드 HP 최대치의 #2[i]%만큼 HP를 소모하고, 모든 적에게 블레이드 HP 최대치의 #1[i]%만큼 바람 속성 피해를 가한다.\n현재 HP가 부족하면 비술 발동 시 블레이드의 현재 HP가 1pt까지 감소한다"
       },
@@ -479,26 +388,18 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Após entrar em combate, consome seus próprios PV para causar Dano de Vento a todos os inimigos.",
         "en": "Attacks the enemy. After entering combat, consumes own HP and deals Wind DMG to all enemies.",
-        "zh-CN": "攻击敌人，进战后消耗自身生命值，并对敌方全体造成风属性伤害。",
         "ja": "敵を攻撃。戦闘に入った後、自身のHPを消費し、敵全体に風属性ダメージを与える。",
         "ko": "적을 공격하며, 전투 진입 후 자신의 HP를 소모하고 모든 적에게 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 1120508,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Floresta de Espadas",
-        "en": "Forest of Swords",
-        "zh-CN": "无间剑树",
-        "ja": "無間剣樹",
-        "ko": "무간검수(無間劍樹)"
-      },
+      "name": { "pt-BR": "Floresta de Espadas", "en": "Forest of Swords", "ja": "無間剣樹", "ko": "무간검수(無間劍樹)" },
       "description": {
         "pt-BR": "Consome PV em um valor igual a #1[i]% dos PV máximos de Blade e causa Dano de Vento igual a #2[i]% dos PV máximos de Blade a um inimigo designado. Além disso, causa Dano de Vento igual a #3[i]% dos PV máximos de Blade a alvos adjacentes.\nSe os PV atuais de Blade forem insuficientes, seus PV serão reduzidos a 1 ao usar \"Floresta de Espadas\".\n\"Floresta de Espadas\" não pode regenerar Pontos de Perícia.",
         "en": "Consumes HP equal to #1[i]% of Blade's Max HP and deals Wind DMG equal to #2[i]% of his Max HP to one designated enemy. In addition, deals Wind DMG equal to #3[i]% of Blade's Max HP to adjacent targets.\nIf Blade's current HP is insufficient, his HP will be reduced to 1 when using \"Forest of Swords.\"\n\"Forest of Swords\" cannot regenerate Skill Points.",
-        "zh-CN": "消耗等同于刃生命上限#1[i]%的生命值，对指定敌方单体造成等同于刃#2[i]%生命上限的风属性伤害，同时对其相邻目标造成等同于刃#3[i]%生命上限的风属性伤害。\n若当前生命值不足，施放【无间剑树】时刃的当前生命值降低至1点。\n【无间剑树】无法恢复战技点。",
         "ja": "刃のHPを最大HP#1[i]%分消費し、指定した敵単体に刃の最大HP#2[i]%分の風属性ダメージを与え、隣接する敵に刃の最大HP#3[i]%分の風属性ダメージを与える。\n残りHPが足りない場合、「無間剣樹」を発動した時、刃の残りHPが1になる。\n「無間剣樹」はSPを回復できない。",
         "ko": "블레이드 HP 최대치의 #1[i]%만큼 HP를 소모해 지정된 단일 적에게 블레이드 HP 최대치의 #2[i]%만큼 바람 속성 피해를 가하고, 인접한 목표에게 블레이드 HP 최대치의 #3[i]%만큼 바람 속성 피해를 가한다.\n현재 HP가 부족하면 [무간검수(無間劍樹)] 발동 시 블레이드의 현재 HP가 1pt까지 감소한다.\n[무간검수]로 전투 스킬 포인트를 회복할 수 없다"
       },
@@ -519,12 +420,11 @@
       "summary": {
         "pt-BR": "Consome seus próprios PV e causa Dano de Vento a um inimigo e Dano de Vento leve a alvos adjacentes.",
         "en": "Consumes own HP and deals Wind DMG to one enemy, as well as minor Wind DMG to adjacent targets.",
-        "zh-CN": "消耗自身生命值，对敌方单体造成风属性伤害的同时对相邻目标造成少量风属性伤害。",
         "ja": "自身のHPを消費し、敵単体に風属性ダメージを与え、隣接する敵に少量の風属性ダメージを与える。",
         "ko": "자신의 HP를 소모해 단일 적에게 바람 속성 피해를 가하고, 인접한 목표에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -533,14 +433,12 @@
       "name": {
         "pt-BR": "A Lâmina Corta Mais Fundo no Inferno",
         "en": "Blade Cuts the Deepest in Hell",
-        "zh-CN": "剑录大限，地狱变相",
         "ja": "{RUBY_B#けいじゅしる}形寿記{RUBY_E#}せし{RUBY_B#けんしん}剣身{RUBY_E#}\n{RUBY_B#じごくへん}地獄変{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く",
         "ko": "검록의 끝, 지옥변상"
       },
       "description": {
         "pt-BR": "A Perícia Suprema de Blade causa Dano aumentado adicional a um único inimigo-alvo, com um aumento igual a 150% do total de PV que Blade perdeu na batalha atual. O total de PV que Blade perdeu na batalha atual tem um limite de 90% de seus PV máximos. Este valor será redefinido e reacumulado após usar sua Perícia Suprema.",
         "en": "Blade's Ultimate deals additionally increased DMG to one designated enemy target, with the increased amount equal to 150% of the tally of Blade's HP loss in the current battle.\nThe tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. The tally value will be reset and re-accumulated after his Ultimate has been used.",
-        "zh-CN": "终结技对指定敌方单体造成的伤害额外提高，提高数值等同于刃150%本场战斗中累计的已损失生命值。\n本场战斗中累计已损失生命值最高不超过刃生命上限的90%，施放终结技后会清空并进行重新累计。",
         "ja": "指定した敵単体に対する必殺技によるダメージが、刃の戦闘中失ったHPの累計150%分アップする。\n戦闘中失ったHPの累計のカウントは、刃の最大HPの90%を超えず、必殺技を発動した後にクリアされる。",
         "ko": "필살기로 지정된 단일 적에게 가하는 피해가 이번 전투에서 누적 손실한 블레이드 HP의 150%만큼 추가로 증가한다.\n이번 전투에서 누적 손실한 HP는 블레이드 HP 최대치의 90%를 넘지 않는다. 필살기 발동 후 리셋하고 다시 누적된다"
       },
@@ -553,14 +451,12 @@
       "name": {
         "pt-BR": "Dez Mil Mágoas de Um Sonho Destruído",
         "en": "Ten Thousand Sorrows From One Broken Dream",
-        "zh-CN": "支离旧梦，万端遗恨",
         "ja": "{RUBY_B#しり}支離{RUBY_E#}の{RUBY_B#ゆめ}旧夢{RUBY_E#}\n{RUBY_B#ばんじ}万事{RUBY_E#}が{RUBY_B#いこん}遺恨{RUBY_E#}",
         "ko": "흩어진 옛 꿈, 갖가지 여한"
       },
       "description": {
         "pt-BR": "Quando Blade está no estado de Paisagem Infernal, sua Chance de CRIT aumenta em 15%.",
         "en": "When Blade is in the Hellscape state, his CRIT Rate increases by 15%.",
-        "zh-CN": "刃处于【地狱变】状态时，暴击率提高15%。",
         "ja": "刃が「地獄変」状態の時、会心率+15%。",
         "ko": "블레이드가 [지옥변] 상태일 때 치명타 확률이 15% 증가한다"
       },
@@ -573,14 +469,12 @@
       "name": {
         "pt-BR": "A Lâmina Temperada Sangra da Tonalidade Mais Gelada",
         "en": "Hardened Blade Bleeds Coldest Shade",
-        "zh-CN": "冶炼玄钢，铣淬寒芒",
         "ja": "{RUBY_B#たんぞう}鍛造{RUBY_E#}されし{RUBY_B#げんこう}玄鋼{RUBY_E#}\n{RUBY_B#かんこうはな}寒光放{RUBY_E#}つ",
         "ko": "제련한 현철, 서늘한 빛"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -593,14 +487,12 @@
       "name": {
         "pt-BR": "Rejeitado pela Morte, Infectado com Vida",
         "en": "Rejected by Death, Infected With Life",
-        "zh-CN": "泉台歧路，百骸回春",
         "ja": "{RUBY_B#めいふ}冥府{RUBY_E#}の{RUBY_B#きろこ}岐路越{RUBY_E#}え\n{RUBY_B#かいせい}回生{RUBY_E#}せし{RUBY_B#むくろ}骸{RUBY_E#}",
         "ko": "황천의 기로, 육신의 회생"
       },
       "description": {
         "pt-BR": "Quando a porcentagem dos PV atuais de Blade chegam a 50% ou menos de seus PV máximos, aumenta os PV máximos dele em 20%. Acumula até 2 vez(es).",
         "en": "When Blade's current HP percentage drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s).",
-        "zh-CN": "当前生命值百分比从大于50%降低至小于等于50%时，生命上限提高20%，该效果最多叠加2层。",
         "ja": "残りHPが50%を超える状態から、50%以下になった時、最大HP+20%、この効果は最大で2層累積できる。",
         "ko": "현재 HP 백분율이 50%를 초과한 상태에서 50% 이하로 떨어지면 HP 최대치가 20% 증가한다. 해당 효과 최대 중첩수: 2스택"
       },
@@ -613,14 +505,12 @@
       "name": {
         "pt-BR": "Morte Pelo Olhar dos Dez Senhores",
         "en": "Death By Ten Lords' Gaze",
-        "zh-CN": "十王判死，业镜悬照",
         "ja": "{RUBY_B#じゅうおう}十王{RUBY_E#}の{RUBY_B#たいへき}大辟{RUBY_E#}\n{RUBY_B#か}懸{RUBY_E#}かり{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#ごうきょう}業鏡{RUBY_E#}",
         "ko": "시왕의 사형 선고, 마주한 업경"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -633,14 +523,12 @@
       "name": {
         "pt-BR": "Renascido em uma Casca Vazia",
         "en": "Reborn Into an Empty Husk",
-        "zh-CN": "命留魂销，复返此身",
         "ja": "{RUBY_B#か}涸{RUBY_E#}れし{RUBY_B#こんぱく}魂魄{RUBY_E#}{RUBY_B#とど}留{RUBY_E#}まりて\n{RUBY_B#こ}此{RUBY_E#}の{RUBY_B#み}身{RUBY_E#}に{RUBY_B#もど}戻{RUBY_E#}る",
         "ko": "죽음의 끝, 돌아온 영혼"
       },
       "description": {
         "pt-BR": "O número máximo de acúmulos de Carga é reduzido para 4. O Dano de um Ataque Extra ativado pelo Talento é aumentado adicionalmente em 50% dos PV máximos de Blade.",
         "en": "The maximum number of Charge stacks is reduced to 4. The Follow-Up ATK triggered by Talent deals additionally increased DMG, with the increased amount equal to 50% of Blade's Max HP.",
-        "zh-CN": "充能的层数上限降低至4层。天赋触发追加攻击造成的伤害额外提高，提高数值等同于刃50%的生命上限。",
         "ja": "チャージ層数の上限が4層になる。天賦による追加攻撃ダメージが、さらに刃の最大HP50%分アップする。",
         "ko": "충전 스택 수 상한이 4스택으로 감소한다. 특성으로 발동되는 추가 공격으로 가하는 피해가 블레이드 HP 최대치의 50%만큼 추가로 증가한다"
       },
@@ -1020,14 +908,12 @@
       "name": {
         "pt-BR": "Vita Infinita",
         "en": "Vita Infinita",
-        "zh-CN": "无尽形寿",
         "ja": "{RUBY_B#むじんけいじゅ}無尽形寿{RUBY_E#}",
         "ko": "무한한 수명"
       },
       "description": {
         "pt-BR": "Quando a porcentagem dos PV atuais de Blade forem iguais ou inferiores a 50% de seus PV máximos, a Cura Recebida aumenta em #1[i]%.",
         "en": "When Blade's current HP percentage is at 50% of Max HP or lower, the HP restored when receiving healing increases by #1[i]%.",
-        "zh-CN": "刃的当前生命值百分比小于等于生命上限的50%时，受到治疗时的回复量提高#1[i]%。",
         "ja": "刃の残りHPが50%以下の時、治癒を受けた時の回復量+#1[i]%。",
         "ko": "블레이드의 현재 HP 백분율이 HP 최대치의 50% 이하인 경우, 치유 받을 때의 회복량이 #1[i]% 증가한다"
       },
@@ -1051,14 +937,12 @@
       "name": {
         "pt-BR": "Mortes Sem Fim",
         "en": "Neverending Deaths",
-        "zh-CN": "吞忍百死",
         "ja": "{RUBY_B#ひゃくしたいにん}百死耐忍{RUBY_E#}",
         "ko": "견디고 견딘 죽음"
       },
       "description": {
         "pt-BR": "Se Blade atingir um inimigo afligido com Quebra de Fraqueza após usar \"Floresta de Espadas\", ele restaura PV em um valor igual a #1[i]% dos seus PV máximos + #2[i].",
         "en": "If Blade hits a Weakness Broken enemy after using \"Forest of Swords,\" he will restore HP equal to #1[i]% of his Max HP plus #2[i].",
-        "zh-CN": "施放【无间剑树】后，若击中处于弱点击破状态的敌方目标，刃回复等同于自身#1[i]%生命上限+#2[i]的生命值。",
         "ja": "「無間剣樹」を発動した後、弱点撃破状態の敵に命中した場合、刃は自身の最大HP#1[i]%+#2[i]のHPを回復する。",
         "ko": "[무간검수] 발동 후 약점 격파 상태인 적을 명중하면, 블레이드는 자신의 HP를 HP 최대치의 #1[i]%+#2[i]만큼 회복한다"
       },
@@ -1087,14 +971,12 @@
       "name": {
         "pt-BR": "Ciclone de Destruição",
         "en": "Cyclone of Destruction",
-        "zh-CN": "坏劫隳亡",
         "ja": "{RUBY_B#えこうめつぼう}壊劫滅亡{RUBY_E#}",
         "ko": "괴겁의 폐망"
       },
       "description": {
         "pt-BR": "Aumenta em #1[i]% o Dano causado pelo Ataque Extra do Talento.",
         "en": "Increases DMG dealt by the Talent's Follow-Up ATK by #1[i]%.",
-        "zh-CN": "天赋施放的追加攻击伤害提高#1[i]%。",
         "ja": "天賦による追加攻撃ダメージ+#1[i]%。",
         "ko": "특성으로 발동된 추가 공격 피해가 #1[i]% 증가한다"
       },
@@ -1120,7 +1002,7 @@
     {
       "id": 1205201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1140,7 +1022,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1160,7 +1041,7 @@
     {
       "id": 1205203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1205202],
@@ -1180,7 +1061,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1200,7 +1080,7 @@
     {
       "id": 1205205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1205102],
@@ -1220,7 +1100,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1240,7 +1119,7 @@
     {
       "id": 1205207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1205206],
@@ -1260,7 +1139,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1283,7 +1161,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1303,7 +1180,7 @@
     {
       "id": 1205210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1205208],
@@ -1613,14 +1490,12 @@
       "name": {
         "pt-BR": "Vita Infinita",
         "en": "Vita Infinita",
-        "zh-CN": "无尽形寿",
         "ja": "{RUBY_B#むじんけいじゅ}無尽形寿{RUBY_E#}",
         "ko": "무한한 수명"
       },
       "description": {
         "pt-BR": "Quando Blade utiliza sua Perícia Suprema, a quantidade liberada do total de PV perdidos é alterada para #1[i]%.",
         "en": "When Blade uses Ultimate, the amount cleared from the tally of HP loss is changed to #1[i]%.",
-        "zh-CN": "刃施放终结技清空的累计已损失生命值改为#1[i]%。",
         "ja": "刃が必殺技を発動する時、クリアされる失ったHPの累計値が#1[i]%になる。",
         "ko": "블레이드의 필살기 발동으로 리셋되는 누적 손실 HP가 #1[i]%가 된다"
       },
@@ -1644,14 +1519,12 @@
       "name": {
         "pt-BR": "Mortes Sem Fim",
         "en": "Neverending Deaths",
-        "zh-CN": "吞忍百死",
         "ja": "{RUBY_B#ひゃくしたいにん}百死耐忍{RUBY_E#}",
         "ko": "견디고 견딘 죽음"
       },
       "description": {
         "pt-BR": "Os PV restaurados por cura aumentam em #2[i]%. Após receber cura, converte #1[i]% do valor curado para a contagem de PV perdidos da Perícia Suprema.",
         "en": "HP restored from healing increases by #2[i]%. After receiving healing, converts #1[i]% of the healed amount to Ultimate's tally of HP loss.",
-        "zh-CN": "受到治疗时的回复量提高#2[i]%。接受治疗后会将#1[i]%的治疗数值转化为终结技的累计已损失生命值。",
         "ja": "治癒を受ける時の回復量+#2[i]%。治癒を受けた後、治癒量の#1[i]%分が必殺技で参照する失ったHPの累計値に加算される。",
         "ko": "치유 받을 시 회복량이 #2[i]% 증가한다. 치유를 받은 후 치유 수치의 #1[i]%가 필살기의 누적 손실한 HP로 전환된다"
       },
@@ -1680,14 +1553,12 @@
       "name": {
         "pt-BR": "Ciclone de Destruição",
         "en": "Cyclone of Destruction",
-        "zh-CN": "坏劫隳亡",
         "ja": "{RUBY_B#えこうめつぼう}壊劫滅亡{RUBY_E#}",
         "ko": "괴겁의 폐망"
       },
       "description": {
         "pt-BR": "Aumenta o Dano de Ataque Extra causado pelo Talento em #1[i]% e regenera adicionalmente #2[i] de energia.",
         "en": "Increases Follow-Up ATK DMG from Talent by #1[i]% and additionally regenerates #2[i] Energy.",
-        "zh-CN": "天赋施放的追加攻击伤害提高#1[i]%，并额外恢复#2[i]点能量。",
         "ja": "天賦による追加攻撃ダメージ+#1[i]%、さらにEPを#2[i]回復する。",
         "ko": "특성으로 발동된 추가 공격 피해가 #1[i]% 증가하고 에너지를 추가로 #2[i]pt 회복한다"
       },
@@ -1713,7 +1584,7 @@
     {
       "id": 11205201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1733,7 +1604,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1753,7 +1623,7 @@
     {
       "id": 11205203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11205202],
@@ -1773,7 +1643,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1793,7 +1662,7 @@
     {
       "id": 11205205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11205102],
@@ -1813,7 +1682,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1833,7 +1701,7 @@
     {
       "id": 11205207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11205206],
@@ -1853,7 +1721,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1876,7 +1743,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1896,7 +1762,7 @@
     {
       "id": 11205210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11205208],

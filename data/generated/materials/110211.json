@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Poeira Estelar Dispersa",
     "en": "Scattered Stardust",
-    "zh-CN": "散逸星砂",
     "ja": "散らばった星の砂",
     "ko": "흩어진 별모래"
   },
@@ -21,7 +20,6 @@
       "Troca de Brasas",
       "Sintetizador Omni - Troca de Material"
     ],
-    "zh-CN": ["拟造花萼【克劳克影视乐园】", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": ["疑似花萼「クラークフィルムランド」", "エンバー交換", "「万能合成マシン」- 素材交換"],
     "ko": ["모조 꽃받침 [클락 스튜디오 테마파크]", "잔화 교환", "「만능 합성기」- 재료 치환"]
   }

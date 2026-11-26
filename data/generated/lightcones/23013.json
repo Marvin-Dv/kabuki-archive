@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "O Tempo Não Espera por Ninguém",
     "en": "Time Waits for No One",
-    "zh-CN": "时节不居",
     "ja": "時節は居らず",
     "ko": "세월은 흐를 뿐"
   },
@@ -15,7 +14,6 @@
   "description": {
     "pt-BR": "Ela havia passado muitos dias perto da janela.\nAs flores desabrochavam lá fora quando ela fazia medicamentos mais suaves com nepeta e hortelã.\nA chuva caía lá fora quando ela fazia medicamentos mais fortes com mosla e gengibre.\nAs folhas caíam lá fora quando ela fazia medicamentos azedos com raízes de peônia e ameixas secas.\nE a neve caía lá fora quando ela fazia medicamentos amargos com escutelária e anemarrena.\nO tempo não para, mas esta janela e a pessoa perto dela ainda são as mesmas.",
     "en": "She had spent many days next to the window.\nFlowers were blooming outside when she made gentle medicines with mint and nepeta.\nRain was falling outside when she made strong medicines with mosla and ginger.\nLeaves were falling outside when she made sour medicines with peony roots and dry plums.\nAnd snow was falling outside when she made bitter medicines with skullcaps and anemarrhena.\nTime flows endlessly, but this window and the person sitting next to it remain forever the same.",
-    "zh-CN": "她曾在窗边度过许多时光。\n配制薄荷、荆芥等辛温之药时，窗外就开花了。\n配制香薷、生姜等辛热之药时，窗外就下雨了。\n配制芍药、乌梅等酸温之药时，窗外就落叶了。\n配制黄芩、知母等苦寒之药时，窗外就飘雪了。\n时节不居，岁月如流，但这扇窗，坐在窗边的人，依旧未变。",
     "ja": "彼女は窓辺で四季の流れを幾度も見届けてきた。\n薄荷、ケイガイなどの辛温の生薬を配合する時、窓から見えるのは咲く花。\nコウジュ、生姜などの辛熱の生薬を配合する時、窓から見えるのは注ぐ雨。\nシャクヤク、烏梅などの酸温の生薬を配合する時、窓から見えるのは漂う落ち葉。\nオウゴン、知母などの苦寒の生薬を配合する時、窓から見えるのは降る雪。\n時節は居らず、歳月は流れる。だがこの窓と、傍に座る者は変わらない。",
     "ko": "그녀는 창가에서 오랫동안 시간이 흐르는 것을 지켜보았다.\n박하와 형개를 배합해서 향이 부드러운 약을 조제할 때는 창밖에서 꽃이 피어났다.\n향유와 생강을 배합해서 향이 강한 약을 조제할 때는 창밖에서 비가 내렸다.\n작약과 오매를 배합해서 시큼한 약을 조제할 때는 창밖에서 낙엽이 떨어졌다.\n황금과 지모를 배합해서 쓰디쓴 약을 조제할 때는 창밖에서 눈이 내렸다.\n아무리 세월이 흘러도 창가에 앉아있는 사람은 변함이 없었다"
   },
@@ -23,14 +21,12 @@
     "name": {
       "pt-BR": "Manhã, Tarde, Crepúsculo e Noite",
       "en": "Morn, Noon, Dusk, and Night",
-      "zh-CN": "日有四时",
       "ja": "一日は四時あり",
       "ko": "아침, 점심, 저녁, 그리고 밤"
     },
     "description": {
       "pt-BR": "Aumenta em #1[i]% os PV máximos e em #2[i]% a Cura Realizada do usuário. Quando o usuário cura seus aliados, ele registra a quantidade de Cura Realizada. Quando qualquer aliado atacar, um inimigo aleatório atacado recebe Dano Adicional equivalente a #3[i]% da Cura Realizada registrada. O tipo deste Dano Adicional é do mesmo Tipo que o do usuário. Este Dano Adicional não é afetado por outras melhorias e pode acontecer apenas 1 vez por rodada.",
       "en": "Increases the wearer's Max HP by #1[i]% and Outgoing Healing by #2[i]%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to #3[i]% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
-      "zh-CN": "使装备者生命上限提高#1[i]%，治疗量提高#2[i]%。当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的#3[i]%，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。",
       "ja": "装備キャラの最大HP+#1[i]%、治癒量+#2[i]%。装備キャラが味方に治癒を行った時、治癒量が記録される。任意の味方が攻撃を行った後、攻撃を受けたランダムな敵1体に対して、装備キャラの属性と同じ属性で、記録された治癒量#3[i]%分の付加ダメージを与える。このダメージはバフの影響を受けず、ターンが回ってくるたびに1回まで発生する。",
       "ko": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가하고, 치유량이 #2[i]% 증가한다. 장착한 캐릭터가 아군에게 치유 제공 시 치유량을 기록한다. 임의의 아군은 공격 발동 후 기록한 치유량의 #3[i]%에 따라 임의의 피격된 적 1기에게 장착한 캐릭터 속성의 추가 피해를 준다. 해당 피해는 보너스의 영향을 받지 않고 턴마다 최대 1회 결산한다."
     },

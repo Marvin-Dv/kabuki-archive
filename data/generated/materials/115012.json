@@ -1,13 +1,7 @@
 {
   "id": 115012,
   "slug": "echoing-wail",
-  "name": {
-    "pt-BR": "Ecos Lamuriosos",
-    "en": "Echoing Wail",
-    "zh-CN": "悲鸣由远及近",
-    "ja": "遠くから近づく悲鳴",
-    "ko": "점점 가까워지는 비명"
-  },
+  "name": { "pt-BR": "Ecos Lamuriosos", "en": "Echoing Wail", "ja": "遠くから近づく悲鳴", "ko": "점점 가까워지는 비명" },
   "rarity": 3,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -29,7 +23,6 @@
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["突破至均衡等级2后，黑潮造物掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
     "ja": [
       "均衡Lv.2に達した後、暗黒の潮の造物からドロップ",
       "「万能合成マシン」- 素材合成",

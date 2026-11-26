@@ -1,13 +1,7 @@
 {
   "id": 113002,
   "slug": "immortal-aeroblossom",
-  "name": {
-    "pt-BR": "Floresciaéreo Imortal",
-    "en": "Immortal Aeroblossom",
-    "zh-CN": "永寿天华",
-    "ja": "永寿の天華",
-    "ko": "영생의 꽃"
-  },
+  "name": { "pt-BR": "Floresciaéreo Imortal", "en": "Immortal Aeroblossom", "ja": "永寿の天華", "ko": "영생의 꽃" },
   "rarity": 3,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -29,7 +23,6 @@
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["突破至均衡等级2后，丰饶孽物掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
     "ja": [
       "均衡Lv.2に達した後、豊穣の忌み物からドロップ",
       "「万能合成マシン」- 素材合成",

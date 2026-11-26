@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Lâmina de Aço Flamejante",
     "en": "Searing Steel Blade",
-    "zh-CN": "过热钢刃",
     "ja": "灼熱の鋼刃",
     "ko": "과열된 강철 칼날"
   },
@@ -17,7 +16,6 @@
   "sources": {
     "en": ["Stagnant Shadow: Great Mine", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Grande Mina", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【大矿区】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「大鉱区」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [큰 광산구역]", "「만능 합성기」- 재료 치환"]
   }

@@ -1,13 +1,7 @@
 {
   "id": 7,
   "type": "BreakDamageAddedRatio",
-  "name": {
-    "pt-BR": "Efeito de Quebra",
-    "en": "Break Effect",
-    "zh-CN": "击破特攻",
-    "ja": "撃破特効",
-    "ko": "격파 특수효과"
-  },
+  "name": { "pt-BR": "Efeito de Quebra", "en": "Break Effect", "ja": "撃破特効", "ko": "격파 특수효과" },
   "icon": "icon/property/IconBreakUp.png",
   "percent": false
 }

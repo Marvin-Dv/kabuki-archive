@@ -1,13 +1,7 @@
 {
   "id": 11310,
   "slug": "fireflys-eidolon",
-  "name": {
-    "pt-BR": "Eidolon da Vaga-lume",
-    "en": "Firefly's Eidolon",
-    "zh-CN": "【流萤】的星魂",
-    "ja": "「ホタル」の星魂",
-    "ko": "[반디]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon da Vaga-lume", "en": "Firefly's Eidolon", "ja": "「ホタル」の星魂", "ko": "[반디]의 성혼" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Aquelas Incontáveis Primaveras",
     "en": "Those Many Springs",
-    "zh-CN": "那无数个春天",
     "ja": "幾度目かの春",
     "ko": "그 무수한 봄날"
   },
@@ -15,7 +14,6 @@
   "description": {
     "pt-BR": "Depois de algumas garoas repentinas, as marés da primavera se erguem e o crescimento verdejante se levanta.\n\"Quantas primaveras já passaram?\"\nEle se lembra daqueles jovens soldados se dirigindo ao campo de batalha pela primeira vez. Ano após ano, os rostos eram todos diferentes, mas ainda assim eles irradiavam exatamente o mesmo vigor e a mesma esperança.\nO salgueiro murcha conforme aguarda pelo retorno dele. Mas o que ele consegue trazer de volta para casa costuma ser... o gelo que nunca derrete.\nOs gorjeios dos pássaros permanecem no ar enquanto ele fecha seus olhos, permitindo que a luz do sol recaia sobre sua face através das frestas entre as folhas.\n\"Infelizmente, aqueles que permanecem são os mais solitários de todos.\"",
     "en": "After a few sudden drizzles, spring tides rise, birthing lush greenery.\n\"How many springs has it been?\"\nHe recalls those young soldiers heading to the battlefield for the first time. Year after year, the faces were all different, yet they radiated the exact same vigor and hope.\nThe willow withers as it waits for their return. But what they manage to bring home is often... the frost that can never melt.\nBirds' warbles linger in the air as he closes his eyes, allowing sunlight to fall on his face through the gaps between the leaves.\n—\"Alas, those who remain are the loneliest of all.\"",
-    "zh-CN": "几场急雨过后，春潮初涨，碧草丛生。\n「这是第几个春天了？」 \n他想起那些初次奔赴战场的年轻战士。年年岁岁，不同的人，却都是一样的朝气蓬勃、充满希望。\n柳条折尽待君回，最后他们带回故土的…往往是再也无法融化的冰霜。\n鸟鸣悠然，他闭上双眼，任日光透过树叶缝隙扑于脸上。\n——「所以啊，还是留下来的人最寂寞。」",
     "ja": "幾度かのにわか雨が過ぎ、初春の空気が満ちると、青々とした草が盛んに成長を始める。\n「これで何度目の春でしょうか」\n彼は初めて戦場に赴いた若い兵士たちのことを思い浮かべる。毎年顔ぶれは新しくなるが、彼らは同じように生気と希望に満ち溢れていた。\nしかし、柳の枝を折り尽くすほど待っていようと、彼らが最後に持ち帰るのは…二度と溶けることのない氷霜だけだ。\n木漏れ日が顔に当たり、彼は鳥の囀りの中で目を閉じた。\n——「結局、残された者が一番寂しいんですよね」",
     "ko": "몇 차례 소나기가 지나자 봄의 조수가 차오르고 푸른 새싹이 자라났다.\n「이게 몇 번째 봄이지?」\n그는 처음 전장에 뛰어들었던 젊은 전사들을 떠올렸다. 해마다 다른 사람들이었지만, 희망과 활기로 가득 찬 모습은 전부 같았다.\n버드나무 가지를 꺾으며 돌아오기를 기다렸지만, 그들이 고향으로 가지고 온 것은… 영원히 녹지 않을 얼음서리였다.\n지저귀는 새소리에 그는 두 눈을 감았고, 나뭇잎 사이로 비치는 햇빛이 얼굴을 덮었다.\n——「역시 남겨진 사람이 가장 외롭구나」"
   },
@@ -23,14 +21,12 @@
     "name": {
       "pt-BR": "Assuntos Mundanos Não Deixam Marcas",
       "en": "Worldly Affairs Leave No Mark",
-      "zh-CN": "世事无痕",
       "ja": "世事は跡を残さず",
       "ko": "흔적 없는 세상만사"
     },
     "description": {
       "pt-BR": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Após o usuário utilizar um ATQ Básico, Perícia ou Perícia Suprema para atacar um inimigo-alvo, existe uma chance-base de #2[i]% de infligir o estado de \"Desprotegido\". Enquanto estiver no estado de Desprotegido, o inimigo-alvo recebe #3[i]% a mais de Dano, durando por #4[i] rodada(s). Se o alvo está sob um estado de Dano Contínuo infligido pelo usuário, há uma chance-base de #5[i]% de melhorar o estado de \"Desprotegido\" infligido pelo usuário para um estado de \"Encurralado\", que aumenta adicionalmente o Dano recebido pelo inimigo-alvo em #6[i]%, durando por #4[i] rodada(s). Durante esse período, o usuário não pode infligir \"Desprotegido\" no alvo.",
       "en": "Increases the wearer's Effect Hit Rate by #1[i]%. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a #2[i]% base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives #3[i]% increased DMG, lasting for #4[i] turn(s). If the target is under a DoT state inflicted by the wearer, there is a #5[i]% base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the enemy target receives by #6[i]%, lasting for #4[i] turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.",
-      "zh-CN": "使装备者的效果命中提高#1[i]%，装备者施放普攻、战技、终结技攻击敌方目标后，有#2[i]%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高#3[i]%，持续#4[i]回合。若目标处于装备者施加的持续伤害状态，则有#5[i]%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高#6[i]%，持续#4[i]回合，期间装备者无法对其施加【卸甲】。",
       "ja": "装備キャラの効果命中+#1[i]%。装備キャラが通常攻撃、戦闘スキル、または必殺技を発動して敵に攻撃した後、#2[i]%の基礎確率で敵を「甲卸」状態にする。\n「甲卸」状態の敵の受けるダメージ+#3[i]%、#4[i]ターン継続。ターゲットが装備キャラによって持続ダメージ系デバフを付与されている場合、#5[i]%の基礎確率で装備キャラが付与した「甲卸」状態を「窮寇」状態に強化し、さらに敵の受けるダメージ+#6[i]%、#4[i]ターン継続。\n敵に「窮寇」状態がある時、装備キャラはその敵に「甲卸」状態を付与できない。",
       "ko": "장착한 캐릭터의 효과 명중이 #1[i]% 증가하고, 장착한 캐릭터가 일반 공격, 전투 스킬, 필살기를 발동해 적을 공격하면 #2[i]%의 기본 확률로 해당 목표를 [무장해제] 상태에 빠트린다. [무장해제] 상태의 적은 받는 피해가 #3[i]% 증가한다, 지속 시간: #4[i]턴. 목표가 장착한 캐릭터가 부여한 지속 피해 상태일 시 #5[i]%의 기본 확률로 장착한 캐릭터가 부여한 [무장해제] 상태가 [궁지 몰이] 상태로 업그레이드되며, 적이 받는 피해가 추가로 #6[i]% 증가한다, 지속 시간: #4[i]턴, 지속 시간 동안 장착한 캐릭터는 해당 목표에게 [무장해제]를 부여할 수 없다"
     },

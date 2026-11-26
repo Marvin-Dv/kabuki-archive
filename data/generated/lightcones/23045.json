@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Uma Coroação Sem Gratidão",
     "en": "A Thankless Coronation",
-    "zh-CN": "没有回报的加冕",
     "ja": "報われぬ戴冠",
     "ko": "보답 없는 왕관"
   },
@@ -15,22 +14,14 @@
   "description": {
     "pt-BR": "Os ouvidos da garota ressoaram na fantasia com as palavras conversadas naquele dia.\n\"Esta espada não foi difícil de retirar, Merlin.\"\n\"De fato. Tornar-se o rei que todos desejam não será difícil para você, já que estou te guiando. No entanto, Altria... A dificuldade está em que você nem sempre poderá atender às expectativas de todos.\"\n\"Eles podem escolher um rei mais adequado até lá. Eu não protestarei.\"\n\"Mas e se uma pessoa assim nunca existir?\"\n\"...Então, farei o meu melhor para atender às expectativas de todos.\"\nAgora, a garota já havia se dado conta de quão profunda seria aquela tragédia. Ela teria escolhido desistir se pudesse voltar ao momento em que tudo começou?\nO rei não fala e simplesmente segura a espada com força.\nA pedreira novamente solta um rugido estrondoso enquanto a espada é retirada.",
     "en": "The girl's ears rang in the fantasia with the words conversed on that day.\n\"This sword wasn't hard to pull out at all, Merlin.\"\n\"Indeed. Becoming the king everyone wishes for won't be hard for you at all, given that I'm guiding you. However, Altria... The hard part is that you can't always meet everyone's expectations.\"\n\"Then they can choose a more fitting king by that time. I won't protest.\"\n\"But what if such a person will never exist?\"\n\"...Then I'll do my best to meet everyone's expectations.\"\nNow, the girl had long since become aware of how profound that tragedy would be. Would she have chosen to give up if she were to return to that moment where everything began?\nThe king does not speak and simply grasps the sword tightly.\nThe stone again gives out a thundering roar as the sword is pulled out.",
-    "zh-CN": "幻境中，少女的耳畔回响起那日的对谈。\n「梅林，这柄剑一点儿也不难拔。」\n「的确如此。对你来说，成为大家期待中的王，一点儿也不困难。毕竟有我在指导你嘛。但，阿尔托莉雅…真正困难的是，你不可能永远都符合大家的期待。」\n「到时候，他们可以选一个更合适的王。我不会有意见。」\n「如果这种人根本就不存在呢？」\n「…那我会努力回应大家的期待。」\n如今，少女早已明白这将是何等的悲剧。如果此刻便是最初的那个时刻，她是否会选择放弃？\n王无言。她只是握紧了剑。\n岩石再度发出拔剑的轰鸣。",
     "ja": "幻境の中、あの日の会話が少女の耳元で蘇る。\n「マーリン、この剣を抜くのは驚くほど簡単でしたよ」\n「君にとってはそうだろうね。何しろこの私が指導者なのだから。民が望む王になるのも容易いことさ。でもアルトリア…本当に難しいのはこれからだよ。だって、君はいつまでも皆の期待に応えられるわけじゃないからね」\n「その時は、もっとふさわしい王をまた立てればいいでしょう。私は潔く身を引きます」\n「もし『常に皆の期待に応えられるような人』なんて、この世に存在しないとしたら？」\n「…ならば、皆の期待に応えられるよう全力で努力し続けるまでです」\n今となっては、少女も知っている。その選択がいかに深い悲劇に繋がるのかを。もし今、すべてをやり直せたとしたら、彼女はその道を選ばなかっただろうか？\n王は無言のまま剣の柄を握りしめ、\n再び剣を抜く。それを収めていた岩が重い音を響かせた。",
     "ko": "환상 속에서 소녀의 귓가에 그날의 대화가 울려 퍼진다.\n「멀린, 이 검을 뽑는 건 하나도 어렵지 않은걸요」\n「그래, 사람들이 기대하는 왕이 되는 건 네게 어려운 일이 아니지. 그야 내가 널 지도해주고 있으니까. 하지만 알트리아… 진정 어려운 건, 언제까지나 사람들의 기대에 부응할 수 없다는 거야」\n「그런 상황이 오면 사람들이 더 적합한 왕을 선택하겠죠. 저는 반대하지 않을 거예요」\n「만약 그런 사람이 애초에 존재하지 않는다면?」\n「…그럼, 모두의 기대에 부응할 수 있도록 노력해야죠」\n지금의 소녀는 그것이 얼마나 비극적인 일인지 알고 있다. 지금이 바로 그때 그 순간이라면, 그녀는 과연 포기할 것인가?\n왕은 말이 없다. 그녀는 그저 검을 꽉 쥐었다.\n바위가 다시 한번 검이 뽑히는 굉음을 냈다"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Rei dos Cavaleiros",
-      "en": "King of Knights",
-      "zh-CN": "骑士之王",
-      "ja": "騎士王",
-      "ko": "기사왕"
-    },
+    "name": { "pt-BR": "Rei dos Cavaleiros", "en": "King of Knights", "ja": "騎士王", "ko": "기사왕" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Ao usar a Perícia Suprema, aumenta o ATQ do usuário em #6[i]%, e se a Energia Máxima do usuário for maior ou igual a #3[i], regenera uma quantidade fixa de Energia igual a #5[i]% da Energia Máxima do usuário e novamente aumenta o ATQ do usuário em #2[i]%, com duração de #4[i] rodadas.",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. When using Ultimate, increases the wearer's ATK by #6[i]%, and if the wearer's Max Energy is greater than or equal to #3[i], regenerates a fixed amount of Energy equal to #5[i]% of the wearer's Max Energy and once again increases the wearer's ATK by #2[i]%, lasting for #4[i] turns.",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。施放终结技时，使装备者的攻击力提高#6[i]%，若装备者的能量上限大于等于#3[i]点，为装备者固定恢复等同于装备者能量上限#5[i]%的能量，并再次使装备者的攻击力提高#2[i]%，持续#4[i]回合。",
       "ja": "装備キャラの会心ダメージ+#1[i]%。必殺技を発動する時、装備キャラの攻撃力+#6[i]%、#4[i]ターン継続。なお、装備キャラの最大EPが#3[i]以上の場合、自身の最大EP#5[i]%分のEPを回復し、追加で装備キャラの攻撃力+#2[i]%、#4[i]ターン継続。",
       "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 필살기 발동 시 장착한 캐릭터의 공격력이 #6[i]% 증가하며, 장착한 캐릭터의 에너지 최대치가 #3[i]pt 이상일 경우 장착한 캐릭터의 에너지를 장착한 캐릭터 에너지 최대치의 #5[i]%만큼 고정으로 회복하고, 다시 장착한 캐릭터의 공격력을 #2[i]% 증가시킨다, 지속 시간: #4[i]턴"
     },

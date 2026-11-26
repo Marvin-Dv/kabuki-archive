@@ -1,7 +1,7 @@
 {
   "id": 23,
   "type": "ElationDamageAddedRatioBase",
-  "name": { "pt-BR": "Euforia", "en": "Elation", "zh-CN": "欢愉度", "ja": "愉悦度", "ko": "환락도" },
+  "name": { "pt-BR": "Euforia", "en": "Elation", "ja": "愉悦度", "ko": "환락도" },
   "icon": "icon/property/IconJoy.png",
   "percent": true
 }

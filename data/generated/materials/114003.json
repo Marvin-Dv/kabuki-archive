@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Motor de Geração de Sonhos",
     "en": "Dream Making Engine",
-    "zh-CN": "造梦马达",
     "ja": "ドリームメイキングモーター",
     "ko": "꿈 제조 모터"
   },
@@ -29,7 +28,6 @@
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["突破至均衡等级4后，惊梦剧团掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
     "ja": [
       "均衡Lv.4に達した後、ナイトメア劇団からドロップ",
       "「万能合成マシン」- 素材合成",

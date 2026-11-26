@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Euforia Repleta de Bênçãos",
     "en": "Elation Brimming With Blessings",
-    "zh-CN": "欢愉满溢祝福",
     "ja": "愉悦溢れる祝福",
     "ko": "넘치는 환락의 축복"
   },
@@ -15,16 +14,14 @@
   "description": {
     "pt-BR": "Sob as pontas dos dedos de gênios, os dados fluem constantemente, sem fim.\nMáscaras à espreita nas frestas entre \"ocorrências\", observando cada possibilidade esperando para se desdobrar.\nAnálise, extrapolação, respostas, perguntas. Esse não é um palco perfeito para gênios?\nCelebrações, lágrimas, rugidos, lamentos: as emoções da vida florescem em sua plenitude.\nA peça silenciosa se torna estrondosa, e bênçãos preenchem a Euforia até a borda. Esse é o ato mais cativante?\nA resposta permanece a mesma: completamente imprevisível!",
     "en": "Beneath the fingertips of geniuses, data flows steadily, endlessly.\nMasks lurk in the cracks between \"occurrences,\" observing every possibility waiting to unfold.\nAnalysis, extrapolation, answers, questions. Isn't this a perfect stage for geniuses?\nCheers, tears, roars, wails... the emotions of life bloom in full.\nThe silent play grows raucous, and blessings fill elation past the brim. Is this the most captivating act?\nThe answer remains the same: utterly unpredictable!",
-    "zh-CN": "天才们的指尖下，数据平稳运转，永无止息。\n面具潜藏在「事件」的罅隙，观摩每一场亟待发展的可能。\n剖析、演算、解答、提问、这何尝不是天才们的舞台？\n欢呼、泪水、怒吼、哀嚎…生命的喜怒哀乐尽数绽放。\n默剧变得喧闹，欢愉满溢祝福。这是最引人入胜的一幕吗？\n答案依旧是——无可预料！",
     "ja": "天才たちの指先で、データは安定し、絶え間なく動き続ける。\n仮面は「事件」の隙間に潜み、あらゆる可能性を見つめている。\n分析、演算、解答、質問、これぞまさしく天才たちの舞台ではないだろうか？\n歓声、涙、怒号、悲鳴…生命が持つ喜怒哀楽、そのすべてが開花する。\n無言劇は喧騒に、愉悦は祝福で満ち溢れる。これこそが最も魅力的な一幕なのか？\n答えは依然——予測不能！",
     "ko": "지니어스들의 손끝 아래, 데이터는 영원히 멈추지 않고 평온하게 돌아간다.\n가면은 「사건」의 틈새에 숨어, 움트길 기다리는 모든 가능성을 지켜본다.\n분석, 연산, 해답, 질문… 이 또한 천재들의 무대 아니겠는가?\n환호, 눈물, 분노, 절규… 생명의 희로애락이 모두 피어난다.\n무언극은 소란스러워지고, 환락은 축복이 넘쳐흐른다. 이게 가장 매혹적인 장면일까?\n답은 여전히——예측 불가!"
   },
   "skill": {
-    "name": { "pt-BR": "Abertura", "en": "Opening", "zh-CN": "开场", "ja": "開幕", "ko": "오프닝" },
+    "name": { "pt-BR": "Abertura", "en": "Opening", "ja": "開幕", "ko": "오프닝" },
     "description": {
       "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Depois que o usuário usa sua Perícia ou Perícia Suprema em um personagem aliado, aumenta a Euforia do alvo em #2[i]% por #3[i] rodada(s).",
       "en": "Increases the wearer's ATK by #1[i]%. After the wearer uses Skill or Ultimate on one ally character, increases the target's Elation stat by #2[i]% for #3[i] turn(s).",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。当装备者对我方单体角色施放战技或终结技后，使目标欢愉度提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが味方キャラ単体に戦闘スキルまたは必殺技を発動した後、ターゲットの愉悦度+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 단일 아군 캐릭터에게 전투 스킬 또는 필살기를 발동한 후, 목표의 환락도를 #2[i]% 증가시킨다, 지속 시간: #3[i]턴"
     },

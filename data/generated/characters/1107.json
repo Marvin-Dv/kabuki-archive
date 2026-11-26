@@ -1,7 +1,7 @@
 {
   "id": 1107,
   "slug": "clara",
-  "name": { "pt-BR": "Clara", "en": "Clara", "zh-CN": "克拉拉", "ja": "クラーラ", "ko": "클라라" },
+  "name": { "pt-BR": "Clara", "en": "Clara", "ja": "クラーラ", "ko": "클라라" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Physical",
@@ -14,14 +14,12 @@
       "name": {
         "pt-BR": "Eu Quero Ajudar",
         "en": "I Want to Help",
-        "zh-CN": "我也想帮上忙",
         "ja": "クラーラもお手伝いします",
         "ko": "나도 도움이 되고 싶어"
       },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Clara a um único inimigo.",
         "en": "Deals Physical DMG equal to #1[i]% of Clara's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于克拉拉#1[i]%攻击力的物理属性伤害。",
         "ja": "指定した敵単体にクラーラの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 클라라 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
       },
@@ -31,12 +29,11 @@
       "summary": {
         "pt-BR": "Causa Dano Físico leve a um único inimigo.",
         "en": "Deals minor Physical DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量物理属性伤害。",
         "ja": "敵単体に少量の物理属性ダメージを与える。",
         "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110702,
@@ -44,14 +41,12 @@
       "name": {
         "pt-BR": "Svarog Cuida de Você",
         "en": "Svarog Watches Over You",
-        "zh-CN": "史瓦罗在看着你",
         "ja": "スヴァローグが見てる",
         "ko": "스바로그 씨가 보고 있어"
       },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Clara a todos os inimigos e adicionalmente causa Dano Físico igual a #2[i]% do ATQ de Clara a inimigos marcados por Svarog com uma Marca do Contra-Ataque.\nApós o uso desta Perícia, todas as Marcas do Contra-Ataque serão removidas.",
         "en": "Deals Physical DMG equal to #1[i]% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to #2[i]% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "zh-CN": "对敌方全体造成等同于克拉拉#1[i]%攻击力的物理属性伤害，并对所有被史瓦罗标上【反击标记】的敌方目标额外造成等同于克拉拉#2[i]%攻击力物理属性伤害。\n战技施放后所有【反击标记】失效。",
         "ja": "敵全体にクラーラの攻撃力#1[i]%分の物理属性ダメージを与える。スヴァローグに「反撃の印」を付与された敵に対し、さらにクラーラの攻撃力#2[i]%分の物理属性ダメージを与える。\n戦闘スキルを発動した後、すべての「反撃の印」が失効する。",
         "ko": "모든 적에게 클라라 공격력 #1[i]%만큼의 물리 속성 피해를 주며 스바로그에게 [반격 표식]이 부여된 모든 적에게 추가로 클라라 공격력 #2[i]%만큼의 물리 속성 피해를 준다.\n전투 스킬 발동 후 모든 [반격 표식]이 무효화된다"
       },
@@ -77,12 +72,11 @@
       "summary": {
         "pt-BR": "Causa Dano Físico a todos os inimigos. Adicionalmente, causa Dano Físico a alvos com Marcas do Contra-Ataque.",
         "en": "Deals Physical DMG to all enemies. Additionally deals Physical DMG to targets with Marks of Counter.",
-        "zh-CN": "对敌方全体造成物理属性伤害，对持有【反击标记】的目标额外造成物理伤害。",
         "ja": "敵全体に物理属性ダメージを与え、「反撃の印」がある敵にはさらに物理属性ダメージを与える。",
         "ko": "모든 적에게 물리 속성 피해를 가하고, [반격 표식]을 보유한 적에게 물리 피해를 추가로 가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 110703,
@@ -90,14 +84,12 @@
       "name": {
         "pt-BR": "É Uma Promessa, Não Uma Ordem",
         "en": "Promise, Not Command",
-        "zh-CN": "是约定不是命令",
         "ja": "命令じゃなくて約束",
         "ko": "명령 아닌 약속"
       },
       "description": {
         "pt-BR": "Após Clara usar sua Perícia Suprema, o Dano causado a ela é reduzido em #4[i]% extra, e ela terá muito mais chances de ser atacada por inimigos por #3[i] rodada(s).\nAlém disso, o Contra-Ataque de Svarog é aprimorado. Quando um aliado é atacado, Svarog usa um Contra-Ataque imediatamente, e seu multiplicador de Dano contra o inimigo aumenta em #2[i]%. Inimigos adjacentes a ele sofrem 50% do Dano causado ao inimigo-alvo principal. Contra-Ataque(s) aprimorado(s) podem entrar em vigor #5[i] vez(es).",
         "en": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra #4[i]%, and she has greatly increased chances of being attacked by enemies for #3[i] turn(s).\nIn addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by #2[i]%. Enemies adjacent to it take 50% of the DMG dealt to the primary target enemy. Enhanced Counter(s) can take effect #5[i] time(s).",
-        "zh-CN": "施放终结技后克拉拉受到的伤害额外降低#4[i]%且被敌方目标攻击的概率大幅提高，持续#3[i]回合。\n同时史瓦罗的反击得到强化，当任意我方目标受到攻击后史瓦罗立即施放反击，对敌方目标造成的伤害倍率提高#2[i]%，并对其相邻目标造成相当于主目标50%的伤害。强化效果可生效#5[i]次。",
         "ja": "必殺技を発動した後、さらにクラーラの受けるダメージ-#4[i]%、敵に攻撃される確率が大アップする、#3[i]ターン継続。\nスヴァローグのカウンターを強化。任意の味方が攻撃を受けた後、スヴァローグが攻撃者にカウンターを行い、カウンターのダメージ倍率+#2[i]%、隣接する敵にメインターゲットに与えるダメージ50%分のダメージを与える。強化効果は#5[i]回発動できる。",
         "ko": "필살기 발동 후 클라라가 적에게 받는 피해가 추가로 #4[i]% 감소하고, 적에게 피격될 확률이 대폭 증가한다. 지속 시간: #3[i]턴\n동시에 스바로그의 반격이 강화되어 임의의 아군이 피격 후 스바로그는 바로 반격하며, 적에게 가하는 피해 배율이 #2[i]% 증가하고 인접한 목표에게 주목표에게 가하는 50%만큼의 피해를 준다. 강화 효과는 #5[i]회 적용된다"
       },
@@ -123,12 +115,11 @@
       "summary": {
         "pt-BR": "Reduz o Dano recebido, aumenta as chances de receber ataques de inimigos, e aprimora Contra-Ataques.",
         "en": "Reduces DMG received, increases chance to be attacked by enemies, and enhances Counters.",
-        "zh-CN": "自身受到的伤害降低，被攻击的概率提高，并强化反击的效果。",
         "ja": "自身の受けるダメージダウン、攻撃される確率アップ、カウンターを強化。",
         "ko": "자신이 받는 피해가 감소하고 피격될 확률이 증가하며 반격 효과를 강화한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 110704,
@@ -136,14 +127,12 @@
       "name": {
         "pt-BR": "Porque Somos Uma Família",
         "en": "Because We're Family",
-        "zh-CN": "因为我们是家人",
         "ja": "家族なんだから",
         "ko": "우리는 가족이니까"
       },
       "description": {
         "pt-BR": "Sob a proteção de Svarog, o Dano recebido por Clara ao ser atingida por ataques inimigos é reduzido em #3[i]%. Svarog marca inimigos que atacarem Clara com sua Marca do Contra-Ataque e então Contra-Ataca, causando Dano Físico igual a #2[i]% do ATQ de Clara.",
         "en": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by #3[i]%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to #2[i]% of Clara's ATK.",
-        "zh-CN": "克拉拉在史瓦罗的保护下受到敌方目标攻击的伤害降低#3[i]%。攻击克拉拉的敌方目标会被史瓦罗标上【反击标记】，并遭到史瓦罗的反击，对其造成等同于克拉拉#2[i]%攻击力的物理属性伤害。",
         "ja": "クラーラはスヴァローグの保護により受けるダメージ-#3[i]%。クラーラを攻撃した敵に対し、スヴァローグが「反撃の印」を付与してカウンターし、クラーラの攻撃力#2[i]%分の物理属性ダメージを与える。",
         "ko": "스바로그의 가호하에 클라라가 적에게 받는 피해가 #3[i]% 감소한다. 스바로그는 클라라를 공격한 적에게 [반격 표식]을 남기고 스바로그의 반격을 받아 클라라 공격력 #2[i]%만큼의 물리 속성 피해를 가한다"
       },
@@ -169,21 +158,19 @@
       "summary": {
         "pt-BR": "O Dano recebido de ataques inimigos é reduzido. Inimigos que atacarem Clara serão marcados com uma Marca do Contra-Ataque, e receberão um Contra-Ataque de Svarog que causa Dano Físico.",
         "en": "DMG received from enemy attacks is reduced. Enemies who attack Clara will be marked with a Mark of Counter and met with Svarog's Counter, dealing Physical DMG.",
-        "zh-CN": "自身受到敌方目标攻击的伤害降低。施放攻击的敌方目标会被标上【反击标记】，并遭到史瓦罗的反击，造成物理属性伤害。",
         "ja": "自身の受けるダメージがダウンする。攻撃者は「反撃の印」を付与され、スヴァローグのカウンターを受け、物理属性ダメージを受ける。",
         "ko": "자신이 적에게 받는 피해가 감소한다. 공격한 적에게 [반격 표식]을 남기고, 스바로그의 반격을 받아 물리 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110706,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +179,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -203,14 +189,12 @@
       "name": {
         "pt-BR": "Um Preço Baixo pela Vitória",
         "en": "A Small Price for Victory",
-        "zh-CN": "胜利的小小代价",
         "ja": "勝利の小さな対価",
         "ko": "승리를 위한 작은 대가"
       },
       "description": {
         "pt-BR": "Ataca o inimigo imediatamente. Ao entrar na batalha, a chance de Clara ser atacada por inimigos aumenta por #1[i] rodada(s).",
         "en": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for #1[i] turn(s).",
-        "zh-CN": "立即攻击敌人，进入战斗后克拉拉受到敌方攻击的概率提高，持续#1[i]回合。",
         "ja": "敵を攻撃。戦闘に入った後、クラーラが敵に攻撃される確率がアップする、#1[i]ターン継続。",
         "ko": "적을 바로 공격하며, 전투 진입 후 클라라가 적에게 피격될 확률이 증가한다. 지속 시간: #1[i]턴"
       },
@@ -220,11 +204,10 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Depois de entrar em batalha, a chance desta personagem ser atacada por inimigos aumenta.",
         "en": "Attacks the enemy. After entering battle, this character's chance of being attacked by enemies increases.",
-        "zh-CN": "攻击敌人，进战后受到敌人攻击的概率提高。",
         "ja": "敵を攻撃。戦闘に入った後、敵に攻撃される確率がアップする。",
         "ko": "적을 공격하면 전투 진입 후 적에게 피격될 확률이 증가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
     }
   ],
   "eidolons": [
@@ -233,14 +216,12 @@
       "name": {
         "pt-BR": "Uma Figura Alta",
         "en": "A Tall Figure",
-        "zh-CN": "高大的背影",
         "ja": "{RUBY_B#おお}大{RUBY_E#}きな{RUBY_B#うし}後{RUBY_E#}ろ{RUBY_B#すがた}姿{RUBY_E#}",
         "ko": "거대한 뒷모습"
       },
       "description": {
         "pt-BR": "Usar a Perícia não removerá Marcas do Contra-Ataque do inimigo.",
         "en": "Using Skill will not remove Marks of Counter on the enemy.",
-        "zh-CN": "施放战技后，不会清除敌方目标的【反击标记】。",
         "ja": "戦闘スキルを発動した後、敵に付与した「反撃の印」が失効しなくなる。",
         "ko": "전투 스킬 발동 후 적의 [반격 표식]을 해제하지 않는다"
       },
@@ -253,14 +234,12 @@
       "name": {
         "pt-BR": "Um Abraço Apertado",
         "en": "A Tight Embrace",
-        "zh-CN": "紧紧的拥抱",
         "ja": "ぎゅっとした{RUBY_B#ほうよう}抱擁{RUBY_E#}",
         "ko": "꼭 껴안아주기"
       },
       "description": {
         "pt-BR": "Após usar a Perícia Suprema, o ATQ aumenta em 30% por 2 rodada(s).",
         "en": "After using the Ultimate, ATK increases by 30% for 2 turn(s).",
-        "zh-CN": "施放终结技后攻击力提高30%，持续2回合。",
         "ja": "必殺技を発動した後、攻撃力+30%、2ターン継続。",
         "ko": "필살기 발동 후 공격력이 30% 증가한다. 지속 시간: 2턴"
       },
@@ -273,14 +252,12 @@
       "name": {
         "pt-BR": "Armadura de Aço Fria",
         "en": "Cold Steel Armor",
-        "zh-CN": "冰冷的钢甲",
         "ja": "{RUBY_B#れいてつ}冷徹{RUBY_E#}な{RUBY_B#てっこう}鉄甲{RUBY_E#}",
         "ko": "차가운 강철 갑옷"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -293,14 +270,12 @@
       "name": {
         "pt-BR": "Aconchego Familiar",
         "en": "Family's Warmth",
-        "zh-CN": "家人的温暖",
         "ja": "{RUBY_B#かぞく}家族{RUBY_E#}の{RUBY_B#あたた}温{RUBY_E#}かさ",
         "ko": "가족의 따스함"
       },
       "description": {
         "pt-BR": "Após sofrer um ataque, o Dano recebido por Clara é reduzido em 30%. Este efeito dura até o início da rodada seguinte.",
         "en": "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn.",
-        "zh-CN": "受到攻击后，克拉拉受到的伤害降低30%，效果持续到自己的下个回合开始。",
         "ja": "攻撃を受けた後、クラーラの受けるダメージ-30%、次のターンが回ってくるまで継続。",
         "ko": "피격 후 클라라가 받는 피해가 30% 감소하며, 해당 효과는 자신의 다음번 턴까지 지속된다"
       },
@@ -313,14 +288,12 @@
       "name": {
         "pt-BR": "Uma Pequena Promessa",
         "en": "A Small Promise",
-        "zh-CN": "小小的承诺",
         "ja": "{RUBY_B#ちい}小{RUBY_E#}さな{RUBY_B#やくそく}約束{RUBY_E#}",
         "ko": "아주 작은 약속"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -333,14 +306,12 @@
       "name": {
         "pt-BR": "Longa Companhia",
         "en": "Long Company",
-        "zh-CN": "长久的陪伴",
         "ja": "{RUBY_B#なが}長{RUBY_E#}い{RUBY_B#あいだ}間{RUBY_E#}の{RUBY_B#つ}付{RUBY_E#}き{RUBY_B#そ}添{RUBY_E#}い",
         "ko": "오랜 단짝"
       },
       "description": {
         "pt-BR": "Quando outros aliados são atacados, Svarog também tem 50% de chance fixa de ativar um Contra-Ataque no atacante e marcá-lo com uma \"Marca do Contra-Ataque\". Ao usar a Perícia Suprema, o número de Contra-Ataque(s) Aprimorado(s) aumenta em 1.",
         "en": "After other allies are attacked, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a \"Mark of Counter.\" When using Ultimate, the number of Enhanced Counters increases by 1.",
-        "zh-CN": "我方其他目标遭到攻击后，史瓦罗也有50%的固定概率触发对攻击者的反击，并对攻击目标添加【反击标记】。施放终结技时，额外增加1次强化反击的次数。",
         "ja": "他の味方が攻撃された後も、スヴァローグは50%の固定確率で攻撃者にカウンターを行い、その敵に「反撃の印」を付与する。必殺技を発動した時、さらに強化反撃の回数+1。",
         "ko": "다른 아군이 피격 후 스바로그는 50%의 고정 확률로 공격자에게 반격을 발동하며 공격 목표에게 [반격 표식]을 부여한다. 필살기 발동 시 반격 강화 횟수가 추가로 1회 증가한다"
       },
@@ -717,17 +688,10 @@
     {
       "id": 1107101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Afinidade",
-        "en": "Kinship",
-        "zh-CN": "家人",
-        "ja": "{RUBY_B#かぞく}家族{RUBY_E#}",
-        "ko": "가족"
-      },
+      "name": { "pt-BR": "Afinidade", "en": "Kinship", "ja": "{RUBY_B#かぞく}家族{RUBY_E#}", "ko": "가족" },
       "description": {
         "pt-BR": "Ao receber um ataque, esta unidade tem uma chance fixa de #1[i]% de remover uma penalidade que tiver sido aplicada a ela.",
         "en": "When attacked, this unit has a #1[i]% fixed chance to dispel 1 debuff placed on them.",
-        "zh-CN": "受到攻击时有#1[i]%的固定概率解除自身1个负面效果。",
         "ja": "攻撃を受けた時、#1[i]%の固定確率で自身のデバフを1つ解除する。",
         "ko": "피격 시 #1[i]%의 고정 확률로 자신의 디버프 효과를 1개 해제한다"
       },
@@ -751,14 +715,12 @@
       "name": {
         "pt-BR": "Sob Proteção",
         "en": "Under Protection",
-        "zh-CN": "守护",
         "ja": "{RUBY_B#しゅご}守護{RUBY_E#}",
         "ko": "수호"
       },
       "description": {
         "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
         "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
-        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
         "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
         "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
       },
@@ -784,17 +746,10 @@
     {
       "id": 1107103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Vingança",
-        "en": "Revenge",
-        "zh-CN": "复仇",
-        "ja": "{RUBY_B#ふくしゅう}復讐{RUBY_E#}",
-        "ko": "복수"
-      },
+      "name": { "pt-BR": "Vingança", "en": "Revenge", "ja": "{RUBY_B#ふくしゅう}復讐{RUBY_E#}", "ko": "복수" },
       "description": {
         "pt-BR": "Aumenta em #1[i]% o Dano causado pelo Contra-Ataque de Svarog.",
         "en": "Increases DMG dealt by Svarog's Counter by #1[i]%.",
-        "zh-CN": "史瓦罗的反击造成的伤害提高#1[i]%。",
         "ja": "スヴァローグのカウンターの与ダメージ+#1[i]%。",
         "ko": "스바로그의 반격이 가하는 피해가 #1[i]% 증가한다"
       },
@@ -820,7 +775,7 @@
     {
       "id": 1107201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -840,7 +795,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Físico",
         "en": "DMG Boost: Physical",
-        "zh-CN": "伤害强化•物理",
         "ja": "ダメージ強化・物理",
         "ko": "피해 강화•물리"
       },
@@ -860,7 +814,7 @@
     {
       "id": 1107203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1107202],
@@ -877,7 +831,7 @@
     {
       "id": 1107204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1107203],
@@ -894,7 +848,7 @@
     {
       "id": 1107205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1107102],
@@ -914,7 +868,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Físico",
         "en": "DMG Boost: Physical",
-        "zh-CN": "伤害强化•物理",
         "ja": "ダメージ強化・物理",
         "ko": "피해 강화•물리"
       },
@@ -934,7 +887,7 @@
     {
       "id": 1107207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1107206],
@@ -951,7 +904,7 @@
     {
       "id": 1107208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1107103],
@@ -971,7 +924,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Físico",
         "en": "DMG Boost: Physical",
-        "zh-CN": "伤害强化•物理",
         "ja": "ダメージ強化・物理",
         "ko": "피해 강화•물리"
       },
@@ -991,7 +943,7 @@
     {
       "id": 1107210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1107208],

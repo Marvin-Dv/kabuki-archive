@@ -1,7 +1,7 @@
 {
   "id": 1409,
   "slug": "hyacine",
-  "name": { "pt-BR": "Hyacine", "en": "Hyacine", "zh-CN": "风堇", "ja": "ヒアンシー", "ko": "히아킨" },
+  "name": { "pt-BR": "Hyacine", "en": "Hyacine", "ja": "ヒアンシー", "ko": "히아킨" },
   "rarity": 5,
   "path": "Remembrance",
   "element": "Wind",
@@ -14,14 +14,12 @@
       "name": {
         "pt-BR": "Quando a Brisa Acaricia as Nuvens",
         "en": "When Breeze Kisses Cirrus",
-        "zh-CN": "当微风轻吻云沫",
         "ja": "雲を撫でるそよ風",
         "ko": "산들바람이 구름을 스치는 순간"
       },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% dos PV máximos de Hyacine a um inimigo designado.",
         "en": "Deals Wind DMG equal to #1[i]% of Hyacine's Max HP to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于风堇#1[i]%生命上限的风属性伤害。",
         "ja": "指定した敵単体にヒアンシーの最大HP#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 히아킨 HP 최대치의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
@@ -31,12 +29,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
         "ja": "敵単体に少量の風属性ダメージを与える。",
         "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140902,
@@ -44,14 +41,12 @@
       "name": {
         "pt-BR": "Amor Além do Arco-Íris",
         "en": "Love Over the Rainbow",
-        "zh-CN": "爱在虹光洒落时",
         "ja": "降り注ぐ彩虹の愛",
         "ko": "무지갯빛이 쏟아질 때의 사랑"
       },
       "description": {
         "pt-BR": "Invoca a Memoespírito Ikinha. Restaura PV em um valor igual a #1[f1]% dos PV máximos de Hyacine + #2[i] para todos os aliados (exceto Ikinha), e restaura PV em um valor igual a #3[f1]% dos PV máximos de Hyacine + #4[i] para Ikinha.",
         "en": "Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #3[f1]% of Hyacine's Max HP plus #4[i] for Little Ica.",
-        "zh-CN": "召唤忆灵小伊卡，为除小伊卡以外的我方全体目标回复等同于风堇#1[f1]%生命上限+#2[i]的生命值。为小伊卡回复等同于风堇#3[f1]%生命上限+#4[i]的生命值。",
         "ja": "記憶の精霊「イカルン」を召喚する。イカルン以外の味方全体のHPを、ヒアンシーの最大HP#1[f1]%+#2[i]回復する。イカルンのHPをヒアンシーの最大HP#3[f1]%+#4[i]回復する。",
         "ko": "기억 정령 이카를 소환하며, 이카를 제외한 모든 아군의 HP를 히아킨 HP 최대치의 #1[f1]%+#2[i]만큼 회복하고, 이카의 HP를 히아킨 HP 최대치의 #3[f1]%+#4[i]만큼 회복한다"
       },
@@ -77,12 +72,11 @@
       "summary": {
         "pt-BR": "Invoca a Memoespírito Ikinha, e restaura os PV de todos os aliados.",
         "en": "Summons memosprite Little Ica, and restores HP for all allies.",
-        "zh-CN": "召唤忆灵小伊卡，并为我方全体回复生命值。",
         "ja": "記憶の精霊「イカルン」を召喚し、味方全体のHPを回復する。",
         "ko": "기억 정령 이카를 소환하고 모든 아군의 HP를 회복시킨다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 140903,
@@ -90,14 +84,12 @@
       "name": {
         "pt-BR": "Nós, que Voamos para o Crepúsculo",
         "en": "We Who Fly Into Twilight",
-        "zh-CN": "飞入晨昏的我们",
         "ja": "晨昏に飛び込むわたしたち",
         "ko": "조석 속으로 날아가는 우리"
       },
       "description": {
         "pt-BR": "Invoca a Memoespírito Ikinha. Restaura PV em um valor igual a #1[f1]% dos PV máximos de Hyacine + #2[i] para todos os aliados (exceto Ikinha), e restaura PV em um valor igual a #6[f1]% dos PV máximos de Hyacine + #7[i] para Ikinha. Hyacine entra no estado de \"Depois da Chuva\", com duração de #5[i] rodada(s). Essa duração é reduzida em 1 no início de cada rodada de Hyacine. Enquanto o estado \"Depois da Chuva\" estiver ativo, todos os aliados-alvo têm seus PV máximos aumentados em #3[f1]% + #4[i].",
         "en": "Summons memosprite Little Ica. Restores HP equal to #1[f1]% of Hyacine's Max HP plus #2[i] for all allies (except Little Ica), and restores HP equal to #6[f1]% of Hyacine's Max HP plus #7[i] for Little Ica. Hyacine enters the \"After Rain\" state, lasting for #5[i] turn(s). This duration decreases by 1 at the start of Hyacine's every turn. While \"After Rain\" is active, all ally targets increase their Max HP by #3[f1]% plus #4[i].",
-        "zh-CN": "召唤忆灵小伊卡，为除小伊卡以外的我方全体目标回复等同于风堇#1[f1]%生命上限+#2[i]的生命值，为小伊卡回复等同于风堇#6[f1]%生命上限+#7[i]的生命值。风堇进入【雨过天晴】状态，持续#5[i]回合，风堇每回合开始时持续回合数减1。处于【雨过天晴】状态时，我方全体目标生命上限提高#3[f1]%+#4[i]点。",
         "ja": "記憶の精霊「イカルン」を召喚する。イカルン以外の味方全体のHPを、ヒアンシーの最大HP#1[f1]%+#2[i]回復する。イカルンのHPをヒアンシーの最大HP#6[f1]%+#7[i]回復する。ヒアンシーは「雨上がり」状態に入る。#5[i]ターン継続。ヒアンシーのターンが回ってくるたびに継続時間-1ターン。ヒアンシーが「雨上がり」状態の時、味方それぞれの最大HPが#3[f1]%+#4[i]アップ。",
         "ko": "기억 정령 이카를 소환하며, 이카를 제외한 모든 아군의 HP를 히아킨 HP 최대치의 #1[f1]%+#2[i]만큼 회복하고, 이카의 HP를 히아킨 HP 최대치의 #6[f1]%+#7[i]만큼 회복한다. 히아킨이 [비 온 뒤 맑음] 상태에 진입한다, 지속 시간: #5[i]턴, 히아킨의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. [비 온 뒤 맑음] 상태일 시 모든 아군의 HP 최대치가 #3[f1]%+#4[i]pt 증가한다"
       },
@@ -123,12 +115,11 @@
       "summary": {
         "pt-BR": "Invoca a Memoespírito Ikinha, e restaura os PV de todos os aliados. Em seguida, entra no estado de \"Depois da Chuva\". Quando Hyacine está nesse estado, aumenta os PV máximos de todos os aliados.",
         "en": "Summons memosprite Little Ica, and restores HP for all allies. Enters the \"After Rain\" state. While Hyacine is in this state, increases all allies' Max HP.",
-        "zh-CN": "召唤忆灵小伊卡，并为我方全体回复生命值。进入【雨过天晴】状态，风堇处于该状态时使我方全体生命上限提高。",
         "ja": "記憶の精霊「イカルン」を召喚し、味方全体のHPを回復し、「雨上がり」状態に入る。ヒアンシーがこの状態の時、味方全体の最大HPがアップする。",
         "ko": "기억 정령 이카를 소환하고 모든 아군의 HP를 회복한다. [비 온 뒤 맑음] 상태에 진입하며, 히아킨이 해당 상태일 시 모든 아군의 HP 최대치가 증가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 140904,
@@ -136,14 +127,12 @@
       "name": {
         "pt-BR": "A Primeira Luz Cura o Mundo",
         "en": "First Light Heals the World",
-        "zh-CN": "疗愈世间的晨曦",
         "ja": "世界を癒やす暁の光",
         "ko": "세상을 치유하는 아침햇살"
       },
       "description": {
         "pt-BR": "A Memoespírito Ikinha inicialmente possui PV máximos em um valor igual a #1[i]% dos PV máximos de Hyacine. Quando Hyacine ou Ikinha fornecem cura, aumenta o Dano causado por Ikinha em #3[i]% por #4[i] rodada(s), acumulando até #5[i] vez(es).",
         "en": "The memosprite Little Ica initially has Max HP equal to #1[i]% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by #3[i]% for #4[i] turn(s). Stacks up to #5[i] time(s).",
-        "zh-CN": "忆灵小伊卡初始拥有等同于风堇#1[i]%生命上限的生命上限。风堇或小伊卡提供治疗时，小伊卡造成的伤害提高#3[i]%，持续#4[i]回合，最多可叠加#5[i]层。",
         "ja": "記憶の精霊「イカルン」の初期最大HPは、ヒアンシーの最大HP#1[i]%分となる。ヒアンシーまたはイカルンが治癒を行う時、イカルンの与ダメージ+#3[i]%、#4[i]ターン継続。最大で#5[i]層累積できる。",
         "ko": "기억 정령 이카는 기본 상태에서 히아킨 HP 최대치의 #1[i]%만큼 HP를 보유한다. 히아킨 또는 이카가 치유 제공 시 이카가 가하는 피해가 #3[i]% 증가한다, 지속 시간: #4[i]턴, 최대 중첩수: #5[i]스택"
       },
@@ -169,21 +158,19 @@
       "summary": {
         "pt-BR": "Quando Hyacine ou Ikinha fornecem cura, aumenta o Dano causado por Ikinha.",
         "en": "When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt.",
-        "zh-CN": "风堇或小伊卡提供治疗时，小伊卡造成的伤害提高。",
         "ja": "ヒアンシーまたは「イカルン」が治癒を行う時、イカルンの与ダメージがアップする。",
         "ko": "히아킨 또는 이카가 치유 제공 시 이카가 가하는 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140906,
       "type": "Other",
-      "name": { "pt-BR": "Atacar", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Atacar", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a sua Tenacidade do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +179,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a sua Tenacidade do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -203,14 +189,12 @@
       "name": {
         "pt-BR": "Um Belo Dia, Uma Vida de Alegria!",
         "en": "Day So Right, Life So Fine!",
-        "zh-CN": "天气正好，万物可爱！",
         "ja": "お日様ぽかぽか、輝くみんな！",
         "ko": "날씨 좋고, 모든 게 귀엽고!"
       },
       "description": {
         "pt-BR": "Quando a próxima batalha começa, restaura PV em um valor igual a #1[i]% dos PV máximos de Hyacine mais #2[i] para todos os aliados e aumenta os PV máximos em #3[i]%, com duração de #4[i] rodada(s).",
         "en": "When the next battle starts, restores HP by an amount equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies and increases Max HP by #3[i]%, lasting for #4[i] turn(s).",
-        "zh-CN": "下一次战斗开始时，为我方全体回复等同于风堇#1[i]%生命上限+#2[i]的生命值并使生命上限提高#3[i]%，持续#4[i]回合。",
         "ja": "次の戦闘開始時、味方全体のHPをヒアンシーの最大HP#1[i]%+#2[i]回復する。また、味方それぞれの最大HP+#3[i]%、#4[i]ターン継続。",
         "ko": "다음 전투 시작 시 모든 아군이 히아킨 HP 최대치의 #1[i]%+#2[i]만큼 HP를 회복하고, HP 최대치가 #3[i]% 증가한다, 지속 시간: #4[i]턴"
       },
@@ -220,12 +204,11 @@
       "summary": {
         "pt-BR": "Quando a próxima batalha começa, restaura os PV de todos os aliados e aumenta seus PV máximos.",
         "en": "When the next battle starts, restores HP for all allies and increases Max HP.",
-        "zh-CN": "下一次战斗开始时，为我方全体回复生命值并使生命上限提高。",
         "ja": "次の戦闘開始時、味方全体のHPを回復する。また、味方それぞれの最大HPをアップする。",
         "ko": "다음 전투 시작 시 모든 아군의 HP를 회복하고 HP 최대치를 증가시킨다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 1140901,
@@ -233,14 +216,12 @@
       "name": {
         "pt-BR": "Nuvens de Tempestade, é Hora de Ir!",
         "en": "Rainclouds, Time to Go!",
-        "zh-CN": "乌云乌云快走开！",
         "ja": "黒雲退散！",
         "ko": "먹구름, 저리 가!"
       },
       "description": {
         "pt-BR": "Causa Dano de Vento a todos os inimigos em uma quantidade igual a #1[i]% da contagem de cura feita por Hyacine e Ikinha na batalha atual e elimina #2[i]% dessa contagem de cura.",
         "en": "Deals Wind DMG to all enemies by an amount equal to #1[i]% of the tally of healing done by Hyacine and Little Ica in the current battle, and clears #2[i]% of this tally of healing.",
-        "zh-CN": "对敌方全体造成等同于本场战斗风堇与小伊卡累计治疗数值#1[i]%的风属性伤害并清空累计治疗数值的#2[i]%。",
         "ja": "敵全体に、ヒアンシーと「イカルン」の本戦闘における累計治癒量#1[i]%分の風属性ダメージを与える。その後、#2[i]%分の累計治癒量がクリアされる。",
         "ko": "모든 적에게 이번 전투 중 히아킨과 이카 누적 치유 수치의 #1[i]%만큼 바람 속성 피해를 가하고, 누적 치유 수치의 #2[i]%를 초기화한다"
       },
@@ -261,18 +242,16 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento a todos os inimigos.",
         "en": "Deals Wind DMG to all enemies.",
-        "zh-CN": "对敌方全体造成风属性伤害。",
         "ja": "敵全体に風属性ダメージを与える。",
         "ko": "모든 적에게 바람 속성 피해를 가한다"
       },
       "typeText": {
         "pt-BR": "Perícia do Memoespírito",
         "en": "Memosprite Skill",
-        "zh-CN": "忆灵技",
         "ja": "精霊スキル",
         "ko": "기억 정령 스킬"
       },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 1140903,
@@ -280,14 +259,12 @@
       "name": {
         "pt-BR": "Segure nas Mãos do Céu",
         "en": "Take Sky in Hand",
-        "zh-CN": "牵起晴空的手",
         "ja": "青空と手を取り合って",
         "ko": "맑은 하늘의 손을 잡고"
       },
       "description": {
         "pt-BR": "A VEL de Ikinha permanece em 0, é imune a penalidades e não aparecerá na Ordem de Ação. \nSe os PV de um aliado-alvo (exceto a Ikinha) forem reduzidos, no início da rodada de qualquer alvo ou depois que qualquer alvo agir, a Ikinha consumirá #1[i]% de seus próprios PV máximos e curará o aliado-alvo com PV reduzidos por um valor igual a #2[f1]% do PV máximos de Hyacine mais #3[i].\nEnquanto Hyacine estiver no estado de \"Depois da Chuva\", a Ikinha obtém imediatamente 1 rodada extra e lança automaticamente \"Nuvens de Tempestade, é Hora de Ir!\" após Hyacine usar uma habilidade. Além disso, quando a Ikinha ativa o efeito de cura do Talento, ela restaura adicionalmente os PV de todos os aliados-alvo em um valor igual a #4[f1]% dos PV máximos de Hyacine mais #5[i]. Depois que a Ikinha usa uma habilidade, a duração de todos os seus Efeitos Contínuos diminui em 1 rodada.",
         "en": "Little Ica maintains 0 SPD, is immune to debuffs, and will not appear in the Action Order.\nIf the HP of an ally target (except Little Ica) is reduced, then at the start of any target's turn or after any target takes action, Little Ica will consume #1[i]% of their own Max HP and heal the ally target with reduced HP for an amount equal to #2[f1]% of Hyacine's Max HP plus #3[i].\nWhile Hyacine is in the \"After Rain\" state, Little Ica gains 1 extra turn and automatically casts \"Rainclouds, Time to Go!\" immediately after Hyacine uses an ability. Moreover, when Little Ica triggers the Talent's healing effect, additionally restores HP for all ally targets by an amount equal to #4[f1]% of Hyacine's Max HP plus #5[i]. After Little Ica uses an ability, the duration of all their Continuous Effects decreases by 1 turn.",
-        "zh-CN": "小伊卡的速度保持为0，免疫负面效果，并且不会出现在行动序列上。\n若除小伊卡外的我方目标生命值降低，小伊卡会在任意目标回合开始时或行动后，消耗自身#1[i]%生命上限的生命值，并为我方生命值降低的目标回复等同于风堇#2[f1]%生命上限+#3[i]的生命值。\n风堇处于【雨过天晴】状态时，小伊卡会在风堇施放技能后立即获得1个额外回合并自动施放【乌云乌云快走开！】，并且小伊卡触发天赋的治疗效果时，额外为我方全体目标回复等同于风堇#4[f1]%生命上限+#5[i]的生命值，小伊卡施放技能后使自身所有持续效果持续回合数减1。",
         "ja": "「イカルン」の速度は0に固定され、デバフ効果に抵抗でき、アクションバーにも表示されない。\nイカルン以外の味方のHPが減った場合、イカルンはいずれかの敵または味方のターンが回ってきた時、もしくは行動した後に、自身の最大HP#1[i]%分のHPを消費し、HPが減った味方のHPをヒアンシーの最大HP#2[f1]%+#3[i]回復する。\nヒアンシーが「雨上がり」状態の時、イカルンはヒアンシーがスキルを発動した後に追加ターンを1獲得し、自動で「黒雲退散！」を発動する。また、イカルンが精霊天賦の治癒効果を発動する時、さらに味方全体のHPをヒアンシーの最大HP#4[f1]%+#5[i]回復する。イカルンがスキルを発動した後、自身にあるすべての持続効果の継続ターン数-1。",
         "ko": "이카의 속도가 0으로 유지되고 디버프 효과에 면역되며, 행동 서열에 나타나지 않는다.\n이카를 제외한 아군의 HP가 감소하면, 이카는 임의 목표의 턴 시작 시 또는 행동 후 자신의 HP 최대치의 #1[i]%만큼 HP를 소모하고, HP가 감소한 아군의 HP를 히아킨 HP 최대치의 #2[f1]%+#3[i]만큼 회복시킨다.\n히아킨이 [비 온 뒤 맑음] 상태일 시 이카는 히아킨이 스킬을 발동한 후 즉시 보너스 턴을 1개 획득하고 자동으로 [먹구름, 저리 가!]를 발동하며, 이카가 특성의 치유 효과 발동 시 추가로 모든 아군의 HP를 히아킨 HP 최대치의 #4[f1]%+#5[i]만큼 회복시킨다. 이카가 스킬을 발동하면 자신의 모든 지속 효과 지속 턴 수가 1 감소한다"
       },
@@ -308,18 +285,16 @@
       "summary": {
         "pt-BR": "Se um aliado-alvo (exceto a Ikinha) tiver PV reduzidos, a Ikinha consumirá seus próprios PV e restaurará os PV do alvo. Quando Hyacine estiver com \"Depois da Chuva\", a Ikinha obtém imediatamente 1 rodada extra e usa automaticamente a Perícia do Memoespírito após Hyacine usar uma habilidade. Depois que a Ikinha usa uma habilidade, a duração de seus Efeitos Contínuos diminui em 1 rodada.",
         "en": "If an ally target (except Little Ica) has reduced HP, Little Ica will consume their own HP and restore HP for the target. When Hyacine has \"After Rain,\" Little Ica gains 1 extra turn and automatically uses Memosprite Skill immediately after Hyacine uses an ability. After Little Ica uses an ability, the duration of their Continuous Effects decreases by 1 turn.",
-        "zh-CN": "若除小伊卡外的我方目标生命值降低，小伊卡会消耗自身生命值，为该目标回复生命值。风堇持有【雨过天晴】时，小伊卡会在风堇施放技能后立即获得1个额外回合并自动施放忆灵技，小伊卡施放技能后使自身持续效果持续回合数减1。",
         "ja": "「イカルン」以外の味方のHPが減った時、イカルンは自身のHPを消費して、その味方のHPを回復する。ヒアンシーが「雨上がり」状態の時、イカルンはヒアンシーがスキルを発動した後に追加ターンを1獲得し、自動で精霊スキルを発動する。イカルンがスキルを発動後、自身の持続効果の継続時間-1ターン。",
         "ko": "이카를 제외한 아군의 HP가 감소하면 이카가 자신의 HP를 소모해 해당 목표의 HP를 회복한다. 히아킨이 [비 온 뒤 맑음] 보유 시 이카는 히아킨이 스킬을 발동한 후 즉시 보너스 턴을 1개 획득하고 자동으로 기억 정령 스킬을 발동하며, 이카가 스킬을 발동하면 자신의 지속 효과 지속 턴 수가 1 감소한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 1140905,
@@ -327,14 +302,12 @@
       "name": {
         "pt-BR": "Voar, em Direção ao Sol",
         "en": "Soar, Unto the Sunlight",
-        "zh-CN": "展翼，奔向日辉",
         "ja": "羽ばたけ、輝く太陽へ",
         "ko": "날개를 펼쳐, 태양을 향해"
       },
       "description": {
         "pt-BR": "Ao ser invocada, regenera #1[i] de Energia para Hyacine. Na primeira invocação, regenera adicionalmente #2[i] de Energia.",
         "en": "When summoned, regenerates #1[i] Energy for Hyacine. On the first summon, additionally regenerates #2[i] Energy.",
-        "zh-CN": "被召唤时，为风堇恢复#1[i]点能量，首次被召唤时，额外恢复#2[i]点能量。",
         "ja": "召喚された時、ヒアンシーのEPを#1[i]回復する。戦闘中に初めて召喚された時は、さらにEPを#2[i]回復する。",
         "ko": "소환될 시 히아킨의 에너지를 #1[i]pt 회복한다. 처음으로 소환될 시 추가로 에너지를 #2[i]pt 회복한다"
       },
@@ -355,18 +328,16 @@
       "summary": {
         "pt-BR": "Ao ser invocada, regenera Energia para Hyacine.",
         "en": "When summoned, regenerates Energy for Hyacine.",
-        "zh-CN": "被召唤时，为风堇恢复能量。",
         "ja": "召喚された時、ヒアンシーのEPを回復する。",
         "ko": "소환될 시 히아킨의 에너지를 회복한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1140906,
@@ -374,14 +345,12 @@
       "name": {
         "pt-BR": "Cair, e Depois Alçar Voo",
         "en": "Fall, Then Take Wing",
-        "zh-CN": "坠落，然后飞翔",
         "ja": "墜ちてなお、天空を翔けよ",
         "ko": "추락, 그리고 비상"
       },
       "description": {
         "pt-BR": "Ao desaparecer, Avança Adiante a ação de Hyacine em #1[i]%.",
         "en": "Upon disappearing, advances the action of Hyacine by #1[i]%.",
-        "zh-CN": "消失时，使风堇行动提前#1[i]%。",
         "ja": "退場する時、ヒアンシーの行動順を#1[i]%早める。",
         "ko": "사라질 시 히아킨의 행동 게이지가 #1[i]% 증가한다"
       },
@@ -391,18 +360,16 @@
       "summary": {
         "pt-BR": "Ao desaparecer, Avança Adiante a ação da Hyacine.",
         "en": "Upon disappearing, advances the action of Hyacine.",
-        "zh-CN": "消失时，使风堇行动提前。",
         "ja": "退場する時、ヒアンシーの行動順を早める。",
         "ko": "사라질 시 히아킨의 행동 게이지가 증가한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -411,14 +378,12 @@
       "name": {
         "pt-BR": "Protetora da Chama Noturna",
         "en": "Cradle the Candle of Night",
-        "zh-CN": "呵护黑夜中的烛火",
         "ja": "{RUBY_B#やみよ}闇夜{RUBY_E#}の{RUBY_B#とうか}灯火{RUBY_E#}を{RUBY_B#まも}守{RUBY_E#}って",
         "ko": "어두운 밤의 촛불을 지키며"
       },
       "description": {
         "pt-BR": "Quando Hyacine está no estado de \"Depois da Chuva\", todos os aliados-alvo aumentam adicionalmente seus PV máximos em 50%, e após usar um ataque, restauram imediatamente os PV em uma quantidade igual a 8% dos PV máximos de Hyacine.",
         "en": "While Hyacine is in the \"After Rain\" state, all ally targets additionally increase their Max HP by 50%, and after using an attack, immediately restore their HP by an amount equal to 8% of Hyacine's Max HP.",
-        "zh-CN": "风堇处于【雨过天晴】状态时，我方全体目标生命上限额外提高50%，并且施放攻击后立即回复等同于风堇8%生命上限的生命值。",
         "ja": "ヒアンシーが「雨上がり」状態の時、味方それぞれの最大HPアップ効果がさらに50%アップし、味方が攻撃を行った後、その味方のHPをヒアンシーの最大HP8%分回復する。",
         "ko": "히아킨이 [비 온 뒤 맑음] 상태일 시 모든 아군의 HP 최대치가 추가로 50% 증가하고, 공격 발동 후 즉시 히아킨 HP 최대치의 8%만큼 HP를 회복한다"
       },
@@ -431,14 +396,12 @@
       "name": {
         "pt-BR": "Venha Sentar no Meu Pátio",
         "en": "Come Sit in My Courtyard",
-        "zh-CN": "请来我的庭院坐坐",
         "ja": "わたしの{RUBY_B#にわ}庭{RUBY_E#}で\nくつろいで",
         "ko": "제 정원에 앉았다 가세요"
       },
       "description": {
         "pt-BR": "Quando os PV de qualquer aliado-alvo diminuem, a VEL desta unidade aumenta em 30% por 2 rodada(s).",
         "en": "When an ally target's HP decreases, SPD increases by 30%, lasting for 2 turn(s).",
-        "zh-CN": "我方目标生命值降低时，速度提高30%，持续2回合。",
         "ja": "味方のHPが減った時、その味方の速度+30%、2ターン継続。",
         "ko": "아군의 HP가 감소하면 속도가 30% 증가한다, 지속 시간: 2턴"
       },
@@ -451,14 +414,12 @@
       "name": {
         "pt-BR": "Partir em Direção ao Sol!",
         "en": "Depart, Unto the Sun!",
-        "zh-CN": "出发！向阳的历险",
         "ja": "{RUBY_B#しゅっぱつ}出発{RUBY_E#}！\n{RUBY_B#たいよう}太陽{RUBY_E#}へ{RUBY_B#む}向{RUBY_E#}かう{RUBY_B#ぼうけん}冒険{RUBY_E#}",
         "ko": "출발! 태양을 향한 모험"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.\nNv. da Perícia do Memoespírito +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵技等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊スキルのLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 기억 정령 스킬 레벨+1, 최대 Lv.10"
       },
@@ -471,14 +432,12 @@
       "name": {
         "pt-BR": "Te Presenteio com Este Âmbar Solar",
         "en": "Sunlit Amber, Yours to Keep",
-        "zh-CN": "送你一颗橙晖琥珀",
         "ja": "お{RUBY_B#ひさまいろ}日様色{RUBY_E#}の{RUBY_B#こはく}琥珀{RUBY_E#}を\nあなたに",
         "ko": "햇빛 호박을 그대에게"
       },
       "description": {
         "pt-BR": "O Rastro \"Parada Tempestuosa\" é aprimorado. Para cada 1 de VEL excedente, aumenta adicionalmente o Dano CRIT de Hyacine e Ikinha em 2%.",
         "en": "The \"Tempestuous Halt\" Trace gets enhanced: For every 1 excess SPD, additionally increases Hyacine's and Little Ica's CRIT DMG by 2%.",
-        "zh-CN": "行迹【暴风停歇】获得强化，每超过1点速度，风堇和小伊卡的暴击伤害额外提高2%。",
         "ja": "軌跡「凪いだ暴風」が強化される。超過した速度1につき、さらにヒアンシーと「イカルン」の会心ダメージ+2%。",
         "ko": "행적 [잔잔해진 폭풍]이 강화된다. 속도가 1pt 초과할 때마다 히아킨과 이카의 치명타 피해가 추가로 2% 증가한다"
       },
@@ -491,14 +450,12 @@
       "name": {
         "pt-BR": "Cetim Crepuscular das Marés",
         "en": "Twilight Drapes the Tide",
-        "zh-CN": "红霞映入海的背面",
         "ja": "{RUBY_B#うみ}海{RUBY_E#}に{RUBY_B#ゆ}揺{RUBY_E#}らぐ{RUBY_B#あか}赤{RUBY_E#}い{RUBY_B#かすみ}霞{RUBY_E#}",
         "ko": "바다의 뒷면에 비치는 붉은 노을"
       },
       "description": {
         "pt-BR": "Nv. de Perícia +2, até no máximo Nv. 15.\nNv. de Talento +2, até no máximo Nv. 15.\nNv. de Talento do Memoespírito +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵天赋等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊天賦のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 기억 정령 특성 레벨+1, 최대 Lv.10"
       },
@@ -517,14 +474,12 @@
       "name": {
         "pt-BR": "Ó, Céu, Ouça Minha Prece",
         "en": "O Sky, Heed My Plea",
-        "zh-CN": "天空…应我的祈愿",
         "ja": "{RUBY_B#てんくう}天空{RUBY_E#}よ…\n{RUBY_B#ねが}願{RUBY_E#}いを{RUBY_B#かな}叶{RUBY_E#}えたまえ",
         "ko": "하늘이… 나의 기도에 응답하리"
       },
       "description": {
         "pt-BR": "Quando a Ikinha usa a Perícia do Memoespírito, a quantidade eliminada da contagem de cura é alterada para 12%. Enquanto Ikinha está em campo, aumenta a PEN de RES a Todos os Tipos de todos os aliados-alvo em 20%.",
         "en": "When Little Ica uses Memosprite Skill, the amount cleared from the tally of healing is changed to 12%. While Little Ica is on the field, all ally targets' All-Type RES PEN increases by 20%.",
-        "zh-CN": "小伊卡施放忆灵技清空累计治疗数值改为12%，小伊卡在场时，我方全体目标的全属性抗性穿透提高20%。",
         "ja": "「イカルン」が精霊スキルを発動した後、クリアされる累計治癒量の割合が12%になる。イカルンがフィールド上にいる時、味方全体の全属性耐性貫通+20%。",
         "ko": "이카가 기억 정령 스킬을 발동하고 초기화되는 누적 치유 수치가 12%로 변경된다. 이카가 필드에 있을 시 모든 아군의 모든 속성 저항 관통이 20% 증가한다"
       },
@@ -904,14 +859,12 @@
       "name": {
         "pt-BR": "Sorriso Sombrio",
         "en": "Gloomy Grin",
-        "zh-CN": "阴云莞尔",
         "ja": "{RUBY_B#ほほえ}微笑{RUBY_E#}む{RUBY_B#あんうん}暗雲{RUBY_E#}",
         "ko": "미소 짓는 먹구름"
       },
       "description": {
         "pt-BR": "Aumenta a Chance de CRIT de Hyacine e Ikinha em #1[i]%. Ao fornecer cura a um aliado-alvo com PV iguais ou inferiores a #2[i]% de seus PV máximos , aumenta a Cura Realizada de Hyacine e Ikinha em #3[i]%.",
         "en": "Increases Hyacine's and Little Ica's CRIT Rate by #1[i]%. When providing healing to an ally target whose current HP is equal to or less than #2[i]% of their Max HP, increases Hyacine's and Little Ica's Outgoing Healing by #3[i]%.",
-        "zh-CN": "风堇和小伊卡的暴击率提高#1[i]%，为当前生命值小于等于自身生命上限的#2[i]%的我方目标提供治疗时，风堇和小伊卡的治疗量提高#3[i]%。",
         "ja": "ヒアンシーと「イカルン」の会心率+#1[i]%。残りHPが最大HP#2[i]%以下の味方に治癒を行う時、ヒアンシーとイカルンの治癒量+#3[i]%。",
         "ko": "히아킨과 이카의 치명타 확률이 #1[i]% 증가한다. 현재 HP가 자신의 HP 최대치의 #2[i]% 이하인 아군에게 치유 제공 시, 히아킨과 이카의 치유량이 #3[i]% 증가한다"
       },
@@ -935,14 +888,12 @@
       "name": {
         "pt-BR": "Carícia Tempestuosa",
         "en": "Stormy Caress",
-        "zh-CN": "雷雨轻柔",
         "ja": "{RUBY_B#やさ}優{RUBY_E#}しい{RUBY_B#らいう}雷雨{RUBY_E#}",
         "ko": "부드러운 뇌우"
       },
       "description": {
         "pt-BR": "Aumenta a RES a Efeito de Hyacine em #1[i]%. Ao usar a Perícia e a Perícia Suprema, remove #2[i] penalidade(s) de todos os aliados-alvo.",
         "en": "Increases Hyacine's Effect RES by #1[i]%. When using Skill and Ultimate, dispels #2[i] debuff(s) from all ally targets.",
-        "zh-CN": "风堇的效果抵抗提高#1[i]%。施放战技和终结技时，解除我方全体目标的#2[i]个负面效果。",
         "ja": "ヒアンシーの効果抵抗+#1[i]%。戦闘スキルまたは必殺技を発動する時、味方それぞれのデバフを#2[i]つ解除する。",
         "ko": "히아킨의 효과 저항이 #1[i]% 증가한다. 전투 스킬과 필살기 발동 시 모든 아군의 디버프 효과를 #2[i]개 해제한다"
       },
@@ -971,14 +922,12 @@
       "name": {
         "pt-BR": "Parada Tempestuosa",
         "en": "Tempestuous Halt",
-        "zh-CN": "暴风停歇",
         "ja": "{RUBY_B#な}凪{RUBY_E#}いだ{RUBY_B#ぼうふう}暴風{RUBY_E#}",
         "ko": "잔잔해진 폭풍"
       },
       "description": {
         "pt-BR": "Quando a VEL de Hyacine exceder #1[i], aumenta os PV máximos de Hyacine e Ikinha em #2[i]%. Então, para cada #3[i] de VEL excedente, aumenta a Cura Realizada de Hyacine e Ikinha em #4[i]%. Até um máximo de #5[i] de VEL excedente pode ser considerado para este efeito.",
         "en": "When Hyacine's SPD exceeds #1[i], increases her and Little Ica's Max HP by #2[i]%. Then, for every #3[i] excess SPD, increases Hyacine's and Little Ica's Outgoing Healing by #4[i]%. Up to a max of #5[i] excess SPD can be taken into account for this effect.",
-        "zh-CN": "风堇的速度大于#1[i]时，她与小伊卡的生命上限提高#2[i]%，之后每超出#3[i]点速度，风堇与小伊卡提供的治疗量提高#4[i]%，最多计入#5[i]点超出的速度。",
         "ja": "ヒアンシーの速度が#1[i]を超える時、ヒアンシーと「イカルン」の最大HP+#2[i]%。超過した速度#3[i]につき、ヒアンシーとイカルンの治癒量+#4[i]%、超過した速度は最大#5[i]までカウントされる。",
         "ko": "히아킨의 속도가 #1[i]보다 높을 시 히아킨과 이카의 HP 최대치가 #2[i]% 증가하고, 이후 속도가 #3[i]pt 초과할 때마다 히아킨과 이카가 제공하는 치유량이 #4[i]% 증가한다. 초과한 속도는 최대 #5[i]pt까지 계산된다"
       },
@@ -1004,7 +953,7 @@
     {
       "id": 1409201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1024,7 +973,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1044,7 +992,7 @@
     {
       "id": 1409203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1409201],
@@ -1061,7 +1009,7 @@
     {
       "id": 1409204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1409101],
@@ -1078,7 +1026,7 @@
     {
       "id": 1409205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1409101],
@@ -1098,7 +1046,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1118,7 +1065,7 @@
     {
       "id": 1409207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1409102],
@@ -1135,7 +1082,7 @@
     {
       "id": 1409208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1409103],
@@ -1155,7 +1102,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1175,7 +1121,7 @@
     {
       "id": 1409210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1409209],
@@ -1195,7 +1141,6 @@
       "name": {
         "pt-BR": "Nuvens de Tempestade, é Hora de Ir!",
         "en": "Rainclouds, Time to Go!",
-        "zh-CN": "乌云乌云快走开！",
         "ja": "{RUBY_B#こくうんたいさん}黒雲退散{RUBY_E#}！",
         "ko": "먹구름, 저리 가!"
       },
@@ -1243,7 +1188,6 @@
       "name": {
         "pt-BR": "Segure nas Mãos do Céu",
         "en": "Take Sky in Hand",
-        "zh-CN": "牵起晴空的手",
         "ja": "{RUBY_B#あおぞら}青空{RUBY_E#}と{RUBY_B#て}手{RUBY_E#}を{RUBY_B#と}取{RUBY_E#}り{RUBY_B#あ}合{RUBY_E#}って",
         "ko": "맑은 하늘의 손을 잡고"
       },

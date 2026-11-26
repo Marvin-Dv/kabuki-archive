@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Um Sonho Perfumado de Trigo",
     "en": "A Dream Scented in Wheat",
-    "zh-CN": "氤氲麦香的梦",
     "ja": "麦の香り漂う夢",
     "ko": "밀 내음이 가득한 꿈"
   },
@@ -15,16 +14,14 @@
   "description": {
     "pt-BR": "A brisa sopra os dedos do jovem e envia a carta, ainda molhada de tinta, para o distante além.\n\"O que será do meu futuro...\"\nSonhos crescem asas em sua mente e voam em direção aos limites do céu.\nEspigas de trigo dançam ao vento e formam ondulações, como se respondessem ao seu desejo juvenil e sincero.\n\"Mesmo que eu só tenha uma única espada em minhas mãos, quero proteger este lugar, custe o que custar!\"\nO jovem fez essa promessa silenciosa em sua mente.\nUma promessa tão profunda quanto uma marca, eternamente gravada em seu coração.",
     "en": "The breeze blows past the youth's fingertips and sends the letter, still wet with ink, to the distant beyond.\n\"What would my future look like...\"\nDreams grow wings in his mind and fly towards the ends of the sky.\nEars of wheat dance in the wind and form ripples, as if responding to his boyish and earnest wish.\n\"Even if I only have a single sword in my hand, I want to protect this place no matter what!\"\nThe youth made this silent vow in his mind —\nA vow as deep as a brand, eternally etched into his heart.",
-    "zh-CN": "轻风拂过少年的指尖，将笔渍未干的书信带向远方。\n「属于我的未来会是什么样……」\n梦想在脑海中迸发，飘向天际。\n麦子随风儿舞动，泛起层层涟漪，似是在回应着那份青涩而真挚的心声。\n「不论发生了什么，哪怕手里只有一把剑，我也想守护好这方天地！」\n少年在心中默默立下誓言——\n那誓愿有如烙印，永志心间。",
     "ja": "そよ風が少年の指先をなぞり、まだインクの乾ききらぬ手紙を遠くへと連れ去った。\n「僕の未来はどうなるんだろう……」\n夢が心の中で弾け、空高く舞い上がる。\n風にそよぐ麦の穂は波のように広がり、まるで青くて真摯なその問いに応えているかのようだった。\n「たとえ何が起ころうと、この手に残されたのが剣一本だけになろうと、僕はこの地を守りたい！」\n少年は静かに心の中で誓いを立てた——\nそして、その誓いは烙印のように、永遠に彼の心に刻まれた。",
     "ko": "산들바람이 소년의 손끝을 스치며 아직 잉크가 마르지 않은 편지를 먼 곳으로 가져갔다.\n「내 미래는 어떤 모습일까…?」\n꿈이 머릿속에서 피어올라 하늘 끝으로 날아갔다.\n밀이 바람을 따라 춤을 추며 잔물결을 일으켰다. 마치 그 미숙하지만 진심 어린 마음에 응답하는 것처럼 말이다.\n「무슨 일이 있어도, 설령 손에 검 한 자루만 있을지라도 난 이곳을 지키고 싶어!」\n소년은 마음속으로 묵묵히 맹세했다——\n그 서원은 낙인처럼 마음속에 영원히 새겨졌다"
   },
   "skill": {
-    "name": { "pt-BR": "Anseio", "en": "Longing", "zh-CN": "憧憬", "ja": "憧れ", "ko": "동경" },
+    "name": { "pt-BR": "Anseio", "en": "Longing", "ja": "憧れ", "ko": "동경" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. O Dano da Perícia Suprema e o Dano do Ataque Extra causados pelo usuário aumentam em #2[i]%.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. The Ultimate DMG and Follow-Up ATK DMG dealt by the wearer increase by #2[i]%.",
-      "zh-CN": "使装备者的暴击率提高#1[i]%。装备者造成的终结技和追加攻击伤害提高#2[i]%。",
       "ja": "装備キャラの会心率+#1[i]%。装備キャラの必殺技ダメージと追加攻撃ダメージ+#2[i]%。",
       "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터가 가하는 필살기와 추가 공격 피해가 #2[i]% 증가한다"
     },

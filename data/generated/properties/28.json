@@ -1,13 +1,7 @@
 {
   "id": 28,
   "type": "IceAddedRatio",
-  "name": {
-    "pt-BR": "Bônus de Dano de Gelo",
-    "en": "Ice DMG Boost",
-    "zh-CN": "冰属性伤害提高",
-    "ja": "氷属性ダメージ",
-    "ko": "얼음 속성 피해 증가"
-  },
+  "name": { "pt-BR": "Bônus de Dano de Gelo", "en": "Ice DMG Boost", "ja": "氷属性ダメージ", "ko": "얼음 속성 피해 증가" },
   "icon": "icon/property/IconIceAddedRatio.png",
   "percent": true
 }

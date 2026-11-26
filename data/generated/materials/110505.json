@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Eco Perdido do Desejo Partilhado",
     "en": "Lost Echo of the Shared Wish",
-    "zh-CN": "同愿的遗音",
     "ja": "同願の遺音",
     "ko": "공동의 염원의 유음"
   },
@@ -17,7 +16,6 @@
   "sources": {
     "en": ["Echo of War: Penacony Grand Theater"],
     "pt-BR": ["Eco da Guerra: Grande Teatro de Penacony"],
-    "zh-CN": ["历战余响【匹诺康尼大剧院】"],
     "ja": ["歴戦余韻「ピノコニー大劇場」"],
     "ko": ["전쟁의 여운 [페나코니 극장]"]
   }

@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Dance! Dance! Dance!",
     "en": "Dance! Dance! Dance!",
-    "zh-CN": "舞！舞！舞！",
     "ja": "ダンス！ダンス！ダンス！",
     "ko": "댄스! 댄스! 댄스!"
   },
@@ -15,22 +14,14 @@
   "description": {
     "pt-BR": "\"Por que a Hook não pode fazer um giro de dança que nem a Clara faz?\"\nEla fechou seus pequenos punhos e fez um beicinho fofo, seu rostinho gordinho parecia mais vermelho do que nunca embaixo do seu chapéu de feltro.\n\"Por favor, Sr. Svarog, você pode ajudar a Hook com isso?\"\nSem dizer uma palavra, o Sr. Svarog começou a estender seu braço robótico.\n\"Eu v-vou vomitar!!! Me põe no chão agora! Por favor!\"",
     "en": "\"Why couldn't Hook do a spinning dance move, just like how Clara does?\"\nShe clenched her tiny fists and pouted her cute lips, her chubby little face looking redder than ever under her signature felt hat.\n\"Please, Mr. Svarog, can you please help Hook with this?\"\nWithout saying any words, Mr. Svarog began to hold out his robotic arm.\n\"I'm g—gonna be sick!!! Put me down now! Please!\"",
-    "zh-CN": "「为什么虎克不能像克拉拉一样跳舞转圈圈呢…」\n她握紧拳头，嘟囔起嘴，圆乎乎的面颊被毛毡帽烘得红润。\n「史瓦罗先生，可以帮帮虎克么？」\n不苟言笑的大机器人，一言不发地伸出机械手。\n「要、要转晕啦！！可恶…快放我下来！」",
     "ja": "「なんであたしはクラーラみたいにクルクル回れないの…」\n彼女はこぶしを握り締め、ふくれっ面をする。まん丸な頬は防寒帽子の暖かさで赤くつやつやとしている。\n「ねぇスヴァローグ、手伝ってくれる？」\n謹厳なロボットは声を出さず、ただ手を差し伸べた。\n「め、目が回る！！うあぁ…早くあたしを降ろせ！」",
     "ko": "「후크는 왜 클라라처럼 빙글빙글 춤출 수 없는 거지…」\n그녀는 주먹을 꽉 쥐었다. 입술을 중얼거리자, 동글동글한 뺨이 모자로 빨갛게 달아올랐다.\n「스바로그 씨, 후크 좀 도와주실 수 있나요?」\n로봇은 말없이 기계팔을 내밀었다.\n「어, 어지러워!! 윽, 빨리 내려줘!」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Impossível Parar!",
-      "en": "Cannot Stop It!",
-      "zh-CN": "停不下来啦！",
-      "ja": "止まらないよぉ！",
-      "ko": "멈출 수 없어!"
-    },
+    "name": { "pt-BR": "Impossível Parar!", "en": "Cannot Stop It!", "ja": "止まらないよぉ！", "ko": "멈출 수 없어!" },
     "description": {
       "pt-BR": "Quando o usuário utiliza a Perícia Suprema, as ações de todos os aliados são Avançadas Adiante em #1[i]%.",
       "en": "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by #1[i]%.",
-      "zh-CN": "当装备者施放终结技后，我方全体行动提前#1[i]%。",
       "ja": "装備キャラが必殺技を発動した後、味方全体の行動順が#1[i]%早まる。",
       "ko": "장착한 캐릭터가 필살기 발동 후 모든 아군의 행동 게이지가 #1[i]% 증가한다"
     },

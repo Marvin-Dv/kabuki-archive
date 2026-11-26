@@ -1,7 +1,7 @@
 {
   "id": 38,
   "type": "BaseHP",
-  "name": { "pt-BR": "PV Base", "en": "Base HP", "zh-CN": "基础生命值", "ja": "基礎HP", "ko": "기초 HP" },
+  "name": { "pt-BR": "PV Base", "en": "Base HP", "ja": "基礎HP", "ko": "기초 HP" },
   "icon": "icon/property/IconMaxHP.png",
   "percent": false
 }
