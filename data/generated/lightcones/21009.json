@@ -1,13 +1,7 @@
 {
   "id": 21009,
   "slug": "landaus-choice",
-  "name": {
-    "pt-BR": "A Escolha dos Landau",
-    "en": "Landau's Choice",
-    "zh-CN": "朗道的选择",
-    "ja": "ランドゥーの選択",
-    "ko": "랜도의 선택"
-  },
+  "name": { "pt-BR": "A Escolha dos Landau", "en": "Landau's Choice", "ja": "ランドゥーの選択", "ko": "랜도의 선택" },
   "rarity": 4,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -15,22 +9,14 @@
   "description": {
     "pt-BR": "\"Você não me ouviu? Não se meta lá de novo! O que é que você pode aprender com aqueles plebeus?\"\n\"Mas eu nunca ouvi as histórias que eles contam sobre Belobog...\"\nEla puxou o irmão, sem lhe dar chance de retrucar.\n\"Vocês dois são Landaus! Um dia, vocês farão escolhas difíceis. Especialmente você, Serval.\"\nEla sabia que o irmão não tinha feito nada de errado, mas não conseguiu pensar numa resposta.\nFoi se deitar com raiva após a discussão, jurando para si mesma:\n\"Um dia, eu vou ser adulta. E, quando esse dia chegar, eu vou fazer as minhas próprias escolhas...\"\n\"Minhas próprias escolhas...\"",
     "en": "\"Did you not hear me? Don't go there ever again! What could you possibly be learning from those commoners!\"\n\"But I've never heard any of the stories they tell about Belobog before...\"\nShe pulled her brother behind her, denying him the chance to talk back.\n\"You are both Landaus! One day, you'll face hard choices. Especially you, Serval.\"\nShe knew that her brother did nothing wrong, but she couldn't think of a rebuttal.\nShe went to bed angry after the argument, vowing to herself:\n\"I will be a grown-up one day. And when that day comes, I will make choices...\"\n\"My own choices...\"",
-    "zh-CN": "「听见没，明天不许去了！和几个平民混在一起能学些什么好的！」\n「但他们说的那些贝洛伯格故事，我都没听过…」\n她拉过还想辩解的弟弟，把他挡在身后。\n「你们是朗道的一员。特别是你，希露瓦，总有一天你也要做出选择。」\n她知道弟弟什么都没做错，但她不知道该怎么反驳。\n生了一天的闷气后，她暗自下定决心。\n「我会长大，总有一天我也能选择……」\n「我自己的选择。」",
     "ja": "「いいこと？明日からは行ってはいけません！平民と一緒に居ても良くないことを学ぶだけ！」\n「でも、みんなが話してたベロブルグのお話、僕、聞いたことない…」\n彼女はまだ何か言おうとする弟を自分の後ろに庇った。\n「あなたたちはランドゥーの者よ。特にセーバル、あなたもいずれ選択をしなければいけない」\n弟は悪くない、彼女はそれを知りながらも、どう言い返すか分からなかった。\nそして1日中怒りを抱えながら、彼女はひっそりと決意した。\n「私も大人になって、いつの日か選択をするんだ……」\n「自分だけの選択を」",
     "ko": "「다신 거기 가지 마라, 알았니! 평민들이랑 어울려서 뭘 배우겠다고!」\n「하지만 그 사람들이 처음 듣는 벨로보그 이야기를 해줬어요…」\n그녀는 아직도 변론하고 싶은 동생을 끌어다 자신 뒤에 숨겼다.\n「너희는 랜도의 일원이다. 특히나 서벌 너도 언젠간 선택을 내려야 해」\n그녀는 동생이 아무 잘못도 없다는 걸 알고 있지만 어떻게 반박해야 할지 몰랐다.\n온종일 치미는 울분을 가라앉힌 후 그녀는 결심했다.\n「내가 어른이 되면 그땐 내릴 수 있겠지……」\n「나만의 선택을」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "O Tempo Voa",
-      "en": "Time Fleets Away",
-      "zh-CN": "时光如梭",
-      "ja": "光陰矢の如し",
-      "ko": "빠른 세월"
-    },
+    "name": { "pt-BR": "O Tempo Voa", "en": "Time Fleets Away", "ja": "光陰矢の如し", "ko": "빠른 세월" },
     "description": {
       "pt-BR": "O usuário tem mais chances de sofrer ataques e o Dano recebido é reduzido em #2[i]%.",
       "en": "The wearer is more likely to be attacked, and DMG taken is reduced by #2[i]%.",
-      "zh-CN": "使装备者受到攻击的概率提高，同时受到的伤害降低#2[i]%。",
       "ja": "装備キャラが敵の攻撃を受ける確率がアップする、受けるダメージ-#2[i]%。",
       "ko": "장착한 캐릭터가 피격될 확률이 증가하고 받는 피해가 #2[i]% 감소한다"
     },

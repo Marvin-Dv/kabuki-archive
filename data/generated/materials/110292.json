@@ -1,13 +1,7 @@
 {
   "id": 110292,
   "slug": "galaxy-framework",
-  "name": {
-    "pt-BR": "Estrutura Galáctica",
-    "en": "Galaxy Framework",
-    "zh-CN": "星系框架",
-    "ja": "星系模型",
-    "ko": "은하계 프레임"
-  },
+  "name": { "pt-BR": "Estrutura Galáctica", "en": "Galaxy Framework", "ja": "星系模型", "ko": "은하계 프레임" },
   "rarity": 3,
   "type": "Material",
   "subType": "TracePath",
@@ -27,7 +21,6 @@
       "Troca de Brasas",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["拟造花萼【海原电视塔】", "「万能合成机」- 材料合成", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": ["疑似花萼「{RUBY_B#うなばら}海原{RUBY_E#}テレビタワー」", "「万能合成マシン」- 素材合成", "エンバー交換", "「万能合成マシン」- 素材交換"],
     "ko": ["모조 꽃받침 [시필드 TV 타워]", "「만능 합성기」- 재료 합성", "잔화 교환", "「만능 합성기」- 재료 치환"]
   }

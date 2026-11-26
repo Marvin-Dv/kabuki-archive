@@ -1,7 +1,7 @@
 {
   "id": 1104,
   "slug": "gepard",
-  "name": { "pt-BR": "Gepard", "en": "Gepard", "zh-CN": "杰帕德", "ja": "ジェパード", "ko": "게파드" },
+  "name": { "pt-BR": "Gepard", "en": "Gepard", "ja": "ジェパード", "ko": "게파드" },
   "rarity": 5,
   "path": "Preservation",
   "element": "Ice",
@@ -11,17 +11,10 @@
     {
       "id": 110401,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Punho da Condenação",
-        "en": "Fist of Conviction",
-        "zh-CN": "一意之拳",
-        "ja": "一意の拳",
-        "ko": "의지의 주먹"
-      },
+      "name": { "pt-BR": "Punho da Condenação", "en": "Fist of Conviction", "ja": "一意の拳", "ko": "의지의 주먹" },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Gepard a um único inimigo.",
         "en": "Deals Ice DMG equal to #1[i]% of Gepard's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于杰帕德#1[i]%攻击力的冰属性伤害。",
         "ja": "指定した敵単体にジェパードの攻撃力#1[i]%分の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 게파드 공격력 #1[i]%만큼의 얼음 속성 피해를 가한다"
       },
@@ -31,27 +24,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo leve a um único inimigo.",
         "en": "Deals minor Ice DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量冰属性伤害。",
         "ja": "敵単体に少量の氷属性ダメージを与える。",
         "ko": "단일 적에게 소량의 얼음 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110402,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Golpe Intimidador",
-        "en": "Daunting Smite",
-        "zh-CN": "震慑之击",
-        "ja": "震撼の一撃",
-        "ko": "위협의 일격"
-      },
+      "name": { "pt-BR": "Golpe Intimidador", "en": "Daunting Smite", "ja": "震撼の一撃", "ko": "위협의 일격" },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de Gepard a um único inimigo, com #2[i]% de chance-base de o inimigo sofrer Congelamento por #3[i] rodada(s).\nDurante o Congelamento, o inimigo não pode agir e sofre Dano Adicional de Gelo igual a #4[i]% do ATQ de Gepard no início de cada rodada.",
         "en": "Deals Ice DMG equal to #1[i]% of Gepard's ATK to one designated enemy, with a #2[i]% base chance to Freeze the enemy for #3[i] turn(s).\nWhile Frozen, the enemy cannot take action and will take Ice Additional DMG equal to #4[i]% of Gepard's ATK at the beginning of each turn.",
-        "zh-CN": "对指定敌方单体造成等同于杰帕德#1[i]%攻击力的冰属性伤害，同时有#2[i]%的基础概率使受到攻击的敌方目标陷入冻结状态，持续#3[i]回合。\n冻结状态下，敌方目标不能行动同时每回合开始时受到等同于杰帕德#4[i]%攻击力的冰属性附加伤害。",
         "ja": "指定した敵単体にジェパードの攻撃力#1[i]%分の氷属性ダメージを与え、#2[i]%の基礎確率で攻撃を受けた敵を凍結状態にする、#3[i]ターン継続。\n凍結状態の敵は行動できず、ターンが回ってくるたびにジェパードの攻撃力#4[i]%分の氷属性付加ダメージを受ける。",
         "ko": "지정된 단일 적에게 게파드 공격력 #1[i]%만큼의 얼음 속성 피해를 가하며 피격된 적은 #2[i]%의 기본 확률로 빙결 상태에 빠진다. 지속 시간: #3[i]턴\n빙결 상태의 적은 행동할 수 없으며 턴이 시작될 때마다 게파드 공격력 #4[i]%만큼의 얼음 속성 추가 피해를 받는다"
       },
@@ -77,27 +62,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo a um único inimigo, com uma chance de causar Congelamento.",
         "en": "Deals Ice DMG to one enemy, with a chance of Freezing them.",
-        "zh-CN": "对敌方单体造成冰属性伤害，有概率对目标施加冻结状态。",
         "ja": "敵単体に氷属性ダメージを与え、確率で敵を凍結状態にする。",
         "ko": "단일 적에게 얼음 속성 피해를 가하고 일정 확률로 해당 적에게 빙결 상태를 부여한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110403,
       "type": "Ultimate",
-      "name": {
-        "pt-BR": "Muralha Resistente",
-        "en": "Enduring Bulwark",
-        "zh-CN": "永屹之壁",
-        "ja": "永屹の壁",
-        "ko": "영원의 벽"
-      },
+      "name": { "pt-BR": "Muralha Resistente", "en": "Enduring Bulwark", "ja": "永屹の壁", "ko": "영원의 벽" },
       "description": {
         "pt-BR": "Aplica um Escudo a todos os aliados, absorvendo Dano igual a #1[i]% da DEF de Gepard + #3[i] por #2[i] rodada(s).",
         "en": "Applies a Shield to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).",
-        "zh-CN": "为我方全体提供能够抵消等同于杰帕德#1[i]%防御力+#3[i]伤害的护盾，持续#2[i]回合。",
         "ja": "味方全体にジェパードの防御力#1[i]%+#3[i]の耐久値を持つバリアを付与する、#2[i]ターン継続。",
         "ko": "모든 아군에게 게파드 방어력 #1[i]%+#3[i]만큼의 피해를 상쇄할 수 있는 실드를 제공한다. 지속 시간: #2[i]턴"
       },
@@ -123,27 +100,19 @@
       "summary": {
         "pt-BR": "Fornece um Escudo para todos os aliados.",
         "en": "Provides a Shield to all allies.",
-        "zh-CN": "为我方全体提供护盾。",
         "ja": "味方全体にバリアを付与する。",
         "ko": "모든 아군에게 실드를 제공한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Defesa", "en": "Defense", "ja": "防御", "ko": "방어" }
     },
     {
       "id": 110404,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Vontade Inabalável",
-        "en": "Unyielding Will",
-        "zh-CN": "不屈之身",
-        "ja": "不屈の体躯",
-        "ko": "불굴의 몸"
-      },
+      "name": { "pt-BR": "Vontade Inabalável", "en": "Unyielding Will", "ja": "不屈の体躯", "ko": "불굴의 몸" },
       "description": {
         "pt-BR": "Ao ser alvo de um golpe fatal, ao invés de ser derrubado, Gepard restaura imediatamente #1[i]% de seus PV máximos. Este efeito só pode ser ativado uma vez por batalha.",
         "en": "When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to #1[i]% of his Max HP. This effect can only trigger once per battle.",
-        "zh-CN": "受到致命攻击时杰帕德不会陷入无法战斗状态，并立即回复等同于自身生命上限#1[i]%的生命值。该效果单场战斗中只能触发1次。",
         "ja": "ジェパードはHPが0になる攻撃を受けても戦闘不能状態にならず、HPを最大HP#1[i]%分回復する。この効果は一度の戦闘で1回まで発動できる。",
         "ko": "게파드는 치명적인 공격을 받아도 전투 불능 상태에 빠지지 않으며 자신의 HP 최대치 #1[i]%만큼의 HP를 즉시 회복한다. 해당 효과는 단일 전투에서 1회만 발동한다"
       },
@@ -169,21 +138,19 @@
       "summary": {
         "pt-BR": "Ao ser alvo de um golpe fatal, ao invés de ser derrubado, restaura PV imediatamente. Este efeito só pode ser ativado 1 vez por batalha.",
         "en": "When struck by a killing blow, instead of being knocked down, immediately restores HP. This effect can only trigger 1 time per battle.",
-        "zh-CN": "受到致命攻击时不会陷入无法战斗状态，立即回复生命值。单场战斗中仅触发1次。",
         "ja": "HPが0になる攻撃を受けても戦闘不能状態にならず、HPを回復する。一度の戦闘で1回まで発動できる。",
         "ko": "치명적인 공격을 받아도 전투 불능 상태에 빠지지 않으며 즉시 HP를 회복한다. 단일 전투 중에서 1회만 발동한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 110406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +159,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -200,11 +166,10 @@
     {
       "id": 110407,
       "type": "Technique",
-      "name": { "pt-BR": "Camaradagem", "en": "Comradery", "zh-CN": "有情之证", "ja": "仁心の証", "ko": "감정의 증표" },
+      "name": { "pt-BR": "Camaradagem", "en": "Comradery", "ja": "仁心の証", "ko": "감정의 증표" },
       "description": {
         "pt-BR": "Após Gepard usar sua Técnica, quando a próxima batalha começar, um Escudo será aplicado a todos os aliados, absorvendo Dano igual a #1[i]% da DEF de Gepard + #3[i] por #2[i] rodada(s).",
         "en": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to #1[i]% of Gepard's DEF plus #3[i] for #2[i] turn(s).",
-        "zh-CN": "使用秘技后，下一次战斗开始时为我方全体提供能够抵消等同于杰帕德#1[i]%防御力+#3[i]伤害的护盾，持续#2[i]回合。",
         "ja": "秘技を使用した後、次の戦闘開始時、味方全体にジェパードの防御力#1[i]%+#3[i]の耐久値を持つバリアを付与する、#2[i]ターン継続。",
         "ko": "비술 사용 후 다음 전투 시작 시 모든 아군에게 게파드 방어력 #1[i]%+#3[i]만큼의 피해를 상쇄할 수 있는 실드를 제공한다. 지속 시간: #2[i]턴"
       },
@@ -214,12 +179,11 @@
       "summary": {
         "pt-BR": "Depois que este personagem usa a Técnica, todos os aliados ganham um Escudo no início da próxima batalha.",
         "en": "After this character uses Technique, all allies gain a Shield at the start of the next battle.",
-        "zh-CN": "使用秘技，下一次战斗开始时我方全体获得护盾。",
         "ja": "秘技を使用、次の戦闘開始時、味方全体にバリアを付与する。",
         "ko": "비술을 발동하고 다음 전투 시작 시 모든 아군이 실드를 획득한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Defesa", "en": "Defense", "ja": "防御", "ko": "방어" }
     }
   ],
   "eidolons": [
@@ -228,14 +192,12 @@
       "name": {
         "pt-BR": "Esforço Necessário",
         "en": "Due Diligence",
-        "zh-CN": "恪尽职守",
         "ja": "{RUBY_B#ちゅうじつとっこう}忠実篤厚{RUBY_E#}",
         "ko": "근면 성실"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia, aumenta a chance-base de causar \"Congelamento\" no inimigo-alvo atacado em 35%.",
         "en": "When using Skill, increases the base chance to Freeze the attacked target enemy by 35%.",
-        "zh-CN": "施放战技时，使受到攻击的敌方目标陷入冻结状态的基础概率提高35%。",
         "ja": "戦闘スキルを発動した時、攻撃を受けた敵が凍結状態になる基礎確率+35%。",
         "ko": "전투 스킬 발동 시 피격된 적이 빙결 상태에 빠질 기본 확률이 35% 증가한다"
       },
@@ -248,14 +210,12 @@
       "name": {
         "pt-BR": "Frio Perdurante",
         "en": "Lingering Cold",
-        "zh-CN": "余寒",
         "ja": "{RUBY_B#よかん}余寒{RUBY_E#}",
         "ko": "남은 추위"
       },
       "description": {
         "pt-BR": "Depois que um inimigo Congelado pela Perícia descongela, a VEL dele é reduzida em 20% por 1 rodada(s).",
         "en": "After an enemy Frozen by Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s).",
-        "zh-CN": "战技使敌方目标陷入的冻结状态解除后，目标的速度降低20%，持续1回合。",
         "ja": "戦闘スキルで敵に与えた凍結状態が解除された後、敵の速度-20%、1ターン継続。",
         "ko": "전투 스킬로 적에게 부여한 빙결 상태가 해제된 후 목표의 속도가 20% 감소한다. 지속 시간: 1턴"
       },
@@ -268,14 +228,12 @@
       "name": {
         "pt-BR": "Nunca Se Renda",
         "en": "Never Surrender",
-        "zh-CN": "永不陷落",
         "ja": "{RUBY_B#えいごうふらく}永劫不落{RUBY_E#}",
         "ko": "난공불락"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -288,14 +246,12 @@
       "name": {
         "pt-BR": "A Fé Move Montanhas",
         "en": "Faith Moves Mountains",
-        "zh-CN": "精诚所至",
         "ja": "{RUBY_B#かっこ}確固{RUBY_E#}たる{RUBY_B#いし}意志{RUBY_E#}",
         "ko": "지성이면 감천"
       },
       "description": {
         "pt-BR": "Quando Gepard estiver em batalha, a RES a Efeito de todos os aliados aumenta em 20%.",
         "en": "When Gepard is in battle, all allies' Effect RES increases by 20%.",
-        "zh-CN": "杰帕德在场时，我方全体的效果抵抗提高20%。",
         "ja": "ジェパードがフィールド上にいる時、味方全体の効果抵抗+20%。",
         "ko": "게파드가 필드에 있으면 모든 아군의 효과 저항이 20% 증가한다"
       },
@@ -308,14 +264,12 @@
       "name": {
         "pt-BR": "Punho de Ferro Gélido",
         "en": "Cold Iron Fist",
-        "zh-CN": "拳似寒铁",
         "ja": "{RUBY_B#かんてつ}寒鉄{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く{RUBY_B#こぶし}拳{RUBY_E#}",
         "ko": "강철 같은 주먹"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -328,14 +282,12 @@
       "name": {
         "pt-BR": "Determinação Inabalável",
         "en": "Unyielding Resolve",
-        "zh-CN": "不屈的决意",
         "ja": "{RUBY_B#ふくつ}不屈{RUBY_E#}の{RUBY_B#けつい}決意{RUBY_E#}",
         "ko": "불굴의 결의"
       },
       "description": {
         "pt-BR": "Quando seu Talento for ativado, Gepard age imediatamente e restaura 50% de seus PV máximos como PV extras.",
         "en": "When his Talent is triggered, Gepard immediately takes action and restores extra HP equal to 50% of his Max HP.",
-        "zh-CN": "触发天赋时杰帕德立即行动，且当前生命值的回复量额外增加自身生命上限的50%。",
         "ja": "天賦発動時、ジェパードが即座に行動し、HPの回復量がさらに自身の最大HP50%分アップする。",
         "ko": "특성 발동 시 게파드가 즉시 행동하고, 현재 HP의 회복량이 자신 HP 최대치의 50%만큼 추가로 증가한다"
       },
@@ -712,17 +664,10 @@
     {
       "id": 1104101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Integridade",
-        "en": "Integrity",
-        "zh-CN": "刚正",
-        "ja": "{RUBY_B#ごうちょく}剛直{RUBY_E#}",
-        "ko": "강직"
-      },
+      "name": { "pt-BR": "Integridade", "en": "Integrity", "ja": "{RUBY_B#ごうちょく}剛直{RUBY_E#}", "ko": "강직" },
       "description": {
         "pt-BR": "Gepard tem mais chance de ser atacado por inimigos.",
         "en": "Gepard has a higher chance to be attacked by enemies.",
-        "zh-CN": "杰帕德被敌方攻击的概率提高。",
         "ja": "ジェパードが敵に攻撃される確率がアップする。",
         "ko": "게파드가 적에게 피격될 확률이 증가한다"
       },
@@ -743,17 +688,10 @@
     {
       "id": 1104102,
       "anchor": "Point07",
-      "name": {
-        "pt-BR": "Comandante",
-        "en": "Commander",
-        "zh-CN": "统领",
-        "ja": "{RUBY_B#とうそつ}統率{RUBY_E#}",
-        "ko": "지휘관"
-      },
+      "name": { "pt-BR": "Comandante", "en": "Commander", "ja": "{RUBY_B#とうそつ}統率{RUBY_E#}", "ko": "지휘관" },
       "description": {
         "pt-BR": "Quando a \"Vontade Inabalável\" for ativada, a Energia de Gepard será restaurada para 100%.",
         "en": "When \"Unyielding Will\" is triggered, Gepard's Energy will be restored to 100%.",
-        "zh-CN": "【不屈之身】触发后，杰帕德的能量立即恢复至100%。",
         "ja": "「不屈の体躯」を発動した後、ジェパードのEPを100%まで回復する。",
         "ko": "[불굴의 몸] 발동 후 게파드의 에너지가 즉시 100%까지 회복된다"
       },
@@ -778,17 +716,10 @@
     {
       "id": 1104103,
       "anchor": "Point08",
-      "name": {
-        "pt-BR": "Bravura",
-        "en": "Grit",
-        "zh-CN": "战意",
-        "ja": "{RUBY_B#せんい}戦意{RUBY_E#}",
-        "ko": "전의"
-      },
+      "name": { "pt-BR": "Bravura", "en": "Grit", "ja": "{RUBY_B#せんい}戦意{RUBY_E#}", "ko": "전의" },
       "description": {
         "pt-BR": "O ATQ de Gepard aumenta em #1[i]% de sua DEF atual. Este efeito é renovado no início de cada rodada.",
         "en": "Gepard's ATK increases by #1[i]% of his current DEF. This effect will refresh at the start of each turn.",
-        "zh-CN": "杰帕德提高等同于自身当前防御力#1[i]%的攻击力，每回合开始时刷新。",
         "ja": "ジェパードの攻撃力が自身の防御力#1[i]%分アップ、ターンが回ってくるたびに更新される。",
         "ko": "게파드의 공격력이 현재 방어력의 #1[i]%만큼 증가하며, 턴이 시작될 때마다 갱신된다"
       },
@@ -814,13 +745,7 @@
     {
       "id": 1104201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -840,7 +765,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -860,13 +784,7 @@
     {
       "id": 1104203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1104202],
@@ -883,7 +801,7 @@
     {
       "id": 1104204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -900,13 +818,7 @@
     {
       "id": 1104205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1104102],
@@ -926,7 +838,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -946,13 +857,7 @@
     {
       "id": 1104207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -969,7 +874,7 @@
     {
       "id": 1104208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1104103],
@@ -989,7 +894,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1009,13 +913,7 @@
     {
       "id": 1104210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano: Gelo",
-        "en": "DMG Boost: Ice",
-        "zh-CN": "伤害强化•冰",
-        "ja": "ダメージ強化・氷",
-        "ko": "피해 강화•얼음"
-      },
+      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1104208],

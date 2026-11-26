@@ -1,7 +1,7 @@
 {
   "id": 1402,
   "slug": "aglaea",
-  "name": { "pt-BR": "Aglaea", "en": "Aglaea", "zh-CN": "阿格莱雅", "ja": "アグライア", "ko": "아글라이아" },
+  "name": { "pt-BR": "Aglaea", "en": "Aglaea", "ja": "アグライア", "ko": "아글라이아" },
   "rarity": 5,
   "path": "Remembrance",
   "element": "Lightning",
@@ -11,17 +11,10 @@
     {
       "id": 140201,
       "type": "Basic",
-      "name": {
-        "pt-BR": "Néctar Espinhoso",
-        "en": "Thorned Nectar",
-        "zh-CN": "刺纹之蜜",
-        "ja": "サイフォスの蜜",
-        "ko": "정곡을 찌르는 달콤함"
-      },
+      "name": { "pt-BR": "Néctar Espinhoso", "en": "Thorned Nectar", "ja": "サイフォスの蜜", "ko": "정곡을 찌르는 달콤함" },
       "description": {
         "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Aglaea a um inimigo designado.",
         "en": "Deals Lightning DMG equal to #1[i]% of Aglaea's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于阿格莱雅#1[i]%攻击力的雷属性伤害。",
         "ja": "指定した敵単体にアグライアの攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 아글라이아 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
       },
@@ -42,12 +35,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
         "en": "Deals minor Lightning DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量雷属性伤害。",
         "ja": "敵単体に少量の雷属性ダメージを与える。",
         "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140202,
@@ -55,14 +47,12 @@
       "name": {
         "pt-BR": "Ascensão, Renome Exaltado",
         "en": "Rise, Exalted Renown",
-        "zh-CN": "高举吧，升华的名讳",
         "ja": "掲げよ、昇華せし名を",
         "ko": "높이 들어라, 숭고한 이름을"
       },
       "description": {
         "pt-BR": "Restaura PV da Confeccionadora em #1[i]% dos seus PV máximos. Se a Confeccionadora estiver ausente, invoca o Memoespírito da Confeccionadora, e esta unidade age imediatamente.",
         "en": "Restores HP to Garmentmaker by #1[i]% of its Max HP. If Garmentmaker is absent, then summons the memosprite Garmentmaker and makes this unit immediately take action.",
-        "zh-CN": "为衣匠回复等同于其#1[i]%生命上限的生命值。若衣匠不在场，则召唤忆灵衣匠，并使自身立即行动。",
         "ja": "「ラフトラ」のHPを最大HP#1[i]%分回復する。ラフトラがフィールド上にいない場合、記憶の精霊ラフトラを召喚し、自身が即座に行動する。",
         "ko": "의상공의 HP를 대상의 HP 최대치의 #1[i]%만큼 회복한다. 의상공이 필드에 없을 시 기억 정령 의상공을 소환하고 자신이 즉시 행동한다"
       },
@@ -88,12 +78,11 @@
       "summary": {
         "pt-BR": "Restaura PV da Confeccionadora. Se a Confeccionadora estiver ausente, invoca o Memoespírito da Confeccionadora, e esta unidade age imediatamente.",
         "en": "Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.",
-        "zh-CN": "为衣匠回复生命值。衣匠不在场时，召唤忆灵衣匠并使自身立即行动。",
         "ja": "ラフトラのHPを回復する。ラフトラがフィールド上にいない場合、記憶の精霊「ラフトラ」を召喚し、自身が即座に行動する。",
         "ko": "의상공의 HP를 회복한다. 의상공이 필드에 없을 시 기억 정령 의상공을 소환하고 자신이 즉시 행동한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Invocar", "en": "Summon", "zh-CN": "召唤", "ja": "召喚", "ko": "소환" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Invocar", "en": "Summon", "ja": "召喚", "ko": "소환" }
     },
     {
       "id": 140203,
@@ -101,14 +90,12 @@
       "name": {
         "pt-BR": "Dance, Tecelã Destinada",
         "en": "Dance, Destined Weaveress",
-        "zh-CN": "共舞吧，命定的衣匠",
         "ja": "共に舞え、運命のラフトラ",
         "ko": "춤추자, 운명의 의상공이여"
       },
       "description": {
         "pt-BR": "Invoca o Memoespírito da Confeccionadora. Se a Confeccionadora já estiver no campo, restaura seus PV ao máximo. Aglaea entra no estado de \"Postura Suprema\" e age imediatamente.\nEnquanto está no estado de \"Postura Suprema\", Aglaea ganha os acúmulos de Bônus de VEL do Talento do Memoespírito da Confeccionadora, com cada acúmulo aumentando sua VEL em #1[f1]%. O ATQ Básico é aprimorado para \"Talho de Mil Beijos\" e a Perícia não pode ser utilizada. A Confeccionadora torna-se imune a penalidades de Controle Negativo.\nUma contagem regressiva aparece na Ordem de Ação, com sua própria VEL definida em #4[i]. Usar a Perícia Suprema novamente quando a contagem regressiva estiver na Ordem de Ação fará com que a contagem regressiva seja reiniciada. Quando a rodada da contagem regressiva começar, a Confeccionadora se autodestrói. Quando a Confeccionadora desaparece, o estado de \"Postura Suprema\" de Aglaea é removido.",
         "en": "Summons the memosprite Garmentmaker. If Garmentmaker is already on the field, then restores its HP to max. Aglaea enters the \"Supreme Stance\" state and immediately takes action.\nWhile in \"Supreme Stance,\" Aglaea gains the SPD Boost stacks from Garmentmaker's Memosprite Talent, with each stack increasing this unit's SPD by #1[f1]%. Enhances Basic ATK to \"Slash by a Thousandfold Kiss,\" and cannot use Skill. Garmentmaker is immune to Crowd Control debuffs.\nA countdown appears in the Action Order, with its own SPD set at #4[i]. While the countdown exists, using Ultimate again will reset the countdown. When the countdown's turn starts, Garmentmaker self-destructs. When Garmentmaker disappears, Aglaea dispels the \"Supreme Stance\" state.",
-        "zh-CN": "召唤忆灵衣匠，若衣匠已在场，则使其生命值回复至上限。阿格莱雅进入【至高之姿】状态并使自身立即行动。\n【至高之姿】状态下，阿格莱雅获得衣匠忆灵天赋的速度提高层数，每层使自身速度提高#1[f1]%，普通攻击强化为【孤锋千吻】并且无法施放战技，衣匠免疫控制类负面状态。\n行动序列上出现倒计时，倒计时固定拥有#4[i]速度，倒计时存在期间再次施放终结技将重置倒计时，回合开始时使衣匠自毁。衣匠消失时阿格莱雅解除【至高之姿】状态。",
         "ja": "記憶の精霊「ラフトラ」を召喚する。なお、ラフトラがすでにフィールド上にいる場合、そのHPを最大値まで回復する。アグライアは「至高の姿」状態に入り、即座に行動する。\n「至高の姿」状態のアグライアは速度アップ効果を獲得する。この速度アップ効果の層数は、ラフトラの精霊天賦による速度アップ効果の層数と同数になる。1層につき、自身の速度+#1[f1]%。\n通常攻撃「サイフォスの蜜」が「剣先より千の口付けを」に強化され、戦闘スキルが発動できなくなる。また、ラフトラが行動制限系デバフに抵抗するようになる。\nアクションバーにカウントダウンが出現する。カウントダウンの速度は#4[i]に固定される。カウントダウンの間に必殺技を発動すると、カウントダウンがリセットされる。カウントダウンのターンが回ってきた時、ラフトラは退場し、アグライアは「至高の姿」状態を解除する。",
         "ko": "기억 정령 의상공을 소환한다. 의상공이 필드에 있을 시 대상의 HP를 최대치까지 회복한다. 아글라이아는 [지고의 자태] 상태에 진입하고 즉시 행동한다.\n[지고의 자태] 상태에서 아글라이아는 의상공 기억 정령 특성의 속도 증가 스택을 획득하고, 스택마다 자신의 속도가 #1[f1]% 증가하며, 일반 공격이 [고독한 검날의 입맞춤]으로 강화되고 전투 스킬을 발동할 수 없다. 또한, 의상공은 제어류 디버프 상태에 면역된다.\n행동 서열에 카운트다운이 나타난다. 카운트다운이 보유한 고정 속도는 #4[i]이며, 카운트다운이 존재하는 동안 다시 필살기를 발동하면 카운트다운이 초기화되고, 턴 시작 시 의상공은 자멸한다. 의상공이 사라질 시 아글라이아는 [지고의 자태] 상태를 해제한다"
       },
@@ -134,27 +121,19 @@
       "summary": {
         "pt-BR": "Invoca o Memoespírito da Confeccionadora, permitindo que Aglaea entre no estado de \"Postura Suprema\", aja imediatamente e ganhe ATQ Básico Aprimorado.",
         "en": "Summons the memosprite Garmentmaker, enabling Aglaea to enter the \"Supreme Stance\" state, immediately take action, and gain Enhanced Basic ATK.",
-        "zh-CN": "召唤忆灵衣匠，使阿格莱雅进入【至高之姿】状态并使自身立即行动，获得强化普攻。",
         "ja": "記憶の精霊「ラフトラ」を召喚する。アグライアは「至高の姿」状態に入り、即座に行動する。また、通常攻撃を強化する。",
         "ko": "기억 정령 의상공을 소환한다. 아글라이아는 [지고의 자태] 상태에 진입하고 즉시 행동하며, 강화된 일반 공격을 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140204,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Dedo da Rosa Dourada",
-        "en": "Rosy-Fingered",
-        "zh-CN": "金玫之指",
-        "ja": "薔薇色の指先",
-        "ko": "황금 장미의 손가락"
-      },
+      "name": { "pt-BR": "Dedo da Rosa Dourada", "en": "Rosy-Fingered", "ja": "薔薇色の指先", "ko": "황금 장미의 손가락" },
       "description": {
         "pt-BR": "O Memoespírito da \"Confeccionadora\" possui VEL inicial igual a #4[i]% da VEL de Aglaea e PV máximos iguais a #5[i]% dos PV máximos de Aglaea + #6[i]. Enquanto a \"Confeccionadora\" estiver em campo, os ataques de Aglaea infligem o estado \"Costura Vinculante\" no alvo. Após atacar inimigos no estado de \"Costura Vinculante\", causa Dano Adicional de Raio igual a #1[i]% do ATQ de Aglaea. \"Costura Vinculante\" entra em efeito apenas no alvo afligido mais recentemente.",
         "en": "The memosprite Garmentmaker has an initial SPD equal to #4[i]% of Aglaea's SPD and a Max HP equal to #5[i]% of Aglaea's Max HP plus #6[i]. While Garmentmaker is on the field, Aglaea's attacks inflict the target with the \"Seam Stitch\" state. After attacking enemies in the \"Seam Stitch\" state, further deals Lightning Additional DMG equal to #1[i]% of Aglaea's ATK. \"Seam Stitch\" only takes effect on the most recently inflicted target.",
-        "zh-CN": "忆灵衣匠初始拥有等同于阿格莱雅#4[i]%速度的速度以及等同于阿格莱雅#5[i]%生命上限+#6[i]的生命上限。衣匠在场时，阿格莱雅施放攻击时使目标陷入【间隙织线】状态，攻击处于【间隙织线】状态下的敌人后，额外造成等同于阿格莱雅攻击力#1[i]%的雷属性附加伤害。【间隙织线】仅对最新被施加的目标生效。",
         "ja": "記憶の精霊「ラフトラ」の初期速度は、アグライアの速度の#4[i]%分となり、初期最大HPは、アグライアの最大HP#5[i]%分+#6[i]となる。\nラフトラがフィールド上にいる場合、アグライアが攻撃を行う時、敵に「隙を縫う糸」状態を付与する。また、「隙を縫う糸」状態の敵を攻撃した後、追加でアグライアの攻撃力#1[i]%分の雷属性付加ダメージを与える。「隙を縫う糸」状態は最後に付与されたターゲットにのみ効果を発揮する。",
         "ko": "기억 정령 의상공은 기본 상태에서 아글라이아 속도의 #4[i]%만큼 속도를 보유하고, 아글라이아 HP 최대치의 #5[i]%+#6[i]만큼 HP 최대치를 보유한다. 의상공이 필드에 있을 시 아글라이아가 공격을 발동하면 목표를 [틈새를 메우는 실] 상태에 빠트리며, [틈새를 메우는 실] 상태의 적을 공격하면 추가로 아글라이아 공격력의 #1[i]%만큼 번개 속성 추가 피해를 가한다. [틈새를 메우는 실]은 가장 최근에 부여된 목표에게만 적용된다"
       },
@@ -180,21 +159,19 @@
       "summary": {
         "pt-BR": "Enquanto a Confeccionadora estiver em campo, os ataques de Aglaea infligem o estado de \"Costura Vinculante\" no alvo. Após atacar inimigos no estado de \"Costura Vinculante\", causa Dano de Raio leve Adicional.",
         "en": "While Garmentmaker is on the field, Aglaea's attacks inflict the target with the \"Seam Stitch\" state. After attacking enemies in the \"Seam Stitch\" state, deals minor Lightning Additional DMG.",
-        "zh-CN": "衣匠在场时，阿格莱雅施放攻击时使目标陷入【间隙织线】状态。攻击处于【间隙织线】状态下的敌人后，造成少量雷属性附加伤害。",
         "ja": "ラフトラがフィールド上にいる場合、アグライアが攻撃を行う時、敵に「隙を縫う糸」状態を付与する。「隙を縫う糸」状態の敵に攻撃を行った後、少量の雷属性付加ダメージを与える。",
         "ko": "의상공이 필드에 있을 시 아글라이아가 공격을 발동하면 목표를 [틈새를 메우는 실] 상태에 빠트린다. [틈새를 메우는 실] 상태의 적을 공격하면 소량의 번개 속성 추가 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -203,7 +180,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -211,17 +187,10 @@
     {
       "id": 140207,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Divisão Meteórica",
-        "en": "Meteoric Sunder",
-        "zh-CN": "披星百裂",
-        "ja": "星を纏いし烈剣",
-        "ko": "별을 가르는 신속"
-      },
+      "name": { "pt-BR": "Divisão Meteórica", "en": "Meteoric Sunder", "ja": "星を纏いし烈剣", "ko": "별을 가르는 신속" },
       "description": {
         "pt-BR": "Invoca o Memoespírito da Confeccionadora e realiza um Ataque Conjunto. Após entrar em batalha, regenera #2[i] de Energia e causa Dano de Raio igual a #1[i]% do ATQ de Aglaea a todos os inimigos-alvo. Então, inflige aleatoriamente o estado de \"Costura Vinculante\" a um inimigo-alvo aleatório.",
         "en": "Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates #2[i] Energy and deals Lightning DMG equal to #1[i]% of Aglaea's ATK to all enemy targets. Then, randomly inflicts the \"Seam Stitch\" state on a random enemy target.",
-        "zh-CN": "召唤忆灵衣匠并一同向前发起攻击，进入战斗后，恢复#2[i]点能量，并对敌方全体目标造成等同于阿格莱雅#1[i]%攻击力的雷属性伤害，随后使敌方随机目标陷入【间隙织线】状态。",
         "ja": "記憶の精霊「ラフトラ」を召喚し、共に攻撃する。戦闘に入った後、EPを#2[i]回復し、敵全体にアグライアの攻撃力#1[i]%分の雷属性ダメージを与え、ランダムな敵に「隙を縫う糸」状態を付与する。",
         "ko": "기억 정령 의상공을 소환하고 함께 전방을 향해 공격한다. 전투 진입 후 에너지를 #2[i]pt 회복하고 모든 적에게 아글라이아 공격력의 #1[i]%만큼 번개 속성 피해를 가하며, 이후 랜덤 적을 [틈새를 메우는 실] 상태에 빠트린다"
       },
@@ -231,11 +200,10 @@
       "summary": {
         "pt-BR": "Invoca o Memoespírito da \"Confeccionadora\" e realiza um Ataque Conjunto. Após entrar em batalha, regenera Energia e causa Dano de Raio leve a todos os inimigos. Então, inflige aleatoriamente o estado de \"Costura Vinculante\" a um inimigo-alvo aleatório.",
         "en": "Summons the memosprite Garmentmaker and launches a forward joint attack. After entering battle, regenerates Energy and deals minor Lightning DMG to all enemies. Then, randomly inflicts the \"Seam Stitch\" state on a random enemy target.",
-        "zh-CN": "召唤忆灵衣匠并一同向前发起攻击，进入战斗后，恢复能量并对敌方全体造成少量雷属性伤害，随后使敌方随机目标陷入【间隙织线】状态。",
         "ja": "記憶の精霊「ラフトラ」を召喚し、共に攻撃する。戦闘に入った後、EPを回復し、敵全体に少量の雷属性ダメージを与え、ランダムな敵を「隙を縫う糸」状態にする。",
         "ko": "기억 정령 의상공을 소환하고 함께 전방을 향해 공격한다. 전투 진입 후 에너지를 회복하고 모든 적에게 소량의 번개 속성 피해를 가하며, 이후 랜덤 적을 [틈새를 메우는 실] 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 140208,
@@ -243,14 +211,12 @@
       "name": {
         "pt-BR": "Talho de Mil Beijos",
         "en": "Slash by a Thousandfold Kiss",
-        "zh-CN": "孤锋千吻",
         "ja": "剣先より千の口付けを",
         "ko": "고독한 검날의 입맞춤"
       },
       "description": {
         "pt-BR": "Aglaea e a Confeccionadora realizam um Ataque Conjunto no alvo, causando respectivamente Dano de Raio igual a #1[f1]% do ATQ de Aglaea e #3[f1]% do ATQ da Confeccionadora ao alvo. Além disso, causa Dano de Raio igual a #2[i]% do ATQ de Aglaea e #4[i]% do ATQ da Confeccionadora aos alvos adjacentes.\n\"Talho de Mil Beijos\" não pode recuperar Pontos de Perícia.",
         "en": "Aglaea and Garmentmaker launch a Joint ATK on the target, respectively dealing Lightning DMG equal to #1[f1]% of Aglaea's ATK and #3[f1]% of Garmentmaker's ATK to the target. Also, respectively deals Lightning DMG equal to #2[i]% of Aglaea's ATK and #4[i]% of Garmentmaker's ATK to adjacent targets.\n\"Slash by a Thousandfold Kiss\" cannot recover Skill Points.",
-        "zh-CN": "阿格莱雅与衣匠向目标发起连携攻击，对目标分别造成等同于阿格莱雅#1[f1]%攻击力以及衣匠#3[f1]%攻击力的雷属性伤害，并对相邻目标分别造成等同于阿格莱雅#2[i]%攻击力以及衣匠#4[i]%攻击力的雷属性伤害。\n【孤锋千吻】无法恢复战技点。",
         "ja": "アグライアと「ラフトラ」が連携攻撃を行い、指定した敵単体にアグライアの攻撃力#1[f1]%分の雷属性ダメージとラフトラの攻撃力#3[f1]%分の雷属性ダメージを与え、隣接する敵にアグライアの攻撃力#2[i]%分の雷属性ダメージとラフトラの攻撃力#4[i]%分の雷属性ダメージを与える。\nなお、「剣先より千の口付けを」はSPを回復できない。",
         "ko": "아글라이아와 의상공이 목표에게 연계 공격을 발동하며, 목표에게 각각 아글라이아 공격력의 #1[f1]%와 의상공 공격력의 #3[f1]%만큼 번개 속성 피해를 가하고, 인접한 목표에게 각각 아글라이아 공격력의 #2[i]%와 의상공 공격력의 #4[i]%만큼 번개 속성 피해를 가한다.\n[고독한 검날의 입맞춤]은 전투 스킬 포인트를 회복할 수 없다"
       },
@@ -271,12 +237,11 @@
       "summary": {
         "pt-BR": "Aglaea e a Confeccionadora realizam um Ataque Conjunto no alvo. Causa Dano de Raio a um inimigo e Dano de Raio leve aos alvos adjacentes.",
         "en": "Aglaea and Garmentmaker launch a Joint ATK on the target. Deals Lightning DMG to one enemy and minor Lightning DMG to adjacent targets.",
-        "zh-CN": "阿格莱雅与衣匠向目标发起连携攻击，对敌方单体造成雷属性伤害，对相邻目标造成少量雷属性伤害。",
         "ja": "アグライアとラフトラが連携攻撃を行い、敵単体に雷属性ダメージを与え、隣接する敵に少量の雷属性ダメージを与える。",
         "ko": "아글라이아와 의상공이 목표에게 연계 공격을 발동하며, 단일 적에게 번개 속성 피해를 가하고 인접한 목표에게 소량의 번개 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140209,
@@ -284,14 +249,12 @@
       "name": {
         "pt-BR": "Ascensão, Renome Exaltado",
         "en": "Rise, Exalted Renown",
-        "zh-CN": "高举吧，升华的名讳",
         "ja": "掲げよ、昇華せし名を",
         "ko": "높이 들어라, 숭고한 이름을"
       },
       "description": {
         "pt-BR": "Restaura PV da Confeccionadora. Se a Confeccionadora estiver ausente, invoca o Memoespírito da Confeccionadora, e esta unidade age imediatamente.",
         "en": "Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.",
-        "zh-CN": "为衣匠回复生命值。衣匠不在场时，召唤忆灵衣匠并使自身立即行动。",
         "ja": "ラフトラのHPを回復する。ラフトラがフィールド上にいない場合、記憶の精霊「ラフトラ」を召喚し、自身が即座に行動する。",
         "ko": "의상공의 HP를 회복한다. 의상공이 필드에 없을 시 기억 정령 의상공을 소환하고 자신이 즉시 행동한다"
       },
@@ -317,12 +280,11 @@
       "summary": {
         "pt-BR": "Restaura PV da Confeccionadora. Se a Confeccionadora estiver ausente, invoca o Memoespírito da Confeccionadora, e esta unidade age imediatamente.",
         "en": "Restores HP for Garmentmaker. If Garmentmaker is absent, summons the memosprite Garmentmaker and makes this unit immediately take action.",
-        "zh-CN": "为衣匠回复生命值。衣匠不在场时，召唤忆灵衣匠并使自身立即行动。",
         "ja": "ラフトラのHPを回復する。ラフトラがフィールド上にいない場合、記憶の精霊「ラフトラ」を召喚し、自身が即座に行動する。",
         "ko": "의상공의 HP를 회복한다. 의상공이 필드에 없을 시 기억 정령 의상공을 소환하고 자신이 즉시 행동한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 1140201,
@@ -330,14 +292,12 @@
       "name": {
         "pt-BR": "Armadilha de Espinhos",
         "en": "Thorned Snare",
-        "zh-CN": "刺纹之陷",
         "ja": "サイフォスの罠",
         "ko": "정곡을 찌르는 함정"
       },
       "description": {
         "pt-BR": "Causa Dano de Raio equivalente a #1[i]% do ATQ a um inimigo e Dano de Raio equivalente a #2[i]% do ATQ a alvos adjacentes.",
         "en": "Deals Lightning DMG equal to #1[i]% of ATK to one enemy and Lightning DMG equal to #2[i]% of ATK to adjacent targets.",
-        "zh-CN": "对敌方单体造成#1[i]%攻击力的雷属性伤害，对其相邻目标造成#2[i]%攻击力的雷属性伤害。",
         "ja": "敵単体に攻撃力#1[i]%分の雷属性ダメージを与え、隣接する敵に攻撃力#2[i]%分の雷属性ダメージを与える。",
         "ko": "단일 적에게 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, 대상과 인접한 목표에게 공격력의 #2[i]%만큼 번개 속성 피해를 가한다"
       },
@@ -358,18 +318,16 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um inimigo-alvo e a unidades adjacentes.",
         "en": "Deals minor Lightning DMG to one enemy target and adjacent targets.",
-        "zh-CN": "对敌方单体与相邻目标造成少量雷属性伤害。",
         "ja": "敵単体および隣接する敵に少量の雷属性ダメージを与える。",
         "ko": "단일 적 및 인접한 목표에게 소량의 번개 속성 피해를 가한다"
       },
       "typeText": {
         "pt-BR": "Perícia do Memoespírito",
         "en": "Memosprite Skill",
-        "zh-CN": "忆灵技",
         "ja": "精霊スキル",
         "ko": "기억 정령 스킬"
       },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 1140203,
@@ -377,14 +335,12 @@
       "name": {
         "pt-BR": "Um Corpo Feito de Lágrimas",
         "en": "A Body Brewed by Tears",
-        "zh-CN": "泪水锻造的匠躯",
         "ja": "涙で鍛えし匠の躯",
         "ko": "눈물로 단조한 장인의 몸"
       },
       "description": {
         "pt-BR": "Após atacar um inimigo afetado por \"Costura Vinculante\", aumenta a VEL desta unidade em #1[i], acumulando até #3[i] vez(es). Quando a Confeccionadora age, usa automaticamente \"Armadilha de Espinhos\", priorizando inimigos no estado de \"Costura Vinculante\".",
         "en": "After attacking an enemy afflicted with \"Seam Stitch,\" increases this unit's SPD by #1[i], stacking up to #3[i] time(s). When Garmentmaker takes action, automatically uses \"Thorned Snare,\" prioritizing enemies under the \"Seam Stitch\" state.",
-        "zh-CN": "攻击处于【间隙织线】状态的敌人后，使自身的速度提高#1[i]点，该效果最多叠加#3[i]层。衣匠行动时自动施放【刺纹之陷】，优先攻击处于【间隙织线】状态下的敌人。",
         "ja": "「隙を縫う糸」状態の敵を攻撃した後、自身の速度+#1[i]。この効果は最大で#3[i]層累積できる。\n「ラフトラ」は行動時に自動で「サイフォスの罠」を発動し、「隙を縫う糸」状態の敵を優先的に攻撃する。",
         "ko": "[틈새를 메우는 실] 상태의 적 공격 후 자신의 속도가 #1[i]pt 증가한다, 해당 효과 최대 중첩수: #3[i]스택. 의상공 행동 시 자동으로 [정곡을 찌르는 함정]을 발동하고, [틈새를 메우는 실] 상태의 적을 우선 공격한다"
       },
@@ -405,33 +361,24 @@
       "summary": {
         "pt-BR": "Após atacar um inimigo afligido com \"Costura Vinculante\", aumenta a VEL desta unidade. Enquanto estiver em ação, usa ataques automaticamente, priorizando inimigos no estado de \"Costura Vinculante\".",
         "en": "After attacking an enemy afflicted with \"Seam Stitch,\" increases this unit's SPD. When taking action, automatically uses attacks, prioritizing enemies under the \"Seam Stitch\" state.",
-        "zh-CN": "攻击处于【间隙织线】状态的敌人后，使自身的速度提高。行动时自动施放攻击，优先攻击处于【间隙织线】状态下的敌人。",
         "ja": "「隙を縫う糸」状態の敵を攻撃した後、自身の速度がアップする。行動時に自動で攻撃を行う。なお、「隙を縫う糸」状態の敵を優先的に攻撃する。",
         "ko": "[틈새를 메우는 실] 상태의 적을 공격하면 자신의 속도가 증가한다. 행동 시 자동으로 공격을 발동하고, [틈새를 메우는 실] 상태의 적을 우선 공격한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1140205,
       "type": "Other",
-      "name": {
-        "pt-BR": "O Verão Acelerado",
-        "en": "The Speeding Summer",
-        "zh-CN": "飞驰之夏",
-        "ja": "過ぎ去りし夏影",
-        "ko": "질주의 여름"
-      },
+      "name": { "pt-BR": "O Verão Acelerado", "en": "The Speeding Summer", "ja": "過ぎ去りし夏影", "ko": "질주의 여름" },
       "description": {
         "pt-BR": "Quando a Confeccionadora é invocada, a ação dessa unidade é Avançada Adiante em #1[i]%.",
         "en": "When Garmentmaker is summoned, this unit's action advances by #1[i]%.",
-        "zh-CN": "衣匠被召唤时，使自身行动提前#1[i]%。",
         "ja": "「ラフトラ」が召喚された時、自身の行動順が#1[i]%早まる。",
         "ko": "의상공이 소환될 시 자신의 행동 게이지가 #1[i]% 증가한다"
       },
@@ -441,18 +388,16 @@
       "summary": {
         "pt-BR": "Ao ser invocada, a ação dessa unidade é Avançada Adiante.",
         "en": "When summoned, this unit has its action advanced.",
-        "zh-CN": "被召唤时，使自身行动提前。",
         "ja": "召喚された時、自身の行動順が早まる。",
         "ko": "소환될 시 자신의 행동 게이지가 증가한다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1140206,
@@ -460,14 +405,12 @@
       "name": {
         "pt-BR": "Florescer da Grama Seca",
         "en": "Bloom of Drying Grass",
-        "zh-CN": "枯草之盈",
         "ja": "枯れ草の息吹",
         "ko": "메마른 풀의 풍성함"
       },
       "description": {
         "pt-BR": "Quando a Confeccionadora desaparece, regenera #1[i] de Energia para Aglaea.",
         "en": "When Garmentmaker disappears, regenerates #1[i] Energy for Aglaea.",
-        "zh-CN": "衣匠消失时，使阿格莱雅恢复#1[i]点能量。",
         "ja": "「ラフトラ」が退場する時、アグライアのEPを#1[i]回復する。",
         "ko": "의상공이 사라질 시 아글라이아의 에너지가 #1[i]pt 회복된다"
       },
@@ -477,18 +420,16 @@
       "summary": {
         "pt-BR": "Regenera Energia para Aglaea ao desaparecer.",
         "en": "Upon disappearing, regenerates Energy for Aglaea.",
-        "zh-CN": "消失时，使阿格莱雅恢复能量。",
         "ja": "退場する時、アグライアのEPを回復する。",
         "ko": "사라질 시 아글라이아의 에너지가 회복된다"
       },
       "typeText": {
         "pt-BR": "Talento do Memoespírito",
         "en": "Memosprite Talent",
-        "zh-CN": "忆灵天赋",
         "ja": "精霊天賦",
         "ko": "기억 정령 특성"
       },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -497,14 +438,12 @@
       "name": {
         "pt-BR": "Deriva ao Capricho de Vênus",
         "en": "Drift at the Whim of Venus",
-        "zh-CN": "飘曳金星的行列",
         "ja": "{RUBY_B#きん}金{RUBY_E#}の{RUBY_B#ほし}星{RUBY_E#}の{RUBY_B#きどう}軌道{RUBY_E#}を{RUBY_B#ただよ}漂{RUBY_E#}って",
         "ko": "흔들리는 금성의 행렬"
       },
       "description": {
         "pt-BR": "Inimigos afetados por \"Costura Vinculante\" recebem 15% de Dano aumentado. Após o ataque de Aglaea ou da \"Confeccionadora\" atingir esse alvo, Aglaea também regenera 20 de Energia.",
         "en": "The enemy afflicted with \"Seam Stitch\" takes 15% increased DMG. After Aglaea or Garmentmaker attacks this target, additionally regenerates 20 Energy.",
-        "zh-CN": "处于【间隙织线】状态下的敌人受到的伤害提高15%，阿格莱雅或衣匠攻击该目标后额外恢复20点能量。",
         "ja": "「隙を縫う糸」状態の敵の受けるダメージ+15%。アグライアまたは「ラフトラ」が「隙を縫う糸」状態の敵を攻撃した後、さらにEPを20回復する。",
         "ko": "[틈새를 메우는 실] 상태의 적이 받는 피해가 15% 증가한다. 아글라이아 또는 의상공이 해당 목표를 공격하면 추가로 에너지를 20pt 회복한다"
       },
@@ -517,14 +456,12 @@
       "name": {
         "pt-BR": "Navegue na Jangada das Pálpebras",
         "en": "Sail on the Raft of Eyelids",
-        "zh-CN": "行舟命运的眼睑",
         "ja": "{RUBY_B#うんめい}運命{RUBY_E#}の{RUBY_B#まぶた}瞼{RUBY_E#}を{RUBY_B#ゆ}行{RUBY_E#}く{RUBY_B#ふね}舟{RUBY_E#}",
         "ko": "운명의 눈꺼풀을 지나는 나룻배"
       },
       "description": {
         "pt-BR": "Quando Aglaea ou a \"Confeccionadora\" agem, o Dano causado por elas ignora 14% da DEF do alvo. Este efeito acumula até 3 vez(es) e dura até que qualquer unidade, exceto Aglaea ou a \"Confeccionadora\", utilize ativamente uma habilidade.",
         "en": "When Aglaea or Garmentmaker takes action, enables the DMG dealt by Aglaea and Garmentmaker to ignore 14% of the target's DEF. This effect stacks up to 3 time(s) and lasts until any unit, other than Aglaea or Garmentmaker, actively uses an ability.",
-        "zh-CN": "当阿格莱雅或衣匠行动时，使阿格莱雅与衣匠造成的伤害无视目标14%的防御力，该效果最多叠加3层，持续至除自身与衣匠以外的任意单位主动施放技能时。",
         "ja": "アグライアまたは「ラフトラ」が行動する時、アグライアとラフトラの与えるダメージが敵の防御力を14%無視する。この効果は最大で3層累積でき、アグライアとラフトラ以外の任意のユニットがスキルを発動する時まで継続する。",
         "ko": "아글라이아 또는 의상공이 행동 시 아글라이아와 의상공이 가하는 피해가 목표의 방어력을 14% 무시한다. 해당 효과는 최대 3스택 중첩되며, 자신과 의상공을 제외한 임의의 유닛이 직접 스킬을 발동할 때까지 지속된다"
       },
@@ -537,14 +474,12 @@
       "name": {
         "pt-BR": "Legado na Coalescência do Orvalho",
         "en": "Bequeath in the Coalescence of Dew",
-        "zh-CN": "华珠凝滞的礼物",
         "ja": "{RUBY_B#かれい}華麗{RUBY_E#}な{RUBY_B#つゆ}露{RUBY_E#}の{RUBY_B#たまもの}賜物{RUBY_E#}",
         "ko": "화려한 이슬의 선물"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. do Talento do Memoespírito +1, até um máximo de Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；忆灵天赋等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。精霊天賦のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 기억 정령 특성 레벨+1, 최대 Lv.10"
       },
@@ -565,14 +500,12 @@
       "name": {
         "pt-BR": "Cintilação Abaixo da Superfície do Mármore",
         "en": "Flicker Below the Surface of Marble",
-        "zh-CN": "大理石内的闪烁",
         "ja": "{RUBY_B#だいりせき}大理石{RUBY_E#}の{RUBY_B#うち}内{RUBY_E#}なる{RUBY_B#かがや}輝{RUBY_E#}き",
         "ko": "대리석 속 반짝임"
       },
       "description": {
         "pt-BR": "O efeito de Bônus de VEL do Talento do Memoespírito tem seu limite máximo de acúmulos aumentado em 1. Após Aglaea realizar um ataque, também pode fazer a \"Confeccionadora\" receber o efeito de Bônus de VEL do Talento do Memoespírito.",
         "en": "The SPD Boost effect from the Memosprite Talent has its max stack limit increased by 1. After Aglaea uses an attack, can also make Garmentmaker gain the SPD Boost effect from the Memosprite Talent.",
-        "zh-CN": "忆灵天赋的速度提高效果层数上限提高1层。阿格莱雅施放攻击后也能使衣匠获得忆灵天赋的速度提高效果。",
         "ja": "精霊天賦の速度アップ効果の累積上限+1層。「ラフトラ」はアグライアが攻撃を行った後にも、精霊天賦の速度アップ効果を獲得できる。",
         "ko": "기억 정령 특성의 속도 증가 효과 스택 수 상한이 1스택 증가한다. 아글라이아가 공격 발동 후에도 의상공이 기억 정령 특성의 속도 증가 효과를 획득할 수 있다"
       },
@@ -585,14 +518,12 @@
       "name": {
         "pt-BR": "Tecer sob o Sudário do Infortúnio",
         "en": "Weave Under the Shroud of Woe",
-        "zh-CN": "漆黑苦难的织者",
         "ja": "{RUBY_B#しっこく}漆黒{RUBY_E#}の{RUBY_B#くなん}苦難{RUBY_E#}の{RUBY_B#お}織{RUBY_E#}り{RUBY_B#て}手{RUBY_E#}",
         "ko": "칠흑의 고난을 엮는 자"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia do Memoespírito +1, até um máximo de Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；忆灵技等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。精霊スキルのLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 기억 정령 스킬 레벨+1, 최대 Lv.10"
       },
@@ -605,14 +536,12 @@
       "name": {
         "pt-BR": "Flutuar na Tapeçaria dos Destinos",
         "en": "Fluctuate in the Tapestry of Fates",
-        "zh-CN": "盈虚无常的金线",
         "ja": "{RUBY_B#くうきょ}空虚{RUBY_E#}で{RUBY_B#むじょう}無常{RUBY_E#}なる{RUBY_B#きんし}金糸{RUBY_E#}",
         "ko": "변화무상한 금실"
       },
       "description": {
         "pt-BR": "Enquanto Aglaea estiver em \"Postura Suprema\", aumenta a PEN de RES a Raio dela e da \"Confeccionadora\" em 20%. Quando a VEL de Aglaea ou da \"Confeccionadora\" for maior que 160/240/320, o Dano causado pelo Ataque Conjunto aumenta em 10%/30%/60%.",
         "en": "While Aglaea is in \"Supreme Stance,\" increases her and Garmentmaker's Lightning RES PEN by 20%. When Aglaea's or Garmentmaker's SPD is greater than 160/240/320, the Joint ATK DMG dealt by them increases by 10%/30%/60%.",
-        "zh-CN": "当阿格莱雅处于【至高之姿】状态时，自身与衣匠的雷属性抗性穿透提高20%，当阿格莱雅或衣匠的速度高于160/240/320点时，其造成的连携攻击伤害提高10%/30%/60%。",
         "ja": "アグライアが「至高の姿」状態の時、自身と「ラフトラ」の雷属性耐性貫通+20%。\nこの状態中、アグライアの速度が160/240/320を超える時、自身の連携攻撃ダメージ+10%/30%/60%。\nさらに、ラフトラの速度が160/240/320を超える時、自身の連携攻撃ダメージ+10%/30%/60%。",
         "ko": "아글라이아가 [지고의 자태] 상태일 시 자신과 의상공의 번개 속성 저항 관통이 20% 증가한다. 아글라이아 또는 의상공의 속도가 160/240/320pt를 초과할 시 가하는 연계 공격 피해가 10%/30%/60% 증가한다"
       },
@@ -992,14 +921,12 @@
       "name": {
         "pt-BR": "A Ruína do Míope",
         "en": "The Myopic's Doom",
-        "zh-CN": "短视之惩",
         "ja": "{RUBY_B#たんけん}短見{RUBY_E#}への{RUBY_B#さば}裁{RUBY_E#}き",
         "ko": "좁은 시야에 대한 징벌"
       },
       "description": {
         "pt-BR": "Enquanto em \"Postura Suprema\", aumenta o ATQ de Aglaea e da \"Confeccionadora\" em um valor igual a #1[i]% da VEL de Aglaea + #2[i]% da VEL da \"Confeccionadora\".",
         "en": "While in \"Supreme Stance,\" increases Aglaea's and Garmentmaker's ATK by an amount equal to #1[i]% of Aglaea's SPD plus #2[i]% of Garmentmaker's SPD.",
-        "zh-CN": "处于【至高之姿】状态时，阿格莱雅与衣匠的攻击力提高，提高数值等同于阿格莱雅速度的#1[i]%+衣匠速度的#2[i]%。",
         "ja": "「至高の姿」状態の時、アグライアおよび「ラフトラ」の攻撃力が、アグライアの速度#1[i]%分+ラフトラの速度#2[i]%分アップする。",
         "ko": "[지고의 자태] 상태일 시 아글라이아와 의상공의 공격력이 아글라이아 속도의 #1[i]%+의상공 속도의 #2[i]%만큼 증가한다"
       },
@@ -1023,14 +950,12 @@
       "name": {
         "pt-BR": "Último Fio do Destino",
         "en": "Last Thread of Fate",
-        "zh-CN": "织运之竭",
         "ja": "{RUBY_B#さいご}最後{RUBY_E#}の{RUBY_B#しきうん}織運{RUBY_E#}",
         "ko": "운명의 한계를 엮어"
       },
       "description": {
         "pt-BR": "Quando a Confeccionadora desaparece, até #1[i] acúmulo(s) do Bônus de VEL do Talento do Memoespírito pode(m) ser retido(s). Quando a Confeccionadora for invocada novamente, ganha o número correspondente de acúmulos de Bônus de VEL.",
         "en": "When Garmentmaker disappears, up to #1[i] stack(s) of the SPD Boost from the Memosprite Talent can be retained. When Garmentmaker is summoned again, gains the corresponding number of SPD Boost stacks.",
-        "zh-CN": "衣匠消失时，忆灵天赋的速度提高层数最多保留#1[i]层，衣匠再次被召唤时获得对应层数的速度提高效果。",
         "ja": "「ラフトラ」が退場する時、精霊天賦の速度アップ効果の層数を最大で#1[i]層まで保持する。ラフトラが再度召喚された時、保持していた層数分の速度アップ効果を獲得する。",
         "ko": "의상공이 사라질 시 기억 정령 특성의 속도 증가 스택 수가 최대 #1[i]스택 유지되고, 의상공이 다시 소환될 시 대응하는 스택 수의 속도 증가 효과를 획득한다"
       },
@@ -1059,14 +984,12 @@
       "name": {
         "pt-BR": "O Amanhecer Acelerado",
         "en": "The Speeding Sol",
-        "zh-CN": "飞驰之阳",
         "ja": "{RUBY_B#せつな}刹那{RUBY_E#}の{RUBY_B#ようこう}陽光{RUBY_E#}",
         "ko": "질주의 태양"
       },
       "description": {
         "pt-BR": "No início da batalha, se a Energia desta unidade for inferior a #1[i]%, regenera a Energia desta unidade até #2[i]%.",
         "en": "At the start of battle, if this unit's Energy is lower than #1[i]%, regenerates this unit's Energy to #2[i]%.",
-        "zh-CN": "战斗开始时，若自身能量不足#1[i]%，恢复自身能量至#2[i]%。",
         "ja": "戦闘開始時、自身のEPが#1[i]%未満の場合、EPを#2[i]%まで回復する。",
         "ko": "전투 시작 시 자신의 에너지가 #1[i]% 미만이면 자신의 에너지를 #2[i]%까지 회복한다"
       },
@@ -1095,7 +1018,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Raio",
         "en": "DMG Boost: Lightning",
-        "zh-CN": "伤害强化•雷",
         "ja": "ダメージ強化・雷",
         "ko": "피해 강화•번개"
       },
@@ -1118,7 +1040,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1141,7 +1062,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Raio",
         "en": "DMG Boost: Lightning",
-        "zh-CN": "伤害强化•雷",
         "ja": "ダメージ強化・雷",
         "ko": "피해 강화•번개"
       },
@@ -1161,7 +1081,7 @@
     {
       "id": 1402204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1402101],
@@ -1181,7 +1101,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Raio",
         "en": "DMG Boost: Lightning",
-        "zh-CN": "伤害强化•雷",
         "ja": "ダメージ強化・雷",
         "ko": "피해 강화•번개"
       },
@@ -1204,7 +1123,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1227,7 +1145,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Raio",
         "en": "DMG Boost: Lightning",
-        "zh-CN": "伤害强化•雷",
         "ja": "ダメージ強化・雷",
         "ko": "피해 강화•번개"
       },
@@ -1247,7 +1164,7 @@
     {
       "id": 1402208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1402103],
@@ -1267,7 +1184,6 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
-        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1290,7 +1206,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Raio",
         "en": "DMG Boost: Lightning",
-        "zh-CN": "伤害强化•雷",
         "ja": "ダメージ強化・雷",
         "ko": "피해 강화•번개"
       },
@@ -1313,7 +1228,6 @@
       "name": {
         "pt-BR": "Armadilha de Espinhos",
         "en": "Thorned Snare",
-        "zh-CN": "刺纹之陷",
         "ja": "サイフォスの{RUBY_B#わな}罠{RUBY_E#}",
         "ko": "정곡을 찌르는 함정"
       },
@@ -1361,7 +1275,6 @@
       "name": {
         "pt-BR": "Um Corpo Feito de Lágrimas",
         "en": "A Body Brewed by Tears",
-        "zh-CN": "泪水锻造的匠躯",
         "ja": "{RUBY_B#なみだ}涙{RUBY_E#}で{RUBY_B#きた}鍛{RUBY_E#}えし{RUBY_B#たくみ}匠{RUBY_E#}の{RUBY_B#むくろ}躯{RUBY_E#}",
         "ko": "눈물로 단조한 장인의 몸"
       },

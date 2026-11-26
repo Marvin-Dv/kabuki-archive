@@ -1,13 +1,7 @@
 {
   "id": 110506,
   "slug": "auspice-sliver",
-  "name": {
-    "pt-BR": "Farpa Auspiciosa",
-    "en": "Auspice Sliver",
-    "zh-CN": "吉光片羽",
-    "ja": "吉光の羽",
-    "ko": "길광편우"
-  },
+  "name": { "pt-BR": "Farpa Auspiciosa", "en": "Auspice Sliver", "ja": "吉光の羽", "ko": "길광편우" },
   "rarity": 4,
   "type": "Material",
   "subType": "WeeklyMonsterDrop",
@@ -17,7 +11,6 @@
   "sources": {
     "en": ["Echo of War: Skysplitter"],
     "pt-BR": ["Eco da Guerra: Cruzador Celeste"],
-    "zh-CN": ["历战余响【竞锋舰】"],
     "ja": ["歴戦余韻「競鋒艦」"],
     "ko": ["전쟁의 여운 [경기 함선]"]
   }

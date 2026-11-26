@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Bastão de Raio de Transformador",
     "en": "Shape Shifter's Lightning Staff",
-    "zh-CN": "炼形者雷枝",
     "ja": "鍛錬者の雷枝",
     "ko": "조형자의 번개 지팡이"
   },
@@ -17,7 +16,6 @@
   "sources": {
     "en": ["Stagnant Shadow: Stargazer Navalia", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Porto Estelarium", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【迴星港】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「廻星港」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [회성항]", "「만능 합성기」- 재료 치환"]
   }

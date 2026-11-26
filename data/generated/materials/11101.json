@@ -1,13 +1,7 @@
 {
   "id": 11101,
   "slug": "bronyas-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Bronya",
-    "en": "Bronya's Eidolon",
-    "zh-CN": "【布洛妮娅】的星魂",
-    "ja": "「ブローニャ」の星魂",
-    "ko": "[브로냐]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Bronya", "en": "Bronya's Eidolon", "ja": "「ブローニャ」の星魂", "ko": "[브로냐]의 성혼" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

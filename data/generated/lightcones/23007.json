@@ -1,13 +1,7 @@
 {
   "id": 23007,
   "slug": "incessant-rain",
-  "name": {
-    "pt-BR": "Chuva Constante",
-    "en": "Incessant Rain",
-    "zh-CN": "雨一直下",
-    "ja": "降りやまぬ雨",
-    "ko": "계속 내리는 비"
-  },
+  "name": { "pt-BR": "Chuva Constante", "en": "Incessant Rain", "ja": "降りやまぬ雨", "ko": "계속 내리는 비" },
   "rarity": 5,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
@@ -15,22 +9,14 @@
   "description": {
     "pt-BR": "Ela deixa a proteção da marquise, abre o guarda-chuva e entre em um beco cantarolando uma melodia alegre.\nA chuva para pouco tempo depois.\nEla coça a cabeça e desbloqueia a tela. Após alguns toques, gotas de chuva começam a cair numa área não maior que a de seu guarda-chuva.\nO tamborilar das gotas se mistura à música do jogo, formando uma sinfonia calma e relaxante.\n\"Jogar combina muito com essa chuvinha\".",
     "en": "She leaves the cover of the awning, opens her umbrella, and dives into an alley while humming a lighthearted tune.\nThe rain stops a little while after.\nShe scratches her head and swipes her screen open. After a few taps, raindrops begin to fall in an area no wider than her umbrella.\nThe pitter-patter sound of raindrops on the umbrella mixes with music from the game. All was calm and relaxing.\n\"Gaming and rain totally go together.\"",
-    "zh-CN": "她走出屋檐下，打着伞哼着歌钻进小巷的角落。\n不多一会儿，雨声停了。\n她挠挠头，滑动屏幕，头上的一小片空间内，雨丝再次滑落。\n听着淅淅沥沥的雨声打落在伞面上，配合游戏的音效，她心情格外的好。\n「还是下雨天打游戏最痛快。」",
     "ja": "屋根の下を出たら、傘をさして鼻歌を歌いながら路地の奥にもぐりこむ彼女。\nしばらくすると、雨が止む。\n彼女は少し悩む。そしてスクリーンをスライドしたら、頭上のわずかなスペースに、再び雨が滑り込んだ。\n雨が傘にあたる音とゲームのBGMに、彼女は上機嫌。\n「やっぱり雨の日にゲームをやるのが一番楽しい」",
     "ko": "그녀는 처마 밑에서 우산을 쓰고 콧노래를 부르며 골목으로 들어간다.\n얼마 지나지 않아 비가 그쳤다.\n그녀는 머리를 긁적이며 화면을 닦았고, 머리 위 작은 공간에서 빗줄기가 다시 미끄러진다.\n우산 위로 떨어지는 빗소리와 게임 소리가 들리자, 그녀는 한껏 들뜬다.\n「역시 비가 오는 날에는 게임이 최고야」"
   },
   "skill": {
-    "name": {
-      "pt-BR": "Miragem da Realidade",
-      "en": "Mirage of Reality",
-      "zh-CN": "幻影现实",
-      "ja": "幻影と現実",
-      "ko": "현실 속 신기루"
-    },
+    "name": { "pt-BR": "Miragem da Realidade", "en": "Mirage of Reality", "ja": "幻影と現実", "ko": "현실 속 신기루" },
     "description": {
       "pt-BR": "Aumenta a Taxa de Acerto de Efeito do usuário em #1[i]%. Quando o usuário causa Dano a um inimigo com #4[i] ou mais penalidades no momento, aumenta a Chance de CRIT do usuário em #5[i]%. Depois que o usuário usar o seu ATQ Básico, Perícia ou Perícia Suprema, existe uma chance-base de #2[i]% de implantar Código do Éter em um alvo aleatório que ainda não esteja com Código do Éter. Alvos com Código do Éter recebem #3[i]% a mais de Dano por 1 rodada.",
       "en": "Increases the wearer's Effect Hit Rate by #1[i]%. When the wearer deals DMG to an enemy that currently has #4[i] or more debuffs, increases the wearer's CRIT Rate by #5[i]%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a #2[i]% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive #3[i]% increased DMG for 1 turn.",
-      "zh-CN": "使装备者的效果命中提高#1[i]%。当装备者对同时处于大于等于#4[i]个负面效果的敌方目标造成伤害时，暴击率提高#5[i]%。装备者施放普攻、战技、终结技后，有#2[i]%的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高#3[i]%，持续1回合。",
       "ja": "装備キャラの効果命中+#1[i]%。デバフが#4[i]つ以上ある敵にダメージを与える時、装備キャラの会心率+#5[i]%。装備キャラが通常攻撃、戦闘スキルまたは必殺技を発動した後、#2[i]%の基礎確率で攻撃を受けた敵の中から、「エーテルコード」を付与されてないランダムな敵1体に「エーテルコード」を付与する。「エーテルコード」を付与された敵の受けるダメージ+#3[i]%、1ターン継続。",
       "ko": "장착한 캐릭터의 효과 명중이 #1[i]% 증가한다. 장착한 캐릭터가 동시에 디버프 효과 #4[i]개 이상인 적에게 피해를 가하면 치명타 확률이 #5[i]% 증가한다. 장착한 캐릭터가 일반 공격, 전투 스킬, 필살기 발동 후 #2[i]%의 기본 확률로 [에테르 코드]를 보유하지 않은 랜덤 피격 목표 1기에 [에테르 코드]를 부여한다. [에테르 코드]를 보유한 목표가 받는 피해가 #3[i]% 증가한다. 지속 시간: 1턴"
     },

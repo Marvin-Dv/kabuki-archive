@@ -1,13 +1,7 @@
 {
   "id": 8004,
   "slug": "trailblazer-8004",
-  "name": {
-    "pt-BR": "{NICKNAME}",
-    "en": "{NICKNAME}",
-    "zh-CN": "{NICKNAME}",
-    "ja": "{NICKNAME}",
-    "ko": "{NICKNAME}"
-  },
+  "name": { "pt-BR": "{NICKNAME}", "en": "{NICKNAME}", "ja": "{NICKNAME}", "ko": "{NICKNAME}" },
   "rarity": 5,
   "path": "Preservation",
   "element": "Fire",
@@ -20,14 +14,12 @@
       "name": {
         "pt-BR": "Luz Quebra-Gelo",
         "en": "Ice-Breaking Light",
-        "zh-CN": "穿彻坚冰的烈芒",
         "ja": "堅氷を貫く烈火",
         "ko": "얼음을 관통하는 빛"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo e ganha 1 acúmulo de Vontade de Magma.",
         "en": "Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and gains 1 stack of \"Magma Will.\"",
-        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的火属性伤害并叠加1层【灼热意志】。",
         "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の炎属性ダメージを与え、「灼熱意志」を1層獲得する。",
         "ko": "지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 화염 속성 피해를 주며, [불타는 의지]를 1스택 중첩한다"
       },
@@ -37,27 +29,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a um único inimigo e ganha Vontade de Magma.",
         "en": "Deals minor Fire DMG to one enemy and gains \"Magma Will.\"",
-        "zh-CN": "对敌方单体造成少量火属性伤害，获得【灼热意志】。",
         "ja": "敵単体に少量の炎属性ダメージを与え、「灼熱意志」を獲得。",
         "ko": "단일 적에게 소량의 화염 속성 피해를 주고 [불타는 의지]를 획득한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 800402,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Âmbar Ardente",
-        "en": "Ever-Burning Amber",
-        "zh-CN": "炽燃不灭的琥珀",
-        "ja": "不滅のアンバー",
-        "ko": "타오르는 불멸의 앰버"
-      },
+      "name": { "pt-BR": "Âmbar Ardente", "en": "Ever-Burning Amber", "ja": "不滅のアンバー", "ko": "타오르는 불멸의 앰버" },
       "description": {
         "pt-BR": "Aumenta a Redução de Dano {F#da Desbravadora}{M#do Desbravador} em #1[i]% e ganha 1 acúmulo da Vontade de Magma, com #2[i]% de chance-base de Provocar todos os inimigos por #3[i] rodada(s).",
         "en": "Increases the Trailblazer's DMG Reduction by #1[i]% and gains 1 stack of Magma Will, with a #2[i]% base chance to Taunt all enemies for #3[i] turn(s).",
-        "zh-CN": "施放战技后，开拓者受到的伤害降低#1[i]%并叠加1层【灼热意志】，此外有#2[i]%基础概率使敌方全体陷入嘲讽状态，持续#3[i]回合。",
         "ja": "戦闘スキルを発動した後、開拓者の受けるダメージ-#1[i]%、「灼熱意志」を1層獲得、さらに#2[i]%の基礎確率で敵全体を挑発状態にする、#3[i]ターン継続。",
         "ko": "전투 스킬 발동 후 개척자가 받는 피해가 #1[i]% 감소하고 [불타는 의지]를 1스택 중첩한다. #2[i]%의 기본 확률로 모든 적이 도발 상태에 빠진다. 지속 시간: #3[i]턴"
       },
@@ -83,12 +67,11 @@
       "summary": {
         "pt-BR": "Reduz o Dano recebido e recebe Vontade de Magma, com uma alta chance de Provocar todos os inimigos.",
         "en": "Reduces DMG taken and gains Magma Will, with a high chance to Taunt all enemies.",
-        "zh-CN": "降低自身受到的伤害，并获得【灼热意志】，大概率使敌方全体陷入嘲讽状态。",
         "ja": "自身の受けるダメージダウン、「灼熱意志」を獲得、高確率で敵全体を挑発状態にする。",
         "ko": "자신이 받는 피해가 감소하고 [불타는 의지]를 획득하며, 높은 확률로 모든 적을 도발 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Defesa", "en": "Defense", "ja": "防御", "ko": "방어" }
     },
     {
       "id": 800403,
@@ -96,14 +79,12 @@
       "name": {
         "pt-BR": "Lança das Chamas da Guerra",
         "en": "War-Flaming Lance",
-        "zh-CN": "陷阵无回的炎枪",
         "ja": "陥陣無帰の炎槍",
         "ko": "임전무퇴 화염의 랜스"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} mais #2[i]% da DEF {F#da Desbravadora}{M#do Desbravador} a todos os inimigos. O próximo ATQ Básico será automaticamente aprimorado e não custará Vontade de Magma.",
         "en": "Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
-        "zh-CN": "对敌方全体造成等同于开拓者#1[i]%攻击力+#2[i]%防御力的火属性伤害。下一次施放普攻时，自动获得强化且不消耗【灼热意志】。",
         "ja": "敵全体に開拓者の攻撃力#1[i]%+防御力#2[i]%分の炎属性ダメージを与える。次の通常攻撃を強化、その強化通常攻撃は「灼熱意志」を消費しない。",
         "ko": "모든 적에게 개척자 공격력 #1[i]%+방어력 #2[i]%만큼의 화염 속성 피해를 준다. 다음 일반 공격 발동 시 자동으로 강화를 획득하며 [불타는 의지]를 소모하지 않는다"
       },
@@ -129,12 +110,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a todos os inimigos e aprimora o próximo ATQ Básico desta unidade.",
         "en": "Deals Fire DMG to all enemies and enhances this unit's next Basic ATK.",
-        "zh-CN": "对敌方全体造成火属性伤害，强化下一次的普攻。",
         "ja": "敵全体に炎属性ダメージを与え、次の通常攻撃を強化。",
         "ko": "모든 적에게 화염 속성 피해를 주고, 다음번 일반 공격을 강화한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 800404,
@@ -142,14 +122,12 @@
       "name": {
         "pt-BR": "Tesouro dos Arquitetos",
         "en": "Treasure of the Architects",
-        "zh-CN": "筑城者遗宝",
         "ja": "建創者の失われし宝",
         "ko": "축성가의 유물"
       },
       "description": {
         "pt-BR": "Sempre que {F#a Desbravadora}{M#o Desbravador} sofre um golpe, ganha 1 acúmulo de Vontade de Magma até #3[i] vez(es).\nQuando Vontade de Magma tiver pelo menos 4 acúmulos, o ATQ Básico {F#da Desbravadora}{M#do Desbravador} é aprimorado, causando Dano a um único inimigo e aos inimigos adjacentes a ele.\nQuando {F#a Desbravadora}{M#o Desbravador} usar ATQ Básico, Perícia ou Perícia Suprema, um Escudo que absorve Dano igual a #1[f1]% da DEF {F#da Desbravadora}{M#do Desbravador} + #4[i] será concedido a todos os aliados. O Escudo dura #2[i] rodada(s).",
         "en": "Each time the Trailblazer is hit, they gain 1 stack of \"Magma Will\" for a max of #3[i] stack(s).\nWhen \"Magma Will\" has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to one designated enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[f1]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).",
-        "zh-CN": "每受到1次攻击，叠加1层【灼热意志】，最多可叠加#3[i]层。\n【灼热意志】层数不低于4时，普攻将获得强化，对指定敌方单体及其相邻目标同时造成伤害。\n开拓者施放普攻、战技、终结技后，为我方全体提供能够抵消等同于开拓者#1[f1]%防御力+#4[i]伤害的护盾，持续#2[i]回合。",
         "ja": "攻撃を1回受けるごとに、「灼熱意志」を1層獲得、最大で#3[i]層累積できる。\n「灼熱意志」の層数が4以上である場合は通常攻撃が強化され、指定した敵単体および隣接する敵にダメージを与える。\n開拓者が通常攻撃、戦闘スキル、必殺技を発動した後、味方全体に開拓者の防御力#1[f1]%+#4[i]の耐久値を持つバリアを付与する。バリアは#2[i]ターン継続。",
         "ko": "피격될 때마다 [불타는 의지]를 1스택 중첩한다. 최대 중첩수: #3[i]스택\n[불타는 의지]가 4스택 이상일 경우 일반 공격이 강화되며, 지정된 단일 적 및 인접한 목표에게 피해를 준다.\n개척자가 일반 공격, 전투 스킬, 필살기 발동 후 모든 아군에게 개척자 방어력 #1[f1]%+#4[i]만큼의 피해를 상쇄할 수 있는 실드를 제공한다. 지속 시간: #2[i]턴"
       },
@@ -175,21 +153,19 @@
       "summary": {
         "pt-BR": "Ao receber um ataque, acumula \"Vontade de Magma\". Quando \"Vontade de Magma\" possuir ao menos 4 acúmulos, o ATQ Básico é aprimorado. Após usar o ATQ Básico, a Perícia ou a Perícia Suprema, fornece um Escudo para a Equipe.",
         "en": "When attacked, stacks \"Magma Will.\" When \"Magma Will\" is at no fewer than 4 stacks, Basic ATK gets enhanced. After using Basic ATK, Skill, or Ultimate, provides a Shield for team.",
-        "zh-CN": "被攻击时叠加【灼热意志】，【灼热意志】不低于4层时，普攻获得强化。施放普攻、战技、终结技后，为我方全体提供护盾。",
         "ja": "攻撃を受けると「灼熱意志」を獲得する。「灼熱意志」が4層以上の時、通常攻撃が強化される。通常攻撃、戦闘スキル、または必殺技を発動した後、味方全体にバリアを付与する。",
         "ko": "피격 시 [불타는 의지]를 중첩한다. [불타는 의지]가 4스택 이상일 시 일반 공격이 강화된다. 일반 공격, 전투 스킬, 필살기 발동 후 모든 아군에게 실드를 제공한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 800406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -198,7 +174,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -209,14 +184,12 @@
       "name": {
         "pt-BR": "Chamado do Guardião",
         "en": "Call of the Guardian",
-        "zh-CN": "守护者召令",
         "ja": "守護者命令",
         "ko": "수호자의 부름"
       },
       "description": {
         "pt-BR": "Após usar Técnica, no início da próxima batalha, ganha um Escudo que absorve Dano igual a #1[i]% da DEF {F#da Desbravadora}{M#do Desbravador} mais #2[i] por #3[i] rodada(s).",
         "en": "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).",
-        "zh-CN": "使用秘技后，下一次战斗开始时给自身提供能够抵消等同于开拓者#1[i]%防御力+#2[i]伤害的护盾，持续#3[i]回合。",
         "ja": "秘技を使用した後、次の戦闘開始時、自身に開拓者の防御力#1[i]%+#2[i]の耐久値を持つバリアを付与する、#3[i]ターン継続。",
         "ko": "비술 발동 후 다음 전투 시작 시 자신에게 개척자 방어력 #1[i]%+#2[i]만큼의 피해를 상쇄할 수 있는 실드를 제공한다. 지속 시간: #3[i]턴"
       },
@@ -226,12 +199,11 @@
       "summary": {
         "pt-BR": "Depois de usar a Técnica, concede um Escudo para esta unidade no início da próxima batalha.",
         "en": "After using Technique, provides a Shield for this unit at the start of the next battle.",
-        "zh-CN": "使用秘技后，下一次战斗开始时给自身提供护盾。",
         "ja": "秘技を使用した後、次の戦闘開始時に自身にバリアを付与する。",
         "ko": "비술 사용 후 다음 전투 시작 시 자신에게 실드를 제공한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "防御", "ja": "防御", "ko": "방어" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Defesa", "en": "Defense", "ja": "防御", "ko": "방어" }
     },
     {
       "id": 800408,
@@ -239,14 +211,12 @@
       "name": {
         "pt-BR": "Luz Quebra-Gelo",
         "en": "Ice-Breaking Light",
-        "zh-CN": "穿彻坚冰的烈芒",
         "ja": "堅氷を貫く烈火",
         "ko": "얼음을 관통하는 빛"
       },
       "description": {
         "pt-BR": "Consome 4 acúmulos de Vontade de Magma para aprimorar o ATQ Básico, causando Dano de Fogo igual a #1[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} a um único inimigo e Dano de Fogo igual a #2[i]% do ATQ {F#da Desbravadora}{M#do Desbravador} aos inimigos adjacentes a ele.",
         "en": "Consumes 4 stacks of \"Magma Will\" to enhance Basic ATK, dealing Fire DMG equal to #1[i]% of the Trailblazer's ATK to one designated enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.",
-        "zh-CN": "消耗4层【灼热意志】，强化普攻。对指定敌方单体造成等同于开拓者#1[i]%攻击力的火属性伤害，同时对其相邻目标造成等同于开拓者#2[i]%攻击力的火属性伤害。",
         "ja": "「灼熱意志」を4層消費して、通常攻撃を強化。指定した敵単体に開拓者の攻撃力#1[i]%分の炎属性ダメージを与え、隣接する敵に開拓者の攻撃力#2[i]%分の炎属性ダメージを与える。",
         "ko": "[불타는 의지]를 4스택 소모하고 일반 공격을 강화한다. 지정된 단일 적에게 개척자 공격력 #1[i]%만큼의 화염 속성 피해를 주며, 인접한 목표에게도 개척자 공격력 #2[i]%만큼의 화염 속성 피해를 준다"
       },
@@ -267,12 +237,11 @@
       "summary": {
         "pt-BR": "Consome Vontade de Magma, e então causa Dano de Fogo a um único inimigo e Dano de Fogo leve aos inimigos adjacentes a ele.",
         "en": "Consumes \"Magma Will,\" then deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.",
-        "zh-CN": "消耗【灼热意志】，对敌方单体造成火属性伤害，对相邻目标造成少量火属性伤害。",
         "ja": "「灼熱意志」を消費し、敵単体に炎属性ダメージを与え、隣接する敵に少量の炎属性ダメージを与える。",
         "ko": "[불타는 의지]를 소모해 단일 적에게 화염 속성 피해를 주고, 인접한 목표에게 소량의 화염 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -281,14 +250,12 @@
       "name": {
         "pt-BR": "Ressonância Sísmica",
         "en": "Earth-Shaking Resonance",
-        "zh-CN": "大地芯髓的鸣动",
         "ja": "{RUBY_B#だいちしんずい}大地芯髄{RUBY_E#}の{RUBY_B#めいどう}鳴動{RUBY_E#}",
         "ko": "대지의 울부짖음"
       },
       "description": {
         "pt-BR": "Quando {F#a Desbravadora}{M#o Desbravador} usa seu ATQ Básico, adicionalmente causa Dano de Fogo igual a 25% da DEF {F#da Desbravadora}{M#do Desbravador}. Ao usar seu ATQ Básico Aprimorado, {F#a Desbravadora}{M#o Desbravador} adicionalmente causa Dano de Fogo igual a 50% de sua DEF.",
         "en": "When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, additionally deals Fire DMG equal to 50% of the Trailblazer's DEF.",
-        "zh-CN": "施放普攻时，额外造成等同于开拓者25%防御力的火属性伤害；施放强化普攻时，额外造成等同于开拓者50%防御力的火属性伤害。",
         "ja": "通常攻撃を行った時、さらに開拓者の防御力25%分の炎属性ダメージを与える。強化通常攻撃を行った時、さらに開拓者の防御力50%分の炎属性ダメージを与える。",
         "ko": "일반 공격 발동 시 추가로 개척자 방어력 25%만큼의 화염 속성 피해를 가한다. 일반 공격 강화 발동 시 추가로 개척자 방어력 50%만큼의 화염 속성 피해를 가한다"
       },
@@ -301,14 +268,12 @@
       "name": {
         "pt-BR": "Tenacidade que Desafia o Tempo",
         "en": "Time-Defying Tenacity",
-        "zh-CN": "古老寒铁的坚守",
         "ja": "{RUBY_B#ふる}古{RUBY_E#}き{RUBY_B#かんてつ}寒鉄{RUBY_E#}の{RUBY_B#けんしゅ}堅守{RUBY_E#}",
         "ko": "옛 한철의 굳건함"
       },
       "description": {
         "pt-BR": "O Escudo aplicado a todos os aliados pelo Talento {F#da Desbravadora}{M#do Desbravador} bloqueará Dano extra igual a 2% da DEF {F#da Desbravadora}{M#do Desbravador} + 27.",
         "en": "The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27.",
-        "zh-CN": "触发天赋时，为我方全体提供的护盾能够额外抵消等同于开拓者防御力2%+27的伤害。",
         "ja": "天賦発動時、味方全体に付与するバリアの耐久値が、開拓者の防御力2%+27アップする。",
         "ko": "특성 발동 시 모든 아군에게 제공한 실드가 개척자 방어력 2%+27만큼의 피해를 추가로 상쇄할 수 있다"
       },
@@ -321,14 +286,12 @@
       "name": {
         "pt-BR": "Projeto de Desbravamento",
         "en": "Trail-Blazing Blueprint",
-        "zh-CN": "砌造未来的蓝图",
         "ja": "{RUBY_B#みらい}未来{RUBY_E#}を{RUBY_B#きづ}築{RUBY_E#}く{RUBY_B#あおず}青図{RUBY_E#}",
         "ko": "미래를 축조하는 청사진"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -341,14 +304,12 @@
       "name": {
         "pt-BR": "Juramento Fundador de Nações",
         "en": "Nation-Building Oath",
-        "zh-CN": "驻留文明的誓言",
         "ja": "{RUBY_B#ぶんめい}文明{RUBY_E#}に{RUBY_B#とど}留{RUBY_E#}まる{RUBY_B#ちか}誓{RUBY_E#}い",
         "ko": "문명에 머무는 맹세"
       },
       "description": {
         "pt-BR": "No início da batalha, ganha 4 acúmulo(s) de Vontade de Magma imediatamente.",
         "en": "At the start of the battle, immediately gains 4 stack(s) of Magma Will.",
-        "zh-CN": "战斗开始时，立即获得4层【灼热意志】。",
         "ja": "戦闘開始時、「灼熱意志」を4層獲得する。",
         "ko": "전투 시작 시 [불타는 의지]를 즉시 4스택 획득한다"
       },
@@ -361,14 +322,12 @@
       "name": {
         "pt-BR": "Chama Aquece-Espírito",
         "en": "Spirit-Warming Flame",
-        "zh-CN": "点燃光焰的勇气",
         "ja": "{RUBY_B#こうえん}光焔{RUBY_E#}を{RUBY_B#も}燃{RUBY_E#}やす{RUBY_B#ゆうき}勇気{RUBY_E#}",
         "ko": "불을 지필 용기"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -381,14 +340,12 @@
       "name": {
         "pt-BR": "Bastião Forja-Cidades",
         "en": "City-Forging Bulwarks",
-        "zh-CN": "永屹城垣的壁垒",
         "ja": "{RUBY_B#えいせい}永世{RUBY_E#}に{RUBY_B#そび}聳{RUBY_E#}える{RUBY_B#へきるい}壁塁{RUBY_E#}",
         "ko": "영원토록 굳건한 성벽"
       },
       "description": {
         "pt-BR": "Após {M#o Desbravador}{F#a Desbravadora} usar um ATQ Básico aprimorado ou a Perícia Suprema aprimorada, a DEF {M#dele}{F#dela} aumenta em 10%. Acumula até 3 vez(es).",
         "en": "After the Trailblazer uses enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s).",
-        "zh-CN": "施放强化普攻或终结技后，开拓者的防御力提高10%，最多叠加3层。",
         "ja": "強化通常攻撃または必殺技を発動した後、開拓者の防御力+10%、最大で3層累積できる。",
         "ko": "일반 공격 강화 혹은 필살기 발동 후 개척자의 방어력이 10% 증가한다. 최대 중첩수: 3스택"
       },
@@ -753,14 +710,12 @@
       "name": {
         "pt-BR": "Os Fortes Defendem os Fracos",
         "en": "The Strong Defend the Weak",
-        "zh-CN": "强援弱",
         "ja": "{RUBY_B#よわ}弱{RUBY_E#}きを{RUBY_B#たす}助{RUBY_E#}け",
         "ko": "약자를 돕는 강자"
       },
       "description": {
         "pt-BR": "Após usar a Perícia, reduz em #2[i]% o Dano recebido por todos os aliados por #3[i] rodada(s).",
         "en": "After using the Skill, the DMG taken by all allies decreases by #2[i]% for #3[i] turn(s).",
-        "zh-CN": "施放战技后，我方全体受到的伤害降低#2[i]%，持续#3[i]回合。",
         "ja": "戦闘スキルを発動した後、味方全体の受けるダメージ-#2[i]%、#3[i]ターン継続。",
         "ko": "전투 스킬 발동 후 모든 아군이 받는 피해가 #2[i]% 감소한다. 지속 시간: #3[i]턴"
       },
@@ -784,14 +739,12 @@
       "name": {
         "pt-BR": "Galanteria Inabalável",
         "en": "Unwavering Gallantry",
-        "zh-CN": "生先死",
         "ja": "{RUBY_B#し}死{RUBY_E#}の{RUBY_B#まえ}前{RUBY_E#}に{RUBY_B#せい}生{RUBY_E#}を",
         "ko": "죽음 앞의 생"
       },
       "description": {
         "pt-BR": "Usar o ATQ Básico Aprimorado restaura #1[i]% dos PV máximos {F#da}{M#do} Desbrava{M#dor}{F#dora}.",
         "en": "Using Enhanced Basic ATK restores the Trailblazer's HP by #1[i]% of their Max HP.",
-        "zh-CN": "开拓者施放强化普攻后，回复等同于自身生命上限#1[i]%的生命值。",
         "ja": "開拓者が強化通常攻撃を行った後、HPを最大HP#1[i]%分回復する。",
         "ko": "개척자가 일반 공격 강화를 발동하면 자신 HP 최대치의 #1[i]%만큼의 HP를 회복한다"
       },
@@ -820,14 +773,12 @@
       "name": {
         "pt-BR": "É Melhor Agir do que Pensar Demais",
         "en": "Action Beats Overthinking",
-        "zh-CN": "行胜思",
         "ja": "{RUBY_B#かんが}考{RUBY_E#}えるより{RUBY_B#こうどう}行動{RUBY_E#}",
         "ko": "생각보다 행동"
       },
       "description": {
         "pt-BR": "Quando {F#a}{M#o} Desbrava{M#dor}{F#dora} recebe proteção de um Escudo no início da rodada, aumenta seu ATQ em #2[i]% e regenera #1[i] de Energia até a ação ser encerrada.",
         "en": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases their ATK by #2[i]% and regenerates #1[i] Energy until the action is over.",
-        "zh-CN": "回合开始时，若开拓者持有护盾保护，则攻击力提高#2[i]%并恢复#1[i]点能量，持续到行动结束。",
         "ja": "ターンが回ってきた時、開拓者がバリアを持つ場合、攻撃力+#2[i]%、EPを#1[i]回復する、効果は行動終了まで継続。",
         "ko": "턴 시작 시 개척자가 실드의 가호를 지닌 경우, 행동이 끝날 때까지 공격력이 #2[i]% 증가하고 에너지를 #1[i]pt 회복한다. 행동 종료까지 지속된다"
       },
@@ -853,7 +804,7 @@
     {
       "id": 8004201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -870,7 +821,7 @@
     {
       "id": 8004202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8004101],
@@ -887,7 +838,7 @@
     {
       "id": 8004203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [8004202],
@@ -904,7 +855,7 @@
     {
       "id": 8004204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -921,7 +872,7 @@
     {
       "id": 8004205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [8004102],
@@ -938,7 +889,7 @@
     {
       "id": 8004206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8004205],
@@ -955,7 +906,7 @@
     {
       "id": 8004207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -972,7 +923,7 @@
     {
       "id": 8004208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [8004103],
@@ -989,7 +940,7 @@
     {
       "id": 8004209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8004208],
@@ -1006,7 +957,7 @@
     {
       "id": 8004210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [8004208],

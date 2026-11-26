@@ -1,7 +1,7 @@
 {
   "id": 1217,
   "slug": "huohuo",
-  "name": { "pt-BR": "Huohuo", "en": "Huohuo", "zh-CN": "藿藿", "ja": "フォフォ", "ko": "곽향" },
+  "name": { "pt-BR": "Huohuo", "en": "Huohuo", "ja": "フォフォ", "ko": "곽향" },
   "rarity": 5,
   "path": "Abundance",
   "element": "Wind",
@@ -14,14 +14,12 @@
       "name": {
         "pt-BR": "Estandarte: Invoca-Tempestades",
         "en": "Banner: Stormcaller",
-        "zh-CN": "令旗•征风召雨",
         "ja": "令旗・風雨招来",
         "ko": "깃발•풍우 소환"
       },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% dos PV máximos de Huohuo a um inimigo designado.",
         "en": "Deals Wind DMG equal to #1[i]% of Huohuo's Max HP to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于藿藿#1[i]%生命上限的风属性伤害。",
         "ja": "指定した敵単体にフォフォの最大HP#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 곽향 HP 최대치의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
@@ -31,27 +29,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
         "ja": "敵単体に少量の風属性ダメージを与える。",
         "ko": "단일 적에게 소량의 바람 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121702,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Talismã: Proteção",
-        "en": "Talisman: Protection",
-        "zh-CN": "灵符•保命护身",
-        "ja": "霊符・護身",
-        "ko": "부적•보명호신"
-      },
+      "name": { "pt-BR": "Talismã: Proteção", "en": "Talisman: Protection", "ja": "霊符・護身", "ko": "부적•보명호신" },
       "description": {
         "pt-BR": "Remove #5[i] penalidade(s) de um aliado designado e restaura imediatamente os PV deste aliado em uma quantidade igual a #1[f1]% dos PV máximos de Huohuo + #2[i]. Ao mesmo tempo, restaura os PV dos aliados adjacentes a este aliado-alvo em uma quantidade igual a #3[f1]% dos PV máximos de Huohuo + #4[i].",
         "en": "Dispels #5[i] debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus #2[i]. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #4[i].",
-        "zh-CN": "解除指定我方单体的#5[i]个负面效果，立即为指定我方单体回复等同于藿藿#1[f1]%生命上限+#2[i]的生命值，同时为其相邻目标回复等同于藿藿#3[f1]%生命上限+#4[i]的生命值。",
         "ja": "指定した味方単体のデバフを#5[i]つ解除し、フォフォの最大HP#1[f1]%+#2[i]のHPを回復する。同時にターゲットに隣接する味方のHPをフォフォの最大HP#3[f1]%+#4[i]回復する。",
         "ko": "지정된 단일 아군의 디버프 효과를 #5[i]개 해제하고, 지정된 단일 아군의 HP를 즉시 곽향 HP 최대치의 #1[f1]%+#2[i]만큼 회복시킨다. 동시에 인접한 목표의 HP를 곽향 HP 최대치의 #3[f1]%+#4[i]만큼 회복시킨다"
       },
@@ -77,12 +67,11 @@
       "summary": {
         "pt-BR": "Remove 1 penalidade de um aliado e restaura os PV daquele aliado e dos aliados adjacentes a ele.",
         "en": "Dispels 1 debuff from one ally and restore HP to that ally and their adjacent allies.",
-        "zh-CN": "解除我方单体1个负面效果，并为我方单体及其相邻目标回复生命值。",
         "ja": "味方単体のデバフを1つ解除し、その味方および隣接する味方のHPを回復する。",
         "ko": "단일 아군의 디버프 효과를 1개 해제하고, 단일 아군 및 인접한 목표의 HP를 회복시킨다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 121703,
@@ -90,14 +79,12 @@
       "name": {
         "pt-BR": "Rabin: Dominação Espiritual",
         "en": "Tail: Spiritual Domination",
-        "zh-CN": "尾巴•遣神役鬼",
         "ja": "シッポ・神鬼使役",
         "ko": "꼬리•신귀 사역"
       },
       "description": {
         "pt-BR": "Regenera Energia de todos os aliados (excluindo esta unidade) em uma quantidade igual a #1[f1]% de suas respectivas Energias máximas. Ao mesmo tempo, aumenta o ATQ deles em #2[f1]% por #3[i] rodada(s).",
         "en": "Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for #3[i] turn(s).",
-        "zh-CN": "为除自身以外的队友恢复等同于各自#1[f1]%能量上限的能量，同时使其攻击力提高#2[f1]%，持续#3[i]回合。",
         "ja": "自身以外の味方のEPをそれぞれの最大EP#1[f1]%分回復し、それら味方の攻撃力+#2[f1]%、#3[i]ターン継続。",
         "ko": "자신 이외의 동료에게 각자 에너지 최대치의 #1[f1]%만큼 에너지를 회복시키고, 동시에 공격력을 #2[f1]% 증가시킨다. 지속 시간: #3[i]턴"
       },
@@ -123,12 +110,11 @@
       "summary": {
         "pt-BR": "Regenera a Energia de todos os aliados (excluindo esta unidade) e aumenta o ATQ deles.",
         "en": "Regenerates Energy for all teammates (i.e., excluding this unit) and increases their ATK.",
-        "zh-CN": "为除自身以外的队友恢复能量，并使其攻击力提高。",
         "ja": "自身以外の味方のEPを回復し、それら味方の攻撃力をアップする。",
         "ko": "자신 이외의 동료의 에너지를 회복시키고, 공격력을 증가시킨다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 121704,
@@ -136,14 +122,12 @@
       "name": {
         "pt-BR": "Possessão: Metafluxo Etéreo",
         "en": "Possession: Ethereal Metaflow",
-        "zh-CN": "凭附•气通天真",
         "ja": "憑依・真気通天",
         "ko": "빙의•천기합일"
       },
       "description": {
         "pt-BR": "Após usar sua Perícia, Huohuo ganha Provisão Divina, durando por #1[i] rodada(s). Esta duração diminui por 1 rodada no início de cada rodada de Huohuo. Se Huohuo tiver Provisão Divina quando a rodada de um aliado começa ou quando um aliado utiliza sua Perícia Suprema, restaura PV para aquele aliado em uma quantidade igual a #3[f1]% dos PV máximos de Huohuo + #5[i]. Ao mesmo tempo, cada aliado com #6[i]% da porcentagem dos PV ou menos é curado uma vez.\nQuando Provisão Divina é ativada para curar um aliado, remove #2[i] penalidade(s) daquele aliado. Este efeito pode ser ativado até um máximo de #7[i] vez(es). Usar a habilidade novamente reinicia o efeito da contagem de ativação.",
         "en": "After using her Skill, Huohuo gains Divine Provision, lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. At the same time, every ally with #6[i]% HP percentage or lower receives healing once.\nWhen Divine Provision is triggered to heal an ally, dispel #2[i] debuff(s) from that ally. This effect can be triggered up to #7[i] time(s). Using the skill again resets the effect's trigger count.",
-        "zh-CN": "施放战技后藿藿获得【禳命】，持续#1[i]回合，藿藿每回合开始时持续回合数减1。当藿藿拥有【禳命】时，我方目标回合开始或施放终结技时回复自身等同于藿藿#3[f1]%生命上限+#5[i]的生命值，同时对每个当前生命值百分比小于等于#6[i]%的我方目标各产生1次回复效果。\n触发【禳命】为我方目标提供治疗时，解除该目标#2[i]个负面效果，该效果可以触发#7[i]次，再次施放战技后将刷新效果可触发次数。",
         "ja": "戦闘スキルを発動した後、フォフォは#1[i]ターン継続する「厄払い」を獲得する。フォフォのターンが回ってくるたびに「厄払い」の継続時間-1ターン。フォフォに「厄払い」がある場合、味方のターンが回ってきた時、または味方が必殺技を発動した時に、その味方のHPをフォフォの最大HP#3[f1]%+#5[i]回復する。同時に、残りHPが#6[i]%以下の味方それぞれに回復効果を1回発動する。\n「厄払い」が発動され、味方が治癒された時、その味方に付与されたデバフを#2[i]つ解除する。この効果は#7[i]回発動できる。再度戦闘スキルを発動すると、発動可能回数がリセットされる。",
         "ko": "전투 스킬 발동 후 곽향은 [양명]을 획득한다, 지속 시간: #1[i]턴. 곽향의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 곽향이 [양명]을 보유하고 있으면 아군 턴 시작 또는 필살기 발동 시, 자신의 HP를 곽향 HP 최대치의 #3[f1]%+#5[i]만큼 회복한다. 동시에 현재 HP 백분율이 #6[i]% 이하인 모든 아군에게 회복 효과를 1회 생성한다.\n[양명]을 발동하여 아군에게 치유 제공 시, 해당 목표의 디버프 효과를 #2[i]개 해제한다. 해당 효과는 #7[i]회 발동 가능하다. 전투 스킬을 다시 발동하면 효과 발동 횟수는 갱신된다"
       },
@@ -169,21 +153,19 @@
       "summary": {
         "pt-BR": "Huohuo ganha Provisão Divina depois de usar sua Perícia. Se Huohuo possuir Vida Sacrificada no início da rodada de um aliado ou quando um aliado usa sua Perícia Suprema, restaura os PV do aliado. Ao mesmo tempo, todos os aliados com PV baixos recebem uma cura. Quando Provisão Divina é ativada para curar um aliado, remove 1 penalidade daquele aliado.",
         "en": "Huohuo gains Divine Provision after using her Skill. If Huohuo possesses Divine Provision when an ally's turn starts or when an ally uses Ultimate, restores the ally's HP. At the same time, every ally with low HP receives healing once. When Divine Provision is triggered to heal an ally, dispel 1 debuff from that ally.",
-        "zh-CN": "施放战技后藿藿获得【禳命】。当藿藿拥有【禳命】时，我方目标回合开始或施放终结技时回复自身生命值，同时对每个生命值较低的我方目标各产生1次回复效果。触发【禳命】为我方目标提供治疗时，解除该目标1个负面效果。",
         "ja": "戦闘スキルを発動した後、フォフォは「厄払い」を獲得する。フォフォに「厄払い」がある場合、味方のターンが回ってきた時、または味方が必殺技を発動した時に、自身のHPを回復し、同時にHPが低い味方それぞれに回復効果を1回発動する。「厄払い」が発動され、味方が治癒された時、その味方に付与されたデバフを1つ解除する。",
         "ko": "전투 스킬 발동 후 곽향은 [양명]을 획득한다. 곽향이 [양명]을 보유하고 있으면 아군 턴 시작 또는 필살기 발동 시, 자신의 HP를 회복한다. 동시에 모든 HP가 낮은 아군에게 각각 회복 효과를 1회 생성한다. [양명]을 발동해 아군 치유 시 해당 목표의 디버프 효과를 1개 해제한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 121706,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +174,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -203,14 +184,12 @@
       "name": {
         "pt-BR": "Demônio: Destituição do Mal",
         "en": "Fiend: Impeachment of Evil",
-        "zh-CN": "凶煞•劾压鬼物",
         "ja": "凶相・鬼物圧伏",
         "ko": "악귀•귀물 제압"
       },
       "description": {
         "pt-BR": "Huohuo aterroriza inimigos próximos, deixando-os Horrorizados. Inimigos Horrorizados fogem de Huohuo por #4[i] segundos. Ao entrar numa batalha com inimigos Horrorizados, há #1[i]% de chance-base de reduzir o ATQ de todos os inimigos em #2[i]% por #3[i] rodada(s).",
         "en": "Huohuo terrorizes surrounding enemies, afflicting Horror-Struck on them. Enemies in Horror-Struck will flee away from Huohuo for #4[i] second(s). When entering battle with enemies in Horror-Struck, there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).",
-        "zh-CN": "藿藿恐吓周围的敌人，使其陷入【魄散】状态。【魄散】状态下的敌人会向远离藿藿的方向逃跑，持续#4[i]秒。与陷入【魄散】状态的敌人进入战斗后，有#1[i]%的基础概率使敌方每个单体目标攻击力降低#2[i]%，持续#3[i]回合。",
         "ja": "フォフォが周囲の敵を威嚇し、敵を「魂魄飛散」状態にする。「魂魄飛散」状態の敵はフォフォの反対方向に向けて逃げる、#4[i]秒継続。「魂魄飛散」状態の敵と戦闘に入った後、#1[i]%の基礎確率で敵それぞれの攻撃力-#2[i]%、#3[i]ターン継続。",
         "ko": "곽향이 주위의 적을 위협하여 [백산(魄散)] 상태에 빠트린다. [백산] 상태의 적은 곽향에게서 도망친다, 지속 시간: #4[i]초. [백산] 상태의 적과 전투에 진입하면 #1[i]%의 기본 확률로 각 단일 적의 공격력을 #2[i]% 감소시킨다, 지속 시간: #3[i]턴"
       },
@@ -220,12 +199,11 @@
       "summary": {
         "pt-BR": "Deixa inimigos próximos Horrorizados. Ao entrar numa luta com inimigos Horrorizados, há altas chances de aplicar redução de ATQ nos inimigos-alvos.",
         "en": "Causes surrounding enemies to become Horror-Struck. After entering battle with enemies afflicted with Horror-Struck, there is a high chance of reducing the ATK of the enemy targets.",
-        "zh-CN": "使周围的敌人陷入【魄散】状态。与陷入【魄散】状态的敌人进入战斗后，大概率使敌方目标攻击力降低。",
         "ja": "周囲の敵を「魂魄飛散」状態にする。「魂魄飛散」状態の敵と戦闘に入った後、高確率で敵の攻撃力をダウンする。",
         "ko": "주위의 적을 [백산(魄散)] 상태에 빠트린다. [백산] 상태의 적과 전투에 진입하면 높은 확률로 적의 공격력을 감소시킨다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 1121701,
@@ -233,14 +211,12 @@
       "name": {
         "pt-BR": "Estandarte: Invoca-Tempestades",
         "en": "Banner: Stormcaller",
-        "zh-CN": "令旗•征风召雨",
         "ja": "令旗・風雨招来",
         "ko": "깃발•풍우 소환"
       },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% dos PV máximos de Huohuo a um inimigo designado.",
         "en": "Deals Wind DMG equal to #1[i]% of Huohuo's Max HP to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于藿藿#1[i]%生命上限的风属性伤害。",
         "ja": "指定した敵単体にフォフォの最大HP#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 곽향 HP 최대치의 #1[i]%만큼 바람 속성 피해를 가한다"
       },
@@ -250,27 +226,19 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
         "ja": "敵単体に少量の風属性ダメージを与える。",
         "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1121702,
       "type": "Skill",
-      "name": {
-        "pt-BR": "Talismã: Proteção",
-        "en": "Talisman: Protection",
-        "zh-CN": "灵符•保命护身",
-        "ja": "霊符・護身",
-        "ko": "부적•보명호신"
-      },
+      "name": { "pt-BR": "Talismã: Proteção", "en": "Talisman: Protection", "ja": "霊符・護身", "ko": "부적•보명호신" },
       "description": {
         "pt-BR": "Remove #5[i] penalidade(s) de um aliado designado e restaura imediatamente os PV deste aliado em uma quantidade igual a #1[f1]% dos PV máximos de Huohuo + #2[i]. Ao mesmo tempo, restaura os PV dos aliados adjacentes a este aliado-alvo em uma quantidade igual a #3[f1]% dos PV máximos de Huohuo + #4[i].",
         "en": "Dispels #5[i] debuff(s) from one designated ally and immediately restores this ally's HP by an amount equal to #1[f1]% of Huohuo's Max HP plus #2[i]. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to #3[f1]% of Huohuo's Max HP plus #4[i].",
-        "zh-CN": "解除指定我方单体的#5[i]个负面效果，立即为指定我方单体回复等同于藿藿#1[f1]%生命上限+#2[i]的生命值，同时为其相邻目标回复等同于藿藿#3[f1]%生命上限+#4[i]的生命值。",
         "ja": "指定した味方単体のデバフを#5[i]つ解除し、フォフォの最大HP#1[f1]%+#2[i]のHPを回復する。同時にターゲットに隣接する味方のHPをフォフォの最大HP#3[f1]%+#4[i]回復する。",
         "ko": "지정된 단일 아군의 디버프 효과를 #5[i]개 해제하고, 지정된 단일 아군의 HP를 즉시 곽향 HP 최대치의 #1[f1]%+#2[i]만큼 회복시킨다. 동시에 인접한 목표의 HP를 곽향 HP 최대치의 #3[f1]%+#4[i]만큼 회복시킨다"
       },
@@ -296,12 +264,11 @@
       "summary": {
         "pt-BR": "Remove 1 penalidade de um aliado e restaura os PV daquele aliado e dos aliados adjacentes a ele.",
         "en": "Dispels 1 debuff from one ally and restores HP to that ally and their adjacent allies.",
-        "zh-CN": "解除我方单体1个负面效果，并为我方单体及其相邻目标回复生命值。",
         "ja": "味方単体のデバフを1つ解除し、その味方および隣接する味方のHPを回復する。",
         "ko": "단일 아군의 디버프 효과를 1개 해제하고, 단일 아군 및 인접한 목표의 HP를 회복시킨다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 1121703,
@@ -309,14 +276,12 @@
       "name": {
         "pt-BR": "Rabin: Dominação Espiritual",
         "en": "Tail: Spiritual Domination",
-        "zh-CN": "尾巴•遣神役鬼",
         "ja": "シッポ・神鬼使役",
         "ko": "꼬리•신귀 사역"
       },
       "description": {
         "pt-BR": "Regenera Energia de todos os aliados (excluindo esta unidade) em um valor igual a #1[f1]% de suas respectivas Energias máximas. Ao mesmo tempo, aumenta o ATQ deles em #2[f1]% por #3[i] rodada(s).",
         "en": "Regenerates Energy for all teammates (i.e., excluding this unit) by an amount equal to #1[f1]% of their respective Max Energy. At the same time, increases their ATK by #2[f1]% for #3[i] turn(s).",
-        "zh-CN": "为除自身以外的队友恢复等同于各自#1[f1]%能量上限的能量，同时使其攻击力提高#2[f1]%，持续#3[i]回合。",
         "ja": "自身以外の味方のEPをそれぞれの最大EP#1[f1]%分回復し、それら味方の攻撃力+#2[f1]%、#3[i]ターン継続。",
         "ko": "자신 이외의 동료에게 각자 에너지 최대치의 #1[f1]%만큼 에너지를 회복시키고, 동시에 공격력을 #2[f1]% 증가시킨다. 지속 시간: #3[i]턴"
       },
@@ -342,12 +307,11 @@
       "summary": {
         "pt-BR": "Regenera a Energia de todos os aliados (excluindo esta unidade) e aumenta o ATQ deles.",
         "en": "Regenerates Energy for all teammates (i.e., excluding this unit) and increases their ATK.",
-        "zh-CN": "为除自身以外的队友恢复能量，并使其攻击力提高。",
         "ja": "自身以外の味方のEPを回復し、それら味方の攻撃力をアップする。",
         "ko": "자신 이외의 동료의 에너지를 회복시키고, 공격력을 증가시킨다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 1121704,
@@ -355,14 +319,12 @@
       "name": {
         "pt-BR": "Possessão: Metafluxo Etéreo",
         "en": "Possession: Ethereal Metaflow",
-        "zh-CN": "凭附•气通天真",
         "ja": "憑依・真気通天",
         "ko": "빙의•천기합일"
       },
       "description": {
         "pt-BR": "Depois de usar sua Perícia ou Perícia Suprema, Huohuo ganha \"Provisão Divina\" com duração de #1[i] rodada(s). Essa duração diminui em 1 rodada no início de cada rodada de Huohuo. Quando Huohuo tem \"Provisão Divina\" no início da rodada de um aliado-alvo ou quando ele usa sua Perícia Suprema, restaura os PV desse aliado e do aliado com a porcentagem de PV mais baixa em um valor igual a #3[f1]% dos PV máximos de Huohuo + #5[i]. Depois, restaura os PV de todos os aliados com uma porcentagem de PV atual igual ou inferior a #6[i]% em um valor igual a #3[f1]% dos PV máximos de Huohuo + #5[i].\nQuando \"Provisão Divina\" é ativada para Curar um aliado-alvo, remove #2[i] penalidade(s) desse alvo. Esse efeito pode ser ativado #7[i] vez(es). Ganhar \"Provisão Divina\" novamente redefine a contagem de ativação do efeito.",
         "en": "After using her Skill or Ultimate, Huohuo gains \"Divine Provision,\" lasting for #1[i] turn(s). This duration decreases by 1 turn at the start of Huohuo's every turn. When Huohuo has \"Divine Provision\" at the start of an ally target's turn or when they use their Ultimate, restores HP for that ally target and the ally target with the lowest HP percentage by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i]. Then, restores HP for every ally with a current HP percentage at or below #6[i]% by an amount equal to #3[f1]% of Huohuo's Max HP plus #5[i].\nWhen \"Divine Provision\" is triggered to heal an ally target, dispels #2[i] debuff(s) from that target. This effect can be triggered #7[i] time(s). Gaining \"Divine Provision\" again resets the effect's trigger count.",
-        "zh-CN": "施放战技或终结技后藿藿获得【禳命】，持续#1[i]回合，藿藿每回合开始时持续回合数减1。当藿藿拥有【禳命】时，我方目标回合开始或施放终结技时回复自身和生命值百分比最低的我方目标等同于藿藿#3[f1]%生命上限+#5[i]的生命值，随后使每个当前生命值百分比小于等于#6[i]%的我方目标回复等同于藿藿#3[f1]%生命上限+#5[i]的生命值。\n触发【禳命】为我方目标提供治疗时，解除该目标#2[i]个负面效果，该效果可以触发#7[i]次，再次获得【禳命】后将刷新效果可触发次数。",
         "ja": "戦闘スキルまたは必殺技を発動した後、フォフォは#1[i]ターン継続する「厄払い」を獲得する。フォフォのターンが回ってくるたびに「厄払い」の継続時間-1ターン。フォフォに「厄払い」がある場合、味方のターンが回ってきた時、または味方が必殺技を発動した時に、その味方と残りHPの割合が最も低い味方のHPをフォフォの最大HP#3[f1]%+#5[i]回復する。その後、残りHPが#6[i]%以下の味方それぞれのHPをフォフォの最大HP#3[f1]%+#5[i]回復する。\n「厄払い」が発動して、味方を治癒した時、その味方のデバフを#2[i]つ解除する。この効果は#7[i]回発動できる。再度「厄払い」を獲得した後、発動可能回数がリセットされる。",
         "ko": "전투 스킬 또는 필살기 발동 후 곽향은 [양명]을 획득한다, 지속 시간: #1[i]턴. 곽향의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 곽향이 [양명]을 보유하고 있으면 아군 턴 시작 또는 필살기 발동 시, 자신과 HP 백분율이 가장 낮은 아군의 HP를 곽향 HP 최대치의 #3[f1]%+#5[i]만큼 회복한다. 그 후 현재 HP 백분율이 #6[i]% 이하인 각 아군의 HP를 곽향 HP 최대치의 #3[f1]%+#5[i]만큼 회복한다.\n[양명]을 발동하여 아군에게 치유 제공 시, 해당 목표의 디버프 효과를 #2[i]개 해제한다. 해당 효과는 #7[i]회 발동 가능하다. 다시 [양명]을 획득하면 효과 발동 횟수는 갱신된다"
       },
@@ -388,21 +350,19 @@
       "summary": {
         "pt-BR": "Huohuo ganha \"Provisão Divina\" depois de usar sua Perícia ou Perícia Suprema. Se Huohuo possuir \"Provisão Divina\", no início da rodada de um aliado ou quando um aliado usa sua Perícia Suprema, restaura os PV desta unidade e de um aliado-alvo com a menor porcentagem de PV. Em seguida, todos os aliados com PV baixos recebem uma Cura. Quando \"Provisão Divina\" é ativada para curar um aliado, remove 1 penalidade daquele aliado.",
         "en": "Huohuo gains \"Divine Provision\" after using her Skill or Ultimate. If Huohuo possesses \"Divine Provision,\" when an ally target's turn starts or when an ally uses Ultimate, restores the HP of this unit and an ally target with the lowest HP percentage. Then, every ally target with low HP receives healing once. When \"Divine Provision\" is triggered to heal an ally target, dispel 1 debuff from that ally.",
-        "zh-CN": "施放战技或终结技后藿藿获得【禳命】。当藿藿拥有【禳命】时，我方目标回合开始或施放终结技时回复自身和生命值百分比最低的我方目标生命值，随后对每个生命值较低的我方目标各产生1次回复效果。触发【禳命】为我方目标提供治疗时，解除该目标1个负面效果。",
         "ja": "戦闘スキルまたは必殺技を発動した後、フォフォは「厄払い」を獲得する。フォフォに「厄払い」がある場合、味方のターンが回ってきた時、または味方が必殺技を発動した時に、自身と残りHPの割合が最も低い味方のHPを回復する。その後、HPが低い味方それぞれに回復効果を1回発動する。「厄払い」が発動して、味方を治癒した時、その味方のデバフを1つ解除する。",
         "ko": "전투 스킬 또는 필살기 발동 후 곽향은 [양명]을 획득한다. 곽향이 [양명]을 보유하고 있으면 아군 턴 시작 또는 필살기 발동 시, 자신과 HP 백분율이 가장 낮은 아군의 HP를 회복한다. 그 후 모든 HP가 낮은 아군에게 각각 회복 효과를 1회 생성한다. [양명]을 발동해 아군 치유 시, 해당 목표의 디버프 효과를 1개 해제한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 1121706,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -411,7 +371,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -422,14 +381,12 @@
       "name": {
         "pt-BR": "Demônio: Destituição do Mal",
         "en": "Fiend: Impeachment of Evil",
-        "zh-CN": "凶煞•劾压鬼物",
         "ja": "凶相・鬼物圧伏",
         "ko": "악귀•귀물 제압"
       },
       "description": {
         "pt-BR": "Huohuo aterroriza inimigos próximos, infligindo \"Horrorizados\" a eles. Inimigos \"Horrorizados\" fogem de Huohuo por #4[i] segundo(s). Ao entrar em combate com inimigos \"Horrorizados\", há #1[i]% de chance-base de reduzir o ATQ de cada inimigo em #2[i]% por #3[i] rodada(s).",
         "en": "Huohuo terrorizes surrounding enemies, inflicting \"Horror-Struck\" on them. Enemies in \"Horror-Struck\" will flee away from Huohuo for #4[i] second(s). When entering combat with enemies in \"Horror-Struck,\" there is a #1[i]% base chance of reducing every single enemy's ATK by #2[i]% for #3[i] turn(s).",
-        "zh-CN": "藿藿恐吓周围的敌人，使其陷入【魄散】状态。【魄散】状态下的敌人会向远离藿藿的方向逃跑，持续#4[i]秒。与陷入【魄散】状态的敌人进入战斗后，有#1[i]%的基础概率使敌方每个单体目标攻击力降低#2[i]%，持续#3[i]回合。",
         "ja": "フォフォが周囲の敵を威嚇し、敵を「魂魄飛散」状態にする。「魂魄飛散」状態の敵はフォフォの反対方向に向けて逃げる、#4[i]秒継続。「魂魄飛散」状態の敵と戦闘に入った後、#1[i]%の基礎確率で敵それぞれの攻撃力-#2[i]%、#3[i]ターン継続。",
         "ko": "곽향이 주위의 적을 위협하여 [백산(魄散)] 상태에 빠트린다. [백산] 상태의 적은 곽향에게서 도망친다, 지속 시간: #4[i]초. [백산] 상태의 적과 전투에 진입하면 #1[i]%의 기본 확률로 각 단일 적의 공격력을 #2[i]% 감소시킨다, 지속 시간: #3[i]턴"
       },
@@ -439,12 +396,11 @@
       "summary": {
         "pt-BR": "Deixa inimigos próximos \"Horrorizados\". Ao entrar em combate com inimigos \"Horrorizados\", há altas chances de reduzir o ATQ dos inimigos-alvo.",
         "en": "Causes surrounding enemies to become \"Horror-Struck.\" After entering combat with enemies afflicted with \"Horror-Struck,\" there is a high chance of reducing the ATK of the enemy targets.",
-        "zh-CN": "使周围的敌人陷入【魄散】状态。与陷入【魄散】状态的敌人进入战斗后，大概率使敌方目标攻击力降低。",
         "ja": "周囲の敵を「魂魄飛散」状態にする。「魂魄飛散」状態の敵と戦闘に入った後、高確率で敵の攻撃力をダウンする。",
         "ko": "주위의 적을 [백산(魄散)] 상태에 빠트린다. [백산] 상태의 적과 전투에 진입하면 높은 확률로 적의 공격력을 감소시킨다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -453,14 +409,12 @@
       "name": {
         "pt-BR": "Ancorada ao Receptáculo, Espectros Aninhados",
         "en": "Anchored to Vessel, Specters Nestled",
-        "zh-CN": "岁阳寄体，妖邪依凭",
         "ja": "{RUBY_B#さいよう}歳陽{RUBY_E#}の{RUBY_B#よ}拠{RUBY_E#}り{RUBY_B#どころ}所{RUBY_E#}",
         "ko": "세양의 기생, 요괴의 숙주"
       },
       "description": {
         "pt-BR": "A duração da Provisão Divina produzida pelo Talento é estendida em 1 rodada(s). Quando Huohuo possui Provisão Divina, a VEL de todos os aliados aumenta em 12%.",
         "en": "The duration of Divine Provision produced by the Talent is extended by 1 turn(s). When Huohuo possesses Divine Provision, all allies' SPD increases by 12%.",
-        "zh-CN": "天赋产生的【禳命】持续时间延长1回合，且当藿藿拥有【禳命】时我方全体提高12%的速度。",
         "ja": "天賦による「厄払い」の継続時間+1ターン。フォフォに「厄払い」がある時、味方全体の速度+12%。",
         "ko": "특성으로 발동한 [양명]의 지속 시간이 1턴 연장되고, 곽향이 [양명]을 보유할 시 모든 아군의 속도가 12% 증가한다"
       },
@@ -473,14 +427,12 @@
       "name": {
         "pt-BR": "Selada no Rabin, Espectro Subjugado",
         "en": "Sealed in Tail, Wraith Subdued",
-        "zh-CN": "判官书符，镇尾锁灵",
         "ja": "{RUBY_B#じゃれい}邪霊{RUBY_E#}を{RUBY_B#やど}宿{RUBY_E#}した{RUBY_B#しっぽ}尻尾{RUBY_E#}",
         "ko": "판관의 부적, 영혼의 속박"
       },
       "description": {
         "pt-BR": "Se Huohuo possuir \"Provisão Divina\" quando um aliado-alvo for atingido por um golpe fatal, o aliado não será derrubado, e seus PV serão imediatamente restaurados em uma quantidade igual a 50% dos seus PV máximos. Isso reduz a duração da \"Provisão Divina\" em 1 rodada. Este efeito só pode ser ativado 2 vez(es) por batalha.",
         "en": "If Huohuo possesses \"Divine Provision\" when an ally target is struck by a killing blow, the ally will not be knocked down and their HP will immediately be restored by an amount equal to 50% of their Max HP. This reduces the duration of \"Divine Provision\" by 1 turn. This effect can only be triggered 2 time(s) per battle.",
-        "zh-CN": "当藿藿拥有【禳命】时，若我方目标受到致命攻击，不会陷入无法战斗状态，并立即回复等同于其自身生命上限50%的生命值，使【禳命】的持续回合数减1。该效果单场战斗中可以触发2次。",
         "ja": "フォフォに「厄払い」がある時、味方はHPが0になるダメージを受けても戦闘不能状態にならず、自身の最大HP50%分のHPを回復する。この効果を発動した後、「厄払い」の継続時間-1ターン。この効果は一度の戦闘で2回まで発動できる。",
         "ko": "곽향이 [양명] 보유 시, 아군은 치명적인 공격을 받아도 전투 불능 상태에 빠지지 않으며, 즉시 자신의 HP 최대치의 50%만큼 HP를 회복하고 [양명]의 지속 턴 수를 1회 감소시킨다. 해당 효과는 단일 전투에서 2회 발동할 수 있다"
       },
@@ -493,14 +445,12 @@
       "name": {
         "pt-BR": "Amaldiçoada pelo Destino, Mariposas às Chamas",
         "en": "Cursed by Fate, Moths to Flame",
-        "zh-CN": "贞凶体质，烛火招萤",
         "ja": "{RUBY_B#ていきょう}貞凶{RUBY_E#}の{RUBY_B#しょっか}燭火{RUBY_E#}",
         "ko": "불운의 체질, 반딧불이를 부르는 촛불"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -513,14 +463,12 @@
       "name": {
         "pt-BR": "Presa à Vida, Atada à Contenda",
         "en": "Tied in Life, Bound to Strife",
-        "zh-CN": "坐卧不离，争拗难宁",
         "ja": "{RUBY_B#はな}離{RUBY_E#}れぬ{RUBY_B#あっき}悪鬼{RUBY_E#}\n{RUBY_B#た}絶{RUBY_E#}えぬ{RUBY_B#も}揉{RUBY_E#}め{RUBY_B#ごと}事{RUBY_E#}",
         "ko": "떠나지 않는 악귀, 불안정한 갈등"
       },
       "description": {
         "pt-BR": "Ao curar um aliado-alvo com a Perícia ou o Talento, quanto menos PV o aliado-alvo tiver no momento, maior a cura que ele receberá. O aumento máximo de cura fornecido por Huohuo é 80%.",
         "en": "When healing a target ally via Skill or Talent, the less HP the target ally currently has, the higher the amount of healing they will receive. The maximum increase in healing provided by Huohuo is 80%.",
-        "zh-CN": "施放战技或触发天赋为我方目标提供治疗时，目标的当前生命值越低治疗量越高，最多使藿藿提供的治疗量提高80%。",
         "ja": "戦闘スキルまたは天賦を発動し、味方に治癒を行った時、その味方の残りHPが少ないほど治癒量がアップする、最大でフォフォの治癒量+80%。",
         "ko": "전투 스킬 또는 특성을 발동해 아군에게 치유 제공 시, 목표의 현재 HP가 낮을수록 치유량이 증가하며, 곽향이 제공하는 치유량이 최대 80% 증가한다"
       },
@@ -533,14 +481,12 @@
       "name": {
         "pt-BR": "Exigido pelo Decreto, Males Expulsos",
         "en": "Mandated by Edict, Evils Evicted",
-        "zh-CN": "降妖捉鬼，十王敕令",
         "ja": "{RUBY_B#ちょくれい}勅令{RUBY_E#}のままに{RUBY_B#ようまたいじ}妖魔退治{RUBY_E#}",
         "ko": "요괴 사냥, 시왕의 칙령"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -553,14 +499,12 @@
       "name": {
         "pt-BR": "Tecido em Conjunto, Adesão Eterna",
         "en": "Woven Together, Cohere Forever",
-        "zh-CN": "同休共戚，相须而行",
         "ja": "{RUBY_B#くらく}苦楽{RUBY_E#}を{RUBY_B#とも}共{RUBY_E#}にする{RUBY_B#なかま}仲間{RUBY_E#}",
         "ko": "동고동락, 언제나 함께"
       },
       "description": {
         "pt-BR": "Ao curar um aliado-alvo, aumenta o Dano causado pelo aliado-alvo em 50% por 2 rodada(s).",
         "en": "When healing a target ally, increases the target ally's DMG dealt by 50% for 2 turn(s).",
-        "zh-CN": "为我方目标提供治疗时，使目标造成的伤害提高50%，持续2回合。",
         "ja": "味方に治癒を行った時、その味方の与ダメージ+50%、2ターン継続。",
         "ko": "아군에게 치유 제공 시, 목표가 가하는 피해가 50% 증가한다. 지속 시간: 2턴"
       },
@@ -940,14 +884,12 @@
       "name": {
         "pt-BR": "Medo de Agir",
         "en": "Fearful to Act",
-        "zh-CN": "不敢自专",
         "ja": "{RUBY_B#いちぞん}一存{RUBY_E#}では{RUBY_B#うご}動{RUBY_E#}けない",
         "ko": "나서지 못하는 마음"
       },
       "description": {
         "pt-BR": "Quando o combate começa, Huohuo ganha Provisão Divina, durando por #1[i] rodada(s).",
         "en": "When combat starts, Huohuo gains Divine Provision, lasting for #1[i] turn(s).",
-        "zh-CN": "战斗开始时，藿藿获得【禳命】，持续#1[i]回合。",
         "ja": "戦闘開始時、フォフォは「厄払い」を獲得する、#1[i]ターン継続。",
         "ko": "전투 시작 시, 곽향이 [양명]을 획득한다. 지속 시간: #1[i]턴"
       },
@@ -971,14 +913,12 @@
       "name": {
         "pt-BR": "A Amaldiçoada",
         "en": "The Cursed One",
-        "zh-CN": "贞凶之命",
         "ja": "{RUBY_B#ていきょう}貞凶{RUBY_E#}の{RUBY_B#めい}命{RUBY_E#}",
         "ko": "불운의 명"
       },
       "description": {
         "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%.",
         "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%.",
-        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。",
         "ja": "行動制限系デバフに抵抗する確率+#1[i]%。",
         "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다"
       },
@@ -1007,14 +947,12 @@
       "name": {
         "pt-BR": "Reação de Estresse ao Horror",
         "en": "Stress Reaction to Horror",
-        "zh-CN": "怯惧应激",
         "ja": "{RUBY_B#おくびょうもの}臆病者{RUBY_E#}のストレス{RUBY_B#はんのう}反応{RUBY_E#}",
         "ko": "두려움의 압박"
       },
       "description": {
         "pt-BR": "Quando o Talento dela é ativado para curar aliados, Huohuo regenera #1[i] de Energia.",
         "en": "When her Talent is triggered to heal allies, Huohuo regenerates #1[i] Energy.",
-        "zh-CN": "触发天赋为我方目标提供治疗时，藿藿恢复#1[i]点能量。",
         "ja": "天賦を発動して味方に治癒を行った時、フォフォのEPを#1[i]回復する。",
         "ko": "특성을 발동해 아군에게 치유 제공 시 곽향이 에너지를 #1[i]pt 회복한다"
       },
@@ -1040,7 +978,7 @@
     {
       "id": 1217201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1060,7 +998,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1080,7 +1017,7 @@
     {
       "id": 1217203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1217202],
@@ -1097,7 +1034,7 @@
     {
       "id": 1217204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1217203],
@@ -1114,7 +1051,7 @@
     {
       "id": 1217205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1217102],
@@ -1134,7 +1071,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1154,7 +1090,7 @@
     {
       "id": 1217207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1217206],
@@ -1171,7 +1107,7 @@
     {
       "id": 1217208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1217103],
@@ -1191,7 +1127,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1211,7 +1146,7 @@
     {
       "id": 1217210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1521,14 +1456,12 @@
       "name": {
         "pt-BR": "Medo de Agir",
         "en": "Fearful to Act",
-        "zh-CN": "不敢自专",
         "ja": "{RUBY_B#いちぞん}一存{RUBY_E#}では{RUBY_B#うご}動{RUBY_E#}けない",
         "ko": "나서지 못하는 마음"
       },
       "description": {
         "pt-BR": "Quando a batalha começa, Huohuo ganha #1[i] de Energia e \"Provisão Divina\", durando por #2[i] rodada(s).",
         "en": "When battle starts, Huohuo gains #1[i] Energy and \"Divine Provision,\" lasting for #2[i] turn(s).",
-        "zh-CN": "战斗开始时，藿藿恢复#1[i]点能量并获得【禳命】，持续#2[i]回合。",
         "ja": "戦闘開始時、フォフォはEPを#1[i]回復し、#2[i]ターン継続する「厄払い」を獲得する。",
         "ko": "전투 시작 시, 곽향이 에너지를 #1[i]pt 회복하고 [양명]을 획득한다, 지속 시간: #2[i]턴"
       },
@@ -1552,14 +1485,12 @@
       "name": {
         "pt-BR": "A Amaldiçoada",
         "en": "The Cursed One",
-        "zh-CN": "贞凶之命",
         "ja": "{RUBY_B#ていきょう}貞凶{RUBY_E#}の{RUBY_B#めい}命{RUBY_E#}",
         "ko": "불운의 명"
       },
       "description": {
         "pt-BR": "Aumenta a chance de resistir a penalidades de Controle Negativo em #1[i]%. Ao usar a Perícia Suprema, se a Energia Máxima de um aliado-alvo for #2[i] ou superior, aumenta adicionalmente o ATQ dele em #3[i]%.",
         "en": "Increases the chance to resist Crowd Control debuffs by #1[i]%. When using Ultimate, if an ally target's Max Energy is #2[i] or higher, additionally increases their ATK by #3[i]%.",
-        "zh-CN": "抵抗控制类负面状态的概率提高#1[i]%。施放终结技时，若我方目标能量上限大于等于#2[i]，使其攻击力额外提高#3[i]%。",
         "ja": "行動制限系デバフに抵抗する確率+#1[i]%。必殺技を発動する時、味方の最大EPが#2[i]以上の場合、その味方の攻撃力がさらに+#3[i]%。",
         "ko": "제어류 디버프 상태 저항 확률이 #1[i]% 증가한다. 필살기 발동 시 아군의 에너지 최대치가 #2[i] 이상일 경우, 해당 아군의 공격력이 추가로 #3[i]% 증가한다"
       },
@@ -1588,14 +1519,12 @@
       "name": {
         "pt-BR": "Reação de Estresse ao Horror",
         "en": "Stress Reaction to Horror",
-        "zh-CN": "怯惧应激",
         "ja": "{RUBY_B#おくびょうもの}臆病者{RUBY_E#}のストレス{RUBY_B#はんのう}反応{RUBY_E#}",
         "ko": "두려움의 압박"
       },
       "description": {
         "pt-BR": "Quando seu Talento é ativado para curar aliados-alvo, Huohuo regenera #1[i] de Energia.",
         "en": "When her Talent is triggered to heal ally targets, Huohuo regenerates #1[i] Energy.",
-        "zh-CN": "触发天赋为我方目标提供治疗时，藿藿恢复#1[i]点能量。",
         "ja": "天賦を発動して味方に治癒を行った時、フォフォのEPを#1[i]回復する。",
         "ko": "특성을 발동해 아군에게 치유 제공 시 곽향이 에너지를 #1[i]pt 회복한다"
       },
@@ -1621,7 +1550,7 @@
     {
       "id": 11217201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1641,7 +1570,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1661,7 +1589,7 @@
     {
       "id": 11217203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11217202],
@@ -1678,7 +1606,7 @@
     {
       "id": 11217204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [11217203],
@@ -1695,7 +1623,7 @@
     {
       "id": 11217205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11217102],
@@ -1715,7 +1643,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1735,7 +1662,7 @@
     {
       "id": 11217207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11217206],
@@ -1752,7 +1679,7 @@
     {
       "id": 11217208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [11217103],
@@ -1772,7 +1699,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1792,7 +1718,7 @@
     {
       "id": 11217210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],

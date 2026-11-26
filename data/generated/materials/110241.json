@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Semente da Árvore Alienígena",
     "en": "Alien Tree Seed",
-    "zh-CN": "异木种籽",
     "ja": "珍木の種",
     "ko": "이계 나무의 씨앗"
   },
@@ -17,7 +16,6 @@
   "sources": {
     "en": ["Calyx (Fyxestroll Garden)", "Embers Exchange", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Cálice (Jardim Flamavulpe)", "Troca de Brasas", "Sintetizador Omni - Troca de Material"],
-    "zh-CN": ["拟造花萼【绥园】", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": ["疑似花萼「綏園」", "エンバー交換", "「万能合成マシン」- 素材交換"],
     "ko": ["모조 꽃받침 [유원]", "잔화 교환", "「만능 합성기」- 재료 치환"]
   }

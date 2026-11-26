@@ -1,13 +1,7 @@
 {
   "id": 22005,
   "slug": "the-forever-victual",
-  "name": {
-    "pt-BR": "O Víveres Eterno",
-    "en": "The Forever Victual",
-    "zh-CN": "永远的迷境饭",
-    "ja": "永遠の迷境ごはん",
-    "ko": "영원한 미궁의 식사"
-  },
+  "name": { "pt-BR": "O Víveres Eterno", "en": "The Forever Victual", "ja": "永遠の迷境ごはん", "ko": "영원한 미궁의 식사" },
   "rarity": 4,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
@@ -15,16 +9,14 @@
   "description": {
     "pt-BR": "*BUUM*...\nDo lado de fora do Labirinto, uma tempestade ruge sem fim.\n*gorgolejo*...\nO caldeirão mágico das fadas arde com uma chama eterna.\n\"Polvilhe as especiarias especiais...\"\n\"Adicione alguns legumes frescos!\"\n\"Dessa vez a gente vai conseguir com certeza!\"\nO enorme caldeirão borbulhou novamente enquanto as fadas observavam ansiosamente.\n\"Lá vem, lá vem!\"\nUma luz brilhante explodiu do fundo da panela...\nOlhem, todo mundo está se reunindo!\n...\nNo banquete perfumado, os convidados ergueram seus copos para brindar a esses tempos maravilhosos:\nQue este paraíso dos sonhos permaneça sempre aquecido e alegre!",
     "en": "*BOOM*...\nOutside the Maze, a storm rages endlessly.\n*gurgle*...\nThe fairies' magical cauldron burns with an eternal flame.\n\"Sprinkle in the special spices...\"\n\"Add some fresh vegetables!\"\n\"This time, we'll succeed for sure!\"\nThe huge cauldron bubbled up again as the fairies watched eagerly.\n\"Here it comes, here it comes!\"\nA brilliant light burst forth from the bottom of the pot...\nLook, everyone's gathering around!\n...\nAt the fragrant feast, guests raised their glasses to toast to these wonderful times...\nMay this dreamy paradise stay warm and joyful forever!",
-    "zh-CN": "轰隆隆——\n迷境之外，风雨无休无止。\n咕噜噜——\n妖精们的神奇大煮锅，火焰不熄。\n「撒上特制香料……」\n「放入新鲜的蔬菜！」\n「这一次，一定能研发成功！」\n大煮锅又咕噜噜了起来，妖精们眼巴巴地望着。\n「要来了要来了！」\n一束强烈的亮光自锅底生出——\n看，大家都围了过来！\n……\n在那香气四溢的宴会上，来客举杯共祝奇妙的岁月——\n愿这梦中的乐土，永远温暖，永远欢乐！",
     "ja": "ゴロゴロ——\n迷境の外で嵐が荒れ狂っている。\nグツグツ——\n妖精たちの不思議な大鍋が音を立てて煮えたぎる。\n「特製スパイスを振って……」\n「新鮮な野菜を投入！」\n「今回こそ、きっと成功するはず！」\n大鍋が再びグツグツと音を立て、妖精たちは目を輝かせながらそれを見守る。\n「くるぞ…きたーっ！」\n大鍋の底から、まばゆい光が溢れ出した——\nその瞬間、鍋のまわりにみんなが集まってくる！\n……\nいい匂いが漂う宴の席で、来客たちは杯を掲げ、この不思議なひと時を祝福する——\n願わくば、この夢の楽園がいつまでも温もりに満ち、いつまでも笑顔で溢れますように！",
     "ko": "우르릉 쾅쾅——\n미궁 밖, 비바람이 끊임없이 휘몰아친다.\n보글보글——\n요정들의 신기한 거대 솥이 펄펄 끓는다.\n「특제 향신료를 뿌리고…」\n「신선한 채소를 넣자!」\n「이번에는 분명 성공할 수 있을 거야!」\n솥이 또다시 보글보글 끓었고, 요정들은 솥을 간절하게 바라봤다.\n「온다, 온다!」\n강렬한 빛이 솥 밑바닥에서 뿜어져 나왔다——\n이에 모두가 모여들었다!\n……\n향기로운 연회에서 손님들은 잔을 들고 함께 기묘한 세월을 축하한다——\n이 꿈속의 낙원이 영원히 따뜻하고, 영원히 즐겁기를!"
   },
   "skill": {
-    "name": { "pt-BR": "Tão bom!", "en": "So Good!", "zh-CN": "真香", "ja": "いい匂い！", "ko": "맛있는 냄새" },
+    "name": { "pt-BR": "Tão bom!", "en": "So Good!", "ja": "いい匂い！", "ko": "맛있는 냄새" },
     "description": {
       "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Após o usuário usar sua Perícia, o seu ATQ aumenta em #2[i]%, acumulando até um máximo de #3[i] vezes.",
       "en": "Increases the wearer's ATK by #1[i]%. After the wearer uses Skill, increases ATK by #2[i]%, stacking up to #3[i] times.",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。装备者施放战技后，攻击力提高#2[i]%，该效果最多叠加#3[i]层。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが戦闘スキルを発動した後、攻撃力+#2[i]%、この効果は最大で#3[i]層累積できる。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 전투 스킬 발동 후 공격력이 #2[i]% 증가한다, 해당 효과 최대 중첩수: #3[i]스택"
     },

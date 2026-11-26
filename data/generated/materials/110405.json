@@ -1,7 +1,7 @@
 {
   "id": 110405,
   "slug": "storm-eye",
-  "name": { "pt-BR": "Olho Tempestuoso", "en": "Storm Eye", "zh-CN": "暴风之眼", "ja": "暴風の眼", "ko": "폭풍의 눈" },
+  "name": { "pt-BR": "Olho Tempestuoso", "en": "Storm Eye", "ja": "暴風の眼", "ko": "폭풍의 눈" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -11,7 +11,6 @@
   "sources": {
     "en": ["Stagnant Shadow: Rivet Town", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Vila dos Rebites", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【铆钉镇】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「リベットタウン」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [리벳 타운]", "「만능 합성기」- 재료 치환"]
   }

@@ -1,7 +1,7 @@
 {
   "id": 6,
   "type": "CriticalDamage",
-  "name": { "pt-BR": "Dano CRIT", "en": "CRIT DMG", "zh-CN": "暴击伤害", "ja": "会心ダメージ", "ko": "치명타 피해" },
+  "name": { "pt-BR": "Dano CRIT", "en": "CRIT DMG", "ja": "会心ダメージ", "ko": "치명타 피해" },
   "icon": "icon/property/IconCriticalDamage.png",
   "percent": false
 }

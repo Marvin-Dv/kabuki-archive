@@ -1,7 +1,7 @@
 {
   "id": 20013,
   "slug": "passkey",
-  "name": { "pt-BR": "Chave Mestra", "en": "Passkey", "zh-CN": "灵钥", "ja": "霊鍵", "ko": "영험한 열쇠" },
+  "name": { "pt-BR": "Chave Mestra", "en": "Passkey", "ja": "霊鍵", "ko": "영험한 열쇠" },
   "rarity": 3,
   "path": "Erudition",
   "announcedAt": "2026-11-16",
@@ -9,16 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"O conhecimento se encontra atrás de um portão trancado. Sua chave está escondida de quem procura respostas dos outros, mas é óbvia para quem se determina a achá-las por conta própria.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"Knowledge is locked behind a gate, the key to which is hidden from those seeking answers from others, while made obvious for those determined to find it on their own.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「知识永远在那门后，而大门的钥匙也不由谁赏赐。谁最想要它，谁就能拥有。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「知識は永遠にあの扉の後ろにある、しかし扉の鍵は賜物ではない。それを最も欲した者が、それを手に入れられる」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「지식은 영원히 저 문 뒤에 있고 열쇠를 주는 이도 없다. 가장 원하는 사람이 손에 넣을 수 있을 뿐」"
   },
   "skill": {
-    "name": { "pt-BR": "Epifania", "en": "Epiphany", "zh-CN": "顿悟", "ja": "悟道", "ko": "깨달음" },
+    "name": { "pt-BR": "Epifania", "en": "Epiphany", "ja": "悟道", "ko": "깨달음" },
     "description": {
       "pt-BR": "Após o usuário usar sua Perícia, regenera mais #1[i] de Energia adicional. Este efeito não pode ser ativado repetidamente em uma única rodada.",
       "en": "After the wearer uses their Skill, additionally regenerates #1[i] Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "zh-CN": "使装备者施放战技后额外恢复#1[i]点能量，该效果单个回合内不可重复触发。",
       "ja": "装備キャラが戦闘スキルを発動した後、さらにEPを#1[i]回復する、この効果は毎ターンに1回まで発動できる。",
       "ko": "장착한 캐릭터가 전투 스킬 발동 후 추가로 에너지를 #1[i]pt 회복한다. 해당 효과는 단일 턴 내 중복 발동되지 않는다"
     },

@@ -1,13 +1,7 @@
 {
   "id": 11002,
   "slug": "dan-hengs-eidolon",
-  "name": {
-    "pt-BR": "Eidolon de Dan Heng",
-    "en": "Dan Heng's Eidolon",
-    "zh-CN": "【丹恒】的星魂",
-    "ja": "「丹恒」の星魂",
-    "ko": "[단항]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon de Dan Heng", "en": "Dan Heng's Eidolon", "ja": "「丹恒」の星魂", "ko": "[단항]의 성혼" },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

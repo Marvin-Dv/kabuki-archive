@@ -1,7 +1,7 @@
 {
   "id": 47,
   "type": "BaseSpeed",
-  "name": { "pt-BR": "VEL", "en": "SPD", "zh-CN": "速度", "ja": "速度", "ko": "속도" },
+  "name": { "pt-BR": "VEL", "en": "SPD", "ja": "速度", "ko": "속도" },
   "icon": "icon/property/IconSpeed.png",
   "percent": false
 }

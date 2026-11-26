@@ -1,13 +1,7 @@
 {
   "id": 110311,
   "slug": "tear-of-phagousa",
-  "name": {
-    "pt-BR": "Lágrima de Phagousa",
-    "en": "Tear of Phagousa",
-    "zh-CN": "法吉娜之泪",
-    "ja": "ファジェイナの涙",
-    "ko": "파구사의 눈물"
-  },
+  "name": { "pt-BR": "Lágrima de Phagousa", "en": "Tear of Phagousa", "ja": "ファジェイナの涙", "ko": "파구사의 눈물" },
   "rarity": 2,
   "type": "Material",
   "subType": "TracePath",
@@ -25,7 +19,6 @@
       "Troca de Brasas",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["拟造花萼【「辉痕圣林」神悟树庭】", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": [
       "疑似花萼「「{RUBY_B#あとかがや}痕輝{RUBY_E#}ける{RUBY_B#せいりん}聖林{RUBY_E#}」{RUBY_B#しんご}神悟{RUBY_E#}の{RUBY_B#じゅてい}樹庭{RUBY_E#}」",
       "エンバー交換",

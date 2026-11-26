@@ -1,7 +1,7 @@
 {
   "id": 20010,
   "slug": "defense",
-  "name": { "pt-BR": "Defesa", "en": "Defense", "zh-CN": "戍御", "ja": "防衛", "ko": "수비" },
+  "name": { "pt-BR": "Defesa", "en": "Defense", "ja": "防衛", "ko": "수비" },
   "rarity": 3,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -9,16 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"Se um dia você duvidar que esses muros nos levarão à vitória, basta olhar para as corajosas almas sobre eles.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"If you ever doubt these walls will lead us to victory, just look at these brave souls standing atop them.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「城墙后坚强的民众，证明了防御也是一种取胜手段。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「城壁の後ろにいる頑強な民たちは、防御も勝利に至る術の1つであることを証明した」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「성벽 뒤의 강인한 시민들이 방어도 승리의 수단임을 증명했다」"
   },
   "skill": {
-    "name": { "pt-BR": "Revitalização", "en": "Revitalization", "zh-CN": "兴复", "ja": "復興", "ko": "부흥" },
+    "name": { "pt-BR": "Revitalização", "en": "Revitalization", "ja": "復興", "ko": "부흥" },
     "description": {
       "pt-BR": "Ao usar sua Perícia Suprema, o usuário restaura PV em #1[i]% de seus PV máximos.",
       "en": "When the wearer unleashes their Ultimate, they restore HP by #1[i]% of their Max HP.",
-      "zh-CN": "使装备者施放终结技时，回复等同于自身生命上限#1[i]%的生命值。",
       "ja": "装備キャラが必殺技を発動した時、HPを最大HP#1[i]%分回復する。",
       "ko": "장착한 캐릭터가 필살기 발동 시 HP 최대치 #1[i]%만큼의 HP를 회복한다"
     },

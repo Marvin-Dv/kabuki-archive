@@ -1,13 +1,7 @@
 {
   "id": 24002,
   "slug": "texture-of-memories",
-  "name": {
-    "pt-BR": "Textura de Memórias",
-    "en": "Texture of Memories",
-    "zh-CN": "记忆的质料",
-    "ja": "記憶の素材",
-    "ko": "기억의 소재"
-  },
+  "name": { "pt-BR": "Textura de Memórias", "en": "Texture of Memories", "ja": "記憶の素材", "ko": "기억의 소재" },
   "rarity": 5,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -15,16 +9,14 @@
   "description": {
     "pt-BR": "O universo era como uma paisagem árida cheia de lixo.\nDe vez em quando, havia tesouros desconhecidos.\nOlhavam pelas frestas do passado, escolhendo sementes de memória.\nPara uma nova vida nascer, sua semente tem que estar morta.\nPedras preciosas cor-de-rosa, azul e branco foram encontradas,\nbrilhando gentilmente em SUA sementeira, embora o universo\ntenha permanecido em enigmático silêncio.",
     "en": "The universe is like a wasteland filled with rubbish,\nwhere occasional treasures lie undiscovered.\nTHEY sift through the cracks of yesterday, seeking seeds of memory.\n...If a new life is to be born, its seed has to be dead.\nPrecious stones of pink, blue, and white are brought forth,\ntwinkling gently in THEIR seed plot,\neven though the universe holds onto its enigmatic silence.",
-    "zh-CN": "宇宙像一片堆满垃圾的生荒地。\n偶有琳琅，无人捡拾。\n祂翻阅往日的罅隙，拣选记忆的种子\n——新的生命要是萌芽，它的种子须是死的。\n粉色、蓝色、白色的宝石被带了来，\n在祂的苗圃中轻盈闪烁，\n但宇宙依旧寂静如谜。",
     "ja": "宇宙はまるでゴミが山積みの荒地。\nたまに琳琅があっても、拾う人がいない。\n其は、過去の隙間を捲り、記憶の種を選ぶ。\n——新しい命が芽吹いたら、その種は死んでいなければならない。\nピンク、青、白の宝石が持ってこられ、\n其の苗圃の中で軽やかに瞬く。\nしかし、宇宙は依然として謎のように沈黙している。",
     "ko": "우주는 쓰레기가 가득 쌓인 황무지 같다.\n가끔 귀한 물건이 있어도 주워가는 사람이 없다.\n그는 지나간 날의 틈새를 넘겨보며, 기억의 씨앗을 골라낸다.\n——새로운 생명이 움트기 위해선, 그 씨앗이 죽어야만 한다.\n분홍색, 파란색, 하얀색의 가져온 보석이,\n그의 묘포에서 반짝인다,\n그래도 우주는 여전히 적막하다"
   },
   "skill": {
-    "name": { "pt-BR": "Tesouro", "en": "Treasure", "zh-CN": "珍存", "ja": "珍蔵", "ko": "간직" },
+    "name": { "pt-BR": "Tesouro", "en": "Treasure", "ja": "珍蔵", "ko": "간직" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% a RES a Efeito do usuário. Se o usuário for atacado sem Escudo, ganha um Escudo com #2[i]% dos seus PV máximos por #3[i] rodada(s). Este efeito só pode ser ativado uma vez a cada #4[i] rodada(s). Se o usuário já estiver com um Escudo ao ser atacado, diminui em #5[i]% o Dano recebido.",
       "en": "Increases the wearer's Effect RES by #1[i]%. If the wearer is attacked and has no Shield, they gain a Shield equal to #2[i]% of their Max HP for #3[i] turn(s). This effect can only be triggered once every #4[i] turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by #5[i]%.",
-      "zh-CN": "使装备者的效果抵抗提高#1[i]%，当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者#2[i]%生命上限的护盾，持续#3[i]回合。该效果每#4[i]回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低#5[i]%。",
       "ja": "装備キャラの効果抵抗+#1[i]%。装備キャラが攻撃を受けた後、バリアを所持していない場合、装備キャラの最大HP#2[i]%分の耐久値を持つバリアを1つ獲得する、#3[i]ターン継続。この効果は#4[i]ターン回ってくるたびに1回まで発動できる。装備キャラがバリアを所持する場合、自身の受けるダメージ-#5[i]%。",
       "ko": "장착한 캐릭터의 효과 저항이 #1[i]% 증가한다. 장착한 캐릭터는 피격 후 자신이 실드를 보유하지 않았다면 장착한 캐릭터 HP 최대치 #2[i]%만큼의 실드를 획득한다. 지속 시간: #3[i]턴. 해당 효과는 #4[i]턴마다 1회만 발동할 수 있다. 장착한 캐릭터가 실드를 보유하면 자신이 받는 피해가 #5[i]% 감소한다"
     },

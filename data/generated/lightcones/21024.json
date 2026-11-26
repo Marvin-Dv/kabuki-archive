@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "O Rio Corre na Primavera",
     "en": "River Flows in Spring",
-    "zh-CN": "春水初生",
     "ja": "春水に初生する",
     "ko": "움트는 봄물"
   },
@@ -15,7 +14,6 @@
   "description": {
     "pt-BR": "O menino fez uma pequena pausa da sua prática de espada.\nO sol estava queimando seu pescoço já quente. Ele lentamente entrou na água, sentindo o frio tocar seus pés descalços.\nQuando o sino toca e os pássaros cantam, mesmo as pessoas distantes sabem que a primavera chegou.",
     "en": "The young boy took a short break from his sword practice.\nThe sunlight was baking his already heated neck. He slowly got into the water, whose coldness touched his bare feet.\nWhen the bell chimes and birds tweet, even the people far away would know that springtime had arrived.",
-    "zh-CN": "练剑的少年稍事歇息。\n阳光烘着他微热的脖颈，缓缓入水，\n没过脚边时，虽是凉的，\n但铃铛叮铃，飞鸟啁啾，\n远方的人们知是春天到了。",
     "ja": "剣を修練する少年は休憩を取る。\n日の光が彼の首元を暖め、彼はゆっくりと水に入る、\n足が入った時、冷たさを感じる、\nでも鈴は鳴り、鳥も啼く、\n遠方の人々は知る、春が来ると。",
     "ko": "검을 연마하던 소년은 잠시 휴식을 취한다.\n햇살이 그의 뜨거운 목덜미를 데우고 그는 천천히 물에 들어간다.\n물이 발에 찰랑 거리자 차가웠지만,\n종이 울리고, 새가 지저귄다.\n먼 곳의 사람들은 봄이 온 것을 알아차린다"
   },
@@ -23,14 +21,12 @@
     "name": {
       "pt-BR": "Combata o Frio Persistente",
       "en": "Stave Off the Lingering Cold",
-      "zh-CN": "驱散余寒",
       "ja": "余寒を払いのけ",
       "ko": "남은 추위 몰아내기"
     },
     "description": {
       "pt-BR": "Após entrar na batalha, aumenta a VEL do usuário em #1[i]% e o seu Dano em #2[i]%. Quando o usuário recebe Dano, este efeito desaparece. O efeito retorna após o fim da próxima rodada do usuário.",
       "en": "After entering battle, increases the wearer's SPD by #1[i]% and DMG by #2[i]%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.",
-      "zh-CN": "进入战斗后，使装备者速度提高#1[i]%，造成的伤害提高#2[i]%。当装备者受到伤害后该效果失效，下个回合结束时该效果恢复。",
       "ja": "戦闘に入った後、装備キャラの速度+#1[i]%、与ダメージ+#2[i]%。この効果は装備キャラがダメージを受けた後に失効し、装備キャラの次のターンが終了した時に再度効力を発生する。",
       "ko": "전투 진입 후 장착한 캐릭터의 속도가 #1[i]% 증가하고, 가하는 피해가 #2[i]% 증가한다. 장착한 캐릭터가 피해를 받은 후 해당 효과는 사라지며 다음 턴이 종료되면 해당 효과는 회복된다"
     },

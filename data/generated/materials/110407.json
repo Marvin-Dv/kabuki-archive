@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Coroa de Ouro de uma Sombra do Passado",
     "en": "Golden Crown of the Past Shadow",
-    "zh-CN": "往日之影的金饰",
     "ja": "過去の影の金装飾",
     "ko": "과거 그림자의 황금 장식"
   },
@@ -17,7 +16,6 @@
   "sources": {
     "en": ["Stagnant Shadow: Backwater Pass", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Passagem do Remanso", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【边缘通路】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「外縁通路」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [변방 통로]", "「만능 합성기」- 재료 치환"]
   }

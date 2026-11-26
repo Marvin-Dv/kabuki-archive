@@ -1,13 +1,7 @@
 {
   "id": 110271,
   "slug": "grit-of-strife",
-  "name": {
-    "pt-BR": "Bravura do Conflito",
-    "en": "Grit of Strife",
-    "zh-CN": "纷争血尘",
-    "ja": "紛争の血塵",
-    "ko": "분쟁의 혈진"
-  },
+  "name": { "pt-BR": "Bravura do Conflito", "en": "Grit of Strife", "ja": "紛争の血塵", "ko": "분쟁의 혈진" },
   "rarity": 2,
   "type": "Material",
   "subType": "TracePath",
@@ -25,7 +19,6 @@
       "Troca de Brasas",
       "Sintetizador Omni — Troca de Material"
     ],
-    "zh-CN": ["拟造花萼【「葬忆彼岸」时光归墟】", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": [
       "疑似花萼「「{RUBY_B#ほうむ}葬{RUBY_E#}られし{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#ひがん}彼岸{RUBY_E#}」{RUBY_B#とき}時{RUBY_E#}の{RUBY_B#は}果{RUBY_E#}て」",
       "エンバー交換",

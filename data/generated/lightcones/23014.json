@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Eu Serei Minha Própria Espada",
     "en": "I Shall Be My Own Sword",
-    "zh-CN": "此身为剑",
     "ja": "この身は剣なり",
     "ko": "이 몸이 검이니"
   },
@@ -15,7 +14,6 @@
   "description": {
     "pt-BR": "A lâmina despedaçada, mergulhando no frio congelante.\nTodos os instrumentos terrenos são apenas futilidades, e seu valor pode ser discernido com um simples olhar.\n\"Que utilidade eu tenho para as espadas?\"\nEla não tem nenhum apreço, e também não acomoda nada em seu olhar.\n\"De agora em diante, eu serei minha própria espada.\"\nPara transcender os precipícios percebidos e alcançar conquistas sem precedentes,\né necessário se tornar a \"brasa\" que alimentará seu próprio fogo.",
     "en": "The blade shattered, plunging into the bone-chilling cold.\nAll earthly instruments are mere futilities, their worth discernible with a single glance.\n\"What use do I have of swords?\"\nShe holds no attachment, nor does her gaze accommodate anything within.\n\"From now on, I shall be my own sword.\"\nTo transcend perceived precipices and achieve unprecedented breakthroughs,\none must regard themselves as \"kindling\" to fuel their own fire.",
-    "zh-CN": "剑身碎裂，落入彻骨的寒冷中。\n凡铁俗器皆是无用之物，它们的上限，望一眼就看得到尽头。\n「我还要剑何用？」\n她没有眷恋，眼中亦没有容纳任何一物。\n「从此刻起，此身为剑。」\n要想跨越所谓的极限，要想得到无人涉足的突破\n——唯有将自己也视作一份「薪柴」了。",
     "ja": "剣身が砕け、骨刺す極寒の中に落ちてゆく。\n凡鉄、俗器は皆無用の物。その限界は一目で見通せる。\n「剣など必要か？」\n彼女は躊躇わなかった。その目にはいかなる物も入っていなかった。\n「これからは、この身が剣だ」\n極限を超えるには、前人未到の域を突破するには\n——己さえも「薪」にするしかない。",
     "ko": "검신이 파열되어 뼛속까지 스미는 추위 속으로 떨어진다.\n평범한 도검과 무기는 무용지물이다. 그것들의 한계는 명확하다.\n「내게 이제 검이 무슨 소용인가?」\n그녀는 미련을 두지 않았고, 눈앞의 어느 것도 눈에 들어오지 않았다.\n「지금부터, 이 몸이 검이다」\n극한이라는 것을 뛰어넘으려면, 전인미답의 경지에 오르려면\n——자신마저 「장작」으로 여기는 수밖에 없다"
   },
@@ -23,14 +21,12 @@
     "name": {
       "pt-BR": "Com Este Jade Vespertino",
       "en": "With This Evening Jade",
-      "zh-CN": "执此宵玉",
       "ja": "この宵玉を執り",
       "ko": "옥을 쥐고"
     },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando um aliado é atacado ou perde PV, o usuário ganha 1 acúmulo de Eclipse, até um máximo de #2[i] acúmulo(s). Cada acúmulo de Eclipse aumenta o Dano do próximo ataque do usuário em #3[f1]%. Ao alcançar #2[i] acúmulo(s), permite adicionalmente que este ataque ignore #4[i]% da DEF do inimigo. Este efeito será removido depois que o usuário utilizar um ataque.",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. When a teammate gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of #2[i] stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by #3[f1]%. When #2[i] stack(s) are reached, additionally enables that attack to ignore #4[i]% of the enemy's DEF. This effect will be removed after the wearer uses an attack.",
-      "zh-CN": "使装备者的暴击伤害提高#1[i]%。当队友受到攻击或消耗生命值后，装备者获得1层【月蚀】，最多叠加#2[i]层。每层【月蚀】使装备者下一次攻击造成的伤害提高#3[f1]%。叠满#2[i]层时，额外使该次攻击无视目标#4[i]%的防御力。该效果在装备者施放攻击后解除。",
       "ja": "装備キャラの会心ダメージ+#1[i]%。自身以外の味方が攻撃を受ける、またはHPを消費した後、装備キャラは「月蝕」を1層獲得する。この効果は最大で#2[i]層累積できる。「月蝕」1層につき、装備キャラの次の攻撃の与ダメージ+#3[f1]%。「月蝕」が上限の#2[i]層に累積した時、その回の攻撃は敵の防御力を#4[i]%無視する。この効果は装備キャラが攻撃を行った後に解除される。",
       "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가한다. 동료가 공격을 받거나 HP를 소모하면 장착한 캐릭터는 [월식]을 1스택 획득한다. 최대 중첩수: #2[i]스택. [월식] 스택당 장착한 캐릭터의 다음번 공격이 가하는 피해가 #3[f1]% 증가한다. #2[i]스택까지 중첩 시, 이번 공격은 추가로 목표의 방어력을 #4[i]% 무시한다. 해당 효과는 장착한 캐릭터가 공격을 발동하면 해제된다"
     },

@@ -1,7 +1,7 @@
 {
   "id": 20009,
   "slug": "shattered-home",
-  "name": { "pt-BR": "Casa Destruída", "en": "Shattered Home", "zh-CN": "乐圮", "ja": "楽壊", "ko": "무너진 행복" },
+  "name": { "pt-BR": "Casa Destruída", "en": "Shattered Home", "ja": "楽壊", "ko": "무너진 행복" },
   "rarity": 3,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
@@ -9,16 +9,14 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"O controle absoluto vem da capacidade de causar destruição total.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"Absolute control comes from the ability to inflict total destruction.\"",
-    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「有能力摧毁某样事物的人，才是它真正的掌控者。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「あるものを壊す力を持った存在こそ、そのものを真に掌握した支配者」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「어떤 사물을 파괴할 수 있는 능력이 있는 사람만이 진정한 지배자이다」"
   },
   "skill": {
-    "name": { "pt-BR": "Erradicação", "en": "Eradication", "zh-CN": "诛讨", "ja": "誅討", "ko": "토벌" },
+    "name": { "pt-BR": "Erradicação", "en": "Eradication", "ja": "誅討", "ko": "토벌" },
     "description": {
       "pt-BR": "O usuário causa #2[i]% a mais de Dano a inimigos-alvo com porcentagem de PV maior do que #1[i]%.",
       "en": "The wearer deals #2[i]% more DMG to enemy targets whose HP percentage is greater than #1[i]%.",
-      "zh-CN": "使装备者对当前生命值百分比大于#1[i]%的敌方目标造成的伤害提高#2[i]%。",
       "ja": "残りHPが#1[i]%を超える敵に対する、装備キャラの与ダメージ+#2[i]%。",
       "ko": "장착한 캐릭터는 현재 HP 백분율이 #1[i]%보다 높은 적을 공격할 경우 가하는 피해가 #2[i]% 증가한다"
     },

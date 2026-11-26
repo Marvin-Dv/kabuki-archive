@@ -1,7 +1,7 @@
 {
   "id": 1101,
   "slug": "bronya",
-  "name": { "pt-BR": "Bronya", "en": "Bronya", "zh-CN": "布洛妮娅", "ja": "ブローニャ", "ko": "브로냐" },
+  "name": { "pt-BR": "Bronya", "en": "Bronya", "ja": "ブローニャ", "ko": "브로냐" },
   "rarity": 5,
   "path": "Harmony",
   "element": "Wind",
@@ -14,14 +14,12 @@
       "name": {
         "pt-BR": "Munição de Ventos Fortes",
         "en": "Windrider Bullet",
-        "zh-CN": "驭风的子弹",
         "ja": "疾風の弾丸",
         "ko": "바람의 탄환"
       },
       "description": {
         "pt-BR": "Causa Dano de Vento igual a #1[i]% do ATQ de Bronya a um único inimigo.",
         "en": "Deals Wind DMG equal to #1[i]% of Bronya's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于布洛妮娅#1[i]%攻击力的风属性伤害。",
         "ja": "指定した敵単体にブローニャの攻撃力#1[i]%分の風属性ダメージを与える。",
         "ko": "지정된 단일 적에게 브로냐 공격력 #1[i]%만큼의 바람 속성 피해를 가한다"
       },
@@ -31,12 +29,11 @@
       "summary": {
         "pt-BR": "Causa Dano de Vento leve a um único inimigo.",
         "en": "Deals minor Wind DMG to one enemy.",
-        "zh-CN": "对敌方单体造成少量风属性伤害。",
         "ja": "敵単体に少量の風属性ダメージを与える。",
         "ko": "단일 적에게 소량의 바람 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110102,
@@ -44,14 +41,12 @@
       "name": {
         "pt-BR": "Redistribuição de Combate",
         "en": "Combat Redeployment",
-        "zh-CN": "作战再部署",
         "ja": "作戦再展開",
         "ko": "작전 재배치"
       },
       "description": {
         "pt-BR": "Dissipa uma penalidade de um único aliado, permite que ele aja imediatamente, e aumenta seu Dano em #1[i]% por #3[i] rodada(s).\nQuando esta Perícia é usada na própria Bronya, ela não pode agir imediatamente novamente.",
         "en": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by #1[i]% for #3[i] turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "zh-CN": "解除指定我方单体的1个负面效果，并使该目标立即行动，造成的伤害提高#1[i]%，持续#3[i]回合。\n当对自身施放该技能时，无法触发立即行动效果。",
         "ja": "指定した味方単体のデバフを1つ解除し、その味方を即座に行動させ、与ダメージ+#1[i]%、#3[i]ターン継続。\n自身に対してこのスキルを発動した時、即時行動の効果は発動しない。",
         "ko": "지정된 단일 아군의 디버프 효과를 1개 해제하며, 해당 목표는 즉시 행동하고, 가하는 피해가 #1[i]% 증가한다. 지속 시간: #3[i]턴\n자신에게 해당 스킬을 발동하면 즉시 행동 효과는 발동되지 않는다"
       },
@@ -77,12 +72,11 @@
       "summary": {
         "pt-BR": "Remove 1 penalidade de um único aliado, aumenta o Dano que ele causa e permite que ele aja imediatamente.",
         "en": "Dispels 1 debuff from a single ally, increases the damage they deal, and allows them to immediately take action.",
-        "zh-CN": "解除我方单体1个负面效果，使其造成的伤害提高，并立刻行动。",
         "ja": "味方単体のデバフを1つ解除し、与ダメージをアップさせ、即座に行動させる。",
         "ko": "단일 아군의 디버프 효과를 1개 해제하고, 해당 아군이 가하는 피해가 증가하며 즉시 행동한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 110103,
@@ -90,14 +84,12 @@
       "name": {
         "pt-BR": "A Marcha de Belobog",
         "en": "The Belobog March",
-        "zh-CN": "贝洛伯格进行曲",
         "ja": "ベロブルグ行進曲",
         "ko": "벨로보그 행진곡"
       },
       "description": {
         "pt-BR": "Aumenta o ATQ de todos os aliados em #1[i]% e aumenta o Dano CRIT em #2[f1]% do Dano CRIT de Bronya mais #3[f1]% por #4[i] rodada(s).",
         "en": "Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[f1]% of Bronya's CRIT DMG plus #3[f1]% for #4[i] turn(s).",
-        "zh-CN": "使我方全体攻击力提高#1[i]%，同时提高等同于布洛妮娅#2[f1]%暴击伤害+#3[f1]%的暴击伤害，持续#4[i]回合。",
         "ja": "味方全体の攻撃力+#1[i]%、会心ダメージがブローニャの会心ダメージ#2[f1]%分+#3[f1]%アップする、#4[i]ターン継続。",
         "ko": "모든 아군의 공격력이 #1[i]% 증가하고, 동시에 브로냐 치명타 피해 #2[f1]%+#3[f1]%만큼의 치명타 피해가 증가한다. 지속 시간: #4[i]턴"
       },
@@ -123,27 +115,19 @@
       "summary": {
         "pt-BR": "Aumenta o ATQ e o Dano CRIT de todos os aliados.",
         "en": "Increases ATK and CRIT DMG of all allies.",
-        "zh-CN": "使我方全体攻击力提高，暴击伤害提高。",
         "ja": "味方全体の攻撃力と会心ダメージをアップする。",
         "ko": "모든 아군의 공격력이 증가하고 치명타 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 110104,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Liderança",
-        "en": "Leading the Way",
-        "zh-CN": "先人一步",
-        "ja": "先人一歩",
-        "ko": "앞선 한 발"
-      },
+      "name": { "pt-BR": "Liderança", "en": "Leading the Way", "ja": "先人一歩", "ko": "앞선 한 발" },
       "description": {
         "pt-BR": "Após usar o ATQ Básico, a próxima ação de Bronya será Avançada Adiante em #1[i]%.",
         "en": "After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.",
-        "zh-CN": "施放普攻后，布洛妮娅的下一次行动提前#1[i]%。",
         "ja": "通常攻撃を行った後、ブローニャの行動順が#1[i]%早まる。",
         "ko": "일반 공격 발동 후 브로냐의 다음번 행동 게이지가 #1[i]% 증가한다"
       },
@@ -169,21 +153,19 @@
       "summary": {
         "pt-BR": "Depois que esta personagem usa o ATQ Básico, a próxima ação dela será Avançada Adiante.",
         "en": "After this character uses Basic ATK, their next action will be Advanced Forward.",
-        "zh-CN": "施放普攻后，自身下一次行动提前。",
         "ja": "通常攻撃を行った後、自身の次の行動順が早まる。",
         "ko": "일반 공격 발동 후 자신의 다음 행동 게이지가 증가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 110106,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -192,7 +174,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -200,17 +181,10 @@
     {
       "id": 110107,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Bandeira de Comando",
-        "en": "Banner of Command",
-        "zh-CN": "在旗帜下",
-        "ja": "旗の下で",
-        "ko": "깃발 아래"
-      },
+      "name": { "pt-BR": "Bandeira de Comando", "en": "Banner of Command", "ja": "旗の下で", "ko": "깃발 아래" },
       "description": {
         "pt-BR": "Após Bronya usar sua Técnica, no início da próxima batalha, o ATQ de todos os aliados aumenta em #1[i]% por #2[i] rodada(s).",
         "en": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).",
-        "zh-CN": "使用秘技后，下一次战斗开始时使我方全体攻击力提高#1[i]%，持续#2[i]回合。",
         "ja": "秘技を使用した後、次の戦闘開始時、味方全体の攻撃力+#1[i]%、#2[i]ターン継続。",
         "ko": "비술 발동 후 다음 전투 시작 시 모든 아군의 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
       },
@@ -220,12 +194,11 @@
       "summary": {
         "pt-BR": "Depois que esta personagem usa a Técnica, aumenta o ATQ de todos os aliados no início da próxima batalha.",
         "en": "After this character uses Technique, increases all allies' ATK at the start of the next battle.",
-        "zh-CN": "使用秘技，下一次战斗开始时我方全体攻击力提高。",
         "ja": "秘技を使用、次の戦闘開始時、味方全体の攻撃力をアップする。",
         "ko": "비술을 발동하고 다음 전투 시작 시 모든 아군의 공격력이 증가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
     }
   ],
   "eidolons": [
@@ -234,14 +207,12 @@
       "name": {
         "pt-BR": "Aprimore Sua Força",
         "en": "Hone Your Strength",
-        "zh-CN": "养精蓄锐",
         "ja": "{RUBY_B#えいき}英気{RUBY_E#}を{RUBY_B#やしな}養{RUBY_E#}う",
         "ko": "정신 무장, 전투력 비축"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia, há uma chance fixa de 50% de recuperar 1 Ponto de Perícia. Este efeito tem um tempo de recarga de 1 rodada.",
         "en": "When using Skill, there is a 50% fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown.",
-        "zh-CN": "施放战技时，有50%固定概率恢复1个战技点，该效果有1回合的触发冷却。",
         "ja": "戦闘スキルを発動した時、50%の固定確率でSPを1回復する、クールタイムは1ターン。",
         "ko": "전투 스킬 발동 시 50%의 고정 확률로 전투 스킬 포인트를 1pt 회복한다. 해당 효과의 재발동 대기시간은 1턴이다"
       },
@@ -254,14 +225,12 @@
       "name": {
         "pt-BR": "Marcha Rápida",
         "en": "Quick March",
-        "zh-CN": "快速行军",
         "ja": "{RUBY_B#きゅうこうぐん}急行軍{RUBY_E#}",
         "ko": "빠른 행군"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia, a VEL do aliado-alvo aumenta em 30% depois de realizar a ação, e dura 1 rodada.",
         "en": "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.",
-        "zh-CN": "施放战技时，被指定的我方目标在行动后速度提高30%，持续1回合。",
         "ja": "戦闘スキルを発動した時、指定された味方は行動した後に速度+30%、1ターン継続。",
         "ko": "전투 스킬 발동 시 지정된 아군은 행동 후 속도가 30% 증가한다. 지속 시간: 1턴"
       },
@@ -274,14 +243,12 @@
       "name": {
         "pt-BR": "Bombardeio",
         "en": "Bombardment",
-        "zh-CN": "鼓炮齐鸣",
         "ja": "{RUBY_B#いっせいしゃげき}一斉射撃{RUBY_E#}",
         "ko": "포격 개시"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -294,14 +261,12 @@
       "name": {
         "pt-BR": "Pegue de Surpresa",
         "en": "Take by Surprise",
-        "zh-CN": "攻其不备",
         "ja": "{RUBY_B#ふい}不意{RUBY_E#}{RUBY_B#う}打{RUBY_E#}ち",
         "ko": "허점 공격"
       },
       "description": {
         "pt-BR": "Após qualquer outro aliado usar um ATQ Básico em um inimigo-alvo com Fraqueza contra Vento, Bronya realiza 1 Ataque Extra imediatamente contra o alvo, causando Dano de Vento equivalente a 80% do Dano do seu ATQ Básico. Este efeito só pode ser ativado 1 vez por rodada.",
         "en": "After any other ally character uses Basic ATK on an enemy target that has Wind Weakness, Bronya immediately launches 1 instance of Follow-Up ATK, dealing Wind DMG to this target equal to 80% of her Basic ATK DMG. This effect can only trigger once per turn.",
-        "zh-CN": "我方其他角色对弱点为风属性的敌方目标施放普攻后，布洛妮娅立即进行1次追加攻击，对该目标造成等同于普攻伤害80%的风属性伤害，该效果每回合可触发1次。",
         "ja": "他の味方が、弱点が風属性の敵に通常攻撃を行った後、ブローニャは追加攻撃を行い、その敵に通常攻撃ダメージ80%分の風属性ダメージを与える、この効果はターンが回ってくるたびに1回発動できる。",
         "ko": "다른 아군 캐릭터가 바람 속성 약점을 보유한 적에게 일반 공격을 발동하면, 브로냐는 즉시 추가 공격을 1회 발동하여 해당 목표에게 일반 공격 피해의 80%만큼 바람 속성 피해를 가한다. 해당 효과는 턴마다 1회 발동할 수 있다"
       },
@@ -314,14 +279,12 @@
       "name": {
         "pt-BR": "Incontrolável",
         "en": "Unstoppable",
-        "zh-CN": "所向克捷",
         "ja": "{RUBY_B#む}向{RUBY_E#}かう{RUBY_B#ところてき}所敵{RUBY_E#}なし",
         "ko": "승승장구"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -334,14 +297,12 @@
       "name": {
         "pt-BR": "Arco-íris Perfurante",
         "en": "Piercing Rainbow",
-        "zh-CN": "气贯长虹",
         "ja": "{RUBY_B#きせいかんてん}気勢貫天{RUBY_E#}",
         "ko": "드높은 기세"
       },
       "description": {
         "pt-BR": "A duração do efeito de Bônus de Dano da Perícia no aliado-alvo aumenta em 1 rodada(s).",
         "en": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s).",
-        "zh-CN": "战技对指定我方目标造成的伤害提高效果的持续时间增加1回合。",
         "ja": "戦闘スキルが付与する、指定した味方の与ダメージアップ効果の継続時間+1ターン。",
         "ko": "전투 스킬이 지정한 아군이 가하는 피해 증가 효과 지속 시간이 1턴 증가한다"
       },
@@ -718,17 +679,10 @@
     {
       "id": 1101101,
       "anchor": "Point06",
-      "name": {
-        "pt-BR": "Comando",
-        "en": "Command",
-        "zh-CN": "号令",
-        "ja": "{RUBY_B#ごうれい}号令{RUBY_E#}",
-        "ko": "호령"
-      },
+      "name": { "pt-BR": "Comando", "en": "Command", "ja": "{RUBY_B#ごうれい}号令{RUBY_E#}", "ko": "호령" },
       "description": {
         "pt-BR": "A Chance de CRIT do ATQ Básico aumenta para 100%.",
         "en": "The CRIT Rate for Basic ATK increases to 100%.",
-        "zh-CN": "普攻的暴击率提高至100%。",
         "ja": "通常攻撃の会心率が100%まで上がる。",
         "ko": "일반 공격의 치명타 확률이 100%까지 증가한다"
       },
@@ -751,14 +705,12 @@
       "name": {
         "pt-BR": "Campo de Batalha",
         "en": "Battlefield",
-        "zh-CN": "阵地",
         "ja": "{RUBY_B#じんち}陣地{RUBY_E#}",
         "ko": "진영"
       },
       "description": {
         "pt-BR": "No início da batalha, aumenta a DEF de todos os aliados em #2[i]% por #1[i] rodada(s).",
         "en": "At the start of the battle, all allies' DEF increases by #2[i]% for #1[i] turn(s).",
-        "zh-CN": "战斗开始时，我方全体的防御力提高#2[i]%，持续#1[i]回合。",
         "ja": "戦闘開始時、味方全体の防御力+#2[i]%、#1[i]ターン継続。",
         "ko": "전투 시작 시 모든 아군의 방어력이 #2[i]% 증가한다. 지속 시간: #1[i]턴"
       },
@@ -787,14 +739,12 @@
       "name": {
         "pt-BR": "Poder Militar",
         "en": "Military Might",
-        "zh-CN": "军势",
         "ja": "{RUBY_B#ぐんぜい}軍勢{RUBY_E#}",
         "ko": "군세"
       },
       "description": {
         "pt-BR": "Quando Bronya está no campo, todos os aliados causam #1[i]% a mais de Dano.",
         "en": "When Bronya is on the field, all allies deal #1[i]% more DMG.",
-        "zh-CN": "布洛妮娅在场时，我方全体造成的伤害提高#1[i]%。",
         "ja": "ブローニャがフィールド上にいる時、味方全体の与ダメージ+#1[i]%。",
         "ko": "브로냐가 필드에 있으면 모든 아군이 가하는 피해가 #1[i]% 증가한다"
       },
@@ -823,7 +773,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Vento",
         "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
         "ja": "ダメージ強化・風",
         "ko": "피해 강화•바람"
       },
@@ -843,13 +792,7 @@
     {
       "id": 1101202,
       "anchor": "Point10",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1101101],
@@ -869,7 +812,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Vento",
         "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
         "ja": "ダメージ強化・風",
         "ko": "피해 강화•바람"
       },
@@ -892,7 +834,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -915,7 +856,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Vento",
         "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
         "ja": "ダメージ強化・風",
         "ko": "피해 강화•바람"
       },
@@ -935,13 +875,7 @@
     {
       "id": 1101206,
       "anchor": "Point14",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1101205],
@@ -961,7 +895,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Vento",
         "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
         "ja": "ダメージ強化・風",
         "ko": "피해 강화•바람"
       },
@@ -984,7 +917,6 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
-        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -1004,13 +936,7 @@
     {
       "id": 1101209,
       "anchor": "Point17",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1101208],
@@ -1030,7 +956,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Vento",
         "en": "DMG Boost: Wind",
-        "zh-CN": "伤害强化•风",
         "ja": "ダメージ強化・風",
         "ko": "피해 강화•바람"
       },

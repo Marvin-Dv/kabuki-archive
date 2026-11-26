@@ -1,13 +1,7 @@
 {
   "id": 112003,
   "slug": "silvermane-medal",
-  "name": {
-    "pt-BR": "Medalha Crinalva",
-    "en": "Silvermane Medal",
-    "zh-CN": "铁卫勋章",
-    "ja": "シルバーメインの勲章",
-    "ko": "철위대 훈장"
-  },
+  "name": { "pt-BR": "Medalha Crinalva", "en": "Silvermane Medal", "ja": "シルバーメインの勲章", "ko": "철위대 훈장" },
   "rarity": 4,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -30,14 +24,6 @@
       "Espólio deixado por inimigos no Universo Divergente",
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
-    ],
-    "zh-CN": [
-      "突破至均衡等级4后，永冬灾影、火焚灾影掉落",
-      "突破至均衡等级4后，银鬃铁卫、流浪者掉落",
-      "「万能合成机」- 材料合成",
-      "「差分宇宙」中敌方掉落",
-      "「模拟宇宙」中敌方掉落",
-      "「万能合成机」- 材料置换"
     ],
     "ja": [
       "均衡Lv.4に達した後、永冬の災影、焚火の災影からドロップ",

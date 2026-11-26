@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Saudações dos Gênios",
     "en": "Geniuses' Greetings",
-    "zh-CN": "天才们的问候",
     "ja": "天才たちの「挨拶」",
     "ko": "천재들의 안부 인사"
   },
@@ -15,16 +14,14 @@
   "description": {
     "pt-BR": "\"Parabéns. O experimento falhou novamente, não foi?\"\n\"...\"\n\"Eu já te disse antes que há falhas no seu método.\"\n\"...\"\n\"Eu preciso te contar, tenho feito grandes avanços ultimamente...\"\nA mulher distante ergue o olhar do seu livro...\n\"Desculpe. O que você disse?\"\nEla acena com a mão.\n\"Bem, não posso dizer quão grandes são esses avanços. Talvez só afetem metade do cosmos.\"\nA mulher fecha o livro.\n\"Então fale, estou ouvindo.\"\n\"Hunf. Um gênio do meu calibre... não é algo que você vai ouvir assim tão facilmente...\"\n\"Entendo. Vou fazer uns doces. Podemos conversar e comer ao mesmo tempo.\"",
     "en": "\"Congratulations. Experiment failed again, didn't it?\"\n\"...\"\n\"I told you before that there are mistakes in your method.\"\n\"...\"\n\"I gotta tell you, I've been getting some big breakthroughs recently...\"\nThe aloof woman lifts her head from her book...\n\"I'm sorry. What did you say?\"\nShe waves her hand.\n\"Well, I can't say how great these breakthroughs are. They might only affect half the cosmos.\"\nThe woman closes her book.\n\"Let's hear it, then.\"\n\"Hmph. A genius of my caliber... it's not something you'll just get to hear randomly...\"\n\"I understand. I'll make some pastries. We can talk and eat at the same time.\"",
-    "zh-CN": "「恭喜恭喜，实验又失败了吧？」\n「……」\n「我早说了，你的方法有纰漏。」\n「……」\n「告诉你，我最近可有重大突破~」\n清冷的女士从书中抬起头来——\n「不好意思，你说什么？」\n她摆摆手。\n「说不上有多了不起，也就能影响大半个银河吧。」\n女士合起书页。\n「不妨说来听听。」\n「哼，我这般天才的智慧…可不是随随便便就能听到的……」\n「懂。我新做了些糕点，不如边吃边谈。」",
     "ja": "「実験、また失敗したの？おめでとう」\n「……」\n「言ったでしょ、その方法には問題があるって」\n「……」\n「こっちには大きな進展があったんだけど」\n淡泊な女性が頭を上げた——\n「…なんの話でしたか？」\n彼女はわざとらしく手を振る。\n「些細なことだよ、銀河の大半に影響を及ぼす程度の」\n女性は本を閉じた。\n「それは…詳しく聴いてみたいですね」\n「ふん、天才の講義っていうのは…簡単に聴けるものじゃないんだけど」\n「わかりました。それなら、新しく作ったお菓子を食べながら話しましょうか」",
     "ko": "「축하해. 실험이 또 실패했네?」\n「……」\n「내가 말했잖아. 네 방법에는 문제가 있다고」\n「……」\n「맞다, 나 최근에 큰 성과가 있었어~」\n책 속에 묻혀있던 차가운 여자가 고개를 들었다——\n「미안, 뭐라고 했어?」\n그녀가 손을 저었다.\n「별 건 아니고, 기껏해야 은하 절반에 영향을 줄 수 있는 정도?」\n여자가 책을 덮었다.\n「말해봐」\n「훗, 이 지니어스의 지혜는… 마음대로 들을 수 있는 게 아니야……」\n「알지. 새로운 디저트를 좀 만들었으니, 먹으면서 얘기하자」"
   },
   "skill": {
-    "name": { "pt-BR": "Parabéns", "en": "Congratulations", "zh-CN": "恭喜", "ja": "おめでとう", "ko": "축하해" },
+    "name": { "pt-BR": "Parabéns", "en": "Congratulations", "ja": "おめでとう", "ko": "축하해" },
     "description": {
       "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Após o usuário usar sua Perícia Suprema, aumenta adicionalmente o Dano causado pelo ATQ Básico do usuário e de seu Memoespírito em #2[i]% por #3[i] rodada(s).",
       "en": "Increases the wearer's ATK by #1[i]%. After the wearer uses Ultimate, increases the Basic ATK DMG dealt by the wearer and their memosprite by #2[i]%, lasting for #3[i] turn(s).",
-      "zh-CN": "使装备者的攻击力提高#1[i]%，装备者施放终结技后，使装备者与忆灵造成的普攻伤害提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが必殺技を発動した後、装備キャラおよびその記憶の精霊の通常攻撃ダメージ+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가하며, 장착한 캐릭터가 필살기 발동 후 장착한 캐릭터와 기억 정령이 가하는 일반 공격 피해가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
     },

@@ -1,13 +1,7 @@
 {
   "id": 21035,
   "slug": "what-is-real",
-  "name": {
-    "pt-BR": "O Que É Real?",
-    "en": "What Is Real?",
-    "zh-CN": "何物为真",
-    "ja": "何が真か",
-    "ko": "무엇이 진실인가"
-  },
+  "name": { "pt-BR": "O Que É Real?", "en": "What Is Real?", "ja": "何が真か", "ko": "무엇이 진실인가" },
   "rarity": 4,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
@@ -15,16 +9,14 @@
   "description": {
     "pt-BR": "\"Se todos os relógios estejam mostrando a hora errada...\"\n\"Se aqueles vinculados a promessas realizassem seus votos através da traição...\"\n\"Se aqueles que mergulham no reino dos sonhos nunca dormem realmente...\"\n\"Se os mortos voltam à vida apenas para descobrir que seus nomes foram despojados...\"\n\"Se... Se...\"\nEle sopra a chama, e na escuridão, há apenas o som eterno do relógio.",
     "en": "\"If all the clocks are displaying the wrong time...\"\n\"If those bound to promises fulfilled their vows through betrayal...\"\n\"If those who sink into the realm of dreams never truly fell asleep...\"\n\"If the dead return to life, only to discover their names have been stripped...\"\n\"If... if...\"\nHe blows out the flame, and in darkness, there is but the eternal ticking of the timepiece.",
-    "zh-CN": "「倘若所有的钟表都在指示错误的时刻……」\n「倘若许下承诺的人以背誓完成诺言……」\n「倘若沉入幻梦之人从未真正睡着……」\n「倘若死者活着归来，发现姓名已被剥夺……」\n「倘若…倘若……」\n他吹灭火焰，黑暗中只余时钟永不停歇地滴答作响。",
     "ja": "「もしすべての時計が間違った時刻を告げているとしたら……」\n「もし約束をした人が誓いを破ることで契りを守ったとしたら……」\n「もし夢の中に落ちた人が眠りについていなかったとしたら……」\n「もし死者が生きて戻ってきて、名前を奪われていることに気づいたとしたら……」\n「もし…もし……」\n彼は火を吹き消す。暗闇の中、ただ時計だけがチクタクと音を鳴らしている。",
     "ko": "「만약 모든 시계가 잘못된 시각을 가리킨다면……」\n「만약 한 사람이 약속을 어김으로써 약속을 지킨다면……」\n「만약 꿈속에 빠진 사람이 실제로는 단 한 번도 잠든 적이 없다면……」\n「만약 죽은 자가 살아 돌아왔을 때, 자신의 이름이 빼앗긴 것을 깨닫는다면……」\n「만약… 만약……」\n그가 불을 불어서 끄자, 어둠 속에 남은 건 시계의 멈추지 않는 째깍거리는 소리뿐이었다"
   },
   "skill": {
-    "name": { "pt-BR": "Hipótese", "en": "Hypothesis", "zh-CN": "假设", "ja": "仮説", "ko": "가설" },
+    "name": { "pt-BR": "Hipótese", "en": "Hypothesis", "ja": "仮説", "ko": "가설" },
     "description": {
       "pt-BR": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Após usar ATQ Básico, restaura os PV do usuário em uma quantidade igual a #2[f1]% dos PV máximos mais #3[i].",
       "en": "Increases the wearer's Break Effect by #1[i]%. After using Basic ATK, restores HP for the wearer by an amount equal to #2[f1]% of Max HP plus #3[i].",
-      "zh-CN": "使装备者的击破特攻提高#1[i]%。施放普攻后，装备者回复等同于#2[f1]%生命上限+#3[i]点的生命值。",
       "ja": "装備キャラの撃破特効+#1[i]%。通常攻撃を行った後、装備キャラのHPを最大HP#2[f1]%+#3[i]回復する。",
       "ko": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가한다. 일반 공격 발동 후, 장착한 캐릭터는 HP 최대치의 #2[f1]%+#3[i]pt만큼 HP를 회복한다"
     },

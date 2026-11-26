@@ -1,7 +1,7 @@
 {
   "id": 1508,
   "slug": "rin-tohsaka",
-  "name": { "pt-BR": "Rin Tohsaka", "en": "Rin Tohsaka", "zh-CN": "远坂凛", "ja": "遠坂凛", "ko": "토오사카 린" },
+  "name": { "pt-BR": "Rin Tohsaka", "en": "Rin Tohsaka", "ja": "遠坂凛", "ko": "토오사카 린" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Quantum",
@@ -11,11 +11,10 @@
     {
       "id": 150801,
       "type": "Basic",
-      "name": { "pt-BR": "Bajiquan", "en": "Bajiquan", "zh-CN": "八极拳", "ja": "八極拳", "ko": "팔극권" },
+      "name": { "pt-BR": "Bajiquan", "en": "Bajiquan", "ja": "八極拳", "ko": "팔극권" },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Rin Tohsaka a um inimigo designado.",
         "en": "Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于远坂凛#1[i]%攻击力的量子属性伤害。",
         "ja": "指定した敵単体に遠坂凛の攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 토오사카 린 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
       },
@@ -25,12 +24,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um inimigo designado.",
         "en": "Deals minor Quantum DMG to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成少量量子属性伤害。",
         "ja": "指定した敵単体に少量の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150802,
@@ -38,14 +36,12 @@
       "name": {
         "pt-BR": "Espada de Joias Zelretch",
         "en": "Jeweled Sword Zelretch",
-        "zh-CN": "宝石剑•泽尔里奇",
         "ja": "宝石剣ゼルレッチ",
         "ko": "보석검•젤레치"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Rin Tohsaka a um inimigo designado.",
         "en": "Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成等同于远坂凛#1[i]%攻击力的量子属性伤害。",
         "ja": "指定した敵単体に遠坂凛の攻撃力#1[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 토오사카 린 공격력의 #1[i]%만큼 양자 속성 피해를 가한다"
       },
@@ -71,12 +67,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico a um inimigo designado.",
         "en": "Deals Quantum DMG to one designated enemy.",
-        "zh-CN": "对指定敌方单体造成量子属性伤害。",
         "ja": "指定した敵単体に量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150803,
@@ -84,14 +79,12 @@
       "name": {
         "pt-BR": "An Gal Ta Ki Gal Šè",
         "en": "An Gal Ta Ki Gal Šè",
-        "zh-CN": "山脉震撼•明星之薪",
         "ja": "山脈震撼す明星の薪",
         "ko": "산맥을 뒤흔드는 샛별의 장작"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico em um valor igual a #1[i]% do ATQ de Rin Tohsaka a um inimigo designado e Dano Quântico em um valor igual a #2[i]% do ATQ de Rin Tohsaka aos demais inimigos-alvo. Ao ser usada, recupera #4[i] Ponto(s) de Perícia para os aliados e aumenta o Dano recebido por todos os inimigos em #5[i]% por #6[i] rodada(s).",
         "en": "Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to #2[i]% of Rin Tohsaka's ATK to other enemy targets. When used, recovers #4[i] Skill Point(s) for allies, and increases the DMG taken by all enemies by #5[i]%, lasting for #6[i] turn(s).",
-        "zh-CN": "对指定敌方单体造成等同于远坂凛#1[i]%攻击力的量子属性伤害，同时对其他敌方目标造成等同于远坂凛#2[i]%攻击力的量子属性伤害。施放时，为我方恢复#4[i]个战技点，并使敌方全体受到的伤害提高#5[i]%，持续#6[i]回合。",
         "ja": "指定した敵単体に遠坂凛の攻撃力#1[i]%分の量子属性ダメージを与え、同時にその他の敵に遠坂凛の攻撃力#2[i]%分の量子属性ダメージを与える。発動時、味方のSPを#4[i]回復し、敵全体の受けるダメージ+#5[i]%、#6[i]ターン継続。",
         "ko": "지정된 단일 적에게 토오사카 린 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 동시에 다른 적에게 토오사카 린 공격력의 #2[i]%만큼 양자 속성 피해를 가한다. 발동 시 아군의 전투 스킬 포인트를 #4[i]pt 회복하고, 모든 적이 받는 피해를 #5[i]% 증가시킨다, 지속 시간: #6[i]턴"
       },
@@ -117,27 +110,19 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico massivo a um inimigo-alvo designado e Dano Quântico a outros inimigos-alvo. Quando usada, aumenta o Dano sofrido por todos os inimigos e recupera Ponto(s) de Perícia para os aliados.",
         "en": "Deals massive Quantum DMG to one designated enemy and Quantum DMG to other enemy targets. When used, increases the DMG taken by all enemies and recovers Skill Point(s) for allies.",
-        "zh-CN": "对指定敌方单体造成大量量子属性伤害，对其他敌方目标造成量子属性伤害。施放时，使敌方全体受到的伤害提高并为我方恢复战技点。",
         "ja": "指定した敵単体に大量の量子属性ダメージを与え、その他の敵に量子属性ダメージを与える。発動時、敵全体の受けるダメージをアップさせ、味方のSPを回復する。",
         "ko": "지정된 단일 적에게 대량의 양자 속성 피해를 가하고, 다른 적에게 양자 속성 피해를 가한다. 발동 시 모든 적이 받는 피해를 증가시키고 아군의 전투 스킬 포인트를 회복한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150804,
       "type": "Talent",
-      "name": {
-        "pt-BR": "Taumaturgia de Gemas",
-        "en": "Gem Magecraft",
-        "zh-CN": "宝石魔术",
-        "ja": "宝石魔術",
-        "ko": "보석 마술"
-      },
+      "name": { "pt-BR": "Taumaturgia de Gemas", "en": "Gem Magecraft", "ja": "宝石魔術", "ko": "보석 마술" },
       "description": {
         "pt-BR": "Ao entrar em combate, ganha #1[i] ponto(s) de \"Energia de Gema\". Quando um aliado-alvo consome ou recupera Pontos de Perícia, o Dano CRIT dele aumenta em #3[i]% por #2[i] rodada(s). Para cada 1 Ponto de Perícia consumido ou recuperado, Rin Tohsaka ganha 1 ponto de \"Energia de Gema\". Se Rin Tohsaka possuir #5[i] ou mais pontos de \"Energia de Gema\", ou se os Pontos de Perícia atuais forem iguais a #4[i] ou mais, sua Perícia é aprimorada para \"Experimento de Segunda Magia\".",
         "en": "When entering combat, gains #1[i] \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by #3[i]% for #2[i] turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds #5[i] or more \"Gem Energy,\" or if the current Skill Points are #4[i] or more, her Skill is enhanced to \"Second Magic Experiment.\"",
-        "zh-CN": "进入战斗时，获得#1[i]点【宝石能量】。我方目标消耗或恢复战技点时，使其暴击伤害提高#3[i]%，持续#2[i]回合，且每消耗或恢复1点战技点就使远坂凛获得1点【宝石能量】。若远坂凛持有的【宝石能量】大于等于#5[i]点或当前战技点大于等于#4[i]点，战技强化为【第二魔法实验】。",
         "ja": "戦闘に入る時、「宝石エネルギー」を#1[i]獲得する。味方がSPを消費または回復した時、その味方の会心ダメージ+#3[i]%、#2[i]ターン継続。また、SPを1消費または回復するたびに、遠坂凛は「宝石エネルギー」を1獲得する。遠坂凛が所持している「宝石エネルギー」が#5[i]以上、または現在のSPが#4[i]以上の場合、戦闘スキル「宝石剣ゼルレッチ」が「第二魔法の実験」に強化される。",
         "ko": "전투 진입 시 [보석 에너지]를 #1[i]pt 획득한다. 아군이 전투 스킬 포인트를 소모하거나 회복할 시, 해당 아군의 치명타 피해가 #2[i]턴 동안 #3[i]% 증가하고, 전투 스킬 포인트를 1pt 소모하거나 회복할 때마다 토오사카 린은 [보석 에너지]를 1pt 획득한다. 토오사카 린이 보유한 [보석 에너지]가 #5[i]pt 이상이거나 현재 전투 스킬 포인트가 #4[i]pt 이상일 경우, 전투 스킬이 [제2마법 실험]으로 강화된다"
       },
@@ -163,12 +148,11 @@
       "summary": {
         "pt-BR": "Ao entrar em combate, ganha 20 \"Energia de Gema\". Quando um aliado-alvo consome ou recupera Pontos de Perícia, aumenta o Dano CRIT dele e concede \"Energia de Gema\" a Rin Tohsaka. Se Rin Tohsaka possuir 15 ou mais \"Energia de Gema\", ou se os Pontos de Perícia atuais forem 7 ou mais, sua Perícia é aprimorada em \"Experimento de Segunda Magia\".",
         "en": "When entering combat, gains 20 \"Gem Energy\". When an ally target consumes or recovers Skill Points, increases their CRIT DMG and grants Rin Tohsaka \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\"",
-        "zh-CN": "进入战斗时，获得20点【宝石能量】。我方目标消耗或恢复战技点时，使其暴击伤害提高并使远坂凛获得【宝石能量】。若远坂凛持有的【宝石能量】大于等于15点或当前战技点大于等于7点，战技强化为【第二魔法实验】。",
         "ja": "戦闘に入る時、「宝石エネルギー」を20獲得する。味方がSPを消費、または回復した時、その味方の会心ダメージをアップさせ、遠坂凛は「宝石エネルギー」を獲得する。遠坂凛が所持している「宝石エネルギー」が15以上、または現在のSPが7以上の場合、戦闘スキル「宝石剣ゼルレッチ」が「第二魔法の実験」に強化される。",
         "ko": "전투 진입 시 [보석 에너지]를 20pt 획득한다. 아군이 전투 스킬 포인트를 소모하거나 회복할 시, 해당 아군의 치명타 피해가 증가하고, 토오사카 린은 [보석 에너지]를 획득한다. 토오사카 린이 보유한 [보석 에너지]가 15pt 이상이거나 현재 전투 스킬 포인트가 7pt 이상일 경우 전투 스킬이 [제2마법 실험]으로 강화된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 150805,
@@ -176,14 +160,12 @@
       "name": {
         "pt-BR": "Estilo Livre Tohsaka",
         "en": "Freeform Tohsaka Style",
-        "zh-CN": "自在远坂流",
         "ja": "自在遠坂流",
         "ko": "자유자재 토오사카류"
       },
       "description": {
         "pt-BR": "Após Archer usar a Perícia \"Caladbolg II: Espada Espiral Falsa\" para atacar, se os Pontos de Perícia forem #3[i] ou menos, ou se \"Caladbolg II: Espada Espiral Falsa\" tiver sido usada ativamente 5 vezes durante o estado atual de \"Conexão de Circuito\", e o Ataque Extra Conjunto de \"Estilo Tohsaka Livre\" não tiver sido ativado, Rin Tohsaka e Archer realizam um Ataque Extra Conjunto contra todos os inimigos, causando Dano Quântico igual a #1[i]% do ATQ de Rin Tohsaka e #4[i]% do ATQ de Archer, respectivamente, e recuperando #2[i] Ponto(s) de Perícia para os aliados. Este Ataque Extra Conjunto só pode ser ativado uma vez. A contagem de ativação é redefinida quando a rodada de Rin Tohsaka termina.",
         "en": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are #3[i] or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK and #4[i]% of Archer's ATK respectively, and recovering #2[i] Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
-        "zh-CN": "Archer施放战技【伪•螺旋剑】攻击后，若战技点小于等于#3[i]点或本次【回路连接】状态已主动施放5次【伪•螺旋剑】，且未触发【自在远坂流】的连携追加攻击，远坂凛和Archer对敌方全体发动连携追加攻击，分别造成等同于远坂凛#1[i]%攻击力以及Archer#4[i]%攻击力的量子属性伤害，并为我方恢复#2[i]个战技点。该连携追加攻击仅可触发1次，远坂凛回合结束时重置可触发次数。",
         "ja": "アーチャーが戦闘スキル「偽・螺旋剣」を発動して攻撃した後、「自在遠坂流」の連携追加攻撃がまだ発動していない場合、SPが#3[i]以下の時、または今回の「回路接続」状態中に自発的に「偽・螺旋剣」を5回発動した時、遠坂凛とアーチャーは敵全体に連携追加攻撃を発動し、それぞれ遠坂凛の攻撃力#1[i]%分の量子属性ダメージと、アーチャーの攻撃力#4[i]%分の量子属性ダメージを与え、味方のSPを#2[i]回復する。この連携追加攻撃は1回のみ発動でき、遠坂凛のターン終了時に発動可能回数がリセットされる。",
         "ko": "아처가 전투 스킬 [거짓•나선검]을 발동해 공격한 후, 전투 스킬 포인트가 #3[i]pt 이하이거나 이번 [회로접속] 상태에서 이미 [거짓•나선검]을 5회 직접 발동했으며, [자유자재 토오사카류]의 연계 추가 공격을 발동하지 않았을 경우, 토오사카 린과 아처가 모든 적에게 연계 추가 공격을 발동해 각각 토오사카 린 공격력의 #1[i]% 및 아처 공격력의 #4[i]%만큼 양자 속성 피해를 가하고, 아군의 전투 스킬 포인트를 #2[i]pt 회복한다. 해당 연계 추가 공격은 1회만 발동할 수 있으며, 토오사카 린의 턴 종료 시 발동 가능 횟수가 초기화된다"
       },
@@ -209,21 +191,19 @@
       "summary": {
         "pt-BR": "Após Archer usar a Perícia \"Caladbolg II: Espada Espiral Falsa\" para atacar, se os Pontos de Perícia forem 3 ou menos, ou se \"Caladbolg II: Espada Espiral Falsa\" tiver sido usada ativamente 5 vezes durante o estado atual de \"Conexão de Circuito\", e o Ataque Extra Conjunto de \"Estilo Tohsaka Livre\" ainda não tiver sido ativado, Rin Tohsaka e Archer desferem um Ataque Extra Conjunto contra todos os inimigos, causando Dano Quântico massivo e recuperando Ponto(s) de Perícia para os aliados. Este Ataque Extra Conjunto só pode ser ativado uma vez. A contagem de ativação é redefinida quando Rin Tohsaka encerra sua rodada.",
         "en": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer, or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not yet been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing massive Quantum DMG and recovering Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka ends her turn.",
-        "zh-CN": "Archer施放战技【伪•螺旋剑】攻击后，若战技点小于等于3点或本次【回路连接】状态已主动施放5次【伪•螺旋剑】且尚未触发【自在远坂流】的连携追加攻击，远坂凛和Archer对敌方全体发动连携追加攻击，造成大量量子属性伤害并为我方恢复战技点。该连携追加攻击仅可触发1次，远坂凛回合结束时重置可触发次数。",
         "ja": "アーチャーが戦闘スキル「偽・螺旋剣」を発動して攻撃した後、「自在遠坂流」の連携追加攻撃をまだ発動していない場合、SPが3以下の時、または今回の「回路接続」状態中に「偽・螺旋剣」を自発的に5回発動した時、遠坂凛とアーチャーは敵全体に連携追加攻撃を発動し、大量の量子属性ダメージを与え、味方のSPを回復する。この連携追加攻撃は1回のみ発動でき、遠坂凛のターン終了時に発動可能回数がリセットされる。",
         "ko": "아처가 전투 스킬 [거짓•나선검]을 발동해 공격한 후, 전투 스킬 포인트가 3pt 이하이거나 이번 [회로접속] 상태에서 [거짓•나선검]을 직접 5회 발동하고 아직 [자유자재 토오사카류]의 연계 추가 공격이 발동되지 않았을 경우, 토오사카 린과 아처가 모든 적에게 연계 추가 공격을 발동해 대량의 양자 속성 피해를 가하고, 아군의 전투 스킬 포인트를 회복한다. 해당 연계 추가 공격은 1회만 발동할 수 있으며, 토오사카 린의 턴 종료 시 발동 가능 횟수가 초기화된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150806,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -232,7 +212,6 @@
       "summary": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
-        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -240,17 +219,10 @@
     {
       "id": 150807,
       "type": "Technique",
-      "name": {
-        "pt-BR": "Conversão de Carga",
-        "en": "Conversion Charge",
-        "zh-CN": "转换充能",
-        "ja": "変換チャージ",
-        "ko": "전환 충전"
-      },
+      "name": { "pt-BR": "Conversão de Carga", "en": "Conversion Charge", "ja": "変換チャージ", "ko": "전환 충전" },
       "description": {
         "pt-BR": "Após usar a Técnica, ganha #1[i] de \"Energia de Gema\" no início da próxima batalha.",
         "en": "After using Technique, gains #1[i] \"Gem Energy\" at the start of the next battle.",
-        "zh-CN": "使用秘技后，下一次战斗开始时获得#1[i]点【宝石能量】。",
         "ja": "秘技を使用した後、次の戦闘開始時、「宝石エネルギー」を#1[i]獲得する。",
         "ko": "비술 사용 후, 다음 전투 시작 시 [보석 에너지]를 #1[i]pt 획득한다"
       },
@@ -260,12 +232,11 @@
       "summary": {
         "pt-BR": "Após usar a Técnica, ganha 10 ponto(s) de \"Energia de Gema\" no início do próximo combate.",
         "en": "After using Technique, gains 10 \"Gem Energy\" at the start of the next battle.",
-        "zh-CN": "使用秘技后，下一次战斗开始时获得10点【宝石能量】。",
         "ja": "秘技を使用した後、次の戦闘開始時、「宝石エネルギー」を10獲得する。",
         "ko": "비술 사용 후, 다음 전투 시작 시 [보석 에너지]를 10pt 획득한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 150809,
@@ -273,14 +244,12 @@
       "name": {
         "pt-BR": "Experimento de Segunda Magia",
         "en": "Second Magic Experiment",
-        "zh-CN": "第二魔法实验",
         "ja": "第二魔法の実験",
         "ko": "제2마법 실험"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico em um valor igual a #1[i]% do ATQ de Rin Tohsaka a todos os inimigos. Em seguida, consome #2[i] \"Energia de Gema\" para causar Dano Quântico adicional em um valor igual a #3[i]% do ATQ de Rin Tohsaka a um inimigo-alvo aleatório. Isso se repete até que a \"Energia de Gema\" seja inferior a #2[i] ou não haja inimigos-alvo com PV atuais maiores que 0. Pode se repetir até #6[i] ciclo(s). Ao usar esta habilidade, se os Pontos de Perícia atuais forem maiores que #4[i], consome Pontos de Perícia até restar #4[i], ganhando imediatamente #5[i] \"Energia de Gema\" para cada Ponto de Perícia consumido.",
         "en": "Deals Quantum DMG equal to #1[i]% of Rin Tohsaka's ATK to all enemies. Then, consumes #2[i] \"Gem Energy\" to additionally deal Quantum DMG equal to #3[i]% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than #2[i] or there are no enemy targets with current HP greater than 0. Can repeat up to #6[i] cycle(s). When used, if the current Skill Points are greater than #4[i], consumes Skill Points down to #4[i], and for each Point consumed, immediately gains #5[i] \"Gem Energy.\"",
-        "zh-CN": "对敌方全体造成等同于远坂凛#1[i]%攻击力的量子属性伤害。之后，消耗#2[i]点【宝石能量】对敌方随机单体目标额外造成等同于远坂凛#3[i]%攻击力的量子属性伤害，重复直至【宝石能量】不足#2[i]点或无当前生命值大于0的敌方目标，最多重复#6[i]轮。施放时，若当前战技点大于#4[i]点，将战技点消耗至#4[i]点，每消耗1点立即获得#5[i]点【宝石能量】。",
         "ja": "敵全体に遠坂凛の攻撃力#1[i]%分の量子属性ダメージを与える。\nその後、「宝石エネルギー」を#2[i]消費して、追加でランダムな敵単体に遠坂凛の攻撃力#3[i]%分の量子属性ダメージを与える。なお、このランダムな敵単体への攻撃は「宝石エネルギー」が#2[i]以上あり、かつHPが0を超える敵がいるかぎり、最大#6[i]回まで繰り返し発動する。発動時、現在のSPが#4[i]を超えている場合、残りSPが#4[i]になるまで消費する。消費されたSP1につき、即座に「宝石エネルギー」を#5[i]獲得する。",
         "ko": "모든 적에게 토오사카 린 공격력의 #1[i]%만큼 양자 속성 피해를 가한다. 이후 [보석 에너지]를 #2[i]pt 소모하여 랜덤 단일 적에게 추가로 토오사카 린 공격력의 #3[i]%만큼 양자 속성 피해를 가하며, [보석 에너지]가 #2[i]pt 미만이 되거나 현재 HP가 0보다 큰 적이 없을 때까지 반복한다(최대 #6[i]회 반복). 발동 시 현재 전투 스킬 포인트가 #4[i]pt보다 높을 경우, 전투 스킬 포인트를 #4[i]pt까지 소모하고, 소모한 전투 스킬 포인트 1pt당 즉시 [보석 에너지]를 #5[i]pt 획득한다"
       },
@@ -306,12 +275,11 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a todos os inimigos. Em seguida, consome \"Energia de Gema\" para causar Dano Quântico leve adicional a inimigos-alvo únicos aleatórios um certo número de vezes. Ao usar essa habilidade, se os Pontos de Perícia atuais forem maiores que 2, consome Pontos de Perícia até restar 2, e para cada ponto consumido, ganha imediatamente 2 \"Energia de Gema\".",
         "en": "Deals minor Quantum DMG to all enemies. Then, consumes \"Gem Energy\" to additionally deal minor Quantum DMG to random single enemy targets for a certain number of times. When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each point consumed, immediately gains 2 \"Gem Energy\".",
-        "zh-CN": "对敌方全体造成少量量子属性伤害，之后，消耗【宝石能量】额外对敌方随机单体目标造成若干次少量量子属性伤害。施放时，若当前战技点大于2点，将战技点消耗至2点，每消耗1点立即获得2点【宝石能量】。",
         "ja": "敵全体に少量の量子属性ダメージを与える。その後、「宝石エネルギー」を消費し、さらにランダムな敵単体に少量の量子属性ダメージを複数回与える。発動時、現在のSPが2を超えている場合、SPを2まで消費する。消費したSP1につき、即座に「宝石エネルギー」を2獲得する。",
         "ko": "모든 적에게 소량의 양자 속성 피해를 가한 후, [보석 에너지]를 소모해 추가로 랜덤 단일 적에게 소량의 양자 속성 피해를 일정 횟수 가한다. 발동 시 현재 전투 스킬 포인트가 2pt보다 높을 경우, 전투 스킬 포인트를 2pt까지 소모하며, 소모한 전투 스킬 포인트 1pt당 즉시 [보석 에너지]를 2pt 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "ja": "バウンド", "ko": "바운스" }
     }
   ],
   "eidolons": [
@@ -320,14 +288,12 @@
       "name": {
         "pt-BR": "Aprendiz de Zelretch",
         "en": "Zelretch's Apprentice",
-        "zh-CN": "宝石翁的学徒",
         "ja": "{RUBY_B#ほうせきおう}宝石翁{RUBY_E#}の{RUBY_B#でし}弟子{RUBY_E#}",
         "ko": "보석옹의 제자"
       },
       "description": {
         "pt-BR": "Se uma instância da Perícia Aprimorada consumir 30 ou mais \"Energia de Gema\", Rin Tohsaka ganha \"Gema das Sombras\" igual à quantidade de \"Energia de Gema\" consumida.\nEnquanto possuir \"Gema das Sombras\", a Perícia é aprimorada para \"Experimento de Segunda Magia\". Essa Perícia Aprimorada consome toda a \"Gema das Sombras\", não ativa o efeito de conversão de Pontos de Perícia em \"Energia de Gema\" e não consome \"Energia de Gema\".",
         "en": "If one instance of the Enhanced Skill consumes 30 or more \"Gem Energy,\" Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed.\nWhile holding \"Shadow Gem,\" enhances Skill to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect that converts Skill Points into \"Gem Energy,\" and does not consume \"Gem Energy.\"",
-        "zh-CN": "若单次强化战技消耗的【宝石能量】数量大于等于30点，远坂凛获得与消耗的【宝石能量】数量相同的【影子宝石】。\n持有【影子宝石】时，战技强化为【第二魔法实验】，强化战技会消耗所有【影子宝石】，不触发将战技点转化为【宝石能量】的效果且不消耗【宝石能量】。",
         "ja": "一度の強化戦闘スキルで消費した「宝石エネルギー」が30以上の場合、遠坂凛は消費した「宝石エネルギー」と同じ数の「影の宝石」を獲得する。\n「影の宝石」を所持している時、戦闘スキル「宝石剣ゼルレッチ」が「第二魔法の実験」に強化される。この強化戦闘スキルはすべての「影の宝石」を消費し、SPを「宝石エネルギー」に転換する効果を発動せず、「宝石エネルギー」も消費しない。",
         "ko": "단일 강화된 전투 스킬이 소모한 [보석 에너지]가 30pt 이상일 경우, 토오사카 린은 소모한 [보석 에너지]와 동일한 수량의 [그림자 보석]을 획득한다.\n[그림자 보석] 보유 시, 전투 스킬이 [제2마법 실험]으로 강화된다. 강화된 전투 스킬은 모든 [그림자 보석]을 소모하고, 전투 스킬 포인트를 [보석 에너지]로 전환하는 효과가 발동하지 않으며, [보석 에너지]를 소모하지 않는다"
       },
@@ -340,14 +306,12 @@
       "name": {
         "pt-BR": "Viajante Dimensional",
         "en": "Dimensional Traveler",
-        "zh-CN": "位面的旅行者",
         "ja": "{RUBY_B#じげんかい}次元界{RUBY_E#}を{RUBY_B#たび}旅{RUBY_E#}する{RUBY_B#もの}者{RUBY_E#}",
         "ko": "차원의 여행자"
       },
       "description": {
         "pt-BR": "O Dano de Perícia causado por Rin Tohsaka aumenta em 30%. Enquanto Rin Tohsaka estiver em campo, o Dano de Perícia causado por todos os aliados se torna 130% do Dano original.",
         "en": "Rin Tohsaka's Skill DMG dealt increases by 30%. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes 130% of the original DMG.",
-        "zh-CN": "远坂凛造成的战技伤害提高30%。远坂凛在场时，我方全体造成的战技伤害为原伤害的130%。",
         "ja": "遠坂凛の戦闘スキルダメージ+30%。遠坂凛がフィールド上にいる時、味方全体の戦闘スキルダメージが元のダメージの130%になる。",
         "ko": "토오사카 린이 가하는 전투 스킬 피해가 30% 증가한다. 토오사카 린이 필드에 있을 시, 모든 아군이 가하는 전투 스킬 피해가 기존 피해의 130%가 된다"
       },
@@ -360,14 +324,12 @@
       "name": {
         "pt-BR": "Guerra do Santo Graal: Memorial da Vitória",
         "en": "Holy Grail War: Victory Memorial",
-        "zh-CN": "圣杯战争：胜利纪念",
         "ja": "{RUBY_B#せいはいせんそう}聖杯戦争{RUBY_E#}：{RUBY_B#しょうりきねん}勝利記念{RUBY_E#}",
         "ko": "성배전쟁: 승리 기념"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -380,14 +342,12 @@
       "name": {
         "pt-BR": "Demônio Vermelho: Velocidade Tripla",
         "en": "Red Devil: Triple Speed",
-        "zh-CN": "红色•恶魔•三倍速",
         "ja": "あかいあくま・3{RUBY_B#ばい}倍{RUBY_E#}{RUBY_B#はや}速{RUBY_E#}い",
         "ko": "붉은색•악마•3배속"
       },
       "description": {
         "pt-BR": "Quando o efeito de bônus de Dano CRIT do Talento \"Taumaturgia de Gema\" é aplicado em Rin Tohsaka, o efeito pode acumular até 2 vez(es).",
         "en": "When the CRIT DMG boost effect from the Talent \"Gem Magecraft\" applies to Rin Tohsaka, the effect can stack, up to 2 time(s).",
-        "zh-CN": "天赋【宝石魔术】的暴击伤害提高效果对远坂凛生效时，效果可以叠加，最多可叠加2层。",
         "ja": "天賦「宝石魔術」の会心ダメージアップ効果が遠坂凛に適用される時、効果が累積できるようになる。最大で2層累積できる。",
         "ko": "특성 [보석 마술]의 치명타 피해 증가 효과가 토오사카 린에게 적용될 시, 효과가 중첩될 수 있다, 최대 중첩수: 2스택"
       },
@@ -400,14 +360,12 @@
       "name": {
         "pt-BR": "Deusa do Favor de Vênus",
         "en": "Goddess of Venus's Favor",
-        "zh-CN": "金星神的青睐",
         "ja": "{RUBY_B#きんせいしん}金星神{RUBY_E#}の{RUBY_B#ちょうあい}寵愛{RUBY_E#}",
         "ko": "금성의 여신의 총애"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -420,14 +378,12 @@
       "name": {
         "pt-BR": "Dessa Vez Eu Arrasei!",
         "en": "Nailed It This Time!",
-        "zh-CN": "这次没掉链子！",
         "ja": "{RUBY_B#こんかい}今回{RUBY_E#}は\nヘマしなかった！",
         "ko": "이번엔 실수 안 했어!"
       },
       "description": {
         "pt-BR": "A PEN de RES a Todos os Tipos de Rin Tohsaka aumenta em 20%. Ao usar a Perícia Suprema, ganha 24 ponto(s) de \"Energia de Gema\" e 1 rodada extra.",
         "en": "Rin Tohsaka's All-Type RES PEN increases by 20%. When using Ultimate, gains 24 \"Gem Energy\" and 1 extra turn.",
-        "zh-CN": "远坂凛的全属性抗性穿透提高20%。施放终结技时，获得24点【宝石能量】和1个额外回合。",
         "ja": "遠坂凛の全属性耐性貫通+20%。必殺技を発動する時、「宝石エネルギー」を24獲得し、追加ターンを1ターン獲得する。",
         "ko": "토오사카 린의 모든 속성 저항 관통이 20% 증가한다. 필살기 발동 시 [보석 에너지] 24pt와 보너스 턴 1개를 획득한다"
       },
@@ -807,14 +763,12 @@
       "name": {
         "pt-BR": "Conduta Elegante",
         "en": "Elegant Conduct",
-        "zh-CN": "秉持优雅",
         "ja": "{RUBY_B#ゆうが}優雅{RUBY_E#}たれ",
         "ko": "우아함 유지"
       },
       "description": {
         "pt-BR": "Quando Rin Tohsaka está em campo, aumenta adicionalmente o limite máximo de Pontos de Perícia em #1[i]. Ao entrar em combate, o ATQ de Rin Tohsaka aumenta em #2[i]% e a PEN de RES a Quântico aumenta em #3[i]%. Se Archer estiver na equipe, Archer também recebe esse efeito.",
         "en": "While Rin Tohsaka is on the field, additionally increases the upper limit of Skill Points by #1[i]. When entering combat, Rin Tohsaka's ATK increases by #2[i]%, and Quantum RES PEN increases by #3[i]%. If Archer is in the team, Archer also gains this effect.",
-        "zh-CN": "远坂凛在场时，战技点上限额外增加#1[i]点。进入战斗时，远坂凛的攻击力提高#2[i]%，量子属性抗性穿透提高#3[i]%，若Archer在队伍中，Archer也会获得该效果。",
         "ja": "遠坂凛がフィールド上にいる時、最大SP+#1[i]。戦闘に入る時、遠坂凛の攻撃力+#2[i]%、量子属性耐性貫通+#3[i]%。アーチャーがパーティにいる場合、アーチャーもこの効果を獲得する。",
         "ko": "토오사카 린이 필드에 있을 시 전투 스킬 포인트 최대치가 추가로 #1[i]pt 증가한다. 전투 진입 시 토오사카 린의 공격력이 #2[i]% 증가하고, 양자 속성 저항 관통이 #3[i]% 증가하며, 파티에 아처가 있을 경우 아처도 해당 효과를 획득한다"
       },
@@ -838,14 +792,12 @@
       "name": {
         "pt-BR": "Postura de Donzela",
         "en": "Ladylike Poise",
-        "zh-CN": "淑女风范",
         "ja": "{RUBY_B#しゅくじょ}淑女{RUBY_E#}らしく",
         "ko": "숙녀의 품격"
       },
       "description": {
         "pt-BR": "Ao entrar em combate ou após usar a Perícia Aprimorada, a VEL de Rin Tohsaka aumenta em #1[i]%, durando por #2[i] rodada(s).",
         "en": "When entering combat or after using Enhanced Skill, increases Rin Tohsaka's SPD by #1[i]%, lasting for #2[i] turn(s).",
-        "zh-CN": "进入战斗时和施放强化战技后，远坂凛的速度提高#1[i]%，持续#2[i]回合。",
         "ja": "戦闘に入る時および強化戦闘スキルを発動した後、遠坂凛の速度+#1[i]%、#2[i]ターン継続。",
         "ko": "전투 진입 시 및 강화된 전투 스킬 발동 후, 토오사카 린의 속도가 #1[i]% 증가한다, 지속 시간: #2[i]턴"
       },
@@ -874,14 +826,12 @@
       "name": {
         "pt-BR": "Prosperidade em Abundância",
         "en": "Inbound Prosperity",
-        "zh-CN": "财源广进",
         "ja": "{RUBY_B#きんうん}金運{RUBY_E#}アップ",
         "ko": "쏟아지는 재물운"
       },
       "description": {
         "pt-BR": "Quando Rin Tohsaka usa a Perícia Suprema, ganha #1[i] \"Energia de Gema\".",
         "en": "When Rin Tohsaka uses Ultimate, gains #1[i] \"Gem Energy.\"",
-        "zh-CN": "远坂凛施放终结技时，获得#1[i]点【宝石能量】。",
         "ja": "遠坂凛が必殺技を発動する時、「宝石エネルギー」を#1[i]獲得する。",
         "ko": "토오사카 린이 필살기 발동 시 [보석 에너지]를 #1[i]pt 획득한다"
       },
@@ -907,13 +857,7 @@
     {
       "id": 1508201,
       "anchor": "Point09",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -930,7 +874,7 @@
     {
       "id": 1508202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1508101],
@@ -947,13 +891,7 @@
     {
       "id": 1508203,
       "anchor": "Point11",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1508202],
@@ -973,7 +911,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -993,13 +930,7 @@
     {
       "id": 1508205,
       "anchor": "Point13",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1508102],
@@ -1016,7 +947,7 @@
     {
       "id": 1508206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1508205],
@@ -1033,13 +964,7 @@
     {
       "id": 1508207,
       "anchor": "Point15",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1508205],
@@ -1059,7 +984,6 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
-        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -1079,7 +1003,7 @@
     {
       "id": 1508209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1508103],
@@ -1096,13 +1020,7 @@
     {
       "id": 1508210,
       "anchor": "Point18",
-      "name": {
-        "pt-BR": "Bônus de Dano CRIT",
-        "en": "CRIT DMG Boost",
-        "zh-CN": "暴击伤害强化",
-        "ja": "会心ダメージ強化",
-        "ko": "치명타 피해 강화"
-      },
+      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],

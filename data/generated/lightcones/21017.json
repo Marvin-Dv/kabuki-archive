@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Inscreva-se Para Mais!",
     "en": "Subscribe for More!",
-    "zh-CN": "点个关注吧！",
     "ja": "フォローして！",
     "ko": "팔로우를 부탁해!"
   },
@@ -15,7 +14,6 @@
   "description": {
     "pt-BR": "\"Teste, teste, som. Estão me ouvindo?\"\nCom uma marreta na mão, a garota de cabelos ruivos grita animada olhando para a câmera.\n\"Já viram o truque em que uma garota linda como eu quebra blocos de concreto com as próprias mãos?\"\n\"Eu não vim aqui para isso!\"\nOutra menina, de cabelos escuros, reclamou com a colega, que apenas abriu um sorriso travesso como resposta.\n\"Por favor, deixa eu quebrar! Todo mundo quer ver o truque!\"",
     "en": "\"Yo, yo. What is up! Is everything coming through?\"\nThe orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.\n\"Ever seen a pretty girl doing the cinder-block-smashed-on-chest stunt?\"\n\"I didn't sign up for this!\"\nThe brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.\n\"Please. Just let me do this. This is what people would've wanted.\"",
-    "zh-CN": "「嗨——嗨——！观众老爷们，这里的信号畅通吗？」\n橙发少女兴奋地喊着，对着镜头笃悠悠举起锤子。\n「大家——见过少女胸口碎大石吗！」\n「我当云骑军可不是为了做这种事啊！」\n褐发少女眼冒金星，橙发少女狡黠一笑。\n「拜托啦——这也是助人为乐啊！」",
     "ja": "「ハロー！視聴者のみんな、見えてる？」\nオレンジ色の髪をした少女は興奮した声を出しながら、カメラの方を向いてゆっくりと鎚を振り上げる。\n「みんな——少女の胸の上でやる岩砕きは見たことある？」\n「アタシが雲騎軍に入ったのはこんな事をするためじゃないって！」\n褐髪の少女は目を回し、オレンジ色の髪をした少女はずる賢く笑う。\n「これも人助けだと思って——お願い！」",
     "ko": "「아——아——! 시청자 여러분, 여기 신호 잘 통하나요?」\n주황 머리의 소녀가 격하게 외치며 카메라를 향해 여유롭게 망치를 든다.\n「여러분——소녀가 가슴 위에 있는 돌을 깨는 모습 본 적 있나요!」\n「제가 이런 일하려고 운기군이 된 게 아닌데 말이죠!」\n갈색 머리 소녀의 눈에 별이 반짝이고, 주황색 머리의 소녀가 교활하게 웃는다.\n「부탁할게요——이것도 흔쾌히 남을 돕는 거라고요!」"
   },
@@ -23,14 +21,12 @@
     "name": {
       "pt-BR": "Curta Antes de Sair!",
       "en": "Like Before You Leave!",
-      "zh-CN": "不赞不许走！",
       "ja": "いいねしないと逃がさない！",
       "ko": "좋아요도 안 하고 가려고?"
     },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o Dano do ATQ Básico e da Perícia do usuário. Este efeito aumenta mais #2[i]% quando o usuário estiver com o nível máximo de Energia.",
       "en": "The wearer's Basic ATK and Skill deals #1[i]% more DMG. This effect increases by an extra #2[i]% when the wearer's current Energy reaches its max level.",
-      "zh-CN": "使装备者普攻和战技造成的伤害提高#1[i]%，当装备者的当前能量值等于其能量上限时，该效果额外提高#2[i]%。",
       "ja": "装備キャラの通常攻撃と戦闘スキルによるダメージ+#1[i]%、装備キャラのEPが満タンの場合、さらに通常攻撃と戦闘スキルによるダメージ+#2[i]%。",
       "ko": "장착한 캐릭터의 일반 공격 혹은 전투 스킬이 가하는 피해가 #1[i]% 증가하며, 장착한 캐릭터의 현재 에너지가 에너지 최대치일 시, 해당 효과는 추가로 #2[i]% 증가한다"
     },

@@ -4,7 +4,6 @@
   "name": {
     "pt-BR": "Meu Passado no Espelho",
     "en": "Past Self in Mirror",
-    "zh-CN": "镜中故我",
     "ja": "鏡の中の私",
     "ko": "거울 속 지난날의 나"
   },
@@ -15,7 +14,6 @@
   "description": {
     "pt-BR": "Ela costumava amar selar o momento quando as flores de ameixa estavam prestes a murchar e mantê-las próximas a ela.\nJá faz muito tempo desde então. Muitas formas de vida, turbulentas, doces e tudo que está no meio, floresceram das mãos dela, mas as flores de ameixa ainda murcham em seu tempo predeterminado.\nJá faz muitos anos desde então. Seu rosto no espelho parece intocado pelo tempo. Entretanto, na escala do cosmos inteiro, será que ela também não estaria destinada a durar por apenas um breve instante?\n\"Se tudo está condenado à eventual morte, qual seria o propósito da criação?\"\nDepois de um silêncio que pareceu se estender pela eternidade, os ventos sopram, as pétalas caem, e o reflexo da pessoa no espelho permanece com o viço de sempre.\n\"Pelo dia em que a flor de ameixa não será mais mantida.\"\nEla acaricia a superfície gélida do espelho. Tais monólogos aconteceram tantas vezes que ela já perdeu a conta.",
     "en": "She once loved to seal the moment when plum blossoms were on the verge of wilting and keep them close to her.\nIt has been many years since then. Many lifeforms — rambunctious, sweet, and everything in between — have bloomed from her hands, but the plum blossoms still wilt at their preordained times.\nIt has been many years since then. Her visage in the mirror seems untouched by time. But, in the grand scheme of the cosmos, is she too destined to last for but a fleeting moment?\n\"If all is set for eventual demise, what purpose, then, does creation serve?\"\nAfter a silence that seems to stretch to eternity, the winds blow, the petals fall, and the reflection in the mirror tenders the same answer as always.\n\"For the day when plum blossoms are no longer kept.\"\nShe deftly caresses the icy surface of the mirror. Such soliloquies have happened too many times for her to count.",
-    "zh-CN": "梅花将谢未谢时，她曾喜欢将这时刻封存，留于身边。\n许多年过去，聒噪的、甜美的、各式各样的生命诞生于她的手下，但梅花依旧如期凋落。\n许多年过去，镜中容颜未变，但于宇宙的尺度间，她是否也只能于短短的一瞬保持鲜活?\n「既然一切难逃逝去，创造还有何意义？」\n不知沉默了多久，风吹花落，镜中人的回答一如旧时。\n「为了有一天，不再留住梅花。」\n她轻抚冰冷的镜面，如这样的自语，已不知发生过多少次了。",
     "ja": "彼女は梅の花が散りそうになった時、その瞬間を封印して傍に置いておくのが好きだった。\nそれから何年も経ち、騒々しいもの、甘いもの、様々な生命が彼女の手によって生み出されたが、梅の花だけは相変わらず決まった時期に散ってしまう。\n何年経っても、鏡に映る姿は変わらない。しかし宇宙の尺度でいえば、彼女も短い時間しか生きられないということになるのだろうか？\n「すべてが死から逃れられないのなら、創造に何の意味があるのでしょう？」\n永遠に続くかと思われた沈黙の後、風が吹き花が散る中で、鏡の中の人物は昔と同じように答えた。\n「梅の花を留める必要のない未来のために」\nこうして冷たい鏡面を撫でながら呟くのは、もう何度目になるのだろうか。",
     "ko": "매화가 질 무렵이 되면 그녀는 그 순간을 봉인해 곁에 두곤 했다.\n세월이 수없이 흘러 달콤하고 시끄러운 가지각색의 생명체들이 그녀의 손에서 태어났지만, 매화는 여전히 예정된 시기에 시든다.\n세월이 수없이 흘러도 거울에 비친 모습은 변함이 없다. 하지만 우주의 척도로 보면 그녀의 싱그러움이 유지되는 것도 한순간에 불과하지 않을까?\n「모든 게 죽음을 피해 갈 수 없다면 창조에 무슨 의미가 있지?」\n오랜 침묵 끝에 바람이 불고 꽃잎이 져도 거울에 비친 사람의 대답은 한결같다.\n「매화를 붙잡아 두지 않아도 되는 날을 위해」\n그녀가 차가운 거울을 어루만지며 중얼거린 게 벌써 몇 번째인지는 알 수 없다"
   },
@@ -23,14 +21,12 @@
     "name": {
       "pt-BR": "A Fragrância de Ameixa em Meus Ossos",
       "en": "The Plum Fragrance In My Bones",
-      "zh-CN": "彻骨梅香",
       "ja": "徹骨梅香",
       "ko": "뼈에 사무치는 매화향"
     },
     "description": {
       "pt-BR": "Aumenta o Efeito de Quebra do usuário em #1[i]%. Quando o usuário utiliza sua Perícia Suprema, aumenta o Dano de todos os aliados em #2[i]%, durando por #3[i] rodada(s). Se o Efeito de Quebra for igual ou maior a #4[i]%, 1 Ponto de Perícia será recuperado.\nNo início de cada onda, todos os aliados regeneram #5[f1] de Energia imediatamente. As habilidades do mesmo tipo não podem ser acumuladas.",
       "en": "Increases the wearer's Break Effect by #1[i]%. When the wearer uses their Ultimate, increases all allies' DMG by #2[i]%, lasting for #3[i] turn(s). If the wearer's Break Effect exceeds or equals #4[i]%, 1 Skill Point will be recovered.\nAt the start of each wave, all allies regenerate #5[f1] Energy immediately. Abilities of the same type cannot stack.",
-      "zh-CN": "使装备者击破特攻提高#1[i]%。装备者施放终结技后，使我方全体造成的伤害提高#2[i]%，持续#3[i]回合，并且若装备者击破特攻大于等于#4[i]%，则恢复1个战技点。\n每个波次开始时，我方全体立即恢复#5[f1]点能量，同类技能无法重复生效。",
       "ja": "装備キャラの撃破特効+#1[i]%。装備キャラが必殺技を発動した後、味方全体の与ダメージ+#2[i]%、#3[i]ターン継続。また、装備キャラの撃破特効が#4[i]%以上の場合、SPを1回復。\n各ウェーブ開始時、味方全体のEPを#5[f1]回復する。同系統のスキルは重ね掛け不可。",
       "ko": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가한다. 장착한 캐릭터는 필살기 발동 후 모든 아군이 가하는 피해를 #3[i]턴 동안 #2[i]% 증가시키며, 장착한 캐릭터의 격파 특수효과가 #4[i]% 이상일 경우 전투 스킬 포인트를 1pt 회복한다.\n웨이브가 시작될 때마다 모든 아군은 즉시 에너지를 #5[f1]pt 회복한다. 같은 유형의 스킬 효과는 중복 적용되지 않는다"
     },

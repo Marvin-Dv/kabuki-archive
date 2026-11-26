@@ -1,13 +1,7 @@
 {
   "id": 23008,
   "slug": "echoes-of-the-coffin",
-  "name": {
-    "pt-BR": "Ecos do Caixão",
-    "en": "Echoes of the Coffin",
-    "zh-CN": "棺的回响",
-    "ja": "棺のこだま",
-    "ko": "관의 울림"
-  },
+  "name": { "pt-BR": "Ecos do Caixão", "en": "Echoes of the Coffin", "ja": "棺のこだま", "ko": "관의 울림" },
   "rarity": 5,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
@@ -15,16 +9,14 @@
   "description": {
     "pt-BR": "Vigiado pelas íris brancas, ele bate no caixão.\n\"Às vezes, eu sinto que subestimei você propondo esse acordo.\"\nEle não recebe resposta, a não ser por um galho cheio de espinhos perfurando a palma de sua mão.\nAinda assim, sorri, cerrando o punho em volta dos espinhos.\n\"Pois é. É assim que as coisas são. Queríamos usar um ao outro, mas acabamos subestimando um ao outro.\"",
     "en": "Under the watch of the white irises, he knocks on the coffin.\n\"Sometimes I feel I underestimated you by proposing this deal.\"\nHe receives no response other than a thorny branch piercing through his palm.\nYet he smiles, and tightly grasps the thorn.\n\"Indeed. This is how it is. We wanted to use each other, and both ended up underestimating the other.\"",
-    "zh-CN": "白色鸢尾旁，他叩打着棺材。\n「有时我觉得，和你做这个交易，是我看轻你了。」\n无人回应，只有棘刺毫不犹豫地穿透他的掌心。\n但他也笑着，抓住了棘刺。\n「就是这样，我们都想利用彼此，然而我们都看轻了对方。」",
     "ja": "男は真っ白なイチハツのそばで棺を叩く。\n「たまに思うのだが、君と取引をしたのは、君を軽く見ていたような気がする」\n返事はなく、いばらが男の手を貫くだけ。\nしかし男は笑いながら、いばらを捕まえる。\n「そう、僕たちは互いを利用しようとしながら、互いを見くびる」",
     "ko": "하얀 아이리스 옆에서 그는 관을 두드린다.\n「가끔 너와 이 거래를 한 건 널 과소평가한 거라고 생각해」\n아무런 대답 없이 가시가 그의 손바닥을 뚫는다.\n그러나 그는 웃으며 가시를 잡았다.\n「그래, 우린 서로를 이용하려 하지만 한편으로 서로를 과소평가하고 있지」"
   },
   "skill": {
-    "name": { "pt-BR": "Espinhos", "en": "Thorns", "zh-CN": "荆棘", "ja": "いばら", "ko": "가시" },
+    "name": { "pt-BR": "Espinhos", "en": "Thorns", "ja": "いばら", "ko": "가시" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o ATQ do usuário. Após o usuário usar um ataque, para cada inimigo diferente que o usuário atingir, regenera #3[f1] de Energia. Cada ataque pode regenerar Energia até #4[i] vez(es) dessa maneira. Depois que o usuário usa sua Perícia Suprema, todos os aliados ganham #2[i] de VEL por 1 rodada.",
       "en": "Increases the wearer's ATK by #1[i]%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates #3[f1] Energy. Each attack can regenerate Energy up to #4[i] time(s) this way. After the wearer uses their Ultimate, all allies gain #2[i] SPD for 1 turn.",
-      "zh-CN": "使装备者的攻击力提高#1[i]%。当装备者施放攻击后，每击中1名不同的敌方目标，恢复#3[f1]点能量，每次攻击最多通过该方式恢复#4[i]次能量。当装备者施放终结技后，使我方全体速度提高#2[i]点，持续1回合。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが攻撃を行った後、異なる敵に攻撃が命中するごとにEPを#3[f1]回復する。1回の攻撃で、この効果を通して最大で#4[i]回EPを回復できる。装備キャラが必殺技を発動した後、味方全体の速度+#2[i]、1ターン継続。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 공격을 발동하면 다른 적 1기를 명중할 때마다 에너지를 #3[f1]pt 회복한다. 공격할 때마다 해당 방식으로 에너지를 최대 #4[i]회 회복한다. 장착한 캐릭터가 필살기를 발동하면 모든 아군의 속도가 #2[i]pt 증가한다. 지속 시간: 1턴"
     },

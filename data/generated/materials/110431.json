@@ -1,13 +1,7 @@
 {
   "id": 110431,
   "slug": "invasive-clot",
-  "name": {
-    "pt-BR": "Coágulo Invasivo",
-    "en": "Invasive Clot",
-    "zh-CN": "侵略凝块",
-    "ja": "侵略の結晶",
-    "ko": "침략 응괴"
-  },
+  "name": { "pt-BR": "Coágulo Invasivo", "en": "Invasive Clot", "ja": "侵略の結晶", "ko": "침략 응괴" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -17,7 +11,6 @@
   "sources": {
     "en": ["Stagnant Shadow: \"Dragonbone City\" Styxia", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Styxia, Pólis do Osso de Dragão", "Sintetizador Omni — Troca de Material"],
-    "zh-CN": ["凝滞虚影【「龙骸古城」斯缇科西亚】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「『竜骸の古城』スティコシア」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [「용해 고성」 스틱시아]", "「만능 합성기」- 재료 치환"]
   }

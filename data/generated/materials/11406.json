@@ -1,13 +1,7 @@
 {
   "id": 11406,
   "slug": "ciphers-eidolon",
-  "name": {
-    "pt-BR": "Eidolon da Cipher",
-    "en": "Cipher's Eidolon",
-    "zh-CN": "【赛飞儿】的星魂",
-    "ja": "「サフェル」の星魂",
-    "ko": "[사이퍼]의 성혼"
-  },
+  "name": { "pt-BR": "Eidolon da Cipher", "en": "Cipher's Eidolon", "ja": "「サフェル」の星魂", "ko": "[사이퍼]의 성혼" },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",
