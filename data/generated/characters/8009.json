@@ -1,7 +1,13 @@
 {
   "id": 8009,
   "slug": "trailblazer-8009",
-  "name": { "pt-BR": "{NICKNAME}", "en": "{NICKNAME}", "ja": "{NICKNAME}", "ko": "{NICKNAME}" },
+  "name": {
+    "pt-BR": "{NICKNAME}",
+    "en": "{NICKNAME}",
+    "zh-CN": "{NICKNAME}",
+    "ja": "{NICKNAME}",
+    "ko": "{NICKNAME}"
+  },
   "rarity": 5,
   "path": "Elation",
   "element": "Lightning",
@@ -14,12 +20,14 @@
       "name": {
         "pt-BR": "Todo Mundo Fazendo Barulho!",
         "en": "Make Some Noise",
+        "zh-CN": "此即应援",
         "ja": "これぞ応援",
         "ko": "이게 바로 응원이지"
       },
       "description": {
         "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ {M#do Desbravador}{F#da Desbravadora} a um único inimigo designado.",
         "en": "Deals Lightning DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于开拓者#1[i]%攻击力的雷属性伤害。",
         "ja": "指定した敵単体に開拓者の攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 개척자 공격력의 #1[i]%만큼 번개 속성 피해를 가한다"
       },
@@ -29,11 +37,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
         "en": "Deals minor Lightning DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量雷属性伤害。",
         "ja": "敵単体に少量の雷属性ダメージを与える。",
         "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 800902,
@@ -41,12 +50,14 @@
       "name": {
         "pt-BR": "Que a Tempestade Ruja",
         "en": "Let the Storm Rage On",
+        "zh-CN": "风暴甚是喧嚣",
         "ja": "風が騒がしい",
         "ko": "폭풍이 소란스럽군"
       },
       "description": {
         "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ {M#do Desbravador}{F#da Desbravadora} a todos os inimigos e ganha #2[i] ponto(s) de \"Mandou Bem\".",
         "en": "Deals Lightning DMG equal to #1[i]% of the Trailblazer's ATK to all enemies and gains #2[i] point(s) of \"Certified Banger.\"",
+        "zh-CN": "对敌方全体造成等同于开拓者#1[i]%攻击力的雷属性伤害，获得#2[i]点【好活当赏】。",
         "ja": "敵全体に開拓者の攻撃力#1[i]%分の雷属性ダメージを与え、「爆笑の褒美」を#2[i]獲得する。",
         "ko": "모든 적에게 개척자 공격력의 #1[i]%만큼 번개 속성 피해를 가하고, [훌륭한 솜씨에는 보상을]을 #2[i]pt 획득한다"
       },
@@ -72,11 +83,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a todos os inimigos e ganha \"Mandou Bem\".",
         "en": "Deals minor Lightning DMG to all enemies and gains \"Certified Banger.\"",
+        "zh-CN": "对敌方全体造成少量雷属性伤害，获得【好活当赏】。",
         "ja": "敵全体に少量の雷属性ダメージを与え、「爆笑の褒美」を獲得する。",
         "ko": "모든 적에게 소량의 번개 속성 피해를 가하고, [훌륭한 솜씨에는 보상을]을 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 800903,
@@ -84,12 +96,14 @@
       "name": {
         "pt-BR": "Que o Desbravamento Te Leve às Estrelas",
         "en": "May the Trailblaze Fly You Starward",
+        "zh-CN": "放心飞，开拓永相随！",
         "ja": "飛べ、開拓と共に！",
         "ko": "마음껏 날아, 개척이 함께할 테니!"
       },
       "description": {
         "pt-BR": "Ganha #6[i] ponto(s) de \"piada\". Aumenta o Dano CRIT de um aliado designado em #1[i]% por #2[i] rodada(s) e remove penalidades de Controle Negativo dele.\nSe o alvo possuir uma Perícia da Euforia, ele ganha adicionalmente #4[i] ponto(s) de \"Mandou Bem\" e usa imediatamente sua Perícia da Euforia 1 vez, considerando uma quantidade fixa de #5[i] ponto(s) de \"piada\". Se o inimigo-alvo for derrotado antes da Perícia da Euforia ser utilizada, a Perícia da Euforia é utilizada em um novo inimigo-alvo que entrar em combate.\nSe o alvo não possuir uma Perícia da Euforia, Avança Adiante sua ação em #3[i]%.",
         "en": "Gains #6[i] Punchline point(s). Increases the CRIT DMG of one designated ally by #1[i]% for #2[i] turn(s), and dispels Crowd Control debuffs on them.\nIf the target has Elation Skill, they additionally gain #4[i] point(s) of \"Certified Banger\" and immediately use their Elation Skill 1 time, taking into account a fixed amount of #5[i] Punchline point(s). If the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target.\nIf the target does not have Elation Skill, their action advances by #3[i]%.",
+        "zh-CN": "获得#6[i]个笑点，使指定我方单体暴击伤害提高#1[i]%，持续#2[i]回合，并解除该目标的控制类负面状态。\n若目标拥有欢愉技，目标额外获得#4[i]点【好活当赏】，并使其立即施放1次固定计入#5[i]笑点的欢愉技，若欢愉技施放前敌方目标被消灭则对新入场的敌方目标发动欢愉技。\n若目标不拥有欢愉技，使其行动提前#3[i]%。",
         "ja": "爆笑ネタを#6[i]個獲得し、指定した味方単体の会心ダメージ+#1[i]%、#2[i]ターン継続。さらに、その味方の行動制限系デバフを解除する。\n愉悦スキルを持っている場合、その味方は追加で「爆笑の褒美」を#4[i]獲得し、爆笑ネタが固定で#5[i]個カウントされる愉悦スキルを即座に1回発動する。愉悦スキルの発動前に敵が倒れた場合、新たにフィールドに登場した敵に対して愉悦スキルを発動する。\n愉悦スキルを持っていない場合、その味方の行動順を#3[i]%早める。",
         "ko": "웃음 포인트를 #6[i]pt 획득하고, 지정된 단일 아군의 치명타 피해를 #1[i]% 증가시킨다, 지속 시간: #2[i]턴. 또한 해당 목표의 제어류 디버프 상태를 해제한다.\n목표가 환락 스킬을 보유하고 있다면, 목표는 추가로 [훌륭한 솜씨에는 보상을]을 #4[i]pt 획득하고, 즉시 웃음 포인트 #5[i]pt로 고정 집계되는 환락 스킬을 1회 발동한다. 환락 스킬 발동 전 적이 처치될 경우 새로 등장한 적에게 환락 스킬을 발동한다.\n목표가 환락 스킬을 보유하고 있지 않으면, 목표의 행동 게이지를 #3[i]% 증가시킨다"
       },
@@ -115,11 +129,12 @@
       "summary": {
         "pt-BR": "Ganha \"piada\". Aumenta o Dano CRIT de um aliado designado e remove as penalidades de Controle Negativo desse alvo. Se o alvo possuir uma Perícia da Euforia, o alvo ganha adicionalmente \"Mandou Bem\" e usa imediatamente a sua Perícia da Euforia. Caso contrário, a sua ação é Avançada Adiante.",
         "en": "Gains Punchline. Increases the CRIT DMG of one designated ally, and dispels Crowd Control debuffs on that target. If the target has Elation Skill, the target additionally gains \"Certified Banger\" and immediately uses their Elation Skill. Otherwise, their action advances.",
+        "zh-CN": "获得笑点，使指定我方单体暴击伤害提高，并解除该目标的控制类负面状态。若目标拥有欢愉技，目标额外获得【好活当赏】，并使其立即施放欢愉技，否则使其行动提前。",
         "ja": "爆笑ネタを獲得し、指定した味方単体の会心ダメージをアップさせ、その味方の行動制限系デバフを解除する。愉悦スキルを持っている場合、その味方は追加で「爆笑の褒美」を獲得して即座に愉悦スキルを発動する。持っていない場合、その味方の行動順を早める。",
         "ko": "웃음 포인트를 획득하고, 지정된 단일 아군의 치명타 피해를 증가시키며, 해당 목표의 제어류 디버프 상태를 해제한다. 목표가 환락 스킬을 보유하고 있으면, 목표는 추가로 [훌륭한 솜씨에는 보상을]을 획득하고, 즉시 환락 스킬을 발동하게 하며, 그렇지 않으면 행동 게이지를 증가시킨다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 800904,
@@ -127,12 +142,14 @@
       "name": {
         "pt-BR": "Aquele Sorriso, Aquele Maldito Sorriso",
         "en": "That Smile Hits Different",
+        "zh-CN": "英雄一笑，生死难料",
         "ja": "見ろ、ヒーローが笑ってる",
         "ko": "영웅의 웃음은 칼바람의 전조"
       },
       "description": {
         "pt-BR": "Após usar um ataque, regenera uma quantidade fixa de #1[i] de Energia e ganha #2[i] ponto(s) de \"Piada\".\nQuando {M#o Desbravador}{F#a Desbravadora} possui \"Mandou Bem\", sua Perícia causa #3[i]% de Dano de Euforia de Raio adicional a todos os inimigos. Esse Dano é calculado usando o valor mais alto de \"Mandou Bem\" entre todos os aliados.",
         "en": "After using an attack, regenerates a fixed amount of #1[i] Energy and gains #2[i] Punchline point(s).\nWhen the Trailblazer holds \"Certified Banger,\" their Skill additionally deals #3[i]% Lightning Elation DMG to all enemies. This DMG is calculated using the highest \"Certified Banger\" value among all allies.",
+        "zh-CN": "施放攻击后，固定恢复#1[i]点能量并获得#2[i]个笑点。\n开拓者持有【好活当赏】时，战技对敌方全体额外造成#3[i]%的雷属性欢愉伤害，此伤害使用我方最高的【好活当赏】数值计算。",
         "ja": "攻撃を行った後、EPを#1[i]回復し、爆笑ネタを#2[i]個獲得する。\n開拓者が「爆笑の褒美」を持つ時、戦闘スキルは敵全体に追加で#3[i]%分の雷属性の愉悦ダメージを与える。このダメージは味方の最も高い「爆笑の褒美」の数値を参照する。",
         "ko": "공격 발동 후 에너지를 고정으로 #1[i]pt 회복하고, 웃음 포인트를 #2[i]pt 획득한다.\n개척자가 [훌륭한 솜씨에는 보상을] 보유 시, 전투 스킬이 모든 적에게 추가로 번개 속성 환락 피해를 #3[i]% 가하며, 해당 피해는 아군 중 가장 높은 [훌륭한 솜씨에는 보상을] 수치를 사용하여 계산한다"
       },
@@ -158,19 +175,21 @@
       "summary": {
         "pt-BR": "Após usar um ataque, regenera Energia e ganha \"piada\".\nQuando {M#o Desbravador}{F#a Desbravadora} possui \"Mandou Bem\", sua Perícia causa adicionalmente Dano de Euforia de Raio leve a todos os inimigos.",
         "en": "After using an attack, regenerates Energy and gains Punchline.\nWhen the Trailblazer holds \"Certified Banger,\" their Skill additionally deals minor Lightning Elation DMG to all enemies.",
+        "zh-CN": "施放攻击后恢复能量并获得笑点。\n开拓者持有【好活当赏】时，战技对敌方全体额外造成少量雷属性欢愉伤害。",
         "ja": "攻撃を行った後、EPを回復し、爆笑ネタを獲得する。\n開拓者が「爆笑の褒美」を持つ時、戦闘スキルは敵全体に追加で少量の雷属性の愉悦ダメージを与える。",
         "ko": "공격 발동 후 에너지를 회복하고 웃음 포인트를 획득한다.\n개척자가 [훌륭한 솜씨에는 보상을] 보유 시, 전투 스킬이 모든 적에게 추가로 소량의 번개 속성 환락 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 800906,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -179,6 +198,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -186,10 +206,17 @@
     {
       "id": 800907,
       "type": "Technique",
-      "name": { "pt-BR": "A Gente Tá Arrasando!", "en": "We Are So Back!", "ja": "燃えてきた！", "ko": "불타오른다!" },
+      "name": {
+        "pt-BR": "A Gente Tá Arrasando!",
+        "en": "We Are So Back!",
+        "zh-CN": "燃起来了！",
+        "ja": "燃えてきた！",
+        "ko": "불타오른다!"
+      },
       "description": {
         "pt-BR": "Após usar a Técnica, ganha aleatoriamente 1 dos seguintes efeitos:\nBaixa chance de obter \"Gargalhada Sincera\": aumenta a Euforia em #1[i]%.\nAlta chance de obter \"Gargalhada Incontrolável\": aumenta a Euforia em #3[i]%.\nQuando a próxima batalha começar, aumenta o atributo da Euforia de todos os aliados no valor correspondente por #5[i] rodada(s).",
         "en": "After using Technique, randomly gains 1 of the following effects:\nA low chance to gain \"Hearty Laughter\": Increases Elation by #1[i]%.\nA high chance to gain \"Irrepressible Laughter\": Increases Elation by #3[i]%.\nWhen the next battle begins, increases all allies' Elation stat by the corresponding amount for #5[i] turn(s).",
+        "zh-CN": "使用秘技后随机获得以下1种效果：\n小概率获得【开怀大笑】：欢愉度提高#1[i]%。\n大概率获得【忍俊不禁】：欢愉度提高#3[i]%。\n下一次战斗开始时，使我方全体提高对应数值的欢愉度，持续#5[i]回合。",
         "ja": "秘技を使用すると、以下の効果からランダムで1つ獲得する。\n低確率で「心からの大笑い」を獲得し、愉悦度+#1[i]%。\n高確率で「禁じえない笑い」を獲得し、愉悦度+#3[i]%。\n次の戦闘開始時、味方全体の愉悦度を対応する数値分アップさせる。#5[i]ターン継続。",
         "ko": "비술 사용 후 랜덤으로 다음 중 1가지 효과를 획득한다.\n낮은 확률로 [함박웃음] 획득: 환락도가 #1[i]% 증가한다.\n높은 확률로 [참을 수 없는 웃음] 획득: 환락도가 #3[i]% 증가한다.\n다음 전투 시작 시, 모든 아군의 환락도가 해당 수치만큼 증가한다, 지속 시간: #5[i]턴"
       },
@@ -199,11 +226,12 @@
       "summary": {
         "pt-BR": "Após usar a Técnica, aumenta a Euforia de todos os aliados ao entrar na próxima batalha.",
         "en": "After using Technique, increases all allies' Elation when entering the next battle.",
+        "zh-CN": "使用秘技后，下一次进入战斗时使我方全体欢愉度提高。",
         "ja": "秘技を使用した後、次の戦闘開始時、味方全体の愉悦度がアップする。",
         "ko": "비술 사용 후, 다음 전투 진입 시 모든 아군의 환락도를 증가시킨다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 800920,
@@ -211,12 +239,14 @@
       "name": {
         "pt-BR": "Eu Falei \"Euforia\". Quer Que Desenhe?",
         "en": "I Said \"Elation,\" Did I Stutter?",
+        "zh-CN": "我说欢愉，你耳朵聋吗？",
         "ja": "愉悦って言ったの聞こえなかった？",
         "ko": "내가 환락이라고 했잖아!"
       },
       "description": {
         "pt-BR": "Causa #1[i] instâncias de Dano, com cada instância causando #2[i]% de Dano de Euforia de Raio a um inimigo aleatório. Por fim, causa #3[i]% de Dano de Euforia de Raio, que é dividido igualmente entre todos os inimigos.",
         "en": "Deals #1[i] instances of DMG, with each instance dealing #2[i]% Lightning Elation DMG to one random enemy. At last, deals #3[i]% Lightning Elation DMG, which is split evenly among all enemies.",
+        "zh-CN": "造成#1[i]次伤害，每次对敌方随机单体造成#2[i]%的雷属性欢愉伤害。最后造成#3[i]%的雷属性欢愉伤害，由敌方全体均分。",
         "ja": "#1[i]回ダメージを与える。1回につきランダムな敵単体に#2[i]%分の雷属性の愉悦ダメージを与える。最後に#3[i]%分の雷属性の愉悦ダメージを敵全体に均等に分けて与える。",
         "ko": "피해를 #1[i]회 가하며, 회당 랜덤 단일 적에게 번개 속성 환락 피해를 #2[i]% 가한다. 마지막으로 번개 속성 환락 피해를 #3[i]% 가하며, 해당 피해는 모든 적이 균등 분담한다"
       },
@@ -242,11 +272,18 @@
       "summary": {
         "pt-BR": "Causa várias instâncias de Dano, com cada instância causando Dano de Euforia de Raio leve a um inimigo aleatório. Por fim, causa Dano de Euforia de Raio que é dividido igualmente entre todos os inimigos.",
         "en": "Deals multiple instances of DMG, with each instance dealing minor Lightning Elation DMG to one random enemy. At last, deals Lightning Elation DMG that is split evenly among all enemies.",
+        "zh-CN": "造成多次伤害，每次对敌方随机单体造成少量雷属性欢愉伤害，最后造成由敌方全体均分的雷属性欢愉伤害。",
         "ja": "複数回ダメージを与える。1回につきランダムな敵単体に少量の雷属性の愉悦ダメージを与え、最後に雷属性の愉悦ダメージを敵全体に均等に分けて与える。",
         "ko": "여러 번 피해를 가한다. 매번 랜덤 단일 적에게 소량의 번개 속성 환락 피해를 가하고, 마지막으로 모든 적이 균등 분담하는 번개 속성 환락 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia da Euforia", "en": "Elation Skill", "ja": "愉悦スキル", "ko": "환락 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": {
+        "pt-BR": "Perícia da Euforia",
+        "en": "Elation Skill",
+        "zh-CN": "欢愉技",
+        "ja": "愉悦スキル",
+        "ko": "환락 스킬"
+      },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 800929,
@@ -254,12 +291,14 @@
       "name": {
         "pt-BR": "Faces da Euforia ★ Armadura do Protagonismo",
         "en": "Faces of Elation ★ Plot Armor",
+        "zh-CN": "欢愉万相★主角光环",
         "ja": "愉悦の万象★主人公補正",
         "ko": "환락만상★주인공 버프"
       },
       "description": {
         "pt-BR": "Quando o Caminho da Euforia ascender, o efeito de Bônus de Dano CRIT da Perícia Suprema aumenta adicionalmente em #1[i]% e passa a afetar todos os aliados. Antes de a Perícia Suprema ativar a Perícia da Euforia de Aeon ★ Aha, ela também ativa uma instância da Perícia da Euforia {F#da Desbravadora}{M#do Desbravador}. O multiplicador de Dano dessa Perícia da Euforia aumenta em #2[i]% do seu valor original e é calculado com base no maior valor de \"Arrasou!\" entre os personagens aliados. Em seguida, a Perícia da Euforia de Aeon ★ Aha é ativada, e seu Dano Verdadeiro passa a ser calculado com base em #3[i]% do Dano causado pela Perícia da Euforia {F#da Desbravadora}{M#do Desbravador} mencionada acima, sendo distribuído igualmente entre todos os inimigos.",
         "en": "When the Path of Elation ascends, the Ultimate's CRIT DMG boost effect additionally increases by #1[i]% and applies to all allies. Before the Ultimate triggers Aeon ★ Aha's Elation Skill, additionally triggers one instance of the Trailblazer's Elation Skill. And the DMG multiplier of this Elation Skill increases by #2[i]% of its original value, and is calculated based on the highest value of \"Party Trick\" held by ally characters. For the Aeon ★ Aha's Elation Skill triggered afterward, its True DMG is instead calculated as #3[i]% of the DMG dealt by the aforementioned Trailblazer's Elation Skill, and is distributed evenly among all enemies.",
+        "zh-CN": "当「欢愉」命途升格时，终结技的暴击伤害提高效果额外提高#1[i]%，并对我方全体生效。终结技触发星神★阿哈的欢愉技前，额外触发一次开拓者的欢愉技，本次欢愉技的伤害倍率提高原倍率的#2[i]%，并基于我方角色持有的【绝活共赏】最高值进行计算。随后触发的星神★阿哈欢愉技，其真实伤害改为按上述开拓者欢愉技造成伤害的#3[i]%计算，由敌方全体均分。",
         "ja": "「愉悦」の運命が昇格すると、必殺技の会心ダメージアップ効果がさらに+#1[i]%、味方全体に適用される。必殺技で星神★アッハの愉悦スキルを発動させる時、発動前に開拓者の愉悦スキルを追加で1回発動する。この回の愉悦スキルは、ダメージ倍率が本来の倍率の#2[i]%分アップし、味方キャラが所持する「大爆笑の褒美」のうち、最も高い値に基づいて計算される。その後に発動する星神★アッハの愉悦スキルによる確定ダメージは、上記の開拓者の愉悦スキルで与えたダメージの#3[i]%分に基づいて計算される。なお、この確定ダメージは敵全体に均等に分けて与える。",
         "ko": "「환락」 운명의 길 승격 시 필살기의 치명타 피해 증가 효과가 추가로 #1[i]% 증가하고, 모든 아군에게 적용된다. 필살기가 에이언즈★아하의 환락 스킬을 발동하기 전, 추가로 개척자의 환락 스킬을 1회 발동하고, 이번 환락 스킬의 피해 배율이 기존 배율의 #2[i]%만큼 증가하며, 아군 캐릭터가 보유한 [절묘한 솜씨는 함께 감상을] 최고치에 기반해 계산한다. 이후 발동한 에이언즈★아하의 환락 스킬은 확정 피해가 상기 개척자 환락 스킬이 가한 피해의 #3[i]%로 계산되는 것으로 변경되며, 해당 피해는 모든 적이 균등 분담한다"
       },
@@ -269,11 +308,18 @@
       "summary": {
         "pt-BR": "Quando o Caminho da Euforia ascender, o efeito de aumento de Dano CRIT fornecido pela Perícia Suprema aumenta ainda mais e passa a afetar todos os aliados. Antes de a Perícia Suprema ativar a Perícia da Euforia de Aeon ★ Aha, ela também ativa uma instância adicional da Perícia da Euforia {F#da Desbravadora}{M#do Desbravador}. O multiplicador de Dano dessa Perícia da Euforia aumenta e é calculado com base no maior valor de \"Arrasou!\" possuído pelos personagens aliados. Em seguida, a Perícia da Euforia de Aeon ★ Aha é ativada, e seu Dano Verdadeiro passa a ser calculado com base no Dano causado pela Perícia da Euforia {F#da Desbravadora}{M#do Desbravador} mencionada acima, sendo distribuído igualmente entre todos os inimigos.",
         "en": "When the Path of Elation ascends, the CRIT DMG boost effect provided by the Ultimate additionally increases and applies to all allies. Before the Ultimate triggers Aeon ★ Aha's Elation Skill, additionally triggers one instance of the Trailblazer's Elation Skill. And the DMG multiplier of this Elation Skill increases, and is calculated based on the highest value of \"Party Trick\" held by ally characters. For the Aeon ★ Aha's Elation Skill triggered afterward, its True DMG is instead calculated based on the DMG dealt by the aforementioned Trailblazer's Elation Skill, and is distributed evenly among all enemies.",
+        "zh-CN": "当「欢愉」命途升格时，终结技提供的暴击伤害提高效果额外提高，并对我方全体生效。终结技触发星神★阿哈的欢愉技前，额外触发一次开拓者的欢愉技，本次欢愉技的伤害倍率提高，并基于我方角色持有的【绝活共赏】最高值进行计算。随后触发的星神★阿哈欢愉技，其真实伤害改为基于上述开拓者欢愉技造成的伤害计算，由敌方全体均分。",
         "ja": "「愉悦」の運命が昇格すると、必殺技の会心ダメージアップ効果が強化され、味方全体に適用される。必殺技で星神★アッハの愉悦スキルを発動させる前に、開拓者の愉悦スキルを追加で1回発動する。この回の愉悦スキルはダメージ倍率がアップし、味方キャラが所持する「大爆笑の褒美」のうち、最も高い値に基づいて計算される。その後に発動する星神★アッハの愉悦スキルによる確定ダメージは、上記の開拓者の愉悦スキルが与えたダメージに基づいて計算されるようになり、敵全体に均等に分けて与えられる。",
         "ko": "「환락」 운명의 길 승격 시 필살기의 치명타 피해 증가 효과가 추가로 증가하고, 모든 아군에게 적용된다. 필살기가 에이언즈★아하의 환락 스킬을 발동하기 전, 추가로 개척자의 환락 스킬을 1회 발동하고, 이번 환락 스킬의 피해 배율이 증가하며, 아군 캐릭터가 보유한 [절묘한 솜씨는 함께 감상을] 최고치에 기반해 계산한다. 이후 발동한 에이언즈★아하의 환락 스킬은 확정 피해가 상기 개척자 환락 스킬이 가한 피해에 기반해 계산되는 것으로 변경되며, 해당 피해는 모든 적이 균등 분담한다"
       },
-      "typeText": { "pt-BR": "Rastro Inato", "en": "Innate Trace", "ja": "固有軌跡", "ko": "고유 행적" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": {
+        "pt-BR": "Rastro Inato",
+        "en": "Innate Trace",
+        "zh-CN": "固有行迹",
+        "ja": "固有軌跡",
+        "ko": "고유 행적"
+      },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -282,12 +328,14 @@
       "name": {
         "pt-BR": "Acredite na Luz",
         "en": "Believe In the Light",
+        "zh-CN": "相信光的时间",
         "ja": "{RUBY_B#ひかり}光{RUBY_E#}を{RUBY_B#しん}信{RUBY_E#}じる{RUBY_B#じかん}時間{RUBY_E#}",
         "ko": "빛을 믿는 시간"
       },
       "description": {
         "pt-BR": "Após usar a Perícia, a próxima Perícia Suprema aumenta a quantidade de \"Mandou Bem\" obtida pelos aliados-alvo em 2. Esse efeito pode acumular até 3 vez(es).",
         "en": "After using Skill, the next Ultimate increases the amount of \"Certified Banger\" gained by ally targets by 2. This effect can stack up to 3 time(s).",
+        "zh-CN": "施放战技后，下一次终结技使我方目标获得的【好活当赏】提高2点，该效果最多叠加3层。",
         "ja": "戦闘スキルを発動した後、次の必殺技で味方が獲得する「爆笑の褒美」+2。この効果は最大で3層累積できる。",
         "ko": "전투 스킬 발동 후, 다음번 필살기로 아군이 획득하는 [훌륭한 솜씨에는 보상을]이 2pt 증가한다. 해당 효과 최대 중첩수: 3스택"
       },
@@ -300,12 +348,14 @@
       "name": {
         "pt-BR": "Fazendo História...",
         "en": "History in the Making...",
+        "zh-CN": "名场面酝酿中……",
         "ja": "{RUBY_B#めい}名{RUBY_E#}シーン{RUBY_B#じゅんびちゅう}準備中{RUBY_E#}……",
         "ko": "명장면 탄생 중……"
       },
       "description": {
         "pt-BR": "A Perícia Suprema aumenta adicionalmente a \"Euforia\" de um aliado designado em 12%, durando por 2 rodada(s).",
         "en": "Ultimate additionally increases the Elation of one designated ally by 12%, lasting for 2 turn(s).",
+        "zh-CN": "终结技额外使指定我方单体的欢愉度提高12%，持续2回合。",
         "ja": "必殺技は追加で指定した味方単体の愉悦度+12%、2ターン継続。",
         "ko": "필살기가 추가로 지정된 단일 아군의 환락도를 12% 증가시킨다, 지속 시간: 2턴"
       },
@@ -318,12 +368,14 @@
       "name": {
         "pt-BR": "Nos Holofotes",
         "en": "Into the Spotlight",
+        "zh-CN": "来吧，镜头的焦点",
         "ja": "スポットライトを\nこっちへ",
         "ko": "화제의 중심은, 바로 나!"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até um máximo de Nv. 15.\nNv. do Talento +2, até um máximo de Nv. 15.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。愉悦スキルのLv.+1、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15. 환락 스킬 레벨+1, 최대 Lv.15"
       },
@@ -336,12 +388,14 @@
       "name": {
         "pt-BR": "Salvar o Mundo. Só Porque Sim.",
         "en": "Save the World. Just Because.",
+        "zh-CN": "拯救世界，无需理由",
         "ja": "{RUBY_B#せかい}世界{RUBY_E#}を{RUBY_B#すく}救{RUBY_E#}うのに\n{RUBY_B#りゆう}理由{RUBY_E#}はいらない",
         "ko": "세상을 구하는 데 이유는 필요 없어"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia da Euforia, aumenta o Dano recebido pelos inimigos-alvo em 10%, durando por 2 rodada(s).",
         "en": "When using Elation Skill, increases the DMG taken by enemy targets by 10%, lasting for 2 turn(s).",
+        "zh-CN": "施放欢愉技时，使敌方目标受到的伤害提高10%，持续2回合。",
         "ja": "愉悦スキルを発動する時、敵の受けるダメージ+10%、2ターン継続。",
         "ko": "환락 스킬 발동 시, 적이 받는 피해를 10% 증가시킨다, 지속 시간: 2턴"
       },
@@ -354,12 +408,14 @@
       "name": {
         "pt-BR": "Amor e Coragem: Sempre Estilosos",
         "en": "Love & Courage: Always in Style",
+        "zh-CN": "爱与勇气，永不过时",
         "ja": "{RUBY_B#あい}愛{RUBY_E#}と{RUBY_B#ゆうき}勇気{RUBY_E#}は\n{RUBY_B#えいえん}永遠{RUBY_E#}の{RUBY_B#おうどう}王道{RUBY_E#}",
         "ko": "사랑과 용기는 결코 유행을 타지 않아"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até um máximo de Nv. 15.\nNv. do ATQ Básico +1, até um máximo de Nv. 10.\nNv. da Perícia da Euforia +1, até um máximo de Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。愉悦スキルのLv.+1、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10. 환락 스킬 레벨+1, 최대 Lv.15"
       },
@@ -372,12 +428,14 @@
       "name": {
         "pt-BR": "Eis que Chega Uma Lenda Cósmica!",
         "en": "The Cosmic Legend Cometh!",
+        "zh-CN": "银河传奇，登场！",
         "ja": "{RUBY_B#ぎんが}銀河{RUBY_E#}の{RUBY_B#でんせつ}伝説{RUBY_E#}、{RUBY_B#さんじょう}参上{RUBY_E#}！",
         "ko": "은하 전설, 등장!"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia da Euforia, aumenta o Dano CRIT desta unidade em 100% por 3 rodadas.",
         "en": "When using Elation Skill, increases this unit's CRIT DMG by 100% for 3 turns.",
+        "zh-CN": "施放欢愉技时，使自身暴击伤害提高100%，持续3回合。",
         "ja": "愉悦スキルを発動する時、自身の会心ダメージ+100%、3ターン継続。",
         "ko": "환락 스킬 발동 시, 자신의 치명타 피해를 100% 증가시킨다, 지속 시간: 3턴"
       },
@@ -742,12 +800,14 @@
       "name": {
         "pt-BR": "Viajando na Maionese",
         "en": "On Cloud Nine",
+        "zh-CN": "快哉快哉",
         "ja": "{RUBY_B#ゆかいつうかい}愉快痛快{RUBY_E#}",
         "ko": "통쾌하다, 통쾌해!"
       },
       "description": {
         "pt-BR": "Para cada #2[i] ponto(s) de ATQ {M#do Desbravador}{F#da Desbravadora} que exceda(m) #1[i], aumenta o atributo de \"Euforia\" desta unidade em #3[f1]%, até um aumento máximo de #4[f1]%.",
         "en": "For every #2[i] point(s) of Trailblazer's ATK that exceeds #1[i], increases this unit's Elation stat by #3[f1]%, up to a maximum increase of #4[f1]%.",
+        "zh-CN": "若开拓者的攻击力高于#1[i]点，每超过#2[i]点攻击力可使自身欢愉度提高#3[f1]%，最多提高#4[f1]%。",
         "ja": "開拓者の攻撃力が#1[i]を超えた場合、超過した攻撃力#2[i]につき、自身の愉悦度+#3[f1]%、最大で+#4[f1]%。",
         "ko": "개척자의 공격력이 #1[i]pt보다 높으면, 초과한 공격력 #2[i]pt당 자신의 환락도가 #3[f1]% 증가하며, 최대 #4[f1]% 증가한다"
       },
@@ -771,12 +831,14 @@
       "name": {
         "pt-BR": "Dane-se, Vamos com Tudo",
         "en": "Screw It, We Ball",
+        "zh-CN": "跟你爆了",
         "ja": "はじけよう！",
         "ko": "끝장을 보자!"
       },
       "description": {
         "pt-BR": "Aumenta a Chance de CRIT desta unidade em #1[i]%. Após usar a Perícia Suprema, recupera #2[i] Ponto(s) de Perícia para a equipe.",
         "en": "Increases this unit's CRIT Rate by #1[i]%. After using Ultimate, recovers #2[i] Skill Point(s) for the team.",
+        "zh-CN": "自身暴击率提高#1[i]%。施放终结技后，为我方恢复#2[i]个战技点。",
         "ja": "自身の会心率+#1[i]%。必殺技を発動した後、味方のSPを#2[i]回復する。",
         "ko": "자신의 치명타 확률이 #1[i]% 증가한다. 필살기 발동 후 아군의 전투 스킬 포인트를 #2[i]pt 회복한다"
       },
@@ -805,12 +867,14 @@
       "name": {
         "pt-BR": "Aha, Pega!",
         "en": "Aha, Sic 'Em!",
+        "zh-CN": "阿哈咬它！",
         "ja": "{RUBY_B#か}噛{RUBY_E#}みつけ、アッハ！",
         "ko": "아하, 물어!"
       },
       "description": {
         "pt-BR": "Após um aliado-alvo usar a Perícia da Euforia, {M#o Desbravador}{F#a Desbravadora} ganha adicionalmente #1[i] ponto(s) de \"Mandou Bem\" na próxima vez que usar sua Perícia.",
         "en": "After an ally target uses Elation Skill, Trailblazer additionally gains #1[i] point(s) of \"Certified Banger\" the next time they use their Skill.",
+        "zh-CN": "我方目标施放欢愉技后，开拓者下一次施放战技时额外获得#1[i]点【好活当赏】。",
         "ja": "味方が愉悦スキルを発動した後、開拓者が次に戦闘スキルを発動する時、追加で「爆笑の褒美」を#1[i]獲得する。",
         "ko": "아군이 환락 스킬을 발동한 후, 개척자가 다음번 전투 스킬 발동 시 추가로 [훌륭한 솜씨에는 보상을]을 #1[i]pt 획득한다"
       },
@@ -836,7 +900,7 @@
     {
       "id": 8009201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -856,6 +920,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -875,7 +940,7 @@
     {
       "id": 8009203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8009101],
@@ -892,7 +957,13 @@
     {
       "id": 8009204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [8009101],
@@ -909,7 +980,7 @@
     {
       "id": 8009205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8009102],
@@ -929,6 +1000,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -948,7 +1020,7 @@
     {
       "id": 8009207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8009206],
@@ -965,7 +1037,13 @@
     {
       "id": 8009208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [8009103],
@@ -985,6 +1063,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1004,7 +1083,7 @@
     {
       "id": 8009210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [8009209],
@@ -1021,7 +1100,13 @@
     {
       "id": 8009420,
       "anchor": "Point22",
-      "name": { "pt-BR": "Perícia da Euforia", "en": "Elation Skill", "ja": "愉悦スキル", "ko": "환락 스킬" },
+      "name": {
+        "pt-BR": "Perícia da Euforia",
+        "en": "Elation Skill",
+        "zh-CN": "欢愉技",
+        "ja": "愉悦スキル",
+        "ko": "환락 스킬"
+      },
       "icon": "icon/skill/8009_elation.png",
       "maxLevel": 10,
       "prerequisites": [],

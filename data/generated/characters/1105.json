@@ -1,7 +1,7 @@
 {
   "id": 1105,
   "slug": "natasha",
-  "name": { "pt-BR": "Natasha", "en": "Natasha", "ja": "ナターシャ", "ko": "나타샤" },
+  "name": { "pt-BR": "Natasha", "en": "Natasha", "zh-CN": "娜塔莎", "ja": "ナターシャ", "ko": "나타샤" },
   "rarity": 4,
   "path": "Abundance",
   "element": "Physical",
@@ -11,10 +11,17 @@
     {
       "id": 110501,
       "type": "Basic",
-      "name": { "pt-BR": "Além da Bondade", "en": "Behind the Kindness", "ja": "慈心の裏側", "ko": "인자함의 이면" },
+      "name": {
+        "pt-BR": "Além da Bondade",
+        "en": "Behind the Kindness",
+        "zh-CN": "仁慈的背面",
+        "ja": "慈心の裏側",
+        "ko": "인자함의 이면"
+      },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Natasha a um único inimigo.",
         "en": "Deals Physical DMG equal to #1[i]% of Natasha's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于娜塔莎#1[i]%攻击力的物理属性伤害。",
         "ja": "指定した敵単体にナターシャの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 나타샤 공격력 #1[i]%만큼의 물리 속성 피해를 준다"
       },
@@ -24,11 +31,12 @@
       "summary": {
         "pt-BR": "Causa Dano Físico leve a um único inimigo.",
         "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
         "ja": "敵単体に少量の物理属性ダメージを与える。",
         "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 110502,
@@ -36,12 +44,14 @@
       "name": {
         "pt-BR": "Amor, Cura e Escolha",
         "en": "Love, Heal, and Choose",
+        "zh-CN": "爱，救护与抉择",
         "ja": "愛、救済と選択",
         "ko": "사랑, 구조와 선택"
       },
       "description": {
         "pt-BR": "Cura um único alvo em #1[f1]% dos PV máximos de Natasha + #4[i]. Cura o aliado em mais #2[f1]% dos PV máximos de Natasha mais #5[i] no início de cada rodada por #3[i] rodada(s).",
         "en": "Restores a single ally for #1[f1]% of Natasha's Max HP plus #4[i]. Restores the ally for another #2[f1]% of Natasha's Max HP plus #5[i] at the beginning of each turn for #3[i] turn(s).",
+        "zh-CN": "立即为指定我方单体回复等同于娜塔莎#1[f1]%生命上限+#4[i]的生命值，同时目标每回合开始时为其回复等同于娜塔莎#2[f1]%生命上限+#5[i]的生命值，持续#3[i]回合。",
         "ja": "指定した味方単体のHPをナターシャの最大HP#1[f1]%+#4[i]回復し、その味方のターンが回ってくるたびに、ナターシャの最大HP#2[f1]%+#5[i]のHPを回復させる、#3[i]ターン継続。",
         "ko": "지정된 단일 아군의 HP를 즉시 나타샤 HP 최대치의 #1[f1]%+#4[i]만큼 회복하고, 턴이 시작될 때마다 대상의 HP를 나타샤 HP 최대치의 #2[f1]%+#5[i]만큼 회복한다. 지속 시간: #3[i]턴"
       },
@@ -67,19 +77,27 @@
       "summary": {
         "pt-BR": "Restaura PV de um único aliado e concede a Cura Periódica a ele.",
         "en": "Restores HP for a single ally and provides Healing Over Time to them.",
+        "zh-CN": "为我方单体回复生命值，并使目标持续回复生命值。",
         "ja": "味方単体のHPを回復し、その味方にHP継続回復効果を付与する。",
         "ko": "단일 아군의 HP를 회복하고 목표가 지속적으로 HP를 회복하게 한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 110503,
       "type": "Ultimate",
-      "name": { "pt-BR": "Presente do Renascimento", "en": "Gift of Rebirth", "ja": "新生の礼", "ko": "신생의 의례" },
+      "name": {
+        "pt-BR": "Presente do Renascimento",
+        "en": "Gift of Rebirth",
+        "zh-CN": "新生之礼",
+        "ja": "新生の礼",
+        "ko": "신생의 의례"
+      },
       "description": {
         "pt-BR": "Cura todos os aliados em #1[f1]% dos PV máximos de Natasha + #2[i].",
         "en": "Heals all allies for #1[f1]% of Natasha's Max HP plus #2[i].",
+        "zh-CN": "立即为我方全体回复等同于娜塔莎#1[f1]%生命上限+#2[i]的生命值。",
         "ja": "味方全体のHPをナターシャの最大HP#1[f1]%+#2[i]回復する。",
         "ko": "모든 아군이 즉시 나타샤 HP 최대치 #1[f1]%+#2[i]만큼의 HP를 회복한다"
       },
@@ -105,19 +123,21 @@
       "summary": {
         "pt-BR": "Restaura PV de todos os aliados.",
         "en": "Restores HP for all allies.",
+        "zh-CN": "为我方全体回复生命值。",
         "ja": "味方全体のHPを回復する。",
         "ko": "모든 아군의 HP를 회복한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Restauração", "en": "Restore", "ja": "回復", "ko": "회복" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Restauração", "en": "Restore", "zh-CN": "回复", "ja": "回復", "ko": "회복" }
     },
     {
       "id": 110504,
       "type": "Talent",
-      "name": { "pt-BR": "Enervação", "en": "Innervation", "ja": "生命の輝き", "ko": "생기발랄" },
+      "name": { "pt-BR": "Enervação", "en": "Innervation", "zh-CN": "生机焕发", "ja": "生命の輝き", "ko": "생기발랄" },
       "description": {
         "pt-BR": "Ao curar aliados com PV iguais ou abaixo de #1[i]%, aumenta a Cura Realizada de Natasha em #2[i]%. Este efeito também funciona na cura contínua.",
         "en": "When healing allies with HP percentage at #1[i]% or lower, increases Natasha's Outgoing Healing by #2[i]%. This effect also works on continuous healing.",
+        "zh-CN": "为当前生命值百分比小于等于#1[i]%的我方目标提供治疗时，娜塔莎的治疗量提高#2[i]%，该效果对持续治疗效果也会生效。",
         "ja": "残りHPが#1[i]%以下の味方に治癒を行う時、ナターシャの治癒量+#2[i]%、この効果は持続治癒効果にも有効。",
         "ko": "현재 HP 백분율이 #1[i]% 이하인 아군에게 치유 제공 시 나타샤의 치유량이 #2[i]% 증가한다. 해당 효과는 지속 치유 효과에도 적용된다"
       },
@@ -143,19 +163,21 @@
       "summary": {
         "pt-BR": "Ao curar aliados com porcentagem dos PV baixa, aumenta a Cura Realizada. Esse efeito também funciona em curas contínuas.",
         "en": "When healing allies with low HP percentage, increases Outgoing Healing. This effect also works on continuous healing.",
+        "zh-CN": "为当前生命值百分比较低的我方目标提供治疗时，治疗量提高。该效果对持续治疗效果也会生效。",
         "ja": "残りHPが低い味方に治癒を行う時、治癒量がアップする。この効果は持続治癒効果にも有効。",
         "ko": "현재 HP 백분율이 낮은 아군에게 치유 제공 시 치유량이 증가한다. 해당 효과는 지속 치유 효과에도 적용된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 110506,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -164,6 +186,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -171,10 +194,17 @@
     {
       "id": 110507,
       "type": "Technique",
-      "name": { "pt-BR": "Pesquisa Hipnótica", "en": "Hypnosis Research", "ja": "催眠研究", "ko": "최면 연구" },
+      "name": {
+        "pt-BR": "Pesquisa Hipnótica",
+        "en": "Hypnosis Research",
+        "zh-CN": "催眠研习",
+        "ja": "催眠研究",
+        "ko": "최면 연구"
+      },
       "description": {
         "pt-BR": "Ataca o inimigo imediatamente. Após entrar na batalha, causa Dano Físico igual a #4[i]% do ATQ de Natasha a um inimigo aleatório, com #1[i]% de chance-base de causar Enfraquecimento a todos os inimigos.\nQuando enfraquecidos, inimigos causam #2[i]% a menos de Dano a aliados por #3[i] rodada(s).",
         "en": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to #4[i]% of Natasha's ATK to a random enemy, with a #1[i]% base chance to Weaken all enemies.\nWhile Weakened, enemies deal #2[i]% less DMG to allies for #3[i] turn(s).",
+        "zh-CN": "立即攻击敌人，进入战斗后对敌方随机单体造成等同于娜塔莎#4[i]%攻击力的物理属性伤害，并有#1[i]%的基础概率使敌方每个单体目标陷入虚弱状态。\n虚弱状态下的敌方目标对我方造成的伤害降低#2[i]%，持续#3[i]回合。",
         "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体にナターシャの攻撃力#4[i]%分の物理属性ダメージを与え、#1[i]%の基礎確率で敵単体それぞれを虚弱状態にする。\n虚弱状態の敵の、味方への与ダメージ-#2[i]%、#3[i]ターン継続。",
         "ko": "적을 바로 공격하며, 전투 진입 후 임의의 단일 적에게 나타샤 공격력 #4[i]%만큼의 물리 속성 피해를 준다. 동시에 #1[i]%의 기본 확률로 각 단일 적을 허약 상태에 빠트린다.\n허약 상태의 적은 아군에게 가하는 피해가 #2[i]% 감소한다. 지속 시간: #3[i]턴"
       },
@@ -184,10 +214,11 @@
       "summary": {
         "pt-BR": "Ataca o inimigo. Depois de entrar em batalha, causa Dano Físico leve a um único inimigo aleatório, com uma alta chance de infligir Fraqueza a todos os inimigos-alvo.",
         "en": "Attacks the enemy. After entering battle, deals minor Physical DMG to a random single enemy, with a high chance to inflict Weaken to all enemy targets.",
+        "zh-CN": "攻击敌人，进战后对敌方随机单体造成少量物理属性伤害，大概率使敌方每个单体目标陷入虚弱状态。",
         "ja": "敵を攻撃。戦闘に入った後、ランダムな敵単体に少量の物理属性ダメージを与え、高確率で敵それぞれを虚弱状態にする。",
         "ko": "적을 공격하며, 전투 진입 후 임의의 단일 적에게 소량의 물리 속성 피해를 가하고, 높은 확률로 각 단일 적을 허약 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     }
   ],
   "eidolons": [
@@ -196,12 +227,14 @@
       "name": {
         "pt-BR": "Especialista em Farmacologia",
         "en": "Pharmacology Expertise",
+        "zh-CN": "遍识药理",
         "ja": "{RUBY_B#やくりへんしき}薬理遍識{RUBY_E#}",
         "ko": "약리학적 식견"
       },
       "description": {
         "pt-BR": "Após sofrer um ataque, se os PV atuais estiverem em 30% ou menos, cura a si mesma 1 vez para restaurar 15% de seus PV máximos + 400. Este efeito só pode ser ativado uma vez por batalha.",
         "en": "After being attacked, if the current HP percentage is 30% or lower, heals self for 1 time to restore HP by an amount equal to 15% of Max HP plus 400. This effect can only be triggered 1 time per battle.",
+        "zh-CN": "受到攻击后，若当前生命值百分比小于等于30%，对自身施放1次治疗，回复等同于自身15%生命上限+400的生命值。该效果单场战斗中只能触发1次。",
         "ja": "攻撃を受けた後、残りHPが30%以下の場合、自身に治癒を1回行い、自身の最大HP15%+400のHPを回復する。この効果は一度の戦闘で1回まで発動できる。",
         "ko": "피격 후 현재 HP 백분율이 30% 이하일 경우 자신에게 치유를 1회 발동하며 자신 HP 최대치 15%+400만큼의 HP를 회복한다. 해당 효과는 단일 전투마다 1회만 발동한다"
       },
@@ -214,12 +247,14 @@
       "name": {
         "pt-BR": "Pesquisa Clínica",
         "en": "Clinical Research",
+        "zh-CN": "临床研学",
         "ja": "{RUBY_B#りんしょうけんがく}臨床研学{RUBY_E#}",
         "ko": "임상시험"
       },
       "description": {
         "pt-BR": "Usar a sua Perícia Suprema concede cura contínua por 1 rodada(s) aos aliados com 30% de porcentagem de PV ou menos. No início das suas rodadas, os PV dos aliados são restaurados em 6% dos PV máximos de Natasha + 160.",
         "en": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP percentage is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
+        "zh-CN": "施放终结技时，对当前生命值百分比小于等于30%的我方目标附加1回合的持续治疗效果，目标回合开始时为其回复等同于娜塔莎6%生命上限+160的生命值。",
         "ja": "必殺技を発動した時、残りHPが30%以下の味方に1ターン継続する持続治癒効果を付与する。その味方のターンが回ってきた時、ナターシャの最大HP6%+160のHPを回復する。",
         "ko": "필살기 발동 시 현재 HP 백분율이 30% 이하인 아군에게 1턴의 지속 치유 효과를 부여하며 목표의 턴이 시작될 때 대상에게 나타샤 HP 최대치 6%+160만큼의 HP를 회복한다"
       },
@@ -232,12 +267,14 @@
       "name": {
         "pt-BR": "A Cura Correta",
         "en": "The Right Cure",
+        "zh-CN": "对症下药",
         "ja": "{RUBY_B#いんびょうとうやく}因病投薬{RUBY_E#}",
         "ko": "올바른 처방"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -250,12 +287,14 @@
       "name": {
         "pt-BR": "Cura Milagrosa",
         "en": "Miracle Cure",
+        "zh-CN": "妙手回春",
         "ja": "{RUBY_B#みょうしゅかいしゅん}妙手回春{RUBY_E#}",
         "ko": "뛰어난 의술"
       },
       "description": {
         "pt-BR": "Após sofrer um ataque, 5 de Energia extra.",
         "en": "After being attacked, regenerates 5 extra Energy.",
+        "zh-CN": "受到攻击后，额外恢复5点能量。",
         "ja": "攻撃を受けた後、さらにEPを5回復する。",
         "ko": "피격 후 추가로 에너지를 5pt 회복한다"
       },
@@ -268,12 +307,14 @@
       "name": {
         "pt-BR": "Tratamento Preventivo",
         "en": "Preventive Treatment",
+        "zh-CN": "医治未病",
         "ja": "{RUBY_B#みびょうりょうじ}未病療治{RUBY_E#}",
         "ko": "예방 치료"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -286,12 +327,14 @@
       "name": {
         "pt-BR": "Graça da Médica",
         "en": "Doctor's Grace",
+        "zh-CN": "医者仁心",
         "ja": "{RUBY_B#いしゃじんしん}医者仁心{RUBY_E#}",
         "ko": "의사의 인자함"
       },
       "description": {
         "pt-BR": "O ATQ Básico de Natasha adicionalmente causa Dano Físico igual a 40% dos PV máximos dela.",
         "en": "Natasha's Basic ATK additionally deals Physical DMG equal to 40% of her Max HP.",
+        "zh-CN": "施放普攻时，额外造成等同于娜塔莎生命上限40%的物理属性伤害。",
         "ja": "通常攻撃を行った時、さらにナターシャの最大HP40%分の物理属性ダメージを与える。",
         "ko": "일반 공격 발동 시 추가로 나타샤 HP 최대치 40%만큼의 물리 속성 피해를 준다"
       },
@@ -653,10 +696,17 @@
     {
       "id": 1105101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Acalmar", "en": "Soothe", "ja": "{RUBY_B#じょかん}舒緩{RUBY_E#}", "ko": "완화" },
+      "name": {
+        "pt-BR": "Acalmar",
+        "en": "Soothe",
+        "zh-CN": "舒缓",
+        "ja": "{RUBY_B#じょかん}舒緩{RUBY_E#}",
+        "ko": "완화"
+      },
       "description": {
         "pt-BR": "Ao usar a Perícia, remove #1[i] penalidade(s) de um aliado-alvo.",
         "en": "When using Skill, dispels #1[i] debuff(s) from one designated ally.",
+        "zh-CN": "施放战技时，解除指定我方单体的#1[i]个负面效果。",
         "ja": "戦闘スキルを発動した時、指定した味方単体のデバフを#1[i]つ解除する。",
         "ko": "전투 스킬 발동 시 지정된 단일 아군의 디버프 효과를 #1[i]개 해제한다"
       },
@@ -677,10 +727,17 @@
     {
       "id": 1105102,
       "anchor": "Point07",
-      "name": { "pt-BR": "Curandeira", "en": "Healer", "ja": "{RUBY_B#いしゃ}医者{RUBY_E#}", "ko": "의사" },
+      "name": {
+        "pt-BR": "Curandeira",
+        "en": "Healer",
+        "zh-CN": "医者",
+        "ja": "{RUBY_B#いしゃ}医者{RUBY_E#}",
+        "ko": "의사"
+      },
       "description": {
         "pt-BR": "A Cura Realizada de Natasha aumenta em #1[i]%.",
         "en": "Natasha's Outgoing Healing increases by #1[i]%.",
+        "zh-CN": "娜塔莎提供的治疗量提高#1[i]%。",
         "ja": "ナターシャの治癒量+#1[i]%。",
         "ko": "나타샤가 제공하는 치유량이 #1[i]% 증가한다"
       },
@@ -706,10 +763,17 @@
     {
       "id": 1105103,
       "anchor": "Point08",
-      "name": { "pt-BR": "Recuperação", "en": "Recuperation", "ja": "{RUBY_B#せっせい}摂生{RUBY_E#}", "ko": "회복" },
+      "name": {
+        "pt-BR": "Recuperação",
+        "en": "Recuperation",
+        "zh-CN": "调理",
+        "ja": "{RUBY_B#せっせい}摂生{RUBY_E#}",
+        "ko": "회복"
+      },
       "description": {
         "pt-BR": "Aumenta a duração do efeito da cura contínua da Perícia por #1[i] rodada(s).",
         "en": "Increases the duration of Skill's continuous healing effect for #1[i] turn(s).",
+        "zh-CN": "施放战技产生的持续回复效果延长#1[i]回合。",
         "ja": "戦闘スキルの持続回復効果の継続時間+#1[i]ターン。",
         "ko": "전투 스킬 발동으로 생긴 지속 회복 효과를 #1[i]턴 연장한다"
       },
@@ -735,7 +799,7 @@
     {
       "id": 1105201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -755,6 +819,7 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -774,7 +839,7 @@
     {
       "id": 1105203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1105202],
@@ -791,7 +856,7 @@
     {
       "id": 1105204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1105203],
@@ -808,7 +873,7 @@
     {
       "id": 1105205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1105102],
@@ -828,6 +893,7 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -847,7 +913,7 @@
     {
       "id": 1105207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1105206],
@@ -864,7 +930,7 @@
     {
       "id": 1105208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1105103],
@@ -884,6 +950,7 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -903,7 +970,7 @@
     {
       "id": 1105210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],

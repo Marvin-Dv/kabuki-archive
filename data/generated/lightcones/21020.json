@@ -1,7 +1,13 @@
 {
   "id": 21020,
   "slug": "geniuses-repose",
-  "name": { "pt-BR": "Repouso dos Gênios", "en": "Geniuses' Repose", "ja": "天才たちの休息", "ko": "천재들의 휴식" },
+  "name": {
+    "pt-BR": "Repouso dos Gênios",
+    "en": "Geniuses' Repose",
+    "zh-CN": "天才们的休憩",
+    "ja": "天才たちの休息",
+    "ko": "천재들의 휴식"
+  },
   "rarity": 4,
   "path": "Erudition",
   "announcedAt": "2026-11-16",
@@ -9,6 +15,7 @@
   "description": {
     "pt-BR": "Ela apontou para aquele bolo de arroz verde.\n\"O experimento terminou. Hora de dar um tempo. Eu simplesmente não posso perder esta sobremesa fresquinha.\"\nEla viu a marionete franzindo a testa em profunda reflexão.\n\"Bem, no seu corpo atual, você só pode olhar, mas não pode comer. Vou fazer uma caixa para você quando chegar a hora.\"\nEla viu o aristocrata mecânico hesitando com o próprio copo.\n\"Não se preocupe. É só óleo de máquina. Perfeitamente seguro para você consumir.\"",
     "en": "She pointed at that green rice cake.\n\"The experiment has ended. Time to take a break. I just can't miss this freshly made dessert.\"\nShe saw the puppet girl frowning in deep thought.\n\"Well, in your current body, you can only look but not eat. I'll make you a box of new ones when the time comes.\"\nShe saw the mechanical aristocrat hesitating at his own cup.\n\"Don't worry. It's only machine oil. Perfectly safe for you to consume.\"",
+    "zh-CN": "她点了点那碧绿色的团子。\n「实验结束，该休息了。我不能错过刚出炉的时令点心。」\n她看到人偶少女皱起眉头沉思。\n「你先用这具身体看看便好，回头给你捎上一盒。」\n她看到机械贵族面露难色，端起杯子。\n「放心吧，那是机油。」",
     "ja": "彼女は碧色の団子を指した。\n「実験終了、休憩の時間ですよ。焼きたてのスイーツを見逃すわけにはいきませんから」\n彼女は人形の少女が眉をひそめたのを見た。\n「その身体だと見ていることしかできませんが、今度一箱持って行ってあげましょう」\n彼女は機械貴族が難色を示し、コップを持ち上げるのを見た。\n「安心してください、オイルですよ」",
     "ko": "그녀는 청록색 경단을 주문했다.\n「실험이 끝났으니 쉬어야 해. 막 나온 제철 간식을 놓칠 수 없지」\n그녀는 인형 소녀를 보고 미간을 찌푸리며 생각에 잠겼다.\n「이 몸으로 먼저 보고 계세요. 나중에 한 상자 가져다드리겠습니다」\n그녀는 기계 귀족이 난색을 표하며 잔을 드는 걸 보았다.\n「안심해, 엔진 오일이니까」"
   },
@@ -16,12 +23,14 @@
     "name": {
       "pt-BR": "Cada Um Tem Um Papel a Ser Feito",
       "en": "Each Now Has a Role to Play",
+      "zh-CN": "各得其所",
       "ja": "それぞれの",
       "ko": "각자 제자리에"
     },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o ATQ do usuário. Quando o usuário derrota um inimigo, aumenta em #2[i]% o Dano CRIT do usuário por #3[i] rodada(s).",
       "en": "Increases the wearer's ATK by #1[i]%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by #2[i]% for #3[i] turn(s).",
+      "zh-CN": "使装备者攻击力提高#1[i]%，当装备者消灭敌方目标后，暴击伤害提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが敵を倒した後、会心ダメージ+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터는 적을 처치한 후 치명타 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴"
     },

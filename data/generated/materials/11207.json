@@ -1,7 +1,13 @@
 {
   "id": 11207,
   "slug": "yukongs-eidolon",
-  "name": { "pt-BR": "Eidolon de Yukong", "en": "Yukong's Eidolon", "ja": "「御空」の星魂", "ko": "[어공]의 성혼" },
+  "name": {
+    "pt-BR": "Eidolon de Yukong",
+    "en": "Yukong's Eidolon",
+    "zh-CN": "【驭空】的星魂",
+    "ja": "「御空」の星魂",
+    "ko": "[어공]의 성혼"
+  },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

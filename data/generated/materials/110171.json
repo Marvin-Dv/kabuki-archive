@@ -1,7 +1,13 @@
 {
   "id": 110171,
   "slug": "seed-of-abundance",
-  "name": { "pt-BR": "Semente da Abundância", "en": "Seed of Abundance", "ja": "豊穣の種", "ko": "풍요의 씨앗" },
+  "name": {
+    "pt-BR": "Semente da Abundância",
+    "en": "Seed of Abundance",
+    "zh-CN": "丰饶之种",
+    "ja": "豊穣の種",
+    "ko": "풍요의 씨앗"
+  },
   "rarity": 2,
   "type": "Material",
   "subType": "TracePath",
@@ -11,6 +17,7 @@
   "sources": {
     "en": ["Calyx (Backwater Pass)", "Embers Exchange", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Cálice (Passagem do Remanso)", "Troca de Brasas", "Sintetizador Omni — Troca de Material"],
+    "zh-CN": ["拟造花萼【边缘通路】", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": ["疑似花萼「外縁通路」", "エンバー交換", "「万能合成マシン」- 素材交換"],
     "ko": ["모조 꽃받침 [변방 통로]", "잔화 교환", "「만능 합성기」- 재료 치환"]
   }

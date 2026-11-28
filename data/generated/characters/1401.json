@@ -1,7 +1,7 @@
 {
   "id": 1401,
   "slug": "the-herta",
-  "name": { "pt-BR": "A Herta", "en": "The Herta", "ja": "マダム・ヘルタ", "ko": "더 헤르타" },
+  "name": { "pt-BR": "A Herta", "en": "The Herta", "zh-CN": "大黑塔", "ja": "マダム・ヘルタ", "ko": "더 헤르타" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Ice",
@@ -11,10 +11,17 @@
     {
       "id": 140101,
       "type": "Basic",
-      "name": { "pt-BR": "Você Compreendeu?", "en": "Did You Get It", "ja": "これでわかった？", "ko": "깨달았어?" },
+      "name": {
+        "pt-BR": "Você Compreendeu?",
+        "en": "Did You Get It",
+        "zh-CN": "开窍了吗",
+        "ja": "これでわかった？",
+        "ko": "깨달았어?"
+      },
       "description": {
         "pt-BR": "Causa Dano de Gelo equivalente a #1[i]% do ATQ de A Herta a um inimigo designado.",
         "en": "Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于大黑塔#1[i]%攻击力的冰属性伤害。",
         "ja": "指定した敵単体にマダム・ヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다"
       },
@@ -35,19 +42,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo leve a um inimigo-alvo designado.",
         "en": "Deals minor Ice DMG to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成少量冰属性伤害。",
         "ja": "敵単体に少量の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 소량의 얼음 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 140102,
       "type": "Skill",
-      "name": { "pt-BR": "Sabida e Metida", "en": "Big Brain Energy", "ja": "視野が狭いよ", "ko": "시야를 넓혀 봐" },
+      "name": {
+        "pt-BR": "Sabida e Metida",
+        "en": "Big Brain Energy",
+        "zh-CN": "格局打开",
+        "ja": "視野が狭いよ",
+        "ko": "시야를 넓혀 봐"
+      },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% do ATQ de A Herta a um inimigo designado e inflige #2[i] acúmulo(s) de \"Interpretação\". Causa Dano de Gelo igual a #1[i]% do ATQ de A Herta aos alvos atingidos por esta instância da Perícia e aos seus respectivos alvos adjacentes. Este efeito pode ser repetido 2 vezes.",
         "en": "Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy, and inflicts #2[i] stack(s) of \"Interpretation.\" Deals Ice DMG equal to #1[i]% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets. This effect can repeat 2 times.",
+        "zh-CN": "对指定敌方单体造成等同于大黑塔#1[i]%攻击力的冰属性伤害并施加#2[i]层【解读】。对本次战技命中过的目标及其相邻目标造成等同于大黑塔#1[i]%攻击力的冰属性伤害，该效果可重复2次。",
         "ja": "指定した敵単体にマダム・ヘルタの攻撃力#1[i]%分の氷属性ダメージを与え、「解読」を#2[i]層付与する。\nその回の戦闘スキルが命中した敵および隣接する敵に、マダム・ヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。2回繰り返す。",
         "ko": "지정된 단일 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가하고 [해독]을 #2[i]스택 부여한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다. 해당 효과는 2회 반복할 수 있다"
       },
@@ -73,11 +88,12 @@
       "summary": {
         "pt-BR": "Causa Dano a um inimigo designado. Causa Dano a alvos atingidos por esta instância da Perícia e aos seus alvos adjacentes, repetindo 2 vezes.",
         "en": "Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times.",
+        "zh-CN": "对指定敌方单体造成伤害。对被本次战技击中的目标及其相邻目标造成伤害，重复2次。",
         "ja": "指定した敵単体にダメージを与える。\nその回の戦闘スキルが命中した敵および隣接する敵にダメージを与える。2回繰り返す。",
         "ko": "지정된 단일 적에게 피해를 가한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 피해를 가하며, 2회 반복한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140103,
@@ -85,12 +101,14 @@
       "name": {
         "pt-BR": "Te falei!  A Mágica Acontece",
         "en": "Told Ya! Magic Happens",
+        "zh-CN": "早说了是魔法吧",
         "ja": "魔法だって言ったでしょ",
         "ko": "마법이라고 했잖아"
       },
       "description": {
         "pt-BR": "Rearranja o número de acúmulos de \"Interpretação\" em todos os inimigos, priorizando a transferência de maiores números de acúmulos de \"Interpretação\" para inimigos de Elite ou de raridade superior. Então, causa Dano de Gelo igual a #1[i]% do ATQ de A Herta a todos os inimigos. Ao utilizar a Perícia Suprema, aumenta o ATQ de A Herta em #4[i]%, durando por #5[i] rodada(s). Após o uso, A Herta age imediatamente e ganha 1 acúmulo de \"Inspiração\". \"Inspiração\" pode chegar a um máximo de #6[i] acúmulo(s). Quando a \"Inspiração\" está ativa, aprimora sua Perícia para \"Presta Atenção\".",
         "en": "Rearranges the numbers of \"Interpretation\" stacks on all enemies, prioritizing the transfer of the higher numbers of \"Interpretation\" stacks to Elite-level targets and above. Then, deals Ice DMG equal to #1[i]% of The Herta's ATK to all enemies. When using Ultimate, increases The Herta's ATK by #4[i]%, lasting for #5[i] turn(s). After the use, The Herta immediately takes action and gains 1 stack of \"Inspiration.\" \"Inspiration\" can stack up to #6[i] time(s). While having \"Inspiration,\" enhances Skill to \"Hear Me Out.\"",
+        "zh-CN": "将敌方全体的【解读】层数重新排序，较高层数的【解读】将优先转移到精英级别及以上的目标，并对敌方全体造成等同于大黑塔#1[i]%攻击力的冰属性伤害。终结技施放时，使大黑塔攻击力提高#4[i]%，持续#5[i]回合，施放后使大黑塔立即行动，并获得1层【灵感】。【灵感】最多持有#6[i]层，持有【灵感】时，战技强化为【我有一个大胆的想法】。",
         "ja": "敵それぞれが持つ「解読」の層数を並び替える。なお、精鋭エネミー以上の敵にはより多い層数を優先的に転移させる。また、敵全体にマダム・ヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。\n必殺技を発動する時、マダム・ヘルタの攻撃力+#4[i]%、#5[i]ターン継続。\n必殺技を発動した後、マダム・ヘルタが即座に行動し、「第六感」を1層獲得する。「第六感」は最大で#6[i]層累積できる。「第六感」を持つ時、戦闘スキル「視野が狭いよ」が「大胆なアイデア」に強化される。",
         "ko": "모든 적의 [해독] 스택 수를 재정렬한다. 스택이 높은 [해독]은 정예급 이상의 목표에게 우선 이전되며, 모든 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가한다. 필살기 발동 시 더 헤르타의 공격력이 #4[i]% 증가한다, 지속 시간: #5[i]턴. 발동 후 더 헤르타는 즉시 행동하며, [영감]을 1스택 획득한다. [영감]은 최대 #6[i]스택 보유할 수 있으며, [영감] 보유 시 전투 스킬이 [내게 대담한 생각이 있어]로 강화된다"
       },
@@ -116,19 +134,27 @@
       "summary": {
         "pt-BR": "Rearranja o número de acúmulos de \"Interpretação\" em todos os inimigos, priorizando a transferência de maiores valores de acúmulos de \"Interpretação\" para alvos de Elite ou de raridade superior. Então, causa Dano de Gelo a todos os inimigos. Após o uso, aprimora a Perícia e age imediatamente.",
         "en": "Rearranges the numbers of \"Interpretation\" stacks on all enemies, prioritizing the transfer of the higher numbers of \"Interpretation\" stacks to Elite-level targets and above. Then, deals Ice DMG to all enemies. After use, enhances Skill and immediately takes action.",
+        "zh-CN": "将敌方全体的【解读】层数重新排序，较高层数的【解读】将优先转移到精英级别及以上的目标，并对敌方全体造成冰属性伤害。使用后获得强化战技并立即行动。",
         "ja": "敵それぞれが持つ「解読」の層数を並び替える。なお、精鋭エネミー以上の敵にはより多い層数を優先的に転移させる。\nまた、敵全体に氷属性ダメージを与え、発動した後に戦闘スキルを強化し、即座に行動する。",
         "ko": "모든 적의 [해독] 스택 수를 재정렬한다. 스택이 높은 [해독]은 정예급 이상의 목표에게 우선 이전되며, 모든 적에게 얼음 속성 피해를 가한다. 사용 후 강화된 전투 스킬을 획득하고 즉시 행동한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 140104,
       "type": "Talent",
-      "name": { "pt-BR": "Me Dá Isso Aqui", "en": "Hand Them Over", "ja": "私がもらうね", "ko": "가져와" },
+      "name": {
+        "pt-BR": "Me Dá Isso Aqui",
+        "en": "Hand Them Over",
+        "zh-CN": "拿来吧你",
+        "ja": "私がもらうね",
+        "ko": "가져와"
+      },
       "description": {
         "pt-BR": "Quando inimigos-alvo entram em combate, A Herta inflige 1 acúmulo de \"Interpretação\" neles. No início de cada onda, aplica #6[i] acúmulo(s) de \"Interpretação\" a um inimigo-alvo aleatório, priorizando alvos de Elite ou superiores. Caso o alvo principal da Perícia Aprimorada possua \"Interpretação,\" o multiplicador do Dano causado aumenta, com cada acúmulo concedendo um aumento de #1[f1]%/#2[f1]% ao alvo principal/outros alvos, respectivamente. Se pelo menos 2 personagens da equipe seguirem o Caminho da Erudição, cada acúmulo concede um aumento adicional de #1[f1]%/#2[f1]% ao alvo principal/outros alvos, respectivamente. \"Interpretação\" pode acumular até #3[i] vez(es). Ao usar a Perícia Aprimorada, o número de acúmulos de \"Interpretação\" no alvo principal é redefinido para 1. Após o inimigo-alvo deixar o combate ou ser derrotado por qualquer unidade, \"Interpretação\" será transferida, priorizando a transferência para alvos de nível de Elite ou superior.",
         "en": "When enemy targets enter combat, The Herta inflicts 1 stack of \"Interpretation\" on them. At the start of each wave, applies #6[i] stack(s) of \"Interpretation\" to a random enemy target, prioritizing Elite-level targets and above. When the Enhanced Skill's primary target has \"Interpretation,\" the multiplier for the DMG dealt increases, with each stack granting an increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. If 2 or more characters follow the Path of Erudition in the team, each stack grants an additional increase of #1[f1]%/#2[f1]% on the primary target/other targets respectively. \"Interpretation\" can stack up to #3[i] time(s). When using the Enhanced Skill, resets the number of \"Interpretation\" stacks on the primary target to 1. After the enemy target leaves the field or gets defeated by any unit, \"Interpretation\" will be transferred, prioritizing the transfer to Elite-level targets and above.",
+        "zh-CN": "敌方目标进入战斗时，大黑塔对其施加1层【解读】。每个波次开始时，对一个随机敌方目标施加#6[i]层【解读】，优先施加给精英级别及以上的目标。强化战技的主目标持有【解读】时，造成的伤害倍率提高，每层对主目标/其他目标提高#1[f1]%/#2[f1]%，若队伍中的「智识」命途角色大于等于2名，每层额外对主目标/其他目标提高#1[f1]%/#2[f1]%。【解读】最多可叠加#3[i]层，使用强化战技时，将主目标的【解读】重置为1层。敌方目标离场或被任意单位消灭后，【解读】会被转移，优先转移到精英级别及以上的目标。",
         "ja": "敵が戦闘に入る時、マダム・ヘルタはその敵に「解読」を1層付与する。各ウェーブ開始時、ランダムな敵1体に「解読」を#6[i]層付与する。この時、「解読」は精鋭エネミー以上の敵に優先的に付与される。\n強化戦闘スキルのメインターゲットに「解読」がある時、強化戦闘スキルのダメージ倍率がアップする。「解読」1層につき、メインターゲットに対するダメージ倍率+#1[f1]%、他のターゲットに対するダメージ倍率+#2[f1]%。パーティ内の「知恵」の運命を歩むキャラクターが2名以上の場合、さらに「解読」1層につき、メインターゲットに対するダメージ倍率+#1[f1]%、他のターゲットに対するダメージ倍率+#2[f1]%。\n「解読」は最大で#3[i]層累積できる。強化戦闘スキルを発動した後、メインターゲットの「解読」層数を1層にリセットし、敵が一時離脱、あるいは任意のユニットに倒された後、「解読」が転移する。なお、「解読」は精鋭エネミー以上の敵を優先して転移する。",
         "ko": "적이 전투 진입 시, 더 헤르타가 대상에게 [해독]을 1스택 부여한다. 웨이브가 시작될 때마다 랜덤 적 1기에게 [해독]을 #6[i]스택 부여하며, 정예급 이상의 목표에게 우선 부여한다. 강화된 전투 스킬의 주목표가 [해독] 보유 시, 스택마다 주목표/다른 목표에게 가하는 피해 배율이 #1[f1]%/#2[f1]% 증가하며, 파티에 「지식」 운명의 길 캐릭터가 2명 이상 있을 시, 스택마다 주목표/다른 목표에게 가하는 피해 배율이 추가로 #1[f1]%/#2[f1]% 증가한다. [해독]은 최대 #3[i]스택 중첩되며, 강화된 전투 스킬 사용 시 주목표의 [해독]은 1스택으로 초기화된다. 적이 퇴장하거나 임의 유닛에게 처치되면 [해독]은 이전되며, 정예급 이상의 목표에게 우선 이전된다"
       },
@@ -154,19 +180,21 @@
       "summary": {
         "pt-BR": "A Perícia Aprimorada aumenta o Dano causado com base nos acúmulos de \"Interpretação\" do alvo.",
         "en": "Enhanced Skill increases the DMG dealt based on the target's \"Interpretation\" stacks.",
+        "zh-CN": "强化战技根据目标【解读】层数，提高造成的伤害。",
         "ja": "ターゲットにある「解読」の層数に応じて、強化戦闘スキルのダメージ倍率がアップする。",
         "ko": "강화된 전투 스킬은 목표의 [해독] 스택 수에 따라 가하는 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140106,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -175,6 +203,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -182,10 +211,17 @@
     {
       "id": 140107,
       "type": "Technique",
-      "name": { "pt-BR": "Checagem de Vibes", "en": "Vibe Checker", "ja": "面白いの見せてよ", "ko": "좋은 걸 보여줄게" },
+      "name": {
+        "pt-BR": "Checagem de Vibes",
+        "en": "Vibe Checker",
+        "zh-CN": "看看好看的",
+        "ja": "面白いの見せてよ",
+        "ko": "좋은 걸 보여줄게"
+      },
       "description": {
         "pt-BR": "Após usar a Técnica, o ATQ de A Herta aumenta em #1[i]% no início da próxima batalha, durando por #2[i] rodada(s).\nSe houver Tesouros Básicos no mapa atual, usar a Técnica pode marcar até #3[i] localizações de Tesouros Básicos.\nApós entrar em batalha usando a Técnica no Universo Simulado ou no Universo Divergente, no início de cada onda, causará Dano Verdadeiro igual a #4[i]% dos PV máximos dos alvos para inimigos abaixo do nível Elite, e causará Dano Verdadeiro igual a #5[i]% dos PV máximos dos alvos para inimigos-alvo no nível Elite ou superior.",
         "en": "After using Technique, increases The Herta's ATK by #1[i]% at the start of the next battle, lasting for #2[i] turn(s).\nIf there are Basic Treasures in this current map, using Technique can mark up to #3[i] Basic Treasures' locations.\nAfter entering battle by using Technique in Simulated Universe or Divergent Universe, at the start of each wave, deals True DMG to enemy targets lower than Elite-level by an amount equal to #4[i]% of the targets' Max HP, and deals True DMG to enemy targets at Elite-level and above by an amount equal to #5[i]% of the targets' Max HP.",
+        "zh-CN": "使用秘技后，下一次战斗开始时大黑塔攻击力提高#1[i]%，持续#2[i]回合。\n若当前场景存在普通战利品，使用秘技后标记最多#3[i]个普通战利品的位置。\n在模拟宇宙、差分宇宙中使用秘技进入战斗后，每个波次开始时对精英级别以下的敌方目标造成等同于目标#4[i]%生命上限的真实伤害，对精英级别及以上的目标造成等同于目标#5[i]%生命上限的真实伤害。",
         "ja": "秘技を使用した後、次の戦闘開始時、マダム・ヘルタの攻撃力+#1[i]%、#2[i]ターン継続。\nマップ内に普通の戦利品がある場合、秘技を使用すると普通の戦利品の位置を最大で#3[i]箇所マークする。\n模擬宇宙、または階差宇宙で秘技を使用して戦闘に入った後、各ウェーブ開始時に通常エネミーそれぞれに、その敵の最大HP#4[i]%分の確定ダメージを与え、精鋭エネミー以上の敵それぞれに、その敵の最大HP#5[i]%分の確定ダメージを与える。",
         "ko": "비술 사용 후, 다음 전투 시작 시 더 헤르타의 공격력이 #1[i]% 증가한다, 지속 시간: #2[i]턴\n현재 맵에 일반 전리품이 존재할 경우, 비술 사용 후 일반 전리품의 위치를 최대 #3[i]개 표시한다.\n시뮬레이션 우주, 차분화 우주에서 비술을 사용하고 전투에 진입한 후, 웨이브가 시작될 때마다 정예급 미만의 적에게 목표 HP 최대치의 #4[i]%만큼 확정 피해를 가하고, 정예급 이상의 목표에게 목표 HP 최대치의 #5[i]%만큼 확정 피해를 가한다"
       },
@@ -195,19 +231,27 @@
       "summary": {
         "pt-BR": "Após usar a Técnica, marca várias localizações de Tesouros Básicos, e aumenta o ATQ de A Herta no início da próxima batalha.\nApós entrar em batalha usando a Técnica no Universo Simulado ou no Universo Divergente, causará uma quantidade massiva de Dano Verdadeiro a todos os inimigos no início de cada onda.",
         "en": "After using Technique, can mark several Basic Treasures' locations, and increases The Herta's ATK at the start of the next battle.\nAfter entering battle by using Technique in Simulated Universe or Divergent Universe, deals massive True DMG to all enemies at the start of each wave.",
+        "zh-CN": "使用秘技后，可以标记数个普通战利品的位置，并且下一次战斗开始时大黑塔攻击力提高。\n在模拟宇宙、差分宇宙使用秘技进战后，每个波次开始时对敌方全体造成大量真实伤害。",
         "ja": "秘技を使用した後、普通の戦利品の位置を数ヶ所マークする。また、次の戦闘開始時にマダム・ヘルタの攻撃力がアップする。\n模擬宇宙、または階差宇宙で秘技を使用して戦闘に入った後、各ウェーブ開始時に敵全体に大量の確定ダメージを与える。",
         "ko": "비술을 사용하면 일반 전리품의 위치를 일부 표시하며, 다음 전투 시작 시 더 헤르타의 공격력이 증가한다.\n시뮬레이션 우주, 차분화 우주에서 비술을 사용하고 전투에 진입하면 웨이브가 시작될 때마다 모든 적에게 대량의 확정 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 140109,
       "type": "Skill",
-      "name": { "pt-BR": "Presta Atenção", "en": "Hear Me Out", "ja": "大胆なアイデア", "ko": "내게 대담한 생각이 있어" },
+      "name": {
+        "pt-BR": "Presta Atenção",
+        "en": "Hear Me Out",
+        "zh-CN": "我有一个大胆的想法",
+        "ja": "大胆なアイデア",
+        "ko": "내게 대담한 생각이 있어"
+      },
       "description": {
         "pt-BR": "Consome 1 acúmulo de \"Inspiração\". Causa Dano de Gelo igual a #1[i]% do ATQ de A Herta a um inimigo designado e inflige #2[i] acúmulo(s) de \"Interpretação\". Causa Dano de Gelo igual a #1[i]% do ATQ de A Herta aos alvos atingidos por essa instância da Perícia e aos seus respectivos alvos adjacentes, repetindo 2 vezes. No final, causa Dano de Gelo igual a #3[i]% do ATQ de A Herta a todos os inimigos.",
         "en": "Consumes 1 stack of \"Inspiration.\" Deals Ice DMG equal to #1[i]% of The Herta's ATK to one designated enemy and inflicts #2[i] stack(s) of \"Interpretation.\" Deals Ice DMG equal to #1[i]% of The Herta's ATK to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times. At the end, deals Ice DMG equal to #3[i]% of The Herta's ATK to all enemies.",
+        "zh-CN": "消耗1层【灵感】，对指定敌方单体造成等同于大黑塔#1[i]%攻击力的冰属性伤害并施加#2[i]层【解读】。对本次战技中被击中过的目标及其相邻目标造成等同于大黑塔#1[i]%攻击力的冰属性伤害，重复2次，最后，对所有敌方目标造成等同于大黑塔#3[i]%攻击力的冰属性伤害。",
         "ja": "「第六感」を1層消費し、指定した敵単体にマダム・ヘルタの攻撃力#1[i]%分の氷属性ダメージを与え、「解読」を#2[i]層付与する。\nその回の戦闘スキルが命中した敵および隣接する敵に、マダム・ヘルタの攻撃力#1[i]%分の氷属性ダメージを与える。2回繰り返す。\n最後に、敵全体にマダム・ヘルタの攻撃力#3[i]%分の氷属性ダメージを与える。",
         "ko": "[영감]을 1스택 소모한다. 지정된 단일 적에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가하고 [해독]을 #2[i]스택 부여한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 더 헤르타 공격력의 #1[i]%만큼 얼음 속성 피해를 가하며, 2회 반복한다. 마지막으로 모든 적에게 더 헤르타 공격력의 #3[i]%만큼 얼음 속성 피해를 가한다"
       },
@@ -233,11 +277,12 @@
       "summary": {
         "pt-BR": "Causa Dano a um inimigo designado. Causa Dano aos alvos atingidos por esta instância da Perícia e aos seus respectivos alvos adjacentes, repetindo 2 vezes. Após isso, causa Dano a todos os inimigos.",
         "en": "Deals DMG to one designated enemy. Deals DMG to the targets hit by this instance of Skill and their respective adjacent targets, repeating 2 times. After that, deals DMG to all enemies.",
+        "zh-CN": "对指定敌方单体造成伤害。对被本次战技击中的目标及其相邻目标造成伤害，重复2次。之后，对敌方全体造成伤害。",
         "ja": "指定した敵単体にダメージを与える。\nその回の戦闘スキルが命中した敵および隣接する敵にダメージを与える。2回繰り返す。その後、敵全体にダメージを与える。",
         "ko": "지정된 단일 적에게 피해를 가한다. 이번 전투 스킬에 명중한 목표 및 인접한 목표에게 피해를 가하며, 2회 반복한다. 이후 모든 적에게 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     }
   ],
   "eidolons": [
@@ -246,12 +291,14 @@
       "name": {
         "pt-BR": "Noite das Estrelas Fugazes",
         "en": "Night at Shorefall",
+        "zh-CN": "群星岸落之夜",
         "ja": "{RUBY_B#ぐんせい}群星{RUBY_E#}が{RUBY_B#ふ}降{RUBY_E#}る{RUBY_B#よる}夜{RUBY_E#}",
         "ko": "뭇별이 떨어지는 밤"
       },
       "description": {
         "pt-BR": "Quando a Perícia Aprimorada calcula a quantidade de acúmulos de \"Interpretação\", conta adicionalmente 50% dos acúmulos de \"Interpretação\" no alvo com os maiores acúmulos entre alvo principal e os alvos adjacentes. Quando a \"Interpretação\" é redefinida ao utilizar uma Perícia Aprimorada, o número de acúmulos é redefinido para 15 em seu lugar.",
         "en": "When the Enhanced Skill calculates the number of \"Interpretation\" stacks, additionally counts 50% of the number of \"Interpretation\" stacks on the 1 target with the most stacks among the primary target and adjacent targets. When \"Interpretation\" is reset by using the Enhanced Skill, its stack number is reset to 15 instead.",
+        "zh-CN": "强化战技计算【解读】层数时，额外计算主目标及相邻目标中层数最高的1个目标当前【解读】层数的50%。施放强化战技重置【解读】时，改为将层数重置为15层。",
         "ja": "強化戦闘スキルで「解読」の層数を計算する時、スキルのメインターゲットおよび隣接する敵の中で、最も「解読」の層数が多い敵1体の層数50%分を計算に加える。強化戦闘スキルを発動して「解読」をリセットした時、「解読」の層数は15層にリセットされる。",
         "ko": "강화된 전투 스킬이 [해독] 스택 수 계산 시, 추가로 주목표 및 인접한 목표 중 스택이 가장 높은 목표의 현재 [해독] 스택 수의 50%를 계산한다. 강화된 전투 스킬을 발동해 [해독] 초기화 시 스택 수가 15스택으로 초기화된다"
       },
@@ -264,12 +311,14 @@
       "name": {
         "pt-BR": "Vento Pela Fechadura",
         "en": "Wind Through Keyhole",
+        "zh-CN": "穿过锁孔之风",
         "ja": "{RUBY_B#かぎあな}鍵穴{RUBY_E#}を{RUBY_B#ふ}吹{RUBY_E#}き{RUBY_B#ぬ}抜{RUBY_E#}ける{RUBY_B#かぜ}風{RUBY_E#}",
         "ko": "열쇠 구멍으로 부는 바람"
       },
       "description": {
         "pt-BR": "Após A Herta entrar em combate ou usar sua Perícia Suprema, ela ganha adicionalmente 1 acúmulo de \"Inspiração\". Ao usar a Perícia Aprimorada, a ação subsequente de A Herta é Avançada Adiante em 35%.",
         "en": "After The Herta enters combat or uses Ultimate, additionally gains 1 \"Inspiration\" stack. After using Enhanced Skill, advances The Herta's next action by 35%.",
+        "zh-CN": "大黑塔进入战斗和施放终结技后，额外获得1层【灵感】。施放强化战技后，大黑塔的下一次行动提前35%。",
         "ja": "マダム・ヘルタが戦闘に入る、または必殺技を発動した後、追加で「第六感」を1層獲得する。強化戦闘スキルを発動した後、マダム・ヘルタの次の行動順が35%早まる。",
         "ko": "더 헤르타가 전투 진입 및 필살기 발동 후 추가로 [영감]을 1스택 획득한다. 강화된 전투 스킬 발동 후, 더 헤르타의 다음 행동 게이지가 35% 증가한다"
       },
@@ -282,12 +331,14 @@
       "name": {
         "pt-BR": "A Porta para o Verão",
         "en": "Door into Summer",
+        "zh-CN": "进入盛夏之门",
         "ja": "{RUBY_B#まなつ}真夏{RUBY_E#}の{RUBY_B#とびら}扉{RUBY_E#}の{RUBY_B#む}向{RUBY_E#}こう",
         "ko": "여름으로 가는 문"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -300,12 +351,14 @@
       "name": {
         "pt-BR": "A Décima-Sexta Chave",
         "en": "The Sixteenth Key",
+        "zh-CN": "第十六把钥匙",
         "ja": "{RUBY_B#じゅうろっぽんめ}十六本目{RUBY_E#}の{RUBY_B#かぎ}鍵{RUBY_E#}",
         "ko": "열여섯 번째 열쇠"
       },
       "description": {
         "pt-BR": "Aumenta em 12% a VEL dos personagens que seguem o Caminho da Erudição na equipe.",
         "en": "The SPD of Erudition characters in the team increases by 12%.",
+        "zh-CN": "队伍中的「智识」命途角色的速度提高12%。",
         "ja": "パーティ内の「知恵」の運命を歩むキャラクターの速度+12%。",
         "ko": "파티 내 「지식」 운명의 길 캐릭터의 속도가 12% 증가한다"
       },
@@ -318,12 +371,14 @@
       "name": {
         "pt-BR": "A Amarga Pílula da Verdade",
         "en": "Bitter Pill of Truth",
+        "zh-CN": "苦药似的真理",
         "ja": "{RUBY_B#しんじつ}真実{RUBY_E#}は\n{RUBY_B#りょうやく}良薬{RUBY_E#}のように{RUBY_B#にが}苦{RUBY_E#}い",
         "ko": "쓴 약 같은 진리"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -336,12 +391,14 @@
       "name": {
         "pt-BR": "A Doce Atração da Resposta",
         "en": "Sweet Lure of Answer",
+        "zh-CN": "甜饵般的答案",
         "ja": "{RUBY_B#こた}答{RUBY_E#}えは\n{RUBY_B#ゆうわく}誘惑{RUBY_E#}のように{RUBY_B#あま}甘{RUBY_E#}い",
         "ko": "달콤한 미끼 같은 답"
       },
       "description": {
         "pt-BR": "A PEN de RES a Gelo de A Herta aumenta em 20%. Quando o número de inimigos-alvo em campo for 3 (ou maior)/2/1, o multiplicador de Dano da Perícia Suprema aumenta em 140%/250%/400% respectivamente.",
         "en": "The Herta's Ice RES PEN increases by 20%. When the number of enemy targets on the field is (≥3)/2/1, Ultimate's DMG multiplier increases by 140%/250%/400% respectively.",
+        "zh-CN": "大黑塔的冰属性抗性穿透提高20%，当场上敌方目标数量等于3或以上/2/1名时，终结技的伤害倍率提高140%/250%/400%。",
         "ja": "マダム・ヘルタの氷属性耐性貫通+20%。\nまた、必殺技のダメージ倍率がフィールド上の敵の数に応じてアップする。\n敵の数が3体以上の場合、必殺技のダメージ倍率+140%。\n敵の数が2体の場合、必殺技のダメージ倍率+250%。\n敵の数が1体の場合、必殺技のダメージ倍率+400%。",
         "ko": "더 헤르타의 얼음 속성 저항 관통이 20% 증가한다. 필드 위 적의 수량이 3 이상/2/1일 시 필살기의 피해 배율이 140%/250%/400% 증가한다"
       },
@@ -721,12 +778,14 @@
       "name": {
         "pt-BR": "Honestidade Indiferente",
         "en": "Aloofly Honest",
+        "zh-CN": "冷漠的诚实",
         "ja": "{RUBY_B#つめ}冷{RUBY_E#}たい{RUBY_B#しんじつ}真実{RUBY_E#}",
         "ko": "냉정한 정직"
       },
       "description": {
         "pt-BR": "Quando um aliado-alvo ataca, inflige 1 acúmulo de \"Interpretação\" ao inimigo-alvo atingido. Após atacar, para cada 1 alvo atingido por este ataque, regenera #1[i] de Energia fixa para A Herta, até um máximo de 5 alvos. Ao usar a Perícia Aprimorada, se o acúmulo de \"Interpretação\" do alvo principal chegar a 42, aumenta o Dano de Gelo causado por A Herta em #2[i]%, durando até o final deste ataque.",
         "en": "When ally targets attack, inflicts 1 stack of \"Interpretation\" on the hit enemy target. After attacking, for every 1 target hit by this attack, regenerates #1[i] fixed Energy for The Herta, counting up to a maximum of 5 targets. When using Enhanced Skill, if the primary target's \"Interpretation\" stack reaches 42, increases the Ice DMG dealt by The Herta by #2[i]%, lasting until the end of this attack.",
+        "zh-CN": "我方目标攻击时，对被击中的敌方目标施加1层【解读】。攻击后，本次攻击每击中1个目标就使大黑塔固定恢复#1[i]点能量，最多计算5个目标。施放强化战技时，若主目标的【解读】层数达到42，使大黑塔造成的伤害提高#2[i]%，持续到本次攻击结束。",
         "ja": "味方が攻撃を行う時、攻撃が命中する敵に「解読」を1層付与する。攻撃を行った後、その回の攻撃で命中した敵1体につき、マダム・ヘルタはEPを固定で#1[i]回復する。カウントされる敵は最大5体まで。\n強化戦闘スキルを発動する時、メインターゲットの「解読」が42層に達している場合、マダム・ヘルタの与ダメージ+#2[i]%。この強化はその回の攻撃が終了するまで継続する。",
         "ko": "아군이 공격 시 명중한 적에게 [해독]을 1스택 부여한다. 공격 후, 이번 공격에서 명중한 목표 1기당 더 헤르타의 에너지를 고정으로 #1[i]pt 회복하며, 최대 5개 목표까지 계산한다. 강화된 전투 스킬 발동 시 주목표의 [해독]이 42스택에 도달하면 더 헤르타가 가하는 피해가 #2[i]% 증가하며, 이번 공격이 종료될 때까지 지속된다"
       },
@@ -750,12 +809,14 @@
       "name": {
         "pt-BR": "Mensagem de Além do Véu",
         "en": "Message From Beyond the Veil",
+        "zh-CN": "视界外来信",
         "ja": "{RUBY_B#きょうかい}境界{RUBY_E#}からの{RUBY_B#たよ}便{RUBY_E#}り",
         "ko": "시야 밖의 편지"
       },
       "description": {
         "pt-BR": "Ao entrar em combate, se houver pelo menos 2 personagens seguindo o Caminho da Erudição na equipe, aumenta o Dano CRIT de todos os aliados em #1[i]%. E o Rastro \"Honestidade Indiferente\" conta ao menos #2[i] alvo(s) ao calcular o número de alvos atingidos. Após atacar, aplica #3[i] acúmulo(s) de \"Interpretação\" ao alvo que tem o maior número de acúmulo(s) existente(s) de \"Interpretação\" entre os inimigos-alvo atingidos. Se o atacante for um personagem do Caminho da Erudição, então aplica adicionalmente #4[i] acúmulo(s) de \"Interpretação\".",
         "en": "When entering battle, if the team has 2 or more Erudition characters, increases all allies' CRIT DMG by #1[i]%. And the Trace \"Aloofly Honest\" counts at least #2[i] target(s) when calculating the number of targets hit. After attacking, applies #3[i] \"Interpretation\" stack(s) to the target that has the highest existing \"Interpretation\" stacks among the hit enemy targets. If the attacker is an Erudition character, then additionally applies #4[i] \"Interpretation\" stack(s).",
+        "zh-CN": "进入战斗时，若队伍中的「智识」命途角色大于等于2名，使我方全体暴击伤害提高#1[i]%，行迹【冷漠的诚实】计算击中目标数时至少计算#2[i]个目标，攻击后对被击中的敌方目标中【解读】层数最高的目标施加#3[i]层【解读】，若攻击者为「智识」命途角色则额外施加#4[i]层【解读】。",
         "ja": "戦闘に入る時、パーティに「知恵」の運命を歩むキャラが2名以上いる場合、以下の効果が発動される。\n味方全体の会心ダメージ+#1[i]%、軌跡「冷たい真実」で命中した敵の数を計算する時、少なくとも#2[i]体を計算に加える。攻撃を行った後、命中した敵の中で「解読」層数が最も多い敵に「解読」を#3[i]層付与する。攻撃者が「知恵」の運命を歩むキャラクターである場合、追加で「解読」を#4[i]層付与する。",
         "ko": "전투 진입 시 파티 내 「지식」 운명의 길 캐릭터가 2명 이상일 경우 모든 아군의 치명타 피해가 #1[i]% 증가한다. 행적 [냉정한 정직]이 명중한 목표 계산 시 최소 #2[i]기의 목표를 계산하고, 공격 후 명중한 적 중 [해독] 스택 수가 가장 높은 목표에게 [해독]을 #3[i]스택 부여하며, 공격자가 「지식」 운명의 길 캐릭터일 경우 추가로 [해독]을 #4[i]스택 부여한다"
       },
@@ -784,12 +845,14 @@
       "name": {
         "pt-BR": "Paisagem Faminta de Vacua",
         "en": "Starved Landscape of Vacua",
+        "zh-CN": "饥饿的地景",
         "ja": "{RUBY_B#う}飢{RUBY_E#}えた{RUBY_B#ちけい}地景{RUBY_E#}",
         "ko": "허기의 풍경"
       },
       "description": {
         "pt-BR": "Para cada 1 acúmulo de \"Interpretação\" aplicado a inimigos-alvo, A Herta ganha 1 acúmulo de \"Resposta\" até um máximo de #2[i] acúmulo(s). Ao utilizar a Perícia Suprema, cada acúmulo de \"Resposta\" aumenta o multiplicador de Dano da Perícia Suprema em #1[f1]%.",
         "en": "For every 1 stack of \"Interpretation\" inflicted on enemy targets, The Herta gains 1 stack of \"Answer,\" up to a max of #2[i] stack(s). When using Ultimate, each \"Answer\" stack increases this instance of Ultimate's DMG multiplier by #1[f1]%.",
+        "zh-CN": "敌方目标每被施加1层【解读】，大黑塔获得1层【谜底】，最多叠加#2[i]层。施放终结技时，每持有1层【谜底】，使本次终结技的伤害倍率提高#1[f1]%。",
         "ja": "敵に「解読」が1層付与されるたびに、マダム・ヘルタは「回答」を1層獲得する、最大で#2[i]層累積できる。必殺技を発動する時、「回答」1層につき、その回の必殺技のダメージ倍率+#1[f1]%。",
         "ko": "적에게 [해독]이 1스택 부여될 때마다 더 헤르타가 [수수께끼의 답]을 1스택 획득한다, 최대 중첩수: #2[i]스택. 필살기 발동 시 [수수께끼의 답]을 1스택 보유할 때마다 이번 필살기의 피해 배율이 #1[f1]% 증가한다"
       },
@@ -815,7 +878,13 @@
     {
       "id": 1401201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -832,7 +901,7 @@
     {
       "id": 1401202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1401101],
@@ -849,7 +918,13 @@
     {
       "id": 1401203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1401202],
@@ -866,7 +941,7 @@
     {
       "id": 1401204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1401202],
@@ -883,7 +958,13 @@
     {
       "id": 1401205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1401102],
@@ -900,7 +981,7 @@
     {
       "id": 1401206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1401205],
@@ -917,7 +998,13 @@
     {
       "id": 1401207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [1401205],
@@ -934,7 +1021,7 @@
     {
       "id": 1401208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1401103],
@@ -951,7 +1038,7 @@
     {
       "id": 1401209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1401103],
@@ -968,7 +1055,13 @@
     {
       "id": 1401210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de Dano: Gelo", "en": "DMG Boost: Ice", "ja": "ダメージ強化・氷", "ko": "피해 강화•얼음" },
+      "name": {
+        "pt-BR": "Bônus de Dano: Gelo",
+        "en": "DMG Boost: Ice",
+        "zh-CN": "伤害强化•冰",
+        "ja": "ダメージ強化・氷",
+        "ko": "피해 강화•얼음"
+      },
       "icon": "icon/property/IconIceAddedRatio.png",
       "maxLevel": 1,
       "prerequisites": [],

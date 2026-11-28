@@ -1,7 +1,13 @@
 {
   "id": 1507,
   "slug": "mortenax-blade",
-  "name": { "pt-BR": "Mortenax Blade", "en": "Mortenax Blade", "ja": "千冶・刃", "ko": "천야•블레이드" },
+  "name": {
+    "pt-BR": "Mortenax Blade",
+    "en": "Mortenax Blade",
+    "zh-CN": "千冶•刃",
+    "ja": "千冶・刃",
+    "ko": "천야•블레이드"
+  },
   "rarity": 5,
   "path": "Nihility",
   "element": "Fire",
@@ -14,12 +20,14 @@
       "name": {
         "pt-BR": "Uma Lâmina Quebrada Ainda Mata",
         "en": "A Broken Blade Still Slays",
+        "zh-CN": "残锋，掠尽",
         "ja": "刈り尽くす毀刃",
         "ko": "부러진 검, 전멸"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% dos PV máximos de Mortenax Blade a um inimigo designado e faz o alvo entrar no estado de \"Provocação\" por 1 rodada.",
         "en": "Deals Fire DMG equal to #1[i]% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
+        "zh-CN": "对指定敌方单体造成等同于千冶•刃#1[i]%生命上限的火属性伤害，并使目标陷入嘲讽状态，持续1回合。",
         "ja": "指定した敵単体に千冶・刃の最大HP#1[i]%分の炎属性ダメージを与え、ターゲットを挑発状態にする。挑発状態は1ターン継続する。",
         "ko": "지정된 단일 적에게 천야•블레이드 HP 최대치의 #1[i]%만큼 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: 1턴"
       },
@@ -29,11 +37,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a um inimigo e inflige o estado de \"Provocação\" no alvo.",
         "en": "Deals minor Fire DMG to one enemy and inflicts the Taunt state on the target.",
+        "zh-CN": "对敌方单体造成少量火属性伤害，并使目标陷入嘲讽状态。",
         "ja": "敵単体に少量の炎属性ダメージを与え、ターゲットを挑発状態にする。",
         "ko": "단일 적에게 소량의 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150702,
@@ -41,12 +50,14 @@
       "name": {
         "pt-BR": "Uma Chuva de Lâminas Sela o Destino",
         "en": "A Rain of Blades Seals Fate",
+        "zh-CN": "刃下，归葬",
         "ja": "葬り去る千刃",
         "ko": "검날 아래, 귀장"
       },
       "description": {
         "pt-BR": "Consome PV em um valor igual a #4[f1]% dos PV máximos de Mortenax Blade e causa Dano de Fogo em um valor igual a #1[i]% dos PV máximos de Mortenax Blade a todos os inimigos, e causa adicionalmente #2[i] instância(s) de Dano, com cada instância causando Dano de Fogo em um valor igual a #3[f1]% dos PV máximos de Mortenax Blade a um inimigo aleatório.\nSe os PV atuais forem insuficientes, os PV atuais de Mortenax Blade serão reduzidos a 1 ao usar a Perícia.\nQuando não estiver no estado de \"Fúria Infinita\" ou quando os PV atuais forem iguais ou inferiores a 1, Mortenax Blade não pode usar sua Perícia.\nUsar a Perícia não consome Pontos de Perícia.",
         "en": "Consumes HP equal to #4[f1]% of Mortenax Blade's Max HP and deals Fire DMG equal to #1[i]% of Mortenax Blade's Max HP to all enemies, and additionally deals #2[i] instance(s) of DMG, with each instance dealing Fire DMG equal to #3[f1]% of Mortenax Blade's Max HP to one random enemy.\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses Skill.\nWhile not in the \"Infinite Fury\" state or when the current HP is 1 or lower, Mortenax Blade cannot use his Skill.\nUsing Skill does not consume Skill Points.",
+        "zh-CN": "消耗等同于千冶•刃生命上限#4[f1]%的生命值对敌方全体造成等同于千冶•刃#1[i]%生命上限的火属性伤害，并额外造成#2[i]次伤害，每次伤害对随机敌方单体造成等同于千冶•刃#3[f1]%生命上限的火属性伤害。\n若当前生命值不足，施放战技时千冶•刃的当前生命值降低至1点。\n未处于【无量忿怒】状态或当前生命值小于等于1时，千冶•刃无法施放战技。\n施放战技时不消耗战技点。",
         "ja": "千冶・刃の最大HP#4[f1]%分のHPを消費し、敵全体に千冶・刃の最大HP#1[i]%分の炎属性ダメージを与え、さらに#2[i]ヒットする。1ヒットごとにランダムな敵単体に千冶・刃の最大HP#3[f1]%分の炎属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、千冶・刃の残りHPが1になる。\n「無量忿怒」状態ではない場合、または残りHPが1以下の時、千冶・刃は戦闘スキルを発動できない。\n戦闘スキルを発動する時、SPを消費しない。",
         "ko": "천야•블레이드 HP 최대치의 #4[f1]%만큼 HP를 소모해 모든 적에게 천야•블레이드 HP 최대치의 #1[i]%만큼 화염 속성 피해를 가하고, 추가로 피해를 #2[i]회 가한다. 피해당 랜덤 단일 적에게 천야•블레이드 HP 최대치의 #3[f1]%만큼 화염 속성 피해를 가한다.\n현재 HP가 부족할 시, 전투 스킬을 발동하면 천야•블레이드의 현재 HP가 1pt로 감소한다.\n[끝없는 분노] 상태가 아니거나 현재 HP가 1 이하일 시 천야•블레이드는 전투 스킬을 발동할 수 없다.\n전투 스킬 발동 시 전투 스킬 포인트를 소모하지 않는다"
       },
@@ -72,11 +83,12 @@
       "summary": {
         "pt-BR": "Consome PV e causa Dano de Fogo a todos os inimigos. Depois, causa Dano de Fogo leve a inimigos únicos, ricocheteando 4 vez(es).",
         "en": "Consumes HP and deals Fire DMG to all enemies. Then, deals minor Fire DMG to single enemies, bouncing 4 time(s).",
+        "zh-CN": "消耗生命值对敌方全体造成火属性伤害，随后对敌方单体造成少量火属性伤害，弹射4次。",
         "ja": "HPを消費し、敵全体に炎属性ダメージを与える。その後、敵単体に少量の炎属性ダメージを与え、4回バウンドする。",
         "ko": "HP를 소모해 모든 적에게 화염 속성 피해를 가하고, 이후 단일 적에게 소량의 화염 속성 피해를 가하며, 4회 바운스한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150703,
@@ -84,12 +96,14 @@
       "name": {
         "pt-BR": "Fornax Ex Corpore",
         "en": "Fornax Ex Corpore",
+        "zh-CN": "骸骨当炉，血肉即薪",
         "ja": "骨は炉に、血肉は薪にす",
         "ko": "뼈는 화로요, 피와 살은 땔감이니"
       },
       "description": {
         "pt-BR": "Inflige \"Abraço das Chamas Malditas\" em todos os inimigos. Os inimigos-alvo no estado de \"Abraço das Chamas Malditas\" têm sua DEF reduzida em #7[f1]% e o Dano recebido aumentado em #4[f1]%, durando por #8[i] rodada(s). Depois, consome PV em um valor igual a #1[i]% dos PV máximos de Mortenax Blade para implantar um Campo. Enquanto o Campo estiver ativo, Mortenax Blade entra no estado de \"Fúria Infinita\".\nDurante o estado de \"Fúria Infinita\", a Chance de CRIT aumenta em #2[i]%, o Dano CRIT aumenta em #3[f1]%, o ATQ Básico é aprimorado, a Perícia é desbloqueada e uma nova Perícia Suprema, \"Tenax Per Ignem\", é obtida. Ao receber um golpe fatal, essa unidade não será derrubada, mas o Campo será dissipado, sairá do estado de \"Fúria Infinita\" e restaurará PV em um valor igual a #6[i]% dos PV máximos dessa unidade.\nAo ganhar o estado de \"Fúria Infinita\", uma contagem regressiva correspondente aparece na Ordem de Ação. A contagem regressiva tem uma VEL fixa de #5[i]. No início da rodada da contagem regressiva, dissipa o Campo e sai do estado de \"Fúria Infinita\".\nSe os PV atuais forem insuficientes, os PV atuais de Mortenax Blade serão reduzidos a 1 ao usar essa habilidade.",
         "en": "Inflicts \"Balefire Bind\" on all enemies. Enemy targets in the \"Balefire Bind\" state have their DEF reduced by #7[f1]% and the DMG they receive increases by #4[f1]%, lasting for #8[i] turn(s). Then, consumes HP equal to #1[i]% of Mortenax Blade's Max HP to deploy a Zone. While the Zone is active, Mortenax Blade enters the \"Infinite Fury\" state.\nDuring the \"Infinite Fury\" state, increases CRIT Rate by #2[i]%, increases CRIT DMG by #3[f1]%, enhances Basic ATK, unlocks Skill, and gains a new Ultimate \"Tenax Per Ignem.\" When receiving a killing blow, this unit will not be knocked down, but will dispel the Zone, exit the \"Infinite Fury\" state, and restore HP equal to #6[i]% of this unit's Max HP.\nWhen gaining the \"Infinite Fury\" state, a corresponding countdown appears on the Action Order. The countdown has a fixed SPD of #5[i]. At the start of the countdown's turn, dispels the Zone and exits the \"Infinite Fury\" state.\nIf the current HP is insufficient, Mortenax Blade's current HP will be reduced to 1 when he uses this ability.",
+        "zh-CN": "使敌方全体陷入【煞火缠身】，【煞火缠身】状态下的敌方目标防御力降低#7[f1]%，受到的伤害提高#4[f1]%，持续#8[i]回合。随后消耗等同于千冶•刃生命上限#1[i]%的生命值展开结界，结界持续期间，千冶•刃获得【无量忿怒】状态。\n【无量忿怒】状态下暴击率提高#2[i]%，暴击伤害提高#3[f1]%，普攻获得强化，同时解放战技并获得全新终结技【千冶铸一，万劫烬灭】，若受到致命攻击时，不会陷入无法战斗状态，但会解除结界退出【无量忿怒】状态并回复等同于自身#6[i]%生命上限的生命值。\n获得【无量忿怒】状态时，行动序列上出现对应倒计时，倒计时固定拥有#5[i]速度，倒计时回合开始时结界解除且退出【无量忿怒】状态。\n若当前生命值不足，施放本技能时千冶•刃的当前生命值降低至1点。",
         "ja": "敵全体を「修羅の炎」状態にする。「修羅の炎」状態の敵は防御力-#7[f1]%、受けるダメージ+#4[f1]%、#8[i]ターン継続。その後、千冶・刃は最大HP#1[i]%分のHPを消費して結界を展開する。結界が展開されている間、千冶・刃は「無量忿怒」状態になる。\n「無量忿怒」状態では、会心率+#2[i]%、会心ダメージ+#3[f1]%。通常攻撃は「魂魄を断つ鋭刃」に強化される。同時に戦闘スキルが解放され、新たな必殺技「千冶は一を鋳り、万劫を燼滅す」を獲得する。またHPが0になる攻撃を受けた時、戦闘不能状態にならない代わりに結界を解除し、「無量忿怒」状態を終了して、自身の最大HP#6[i]%分のHPを回復する。\n「無量忿怒」状態になった時、アクションバーに「無量忿怒」のカウントダウンが出現する。カウントダウンの速度は#5[i]で固定されており、カウントダウンのターンが回ってきた時、結界は解除され「無量忿怒」状態が終了する。\n残りHPが足りない状態でこのスキルを発動すると、千冶・刃の残りHPが1になる。",
         "ko": "모든 적을 [전신살화] 상태에 빠트린다. [전신살화] 상태의 적은 방어력이 #7[f1]% 감소하고, 받는 피해가 #4[f1]% 증가한다, 지속 시간: #8[i]턴. 이후 천야•블레이드 HP 최대치의 #1[i]%만큼 HP를 소모해 결계를 펼치며, 결계가 지속되는 동안 천야•블레이드는 [끝없는 분노] 상태를 획득한다.\n[끝없는 분노] 상태에서는 치명타 확률이 #2[i]% 증가하고, 치명타 피해가 #3[f1]% 증가하며, 일반 공격이 강화되는 동시에 전투 스킬이 해방되고 새로운 필살기 [천야로 빚어내어, 영겁토록 신멸하리]를 획득한다. 또한, 치명적인 공격을 받으면 전투 불능 상태에 빠지지 않지만, 결계를 해제하고 [끝없는 분노] 상태를 종료하며, 자신의 HP 최대치의 #6[i]%만큼 HP를 회복한다.\n[끝없는 분노] 상태 획득 시 행동 서열에 상응하는 카운트다운이 나타난다. 카운트다운은 #5[i]의 고정 속도를 가지며, 카운트다운 턴 시작 시 결계가 해제되고 [끝없는 분노] 상태가 종료된다.\n현재 HP가 부족하면, 해당 스킬 발동 시 천야•블레이드의 HP가 1pt로 감소한다"
       },
@@ -115,11 +129,12 @@
       "summary": {
         "pt-BR": "Inflige \"Abraço das Chamas Malditas\" em todos os inimigos, fazendo com que a DEF dos alvos seja reduzida e o Dano sofrido por eles aumente. Depois, consome os PV dessa unidade para ativar um Campo. Enquanto o Campo estiver ativo, esta unidade entra no estado de \"Fúria Infinita\", aumentando a Chance de CRIT e o Dano CRIT, aprimorando o ATQ Básico, desbloqueando a Perícia e ganhando uma nova Perícia Suprema, durando até o contador terminar.\nQuando Mortenax Blade recebe um golpe fatal, o Campo é dissipado.",
         "en": "Inflicts \"Balefire Bind\" on all enemies, causing the targets to decrease their DEF and increase the DMG they receive. Then, consumes this unit's HP to activate a Zone. While the Zone is active, this unit gains the \"Infinite Fury\" state, increases CRIT Rate, increases CRIT DMG, enhances Basic ATK, unlocks Skill, and gains a new Ultimate, lasting until the countdown ends.\nWhen Mortenax Blade receives a killing blow, the Zone is dispelled.",
+        "zh-CN": "使敌方全体陷入【煞火缠身】状态，使目标防御力降低，受到的伤害提高。随后消耗自身生命值开启结界。结界持续期间，自身获得【无量忿怒】状态，暴击率提高，暴击伤害提高，普攻获得强化，解放战技并获得全新终结技，直至倒计时结束。\n千冶•刃受到致命攻击时解除结界。",
         "ja": "敵全体に「修羅の炎」状態を付与し、ターゲットの防御力をダウンさせ、受けるダメージをアップさせる。その後、自身のHPを消費して結界を展開する。結界が展開されている間、自身が「無量忿怒」状態になり、会心率と会心ダメージがアップし、通常攻撃が強化されると同時に戦闘スキルが解放され、新たな必殺技を獲得する。カウントダウンが終了するまで継続。\nHPが0になる攻撃を千冶・刃が受けた時、結界が解除される。",
         "ko": "모든 적을 [전신살화] 상태에 빠트리며, 목표의 방어력을 감소시키고, 받는 피해를 증가시킨다. 이후 자신의 HP를 소모해 결계를 활성화한다. 결계가 지속되는 동안 자신은 [끝없는 분노] 상태를 획득하고, 치명타 확률 및 치명타 피해가 증가하며, 일반 공격이 강화되고, 전투 스킬을 해방하며 카운트다운이 종료될 때까지 새로운 필살기를 획득한다.\n천야•블레이드가 치명적인 공격을 받으면 결계가 해제된다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 150704,
@@ -127,12 +142,14 @@
       "name": {
         "pt-BR": "Todo Carma Cobra Seu Preço",
         "en": "All Karma Comes Due",
+        "zh-CN": "因果尽偿",
         "ja": "因果清算",
         "ko": "인과 청산"
       },
       "description": {
         "pt-BR": "Enquanto o Campo está ativo, após cada ataque que um aliado-alvo usa em um inimigo, inflige o estado de \"Abraço das Chamas Malditas\" no inimigo-alvo correspondente e concede 1 Carga a Mortenax Blade. Quando a Carga atinge #1[i] pontos e os PV atuais de Mortenax Blade são superiores a 1, consome #1[i] Carga, regenera #2[f1] de Energia e permite que Mortenax Blade use a Perícia 1 vez adicional. Esse uso extra de Perícia é considerado como um Ataque Extra.",
         "en": "While the Zone is active, after each attack an ally target uses on an enemy, inflicts the \"Balefire Bind\" state on the corresponding enemy target and grants 1 Charge to Mortenax Blade. When Charge reaches #1[i] points and the current HP is more than 1, consumes #1[i] Charge, regenerates #2[f1] Energy, and enables Mortenax Blade to use Skill 1 extra time. This extra Skill use is considered as Follow-Up ATK.",
+        "zh-CN": "结界持续期间，我方目标每次攻击敌方后，使对应敌方目标陷入【煞火缠身】状态并使千冶•刃获得1点充能，当充能达到#1[i]点且当前生命值大于1时，消耗#1[i]点充能，恢复#2[f1]点能量，并使千冶•刃额外施放1次战技，本次战技视为追加攻击。",
         "ja": "結界が展開されている間、味方は敵を攻撃するたびに、ターゲットに「修羅の炎」を付与する。同時に、千冶・刃はチャージを1獲得する。チャージが#1[i]に達し、かつ残りHPが1を超えた時、千冶・刃はチャージを#1[i]消費して、EPを#2[f1]回復し、追加で戦闘スキルを1回発動する。なお、この回の戦闘スキルは追加攻撃と見なされる。",
         "ko": "결계가 지속되는 동안 아군이 적을 공격할 때마다 해당 적을 [전신살화] 상태에 빠트리고, 천야•블레이드가 충전을 1pt 획득한다. 충전 #1[i]pt 도달 및 현재 HP가 1 보다 높을 시, 충전을 #1[i]pt 소모해 에너지를 #2[f1]pt 회복하고, 천야•블레이드가 추가로 전투 스킬을 1회 발동한다. 이번 전투 스킬은 추가 공격으로 간주한다"
       },
@@ -158,19 +175,27 @@
       "summary": {
         "pt-BR": "Enquanto o Campo está ativo, após um aliado-alvo atacar um inimigo, inflige o estado de \"Abraço das Chamas Malditas\" no inimigo e concede Carga a Mortenax Blade. Quando a Carga atinge 9 pontos e seus PV são maiores que 1, consome 9 de Carga para regenerar Energia e permite que Mortenax Blade use sua Perícia 1 vez extra.",
         "en": "While the Zone is active, after an ally target attacks an enemy, inflicts the \"Balefire Bind\" state on the enemy and grants Charge to Mortenax Blade. When Charge reaches 9 points and his HP is higher than 1, consumes 9 Charge to regenerate Energy, and enables Mortenax Blade to use his Skill 1 extra time.",
+        "zh-CN": "结界持续期间，我方目标攻击敌方后使敌方陷入【煞火缠身】状态并使千冶•刃获得充能，当充能达到9点且生命值大于1时，消耗9点充能恢复能量，并使千冶•刃额外施放1次战技。",
         "ja": "結界が展開されている間、味方が敵を攻撃した後、敵に「修羅の炎」状態を付与し、千冶・刃はチャージを獲得する。チャージが9に達し、かつHPが1を超えた時、チャージを9消費してEPを回復し、千冶・刃は追加で戦闘スキルを1回発動する。",
         "ko": "결계가 지속되는 동안 아군이 적을 공격하면 적을 [전신살화] 상태에 빠트리고, 천야•블레이드가 충전을 획득한다. 충전이 9pt 도달 및 HP가 1보다 높을 시, 충전을 9pt 소모해 에너지를 회복하고, 천야•블레이드가 추가로 전투 스킬을 1회 발동한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 150706,
       "type": "Other",
-      "name": { "pt-BR": "Um Golpe, Fim de Tudo", "en": "One Cut Ends All", "ja": "断念一斬", "ko": "단념 일참" },
+      "name": {
+        "pt-BR": "Um Golpe, Fim de Tudo",
+        "en": "One Cut Ends All",
+        "zh-CN": "断念一斩",
+        "ja": "断念一斬",
+        "ko": "단념 일참"
+      },
       "description": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -179,6 +204,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo e, após entrar em combate, reduz a Tenacidade dele do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -189,12 +215,14 @@
       "name": {
         "pt-BR": "O Alcance da Lâmina Não Poupa Ninguém",
         "en": "Blade's Reach Spares None",
+        "zh-CN": "十方无赦",
         "ja": "十方不赦",
         "ko": "십방 처결"
       },
       "description": {
         "pt-BR": "Ataca imediatamente todos os inimigos em um determinado alcance. Após entrar em combate, inflige o estado de \"Provocação\" em todos os inimigos por 1 rodada e reduz o Dano recebido por esta unidade em #1[i]% por #2[i] rodada(s).",
         "en": "Immediately attacks all enemies within a certain range. After entering combat, inflicts the Taunt state on all enemies for 1 turn and decreases DMG taken by this unit by #1[i]% for #2[i] turn(s).",
+        "zh-CN": "立即攻击一定范围内的所有敌人，进入战斗后，使敌方全体陷入嘲讽状态，持续1回合，并使自身受到的伤害降低#1[i]%，持续#2[i]回合。",
         "ja": "一定範囲内のすべての敵を即座に攻撃する。戦闘に入った後、敵全体を挑発状態にする。挑発状態は1ターン継続する。また、自身の受けるダメージ-#1[i]%、#2[i]ターン継続。",
         "ko": "즉시 일정 범위 내의 모든 적을 공격하고, 전투 진입 후 모든 적을 도발 상태에 빠트린다, 지속 시간: 1턴. 또한, 자신이 받는 피해를 #1[i]% 감소시킨다, 지속 시간: #2[i]턴"
       },
@@ -204,10 +232,11 @@
       "summary": {
         "pt-BR": "Ataca todos os inimigos dentro do alcance. Ao entrar em combate, inflige o estado de \"Provocação\" em todos os inimigos e reduz o Dano recebido por esta unidade.",
         "en": "Attacks all enemies within range. After entering combat, inflicts the Taunt state on all enemies and reduces DMG taken by this unit.",
+        "zh-CN": "攻击范围内的所有敌人，进战后使敌方全体陷入嘲讽状态并使自身受到的伤害降低。",
         "ja": "範囲内のすべての敵を攻撃する。戦闘に入った後、敵全体を挑発状態にし、自身の受けるダメージをダウンさせる。",
         "ko": "범위 내의 모든 적을 공격하며, 전투 진입 후 모든 적을 도발 상태에 빠트리고 자신이 받는 피해를 감소시킨다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" }
     },
     {
       "id": 150708,
@@ -215,12 +244,14 @@
       "name": {
         "pt-BR": "Uma Lâmina Temperada Ceifa Almas",
         "en": "A Tempered Blade Severs Souls",
+        "zh-CN": "淬锋，断魄",
         "ja": "魂魄を断つ鋭刃",
         "ko": "벼려진 검, 단혼"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% dos PV máximos de Mortenax Blade a um inimigo designado e faz o alvo entrar no estado de \"Provocação\" por 1 rodada.",
         "en": "Deals Fire DMG equal to #1[i]% of Mortenax Blade's Max HP to one designated enemy, and causes the target to enter the Taunt state for 1 turn.",
+        "zh-CN": "对指定敌方单体造成等同于千冶•刃#1[i]%生命上限的火属性伤害，并使目标陷入嘲讽状态，持续1回合。",
         "ja": "指定した敵単体に千冶・刃の最大HP#1[i]%分の炎属性ダメージを与え、ターゲットを挑発状態にする。挑発状態は1ターン継続する。",
         "ko": "지정된 단일 적에게 천야•블레이드 HP 최대치의 #1[i]%만큼 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: 1턴"
       },
@@ -230,11 +261,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a um inimigo e inflige o estado de \"Provocação\" no alvo.",
         "en": "Deals Fire DMG to one enemy and inflicts the Taunt state on the target.",
+        "zh-CN": "对敌方单体造成火属性伤害，并使目标陷入嘲讽状态。",
         "ja": "敵単体に炎属性ダメージを与え、ターゲットを挑発状態にする。",
         "ko": "단일 적에게 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 150709,
@@ -242,6 +274,7 @@
       "name": {
         "pt-BR": "Uma Chuva de Lâminas Sela o Destino",
         "en": "A Rain of Blades Seals Fate",
+        "zh-CN": "刃下，归葬",
         "ja": "葬り去る千刃",
         "ko": "검날 아래, 귀장"
       },
@@ -264,8 +297,8 @@
       ],
       "icon": "icon/skill/1507_skill.png",
       "maxLevel": 15,
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 150714,
@@ -273,12 +306,14 @@
       "name": {
         "pt-BR": "Tenax Per Ignem",
         "en": "Tenax Per Ignem",
+        "zh-CN": "千冶铸一，万劫烬灭",
         "ja": "千冶は一を鋳り、万劫を燼滅す",
         "ko": "천야로 빚어내어, 영겁토록 신멸하리"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo em um valor igual a #1[f1]% dos PV máximos de Mortenax Blade a todos os inimigos.",
         "en": "Deals Fire DMG equal to #1[f1]% of Mortenax Blade's Max HP to all enemies.",
+        "zh-CN": "对敌方全体造成等同于千冶•刃#1[f1]%生命上限的火属性伤害。",
         "ja": "敵全体に千冶・刃の最大HP#1[f1]%分の炎属性ダメージを与える。",
         "ko": "모든 적에게 천야•블레이드 HP 최대치의 #1[f1]%만큼 화염 속성 피해를 가한다"
       },
@@ -304,11 +339,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo massivo a todos os inimigos.",
         "en": "Deals massive Fire DMG to all enemies.",
+        "zh-CN": "对敌方全体造成大量火属性伤害。",
         "ja": "敵全体に大量の炎属性ダメージを与える。",
         "ko": "모든 적에게 대량의 화염 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     }
   ],
   "eidolons": [
@@ -317,12 +353,14 @@
       "name": {
         "pt-BR": "Antes da Minha Morte, Eu Era Incompleto",
         "en": "Ere My Death, I Stood Unmade",
+        "zh-CN": "我殁之前，我仍未成形",
         "ja": "{RUBY_B#し}死{RUBY_E#}するまで、\nこの{RUBY_B#み}身{RUBY_E#}は{RUBY_B#な}成{RUBY_E#}らず",
         "ko": "죽음을 거쳐야만 갖춰지는 형태"
       },
       "description": {
         "pt-BR": "Enquanto o Campo está ativo, reduz a RES a Todos os Tipos de todos os inimigos em 20%. Após usar a Perícia extra do Talento, a contagem regressiva de \"Fúria Infinita\" tem sua ação atrasada em 15%.",
         "en": "While the Zone is active, decreases all enemies' All-Type RES by 20%. After using the extra Skill from Talent, the \"Infinite Fury\" countdown has its action delayed by 15%.",
+        "zh-CN": "结界持续期间，使敌方全体全属性抗性降低20%，施放天赋的额外战技后使【无量忿怒】倒计时行动延后15%。",
         "ja": "結界が展開されている間、敵全体の全属性耐性-20%。天賦による追加の戦闘スキルを発動した後、「無量忿怒」のカウントダウンの行動順を15%遅延させる。",
         "ko": "결계가 지속되는 동안 모든 적의 모든 속성 저항을 20% 감소시키며, 특성의 추가 전투 스킬 발동 후 [끝없는 분노] 카운트다운 행동 게이지를 15% 감소시킨다"
       },
@@ -335,12 +373,14 @@
       "name": {
         "pt-BR": "Meu Coração Era Cinza, Mas a Chama Permaneceu",
         "en": "Ash Was My Heart, Yet the Flame Stayed",
+        "zh-CN": "心若死灰，而炉火未熄",
         "ja": "{RUBY_B#こころ}心{RUBY_E#}は{RUBY_B#しかい}死灰{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く、\nされど{RUBY_B#ほのお}炎{RUBY_E#}は{RUBY_B#き}消{RUBY_E#}えず",
         "ko": "잿더미와 같은 마음, 꺼지지 않는 용광로"
       },
       "description": {
         "pt-BR": "Quando um personagem aliado usa a Perícia Suprema para causar Dano, considera-se como se ele tivesse utilizado um Ataque Extra. O Dano causado pelo Ataque Extra de aliados-alvo aumenta em 75%. O limite superior de Carga de Mortenax Blade diminui em 7.",
         "en": "When an ally character uses Ultimate to deal DMG, it is considered as having launched Follow-Up ATK. And the Follow-Up ATK DMG dealt by ally targets increases by 75%. The upper limit of Mortenax Blade's Charge decreases to 7.",
+        "zh-CN": "我方角色施放终结技造成伤害时，被视为发动了追加攻击，我方目标造成的追加攻击伤害提高75%。千冶•刃充能点的上限降低至7。",
         "ja": "味方キャラが必殺技を発動してダメージを与える時、追加攻撃を行うと見なされる。味方の追加攻撃ダメージ+75%。千冶・刃のチャージ上限が7にダウンする。",
         "ko": "아군 캐릭터가 필살기를 발동해 피해를 가할 시 추가 공격을 발동한 것으로 간주하며, 아군이 가하는 추가 공격 피해가 75% 증가한다. 천야•블레이드의 충전 포인트 최대치가 7로 감소한다"
       },
@@ -353,12 +393,14 @@
       "name": {
         "pt-BR": "Além da Margem, a Ira Revelada",
         "en": "Across the Shore, Wrath Laid Bare",
+        "zh-CN": "身渡彼岸，现忿怒本相",
         "ja": "{RUBY_B#ひがん}彼岸{RUBY_E#}に{RUBY_B#わた}渡{RUBY_E#}り、\n{RUBY_B#ふんぬ}忿怒{RUBY_E#}の{RUBY_B#ほんそう}本相{RUBY_E#}を{RUBY_B#あらわ}現{RUBY_E#}さん",
         "ko": "피안을 건너 드러난 분노의 본상"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -371,12 +413,14 @@
       "name": {
         "pt-BR": "O Ressentimento Forjado, a Lâmina Originou",
         "en": "Odium I've Smitten, Thence Came the Blade",
+        "zh-CN": "锻打遗恨，后剑骨自成",
         "ja": "{RUBY_B#いこん}遺恨{RUBY_E#}に{RUBY_B#きた}鍛{RUBY_E#}えられ、\n{RUBY_B#けんこつおの}剣骨自{RUBY_E#}ずと{RUBY_B#かたち}形{RUBY_E#}を{RUBY_B#な}成{RUBY_E#}す",
         "ko": "여한을 벼려 이룬 검골"
       },
       "description": {
         "pt-BR": "\"Coração, Refinado ao Infinito\" aumenta adicionalmente o Dano causado dos aliados-alvo em 50%.",
         "en": "\"Heart, Refined ad Infinitum\" additionally increases ally targets' DMG dealt by 50%.",
+        "zh-CN": "【万淬心】使我方目标造成的伤害额外提高50%。",
         "ja": "「万淬の心」は味方の与ダメージをさらに50%アップさせる。",
         "ko": "[만쉬심]은 아군이 가하는 피해를 추가로 50% 증가시킨다"
       },
@@ -389,12 +433,14 @@
       "name": {
         "pt-BR": "Rompi Meus Infortúnios, Sabendo que a Morte Gera Vida",
         "en": "I Severed My Woes, Knowing Death Begets Life",
+        "zh-CN": "自断苦己，知死所由生",
         "ja": "{RUBY_B#おの}己{RUBY_E#}が{RUBY_B#く}苦{RUBY_E#}を{RUBY_B#た}断{RUBY_E#}ち、\n{RUBY_B#し}死{RUBY_E#}より{RUBY_B#せい}生{RUBY_E#}を{RUBY_B#し}知{RUBY_E#}る",
         "ko": "스스로 끊어낸 과거의 고통, 죽음 끝에 피어난 삶"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -407,12 +453,14 @@
       "name": {
         "pt-BR": "Se a Imortalidade Pudesse Morrer, Eu Tomaria SUA Vida",
         "en": "If Immortality Could Die, I Swore THEM Slain",
+        "zh-CN": "神若当殒，自誓弑寿瘟",
         "ja": "{RUBY_B#かみ}神{RUBY_E#}が{RUBY_B#うんらく}殞落{RUBY_E#}するならば、\n{RUBY_B#じゅおん}寿瘟{RUBY_E#}を{RUBY_B#う}討{RUBY_E#}つと{RUBY_B#ちか}誓{RUBY_E#}わん",
         "ko": "신이 죽는다면, 맹세코 역병을 멸하리라"
       },
       "description": {
         "pt-BR": "Enquanto o Campo persistir, quando Mortenax Blade recebe Dano ou consome PV, ele ganha 1 Carga. Esse efeito pode ser ativado novamente após o término da rodada de qualquer alvo. O multiplicador de Dano de \"Tenax Per Ignem\" aumenta para 150% do valor original.",
         "en": "As the Zone persists, when Mortenax Blade takes DMG or consumes HP, he gains 1 Charge. This effect can trigger again after any target's turn ends. The DMG multiplier of \"Tenax Per Ignem\" increases to 150% of its original value.",
+        "zh-CN": "结界持续期间，千冶•刃受到伤害或消耗生命值时，获得1点充能，该效果在任意目标回合结束后可再次触发。【千冶铸一，万劫烬灭】的伤害倍率提高为原倍率的150%。",
         "ja": "結界が展開されている間、千冶・刃がダメージを受ける、またはHPを消費した時、チャージを1獲得する。この効果はいずれかの味方または敵のターンが終了した後に再度発動可能になる。「千冶は一を鋳り、万劫を燼滅す」のダメージ倍率が元の倍率の150%になる。",
         "ko": "결계가 지속되는 동안 천야•블레이드가 피해를 받거나 HP를 소모하면 충전을 1pt 획득한다. 해당 효과는 임의의 목표 턴 종료 후 다시 발동할 수 있다. [천야로 빚어내어, 영겁토록 신멸하리]의 피해 배율이 기존 배율의 150%로 증가한다"
       },
@@ -792,12 +840,14 @@
       "name": {
         "pt-BR": "Osso Endurecidos Até a Náusea",
         "en": "Bone, Hardened ad Nauseam",
+        "zh-CN": "百炼骨",
         "ja": "{RUBY_B#ひゃくれん}百錬{RUBY_E#}の{RUBY_B#ほね}骨{RUBY_E#}",
         "ko": "백련골"
       },
       "description": {
         "pt-BR": "Mortenax Blade pode acumular até #2[i] de Energia excedente. Após usar a Perícia Suprema, a Energia excedente é redefinida e uma quantidade correspondente de Energia é regenerada. Quando a batalha começa ou quando o Campo é dissipado, se a Energia estiver abaixo de #1[i]%, ela é imediatamente regenerada para #1[i]%. Quando a Energia é regenerada ao máximo, dissipa todas as penalidades desta unidade.",
         "en": "Mortenax Blade can accumulate up to #2[i] overflow Energy. After using Ultimate, clears it and regenerates a corresponding amount of Energy. When the battle starts or when the Zone is dispelled, if Energy is below #1[i]%, it is immediately regenerated to #1[i]%. When Energy is regenerated to its maximum, dispels all debuffs from this unit.",
+        "zh-CN": "千冶•刃可积攒最多#2[i]点溢出能量，施放终结技后清空并恢复相应的能量值。战斗开始时或结界解除时，若能量不足#1[i]%则立刻恢复至#1[i]%。当能量恢复至上限时解除自身所有负面效果。",
         "ja": "千冶・刃は最大EPを超えた分のEPを#2[i]まで蓄積できる。必殺技を発動した後、上限を超えて蓄積された分のEPを回復し、蓄積した超過分をクリアする。戦闘開始時または結界が解除された時、EPが#1[i]%未満の場合、即座に#1[i]%まで回復する。EPが上限まで回復した時、自身のすべてのデバフを解除する。",
         "ko": "천야•블레이드는 초과 에너지를 최대 #2[i]pt 축적할 수 있으며, 필살기 발동 후 초기화하고 상응하는 에너지를 회복한다. 전투 시작 시 또는 결계 해제 시 에너지가 #1[i]% 미만이면 즉시 #1[i]%까지 회복한다. 에너지가 최대치까지 회복되면 자신의 모든 디버프 효과를 해제한다"
       },
@@ -821,12 +871,14 @@
       "name": {
         "pt-BR": "Alma Temperada até a Morte",
         "en": "Soul, Tempered ad Mortem",
+        "zh-CN": "千锻魂",
         "ja": "{RUBY_B#せんたん}千鍛{RUBY_E#}の{RUBY_B#たましい}魂{RUBY_E#}",
         "ko": "천단혼"
       },
       "description": {
         "pt-BR": "Enquanto o Campo está ativo, aumenta a chance de ser atacado por inimigos, reduz o Dano recebido por esta unidade em #2[i]% e aumenta a Cura Recebida em #3[i]%. Após ser atacado, inflige o estado de \"Abraço das Chamas Malditas\" no atacante e Mortenax Blade ganha 1 Carga.",
         "en": "While the Zone is active, increases the chance of being attacked by enemies, decreases DMG taken by this unit by #2[i]%, and increases Incoming Healing by #3[i]%. After being attacked, inflicts the \"Balefire Bind\" state on the corresponding target, and enables Mortenax Blade to gain 1 Charge.",
+        "zh-CN": "结界持续期间，被敌方攻击的概率提高，自身受到的伤害降低#2[i]%，受到的治疗量提高#3[i]%，且受到攻击后使对应目标陷入【煞火缠身】状态并使千冶•刃获得1点充能。",
         "ja": "結界が展開されている間、敵に攻撃される確率がアップ、自身の受けるダメージ-#2[i]%、受ける治癒量+#3[i]%。攻撃を受けた後、攻撃者に「修羅の炎」状態を付与し、千冶・刃はチャージを1獲得する。",
         "ko": "결계가 지속되는 동안 적에게 피격될 확률이 증가하고, 자신이 받는 피해가 #2[i]% 감소하며, 받는 치유량이 #3[i]% 증가한다. 또한, 피격 후 해당 목표를 [전신살화] 상태에 빠트리며, 천야•블레이드가 충전을 1pt 획득한다"
       },
@@ -855,12 +907,14 @@
       "name": {
         "pt-BR": "Coração Infinitamente Temperado",
         "en": "Heart, Refined ad Infinitum",
+        "zh-CN": "万淬心",
         "ja": "{RUBY_B#ばんさい}万淬{RUBY_E#}の{RUBY_B#こころ}心{RUBY_E#}",
         "ko": "만쉬심"
       },
       "description": {
         "pt-BR": "Enquanto o Campo estiver ativo, aliados-alvo causam #1[i]% a mais de Dano. Se houver outros personagens da Inexistência além de Mortenax Blade na equipe, o Dano de Perícia Suprema causado pelos aliados-alvo aumenta em #2[i]%. Caso contrário, o Dano causado por Mortenax Blade aumenta adicionalmente em #3[i]%.",
         "en": "While the Zone is active, ally targets deal #1[i]% increased DMG. If there are other Nihility characters aside from Mortenax Blade in the team, Ultimate DMG dealt by ally targets increases by #2[i]%. Otherwise, DMG dealt by Mortenax Blade additionally increases by #3[i]%.",
+        "zh-CN": "结界持续期间，我方目标造成的伤害提高#1[i]%，我方队伍中存在除千冶•刃之外的「虚无」命途角色时，使我方目标造成的终结技伤害提高#2[i]%，否则，使千冶•刃造成的伤害额外提高#3[i]%。",
         "ja": "結界が展開されている間、味方の与ダメージ+#1[i]%。パーティに千冶・刃以外の「虚無」の運命を歩むキャラがいる場合、味方の必殺技ダメージ+#2[i]%。また、パーティに千冶・刃以外の「虚無」の運命を歩むキャラがいない場合、千冶・刃の与ダメージがさらに+#3[i]%。",
         "ko": "결계가 지속되는 동안 아군이 가하는 피해가 #1[i]% 증가하며, 아군 파티 내 천야•블레이드를 제외한 「공허」 운명의 길 캐릭터가 존재할 시 아군이 가하는 필살기 피해가 #2[i]% 증가하고, 그렇지 않을 시 천야•블레이드가 가하는 피해가 추가로 #3[i]% 증가한다"
       },
@@ -889,6 +943,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -911,6 +966,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -933,6 +989,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -952,7 +1009,7 @@
     {
       "id": 1507204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1507203],
@@ -972,6 +1029,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -994,6 +1052,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1016,6 +1075,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -1035,7 +1095,7 @@
     {
       "id": 1507208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1507103],
@@ -1055,6 +1115,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -1077,6 +1138,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },

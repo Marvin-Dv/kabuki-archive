@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Rota Final do Destruidor",
     "en": "Destroyer's Final Road",
+    "zh-CN": "毁灭者的末路",
     "ja": "壊滅者の末路",
     "ko": "파멸자의 말로"
   },
@@ -16,6 +17,7 @@
   "sources": {
     "en": ["Echo of War: Supply Zone"],
     "pt-BR": ["Eco da Guerra: Zona de Abastecimento"],
+    "zh-CN": ["历战余响【支援舱段】"],
     "ja": ["歴戦余韻「サポート部分」"],
     "ko": ["전쟁의 여운 [서포트 캐빈]"]
   }

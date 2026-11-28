@@ -1,7 +1,7 @@
 {
   "id": 101,
   "type": "AllDamageTypeAddedRatio",
-  "name": { "pt-BR": "Bônus de Dano", "en": "DMG Boost", "ja": "与ダメージアップ", "ko": "피해 증가" },
+  "name": { "pt-BR": "Bônus de Dano", "en": "DMG Boost", "zh-CN": "伤害提高", "ja": "与ダメージアップ", "ko": "피해 증가" },
   "icon": "icon/property/IconAttack.png",
   "percent": true
 }

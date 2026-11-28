@@ -1,7 +1,7 @@
 {
   "id": 1,
   "type": "MaxHP",
-  "name": { "pt-BR": "PV", "en": "HP", "ja": "HP", "ko": "HP" },
+  "name": { "pt-BR": "PV", "en": "HP", "zh-CN": "生命值", "ja": "HP", "ko": "HP" },
   "icon": "icon/property/IconMaxHP.png",
   "percent": false
 }

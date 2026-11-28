@@ -1,7 +1,13 @@
 {
   "id": 23030,
   "slug": "dance-at-sunset",
-  "name": { "pt-BR": "Dança ao Pôr do Sol", "en": "Dance at Sunset", "ja": "夕日に舞う", "ko": "해 질 무렵 시작되는 춤" },
+  "name": {
+    "pt-BR": "Dança ao Pôr do Sol",
+    "en": "Dance at Sunset",
+    "zh-CN": "落日时起舞",
+    "ja": "夕日に舞う",
+    "ko": "해 질 무렵 시작되는 춤"
+  },
   "rarity": 5,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
@@ -9,14 +15,22 @@
   "description": {
     "pt-BR": "\"Uma figura ágil está correndo pelos telhados no crepúsculo resplandecente.\"\n\"Lili, Guoguo, vamos ver quem chega ao final primeiro!\"\nComo um pequeno e habilidoso animalzinho, a garota escala os beirais, esquiva dos guardas e se balança no vento enquanto persegue o último raio de sol do dia.\nA brisa vespertina levemente quente acaricia o rosto da garota e as moribundas luzes do dia tingem o gato com um caleidoscópio de cores.\n\"Você venceu!\"\nEla limpa o suor de sua testa e pega o gato no colo.\nAs estrelas surgem no céu e seu inocente e sorridente rosto surge entre elas, como camadas de nuvens radiantes de um pôr-do-sol fluindo pelo horizonte.",
     "en": "In the resplendent twilight, a swift figure darts across the rooftops.\n\"Lili, Guoguo, let's see who makes it to the finish line first!\"\nScaling the eaves, evading the guards, swaying with the wind, the girl moves like a nimble critter, chasing the last sliver of sunlight.\nThe warm evening breeze caresses her face, and the setting sun bathes the cat in a kaleidoscope of colors.\n\"You guys won!\"\nShe declares, wiping sweat from her brow and cradling the cat in her arms.\nAmidst a rising galaxy of stars, her unguarded smile dissolves into a bloom of innocence, akin to the layered twilight hues adrift in the sky.",
+    "zh-CN": "灿烂的暮色中，一个迅捷的身影在房顶上奔跑。\n「狸狸，果果，看我们谁先到终点！」\n攀上房檐，躲开守卫，随风晃荡，少女如同敏捷的小兽，追逐着最后一丝日光。\n微热的晚风拂过少女的脸，余晖将猫儿染得五彩斑斓。\n「你们赢了！」\n她擦掉额头的汗水，将猫儿抱在怀中。\n群星浮起，她卸下心防的纯真笑颜盛放其中，犹如天边浮动的层层晚霞。",
     "ja": "燦然と輝く夕焼けの中、屋根の上を颯爽と駆け抜ける人影が1つ。\n「リリ、ココ、誰が一番速いか競争しよう！」\n守衛の目を避けるため、少女は風に吹かれながら、素早く動く小動物のように、最後の日の光を追いかけていく。\n暖かい夕風が少女の頬を撫で、残照が猫たちを色鮮やかに染め上げた。\n「リリとココの勝ち！」\n彼女は額の汗を拭い、猫たちを抱き上げる。\n薄っすらと瞬く星々の下で、彼女の無防備な笑顔が、まるで空を縁取る夕焼けのように咲き誇った。",
     "ko": "찬란한 황혼 속에서 날렵한 그림자 하나가 지붕 위를 빠르게 달렸다.\n「리리, 코코, 누가 먼저 결승점에 도착하는지 시합하자!」\n처마에 올라 경비병을 피해 바람을 탄 소녀는 마치 작고 민첩한 동물처럼 태양의 마지막 빛을 쫓았다.\n조금은 뜨거운 밤바람이 소녀의 얼굴을 스쳤고, 석양은 고양이를 알록달록하게 물들였다.\n「너희가 이겼어!」\n소녀는 이마에 맺힌 땀을 닦고 고양이들을 품에 안았다.\n별들이 떠오르자, 경계를 푼 소녀의 천진난만한 미소가 하늘을 물들인 노을처럼 피어났다"
   },
   "skill": {
-    "name": { "pt-BR": "Profundamente Absorvido", "en": "Deeply Engrossed", "ja": "無我夢中", "ko": "심취" },
+    "name": {
+      "pt-BR": "Profundamente Absorvido",
+      "en": "Deeply Engrossed",
+      "zh-CN": "沉酣",
+      "ja": "無我夢中",
+      "ko": "심취"
+    },
     "description": {
       "pt-BR": "Aumenta bastante a chance do usuário ser atacado e aumenta o Dano CRIT em #1[i]%. Após o usuário utilizar a Perícia Suprema, ele recebe 1 acúmulo de Dança do Fogo, durando por 2 rodadas e atingindo até #2[i] acúmulos. Cada acúmulo de Dança do Fogo aumenta o Dano causado pelo Ataque Extra do usuário em #3[i]%.",
       "en": "Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by #1[i]%. After the wearer uses Ultimate, receives 1 stack of \"Firedance,\" lasting for 2 turns and stacking up to #2[i] time(s). Each stack of \"Firedance\" increases the DMG dealt by the wearer's Follow-Up ATK by #3[i]%.",
+      "zh-CN": "使装备者受到攻击的概率大幅提高，暴击伤害提高#1[i]%。当装备者施放终结技后，获得1层【火舞】，持续2回合，最多叠加#2[i]层。每层【火舞】使装备者追加攻击造成的伤害提高#3[i]%。",
       "ja": "装備キャラの攻撃を受ける確率が大アップし、会心ダメージ+#1[i]%。装備キャラが必殺技を発動した後、「炎舞」を1層獲得する、2ターン継続、最大で#2[i]層累積できる。「炎舞」1層につき、装備キャラの追加攻撃ダメージ+#3[i]%。",
       "ko": "장착한 캐릭터가 피격될 확률이 대폭 증가하고, 치명타 피해가 #1[i]% 증가한다. 장착한 캐릭터가 필살기를 발동하면 [화염의 춤]을 1스택 획득한다, 지속 시간: 2턴, 최대 중첩수: #2[i]스택. [화염의 춤] 스택마다 장착한 캐릭터의 추가 공격으로 가하는 피해가 #3[i]% 증가한다"
     },

@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Ela Já Fechou Seus Olhos",
     "en": "She Already Shut Her Eyes",
+    "zh-CN": "她已闭上双眼",
     "ja": "閉ざした瞳",
     "ko": "그녀는 두 눈을 감았네"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "A dor no centro da testa dela a acompanhará pelo resto de sua vida, mas é apenas uma fração do que ela já suportou no passado.\nEla se imaginava presciente até a partida daqueles que a ela eram caros.\nAgora, ela \"vê\" que o mundo sempre muda e o tempo sempre passa...\nMas ela já fechou seus olhos, pois o futuro já foi determinado...\nDentro do \"terceiro olho\".",
     "en": "The ache in the middle of her forehead will accompany her for the rest of her life, but it is only a fraction of what she had experienced in the past.\nShe thought herself prescient until the departure of those for whom she cared.\nShe now \"sees\" the world ever-changing, the times ever-shifting...\nBut she already shut her eyes, because the future has already been determined\n...inside \"the third eye.\"",
+    "zh-CN": "额间的痛楚将伴随余生，但仍不及过去的万分之一。\n她自以为神机妙算，直到故人离去。\n如今她「看见」万象更迭，时移世变…\n但她已闭上双眼，因为未来已经落定\n——在「第三眼」中。",
     "ja": "額の痛みは一生付き纏うだろう。だが、それは過去に経験した苦痛の万分の一にも及ばない。\n旧知の者が離れていくまで、彼女は神機妙算を自負していた。\nそして今、彼女は変わり続ける万象、移り変わる時を「視る」…\nしかし彼女は目を閉じた。なぜなら、未来はすでに定まっているからだ\n——「第三の目」の中で。",
     "ko": "이마의 고통은 여생을 함께하겠지만 그것은 과거 고통의 만 분의 일도 안 된다.\n그녀는 과거의 인연이 세상을 떠나기 전까지 자신이 모든 미래를 알고 있다고 자부했다.\n지금의 그녀는 만상이 대체되고 시대가 변하는 것을 「지켜본다」….\n하지만 그녀는 두 눈을 감았다.\n미래는 「제3의 눈」에서 결정되었기에——"
   },
   "skill": {
-    "name": { "pt-BR": "Visioscape", "en": "Visioscape", "ja": "視界", "ko": "펼쳐진 세계" },
+    "name": { "pt-BR": "Visioscape", "en": "Visioscape", "zh-CN": "视界", "ja": "視界", "ko": "펼쳐진 세계" },
     "description": {
       "pt-BR": "Aumenta os PV máximos do usuário em #1[i]% e a Taxa de Regeneração de Energia em #4[i]%. Quando os PV do usuário são reduzidos, o Dano causado por todos os aliados aumenta em #2[f1]%, durando por #5[i] rodada(s).\nNo início de cada onda, recupera PV de todos os aliados em uma quantidade igual a #3[i]% de seus respectivos PV perdidos.",
       "en": "Increases the wearer's Max HP by #1[i]% and Energy Regeneration Rate by #4[i]%. When the wearer's HP is reduced, all allies' DMG dealt increases by #2[f1]%, lasting for #5[i] turn(s).\nAt the start of every wave, restores HP to all allies by an amount equal to #3[i]% of their respective lost HP.",
+      "zh-CN": "使装备者的生命上限提高#1[i]%，能量恢复效率提高#4[i]%。当装备者的生命值降低时，使我方全体造成的伤害提高#2[f1]%，持续#5[i]回合。\n每个波次开始时，为我方全体回复等同于各自已损失生命值#3[i]%的生命值。",
       "ja": "装備キャラの最大HP+#1[i]%、EP回復効率+#4[i]%。装備キャラのHPが減った時、味方全体の与ダメージ+#2[f1]%、#5[i]ターン継続。\n各ウェーブ開始時、味方全体のHPをそれぞれ失ったHPの#3[i]%分回復する。",
       "ko": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가하고, 에너지 회복효율이 #4[i]% 증가한다. 장착한 캐릭터의 HP가 감소하면, 모든 아군이 가하는 피해가 #2[f1]% 증가한다. 지속 시간: #5[i]턴\n웨이브가 시작될 때마다 모든 아군의 HP가 각자 손실한 HP의 #3[i]%만큼 회복한다"
     },

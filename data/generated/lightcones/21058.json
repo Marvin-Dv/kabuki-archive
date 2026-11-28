@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Um Rastro de Sangue do Passado",
     "en": "A Trail of Bygone Blood",
+    "zh-CN": "一行往日的血",
     "ja": "古より受け継がれる血",
     "ko": "과거의 핏자국"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "Uma tempestade se forma à distância. Tentáculos se estendem do Mar das Almas, como se quisessem brincar com aquela vida frágil flutuante.\nOs membros quebrados da besta marinha golpeiam gigantescos jatos de água para o céu, afundando no abismo oceânico após se estilhaçarem como destroços.\nDizem que o rugido da batalha durou dez dias e noites, abafando até o trovão e o raio.\nDizem que, mesmo que um homem tivesse dez mil vidas, não seria o suficiente para resistir à erosão do Mar das Almas.\nEntão, a coragem dissolve a imaturidade e o orgulho frio molda a timidez.\nE aquela figura esquelética tropeçou na praia. O primeiro raio de sol da manhã brilha sobre as águas do mar, tingindo-as de vermelho como o sangue do passado.",
     "en": "A storm broods in the distance. Tentacles extend from the Sea of Souls, as if intending to toy with that floating, fragile life.\nThe broken limbs of the sea beast hammer giant sprays skyward, and sink into the oceanic abyss after shattering like rubble.\nThey say that the roar of the fight lasted for ten days and nights, overwhelming even the thunder and lightning.\nThey say that even if a man had ten thousand lives, he would not be enough to resist the Sea of Souls's erosion.\nThen, courage washes away the immaturity and cold pride tempered timidity —\nAnd that thin figure stumbled onto the shore. The first ray of the morning sun shines down upon the sea's waters, dyeing it like past blood.",
+    "zh-CN": "风暴在远方酝酿，触手从冥海中探出，似要捉弄那漂浮着的稚弱生命。\n海兽的残肢锤击出冲天的浪花，碎作石头一般陨落海渊。\n他们说，搏杀的怒吼持续了十个日夜，盖过雷霆的震响。\n他们说，即便有一万条性命，也不够被冥海消磨。\n直至英勇洗去稚嫩，冷傲洗去孱弱——\n那单薄的身影踉跄踏上海岸，其时朝阳初升，海水如同往日的血。",
     "ja": "嵐が遠くで吹き荒れる中、ステュクスから伸びた触手が弱々しい命を弄ぶように漂う。\n海獣に残されたその足は天を衝く波を引き起こし、砕けた波しぶきが石のように深淵へと落ちる。\n彼らは言った。戦いの咆哮は十日十夜続き、雷鳴すらもかき消すほどに轟いていたと。\n彼らは言った。例え1万の命があろうと、ステュクスの略奪には足りぬと。\n勇敢さが未熟さを洗い流し、冷徹さが弱さを拭い去ったころ——\nその細く儚い影はよろめきながら岸辺に辿り着いた。そしてちょうど朝日が昇り、かつてのように血で染まった水面が露になった。",
     "ko": "먼 곳에서 폭풍이 형성되고 있는 가운데, 저승의 바다에서 튀어나온 촉수는 표류하는 나약한 생명체를 괴롭히려는 듯했다.\n바다 괴물의 잘린 촉수는 하늘로 솟구치는 파도를 내려치더니 돌멩이처럼 부서지고 해연으로 추락했다.\n사람들은 포효가 열 차례의 밤낮 동안 이어지고, 천둥소리를 뒤덮을 정도로 컸다고 했다.\n사람들은 만 개의 목숨이 있어도 저승의 바다에 맞설 수 없다고 했다.\n용맹함으로 미숙함을 씻어내고, 거만함으로 나약함을 씻어내고 나서야——\n왜소한 그 몸은 비틀거리며 해안가에 올라왔다. 해가 이제 막 떠오르고, 바닷물은 마치 지난날에 흘린 피와 같았다"
   },
   "skill": {
-    "name": { "pt-BR": "Massacre", "en": "Massacre", "ja": "殺し合い", "ko": "살육" },
+    "name": { "pt-BR": "Massacre", "en": "Massacre", "zh-CN": "厮杀", "ja": "殺し合い", "ko": "살육" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. O Dano da Perícia e o Dano da Perícia Suprema causados pelo usuário aumentam em #2[i]%.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. The Skill DMG and Ultimate DMG dealt by the wearer increase by #2[i]%.",
+      "zh-CN": "使装备者的暴击率提高#1[i]%。装备者造成的战技和终结技伤害提高#2[i]%。",
       "ja": "装備キャラの会心率+#1[i]%。装備キャラの戦闘スキルダメージと必殺技ダメージ+#2[i]%。",
       "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터가 가하는 전투 스킬과 필살기 피해가 #2[i]% 증가한다"
     },

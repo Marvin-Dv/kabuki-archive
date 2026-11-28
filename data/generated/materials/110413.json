@@ -1,7 +1,7 @@
 {
   "id": 110413,
   "slug": "gelid-chitin",
-  "name": { "pt-BR": "Quitina Gélida", "en": "Gelid Chitin", "ja": "苦寒晶殻", "ko": "혹한 갑각" },
+  "name": { "pt-BR": "Quitina Gélida", "en": "Gelid Chitin", "zh-CN": "苦寒晶壳", "ja": "苦寒晶殻", "ko": "혹한 갑각" },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -11,6 +11,7 @@
   "sources": {
     "en": ["Stagnant Shadow: Cloudford", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Vau-Nuvem", "Sintetizador Omni — Troca de Material"],
+    "zh-CN": ["凝滞虚影【流云渡】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「流雲渡し」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [구름나루]", "「만능 합성기」- 재료 치환"]
   }

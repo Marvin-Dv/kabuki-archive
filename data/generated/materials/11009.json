@@ -1,7 +1,13 @@
 {
   "id": 11009,
   "slug": "astas-eidolon",
-  "name": { "pt-BR": "Eidolon de Asta", "en": "Asta's Eidolon", "ja": "「アスター」の星魂", "ko": "[아스타]의 성혼" },
+  "name": {
+    "pt-BR": "Eidolon de Asta",
+    "en": "Asta's Eidolon",
+    "zh-CN": "【艾丝妲】的星魂",
+    "ja": "「アスター」の星魂",
+    "ko": "[아스타]의 성혼"
+  },
   "rarity": 4,
   "type": "Material",
   "subType": "Eidolon",

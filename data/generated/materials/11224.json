@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Eidolon de 7 de Março: A Caça",
     "en": "March 7th: The Hunt's Eidolon",
+    "zh-CN": "【三月七•巡猎】的星魂",
     "ja": "「三月なのか・巡狩」の星魂",
     "ko": "[Mar. 7th•수렵]의 성혼"
   },
@@ -16,6 +17,7 @@
   "sources": {
     "en": ["Obtained from Saga of Primaveral Blade", "Obtained in the Luminary Wardance event"],
     "pt-BR": ["Obtém da Saga da Lâmina Primaveril", "Obtém no evento da Dança da Guerra Luminar"],
+    "zh-CN": ["「初花习剑录」活动获得", "「星天演武仪典」活动获得"],
     "ja": ["イベント「花咲く習剣録」で獲得", "イベント「星天演武典礼」で獲得"],
     "ko": ["「초화습검록」 이벤트로 획득", "「성천 연무 의식」 이벤트로 획득"]
   }

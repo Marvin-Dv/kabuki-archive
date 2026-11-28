@@ -1,7 +1,7 @@
 {
   "id": 20002,
   "slug": "collapsing-sky",
-  "name": { "pt-BR": "Céu Colapsado", "en": "Collapsing Sky", "ja": "天傾", "ko": "천경" },
+  "name": { "pt-BR": "Céu Colapsado", "en": "Collapsing Sky", "zh-CN": "天倾", "ja": "天傾", "ko": "천경" },
   "rarity": 3,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
@@ -9,14 +9,16 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino.\n\"A morte de todas as coisas é tão natural quanto seu nascimento. Nada escapa da erosão do tempo, que transforma as existências concretas em pó.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"The death of all things is as natural as their birth. Time erodes everything, turning all tangible entities to dust.\"",
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「万物的消逝就像其诞生一样自然，时间冲刷之下，一切有形之物都将焚为劫灰。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「万物の消失はその誕生と同じように自然。時間の流れのもと、一切の形あるものが塵となる」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「만물의 소실은 탄생만큼이나 자연스럽다. 시간의 흐름 속에서 모든 유형의 것들은 소각되어 먼지가 된다」"
   },
   "skill": {
-    "name": { "pt-BR": "Devastação", "en": "Havoc", "ja": "破滅", "ko": "파멸" },
+    "name": { "pt-BR": "Devastação", "en": "Havoc", "zh-CN": "破灭", "ja": "破滅", "ko": "파멸" },
     "description": {
       "pt-BR": "Aumenta o Dano do ATQ Básico e o Dano da Perícia do usuário em #1[i]%.",
       "en": "The wearer's Basic ATK and Skill deal #1[i]% more DMG.",
+      "zh-CN": "使装备者普攻和战技造成的伤害提高#1[i]%。",
       "ja": "装備キャラの通常攻撃と戦闘スキルによるダメージ+#1[i]%。",
       "ko": "장착한 캐릭터가 일반 공격과 전투 스킬로 가하는 피해가 #1[i]% 증가한다"
     },

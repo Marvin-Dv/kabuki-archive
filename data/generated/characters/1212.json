@@ -1,7 +1,7 @@
 {
   "id": 1212,
   "slug": "jingliu",
-  "name": { "pt-BR": "Jingliu", "en": "Jingliu", "ja": "鏡流", "ko": "경류" },
+  "name": { "pt-BR": "Jingliu", "en": "Jingliu", "zh-CN": "镜流", "ja": "鏡流", "ko": "경류" },
   "rarity": 5,
   "path": "Destruction",
   "element": "Ice",
@@ -11,10 +11,17 @@
     {
       "id": 121201,
       "type": "Basic",
-      "name": { "pt-BR": "Brilho da Lua Luzente", "en": "Lucent Moonglow", "ja": "流影穿", "ko": "빛나는 달빛" },
+      "name": {
+        "pt-BR": "Brilho da Lua Luzente",
+        "en": "Lucent Moonglow",
+        "zh-CN": "流影方晖",
+        "ja": "流影穿",
+        "ko": "빛나는 달빛"
+      },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Jingliu como Dano de Gelo a um único inimigo.",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%攻击力的冰属性伤害。",
         "ja": "指定した敵単体に鏡流の攻撃力#1[i]%分の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 경류 공격력 #1[i]%만큼의 얼음 속성 피해를 준다"
       },
@@ -24,19 +31,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo leve a um único inimigo-alvo.",
         "en": "Deals minor Ice DMG to one designated enemy target.",
+        "zh-CN": "对指定敌方单体造成少量冰属性伤害。",
         "ja": "敵単体に少量の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 소량의 얼음 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121202,
       "type": "Skill",
-      "name": { "pt-BR": "Clarão Transcendente", "en": "Transcendent Flash", "ja": "無罅の飛光", "ko": "무결의 섬광" },
+      "name": {
+        "pt-BR": "Clarão Transcendente",
+        "en": "Transcendent Flash",
+        "zh-CN": "无罅飞光",
+        "ja": "無罅の飛光",
+        "ko": "무결의 섬광"
+      },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Jingliu como Dano de Gelo a um único inimigo e obtém #2[i] acúmulo(s) de Sizígia.",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's ATK to one designated enemy and obtains #2[i] stack(s) of \"Syzygy.\"",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%攻击力的冰属性伤害，并获得#2[i]层【朔望】。",
         "ja": "指定した敵単体に鏡流の攻撃力#1[i]%分の氷属性ダメージを与え、「朔望」を#2[i]層獲得する。",
         "ko": "지정된 단일 적에게 경류 공격력 #1[i]%만큼의 얼음 속성 피해를 주고 [삭망]을 #2[i]스택 획득한다"
       },
@@ -62,11 +77,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo a um inimigo-alvo e obtém 1 acúmulo de Sizígia.",
         "en": "Deals Ice DMG to a target enemy and obtains 1 stack of Syzygy.",
+        "zh-CN": "对指定敌方单体造成冰属性伤害，并获得1层【朔望】。",
         "ja": "指定した敵単体に氷属性ダメージを与え、「朔望」を1層獲得する。",
         "ko": "지정된 단일 적에게 얼음 속성 피해를 가하고, [삭망] 1스택을 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 121203,
@@ -74,12 +90,14 @@
       "name": {
         "pt-BR": "Fluxonírico Florefêmero",
         "en": "Florephemeral Dreamflux",
+        "zh-CN": "昙华生灭，天河泻梦",
         "ja": "曇華生滅、夢瀉す天河",
         "ko": "담화생멸, 범람하는 은하"
       },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Jingliu como Dano de Gelo a um único inimigo e #3[i]% do ATQ de Jingliu como Dano de Gelo a inimigos adjacentes. Ganha #2[i] acúmulo(s) de Sizígia depois que o ataque acaba.",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's ATK to one designated enemy, and deals Ice DMG equal to #3[i]% of Jingliu's ATK to any adjacent enemies. Gains #2[i] stack(s) of \"Syzygy\" after attack ends.",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%攻击力的冰属性伤害，并对其相邻目标造成等同于镜流#3[i]%攻击力的冰属性伤害。攻击结束后获得#2[i]层【朔望】。",
         "ja": "指定した敵単体に鏡流の攻撃力#1[i]%分の氷属性ダメージを与え、隣接する敵に鏡流の攻撃力#3[i]%分の氷属性ダメージを与える。攻撃を行った後に「朔望」を#2[i]層獲得する。",
         "ko": "지정된 단일 적에게 경류 공격력 #1[i]%만큼의 얼음 속성 피해를 주고 인접한 목표에게 경류 공격력 #3[i]%만큼의 얼음 속성 피해를 준다. 공격 종료 후 [삭망]을 #2[i]스택 획득한다"
       },
@@ -105,11 +123,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo massivo a um inimigo-alvo e causa Dano de Gelo aos alvos adjacentes. Obtém 1 acúmulo de Sizígia.",
         "en": "Deals massive Ice DMG to a target enemy and deals Ice DMG to adjacent targets. Obtains 1 stack of Syzygy.",
+        "zh-CN": "对指定敌方单体造成大量冰属性伤害，对相邻目标造成冰属性伤害，并获得1层【朔望】。",
         "ja": "指定した敵単体に大量の氷属性ダメージを与え、隣接する敵に氷属性ダメージを与える。「朔望」を1層獲得する。",
         "ko": "지정된 단일 적에게 대량의 얼음 속성 피해를 가하고, 인접한 적에게 얼음 속성 피해를 가하며, [삭망] 1스택을 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 121204,
@@ -117,12 +136,14 @@
       "name": {
         "pt-BR": "Transmigração Crescente",
         "en": "Crescent Transmigration",
+        "zh-CN": "澹月转魄",
         "ja": "淡月転魄",
         "ko": "담월전백"
       },
       "description": {
         "pt-BR": "Quando Jingliu alcança #5[i] acúmulo(s) de Sizígia, ela entra no estado de Transmigração Espectral, Avançando sua Ação em #6[i]% e aumentando sua Chance de CRIT em #7[i]%. Depois, a Perícia de Jingliu, \"Clarão Transcendente\", é aprimorada em \"Lua Sobre o Rio Glacial\", apenas esta Perícia aprimorada fica disponível na batalha. Quando Jingliu usa um ataque no estado de Transmigração Espectral, ela consome PV de todos os outros aliados igual a #2[i]% dos respectivos PV máximos dos aliados (isso não pode reduzir os PV dos aliados para abaixo de 1). O ATQ de Jingliu aumenta em #3[i]% da quantidade total dos PV consumidos de todos os aliados neste ataque, com um máximo de #4[i]% de seu ATQ base e dura até o fim do ataque atual. Jingliu não pode entrar no estado de Transmigração Espectral novamente até que o estado atual de Transmigração Espectral tenha acabado. Sizígia pode acumular até 3 vezes. Quando o acúmulo de Sizígia chega a 0, Jingliu sai do estado de Transmigração Espectral.",
         "en": "When Jingliu has #5[i] stack(s) of Syzygy, she enters the Spectral Transmigration state with her action advanced by #6[i]% and her CRIT Rate increased by #7[i]%. Then, Jingliu's Skill \"Transcendent Flash\" is enhanced to \"Moon On Glacial River,\" and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to #2[i]% of their respective Max HP (this cannot reduce teammates' HP to lower than 1). Jingliu's ATK increases by #3[i]% of the total HP consumed from all allies in this attack, capped at #4[i]% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
+        "zh-CN": "当拥有#5[i]层【朔望】时，镜流将进入【转魄】状态，并使行动提前#6[i]%、暴击率提高#7[i]%，随后战技【无罅飞光】强化为【寒川映月】且仅能使用该战技。【转魄】状态下施放攻击时，消耗队友#2[i]%生命上限的生命值（最多消耗到每位队友生命值等于1）。根据本次我方全体生命值消耗总量的#3[i]%提高镜流攻击力，最高不超过镜流基础攻击力的#4[i]%，持续至本次攻击结束。【转魄】状态结束前无法再次进入【转魄】状态。【朔望】最多可累计3层，当【朔望】层数为0时，退出【转魄】状态。",
         "ja": "「朔望」を#5[i]層所持する時、鏡流は「転魄」状態に入り、会心率+#7[i]%。同時に行動順を#6[i]%早め、戦闘スキル「無罅の飛光」が「寒川映月」に強化される。「転魄」状態の鏡流はこの強化戦闘スキルのみを使用できる。「転魄」状態で攻撃を行った時、自身以外の味方のHPをそれぞれの最大HP#2[i]%分消費し（残りHPが足りない場合、攻撃を行った時、自身以外の味方の残りHPが1になる）、鏡流の攻撃力が、その回に消費したHP#3[i]%分アップする。攻撃力アップ量は鏡流の基礎攻撃力の#4[i]%を超えず、その回の攻撃が終了するまで継続。「転魄」状態が終了するまで、再度「転魄」状態に入ることはできない。「朔望」は最大で3層累積できる。「朔望」が0層になると、「転魄」状態が解除される。",
         "ko": "[삭망] #5[i]스택 보유 시, 경류가 [전백(轉魄)] 상태에 진입하고 행동 게이지가 #6[i]% 증가, 치명타 확률이 #7[i]% 증가한다. 이후 전투 스킬 [무결의 섬광]이 [한천(寒川)에 비친 달]로 강화되며 해당 전투 스킬만 사용할 수 있다. [전백] 상태일 때 공격을 발동하면 동료 HP를 각각 동료 HP 최대치의 #2[i]%만큼 소모한다(모든 동료의 HP는 최대 1까지 소모 가능). 이번에 모든 아군 HP 총 소모량의 #3[i]%만큼 경류의 공격력이 증가하고 최대 경류 기초 공격력의 #4[i]%를 넘지 않는다. 해당 효과는 이번 공격이 종료될 때까지 지속된다. [전백] 상태가 종료되기 전에는 다시 [전백] 상태에 진입할 수 없다. [삭망]은 최대 3스택까지 중첩된다. [삭망] 스택이 0이 되면, [전백] 상태가 종료된다"
       },
@@ -148,19 +169,21 @@
       "summary": {
         "pt-BR": "Ao estar em posse de 2 acúmulos de Sizígia, Jingliu entra no estado de Transmigração Espectral Avançando  Ação em 100%, aumentando sua Chance de CRIT e Aprimorando sua Perícia. Usar um ataque neste estado consome os PV de todos os outros aliados e aumenta o ATQ de Jingliu de acordo com o total de PV consumido. Quando os acúmulos de Sizígia chegam a 0, sai do estado de Transmigração Espectral.",
         "en": "When possessing 2 stacks of Syzygy, Jingliu enters the Spectral Transmigration state with her action advanced by 100%, her CRIT Rate increased, and her Skill becoming enhanced. Using an attack in this state consumes HP from her teammates and increases Jingliu's ATK according to the total HP consumed. When Syzygy stacks become 0, exits the Spectral Transmigration state.",
+        "zh-CN": "当拥有2层【朔望】时，进入【转魄】状态，使行动提前100%、提高自身暴击率，并获得强化战技。施放攻击时，消耗队友的生命值并根据消耗总量提升镜流的攻击力。当【朔望】层数为0时，退出【转魄】状态。",
         "ja": "「朔望」を2層持つと「転魄」状態に入り、行動順を100%早め、自身の会心率をアップして戦闘スキルを強化する。攻撃を行った時、自身以外の味方のHPを消費し、消費したHPに応じて鏡流の攻撃力をアップする。「朔望」が0層になると「転魄」状態は終了する。",
         "ko": "[삭망] 2스택 보유 시, [전백(轉魄)] 상태에 진입하고 행동 게이지가 100% 증가하며, 자신의 치명타 확률이 증가하고 전투 스킬이 강화된다. 공격을 발동하면 동료의 HP를 소모하고, 소모 총량에 따라 경류의 공격력이 증가한다. [삭망] 스택 수가 0이 되면 [전백] 상태가 종료된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 121206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -169,6 +192,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -176,10 +200,17 @@
     {
       "id": 121207,
       "type": "Technique",
-      "name": { "pt-BR": "Brilho da Verdade", "en": "Shine of Truth", "ja": "神識照らす月影", "ko": "참나를 비추는 거울" },
+      "name": {
+        "pt-BR": "Brilho da Verdade",
+        "en": "Shine of Truth",
+        "zh-CN": "古镜照神",
+        "ja": "神識照らす月影",
+        "ko": "참나를 비추는 거울"
+      },
       "description": {
         "pt-BR": "Após usar esta Técnica, cria uma Dimensão Especial ao redor de Jingliu que dura por #3[i] segundos, e todos os inimigos nesta Dimensão Especial sofrerão Congelamento. Após entrar em combate com os inimigos na Dimensão Especial, Jingliu recupera imediatamente #6[i] de Energia e obtém #1[i] acúmulo(s) de Sizígia, com uma chance-base de #2[i]% de causar Congelamento nos inimigos-alvo por #4[i] rodada(s). Enquanto estiverem com Congelamento, inimigos-alvo não podem agir, e recebem Dano de Gelo Adicional igual a #5[i]% do ATQ de Jingliu no início de cada rodada. Só 1 Efeito de Dimensão criado por aliados pode existir ao mesmo tempo.",
         "en": "After using this Technique, creates a Special Dimension around Jingliu that lasts for #3[i] seconds, and all enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of Syzygy, with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to #5[i]% of Jingliu's ATK at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，在自身周围制造1片持续#3[i]秒的特殊领域，处于特殊领域内的敌人陷入冻结状态。与处于特殊领域内的敌人进入战斗后，立即为自身恢复#6[i]点能量、获得#1[i]层【朔望】并有#2[i]%的基础概率使敌方目标陷入冻结状态，持续#4[i]回合。冻结状态下，敌方目标无法行动，且每回合开始时受到等同于镜流#5[i]%攻击力的冰属性附加伤害。我方制造的领域效果最多存在1个。",
         "ja": "秘技を使用した後、自身の周囲に#3[i]秒間継続する特殊領域を作り出す。特殊領域内の敵は凍結状態になる。特殊領域内の敵と戦闘に入った後、自身のEPを#6[i]回復し、「朔望」を#1[i]層獲得して#2[i]%の基礎確率で敵を凍結状態にする、#4[i]ターン継続。凍結状態の敵は行動できず、ターンが回ってくるたびに鏡流の攻撃力#5[i]%分の氷属性付加ダメージを受ける。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 자신의 주위에 #3[i]초 동안 지속되는 특수 영역을 1개 만든다. 특수 영역 내의 적은 빙결 상태에 빠진다. 특수 영역 내의 적과 전투에 진입하면 즉시 자신의 에너지가 #6[i]pt 회복되고, 삭망을 #1[i]스택 획득하며, #2[i]%의 기본 확률로 적이 빙결 상태에 빠진다, 지속 시간: #4[i]턴. 빙결 상태일 때 적은 행동할 수 없고, 턴이 시작될 때마다 경류 공격력의 #5[i]%만큼 얼음 속성 추가 피해를 받는다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
@@ -189,11 +220,12 @@
       "summary": {
         "pt-BR": "Cria uma Dimensão Especial em volta da unidade. Inimigos dentro desta dimensão sofrerão \"Congelamento\". Após entrar em combate com inimigos nesta dimensão, este personagem recupera Energia e obtém 1 acúmulo de \"Sizígia\" com altas chances de aplicar \"Congelamento\" nos inimigos.",
         "en": "Creates a Special Dimension around this unit. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and gains 1 stack of \"Syzygy\" with a high chance to Freeze enemies.",
+        "zh-CN": "在自身周围制造特殊领域。领域内敌人陷入冻结状态。与领域内敌人进入战斗后，恢复能量、获得1层【朔望】并大概率使敌方目标陷入冻结状态。",
         "ja": "自身の周囲に特殊領域を作り出す。領域内の敵は凍結状態になる。領域内の敵と戦闘に入った後、EPを回復し、「朔望」を1層獲得して高確率で敵を凍結状態にする。",
         "ko": "자신의 주위에 특수 영역을 만든다. 영역 내의 적은 빙결 상태에 빠진다. 영역 내의 적과 전투에 진입하면 에너지를 회복하고, [삭망]을 1스택 획득하며, 높은 확률로 적이 빙결 상태에 빠진다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 121209,
@@ -201,12 +233,14 @@
       "name": {
         "pt-BR": "Lua sobre o Rio Glacial",
         "en": "Moon On Glacial River",
+        "zh-CN": "寒川映月",
         "ja": "寒川映月",
         "ko": "한천(寒川)에 비친 달"
       },
       "description": {
         "pt-BR": "Causa #1[i]% do ATQ de Jingliu como Dano de Gelo a um único inimigo e #3[i]% do ATQ de Jingliu como Dano de Gelo a inimigos adjacentes. Consome #2[i] acúmulo(s) de Sizígia. Usar esta habilidade não consome Pontos de Perícia.",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's ATK to one designated enemy, and deals Ice DMG equal to #3[i]% of Jingliu's ATK to adjacent enemies. Consumes #2[i] stack(s) of \"Syzygy.\" Using this ability does not consume Skill Points.",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%攻击力的冰属性伤害，并对其相邻目标造成等同于镜流#3[i]%攻击力的冰属性伤害。消耗#2[i]层【朔望】。施放本技能不消耗战技点。",
         "ja": "指定した敵単体に鏡流の攻撃力#1[i]%分の氷属性ダメージを与え、隣接する敵に鏡流の攻撃力#3[i]%分の氷属性ダメージを与える。「朔望」を#2[i]層消費する。このスキルを使用してもSPは消費されない。",
         "ko": "지정된 단일 적에게 경류 공격력 #1[i]%만큼의 얼음 속성 피해를 주고 인접한 목표에게 경류 공격력 #3[i]%만큼의 얼음 속성 피해를 준다. [삭망]을 #2[i]스택 소모한다. 해당 스킬 발동 시 전투 스킬 포인트가 소모되지 않는다"
       },
@@ -232,19 +266,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo a um único inimigo-alvo e Dano de Gelo a alvos adjacentes. Consome 1 acúmulo de Sizígia.",
         "en": "Deals Ice DMG to one designated enemy target and Ice DMG to adjacent targets. Consumes 1 stack of \"Syzygy.\"",
+        "zh-CN": "对指定敌方单体造成冰属性伤害，对相邻目标造成冰属性伤害，并消耗1层【朔望】。",
         "ja": "指定した敵単体と隣接する敵に氷属性ダメージを与え、「朔望」を1層消費する。",
         "ko": "지정된 단일 적에게 얼음 속성 피해를 가하고, 인접한 목표에게 얼음 속성 피해를 가하며, [삭망]을 1스택 소모한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 1121201,
       "type": "Basic",
-      "name": { "pt-BR": "Brilho da Lua Luzente", "en": "Lucent Moonglow", "ja": "流影穿", "ko": "빛나는 달빛" },
+      "name": {
+        "pt-BR": "Brilho da Lua Luzente",
+        "en": "Lucent Moonglow",
+        "zh-CN": "流影方晖",
+        "ja": "流影穿",
+        "ko": "빛나는 달빛"
+      },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% dos PV máximos de Jingliu a um inimigo designado.",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%生命上限的冰属性伤害。",
         "ja": "指定した敵単体に鏡流の最大HP#1[i]%分の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 경류 HP 최대치의 #1[i]%만큼 얼음 속성 피해를 가한다"
       },
@@ -254,19 +296,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo leve a um inimigo-alvo designado.",
         "en": "Deals minor Ice DMG to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成少量冰属性伤害。",
         "ja": "指定した敵単体に少量の氷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 소량의 얼음 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1121202,
       "type": "Skill",
-      "name": { "pt-BR": "Clarão Transcendente", "en": "Transcendent Flash", "ja": "無罅の飛光", "ko": "무결의 섬광" },
+      "name": {
+        "pt-BR": "Clarão Transcendente",
+        "en": "Transcendent Flash",
+        "zh-CN": "无罅飞光",
+        "ja": "無罅の飛光",
+        "ko": "무결의 섬광"
+      },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% dos PV máximos de Jingliu a um inimigo designado e obtém #2[i] acúmulo(s) de \"Sizígia\".",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy and gains #2[i] stack(s) of \"Syzygy.\"",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%生命上限的冰属性伤害，并获得#2[i]层【朔望】。",
         "ja": "指定した敵単体に鏡流の最大HP#1[i]%分の氷属性ダメージを与え、「朔望」を#2[i]層獲得する。",
         "ko": "지정된 단일 적에게 경류 HP 최대치의 #1[i]%만큼 얼음 속성 피해를 가하고, [삭망]을 #2[i]스택 획득한다"
       },
@@ -292,11 +342,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo massivo a um inimigo designado e obtém 1 acúmulo de \"Sizígia\".",
         "en": "Deals massive Ice DMG to one designated enemy and gains 1 stack of \"Syzygy\".",
+        "zh-CN": "对指定敌方单体造成大量冰属性伤害，并获得1层【朔望】。",
         "ja": "指定した敵単体に大量の氷属性ダメージを与え、「朔望」を1層獲得する。",
         "ko": "지정된 단일 적에게 대량의 얼음 속성 피해를 가하고, [삭망]을 1스택 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 1121203,
@@ -304,12 +355,14 @@
       "name": {
         "pt-BR": "Fluxonírico Florefêmero",
         "en": "Florephemeral Dreamflux",
+        "zh-CN": "昙华生灭，天河泻梦",
         "ja": "曇華生滅、夢瀉す天河",
         "ko": "담화생멸, 범람하는 은하"
       },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% dos PV máximos de Jingliu a um inimigo designado e causa Dano de Gelo igual a #3[i]% dos PV máximos de Jingliu aos alvos adjacentes. Ganha #2[i] acúmulo(s) de \"Sizígia\" após o fim do ataque.",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy, and deals Ice DMG equal to #3[i]% of Jingliu's Max HP to adjacent targets. Gains #2[i] stack(s) of \"Syzygy\" after the attack ends.",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%生命上限的冰属性伤害，并对其相邻目标造成等同于镜流#3[i]%生命上限的冰属性伤害。攻击结束后获得#2[i]层【朔望】。",
         "ja": "指定した敵単体に鏡流の最大HP#1[i]%分の氷属性ダメージを与え、隣接する敵に鏡流の最大HP#3[i]%分の氷属性ダメージを与える。攻撃を行った後に「朔望」を#2[i]層獲得する。",
         "ko": "지정된 단일 적에게 경류 HP 최대치의 #1[i]%만큼 얼음 속성 피해를 가하고, 인접한 목표에게 경류 HP 최대치의 #3[i]%만큼 얼음 속성 피해를 가한다. 공격 종료 후 [삭망]을 #2[i]스택 획득한다"
       },
@@ -335,11 +388,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo massivo a um inimigo designado e causa Dano de Gelo aos alvos adjacentes. Obtém 1 acúmulo de \"Sizígia\".",
         "en": "Deals massive Ice DMG to one designated enemy and deals Ice DMG to their adjacent targets. Gains 1 stack of \"Syzygy\".",
+        "zh-CN": "对指定敌方单体造成大量冰属性伤害，对相邻目标造成冰属性伤害，并获得1层【朔望】。",
         "ja": "指定した敵単体に大量の氷属性ダメージを与え、隣接する敵に氷属性ダメージを与える。「朔望」を1層獲得する。",
         "ko": "지정된 단일 적에게 대량의 얼음 속성 피해를 가하고, 인접한 목표에게 얼음 속성 피해를 가하며, [삭망] 1스택을 획득한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 1121204,
@@ -347,12 +401,14 @@
       "name": {
         "pt-BR": "Transmigração Crescente",
         "en": "Crescent Transmigration",
+        "zh-CN": "澹月转魄",
         "ja": "淡月転魄",
         "ko": "담월전백"
       },
       "description": {
         "pt-BR": "Quando Jingliu possui #5[i] acúmulos de \"Sizígia\", ela entra no estado de \"Transmigração Espectral\" ganhando 1 acúmulo adicional de \"Sizígia\", Avançando Adiante a sua ação em #6[i]% e sua Chance de CRIT aumentada em #7[i]%. Então, a Perícia de Jingliu \"Clarão Transcendente\" é aprimorada para \"Lua sobre o Rio Glacial\", e apenas esta Perícia aprimorada fica disponível para uso em batalha. Quando Jingliu usa um ataque no estado de \"Transmigração Espectral\", ela consome PV dos companheiros igual a #2[i]% de seus PV máximos (isso não pode reduzir os PV dos aliados para menos de 1). Durante o estado de \"Transmigração Espectral\", quando aliados-alvo recebem Dano ou consomem PV, Jingliu ganha 1 acúmulo de \"Luar\". Cada acúmulo de \"Luar\" aumenta o Dano CRIT de Jingliu em #3[i]%, podendo acumular até #4[i] vez(es). Jingliu não pode entrar novamente no estado de \"Transmigração Espectral\" até que o estado atual termine. \"Sizígia\" pode acumular até 4 vezes. Quando os acúmulos de \"Sizígia\" chegarem a 0, Jingliu sairá do estado de \"Transmigração Espectral\" e removerá todo \"Luar\". Após aliados-alvo receberem Dano ou consumirem PV por um total de #8[i] vezes, Jingliu ganha 1 acúmulo de \"Sizígia\". Cada ataque recebido por cada alvo é contabilizado apenas uma vez.",
         "en": "When Jingliu has #5[i] stacks of \"Syzygy,\" she enters the \"Spectral Transmigration\" state with 1 extra stack of \"Syzygy\" gained, her action advanced by #6[i]%, and her CRIT Rate increased by #7[i]%. Then, Jingliu's Skill \"Transcendent Flash\" is enhanced to \"Moon On Glacial River,\" and only this enhanced Skill is available for use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from her teammates equal to #2[i]% of their respective Max HP (this cannot reduce teammates' HP to lower than 1). During the \"Spectral Transmigration\" state, when ally targets receive DMG or consume HP, Jingliu gains 1 stack of \"Moonlight.\" Each \"Moonlight\" stack increases Jingliu's CRIT DMG by #3[i]%, stacking up to #4[i] time(s). Jingliu cannot enter the \"Spectral Transmigration\" state again until the current \"Spectral Transmigration\" state ends. \"Syzygy\" can stack up to 4 times. When \"Syzygy\" stacks become 0, Jingliu will exit the \"Spectral Transmigration\" state and remove all \"Moonlight.\" After ally targets receive DMG or consume HP for a total of #8[i] times, Jingliu gains 1 stack of \"Syzygy.\" Each attack received by each target is only counted once.",
+        "zh-CN": "当拥有#5[i]层【朔望】时，镜流将进入【转魄】状态，额外获得1层【朔望】并使行动提前#6[i]%、暴击率提高#7[i]%，随后战技【无罅飞光】强化为【寒川映月】且仅能使用该战技。【转魄】状态下施放攻击时，消耗队友#2[i]%生命上限的生命值（最多消耗到每位队友生命值等于1）。【转魄】状态内，我方目标受到伤害或消耗生命值时，镜流会获得1层【月色】，每层【月色】使镜流造成的暴击伤害提高#3[i]%，最多拥有#4[i]层。【转魄】状态结束前无法再次进入【转魄】状态。【朔望】最多可累计4层，当【朔望】层数为0时，退出【转魄】状态并移除所有的【月色】。我方目标累计受到伤害或消耗生命值#8[i]次后，镜流获得1层【朔望】，每个目标每次受到攻击最多计算1次。",
         "ja": "「朔望」を#5[i]層所持する時、鏡流は「転魄」状態に入り、追加で「朔望」を1層獲得し、会心率+#7[i]%。同時に行動順を#6[i]%早め、戦闘スキル「無罅の飛光」が「寒川映月」に強化される。「転魄」状態の鏡流はこの強化戦闘スキルのみを使用できる。「転魄」状態で攻撃を行った時、自身以外の味方のHPをそれぞれの最大HP#2[i]%分消費する（残りHPが足りない場合、攻撃を行った時、自身以外の味方の残りHPが1になる）。「転魄」状態中、味方がダメージを受ける、またはHPを消費するたびに、鏡流は「月光」を1層獲得する。獲得した「月光」1層につき、鏡流の会心ダメージ+#3[i]%、最大#4[i]層まで所持することが可能。「転魄」状態が終了するまで、再度「転魄」状態に入ることはできない。「朔望」は最大で4層累積できる。「朔望」が0層になると、「転魄」状態が解除され、「月光」をすべて失う。味方が累計で#8[i]回ダメージを受けた、またはHPを消費した後、鏡流は「朔望」を1層獲得する。味方それぞれが攻撃を受けるたびにカウントされる被撃回数は最大1回まで。",
         "ko": "[삭망] #5[i]스택 보유 시 경류가 [전백(轉魄)] 상태에 진입하고, 추가로 [삭망]을 1스택 획득하며, 행동 게이지가 #6[i]% 증가하고 치명타 확률이 #7[i]% 증가한다. 이후 전투 스킬 [무결의 섬광]이 [한천(寒川)에 비친 달]로 강화되며 해당 전투 스킬만 사용할 수 있다. [전백] 상태일 때 공격을 발동하면 동료의 HP를 각각 동료 HP 최대치의 #2[i]%만큼 소모한다(각 동료의 HP는 최대 1까지 소모 가능). [전백] 상태에서 아군이 피해를 받거나 HP를 소모하면 경류는 [달빛]을 1스택 획득한다. [달빛] 스택마다 경류가 가하는 치명타 피해가 #3[i]% 증가하고, 최대 #4[i]스택 보유할 수 있다. [전백] 상태가 종료되기 전에는 다시 [전백] 상태에 진입할 수 없다. [삭망]은 최대 4스택 누적되며, [삭망] 스택이 0이 되면 [전백] 상태를 종료하고 모든 [달빛]을 해제한다. 아군이 누적 #8[i]회 피해를 받거나 HP를 소모하면 경류가 [삭망]을 1스택 획득하며, 각 목표가 피격될 때마다 최대 1회 계산된다"
       },
@@ -378,19 +434,21 @@
       "summary": {
         "pt-BR": "Ao possuir 2 acúmulo(s) de \"Sizígia\", Jingliu entra no estado de \"Transmigração Espectral\", tendo sua ação Avançada Adiante em 100%, sua Chance de CRIT aumentada e sua Perícia aprimorada. Usar um ataque no estado de \"Transmigração Espectral\" consome PV dos aliados. Quando aliados-alvo recebem Dano ou consomem PV, o Dano CRIT de Jingliu aumenta. Quando os acúmulos de \"Sizígia\" atingem 0, ela sai do estado de \"Transmigração Espectral\".",
         "en": "When possessing 2 stack(s) of \"Syzygy,\" Jingliu enters the \"Spectral Transmigration\" state with her action advanced by 100%, her CRIT Rate increased, and her Skill enhanced. Using an attack in the \"Spectral Transmigration\" state consumes HP from her teammates. And when ally targets receive DMG or consume HP, Jingliu's CRIT DMG increases. When \"Syzygy\" stacks become 0, exits the \"Spectral Transmigration\" state.",
+        "zh-CN": "当拥有2层【朔望】时，进入【转魄】状态，使行动提前100%、提高自身暴击率，并获得强化战技。【转魄】状态内，施放攻击时，消耗队友的生命值，我方目标受到伤害或消耗生命值时，镜流的暴击伤害提高。当【朔望】层数为0时，退出【转魄】状态。",
         "ja": "「朔望」を2層持つと「転魄」状態に入り、行動順を100%早め、自身の会心率をアップして戦闘スキルを強化する。「転魄」状態中、攻撃を行った時、自身以外の味方のHPを消費する。味方がダメージを受けた、またはHPを消費した時、鏡流の会心ダメージがアップする。「朔望」が0層になると「転魄」状態は終了する。",
         "ko": "[삭망] 2스택 보유 시 [전백(轉魄)] 상태에 진입하고 행동 게이지가 100% 증가하며, 자신의 치명타 확률이 증가하고 전투 스킬이 강화된다. [전백] 상태에서 공격을 발동하면 동료의 HP를 소모하며, 아군이 피해를 받거나 HP를 소모할 시 경류의 치명타 피해가 증가한다. [삭망] 스택이 0이 되면 [전백] 상태가 종료된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 1121206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -399,6 +457,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -406,10 +465,17 @@
     {
       "id": 1121207,
       "type": "Technique",
-      "name": { "pt-BR": "Brilho da Verdade", "en": "Shine of Truth", "ja": "神識照らす月影", "ko": "참나를 비추는 거울" },
+      "name": {
+        "pt-BR": "Brilho da Verdade",
+        "en": "Shine of Truth",
+        "zh-CN": "古镜照神",
+        "ja": "神識照らす月影",
+        "ko": "참나를 비추는 거울"
+      },
       "description": {
         "pt-BR": "Após usar a Técnica, cria 1 Dimensão Especial ao redor desta unidade que dura por #3[i] segundos. Todos os inimigos nesta Dimensão Especial serão afligidos com \"Congelamento\". Após entrar em combate com os inimigos na Dimensão Especial, Jingliu recupera imediatamente #6[i] de Energia e obtém #1[i] acúmulo(s) de \"Sizígia\", com uma chance-base de #2[i]% de causar \"Congelamento\" nos inimigos-alvo por #4[i] rodada(s). Enquanto estiverem afligidos com \"Congelamento\", inimigos-alvo não podem agir, e recebem Dano de Gelo Adicional igual a #5[i]% dos PV máximos de Jingliu no início de cada rodada. Só 1 Efeito de Dimensão criado por aliados pode existir por vez.",
         "en": "After using Technique, creates a Special Dimension around this unit that lasts for #3[i] seconds. All enemies in this Special Dimension will become Frozen. After entering combat with enemies in the Special Dimension, Jingliu immediately regenerates #6[i] Energy and obtains #1[i] stack(s) of \"Syzygy,\" with a #2[i]% base chance of Freezing enemy targets for #4[i] turn(s). While Frozen, enemy targets cannot take action, and take Ice Additional DMG equal to #5[i]% of Jingliu's Max HP at the start of every turn. Only 1 Dimension Effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，在自身周围制造1片持续#3[i]秒的特殊领域，处于特殊领域内的敌人陷入冻结状态。与处于特殊领域内的敌人进入战斗后，立即为自身恢复#6[i]点能量、获得#1[i]层【朔望】并有#2[i]%的基础概率使敌方目标陷入冻结状态，持续#4[i]回合。冻结状态下，敌方目标无法行动，且每回合开始时受到等同于镜流#5[i]%生命上限的冰属性附加伤害。我方制造的领域效果最多存在1个。",
         "ja": "秘技を使用した後、自身の周囲に#3[i]秒間継続する特殊領域を作り出す。特殊領域内の敵は凍結状態になる。特殊領域内の敵と戦闘に入った後、自身のEPを#6[i]回復し、「朔望」を#1[i]層獲得して#2[i]%の基礎確率で敵を凍結状態にする、#4[i]ターン継続。凍結状態の敵は行動できず、ターンが回ってくるたびに鏡流の最大HP#5[i]%分の氷属性付加ダメージを受ける。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 자신의 주위에 #3[i]초 동안 지속되는 특수 영역을 1개 만든다. 특수 영역 내의 적은 빙결 상태에 빠진다. 특수 영역 내의 적과 전투에 진입하면 즉시 자신의 에너지가 #6[i]pt 회복되고 삭망을 #1[i]스택 획득하며, #2[i]%의 기본 확률로 적이 빙결 상태에 빠진다, 지속 시간: #4[i]턴. 빙결 상태일 때 적은 행동할 수 없고, 턴이 시작될 때마다 경류 HP 최대치의 #5[i]%만큼 얼음 속성 추가 피해를 받는다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
@@ -419,11 +485,12 @@
       "summary": {
         "pt-BR": "Cria uma Dimensão Especial em volta da unidade. Inimigos dentro desta dimensão sofrerão \"Congelamento\". Após entrar em combate com inimigos nesta dimensão, este personagem recupera Energia e obtém 1 acúmulo de \"Sizígia\" com altas chances de aplicar \"Congelamento\" nos inimigos.",
         "en": "Creates a Special Dimension around this unit. Enemies within this dimension will become Frozen. After entering combat with enemies in the dimension, this character regenerates Energy and gains 1 stack of \"Syzygy\" with a high chance to Freeze enemies.",
+        "zh-CN": "在自身周围制造特殊领域。领域内敌人陷入冻结状态。与领域内敌人进入战斗后，恢复能量、获得1层【朔望】并大概率使敌方目标陷入冻结状态。",
         "ja": "自身の周囲に特殊領域を作り出す。領域内の敵は凍結状態になる。領域内の敵と戦闘に入った後、EPを回復し、「朔望」を1層獲得して高確率で敵を凍結状態にする。",
         "ko": "자신의 주위에 특수 영역을 만든다. 영역 내의 적은 빙결 상태에 빠진다. 영역 내의 적과 전투에 진입하면 에너지를 회복하고, [삭망]을 1스택 획득하며, 높은 확률로 적이 빙결 상태에 빠진다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 1121209,
@@ -431,12 +498,14 @@
       "name": {
         "pt-BR": "Lua sobre o Rio Glacial",
         "en": "Moon On Glacial River",
+        "zh-CN": "寒川映月",
         "ja": "寒川映月",
         "ko": "한천(寒川)에 비친 달"
       },
       "description": {
         "pt-BR": "Causa Dano de Gelo igual a #1[i]% dos PV máximos de Jingliu a um inimigo designado e causa Dano de Gelo igual a #3[i]% dos PV máximos de Jingliu a alvos adjacentes. Consome #2[i] acúmulo(s) de \"Sizígia\". Usar esta habilidade não consome Pontos de Perícia.",
         "en": "Deals Ice DMG equal to #1[i]% of Jingliu's Max HP to one designated enemy, and deals Ice DMG equal to #3[i]% of Jingliu's Max HP to adjacent targets. Consumes #2[i] stack(s) of \"Syzygy.\" Using this ability does not consume Skill Points.",
+        "zh-CN": "对指定敌方单体造成等同于镜流#1[i]%生命上限的冰属性伤害，并对其相邻目标造成等同于镜流#3[i]%生命上限的冰属性伤害。消耗#2[i]层【朔望】。施放本技能不消耗战技点。",
         "ja": "指定した敵単体に鏡流の最大HP#1[i]%分の氷属性ダメージを与え、隣接する敵に鏡流の最大HP#3[i]%分の氷属性ダメージを与える。「朔望」を#2[i]層消費する。このスキルを使用してもSPは消費されない。",
         "ko": "지정된 단일 적에게 경류 HP 최대치의 #1[i]%만큼 얼음 속성 피해를 가하고, 인접한 목표에게 경류 HP 최대치의 #3[i]%만큼 얼음 속성 피해를 가한다. [삭망]을 #2[i]스택 소모한다. 해당 스킬 발동 시 전투 스킬 포인트가 소모되지 않는다"
       },
@@ -462,11 +531,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Gelo massivo a um inimigo designado e Dano de Gelo a alvos adjacentes. Consome 1 acúmulo de \"Sizígia\".",
         "en": "Deals massive Ice DMG to one designated enemy and Ice DMG to adjacent targets. Consumes 1 stack of \"Syzygy.\"",
+        "zh-CN": "对指定敌方单体造成大量冰属性伤害，对相邻目标造成冰属性伤害，并消耗1层【朔望】。",
         "ja": "指定した敵単体と隣接する敵に大量の氷属性ダメージを与え、「朔望」を1層消費する。",
         "ko": "지정된 단일 적에게 대량의 얼음 속성 피해를 가하고, 인접한 목표에게 얼음 속성 피해를 가하며, [삭망]을 1스택 소모한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     }
   ],
   "eidolons": [
@@ -475,12 +545,14 @@
       "name": {
         "pt-BR": "Queda Lunar nos Portões de Tianguan",
         "en": "Moon Crashes Tianguan Gate",
+        "zh-CN": "月犯天关",
         "ja": "{RUBY_B#てんかん}天関{RUBY_E#}を{RUBY_B#おか}犯{RUBY_E#}す{RUBY_B#つき}月{RUBY_E#}",
         "ko": "천관을 범한 달"
       },
       "description": {
         "pt-BR": "Aumenta o Dano CRIT de Jingliu em 24% pela(s) próxima(s) 1 rodada(s) quando usa sua Perícia Aprimorada ou sua Perícia Suprema. Se apenas um alvo inimigo for atacado, o alvo receberá adicionalmente Dano de Gelo igual a 100% do ATQ de Jingliu.",
         "en": "When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn(s). If only one enemy target is attacked, the target will additionally be dealt Ice DMG equal to 100% of Jingliu's ATK.",
+        "zh-CN": "施放终结技或强化战技时，镜流的暴击伤害提高24%，持续1回合。若只攻击了1个敌方目标，则额外对该目标造成1次等同于镜流100%攻击力的冰属性伤害。",
         "ja": "必殺技または強化戦闘スキルを発動した時、鏡流の会心ダメージ+24%、1ターン継続。敵1体のみを攻撃した場合、さらにその敵に鏡流の攻撃力100%分の氷属性ダメージを1回与える。",
         "ko": "필살기 또는 강화된 전투 스킬 발동 시 경류의 치명타 피해가 24% 증가한다, 지속 시간: 1턴. 적을 1기만 공격하면 해당 목표에게 추가로 경류 공격력의 100%만큼 얼음 속성 피해를 가한다"
       },
@@ -493,12 +565,14 @@
       "name": {
         "pt-BR": "Sombras Crescentes Sobre a Constelação de Qixing",
         "en": "Crescent Shadows Qixing Dipper",
+        "zh-CN": "朔晕七星",
         "ja": "{RUBY_B#げつうん}月暈{RUBY_E#}に{RUBY_B#しちせい}七星{RUBY_E#}",
         "ko": "칠성을 덮은 삭월의 밤"
       },
       "description": {
         "pt-BR": "Após usar a Perícia Suprema, aumenta o Dano da próxima Perícia Aprimorada em 80%.",
         "en": "After using Ultimate, increases the DMG of the next Enhanced Skill by 80%.",
+        "zh-CN": "施放终结技后，下一次强化战技的伤害提高80%。",
         "ja": "必殺技を発動した後、次の強化戦闘スキルによるダメージ+80%。",
         "ko": "필살기 발동 후 다음 강화된 전투 스킬의 피해가 80% 증가한다"
       },
@@ -511,12 +585,14 @@
       "name": {
         "pt-BR": "Neblina Mercurial da Crescente",
         "en": "Halfmoon Gapes Mercurial Haze",
+        "zh-CN": "半璧迫望",
         "ja": "{RUBY_B#もちづき}望月{RUBY_E#}に{RUBY_B#せま}迫{RUBY_E#}る{RUBY_B#はんぺき}半璧{RUBY_E#}",
         "ko": "차오르는 달"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -529,12 +605,14 @@
       "name": {
         "pt-BR": "Brilho da Lança Lunar",
         "en": "Lunarlance Shines Skyward Dome",
+        "zh-CN": "持秉玄烛",
         "ja": "{RUBY_B#てのひら}掌{RUBY_E#}の{RUBY_B#げっこう}月光{RUBY_E#}",
         "ko": "달의 검을 쥐고"
       },
       "description": {
         "pt-BR": "Durante o estado de Transmigração Espectral, o ATQ obtido por consumir os PV dos aliados é adicionalmente aumentado em 90% do total de PV consumido por toda a equipe. O limite para o aumento de ATQ feito dessa forma também aumenta em 30%.",
         "en": "During the Spectral Transmigration state, the ATK gained from consuming teammates' HP is additionally increased by 90% of the total HP consumed from the entire team. The cap for ATK gained this way also increases by 30%.",
+        "zh-CN": "【转魄】状态下消耗队友生命值获得的攻击力额外提高，提高数值等同于我方全体生命值消耗总量的90%，获得的攻击力上限提高30%。",
         "ja": "「転魄」状態で味方のHPを消費して獲得する攻撃力が、さらに味方全体が消費したHPの90%分アップする。獲得できる攻撃力の上限+30%。",
         "ko": "[전백(轉魄)] 상태일 때 동료의 HP를 소모해 획득하는 공격력이 추가로 모든 아군 HP 총 소모량의 90%만큼 증가한다. 획득하는 공격력의 최대치가 30% 증가한다"
       },
@@ -547,12 +625,14 @@
       "name": {
         "pt-BR": "Brilho Noturno Estelar",
         "en": "Night Shades Astral Radiance",
+        "zh-CN": "晦入三台",
         "ja": "{RUBY_B#さんだい}三台{RUBY_E#}を{RUBY_B#むしば}蝕{RUBY_E#}む{RUBY_B#ぎょくきょう}玉鏡{RUBY_E#}",
         "ko": "어둠에 잠긴 삼태성"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -565,12 +645,14 @@
       "name": {
         "pt-BR": "Esfera Esvaziada pelo Vazio",
         "en": "Eclipse Hollows Corporeal Husk",
+        "zh-CN": "蚀变于娄",
         "ja": "{RUBY_B#ろうしゅく}婁宿{RUBY_E#}を{RUBY_B#むしば}蝕{RUBY_E#}む{RUBY_B#ひょうりん}氷輪{RUBY_E#}",
         "ko": "텅 빈 검은 달"
       },
       "description": {
         "pt-BR": "Quando Jingliu entra no estado de Transmigração Espectral, o limite de acúmulos de Sizígia aumenta em 1, e Jingliu obtém 1 acúmulo(s) de Sizígia. Enquanto estiver no estado de Transmigração Espectral, seu Dano CRIT aumenta em 50%.",
         "en": "When Jingliu enters the Spectral Transmigration state, the Syzygy stack limit increases by 1, and Jingliu obtains 1 stack(s) of Syzygy. While she is in the Spectral Transmigration state, her CRIT DMG increases by 50%.",
+        "zh-CN": "镜流进入【转魄】状态时，【朔望】的上限层数提高1层并额外获得1层【朔望】。【转魄】状态下，暴击伤害提高50%。",
         "ja": "鏡流が「転魄」状態に入った時、「朔望」の上限+1層、鏡流がさらに「朔望」を1層獲得する。「転魄」状態の時、会心ダメージ+50%。",
         "ko": "경류가 [전백(轉魄)] 상태에 진입 시 [삭망]의 최대 스택이 1스택 증가하고 [삭망]을 1스택 추가로 획득한다. [전백] 상태일 때 치명타 피해가 50% 증가한다"
       },
@@ -950,12 +1032,14 @@
       "name": {
         "pt-BR": "Reino da Morte",
         "en": "Deathrealm",
+        "zh-CN": "死境",
         "ja": "{RUBY_B#しきょう}死境{RUBY_E#}",
         "ko": "사경"
       },
       "description": {
         "pt-BR": "Aumenta a RES a Efeito em #1[i]% enquanto estiver no estado de Transmigração Espectral.",
         "en": "While in the Spectral Transmigration state, increases Effect RES by #1[i]%.",
+        "zh-CN": "【转魄】状态下，效果抵抗提高#1[i]%。",
         "ja": "「転魄」状態の時、効果抵抗+#1[i]%。",
         "ko": "[전백(轉魄)] 상태일 때 효과 저항이 #1[i]% 증가한다"
       },
@@ -979,12 +1063,14 @@
       "name": {
         "pt-BR": "Campeã da Espada",
         "en": "Sword Champion",
+        "zh-CN": "剑首",
         "ja": "{RUBY_B#けんしゅ}剣首{RUBY_E#}",
         "ko": "검술의 일인자"
       },
       "description": {
         "pt-BR": "Após usar o \"Clarão Transcendente\", a próxima ação será Avançada Adiante em #1[i]%.",
         "en": "After using \"Transcendent Flash,\" the next action advances by #1[i]%.",
+        "zh-CN": "施放【无罅飞光】后，下次行动提前#1[i]%。",
         "ja": "「無罅の飛光」を発動した後、次の行動順が#1[i]%早まる。",
         "ko": "[무결의 섬광] 발동 후 다음 행동 게이지가 #1[i]% 증가한다"
       },
@@ -1013,12 +1099,14 @@
       "name": {
         "pt-BR": "Ira Gélida",
         "en": "Frost Wraith",
+        "zh-CN": "霜魄",
         "ja": "{RUBY_B#そうはく}霜魄{RUBY_E#}",
         "ko": "서리 혼"
       },
       "description": {
         "pt-BR": "Aumenta o Dano causado pela Perícia Suprema em #1[i]% enquanto estiver no estado de Transmigração Espectral.",
         "en": "While in the Spectral Transmigration state, increases DMG dealt by Ultimate by #1[i]%.",
+        "zh-CN": "【转魄】状态下，终结技造成的伤害提高#1[i]%。",
         "ja": "「転魄」状態の時、必殺技によるダメージ+#1[i]%。",
         "ko": "[전백(轉魄)] 상태일 때 필살기가 가하는 피해가 #1[i]% 증가한다"
       },
@@ -1044,7 +1132,13 @@
     {
       "id": 1212201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1061,7 +1155,7 @@
     {
       "id": 1212202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1212101],
@@ -1078,7 +1172,13 @@
     {
       "id": 1212203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1212202],
@@ -1095,7 +1195,7 @@
     {
       "id": 1212204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1212203],
@@ -1112,7 +1212,13 @@
     {
       "id": 1212205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1212102],
@@ -1129,7 +1235,7 @@
     {
       "id": 1212206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1212205],
@@ -1146,7 +1252,13 @@
     {
       "id": 1212207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1212206],
@@ -1163,7 +1275,7 @@
     {
       "id": 1212208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1212103],
@@ -1180,7 +1292,7 @@
     {
       "id": 1212209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1212208],
@@ -1197,7 +1309,13 @@
     {
       "id": 1212210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1212208],
@@ -1507,12 +1625,14 @@
       "name": {
         "pt-BR": "Reino da Morte",
         "en": "Deathrealm",
+        "zh-CN": "死境",
         "ja": "{RUBY_B#しきょう}死境{RUBY_E#}",
         "ko": "사경"
       },
       "description": {
         "pt-BR": "Enquanto estiver no estado de \"Transmigração Espectral\", a RES a Efeito aumenta em #1[i]% e o Dano causado pela Perícia Suprema aumenta em #2[i]%.",
         "en": "While in the \"Spectral Transmigration\" state, increases Effect RES by #1[i]%, and increases the Ultimate DMG dealt by #2[i]%.",
+        "zh-CN": "【转魄】状态下，效果抵抗提高#1[i]%，造成的终结技伤害提高#2[i]%。",
         "ja": "「転魄」状態の時、効果抵抗+#1[i]%、必殺技ダメージ+#2[i]%。",
         "ko": "[전백(轉魄)] 상태일 때 효과 저항이 #1[i]% 증가하고, 가하는 필살기 피해가 #2[i]% 증가한다"
       },
@@ -1536,12 +1656,14 @@
       "name": {
         "pt-BR": "Campeã da Espada",
         "en": "Sword Champion",
+        "zh-CN": "剑首",
         "ja": "{RUBY_B#けんしゅ}剣首{RUBY_E#}",
         "ko": "검술의 일인자"
       },
       "description": {
         "pt-BR": "Após usar \"Clarão Transcendente\", regenera adicionalmente #1[i] de Energia. E após usar \"Lua Sobre o Rio Glacial\", regenera adicionalmente #2[i] de Energia.",
         "en": "After using \"Transcendent Flash,\" additionally regenerates #1[i] Energy. And after using \"Moon On Glacial River,\" additionally regenerates #2[i] Energy.",
+        "zh-CN": "施放【无罅飞光】后，额外恢复#1[i]点能量，施放【寒川映月】后，额外恢复#2[i]点能量。",
         "ja": "「無罅の飛光」を発動した後、さらにEPが#1[i]回復する。「寒川映月」を発動した後、さらにEPが#2[i]回復する。",
         "ko": "[무결의 섬광] 발동 후 추가로 에너지를 #1[i]pt 회복하고, [한천에 비친 달] 발동 후 추가로 에너지를 #2[i]pt 회복한다"
       },
@@ -1570,12 +1692,14 @@
       "name": {
         "pt-BR": "Ira Gélida",
         "en": "Frost Wraith",
+        "zh-CN": "霜魄",
         "ja": "{RUBY_B#そうはく}霜魄{RUBY_E#}",
         "ko": "서리 혼"
       },
       "description": {
         "pt-BR": "Ao obter \"Sizígia\", se seu limite de acúmulos tiver sido atingido, o próximo ataque de Jingliu ignora #1[i]% da DEF do alvo.",
         "en": "Upon obtaining \"Syzygy,\" if its stack limit has been reached, Jingliu's next attack ignores #1[i]% of the target's DEF.",
+        "zh-CN": "获得【朔望】时若已达到上限，镜流下一次攻击无视目标#1[i]%的防御力。",
         "ja": "「朔望」を獲得する時、「朔望」がすでに上限に達している場合、鏡流の次の攻撃はターゲットの防御力を#1[i]%無視する。",
         "ko": "[삭망] 획득 시 이미 최대치에 도달한 경우, 경류의 다음 공격이 목표의 방어력을 #1[i]% 무시한다"
       },
@@ -1601,7 +1725,13 @@
     {
       "id": 11212201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -1618,7 +1748,7 @@
     {
       "id": 11212202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [11212101],
@@ -1635,7 +1765,13 @@
     {
       "id": 11212203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11212202],
@@ -1652,7 +1788,7 @@
     {
       "id": 11212204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11212203],
@@ -1669,7 +1805,13 @@
     {
       "id": 11212205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11212102],
@@ -1686,7 +1828,7 @@
     {
       "id": 11212206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [11212205],
@@ -1703,7 +1845,13 @@
     {
       "id": 11212207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11212206],
@@ -1720,7 +1868,7 @@
     {
       "id": 11212208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [11212103],
@@ -1737,7 +1885,7 @@
     {
       "id": 11212209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [11212208],
@@ -1754,7 +1902,13 @@
     {
       "id": 11212210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [11212208],

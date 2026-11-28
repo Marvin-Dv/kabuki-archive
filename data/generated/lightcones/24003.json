@@ -1,7 +1,13 @@
 {
   "id": 24003,
   "slug": "solitary-healing",
-  "name": { "pt-BR": "Cura Solitária", "en": "Solitary Healing", "ja": "孤独の癒し", "ko": "고독의 치유" },
+  "name": {
+    "pt-BR": "Cura Solitária",
+    "en": "Solitary Healing",
+    "zh-CN": "孤独的疗愈",
+    "ja": "孤独の癒し",
+    "ko": "고독의 치유"
+  },
   "rarity": 5,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
@@ -9,14 +15,22 @@
   "description": {
     "pt-BR": "Coisas moldadas pelas mãos secretas sem forma e incorpóreas.\nNa totalidade do vazio, ainda existe um sonho repentino.\nAqueles que cortejam a destruição colherão frutos da ruína, enquanto os que clamam pela vida sobreviverão.\nAquele que for extinto ainda pode soltar faíscas, e aquele que já secou pode ser preenchido novamente.\nNa compaixão pela salvação do caos, o elixir nutre as sombras.\nCom as costas voltadas para a escuridão entre as estrelas, o conteúdo deste frasco só pode ser contido em vão.\n\"Por mais paradoxais que sejam esses saberes, neles brilha a totalidade do nosso orgulho\".",
     "en": "Things molded by the hands of secrecy are shapeless and incorporeal.\nIn the totality of emptiness, there yet exists a sudden dreaming.\nThose that court destruction will reap ruinous fruit, while those that clamor to live will survive.\nThat which is extinguished may yet spark, and that which has dried may yet be filled anew.\nIn compassion for the salvation of chaos, the elixir nurtures the shadows.\nWith its back faced to the darkness between the stars, this vessel encapsulates futility and works in vain.\n\"Paradoxical these knowings are, in them shine the fullness of our pride.\"",
+    "zh-CN": "诡秘天成，无相无形。\n万有皆虚，倏忽一梦。\n自灭者灭，欲生者生。\n将熄还熠，将涸而盈。\n悲悯混沌之救济，灵药滋长虚影。\n背向星辰之暗面，徒然封装于瓶。\n「如此悖论，而我等以为荣。」",
     "ja": "神秘的な存在、無相にして無形。\n万物は空虚であり、一瞬の夢にすぎない。\n自ら滅するものは滅び、生きたい者は生きる。\n消えゆくものが輝き、枯れるものが水を満たされる。\n混沌の救済を悲しみ、霊薬は虚影を大きくする。\n星の暗黒面に背を向け、いたずらに瓶に封印する。\n「このような逆説に我らは誇りを感じる」",
     "ko": "자연에서 탄생한 신비한 것으로 형태와 실체가 없다.\n만물은 공허하며, 한순간의 꿈에 불과하다.\n죽고자 하면 죽을 것이고, 살고자 하면 살 것이다.\n꺼진 것은 다시 빛을 찾고, 마른 것은 다시 채워질 것이다.\n혼돈의 구원을 불쌍히 여기고, 영약은 허영을 키운다.\n별의 어두운 면을 등진 채, 병 속에 봉인되었다.\n「이러한 역설을 우리는 오히려 영광으로 여기는 구나」"
   },
   "skill": {
-    "name": { "pt-BR": "Elixir do Caos", "en": "Chaos Elixir", "ja": "混沌の霊薬", "ko": "혼돈 영약" },
+    "name": {
+      "pt-BR": "Elixir do Caos",
+      "en": "Chaos Elixir",
+      "zh-CN": "混沌灵药",
+      "ja": "混沌の霊薬",
+      "ko": "혼돈 영약"
+    },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o Efeito de Quebra do usuário. Quando o usuário usa sua Perícia Suprema, aumenta o Dano Contínuo causado pelo usuário em #2[i]% durando por #3[i] rodada(s). Quando o inimigo-alvo sofrendo com o Dano Contínuo imposto pelo usuário é derrotado, regenera #4[f1] de Energia para o usuário.",
       "en": "Increases the wearer's Break Effect by #1[i]%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by #2[i]%, lasting for #3[i] turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates #4[f1] Energy for the wearer.",
+      "zh-CN": "使装备者的击破特攻提高#1[i]%。当装备者施放终结技时，使装备者造成的持续伤害提高#2[i]%，持续#3[i]回合。陷入装备者施加的持续伤害效果的敌方目标被消灭时，装备者恢复#4[f1]点能量。",
       "ja": "装備キャラの撃破特効+#1[i]%。装備キャラが必殺技を発動する時、装備キャラの持続ダメージ+#2[i]%、#3[i]ターン継続。装備キャラに持続ダメージ系デバフを付与された敵が倒される時、装備キャラのEPを#4[f1]回復する。",
       "ko": "장착한 캐릭터의 격파 특수효과가 #1[i]% 증가한다. 장착한 캐릭터가 필살기 발동 시 장착한 캐릭터가 가하는 지속 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴. 장착한 캐릭터가 부여한 지속 피해 효과에 빠진 적이 처치되면 장착한 캐릭터는 에너지를 #4[f1]pt 회복한다"
     },

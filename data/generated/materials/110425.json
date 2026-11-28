@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Um Copo da Era da Inebriação",
     "en": "A Glass of the Besotted Era",
+    "zh-CN": "一杯酩酊的时代",
     "ja": "酩酊する時代の一杯",
     "ko": "만취의 시대 한잔"
   },
@@ -16,6 +17,7 @@
   "sources": {
     "en": ["Stagnant Shadow: Penacony Grand Theater", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Grande Teatro de Penacony", "Sintetizador Omni - Troca de Material"],
+    "zh-CN": ["凝滞虚影【匹诺康尼大剧院】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「ピノコニー大劇場」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [페나코니 극장]", "「만능 합성기」- 재료 치환"]
   }

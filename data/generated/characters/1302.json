@@ -1,7 +1,7 @@
 {
   "id": 1302,
   "slug": "argenti",
-  "name": { "pt-BR": "Argenti", "en": "Argenti", "ja": "アルジェンティ", "ko": "아젠티" },
+  "name": { "pt-BR": "Argenti", "en": "Argenti", "zh-CN": "银枝", "ja": "アルジェンティ", "ko": "아젠티" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Physical",
@@ -11,10 +11,17 @@
     {
       "id": 130201,
       "type": "Basic",
-      "name": { "pt-BR": "Perfume Efêmero", "en": "Fleeting Fragrance", "ja": "刹那の芬芳", "ko": "덧없는 향기" },
+      "name": {
+        "pt-BR": "Perfume Efêmero",
+        "en": "Fleeting Fragrance",
+        "zh-CN": "芬芳一现",
+        "ja": "刹那の芬芳",
+        "ko": "덧없는 향기"
+      },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Argenti a um único inimigo-alvo.",
         "en": "Deals Physical DMG equal to #1[i]% of Argenti's ATK to one designated enemy target.",
+        "zh-CN": "对指定敌方单体造成等同于银枝#1[i]%攻击力的物理属性伤害。",
         "ja": "指定した敵単体にアルジェンティの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 아젠티 공격력의 #1[i]%만큼 물리 속성 피해를 준다"
       },
@@ -24,11 +31,12 @@
       "summary": {
         "pt-BR": "Causa Dano Físico leve a um único inimigo.",
         "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
         "ja": "敵単体に少量の物理属性ダメージを与える。",
         "ko": "단일 적에게 소량의 물리 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 130202,
@@ -36,12 +44,14 @@
       "name": {
         "pt-BR": "Justiça, Aqui Floresce",
         "en": "Justice, Hereby Blooms",
+        "zh-CN": "公正，此处盛放",
         "ja": "公正、ここに咲き誇る",
         "ko": "공정, 이곳에 피어나다"
       },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Argenti a todos os inimigos.",
         "en": "Deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.",
+        "zh-CN": "对敌方全体造成等同于银枝#1[i]%攻击力的物理属性伤害。",
         "ja": "敵全体にアルジェンティの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "모든 적에게 아젠티 공격력의 #1[i]%만큼 물리 속성 피해를 준다"
       },
@@ -67,11 +77,12 @@
       "summary": {
         "pt-BR": "Causa Dano Físico leve a todos os inimigos.",
         "en": "Deals minor Physical DMG to all enemies.",
+        "zh-CN": "对敌方全体造成少量物理属性伤害。",
         "ja": "敵全体に少量の物理属性ダメージを与える。",
         "ko": "모든 적에게 소량의 물리 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 130203,
@@ -79,12 +90,14 @@
       "name": {
         "pt-BR": "Pois Neste Jardim, a Beleza Suprema Concede",
         "en": "For In This Garden, Supreme Beauty Bestows",
+        "zh-CN": "驻于花庭，赐与尽美",
         "ja": "花園にて捧げる美の際限",
         "ko": "정원에서 선사하는 극한의 미"
       },
       "description": {
         "pt-BR": "Consome #2[i] de Energia e causa Dano Físico igual a #1[i]% do ATQ de Argenti a todos os inimigos.",
         "en": "Consumes #2[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies.",
+        "zh-CN": "消耗#2[i]点能量，对敌方全体造成等同于银枝#1[i]%攻击力的物理属性伤害。",
         "ja": "EPを#2[i]消費し、敵全体にアルジェンティの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "에너지를 #2[i]pt 소모하고, 모든 적에게 아젠티 공격력의 #1[i]%만큼 물리 속성 피해를 준다"
       },
@@ -110,19 +123,27 @@
       "summary": {
         "pt-BR": "Consome 90 de Energia e causa Dano Físico a todos os inimigos.",
         "en": "Consumes 90 Energy and deals Physical DMG to all enemies.",
+        "zh-CN": "消耗90点能量，对敌方全体造成物理属性伤害。",
         "ja": "EPを90消費し、敵全体に物理属性ダメージを与える。",
         "ko": "에너지를 90pt 소모하고, 모든 적에게 물리 속성 피해를 준다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 130204,
       "type": "Talent",
-      "name": { "pt-BR": "Objeto Sublime", "en": "Sublime Object", "ja": "崇高なる客体", "ko": "숭고한 객체" },
+      "name": {
+        "pt-BR": "Objeto Sublime",
+        "en": "Sublime Object",
+        "zh-CN": "崇高的客体",
+        "ja": "崇高なる客体",
+        "ko": "숭고한 객체"
+      },
       "description": {
         "pt-BR": "Para cada inimigo atingido quando Argenti usa seu ATQ Básico, Perícia ou Perícia Suprema, regenera a Energia de Argenti em #1[i], e concede a ele um acúmulo de Apoteose, além de aumentar sua Chance de CRIT em #2[f1]%. Este efeito pode acumular até #3[i] vez(es).",
         "en": "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by #1[i], and grants him a stack of Apotheosis, increasing his CRIT Rate by #2[f1]%. This effect can stack up to #3[i] time(s).",
+        "zh-CN": "施放普攻、战技、终结技时，每击中1个敌方目标，为银枝恢复#1[i]点能量并获得1层【升格】，使银枝暴击率提高#2[f1]%，该效果最多叠加#3[i]层。",
         "ja": "通常攻撃、戦闘スキル、または必殺技を発動した時、攻撃が敵1体に命中するごとにアルジェンティのEPを#1[i]回復し、「栄達」を1層獲得する。「栄達」1層につき、アルジェンティの会心率+#2[f1]%、この効果は最大で#3[i]層累積できる。",
         "ko": "일반 공격, 전투 스킬, 필살기 발동 시 적을 1기 명중할 때마다 아젠티의 에너지가 #1[i]pt 회복되고, [승격]을 1스택 획득하며, 아젠티의 치명타 확률이 #2[f1]% 증가한다. 해당 효과 최대 중첩수: #3[i]스택"
       },
@@ -148,19 +169,21 @@
       "summary": {
         "pt-BR": "Quando Argenti usa seu ATQ Básico, Perícia ou Perícia Suprema, ele regenera Energia e aumenta sua Chance de CRIT para cada inimigo-alvo atingido.",
         "en": "When Argenti uses his Basic ATK, Skill, or Ultimate, he regenerates Energy and increases his CRIT Rate for every enemy target hit.",
+        "zh-CN": "施放普攻、战技、终结技时，每击中1个敌方目标，为银枝恢复能量并提高自身暴击率。",
         "ja": "通常攻撃、戦闘スキル、または必殺技を発動した時、攻撃が敵1体に命中するごとにアルジェンティのEPを回復し、会心率をアップする。",
         "ko": "일반 공격, 전투 스킬, 필살기 발동 시 적을 1기 명중할 때마다 아젠티의 에너지가 회복되고, 자신의 치명타 확률이 증가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 130206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -169,6 +192,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -179,12 +203,14 @@
       "name": {
         "pt-BR": "Manifesto da Mais Pura Virtude",
         "en": "Manifesto of Purest Virtue",
+        "zh-CN": "纯粹高洁宣言",
         "ja": "純粋で高潔なる宣言",
         "ko": "순수하고 고결한 선언"
       },
       "description": {
         "pt-BR": "Após usar sua Técnica, inflige Confusão por #1[i] segundo(s) aos inimigos dentro de uma área definida. Inimigos com Confusão não atacarão a equipe ativamente.\nAo atacar um inimigo com Confusão para entrar em combate, causa Dano Físico de #2[i]% do ATQ de Argenti a todos os inimigos e regenera a Energia de Argenti em #3[i].",
         "en": "After using the Technique, enemies in a set area are inflicted with Daze for #1[i] second(s). Dazed enemies will not actively attack the team.\nWhen attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to #2[i]% of Argenti's ATK and regenerates his Energy by #3[i].",
+        "zh-CN": "使用秘技后使一定区域内的敌人陷入#1[i]秒的晕眩状态，晕眩状态下敌人不会主动攻击我方目标。\n若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于银枝#2[i]%攻击力的物理属性伤害，并使银枝恢复#3[i]点能量。",
         "ja": "秘技を使用した後、一定区域内の敵を#1[i]秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った時、敵全体にアルジェンティの攻撃力#2[i]%分の物理属性ダメージを与え、アルジェンティのEPを#3[i]回復する。",
         "ko": "비술 사용 후 일정 구역 내의 적을 #1[i]초 동안 현기증 상태에 빠트린다. 현기증 상태인 적은 아군을 선공할 수 없다.\n현기증 상태에 빠진 적을 선공해 전투 진입 시, 모든 적에게 아젠티 공격력의 #2[i]%만큼 물리 속성 피해를 가하고, 아젠티의 에너지가 #3[i]pt 회복된다"
       },
@@ -194,11 +220,12 @@
       "summary": {
         "pt-BR": "Inflige Confusão em todos os inimigos em uma área definida. Ao atacar um inimigo com Confusão para entrar em combate, causa Dano Físico leve a todos os inimigos e regenera energia de Argenti.",
         "en": "Inflicts Daze on all enemies within a set area. When attacking a Dazed enemy to enter combat, deals minor Physical DMG to all enemies and regenerates energy for Argenti.",
+        "zh-CN": "使一定区域内敌人陷入晕眩状态。攻击陷入晕眩状态敌人，进战后对敌方全体造成少量物理属性伤害，银枝恢复能量。",
         "ja": "一定範囲内の敵を目眩状態にする。目眩状態の敵を攻撃して戦闘に入った後、敵全体に少量の物理属性ダメージを与え、アルジェンティのEPを回復する。",
         "ko": "일정 구역 내의 적을 현기증 상태에 빠트린다. 현기증 상태인 적을 공격하면 전투 진입 시 모든 적에게 소량의 물리 속성 피해를 주고, 아젠티의 에너지가 회복된다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 130214,
@@ -206,12 +233,14 @@
       "name": {
         "pt-BR": "Mérito Concedido em \"Meu\" Jardim",
         "en": "Merit Bestowed in \"My\" Garden",
+        "zh-CN": "驻「我」华庭，授予至勋",
         "ja": "「我」が授けし至上の勲章",
         "ko": "정원에서 「내」가 수여한 공훈"
       },
       "description": {
         "pt-BR": "Consome #4[i] de Energia e causa Dano Físico igual a #1[i]% do ATQ de Argenti a todos os inimigos, e ainda causa Dano por #2[i] vez(es) extra(s), com cada vez causando Dano Físico igual a #3[i]% do ATQ de Argenti a um inimigo aleatório.",
         "en": "Consumes #4[i] Energy and deals Physical DMG equal to #1[i]% of Argenti's ATK to all enemies. And further deals DMG for #2[i] extra time(s), with each time dealing Physical DMG equal to #3[i]% of Argenti's ATK to a random enemy.",
+        "zh-CN": "消耗#4[i]点能量，对敌方全体造成等同于银枝#1[i]%攻击力的物理属性伤害，并额外造成#2[i]次伤害，每次伤害对敌方随机单体造成等同于银枝#3[i]%攻击力的物理属性伤害。",
         "ja": "EPを#4[i]消費し、敵全体にアルジェンティの攻撃力#1[i]%分の物理属性ダメージを与え、さらに#2[i]ヒットする。1ヒットごとに、ランダムな敵単体にアルジェンティの攻撃力#3[i]%分の物理属性ダメージを与える。",
         "ko": "에너지를 #4[i]pt 소모하고 모든 적에게 아젠티 공격력의 #1[i]%만큼 물리 속성 피해를 준다. 추가로 피해를 #2[i]회 주며, 피해를 가할 때마다 랜덤 단일 적에게 아젠티 공격력의 #3[i]%만큼 물리 속성 피해를 준다"
       },
@@ -237,11 +266,12 @@
       "summary": {
         "pt-BR": "Consome 180 de Energia e causa Dano Físico a todos os inimigos e adicionalmente causa Dano Físico leve a inimigos-alvo únicos por 6 Ricochetes.",
         "en": "Consumes 180 Energy and deals Physical DMG to all enemies and additionally deals minor Physical DMG to random single enemy targets for 6 Bounces.",
+        "zh-CN": "消耗180点能量，对敌方全体造成物理属性伤害，并额外对敌方随机单体造成少量物理属性伤害，共弹射6次。",
         "ja": "EPを180消費し、敵全体に物理属性ダメージを与える。さらにランダムな敵単体に少量の物理属性ダメージを与える、6回バウンドする。",
         "ko": "에너지를 180pt 소모하고, 모든 적에게 물리 속성 피해를 준다. 또한 추가로 랜덤 단일 적에게 소량의 물리 속성 피해를 주고, 총 6회 바운스한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     }
   ],
   "eidolons": [
@@ -250,12 +280,14 @@
       "name": {
         "pt-BR": "Uma Lacuna no Reino da Estética",
         "en": "A Lacuna in Kingdom of Aesthetics",
+        "zh-CN": "审美王国的缺口",
         "ja": "{RUBY_B#しんびおうこく}審美王国{RUBY_E#}の{RUBY_B#けっかん}欠陥{RUBY_E#}",
         "ko": "심미왕국의 결함"
       },
       "description": {
         "pt-BR": "Cada acúmulo de Apoteose aumenta o Dano CRIT adicionalmente em 4%.",
         "en": "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
+        "zh-CN": "每层【升格】额外使暴击伤害提高4%。",
         "ja": "「栄達」1層につき、さらに会心ダメージ+4%。",
         "ko": "[승격] 스택마다 추가로 치명타 피해가 4% 증가한다"
       },
@@ -268,12 +300,14 @@
       "name": {
         "pt-BR": "Humildade de Ágata",
         "en": "Agate's Humility",
+        "zh-CN": "玛瑙石的谦卑",
         "ja": "メノウの{RUBY_B#けんそん}謙遜{RUBY_E#}",
         "ko": "아게이트의 겸손"
       },
       "description": {
         "pt-BR": "Se o número de inimigos no campo é igual a 3 ou mais quando utilizar a Perícia Suprema, o ATQ aumenta em 40% por 1 rodada(s).",
         "en": "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s).",
+        "zh-CN": "施放终结技时，若敌方目标数量大于等于3个时，攻击力提高40%，持续1回合。",
         "ja": "必殺技を発動した時、フィールド上の敵が3体以上の場合、攻撃力+40%、1ターン継続。",
         "ko": "필살기 발동 시 적이 3기 이상일 경우 공격력이 40% 증가한다. 지속 시간: 1턴"
       },
@@ -286,12 +320,14 @@
       "name": {
         "pt-BR": "Glória do Caminho de Espinhos",
         "en": "Thorny Road's Glory",
+        "zh-CN": "荆棘路的荣光",
         "ja": "{RUBY_B#いばら}荊棘{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}の{RUBY_B#えいこう}栄光{RUBY_E#}",
         "ko": "가시밭길의 영광"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -304,12 +340,14 @@
       "name": {
         "pt-BR": "Devoção do Clarim",
         "en": "Trumpet's Dedication",
+        "zh-CN": "号角的奉献",
         "ja": "トランペットの{RUBY_B#ほうけん}奉献{RUBY_E#}",
         "ko": "나팔의 헌신"
       },
       "description": {
         "pt-BR": "No início da batalha, ganha 2 acúmulo(s) de Apoteose e aumenta o limite máximo de acúmulos do efeito do Talento em 2.",
         "en": "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
+        "zh-CN": "战斗开始时，获得2层【升格】，并使天赋的效果可叠加上限提高2层。",
         "ja": "戦闘開始時、「栄達」を2層獲得し、天賦の累積可能層数+2。",
         "ko": "전투 시작 시 [승격]을 2스택 획득하고, 특성의 효과 최대 중첩수가 2스택 증가한다"
       },
@@ -322,12 +360,14 @@
       "name": {
         "pt-BR": "Neve, de Algum Lugar no Cosmos",
         "en": "Snow, From Somewhere in Cosmos",
+        "zh-CN": "宇宙某处的雪",
         "ja": "{RUBY_B#うちゅう}宇宙{RUBY_E#}のどこかで{RUBY_B#ふ}降{RUBY_E#}る{RUBY_B#ゆき}雪{RUBY_E#}",
         "ko": "우주 어딘가의 눈"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -340,12 +380,14 @@
       "name": {
         "pt-BR": "\"Vossa\" Resplandecência",
         "en": "\"Your\" Resplendence",
+        "zh-CN": "「你」的光芒",
         "ja": "「{RUBY_B#あなた}貴女{RUBY_E#}」の{RUBY_B#かがや}輝{RUBY_E#}き",
         "ko": "「그분」의 빛"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia Suprema, ignora 30% da DEF do inimigo-alvo.",
         "en": "When using Ultimate, ignores 30% of enemy targets' DEF.",
+        "zh-CN": "施放终结技时，无视敌方目标30%的防御力。",
         "ja": "必殺技を発動した時、敵の防御力を30%無視する。",
         "ko": "필살기 발동 시 적의 방어력을 30% 무시한다"
       },
@@ -722,10 +764,17 @@
     {
       "id": 1302101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Piedade", "en": "Piety", "ja": "{RUBY_B#けいけん}敬虔{RUBY_E#}", "ko": "경건" },
+      "name": {
+        "pt-BR": "Piedade",
+        "en": "Piety",
+        "zh-CN": "虔诚",
+        "ja": "{RUBY_B#けいけん}敬虔{RUBY_E#}",
+        "ko": "경건"
+      },
       "description": {
         "pt-BR": "No início de uma rodada, ganha imediatamente #1[i] acúmulo(s) de Apoteose.",
         "en": "At the start of a turn, immediately gains #1[i] stack(s) of Apotheosis.",
+        "zh-CN": "回合开始时，立即获得#1[i]层【升格】。",
         "ja": "ターンが回ってきた時、「栄達」を#1[i]層獲得する。",
         "ko": "턴 시작 시 즉시 [승격]을 #1[i]스택 획득한다"
       },
@@ -749,12 +798,14 @@
       "name": {
         "pt-BR": "Generosidade",
         "en": "Generosity",
+        "zh-CN": "慷慨",
         "ja": "{RUBY_B#こうがい}慷慨{RUBY_E#}",
         "ko": "너그러움"
       },
       "description": {
         "pt-BR": "Quando inimigos-alvo entram na batalha, regenera #1[i] de Energia imediatamente para si.",
         "en": "When enemy targets enter combat, immediately regenerates #1[i] Energy for self.",
+        "zh-CN": "在敌方目标进入战斗时，自身立即恢复#1[i]点能量。",
         "ja": "敵が戦闘に入った時、自身のEPを#1[i]回復する。",
         "ko": "적이 전투 진입 시 자신의 에너지를 즉시 #1[i]pt 회복한다"
       },
@@ -780,10 +831,17 @@
     {
       "id": 1302103,
       "anchor": "Point08",
-      "name": { "pt-BR": "Coragem", "en": "Courage", "ja": "{RUBY_B#ゆうき}勇気{RUBY_E#}", "ko": "용기" },
+      "name": {
+        "pt-BR": "Coragem",
+        "en": "Courage",
+        "zh-CN": "勇气",
+        "ja": "{RUBY_B#ゆうき}勇気{RUBY_E#}",
+        "ko": "용기"
+      },
       "description": {
         "pt-BR": "Causa #2[i]% de Dano extra a inimigos cuja porcentagem de PV for igual ou menor que #1[i]%.",
         "en": "Deals #2[i]% more DMG to enemies whose HP percentage is #1[i]% or less.",
+        "zh-CN": "对当前生命值百分比小于等于#1[i]%的敌方目标造成的伤害提高#2[i]%。",
         "ja": "残りHPが#1[i]%以下の敵に対して与ダメージ+#2[i]%。",
         "ko": "현재 HP 백분율이 #1[i]% 이하인 적에게 주는 피해가 #2[i]% 증가한다"
       },
@@ -809,7 +867,7 @@
     {
       "id": 1302201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -829,6 +887,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Físico",
         "en": "DMG Boost: Physical",
+        "zh-CN": "伤害强化•物理",
         "ja": "ダメージ強化・物理",
         "ko": "피해 강화•물리"
       },
@@ -848,7 +907,7 @@
     {
       "id": 1302203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1302202],
@@ -865,7 +924,7 @@
     {
       "id": 1302204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1302202],
@@ -882,7 +941,7 @@
     {
       "id": 1302205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1302102],
@@ -902,6 +961,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Físico",
         "en": "DMG Boost: Physical",
+        "zh-CN": "伤害强化•物理",
         "ja": "ダメージ強化・物理",
         "ko": "피해 강화•물리"
       },
@@ -921,7 +981,7 @@
     {
       "id": 1302207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1302205],
@@ -938,7 +998,7 @@
     {
       "id": 1302208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1302103],
@@ -958,6 +1018,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Físico",
         "en": "DMG Boost: Physical",
+        "zh-CN": "伤害强化•物理",
         "ja": "ダメージ強化・物理",
         "ko": "피해 강화•물리"
       },
@@ -977,7 +1038,7 @@
     {
       "id": 1302210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],

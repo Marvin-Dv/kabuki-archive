@@ -1,7 +1,7 @@
 {
   "id": 2,
   "slug": "credit",
-  "name": { "pt-BR": "Crédito", "en": "Credit", "ja": "信用ポイント", "ko": "신용 포인트" },
+  "name": { "pt-BR": "Crédito", "en": "Credit", "zh-CN": "信用点", "ja": "信用ポイント", "ko": "신용 포인트" },
   "rarity": 3,
   "type": "Virtual",
   "subType": "Virtual",
@@ -28,6 +28,16 @@
       "Recompensas de Missão",
       "Recompensas de Atribuição",
       "Troca de Brasas"
+    ],
+    "zh-CN": [
+      "拟造花萼【大矿区】",
+      "拟造花萼【工造司】",
+      "拟造花萼【「白日梦」酒店-梦境】",
+      "拟造花萼【「呓语密林」神悟树庭】",
+      "拟造花萼【鸽川区】",
+      "任务奖励",
+      "委托奖励",
+      "余烬兑换"
     ],
     "ja": [
       "疑似花萼「大鉱区」",

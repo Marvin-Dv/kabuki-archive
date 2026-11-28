@@ -1,7 +1,13 @@
 {
   "id": 22001,
   "slug": "hey-over-here",
-  "name": { "pt-BR": "Ei, Estou Aqui!", "en": "Hey, Over Here", "ja": "よぉ、ここにいるぜ", "ko": "저기, 나 여기 있어" },
+  "name": {
+    "pt-BR": "Ei, Estou Aqui!",
+    "en": "Hey, Over Here",
+    "zh-CN": "嘿，我在这儿",
+    "ja": "よぉ、ここにいるぜ",
+    "ko": "저기, 나 여기 있어"
+  },
   "rarity": 4,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
@@ -9,14 +15,22 @@
   "description": {
     "pt-BR": "Três garotas passeiam na escuridão, e os arredores parecem criar uma atmosfera sinistra.\n\"Huohuo, vai logo ou a gente não vai te esperar!\"\nEla avançou confiante com o celular na mão, aparentemente sem se deixar afetar pela atmosfera paranormal.\n\"E-Eu estou aqui!\"\nTrês garotas que estavam adiante responderam timidamente.\n\"Quê? Então se você estava aí na frente esse tempo todo, quem estava seguindo eu e a Shangshang...\"\nO final perfeito para essa cena com certeza seria um gritinho agudo.",
     "en": "Three girls stroll in the darkness, and the surroundings seem to gain a hint of eeriness.\n\"Huohuo, hurry up, or we won't wait for you!\"\nShe steps forward confidently with her phone clutched in her hand, seemingly unaffected by the paranormal ambiance.\n\"I—I'm over here!\"\nThe girl standing ahead responds timidly.\n\"Huh? So you were in the front all along, then who is following Shangshang and me...\"\nThe perfect end for this scene would definitely be a girlish scream.",
+    "zh-CN": "三位少女行走于黑夜之中，周遭的景物在此刻增加了几分鬼魅的气息。\n「藿藿你动作快点，不然我们不等你啦！」\n她举着手机往前大步迈进，似乎并未被灵异的氛围所影响。\n「我…我在这里！」\n站在前方的少女怯生生地回应着。\n「诶？原来你在前面啊，那我和裳裳背后的是……」\n此情此景最圆满的句号，一定就是少女的尖叫。",
     "ja": "3人の少女は夜闇の中を歩いていた。周囲の景色が暗闇に幾分かの不気味さを添える。\n「フォフォ、早く！じゃないと先に行っちゃうよ！」\nスマホを掲げながらスタスタと前に進む彼女は、まったく恐怖を感じていないようだった。\n「ア…アタシはこっちだよ！」\n前に立っていた少女がおずおずと応える。\n「あれ？あたしたちの前にいたの？じゃ、じゃあ、あたしとすーちゃんの後ろにいるのは……」\nこの場面に最も相応しい終止符は、少女の鋭い悲鳴に違いない。",
     "ko": "세 소녀가 어두운 밤 속을 걷는다. 주변 풍경은 오싹한 분위기가 더해지고 있다.\n「곽향 님, 어서 따라오세요, 안 그럼 저희 안 기다려요!」\n그녀는 으스스한 분위기에 영향을 받지 않은 듯 휴대폰을 들고 앞으로 성큼성큼 나아간다.\n「저… 저 여기 있어요!」\n앞에 서 있는 소녀가 쭈뼛쭈뼛 대답한다.\n「응? 앞쪽에 계셨어요? 그럼, 저랑 쏘쏘 뒤에 있는 건……」\n이 장면에 가장 걸맞은 종지부는 분명 소녀의 비명일 것이다"
   },
   "skill": {
-    "name": { "pt-BR": "Não Tenho Medo!", "en": "I'm Not Afraid!", "ja": "怖くない…怖くない！", "ko": "무섭지 않아…!" },
+    "name": {
+      "pt-BR": "Não Tenho Medo!",
+      "en": "I'm Not Afraid!",
+      "zh-CN": "不怕不怕啦",
+      "ja": "怖くない…怖くない！",
+      "ko": "무섭지 않아…!"
+    },
     "description": {
       "pt-BR": "Aumenta os PV máximos do usuário em #1[i]%. Quando o usuário usa sua Perícia, aumenta a Cura Realizada em #2[i]%, durando por #3[i] rodada(s).",
       "en": "Increases the wearer's Max HP by #1[i]%. When the wearer uses their Skill, increases Outgoing Healing by #2[i]%, lasting for #3[i] turn(s).",
+      "zh-CN": "使装备者的生命上限提高#1[i]%。当装备者施放战技时，治疗量提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの最大HP+#1[i]%。装備キャラが戦闘スキルを発動した時、治癒量+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 HP 최대치가 #1[i]% 증가한다. 장착한 캐릭터가 전투 스킬 발동 시 치유량이 #2[i]% 증가한다. 지속 시간: #3[i]턴"
     },

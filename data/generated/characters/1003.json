@@ -1,7 +1,7 @@
 {
   "id": 1003,
   "slug": "himeko",
-  "name": { "pt-BR": "Himeko", "en": "Himeko", "ja": "姫子", "ko": "히메코" },
+  "name": { "pt-BR": "Himeko", "en": "Himeko", "zh-CN": "姬子", "ja": "姫子", "ko": "히메코" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Fire",
@@ -11,10 +11,17 @@
     {
       "id": 100301,
       "type": "Basic",
-      "name": { "pt-BR": "Ajuste de Lâmina de Serra", "en": "Sawblade Tuning", "ja": "武装調律", "ko": "무장 조율" },
+      "name": {
+        "pt-BR": "Ajuste de Lâmina de Serra",
+        "en": "Sawblade Tuning",
+        "zh-CN": "武装调律",
+        "ja": "武装調律",
+        "ko": "무장 조율"
+      },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Himeko a um único inimigo.",
         "en": "Deals Fire DMG equal to #1[i]% of Himeko's ATK to one enemy.",
+        "zh-CN": "对指定敌方单体造成等同于姬子#1[i]%攻击力的火属性伤害。",
         "ja": "指定した敵単体に姫子の攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 히메코 공격력 #1[i]%만큼의 화염 속성 피해를 가한다"
       },
@@ -24,19 +31,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a um único inimigo.",
         "en": "Deals minor Fire DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量火属性伤害。",
         "ja": "敵単体に少量の炎属性ダメージを与える。",
         "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 100302,
       "type": "Skill",
-      "name": { "pt-BR": "Detonação por Fusão", "en": "Molten Detonation", "ja": "溶核爆裂", "ko": "용핵 폭파" },
+      "name": {
+        "pt-BR": "Detonação por Fusão",
+        "en": "Molten Detonation",
+        "zh-CN": "熔核爆裂",
+        "ja": "溶核爆裂",
+        "ko": "용핵 폭파"
+      },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Himeko a um único inimigo e #2[i]% do ATQ de Himeko como Dano de Fogo aos inimigos adjacentes a ele.",
         "en": "Deals Fire DMG equal to #1[i]% of Himeko's ATK to one designated enemy and Fire DMG equal to #2[i]% of Himeko's ATK to enemies adjacent to it.",
+        "zh-CN": "对指定敌方单体造成等同于姬子#1[i]%攻击力的火属性伤害，同时对其相邻目标造成等同于姬子#2[i]%攻击力的火属性伤害。",
         "ja": "指定した敵単体に姫子の攻撃力#1[i]%分の炎属性ダメージを与え、隣接する敵に姫子の攻撃力#2[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 히메코 공격력 #1[i]%만큼의 화염 속성 피해를 주고, 인접한 목표에게 히메코 공격력 #2[i]%만큼의 화염 속성 피해를 가한다"
       },
@@ -62,19 +77,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a um único inimigo e Dano de Fogo leve a inimigos adjacentes a ele.",
         "en": "Deals Fire DMG to one enemy and minor Fire DMG to enemies adjacent to it.",
+        "zh-CN": "对敌方单体造成火属性伤害，对相邻目标造成少量火属性伤害。",
         "ja": "敵単体に炎属性ダメージを与え、隣接する敵に少量の炎属性ダメージを与える。",
         "ko": "단일 적에게 화염 속성 피해를 가하고, 인접한 목표에게 소량의 화염 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 100303,
       "type": "Ultimate",
-      "name": { "pt-BR": "Chama Celestial", "en": "Heavenly Flare", "ja": "天墜の火", "ko": "하늘이 내린 불꽃" },
+      "name": {
+        "pt-BR": "Chama Celestial",
+        "en": "Heavenly Flare",
+        "zh-CN": "天坠之火",
+        "ja": "天墜の火",
+        "ko": "하늘이 내린 불꽃"
+      },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Himeko a todos os inimigos. Além disso, Himeko regenera #2[i] de Energia extra para cada inimigo derrotado.",
         "en": "Deals Fire DMG equal to #1[i]% of Himeko's ATK to all enemies. Himeko regenerates #2[i] extra Energy for each enemy defeated.",
+        "zh-CN": "对敌方全体造成等同于姬子#1[i]%攻击力的火属性伤害，每消灭1个敌方目标额外恢复姬子#2[i]点能量。",
         "ja": "敵全体に姫子の攻撃力#1[i]%分の炎属性ダメージを与える。敵を1体倒すごとに、さらに姫子のEPを#2[i]回復する。",
         "ko": "모든 적에게 히메코 공격력 #1[i]%만큼의 화염 속성 피해를 주고, 적 1기를 처치할 때마다 히메코는 에너지를 추가로 #2[i]pt 회복한다"
       },
@@ -100,19 +123,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo a todos os inimigos. Se inimigos forem derrotados, regenera Energia.",
         "en": "Deals Fire DMG to all enemies and regenerates Energy if enemies are defeated.",
+        "zh-CN": "对敌方全体造成火属性伤害，消灭敌人时恢复能量。",
         "ja": "敵全体に炎属性ダメージを与え、敵を倒した時、EPを回復。",
         "ko": "모든 적에게 화염 속성 피해를 가하고, 적 처치 시 에너지를 회복한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 100304,
       "type": "Talent",
-      "name": { "pt-BR": "Corrida da Vitória", "en": "Victory Rush", "ja": "乗勝追撃", "ko": "기세 몰이" },
+      "name": {
+        "pt-BR": "Corrida da Vitória",
+        "en": "Victory Rush",
+        "zh-CN": "乘胜追击",
+        "ja": "乗勝追撃",
+        "ko": "기세 몰이"
+      },
       "description": {
         "pt-BR": "Quando um inimigo é infligido com Quebra de Fraqueza, Himeko ganha 1 ponto de Carga (máximo de #2[i] pontos).\nSe Himeko estiver com carga total quando um aliado atacar, ela realiza imediatamente 1 Ataque Extra e causa #1[i]% do ATQ dela como Dano de Fogo a todos os inimigos, consumindo todos os pontos de Carga.\nNo início da batalha, Himeko ganha 1 ponto de Carga.",
         "en": "When an enemy target is inflicted with Weakness Break, Himeko gains 1 point of Charge (max #2[i] points).\nIf Himeko is fully Charged when an ally target performs an attack, Himeko immediately performs 1 Follow-Up ATK and deals Fire DMG equal to #1[i]% of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "zh-CN": "当有敌方目标的弱点被击破时，姬子获得充能，上限#2[i]点。\n当我方目标施放攻击后，若姬子的充能达到上限则立即发动1次追加攻击，对敌方全体目标造成等同于姬子#1[i]%攻击力的火属性伤害，并消耗全部充能。\n战斗开始时获得1点充能。",
         "ja": "敵が弱点撃破された時、姫子はチャージを獲得する、最大で#2[i]層まで。\n味方が攻撃を行った後、姫子のチャージが最大に達した場合、チャージを全部消費して追加攻撃を1回発動し、敵全体に姫子の攻撃力#1[i]%分の炎属性ダメージを与える。\n戦闘開始時にチャージを1層獲得。",
         "ko": "적의 약점이 격파될 경우 히메코는 충전을 획득한다. 최대 #2[i]pt까지 충전된다.\n아군이 공격 발동 후 히메코의 충전이 최대치가 될 경우 바로 추가 공격을 1회 발동하고, 모든 적에게 히메코 공격력 #1[i]%만큼의 화염 속성 피해를 주고 충전을 모두 소모한다.\n전투 시작 시 충전을 1pt 획득한다"
       },
@@ -138,19 +169,21 @@
       "summary": {
         "pt-BR": "No início da batalha ou quando uma unidade inimiga sofre a Quebra de Fraqueza, ganha Carga.\nApós qualquer aliado realizar um ataque, se estiver completamente Carregado, realiza um Ataque Extra e causa Dano de Fogo a todas as unidades inimigas, consumindo todos os pontos de Carga.",
         "en": "At the start of battle or when an enemy's Weakness is Broken, gains Charge.\nAfter any ally target performs an attack, if fully Charged, launches Follow-Up ATK and deals Fire DMG to all enemies, consuming all Charge points.",
+        "zh-CN": "战斗开始及敌人弱点被击破时，获得充能。\n我方目标攻击后，若充能达到上限则发动追加攻击，对敌方全体造成火属性伤害，消耗全部充能。",
         "ja": "戦闘開始時、または敵が弱点撃破された時にチャージを得る。\n味方が攻撃を行った後にチャージが上限に達した場合、チャージをすべて消費して追加攻撃を行い、敵全体に炎属性ダメージを与える。",
         "ko": "전투 시작 및 적의 약점이 격파될 시 충전을 획득한다.\n아군이 공격 후 충전이 최대치가 될 경우 추가 공격을 발동하고, 모든 적에게 화염 속성 피해를 가하며 충전을 모두 소모한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 100306,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -159,6 +192,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -169,12 +203,14 @@
       "name": {
         "pt-BR": "Combustão Incompleta",
         "en": "Incomplete Combustion",
+        "zh-CN": "不完全燃烧",
         "ja": "不完全燃焼",
         "ko": "불완전 연소"
       },
       "description": {
         "pt-BR": "Após usar a Técnica, cria uma Dimensão Especial que dura #4[i]s. Depois de entrar em batalha com inimigos na Dimensão Especial, há #1[i]% de chance-base de aumentar o Dano de Fogo que os inimigos recebem em #2[i]% por #3[i] rodada(s). Só 1 Efeito de Dimensão criado por aliados pode existir ao mesmo tempo.",
         "en": "After using Technique, creates a Special Dimension that lasts for #4[i] second(s). After entering battle with enemies in the Special Dimension, there is a #1[i]% base chance to increase Fire DMG taken by enemies by #2[i]% for #3[i] turn(s). Only 1 Dimension Effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，制造1片持续#4[i]秒的特殊领域。与处于特殊领域内的敌人进入战斗后，有#1[i]%的基础概率使敌方目标受到的火属性伤害提高#2[i]%，持续#3[i]回合。我方制造的领域效果最多存在1个。",
         "ja": "秘技を使用した後、#4[i]秒間継続する特殊領域を作り出す。特殊領域内にいる敵と戦闘に入った後、#1[i]%の基礎確率で敵の受ける炎属性ダメージ+#2[i]%、#3[i]ターン継続。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 #4[i]초 동안 지속되는 특수영역을 하나 만든다. 특수 영역 안에 있는 적은 전투 진입 후 #1[i]%의 기본 확률로 받는 화염 속성 피해가 #2[i]% 증가한다. 지속 시간: #3[i]턴. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
@@ -184,11 +220,12 @@
       "summary": {
         "pt-BR": "Cria uma dimensão especial. Depois de entrar em combate com inimigos na dimensão, existe uma alta chance de aumentar o Dano de Fogo recebido pelos inimigos.",
         "en": "Creates a Special Dimension. After entering combat with enemies in the dimension, there is a high chance to increase Fire DMG taken by enemies.",
+        "zh-CN": "制造特殊领域。与领域内敌人进入战斗后，大概率使敌方目标受到的火属性伤害提高。",
         "ja": "特殊領域を作り出す。領域内の敵と戦闘に入った後、高確率で敵の受ける炎属性ダメージをアップする。",
         "ko": "특수 영역을 만든다. 영역 내의 적과 전투에 진입하면 높은 확률로 적이 받는 화염 속성 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -197,12 +234,14 @@
       "name": {
         "pt-BR": "Infância",
         "en": "Childhood",
+        "zh-CN": "童年",
         "ja": "{RUBY_B#こどもじだい}子供時代{RUBY_E#}",
         "ko": "어린 시절"
       },
       "description": {
         "pt-BR": "Após a \"Corrida da Vitória\" ser ativada, a VEL de Himeko tem um aumento de 20% por 2 rodada(s).",
         "en": "After \"Victory Rush\" is triggered, Himeko's SPD increases by 20% for 2 turn(s).",
+        "zh-CN": "【乘胜追击】触发后，姬子的速度提高20%，持续2回合。",
         "ja": "「乗勝追撃」発動後、姫子の速度+20%、2ターン継続。",
         "ko": "[기세 몰이] 발동 후 히메코의 속도가 20% 증가한다. 지속 시간: 2턴"
       },
@@ -215,12 +254,14 @@
       "name": {
         "pt-BR": "Convergência",
         "en": "Convergence",
+        "zh-CN": "邂逅",
         "ja": "{RUBY_B#かいこう}邂逅{RUBY_E#}",
         "ko": "우연한 만남"
       },
       "description": {
         "pt-BR": "Causa 15% de Dano extra a inimigos cuja porcentagem de PV for igual ou menor que 50%.",
         "en": "Deals 15% more DMG to enemies whose HP percentage is 50% or less.",
+        "zh-CN": "对当前生命值百分比小于等于50%的敌方目标造成的伤害提高15%。",
         "ja": "残りHPが50%以下の敵に対して与ダメージ+15%。",
         "ko": "현재 HP 백분율이 50% 이하인 적에게 가하는 피해가 15% 증가한다"
       },
@@ -230,10 +271,17 @@
     },
     {
       "rank": 3,
-      "name": { "pt-BR": "Equilíbrio", "en": "Poised", "ja": "{RUBY_B#じが}自我{RUBY_E#}", "ko": "자아" },
+      "name": {
+        "pt-BR": "Equilíbrio",
+        "en": "Poised",
+        "zh-CN": "自我",
+        "ja": "{RUBY_B#じが}自我{RUBY_E#}",
+        "ko": "자아"
+      },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -243,10 +291,17 @@
     },
     {
       "rank": 4,
-      "name": { "pt-BR": "Dedicação", "en": "Dedication", "ja": "{RUBY_B#ぼっとう}没頭{RUBY_E#}", "ko": "몰입" },
+      "name": {
+        "pt-BR": "Dedicação",
+        "en": "Dedication",
+        "zh-CN": "投入",
+        "ja": "{RUBY_B#ぼっとう}没頭{RUBY_E#}",
+        "ko": "몰입"
+      },
       "description": {
         "pt-BR": "Quando a Perícia de Himeko infligir Quebra de Fraqueza em um inimigo, ela ganha 1 ponto(s) extras de Carga.",
         "en": "When Himeko's Skill inflicts Weakness Break on an enemy, she gains 1 extra point(s) of Charge.",
+        "zh-CN": "施放战技对敌方目标造成弱点击破时，姬子额外获得1点充能。",
         "ja": "戦闘スキルで敵を弱点撃破した時、姫子はさらにチャージを1獲得する。",
         "ko": "전투 스킬을 발동하여 적의 약점을 격파할 시 히메코는 추가로 1pt의 충전을 획득한다"
       },
@@ -256,10 +311,17 @@
     },
     {
       "rank": 5,
-      "name": { "pt-BR": "Aspiração", "en": "Aspiration", "ja": "{RUBY_B#ゆめ}夢{RUBY_E#}", "ko": "몽상" },
+      "name": {
+        "pt-BR": "Aspiração",
+        "en": "Aspiration",
+        "zh-CN": "梦想",
+        "ja": "{RUBY_B#ゆめ}夢{RUBY_E#}",
+        "ko": "몽상"
+      },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -272,12 +334,14 @@
       "name": {
         "pt-BR": "Desbravamento!",
         "en": "Trailblaze!",
+        "zh-CN": "开拓！",
         "ja": "{RUBY_B#かいたく}開拓{RUBY_E#}！",
         "ko": "개척!"
       },
       "description": {
         "pt-BR": "A Perícia Suprema causa 2 instâncias extras de Dano de Fogo equivalentes a 40% do Dano original a um inimigo aleatório.",
         "en": "Ultimate deals 2 extra instances of Fire DMG equal to 40% of the original DMG to one random enemy.",
+        "zh-CN": "终结技额外造成2次伤害，对随机敌方单体各造成等同于原伤害40%的火属性伤害。",
         "ja": "必殺技を発動した時、さらに2ヒットし、1ヒットごとにランダムな敵単体に本来のダメージ40%分の炎属性ダメージを与える。",
         "ko": "필살기는 추가로 2회 피해를 주고, 임의의 적에게 각각 기존 피해 40%만큼의 화염 속성 피해를 준다"
       },
@@ -654,10 +718,17 @@
     {
       "id": 1003101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Chama Estelar", "en": "Starfire", "ja": "{RUBY_B#せいか}星火{RUBY_E#}", "ko": "불티" },
+      "name": {
+        "pt-BR": "Chama Estelar",
+        "en": "Starfire",
+        "zh-CN": "星火",
+        "ja": "{RUBY_B#せいか}星火{RUBY_E#}",
+        "ko": "불티"
+      },
       "description": {
         "pt-BR": "Depois de usar um ataque, tem #1[i]% de chance-base de infligir \"Queimadura\" a inimigos por #2[i] rodada(s).\nQuando afligidos por \"Queimadura\", os inimigos recebem Dano de Fogo Contínuo igual a #3[i]% do ATQ de Himeko no início de cada rodada.",
         "en": "After using an attack, there is a #1[i]% base chance to inflict Burn on enemies, lasting for #2[i] turn(s).\nWhen afflicted with Burn, enemies take Fire DoT equal to #3[i]% of Himeko's ATK at the start of each turn.",
+        "zh-CN": "施放攻击后，有#1[i]%的基础概率使敌方目标陷入灼烧状态，持续#2[i]回合。\n灼烧状态下，敌方目标每回合开始时受到等同于姬子#3[i]%攻击力的火属性持续伤害。",
         "ja": "攻撃を行った時、#1[i]%の基礎確率で敵を燃焼状態にする、#2[i]ターン継続。\n燃焼状態の敵はターンが回ってくるたびに、姫子の攻撃力#3[i]%分の炎属性持続ダメージを受ける。",
         "ko": "공격 발동 후 #1[i]%의 기본 확률로 적을 연소 상태에 빠트린다. 지속 시간: #2[i]턴\n연소 상태의 적은 턴이 시작될 때마다 히메코 공격력의 #3[i]%만큼 화염 속성 지속 피해를 받는다"
       },
@@ -678,10 +749,17 @@
     {
       "id": 1003102,
       "anchor": "Point07",
-      "name": { "pt-BR": "Magma", "en": "Magma", "ja": "{RUBY_B#しゃくねつ}灼熱{RUBY_E#}", "ko": "작열" },
+      "name": {
+        "pt-BR": "Magma",
+        "en": "Magma",
+        "zh-CN": "灼热",
+        "ja": "{RUBY_B#しゃくねつ}灼熱{RUBY_E#}",
+        "ko": "작열"
+      },
       "description": {
         "pt-BR": "A Perícia causa #1[i]% a mais de Dano a inimigos atualmente sob efeito de Queimadura.",
         "en": "Skill deals #1[i]% more DMG to enemies currently afflicted with Burn.",
+        "zh-CN": "战技对灼烧状态下的敌方目标造成的伤害提高#1[i]%。",
         "ja": "燃焼状態の敵に対する、戦闘スキルによるダメージ+#1[i]%。",
         "ko": "전투 스킬이 연소 상태의 적에게 가하는 피해가 #1[i]% 증가한다"
       },
@@ -707,10 +785,17 @@
     {
       "id": 1003103,
       "anchor": "Point08",
-      "name": { "pt-BR": "Marco", "en": "Benchmark", "ja": "{RUBY_B#みちしるべ}道標{RUBY_E#}", "ko": "도표" },
+      "name": {
+        "pt-BR": "Marco",
+        "en": "Benchmark",
+        "zh-CN": "道标",
+        "ja": "{RUBY_B#みちしるべ}道標{RUBY_E#}",
+        "ko": "도표"
+      },
       "description": {
         "pt-BR": "Quando os PV estiverem em #1[i]% ou mais, a Chance de CRIT aumenta em #2[i]%.",
         "en": "When current HP percentage is #1[i]% or higher, CRIT Rate increases by #2[i]%.",
+        "zh-CN": "若当前生命值百分比大于等于#1[i]%，则暴击率提高#2[i]%。",
         "ja": "残りHPが#1[i]%以上の場合、会心率+#2[i]%。",
         "ko": "현재 HP 백분율이 #1[i]% 이상이면, 치명타 확률이 #2[i]% 증가한다"
       },
@@ -739,6 +824,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -758,7 +844,7 @@
     {
       "id": 1003202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1003101],
@@ -778,6 +864,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -800,6 +887,7 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -822,6 +910,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -841,7 +930,7 @@
     {
       "id": 1003206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1003205],
@@ -861,6 +950,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },
@@ -883,6 +973,7 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -902,7 +993,7 @@
     {
       "id": 1003209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1003103],
@@ -922,6 +1013,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Fogo",
         "en": "DMG Boost: Fire",
+        "zh-CN": "伤害强化•火",
         "ja": "ダメージ強化・炎",
         "ko": "피해 강화•화염"
       },

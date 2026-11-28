@@ -1,7 +1,7 @@
 {
   "id": 20020,
   "slug": "sagacity",
-  "name": { "pt-BR": "Sagacidade", "en": "Sagacity", "ja": "見識", "ko": "식견" },
+  "name": { "pt-BR": "Sagacidade", "en": "Sagacity", "zh-CN": "睿见", "ja": "見識", "ko": "식견" },
   "rarity": 3,
   "path": "Erudition",
   "announcedAt": "2026-11-16",
@@ -9,14 +9,16 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"Se os Sábios não podem abandonar suas identidades de humanos, devem ser abandonados pela sabedoria.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"Should Wise Ones be unable to abandon their identity as humans, they shall be abandoned by wisdom.\"",
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「智慧之人如果无法抛弃人的身份，则会被智慧抛弃。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「知恵を持つ者は、人であることを放棄しないと、知恵に見捨てられる」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「지혜의 인간이 인간의 신분을 버리지 못한다면, 그는 지혜로부터 버림받을 것이다」"
   },
   "skill": {
-    "name": { "pt-BR": "Gênio", "en": "Genius", "ja": "天才", "ko": "천재" },
+    "name": { "pt-BR": "Gênio", "en": "Genius", "zh-CN": "天才", "ja": "天才", "ko": "천재" },
     "description": {
       "pt-BR": "Quando o usuário desfere a sua Perícia Suprema, aumenta o ATQ em #1[i]% por #2[i] rodada(s).",
       "en": "When the wearer uses their Ultimate, increases ATK by #1[i]% for #2[i] turn(s).",
+      "zh-CN": "当装备者施放终结技时，攻击力提高#1[i]%，持续#2[i]回合。",
       "ja": "装備キャラが必殺技を発動した時、攻撃力+#1[i]%、#2[i]ターン継続。",
       "ko": "장착한 캐릭터가 필살기 발동 시 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
     },

@@ -1,7 +1,13 @@
 {
   "id": 110272,
   "slug": "resin-of-valor",
-  "name": { "pt-BR": "Resina da Coragem", "en": "Resin of Valor", "ja": "戦魂の血珀", "ko": "전혼의 혈정" },
+  "name": {
+    "pt-BR": "Resina da Coragem",
+    "en": "Resin of Valor",
+    "zh-CN": "战魂血珀",
+    "ja": "戦魂の血珀",
+    "ko": "전혼의 혈정"
+  },
   "rarity": 3,
   "type": "Material",
   "subType": "TracePath",
@@ -21,6 +27,7 @@
       "Troca de Brasas",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["拟造花萼【「葬忆彼岸」时光归墟】", "「万能合成机」- 材料合成", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": [
       "疑似花萼「「{RUBY_B#ほうむ}葬{RUBY_E#}られし{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#ひがん}彼岸{RUBY_E#}」{RUBY_B#とき}時{RUBY_E#}の{RUBY_B#は}果{RUBY_E#}て」",
       "「万能合成マシン」- 素材合成",

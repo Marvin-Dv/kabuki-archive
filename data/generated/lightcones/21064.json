@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "As Aventuras do Cogumelinho Fofinho",
     "en": "Mushy Shroomy's Adventures",
+    "zh-CN": "菇菇嘎嘎历险记",
     "ja": "タケタケ冒険記",
     "ko": "슈룸 모험기"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "\"Marçomelinho, seja bem‑vinda ao reino florido ♥, hihi!\"\n\"Dan Hengumelinho, não fica tão serinho... dê um sorrisinho!\"\n\"Cogumelinho Cinzinha, já se apaixonou pelo meu charme irresistível? Maravilha!\"\n\"E quanto a você, Cogumelinho Corujinha... eu escolho você, está com uma cara deliciosa!\"\nCorre, corre, os desejos humanos são uma toca de coelho sem fundo.\nVem, vem, sorria e se torne parte desse mundo florido!\n\"Bem‑vindos ao show especial da Sparxie: Todos Podem Virar uma Sparxie Fofinha!\"",
     "en": "\"Marchshroom, welcome to the flowery realm~♥~\"\n\"Danshroom, don't be so stiff, give us a smile!\"\n\"Grayie Shroom, have you already fallen for my irresistible charm? Wonderful!\"\n\"And as for Hoot-Hoot Shroom... I'll choose you, you're looking quite delicious~\"\nRun, run, the desires of a human are a bottomless rabbit hole.\nCome, come, put on a smile, become part of the flowery world!\n\"Welcome to Sparxie's special show: Everyone Can Become a Cute Sparxie!\"",
+    "zh-CN": "「三菇凉，欢迎来到花花秘境~♥~」\n「布菇丹，不要板着脸，笑一笑嘛！」\n「灰宝菇，你已经为本大王的魅力倾倒了吗？太棒了！」\n「至于咕咕菇——就你了，看起来很美味嘛～」\n快跑，快跑，人心的欲望是个填不满的兔子洞——\n来呀，来呀，笑起来，成为花花世界的一员——\n「欢迎加入你的专属节目：每个人都能成为可爱的火花！」",
     "ja": "「ミッシュルーム、火花の秘境へようこそ～♥」\n「丹タケ、しかめっ面はやめて、笑って！」\n「グレイノコ、火花に見惚れちゃったの？最高だね！」\n「チュンノコ——美味しそうだから、君に決めたよ～」\nさあ、逃げ回って。人の欲望は抜け出せないウサギの穴——\nさあ、笑って。きらびやかな世界の一員になるの——\n「君だけの特別番組…『誰もがかわいい火花になれる』へようこそ！」",
     "ko": "「마치슈룸, 파키 비경에 온 걸 환영해~♥~」\n「단슈룸, 그렇게 굳은 표정 짓지 말고 웃어봐!」\n「그레이슈룸, 벌써 이 대왕님의 매력에 푹 빠진 거야? 아주 좋아!」\n「그리고 꾸꾸 슈룸——그래 너, 아주 맛있어 보이는걸~」\n어서 도망쳐, 인간의 욕망은 채울 수 없는 토끼굴이니까——\n이리 와, 웃어봐, 이 화려한 세계의 일원이 되는 거야——\n「당신만을 위한 프로그램에 오신 걸 환영합니다. 누구나 귀여운 스파키가 될 수 있어요!」"
   },
   "skill": {
-    "name": { "pt-BR": "Estrondo", "en": "Rumble", "ja": "大乱闘", "ko": "난투" },
+    "name": { "pt-BR": "Estrondo", "en": "Rumble", "zh-CN": "乱斗", "ja": "大乱闘", "ko": "난투" },
     "description": {
       "pt-BR": "Aumenta a Euforia do usuário em #1[i]%. Quando o usuário usa uma Perícia da Euforia, aumenta o Dano de Euforia recebido por todos os inimigos em #2[i]% por #3[i] rodada(s).",
       "en": "Increases the wearer's Elation by #1[i]%. When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by #2[i]% for #3[i] turn(s).",
+      "zh-CN": "使装备者的欢愉度提高#1[i]%。装备者施放欢愉技时，使敌方全体受到的欢愉伤害提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの愉悦度+#1[i]%。装備キャラが愉悦スキルを発動する時、敵全体が受ける愉悦ダメージ+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 환락도가 #1[i]% 증가한다. 장착한 캐릭터가 환락 스킬 발동 시, 모든 적이 받는 환락 피해가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
     },

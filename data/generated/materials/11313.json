@@ -1,7 +1,13 @@
 {
   "id": 11313,
   "slug": "sundays-eidolon",
-  "name": { "pt-BR": "Eidolon de Sunday", "en": "Sunday's Eidolon", "ja": "「サンデー」の星魂", "ko": "[선데이]의 성혼" },
+  "name": {
+    "pt-BR": "Eidolon de Sunday",
+    "en": "Sunday's Eidolon",
+    "zh-CN": "【星期日】的星魂",
+    "ja": "「サンデー」の星魂",
+    "ko": "[선데이]의 성혼"
+  },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

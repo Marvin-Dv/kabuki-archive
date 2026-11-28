@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Percorrendo o Mar Estelar",
     "en": "Cruising in the Stellar Sea",
+    "zh-CN": "星海巡航",
     "ja": "星海巡航",
     "ko": "별바다 순항"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "Avançando pelo mar de estrelas,\nnavega com a velocidade de um clarão cromático de um arco-íris.\nUma jornada de caça às abominações imortais, buscando curas e milagres, em uma jornada de libertação.\nSUA jornada será semelhante a uma promessa mantida, ad infinitum.",
     "en": "Coursing 'tween the sea of stars,\nTHEY cruise with the speed of a rainbow's chromatic flash.\nA journey of hunting undying abominations,\ncollecting cures and miracles,\nand seeking deliverance.\nAkin to a vow unbroken, THEIR voyage will be,\nad infinitum.",
+    "zh-CN": "来往于星海之间，\n祂的速度有如虹霓闪光的一瞬。\n围追不死孽物，\n揽寻幻宝解药，\n寻求解脱之途。\n祂的航程将犹如永不被打破的誓言般，\n永无尽头。",
     "ja": "星海を往来する、\n其の速度は七色の閃光が如く一瞬。\n不死の忌み物を討ち、\n幻の解薬を探し、\n解脱の道を求める。\n其の航海は、破られぬ誓いのように、\n永遠に終わらない。",
     "ko": "별바다 사이를 오가는,\n그의 속도는 빛처럼 빠르다.\n불사의 흉물을 포위하고,\n신비의 명약을 찾아내,\n벗어날 길을 찾는다.\n그의 항해는 깨지지 않는 서약처럼,\n영원히 끝나지 않는다"
   },
   "skill": {
-    "name": { "pt-BR": "Perseguição", "en": "Chase", "ja": "猟逐", "ko": "사냥감 추적" },
+    "name": { "pt-BR": "Perseguição", "en": "Chase", "zh-CN": "猎逐", "ja": "猟逐", "ko": "사냥감 추적" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% a Chance de CRIT do usuário e aumenta em #3[i]% adicionalmente a Chance de CRIT contra inimigos com a porcentagem de PV igual ou inferior a #2[i]%. Quando o usuário derrota um inimigo, seu ATQ é aumentado em #4[i]% por #5[i] rodada(s).",
       "en": "Increases the wearer's CRIT Rate by #1[i]%, and increases their CRIT Rate against enemies with HP percentage #2[i]% or less by an extra #3[i]%. When the wearer defeats an enemy, their ATK is increased by #4[i]% for #5[i] turn(s).",
+      "zh-CN": "使装备者的暴击率提高#1[i]%，装备者对生命值百分比小于等于#2[i]%的敌方目标暴击率额外提高#3[i]%。当装备者消灭敌方目标后，攻击力提高#4[i]%，持续#5[i]回合。",
       "ja": "装備キャラの会心率+#1[i]%。残りHPが#2[i]%以下の敵に対して、さらに装備キャラの会心率+#3[i]%。装備キャラが敵を倒した後、攻撃力+#4[i]%、#5[i]ターン継続。",
       "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 장착한 캐릭터는 HP 백분율이 #2[i]% 이하인 적에게 가하는 치명타 확률이 추가로 #3[i]% 증가한다. 장착한 캐릭터는 적을 처치한 후 공격력이 #4[i]% 증가한다. 지속 시간: #5[i]턴"
     },

@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Instante de Eterno Amor",
     "en": "This Love, Forever",
+    "zh-CN": "爱如此刻永恒",
     "ja": "愛はいま永遠に",
     "ko": "이 순간처럼 영원한 사랑"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "O céu azul reflete um amanhã brilhante.\nUm passo, dois passos... o caminho da donzela tem sido tão longo, mas felizmente essas histórias preciosas não foram esquecidas pelos ciclos do tempo.\nAgora, escrita por todos juntos, a epopeia foi concluída, dando boas-vindas ao seu final.\nEstrelas, flores, pássaros e um belo novo mundo.\nGaze, grinaldas, vestidos longos e o vento que carrega bênçãos.\nA busca de trinta milhões de vidas transformada em um único momento de felicidade, suficiente para superar uma eternidade de palavras.\n\"Hihi, é uma promessa...\"\nA garota se vira para dar um sorriso gentil.\n\"Uma de nós fica no passado, e a outra caminha em direção ao futuro... mas nossos corações nunca estiveram separados. ♪\"\nEla se ergue na ponta dos pés e adentra o passado.\nE a memória, transformando-se em ondulações de devaneios passados, flutua em direção ao amanhã.",
     "en": "The azure sky reflects a brilliant tomorrow.\nOne step, two steps... the maiden's path has been so long, but fortunately those cherished stories haven't been forgotten by the cycles of time.\nNow, written together by everyone, the epic has been completed, welcoming its finale.\nStars, flowers, birds, and a beautiful new world.\nGauze, wreaths, long dresses, and the wind that carries blessings.\nThe quest of thirty million lifetimes transformed into a single moment of happiness, enough to outweigh an eternity of words.\n\"Hee, it's a promise...\"\nThe girl turns around to give a gentle smile.\n\"One of us stays in the past, and the other walks toward the future... but our hearts have never been apart ♪\"\nShe rises onto her toes and steps into the past.\nAnd memory, transforming into ripples of past reverie, drifts toward tomorrow.",
+    "zh-CN": "蔚蓝的天空映照出灿烂的明天。\n一步、两步…少女行过的路是如此漫长，所幸那些珍藏的故事未被轮转的岁月遗忘。\n而今，在众人共同的谱写下，史诗已然成篇，迎来尾声。\n群星，百花，飞鸟，美好的新世界。\n轻纱，花环，长裙，风儿衔来祝福。\n三千万世的追寻化作幸福的一瞬，足以抵过永恒的千言万语。\n「嘻，约好啦……」\n少女回眸，莞尔一笑。\n「一人留在过去，一人走向未来…但我们的心，从未分离♪」\n她踮起脚尖，走入过往——\n而记忆，化作往昔的涟漪，向着明日荡去。",
     "ja": "抜けるような青空にまぶしく輝く明日が映っている。\n1歩、また1歩…そうして少女が歩んできた道のりはあまりに長いものだった。だが、大切にしまっていた物語たちが歳月に忘れ去られなかったのは幸いだったと言えるだろう。\nそして今、皆で紡いできた叙事詩はついに完結を迎えた。\n群星、咲き乱れる花々、飛び交う鳥たち、そして——美しい新世界。\nベールに花冠にドレス、そして風が運ぶ祝福。\n3千万の輪廻を越えて追い続けた想いがひと時の幸福となったのだ。このひと時の幸福は、永遠を紡ぐ何万の言葉よりも価値がある。\n「ふふ、約束よ……」\n少女は振り返って、優しく微笑んだ。\n「1人は過去に留まり、1人は未来へと歩み出す…でも、あたしたちの心はいつまでも、ずっと一緒よ♪」\n少女はそう言って、そっと過去へと歩み出した——\n記憶は過去のさざ波となり、明日へ向かって広がっていった。",
     "ko": "푸른 하늘이 찬란한 내일을 비춘다.\n한 걸음, 두 걸음… 소녀가 걸어온 길은 너무나 길었지만, 다행히 그 소중한 이야기들은 돌고 도는 세월 속에서도 잊히지 않았다.\n이제, 모두가 함께 써 내려간 서사시는 마침내 완성되어 끝을 맞이했다.\n반짝이는 별들, 만발한 꽃, 날아가는 새, 아름다운 신세계.\n얇은 베일, 화환, 드레스, 축복을 전하는 바람.\n삼천만 세월 동안의 추구가 마침내 행복이 된 순간은 영원한 천 마디 말보다 더 값진 것이 되었다.\n「헤헤, 약속이야……」\n소녀는 뒤돌아보며 살며시 미소 지었다.\n「한 사람은 과거에 남고, 한 사람은 미래로 향하지만… 우리의 마음은 절대 떨어지지 않을 거야♪」\n그녀는 발끝을 살짝 들어 올린 채 과거 속으로 걸어 들어갔다——\n그리고 기억은 과거의 물결이 되어, 잔잔하게 내일을 향해 퍼져나갔다"
   },
   "skill": {
-    "name": { "pt-BR": "Uma Promessa", "en": "A Promise", "ja": "約束", "ko": "서약" },
+    "name": { "pt-BR": "Uma Promessa", "en": "A Promise", "zh-CN": "约定", "ja": "約束", "ko": "서약" },
     "description": {
       "pt-BR": "Aumenta a VEL do usuário em #1[i]%. Quando o Memoespírito do usuário usa uma Perícia de Memoespírito em um aliado, recebe \"Vazio\", que aumenta o Dano recebido por todos os inimigos em #3[i]%. Quando o Memoespírito do usuário usa uma Perícia de Memoespírito em um inimigo, recebe \"Verso\", que aumenta o Dano CRIT de todos os aliados em #2[i]%. Quando o Memoespírito do usuário possui tanto \"Vazio\" quanto \"Verso\", aumenta os efeitos de \"Vazio\" e \"Verso\" em #4[i]%.",
       "en": "Increases the wearer's SPD by #1[i]%. When the wearer's memosprite uses Memosprite Skill on one ally, gains \"Blank,\" which increases DMG taken by all enemies by #3[i]%. When the wearer's memosprite uses Memosprite Skill on an enemy, gains \"Verse,\" which increases CRIT DMG of all allies by #2[i]%. When the wearer's memosprite has both \"Blank\" and \"Verse,\" increases the effects of both \"Blank\" and \"Verse\" by #4[i]%.",
+      "zh-CN": "使装备者的速度提高#1[i]%。装备者的忆灵对我方单体施放忆灵技时获得【空白】：敌方全体受到的伤害提高#3[i]%。装备者的忆灵对敌方施放忆灵技时获得【诗行】：我方全体的暴击伤害提高#2[i]%。装备者的忆灵同时持有【空白】和【诗行】时，【空白】和【诗行】的效果提高#4[i]%。",
       "ja": "装備キャラの速度+#1[i]%。\n装備キャラの記憶の精霊は、味方単体に精霊スキルを発動する時に「空白」を獲得する。「空白」の効果：敵全体の受けるダメージ+#3[i]%。\n装備キャラの記憶の精霊は、敵に精霊スキルを発動する時に「詩句」を獲得する。「詩句」の効果：味方全体の会心ダメージ+#2[i]%。\n装備キャラの記憶の精霊が「空白」と「詩句」を同時に所持している時、「空白」と「詩句」の効果が元の#4[i]%分アップする。",
       "ko": "장착한 캐릭터의 속도가 #1[i]% 증가한다. 장착한 캐릭터의 기억 정령이 단일 아군에게 기억 정령 스킬 발동 시 [공백]을 획득한다. [공백]: 모든 적이 받는 피해가 #3[i]% 증가한다. 장착한 캐릭터의 기억 정령이 적에게 기억 정령 스킬 발동 시 [시구]를 획득한다. [시구]: 모든 아군의 치명타 피해가 #2[i]% 증가한다. 장착한 캐릭터의 기억 정령이 [공백]과 [시구]를 동시에 보유할 시 [공백]과 [시구]의 효과가 #4[i]% 증가한다"
     },

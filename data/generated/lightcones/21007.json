@@ -1,7 +1,13 @@
 {
   "id": 21007,
   "slug": "shared-feeling",
-  "name": { "pt-BR": "Sentimento Compartilhado", "en": "Shared Feeling", "ja": "同じ気持ち", "ko": "같은 심정" },
+  "name": {
+    "pt-BR": "Sentimento Compartilhado",
+    "en": "Shared Feeling",
+    "zh-CN": "同一种心情",
+    "ja": "同じ気持ち",
+    "ko": "같은 심정"
+  },
   "rarity": 4,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
@@ -9,14 +15,22 @@
   "description": {
     "pt-BR": "Quando a médica a encontrou toda ferida, a menina estava agarrada a uma máquina que já não funcionava mais, carregando toda variedade de peças no bolso.\nEla levou a menina direto para sua clínica e tratou os ferimentos.\nGotas de suor escorriam lentamente nas bochechas da menina, mas ela permaneceu em silêncio, as mãos inquietas mexendo na máquina.\nPara a médica, o modo como a menina parecia apegada à máquina era similar a como ela mesma se apegava a seus pacientes que precisavam de ajuda.\nAssim, em vez de tentar confortá-la ou avisar para tomar mais cuidado, a médica só sentou ao seu lado e lhe deu um momento de paz.",
     "en": "When the doctor found the wounded girl, she was clinging to a machine that had stopped working, with all sorts of parts filling her pocket.\nShe took the girl back to her clinic and treated the wounds.\nDrops of sweat slowly rolled down the girl's cheek, but she remained silent and her hands didn't stop fiddling the machine.\nTo the doctor, the way the girl was attached to the machine was very much like how she was attached to her patients who needed help.\nSo the doctor did not try to comfort the girl nor did she nag her about being more careful; but rather, she sat down with her to give her a moment of peace.",
+    "zh-CN": "医生找到女孩时，她受了伤，却仍紧紧抱着停止运转的机器，口袋里装满了翻找来的各种零件。\n她赶紧把女孩带回了诊所，给伤口上好药。\n汗珠从脸颊旁滑落，女孩虽然一言不发，手却一刻不停。\n医生知道，此时女孩的眼中只有那台机器，就像自己面对着等待救治的病人。\n因此她没有出声安慰，也没有提醒她往后要小心一些，只是坐在女孩身边，静静陪伴着她。",
     "ja": "医者が女の子を見つけた時、彼女は傷つきながらも停止した機械を抱きしめていた、そのポケットには漁ってきた色んなパーツが詰められていた。\n彼女は急いで女の子を診療所に連れ帰り、傷口を処理した。\n汗粒が頬を流れ落ちる。女の子は声を上げず、ただ手を動かす。\n医者は分かっている、今女の子の目にはあの機械しかない、自分が治療を待つ患者を見る時のように。\nだから彼女は慰めることもなければ、今後注意するよう言い聞かせることもしなかった。ただ女の子の隣で静かに付き添ってあげた。",
     "ko": "의사가 여자아이를 찾았을 때, 아이는 상처를 입었지만, 작동을 멈춘 기계를 여전히 꼭 껴안고 있었다. 주머니에는 여러 가지 부속품들이 가득했다.\n그녀는 아이를 진료소로 급히 데려와 상처에 좋은 약을 발라주었다.\n땀방울은 뺨에서 흘러내렸다. 아이는 아무 말도 하지 않았지만, 손은 잠시도 멈추지 않았다.\n의사는 아이의 눈에는 기계만 보인다는 것을 알아차렸다. 치료를 기다리는 환자를 마주하는 자신처럼 말이다.\n그래서 그녀는 위로도, 앞으로는 조심하라는 조언도 하지 않고, 그저 아이의 곁에 앉아 조용히 함께 했다"
   },
   "skill": {
-    "name": { "pt-BR": "Cura e Reparação", "en": "Cure and Repair", "ja": "ケアとメンテ", "ko": "치료와 수리" },
+    "name": {
+      "pt-BR": "Cura e Reparação",
+      "en": "Cure and Repair",
+      "zh-CN": "救治与维修",
+      "ja": "ケアとメンテ",
+      "ko": "치료와 수리"
+    },
     "description": {
       "pt-BR": "Aumenta a Cura Realizada do usuário em #1[i]%. Ao usar uma Perícia, regenera #2[f1] de Energia para todos os aliados.",
       "en": "Increases the wearer's Outgoing Healing by #1[i]%. When using Skill, regenerates #2[f1] Energy for all allies.",
+      "zh-CN": "使装备者的治疗量提高#1[i]%，并在施放战技时为我方全体恢复#2[f1]点能量。",
       "ja": "装備キャラの治癒量+#1[i]%。装備キャラが戦闘スキルを発動した時、味方全体のEPを#2[f1]回復する。",
       "ko": "장착한 캐릭터의 치유량이 #1[i]% 증가하고, 전투 스킬 발동 시 모든 아군의 에너지가 #2[f1]pt 회복된다"
     },

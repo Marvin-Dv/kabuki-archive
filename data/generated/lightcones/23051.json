@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Ainda que o Caminho Seja Longo",
     "en": "Though Worlds Apart",
+    "zh-CN": "纵然山河万程",
     "ja": "万里の山河を越えて",
     "ko": "끝없는 산과 강을 거치더라도"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "Nas terras antigas e ilimitadas, um jovem caminha sozinho em sua missão.\nParece retornar aos dias errantes, atravessando ondas turbulentas, enfrentando vento e geada, batalhando contra colossos, lutando contra marés furiosas.\nMas nesses momentos de trégua, ele não está só.\nEmbora em mundos diferentes, ele ainda consegue ver a luz adiante...\nÉ a luz da esperança de todos os seres vivos.\nA terra devastada já não pode sustentar nova vida, e as criaturas recém-nascidas se reúnem ao seu redor em busca de conforto e abrigo.\nSão as palavras que seus companheiros deixaram em seu coração, como uma viagem sem fim que os conecta firmemente.\nOs problemas do seu passado podem agitar-se com o vento, mas o caminho que ele percorreu se tornará a força para sua metamorfose.\n\"Eu serei o sentinela do caminho do Desbravamento.\"\nO jovem salta para frente com sua lança, avançando em direção à luz...\n\"E eu defenderei toda esperança que ameaça desaparecer!\"",
     "en": "In the boundless ancient lands, a young man walks alone on his quest.\nHe seems to return to those wandering days, wading through surging waves, weathering wind and frost, battling behemoths, struggling against raging tides.\nYet in those moments of respite, he is not alone.\nThough worlds apart, he can still see the light ahead...\nIt is the light of hope of all living beings.\nThe shattered earth can no longer sustain new life, and the newborn creatures gather around him, seeking comfort and shelter.\nThose are the words his companions left in his heart, like an endless voyage connecting them firmly together.\nThe troubles of his past may stir with the wind, but the path he's traveled will become the strength for his metamorphosis.\n\"I will stand guard for the Path of the Trailblaze.\"\nThe young man leaps forth with his spear, advancing toward the light\n\"And I shall defend all hope that threatens to fade away!\"",
+    "zh-CN": "在渺无边际的太古之地，少年孤身行于找寻的旅路。\n他仿佛回到那些流浪的日子，趟过波涛，历经风霜，与巨兽搏斗，同恶浪挣扎。\n但在那喘息的片刻，他却并不孤独。\n纵然山河万程，他却仍能看见前方的光——\n那是万物生灵的期盼。\n破碎的大地已无法承载新生，它们围聚在他身旁，寻求安慰与庇佑。\n那是伙伴曾留在他心底的话语，仿若绵延不断的航路，将他们牢牢联系。\n困扰他的旧日也曾随风泛起，但来时的路，终会化作蜕变新鳞的助力。\n「我会守护开拓的道路。」\n少年持枪腾跃而起，向着光芒处前行——\n「亦会捍卫一切行将飘逝的希望！」",
     "ja": "果ての見えない太古の地で、青年はただひとり、旅を続けている。\nその時ふと、かつて彷徨い歩いていた日々の光景が脳裏に蘇った。あの頃も今と同じように、荒波を越え、風雪に晒され、巨獣と戦い、逆巻く奔流に抗っていた。\nだが、息をつく束の間の休息は、決して孤独な時間ではなかった。\nなぜなら遠く、遥か彼方に確かな光が見えていたから——\nそれは、すべての生命の願い。\n砕けた大地では、もう新たな生命は育めない。彼らは青年の元へと集い、慰めと庇護を求めた。\nそれは、仲間たちが彼の心に残した言葉の数々であり、まるで終わることのない航路のように彼らをつなぐ堅い絆。\n風と共に、彼を悩ます過去が再び波立ち始める。だが、歩んできたその道のりこそが、やがて新生のための力となるだろう。\n「開拓の道は俺が護ろう」\n青年は槍を構え、光の差すほうへと駆けていく——\n「そして、一切の消えゆく希望も！」",
     "ko": "끝없이 펼쳐진 태고의 땅에서, 소년은 홀로 찾아 나서는 여정에 올랐다.\n그는 떠돌던 그 시절로 돌아간 듯했다. 파도를 헤치고 비바람을 견디며, 거대한 괴수와 싸우고 거친 물결에 맞서 몸부림쳤다.\n하지만 잠시 숨을 고르던 그 순간, 그는 결코 외롭지 않았다.\n설령 끝없는 산과 강을 거쳐야 하더라도, 그는 여전히 저 너머의 빛을 볼 수 있었다——\n그것은 수많은 생령들의 기대였다.\n부서진 대지가 더 이상 새 생명을 품을 수 없게 되자, 그들은 위로와 보호를 구하고자 그의 곁에 모여들었다.\n그것은 또한 동료들이 그의 마음 깊은 곳에 남긴 말들이었다. 그 말들은 마치 끝없이 이어지는 항로처럼, 그들을 굳건히 이어주었다.\n그를 괴롭히던 과거 역시 바람과 함께 떠올랐지만, 걸어온 길은 결국 새로운 모습으로 탈바꿈하는 힘이 되어줄 것이다.\n「난 개척의 길을 지키고」\n소년은 창을 들고 날아올라 빛을 향해 전진했다——\n「사라져가는 모든 희망을 수호하리라!」"
   },
   "skill": {
-    "name": { "pt-BR": "Nova Escama", "en": "New Scale", "ja": "新たな鱗", "ko": "새로운 비늘" },
+    "name": { "pt-BR": "Nova Escama", "en": "New Scale", "zh-CN": "新鳞", "ja": "新たな鱗", "ko": "새로운 비늘" },
     "description": {
       "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Quando o usuário usa a Perícia Suprema, restaura PV em um valor igual a #5[i]% do ATQ do usuário para todos os aliados, e restaura adicionalmente PV em um valor igual a #6[i]% do ATQ do usuário para o aliado com os PV atuais mais baixos. Concede \"Reduto\" a todos os aliados por #4[i] rodada(s). Alvos com \"Reduto\" causam #2[i]% a mais de Dano, que aumenta em mais #3[i]% se os alvos tiverem invocações.",
       "en": "Increases the wearer's ATK by #1[i]%. When the wearer uses Ultimate, restores HP equal to #5[i]% of the wearer's ATK for all allies, and additionally restores HP equal to #6[i]% of the wearer's ATK for the character with the lowest current HP, and grants \"Redoubt\" to all allies for #4[i] turn(s). Targets with \"Redoubt\" deal #2[i]% increased DMG, which further increases by #3[i]% if the targets have summons.",
+      "zh-CN": "使装备者的攻击力提高#1[i]%。装备者施放终结技时，为我方全体回复等同于装备者攻击力#5[i]%的生命值，额外为当前生命值最低的角色回复等同于装备者攻击力#6[i]%的生命值，并使我方全体获得【卫戍】，【卫戍】持续#4[i]回合。获得【卫戍】的目标，造成的伤害提高#2[i]%，若目标拥有召唤物则造成的伤害额外提高#3[i]%。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが必殺技を発動する時、味方全体のHPを装備キャラの攻撃力#5[i]%分回復し、さらに残りHPが最も低い味方キャラのHPを装備キャラの攻撃力#6[i]%分回復する。同時に、味方全体は「守護」を獲得する。「守護」は#4[i]ターン継続。「守護」を獲得した味方の与ダメージ+#2[i]%、さらに召喚物を持つ場合は追加で与ダメージ+#3[i]%。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 필살기 발동 시, 모든 아군의 HP를 장착한 캐릭터 공격력의 #5[i]%만큼 회복하고, 추가로 현재 HP가 가장 낮은 아군 캐릭터의 HP를 장착한 캐릭터 공격력의 #6[i]%만큼 회복하며, 모든 아군이 [방위]를 획득한다, [방위] 지속 시간: #4[i]턴. [방위]를 획득한 목표는 가하는 피해가 #2[i]% 증가하며, 목표가 소환물을 보유한 경우 가하는 피해가 추가로 #3[i]% 증가한다"
     },

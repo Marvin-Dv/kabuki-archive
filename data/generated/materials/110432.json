@@ -1,7 +1,13 @@
 {
   "id": 110432,
   "slug": "radiant-prominence",
-  "name": { "pt-BR": "Proeminência Radiante", "en": "Radiant Prominence", "ja": "明輝の紅炎", "ko": "눈부신 홍염" },
+  "name": {
+    "pt-BR": "Proeminência Radiante",
+    "en": "Radiant Prominence",
+    "zh-CN": "明辉日珥",
+    "ja": "明輝の紅炎",
+    "ko": "눈부신 홍염"
+  },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -14,6 +20,7 @@
       "Sombra Estagnada: Janusópolis, Santuário da Profecia",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["凝滞虚影【「神谕圣地」雅努萨波利斯】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「「{RUBY_B#しんたく}神託{RUBY_E#}の{RUBY_B#せいち}聖地{RUBY_E#}」ヤヌサポリス」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [「신탁의 성지」 야누소폴리스]", "「만능 합성기」- 재료 치환"]
   }
