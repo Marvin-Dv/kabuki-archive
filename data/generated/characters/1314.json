@@ -1,7 +1,7 @@
 {
   "id": 1314,
   "slug": "jade",
-  "name": { "pt-BR": "Jade", "en": "Jade", "ja": "ジェイド", "ko": "제이드" },
+  "name": { "pt-BR": "Jade", "en": "Jade", "zh-CN": "翡翠", "ja": "ジェイド", "ko": "제이드" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Quantum",
@@ -11,10 +11,17 @@
     {
       "id": 131401,
       "type": "Basic",
-      "name": { "pt-BR": "Chicote de Riquezas", "en": "Lash of Riches", "ja": "むしり取る鞭打ち", "ko": "갈취의 채찍" },
+      "name": {
+        "pt-BR": "Chicote de Riquezas",
+        "en": "Lash of Riches",
+        "zh-CN": "挞楚抽薪",
+        "ja": "むしり取る鞭打ち",
+        "ko": "갈취의 채찍"
+      },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% do ATQ de Jade a um único inimigo-alvo e #2[i]% do ATQ de Jade como Dano Quântico aos inimigos adjacentes.",
         "en": "Deals Quantum DMG equal to #1[i]% of Jade's ATK to one designated enemy target, and Quantum DMG equal to #2[i]% of Jade's ATK to adjacent enemies.",
+        "zh-CN": "对指定敌方单体造成等同于翡翠#1[i]%攻击力的量子属性伤害，同时对其相邻目标造成等同于翡翠#2[i]%攻击力的量子属性伤害。",
         "ja": "指定した敵単体にジェイドの攻撃力#1[i]%分の量子属性ダメージを与え、隣接する敵にジェイドの攻撃力#2[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 제이드 공격력의 #1[i]%만큼 양자 속성 피해를 가하고, 동시에 인접한 목표에게 제이드 공격력의 #2[i]%만큼 양자 속성 피해를 가한다"
       },
@@ -35,11 +42,12 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um único inimigo e Dano Quântico leve a inimigos adjacentes a ele.",
         "en": "Deals minor Quantum DMG to one enemy and minor Quantum DMG to enemies adjacent to it.",
+        "zh-CN": "对敌方单体造成少量量子属性伤害，对相邻目标造成少量量子属性伤害。",
         "ja": "敵単体に少量の量子属性ダメージを与え、隣接する敵に少量の量子属性ダメージを与える。",
         "ko": "단일 적에게 소량의 양자 속성 피해를 가하고, 인접한 목표에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 131402,
@@ -47,12 +55,14 @@
       "name": {
         "pt-BR": "Fiança de Aquisição",
         "en": "Acquisition Surety",
+        "zh-CN": "恣肆吞併的担保",
         "ja": "ほしいままに呑み込む買収",
         "ko": "병탄 합병의 담보"
       },
       "description": {
         "pt-BR": "Faz com que um único aliado-alvo se torne o Coletor de Dívidas e aumenta sua VEL em #1[i], durando #4[i] rodada(s).\nApós um Coletor de Dívidas atacar, causa uma instância de Dano Quântico Adicional igual a #3[i]% do ATQ de Jade a cada inimigo-alvo atingido, e consome os PV do Coletor de Dívidas em uma quantidade igual a #2[i]% dos seus PV máximos. Se seus PV atuais forem insuficientes, seus PV atuais serão reduzidos para 1.\nSe Jade se tornar a Coletora de Dívidas, ela não pode ganhar o efeito de aumento de VEL, e seus ataques não consomem PV.\nQuando há o Coletor de Dívidas em campo, Jade não pode usar sua Perícia. No início de cada rodada de Jade, a duração do estado Coletor de Dívidas é reduzida em 1 rodada.",
         "en": "Makes a single target ally become the Debt Collector and increases their SPD by #1[i], lasting for #4[i] turn(s).\nAfter the Debt Collector attacks, deals 1 instance of Quantum Additional DMG equal to #3[i]% of Jade's ATK to each enemy target hit, and consumes the Debt Collector's HP by an amount equal to #2[i]% of their Max HP. If the current HP is insufficient, reduces HP to 1.\nIf Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP.\nWhen the Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade's every turn, the Debt Collector's duration decreases by 1 turn.",
+        "zh-CN": "指定我方单体成为【收债人】，使其速度提高#1[i]点，持续#4[i]回合。\n【收债人】施放攻击后，对每个击中的敌方目标造成1次等同于翡翠#3[i]%攻击力的量子属性附加伤害，并消耗【收债人】生命上限#2[i]%的生命值，若当前生命值不足，当前生命值降至1点。\n若翡翠成为【收债人】时，无法获得速度提高效果且攻击后不消耗生命值。\n当场上存在【收债人】时，翡翠无法施放战技，翡翠每回合开始时【收债人】状态持续回合数减1。",
         "ja": "指定した味方単体を「債権回収者」状態にし、その味方の速度+#1[i]、#4[i]ターン継続。\n「債権回収者」状態の味方単体が攻撃を行った後、命中した敵にジェイドの攻撃力#3[i]%分の量子属性付加ダメージを1回与え、その味方のHPを最大HP#2[i]%分消費する。残りHPが足りない場合、その味方の残りHPが1になる。\nジェイドが「債権回収者」状態の時、ジェイドは速度アップ効果を獲得せず、攻撃を行った後にHPを消費しない。\nフィールド上に「債権回収者」状態の味方が存在する時、ジェイドは戦闘スキルを発動できない。ジェイドのターンが回ってくるたびに、「債権回収者」状態の継続時間-1ターン。",
         "ko": "지정된 단일 아군을 [빚 수금업자]로 만들며, 해당 목표의 속도가 #1[i]pt 증가한다, 지속 시간: #4[i]턴\n[빚 수금업자]가 공격 발동 후 명중한 모든 적에게 제이드 공격력의 #3[i]%만큼 양자 속성 추가 피해를 1회 가하고, [빚 수금업자] HP 최대치의 #2[i]%만큼 HP를 소모한다. 현재 HP가 부족하면 HP가 1pt로 감소한다.\n제이드가 [빚 수금업자]가 되면 속도 증가 효과를 획득할 수 없고 공격 후 HP를 소모하지 않는다.\n필드에 [빚 수금업자]가 존재할 시 제이드는 전투 스킬을 발동할 수 없으며, 제이드의 턴이 시작될 때마다 [빚 수금업자] 상태의 지속 턴 수가 1 감소한다"
       },
@@ -78,11 +88,12 @@
       "summary": {
         "pt-BR": "Faz com que um único aliado se torne o Coletor de Dívidas e aumente sua VEL. Após um Coletor de Dívidas atacar, ele causa Dano Quântico leve Adicional a cada inimigo-alvo atingido e consome seus próprios PV. Quando Jade se torna a Coletora de Dívidas, ela não pode ganhar o efeito de bônus de VEL, e seus ataques não consomem PV.",
         "en": "Makes a single ally become the Debt Collector and increases their SPD. After the Debt Collector attacks, deals minor Quantum Additional DMG to each enemy target hit and consume the Debt Collector's own HP. When Jade becomes the Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume her HP.",
+        "zh-CN": "使我方单体成为【收债人】，使其速度提高。【收债人】施放攻击后，对每个击中的敌方目标造成少量量子属性附加伤害并消耗自身生命值。翡翠成为【收债人】时，无法获得速度提高效果且攻击后不消耗生命值。",
         "ja": "味方単体を「債権回収者」状態にし、その味方の速度をアップさせる。「債権回収者」状態の味方は攻撃を行った後にHPを消費し、命中した敵に少量の量子属性付加ダメージを与える。ジェイドが「債権回収者」状態の時、速度アップ効果を獲得せず、攻撃後もHPを消費しない。",
         "ko": "단일 아군이 [빚 수금업자]가 되며, 속도가 증가한다. [빚 수금업자]가 공격을 발동하면 명중한 모든 적에게 소량의 양자 속성 추가 피해를 가하고 자신의 HP를 소모한다. 제이드가 [빚 수금업자]가 되면 속도 증가 효과를 획득할 수 없고 공격 후 HP를 소모하지 않는다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 131403,
@@ -90,12 +101,14 @@
       "name": {
         "pt-BR": "Voto das Profundezas",
         "en": "Vow of the Deep",
+        "zh-CN": "堕此欲渊，立此狱契",
         "ja": "欲望の淵での地獄の契り",
         "ko": "서약의 심연, 영원의 계약"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #3[i]% do ATQ de Jade a todos os inimigos. Ao mesmo tempo, Jade aprimora o Ataque Extra do seu Talento, aumentando o multiplicador de Dano do Ataque Extra em #1[i]%. Esse efeito de aprimoramento pode ser ativado #2[i] vez(es).",
         "en": "Deals Quantum DMG equal to #3[i]% of Jade's ATK to all enemies. At the same time, Jade enhances her Talent's Follow-Up ATK, increasing its DMG multiplier by #1[i]%. This enhancement can take effect #2[i] time(s).",
+        "zh-CN": "对敌方全体造成等同于翡翠#3[i]%攻击力的量子属性伤害。同时使翡翠天赋的追加攻击获得强化，追加攻击造成的伤害倍率提高#1[i]%。强化效果可生效#2[i]次。",
         "ja": "敵全体にジェイドの攻撃力#3[i]%分の量子属性ダメージを与える。ジェイドの天賦の追加攻撃を強化し、追加攻撃のダメージ倍率+#1[i]%、この強化追加攻撃は#2[i]回まで発動できる。",
         "ko": "모든 적에게 제이드 공격력의 #3[i]%만큼 양자 속성 피해를 가한다. 또한 제이드 특성의 추가 공격이 강화되고, 추가 공격으로 가하는 피해 배율이 #1[i]% 증가한다. 강화 효과는 #2[i]회 적용된다"
       },
@@ -121,11 +134,12 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico a todas as unidades inimigas e o Multiplicador de Dano de Ataque Extra do Talento desta unidade aumenta.",
         "en": "Deals Quantum DMG to all enemy units, and this unit's Talent's Follow-Up ATK DMG multiplier increases.",
+        "zh-CN": "对敌方全体造成量子属性伤害，使自身天赋的追加攻击伤害倍率提高。",
         "ja": "敵全体に量子属性ダメージを与え、天賦の追加攻撃ダメージ倍率をアップする。",
         "ko": "모든 적에게 양자 속성 피해를 가하고, 자신의 특성의 추가 공격 피해 배율이 증가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 131404,
@@ -133,12 +147,14 @@
       "name": {
         "pt-BR": "Presa do Esfolador em Chamas",
         "en": "Fang of Flare Flaying",
+        "zh-CN": "剔烁之牙",
         "ja": "富を削ぐ毒牙",
         "ko": "보석을 골라내는 이빨"
       },
       "description": {
         "pt-BR": "Depois que Jade ou uma unidade no estado de Coletor de Dívidas atacar, ganha 1 Carga para cada inimigo-alvo atingido. Ao atingir #3[i] ponto(s) de Carga, consome os #3[i] ponto(s) para realizar 1 Ataque Extra 1 vez, causando Dano Quântico igual a #5[i]% do ATQ de Jade a todos os inimigos. Este Ataque Extra não gera Carga.\nAo realizar o Ataque Extra do seu Talento, Jade ganha imediatamente #4[i] acúmulo(s) de Ativo Penhorado, com cada acúmulo aumentando seu Dano CRIT em #1[f1]%, acumulando até #2[i] vezes.",
         "en": "After Jade or the \"Debt Collector\" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching #3[i] points of Charge, consumes the #3[i] points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG equal to #5[i]% of Jade's ATK to all enemies. This Follow-Up ATK does not generate Charge.\nWhen launching her Talent's Follow-Up ATK, Jade immediately gains #4[i] stack(s) of \"Pawned Asset,\" with each stack increasing CRIT DMG by #1[f1]%, stacking up to #2[i] times.",
+        "zh-CN": "翡翠或成为【收债人】的目标施放攻击后，每击中1名敌方目标均可获得1点充能。当充能到达#3[i]点后，消耗#3[i]点充能，发动1次追加攻击，对敌方全体目标造成等同于翡翠#5[i]%攻击力的量子属性伤害，本次追加攻击无法获得充能。\n翡翠发动天赋的追加攻击时立即获得#4[i]层【当品】，每层【当品】使暴击伤害提高#1[f1]%，最多叠加#2[i]层。",
         "ja": "ジェイドまたは「債権回収者」状態の味方が攻撃を行った後、命中した敵1体につき、チャージを1獲得する。チャージが#3[i]に到達した後、チャージを#3[i]消費して追加攻撃を1回行い、敵全体にジェイドの攻撃力#5[i]%分の量子属性ダメージを与える。この追加攻撃はチャージを獲得しない。\nジェイドが天賦の追加攻撃を行う時、即座に「質草」を#4[i]層獲得する。「質草」1層につき、会心ダメージ+#1[f1]%、最大で#2[i]層累積できる。",
         "ko": "제이드 혹은 [빚 수금업자]가 된 목표가 공격 발동 후, 적을 1기 명중할 때마다 충전을 1pt 획득한다. 충전이 #3[i]pt에 도달하면 충전을 #3[i]pt 소모하여 추가 공격을 1회 발동하고, 모든 적에게 제이드 공격력의 #5[i]%만큼 양자 속성 피해를 가한다. 이번 추가 공격은 충전을 획득할 수 없다.\n제이드가 특성의 추가 공격을 발동하면 즉시 [전당품]을 #4[i]스택 획득하며, [전당품] 스택마다 치명타 피해가 #1[f1]% 증가한다, 최대 중첩수: #2[i]스택"
       },
@@ -164,19 +180,21 @@
       "summary": {
         "pt-BR": "Depois que Jade ou uma unidade com Coletor de Dívidas ataca, Jade ganha 1 ponto de Carga para cada inimigo-alvo atingido. Quando a Carga atinge 8 pontos, consome 8 ponto(s) para realizar 1 Ataque Extra, causando Dano Quântico a todos os inimigos.\nQuando Jade realiza o Ataque Extra, ganha Ativo Penhorado e aumenta o Dano CRIT, acumulando até 50 vezes.",
         "en": "After Jade or the \"Debt Collector\" unit attacks, gains 1 point of Charge for each enemy target hit. Upon reaching 8 points of Charge, consumes the 8 points to launch 1 instance of Follow-Up ATK, dealing Quantum DMG to all enemies.\nWhen Jade launches the Follow-Up ATK, gains \"Pawned Asset\" and increases CRIT DMG, stacking up to 50 times.",
+        "zh-CN": "翡翠或成为【收债人】的目标施放攻击后，每击中1个敌方目标均可获得1点充能。当充能到达8点后，消耗8点充能，发动1次追加攻击，对敌方全体造成量子属性伤害。\n翡翠发动追加攻击时获得【当品】，使暴击伤害提高，最多叠加50层。",
         "ja": "ジェイドまたは「債権回収者」状態の味方が攻撃を行った後、命中した敵1体につき、チャージを1獲得する。チャージが8に到達した後、チャージを8消費して追加攻撃を1回行い、敵全体に量子属性ダメージを与える。\nジェイドが追加攻撃を行う時、「質草」を獲得し、会心ダメージがアップする、最大で50層累積できる。",
         "ko": "제이드 혹은 [빚 수금업자]가 된 목표가 공격 발동 후, 적을 1기 명중할 때마다 충전을 1pt 획득한다. 충전이 8pt에 도달하면 충전을 8pt 소모하여 추가 공격을 1회 발동하고, 모든 적에게 양자 속성 피해를 가한다.\n제이드가 추가 공격 발동 시 [전당품]을 획득하고 치명타 피해가 증가한다, 최대 중첩수: 50스택"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 131406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -185,6 +203,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -192,10 +211,17 @@
     {
       "id": 131407,
       "type": "Technique",
-      "name": { "pt-BR": "Predação Visual", "en": "Visionary Predation", "ja": "ハンターの視界", "ko": "사냥꾼의 시야" },
+      "name": {
+        "pt-BR": "Predação Visual",
+        "en": "Visionary Predation",
+        "zh-CN": "猎手的视界",
+        "ja": "ハンターの視界",
+        "ko": "사냥꾼의 시야"
+      },
       "description": {
         "pt-BR": "Após usar a Técnica, inflige Fidelidade Cega a inimigos em uma área definida por #1[i] segundo(s). Inimigos infligidos com Fidelidade Cega não iniciarão ataques em aliados. Ao entrar em combate atacando inimigos infligidos com Fidelidade Cega, todos os inimigos com Fidelidade Cega entrarão em combate simultaneamente. Após entrar em batalha, causa Dano Quântico igual a #2[i]% do ATQ de Jade a todos os inimigos, e ganha imediatamente #3[i] acúmulo(s) de Ativo Penhorado.",
         "en": "After using the Technique, inflicts enemies within a set area with Blind Fealty for #1[i] second(s). Enemies inflicted with Blind Fealty will not initiate attacks on allies. When entering battle via actively attacking enemies inflicted with Blind Fealty, all enemies with Blind Fealty will enter combat simultaneously. After entering battle, deals Quantum DMG equal to #2[i]% of Jade's ATK to all enemies, and immediately gains #3[i] stack(s) of Pawned Asset.",
+        "zh-CN": "使用秘技后使一定区域内的敌人陷入#1[i]秒【盲从】。【盲从】状态下敌人不会主动攻击我方目标。主动攻击陷入【盲从】的敌人进入战斗时，使所有处于【盲从】状态的敌人同时进入战斗。进入战斗后对敌方全体造成等同于翡翠#2[i]%攻击力的量子属性伤害，立即获得#3[i]层【当品】。",
         "ja": "秘技を使用した後、一定範囲内の敵を#1[i]秒間の「盲従」状態にする。「盲従」状態の敵は味方を攻撃しない。「盲従」状態の敵を先制攻撃すると、すべての「盲従」状態の敵と戦闘に入る。戦闘開始後、敵全体にジェイドの攻撃力#2[i]%分の量子属性ダメージを与え、「質草」を#3[i]層獲得する。",
         "ko": "비술 사용 후 일정 구역 내의 적을 #1[i]초 동안 [맹종] 상태에 빠트린다. [맹종] 상태의 적은 아군을 선공하지 않는다. [맹종] 상태의 적을 선공해 전투 진입 시 모든 [맹종] 상태의 적이 동시에 전투에 진입한다. 전투 진입 후 모든 적에게 제이드 공격력의 #2[i]%만큼 양자 속성 피해를 가하고, 즉시 [전당품]을 #3[i]스택 획득한다"
       },
@@ -205,11 +231,12 @@
       "summary": {
         "pt-BR": "Inflige Fidelidade Cega a todos os inimigos dentro de uma área definida. Atacar um inimigo com Fidelidade Cega faz com que todos os inimigos com Fidelidade Cega entrem em combate simultaneamente. Ao entrar em combate, causa Dano Quântico leve a todos os inimigos e ganha imediatamente 15 acúmulo(s) de Ativo Penhorado.",
         "en": "Inflicts Blind Fealty on enemies within a set area. Attacking an enemy with Blind Fealty causes all enemies with Blind Fealty to enter combat simultaneously. Upon entering combat, deals minor Quantum DMG to all enemies and immediately gains 15 stack(s) of Pawned Asset.",
+        "zh-CN": "使一定区域内敌人陷入【盲从】状态。攻击陷入【盲从】状态敌人，使所有处于【盲从】状态的敌人同时进入战斗，进入战斗后对敌方全体造成少量量子属性伤害，立即获得15层【当品】。",
         "ja": "一定範囲内の敵を「盲従」状態にする。「盲従」状態の敵を攻撃すると、すべての「盲従」状態の敵と戦闘に入る。戦闘に入った後、敵全体に少量の量子属性ダメージを与え、「質草」を15層獲得する。",
         "ko": "일정 구역 내의 적을 [맹종] 상태에 빠트린다. [맹종] 상태의 적을 공격하면 모든 [맹종] 상태의 적이 동시에 전투에 진입하며, 전투 진입 후 모든 적에게 소량의 양자 속성 피해를 가하고 즉시 [전당품]을 15스택 획득한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -218,12 +245,14 @@
       "name": {
         "pt-BR": "Altruísmo? Algo Vendável",
         "en": "Altruism? Nevertheless Tradable",
+        "zh-CN": "无私？亦可交割",
         "ja": "{RUBY_B#むし}無私{RUBY_E#}？\nそれは{RUBY_B#こうしょうしだい}交渉次第{RUBY_E#}",
         "ko": "이타심? 역시 거래 가능"
       },
       "description": {
         "pt-BR": "O Dano do Ataque Extra do Talento de Jade aumenta em 32%. Após um personagem no estado de \"Coletor de Dívidas\" atacar e a quantidade de inimigos-alvo atingidos for 2 ou 1, Jade ganha adicionalmente 1 ou 2 ponto(s) de Carga respectivamente.",
         "en": "The Follow-Up ATK DMG from Jade's Talent increases by 32%. After the \"Debt Collector\" character attacks and the number of the enemy target(s) hit is either 2 or 1, Jade additionally gains 1 or 2 point(s) of Charge respectively.",
+        "zh-CN": "翡翠天赋的追加攻击伤害提高32%，持有【收债人】状态的角色施放攻击后击中敌方目标数量等于2/1名时，翡翠额外获得1/2点充能。",
         "ja": "ジェイドの天賦による追加攻撃ダメージ+32%。「債権回収者」状態の味方キャラが攻撃を行い、命中した敵の数が2体/1体の時、ジェイドはチャージを追加で1/2獲得する。",
         "ko": "제이드 특성의 추가 공격 피해가 32% 증가한다. [빚 수금업자] 상태를 보유한 캐릭터가 공격 발동 후 명중한 적의 수량이 2/1기일 시 제이드가 충전을 추가로 1/2pt 획득한다"
       },
@@ -236,12 +265,14 @@
       "name": {
         "pt-BR": "Moralidade? Eis Aqui Autenticada",
         "en": "Morality? Herein Authenticated",
+        "zh-CN": "道德？谨此核押",
         "ja": "{RUBY_B#どうとく}道徳{RUBY_E#}？\n{RUBY_B#つつし}謹{RUBY_E#}んで{RUBY_B#なついん}捺印{RUBY_E#}",
         "ko": "도덕? 담보 승인"
       },
       "description": {
         "pt-BR": "Quando houver 15 acúmulo(s) de Ativo Penhorado, a Chance de CRIT de Jade aumenta em 18%.",
         "en": "When there are 15 stacks of Pawned Asset, Jade's CRIT Rate increases by 18%.",
+        "zh-CN": "【当品】叠加至15层时，翡翠暴击率提高18%。",
         "ja": "「質草」が15層以上の時、ジェイドの会心率+18%。",
         "ko": "[전당품]이 15스택까지 중첩될 시 제이드의 치명타 확률이 18% 증가한다"
       },
@@ -254,12 +285,14 @@
       "name": {
         "pt-BR": "Honestidade? Em Breve Hipotecada",
         "en": "Honesty? Soon Mortgaged",
+        "zh-CN": "坦率？只待典当",
         "ja": "{RUBY_B#そっちょく}率直{RUBY_E#}？\n{RUBY_B#しちい}質入{RUBY_E#}れを{RUBY_B#ま}待{RUBY_E#}つのみ",
         "ko": "솔직? 저당 대상이 될 뿐"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -272,12 +305,14 @@
       "name": {
         "pt-BR": "Sinceridade? Apenas Opcional",
         "en": "Sincerity? Put Option Only",
+        "zh-CN": "真诚？唯凭认沽",
         "ja": "{RUBY_B#せいじつ}誠実{RUBY_E#}？\n{RUBY_B#けいやく}契約{RUBY_E#}に{RUBY_B#したが}従{RUBY_E#}っただけ",
         "ko": "진심? 풋옵션만 가능"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia Suprema, permite que o Dano causado por Jade ignore 12% da DEF do inimigo-alvo, durando por 3 rodada(s).",
         "en": "When using Ultimate, enables the DMG dealt by Jade to ignore 12% of enemy targets' DEF, lasting for 3 turn(s).",
+        "zh-CN": "施放终结技时，使翡翠造成的伤害无视敌方目标12%的防御力，持续3回合。",
         "ja": "必殺技を発動する時、ジェイドの与えるダメージが敵の防御力を12%無視する、3ターン継続。",
         "ko": "필살기 발동 시 제이드가 가하는 피해가 적의 방어력을 12% 무시한다. 지속 시간: 3턴"
       },
@@ -290,12 +325,14 @@
       "name": {
         "pt-BR": "Esperança? Doravante Abdicada",
         "en": "Hope? Hitherto Forfeited",
+        "zh-CN": "希冀？已然绝卖",
         "ja": "{RUBY_B#きぼう}希望{RUBY_E#}？\nすでに{RUBY_B#う}売{RUBY_E#}り{RUBY_B#わた}渡{RUBY_E#}し{RUBY_B#ず}済{RUBY_E#}み",
         "ko": "희망? 유전물이 된 지 오래"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -308,12 +345,14 @@
       "name": {
         "pt-BR": "Equidade? Patrocínio Pendente",
         "en": "Equity? Pending Sponsorship",
+        "zh-CN": "公平？仍须保荐",
         "ja": "{RUBY_B#こうへい}公平{RUBY_E#}？\nなおも{RUBY_B#たんぽ}担保{RUBY_E#}が{RUBY_B#ひっす}必須{RUBY_E#}",
         "ko": "공평? 여전히 보증 필요"
       },
       "description": {
         "pt-BR": "Enquanto há personagens com \"Coletor de Dívidas\" em campo, a PEN de RES a Quântico de Jade aumenta em 20%, e Jade ganha o estado \"Coletor de Dívidas\".",
         "en": "While the \"Debt Collector\" character exists on the field, Jade's Quantum RES PEN increases by 20%, and Jade gains the \"Debt Collector\" state.",
+        "zh-CN": "场上有【收债人】状态的角色时，翡翠量子属性抗性穿透提高20%，同时翡翠获得【收债人】状态。",
         "ja": "フィールド上に「債権回収者」状態のキャラがいる時、ジェイドの量子属性耐性貫通+20%。同時にジェイドも「債権回収者」状態を獲得する。",
         "ko": "필드 위에 [빚 수금업자] 상태인 캐릭터가 있을 시 제이드의 양자 속성 저항 관통이 20% 증가하고, 제이드가 [빚 수금업자] 상태를 획득한다"
       },
@@ -690,10 +729,17 @@
     {
       "id": 1314101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Compra Reversa", "en": "Reverse Repo", "ja": "リバースレポ", "ko": "리버스 레포" },
+      "name": {
+        "pt-BR": "Compra Reversa",
+        "en": "Reverse Repo",
+        "zh-CN": "逆回购",
+        "ja": "リバースレポ",
+        "ko": "리버스 레포"
+      },
       "description": {
         "pt-BR": "Quando um inimigo-alvo entra em combate, Jade ganha #2[i] acúmulo(s) de Ativo Penhorado. Quando a rodada de um personagem com Coletor de Dívidas inicia, ganha adicionalmente #1[i] acúmulo(s) de Ativo Penhorado.",
         "en": "When an enemy target enters combat, Jade gains #2[i] stack(s) of Pawned Asset. When the Debt Collector character's turn starts, additionally gains #1[i] stack(s) of Pawned Asset.",
+        "zh-CN": "在敌方目标进入战斗时，翡翠获得#2[i]层【当品】。处于【收债人】状态的角色回合开始时，额外获得#1[i]层【当品】。",
         "ja": "敵が戦闘に入る時、ジェイドは「質草」を#2[i]層獲得する。「債権回収者」状態の味方のターンが回ってくる時、ジェイドは「質草」を#1[i]層獲得する。",
         "ko": "적이 전투에 진입하면 제이드는 [전당품]을 #2[i]스택 획득한다. [빚 수금업자] 상태인 캐릭터의 턴이 시작되면 [전당품]을 추가로 #1[i]스택 획득한다"
       },
@@ -717,12 +763,14 @@
       "name": {
         "pt-BR": "Tíquete de Garantia",
         "en": "Collateral Ticket",
+        "zh-CN": "折牙票",
         "ja": "{RUBY_B#しちふだ}質札{RUBY_E#}",
         "ko": "전당표"
       },
       "description": {
         "pt-BR": "No começo da batalha, a ação de Jade é Avançada Adiante em #1[i]%.",
         "en": "When the battle starts, action advances Jade by #1[i]%.",
+        "zh-CN": "战斗开始时，翡翠的行动提前#1[i]%。",
         "ja": "戦闘開始時、ジェイドの行動順が#1[i]%早まる。",
         "ko": "전투 시작 시 제이드의 행동 게이지가 #1[i]% 증가한다"
       },
@@ -751,12 +799,14 @@
       "name": {
         "pt-BR": "Confisco de Bens",
         "en": "Asset Forfeiture",
+        "zh-CN": "绝当品",
         "ja": "{RUBY_B#なが}流{RUBY_E#}れ{RUBY_B#もの}物{RUBY_E#}",
         "ko": "유전물"
       },
       "description": {
         "pt-BR": "Cada acúmulo de Ativo Penhorado do Talento aumenta adicionalmente o ATQ de Jade em #1[f1]%.",
         "en": "Each Pawned Asset stack from the Talent additionally increases Jade's ATK by #1[f1]%.",
+        "zh-CN": "天赋中每层【当品】额外使翡翠的攻击力提高#1[f1]%。",
         "ja": "「質草」1層につき、ジェイドの攻撃力+#1[f1]%。",
         "ko": "특성의 [전당품] 1스택마다 추가로 제이드의 공격력을 #1[f1]% 증가시킨다"
       },
@@ -785,6 +835,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -804,7 +855,7 @@
     {
       "id": 1314202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1314101],
@@ -824,6 +875,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -846,6 +898,7 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -868,6 +921,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -887,7 +941,7 @@
     {
       "id": 1314206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1314205],
@@ -907,6 +961,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },
@@ -929,6 +984,7 @@
       "name": {
         "pt-BR": "Bônus de RES a Efeito",
         "en": "Effect RES Boost",
+        "zh-CN": "效果抵抗强化",
         "ja": "効果抵抗強化",
         "ko": "효과 저항 강화"
       },
@@ -948,7 +1004,7 @@
     {
       "id": 1314209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1314103],
@@ -968,6 +1024,7 @@
       "name": {
         "pt-BR": "Bônus de Dano: Quântico",
         "en": "DMG Boost: Quantum",
+        "zh-CN": "伤害强化•量子",
         "ja": "ダメージ強化・量子",
         "ko": "피해 강화•양자"
       },

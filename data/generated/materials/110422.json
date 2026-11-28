@@ -1,7 +1,13 @@
 {
   "id": 110422,
   "slug": "raging-heart",
-  "name": { "pt-BR": "Coração Violento", "en": "Raging Heart", "ja": "憤怒の心", "ko": "격분한 심장" },
+  "name": {
+    "pt-BR": "Coração Violento",
+    "en": "Raging Heart",
+    "zh-CN": "忿火之心",
+    "ja": "憤怒の心",
+    "ko": "격분한 심장"
+  },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -11,6 +17,7 @@
   "sources": {
     "en": ["Stagnant Shadow: Dewlight Pavilion", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: Pavilhão do Orvalho", "Sintetizador Omni - Troca de Material"],
+    "zh-CN": ["凝滞虚影【朝露公馆】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「朝露の館」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [아침 이슬 공관]", "「만능 합성기」- 재료 치환"]
   }

@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Baú da Coragem Rasgada",
     "en": "Courage-Torn Chest",
+    "zh-CN": "勇气撕裂胸膛",
     "ja": "勇気は胸を切り裂く",
     "ko": "용기에 찢긴 가슴"
   },
@@ -29,6 +30,14 @@
       "Inimigos do Universo Divergente",
       "Inimigos do Universo Simulado",
       "Sintetizador Omni - Troca de Material"
+    ],
+    "zh-CN": [
+      "突破至均衡等级2后，泰坦眷属掉落",
+      "突破至均衡等级2后，晨昏奇兽掉落",
+      "「万能合成机」- 材料合成",
+      "「差分宇宙」中敌方掉落",
+      "「模拟宇宙」中敌方掉落",
+      "「万能合成机」- 材料置换"
     ],
     "ja": [
       "均衡Lv.2に達した後、タイタンの眷属からドロップ",

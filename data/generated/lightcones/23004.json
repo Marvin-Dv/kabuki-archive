@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Em Nome do Mundo",
     "en": "In the Name of the World",
+    "zh-CN": "以世界之名",
     "ja": "世界の名を以て",
     "ko": "세계의 이름으로"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "\"Welt...\"\n\"É um... ótimo nome, não acha?\"\n\"Então...\"\n\"De agora em diante, seu nome é Welt.\"\n\"Esse núcleo de Herrscher... e a missão de proteger o mundo...\"\n\"Você cuidará disso, Welt.\"",
     "en": "\"Welt...?\"\n\"It's a... great name, right?\"\n\"Then...\"\n\"From now on, you are Welt.\"\n\"This Herrscher core... and the mission to protect the world...\"\n\"I'll leave them to you, Welt.\"",
+    "zh-CN": "「瓦尔特…吗……」\n「这个名字…很棒吧？」\n「那么……」\n「从现在开始，你就是瓦尔特了。」\n「律者的核心…还有守护这个世界的使命……」\n「就拜托你了，瓦尔特。」",
     "ja": "「ヴェルト……か……」\n「この名前……かっこいいだろ？」\n「じゃあ……」\n「これからは、君がヴェルトだ」\n「律者コアと……世界を守る使命……」\n「頼んだぞ、ヴェルト」",
     "ko": "「웰트…」\n「좋은… 이름이지?」\n「그럼…」\n「이제부터 너는 웰트야」\n「율자 코어… 그리고 세계를 수호하는 사명도…」\n「다 너에게 맡길게, 웰트」"
   },
   "skill": {
-    "name": { "pt-BR": "Herança", "en": "Inheritor", "ja": "伝承者", "ko": "전승자" },
+    "name": { "pt-BR": "Herança", "en": "Inheritor", "zh-CN": "传承者", "ja": "伝承者", "ko": "전승자" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o Dano contra inimigos penalizados. Quando o usuário utiliza sua Perícia, a Taxa de Acerto de Efeito desse ataque aumenta em #2[i]% e seu ATQ aumenta em #3[i]%.",
       "en": "Increases the wearer's DMG to debuffed enemies by #1[i]%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by #2[i]%, and ATK increases by #3[i]%.",
+      "zh-CN": "使装备者对陷入负面效果的敌方目标造成的伤害提高#1[i]%。当装备者施放战技时，装备者此次攻击的效果命中提高#2[i]%，攻击力提高#3[i]%。",
       "ja": "デバフ状態の敵に対して、装備キャラの与ダメージ+#1[i]%。装備キャラが戦闘スキルを発動した時、その攻撃の効果命中+#2[i]%、攻撃力+#3[i]%。",
       "ko": "장착한 캐릭터가 디버프 효과에 빠진 적에게 가하는 피해가 #1[i]% 증가한다. 장착한 캐릭터가 전투 스킬 발동 시 장착한 캐릭터의 이번 공격은 효과 명중이 #2[i]% 증가하고, 공격력이 #3[i]% 증가한다"
     },

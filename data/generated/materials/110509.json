@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Esperança do Falso Iluminado",
     "en": "High Hopes of the Falsely Enlightened",
+    "zh-CN": "伪觉者的期许",
     "ja": "似非覚者の期待",
     "ko": "거짓 선각자의 기대"
   },
@@ -16,6 +17,7 @@
   "sources": {
     "en": ["Echo of War: Desolate Maw's Demonhold"],
     "pt-BR": ["Eco da Guerra: Fortaleza Demoníaca da Mandíbula Desoladora"],
+    "zh-CN": ["历战余响【寂灭空飨妖都】"],
     "ja": ["歴戦余韻「{RUBY_B#けものもてな}獣饗{RUBY_E#}す{RUBY_B#じゃくめつ}寂滅{RUBY_E#}の{RUBY_B#ようと}妖都{RUBY_E#}」"],
     "ko": ["전쟁의 여운 [적멸의 향연 데몬 시티]"]
   }

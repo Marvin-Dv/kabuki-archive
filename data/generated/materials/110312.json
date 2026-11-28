@@ -1,7 +1,13 @@
 {
   "id": 110312,
   "slug": "wine-of-phagousa",
-  "name": { "pt-BR": "Vinho de Phagousa", "en": "Wine of Phagousa", "ja": "ファジェイナの酒", "ko": "파구사의 술" },
+  "name": {
+    "pt-BR": "Vinho de Phagousa",
+    "en": "Wine of Phagousa",
+    "zh-CN": "法吉娜之酒",
+    "ja": "ファジェイナの酒",
+    "ko": "파구사의 술"
+  },
   "rarity": 3,
   "type": "Material",
   "subType": "TracePath",
@@ -21,6 +27,7 @@
       "Troca de Brasas",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["拟造花萼【「辉痕圣林」神悟树庭】", "「万能合成机」- 材料合成", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": [
       "疑似花萼「「{RUBY_B#あとかがや}痕輝{RUBY_E#}ける{RUBY_B#せいりん}聖林{RUBY_E#}」{RUBY_B#しんご}神悟{RUBY_E#}の{RUBY_B#じゅてい}樹庭{RUBY_E#}」",
       "「万能合成マシン」- 素材合成",

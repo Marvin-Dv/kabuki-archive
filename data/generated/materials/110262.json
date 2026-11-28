@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Edição Comemorativa de Serialização de \"Fofurinha\"",
     "en": "The Fluffy Serialization Memorial Issue",
+    "zh-CN": "《绒绒号》连载纪念刊",
     "ja": "『もふもふ号』連載記念号",
     "ko": "≪복슬복슬호≫ 연재 기념호"
   },
@@ -26,6 +27,7 @@
       "Troca de Brasas",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["拟造花萼【「世界尽头」酒馆】", "「万能合成机」- 材料合成", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": ["疑似花萼「パブ「ワールドエンド」」", "「万能合成マシン」- 素材合成", "エンバー交換", "「万能合成マシン」- 素材交換"],
     "ko": ["모조 꽃받침 [「세상 끝」 술집]", "「만능 합성기」- 재료 합성", "잔화 교환", "「만능 합성기」- 재료 치환"]
   }

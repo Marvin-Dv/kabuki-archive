@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Um Encontro na Próxima Primavera",
     "en": "Until the Flowers Bloom Again",
+    "zh-CN": "邂逅于下一个花季",
     "ja": "再び花が咲く季節に",
     "ko": "다음 꽃피는 계절의 만남"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "Uma brisa suave agita as cortinas brancas, puxando os pensamentos da jovem.\nEnquanto ela contempla a multidão tagarela do lado de fora da janela, sua caneta de desenho para inconscientemente no lugar.\n\"Quantas vezes eu já me sentei aqui?\"\nNaquele instante fugaz, uma pétala que cai roça seu nariz, como se respondesse, como se lembrasse.\nUm grande jogo, um encontro único na vida, dias e noites de flores que florescem e murcham...\nEla relembra sua história com esta terra, de uma tela em branco às cores vibrantes. A cada sono, aguarda ansiosamente a chegada do amanhã.\n\"Ah, o quadrinho foi atualizado! Vou conferir depois de terminar de desenhar esses fofinhos...\"\nA garota recebe uma notificação, suas orelhas se erguem enquanto sua caneta, antes imóvel, volta à vida.\n\"Eu espero... que até a próxima estação das flores, eu consiga colocar em dia todos os lançamentos mais bem avaliados!\"",
     "en": "A gentle breeze stirs the white curtains, tugging at the young girl's thoughts.\nAs she gazes at the chattering crowd outside her window, her drawing pen unconsciously pauses in place.\n\"How many times have I sat here now?\"\nIn that fleeting moment, a falling petal brushes past her nose, as if in response, as if in reminder.\nA grand game, a once-in-a-lifetime encounter, days and nights of blooming and withering flowers...\nShe recalls her story with this land, from a blank canvas to vibrant colors. With each slumber, she eagerly awaits tomorrow's arrival.\n\"Oh, the comic has been updated! I'll check it out after I finish drawing these cuties...\"\nThe girl receives a notification, her ears perking up as her previously still pen springs back to life.\n\"I wish... by the next flower season, I'll catch up on all the top-rated new releases!\"",
+    "zh-CN": "微风吹过洁白的窗纱，牵动少女的思绪。\n她望向窗外有说有笑的人群，写写画画的笔不自觉地停留某处。\n「这是…第几次坐在这里了？」\n恍然间，飘落的花瓣掠过她的鼻尖，仿若回应，仿若提醒。\n一场盛大的游戏、一期一会的际遇、花开花谢的日夜……\n她回忆着自己和这片土地的故事，从一片空白，到五彩缤纷，每一次沉睡，她都在期待着明天的到来。\n「呀，漫画更新了，画完小可爱们就去看吧……」\n少女收到提醒，晃了晃耳朵，停滞的笔尖再度跃动。\n「许愿…下一个花季，我要追完所有的高分新作！」",
     "ja": "そよ風が白いカーテンを揺らし、少女の思考をさらっていく。\n窓の外で談笑する人々をぼんやり眺めているうちに、落書きをしていたペンはいつの間にか止まっていた。\n「ここに座るのは…これで何度目じゃろうか？」\nふと、舞い散る花びらが鼻先をかすめる。まるで、彼女に応えるように——あるいは何かを思い出させるかのように。\n盛大な遊儀、一期一会の出会い、そして花々が咲き、散っていく……\n少女はこの地で描かれてきた物語を振り返る——それは真っ白な景色が、鮮やかな色彩で満たされていく日々。眠りにつくたび、彼女は明日を心待ちにした。\n「おや、最新話が更新されたようじゃ。ラブリーな子たちを描き終えたら読むとしよう……」\n通知を受け取った少女は、ぴょこんと耳を揺らし、止まっていたペンを再び走らせる。\n「次の花咲く季節までに…高評価の新作をすべて読み切れるといいのう！」",
     "ko": "살랑이는 바람이 새하얀 커튼을 스치자 소녀의 생각도 함께 흔들렸다.\n그녀는 창밖에서 웃고 떠드는 사람들을 바라보았고, 그림을 그리던 펜은 자신도 모르게 어느 한 곳에 멈춰 섰다.\n「여기에 앉아 있는 게… 몇 번째지?」\n순간 흩날리는 꽃잎이 그녀의 코끝을 스쳐 지나갔다. 마치 응답하듯, 무언가를 일깨우듯.\n성대한 게임, 단 한 번뿐인 만남, 꽃이 피고 지는 나날들……\n그녀는 자신과 이 땅의 이야기를 떠올렸다. 아무것도 없던 공백에서 다채로운 색으로 채워지기까지, 잠들 때마다 그녀는 내일이 오기를 기대했다.\n「앗, 만화가 업데이트됐네. 우리 귀염둥이들을 다 그리고 나면 보러 가야지……」\n알림을 받은 소녀는 귀를 쫑긋거리더니, 멈췄던 펜 끝을 다시 움직이기 시작했다.\n「소원… 다음 꽃이 피는 계절엔 평점 높은 신작들을 전부 정주행할 거야!」"
   },
   "skill": {
-    "name": { "pt-BR": "Devaneio", "en": "Daydream", "ja": "空想", "ko": "사색" },
+    "name": { "pt-BR": "Devaneio", "en": "Daydream", "zh-CN": "遐想", "ja": "空想", "ko": "사색" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]% e a Taxa de Regeneração de Energia em #4[f1]%. Quando a Energia Máxima do usuário for maior que #5[i], para cada 10 pontos de Energia Máxima que excederem esse valor, aumenta adicionalmente a Taxa de Regeneração de Energia em #6[f1]%. Até um máximo de #7[i] pontos de Energia Máxima excedente podem ser levados em consideração. Quando o usuário usa uma Perícia da Euforia, aumenta o Dano recebido por todos os inimigos em #2[f1]% por #3[i] rodada(s). Efeitos do mesmo tipo não podem acumular.",
       "en": "Increases the wearer's CRIT DMG by #1[i]% and Energy Regeneration Rate by #4[f1]%. When the wearer's Max Energy is greater than #5[i], for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by #6[f1]%. Up to a maximum of #7[i] points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by #2[f1]% for #3[i] turn(s). Effects of the same type cannot stack.",
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%，能量恢复效率提高#4[f1]%。装备者的能量上限大于#5[i]时，每超出10点能量上限额外使能量恢复效率提高#6[f1]%，最多计入#7[i]点超出的能量上限。装备者施放欢愉技时，使敌方全体受到的伤害提高#2[f1]%，持续#3[i]回合，同类效果无法叠加。",
       "ja": "装備キャラの会心ダメージ+#1[i]%、EP回復効率+#4[f1]%。装備キャラの最大EPが#5[i]を超えている場合、超過分10につきEP回復効率がさらに+#6[f1]%。超過分は最大で#7[i]までカウントされる。装備キャラが愉悦スキルを発動する時、敵全体の受けるダメージ+#2[f1]%、#3[i]ターン継続。同系統のスキルは累積できない。",
       "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가하고, 에너지 회복효율이 #4[f1]% 증가한다. 장착한 캐릭터의 에너지 최대치가 #5[i]보다 높을 시, 초과한 에너지 최대치 10pt당 에너지 회복효율이 추가로 #6[f1]% 증가하며, 초과한 에너지 최대치는 최대 #7[i]pt까지 계산한다. 장착한 캐릭터가 환락 스킬을 발동하면 모든 적이 받는 피해가 #2[f1]% 증가한다, 지속 시간: #3[i]턴, 같은 유형의 효과는 중첩되지 않는다"
     },

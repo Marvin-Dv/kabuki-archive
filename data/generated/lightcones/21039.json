@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Fios Forjados do Destino",
     "en": "Destiny's Threads Forewoven",
+    "zh-CN": "织造命运之线",
     "ja": "運命を紡ぐ糸",
     "ko": "운명의 실을 엮다"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "O destino sempre leva as massas adiante sem motivo, e ela espreita na escuridão, esperando para registrar o mais crucial dos instantes.\nOrdenando, combinando, embaralhando, tirando... Ela simula a mão do destino em como ele manipula todas as variáveis para as massas, procurando a trajetória da verdade debaixo da pele da desordem.\nFinalmente, quando todos os personagens estão em seus lugares, ela passa as mãos na face das cartas, e reúne verdades profundas e insondáveis.\n\"Ainda falta uma carta... Então eu adicionarei uma.\"",
     "en": "Destiny always tows the masses onward without reason, and she lurks within the darkness, waiting to inscribe the most crucial of instants.\nSorting, matching, shuffling, drawing... She simulates fate's hand in how it manipulates all variables for the masses, seeking the trajectory of truth beneath the visage of a disorderly exterior.\nFinally, when all the characters are in their place, she brushes over the card faces that are in stasis and assembles the unfathomable truth.\n\"Still missing a card... So, I'll add one in.\"",
+    "zh-CN": "命运总是无端将众人牵引，而她隐于暗处铭刻最为关键的瞬间。\n排序，组合，洗牌，抽牌…她模拟命运之手操纵众人的种种可能，寻找纷乱表象之下的真实轨迹。\n终于，所有人物各安其位，她拂过凝固的牌面，拼凑出那幽邃的真相。\n「还缺了一张…那么，我来补上吧。」",
     "ja": "運命はいつも理由なく人々を牽引する。そして彼女は陰に隠れ、最も重要な瞬間を刻み込む。\n並び替え、組み合わせ、シャッフルし、そしてカードを引く…彼女は、見えざる運命の手が人々を操る様々な可能性をシミュレートし、混沌とした表面の下に隠された本当の軌跡を探る。\nようやく、すべての人物がそれぞれの適切な場所に配置された。彼女は凝固したカードの表面を磨き、深淵の真相を繋ぎ合わせる。\n「まだ1枚足りないようね…なら、私がその場所を補いましょう」",
     "ko": "운명은 항상 이유 없이 사람들을 이끌고, 그녀는 어둠 속에 숨어 가장 중요한 순간을 새긴다.\n정렬, 조합, 셔플, 드로우…. 그녀는 운명의 손으로 사람들의 가능성을 조종하고, 혼란스러운 표상 아래에서 진실의 궤적을 찾는다.\n드디어, 모든 인물이 제자리를 찾았다. 그녀의 손이 응고한 카드 표면을 스치며, 심원한 진실을 맞춰나갔다.\n「한 장이 부족하네…. 그렇다면, 내가 메꾸도록 하지」"
   },
   "skill": {
-    "name": { "pt-BR": "Conhecimento", "en": "Insight", "ja": "洞察", "ko": "간파" },
+    "name": { "pt-BR": "Conhecimento", "en": "Insight", "zh-CN": "洞见", "ja": "洞察", "ko": "간파" },
     "description": {
       "pt-BR": "Aumenta a RES a Efeito do usuário em #1[i]%. Para cada #2[i] de DEF que o usuário possui, aumenta o Dano causado pelo usuário em #3[f1]% até um aumento de Dano máximo de #4[i]%.",
       "en": "Increases the wearer's Effect RES by #1[i]%. For every #2[i] of DEF the wearer has, increases the wearer's DMG dealt by #3[f1]%, up to a maximum DMG increase of #4[i]%.",
+      "zh-CN": "使装备者的效果抵抗提高#1[i]%。装备者每有#2[i]点防御力，使装备者造成的伤害提高#3[f1]%，最多使造成的伤害提高#4[i]%。",
       "ja": "装備キャラの効果抵抗+#1[i]%。装備キャラの防御力#2[i]につき、与ダメージ+#3[f1]%、最大で与ダメージ+#4[i]%。",
       "ko": "장착한 캐릭터의 효과 저항이 #1[i]% 증가한다. 장착한 캐릭터가 방어력을 #2[i]pt 보유할 때마다 가하는 피해가 #3[f1]% 증가하며, 해당 효과는 최대 #4[i]%까지 증가한다"
     },

@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Estrelas Cintilantes",
     "en": "Flickering Stars",
+    "zh-CN": "星火悄然闪耀",
     "ja": "静かに瞬く小さな火",
     "ko": "고요히 빛나는 불티"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "No instante em que a energia mágica irrompe, as cores vibrantes da gema se espalham pelas paredes.\nA garota adolescente abre um sorriso encantado, envolvendo cuidadosamente a luz dançante com as palmas das mãos.\n\"Eu consegui! Será que eu também posso me tornar uma grande maga algum dia?\"\nEla imagina seu futuro como maga, plantando a semente de um desejo no fundo do coração.\n\"Você consegue, Rin Tohsaka! Conseguir uma vez não é suficiente! Você precisa conseguir inúmeras vezes!\"\n\"Eu não sei o que o futuro reserva, mas agora, é só fazer o que o coração manda e seguir em frente!\"\nNeste momento de triunfo, suas próprias expectativas, as esperanças da família e a responsabilidade que carrega convergem em um só ponto.\nA garota se encoraja em silêncio. Ela está pronta para se tornar a melhor versão de si mesma.\nO caminho à frente é longo e árduo, mas seu coração ardente brilha mais do que qualquer magia.",
     "en": "The instant magical energy surges forth, the gem's brilliant hues splash across the walls.\nThe teenage girl breaks into a delighted smile, carefully enfolding the dancing light with her palms.\n\"I did it! Does this mean I can also become a great mage someday?\"\nShe envisions her future as a mage, planting the seed of a wish deep in her heart.\n\"You can do this, Rin Tohsaka! Succeeding once isn't enough! You need to succeed countless times!\"\n\"I don't know what the future holds, but right now, just follow your heart and press forward!\"\nIn this moment of triumph, her expectations of herself, her family's hopes, and the responsibility she shoulders all converge.\nThe girl quietly cheers herself on. She's ready to become the best version of herself.\nThe road ahead stretches long and arduous, yet her blazing heart shines brighter than any magic.",
+    "zh-CN": "魔力倾泻的瞬间，宝石斑斓的色彩印满墙壁。\n少女露出惊喜的笑容，小心翼翼地呵护着起伏的光点。\n「我成功了！今后，我是不是也能成为伟大的魔法使了？」\n她想象着身为魔法使的未来，在心中种下一颗心愿的种子。\n「加油！远坂凛。成功一次还不够，要成功无数次才行！」\n「虽然不知道未来会是什么样子，但现在，请按照自己的心意前进吧！」\n成功的此刻，自我的要求、家族的希望、肩负的重任将集于一身。\n少女默默加油鼓劲，她已准备好成为更好的自己。\n往后的路途漫长且艰辛，可炽热的心却比魔法更为闪耀。",
     "ja": "魔力が溢れ出す瞬間、宝石の鮮やかな色彩が壁いっぱいに映し出された。\n一瞬ハッとすると、少女はパッと明るい笑顔を浮かべ、揺れ動く光の粒を大切に抱えた。\n「できた！これでわたしも、いつか偉大な魔法使いになれるかな？」\n彼女は魔法使いになった未来を想像し、心の中に願いの種を蒔いた。\n「頑張れ、わたし！一回だけできても意味ないわ。いつやっても成功できるように練習しなきゃ！」\n「未来がどうなるかはわからないけど、今は自分の信じる道を進みましょ！」\n成功した瞬間、自身のプライド、一族の期待、背負うべき重責が一気に少女の肩にのしかかる。\n心の中で自分を励ます彼女はもう、より良い自分になるための準備を整えた。\nこの先の道のりは長く険しいものになるが、その熱い心は、魔法よりも輝いていた。",
     "ko": "마력이 쏟아지는 순간, 보석의 알록달록한 색채가 벽을 가득 수놓았다.\n소녀는 뜻밖의 놀라움에 미소를 지으며, 일렁이는 광점을 조심스레 어루만졌다.\n「성공했어! 앞으로 나도 위대한 마법사가 될 수 있는 걸까?」\n그녀는 마법사로서의 미래를 상상하며, 마음속에 소원의 씨앗을 심었다.\n「힘내! 토오사카 린. 한 번의 성공으로는 부족해, 수없이 성공해야만 해!」\n「미래가 어떤 모습일지 모르지만, 지금은 자신의 마음이 이끄는 대로 나아가자!」\n성공을 맞이한 이 순간, 스스로 세운 기준, 가문의 희망, 짊어진 무거운 책임이 한 몸에 모였다.\n소녀는 묵묵히 응원하고 스스로를 독려하며, 더 나은 자신이 될 준비를 마쳤다.\n앞으로의 길은 길고 험난하겠지만, 불타는 마음은 마법보다 더욱 눈부시게 빛날 것이다"
   },
   "skill": {
-    "name": { "pt-BR": "Germinação", "en": "Sprout", "ja": "萌芽", "ko": "발아" },
+    "name": { "pt-BR": "Germinação", "en": "Sprout", "zh-CN": "萌芽", "ja": "萌芽", "ko": "발아" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[i]%. Quando qualquer personagem aliado consome um total de #3[i] ou mais Pontos de Perícia em uma única rodada, o usuário ganha \"Coroa Radiante\", durando por #4[i] rodada(s). Enquanto o usuário tiver \"Coroa Radiante\", o Dano causado de todos os aliados ignora #5[i]% da DEF do alvo, e o Dano de Perícia causado pelo usuário aumenta em #2[i]%. Efeitos do mesmo tipo não podem acumular.",
       "en": "Increases the wearer's CRIT Rate by #1[i]%. When any ally character consumes a total of #3[i] or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for #4[i] turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores #5[i]% of the target's DEF, and the Skill DMG dealt by the wearer increases by #2[i]%. Effects of the same type cannot stack.",
+      "zh-CN": "使装备者的暴击率提高#1[i]%。我方任意角色在自身同一回合内累计消耗大于等于#3[i]点战技点时，装备者获得【闪耀王冠】，持续#4[i]回合。装备者持有【闪耀王冠】时，我方全体造成的伤害无视目标#5[i]%的防御力，装备者造成的战技伤害提高#2[i]%，同类效果无法叠加。",
       "ja": "装備キャラの会心率+#1[i]%。任意の味方キャラが自身の1ターン中に合計でSPを#3[i]以上消費した時、装備キャラは「輝く王冠」を獲得する。「輝く王冠」は#4[i]ターン継続する。装備キャラが「輝く王冠」を持つ時、味方全体の与ダメージはターゲットの防御力を#5[i]%無視し、装備キャラの戦闘スキルダメージ+#2[i]%。同系統のスキルは累積できない。",
       "ko": "장착한 캐릭터의 치명타 확률이 #1[i]% 증가한다. 임의의 아군 캐릭터가 자신의 같은 턴 동안 전투 스킬 포인트를 누적 #3[i]pt 이상 소모하면 장착한 캐릭터는 [빛나는 왕관]을 획득한다, 지속 시간: #4[i]턴. 장착한 캐릭터가 [빛나는 왕관] 보유 시, 모든 아군이 가하는 피해가 목표의 방어력을 #5[i]% 무시하고, 장착한 캐릭터가 가하는 전투 스킬 피해가 #2[i]% 증가하며, 같은 유형의 효과는 중첩되지 않는다"
     },

@@ -1,7 +1,13 @@
 {
   "id": 112012,
   "slug": "ancient-spindle",
-  "name": { "pt-BR": "Eixo Antigo", "en": "Ancient Spindle", "ja": "古代シャフト", "ko": "고대 전동축" },
+  "name": {
+    "pt-BR": "Eixo Antigo",
+    "en": "Ancient Spindle",
+    "zh-CN": "古代转轴",
+    "ja": "古代シャフト",
+    "ko": "고대 전동축"
+  },
   "rarity": 3,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -23,6 +29,7 @@
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["突破至均衡等级2后，自动机兵掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
     "ja": [
       "均衡Lv.2に達した後、自動機兵からドロップ",
       "「万能合成マシン」- 素材合成",

@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Vitória em Um Piscar de Olhos",
     "en": "Victory In a Blink",
+    "zh-CN": "胜利只在朝夕间",
     "ja": "瞬刻の勝機",
     "ko": "찰나에 결정되는 승리"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "Os rugidos devoradores dos Titâneos varrem o campo de batalha. Duas figuras rápidas matam a todos que ficam em seu caminho até encerrarem o combate.\n\"Eu sozinho serei o suficiente para lidar com eles.\"\nCada soco desferido pelo guerreiro enviava lanças de sangue através dos corpos dos inimigos.\n\"Força bruta e nada mais. Veja minha lâmina!\"\nUma lâmina de prata pálida corta em arco, e os monstros caem como folhas ao vento.\n\"Um duelo de velocidade?\"\nOs dois se lançam na direção um do outro ao mesmo tempo.\nUivos de angústia são ouvidos quando as bestas furtivas atrás deles são abatidas de uma só vez.\nDuas vozes podem ser ouvidas ao mesmo tempo.\n\"Essa morte foi minha!\"",
     "en": "The Titankins' all-consuming roars sweep across the battlefield. Two lightning-quick figures slaughter their way out of combat.\n\"I alone will be enough to handle them.\"\nEvery punch unleashed by the warrior sends spears of blood through the bodies of the enemy.\n\"Brute force and nothing more. Watch my blade!\"\nAs a blade of pale silver slices in a curve, monsters drop like falling leaves.\n\"A contest of speed?\"\nThe two charge at the other side simultaneously.\nHowls of anguish sound as the stealthy beasts behind them are struck down at once.\nTwo voices can be heard at the same time.\n\"That was my kill!\"",
+    "zh-CN": "泰坦眷属磅礴的战吼席卷战场，两道电光般的身影在其中拼杀出一条血路。\n「我一个人便能把它们都收拾了。」\n战士每一次出拳，蔓延的血刺贯穿敌人的身体。\n「蛮力罢了，看我的剑！」\n银白的剑甩出漂亮的弧度，怪物如落叶飘零。\n「比比速度么？」\n两人同时朝对面攻去——\n哀嚎声传来，那背后偷袭的怪物即刻殒命。\n两道声音撞在一起——\n「是我给了它最后一击！」",
     "ja": "タイタンの眷属の凄まじい咆哮は一瞬にして戦場に響き渡り、電光のように敏捷な2人の戦士は奮戦し血路を開いている。\n「俺1人で十分だと言ったはずだ」\n戦士が拳を振るうたび、血の結晶が敵の体を貫いた。\n「それじゃあただの力技だろう？…僕の剣捌き、見ておいてくれよ」\n白銀の切先が美しい弧を描いたかと思うと、敵が見事に薙ぎ払われていく。\n「…速さで敵うと思うか？」\n2人は同時に、互いに向かって攻撃を仕掛ける——\nすると、背後から襲いかかってきた敵が悲鳴をあげ絶命した。\n途端、2つの声がぶつかり合う——\n「とどめを刺したのは俺だ！」\n「とどめを刺したのは僕だ！」",
     "ko": "티탄 권속의 우렁찬 포효는 전장을 휩쓸었고, 전광석화 같은 두 그림자가 혈로를 열었다.\n「이 녀석들은 나 혼자만으로 충분해」\n전사가 주먹을 날릴 때마다 뻗어나가는 피의 가시가 적의 몸을 꿰뚫었다.\n「힘만 세군. 내 검술이나 잘 보라고!」\n은백의 검이 아름다운 곡선을 그려내자, 괴물들이 나뭇잎처럼 우수수 쓰러졌다.\n「속도를 겨뤄볼까?」\n두 사람은 동시에 적을 향해 달려갔다——\n울부짖는 소리가 들려왔고, 뒤에서 기습한 괴물은 즉사했다.\n두 사람이 동시에 말했다——\n「최후의 일격을 가한 건 나야!」"
   },
   "skill": {
-    "name": { "pt-BR": "Golpe Final", "en": "Final Hit", "ja": "とどめの一撃", "ko": "최후의 일격" },
+    "name": { "pt-BR": "Golpe Final", "en": "Final Hit", "zh-CN": "最后一击", "ja": "とどめの一撃", "ko": "최후의 일격" },
     "description": {
       "pt-BR": "Aumenta o Dano CRIT do usuário em #1[i]%. Quando o Memoespírito do usuário utiliza uma habilidade em qualquer aliado-alvo, aumenta o Dano causado por todos os aliados-alvo em #2[i]%, durando por #3[i] rodada(s).",
       "en": "Increases the wearer's CRIT DMG by #1[i]%. When the wearer's memosprite uses an ability on an ally target, increases the DMG dealt by all ally targets by #2[i]%, lasting for #3[i] turn(s).",
+      "zh-CN": "使装备者的暴击伤害提高#1[i]%，当装备者的忆灵对我方目标施放技能时，使我方全体目标造成的伤害提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの会心ダメージ+#1[i]%。装備キャラの記憶の精霊が味方にスキルを発動する時、味方全体の与ダメージ+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 치명타 피해가 #1[i]% 증가하며, 장착한 캐릭터의 기억 정령이 아군에게 스킬 발동 시 모든 아군이 가하는 피해가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
     },

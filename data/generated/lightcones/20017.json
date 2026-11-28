@@ -1,7 +1,7 @@
 {
   "id": 20017,
   "slug": "pioneering",
-  "name": { "pt-BR": "Pioneirismo", "en": "Pioneering", "ja": "新天地", "ko": "강토 개척" },
+  "name": { "pt-BR": "Pioneirismo", "en": "Pioneering", "zh-CN": "开疆", "ja": "新天地", "ko": "강토 개척" },
   "rarity": 3,
   "path": "Preservation",
   "announcedAt": "2026-11-16",
@@ -9,14 +9,16 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino.\n\"Não teremos mais que lutar sozinhos. A CPI ficará ao lado de todos para ajudar.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\"We will no longer fight alone. The IPC will stand alongside everyone in assistance.\"",
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「无靠无依的时日已落场，公司将与诸位携手相助。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「助けが得られない日々は終わりです。これからはカンパニーが皆さんと助け合って行きます」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「의지할 곳 없는 나날이 종지부를 찍었습니다, 컴퍼니는 여러분의 손을 잡고 도울 것입니다」"
   },
   "skill": {
-    "name": { "pt-BR": "CPI", "en": "IPC", "ja": "カンパニー", "ko": "컴퍼니" },
+    "name": { "pt-BR": "CPI", "en": "IPC", "zh-CN": "公司", "ja": "カンパニー", "ko": "컴퍼니" },
     "description": {
       "pt-BR": "Ao aplicar Quebra de Fraqueza contra um inimigo-alvo, o usuário restaura PV em #1[i]% de seus PV máximos.",
       "en": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by #1[i]% of their Max HP.",
+      "zh-CN": "当装备者击破敌方目标的弱点时，回复等同于自身生命上限#1[i]%的生命值。",
       "ja": "装備キャラが敵を弱点撃破した時、HPを最大HP#1[i]%分回復する。",
       "ko": "장착한 캐릭터는 적의 약점을 격파할 시 자신 HP 최대치 #1[i]%만큼의 HP를 회복한다"
     },

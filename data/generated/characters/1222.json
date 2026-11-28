@@ -1,7 +1,7 @@
 {
   "id": 1222,
   "slug": "lingsha",
-  "name": { "pt-BR": "Lingsha", "en": "Lingsha", "ja": "霊砂", "ko": "영사" },
+  "name": { "pt-BR": "Lingsha", "en": "Lingsha", "zh-CN": "灵砂", "ja": "霊砂", "ko": "영사" },
   "rarity": 5,
   "path": "Abundance",
   "element": "Fire",
@@ -11,10 +11,11 @@
     {
       "id": 122201,
       "type": "Basic",
-      "name": { "pt-BR": "Incenso de Votos", "en": "Votive Incense", "ja": "供香", "ko": "공향" },
+      "name": { "pt-BR": "Incenso de Votos", "en": "Votive Incense", "zh-CN": "肃香", "ja": "供香", "ko": "공향" },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Lingsha a um único inimigo-alvo.",
         "en": "Deals Fire DMG equal to #1[i]% of Lingsha's ATK to one designated enemy target.",
+        "zh-CN": "对指定敌方单体造成等同于灵砂#1[i]%攻击力的火属性伤害。",
         "ja": "指定した敵単体に霊砂の攻撃力#1[i]%分の炎属性ダメージを与える。",
         "ko": "지정된 단일 적에게 영사 공격력의 #1[i]%만큼 화염 속성 피해를 가한다"
       },
@@ -24,11 +25,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a um único inimigo.",
         "en": "Deals minor Fire DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量火属性伤害。",
         "ja": "敵単体に少量の炎属性ダメージを与える。",
         "ko": "단일 적에게 소량의 화염 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122202,
@@ -36,12 +38,14 @@
       "name": {
         "pt-BR": "Fumaça e Esplendor",
         "en": "Smoke and Splendor",
+        "zh-CN": "识烟飞彩",
         "ja": "彩煙",
         "ko": "연무 속 솟구치는 빛깔"
       },
       "description": {
         "pt-BR": "Causa Dano de Fogo igual a #1[i]% do ATQ de Lingsha a todos os inimigos ao mesmo tempo, restaura PV iguais a #2[f1]% do ATQ de Lingsha + #3[i] para todos os aliados e a ação de Fuyuan é Avançada Adiante em #4[i]%.",
         "en": "Deals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies and at the same time, restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #4[i]%.",
+        "zh-CN": "对敌方全体造成等同于灵砂#1[i]%攻击力的火属性伤害，同时为我方全体回复等同于灵砂#2[f1]%攻击力+#3[i]的生命值，使【浮元】行动提前#4[i]%。",
         "ja": "敵全体に霊砂の攻撃力#1[i]%分の炎属性ダメージを与え、味方全体のHPを霊砂の攻撃力#2[f1]%+#3[i]回復する。また、「浮元」の行動順を#4[i]%早める。",
         "ko": "모든 적에게 영사 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, 모든 아군의 HP를 영사 공격력의 #2[f1]%+#3[i]만큼 회복하며, [부원]의 행동 게이지를 #4[i]% 증가시킨다"
       },
@@ -67,11 +71,12 @@
       "summary": {
         "pt-BR": "Causa Dano de Fogo leve a todos os inimigos e, ao mesmo tempo, restaura PV para todos os aliados. A ação de Fuyuan é Avançada Adiante.",
         "en": "Deals minor Fire DMG to all enemies and, at the same time, restores HP for all allies. Fuyuan's action advances.",
+        "zh-CN": "对敌方全体造成少量火属性伤害，同时为我方全体回复生命值，使【浮元】行动提前。",
         "ja": "敵全体に少量の炎属性ダメージを与えると同時に、味方全体のHPを回復し、「浮元」の行動順を早める。",
         "ko": "모든 적에게 소량의 화염 속성 피해를 가하고 모든 아군의 HP를 회복시키며, [부원]의 행동 게이지를 증가시킨다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 122203,
@@ -79,12 +84,14 @@
       "name": {
         "pt-BR": "Respingos Enevoados",
         "en": "Dripping Mistscape",
+        "zh-CN": "幔亭缭霞",
         "ja": "彩雲の如く巡る霞",
         "ko": "천포를 가로지르는 홍연"
       },
       "description": {
         "pt-BR": "Inflige \"Obscurecimento\" a todos os inimigos. Enquanto em \"Obscurecimento\", os alvos recebem #4[i]% a mais de Dano de Quebra, durando por #5[i] rodada(s).\nCausa Dano de Fogo igual a #1[i]% do ATQ de Lingsha a todos os inimigos e, ao mesmo tempo, restaura PV igual a #2[f1]% do ATQ de Lingsha + #3[i] para todos os aliados. A ação de Fuyuan é Avançada Adiante em #6[i]%.",
         "en": "Inflicts \"Befog\" on all enemies. While in \"Befog,\" targets receive #4[i]% increased Break DMG, lasting for #5[i] turn(s).\nDeals Fire DMG equal to #1[i]% of Lingsha's ATK to all enemies, and at the same time restores HP equal to #2[f1]% of Lingsha's ATK plus #3[i] for all allies. Fuyuan's action advances by #6[i]%.",
+        "zh-CN": "使敌方全体陷入【醇醉】状态，【醇醉】状态下，使目标受到的击破伤害提高#4[i]%，持续#5[i]回合。\n对敌方全体造成等同于灵砂#1[i]%攻击力的火属性伤害，同时为我方全体回复等同于灵砂#2[f1]%攻击力+#3[i]的生命值，使【浮元】行动提前#6[i]%。",
         "ja": "敵全体を「芳酔」状態にする。「芳酔」状態の敵が受ける弱点撃破ダメージ+#4[i]%、#5[i]ターン継続。\n敵全体に霊砂の攻撃力#1[i]%分の炎属性ダメージを与え、同時に味方全体のHPを霊砂の攻撃力#2[f1]%+#3[i]回復する。また、「浮元」の行動順を#6[i]%早める。",
         "ko": "모든 적을 [감취] 상태에 빠트린다. [감취] 상태에서는 목표가 받는 격파 피해가 #4[i]% 증가한다, 지속 시간: #5[i]턴\n모든 적에게 영사 공격력의 #1[i]%만큼 화염 속성 피해를 가하고, 모든 아군의 HP를 영사 공격력의 #2[f1]%+#3[i]만큼 회복하며, [부원]의 행동 게이지를 #6[i]% 증가시킨다"
       },
@@ -110,11 +117,12 @@
       "summary": {
         "pt-BR": "Aumenta o Dano de Quebra recebido por todos os inimigos, causa Dano de Fogo a todos os inimigos ao mesmo tempo, restaura os PV de todos os aliados e a ação de Fuyuan é Avançada Adiante.",
         "en": "Increases Break DMG taken by all enemies, deals Fire DMG to all enemies, and at the same time, restores HP for all allies. Fuyuan's action advances.",
+        "zh-CN": "使敌方全体受到的击破伤害提高，对敌方全体造成火属性伤害，同时为我方全体回复生命值，使【浮元】行动提前。",
         "ja": "敵全体の受ける弱点撃破ダメージをアップさせる。また、敵全体に炎属性ダメージを与えると同時に、味方全体のHPを回復し、「浮元」の行動順を早める。",
         "ko": "모든 적이 받는 격파 피해가 증가하고, 모든 적에게 화염 속성 피해를 가한다. 동시에 모든 아군의 HP를 회복시키고, [부원]의 행동 게이지를 증가시킨다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 122204,
@@ -122,12 +130,14 @@
       "name": {
         "pt-BR": "Manifesto da Dança da Névoa",
         "en": "Mistdance Manifest",
+        "zh-CN": "烟斜雾横，氛氲化生",
         "ja": "紅霧より出づる煙獣",
         "ko": "자욱한 연무, 화생의 향훈"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia, invoca Fuyuan, com uma VEL inicial de #1[i] e um contador de ação inicial de #7[i].\nAo realizar uma ação, Fuyuan desfere um Ataque Extra, causando Dano de Fogo igual a #2[i]% do ATQ de Lingsha a todos os inimigos. Além disso, causa Dano de Fogo igual a #8[i]% do ATQ de Lingsha a um único inimigo aleatório, e esse Dano prioriza alvos que possuam Tenacidade maior que 0 e Fraqueza contra Fogo. Remove #6[i] penalidade(s) de todos os aliados e restaura PV igual a #3[f1]% do ATQ de Lingsha mais #4[i].\nO contador de ação de Fuyuan pode acumular até #5[i]. Quando o contador de ação chegar a 0 ou quando Lingsha for derrubada, Fuyuan desaparece.\nEnquanto Fuyuan estiver no campo, usar a Perícia pode aumentar o contador de ação de Fuyuan em #7[i].",
         "en": "When using Skill, summons \"Fuyuan,\" with an initial SPD of #1[i] and an initial action count of #7[i].\nWhen taking action, \"Fuyuan\" launches Follow-Up ATK, dealing Fire DMG equal to #2[i]% of Lingsha's ATK to all enemies. Additionally deals Fire DMG equal to #8[i]% of Lingsha's ATK to one random enemy, and this DMG prioritizes targets that have both Toughness greater than 0 and Fire Weakness. Dispels #6[i] debuff(s) from all allies and restores HP equal to #3[f1]% of Lingsha's ATK plus #4[i].\n\"Fuyuan's\" action count can accumulate up to #5[i]. When the action count reaches 0 or when Lingsha is knocked down, \"Fuyuan\" disappears.\nWhile \"Fuyuan\" is on the field, using Skill can increase \"Fuyuan's\" action count by #7[i].",
+        "zh-CN": "施放战技时召唤【浮元】，初始拥有#1[i]点速度以及#7[i]次行动次数。\n【浮元】行动时发动追加攻击，对敌方全体造成等同于灵砂#2[i]%攻击力的火属性伤害。额外对随机敌方单体造成等同于灵砂#8[i]%攻击力的火属性伤害，本次伤害优先选择韧性值大于0且有火属性弱点的目标。解除我方全体的#6[i]个负面效果，并回复等同于灵砂#3[f1]%攻击力+#4[i]的生命值。\n【浮元】最多累计#5[i]次行动次数，当次数为0或灵砂陷入无法战斗状态时【浮元】消失。\n【浮元】在场时，施放战技会增加#7[i]次【浮元】的行动次数。",
         "ja": "戦闘スキルを発動する時、「浮元」を召喚する。「浮元」の初期速度は#1[i]、初期行動可能回数は#7[i]回。\n行動時、「浮元」は敵全体に追加攻撃を行い、霊砂の攻撃力#2[i]%分の炎属性ダメージを与える。\nさらに、ランダムな敵単体に霊砂の攻撃力#8[i]%分の炎属性ダメージを与える。この時、「浮元」は炎属性弱点を持ち、かつ残り靭性値が0より大きいいずれかの敵を優先的にターゲットにする。\nまた、味方それぞれのデバフを#6[i]つ解除すると同時に、霊砂の攻撃力#3[f1]%+#4[i]のHPを回復する。\n「浮元」の行動可能回数は最大で#5[i]回まで累積できる。行動可能回数が0になる、または霊砂が戦闘不能状態になると「浮元」は消える。\n「浮元」がフィールド上にいる時に戦闘スキルを発動すると、「浮元」の行動可能回数+#7[i]回。",
         "ko": "전투 스킬 발동 시 [부원]을 소환하며, 기본 상태에서 속도를 #1[i]pt, 행동 횟수를 #7[i]회 보유한다.\n[부원] 행동 시 추가 공격을 발동하고, 모든 적에게 영사 공격력의 #2[i]%만큼 화염 속성 피해를 가한다. 추가로 랜덤 단일 적에게 영사 공격력의 #8[i]%만큼 화염 속성 피해를 가하고, 이번 피해는 강인성 수치가 0을 초과하고 화염 속성 약점을 보유한 목표를 우선으로 선택한다. 모든 아군의 디버프 효과를 #6[i]개 해제하고 영사 공격력의 #3[f1]%+#4[i]만큼 HP를 회복한다.\n[부원]은 행동 횟수를 최대 #5[i]회 누적하며, 행동 횟수가 소진되거나 영사가 전투 불능 상태에 빠질 시 [부원]은 사라진다.\n[부원]이 필드에 있을 때 전투 스킬을 발동하면 [부원]의 행동 횟수가 #7[i]회 증가한다"
       },
@@ -153,19 +163,21 @@
       "summary": {
         "pt-BR": "Usar a Perícia invoca Fuyuan: Ao realizar uma ação, desfere um Ataque Extra e causa Dano de Fogo leve a todos os inimigos. Além disso, causa Dano de Fogo leve a um único inimigo aleatório, priorizando alvos que possuam Tenacidade maior que 0 e Fraqueza contra Fogo. Remove 1 penalidade de todos os aliados e restaura os PV deles.\nUsar a Perícia repetidamente aumentará o contador de ação de Fuyuan.",
         "en": "Using Skill summons \"Fuyuan\": When taking action, launches Follow-Up ATK and deals minor Fire DMG to all enemies. Additionally deals minor Fire DMG to one random enemy, prioritizing targets with both Toughness greater than 0 and Fire Weakness. Dispels 1 debuff from all allies, and restores HP.\nUsing Skill repeatedly will increase \"Fuyuan's\" action count.",
+        "zh-CN": "施放战技召唤【浮元】：行动时发动追加攻击，对敌方全体造成少量火属性伤害。额外对随机敌方单体造成少量火属性伤害，优先选择韧性值大于0且有火属性弱点的目标。解除我方全体1个负面效果并回复生命值。\n重复施放战技会增加【浮元】行动次数。",
         "ja": "戦闘スキルを発動する時、「浮元」を召喚する。「浮元」が行動する時は追加攻撃を行い、敵全体に少量の炎属性ダメージを与える。さらに、ランダムな敵単体に少量の炎属性ダメージを与える。この時、「浮元」は炎属性弱点を持ち、かつ残り靭性値が0より大きいいずれかの敵を優先的にターゲットにする。また、味方それぞれのデバフを1つ解除し、HPを回復させる。\n「浮元」がフィールド上にいる時に戦闘スキルを発動すると、「浮元」の行動回数がアップする。",
         "ko": "전투 스킬 발동 시 [부원]을 소환한다. [부원]: 행동 시 추가 공격을 발동하고, 모든 적에게 소량의 화염 속성 피해를 가한다. 추가로 랜덤 단일 적에게 소량의 화염 속성 피해를 가하며, 강인성 수치가 0을 초과하고 화염 속성 약점을 보유한 목표를 우선으로 선택한다. 모든 아군의 디버프 효과를 1개 해제하고 HP를 회복한다.\n전투 스킬을 중복 발동하면 [부원]의 행동 횟수가 증가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 122206,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -174,18 +186,26 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 122207,
       "type": "Technique",
-      "name": { "pt-BR": "Chamas de Aurora", "en": "Wisps of Aurora", "ja": "流翠散雲", "ko": "흩어지는 연무의 색채" },
+      "name": {
+        "pt-BR": "Chamas de Aurora",
+        "en": "Wisps of Aurora",
+        "zh-CN": "流翠散云",
+        "ja": "流翠散雲",
+        "ko": "흩어지는 연무의 색채"
+      },
       "description": {
         "pt-BR": "Após usar a Técnica, invoca Fuyuan imediatamente no começo da próxima batalha e inflige \"Obscurecimento\" em todos os inimigos, durando por #1[i] rodada(s).",
         "en": "After using Technique, immediately summons Fuyuan at the start of the next battle and inflicts \"Befog\" on all enemies, lasting for #1[i] turn(s).",
+        "zh-CN": "使用秘技后，下一次战斗开始时立即召唤【浮元】，并使敌方全体陷入【醇醉】状态，持续#1[i]回合。",
         "ja": "秘技を使用した後、次の戦闘開始時に即座に「浮元」を召喚し、敵全体を「芳酔」状態にする、#1[i]ターン継続。",
         "ko": "비술 사용 후 다음 전투 시작 시 즉시 [부원]을 소환하고, 모든 적을 [감취] 상태에 빠트린다, 지속 시간: #1[i]턴"
       },
@@ -195,11 +215,12 @@
       "summary": {
         "pt-BR": "Após usar a Técnica, invoca Fuyuan imediatamente no começo da próxima batalha e aumenta o Dano de Quebra recebido por todos os inimigos.",
         "en": "After using Technique, immediately summons Fuyuan at the start of the next battle and increases Break DMG taken by all enemies.",
+        "zh-CN": "使用秘技，下一次战斗开始时立即召唤【浮元】并使敌方全体受到的击破伤害提高。",
         "ja": "秘技を使用、次の戦闘開始時、即座に「浮元」を召喚し、敵全体の受ける弱点撃破ダメージをアップする。",
         "ko": "비술을 사용하면 다음 전투 시작 시 즉시 [부원]을 소환하고, 모든 적이 받는 격파 피해가 증가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     }
   ],
   "eidolons": [
@@ -208,12 +229,14 @@
       "name": {
         "pt-BR": "Floreio no Buquê do Vilarejo",
         "en": "Bloom on Vileward Bouquet",
+        "zh-CN": "馨气当盛，除邪避讳",
         "ja": "{RUBY_B#はじゃ}破邪{RUBY_E#}の{RUBY_B#かお}香{RUBY_E#}り",
         "ko": "파사의 향기"
       },
       "description": {
         "pt-BR": "A Eficiência de Quebra de Fraqueza de Lingsha aumenta em 50%. Quando uma unidade inimiga é afligida com Quebra de Fraqueza, sua DEF é reduzida em 20%.",
         "en": "Lingsha's Weakness Break Efficiency increases by 50%. When an enemy unit's Weakness is Broken, reduces their DEF by 20%.",
+        "zh-CN": "灵砂的弱点击破效率提高50%。当有敌方单位的弱点被击破时，使其防御力降低20%。",
         "ja": "霊砂の弱点撃破効率+50%。敵が弱点撃破される時、その敵の防御力-20%。",
         "ko": "영사의 약점 격파 효율이 50% 증가한다. 적 유닛의 약점이 격파될 시 해당 적의 방어력이 20% 감소한다"
       },
@@ -226,12 +249,14 @@
       "name": {
         "pt-BR": "Lazer Sob o Véu de Fumaça Carmim",
         "en": "Leisure in Carmine Smokeveil",
+        "zh-CN": "欹枕垂云，烟奁红雪",
         "ja": "{RUBY_B#しだ}垂{RUBY_E#}れ{RUBY_B#ぐも}雲{RUBY_E#}に{RUBY_B#べにこうろ}紅香炉{RUBY_E#}",
         "ko": "붉은 향로에 기대어"
       },
       "description": {
         "pt-BR": "Ao usar a Perícia Suprema, aumenta o Efeito de Quebra de todos os aliados em 40%, durando por 3 rodada(s).",
         "en": "When using Ultimate, increases all allies' Break Effect by 40%, lasting for 3 turn(s).",
+        "zh-CN": "施放终结技时，使我方全体击破特攻提高40%，持续3回合。",
         "ja": "必殺技を発動する時、味方全体の撃破特効+40%、3ターン継続。",
         "ko": "필살기 발동 시 모든 아군의 격파 특수효과가 40% 증가한다. 지속 시간: 3턴"
       },
@@ -244,12 +269,14 @@
       "name": {
         "pt-BR": "Brilho do Pavio Floral",
         "en": "Shine of Floral Wick",
+        "zh-CN": "含芽细炷，浪蕊浓焚",
         "ja": "{RUBY_B#いちる}一縷{RUBY_E#}の{RUBY_B#しんめ}新芽{RUBY_E#}、\n{RUBY_B#のうこう}濃香{RUBY_E#}なる{RUBY_B#はな}華{RUBY_E#}",
         "ko": "새싹처럼 돋은 심지, 타오르는 꽃술"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -262,12 +289,14 @@
       "name": {
         "pt-BR": "Aroma do Banquete Adornado",
         "en": "Redolence from Canopied Banquet",
+        "zh-CN": "横垂宝幄，半拂琼筵",
         "ja": "{RUBY_B#とばり}帳{RUBY_E#}を{RUBY_B#な}撫{RUBY_E#}でる{RUBY_B#しゅえん}朱煙{RUBY_E#}",
         "ko": "장막 너머 불어오는 향취"
       },
       "description": {
         "pt-BR": "Quando Fuyuan age, restaura PV igual a 40% do ATQ de Lingsha para o aliado-alvo com menos PV no momento.",
         "en": "When Fuyuan takes action, restores HP equal to 40% of Lingsha's ATK for the ally target whose current HP is the lowest.",
+        "zh-CN": "【浮元】行动时，为当前生命值最低的我方目标回复等同于灵砂40%攻击力的生命值。",
         "ja": "「浮元」が行動する時、残りHPが最も低い味方のHPを、霊砂の攻撃力40%分回復する。",
         "ko": "[부원] 행동 시 현재 HP가 가장 낮은 아군의 HP를 영사 공격력의 40%만큼 회복한다"
       },
@@ -280,12 +309,14 @@
       "name": {
         "pt-BR": "Aprumo Diante de Reviravoltas",
         "en": "Poise Atop Twists and Turns",
+        "zh-CN": "纵横圆转，内常不倾",
         "ja": "{RUBY_B#ゆ}揺{RUBY_E#}るがぬ{RUBY_B#きく}規矩{RUBY_E#}",
         "ko": "둥글게 피어나는 향, 기울지 않는 중심"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -298,12 +329,14 @@
       "name": {
         "pt-BR": "Arcádia Sob Profunda Reclusão",
         "en": "Arcadia Under Deep Seclusion",
+        "zh-CN": "晓兰深藏，宿香暗贮",
         "ja": "{RUBY_B#しゅんらん}春蘭{RUBY_E#}の{RUBY_B#しゅくこう}宿香{RUBY_E#}",
         "ko": "새벽녘 짙게 밴 난초향"
       },
       "description": {
         "pt-BR": "Enquanto \"Fuyuan\" estiver no campo, reduz a RES a Todos os Tipos de todas as unidades inimigas em 20%. Quando \"Fuyuan\" ataca, desfere adicionalmente 4 instância(s) de Dano, com cada instância causando Dano de Fogo igual a 50% do ATQ de Lingsha e uma Redução de Tenacidade de 5 a uma unidade inimiga aleatória. Isso prioriza alvos com Tenacidade maior que 0 e Fraqueza contra Fogo.",
         "en": "While \"Fuyuan\" is on the field, reduces all enemies' All-Type RES by 20%. When \"Fuyuan\" attacks, additionally deals 4 instance(s) of DMG, with each instance dealing Fire DMG equal to 50% of Lingsha's ATK and 5 Toughness Reduction to one random enemy. This prioritizes targets with both Toughness greater than 0 and Fire Weakness.",
+        "zh-CN": "【浮元】在场时，使敌方全体全属性抗性降低20%，【浮元】攻击时，额外造成4次伤害，每次伤害对随机敌方单体造成等同于灵砂50%攻击力的火属性伤害和5点削韧值，优先选择韧性值大于0且有火属性弱点的目标。",
         "ja": "「浮元」がフィールド上に存在する時、敵全体の全属性耐性-20%。「浮元」が攻撃を行う時、さらに4ヒットする。\n1ヒットにつき、ランダムな敵単体に霊砂の攻撃力50%分の炎属性ダメージを与える。この時、「浮元」は炎属性弱点を持ち、かつ残り靭性値が0より大きい敵を優先的にターゲットにする。なお、このダメージの削靭値は1ヒットにつき5。",
         "ko": "[부원]이 필드에 있을 시 모든 적의 모든 속성 저항이 20% 감소한다. [부원]이 공격 시 추가로 피해를 4회 가하고, 피해를 가할 때마다 랜덤 단일 적에게 영사 공격력의 50%만큼 화염 속성 피해와 5pt의 강인성 감소 수치를 가한다. 강인성 수치가 0을 초과하고 화염 속성 약점을 보유한 목표를 우선으로 선택한다"
       },
@@ -683,12 +716,14 @@
       "name": {
         "pt-BR": "Sopro Escarlate",
         "en": "Vermilion Waft",
+        "zh-CN": "朱燎",
         "ja": "{RUBY_B#しゅえん}朱炎{RUBY_E#}",
         "ko": "적향"
       },
       "description": {
         "pt-BR": "Aumenta o ATQ ou a Cura Realizada dessa unidade por uma quantidade igual a #1[i]%/#2[i]% do Efeito de Quebra, até um acréscimo máximo de #3[i]%/#4[i]%, respectivamente.",
         "en": "Increases this unit's ATK or Outgoing Healing by an amount equal to #1[i]%/#2[i]% of Break Effect, up to a maximum increase of #3[i]%/#4[i]% respectively.",
+        "zh-CN": "使自身攻击力/治疗量提高，提高数值等同于击破特攻的#1[i]%/#2[i]%，最多使攻击力/治疗量提高#3[i]%/#4[i]%。",
         "ja": "自身の攻撃力を撃破特効#1[i]%分アップする、最大で攻撃力+#3[i]%。また、自身の治癒量を撃破特効#2[i]%分アップする、最大で治癒量+#4[i]%。",
         "ko": "자신의 공격력/치유량이 격파 특수효과의 #1[i]%/#2[i]%만큼 증가하며, 공격력/치유량은 최대 #3[i]%/#4[i]% 증가한다"
       },
@@ -712,12 +747,14 @@
       "name": {
         "pt-BR": "Fumaça Silvestre",
         "en": "Sylvan Smoke",
+        "zh-CN": "兰烟",
         "ja": "{RUBY_B#ゆうこう}幽香{RUBY_E#}",
         "ko": "향연"
       },
       "description": {
         "pt-BR": "Ao usar o ATQ Básico, regenera adicionalmente #1[i] de Energia.",
         "en": "When using Basic ATK, additionally regenerates #1[i] Energy.",
+        "zh-CN": "施放普攻时额外恢复#1[i]点能量。",
         "ja": "通常攻撃を行う時、さらにEPを#1[i]回復する。",
         "ko": "일반 공격 발동 시 추가로 에너지를 #1[i]pt 회복한다"
       },
@@ -746,12 +783,14 @@
       "name": {
         "pt-BR": "Eco das Brasas",
         "en": "Ember's Echo",
+        "zh-CN": "遗爇",
         "ja": "{RUBY_B#よこう}余香{RUBY_E#}",
         "ko": "여향"
       },
       "description": {
         "pt-BR": "Enquanto Fuyuan estiver em campo e qualquer personagem aliado receber Dano ou consumir PV, se a porcentagem atual de PV do personagem for menor ou igual a #1[i]%, Fuyuan ativará automaticamente o Ataque Extra do Talento contra os inimigos. Isso não consumirá o contador de ação de Fuyuan. Este efeito pode ser ativado novamente após #2[i] rodada(s).",
         "en": "While \"Fuyuan\" is on the field and any ally character takes DMG or consumes HP, if a character in the team has their current HP percentage lower than or equal to #1[i]%, \"Fuyuan\" will immediately launch the Talent's Follow-Up ATK against enemies. This does not consume Fuyuan's action count. This effect can trigger again after #2[i] turn(s).",
+        "zh-CN": "【浮元】在场时，我方任意角色受到伤害或消耗生命值时，若队伍中有存在当前生命值百分比小于等于#1[i]%的角色，【浮元】会立即对敌人发动天赋的追加攻击，此次触发不消耗【浮元】行动次数，该效果在#2[i]回合后可再次触发。",
         "ja": "「浮元」がフィールド上に存在する時、任意の味方キャラがダメージを受ける、またはHPを消費する時、パーティに残りHP割合が#1[i]%以下のキャラがいる場合、「浮元」が即座に天賦による追加攻撃を行う。この追加攻撃は「浮元」の行動可能回数を消費せず、#2[i]ターン後に再度発動できる。",
         "ko": "[부원]이 필드에 있을 때 임의의 아군 캐릭터가 피해를 받거나 HP를 소모할 시, 현재 파티에 HP 백분율이 #1[i]% 이하인 캐릭터가 있다면 [부원]은 즉시 적에게 특성의 추가 공격을 발동하고, 이번 발동은 [부원]의 행동 횟수를 소모하지 않는다. 해당 효과는 #2[i]턴 후 다시 발동할 수 있다"
       },
@@ -777,7 +816,13 @@
     {
       "id": 1222201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -794,7 +839,7 @@
     {
       "id": 1222202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1222101],
@@ -811,7 +856,13 @@
     {
       "id": 1222203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1222202],
@@ -828,7 +879,7 @@
     {
       "id": 1222204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1222203],
@@ -845,7 +896,13 @@
     {
       "id": 1222205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1222102],
@@ -862,7 +919,7 @@
     {
       "id": 1222206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1222205],
@@ -879,7 +936,13 @@
     {
       "id": 1222207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1222206],
@@ -896,7 +959,7 @@
     {
       "id": 1222208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1222103],
@@ -913,7 +976,7 @@
     {
       "id": 1222209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1222103],
@@ -930,7 +993,13 @@
     {
       "id": 1222210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [],

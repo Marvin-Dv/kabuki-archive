@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Broto Queimado do Crepúsculo",
     "en": "Charred Bud of Twilight",
+    "zh-CN": "暮晖烬蕾",
     "ja": "夕焼けの蕾",
     "ko": "석양에 불탄 꽃봉오리"
   },
@@ -22,6 +23,7 @@
       "Sombra Estagnada: \"Fortaleza do Domo\", Olho Crepuscular",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["凝滞虚影【「穹顶关塞」晨昏之眼】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「『天穹要塞』晨昏の目」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [「천궁 요새」 조석의 눈]", "「만능 합성기」- 재료 치환"]
   }

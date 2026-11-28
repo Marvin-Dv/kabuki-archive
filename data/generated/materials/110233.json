@@ -1,7 +1,13 @@
 {
   "id": 110233,
   "slug": "heavenly-melody",
-  "name": { "pt-BR": "Melodia Celestial", "en": "Heavenly Melody", "ja": "天外の楽章", "ko": "천외의 악장" },
+  "name": {
+    "pt-BR": "Melodia Celestial",
+    "en": "Heavenly Melody",
+    "zh-CN": "天外乐章",
+    "ja": "天外の楽章",
+    "ko": "천외의 악장"
+  },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -19,6 +25,7 @@
       "Sintetizador Omni — Síntese de Material",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["拟造花萼【「白日梦」酒店-梦境】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
     "ja": ["疑似花萼「ホテル・『レバリー』-夢境」", "「万能合成マシン」- 素材合成", "「万能合成マシン」- 素材交換"],
     "ko": ["모조 꽃받침 [「레버리」 호텔-꿈세계]", "「만능 합성기」- 재료 합성", "「만능 합성기」- 재료 치환"]
   }

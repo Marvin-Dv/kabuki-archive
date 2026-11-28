@@ -1,7 +1,7 @@
 {
   "id": 1410,
   "slug": "hysilens",
-  "name": { "pt-BR": "Hysilens", "en": "Hysilens", "ja": "セイレンス", "ko": "히실렌스" },
+  "name": { "pt-BR": "Hysilens", "en": "Hysilens", "zh-CN": "海瑟音", "ja": "セイレンス", "ko": "히실렌스" },
   "rarity": 5,
   "path": "Nihility",
   "element": "Physical",
@@ -14,12 +14,14 @@
       "name": {
         "pt-BR": "Modo Aeoliano: Ecos nas Águas Tranquilas",
         "en": "Aeolian Mode: Echoes in Still Waters",
+        "zh-CN": "小调，止水中回响",
         "ja": "短調、止水に響く",
         "ko": "고요한 물에서 메아리치는 단조"
       },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Hysilens a um inimigo designado.",
         "en": "Deals Physical DMG equal to #1[i]% of Hysilens's ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于海瑟音#1[i]%攻击力的物理属性伤害。",
         "ja": "指定した敵単体にセイレンスの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 히실렌스 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
       },
@@ -40,11 +42,12 @@
       "summary": {
         "pt-BR": "Causa Dano Físico leve a um único inimigo.",
         "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
         "ja": "敵単体に少量の物理属性ダメージを与える。",
         "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 141002,
@@ -52,12 +55,14 @@
       "name": {
         "pt-BR": "Canto Harmônico: Refrão Após Marés Escuras",
         "en": "Overtone Hum: Chorus After Dark Tides",
+        "zh-CN": "泛音，暗流后齐鸣",
         "ja": "倍音、暗流の先の斉唱",
         "ko": "암류 뒤에서 울려 퍼지는 배음"
       },
       "description": {
         "pt-BR": "Tem uma chance-base de #2[i]% de aumentar o Dano recebido por todos os inimigos em #3[i]%, durando por #4[i] rodada(s). Ao mesmo tempo, causa Dano Físico igual a #1[i]% do ATQ de Hysilens a todos os inimigos.",
         "en": "Has a #2[i]% base chance to increase the DMG taken by all enemies by #3[i]%, lasting for #4[i] turn(s). At the same time, deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.",
+        "zh-CN": "有#2[i]%的基础概率使敌方全体受到的伤害提高#3[i]%，持续#4[i]回合，同时对敌方全体造成等同于海瑟音#1[i]%攻击力的物理属性伤害。",
         "ja": "#2[i]%の基礎確率で敵全体の受けるダメージ+#3[i]%、#4[i]ターン継続。同時に敵全体にセイレンスの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "#2[i]%의 기본 확률로 모든 적이 받는 피해를 #3[i]% 증가시킨다, 지속 시간: #4[i]턴. 동시에 모든 적에게 히실렌스 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
       },
@@ -83,11 +88,12 @@
       "summary": {
         "pt-BR": "Tem uma alta chance de aumentar o Dano recebido por todos os inimigos e causa Dano Físico a eles.",
         "en": "There is a high chance to increase the DMG taken by all enemies, and deals Physical DMG to them.",
+        "zh-CN": "大概率使敌方全体受到的伤害提高，并对其造成物理属性伤害。",
         "ja": "高確率で敵全体の受けるダメージをアップし、物理属性ダメージを与える。",
         "ko": "높은 확률로 모든 적이 받는 피해를 증가시키고 대상에게 물리 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 141003,
@@ -95,12 +101,14 @@
       "name": {
         "pt-BR": "Rapsódia do Redemoinho",
         "en": "Maelstrom Rhapsody",
+        "zh-CN": "绝海回涛，噬魂舞曲",
         "ja": "絶海の渦潮、呑魂の舞曲",
         "ko": "절해의 파도, 영혼을 삼키는 무곡"
       },
       "description": {
         "pt-BR": "Hysilens ativa um Campo que reduz o ATQ dos inimigos-alvo em #6[f1]% e a DEF em #3[f1]%, além de causar Dano Físico igual a #1[i]% do ATQ de Hysilens a todos os inimigos.\nPara cada 1 instância de Dano Contínuo sofrida por um inimigo-alvo dentro do Campo, Hysilens causa Dano Físico Contínuo igual a #4[f1]% do seu ATQ a ele. Este Dano é ativado no início de cada rodada ou após um ataque de um aliado-alvo, até #5[i] vez(es). Este Dano não pode ativar este efeito repetidamente.\nO Campo dura por #2[i] rodada(s), com sua duração reduzindo em 1 no início de cada rodada desta unidade. Quando Hysilens fica fora de combate, o Campo também será dissipado.",
         "en": "Hysilens deploys a Zone that reduces enemy targets' ATK by #6[f1]% and DEF by #3[f1]%, and deals Physical DMG equal to #1[i]% of Hysilens's ATK to all enemies.\nFor every 1 instance of DoT taken by an enemy target within the Zone, Hysilens deals Physical DoT equal to #4[f1]% of her ATK to them. This damage triggers at the start of each turn or after one attack by an ally target, up to #5[i] time(s). And it cannot repeatedly trigger this effect.\nThe Zone lasts for #2[i] turn(s) and this duration decreases by 1 at the start of this unit's every turn. When Hysilens gets knocked down, the Zone will also be dispelled.",
+        "zh-CN": "海瑟音展开结界，使敌方目标攻击力降低#6[f1]%，防御力降低#3[f1]%，对敌方全体造成等同于海瑟音#1[i]%攻击力的物理属性伤害。\n处于结界中的敌方目标每受到1次持续伤害，海瑟音对其造成等同于自身#4[f1]%攻击力的物理属性持续伤害，该伤害在每回合开始时或我方目标单次攻击后触发，且最多触发#5[i]次。该伤害不会重复触发此效果。\n结界持续#2[i]回合，自身每回合开始时结界持续回合数减1。当海瑟音陷入无法战斗状态时，结界也会被解除。",
         "ja": "セイレンスが結界を展開し、敵の攻撃力-#6[f1]%、防御力-#3[f1]%、敵全体にセイレンスの攻撃力#1[i]%分の物理属性ダメージを与える。\n結界の中にいる敵が持続ダメージを1回受けるたびに、セイレンスはその敵に自身の攻撃力#4[f1]%分の物理属性持続ダメージを与える。このダメージは、敵のターンが回ってきた時に、または味方が攻撃を1回行った後に、最大#5[i]回発動できる。なお、この効果で発動したセイレンスの物理属性持続ダメージが、さらにこの効果を発動させることはない。\n結界は#2[i]ターン継続する。セイレンスのターンが回ってくるたび、結界の継続時間-1ターン。セイレンスが戦闘不能状態になった時、結界は解除される。",
         "ko": "히실렌스가 결계를 펼친다. 적의 공격력을 #6[f1]% 감소시키고 방어력을 #3[f1]% 감소시키며, 모든 적에게 히실렌스 공격력의 #1[i]%만큼 물리 속성 피해를 가한다.\n결계 안에 있는 적이 지속 피해를 1회 받을 때마다 히실렌스는 대상에게 자신의 공격력의 #4[f1]%만큼 물리 속성 지속 피해를 가한다. 해당 피해는 턴이 시작될 때마다 또는 아군의 단일 공격 후 발동하며, 최대 #5[i]회 발동한다. 해당 피해는 이 효과를 중복 발동할 수 없다.\n결계는 #2[i]턴 동안 지속되며, 자신의 턴이 시작될 때마다 결계의 지속 턴 수가 1 감소한다. 히실렌스가 전투 불능 상태에 빠질 시 결계도 해제된다"
       },
@@ -126,19 +134,27 @@
       "summary": {
         "pt-BR": "Ativa um Campo que reduz o ATQ e DEF dos inimigos e causa Dano Físico a eles. Enquanto o Campo estiver ativo, para cada 1 ocorrência de Dano Contínuo recebida pelos inimigos-alvo, causa 1 ocorrência de Dano Físico Contínuo a eles.",
         "en": "Deploys a Zone that reduces all enemies' ATK and DEF, and deals Physical DMG to them. While the Zone exists, for every 1 instance of DoT received by enemy targets, deals 1 instance of Physical DoT to them.",
+        "zh-CN": "展开结界使敌方全体攻击力、防御力降低，并对其造成物理属性伤害。结界存在时，敌方目标每受到1次持续伤害，对其造成1次物理属性持续伤害。",
         "ja": "結界を展開し、敵全体の攻撃力と防御力をダウンさせ、物理属性ダメージを与える。結界が展開されている間、敵が持続ダメージを1回受けるたびに、その敵に物理属性持続ダメージを1回与える。",
         "ko": "결계를 펼쳐 모든 적의 공격력과 방어력을 감소시키고, 대상에게 물리 속성 피해를 가한다. 결계 존재 시 적이 지속 피해를 1회 받을 때마다 대상에게 물리 속성 지속 피해를 1회 가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 141004,
       "type": "Talent",
-      "name": { "pt-BR": "Serenata Sirênica", "en": "Sirenic Serenade", "ja": "セイレーンの歓歌", "ko": "노래하는 세이렌" },
+      "name": {
+        "pt-BR": "Serenata Sirênica",
+        "en": "Sirenic Serenade",
+        "zh-CN": "海妖在欢唱",
+        "ja": "セイレーンの歓歌",
+        "ko": "노래하는 세이렌"
+      },
       "description": {
         "pt-BR": "Quando um aliado-alvo ataca, Hysilens tem uma chance-base de #1[i]% de infligir ao inimigo-alvo atingido um dos seguintes estados: \"Cisalhamento de Vento\", \"Sangramento\", \"Queimadura\" ou \"Choque\", priorizando a aplicação de estados diferentes.\nEnquanto estiver nos estados de \"Cisalhamento de Vento\", \"Queimadura\" ou \"Choque\", no início de cada rodada o inimigo-alvo sofre Dano Contínuo de Vento, Fogo ou Raio igual a #2[f1]% do ATQ de Hysilens por #5[i] rodada(s).\nEnquanto estiver no estado de \"Sangramento\", no início de cada rodada o inimigo-alvo sofre Dano Físico Contínuo em um valor igual a #3[f1]% de seus PV máximos, até um máximo de #4[f1]% do ATQ de Hysilens, durando por #5[i] rodada(s).",
         "en": "When an ally target attacks, there is a #1[i]% base chance for Hysilens to inflict the hit enemy target with one of the following states: Wind Shear, Bleed, Burn, or Shock. Priority is given to inflicting a different state.\nWhile in the Wind Shear/Burn/Shock state, at the start of each turn, the enemy target takes Wind/Fire/Lightning DoT equal to #2[f1]% of Hysilens's ATK for #5[i] turn(s).\nWhile in the Bleed state, at the start of each turn, the enemy target takes Physical DoT equal to #3[f1]% of their Max HP, up to #4[f1]% of Hysilens's ATK, lasting for #5[i] turn(s).",
+        "zh-CN": "我方目标攻击时，海瑟音有#1[i]%的基础概率使被击中的敌方目标陷入风化/裂伤/灼烧/触电其中1种状态，且会优先陷入不同的状态。\n风化/灼烧/触电状态下，敌方目标每回合开始时受到等同于海瑟音#2[f1]%攻击力的风/火/雷属性的持续伤害，持续#5[i]回合。\n裂伤状态下，敌方目标每回合开始时受到等同于自身#3[f1]%生命上限的物理属性持续伤害，最多不超过海瑟音攻击力的#4[f1]%，持续#5[i]回合。",
         "ja": "味方が攻撃する時、セイレンスは#1[i]%の基礎確率でその攻撃を受けた敵に風化/裂創/燃焼/感電状態のいずれか1種類を付与する。なお、まだ付与されていない状態を優先する。\n風化/燃焼/感電状態の敵は、ターンが回ってくるたびに、セイレンスの攻撃力#2[f1]%分の風/炎/雷属性持続ダメージを受ける。#5[i]ターン継続。\n裂創状態の敵は、ターンが回ってくるたびに自身の最大HP#3[f1]%分の物理属性持続ダメージを受ける。このダメージの最大値はセイレンスの攻撃力の#4[f1]%を超えない。#5[i]ターン継続。",
         "ko": "아군이 공격 시 히실렌스가 #1[i]%의 기본 확률로 명중한 적을 풍화/열상/연소/감전 중 1가지 상태에 빠트리며, 다른 상태에 우선으로 빠트린다.\n풍화/연소/감전 상태일 때 적은 턴이 시작될 때마다 히실렌스 공격력의 #2[f1]%만큼 바람/화염/번개 속성 지속 피해를 받는다, 지속 시간: #5[i]턴\n열상 상태일 때 적은 턴이 시작될 때마다 자신의 HP 최대치의 #3[f1]%만큼 물리 속성 지속 피해를 받으며, 최대 히실렌스 공격력의 #4[f1]%를 넘지 않는다, 지속 시간: #5[i]턴"
       },
@@ -164,19 +180,21 @@
       "summary": {
         "pt-BR": "Quando um aliado-alvo ataca, Hysilens tem uma grande chance de infligir ao inimigo-alvo atingido um dos seguintes estados: \"Cisalhamento de Vento\"/\"Sangramento\"/\n\"Queimadura\"/\"Choque\".",
         "en": "When an ally target attacks, Hysilens has a high chance to inflict the hit enemy target with one of the following states: Wind Shear/Bleed/Burn/Shock.",
+        "zh-CN": "我方目标攻击时，海瑟音有大概率使被击中的敌方目标陷入风化/裂伤/灼烧/触电其中1种状态。",
         "ja": "味方が攻撃する時、セイレンスは高確率でその回の攻撃を受けた敵に風化/裂創/燃焼/感電状態のいずれか1種類を付与する。",
         "ko": "아군이 공격 시 히실렌스가 높은 확률로 명중한 적을 풍화/열상/연소/감전 중 1가지 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 141006,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -185,6 +203,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -192,10 +211,17 @@
     {
       "id": 141007,
       "type": "Technique",
-      "name": { "pt-BR": "Na Morada do Oceano", "en": "At Ocean's Abode", "ja": "棲まう海にて", "ko": "바닷속 거처" },
+      "name": {
+        "pt-BR": "Na Morada do Oceano",
+        "en": "At Ocean's Abode",
+        "zh-CN": "于海的栖息地",
+        "ja": "棲まう海にて",
+        "ko": "바닷속 거처"
+      },
       "description": {
         "pt-BR": "Após usar a Técnica, cria uma Dimensão Especial que dura #1[i] segundo(s) e avança automaticamente. Inimigos dentro da Dimensão Especial entram no estado \"Alma Golpeada\". Inimigos nesse estado não atacam aliados-alvo e acompanham o movimento da dimensão.\nAo iniciar combate contra inimigos com \"Alma Golpeada\", cada inimigo-alvo tem uma chance-base de #2[i]% de receber #3[i] entre os seguintes estados: \"Cisalhamento de Vento\", \"Sangramento\", \"Queimadura\" ou \"Choque\", todos equivalentes aos efeitos do Talento de Hysilens. Apenas 1 Efeito de Dimensão criado por aliados pode estar ativo simultaneamente.",
         "en": "After using Technique, creates a Special Dimension that lasts for #1[i] seconds and automatically moves forward. Enemies within the Special Dimension enter the \"Soulstruck\" state. \"Soulstruck\" enemies will not attack ally targets and will follow the dimension while it persists.\nAfter entering combat with \"Soulstruck\" enemies, there is a #2[i]% base chance to inflict each enemy target with #3[i] of the following states: Wind Shear/Bleed/Burn/Shock, all of which are equivalent to those provided by Hysilens's Talent effect. Only 1 Dimension Effect created by allies can exist at the same time.",
+        "zh-CN": "使用秘技后，制造一个持续#1[i]秒并自动向前移动的特殊领域，处于特殊领域内的敌人陷入【醉心】状态。【醉心】状态下的敌人不会对我方目标发动攻击，且在领域持续期间跟随领域。\n与处于【醉心】状态下的敌人进入战斗后，有#2[i]%的基础概率使敌方每个单体目标陷入与海瑟音天赋效果相同的风化/裂伤/灼烧/触电其中#3[i]种状态。我方制造的领域效果最多存在1个。",
         "ja": "秘技を使用した後、前方へ移動する特殊領域を#1[i]秒間作り出す。特殊領域内に入った敵は「酔心」状態を付与される。「酔心」状態の敵は味方を攻撃せず、領域継続中は領域に追随する。\n「酔心」状態の敵と戦闘に入った後、#2[i]%の基礎確率で、敵単体それぞれにセイレンスの天賦と同じ効果を持つ風化/裂創/燃焼/感電状態の中から、#3[i]種類の状態を付与する。味方が作り出した領域は1つまで存在できる。",
         "ko": "비술 사용 후 #1[i]초 동안 지속되고 자동으로 전방을 향해 이동하는 특수 영역을 만들며, 특수 영역 내의 적은 [취심] 상태에 빠진다. [취심] 상태인 적은 아군에게 공격을 발동하지 않으며, 영역 지속 시간 동안 영역을 따라다닌다.\n[취심] 상태의 적과 전투에 진입하면 #2[i]%의 기본 확률로 각 단일 적을 히실렌스의 특성 효과와 동일한 풍화/열상/연소/감전 중 #3[i]가지 상태에 빠트린다. 아군이 만든 영역 효과는 최대 1개만 존재할 수 있다"
       },
@@ -205,11 +231,12 @@
       "summary": {
         "pt-BR": "Cria uma Dimensão Especial. Inimigos dentro da dimensão não atacarão os aliados-alvo. Ao entrar em combate com inimigos dentro da dimensão, há uma chance alta de infligir 2 estado(s) entre \"Cisalhamento de Vento\"/\"Sangramento\"/\"Queimadura\"/\"Choque\" em cada inimigo-alvo.",
         "en": "Creates a Special Dimension. Enemies within the dimension will not attack ally targets. After entering combat with enemies within the dimension, there's a high chance to inflict 2 state(s) from Wind Shear/Bleed/Burn/Shock on each enemy target.",
+        "zh-CN": "制造特殊领域。领域内敌人不会攻击我方目标。与领域内敌人进入战斗后，大概率使敌方每个单体目标陷入风化/裂伤/灼烧/触电其中2种状态。",
         "ja": "特殊領域を作り出す。領域内の敵は味方を攻撃しない。領域内の敵と戦闘に入った後、高確率で敵それぞれに風化/裂創/燃焼/感電状態の中から2種類の状態を付与する。",
         "ko": "특수 영역을 만든다. 영역 내의 적은 아군을 공격하지 않는다. 영역 내의 적과 전투에 진입하면 높은 확률로 각 단일 적을 풍화/열상/연소/감전 중 2가지 상태에 빠트린다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     }
   ],
   "eidolons": [
@@ -218,12 +245,14 @@
       "name": {
         "pt-BR": "Você Pondera \"Por Que Corações Choram?\"",
         "en": "You Ask Why Hearts Cry",
+        "zh-CN": "你问我心为何悲伤",
         "ja": "{RUBY_B#なにゆえ}何故{RUBY_E#}、\n{RUBY_B#こころ}心{RUBY_E#}は{RUBY_B#かな}悲{RUBY_E#}しむか",
         "ko": "그대는 내 마음이 슬픈 이유를 물었지"
       },
       "description": {
         "pt-BR": "Enquanto Hysilens está em campo, aliados-alvo causam Dano Contínuo igual a 116% do Dano original. Quando Hysilens inflige \"Cisalhamento de Vento\"/\"Sangramento\"/\"Queimadura\"/\"Choque\" aos inimigos por meio de seu Talento, há uma chance-base de 100% de infligir adicionalmente ao alvo 1 instância do estado de \"Cisalhamento de Vento\"/\"Sangramento\"/\"Queimadura\"/\"Choque\", que é igual àquele do efeito original do Talento, e que pode coexistir com o efeito original do Talento.",
         "en": "While Hysilens is on the field, the DoT dealt by ally targets is equal to 116% of their original value. When Hysilens inflicts Wind Shear/Bleed/Burn/Shock on enemies via her Talent, there is a 100% base chance to additionally inflict the target with 1 instance of Wind Shear/Bleed/Burn/Shock state that is equivalent to those from the original Talent effect and can coexist with such pre-existing states.",
+        "zh-CN": "海瑟音在场时，我方目标造成的持续伤害为原伤害的116%，当海瑟音通过天赋使敌人陷入风化/裂伤/灼烧/触电状态时，有100%的基础概率额外使其陷入一次与原天赋效果相同，且可同时存在的风化/裂伤/灼烧/触电状态。",
         "ja": "セイレンスがフィールド上にいる時、味方が与える持続ダメージは本来の116%になる。セイレンスが天賦で敵に風化/裂創/燃焼/感電状態を付与する時、100%の基礎確率で、元の天賦効果と同じ、かつ同時に存在可能な風化/裂創/燃焼/感電状態を追加で1つ付与する。",
         "ko": "히실렌스가 필드에 있을 시 아군이 가하는 지속 피해는 기존 피해의 116%이며, 히실렌스가 특성으로 적을 풍화/열상/연소/감전 상태에 빠트릴 시 100%의 기본 확률로 추가로 대상을 기존 특성 효과와 동일하며, 동시에 존재할 수 있는 풍화/열상/연소/감전 상태에 1회 빠트린다"
       },
@@ -236,12 +265,14 @@
       "name": {
         "pt-BR": "Me Diga o Motivo das Ondam que Assolam",
         "en": "Tell Me Why Waves Roar High",
+        "zh-CN": "你说浪花为何喧响",
         "ja": "{RUBY_B#なにゆえ}何故{RUBY_E#}、\n{RUBY_B#しお}潮{RUBY_E#}はさんざめく",
         "ko": "그대는 파도가 울부짖는 이유를 말했지"
       },
       "description": {
         "pt-BR": "Enquanto o Campo estiver ativo, o efeito de Bônus de Dano do Rastro \"O Violino de Pérolas\" se aplica a todos os aliados.",
         "en": "While the Zone is active, the DMG Boost effect from Trace \"The Fiddle of Pearls\" applies to all allies.",
+        "zh-CN": "结界持续期间，行迹【珍珠的琴弦】的造成伤害提高效果对我方全体生效。",
         "ja": "結界が展開されている間、軌跡「真珠の琴線」による与ダメージアップ効果が味方全体に適用される。",
         "ko": "결계 지속 시간 동안 행적 [진주의 현]의 가하는 피해 증가 효과가 모든 아군에게 적용된다"
       },
@@ -254,12 +285,14 @@
       "name": {
         "pt-BR": "Por Que as Luzes se Vão?",
         "en": "Why Do Lights Bid Goodbye",
+        "zh-CN": "可知灯火为何遗忘",
         "ja": "{RUBY_B#なにゆえ}何故{RUBY_E#}、\n{RUBY_B#あかり}灯{RUBY_E#}は{RUBY_B#わす}忘{RUBY_E#}らるる",
         "ko": "등불이 잊힌 이유를 아는가"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -272,12 +305,14 @@
       "name": {
         "pt-BR": "Vítimas do Tempo em Eterna Vazão",
         "en": "Lo, How Time Flows By",
+        "zh-CN": "看呀，时间为何流淌",
         "ja": "{RUBY_B#なにゆえ}何故{RUBY_E#}、\n{RUBY_B#とき}時{RUBY_E#}は{RUBY_B#なが}流{RUBY_E#}れるか",
         "ko": "보라, 시간은 왜 흐르는가"
       },
       "description": {
         "pt-BR": "Enquanto o Campo estiver ativo, reduz a RES a Todos os Tipos de todos os inimigos em 20%.",
         "en": "While the Zone is active, reduces All-Type RES of all enemies by 20%.",
+        "zh-CN": "结界持续期间，使敌方全体全属性抗性降低20%。",
         "ja": "結界が展開されている間、敵全体の全属性耐性-20%。",
         "ko": "결계가 지속되는 동안 모든 적의 모든 속성 저항이 20% 감소한다"
       },
@@ -290,12 +325,14 @@
       "name": {
         "pt-BR": "Em Ablução, Eu Canto e Suspiro",
         "en": "In Ablution, I Hum and Sigh",
+        "zh-CN": "于梳洗中，我轻吟浅唱",
         "ja": "{RUBY_B#かみ}髪{RUBY_E#}を{RUBY_B#す}梳{RUBY_E#}き、\n{RUBY_B#くち}口{RUBY_E#}ずさむ",
         "ko": "씻으며 나는 흥얼거리네"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -308,12 +345,14 @@
       "name": {
         "pt-BR": "Ao Retornar do Descanso de Quem Admiro",
         "en": "When to Return From Where You Lie",
+        "zh-CN": "沉没的你，何日返乡",
         "ja": "{RUBY_B#しず}沈{RUBY_E#}みし{RUBY_B#きみ}君{RUBY_E#}、\nいずれ{RUBY_B#ききょう}帰郷{RUBY_E#}せん",
         "ko": "침몰한 그대는 언제 돌아올까"
       },
       "description": {
         "pt-BR": "Enquanto o Campo estiver ativo, no início de cada rodada ou depois de um ataque de um aliado-alvo, aumenta a contagem máxima de ativação do efeito de Dano Físico Contínuo de Hysilens para 12 e aumenta o multiplicador de Dano causado em 20%.",
         "en": "While the Zone is active, at the start of each turn or after one attack by an ally target, increases the maximum trigger count for Hysilens's Physical DoT effect to 12, and increases the multiplier of the DMG dealt by 20%.",
+        "zh-CN": "结界持续期间，每回合开始时或我方目标单次攻击后，触发海瑟音物理持续伤害效果的次数上限提高至12次，且造成的伤害倍率提高20%。",
         "ja": "結界が展開されている間、敵のターンが回ってきた時に、または味方が攻撃を1回行った後に発動する、セイレンスの物理属性持続ダメージの発動可能回数の上限が12回になる。またそのダメージ倍率+20%。",
         "ko": "결계 지속 시간 동안 턴이 시작될 때마다 또는 아군의 단일 공격 후에 히실렌스 물리 지속 피해의 효과 발동 횟수 상한이 12회로 증가하고, 가하는 피해 배율이 20% 증가한다"
       },
@@ -693,12 +732,14 @@
       "name": {
         "pt-BR": "Gladiatorum da Conquista",
         "en": "The Gladius of Conquest",
+        "zh-CN": "征服的剑旗",
         "ja": "{RUBY_B#せいふく}征服{RUBY_E#}の{RUBY_B#けんき}剣旗{RUBY_E#}",
         "ko": "정복의 검"
       },
       "description": {
         "pt-BR": "No início do combate, Hysilens implanta um Campo, equivalente ao proporcionado por sua Perícia Suprema, com duração de #1[i] rodada(s). Sempre que Hysilens implanta um Campo, ela recupera #2[i] Ponto(s) de Perícia.",
         "en": "At the start of combat, Hysilens deploys a Zone, equivalent to that provided by her Ultimate, lasting for #1[i] turn(s). Whenever Hysilens deploys a Zone, she recovers #2[i] Skill Point(s).",
+        "zh-CN": "战斗开始时，海瑟音展开与终结技效果相同的结界，结界持续#1[i]回合。每当海瑟音展开结界时，恢复#2[i]个战技点。",
         "ja": "戦闘開始時、セイレンスは必殺技の結界と同じ効果を持つ結界を展開する。結界は#1[i]ターン継続する。セイレンスが結界を展開するたびに、SPを#2[i]回復する。",
         "ko": "전투 시작 시 히실렌스가 필살기 효과와 동일한 결계를 펼친다, 결계 지속 시간: #1[i]턴. 히실렌스가 결계를 펼칠 때마다 전투 스킬 포인트를 #2[i]pt 회복한다"
       },
@@ -722,12 +763,14 @@
       "name": {
         "pt-BR": "A Borbulha dos Banquetes",
         "en": "The Bubble of Banquets",
+        "zh-CN": "盛会的泡沫",
         "ja": "{RUBY_B#せいえん}盛宴{RUBY_E#}の{RUBY_B#うたかた}泡沫{RUBY_E#}",
         "ko": "연회의 거품"
       },
       "description": {
         "pt-BR": "Quando Hysilens usa sua Perícia Suprema, se o inimigo-alvo estiver atualmente afligido com Dano(s) Contínuo(s), todos os Danos Contínuos aplicados ao alvo irão produzir imediatamente um Dano igual a #1[i]% do seu Dano original.",
         "en": "When Hysilens uses Ultimate, if the enemy target is currently afflicted with DoT(s), all DoTs currently applied on the target will immediately produce DMG equal to #1[i]% of their original DMG.",
+        "zh-CN": "海瑟音施放终结技时，若敌方目标处于持续伤害状态，使其当前承受的所有持续伤害立即产生相当于原伤害#1[i]%的伤害。",
         "ja": "セイレンスが必殺技を発動した時、敵に持続ダメージ系デバフがある場合、付与されている全持続ダメージ系デバフが、本来のダメージ#1[i]%分のダメージを発生させる。",
         "ko": "히실렌스가 필살기 발동 시 적이 지속 피해 상태일 경우, 대상이 현재 받는 모든 지속 피해가 즉시 기존 피해의 #1[i]%만큼 피해를 생성한다"
       },
@@ -756,12 +799,14 @@
       "name": {
         "pt-BR": "O Violino de Pérolas",
         "en": "The Fiddle of Pearls",
+        "zh-CN": "珍珠的琴弦",
         "ja": "{RUBY_B#しんじゅ}真珠{RUBY_E#}の{RUBY_B#きんせん}琴線{RUBY_E#}",
         "ko": "진주의 현"
       },
       "description": {
         "pt-BR": "Se a Taxa de Acerto de Efeito de Hysilens estiver acima de #1[i]%, para cada #2[i]% excedente, aumenta o Dano causado por ela em #3[i]%, até um aumento máximo de #4[i]%.",
         "en": "For every #2[i]% of Hysilens's Effect Hit Rate that exceeds #1[i]%, increases her DMG dealt by #3[i]%, up to a max increase of #4[i]%.",
+        "zh-CN": "若海瑟音的效果命中高于#1[i]%，每超过#2[i]%可使自身造成的伤害提高#3[i]%，最多提高#4[i]%。",
         "ja": "セイレンスの効果命中が#1[i]%を超えた時、超過した効果命中#2[i]%につき、自身の与ダメージ+#3[i]%、最大で+#4[i]%。",
         "ko": "히실렌스의 효과 명중이 #1[i]%를 초과할 시 #2[i]% 초과할 때마다 자신이 가하는 피해가 #3[i]% 증가하며, 최대 #4[i]% 증가한다"
       },
@@ -787,7 +832,7 @@
     {
       "id": 1410201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -804,7 +849,7 @@
     {
       "id": 1410202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1410101],
@@ -821,7 +866,7 @@
     {
       "id": 1410203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1410202],
@@ -841,6 +886,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
         "ja": "効果命中強化",
         "ko": "효과 명중 강화"
       },
@@ -860,7 +906,7 @@
     {
       "id": 1410205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1410102],
@@ -877,7 +923,7 @@
     {
       "id": 1410206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1410205],
@@ -894,7 +940,7 @@
     {
       "id": 1410207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1410206],
@@ -914,6 +960,7 @@
       "name": {
         "pt-BR": "Bônus de Taxa de Acerto de Efeito",
         "en": "Effect Hit Rate Boost",
+        "zh-CN": "效果命中强化",
         "ja": "効果命中強化",
         "ko": "효과 명중 강화"
       },
@@ -933,7 +980,7 @@
     {
       "id": 1410209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1410103],
@@ -950,7 +997,7 @@
     {
       "id": 1410210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "ja": "速度強化", "ko": "속도 강화" },
+      "name": { "pt-BR": "Bônus de VEL", "en": "SPD Boost", "zh-CN": "速度强化", "ja": "速度強化", "ko": "속도 강화" },
       "icon": "icon/property/IconSpeed.png",
       "maxLevel": 1,
       "prerequisites": [1410201],

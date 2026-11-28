@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "O Dia em que o Cosmos Caiu",
     "en": "The Day The Cosmos Fell",
+    "zh-CN": "银河沦陷日",
     "ja": "銀河が陥落した日",
     "ko": "은하 함락의 날"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "\"Torta de Queijo Derretido! Você está encarregado de desarmar os vigias do planeta com seu charme!\"\n\"Pasta de Feijão Fradinho! Você estará encarregada de romper a linha de defesa do planeta!\"\n\"Ameixa Salgada! Nos traga a cabeça do líder do planeta!\"\n\"Meu lorde, o que você vai fazer!?\"\n\"Eu fingirei ser um gatinho adorável para confundir esses humanos estúpidos!\"\nNaquele dia, as civilizações cósmicas finalmente lembraram do terror de serem controladas por eles.",
     "en": "\"Molten Cheese Tart! You are in charge of disarming the planet's lookouts with your charm!\"\n\"Gray Bean Paste! You will be in charge of breaching the planet's line of defense!\"\n\"Salty Rimeplume! Bring us the head of the planet's leader!\"\n\"My lord, what are you going to do!\"\n\"I shall pretend to be an adorable kitten to befuddle these stupid humans!\"\nThat day, the Cosmos remembered... the terror of being ruled by them.",
+    "zh-CN": "「芝士流心！你负责迷晕星球的守卫！」\n「豆沙灰灰！你负责攻陷星球的士兵！」\n「盐渍冬梅！你负责拿下星球的首脑！」\n「大王，您要去做什么！」\n「我负责扮演可爱猫猫迷惑这些蠢笨的人类！」\n那一天，银河众文明终于回想起了，被它们支配的恐惧……",
     "ja": "「チーズフォンデュケーキ！お前は星の守備隊を混乱させろ！」\n「アズキアッシュ！お前は星の兵士たちを攻め落とせ！」\n「梅干し！お前は星の首脳陣を倒せ！」\n「キング、どこへ行かれるのですか！」\n「私は可愛い猫を装って、愚かな人類を誘惑してくる！」\nその日、銀河のあらゆる文明は思い出した。彼らに支配されていた恐怖を……",
     "ko": "「치즈폭탄! 넌 행성의 수비대를 기절시켜!」\n「팥앙금떡! 넌 행성의 병사들을 공격해!」\n「염지 매실! 넌 행성의 우두머리를 처치해!」\n「대왕님은 뭘 하실 건가요?」\n「난 귀여운 냥이가 되어 이 바보 같은 인간들을 홀리겠어!」\n그날 은하의 문명들은 떠올렸다, 녀석들에게 지배당했던 공포를……"
   },
   "skill": {
-    "name": { "pt-BR": "Artimanha", "en": "Stratagem", "ja": "征服", "ko": "공략" },
+    "name": { "pt-BR": "Artimanha", "en": "Stratagem", "zh-CN": "攻略", "ja": "征服", "ko": "공략" },
     "description": {
       "pt-BR": "Aumenta o ATQ do usuário em #1[i]%. Quando o usuário usa um ataque e pelo menos 2 inimigos atacados possuem a Fraqueza correspondente, o Dano CRIT do usuário é aumentado em #2[i]%, durando por #3[i] rodada(s).",
       "en": "Increases the wearer's ATK by #1[i]%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer's CRIT DMG increases by #2[i]%, lasting for #3[i] turn(s).",
+      "zh-CN": "使装备者的攻击力提高#1[i]%。装备者施放攻击后，若有不少于2个被攻击的敌方目标具有对应属性弱点，装备者的暴击伤害提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが攻撃を行った後、攻撃を受けた敵のうち、装備キャラの属性に対応する弱点属性を持つ敵が2体以上の場合、装備キャラの会心ダメージ+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터가 공격 발동 후 피격된 적 2기 이상이 대응하는 약점 속성을 보유하고 있으면 장착한 캐릭터의 치명타 피해가 #2[i]% 증가한다, 지속 시간: #3[i]턴"
     },

@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Conversa Pós-Operatória",
     "en": "Post-Op Conversation",
+    "zh-CN": "一场术后对话",
     "ja": "手術後の会話",
     "ko": "수술 후의 대화"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "\"Você acordou... Obrigada.\"\n\"Você... salvou minha vida, Natasha. Quem tem que agradecer... sou eu.\"\n\"Não, eu que te agradeço... por ter aguentado firme até eu terminar a cirurgia.\"\nA médica e a paciente sorriram cansadas uma para a outra e não disseram mais nada.",
     "en": "\"You're awake... Thank you.\"\n\"You... saved my life, Natasha. The one who should be saying thanks... is me.\"\n\"No, I should be thanking you... for holding on until I finished the surgery.\"\nThe doctor and patient smiled wearily at each other and said nothing more.",
+    "zh-CN": "「你醒了…谢谢。」\n「你…救了我…娜塔莎。该说谢谢的人…是我。」\n「不，是我要感谢你……坚持到我完成手术。」\n医生与病人疲惫地相视一笑，再也没有说话。",
     "ja": "「起きたのね……ありがとう」\n「あ……あなたが私を助けてくれたのね……ナターシャ。感謝するのは私のほうよ」\n「いいえ、君に感謝しているの……手術を乗り越えてくれてありがとう」\n医者と患者は共に疲れたような笑顔を浮かべる。それ以上は何も言わなかった。",
     "ko": "「깼구나… 고마워」\n「네가… 날 구했구나… 나타샤. 고마워해야 할 사람은… 나야」\n「아니, 감사는 내가 해야지… 수술이 끝날 때까지 버텨줘서 고마워」\n피곤한 의사와 환자가 눈을 마주치며 서로 말없이 웃었다"
   },
   "skill": {
-    "name": { "pt-BR": "Cura Mútua", "en": "Mutual Healing", "ja": "相互回復", "ko": "상호 치유" },
+    "name": { "pt-BR": "Cura Mútua", "en": "Mutual Healing", "zh-CN": "互相治愈", "ja": "相互回復", "ko": "상호 치유" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% a Taxa de Regeneração de Energia do usuário e em #2[i]% a Cura Realizada ao usar a Perícia Suprema.",
       "en": "Increases the wearer's Energy Regeneration Rate by #1[i]% and increases Outgoing Healing when they use their Ultimate by #2[i]%.",
+      "zh-CN": "使装备者的能量恢复效率提高#1[i]%，并在施放终结技时治疗量提高#2[i]%。",
       "ja": "装備キャラのEP回復効率+#1[i]%。必殺技を発動した時、治癒量+#2[i]%。",
       "ko": "장착한 캐릭터의 에너지 회복효율이 #1[i]% 증가하고, 필살기 발동 시 치유량이 #2[i]% 증가한다"
     },

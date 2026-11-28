@@ -1,7 +1,13 @@
 {
   "id": 21019,
   "slug": "under-the-blue-sky",
-  "name": { "pt-BR": "Sob o Céu Azul", "en": "Under the Blue Sky", "ja": "青空の下で", "ko": "푸른 하늘 아래" },
+  "name": {
+    "pt-BR": "Sob o Céu Azul",
+    "en": "Under the Blue Sky",
+    "zh-CN": "在蓝天下",
+    "ja": "青空の下で",
+    "ko": "푸른 하늘 아래"
+  },
   "rarity": 4,
   "path": "Destruction",
   "announcedAt": "2026-11-16",
@@ -9,14 +15,22 @@
   "description": {
     "pt-BR": "Sob o céu azul, campos de trigo dançavam.\nA jovem tecia com cuidado uma coroa de flores para a sua mais amada irmãzinha.\nIsso foi quando elas ainda tinham a mesma altura.\nIsso foi quando elas compartilhavam do mesmo sorriso.",
     "en": "Under the blue sky, fields of wheat were dancing.\nThe young girl was carefully weaving a flower wreath,\nfor her most beloved little sister.\nThat was when they were still the same height.\nThat was when they shared the same smile.",
+    "zh-CN": "蓝天下的麦浪阵阵摇荡，\n少女精心编织着花环，\n戴在最亲爱的妹妹的额头上。\n那时的她们还一般高，\n那时的她们仍那样笑。",
     "ja": "青空の下、麦浪がたゆたう、\n少女は丁寧に花の冠を編み、\n大好きな妹の頭に載せる。\nその時の彼女たちはまだ同じくらいの背丈で、\nその時の彼女たちはまだあのように笑っていた。",
     "ko": "푸른 하늘 아래 이삭이 파도처럼 출렁인다.\n소녀는 정성껏 화환을 엮어\n가장 사랑하는 여동생의 머리에 얹었다.\n그때의 그들은 비슷한 키였고,\n그때의 그들은 여전히 그렇게 웃었다"
   },
   "skill": {
-    "name": { "pt-BR": "Centeio Sob o Sol", "en": "Rye Under the Sun", "ja": "暖陽に麦浪", "ko": "파도치는 따스한 이삭" },
+    "name": {
+      "pt-BR": "Centeio Sob o Sol",
+      "en": "Rye Under the Sun",
+      "zh-CN": "暖阳麦浪",
+      "ja": "暖陽に麦浪",
+      "ko": "파도치는 따스한 이삭"
+    },
     "description": {
       "pt-BR": "Aumenta em #1[i]% o ATQ do usuário. Quando o usuário derrota um inimigo, aumenta em #2[i]% a Chance de CRIT do usuário por #3[i] rodada(s).",
       "en": "Increases the wearer's ATK by #1[i]%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by #2[i]% for #3[i] turn(s).",
+      "zh-CN": "使装备者攻击力提高#1[i]%，当装备者消灭敌方目标后，暴击率提高#2[i]%，持续#3[i]回合。",
       "ja": "装備キャラの攻撃力+#1[i]%。装備キャラが敵を倒した後、会心率+#2[i]%、#3[i]ターン継続。",
       "ko": "장착한 캐릭터의 공격력이 #1[i]% 증가한다. 장착한 캐릭터는 적을 처치한 후 치명타 확률이 #2[i]% 증가한다. 지속 시간: #3[i]턴"
     },

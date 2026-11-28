@@ -1,7 +1,7 @@
 {
   "id": 20008,
   "slug": "fine-fruit",
-  "name": { "pt-BR": "Fruta Delicada", "en": "Fine Fruit", "ja": "嘉果", "ko": "알찬 열매" },
+  "name": { "pt-BR": "Fruta Delicada", "en": "Fine Fruit", "zh-CN": "嘉果", "ja": "嘉果", "ko": "알찬 열매" },
   "rarity": 3,
   "path": "Abundance",
   "announcedAt": "2026-11-16",
@@ -9,14 +9,16 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"Tudo ganha um sabor doce para quem está desesperado por água.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"Everything tastes sweet for those desperate for water.\"",
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「口渴时，万物总是甜的。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「喉が渇く時は、全てが甘くなる」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「목이 마르면 모든 것이 달콤하다」"
   },
   "skill": {
-    "name": { "pt-BR": "Saborear", "en": "Savor", "ja": "甘美", "ko": "감미" },
+    "name": { "pt-BR": "Saborear", "en": "Savor", "zh-CN": "甘美", "ja": "甘美", "ko": "감미" },
     "description": {
       "pt-BR": "No início da batalha, regenera imediatamente #1[i] de Energia de todos os aliados.",
       "en": "At the start of the battle, immediately regenerates #1[i] Energy for all allies.",
+      "zh-CN": "战斗开始时，立即为我方全体恢复#1[i]点能量。",
       "ja": "戦闘開始時、味方全体のEPを#1[i]回復する。",
       "ko": "전투 시작 시 즉시 모든 아군의 에너지를 #1[i]pt 회복한다"
     },

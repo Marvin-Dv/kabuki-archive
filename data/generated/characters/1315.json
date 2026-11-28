@@ -1,7 +1,7 @@
 {
   "id": 1315,
   "slug": "boothill",
-  "name": { "pt-BR": "Boothill", "en": "Boothill", "ja": "ブートヒル", "ko": "부트힐" },
+  "name": { "pt-BR": "Boothill", "en": "Boothill", "zh-CN": "波提欧", "ja": "ブートヒル", "ko": "부트힐" },
   "rarity": 5,
   "path": "Hunt",
   "element": "Physical",
@@ -14,12 +14,14 @@
       "name": {
         "pt-BR": "Esporas Esmaga-Crânio",
         "en": "Skullcrush Spurs",
+        "zh-CN": "蹄铁裂颅",
         "ja": "スパーズ・クラッシュ",
         "ko": "두개골을 부수는 발굽"
       },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Boothill a um único inimigo-alvo.",
         "en": "Deals Physical DMG equal to #1[i]% of Boothill's ATK to one designated enemy target.",
+        "zh-CN": "对指定敌方单体造成等同于波提欧#1[i]%攻击力的物理属性伤害。",
         "ja": "指定した敵単体にブートヒルの攻撃力#1[i]%分の物理属性ダメージを与える。",
         "ko": "지정된 단일 적에게 부트힐 공격력의 #1[i]%만큼 물리 속성 피해를 가한다"
       },
@@ -29,19 +31,27 @@
       "summary": {
         "pt-BR": "Causa Dano Físico leve a um único inimigo.",
         "en": "Deals minor Physical DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量物理属性伤害。",
         "ja": "敵単体に少量の物理属性ダメージを与える。",
         "ko": "단일 적에게 소량의 물리 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 131502,
       "type": "Skill",
-      "name": { "pt-BR": "Tango Crepitante", "en": "Sizzlin' Tango", "ja": "熱砂のタンゴ", "ko": "뜨거운 자갈 위 탱고" },
+      "name": {
+        "pt-BR": "Tango Crepitante",
+        "en": "Sizzlin' Tango",
+        "zh-CN": "炽砾舞者的探戈",
+        "ja": "熱砂のタンゴ",
+        "ko": "뜨거운 자갈 위 탱고"
+      },
       "description": {
         "pt-BR": "Força Boothill e um inimigo-alvo a entrar no estado de Confronto. O ATQ Básico de Boothill é Aprimorado, e ele não pode usar sua Perícia, com duração de #3[i] rodada(s). A duração diminui em 1 no início de cada rodada de Boothill.\nO inimigo-alvo no Confronto fica Provocado. Quando esse inimigo-alvo ou Boothill é atacado pela outra parte no Confronto, o Dano que recebem aumenta em #1[i]%/#2[i]%.\nApós esse alvo ser derrotado ou sofrer Quebra de Fraqueza, Boothill ganha 1 acúmulo de Truque de Bolso e então dissolve o Confronto.\nEsta Perícia não regenera Energia. Após usar esta Perícia, a rodada atual não termina.",
         "en": "Forces Boothill and one designated enemy target into the \"Standoff\" state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Boothill's every turn.\nThe enemy target in the \"Standoff\" becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by #1[i]%/#2[i]%.\nAfter this target is defeated or becomes Weakness Broken, Boothill gains 1 stack of \"Pocket Trickshot,\" then dispels the \"Standoff.\"\nThis Skill cannot regenerate Energy. After using this Skill, the current turn does not end.",
+        "zh-CN": "使指定敌方单体及自身进入【绝命对峙】状态，波提欧普攻获得强化且无法施放战技，持续#3[i]回合，波提欧每回合开始时持续回合数减1。\n处于【绝命对峙】的敌方目标陷入嘲讽状态。该目标/波提欧受到对方攻击时，受到的伤害提高#1[i]%/#2[i]%。\n该目标被消灭或弱点被击破后，波提欧均可获得1层【优势口袋】，随后解除【绝命对峙】。\n该战技无法恢复能量。施放该战技后，本回合不会结束。",
         "ja": "指定した敵単体と自身を「九死の決闘」状態にする。この状態のブートヒルは戦闘スキルを発動できず、通常攻撃が「ファニング」に強化される、#3[i]ターン継続。ブートヒルのターンが回ってくるたびに、「九死の決闘」の継続時間-1ターン。\n「九死の決闘」状態にある敵は、挑発状態と見なされる。その敵がブートヒルの攻撃を受ける時、受けるダメージ+#1[i]%。また、ブートヒルがその敵の攻撃を受ける時、受けるダメージ+#2[i]%。\nその敵が倒される、または弱点撃破された後、ブートヒルは「ポケットアドバンテージ」を1層獲得し、「九死の決闘」状態を解除する。\nこの戦闘スキルはEPを回復できない。また、この戦闘スキルを発動した後、ターンは終了しない。",
         "ko": "지정된 단일 적과 자신이 [목숨 건 대치] 상태에 진입한다. 부트힐의 일반 공격이 강화되고 전투 스킬을 발동할 수 없다, 지속 시간: #3[i]턴. 부트힐의 턴이 시작될 때마다 지속 턴 수가 1 감소한다.\n[목숨 건 대치] 상태의 적은 도발 상태에 빠진다. 해당 목표/부트힐이 상대의 공격을 받을 시 받는 피해가 #1[i]%/#2[i]% 증가한다.\n해당 목표가 처치되거나 약점이 격파된 후, 부트힐은 [포켓 어드벤티지]를 1스택 획득하고, [목숨 건 대치]가 해제된다.\n해당 전투 스킬은 에너지를 회복할 수 없다. 해당 전투 스킬 발동 후, 이번 턴은 종료되지 않는다"
       },
@@ -67,11 +77,12 @@
       "summary": {
         "pt-BR": "Inicia Confronto. Depois que o alvo no Confronto for derrotado ou sofrer Quebra de Fraqueza, Boothill recebe Truque de Bolso e desfaz o Confronto. Boothill ganha ATQs Básicos Aprimorados e esta rodada não termina.",
         "en": "Initiates Standoff. After the target in the Standoff is defeated or Weakness Broken, Boothill receives Pocket Trickshot and dispels the Standoff. Boothill gains Enhanced Basic ATK and this turn does not end.",
+        "zh-CN": "开启【绝命对峙】，【绝命对峙】的目标被消灭或弱点被击破后，波提欧获得【优势口袋】并解除【绝命对峙】。使自身获得强化普攻，且本回合不会结束。",
         "ja": "「九死の決闘」を始める。「九死の決闘」のターゲットが倒される、または弱点撃破された後、ブートヒルは「ポケットアドバンテージ」を獲得し、「九死の決闘」を解除する。通常攻撃を強化する。ターンは終了しない。",
         "ko": "[목숨 건 대치]를 활성화한다. [목숨 건 대치]의 목표가 처치되거나 약점이 격파되면, 부트힐은 [포켓 어드벤티지]를 획득하고 [목숨 건 대치]를 해제한다. 자신의 일반 공격이 강화되며, 이번 턴은 종료되지 않는다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "ja": "妨害", "ko": "방해" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Incapacitação", "en": "Impair", "zh-CN": "妨害", "ja": "妨害", "ko": "방해" }
     },
     {
       "id": 131503,
@@ -79,12 +90,14 @@
       "name": {
         "pt-BR": "Rodeio Crepuscular do Demônio da Areia",
         "en": "Dust Devil's Sunset Rodeo",
+        "zh-CN": "尘魔舞者的日落秀",
         "ja": "ダストデビル・ダンサー",
         "ko": "더스트 데빌의 선셋 로데오"
       },
       "description": {
         "pt-BR": "Aplica Fraqueza contra Físico a um inimigo-alvo, durando por #3[i] rodada(s).\nCausa Dano Físico igual a #1[i]% do ATQ de Boothill ao alvo e retarda suas ações em #2[i]%.",
         "en": "Applies Physical Weakness to one designated enemy target, lasting for #3[i] turn(s).\nDeals Physical DMG equal to #1[i]% of Boothill's ATK to the target and delays their action by #2[i]%.",
+        "zh-CN": "为指定敌方单体添加物理弱点，持续#3[i]回合。\n对该目标造成等同于波提欧#1[i]%攻击力的物理属性伤害，并使其行动延后#2[i]%。",
         "ja": "指定した敵単体に物理属性弱点を付与する、#3[i]ターン継続。\nその敵にブートヒルの攻撃力#1[i]%分の物理属性ダメージを与え、行動順を#2[i]%遅延させる。",
         "ko": "지정된 단일 적에게 물리 약점을 부여한다, 지속 시간: #3[i]턴\n해당 목표에게 부트힐 공격력의 #1[i]%만큼 물리 속성 피해를 가하고, 행동 게이지를 #2[i]% 감소시킨다"
       },
@@ -110,11 +123,12 @@
       "summary": {
         "pt-BR": "Aplica Fraqueza contra Físico a um inimigo, causa uma quantidade massiva de Dano Físico e atrasa suas ações.",
         "en": "Applies Physical Weakness to one enemy, deals massive Physical DMG to them, and delays their action.",
+        "zh-CN": "为敌方单体添加物理弱点，并对其造成大量物理属性伤害，使目标行动延后。",
         "ja": "敵単体に物理属性弱点を付与し、大量の物理属性ダメージを与え、行動順を遅延させる。",
         "ko": "단일 적에게 물리 약점을 부여하며 대량의 물리 속성 피해를 가하고, 목표의 행동 게이지를 감소시킨다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 131504,
@@ -122,12 +136,14 @@
       "name": {
         "pt-BR": "Cinco Balas no Tambor",
         "en": "Five Peas in a Pod",
+        "zh-CN": "轮中五豆",
         "ja": "5発の銃弾",
         "ko": "실린더 속 다섯 발"
       },
       "description": {
         "pt-BR": "Cada acúmulo do Truque de Bolso aumenta a Redução de Tenacidade do ATQ Básico Aprimorado em #4[i]%, podendo acumular até #5[i] vez(es).\nSe o alvo estiver com Quebra de Fraqueza quando o ATQ Básico Aprimorado for usado, com base no número de acúmulos de Truque de Bolso, causa Dano de Quebra a esse alvo igual a #1[i]%/#2[i]%/#3[i]% do Dano de Quebra Físico de Boothill. A Tenacidade máxima considerada para este Dano não pode exceder #6[i] vezes a Redução de Tenacidade base causada pelo ATQ Básico \"Esporas Esmaga-Crânio\".\nApós vencer a batalha, Boothill pode manter o Truque de Bolso para a próxima batalha.",
         "en": "Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by #4[i]%, stacking up to #5[i] time(s).\nIf the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target equal to #1[i]%/#2[i]%/#3[i]% of Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed #6[i] times the base Toughness Reduction of the Basic Attack \"Skullcrush Spurs.\"\nAfter winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+        "zh-CN": "每层【优势口袋】使强化普攻的削韧值提高#4[i]%，最多叠加#5[i]层。\n施放强化普攻期间，若目标处于弱点击破状态，基于【优势口袋】层数，对目标造成等同于波提欧#1[i]%/#2[i]%/#3[i]%物理属性击破伤害的击破伤害，该伤害计入的韧性上限不超过普攻【蹄铁裂颅】基础削韧值的#6[i]倍。\n战斗胜利后，波提欧能够将【优势口袋】保留至下一次战斗中。",
         "ja": "「ポケットアドバンテージ」1層につき、「ファニング」の削靭値+#4[i]%、最大で#5[i]累積できる。\n強化通常攻撃を行っている間、敵が弱点撃破状態の場合、「ポケットアドバンテージ」の層数に応じて、その敵にブートヒルの物理属性弱点撃破ダメージ#1[i]%/#2[i]%/#3[i]%分の弱点撃破ダメージを与える。この弱点撃破ダメージにカウントされる靭性は、通常攻撃「スパーズ・クラッシュ」の基礎削靭値の#6[i]倍を超えない。\n戦闘に勝利した後、ブートヒルは「ポケットアドバンテージ」を次の戦闘に持ち越せる。",
         "ko": "[포켓 어드벤티지] 1스택마다 강화된 일반 공격의 강인성 감소 수치가 #4[i]% 증가한다. 최대 중첩수: #5[i]스택\n강화된 일반 공격 발동 중에 목표가 약점 격파 상태일 경우, [포켓 어드벤티지] 스택 수에 따라 목표에게 부트힐 물리 속성 격파 피해의 #1[i]%/#2[i]%/#3[i]%만큼 격파 피해를 가한다. 해당 피해에 계산되는 강인성 최대치는 일반 공격 [두개골을 부수는 발굽]의 기초 강인성 감소 수치의 #6[i]배를 넘을 수 없다.\n전투 승리 후, 부트힐은 [포켓 어드벤티지]를 다음 전투까지 보류할 수 있다"
       },
@@ -153,19 +169,21 @@
       "summary": {
         "pt-BR": "O Truque de Bolso aumenta a Redução de Tenacidade do ATQ Básico Aprimorado e causa Dano de Quebra de Físico adicional ao inimigo que sofreu Quebra de Fraqueza. Após vencer a batalha, mantém o Truque de Bolso para a próxima batalha.",
         "en": "Pocket Trickshot increases the Enhanced Basic ATK's Toughness Reduction and additionally deals Physical Break DMG if the target is Weakness Broken. After winning the battle, retains Pocket Trickshot for the next battle.",
+        "zh-CN": "【优势口袋】使强化普攻削韧值提高，并对被击破的敌人额外造成物理属性击破伤害。战斗胜利后，将【优势口袋】保留至下一次战斗中。",
         "ja": "「ポケットアドバンテージ」は「ファニング」の削靭値をアップし、弱点撃破された敵にさらに物理属性弱点撃破ダメージを与える。戦闘に勝利した後、「ポケットアドバンテージ」を次の戦闘に持ち越せる。",
         "ko": "[포켓 어드벤티지]는 강화된 일반 공격의 강인성 감소 수치를 증가시키고, 격파된 적에게 추가로 물리 속성 격파 피해를 가한다. 전투 승리 후, [포켓 어드벤티지]는 다음 전투까지 유지된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 131506,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -174,6 +192,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -181,10 +200,17 @@
     {
       "id": 131507,
       "type": "Technique",
-      "name": { "pt-BR": "Sorriso 3x9", "en": "3-9× Smile", "ja": "ビッグ・スマイル", "ko": "3-9x의 미소" },
+      "name": {
+        "pt-BR": "Sorriso 3x9",
+        "en": "3-9× Smile",
+        "zh-CN": "三乘九的微笑",
+        "ja": "ビッグ・スマイル",
+        "ko": "3-9x의 미소"
+      },
       "description": {
         "pt-BR": "Após a Técnica ser utilizada, ao usar a Perícia pela primeira vez na próxima batalha, adiciona Fraqueza contra Físico igual àquela aplicada pela Perícia Suprema ao alvo, durando por #1[i] rodada(s).",
         "en": "After the Technique is used, when casting the Skill for the first time in the next battle, applies the same Physical Weakness to the target as the one induced by the Ultimate, lasting for #1[i] turn(s).",
+        "zh-CN": "使用秘技后，下一次战斗首次施放战技时，为目标添加与终结技相同的物理弱点，持续#1[i]回合。",
         "ja": "秘技を使用した後、次の戦闘で初めて戦闘スキルを発動する時、敵に必殺技が与えるものと同じ物理属性弱点を付与する、#1[i]ターン継続。",
         "ko": "비술 사용 후 다음번 전투에서 처음 전투 스킬을 발동할 시, 목표에게 필살기와 동일한 물리 약점을 부여한다. 지속 시간: #1[i]턴"
       },
@@ -194,19 +220,27 @@
       "summary": {
         "pt-BR": "Depois que a Técnica é utilizada, aplica Fraqueza contra Físico contra um único inimigo ao usar a Perícia pela primeira vez na próxima batalha.",
         "en": "After the Technique is used, inflicts Physical Weakness on one enemy when casting the Skill for the first time in the next battle.",
+        "zh-CN": "使用秘技，下一次进战首次施放战技为敌方单体添加物理弱点。",
         "ja": "秘技を使用、次の戦闘で初めて戦闘スキルを発動する時、敵単体に物理属性弱点を付与する。",
         "ko": "비술 사용 후 다음 전투 진입 시 처음으로 발동하는 전투 스킬은 단일 적에게 물리 약점을 부여한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     },
     {
       "id": 131508,
       "type": "Basic",
-      "name": { "pt-BR": "Martelada Sequencial", "en": "Fanning the Hammer", "ja": "ファニング", "ko": "리볼버 패닝" },
+      "name": {
+        "pt-BR": "Martelada Sequencial",
+        "en": "Fanning the Hammer",
+        "zh-CN": "击锤连弩",
+        "ja": "ファニング",
+        "ko": "리볼버 패닝"
+      },
       "description": {
         "pt-BR": "Causa Dano Físico igual a #1[i]% do ATQ de Boothill a um único inimigo-alvo.\nO ATQ Básico Aprimorado não pode recuperar Pontos de Perícia e só pode focar no inimigo-alvo com Confronto.",
         "en": "Deals Physical DMG equal to #1[i]% of Boothill's ATK to one designated enemy target.\nThe Enhanced Basic Attack cannot recover Skill Points and can only target the enemy that is in the \"Standoff\" state.",
+        "zh-CN": "对指定敌方单体造成等同于波提欧#1[i]%攻击力的物理属性伤害。\n强化普攻无法恢复战技点，且仅能以处于【绝命对峙】的敌方目标为目标。",
         "ja": "指定した敵単体にブートヒルの攻撃力#1[i]%分の物理属性ダメージを与える。\n強化通常攻撃はSPを回復できず、「九死の決闘」状態の敵のみを攻撃できる。",
         "ko": "지정된 단일 적에게 부트힐 공격력의 #1[i]%만큼 물리 속성 피해를 가한다.\n강화된 일반 공격은 전투 스킬 포인트를 회복할 수 없으며, [목숨 건 대치] 상태의 적만을 목표로 삼을 수 있다"
       },
@@ -216,11 +250,12 @@
       "summary": {
         "pt-BR": "Causa Dano Físico a um único inimigo. Só pode atacar o alvo em Confronto.",
         "en": "Deals Physical DMG to one enemy. Can only attack the target in the \"Standoff.\"",
+        "zh-CN": "对敌方单体造成物理属性伤害，仅能攻击【绝命对峙】的目标。",
         "ja": "敵単体に物理属性ダメージを与える。また、このスキルは「九死の決闘」状態の敵のみを攻撃できる。",
         "ko": "단일 적에게 물리 속성 피해를 가하고, [목숨 건 대치]의 목표만 공격할 수 있다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     }
   ],
   "eidolons": [
@@ -229,12 +264,14 @@
       "name": {
         "pt-BR": "Estrela Solitária da Trilha Empoeirada",
         "en": "Dusty Trail's Lone Star",
+        "zh-CN": "扬尘孤星",
         "ja": "{RUBY_B#さじん}砂塵{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}の{RUBY_B#いっとうせい}一等星{RUBY_E#}",
         "ko": "황야의 론스타"
       },
       "description": {
         "pt-BR": "No início da batalha, obtém 1 acúmulo de Truque de Bolso. Quando Boothill causa Dano, ignora 16% da DEF do inimigo-alvo.",
         "en": "When the battle starts, obtains 1 stack of Pocket Trickshot. When Boothill deals DMG, ignores 16% of the enemy target's DEF.",
+        "zh-CN": "战斗开始时，获得1层【优势口袋】。波提欧造成伤害时无视敌方目标16%的防御力。",
         "ja": "戦闘開始時、「ポケットアドバンテージ」を1層獲得する。ブートヒルがダメージを与える時、敵の防御力を16%無視する。",
         "ko": "전투 시작 시 [포켓 어드벤티지]를 1스택 획득한다. 부트힐이 피해를 가할 시 적의 방어력을 16% 무시한다"
       },
@@ -247,12 +284,14 @@
       "name": {
         "pt-BR": "Revendedor de Conquistas",
         "en": "Milestonemonger",
+        "zh-CN": "里程碑贩子",
         "ja": "マイルストーン・\nマンガー",
         "ko": "마일스톤 딜러"
       },
       "description": {
         "pt-BR": "Quando em Confronto e obtendo Truque de Bolso, recupera 1 Ponto(s) de Perícia e aumenta o Efeito de Quebra em 30%, com duração de 2 rodada(s). Este efeito também pode ser ativado ao obter acúmulos de Truque de Bolso que excedam o limite máximo. No entanto, não pode ser ativado repetidamente em uma única rodada.",
         "en": "When in Standoff and gaining Pocket Trickshot, recovers 1 Skill Point(s) and increases Break Effect by 30%, lasting for 2 turn(s). Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit. But cannot trigger repeatedly within one turn.",
+        "zh-CN": "处于【绝命对峙】并获得【优势口袋】时，恢复1个战技点，并且击破特攻提高30%，持续2回合。该效果单个回合内不可重复触发，在获得溢出的【优势口袋】时也会触发。",
         "ja": "「九死の決闘」状態で「ポケットアドバンテージ」を獲得する時、SPを1回復する。同時に撃破特効+30%、2ターン継続。この効果はターンが回ってくるたびに1回まで発動でき、獲得する「ポケットアドバンテージ」が上限を超える時にも触発される。",
         "ko": "[목숨 건 대치] 상태에서 [포켓 어드벤티지] 획득 시, 전투 스킬 포인트를 1개 회복하고 격파 특수효과가 30% 증가한다. 지속 시간: 2턴. 해당 효과는 1턴 내에 중복 발동할 수 없으며, [포켓 어드벤티지]를 초과해 획득할 때도 발동된다"
       },
@@ -265,12 +304,14 @@
       "name": {
         "pt-BR": "Guarda do Jardim de Mármore",
         "en": "Marble Orchard's Guard",
+        "zh-CN": "大理石果园守卫",
         "ja": "{RUBY_B#はかもり}墓守{RUBY_E#}",
         "ko": "대리석 과수원의 파수꾼"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -283,12 +324,14 @@
       "name": {
         "pt-BR": "Chef de Carnes Frias",
         "en": "Cold Cuts Chef",
+        "zh-CN": "冷肉名厨",
         "ja": "{RUBY_B#さ}冷{RUBY_E#}めた{RUBY_B#にく}肉{RUBY_E#}の{RUBY_B#りょうりにん}料理人{RUBY_E#}",
         "ko": "냉육 주방장"
       },
       "description": {
         "pt-BR": "Quando o inimigo-alvo que estiver em Confronto for atacado por Boothill, o Dano recebido por ele aumenta em 12%. Quando Boothill é atacado pelo inimigo-alvo em Confronto, o efeito de receber mais Dano é reduzido em 12% nele.",
         "en": "When the enemy target in the Standoff is attacked by Boothill, the DMG they receive additionally increases by 12%. When Boothill is attacked by the enemy target in the Standoff, the effect of him receiving increased DMG is offset by 12%.",
+        "zh-CN": "处于【绝命对峙】的敌方目标受到波提欧攻击时，受到的伤害额外提高12%。波提欧受到处于【绝命对峙】的敌方目标的攻击时，受到的伤害提高效果降低12%。",
         "ja": "「九死の決闘」状態の敵がブートヒルの攻撃を受ける時、被ダメージアップ効果さらに+12%。ブートヒルが「九死の決闘」状態の敵の攻撃を受ける時、被ダメージアップ効果-12%。",
         "ko": "[목숨 건 대치] 상태의 적이 부트힐에게 피격 시 받는 피해가 추가로 12% 증가한다. 부트힐이 [목숨 건 대치] 상태의 적에게 피격 시 받는 피해 증가 효과가 12% 감소한다"
       },
@@ -301,12 +344,14 @@
       "name": {
         "pt-BR": "Discurso do Tronco",
         "en": "Stump Speech",
+        "zh-CN": "树桩演说家",
         "ja": "{RUBY_B#き}切{RUBY_E#}り{RUBY_B#かぶ}株{RUBY_E#}の{RUBY_B#えんぜつか}演説家{RUBY_E#}",
         "ko": "그루터기 연설가"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -319,12 +364,14 @@
       "name": {
         "pt-BR": "Guaxinim do Hotel Pé de Cabra",
         "en": "Crowbar Hotel's Raccoon",
+        "zh-CN": "撬棍旅馆的浣熊",
         "ja": "{RUBY_B#てつごうし}鉄格子{RUBY_E#}ホテルの{RUBY_B#じょうれん}常連{RUBY_E#}",
         "ko": "쇠창살 여관의 라쿤"
       },
       "description": {
         "pt-BR": "Ao ativar o Dano de Quebra do Talento, causa adicionalmente Dano de Quebra ao inimigo-alvo igual a 40% do multiplicador de Dano original e causa Dano de Quebra igual a 70% do multiplicador de Dano original a alvos adjacentes.",
         "en": "When triggering the Talent's Break DMG, additionally deals Break DMG to the target equal to 40% of the original DMG multiplier and additionally deals Break DMG to adjacent targets equal to 70% of the original DMG multiplier.",
+        "zh-CN": "触发天赋造成击破伤害时，对目标额外造成等同于原伤害倍率40%的击破伤害，对相邻目标额外造成等同于原伤害倍率70%的击破伤害。",
         "ja": "天賦を触発して弱点撃破ダメージを与える時、ターゲットに対してさらに本来のダメージ倍率40%分の弱点撃破ダメージを与え、隣接する敵に本来のダメージ倍率70%分の弱点撃破ダメージを与える。",
         "ko": "특성을 발동하여 격파 피해를 가할 시, 목표에게 추가로 기존 피해 배율의 40%만큼 격파 피해를 가하고, 인접한 목표에게 추가로 기존 피해 배율의 70%만큼 격파 피해를 가한다"
       },
@@ -701,10 +748,17 @@
     {
       "id": 1315101,
       "anchor": "Point06",
-      "name": { "pt-BR": "Munição Fantasma", "en": "Ghost Load", "ja": "ゴーストロード", "ko": "고스트 로딩" },
+      "name": {
+        "pt-BR": "Munição Fantasma",
+        "en": "Ghost Load",
+        "zh-CN": "幽灵装填",
+        "ja": "ゴーストロード",
+        "ko": "고스트 로딩"
+      },
       "description": {
         "pt-BR": "Aumenta a Chance de CRIT / o Dano CRIT deste personagem em uma quantidade igual a #1[i]% / #3[i]% do Efeito de Quebra, com um aumento máximo de #2[i]% / #4[i]%.",
         "en": "Increase this character's CRIT Rate/CRIT DMG, by an amount equal to #1[i]%/#3[i]% of Break Effect, up to a max increase of #2[i]%/#4[i]%.",
+        "zh-CN": "使自身暴击率/暴击伤害提高，提高数值等同于击破特攻的#1[i]%/#3[i]%，最多使暴击率/暴击伤害提高#2[i]%/#4[i]%。",
         "ja": "自身の会心率を、撃破特効の#1[i]%分アップする。最大で会心率+#2[i]%。\n自身の会心ダメージを、撃破特効の#3[i]%分アップする。最大で会心ダメージ+#4[i]%。",
         "ko": "자신의 치명타 확률/치명타 피해가 증가한다. 증가 수치는 격파 특수효과의 #1[i]%/#3[i]%이며, 치명타 확률/치명타 피해는 최대 #2[i]%/#4[i]% 증가한다"
       },
@@ -728,12 +782,14 @@
       "name": {
         "pt-BR": "Sobre as Cobras",
         "en": "Above Snakes",
+        "zh-CN": "蛇之上行",
         "ja": "{RUBY_B#しち}死地{RUBY_E#}からの{RUBY_B#だっしゅつ}脱出{RUBY_E#}",
         "ko": "어보브 스네이크"
       },
       "description": {
         "pt-BR": "Enquanto Boothill está em Confronto, diminui o Dano que ele recebe de alvos que não estejam em Confronto em #1[i]%.",
         "en": "While Boothill is in the Standoff, reduces the DMG he receives from targets that are not in the Standoff by #1[i]%.",
+        "zh-CN": "波提欧处于【绝命对峙】时，受到未处于【绝命对峙】目标的伤害降低#1[i]%。",
         "ja": "ブートヒルが「九死の決闘」状態の場合、「九死の決闘」状態でない敵の攻撃を受ける時、受けるダメージ-#1[i]%。",
         "ko": "부트힐이 [목숨 건 대치] 상태일 시 [목숨 건 대치] 상태가 아닌 목표에게 받는 피해가 #1[i]% 감소한다"
       },
@@ -759,10 +815,17 @@
     {
       "id": 1315103,
       "anchor": "Point08",
-      "name": { "pt-BR": "À Queima-Roupa", "en": "Point Blank", "ja": "ポイントブランク", "ko": "포인트 블랭크" },
+      "name": {
+        "pt-BR": "À Queima-Roupa",
+        "en": "Point Blank",
+        "zh-CN": "抵近射击",
+        "ja": "ポイントブランク",
+        "ko": "포인트 블랭크"
+      },
       "description": {
         "pt-BR": "Ao obter Truque de Bolso no Confronto, regenera #1[i] de Energia. Esse efeito também é ativado quando são obtidos acúmulos de Truque de Bolso que excedam o limite máximo.",
         "en": "When in Standoff and gaining Pocket Trickshot, regenerates #1[i] Energy. Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit.",
+        "zh-CN": "处于【绝命对峙】并获得【优势口袋】时，恢复#1[i]点能量。该效果在获得溢出的【优势口袋】时也会触发。",
         "ja": "「九死の決闘」の状態で「ポケットアドバンテージ」を獲得する時、EPを#1[i]回復する。この効果は獲得する「ポケットアドバンテージ」が上限を超える時にも発動する。",
         "ko": "[목숨 건 대치] 상태에서 [포켓 어드벤티지] 획득 시, 에너지를 #1[i]pt 회복한다. 해당 효과는 [포켓 어드벤티지]를 초과해 획득할 때도 발동된다"
       },
@@ -788,7 +851,13 @@
     {
       "id": 1315201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -805,7 +874,7 @@
     {
       "id": 1315202,
       "anchor": "Point10",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1315101],
@@ -822,7 +891,13 @@
     {
       "id": 1315203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1315202],
@@ -839,7 +914,7 @@
     {
       "id": 1315204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -856,7 +931,13 @@
     {
       "id": 1315205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1315102],
@@ -873,7 +954,7 @@
     {
       "id": 1315206,
       "anchor": "Point14",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1315205],
@@ -890,7 +971,13 @@
     {
       "id": 1315207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -907,7 +994,7 @@
     {
       "id": 1315208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1315103],
@@ -924,7 +1011,7 @@
     {
       "id": 1315209,
       "anchor": "Point17",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1315208],
@@ -941,7 +1028,13 @@
     {
       "id": 1315210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de Quebra", "en": "Break Boost", "ja": "撃破強化", "ko": "격파 강화" },
+      "name": {
+        "pt-BR": "Bônus de Quebra",
+        "en": "Break Boost",
+        "zh-CN": "击破强化",
+        "ja": "撃破強化",
+        "ko": "격파 강화"
+      },
       "icon": "icon/property/IconBreakUp.png",
       "maxLevel": 1,
       "prerequisites": [1315208],

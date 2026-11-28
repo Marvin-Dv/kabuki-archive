@@ -1,7 +1,13 @@
 {
   "id": 110436,
   "slug": "darkveil-moonlight",
-  "name": { "pt-BR": "Luar do Véu Negro", "en": "Darkveil Moonlight", "ja": "夜の帳に輝く月華", "ko": "어두운 장막의 달빛" },
+  "name": {
+    "pt-BR": "Luar do Véu Negro",
+    "en": "Darkveil Moonlight",
+    "zh-CN": "暗帷月华",
+    "ja": "夜の帳に輝く月華",
+    "ko": "어두운 장막의 달빛"
+  },
   "rarity": 4,
   "type": "Material",
   "subType": "AvatarRank",
@@ -17,6 +23,7 @@
       "Sombra Estagnada: \"Floresta dos Murmúrios\" do Bosque da Epifania",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["凝滞虚影【「呓语密林」神悟树庭】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「『囁きの密林』神悟の樹庭」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [「잠꼬대의 밀림」 깨달음의 나무 정원]", "「만능 합성기」- 재료 치환"]
   }

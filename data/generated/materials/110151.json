@@ -1,7 +1,13 @@
 {
   "id": 110151,
   "slug": "obsidian-of-dread",
-  "name": { "pt-BR": "Obsidiana do Temor", "en": "Obsidian of Dread", "ja": "黯淡な黒曜", "ko": "어두운 흑요" },
+  "name": {
+    "pt-BR": "Obsidiana do Temor",
+    "en": "Obsidian of Dread",
+    "zh-CN": "黯淡黑曜",
+    "ja": "黯淡な黒曜",
+    "ko": "어두운 흑요"
+  },
   "rarity": 2,
   "type": "Material",
   "subType": "TracePath",
@@ -11,6 +17,7 @@
   "sources": {
     "en": ["Calyx (Great Mine)", "Embers Exchange", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Cálice (Grande Mina)", "Troca de Brasas", "Sintetizador Omni — Troca de Material"],
+    "zh-CN": ["拟造花萼【大矿区】", "余烬兑换", "「万能合成机」- 材料置换"],
     "ja": ["疑似花萼「大鉱区」", "エンバー交換", "「万能合成マシン」- 素材交換"],
     "ko": ["모조 꽃받침 [큰 광산구역]", "잔화 교환", "「만능 합성기」- 재료 치환"]
   }

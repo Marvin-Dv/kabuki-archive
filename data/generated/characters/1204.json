@@ -1,7 +1,7 @@
 {
   "id": 1204,
   "slug": "jing-yuan",
-  "name": { "pt-BR": "Jing Yuan", "en": "Jing Yuan", "ja": "景元", "ko": "경원" },
+  "name": { "pt-BR": "Jing Yuan", "en": "Jing Yuan", "zh-CN": "景元", "ja": "景元", "ko": "경원" },
   "rarity": 5,
   "path": "Erudition",
   "element": "Lightning",
@@ -11,10 +11,17 @@
     {
       "id": 120401,
       "type": "Basic",
-      "name": { "pt-BR": "Fulgor Radiante", "en": "Glistening Light", "ja": "電光石火", "ko": "전광석화" },
+      "name": {
+        "pt-BR": "Fulgor Radiante",
+        "en": "Glistening Light",
+        "zh-CN": "石火流光",
+        "ja": "電光石火",
+        "ko": "전광석화"
+      },
       "description": {
         "pt-BR": "Jing Yuan causa Dano de Raio igual a #1[i]% de seu ATQ a um único inimigo.",
         "en": "Jing Yuan deals Lightning DMG equal to #1[i]% of his ATK to one designated enemy.",
+        "zh-CN": "对指定敌方单体造成等同于景元#1[i]%攻击力的雷属性伤害。",
         "ja": "指定した敵単体に景元の攻撃力#1[i]%分の雷属性ダメージを与える。",
         "ko": "지정된 단일 적에게 경원 공격력 #1[i]%만큼의 번개 속성 피해를 가한다"
       },
@@ -24,19 +31,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a um único inimigo.",
         "en": "Deals minor Lightning DMG to one enemy.",
+        "zh-CN": "对敌方单体造成少量雷属性伤害。",
         "ja": "敵単体に少量の雷属性ダメージを与える。",
         "ko": "단일 적에게 소량의 번개 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "ja": "単体攻撃", "ko": "단일 공격" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Alvo Único", "en": "Single Target", "zh-CN": "单攻", "ja": "単体攻撃", "ko": "단일 공격" }
     },
     {
       "id": 120402,
       "type": "Skill",
-      "name": { "pt-BR": "Zênite Rompido", "en": "Rifting Zenith", "ja": "紫霄の雷鳴", "ko": "고공을 가르는 뇌전" },
+      "name": {
+        "pt-BR": "Zênite Rompido",
+        "en": "Rifting Zenith",
+        "zh-CN": "紫霄震曜",
+        "ja": "紫霄の雷鳴",
+        "ko": "고공을 가르는 뇌전"
+      },
       "description": {
         "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Jing Yuan a todos os inimigos e aumenta os Golpes por Ação do Senhor dos Raios em #2[i] na próxima rodada.",
         "en": "Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.",
+        "zh-CN": "对敌方全体造成等同于景元#1[i]%攻击力的雷属性伤害，同时增加#2[i]段【神君】下回合的攻击段数。",
         "ja": "敵全体に景元の攻撃力#1[i]%分の雷属性ダメージを与え、「神君」の次ターンの攻撃段数+#2[i]。",
         "ko": "모든 적에게 경원 공격력 #1[i]%만큼의 번개 속성 피해를 가하고, 다음 턴 [신군]의 공격 단수가 #2[i]단 증가한다"
       },
@@ -62,19 +77,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio leve a todos os inimigos e aumenta os Golpes por Ação do Senhor dos Raios.",
         "en": "Deals minor Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.",
+        "zh-CN": "对敌方全体造成少量雷属性伤害，增加【神君】的攻击段数。",
         "ja": "敵全体に少量の雷属性ダメージを与え、「神君」の攻撃段数をアップさせる。",
         "ko": "모든 적에게 소량의 번개 속성 피해를 가하고 [신군]의 공격 단수가 증가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 120403,
       "type": "Ultimate",
-      "name": { "pt-BR": "Portador da Luz", "en": "Lightbringer", "ja": "我が身の輝き", "ko": "내가 곧 빛이니" },
+      "name": {
+        "pt-BR": "Portador da Luz",
+        "en": "Lightbringer",
+        "zh-CN": "吾身光明",
+        "ja": "我が身の輝き",
+        "ko": "내가 곧 빛이니"
+      },
       "description": {
         "pt-BR": "Causa Dano de Raio igual a #1[i]% do ATQ de Jing Yuan a todos os inimigos e aumenta os Golpes por Ação do Senhor dos Raios em #2[i] na próxima rodada.",
         "en": "Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.",
+        "zh-CN": "对敌方全体造成等同于景元#1[i]%攻击力的雷属性伤害。同时增加#2[i]段【神君】下回合的攻击段数。",
         "ja": "敵全体に景元の攻撃力#1[i]%分の雷属性ダメージを与え、「神君」の次ターンの攻撃段数+#2[i]。",
         "ko": "모든 적에게 경원 공격력 #1[i]%만큼의 번개 속성 피해를 가하고, 다음 턴 [신군]의 공격 단수가 #2[i]단 증가한다"
       },
@@ -100,19 +123,27 @@
       "summary": {
         "pt-BR": "Causa Dano de Raio a todos os inimigos e aumenta os Golpes por Ação do Senhor dos Raios.",
         "en": "Deals Lightning DMG to all enemies and increases Lightning-Lord's Hits Per Action.",
+        "zh-CN": "对敌方全体造成雷属性伤害，增加【神君】的攻击段数。",
         "ja": "敵全体に雷属性ダメージを与え、「神君」の攻撃段数をアップさせる。",
         "ko": "모든 적에게 번개 속성 피해를 가하고 [신군]의 공격 단수가 증가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 120404,
       "type": "Talent",
-      "name": { "pt-BR": "Prana Extirpado", "en": "Prana Extirpated", "ja": "退魔の形神", "ko": "퇴마의 형신" },
+      "name": {
+        "pt-BR": "Prana Extirpado",
+        "en": "Prana Extirpated",
+        "zh-CN": "斩勘神形",
+        "ja": "退魔の形神",
+        "ko": "퇴마의 형신"
+      },
       "description": {
         "pt-BR": "Invoca o Senhor dos Raios no início da batalha. O Senhor dos Raios tem #1[i] de VEL base e #4[i] Golpes por Ação base. Quando o Senhor dos Raios age, seus golpes são considerados Ataques Extras, com cada golpe do Senhor dos Raios causando Dano de Raio igual a #2[i]% do ATQ de Jing Yuan a um único inimigo aleatório, e inimigos adjacentes a ele também recebem Dano de Raio igual a #5[i]% do Dano causado ao inimigo-alvo principal.\nOs Golpes por Ação do Senhor dos Raios podem atingir o máximo de #6[i]. Toda vez que os Golpes por Ação do Senhor dos Raios aumentam em 1, sua VEL aumenta em #3[i]. Ao fim da ação do Senhor dos Raios, a sua VEL e os Golpes por Ação voltam aos valores-base. \nQuando Jing Yuan é derrubado, o Senhor dos Raios desaparecerá.\nQuando Jing Yuan é afetado por penalidades de Controle Negativo, o Senhor dos Raios será incapaz de agir.",
         "en": "Summons \"Lightning-Lord\" at the start of the battle. \"Lightning-Lord\" has #1[i] base SPD and #4[i] base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as Follow-Up ATKs, with each hit dealing Lightning DMG equal to #2[i]% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to #5[i]% of the DMG dealt to the primary target enemy.\nThe Lightning-Lord's Hits Per Action can reach a max of #6[i]. Every time \"Lightning-Lord's\" Hits Per Action increases by 1, its SPD increases by #3[i]. After the \"Lightning-Lord's\" action ends, its SPD and Hits Per Action return to their base values.\nWhen Jing Yuan is knocked down, the \"Lightning-Lord\" will disappear.\nWhen Jing Yuan is affected by Crowd Control debuff, the \"Lightning-Lord\" is unable to take action.",
+        "zh-CN": "战斗开始时召唤【神君】。【神君】初始拥有#1[i]点速度以及#4[i]段攻击段数，行动时发动追加攻击，每段攻击对随机敌方单体造成等同于景元攻击力#2[i]%的雷属性伤害，同时对其相邻目标造成等同于主目标#5[i]%的雷属性伤害。\n【神君】最多累计#6[i]段攻击段数且每增加1段攻击段数，速度提高#3[i]点，行动结束后速度和攻击段数恢复至初始状态。\n当景元陷入无法战斗状态时【神君】消失。\n当景元受到控制类负面状态影响时【神君】也无法行动。",
         "ja": "戦闘開始時に「神君」を召喚する。「神君」の初期速度は#1[i]、初期攻撃段数は#4[i]。「神君」が行動すると追加攻撃を行い、1段の攻撃でランダムな敵単体に景元の攻撃力#2[i]%分の雷属性ダメージを与え、隣接する敵にメインターゲットに対する#5[i]%分の雷属性ダメージを与える。\n「神君」の攻撃段数は最大で#6[i]段。攻撃段数が1増えるごとに速度+#3[i]。神君の行動終了後、速度と攻撃段数が初期状態に戻る。\n景元が戦闘不能状態になると「神君」は消える。\n景元が行動制限系デバフを受けている間、「神君」も行動できない。",
         "ko": "전투 시작 시 [신군]을 소환한다. [신군]은 기본 상태에서 속도 #1[i]pt 및 공격 단수 #4[i]단을 보유하며, 행동 시 추가 공격을 발동한다. 공격 단수마다 임의의 단일 적에게 경원 공격력 #2[i]%만큼의 번개 속성 피해를 주고, 인접한 목표에게 주목표 #5[i]%만큼의 번개 속성 피해를 가한다.\n[신군]은 최대 #6[i]단의 공격 단수를 누적할 수 있으며 공격 단수가 1단 증가할 때마다 속도가 #3[i]pt 증가하고, 행동 종료 후 속도와 공격 단수가 기본 상태로 회복된다.\n경원이 전투 불능 상태에 빠지면 [신군]은 사라진다.\n경원이 제어류 디버프 상태에 빠지면 [신군]도 행동할 수 없다"
       },
@@ -138,19 +169,21 @@
       "summary": {
         "pt-BR": "No início da batalha, invoca o \"Senhor dos Raios\". Quando o \"Senhor dos Raios\" age, realiza Ataques Extra para automaticamente causar Dano de Raio leve a uma unidade inimiga aleatória e aos alvos adjacentes.",
         "en": "At the start of the battle, summons \"Lightning-Lord.\" When \"Lightning-Lord\" takes action, launches Follow-Up ATK to automatically deal minor Lightning DMG to one random enemy and adjacent targets.",
+        "zh-CN": "战斗开始时召唤【神君】，【神君】行动时发动追加攻击，自动对随机敌方单体及其相邻目标造成少量雷属性伤害。",
         "ja": "戦闘開始時に「神君」を召喚する。「神君」が行動する時、追加攻撃を行い、自動でランダムな敵単体および隣接する敵に少量の雷属性ダメージを与える。",
         "ko": "전투 시작 시 [신군]을 소환한다. [신군]은 행동 시 추가 공격을 발동하며, 자동으로 랜덤 단일 적 및 인접한 목표에게 소량의 번개 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "ja": "バウンド", "ko": "바운스" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Rebote", "en": "Bounce", "zh-CN": "弹射", "ja": "バウンド", "ko": "바운스" }
     },
     {
       "id": 120406,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -159,6 +192,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do alvo inimigo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -166,10 +200,17 @@
     {
       "id": 120407,
       "type": "Technique",
-      "name": { "pt-BR": "Invocação de Spiritus", "en": "Spiritus Invocation", "ja": "摂召威霊", "ko": "위령 소환" },
+      "name": {
+        "pt-BR": "Invocação de Spiritus",
+        "en": "Spiritus Invocation",
+        "zh-CN": "摄召威灵",
+        "ja": "摂召威霊",
+        "ko": "위령 소환"
+      },
       "description": {
         "pt-BR": "Depois da que a Técnica é utilizada, os Golpes por Ação do Senhor dos Raios na primeira rodada aumentam em #1[i] no início da próxima batalha.",
         "en": "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by #1[i] at the start of the next battle.",
+        "zh-CN": "使用秘技后，下一次战斗开始时【神君】第1回合的攻击段数增加#1[i]段。",
         "ja": "秘技を使用した後、次の戦闘開始時、「神君」の1ターン目の攻撃段数+#1[i]。",
         "ko": "비술을 발동하면 다음 전투 시작 시 [신군]의 첫 번째 턴 공격 단수가 #1[i]단 증가한다"
       },
@@ -179,11 +220,12 @@
       "summary": {
         "pt-BR": "Após usar a Técnica, na próxima batalha, aumenta os Golpes por Ação do Senhor dos Raios.",
         "en": "After using Technique, for the next battle, increases Lightning-Lord's Hits Per Action.",
+        "zh-CN": "使用秘技，下一次进战时增加【神君】的攻击段数。",
         "ja": "秘技を使用すると、次の戦闘開始時に「神君」の攻撃段数がアップする。",
         "ko": "비술을 발동하면 다음 전투 진입 시 [신군]의 공격 단수가 증가한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -192,12 +234,14 @@
       "name": {
         "pt-BR": "Corte, Mares Partidos",
         "en": "Slash, Seas Split",
+        "zh-CN": "星流霆击碎昆冈",
         "ja": "{RUBY_B#りゅうせいらいてい}流星雷霆{RUBY_E#}\n{RUBY_B#やま}山{RUBY_E#}をも{RUBY_B#くだ}砕{RUBY_E#}く",
         "ko": "곤륜을 파괴하는 성류 뇌격"
       },
       "description": {
         "pt-BR": "Quando o Senhor dos Raios ataca, o multiplicador de Dano nos inimigos adjacentes ao inimigo-alvo aumenta em uma quantidade extra igual a 25% do multiplicador de Dano contra o inimigo-alvo principal.",
         "en": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the primary target enemy.",
+        "zh-CN": "【神君】施放攻击时，对指定敌方单体的相邻目标造成的伤害倍率额外提高，提高数值等同于对主目标伤害倍率的25%。",
         "ja": "「神君」が攻撃を行う時、指定した敵単体に隣接する敵に対するダメージ倍率が、メインターゲットに対するダメージ倍率25%分アップする。",
         "ko": "[신군]이 공격 발동 시 지정된 단일 적에 인접한 목표에게 가하는 피해 배율이 추가로 증가한다. 증가 수치는 주목표에게 가한 피해 배율의 25%이다"
       },
@@ -210,12 +254,14 @@
       "name": {
         "pt-BR": "Golpe, Céus Esmagados",
         "en": "Swing, Skies Squashed",
+        "zh-CN": "戎戈动地开天阵",
         "ja": "{RUBY_B#ふ}振{RUBY_E#}るいし{RUBY_B#ほこ}矛{RUBY_E#}\n{RUBY_B#ちうご}地動{RUBY_E#}かし{RUBY_B#てんひら}天開{RUBY_E#}く",
         "ko": "천지를 뒤흔드는 하늘의 창"
       },
       "description": {
         "pt-BR": "Depois que o Senhor dos Raios age, o Dano causado pelo ATQ Básico, pela Perícia e pela Perícia Suprema de Jing Yuan aumenta em 20% por 2 rodada(s).",
         "en": "After Lightning-Lord takes action, DMG dealt by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20%, lasting for 2 turn(s).",
+        "zh-CN": "【神君】行动后，景元的普攻、战技、终结技造成的伤害提高20%，持续2回合。",
         "ja": "「神君」が行動した後、景元の通常攻撃、戦闘スキル、および必殺技によるダメージ+20%、2ターン継続。",
         "ko": "[신군]이 행동한 후 경원은 일반 공격, 전투 스킬, 필살기로 가하는 피해가 20% 증가한다. 지속 시간: 2턴"
       },
@@ -228,12 +274,14 @@
       "name": {
         "pt-BR": "Ataque, Sóis Subjulgados",
         "en": "Strike, Suns Subdued",
+        "zh-CN": "移锋惊电冲霄汉",
         "ja": "{RUBY_B#みね}峰{RUBY_E#}を{RUBY_B#うつ}移{RUBY_E#}りし{RUBY_B#げきらい}激雷{RUBY_E#}\n{RUBY_B#てんうが}天穿{RUBY_E#}つ",
         "ko": "하늘을 꿰뚫는 번개"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -246,12 +294,14 @@
       "name": {
         "pt-BR": "Giro, Estrelas Cercadas",
         "en": "Spin, Stars Sieged",
+        "zh-CN": "刃卷横云落玉沙",
         "ja": "{RUBY_B#やいば}刃{RUBY_E#}、{RUBY_B#くも}雲{RUBY_E#}を{RUBY_B#ま}巻{RUBY_E#}き\n{RUBY_B#ぎょくさ}玉沙{RUBY_E#}に{RUBY_B#お}落{RUBY_E#}ちる",
         "ko": "백사에 떨어진 칼날에 감긴 구름"
       },
       "description": {
         "pt-BR": "A cada golpe do Senhor dos Raios quando ele age, Jing Yuan regenera 2 de Energia.",
         "en": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy.",
+        "zh-CN": "【神君】每段攻击后，景元恢复2点能量。",
         "ja": "「神君」が1段の攻撃を行うたび、景元はEPを2回復する。",
         "ko": "[신군]의 공격은 단마다 경원의 에너지를 2pt 회복한다"
       },
@@ -264,12 +314,14 @@
       "name": {
         "pt-BR": "Marcha, Bens Saqueados",
         "en": "Stride, Spoils Seized",
+        "zh-CN": "百战弃躯轻死生",
         "ja": "{RUBY_B#ひゃくせんへ}百戦経{RUBY_E#}て{RUBY_B#す}捨{RUBY_E#}てし{RUBY_B#み}躯{RUBY_E#}\n{RUBY_B#せいしかろ}生死軽{RUBY_E#}んず",
         "ko": "목숨을 아끼지 않는 백전 장군"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -282,12 +334,14 @@
       "name": {
         "pt-BR": "Varrer, Almas Ceifadas",
         "en": "Sweep, Souls Slain",
+        "zh-CN": "威灵有应破敌雠",
         "ja": "{RUBY_B#いこうまと}威光纏{RUBY_E#}う{RUBY_B#しんれい}神霊{RUBY_E#}\n{RUBY_B#てきほふ}敵屠{RUBY_E#}る",
         "ko": "적을 격멸하는 위령(威霊)"
       },
       "description": {
         "pt-BR": "Cada golpe lançado pelo Senhor dos Raios ao agir tornará o inimigo-alvo Vulnerável.\nQuando Vulneráveis, inimigos recebem 12% a mais de Dano até o final da rodada atual do Senhor dos Raios, acumulando em até 3 vez(es).",
         "en": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\nWhile Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s).",
+        "zh-CN": "【神君】每段攻击后会使指定敌方目标额外陷入易伤状态。\n易伤状态下的敌方目标受到的伤害提高12%，持续至【神君】本次攻击结束，该效果最多叠加3层。",
         "ja": "「神君」が1段の攻撃を行うたびに、メインターゲットを被ダメージアップ状態にする。\n被ダメージアップ状態の敵の受けるダメージ+12%、「神君」のその回の攻撃が終了するまで継続、最大で3回累積できる。",
         "ko": "[신군]의 공격은 단마다 지정된 적을 추가로 취약 상태에 빠트린다.\n취약 상태의 적은 받는 피해가 12% 증가하며, 이번 [신군] 공격 종료까지 지속된다. 해당 효과 최대 중첩수: 3스택"
       },
@@ -667,12 +721,14 @@
       "name": {
         "pt-BR": "Esmagamento de Batalha",
         "en": "Battalia Crush",
+        "zh-CN": "破阵",
         "ja": "{RUBY_B#はじん}破陣{RUBY_E#}",
         "ko": "적진 격파"
       },
       "description": {
         "pt-BR": "Se os Golpes por Ação do Senhor dos Raios forem maiores ou iguais a #1[i] na próxima rodada, o Dano CRIT dele aumenta em #2[i]% pela próxima rodada.",
         "en": "If the Lightning-Lord's Hits Per Action is greater or equal to #1[i] in the next turn, its CRIT DMG increases by #2[i]% for the next turn.",
+        "zh-CN": "若【神君】下回合的攻击段数大于等于#1[i]段，则其下回合的暴击伤害提高#2[i]%。",
         "ja": "「神君」の次のターンの攻撃段数が#1[i]以上の場合、神君の次のターンの会心ダメージ+#2[i]%。",
         "ko": "다음 턴에서 [신군]의 공격 단수가 #1[i]단 이상일 경우, 신군의 치명타 피해가 #2[i]% 증가한다"
       },
@@ -696,12 +752,14 @@
       "name": {
         "pt-BR": "Providência da Sabedoria",
         "en": "Savant Providence",
+        "zh-CN": "绸缪",
         "ja": "{RUBY_B#せんけん}先見{RUBY_E#}",
         "ko": "사전 대비"
       },
       "description": {
         "pt-BR": "No início da batalha, regenera #1[i] de Energia imediatamente.",
         "en": "At the start of the battle, immediately regenerates #1[i] Energy.",
+        "zh-CN": "战斗开始时，立即恢复#1[i]点能量。",
         "ja": "戦闘開始時、EPを#1[i]回復する。",
         "ko": "전투 시작 시 즉시 에너지를 #1[i]pt 회복한다"
       },
@@ -730,12 +788,14 @@
       "name": {
         "pt-BR": "Marechal da Guerra",
         "en": "War Marshal",
+        "zh-CN": "遣将",
         "ja": "{RUBY_B#けんしょう}遣将{RUBY_E#}",
         "ko": "장수 파견"
       },
       "description": {
         "pt-BR": "Após a Perícia ser utilizada, a Chance de CRIT aumenta em #1[i]% por #2[i] rodada(s).",
         "en": "After the Skill is used, the CRIT Rate increases by #1[i]% for #2[i] turn(s).",
+        "zh-CN": "施放战技后，暴击率提升#1[i]%，持续#2[i]回合。",
         "ja": "戦闘スキルを発動した後、会心率+#1[i]%、#2[i]ターン継続。",
         "ko": "전투 스킬 발동 후 치명타 확률이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
       },
@@ -761,7 +821,7 @@
     {
       "id": 1204201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -781,6 +841,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -800,7 +861,7 @@
     {
       "id": 1204203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1204202],
@@ -817,7 +878,7 @@
     {
       "id": 1204204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1204202],
@@ -834,7 +895,7 @@
     {
       "id": 1204205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1204102],
@@ -854,6 +915,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -873,7 +935,7 @@
     {
       "id": 1204207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [1204205],
@@ -890,7 +952,7 @@
     {
       "id": 1204208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "ja": "防御強化", "ko": "방어 강화" },
+      "name": { "pt-BR": "Bônus de DEF", "en": "DEF Boost", "zh-CN": "防御强化", "ja": "防御強化", "ko": "방어 강화" },
       "icon": "icon/property/IconDefence.png",
       "maxLevel": 1,
       "prerequisites": [1204103],
@@ -910,6 +972,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -929,7 +992,7 @@
     {
       "id": 1204210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "ja": "攻撃強化", "ko": "공격 강화" },
+      "name": { "pt-BR": "Bônus de ATQ", "en": "ATK Boost", "zh-CN": "攻击强化", "ja": "攻撃強化", "ko": "공격 강화" },
       "icon": "icon/property/IconAttack.png",
       "maxLevel": 1,
       "prerequisites": [],

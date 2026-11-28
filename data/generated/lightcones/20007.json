@@ -1,7 +1,7 @@
 {
   "id": 20007,
   "slug": "darting-arrow",
-  "name": { "pt-BR": "Flecha Veloz", "en": "Darting Arrow", "ja": "離弦", "ko": "시위를 떠난 화살" },
+  "name": { "pt-BR": "Flecha Veloz", "en": "Darting Arrow", "zh-CN": "离弦", "ja": "離弦", "ko": "시위를 떠난 화살" },
   "rarity": 3,
   "path": "Hunt",
   "announcedAt": "2026-11-16",
@@ -9,14 +9,16 @@
   "description": {
     "pt-BR": "Uma gota de força condensada pelo próprio tempo. Todos os momentos aparentemente insignificantes se unem para formar o magnífico coro do destino. \n\"A batalha começou. As flechas estão com sede de sangue.\"",
     "en": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \n\"The battle has begun. Arrows are thirsty for blood.\"",
+    "zh-CN": "自时光中凝取的稀薄力量。正是所有微不足道的刹那，编织成了壮绝的命运。\n「战事已经开始，必须给箭矢找到下一个目标。」",
     "ja": "凝縮された時間から得られる希薄な力。一瞬にも満たない刹那が、壮絶な運命を織りなす。\n「戦争は始まった、矢に次の標的を探してあげねば」",
     "ko": "세월에서 추출한 희박한 힘. 바로 이런 보잘것없는 찰나의 순간들이 모여 장렬한 운명을 엮어낸다.\n「전쟁은 시작되었고 다음 화살의 목표를 찾아야 한다」"
   },
   "skill": {
-    "name": { "pt-BR": "Grito de Guerra", "en": "War Cry", "ja": "鳴角", "ko": "호각" },
+    "name": { "pt-BR": "Grito de Guerra", "en": "War Cry", "zh-CN": "鸣角", "ja": "鳴角", "ko": "호각" },
     "description": {
       "pt-BR": "Quando o usuário derrota um inimigo, aumenta o ATQ em #1[i]% por #2[i] rodada(s).",
       "en": "When the wearer defeats an enemy, increases ATK by #1[i]% for #2[i] turn(s).",
+      "zh-CN": "使装备者消灭敌方目标后，攻击力提高#1[i]%，持续#2[i]回合。",
       "ja": "装備キャラが敵を倒した後、攻撃力+#1[i]%、#2[i]ターン継続。",
       "ko": "장착한 캐릭터는 적을 처치한 후 공격력이 #1[i]% 증가한다. 지속 시간: #2[i]턴"
     },

@@ -1,7 +1,13 @@
 {
   "id": 113012,
   "slug": "artifexs-cogwheel",
-  "name": { "pt-BR": "Engrenagem de Artífices", "en": "Artifex's Cogwheel", "ja": "工造迴輪", "ko": "공조 톱니바퀴" },
+  "name": {
+    "pt-BR": "Engrenagem de Artífices",
+    "en": "Artifex's Cogwheel",
+    "zh-CN": "工造迴轮",
+    "ja": "工造迴輪",
+    "ko": "공조 톱니바퀴"
+  },
   "rarity": 3,
   "type": "Material",
   "subType": "CommonMonsterDrop",
@@ -23,6 +29,7 @@
       "Inimigos do Universo Simulado",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["突破至均衡等级2后，入魔机巧掉落", "「万能合成机」- 材料合成", "「差分宇宙」中敌方掉落", "「模拟宇宙」中敌方掉落", "「万能合成机」- 材料置换"],
     "ja": [
       "均衡Lv.2に達した後、入魔機巧からドロップ",
       "「万能合成マシン」- 素材合成",

@@ -1,7 +1,13 @@
 {
   "id": 11405,
   "slug": "anaxas-eidolon",
-  "name": { "pt-BR": "Eidolon de Anaxa", "en": "Anaxa's Eidolon", "ja": "「アナイクス」の星魂", "ko": "[아낙사]의 성혼" },
+  "name": {
+    "pt-BR": "Eidolon de Anaxa",
+    "en": "Anaxa's Eidolon",
+    "zh-CN": "【那刻夏】的星魂",
+    "ja": "「アナイクス」の星魂",
+    "ko": "[아낙사]의 성혼"
+  },
   "rarity": 5,
   "type": "Material",
   "subType": "Eidolon",

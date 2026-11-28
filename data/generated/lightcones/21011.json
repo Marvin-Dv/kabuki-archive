@@ -1,7 +1,13 @@
 {
   "id": 21011,
   "slug": "planetary-rendezvous",
-  "name": { "pt-BR": "Encontro Planetário", "en": "Planetary Rendezvous", "ja": "惑星との出会い", "ko": "행성과의 만남" },
+  "name": {
+    "pt-BR": "Encontro Planetário",
+    "en": "Planetary Rendezvous",
+    "zh-CN": "与行星相会",
+    "ja": "惑星との出会い",
+    "ko": "행성과의 만남"
+  },
   "rarity": 4,
   "path": "Harmony",
   "announcedAt": "2026-11-16",
@@ -9,14 +15,16 @@
   "description": {
     "pt-BR": "Ela não fazia ideia do que esperar quando embarcou nessa jornada.\nSó sabia que finalmente estaria livre dos olhares críticos e das discussões mesquinhas de sua família.\nSentiu que enfim havia entendido o significado da poesia.\n\"Um dia, criaremos asas e esqueceremos como era a sensação de andar.\"\nA luz nos olhos dela ganhou o brilho das estrelas.",
     "en": "She had no idea what to expect when she first started out on this journey.\nAll she knew was that she could at long last be rid of the judgmental eyes and petty bickering of her family.\nShe felt she finally understood what the poet was trying to say.\n\"One day, we would grow wings and forget what it was like to walk.\"\nThe light in her eyes became the glittering stars.",
+    "zh-CN": "上路时，她仍然对这趟远行一无所知。\n只知道终于能告别家中的百舌之声，躲避无处不在的明枪暗箭。\n直到她望向窗外时，她终于明白了那首诗的意味。\n「在某个时刻之后，我们不再行走，而是飞翔。」\n而她眼中闪动的亮光，正是行星的倒影。",
     "ja": "出立する時、彼女はまだこの旅に対して何も知らなかった。\nただ、家のつまらない話から逃れ、所々から向けられる悪意や陰謀を避けられるとしか思っていなかった。\nそして彼女が窓の外を眺めた時、ようやくあの詩の意味を知った。\n「ある時がすぎたら、私たちは歩くのではなく、飛んでいた」\n彼女の目に輝く光は、正しく惑星の倒影であった。",
     "ko": "길을 떠났을 때도 그녀는 여전히 이번 여정에 대해 아무것도 알지 못했다.\n아는 것은 그저 이제 드디어 가족의 잔소리와 어디를 가도 쏟아지는 공격들을 뒤로할 수 있다는 것이다.\n그녀가 창밖을 바라볼 때 마침내 그 시의 의미를 이해했다.\n「우린 어느 순간부터는 더 이상 걷지 않고 비행한다」\n그리고 그녀의 눈에 반짝이는 빛은 바로 행성의 그림자이다"
   },
   "skill": {
-    "name": { "pt-BR": "Partida", "en": "Departure", "ja": "旅立ち", "ko": "출발" },
+    "name": { "pt-BR": "Partida", "en": "Departure", "zh-CN": "启程", "ja": "旅立ち", "ko": "출발" },
     "description": {
       "pt-BR": "Após entrar na batalha, se qualquer aliado causar o mesmo tipo de Dano que o usuário, aumenta o Dano causado em #1[i]%.",
       "en": "After entering battle, if an ally deals the same DMG Type as the wearer, DMG dealt increases by #1[i]%.",
+      "zh-CN": "进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高#1[i]%。",
       "ja": "戦闘に入った後、味方が装備キャラと同じ属性のダメージを与えた時、与ダメージ+#1[i]%。",
       "ko": "전투 진입 후 아군이 장착한 캐릭터와 동일한 속성의 피해를 가할 시 가하는 피해가 #1[i]% 증가한다"
     },

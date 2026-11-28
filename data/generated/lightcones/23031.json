@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Eu Me Aventuro para Caçar",
     "en": "I Venture Forth to Hunt",
+    "zh-CN": "我将，巡征追猎",
     "ja": "我が征く巡狩の道",
     "ko": "정복하고 사냥하리"
   },
@@ -14,14 +15,16 @@
   "description": {
     "pt-BR": "\"Escravos miseráveis e ridículos...\"\nA legião dos Cidadãos da Abundância chegou destruindo tudo como uma avalanche, com a Lupitoxina correndo em direção aos Cavaleiros Verdejantes como uma onda, tentando despertar o medo oculto no coração dos soldados. Ilusões de medo vieram e abalaram a força de vontade dos guerreiros, os levando a soltar suas lâminas e instaurando a hesitação.\nMas a linha de frente permanece firme como uma parede de bronze, impermeável às palavras de desdém dos Borisins. Entre os soldados, uma figura solitária se aproxima.\nEla movimenta o corpo lentamente, e as bandeiras atrás dela murmuram sob uma intenção assassina oculta.\n\"A general... é a general...\"\n\"General Feixiao...\"\n\"A Garra de Merlin!\"\nEsses pequenos aplausos e gritos se fundem em um grito de guerra estrondoso.\n\"Sempre em vigilância! Triunfando eternamente!\"\nEla permanece ali, só. Uma figura solitária, mas imbuída com o poder de um exército inteiro.",
     "en": "\"Pitiful, laughable slaves...\"\nThe Denizens of Abundance's legions come crashing upon the border like an avalanche, with Lupitoxin rushing toward the Verdant Knights like a tide, trying to arouse the deep-set fear hidden in the soldiers' hearts. Illusions of dread came forth, striking the wills of the warriors, compelling them to drop their blades and be seized by hesitation.\nBut the front remains stalwart like a bronze wall, unstirred by the borisins' disdainful words. From among the soldiers, a single figure saunters forth.\nShe moves her body at a slow pace, and the flags behind her rustle under the unseen killing intent.\n\"The general... it's the general...\"\n\"General Feixiao...\"\n\"The Merlin's Claw!\"\nThese small cheers and calls then come together into a thunderous battle cry.\n\"Always soaring! Forever triumphant!\"\nShe stands there, alone. A single figure, but imbued with the might of an entire army.",
+    "zh-CN": "「可悲可笑的奴隶们……」\n浩荡的丰饶民军队压境而来，狼毒如洪水般涌向青丘军，试图唤起军士深埋于心中的恐惧，化作种种可怖的幻象，使他们垂下武器，犹豫不前。\n但阵线犹如铜墙铁壁，不为步离人轻蔑的话音所动，一个身影缓步走出。\n她缓缓活动着身体，无形的煞气冲击下，旗帜猎猎作响。\n「将军，是将军出现了……」\n「飞霄将军……」\n「『天击』将军！」\n细微的呼唤汇聚起来，化作震天的战吼。\n「翾翔不坠，万载常胜！」\n她站在那里，一个人，就像一支军队。",
     "ja": "「滑稽で哀れな奴隷ども……」\n豊穣の民の軍勢が大挙して戦線まで押し寄せてきた。狼毒は洪水のように青丘軍を呑み込み、兵士たちの心の奥深くに眠る恐怖を呼び起こそうとする。様々な恐怖が幻となって襲い掛かると、兵士たちは武器を下ろし、前進することを躊躇い始めてしまった。\nだが、歩離人の侮蔑的な声にも動じず、陣は鉄壁のように強固なままだ。その折、ゆっくりと前に進み出る1つの影。\n彼女は緩慢な動作で身体を動かす。その背後にある旗は目に見えない殺気に煽られ、たなびいた。\n「将軍、将軍だ……」\n「飛霄将軍……」\n「『天撃』将軍だ！」\n小さな呟きはやがて一つ所に集まり、天を震わす鬨の声となる。\n「飛翔不墜、常勝不敗！」\n立っているのは彼女1人のはずだ。しかし、その存在感は1つの軍を想起させるかのようだった。",
     "ko": "「가엽고 가소로운 노예들이여……」\n수많은 풍요의 백성 군대가 경계선으로 몰려오고, 늑대 독은 홍수처럼 청구군을 집어삼키며 군인들 마음속 깊이 숨겨진 공포를 불러일으키려 한다. 다양한 공포로 이루어진 환상은 군인들이 무기를 내려놓고 주저하게 만들었다.\n그러나 전선은 철통같은 방비로 보리인의 경멸의 소리에도 흔들리지 않았다. 그때 그림자 하나가 천천히 걸어 나왔다.\n그녀가 천천히 몸을 움직이자, 눈에 보이지 않는 살기에 깃발이 흔들렸다.\n「장군님, 장군님이 오셨다……」\n「비소 장군님……」\n「『천격』 장군!」\n작은 외침이 모여 하늘을 울리는 함성이 되었다.\n「추락하지 않고, 만고불변의 승리를 이어가리!」\n그녀는 그곳에 홀로 서 있었지만, 그 모습은 마치 하나의 군대 같았다"
   },
   "skill": {
-    "name": { "pt-BR": "Intimidação", "en": "Intimidation", "ja": "威風", "ko": "진섭" },
+    "name": { "pt-BR": "Intimidação", "en": "Intimidation", "zh-CN": "震慑", "ja": "威風", "ko": "진섭" },
     "description": {
       "pt-BR": "Aumenta a Chance de CRIT do usuário em #1[f1]%. Quando o usuário utiliza um Ataque Extra, ganha 1 acúmulo de \"Luminiflux\", acumulando até um máximo de #3[i] vez(es). Cada acúmulo de \"Luminiflux\" permite que o Dano de Perícia Suprema causado pelo usuário ignore #2[i]% da DEF do alvo. Quando a rodada do usuário termina, remove 1 acúmulo de \"Luminiflux\".",
       "en": "Increases the wearer's CRIT Rate by #1[f1]%. When the wearer launches a Follow-Up ATK, gains 1 stack of \"Luminflux,\" stacking up to #3[i] time(s). Each stack of \"Luminflux\" enables the Ultimate DMG dealt by the wearer to ignore #2[i]% of the target's DEF. When the wearer's turn ends, removes 1 stack of \"Luminflux.\"",
+      "zh-CN": "使装备者的暴击率提高#1[f1]%。装备者施放追加攻击时，获得1层【流光】，最多叠加#3[i]层。每层【流光】使装备者造成的终结技伤害无视目标#2[i]%的防御力。装备者回合结束时，移除1层【流光】。",
       "ja": "装備キャラの会心率+#1[f1]%。装備キャラが追加攻撃を行う時、「流光」を1層獲得する。「流光」は最大で#3[i]層累積できる。「流光」が1層あるごとに、装備キャラの与える必殺技ダメージが敵の防御力を#2[i]%無視する。装備キャラのターン終了時、「流光」が1層解除される。",
       "ko": "장착한 캐릭터의 치명타 확률이 #1[f1]% 증가한다. 장착한 캐릭터가 추가 공격 발동 시 [유광]을 1스택 획득한다, 최대 중첩수: #3[i]스택. [유광] 1스택마다 장착한 캐릭터가 가하는 필살기 피해가 목표의 방어력을 #2[i]% 무시한다. 장착한 캐릭터의 턴 종료 시 [유광]이 1스택 해제된다"
     },

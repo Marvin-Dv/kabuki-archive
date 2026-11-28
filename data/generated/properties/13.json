@@ -1,7 +1,13 @@
 {
   "id": 13,
   "type": "StatusProbability",
-  "name": { "pt-BR": "Taxa de Acerto de Efeito", "en": "Effect Hit Rate", "ja": "効果命中", "ko": "효과 명중" },
+  "name": {
+    "pt-BR": "Taxa de Acerto de Efeito",
+    "en": "Effect Hit Rate",
+    "zh-CN": "效果命中",
+    "ja": "効果命中",
+    "ko": "효과 명중"
+  },
   "icon": "icon/property/IconStatusProbability.png",
   "percent": true
 }

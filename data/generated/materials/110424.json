@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Prego do Caixão da Besta",
     "en": "Nail of the Beast Coffin",
+    "zh-CN": "兽棺之钉",
     "ja": "獣棺の釘",
     "ko": "수관(獸棺)의 못"
   },
@@ -16,6 +17,7 @@
   "sources": {
     "en": ["Stagnant Shadow: The Shackling Prison", "Omni-Synthesizer — Material Exchange"],
     "pt-BR": ["Sombra Estagnada: A Prisão dos Grilhões", "Sintetizador Omni - Troca de Material"],
+    "zh-CN": ["凝滞虚影【幽囚狱】", "「万能合成机」- 材料置换"],
     "ja": ["凝結虚影「幽囚獄」", "「万能合成マシン」- 素材交換"],
     "ko": ["정체된 허영 [유폐옥]", "「만능 합성기」- 재료 치환"]
   }

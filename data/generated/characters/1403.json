@@ -1,7 +1,7 @@
 {
   "id": 1403,
   "slug": "tribbie",
-  "name": { "pt-BR": "Tribbie", "en": "Tribbie", "ja": "トリビー", "ko": "트리비" },
+  "name": { "pt-BR": "Tribbie", "en": "Tribbie", "zh-CN": "缇宝", "ja": "トリビー", "ko": "트리비" },
   "rarity": 5,
   "path": "Harmony",
   "element": "Quantum",
@@ -14,12 +14,14 @@
       "name": {
         "pt-BR": "Cem Foguetinhos",
         "en": "Hundred Rockets",
+        "zh-CN": "一百层的小火箭",
         "ja": "百発分のピラヴロス",
         "ko": "100층짜리 미니 로켓"
       },
       "description": {
         "pt-BR": "Causa Dano Quântico igual a #1[i]% dos PV máximos de Tribbie a um inimigo designado. Causa Dano Quântico igual a #2[i]% dos PV máximos de Tribbie em alvos adjacentes.",
         "en": "Deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to one designated enemy. Deals Quantum DMG equal to #2[i]% of Tribbie's Max HP to adjacent targets.",
+        "zh-CN": "对指定敌方单体造成等同于缇宝#1[i]%生命上限的量子属性伤害，对相邻目标造成等同于缇宝#2[i]%生命上限的量子属性伤害。",
         "ja": "指定した敵単体にトリビーの最大HP#1[i]%分の量子属性ダメージを与え、隣接する敵にトリビーの最大HP#2[i]%分の量子属性ダメージを与える。",
         "ko": "지정된 단일 적에게 트리비 HP 최대치의 #1[i]%만큼 양자 속성 피해를 가하고, 인접한 목표에게 트리비 HP 최대치의 #2[i]%만큼 양자 속성 피해를 가한다"
       },
@@ -40,11 +42,12 @@
       "summary": {
         "pt-BR": "Causa Dano Quântico leve a um único inimigo e unidades adjacentes.",
         "en": "Deals minor Quantum DMG to one enemy and adjacent targets.",
+        "zh-CN": "对敌方单体及其相邻目标造成少量量子属性伤害。",
         "ja": "敵単体および隣接する敵に少量の量子属性ダメージを与える。",
         "ko": "단일 적 및 인접한 목표에게 소량의 양자 속성 피해를 가한다"
       },
-      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "ja": "通常攻撃", "ko": "일반 공격" },
-      "targetText": { "pt-BR": "Explosão", "en": "Blast", "ja": "拡散攻撃", "ko": "확산" }
+      "typeText": { "pt-BR": "ATQ Básico", "en": "Basic ATK", "zh-CN": "普攻", "ja": "通常攻撃", "ko": "일반 공격" },
+      "targetText": { "pt-BR": "Explosão", "en": "Blast", "zh-CN": "扩散", "ja": "拡散攻撃", "ko": "확산" }
     },
     {
       "id": 140302,
@@ -52,12 +55,14 @@
       "name": {
         "pt-BR": "Onde Foram os Presentes",
         "en": "Where'd the Gifts Go",
+        "zh-CN": "礼物都去哪儿了",
         "ja": "プレゼントはどこ？",
         "ko": "선물이 다 어디 갔지?"
       },
       "description": {
         "pt-BR": "Ganha \"Numinosidade\", durando por #2[i] rodada(s). Esta duração diminui em 1 no início de cada rodada desta unidade. Enquanto Tribbie possuir \"Numinosidade\", aumenta a PEN de RES a Todos os Tipos de todos os aliados-alvo em #1[f1]%.",
         "en": "Gains \"Numinosity,\" lasting for #2[i] turn(s). This duration decreases by 1 at the start of this unit's every turn. While Tribbie has \"Numinosity,\" increases all ally targets' All-Type RES PEN by #1[f1]%.",
+        "zh-CN": "获得【神启】，持续#2[i]回合，自身每回合开始时持续回合数减1。当缇宝拥有【神启】时，我方全体目标全属性抗性穿透提高#1[f1]%。",
         "ja": "「神の啓示」を獲得する。#2[i]ターン継続。自身のターンが回ってくるたびに、「神の啓示」の継続時間-1ターン。トリビーに「神の啓示」がある時、味方全体の全属性耐性貫通+#1[f1]%。",
         "ko": "#2[i]턴 동안 지속되는 [신의 계시]를 획득하며, 자신의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 트리비가 [신의 계시]를 보유할 시 모든 아군의 모든 속성 저항 관통이 #1[f1]% 증가한다"
       },
@@ -83,11 +88,12 @@
       "summary": {
         "pt-BR": "Ganha \"Numinosidade\", durante a qual todos os aliados-alvo têm sua PEN de RES a Todos os Tipos aumentada.",
         "en": "Gains \"Numinosity,\" during which all ally targets have their All-Type RES PEN increased.",
+        "zh-CN": "获得【神启】，持续期间内我方全体目标全属性抗性穿透提高。",
         "ja": "「神の啓示」を獲得し、効果継続中、味方全体の全属性耐性貫通をアップする。",
         "ko": "[신의 계시]를 획득하며, 지속 시간 동안 모든 아군의 모든 속성 저항 관통이 증가한다"
       },
-      "typeText": { "pt-BR": "Perícia", "en": "Skill", "ja": "戦闘スキル", "ko": "전투 스킬" },
-      "targetText": { "pt-BR": "Suporte", "en": "Support", "ja": "サポート", "ko": "서포트" }
+      "typeText": { "pt-BR": "Perícia", "en": "Skill", "zh-CN": "战技", "ja": "戦闘スキル", "ko": "전투 스킬" },
+      "targetText": { "pt-BR": "Suporte", "en": "Support", "zh-CN": "辅助", "ja": "サポート", "ko": "서포트" }
     },
     {
       "id": 140303,
@@ -95,12 +101,14 @@
       "name": {
         "pt-BR": "Adivinhe Quem Mora Aqui",
         "en": "Guess Who Lives Here",
+        "zh-CN": "猜猜这里住着谁",
         "ja": "ここに住んでるのは誰でしょう！",
         "ko": "여기에 누가 살고 있게?"
       },
       "description": {
         "pt-BR": "Ativa um Campo e causa Dano Quântico em um valor igual a #1[i]% dos PV máximos de Tribbie a todos os inimigos.\nEnquanto o Campo estiver ativo, aumenta o Dano recebido pelos inimigos-alvo em #2[f1]%. Após um aliado-alvo atacar, para cada 1 inimigo atingido, causa 1 instância de Dano Quântico Adicional igual a #3[f1]% dos PV máximos de Tribbie ao alvo com maior PV entre os alvos atingidos.\nO Campo dura por #4[i] rodada(s). Essa duração é reduzida em 1 no início de cada rodada desta unidade.",
         "en": "Activates a Zone and deals Quantum DMG equal to #1[i]% of Tribbie's Max HP to all enemies.\nWhile the Zone lasts, increases enemy targets' DMG taken by #2[f1]%. After an ally target attacks, for every 1 target hit, deals 1 instance of Quantum Additional DMG equal to #3[f1]% of Tribbie's Max HP to the target that has the highest HP among the hit targets.\nThe Zone lasts for #4[i] turn(s). This duration decreases by 1 at the start of this unit's every turn.",
+        "zh-CN": "开启结界，并对敌方全体造成等同于缇宝#1[i]%生命上限的量子属性伤害。\n结界持续期间，敌方目标受到的伤害提高#2[f1]%。受到我方目标攻击后，每有1名目标受到攻击，会对被攻击目标中当前生命值最高的目标造成1次等同于缇宝#3[f1]%生命上限的量子属性附加伤害。\n结界持续#4[i]回合，自身每回合开始时结界持续回合数减1。",
         "ja": "結界を展開し、敵全体にトリビーの最大HP#1[i]%分の量子属性ダメージを与える。\n結界が展開されている間、敵の受けるダメージ+#2[f1]%。敵が味方の攻撃を受けた後、攻撃を受けた敵1体につき、その敵の中で残りHPが最も高い敵に、トリビーの最大HP#3[f1]%分の量子属性付加ダメージを1回与える。\n結界は#4[i]ターン継続。自身のターンが回ってくるたびに結界の継続時間-1ターン。",
         "ko": "결계를 활성화하고, 모든 적에게 트리비 HP 최대치의 #1[i]%만큼 양자 속성 피해를 가한다.\n결계 지속 시간 동안 적이 받는 피해가 #2[f1]% 증가한다. 아군에게 피격 후, 피격된 목표가 1기 있을 때마다 피격된 목표 중 현재 HP가 가장 높은 목표에게 트리비 HP 최대치의 #3[f1]%만큼 양자 속성 추가 피해를 1회 가한다.\n결계는 #4[i]턴 동안 지속되며, 자신의 턴이 시작될 때마다 결계 지속 턴 수가 1 감소한다"
       },
@@ -126,11 +134,12 @@
       "summary": {
         "pt-BR": "Ativa um Campo e causa Dano Quântico leve a todos os inimigos. Enquanto o Campo durar, aumenta o Dano recebido pelos inimigos e causa Dano Quântico leve Adicional ao alvo que tem os maiores PV entre os alvos atingidos com base no número de inimigos atacados.",
         "en": "Activates a Zone and deals minor Quantum DMG to all enemies. While the Zone lasts, increases the DMG taken by enemies and deals minor Quantum Additional DMG to the target that has the highest HP among the hit targets based on the number of enemies attacked.",
+        "zh-CN": "开启结界，对敌方全体造成少量量子属性伤害。结界持续期间，敌方受到的伤害提高，并根据攻击敌人的个数对被攻击目标中生命值最高的目标造成少量量子属性附加伤害。",
         "ja": "結界を展開し、敵全体に少量の量子属性ダメージを与える。結界が継続している間、敵の被ダメージがアップし、攻撃した敵の数に応じて、その中の残りHPが最も高い敵に少量の量子属性付加ダメージを与える。",
         "ko": "결계를 활성화하고, 모든 적에게 소량의 양자 속성 피해를 가한다. 결계 지속 시간 동안 적이 받는 피해가 증가하고, 공격한 적의 수량에 따라 피격된 목표 중 HP가 가장 높은 목표에게 소량의 양자 속성 추가 피해를 가한다"
       },
-      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "ja": "必殺技", "ko": "필살기" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Perícia Suprema", "en": "Ultimate", "zh-CN": "终结技", "ja": "必殺技", "ko": "필살기" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 140304,
@@ -138,12 +147,14 @@
       "name": {
         "pt-BR": "Tribbie Está Sempre Ocupada",
         "en": "Busy as Tribbie",
+        "zh-CN": "好忙好忙的缇宝",
         "ja": "どたばたトリビー",
         "ko": "트리비는 너무 바빠"
       },
       "description": {
         "pt-BR": "Após outros personagens aliados usarem a Perícia Suprema, Tribbie realiza um Ataque Extra, causando Dano Quântico em um valor igual a #1[f1]% dos PV máximos de Tribbie a todos os inimigos. Este efeito pode ser ativado até 1 vez por personagem. Quando Tribbie usa sua Perícia Suprema, a contagem de ativação para outros personagens aliados é reiniciada. Se o alvo for derrotado antes do Ataque Extra ser realizado, em vez disso, Tribbie realiza o Ataque Extra contra novos inimigos-alvo que entrarem no campo de batalha.",
         "en": "After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing Quantum DMG equal to #1[f1]% of Tribbie's Max HP to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters. If the target was defeated before the Follow-Up ATK is launched, then launches the Follow-Up ATK against new enemy targets entering the battlefield.",
+        "zh-CN": "我方其他角色施放终结技后，缇宝发动追加攻击，对敌方全体造成等同于缇宝#1[f1]%生命上限的量子属性伤害。该效果每个角色最多触发1次，缇宝施放终结技时重置我方其他角色可触发次数。若追加攻击施放前目标被消灭则对新入场的敌方目标发动追加攻击。",
         "ja": "自身以外の味方キャラが必殺技を発動した後、トリビーが追加攻撃を行い、敵全体にトリビーの最大HPの#1[f1]%分の量子属性ダメージを与える。この効果はトリビーを除いた味方キャラ1人につき1回のみ発動でき、トリビーが必殺技を発動するとこの回数がリセットされる。追加攻撃を行う前に、ターゲットがすでに倒された場合、新たに登場した敵に追加攻撃を発動する。",
         "ko": "다른 아군 캐릭터가 필살기를 발동하면 트리비가 추가 공격을 발동하여 모든 적에게 트리비 HP 최대치의 #1[f1]%만큼 양자 속성 피해를 가한다. 해당 효과는 캐릭터마다 최대 1회 발동하며, 트리비가 필살기를 발동할 시 다른 아군 캐릭터의 발동 가능 횟수가 초기화된다. 추가 공격 발동 전에 목표가 처치되면 필드에 새로 등장한 적에게 추가 공격을 발동한다"
       },
@@ -169,19 +180,21 @@
       "summary": {
         "pt-BR": "Após outros personagens aliados utilizarem sua Perícia Suprema, Tribbie realiza um Ataque Extra, causando Dano Quântico leve a todos os inimigos. Este efeito pode ser ativado até 1 vez por personagem. Quando Tribbie usa sua Perícia Suprema, a contagem de ativação para outros personagens aliados é reiniciada.",
         "en": "After other ally characters use Ultimate, Tribbie launches Follow-Up ATK, dealing minor Quantum DMG to all enemies. This effect triggers up to 1 time per character. When Tribbie uses Ultimate, resets the trigger count for other ally characters.",
+        "zh-CN": "我方其他角色施放终结技后，缇宝发动追加攻击，对敌方全体造成少量量子属性伤害。该效果每个角色最多触发1次，缇宝施放终结技时重置我方其他角色可触发次数。",
         "ja": "自身以外の味方キャラが必殺技を発動した後、トリビーが追加攻撃を行い、敵全体に少量の量子属性ダメージを与える。この効果はトリビーを除いた味方1人につき1回のみ発動でき、トリビーが必殺技を発動するとこの回数がリセットされる。",
         "ko": "다른 아군 캐릭터가 필살기를 발동하면 트리비가 추가 공격을 발동하여 모든 적에게 소량의 양자 속성 피해를 가한다. 해당 효과는 캐릭터마다 최대 1회 발동하며, 트리비가 필살기를 발동할 시 다른 아군 캐릭터의 발동 가능 횟수가 초기화된다"
       },
-      "typeText": { "pt-BR": "Talento", "en": "Talent", "ja": "天賦", "ko": "특성" },
-      "targetText": { "pt-BR": "Área", "en": "AoE", "ja": "全体攻撃", "ko": "범위 공격" }
+      "typeText": { "pt-BR": "Talento", "en": "Talent", "zh-CN": "天赋", "ja": "天賦", "ko": "특성" },
+      "targetText": { "pt-BR": "Área", "en": "AoE", "zh-CN": "群攻", "ja": "全体攻撃", "ko": "범위 공격" }
     },
     {
       "id": 140306,
       "type": "Other",
-      "name": { "pt-BR": "Ataque", "en": "Attack", "ja": "攻撃", "ko": "공격" },
+      "name": { "pt-BR": "Ataque", "en": "Attack", "zh-CN": "攻击", "ja": "攻撃", "ko": "공격" },
       "description": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       },
@@ -190,6 +203,7 @@
       "summary": {
         "pt-BR": "Ataca um inimigo, e, quando a batalha começa, reduz a Tenacidade do inimigo-alvo do Tipo correspondente.",
         "en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+        "zh-CN": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
         "ja": "敵を攻撃。戦闘に入った後、敵の対応する属性の靭性を削る。",
         "ko": "적을 공격하며, 전투 진입 후 적에게 대응하는 속성의 강인성을 감소시킨다"
       }
@@ -200,12 +214,14 @@
       "name": {
         "pt-BR": "Se Você Está Contente Bata Palmas",
         "en": "If You're Happy and You Know It",
+        "zh-CN": "开心你就拍拍手",
         "ja": "楽しいなら手を叩こう",
         "ko": "모두 다 같이 손뼉을"
       },
       "description": {
         "pt-BR": "Depois de usar a Técnica e ao entrar na batalha, obtém \"Numinosidade\" por #1[i] rodada(s).",
         "en": "After using Technique and upon entering battle, obtains \"Numinosity,\" lasting for #1[i] turn(s).",
+        "zh-CN": "使用秘技后，进入战斗时获得【神启】，持续#1[i]回合。",
         "ja": "秘技を使用した後、戦闘に入る時に「神の啓示」を獲得する。#1[i]ターン継続。",
         "ko": "비술 사용 후 전투 진입 시 [신의 계시]를 획득한다, 지속 시간: #1[i]턴"
       },
@@ -215,11 +231,12 @@
       "summary": {
         "pt-BR": "Ao entrar em batalha, obtém \"Numinosidade\".",
         "en": "When entering battle, obtains \"Numinosity.\"",
+        "zh-CN": "进入战斗时获得【神启】。",
         "ja": "戦闘に入る時、「神の啓示」を獲得する。",
         "ko": "전투 진입 시 [신의 계시]를 획득한다"
       },
-      "typeText": { "pt-BR": "Técnica", "en": "Technique", "ja": "秘技", "ko": "비술" },
-      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "ja": "強化", "ko": "강화" }
+      "typeText": { "pt-BR": "Técnica", "en": "Technique", "zh-CN": "秘技", "ja": "秘技", "ko": "비술" },
+      "targetText": { "pt-BR": "Aprimoramento", "en": "Enhance", "zh-CN": "强化", "ja": "強化", "ko": "강화" }
     }
   ],
   "eidolons": [
@@ -228,12 +245,14 @@
       "name": {
         "pt-BR": "Ritual da Colher de Açúcar",
         "en": "Rite of Sugar Scoop",
+        "zh-CN": "拾起砂糖的祭典",
         "ja": "{RUBY_B#さとう}砂糖{RUBY_E#}を{RUBY_B#ひろ}拾{RUBY_E#}い{RUBY_B#あ}上{RUBY_E#}げる{RUBY_B#さいてん}祭典{RUBY_E#}",
         "ko": "설탕을 줍는 축제"
       },
       "description": {
         "pt-BR": "Enquanto o Campo estiver ativo e após aliados-alvo atacarem inimigos, causa adicionalmente Dano Verdadeiro igual a 24% do Dano total deste ataque aos alvos que receberam Dano Adicional do Campo.",
         "en": "While the Zone lasts and after ally targets attack enemies, additionally deals True DMG equal to 24% of the total DMG of this attack to targets that have been dealt Additional DMG by the Zone.",
+        "zh-CN": "结界持续期间，我方目标攻击敌人后，对结界造成附加伤害的目标额外造成等同于本次攻击总伤害值24%的真实伤害。",
         "ja": "結界が展開されている間、味方が敵を攻撃した後、結界により付加ダメージを与えられた敵に、その回の攻撃の総ダメージ24%分の確定ダメージを追加で与える。",
         "ko": "결계 지속 시간 동안 아군이 적을 공격하면 결계가 추가 피해를 가하는 목표에게 추가로 이번 공격 총 피해량의 24%만큼 확정 피해를 가한다"
       },
@@ -246,12 +265,14 @@
       "name": {
         "pt-BR": "Guia de Visita aos Sonhos",
         "en": "Guide of Dream Tour",
+        "zh-CN": "探访佳梦的向导",
         "ja": "{RUBY_B#すてき}素敵{RUBY_E#}な{RUBY_B#ゆめ}夢{RUBY_E#}への{RUBY_B#あんないにん}案内人{RUBY_E#}",
         "ko": "좋은 꿈을 탐방하는 길잡이"
       },
       "description": {
         "pt-BR": "O Dano Adicional causado pelo Campo aumenta para 120% do Dano original. Quando o Campo causa Dano Adicional, causa adicionalmente 1 instância(s) de Dano Adicional.",
         "en": "The Additional DMG dealt by the Zone increases to 120% of the original DMG. When the Zone deals Additional DMG, further deals 1 instance(s) of Additional DMG.",
+        "zh-CN": "结界造成的附加伤害提高至原伤害的120%。结界造成附加伤害时，会额外造成1次附加伤害。",
         "ja": "結界による付加ダメージが本来のダメージの120%分にアップする。結界による付加ダメージを与える時、さらに1回付加ダメージを与える。",
         "ko": "결계가 가하는 추가 피해가 기존 피해의 120%로 증가한다. 결계가 추가 피해를 가할 시 추가 피해를 1회 추가로 가한다"
       },
@@ -264,12 +285,14 @@
       "name": {
         "pt-BR": "Tesouro do Brilho Matutino",
         "en": "Trove of Morning Glow",
+        "zh-CN": "盛满晨曦的宝藏",
         "ja": "{RUBY_B#あさや}朝焼{RUBY_E#}けの{RUBY_B#たからもの}宝物{RUBY_E#}",
         "ko": "아침 햇살이 가득한 보물"
       },
       "description": {
         "pt-BR": "Nv. da Perícia Suprema +2, até no máximo Nv. 15.\nNv. do ATQ Básico +1, até no máximo Nv. 10.",
         "en": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+        "zh-CN": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
         "ja": "必殺技のLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。",
         "ko": "필살기 레벨+2, 최대 Lv.15. 일반 공격 레벨+1, 최대 Lv.10"
       },
@@ -282,12 +305,14 @@
       "name": {
         "pt-BR": "Paz do Laço Empático",
         "en": "Peace of Empathy Bond",
+        "zh-CN": "心意相契的安宁",
         "ja": "{RUBY_B#こころかよ}心通{RUBY_E#}い{RUBY_B#あ}合{RUBY_E#}う{RUBY_B#やす}安{RUBY_E#}らぎ",
         "ko": "마음이 통하는 평안"
       },
       "description": {
         "pt-BR": "Enquanto \"Numinosidade\" durar, o Dano causado por todos os aliados ignora 18% da DEF do alvo.",
         "en": "While \"Numinosity\" lasts, the DMG dealt by all allies ignores 18% of the target's DEF.",
+        "zh-CN": "【神启】持续期间，我方全体造成伤害时无视目标18%的防御力。",
         "ja": "「神の啓示」が継続している間、味方全体がダメージを与える時、敵の防御力を18%無視する。",
         "ko": "[신의 계시] 지속 시간 동안, 모든 아군이 피해를 가할 시 목표의 방어력을 18% 무시한다"
       },
@@ -300,12 +325,14 @@
       "name": {
         "pt-BR": "Relógio da Origem das Maravilhas",
         "en": "Clock of Wonder Origin",
+        "zh-CN": "开启奇迹的时钟",
         "ja": "{RUBY_B#きせき}奇跡{RUBY_E#}を{RUBY_B#お}起{RUBY_E#}こす{RUBY_B#とけい}時計{RUBY_E#}",
         "ko": "기적을 여는 시계"
       },
       "description": {
         "pt-BR": "Nv. da Perícia +2, até no máximo Nv. 15.\nNv. do Talento +2, até no máximo Nv. 15.",
         "en": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+        "zh-CN": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
         "ja": "戦闘スキルのLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。",
         "ko": "전투 스킬 레벨+2, 최대 Lv.15. 특성 레벨+2, 최대 Lv.15"
       },
@@ -318,12 +345,14 @@
       "name": {
         "pt-BR": "Manhã do Brilho Estelar",
         "en": "Morrow of Star Shine",
+        "zh-CN": "星月满天的明日",
         "ja": "{RUBY_B#ほし}星{RUBY_E#}が{RUBY_B#きら}煌{RUBY_E#}めく{RUBY_B#あした}明日{RUBY_E#}",
         "ko": "별과 달이 가득한 내일"
       },
       "description": {
         "pt-BR": "Após Tribbie utilizar sua Perícia Suprema, ela realiza o Ataque Extra do seu Talento contra todos os inimigos. O Dano causado pelo Ataque Extra do seu Talento é aumentado em 729%.",
         "en": "After Tribbie uses Ultimate, launches her Talent's Follow-Up ATK against all enemies. The DMG dealt by Talent's Follow-Up ATK increases by 729%.",
+        "zh-CN": "缇宝施放终结技后，对敌方全体发动天赋的追加攻击。天赋的追加攻击造成的伤害提高729%。",
         "ja": "トリビーが必殺技を発動した後、敵全体に天賦による追加攻撃を行う。天賦による追加攻撃ダメージ+729%。",
         "ko": "트리비가 필살기 발동 후, 모든 적에게 특성의 추가 공격을 발동한다. 특성의 추가 공격이 가하는 피해가 729% 증가한다"
       },
@@ -703,12 +732,14 @@
       "name": {
         "pt-BR": "Cordeirinhos Fora do Cercado...",
         "en": "Lamb Outside the Wall...",
+        "zh-CN": "城墙外的羊羔儿…",
         "ja": "{RUBY_B#かべ}壁{RUBY_E#}の{RUBY_B#そと}外{RUBY_E#}の{RUBY_B#こひつじ}子羊{RUBY_E#}…",
         "ko": "성벽 밖의 어린양…"
       },
       "description": {
         "pt-BR": "Depois de usar o Ataque Extra do Talento, aumenta o Dano causado por Tribbie em #1[i]%. Este efeito pode acumular até #2[i] vez(es), durando por #3[i] rodada(s).",
         "en": "After using Talent's Follow-Up ATK, increases the DMG dealt by Tribbie by #1[i]%. This effect can stack up to #2[i] time(s), lasting for #3[i] turn(s).",
+        "zh-CN": "施放天赋的追加攻击后，缇宝造成的伤害提高#1[i]%，该效果最多叠加#2[i]层，持续#3[i]回合。",
         "ja": "天賦の追加攻撃を行った後、トリビーの与ダメージ+#1[i]%。この効果は最大で#2[i]層累積できる、#3[i]ターン継続する。",
         "ko": "특성의 추가 공격 발동 후, 트리비가 가하는 피해가 #1[i]% 증가한다, 해당 효과 최대 중첩수: #2[i]스택, 지속 시간: #3[i]턴"
       },
@@ -732,12 +763,14 @@
       "name": {
         "pt-BR": "Esfera de Vidro Alada!",
         "en": "Glass Ball with Wings!",
+        "zh-CN": "长翅膀的玻璃球！",
         "ja": "{RUBY_B#はね}羽{RUBY_E#}の{RUBY_B#は}生{RUBY_E#}えたガラス{RUBY_B#だま}玉{RUBY_E#}！",
         "ko": "날개 달린 유리구슬!"
       },
       "description": {
         "pt-BR": "Enquanto o Campo durar, os PV máximos de Tribbie aumentam em um valor igual a #1[i]% da soma dos PV máximos de todos os personagens aliados.",
         "en": "While the Zone lasts, Tribbie's Max HP increases by an amount equal to #1[i]% of the sum of all ally characters' Max HP.",
+        "zh-CN": "结界持续期间，缇宝的生命上限提高，提高数值等同于我方全体角色生命上限之和的#1[i]%。",
         "ja": "結界が展開されている間、トリビーの最大HPが味方全体の最大HP合計値#1[i]%分アップする。",
         "ko": "결계 지속 시간 동안 트리비의 HP 최대치가 모든 아군 캐릭터 HP 최대치 총합의 #1[i]%만큼 증가한다"
       },
@@ -766,12 +799,14 @@
       "name": {
         "pt-BR": "Pedrinha na Encruzilhada?",
         "en": "Pebble at Crossroads?",
+        "zh-CN": "岔路旁的小石子？",
         "ja": "{RUBY_B#わ}分{RUBY_E#}かれ{RUBY_B#みち}道{RUBY_E#}の{RUBY_B#そば}傍{RUBY_E#}の{RUBY_B#こいし}小石{RUBY_E#}？",
         "ko": "갈림길 옆 돌멩이?"
       },
       "description": {
         "pt-BR": "No início da batalha, Tribbie regenera #1[i] de Energia. Após outros aliados atacarem, Tribbie regenera #2[f1] de Energia para cada alvo atingido.",
         "en": "At the start of battle, Tribbie regenerates #1[i] Energy. After other ally targets attack, Tribbie regenerates #2[f1] Energy for each target hit.",
+        "zh-CN": "战斗开始时，缇宝恢复#1[i]点能量。我方其他目标攻击后，每击中1个目标使缇宝恢复#2[f1]点能量。",
         "ja": "戦闘開始時、トリビーがEPを#1[i]回復する。トリビー以外の味方が攻撃を行った後、命中した敵1体につき、トリビーがEPを#2[f1]回復する。",
         "ko": "전투 시작 시 트리비의 에너지가 #1[i]pt 회복된다. 다른 아군이 공격 후 목표를 1기 명중할 때마다 트리비의 에너지가 #2[f1]pt 회복된다"
       },
@@ -797,7 +832,13 @@
     {
       "id": 1403201,
       "anchor": "Point09",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [],
@@ -817,6 +858,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -836,7 +878,13 @@
     {
       "id": 1403203,
       "anchor": "Point11",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1403202],
@@ -853,7 +901,7 @@
     {
       "id": 1403204,
       "anchor": "Point12",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1403201],
@@ -870,7 +918,13 @@
     {
       "id": 1403205,
       "anchor": "Point13",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1403102],
@@ -890,6 +944,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -909,7 +964,13 @@
     {
       "id": 1403207,
       "anchor": "Point15",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1403201],
@@ -926,7 +987,7 @@
     {
       "id": 1403208,
       "anchor": "Point16",
-      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "ja": "HP強化", "ko": "HP 강화" },
+      "name": { "pt-BR": "Bônus de PV", "en": "HP Boost", "zh-CN": "生命强化", "ja": "HP強化", "ko": "HP 강화" },
       "icon": "icon/property/IconMaxHP.png",
       "maxLevel": 1,
       "prerequisites": [1403103],
@@ -946,6 +1007,7 @@
       "name": {
         "pt-BR": "Bônus de Chance de CRIT",
         "en": "CRIT Rate Boost",
+        "zh-CN": "暴击率强化",
         "ja": "会心率強化",
         "ko": "치명타 확률 강화"
       },
@@ -965,7 +1027,13 @@
     {
       "id": 1403210,
       "anchor": "Point18",
-      "name": { "pt-BR": "Bônus de Dano CRIT", "en": "CRIT DMG Boost", "ja": "会心ダメージ強化", "ko": "치명타 피해 강화" },
+      "name": {
+        "pt-BR": "Bônus de Dano CRIT",
+        "en": "CRIT DMG Boost",
+        "zh-CN": "暴击伤害强化",
+        "ja": "会心ダメージ強化",
+        "ko": "치명타 피해 강화"
+      },
       "icon": "icon/property/IconCriticalDamage.png",
       "maxLevel": 1,
       "prerequisites": [1403208],

@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Na Queda de Um Aeon",
     "en": "On the Fall of an Aeon",
+    "zh-CN": "记一位星神的陨落",
     "ja": "とある星神の殞落を記す",
     "ko": "어떤 에이언즈의 몰락"
   },
@@ -14,14 +15,22 @@
   "description": {
     "pt-BR": "Começou com um flash de luz.\nUm por um, caíram enquanto a ameaça de um suspiro pairava.\nELES tiveram que parar de se autorreplicar e correram para se abraçar.\nTentando oferecer o direito de reprodução em troca da possibilidade de sobreviver.\nSeguraram as mãos numa demonstração inédita de união.\nMas os Caminhos chegaram a um fim abrupto e encontraram\na verdadeira morte.",
     "en": "It began with a flash of light.\nOne by one, THEY fell as the threat of expiration loomed over THEM.\nTHEY had to stop self-replicating and rushed to embrace each other,\ntrying to offer the right to reproduce in exchange for a possibility of survival.\nTHEY held hands in a show of unprecedented unity.\n...But the Paths met an abrupt end,\nand THEY were headed to a true death.",
+    "zh-CN": "从一道光开始。\n祂们坠落，陨灭的威胁居高临下。\n祂们不得不停止自我复制，争先恐后拥抱彼此，\n试图用繁殖的权利为代价，换取生存的可能。\n祂们携手，从未如此团结\n——但命途戛然而止，\n祂们趋向真正的死亡。",
     "ja": "一筋の光から始まった。\n其らは墜ちる、消滅の脅威が見下す。\n其らは自己複製を止め、先を争ってお互いを抱擁せざるを得なかった、\n繁殖の権利を対価に、生存の可能性を掴もうと試みた。\n其らは手を取り合い、今までにない程に団結した。\n——しかし、運命は突然途絶え、\n其らは、真の死へと向かった。",
     "ko": "한 줄기의 빛에서 시작되어,\n그들은 추락하고, 멸망의 위협이 고조되고 있다.\n그들은 어쩔 수 없이 자가 복제를 멈추고, 앞을 다투어 서로 껴안아,\n번식할 권리를 대가로 생존의 가능성을 바꾸고자 했다.\n그들은 손을 맞잡았다, 이렇게 단결해 본 적이 없음에도\n——운명의 길은 끊기고,\n그들은 진정한 죽음을 향해 갔다"
   },
   "skill": {
-    "name": { "pt-BR": "Mariposa às Chamas", "en": "Moth to Flames", "ja": "火に飛び込む", "ko": "자충수" },
+    "name": {
+      "pt-BR": "Mariposa às Chamas",
+      "en": "Moth to Flames",
+      "zh-CN": "扑火",
+      "ja": "火に飛び込む",
+      "ko": "자충수"
+    },
     "description": {
       "pt-BR": "Quando o usuário ataca, aumenta seu ATQ em #1[i]% nesta batalha. Este efeito pode acumular até #2[i] vez(es). Depois que o usuário aplica Quebra de Fraqueza a um inimigo, aumenta o Dano causado em #3[i]%, durando por #4[i] rodada(s).",
       "en": "When the wearer attacks, increases their ATK by #1[i]% in this battle. This effect can stack up to #2[i] time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by #3[i]%, lasting for #4[i] turn(s).",
+      "zh-CN": "当装备者施放攻击时，使装备者本场战斗中的攻击力提高#1[i]%，该效果最多叠加#2[i]层。当装备者击破敌方目标弱点后，造成的伤害提高#3[i]%，持续#4[i]回合。",
       "ja": "装備キャラが攻撃した時、今回の戦闘中、装備キャラの攻撃力+#1[i]%、最大で#2[i]回累積できる。装備キャラが敵を弱点撃破した後、与ダメージ+#3[i]%、#4[i]ターン継続。",
       "ko": "장착한 캐릭터가 공격 발동 시 장착한 캐릭터의 이번 전투에서 공격력이 #1[i]% 증가한다. 해당 효과 최대 중첩수: #2[i]스택. 장착한 캐릭터는 적의 약점을 격파한 후 가하는 피해가 #3[i]% 증가한다. 지속 시간: #4[i]턴"
     },

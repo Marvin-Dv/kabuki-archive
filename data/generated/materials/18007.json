@@ -4,6 +4,7 @@
   "name": {
     "pt-BR": "Sombra da Recordação",
     "en": "Shadow of Remembrance",
+    "zh-CN": "「记忆」之影",
     "ja": "「記憶」の影",
     "ko": "「기억」의 그림자"
   },
@@ -20,6 +21,7 @@
       "Recompensas de Nível da Recompensa das Marés",
       "Conforme Escrevi"
     ],
+    "zh-CN": ["开拓任务奖励", "「潮汐的馈赠」等级奖励获得", "「如我所书」获得"],
     "ja": ["開拓クエスト報酬", "「潮騒の贈り物」レベルアップ報酬で獲得", "「紡がれた物語」で獲得"],
     "ko": ["개척 임무 보상", "「조수의 선물」 레벨 보상 획득", "「내가 쓰는 대로」에서 획득"]
   }

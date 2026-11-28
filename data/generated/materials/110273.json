@@ -1,7 +1,13 @@
 {
   "id": 110273,
   "slug": "lance-of-retribution",
-  "name": { "pt-BR": "Lança da Retaliação", "en": "Lance of Retribution", "ja": "天罰の血槍", "ko": "천벌의 혈창" },
+  "name": {
+    "pt-BR": "Lança da Retaliação",
+    "en": "Lance of Retribution",
+    "zh-CN": "天谴血矛",
+    "ja": "天罰の血槍",
+    "ko": "천벌의 혈창"
+  },
   "rarity": 4,
   "type": "Material",
   "subType": "TracePath",
@@ -19,6 +25,7 @@
       "Sintetizador Omni — Síntese de Material",
       "Sintetizador Omni — Troca de Material"
     ],
+    "zh-CN": ["拟造花萼【「葬忆彼岸」时光归墟】", "「万能合成机」- 材料合成", "「万能合成机」- 材料置换"],
     "ja": [
       "疑似花萼「「{RUBY_B#ほうむ}葬{RUBY_E#}られし{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#ひがん}彼岸{RUBY_E#}」{RUBY_B#とき}時{RUBY_E#}の{RUBY_B#は}果{RUBY_E#}て」",
       "「万能合成マシン」- 素材合成",

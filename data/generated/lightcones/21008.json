@@ -1,7 +1,13 @@
 {
   "id": 21008,
   "slug": "eyes-of-the-prey",
-  "name": { "pt-BR": "Olhos da Presa", "en": "Eyes of the Prey", "ja": "獲物の視線", "ko": "사냥감의 시선" },
+  "name": {
+    "pt-BR": "Olhos da Presa",
+    "en": "Eyes of the Prey",
+    "zh-CN": "猎物的视线",
+    "ja": "獲物の視線",
+    "ko": "사냥감의 시선"
+  },
   "rarity": 4,
   "path": "Nihility",
   "announcedAt": "2026-11-16",
@@ -9,14 +15,16 @@
   "description": {
     "pt-BR": "Na realidade, a maioria das presas não percebe quando o perigo se aproxima.\nEsta não é exceção.\nO atirador lentamente centraliza sua mira telescópica em um homem jogando maços e mais maços de notas de dinheiro, parecendo completamente alheio à morte iminente.\n\"Então é isso que chamam de ganância. Só essa quantia já equivale a vários dos meus contratos... É lógico que alguém quer esse homem morto.\"\nComo se o pensamento tivesse sido transmitido em voz alta, o homem na mira vira o rosto e olha diretamente para o atirador. \n\"Eu estava te esperando. Quanto você quer para me ouvir?\"",
     "en": "In reality, most prey don't realize when danger is encroaching.\nThis one's no exception.\nThe sniper's scope slowly centers on a man throwing banknotes stack after stack, who seems completely oblivious to his impending demise.\n\"So that's what greed looks like. That amount is equal to several of my contracts already... No wonder someone wants him dead.\"\nAs if these thoughts were broadcasted out loud, the man in the scope turns his head, looking straight into the eyes of the sniper. \n\"I've been waiting for you. Would this much be enough for you to hear me out?\"",
+    "zh-CN": "事实上，猎物多半不会意识到自己的处境。\n眼前的这个猎物也是如此。 \n瞄准镜缓缓转动，男人仍自顾自地抛洒着一叠又一叠的纸钞。\n「看他那贪婪的样子，这点钱够我做几单生意了…怪不得有人要干掉他。」\n像是听到了他心中的感慨，男人转过头来。\n「等你好久了，这些钱够不够让你听听我的条件再做决定？」",
     "ja": "事実上、獲物の大多数は自分の置かれている状況に気づけない。\n目の前の獲物もそうだ。\n照準器はゆっくりと動く、男は相変わらず束になった金をぶちまけている。\n「欲深いあの姿を見ろ、あの金で商売をいくつやれるか…消そうとするヤツがいる訳だ」\n彼の心を読んだかのように、男は顔をこちらに向けた。\n「待ってました、ここにある金なら、僕の条件を聞いてから事を決める気になるかな？」",
     "ko": "사실 사냥감은 대부분 자신의 처지를 깨닫지 못한다.\n눈앞에 보이는 이 사냥감 역시 마찬가지다.\n조준경이 천천히 돌아가고 있는데도 남자는 여전히 지폐 뭉치를 뿌리고 있다.\n「탐욕스러운 모습을 좀 봐, 이 돈이면 내가 비즈니스 몇 건은 더 할 수 있을 것 같은데… 왜 누군가가 그를 죽이려고 하는지 알 것 같군」\n그의 마음속의 감회를 들은 듯 남자는 고개를 돌렸다.\n「오래 기다렸다고. 이 돈이면 내 조건을 듣고 결정하기에 충분하지?」"
   },
   "skill": {
-    "name": { "pt-BR": "Autoconfiança", "en": "Self-Confidence", "ja": "自信", "ko": "자신감" },
+    "name": { "pt-BR": "Autoconfiança", "en": "Self-Confidence", "zh-CN": "自信", "ja": "自信", "ko": "자신감" },
     "description": {
       "pt-BR": "Aumenta em #1[i]% a Taxa de Acerto de Efeito do usuário e em #2[i]% o Dano Contínuo.",
       "en": "Increases the wearer's Effect Hit Rate by #1[i]% and increases DoT by #2[i]%.",
+      "zh-CN": "使装备者的效果命中提高#1[i]%，同时造成的持续伤害提高#2[i]%。",
       "ja": "装備キャラの効果命中+#1[i]%、持続ダメージ+#2[i]%。",
       "ko": "장착한 캐릭터의 효과 명중이 #1[i]% 증가하고, 동시에 가하는 지속 피해가 #2[i]% 증가한다"
     },
